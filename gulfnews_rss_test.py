@@ -1,3 +1,5 @@
+# Collect latest Dubai-related news from multiple RSS feeds
+
 import feedparser
 
 FEEDS = [
