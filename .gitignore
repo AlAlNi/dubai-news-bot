@@ -10,9 +10,12 @@ venv/
 .env
 .env.local
 
-# Local storage (сохраняем структуру, но не содержимое)
+# Storage - игнорируем всё, кроме JSON файлов
 storage/
-!storage/.gitkeep
+!storage/dubai_news/
+storage/dubai_news/*
+!storage/dubai_news/*.json
+!storage/dubai_news/.gitkeep
 
 # IDE
 .vscode/
