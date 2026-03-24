@@ -1,0 +1,76 @@
+name: Dubai News Collector
+
+on:
+  # Расписание - каждые 6 часов
+  schedule:
+    - cron: '0 */6 * * *'
+  
+  # Ручной запуск из интерфейса GitHub
+  workflow_dispatch:
+    inputs:
+      force_collect:
+        description: 'Принудительный сбор всех источников'
+        type: boolean
+        default: false
+
+jobs:
+  collect-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        
+    - name: Cache pip packages
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('src/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          
+    - name: Install dependencies
+      run: |
+        cd src
+        pip install -r requirements.txt
+        
+    - name: Create storage directory
+      run: |
+        mkdir -p storage/dubai_news
+        
+    - name: Download existing data from artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: dubai-news-data
+        path: storage/dubai_news/
+      continue-on-error: true
+      
+    - name: Run news collector
+      env:
+        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+        GNEWS_API_KEY_BACKUP: ${{ secrets.GNEWS_API_KEY_BACKUP }}
+      run: |
+        cd src
+        python -c "from rss_collect import handler; import json; result = handler({}, None); print(json.dumps(json.loads(result['body']), indent=2))"
+        
+    - name: Upload data as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: dubai-news-data
+        path: storage/dubai_news/
+        retention-days: 30
+        
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add storage/dubai_news/
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update news data [skip ci]"
+        git push
+      continue-on-error: true

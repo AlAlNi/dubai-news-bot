@@ -1,0 +1,73 @@
+name: Publish News to Telegram
+
+on:
+  # Расписание - через 10 минут после сбора (00:10, 06:10, 12:10, 18:10 UTC)
+  schedule:
+    - cron: '10 */6 * * *'
+  
+  # Ручной запуск из интерфейса GitHub
+  workflow_dispatch:
+    inputs:
+      force_publish:
+        description: 'Принудительная публикация'
+        type: boolean
+        default: false
+
+jobs:
+  publish-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        cd src
+        pip install -r requirements.txt
+        
+    - name: Create storage directory
+      run: |
+        mkdir -p storage/dubai_news
+        
+    - name: Download latest data
+      uses: actions/download-artifact@v4
+      with:
+        name: dubai-news-data
+        path: storage/dubai_news/
+      continue-on-error: true
+      
+    - name: Check if data exists
+      run: |
+        if [ ! -f "storage/dubai_news/drafts.json" ]; then
+          echo '[]' > storage/dubai_news/drafts.json
+        fi
+        
+    - name: Run auto-notify
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+      run: |
+        cd src
+        python -c "from auto_notify import handler; import json; result = handler({}, None); print(json.dumps(json.loads(result['body']), indent=2))"
+        
+    - name: Upload updated data
+      uses: actions/upload-artifact@v4
+      with:
+        name: dubai-news-data
+        path: storage/dubai_news/
+        retention-days: 30
+        
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add storage/dubai_news/
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update published data [skip ci]"
+        git push
+      continue-on-error: true
