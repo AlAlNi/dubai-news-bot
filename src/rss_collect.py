@@ -44,38 +44,35 @@ HTTP_TIMEOUT = 25
 # ========= RSS ИСТОЧНИКИ =========
 
 DUBAI_SPECIFIC_RSS_FEEDS = [
-    {
-        "name": "Gulf News",
-        "url": "https://gulfnews.com/rss",
-        "lang": "en",
-        "priority": 1,
-    },
-    {
-        "name": "Khaleej Times",
-        "url": "https://www.khaleejtimes.com/rss",
-        "lang": "en",
-        "priority": 1,
-    },
-    {
-        "name": "The National News",
-        "url": "https://www.thenationalnews.com/rss",
-        "lang": "en",
-        "priority": 1,
-    },
-    {
-        "name": "Arabian Business",
-        "url": "https://www.arabianbusiness.com/rss",
-        "lang": "en",
-        "priority": 2,
-    },
-    {
-        "name": "What's On Dubai",
-        "url": "https://whatson.ae/feed",
-        "lang": "en",
-        "priority": 2,
-    },
+    # Основные новостные
+    {"name": "Gulf News", "url": "https://gulfnews.com/rss", "lang": "en", "priority": 1},
+    {"name": "Khaleej Times", "url": "https://www.khaleejtimes.com/rss", "lang": "en", "priority": 1},
+    {"name": "The National", "url": "https://www.thenationalnews.com/rss", "lang": "en", "priority": 1},
+    {"name": "Arabian Business", "url": "https://www.arabianbusiness.com/rss", "lang": "en", "priority": 1},
+    {"name": "Gulf Business", "url": "https://www.gulfbusiness.com/feed", "lang": "en", "priority": 2},
+    
+    # Lifestyle и события
+    {"name": "What's On Dubai", "url": "https://whatson.ae/feed", "lang": "en", "priority": 2},
+    {"name": "Timeout Dubai", "url": "https://www.timeoutdubai.com/feed", "lang": "en", "priority": 2},
+    {"name": "Emirates Woman", "url": "https://emirateswoman.com/feed", "lang": "en", "priority": 2},
+    
+    # Недвижимость и бизнес
+    {"name": "PropertyNews.ae", "url": "https://propertynews.ae/feed", "lang": "en", "priority": 2},
+    {"name": "Dubai Chronicle", "url": "https://dubaichronicle.com/feed/", "lang": "en", "priority": 2},
+    {"name": "The Arabian Post", "url": "https://thearabianpost.com/feed", "lang": "en", "priority": 2},
+    
+    # Авиация и туризм
+    {"name": "Flydubai", "url": "https://content.flydubai.com/feed", "lang": "en", "priority": 2},
+    {"name": "Emirates Media Centre", "url": "https://www.emirates.com/media-centre/feed", "lang": "en", "priority": 2},
+    {"name": "Dubai Travel Blog", "url": "https://www.dubaitravelblog.com/feed", "lang": "en", "priority": 3},
+    
+    # Дополнительные
+    {"name": "Dubai Flea Market", "url": "https://dubai-fleamarket.com/feed", "lang": "en", "priority": 3},
+    {"name": "BusinessLink UAE", "url": "https://businesslinkuae.com/feed", "lang": "en", "priority": 3},
+    {"name": "SetHub", "url": "https://sethub.ae/feed", "lang": "en", "priority": 3},
+    {"name": "DubayBlog", "url": "http://dubayblog.com/feed/", "lang": "en", "priority": 3},
+    {"name": "Elegant Services", "url": "https://elegantservices.ae/blog/feed/", "lang": "en", "priority": 3},
 ]
-
 GNEWS_SEARCH_QUERIES = [
     "Dubai",
     "UAE",
