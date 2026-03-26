@@ -76,5 +76,26 @@
     "status": "published",
     "content_hash": "7e3df3f997786d986b4654132abd1798",
     "reason": "approved"
+  },
+  {
+    "url": "https://techbullion.com/leading-lawyer-in-the-uae-dr-hassan-mohsen-elhais-on-understanding-your-legal-rights/",
+    "timestamp": "2026-03-26T10:42:51.465964+00:00",
+    "status": "rejected",
+    "content_hash": "848ebb31a00269c7764735e2937d9a95",
+    "reason": "**Оценка новости:** Данный материал представляет собой рекламный контент (презентацию услуг конкретного юриста) без общественно значимой новостной составляющей. Текст имеет признаки кликбейтного заголовка и не содержит актуальной новости, полезной для широкой аудитории.\n**Решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/26/mubadala-energy-awarded-new-andaman-exploration-block-in-indonesia/",
+    "timestamp": "2026-03-26T10:42:56.533928+00:00",
+    "status": "rejected",
+    "content_hash": "2b7536ddb1793b2c31be7e51ec71d868",
+    "reason": "Новость о получении Mubadala Energy нового блока для разведки в Индонезии имеет косвенную связь с ОАЭ через государственную компанию, но не содержит конкретной информации о влиянии на Дубай, регион или местных жителей, а также носит характер корпоративного пресс-релиза."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/india/expat-workers-asked-to-return-delhi-dubai-airfares-see-sharp-rise/articleshow/129812968.cms",
+    "timestamp": "2026-03-26T10:43:01.161366+00:00",
+    "status": "rejected",
+    "content_hash": "8aedc02a5b6ce84a8dcb95f311f4634e",
+    "reason": "Новость не подходит, так как нарушает правило №2 (основная тема связана с войной и её последствиями) и правило №4 (упоминание войны в контексте решений ОАЭ может быть воспринято как неуважение к политике страны). Также текст выглядит обрывочным и может быть кликбейтом."
   }
 ]
