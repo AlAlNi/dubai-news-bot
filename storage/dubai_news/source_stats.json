@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "url": "https://www.marketscreener.com/news/uae-s-adnoc-gas-adjusts-lng-output-in-response-to-shipping-disruption-ce7e5edcda80f225",
     "timestamp": "2026-03-23T17:45:45.710258+00:00",
     "status": "rejected",
@@ -1434,11 +1435,23 @@
   {
     "url": "https://whatson.ae/2026/03/abu-dhabi-staycations-just-got-better-with-free-museum-access/",
     "timestamp": "2026-03-26T05:46:00.118320+00:00",
+=======
+    "url": "https://www.middleeastmonitor.com/20260325-emirati-security-officer-urges-arab-gulf-to-further-strengthen-ties-with-israel/",
+    "timestamp": "2026-03-26T06:49:42.790631+00:00",
+    "status": "rejected",
+    "content_hash": "8ff0f34625f8a36c3a9eb093ca89ac9e",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (заявление главы полиции Дубая) и затрагивает тему региональных отношений, что может быть интересно русскоязычным жителям. Однако она нарушает правило №2, так как её основная тема — большая политика и международные отношения, что не соответствует редакционной политике канала."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/abu-dhabi-staycations-just-got-better-with-free-museum-access/",
+    "timestamp": "2026-03-26T06:49:55.922736+00:00",
+>>>>>>> be7e91772e13b42e584b61a5cf9ebbc1df7dfc1a
     "status": "published",
     "content_hash": "7d63d50a350dbbf2a16f4afc314269e1",
     "reason": "approved"
   },
   {
+<<<<<<< HEAD
     "url": "https://whatson.ae/2026/03/traffic-fines-to-avoid-while-driving-in-rain-dubai/",
     "timestamp": "2026-03-26T06:01:29.983027+00:00",
     "status": "rejected",
@@ -1472,5 +1485,10 @@
     "status": "rejected",
     "content_hash": "4272bd87da0230282784230d9409d123",
     "reason": "**Оценка новости:** Новость напрямую связана с регионом (угроза вторжения в ОАЭ и Бахрейн), однако её основная тема — военно-политический конфликт и угрозы, что прямо нарушает правило №2. Такая информация не соответствует позитивной и деловой повестке канала и может быть воспринята как неуважение к стабильности региона (правило №4)."
+=======
+    "url": "https://whatson.ae/2026/03/abu-dhabi-staycations-just-got-better-with-free-museum-access/",
+    "timestamp": "2026-03-26T06:50:29.230301+00:00",
+    "status": "published"
+>>>>>>> be7e91772e13b42e584b61a5cf9ebbc1df7dfc1a
   }
 ]
