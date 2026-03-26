@@ -152,5 +152,26 @@
     "url": "https://www.tribuneindia.com/news/world/abu-dhabi-indian-embassy-to-hold-open-house-for-advices-on-labour-issues-consular-services/",
     "timestamp": "2026-03-26T15:17:38.863815+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-news-cbse-introduces-new-grading-system-in-gulf-countries-what-uae-students-and-parents-must-know/articleshow/129815239.cms",
+    "timestamp": "2026-03-26T16:02:55.205322+00:00",
+    "status": "rejected",
+    "content_hash": "62d294bb80c79b896f5bd8962e21508d",
+    "reason": "**Оценка новости:** Новость не подходит, так как нарушает правило №2 (политика и конфликты) — начинается с обсуждения эскалации напряженности в регионе, что является недопустимой основной темой. Также вызывает сомнения в достоверности и естественности текста (правило №5), так как связь между геополитической ситуацией и изменениями в системе оценок выглядит натянутой и кликбейтной.\n**Решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/26/weather-chaos-in-uae-air-arabia-emirates-alert-travellers-of-flight-disruptions/",
+    "timestamp": "2026-03-26T16:03:02.846695+00:00",
+    "status": "rejected",
+    "content_hash": "5ba2c1f32b5bb3a53563c6d16da03e2d",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (п.1), касается практической информации для жителей и гостей (п.6), не нарушает другие правила. Однако она является развитием и прямым следствием предыдущей новости о непогоде и советах NCEMA, создавая риск дублирования темы и информационной усталости (п.7)."
+  },
+  {
+    "url": "https://www.benzinga.com/news/politics/26/03/51474695/us-iran-israel-war-updates-march-26-oil-hormuz",
+    "timestamp": "2026-03-26T16:03:08.488344+00:00",
+    "status": "rejected",
+    "content_hash": "b9360fd84c25318bcb7a702b2ac49852",
+    "reason": "Новость не подходит, так как нарушает несколько ключевых правил: основная тема — военный конфликт (политика и конфликты), а упоминание жертв в Абу-Даби, хотя и создает связь с регионом, подается в контексте, который может быть воспринят как неуважение к стабильности и безопасности ОАЭ."
   }
 ]
