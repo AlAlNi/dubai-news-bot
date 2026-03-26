@@ -1,9 +1,17 @@
 name: Dubai News Collector
 
 on:
+  # Расписание - каждый час
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 * * * *'
+  
+  # Ручной запуск из интерфейса GitHub
   workflow_dispatch:
+    inputs:
+      force_collect:
+        description: 'Принудительный сбор всех источников'
+        type: boolean
+        default: false
 
 permissions:
   contents: write

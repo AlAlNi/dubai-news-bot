@@ -1,9 +1,17 @@
 name: Publish News to Telegram
 
 on:
+  # Расписание - каждый час, через 5 минут после сбора
   schedule:
-    - cron: '10 */6 * * *'
+    - cron: '5 * * * *'
+  
+  # Ручной запуск из интерфейса GitHub
   workflow_dispatch:
+    inputs:
+      force_publish:
+        description: 'Принудительная публикация'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
