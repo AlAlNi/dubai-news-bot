@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
+from http_client import request_with_retry
 from next_draft import (
     get_next_post_payload_with_image,
     add_to_published_history,
@@ -151,7 +152,7 @@ def send_telegram_message(text: str, image_url: str = None, retry_without_image:
     print(f"   Длина текста: {len(text)} символов")
 
     try:
-        resp = requests.post(api_url, json=payload, timeout=30)
+        resp = request_with_retry("POST", api_url, json=payload, timeout=30)
         print(f"📨 Telegram ответ: {resp.status_code}")
         
         if resp.status_code == 200:

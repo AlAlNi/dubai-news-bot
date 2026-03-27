@@ -8,7 +8,7 @@ import re
 from urllib.parse import urlparse
 
 import feedparser
-import requests
+from http_client import request_with_retry
 
 # ========= НАСТРОЙКИ =========
 
@@ -490,7 +490,7 @@ def is_rss_entry_too_old(entry, max_days: int = MAX_NEWS_AGE_DAYS) -> bool:
 def fetch_full_article_content(url: str) -> Optional[str]:
     try:
         headers = {"User-Agent": USER_AGENT}
-        resp = requests.get(url, headers=headers, timeout=HTTP_TIMEOUT)
+        resp = request_with_retry("GET", url, headers=headers, timeout=HTTP_TIMEOUT)
         if resp.status_code == 200:
             text = clean_html(resp.text)
             return text[:3000]
@@ -520,7 +520,7 @@ def fetch_news_from_gnews(api_key: str) -> Optional[List[Dict[str, Any]]]:
         print(f"🔍 GNews.io поиск: '{query}' в ОАЭ")
         print(f"🔑 Ключ: {api_key[:8]}...")
         
-        resp = requests.get(
+        resp = request_with_retry("GET", 
             "https://gnews.io/api/v4/search",
             params=params,
             timeout=HTTP_TIMEOUT,
@@ -729,7 +729,7 @@ def try_rss_feeds(
         print(f"\n📡 Пробуем: {feed_conf['name']}")
         
         try:
-            resp = requests.get(
+            resp = request_with_retry("GET", 
                 feed_conf["url"],
                 headers={"User-Agent": USER_AGENT},
                 timeout=HTTP_TIMEOUT,
@@ -835,7 +835,7 @@ def is_news_allowed_by_deepseek(title: str, description: str, content_hash: str,
 - ПУБЛИКОВАТЬ
 - ОТКЛОНИТЬ
 """
-        response = requests.post(
+        response = request_with_retry("POST", 
             "https://api.deepseek.com/v1/chat/completions",
             headers={"Authorization": f"Bearer {DEEPSEEK_API_KEY}"},
             json={
@@ -907,7 +907,7 @@ def process_with_deepseek_simple(title: str, description: str) -> str:
 9. Объем: 300-450 символов
 10. Добавь 2-3 хэштега
 """
-        response = requests.post(
+        response = request_with_retry("POST", 
             "https://api.deepseek.com/v1/chat/completions",
             headers={"Authorization": f"Bearer {DEEPSEEK_API_KEY}"},
             json={
@@ -939,7 +939,7 @@ def process_with_deepseek_simple(title: str, description: str) -> str:
 def fetch_image_from_html(url: str) -> Optional[str]:
     try:
         headers = {"User-Agent": USER_AGENT}
-        resp = requests.get(url, headers=headers, timeout=HTTP_TIMEOUT)
+        resp = request_with_retry("GET", url, headers=headers, timeout=HTTP_TIMEOUT)
         if resp.status_code != 200:
             return None
 
