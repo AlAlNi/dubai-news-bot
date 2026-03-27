@@ -3,7 +3,6 @@ import json
 from typing import List, Dict, Any, Optional, Set
 from datetime import datetime, timezone, timedelta
 import hashlib
-import random
 import re
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
@@ -87,6 +86,7 @@ GNEWS_SEARCH_QUERIES = [
     "Dubai real estate",
     "United Arab Emirates",
 ]
+GNEWS_MAX_SEARCH_CALLS_PER_RUN = max(1, int(os.getenv("GNEWS_MAX_SEARCH_CALLS_PER_RUN", "1")))
 
 TIME_SLOTS = [
     {"name": "Первая половина суток", "range": "00:00-11:59 UTC", "hour_range": (0, 11)},
@@ -638,12 +638,31 @@ def fetch_full_article_content(url: str) -> Optional[str]:
         print(f"⚠️ Не удалось получить полный текст статьи: {e}")
     return None
 
-def fetch_news_from_gnews(api_key: str) -> Optional[List[Dict[str, Any]]]:
+def build_gnews_query_plan() -> List[str]:
+    """
+    Возвращает детерминированный план запросов к GNews:
+    - 1-й запрос всегда максимально релевантный ("Dubai");
+    - последующие — стабильная ротация по дню для разнообразия.
+    """
+    if not GNEWS_SEARCH_QUERIES:
+        return []
+
+    now = datetime.now(timezone.utc)
+    day_seed = now.toordinal()
+
+    primary_query = GNEWS_SEARCH_QUERIES[0]
+    secondary_queries = GNEWS_SEARCH_QUERIES[1:]
+    if not secondary_queries:
+        return [primary_query]
+
+    rotation_offset = day_seed % len(secondary_queries)
+    rotated_secondary = secondary_queries[rotation_offset:] + secondary_queries[:rotation_offset]
+    return [primary_query] + rotated_secondary
+
+def fetch_news_from_gnews(api_key: str, query: str) -> Optional[List[Dict[str, Any]]]:
     if not api_key:
         return None
-    
-    query = random.choice(GNEWS_SEARCH_QUERIES)
-    
+
     params = {
         "q": query,
         "lang": "en",
@@ -772,51 +791,58 @@ def try_gnews_search_with_rotation(
     seen_urls: set,
     seen_hashes: set
 ) -> Optional[Dict[str, Any]]:
+    del existing_drafts
+
     api_key = get_time_slot_gnews_key()
     if not api_key:
         print("⚠️ Нет доступных ключей GNews.io")
         return None
-    
-    articles = fetch_news_from_gnews(api_key)
-    
-    if not articles:
-        return None
-    
-    articles = sorted(
-        articles, 
-        key=lambda x: safe_strip(x.get("publishedAt", "")), 
-        reverse=True
-    )
-    
-    for article in articles[:15]:
-        link = safe_strip(article.get("url", ""))
-        if not link:
+
+    query_plan = build_gnews_query_plan()
+    max_calls = min(GNEWS_MAX_SEARCH_CALLS_PER_RUN, len(query_plan))
+
+    print(f"📉 GNews cost-control: максимум {max_calls} API вызов(ов) за запуск")
+
+    for query in query_plan[:max_calls]:
+        articles = fetch_news_from_gnews(api_key, query)
+        if not articles:
             continue
-        
-        published_at = safe_strip(article.get("publishedAt", ""))
-        if is_too_old(published_at):
-            continue
-        
-        title = safe_strip(article.get("title", ""))
-        if not is_about_dubai(title):
-            continue
-        
-        processed = process_gnews_article(article)
-        if not processed:
-            continue
-        
-        # Проверяем на дубликаты
-        if is_news_already_processed(
-            link,
-            processed.get("strict_hash", processed.get("content_hash", "")),
-            processed.get("fuzzy_hash", ""),
-            seen_urls,
-            seen_hashes,
-        ):
-            continue
-        
-        print(f"🎉 Найдена новая новость через GNews.io")
-        return processed
+
+        articles = sorted(
+            articles,
+            key=lambda x: safe_strip(x.get("publishedAt", "")),
+            reverse=True
+        )
+
+        for article in articles[:15]:
+            link = safe_strip(article.get("url", ""))
+            if not link:
+                continue
+
+            published_at = safe_strip(article.get("publishedAt", ""))
+            if is_too_old(published_at):
+                continue
+
+            title = safe_strip(article.get("title", ""))
+            if not is_about_dubai(title):
+                continue
+
+            processed = process_gnews_article(article)
+            if not processed:
+                continue
+
+            # Проверяем на дубликаты
+            if is_news_already_processed(
+                link,
+                processed.get("strict_hash", processed.get("content_hash", "")),
+                processed.get("fuzzy_hash", ""),
+                seen_urls,
+                seen_hashes,
+            ):
+                continue
+
+            print(f"🎉 Найдена новая новость через GNews.io")
+            return processed
     
     return None
 
