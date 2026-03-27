@@ -639,5 +639,32 @@
     "url": "https://whatson.ae/2026/03/dubai-airports-marks-arrivals-with-a-unique-dubai-world-cup-2026-stamp",
     "timestamp": "2026-03-27T17:58:19.353353+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.moneycontrol.com/news/business/personal-finance/is-tax-applicable-for-nris-in-dubai-remitting-funds-to-their-indian-bank-savings-account-13872247.html",
+    "timestamp": "2026-03-27T18:42:29.692239+00:00",
+    "status": "rejected",
+    "content_hash": "a3c0cab59695e2532a538e39f0e7427e",
+    "strict_hash": "a3c0cab59695e2532a538e39f0e7427e",
+    "fuzzy_hash": "d11180e94e494d16e9a7e7d080975aa2",
+    "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (финансы резидентов) и может быть полезна русскоговорящим НРИ, но она носит узкоспециализированный справочный, а не новостной характер, напоминая скорее фрагмент FAQ или консультации, что нарушает правило о рекламном/не новостном формате."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/restaurant-review-bord-eau-by-nicolas-isnard",
+    "timestamp": "2026-03-27T18:42:36.581105+00:00",
+    "status": "rejected",
+    "content_hash": "1048467b71b99412f12d0063b052c9fd",
+    "strict_hash": "1048467b71b99412f12d0063b052c9fd",
+    "fuzzy_hash": "e2c1afdac1c9366284b00cbd286dab97",
+    "reason": "**Оценка новости:**\nЭто ресторанный обзор, который не имеет явной связи с Дубаем (упоминается Абу-Даби), а также носит рекламный характер без общественно значимой новости. Текст выглядит как пресс-релиз или промоматериал.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.irishtimes.com/sport/racing/2026/03/27/staging-30m-dubai-world-cup-programme-in-war-zone-a-defiant-feat",
+    "timestamp": "2026-03-27T18:42:36.726646+00:00",
+    "status": "rejected",
+    "content_hash": "840942f4c31ee8999cdd98c1ac87295e",
+    "strict_hash": "840942f4c31ee8999cdd98c1ac87295e",
+    "fuzzy_hash": "d113ce3972bc0cc357329f089468b86d",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
