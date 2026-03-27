@@ -1,6 +1,8 @@
 import os
 import json
+import hashlib
 from datetime import datetime, timezone
+from pathlib import Path
 
 import requests
 from next_draft import (
@@ -20,7 +22,109 @@ if os.getenv("GITHUB_ACTIONS") == "true":
 else:
     MOUNTED_BUCKET_PATH = "./storage/dubai_news"
 
+PUBLISH_LOCK_FILENAME = "publish_job.lock"
+PUBLISH_DEDUPE_FILENAME = "publish_dedupe.json"
+LOCK_STALE_SECONDS = 15 * 60
+DEDUPE_RETENTION_DAYS = 30
+
 # ================== ФУНКЦИИ ОТПРАВКИ ==================
+
+def _get_storage_path(filename: str) -> Path:
+    return Path(MOUNTED_BUCKET_PATH) / filename
+
+def _acquire_publish_lock() -> tuple[bool, str]:
+    """
+    Создаёт lock-файл в атомарном режиме (O_EXCL), чтобы исключить
+    параллельную публикацию из нескольких воркеров.
+    """
+    lock_path = _get_storage_path(PUBLISH_LOCK_FILENAME)
+    lock_payload = {
+        "pid": os.getpid(),
+        "created_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+    os.makedirs(MOUNTED_BUCKET_PATH, exist_ok=True)
+
+    try:
+        fd = os.open(lock_path, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(lock_payload, f, ensure_ascii=False, indent=2)
+        return True, "ok"
+    except FileExistsError:
+        try:
+            mtime = datetime.fromtimestamp(lock_path.stat().st_mtime, tz=timezone.utc)
+            age_seconds = (datetime.now(timezone.utc) - mtime).total_seconds()
+            if age_seconds > LOCK_STALE_SECONDS:
+                print(f"⚠️ Найден протухший lock ({int(age_seconds)} сек), удаляем")
+                lock_path.unlink(missing_ok=True)
+                return _acquire_publish_lock()
+        except Exception as e:
+            print(f"⚠️ Не удалось проверить актуальность lock-файла: {e}")
+        return False, "locked"
+    except Exception as e:
+        print(f"❌ Ошибка создания lock-файла: {e}")
+        return False, "lock_error"
+
+def _release_publish_lock() -> None:
+    lock_path = _get_storage_path(PUBLISH_LOCK_FILENAME)
+    try:
+        if lock_path.exists():
+            lock_path.unlink()
+            print("🔓 Lock-файл публикации удалён")
+    except Exception as e:
+        print(f"⚠️ Не удалось удалить lock-файл: {e}")
+
+def _build_dedupe_key(draft: dict) -> str:
+    source_urls = draft.get("source_urls", []) or []
+    main_url = (source_urls[0] or "").strip() if source_urls else ""
+    signature = f"{draft.get('title', '').strip()}|{draft.get('summary_ru', '').strip()}|{main_url}"
+    return hashlib.sha256(signature.encode("utf-8")).hexdigest()
+
+def _load_dedupe_registry() -> dict:
+    path = _get_storage_path(PUBLISH_DEDUPE_FILENAME)
+    if not path.exists():
+        return {}
+
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception as e:
+        print(f"⚠️ Ошибка чтения dedupe-реестра: {e}")
+        return {}
+
+def _save_dedupe_registry(registry: dict) -> None:
+    cutoff = datetime.now(timezone.utc).timestamp() - DEDUPE_RETENTION_DAYS * 86400
+    cleaned_registry = {}
+    for key, value in registry.items():
+        updated_at = value.get("updated_at")
+        try:
+            ts = datetime.fromisoformat(updated_at.replace("Z", "+00:00")).timestamp() if updated_at else cutoff
+        except Exception:
+            ts = cutoff
+        if ts >= cutoff:
+            cleaned_registry[key] = value
+
+    path = _get_storage_path(PUBLISH_DEDUPE_FILENAME)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(cleaned_registry, f, ensure_ascii=False, indent=2)
+
+def _is_duplicate_publish_attempt(dedupe_key: str) -> bool:
+    registry = _load_dedupe_registry()
+    entry = registry.get(dedupe_key, {})
+    return entry.get("status") == "sent"
+
+def _mark_dedupe_status(dedupe_key: str, status: str, message_id: int = None) -> None:
+    registry = _load_dedupe_registry()
+    payload = {
+        "status": status,
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+    }
+    if message_id is not None:
+        payload["message_id"] = message_id
+    registry[dedupe_key] = payload
+    _save_dedupe_registry(registry)
 
 def send_telegram_message(text: str, image_url: str = None, retry_without_image: bool = True):
     """
@@ -127,65 +231,106 @@ def handler(event, context):
             "body": json.dumps({"error": "TELEGRAM_CHANNEL_ID not set"}),
         }
 
-    # Берём следующий пост из next_draft.py (работает с смонтированным бакетом)
-    try:
-        text, image_url, selected_draft = get_next_post_payload_with_image()
-    except Exception as e:
-        print(f"❌ Ошибка при вызове get_next_post_payload_with_image: {e}")
-        import traceback
-        traceback.print_exc()
-        return {
-            "statusCode": 500,
-            "body": json.dumps({"error": f"next_draft error: {e}"}),
-        }
-
-    if not text:
-        print("ℹ️ Нет доступных постов для публикации (drafts.json пустой или все исчерпаны)")
+    lock_acquired, lock_reason = _acquire_publish_lock()
+    if not lock_acquired:
+        print("⏭️ Публикация пропущена: уже выполняется другой инстанс")
         return {
             "statusCode": 200,
-            "body": json.dumps({
-                "published": False, 
-                "reason": "no_posts",
-                "time_utc": current_time.isoformat(),
-            }),
-        }
-
-    # Отправляем в Telegram с автоматической обработкой ошибок фото
-    result = send_telegram_message(text, image_url)
-    
-    if result["success"]:
-        if selected_draft:
-            history = add_to_published_history(selected_draft)
-            save_published_history(history)
-
-        return {
-            "statusCode": 200,
-            "body": json.dumps({
-                "published": True,
-                "time_utc": current_time.isoformat(),
-                "with_image": result.get("with_image", False),
-                "message_id": result.get("message_id"),
-            }),
-        }
-    else:
-        # Определяем HTTP статус код для ответа
-        status_code = 500
-        if result.get("status_code"):
-            status_code = result["status_code"]
-        elif result.get("error") == "timeout":
-            status_code = 504
-        elif "connection" in str(result.get("error", "")).lower():
-            status_code = 502
-            
-        return {
-            "statusCode": status_code,
             "body": json.dumps({
                 "published": False,
-                "error": result.get("error"),
-                "with_image_attempt": result.get("with_image", False),
-                "details": result.get("response", result.get("error")),
+                "reason": lock_reason,
+                "time_utc": current_time.isoformat(),
             }),
         }
+
+    try:
+        # Берём следующий пост из next_draft.py (работает с смонтированным бакетом)
+        try:
+            text, image_url, selected_draft = get_next_post_payload_with_image()
+        except Exception as e:
+            print(f"❌ Ошибка при вызове get_next_post_payload_with_image: {e}")
+            import traceback
+            traceback.print_exc()
+            return {
+                "statusCode": 500,
+                "body": json.dumps({"error": f"next_draft error: {e}"}),
+            }
+
+        if not text:
+            print("ℹ️ Нет доступных постов для публикации (drafts.json пустой или все исчерпаны)")
+            return {
+                "statusCode": 200,
+                "body": json.dumps({
+                    "published": False,
+                    "reason": "no_posts",
+                    "time_utc": current_time.isoformat(),
+                }),
+            }
+
+        dedupe_key = _build_dedupe_key(selected_draft or {})
+        if dedupe_key and _is_duplicate_publish_attempt(dedupe_key):
+            print(f"⏭️ Публикация пропущена по dedupe_key: {dedupe_key}")
+            return {
+                "statusCode": 200,
+                "body": json.dumps({
+                    "published": False,
+                    "reason": "duplicate_dedupe_key",
+                    "dedupe_key": dedupe_key,
+                    "time_utc": current_time.isoformat(),
+                }),
+            }
+
+        if dedupe_key:
+            _mark_dedupe_status(dedupe_key, "in_progress")
+
+        # Отправляем в Telegram с автоматической обработкой ошибок фото
+        result = send_telegram_message(text, image_url)
+        
+        if result["success"]:
+            if selected_draft:
+                history = add_to_published_history(selected_draft)
+                save_published_history(history)
+            if dedupe_key:
+                _mark_dedupe_status(
+                    dedupe_key,
+                    "sent",
+                    message_id=result.get("message_id")
+                )
+
+            return {
+                "statusCode": 200,
+                "body": json.dumps({
+                    "published": True,
+                    "time_utc": current_time.isoformat(),
+                    "with_image": result.get("with_image", False),
+                    "message_id": result.get("message_id"),
+                    "dedupe_key": dedupe_key,
+                }),
+            }
+        else:
+            if dedupe_key:
+                _mark_dedupe_status(dedupe_key, "failed")
+            # Определяем HTTP статус код для ответа
+            status_code = 500
+            if result.get("status_code"):
+                status_code = result["status_code"]
+            elif result.get("error") == "timeout":
+                status_code = 504
+            elif "connection" in str(result.get("error", "")).lower():
+                status_code = 502
+                
+            return {
+                "statusCode": status_code,
+                "body": json.dumps({
+                    "published": False,
+                    "error": result.get("error"),
+                    "with_image_attempt": result.get("with_image", False),
+                    "details": result.get("response", result.get("error")),
+                    "dedupe_key": dedupe_key,
+                }),
+            }
+    finally:
+        _release_publish_lock()
 
 # ================== ЛОКАЛЬНЫЙ ЗАПУСК ==================
 
