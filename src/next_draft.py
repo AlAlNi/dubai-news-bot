@@ -5,6 +5,7 @@ from typing import Tuple, Optional, List, Any, Set
 from datetime import datetime, timezone, timedelta
 import hashlib
 import requests
+from http_client import request_with_retry
 
 # ================== НАСТРОЙКИ ==================
 
@@ -57,7 +58,13 @@ def is_valid_image_url(url: str) -> bool:
         headers = {
             'User-Agent': 'Mozilla/5.0 (compatible; TelegramBot/1.0)'
         }
-        response = requests.head(url, allow_redirects=True, timeout=5, headers=headers)
+        response = request_with_retry(
+            "HEAD",
+            url,
+            allow_redirects=True,
+            timeout=5,
+            headers=headers,
+        )
         content_type = response.headers.get('content-type', '').lower()
         
         # Проверяем, что это изображение
