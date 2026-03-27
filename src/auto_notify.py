@@ -3,7 +3,11 @@ import json
 from datetime import datetime, timezone
 
 import requests
-from next_draft import get_next_post_with_image
+from next_draft import (
+    get_next_post_payload_with_image,
+    add_to_published_history,
+    save_published_history,
+)
 
 # ================== НАСТРОЙКИ ==================
 
@@ -125,9 +129,9 @@ def handler(event, context):
 
     # Берём следующий пост из next_draft.py (работает с смонтированным бакетом)
     try:
-        text, image_url = get_next_post_with_image()
+        text, image_url, selected_draft = get_next_post_payload_with_image()
     except Exception as e:
-        print(f"❌ Ошибка при вызове get_next_post_with_image: {e}")
+        print(f"❌ Ошибка при вызове get_next_post_payload_with_image: {e}")
         import traceback
         traceback.print_exc()
         return {
@@ -150,6 +154,10 @@ def handler(event, context):
     result = send_telegram_message(text, image_url)
     
     if result["success"]:
+        if selected_draft:
+            history = add_to_published_history(selected_draft)
+            save_published_history(history)
+
         return {
             "statusCode": 200,
             "body": json.dumps({

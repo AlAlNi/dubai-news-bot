@@ -415,17 +415,17 @@ def format_draft_for_telegram(draft: dict) -> str:
 
 # ================== ОСНОВНАЯ ЛОГИКА ==================
 
-def get_next_post_with_image() -> Tuple[Optional[str], Optional[str]]:
+def get_next_post_payload_with_image() -> Tuple[Optional[str], Optional[str], Optional[dict]]:
     print(f"\n📁 Работаем со смонтированным бакетом: {MOUNTED_BUCKET_PATH}")
     
     if not os.path.exists(MOUNTED_BUCKET_PATH):
         print(f"❌ Смонтированный бакет не найден по пути: {MOUNTED_BUCKET_PATH}")
-        return None, None
+        return None, None, None
     
     drafts = load_drafts()
     if not drafts:
         print("Черновики не найдены")
-        return None, None
+        return None, None, None
 
     print(f"Загружено {len(drafts)} черновиков")
 
@@ -458,7 +458,7 @@ def get_next_post_with_image() -> Tuple[Optional[str], Optional[str]]:
             save_drafts(updated_drafts)
             print(f"✅ Удален дубликат из черновиков")
             # Начинаем поиск заново с обновленным списком
-            return get_next_post_with_image()
+            return get_next_post_payload_with_image()
 
         # Нашли подходящий черновик
         draft = candidate
@@ -471,7 +471,7 @@ def get_next_post_with_image() -> Tuple[Optional[str], Optional[str]]:
             f"{SOURCE_WINDOW_HOURS} часов"
         )
         save_source_stats(source_stats)
-        return None, None
+        return None, None, None
 
     # Удаляем выбранный черновик из списка
     if draft_index >= 0:
@@ -483,13 +483,9 @@ def get_next_post_with_image() -> Tuple[Optional[str], Optional[str]]:
     if main_url:
         source_stats = add_source_stat(main_url, source_stats)
     
-    # Добавляем в историю публикаций (сохраняем ВСЮ информацию)
-    published_history = add_to_published_history(draft)
-    
     # Сохраняем все изменения
     save_drafts(updated_drafts)
     save_source_stats(source_stats)
-    save_published_history(published_history)
 
     print(f"✅ Выбран пост: {draft.get('title', 'Без названия')}")
 
@@ -506,6 +502,11 @@ def get_next_post_with_image() -> Tuple[Optional[str], Optional[str]]:
     else:
         print("📝 В драфте нет image_url, отправляем пост без картинки")
 
+    return text, image_url, draft
+
+def get_next_post_with_image() -> Tuple[Optional[str], Optional[str]]:
+    """Обратная совместимость: возвращает только текст и изображение."""
+    text, image_url, _ = get_next_post_payload_with_image()
     return text, image_url
 
 def main():
@@ -514,7 +515,7 @@ def main():
     print("=" * 80)
     print(f"📁 Используется смонтированный бакет: {MOUNTED_BUCKET_PATH}")
 
-    text, image_url = get_next_post_with_image()
+    text, image_url, _ = get_next_post_payload_with_image()
     if not text:
         print("Черновики не найдены или не удалось сформировать пост.")
         return

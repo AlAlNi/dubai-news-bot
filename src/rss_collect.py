@@ -1122,9 +1122,6 @@ def handler(event, context):
                 break
         
         if approved_draft:
-            # Добавляем в историю публикаций
-            add_to_published_history(approved_draft)
-            
             # Добавляем в source_stats как опубликованную (status="published")
             add_url_to_source_stats(
                 approved_draft["source_urls"][0], 
