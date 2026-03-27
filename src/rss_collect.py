@@ -46,6 +46,23 @@ def env_int(name: str, default: int, min_value: Optional[int] = None) -> int:
         return min_value
     return value
 
+def env_float(name: str, default: float, min_value: Optional[float] = None, max_value: Optional[float] = None) -> float:
+    raw = os.getenv(name)
+    if raw is None or raw.strip() == "":
+        return default
+    try:
+        value = float(raw)
+    except ValueError:
+        print(f"⚠️ Некорректное значение {name}={raw!r}, используем default={default}")
+        return default
+    if min_value is not None and value < min_value:
+        print(f"⚠️ {name}={value} меньше минимума {min_value}, используем {min_value}")
+        return min_value
+    if max_value is not None and value > max_value:
+        print(f"⚠️ {name}={value} больше максимума {max_value}, используем {max_value}")
+        return max_value
+    return value
+
 MAX_AGE_HOURS = env_int("MAX_AGE_HOURS", 24, min_value=1)
 MAX_SOURCE_STATS_DAYS = env_int("MAX_SOURCE_STATS_DAYS", 7, min_value=1)
 MAX_NEWS_AGE_DAYS = env_int("MAX_NEWS_AGE_DAYS", 2, min_value=1)
@@ -55,10 +72,10 @@ CONTENT_UNIQUE_DAYS = env_int("CONTENT_UNIQUE_DAYS", 30, min_value=1)  # Ско�
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 HTTP_TIMEOUT = 25
 ENABLE_CHEAP_PREFILTER = os.getenv("ENABLE_CHEAP_PREFILTER", "1").lower() in ("1", "true", "yes", "on")
-MAX_DEEPSEEK_CALLS_PER_RUN = max(0, int(os.getenv("MAX_DEEPSEEK_CALLS_PER_RUN", "2")))
-PREFILTER_MIN_TEXT_LEN = max(40, int(os.getenv("PREFILTER_MIN_TEXT_LEN", "120")))
-PREFILTER_MAX_NOISE_RATIO = float(os.getenv("PREFILTER_MAX_NOISE_RATIO", "0.35"))
-PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN = max(1, int(os.getenv("PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN", "2")))
+MAX_DEEPSEEK_CALLS_PER_RUN = env_int("MAX_DEEPSEEK_CALLS_PER_RUN", 2, min_value=0)
+PREFILTER_MIN_TEXT_LEN = env_int("PREFILTER_MIN_TEXT_LEN", 120, min_value=40)
+PREFILTER_MAX_NOISE_RATIO = env_float("PREFILTER_MAX_NOISE_RATIO", 0.35, min_value=0.0, max_value=1.0)
+PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN = env_int("PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN", 2, min_value=1)
 
 # ========= RSS ИСТОЧНИКИ =========
 
@@ -101,7 +118,7 @@ GNEWS_SEARCH_QUERIES = [
     "Dubai real estate",
     "United Arab Emirates",
 ]
-GNEWS_MAX_SEARCH_CALLS_PER_RUN = max(1, int(os.getenv("GNEWS_MAX_SEARCH_CALLS_PER_RUN", "1")))
+GNEWS_MAX_SEARCH_CALLS_PER_RUN = env_int("GNEWS_MAX_SEARCH_CALLS_PER_RUN", 1, min_value=1)
 
 TIME_SLOTS = [
     {"name": "Первая половина суток", "range": "00:00-11:59 UTC", "hour_range": (0, 11)},
@@ -1234,6 +1251,7 @@ def process_news_item(
     seen_hashes: set = None,
     deepseek_context: Dict[str, int] = None,
     domain_window: Dict[str, int] = None,
+    run_metrics: Dict[str, int] = None,
 ) -> Optional[Dict[str, Any]]:
     if not news_item:
         return None
@@ -1278,6 +1296,8 @@ def process_news_item(
         
         if is_technical_error:
             mark_news_as_technical_error(news_item, reason)
+            if run_metrics is not None:
+                run_metrics["technical_errors"] = run_metrics.get("technical_errors", 0) + 1
         else:
             mark_news_as_rejected(news_item, reason)
         
@@ -1319,7 +1339,7 @@ def handler(event, context):
     fetched_count = 0
     gnews_fetches = 0
     rss_fetches = 0
-    technical_errors = 0
+    run_metrics = {"technical_errors": 0}
     rejected_in_session = 0
     deepseek_context = {"calls_made": 0, "max_calls": MAX_DEEPSEEK_CALLS_PER_RUN}
 
@@ -1383,6 +1403,7 @@ def handler(event, context):
                 seen_hashes,
                 deepseek_context=deepseek_context,
                 domain_window=domain_window,
+                run_metrics=run_metrics,
             )
             
             if not processed:
@@ -1431,7 +1452,7 @@ def handler(event, context):
                 "method": approved_draft.get("method", ""),
                 "attempts_made": attempt,
                 "rejected_in_session": rejected_in_session,
-                "technical_errors": technical_errors,
+                "technical_errors": run_metrics["technical_errors"],
                 "has_image": "image_url" in approved_draft,
                 "deepseek_calls_made": deepseek_context["calls_made"],
                 "deepseek_calls_max": deepseek_context["max_calls"],
@@ -1446,7 +1467,7 @@ def handler(event, context):
                 "message": f"Не найдено новостей после {max_attempts} попыток",
                 "attempts_made": max_attempts,
                 "rejected_in_session": rejected_in_session,
-                "technical_errors": technical_errors,
+                "technical_errors": run_metrics["technical_errors"],
                 "deepseek_calls_made": deepseek_context["calls_made"],
                 "deepseek_calls_max": deepseek_context["max_calls"],
                 "cheap_prefilter_enabled": ENABLE_CHEAP_PREFILTER,
@@ -1473,7 +1494,7 @@ def handler(event, context):
                 "gnews_fetches": gnews_fetches,
                 "rss_fetches": rss_fetches,
                 "telegram_failures": 0,
-                "technical_errors": technical_errors,
+                "technical_errors": run_metrics["technical_errors"],
             },
         }
         append_run_report(run_report)
@@ -1507,7 +1528,7 @@ def handler(event, context):
                 "gnews_fetches": gnews_fetches,
                 "rss_fetches": rss_fetches,
                 "telegram_failures": 0,
-                "technical_errors": technical_errors,
+                "technical_errors": run_metrics["technical_errors"],
             },
         }
         append_run_report(run_report)
