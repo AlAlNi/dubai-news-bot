@@ -437,5 +437,23 @@
     "url": "https://backend.gulfbusiness.com/blog/2026/03/27/zomato-rolls-out-free-gold-membership-for-uae-residents-how-to-claim",
     "timestamp": "2026-03-27T13:30:54.188693+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.lokmattimes.com/international/iran-issues-ultimatum-to-bahrain-uae-hotels-hosting-us-troops-report",
+    "timestamp": "2026-03-27T13:42:42.035693+00:00",
+    "status": "rejected",
+    "content_hash": "d383d2ee085f41230ad234a7db7f6741",
+    "strict_hash": "d383d2ee085f41230ad234a7db7f6741",
+    "fuzzy_hash": "b5563705f06149ec938c9335c0257012",
+    "reason": "Новость напрямую связана с ОАЭ, но её основная тема — военно-политический конфликт и угрозы, что нарушает правило №2, а также может быть воспринято как неуважение к региону (правило №4). Текст имеет признаки кликбейтного заголовка (\"ultimatum\")."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/27/heavy-rains-hit-uae-what-you-need-to-know-before-heading-out",
+    "timestamp": "2026-03-27T13:43:58.479624+00:00",
+    "status": "published",
+    "content_hash": "b118a7340ee45c84c17e687a0b5f71b8",
+    "strict_hash": "b118a7340ee45c84c17e687a0b5f71b8",
+    "fuzzy_hash": "094b58ca3c745b4b3f173ada7ddd7c83",
+    "reason": "approved"
   }
 ]
