@@ -474,5 +474,32 @@
     "url": "https://backend.gulfbusiness.com/blog/2026/03/27/uae-weather-alert-ncm-issues-driving-advisory-during-rain",
     "timestamp": "2026-03-27T13:47:59.084616+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.news18.com/world/dubai-abu-dhabi-uae-news-live-west-asia-war-updates-today-kuwait-saudi-airport-flight-status-iran-missile-drone-attacks-latest-updates-liveblog-ws-kl-9999391.html",
+    "timestamp": "2026-03-27T13:58:41.507194+00:00",
+    "status": "rejected",
+    "content_hash": "d2daaed6c4246e92847cfb1bbae105ae",
+    "strict_hash": "d2daaed6c4246e92847cfb1bbae105ae",
+    "fuzzy_hash": "0bd4a706a0bc7f63ba660c1d5c507c65",
+    "reason": "Новость не подходит, так как нарушает правило №2 (основная тема — военный конфликт и угрозы безопасности в регионе) и правило №4 (основное содержание касается военных действий, что не соответствует позитивному и стабильному имиджу ОАЭ)."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/run-reflect-create-dubais-first-art-run-lands-this-april-2026",
+    "timestamp": "2026-03-27T13:58:49.890668+00:00",
+    "status": "rejected",
+    "content_hash": "66744d6659885ac53c28d463458bc60f",
+    "strict_hash": "66744d6659885ac53c28d463458bc60f",
+    "fuzzy_hash": "2bf6a1f282ab984c6d72fb3e4c7788c6",
+    "reason": "Новость о первом в Дубае забеге, совмещающем искусство и спорт, напрямую связана с регионом (Expo City Dubai), носит позитивный, культурно-событийный характер и может быть интересна русскоговорящим жителям, ведущим активный образ жизни."
+  },
+  {
+    "url": "https://www.manchestereveningnews.co.uk/news/world-news/burj-khalifa-struck-lightning-during-33669079",
+    "timestamp": "2026-03-27T13:58:50.283880+00:00",
+    "status": "rejected",
+    "content_hash": "a42cf7cb8fa6acc95a49362ee4f39dd7",
+    "strict_hash": "a42cf7cb8fa6acc95a49362ee4f39dd7",
+    "fuzzy_hash": "3897371f02ef729091a2907a2929f113",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
