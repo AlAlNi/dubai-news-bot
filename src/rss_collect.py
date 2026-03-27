@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 import hashlib
 import random
 import re
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 import feedparser
 from http_client import request_with_retry
@@ -102,10 +102,53 @@ def safe_get(obj: Any, key: str, default: Any = "") -> Any:
         return obj.get(key, default)
     return getattr(obj, key, default)
 
+def canonicalize_url(url: str) -> str:
+    """Канонизирует URL для дедупликации."""
+    raw_url = safe_strip(url)
+    if not raw_url:
+        return ""
+
+    try:
+        parsed = urlparse(raw_url)
+    except Exception:
+        return raw_url
+
+    host = (parsed.netloc or "").lower()
+    path = parsed.path or ""
+    if path != "/":
+        path = path.rstrip("/")
+
+    filtered_query = []
+    for key, value in parse_qsl(parsed.query, keep_blank_values=True):
+        normalized_key = (key or "").lower()
+        if normalized_key.startswith("utm_") or normalized_key == "fbclid":
+            continue
+        filtered_query.append((key, value))
+
+    query = urlencode(filtered_query, doseq=True)
+    return urlunparse((parsed.scheme, host, path, parsed.params, query, parsed.fragment))
+
+def normalize_text_for_compare(text: str) -> str:
+    normalized = re.sub(r"\s+", " ", safe_strip(text))
+    return normalized.lower()
+
+def generate_content_hashes(title: str, description: str, url: str) -> tuple[str, str]:
+    """Возвращает strict и fuzzy хеши."""
+    canonical_url = canonicalize_url(url)
+    strict_content = f"{safe_strip(title)}|{safe_strip(description)[:500]}|{canonical_url}"
+    fuzzy_content = (
+        f"{normalize_text_for_compare(title)}|"
+        f"{normalize_text_for_compare(description)[:500]}|"
+        f"{canonical_url}"
+    )
+    strict_hash = hashlib.md5(strict_content.encode()).hexdigest()
+    fuzzy_hash = hashlib.md5(fuzzy_content.encode()).hexdigest()
+    return strict_hash, fuzzy_hash
+
 def generate_content_hash(title: str, description: str, url: str) -> str:
-    """Генерирует уникальный хеш контента для проверки дубликатов"""
-    content = f"{title}|{description[:500]}|{url}"
-    return hashlib.md5(content.encode()).hexdigest()
+    """Совместимость: возвращает strict-hash."""
+    strict_hash, _ = generate_content_hashes(title, description, url)
+    return strict_hash
 
 # ========= РАБОТА С ФАЙЛАМИ =========
 
@@ -211,12 +254,14 @@ def add_to_published_history(draft: Dict[str, Any]) -> List[Dict[str, Any]]:
     source_urls = draft.get("source_urls", []) or []
     main_url = (source_urls[0] or "").strip() if source_urls else ""
     
-    content_hash = generate_content_hash(title, summary, main_url)
+    strict_hash, fuzzy_hash = generate_content_hashes(title, summary, main_url)
     
     history.append({
-        "content_hash": content_hash,
+        "content_hash": strict_hash,
+        "strict_hash": strict_hash,
+        "fuzzy_hash": fuzzy_hash,
         "title": title,
-        "source_url": main_url,
+        "source_url": canonicalize_url(main_url),
         "published_at": datetime.now(timezone.utc).isoformat()
     })
     
@@ -311,38 +356,58 @@ def load_source_stats() -> List[Dict[str, Any]]:
 def save_source_stats(stats: List[Dict[str, Any]]) -> bool:
     return write_json_to_mounted_bucket(S3_SOURCE_STATS_KEY, stats)
 
-def add_url_to_source_stats(url: str, status: str = "processed", content_hash: str = "", reason: str = "") -> None:
+def add_url_to_source_stats(
+    url: str,
+    status: str = "processed",
+    content_hash: str = "",
+    reason: str = "",
+    fuzzy_hash: str = "",
+) -> None:
     """
     Добавляет URL в source_stats с явным указанием статуса.
     status может быть: "published", "rejected", "processed", "approved", "error"
     """
-    if not url:
+    canonical_url = canonicalize_url(url)
+    if not canonical_url:
         return
 
     stats = load_source_stats()
     
     # Проверяем, есть ли уже такой URL или хеш
     for item in stats:
-        if item.get("url") == url or (content_hash and item.get("content_hash") == content_hash):
+        item_url = canonicalize_url(item.get("url", ""))
+        item_strict = item.get("strict_hash") or item.get("content_hash")
+        item_fuzzy = item.get("fuzzy_hash")
+        if (
+            item_url == canonical_url
+            or (content_hash and item_strict == content_hash)
+            or (fuzzy_hash and item_fuzzy == fuzzy_hash)
+        ):
             # Обновляем существующую запись
             item["timestamp"] = datetime.now(timezone.utc).isoformat()
             item["status"] = status
             if reason:
                 item["reason"] = reason
-            if content_hash and not item.get("content_hash"):
+            if content_hash:
                 item["content_hash"] = content_hash
+                item["strict_hash"] = content_hash
+            if fuzzy_hash:
+                item["fuzzy_hash"] = fuzzy_hash
             save_source_stats(stats)
             return
 
     # Создаём новую запись
     new_entry = {
-        "url": url,
+        "url": canonical_url,
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "status": status,  # Явно указываем статус
     }
     
     if content_hash:
         new_entry["content_hash"] = content_hash
+        new_entry["strict_hash"] = content_hash
+    if fuzzy_hash:
+        new_entry["fuzzy_hash"] = fuzzy_hash
     if reason:
         new_entry["reason"] = reason
     
@@ -393,45 +458,57 @@ def build_seen_links(existing_drafts: List[Dict[str, Any]]) -> tuple[set, set]:
     for draft in existing_drafts:
         for url in draft.get("source_urls", []):
             if url:
-                seen_urls.add(url)
+                seen_urls.add(canonicalize_url(url))
         
         # Добавляем хеш контента
         title = draft.get("title", "")
         summary = draft.get("summary_ru", "")
         source_urls = draft.get("source_urls", []) or []
         main_url = (source_urls[0] or "").strip() if source_urls else ""
-        content_hash = generate_content_hash(title, summary, main_url)
-        seen_hashes.add(content_hash)
+        strict_hash, fuzzy_hash = generate_content_hashes(title, summary, main_url)
+        seen_hashes.add(strict_hash)
+        seen_hashes.add(fuzzy_hash)
 
     # Загружаем статистику источников
     stats = load_source_stats()
     for item in stats:
         url = item.get("url")
         if url:
-            seen_urls.add(url)
-        content_hash = item.get("content_hash")
-        if content_hash:
-            seen_hashes.add(content_hash)
+            seen_urls.add(canonicalize_url(url))
+        strict_hash = item.get("strict_hash") or item.get("content_hash")
+        fuzzy_hash = item.get("fuzzy_hash")
+        if strict_hash:
+            seen_hashes.add(strict_hash)
+        if fuzzy_hash:
+            seen_hashes.add(fuzzy_hash)
     
     # Добавляем историю публикаций
     history = load_published_history()
     for item in history:
-        content_hash = item.get("content_hash")
-        if content_hash:
-            seen_hashes.add(content_hash)
+        strict_hash = item.get("strict_hash") or item.get("content_hash")
+        fuzzy_hash = item.get("fuzzy_hash")
+        if strict_hash:
+            seen_hashes.add(strict_hash)
+        if fuzzy_hash:
+            seen_hashes.add(fuzzy_hash)
 
     print(f"🔁 Всего обработанных URL: {len(seen_urls)}")
     print(f"🔁 Всего уникальных хешей контента: {len(seen_hashes)}")
     return seen_urls, seen_hashes
 
-def is_news_already_processed(link: str, content_hash: str, seen_urls: set, seen_hashes: set) -> bool:
+def is_news_already_processed(link: str, strict_hash: str, fuzzy_hash: str, seen_urls: set, seen_hashes: set) -> bool:
     """Проверяет, была ли новость уже обработана по URL или хешу контента"""
-    if link in seen_urls:
-        print(f"📌 URL уже обработан: {link[:60]}...")
+    canonical_link = canonicalize_url(link)
+    if canonical_link in seen_urls:
+        print(f"📌 URL уже обработан: {canonical_link[:60]}...")
         return True
     
-    if content_hash in seen_hashes:
-        print(f"📌 Контент уже обработан (хеш: {content_hash[:8]}...)")
+    if strict_hash and strict_hash in seen_hashes:
+        print(f"📌 Контент уже обработан (strict: {strict_hash[:8]}...)")
+        return True
+
+    if fuzzy_hash and fuzzy_hash in seen_hashes:
+        print(f"📌 Контент уже обработан (fuzzy: {fuzzy_hash[:8]}...)")
         return True
     
     return False
@@ -585,15 +662,18 @@ def process_gnews_article(article: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         print(f"🚫 Не про Дубай: {reason}")
         return None
 
-    content_hash = generate_content_hash(title, full_content[:500], link)
+    strict_hash, fuzzy_hash = generate_content_hashes(title, full_content[:500], link)
 
     return {
         "title": title,
         "link": link,
+        "canonical_url": canonicalize_url(link),
         "source": source,
         "description": full_content,
         "lang": "en",
-        "content_hash": content_hash,
+        "content_hash": strict_hash,
+        "strict_hash": strict_hash,
+        "fuzzy_hash": fuzzy_hash,
         "method": "gnews",
         "raw_article": article,
         "published_at": published_at,
@@ -665,7 +745,13 @@ def try_gnews_search_with_rotation(
             continue
         
         # Проверяем на дубликаты
-        if is_news_already_processed(link, processed["content_hash"], seen_urls, seen_hashes):
+        if is_news_already_processed(
+            link,
+            processed.get("strict_hash", processed.get("content_hash", "")),
+            processed.get("fuzzy_hash", ""),
+            seen_urls,
+            seen_hashes,
+        ):
             continue
         
         print(f"🎉 Найдена новая новость через GNews.io")
@@ -760,9 +846,9 @@ def try_rss_feeds(
                 if not relevant:
                     continue
                 
-                content_hash = generate_content_hash(title, content[:500], link)
+                strict_hash, fuzzy_hash = generate_content_hashes(title, content[:500], link)
                 
-                if is_news_already_processed(link, content_hash, seen_urls, seen_hashes):
+                if is_news_already_processed(link, strict_hash, fuzzy_hash, seen_urls, seen_hashes):
                     continue
                 
                 print(f" ✅ Найдена новая RSS-новость: {title[:60]}...")
@@ -770,10 +856,13 @@ def try_rss_feeds(
                 return {
                     "title": title,
                     "link": link,
+                    "canonical_url": canonicalize_url(link),
                     "source": feed_conf["name"],
                     "description": content,
                     "lang": feed_conf.get("lang", "en"),
-                    "content_hash": content_hash,
+                    "content_hash": strict_hash,
+                    "strict_hash": strict_hash,
+                    "fuzzy_hash": fuzzy_hash,
                     "method": "rss",
                     "rss_entry": entry,
                 }
@@ -985,19 +1074,33 @@ def fetch_image_for_news(news_item: Dict[str, Any]) -> Optional[str]:
 def mark_news_as_rejected(news_item: Dict[str, Any], reason: str) -> None:
     """Записывает URL и хеш в source_stats при отклонении с явным статусом 'rejected'"""
     link = news_item.get("link", "")
-    content_hash = news_item.get("content_hash", "")
+    strict_hash = news_item.get("strict_hash", news_item.get("content_hash", ""))
+    fuzzy_hash = news_item.get("fuzzy_hash", "")
     
     if link and not reason.startswith("Технический сбой"):
-        add_url_to_source_stats(link, status="rejected", content_hash=content_hash, reason=reason)
+        add_url_to_source_stats(
+            link,
+            status="rejected",
+            content_hash=strict_hash,
+            reason=reason,
+            fuzzy_hash=fuzzy_hash,
+        )
         print(f"📝 Записана в source_stats как отклоненная: {reason[:50]}...")
 
 def mark_news_as_technical_error(news_item: Dict[str, Any], error: str) -> None:
     """Записывает URL в source_stats при технической ошибке"""
     link = news_item.get("link", "")
-    content_hash = news_item.get("content_hash", "")
+    strict_hash = news_item.get("strict_hash", news_item.get("content_hash", ""))
+    fuzzy_hash = news_item.get("fuzzy_hash", "")
     
     if link:
-        add_url_to_source_stats(link, status="error", content_hash=content_hash, reason=error)
+        add_url_to_source_stats(
+            link,
+            status="error",
+            content_hash=strict_hash,
+            reason=error,
+            fuzzy_hash=fuzzy_hash,
+        )
 
 def process_news_item(news_item: Dict[str, Any], existing_titles: List[str] = None, seen_hashes: set = None) -> Optional[Dict[str, Any]]:
     if not news_item:
@@ -1005,7 +1108,8 @@ def process_news_item(news_item: Dict[str, Any], existing_titles: List[str] = No
     
     title = safe_strip(news_item.get("title"))
     description = safe_strip(news_item.get("description"))
-    content_hash = news_item.get("content_hash", "")
+    strict_hash = news_item.get("strict_hash", news_item.get("content_hash", ""))
+    fuzzy_hash = news_item.get("fuzzy_hash", "")
     
     if not title:
         return None
@@ -1014,12 +1118,17 @@ def process_news_item(news_item: Dict[str, Any], existing_titles: List[str] = No
         description = title
     
     # Проверяем на дубликаты по хешу еще раз
-    if seen_hashes and content_hash in seen_hashes:
+    if seen_hashes and ((strict_hash and strict_hash in seen_hashes) or (fuzzy_hash and fuzzy_hash in seen_hashes)):
         print(f"🚫 Дубликат по хешу контента: {title[:80]}...")
         mark_news_as_rejected(news_item, "Дубликат по хешу контента")
         return None
     
-    allowed, reason, is_technical_error = is_news_allowed_by_deepseek(title, description, content_hash, existing_titles)
+    allowed, reason, is_technical_error = is_news_allowed_by_deepseek(
+        title,
+        description,
+        strict_hash or fuzzy_hash,
+        existing_titles,
+    )
     
     if not allowed:
         print(f"🚫 Новость отклонена DeepSeek: {title[:80]}...")
@@ -1046,7 +1155,9 @@ def process_news_item(news_item: Dict[str, Any], existing_titles: List[str] = No
         "published": current_time,
         "source_urls": [news_item.get("link", "")],
         "lang": news_item.get("lang", "en"),
-        "content_hash": content_hash,
+        "content_hash": strict_hash,
+        "strict_hash": strict_hash,
+        "fuzzy_hash": fuzzy_hash,
         "method": news_item.get("method", "unknown"),
     }
     
@@ -1111,11 +1222,14 @@ def handler(event, context):
                 print(f"🚫 Новость отклонена (всего: {rejected_in_session})")
                 
                 link = news_item.get("link", "")
-                content_hash = news_item.get("content_hash", "")
+                strict_hash = news_item.get("strict_hash", news_item.get("content_hash", ""))
+                fuzzy_hash = news_item.get("fuzzy_hash", "")
                 if link:
-                    seen_urls.add(link)
-                if content_hash:
-                    seen_hashes.add(content_hash)
+                    seen_urls.add(canonicalize_url(link))
+                if strict_hash:
+                    seen_hashes.add(strict_hash)
+                if fuzzy_hash:
+                    seen_hashes.add(fuzzy_hash)
             else:
                 approved_draft = processed
                 print(f"🎉 НАЙДЕНА ПОДХОДЯЩАЯ НОВОСТЬ!")
@@ -1127,7 +1241,8 @@ def handler(event, context):
                 approved_draft["source_urls"][0], 
                 status="published",  # Явно указываем статус "published"
                 content_hash=approved_draft.get("content_hash", ""),
-                reason="approved"
+                reason="approved",
+                fuzzy_hash=approved_draft.get("fuzzy_hash", ""),
             )
             
             # Сохраняем в drafts

@@ -1,8 +1,10 @@
 import os
 import json
 import hashlib
+import re
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 import requests
 from http_client import request_with_retry
@@ -29,6 +31,30 @@ LOCK_STALE_SECONDS = 15 * 60
 DEDUPE_RETENTION_DAYS = 30
 
 # ================== ФУНКЦИИ ОТПРАВКИ ==================
+
+def canonicalize_url(url: str) -> str:
+    raw_url = (url or "").strip()
+    if not raw_url:
+        return ""
+    try:
+        parsed = urlparse(raw_url)
+    except Exception:
+        return raw_url
+    host = (parsed.netloc or "").lower()
+    path = parsed.path or ""
+    if path != "/":
+        path = path.rstrip("/")
+    filtered_query = []
+    for key, value in parse_qsl(parsed.query, keep_blank_values=True):
+        normalized_key = (key or "").lower()
+        if normalized_key.startswith("utm_") or normalized_key == "fbclid":
+            continue
+        filtered_query.append((key, value))
+    query = urlencode(filtered_query, doseq=True)
+    return urlunparse((parsed.scheme, host, path, parsed.params, query, parsed.fragment))
+
+def normalize_text_for_compare(text: str) -> str:
+    return re.sub(r"\s+", " ", (text or "").strip()).lower()
 
 def _get_storage_path(filename: str) -> Path:
     return Path(MOUNTED_BUCKET_PATH) / filename
@@ -75,11 +101,21 @@ def _release_publish_lock() -> None:
     except Exception as e:
         print(f"⚠️ Не удалось удалить lock-файл: {e}")
 
-def _build_dedupe_key(draft: dict) -> str:
+def _build_dedupe_hashes(draft: dict) -> tuple[str, str]:
     source_urls = draft.get("source_urls", []) or []
     main_url = (source_urls[0] or "").strip() if source_urls else ""
-    signature = f"{draft.get('title', '').strip()}|{draft.get('summary_ru', '').strip()}|{main_url}"
-    return hashlib.sha256(signature.encode("utf-8")).hexdigest()
+    canonical_url = canonicalize_url(main_url)
+    title = draft.get("title", "")
+    summary = draft.get("summary_ru", "")
+    strict_signature = f"{title.strip()}|{summary.strip()}|{canonical_url}"
+    fuzzy_signature = (
+        f"{normalize_text_for_compare(title)}|"
+        f"{normalize_text_for_compare(summary)}|"
+        f"{canonical_url}"
+    )
+    strict_hash = hashlib.sha256(strict_signature.encode("utf-8")).hexdigest()
+    fuzzy_hash = hashlib.sha256(fuzzy_signature.encode("utf-8")).hexdigest()
+    return strict_hash, fuzzy_hash
 
 def _load_dedupe_registry() -> dict:
     path = _get_storage_path(PUBLISH_DEDUPE_FILENAME)
@@ -111,12 +147,24 @@ def _save_dedupe_registry(registry: dict) -> None:
     with path.open("w", encoding="utf-8") as f:
         json.dump(cleaned_registry, f, ensure_ascii=False, indent=2)
 
-def _is_duplicate_publish_attempt(dedupe_key: str) -> bool:
+def _is_duplicate_publish_attempt(dedupe_key: str, fuzzy_hash: str = "") -> bool:
     registry = _load_dedupe_registry()
     entry = registry.get(dedupe_key, {})
-    return entry.get("status") == "sent"
+    if entry.get("status") == "sent":
+        return True
+    if fuzzy_hash:
+        for item in registry.values():
+            if item.get("status") == "sent" and item.get("fuzzy_hash") == fuzzy_hash:
+                return True
+    return False
 
-def _mark_dedupe_status(dedupe_key: str, status: str, message_id: int = None) -> None:
+def _mark_dedupe_status(
+    dedupe_key: str,
+    status: str,
+    message_id: int = None,
+    strict_hash: str = "",
+    fuzzy_hash: str = "",
+) -> None:
     registry = _load_dedupe_registry()
     payload = {
         "status": status,
@@ -124,6 +172,10 @@ def _mark_dedupe_status(dedupe_key: str, status: str, message_id: int = None) ->
     }
     if message_id is not None:
         payload["message_id"] = message_id
+    if strict_hash:
+        payload["strict_hash"] = strict_hash
+    if fuzzy_hash:
+        payload["fuzzy_hash"] = fuzzy_hash
     registry[dedupe_key] = payload
     _save_dedupe_registry(registry)
 
@@ -268,8 +320,9 @@ def handler(event, context):
                 }),
             }
 
-        dedupe_key = _build_dedupe_key(selected_draft or {})
-        if dedupe_key and _is_duplicate_publish_attempt(dedupe_key):
+        strict_hash, fuzzy_hash = _build_dedupe_hashes(selected_draft or {})
+        dedupe_key = strict_hash
+        if dedupe_key and _is_duplicate_publish_attempt(dedupe_key, fuzzy_hash):
             print(f"⏭️ Публикация пропущена по dedupe_key: {dedupe_key}")
             return {
                 "statusCode": 200,
@@ -282,7 +335,12 @@ def handler(event, context):
             }
 
         if dedupe_key:
-            _mark_dedupe_status(dedupe_key, "in_progress")
+            _mark_dedupe_status(
+                dedupe_key,
+                "in_progress",
+                strict_hash=strict_hash,
+                fuzzy_hash=fuzzy_hash,
+            )
 
         # Отправляем в Telegram с автоматической обработкой ошибок фото
         result = send_telegram_message(text, image_url)
@@ -295,7 +353,9 @@ def handler(event, context):
                 _mark_dedupe_status(
                     dedupe_key,
                     "sent",
-                    message_id=result.get("message_id")
+                    message_id=result.get("message_id"),
+                    strict_hash=strict_hash,
+                    fuzzy_hash=fuzzy_hash,
                 )
 
             return {
@@ -310,7 +370,12 @@ def handler(event, context):
             }
         else:
             if dedupe_key:
-                _mark_dedupe_status(dedupe_key, "failed")
+                _mark_dedupe_status(
+                    dedupe_key,
+                    "failed",
+                    strict_hash=strict_hash,
+                    fuzzy_hash=fuzzy_hash,
+                )
             # Определяем HTTP статус код для ответа
             status_code = 500
             if result.get("status_code"):
