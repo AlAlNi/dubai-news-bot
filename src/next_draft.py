@@ -28,9 +28,23 @@ PUBLISHED_HISTORY_FILENAME = "published_history.json"
 
 DRAFTS_CACHE_PATH = Path("/tmp/drafts.json")
 
-SOURCE_WINDOW_HOURS = 48
-DRAFT_MAX_AGE_DAYS = 7
-CONTENT_UNIQUE_DAYS = 30  # Сколько дней хранить историю опубликованного контента
+def env_int(name: str, default: int, min_value: int = 1) -> int:
+    raw = os.getenv(name)
+    if raw is None or raw.strip() == "":
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        print(f"⚠️ Некорректное значение {name}={raw!r}, используем default={default}")
+        return default
+    if value < min_value:
+        print(f"⚠️ {name}={value} меньше минимума {min_value}, используем {min_value}")
+        return min_value
+    return value
+
+SOURCE_WINDOW_HOURS = env_int("SOURCE_WINDOW_HOURS", 48)
+DRAFT_MAX_AGE_DAYS = env_int("DRAFT_MAX_AGE_DAYS", 7)
+CONTENT_UNIQUE_DAYS = env_int("CONTENT_UNIQUE_DAYS", 30)  # Сколько дней хранить историю опубликованного контента
 
 def canonicalize_url(url: str) -> str:
     raw_url = (url or "").strip()

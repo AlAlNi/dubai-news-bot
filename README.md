@@ -104,6 +104,20 @@ export TELEGRAM\_BOT\_TOKEN=your\_token
 
 export TELEGRAM\_CHANNEL\_ID=your\_channel
 
+export MAX\_DRAFTS=50
+
+export MAX\_AGE\_HOURS=24
+
+export MAX\_NEWS\_AGE\_DAYS=2
+
+export MAX\_SOURCE\_STATS\_DAYS=7
+
+export SOURCE\_WINDOW\_HOURS=48
+
+export DRAFT\_MAX\_AGE\_DAYS=7
+
+export CONTENT\_UNIQUE\_DAYS=30
+
 
 
 \# Запуск сбора новостей
@@ -115,4 +129,3 @@ python -c "from rss\_collect import handler; handler({}, None)"
 \# Запуск публикации
 
 python -c "from auto\_notify import handler; handler({}, None)"
-
