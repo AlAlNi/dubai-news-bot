@@ -32,11 +32,25 @@ S3_SOURCE_STATS_KEY = os.getenv("S3_SOURCE_STATS_KEY", "source_stats.json")
 S3_PUBLISHED_HISTORY_KEY = os.getenv("S3_PUBLISHED_HISTORY_KEY", "published_history.json")
 S3_RUN_REPORT_KEY = os.getenv("S3_RUN_REPORT_KEY", "run_report.json")
 
-MAX_AGE_HOURS = 24
-MAX_SOURCE_STATS_DAYS = 7
-MAX_NEWS_AGE_DAYS = 2
-MAX_DRAFTS = 50
-CONTENT_UNIQUE_DAYS = 30  # Сколько дней хранить историю контента
+def env_int(name: str, default: int, min_value: Optional[int] = None) -> int:
+    raw = os.getenv(name)
+    if raw is None or raw.strip() == "":
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        print(f"⚠️ Некорректное значение {name}={raw!r}, используем default={default}")
+        return default
+    if min_value is not None and value < min_value:
+        print(f"⚠️ {name}={value} меньше минимума {min_value}, используем {min_value}")
+        return min_value
+    return value
+
+MAX_AGE_HOURS = env_int("MAX_AGE_HOURS", 24, min_value=1)
+MAX_SOURCE_STATS_DAYS = env_int("MAX_SOURCE_STATS_DAYS", 7, min_value=1)
+MAX_NEWS_AGE_DAYS = env_int("MAX_NEWS_AGE_DAYS", 2, min_value=1)
+MAX_DRAFTS = env_int("MAX_DRAFTS", 50, min_value=1)
+CONTENT_UNIQUE_DAYS = env_int("CONTENT_UNIQUE_DAYS", 30, min_value=1)  # Сколько дней хранить историю контента
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 HTTP_TIMEOUT = 25
