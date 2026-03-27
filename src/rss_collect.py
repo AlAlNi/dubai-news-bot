@@ -30,6 +30,7 @@ S3_OBJECT_KEY = os.getenv("S3_OBJECT_KEY", "drafts.json")
 S3_RSS_LIST_KEY = os.getenv("S3_RSS_LIST_KEY", "rss_feeds.json")
 S3_SOURCE_STATS_KEY = os.getenv("S3_SOURCE_STATS_KEY", "source_stats.json")
 S3_PUBLISHED_HISTORY_KEY = os.getenv("S3_PUBLISHED_HISTORY_KEY", "published_history.json")
+S3_RUN_REPORT_KEY = os.getenv("S3_RUN_REPORT_KEY", "run_report.json")
 
 MAX_AGE_HOURS = 24
 MAX_SOURCE_STATS_DAYS = 7
@@ -416,6 +417,17 @@ def load_source_stats() -> List[Dict[str, Any]]:
 
 def save_source_stats(stats: List[Dict[str, Any]]) -> bool:
     return write_json_to_mounted_bucket(S3_SOURCE_STATS_KEY, stats)
+
+def append_run_report(report: Dict[str, Any], max_entries: int = 200) -> bool:
+    existing = read_json_from_mounted_bucket(S3_RUN_REPORT_KEY, [])
+    if not isinstance(existing, list):
+        existing = []
+
+    existing.append(report)
+    if len(existing) > max_entries:
+        existing = existing[-max_entries:]
+
+    return write_json_to_mounted_bucket(S3_RUN_REPORT_KEY, existing)
 
 def add_url_to_source_stats(
     url: str,
@@ -1288,11 +1300,20 @@ def process_news_item(
 # ========= ОСНОВНОЙ HANDLER =========
 
 def handler(event, context):
+    start_time = datetime.now(timezone.utc)
+    attempt = 0
+    fetched_count = 0
+    gnews_fetches = 0
+    rss_fetches = 0
+    technical_errors = 0
+    rejected_in_session = 0
+    deepseek_context = {"calls_made": 0, "max_calls": MAX_DEEPSEEK_CALLS_PER_RUN}
+
     try:
         print("=" * 60)
         print("=== DUBAI NEWS COLLECTOR START ===")
         print("=" * 60)
-        print(datetime.now(timezone.utc).isoformat())
+        print(start_time.isoformat())
         
         if os.path.exists(MOUNTED_BUCKET_PATH):
             print(f"✅ Смонтированный бакет доступен")
@@ -1312,10 +1333,7 @@ def handler(event, context):
         print(f"📝 Заголовков для проверки: {len(existing_titles)}")
         
         approved_draft = None
-        rejected_in_session = 0
-        technical_errors = 0
         max_attempts = 3
-        deepseek_context = {"calls_made": 0, "max_calls": MAX_DEEPSEEK_CALLS_PER_RUN}
         domain_window: Dict[str, int] = {}
 
         print(
@@ -1332,14 +1350,18 @@ def handler(event, context):
             
             if attempt % 2 == 1:
                 print(f"🎯 Стратегия: GNews.io")
+                gnews_fetches += 1
                 news_item = try_gnews_search_with_rotation(existing_drafts, seen_urls, seen_hashes)
             else:
                 print("🎯 Стратегия: RSS")
+                rss_fetches += 1
                 news_item = try_rss_feeds(existing_drafts, seen_urls, seen_hashes)
             
             if not news_item:
                 print(f"⚠️ Не найдено новостей (попытка #{attempt})")
                 continue
+
+            fetched_count += 1
             
             processed = process_news_item(
                 news_item,
@@ -1419,6 +1441,28 @@ def handler(event, context):
         print("\n" + "=" * 60)
         print("=== DUBAI NEWS COLLECTOR END ===")
         print("=" * 60)
+
+        end_time = datetime.now(timezone.utc)
+        run_report = {
+            "script": "rss_collect",
+            "started_at": start_time.isoformat(),
+            "finished_at": end_time.isoformat(),
+            "duration_seconds": round((end_time - start_time).total_seconds(), 3),
+            "success": bool(result.get("success")),
+            "counters": {
+                "attempts_made": result.get("attempts_made", 0),
+                "fetched": fetched_count,
+                "rejected": rejected_in_session,
+                "approved": 1 if approved_draft else 0,
+                "deepseek_calls": deepseek_context["calls_made"],
+                "deepseek_calls_max": deepseek_context["max_calls"],
+                "gnews_fetches": gnews_fetches,
+                "rss_fetches": rss_fetches,
+                "telegram_failures": 0,
+                "technical_errors": technical_errors,
+            },
+        }
+        append_run_report(run_report)
         
         return {
             "statusCode": 200,
@@ -1430,6 +1474,29 @@ def handler(event, context):
         print(f"\n❌ КРИТИЧЕСКАЯ ОШИБКА: {e}")
         import traceback
         traceback.print_exc()
+
+        end_time = datetime.now(timezone.utc)
+        run_report = {
+            "script": "rss_collect",
+            "started_at": start_time.isoformat(),
+            "finished_at": end_time.isoformat(),
+            "duration_seconds": round((end_time - start_time).total_seconds(), 3),
+            "success": False,
+            "error": str(e),
+            "counters": {
+                "attempts_made": attempt,
+                "fetched": fetched_count,
+                "rejected": rejected_in_session,
+                "approved": 0,
+                "deepseek_calls": deepseek_context["calls_made"],
+                "deepseek_calls_max": deepseek_context["max_calls"],
+                "gnews_fetches": gnews_fetches,
+                "rss_fetches": rss_fetches,
+                "telegram_failures": 0,
+                "technical_errors": technical_errors,
+            },
+        }
+        append_run_report(run_report)
         
         return {
             "statusCode": 500,

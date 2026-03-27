@@ -29,6 +29,7 @@ PUBLISH_LOCK_FILENAME = "publish_job.lock"
 PUBLISH_DEDUPE_FILENAME = "publish_dedupe.json"
 LOCK_STALE_SECONDS = 15 * 60
 DEDUPE_RETENTION_DAYS = 30
+RUN_REPORT_FILENAME = "run_report.json"
 
 # ================== ФУНКЦИИ ОТПРАВКИ ==================
 
@@ -58,6 +59,31 @@ def normalize_text_for_compare(text: str) -> str:
 
 def _get_storage_path(filename: str) -> Path:
     return Path(MOUNTED_BUCKET_PATH) / filename
+
+def _append_run_report(report: dict, max_entries: int = 200) -> bool:
+    path = _get_storage_path(RUN_REPORT_FILENAME)
+    history = []
+    if path.exists():
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                raw_data = json.load(f)
+            if isinstance(raw_data, list):
+                history = raw_data
+        except Exception as e:
+            print(f"⚠️ Ошибка чтения run_report.json: {e}")
+
+    history.append(report)
+    if len(history) > max_entries:
+        history = history[-max_entries:]
+
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+        return True
+    except Exception as e:
+        print(f"⚠️ Ошибка записи run_report.json: {e}")
+        return False
 
 def _acquire_publish_lock() -> tuple[bool, str]:
     """
@@ -258,11 +284,35 @@ def handler(event, context):
     - next_draft.py умеет брать следующий драфт и возвращать (text, image_url)
       в нужном формате (HTML, ссылки, хэштеги и т.п.) из смонтированного бакета.
     """
+    start_time = datetime.now(timezone.utc)
+    run_counters = {
+        "telegram_calls": 0,
+        "telegram_failures": 0,
+        "published": 0,
+        "duplicate_skips": 0,
+        "no_posts": 0,
+    }
+
+    def _build_report_payload(success: bool, status: str, error: str = "") -> dict:
+        finished_at = datetime.now(timezone.utc)
+        payload = {
+            "script": "auto_notify",
+            "started_at": start_time.isoformat(),
+            "finished_at": finished_at.isoformat(),
+            "duration_seconds": round((finished_at - start_time).total_seconds(), 3),
+            "success": success,
+            "status": status,
+            "counters": run_counters.copy(),
+        }
+        if error:
+            payload["error"] = error
+        return payload
+
     print("=" * 60)
     print("⏰ АВТОПУБЛИКАЦИЯ ЗАПУЩЕНА")
     print("=" * 60)
     
-    current_time = datetime.now(timezone.utc)
+    current_time = start_time
     hour_utc = current_time.hour
     hour_dubai = (hour_utc + 4) % 24
     
@@ -272,6 +322,7 @@ def handler(event, context):
     # Проверка наличия токенов
     if not TELEGRAM_BOT_TOKEN:
         print("❌ TELEGRAM_BOT_TOKEN не задан")
+        _append_run_report(_build_report_payload(False, "missing_telegram_token", "TELEGRAM_BOT_TOKEN not set"))
         return {
             "statusCode": 400,
             "body": json.dumps({"error": "TELEGRAM_BOT_TOKEN not set"}),
@@ -279,6 +330,7 @@ def handler(event, context):
 
     if not TELEGRAM_CHANNEL_ID:
         print("❌ TELEGRAM_CHANNEL_ID не задан")
+        _append_run_report(_build_report_payload(False, "missing_channel_id", "TELEGRAM_CHANNEL_ID not set"))
         return {
             "statusCode": 400,
             "body": json.dumps({"error": "TELEGRAM_CHANNEL_ID not set"}),
@@ -287,6 +339,7 @@ def handler(event, context):
     lock_acquired, lock_reason = _acquire_publish_lock()
     if not lock_acquired:
         print("⏭️ Публикация пропущена: уже выполняется другой инстанс")
+        _append_run_report(_build_report_payload(True, "locked_skip"))
         return {
             "statusCode": 200,
             "body": json.dumps({
@@ -304,6 +357,7 @@ def handler(event, context):
             print(f"❌ Ошибка при вызове get_next_post_payload_with_image: {e}")
             import traceback
             traceback.print_exc()
+            _append_run_report(_build_report_payload(False, "next_draft_error", str(e)))
             return {
                 "statusCode": 500,
                 "body": json.dumps({"error": f"next_draft error: {e}"}),
@@ -311,6 +365,8 @@ def handler(event, context):
 
         if not text:
             print("ℹ️ Нет доступных постов для публикации (drafts.json пустой или все исчерпаны)")
+            run_counters["no_posts"] += 1
+            _append_run_report(_build_report_payload(True, "no_posts"))
             return {
                 "statusCode": 200,
                 "body": json.dumps({
@@ -324,6 +380,8 @@ def handler(event, context):
         dedupe_key = strict_hash
         if dedupe_key and _is_duplicate_publish_attempt(dedupe_key, fuzzy_hash):
             print(f"⏭️ Публикация пропущена по dedupe_key: {dedupe_key}")
+            run_counters["duplicate_skips"] += 1
+            _append_run_report(_build_report_payload(True, "duplicate_skip"))
             return {
                 "statusCode": 200,
                 "body": json.dumps({
@@ -343,9 +401,11 @@ def handler(event, context):
             )
 
         # Отправляем в Telegram с автоматической обработкой ошибок фото
+        run_counters["telegram_calls"] += 1
         result = send_telegram_message(text, image_url)
         
         if result["success"]:
+            run_counters["published"] += 1
             if selected_draft:
                 history = add_to_published_history(selected_draft)
                 save_published_history(history)
@@ -357,6 +417,7 @@ def handler(event, context):
                     strict_hash=strict_hash,
                     fuzzy_hash=fuzzy_hash,
                 )
+            _append_run_report(_build_report_payload(True, "published"))
 
             return {
                 "statusCode": 200,
@@ -369,6 +430,7 @@ def handler(event, context):
                 }),
             }
         else:
+            run_counters["telegram_failures"] += 1
             if dedupe_key:
                 _mark_dedupe_status(
                     dedupe_key,
@@ -384,6 +446,7 @@ def handler(event, context):
                 status_code = 504
             elif "connection" in str(result.get("error", "")).lower():
                 status_code = 502
+            _append_run_report(_build_report_payload(False, "telegram_error", str(result.get("error", ""))))
                 
             return {
                 "statusCode": status_code,
