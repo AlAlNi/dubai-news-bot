@@ -666,5 +666,32 @@
     "strict_hash": "840942f4c31ee8999cdd98c1ac87295e",
     "fuzzy_hash": "d113ce3972bc0cc357329f089468b86d",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.reuters.com/business/energy/japan-government-asks-wholesalers-switch-brent-dubai-pricing-document-shows-2026-03-27",
+    "timestamp": "2026-03-27T19:35:25.832014+00:00",
+    "status": "rejected",
+    "content_hash": "3740e139e047391d8720996052842a7f",
+    "strict_hash": "3740e139e047391d8720996052842a7f",
+    "fuzzy_hash": "5baf8d88af88237a88ea26cb90a5378b",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем, так как затрагивает отказ от использования дубайского ценового ориентира (benchmark) для нефти. Однако её основная тема — административное решение японского правительства, не несущее значимой практической информации для русскоязычного жителя Дубая (правило 6). Текст не нарушает других правил (политика, реклама, ценности), но его новизна и полезность для целевой аудитории сомнительны."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/uae-weather-traffic-in-dubai-disruptions",
+    "timestamp": "2026-03-27T19:35:33.360690+00:00",
+    "status": "rejected",
+    "content_hash": "88830ab19187b722d372ae74eb71d46f",
+    "strict_hash": "88830ab19187b722d372ae74eb71d46f",
+    "fuzzy_hash": "de6b056dd0adc74447a63e56eadfa7a6",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (погодные условия в Дубае), носит практический и полезный характер для жителей, не нарушает установленных правил. Однако, заголовок и текст выглядят как автоматический перевод или слабо адаптированный пресс-релиз, что может указывать на низкое качество обработки контента."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/dubai-international-airports-surprise-gifts-turn-goodbyes-emotional-whats-inside-the-viral-dxb-gift-pack/articleshow/129839303.cms",
+    "timestamp": "2026-03-27T19:35:33.675877+00:00",
+    "status": "rejected",
+    "content_hash": "c269e9fd0064118c7e35efc87b4fe2b4",
+    "strict_hash": "c269e9fd0064118c7e35efc87b4fe2b4",
+    "fuzzy_hash": "b8ddbee28188e7cb90eef851186c318d",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
