@@ -40,6 +40,11 @@ CONTENT_UNIQUE_DAYS = 30  # Сколько дней хранить истори�
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 HTTP_TIMEOUT = 25
+ENABLE_CHEAP_PREFILTER = os.getenv("ENABLE_CHEAP_PREFILTER", "1").lower() in ("1", "true", "yes", "on")
+MAX_DEEPSEEK_CALLS_PER_RUN = max(0, int(os.getenv("MAX_DEEPSEEK_CALLS_PER_RUN", "2")))
+PREFILTER_MIN_TEXT_LEN = max(40, int(os.getenv("PREFILTER_MIN_TEXT_LEN", "120")))
+PREFILTER_MAX_NOISE_RATIO = float(os.getenv("PREFILTER_MAX_NOISE_RATIO", "0.35"))
+PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN = max(1, int(os.getenv("PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN", "2")))
 
 # ========= RSS ИСТОЧНИКИ =========
 
@@ -128,6 +133,15 @@ def canonicalize_url(url: str) -> str:
     query = urlencode(filtered_query, doseq=True)
     return urlunparse((parsed.scheme, host, path, parsed.params, query, parsed.fragment))
 
+def extract_domain(url: str) -> str:
+    raw_url = safe_strip(url)
+    if not raw_url:
+        return ""
+    try:
+        return (urlparse(raw_url).netloc or "").lower()
+    except Exception:
+        return ""
+
 def normalize_text_for_compare(text: str) -> str:
     normalized = re.sub(r"\s+", " ", safe_strip(text))
     return normalized.lower()
@@ -149,6 +163,53 @@ def generate_content_hash(title: str, description: str, url: str) -> str:
     """Совместимость: возвращает strict-hash."""
     strict_hash, _ = generate_content_hashes(title, description, url)
     return strict_hash
+
+def cheap_prefilter_news_item(news_item: Dict[str, Any], domain_window: Dict[str, int]) -> tuple[bool, str]:
+    """
+    Быстрый и дешевый prefilter до вызова DeepSeek:
+    - слишком короткий/шумный текст;
+    - явные PR/реклама паттерны;
+    - повторы домена в рамках текущего запуска.
+    """
+    title = safe_strip(news_item.get("title"))
+    description = safe_strip(news_item.get("description"))
+    link = safe_strip(news_item.get("link"))
+    text = f"{title}. {description}".strip()
+    text_lower = text.lower()
+
+    if len(text) < PREFILTER_MIN_TEXT_LEN:
+        return False, f"Cheap prefilter: слишком короткий текст ({len(text)} символов)"
+
+    non_word_chars = len(re.findall(r"[^\w\s]", text, flags=re.UNICODE))
+    total_chars = max(1, len(text))
+    noise_ratio = non_word_chars / total_chars
+    if noise_ratio > PREFILTER_MAX_NOISE_RATIO:
+        return False, f"Cheap prefilter: шумный текст (ratio={noise_ratio:.2f})"
+
+    ad_patterns = (
+        "press release",
+        "sponsored",
+        "advertisement",
+        "promo code",
+        "book now",
+        "buy now",
+        "limited time offer",
+        "partner content",
+        "pr newswire",
+        "business wire",
+        "globenewswire",
+    )
+    if any(pattern in text_lower for pattern in ad_patterns):
+        return False, "Cheap prefilter: распознан рекламный/PR паттерн"
+
+    domain = extract_domain(link)
+    if domain:
+        domain_count = domain_window.get(domain, 0)
+        if domain_count >= PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN:
+            return False, f"Cheap prefilter: слишком частый домен в окне ({domain})"
+        domain_window[domain] = domain_count + 1
+
+    return True, "Cheap prefilter: ok"
 
 # ========= РАБОТА С ФАЙЛАМИ =========
 
@@ -1023,6 +1084,19 @@ def process_with_deepseek_simple(title: str, description: str) -> str:
         print(f"⚠️ DeepSeek ошибка: {e}")
         return f"**{title}**\n\nНовость о Дубае. Подробности по ссылке."
 
+def can_call_deepseek(deepseek_context: Dict[str, int]) -> bool:
+    return deepseek_context.get("calls_made", 0) < deepseek_context.get("max_calls", MAX_DEEPSEEK_CALLS_PER_RUN)
+
+def consume_deepseek_call(deepseek_context: Dict[str, int], reason: str) -> bool:
+    if not can_call_deepseek(deepseek_context):
+        print(f"⛔ DeepSeek budget exhausted, skip: {reason}")
+        return False
+    deepseek_context["calls_made"] = deepseek_context.get("calls_made", 0) + 1
+    print(
+        f"💸 DeepSeek call {deepseek_context['calls_made']}/{deepseek_context.get('max_calls', MAX_DEEPSEEK_CALLS_PER_RUN)}: {reason}"
+    )
+    return True
+
 # ========= ПОЛУЧЕНИЕ КАРТИНКИ =========
 
 def fetch_image_from_html(url: str) -> Optional[str]:
@@ -1102,7 +1176,13 @@ def mark_news_as_technical_error(news_item: Dict[str, Any], error: str) -> None:
             fuzzy_hash=fuzzy_hash,
         )
 
-def process_news_item(news_item: Dict[str, Any], existing_titles: List[str] = None, seen_hashes: set = None) -> Optional[Dict[str, Any]]:
+def process_news_item(
+    news_item: Dict[str, Any],
+    existing_titles: List[str] = None,
+    seen_hashes: set = None,
+    deepseek_context: Dict[str, int] = None,
+    domain_window: Dict[str, int] = None,
+) -> Optional[Dict[str, Any]]:
     if not news_item:
         return None
     
@@ -1116,6 +1196,14 @@ def process_news_item(news_item: Dict[str, Any], existing_titles: List[str] = No
     
     if not description:
         description = title
+
+    if ENABLE_CHEAP_PREFILTER:
+        prefilter_window = domain_window if domain_window is not None else {}
+        allowed_by_prefilter, prefilter_reason = cheap_prefilter_news_item(news_item, prefilter_window)
+        if not allowed_by_prefilter:
+            print(f"🚫 {prefilter_reason}: {title[:80]}...")
+            mark_news_as_rejected(news_item, prefilter_reason)
+            return None
     
     # Проверяем на дубликаты по хешу еще раз
     if seen_hashes and ((strict_hash and strict_hash in seen_hashes) or (fuzzy_hash and fuzzy_hash in seen_hashes)):
@@ -1123,12 +1211,14 @@ def process_news_item(news_item: Dict[str, Any], existing_titles: List[str] = No
         mark_news_as_rejected(news_item, "Дубликат по хешу контента")
         return None
     
-    allowed, reason, is_technical_error = is_news_allowed_by_deepseek(
-        title,
-        description,
-        strict_hash or fuzzy_hash,
-        existing_titles,
-    )
+    if deepseek_context is None:
+        deepseek_context = {"calls_made": 0, "max_calls": MAX_DEEPSEEK_CALLS_PER_RUN}
+
+    if not consume_deepseek_call(deepseek_context, "editor validation"):
+        mark_news_as_rejected(news_item, "DeepSeek budget exhausted before editor validation")
+        return None
+
+    allowed, reason, is_technical_error = is_news_allowed_by_deepseek(title, description, strict_hash or fuzzy_hash, existing_titles)
     
     if not allowed:
         print(f"🚫 Новость отклонена DeepSeek: {title[:80]}...")
@@ -1144,7 +1234,10 @@ def process_news_item(news_item: Dict[str, Any], existing_titles: List[str] = No
     print(f"✅ Новость одобрена редактором: {title[:80]}...")
 
     current_time = datetime.now(timezone.utc).isoformat()
-    summary_ru = process_with_deepseek_simple(title, description)
+    if consume_deepseek_call(deepseek_context, "summary generation"):
+        summary_ru = process_with_deepseek_simple(title, description)
+    else:
+        summary_ru = f"**{title}**\n\nНовость о Дубае. Подробности по ссылке."
 
     image_url = fetch_image_for_news(news_item)
 
@@ -1196,6 +1289,13 @@ def handler(event, context):
         rejected_in_session = 0
         technical_errors = 0
         max_attempts = 3
+        deepseek_context = {"calls_made": 0, "max_calls": MAX_DEEPSEEK_CALLS_PER_RUN}
+        domain_window: Dict[str, int] = {}
+
+        print(
+            f"⚙️ DeepSeek cost control: feature_flag={ENABLE_CHEAP_PREFILTER}, "
+            f"max_calls_per_run={MAX_DEEPSEEK_CALLS_PER_RUN}, domain_repeat_limit={PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN}"
+        )
         
         for attempt in range(1, max_attempts + 1):
             print(f"\n{'='*50}")
@@ -1215,7 +1315,13 @@ def handler(event, context):
                 print(f"⚠️ Не найдено новостей (попытка #{attempt})")
                 continue
             
-            processed = process_news_item(news_item, existing_titles, seen_hashes)
+            processed = process_news_item(
+                news_item,
+                existing_titles,
+                seen_hashes,
+                deepseek_context=deepseek_context,
+                domain_window=domain_window,
+            )
             
             if not processed:
                 rejected_in_session += 1
@@ -1265,6 +1371,9 @@ def handler(event, context):
                 "rejected_in_session": rejected_in_session,
                 "technical_errors": technical_errors,
                 "has_image": "image_url" in approved_draft,
+                "deepseek_calls_made": deepseek_context["calls_made"],
+                "deepseek_calls_max": deepseek_context["max_calls"],
+                "cheap_prefilter_enabled": ENABLE_CHEAP_PREFILTER,
             }
             
         else:
@@ -1276,6 +1385,9 @@ def handler(event, context):
                 "attempts_made": max_attempts,
                 "rejected_in_session": rejected_in_session,
                 "technical_errors": technical_errors,
+                "deepseek_calls_made": deepseek_context["calls_made"],
+                "deepseek_calls_max": deepseek_context["max_calls"],
+                "cheap_prefilter_enabled": ENABLE_CHEAP_PREFILTER,
             }
         
         print("\n" + "=" * 60)
