@@ -501,5 +501,32 @@
     "strict_hash": "a42cf7cb8fa6acc95a49362ee4f39dd7",
     "fuzzy_hash": "3897371f02ef729091a2907a2929f113",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.fox4news.com/news/dubai-based-development-foreign-nationals-texas-halts-after-state-investigation",
+    "timestamp": "2026-03-27T14:04:11.726733+00:00",
+    "status": "rejected",
+    "content_hash": "82192a320a7067bf49094da5ace434fa",
+    "strict_hash": "82192a320a7067bf49094da5ace434fa",
+    "fuzzy_hash": "bdd501ea272c73fbdf6c5a14a922d327",
+    "reason": "**Оценка новости:** Новость имеет связь с Дубаем (Dubai-based development), но основная тема — политический конфликт и расследование в США, что нарушает правило 2. Также тема может быть воспринята как неуважение к ценностям ОАЭ из-за упоминания \"Sharia City\" в негативном контексте (правило 4). Для русскоговорящего жителя Дубая прямая польза или интерес сомнительны (правило 6)."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/12-easter-brunches-in-dubai-to-book-now",
+    "timestamp": "2026-03-27T14:04:16.843060+00:00",
+    "status": "rejected",
+    "content_hash": "fa3ceb10951416a8ca1886baa84adf41",
+    "strict_hash": "fa3ceb10951416a8ca1886baa84adf41",
+    "fuzzy_hash": "19a589331d749c10a50ba0f6df955b9f",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.mirror.co.uk/news/world-news/dubais-burj-khalifa-struck-dramatic-36930785",
+    "timestamp": "2026-03-27T14:04:23.398881+00:00",
+    "status": "rejected",
+    "content_hash": "1b1bf2a5e7d4c196be11b4dc8ced114a",
+    "strict_hash": "1b1bf2a5e7d4c196be11b4dc8ced114a",
+    "fuzzy_hash": "093be177ebfe3553bac05aeba96b4acd",
+    "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (погода, Бурдж-Халифа), но её заголовок и контекст искусственно и бездоказательно связывают локальное погодное явление с военно-политическими событиями в другом государстве (Иран). Это нарушает правила 2 (политика/конфликты), 5 (кликбейт и неестественность) и, вероятно, правило 4 (неуважение через нагнетание паники и ложные ассоциации).\n**Окончательное решение:**"
   }
 ]
