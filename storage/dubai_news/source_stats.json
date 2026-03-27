@@ -707,5 +707,32 @@
     "url": "https://timesofindia.indiatimes.com/world/middle-east/dubai-gold-price-climbs-on-march-27-24k-at-around-dh624-per-gram-as-inflation-fears-drive-buying/articleshow/129842110.cms",
     "timestamp": "2026-03-27T20:50:48.195856+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/trending/dubai-airports-heartwarming-gesture-amid-flight-delays-melts-hearts",
+    "timestamp": "2026-03-27T21:26:02.028819+00:00",
+    "status": "rejected",
+    "content_hash": "12c82555508f0c1aadd0c29b6caa93a8",
+    "strict_hash": "12c82555508f0c1aadd0c29b6caa93a8",
+    "fuzzy_hash": "1a8b4302dbc1253e1b9a88f021d9b2bb",
+    "reason": "Новость подходит, так как имеет прямую связь с Дубаем (аэропорт DXB), позитивный и социально значимый характер, не нарушает установленных правил и может быть интересна жителям. Однако текст обрывается, что требует проверки полной версии на естественность и отсутствие дубликатов."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/in-pics-have-you-seen-these-striking-photos-of-the-rain-in-dubai",
+    "timestamp": "2026-03-27T21:26:09.096880+00:00",
+    "status": "rejected",
+    "content_hash": "f3ab6196d18d712b8200b71d6308202c",
+    "strict_hash": "f3ab6196d18d712b8200b71d6308202c",
+    "fuzzy_hash": "137f4168988fc69bae6b8dc494615d2c",
+    "reason": "Новость подходит, так как напрямую связана с погодным явлением в Дубае, представляет общественный интерес для жителей и не нарушает остальные правила (не политика, не реклама, не противоречит ценностям)."
+  },
+  {
+    "url": "https://www.telegraph.co.uk/racing/2026/03/27/dubai-hosts-racing-world-cup-despite-turmoil-in-region",
+    "timestamp": "2026-03-27T21:26:09.483551+00:00",
+    "status": "rejected",
+    "content_hash": "16b94a2904d13c487f61a11782716675",
+    "strict_hash": "16b94a2904d13c487f61a11782716675",
+    "fuzzy_hash": "ad019e57f2d866f9d0866aa25bbc49c4",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
