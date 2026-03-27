@@ -4,7 +4,9 @@ from pathlib import Path
 from typing import Tuple, Optional, List, Any, Set
 from datetime import datetime, timezone, timedelta
 import hashlib
+import re
 import requests
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 from http_client import request_with_retry
 
 # ================== НАСТРОЙКИ ==================
@@ -29,6 +31,44 @@ DRAFTS_CACHE_PATH = Path("/tmp/drafts.json")
 SOURCE_WINDOW_HOURS = 48
 DRAFT_MAX_AGE_DAYS = 7
 CONTENT_UNIQUE_DAYS = 30  # Сколько дней хранить историю опубликованного контента
+
+def canonicalize_url(url: str) -> str:
+    raw_url = (url or "").strip()
+    if not raw_url:
+        return ""
+    try:
+        parsed = urlparse(raw_url)
+    except Exception:
+        return raw_url
+
+    host = (parsed.netloc or "").lower()
+    path = parsed.path or ""
+    if path != "/":
+        path = path.rstrip("/")
+    filtered_query = []
+    for key, value in parse_qsl(parsed.query, keep_blank_values=True):
+        normalized_key = (key or "").lower()
+        if normalized_key.startswith("utm_") or normalized_key == "fbclid":
+            continue
+        filtered_query.append((key, value))
+    query = urlencode(filtered_query, doseq=True)
+    return urlunparse((parsed.scheme, host, path, parsed.params, query, parsed.fragment))
+
+def normalize_text_for_compare(text: str) -> str:
+    return re.sub(r"\s+", " ", (text or "").strip()).lower()
+
+def generate_content_hashes(title: str, summary: str, url: str) -> tuple[str, str]:
+    canonical_url = canonicalize_url(url)
+    strict_source = f"{(title or '').strip()}|{(summary or '').strip()}|{canonical_url}"
+    fuzzy_source = (
+        f"{normalize_text_for_compare(title)}|"
+        f"{normalize_text_for_compare(summary)}|"
+        f"{canonical_url}"
+    )
+    return (
+        hashlib.md5(strict_source.encode()).hexdigest(),
+        hashlib.md5(fuzzy_source.encode()).hexdigest(),
+    )
 
 # ================== ПРОВЕРКА ИЗОБРАЖЕНИЙ ==================
 
@@ -165,17 +205,18 @@ def is_draft_already_published(draft: dict, history: List[dict]) -> bool:
     main_url = (source_urls[0] or "").strip() if source_urls else ""
     
     # Создаем хеш контента для более точного сравнения
-    content_hash = hashlib.md5(
-        f"{title}|{summary}|{main_url}".encode()
-    ).hexdigest()
+    strict_hash, fuzzy_hash = generate_content_hashes(title, summary, main_url)
+    canonical_main_url = canonicalize_url(main_url)
     
     for published in history:
         # Проверяем по хешу
-        if published.get("content_hash") == content_hash:
+        published_strict = published.get("strict_hash") or published.get("content_hash")
+        published_fuzzy = published.get("fuzzy_hash")
+        if published_strict == strict_hash or (published_fuzzy and published_fuzzy == fuzzy_hash):
             return True
         
         # Проверяем по URL источника (как дополнительная защита)
-        if main_url and published.get("source_url") == main_url:
+        if canonical_main_url and canonicalize_url(published.get("source_url", "")) == canonical_main_url:
             # Если URL уже использовался, проверяем время
             pub_time = datetime.fromisoformat(published["published_at"].replace("Z", "+00:00"))
             now = datetime.now(timezone.utc)
@@ -194,13 +235,20 @@ def add_to_published_history(draft: dict) -> List[dict]:
     
     # Создаем копию драфта для сохранения в историю
     published_entry = draft.copy() if draft else {}
+    source_url = (draft.get("source_urls") or [""])[0]
+    strict_hash, fuzzy_hash = generate_content_hashes(
+        draft.get("title", ""),
+        draft.get("summary_ru", ""),
+        source_url,
+    )
     
     # Добавляем служебные поля
     published_entry.update({
         "published_at": datetime.now(timezone.utc).isoformat(),
-        "content_hash": hashlib.md5(
-            f"{draft.get('title', '')}|{draft.get('summary_ru', '')}|{(draft.get('source_urls') or [''])[0]}".encode()
-        ).hexdigest()
+        "content_hash": strict_hash,
+        "strict_hash": strict_hash,
+        "fuzzy_hash": fuzzy_hash,
+        "source_url": canonicalize_url(source_url),
     })
     
     # Убеждаемся, что сохраняются все ключевые поля
@@ -358,7 +406,8 @@ def is_source_recent(url: str, stats: List[dict]) -> bool:
     Проверяет, был ли URL источника недавно использован для опубликованного поста.
     Игнорирует записи с полем "reason" (отклонённые) и записи без поля "url".
     """
-    if not url:
+    canonical_url = canonicalize_url(url)
+    if not canonical_url:
         return False
         
     for item in stats:
@@ -375,7 +424,7 @@ def is_source_recent(url: str, stats: List[dict]) -> bool:
             continue
             
         # Если нашли совпадение URL, считаем источник недавно использованным
-        if item.get("url") == url:
+        if canonicalize_url(item.get("url", "")) == canonical_url:
             return True
             
     return False
@@ -385,12 +434,13 @@ def add_source_stat(url: str, stats: List[dict]) -> List[dict]:
     Добавляет URL источника в статистику только для опубликованных постов.
     Добавляет флаг status: "published" для ясности.
     """
-    if not url:
+    canonical_url = canonicalize_url(url)
+    if not canonical_url:
         return stats
         
     now = datetime.now(timezone.utc).isoformat()
     stats.append({
-        "url": url, 
+        "url": canonical_url,
         "timestamp": now, 
         "status": "published"  # Явно указываем, что пост был опубликован
     })
