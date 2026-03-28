@@ -752,5 +752,32 @@
     "strict_hash": "c83bb9ae4406174f43d2014184c3aef2",
     "fuzzy_hash": "93806955dc1aee95a3ecfb6fcc5f934d",
     "reason": "**Оценка:** Новость представляет собой подборку детских игровых площадок в Дубае, что напрямую связано с регионом и полезно для целевой аудитории — русскоязычных жителей с детьми. Однако материал имеет явный рекламно-справочный характер без конкретной новостной привязки (открытия, события, изменения) и похож на типовой обзор или пресс-релиз.\n**Решение:**"
+  },
+  {
+    "url": "https://www.the-sun.com/news/16144967/burj-khalifa-lightning-storm-chaos",
+    "timestamp": "2026-03-28T01:11:47.050847+00:00",
+    "status": "rejected",
+    "content_hash": "4c6283065b1fed9b4a78695f7c0577d8",
+    "strict_hash": "4c6283065b1fed9b4a78695f7c0577d8",
+    "fuzzy_hash": "3d7c8fe0f3095181669ac98f8de212ec",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/food-drink/juns-tasting-menu",
+    "timestamp": "2026-03-28T01:11:55.585891+00:00",
+    "status": "rejected",
+    "content_hash": "2a977b6924a52adacd7aa19ee17a670b",
+    "strict_hash": "2a977b6924a52adacd7aa19ee17a670b",
+    "fuzzy_hash": "47a196e81f5f5dde1a36972bab0aaf28",
+    "reason": "Новость о новом гастрономическом предложении в Downtown Dubai (стейк и лобстер за 225 дирхамов) имеет прямую связь с регионом, не нарушает запретных тем и может быть интересна русскоговорящим жителям, интересующимся ресторанами. Однако текст крайне краток и выглядит как рекламный анонс без общественно значимой новостной составляющей."
+  },
+  {
+    "url": "https://www.thesun.ie/news/16742962/burj-khalifa-lightning-storm-chaos",
+    "timestamp": "2026-03-28T01:11:55.865268+00:00",
+    "status": "rejected",
+    "content_hash": "f868f6efa87909e0a303fb60b1bf416f",
+    "strict_hash": "f868f6efa87909e0a303fb60b1bf416f",
+    "fuzzy_hash": "c39b7c928673fa65abaf7e75b2a6beef",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
   }
 ]
