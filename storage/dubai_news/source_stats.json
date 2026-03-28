@@ -806,5 +806,23 @@
     "strict_hash": "b95d7e777a2e0c59a472fbfec1d91142",
     "fuzzy_hash": "2a07246f23b67e5fa6b7109151141002",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.news18.com/india/noida-international-airport-set-to-open-poised-to-transform-up-economy-emulating-dubai-model-ws-l-10001590.html",
+    "timestamp": "2026-03-28T05:49:44.788439+00:00",
+    "status": "rejected",
+    "content_hash": "3881aba4e360047ad5bbf608c9a0c012",
+    "strict_hash": "3881aba4e360047ad5bbf608c9a0c012",
+    "fuzzy_hash": "7de858a85e6f56aeb07727d0b4ee0ca7",
+    "reason": "**Оценка новости:** Новость не имеет прямой связи с Дубаем/ОАЭ, а лишь упоминает \"модель Дубая\" как пример для подражания в другом регионе (Индия). Основное содержание посвящено открытию аэропорта в Индии, что не соответствует правилу №1 о связи с регионом. Также вызывает сомнение интерес для русскоговорящего жителя Дубая (правило №6).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/28/dubai-al-quoz-the-courtyard",
+    "timestamp": "2026-03-28T05:50:41.374588+00:00",
+    "status": "published",
+    "content_hash": "f667cbca7eabb0511646a0240fa8f628",
+    "strict_hash": "f667cbca7eabb0511646a0240fa8f628",
+    "fuzzy_hash": "648459f275b0508381e223d8f8146b4c",
+    "reason": "approved"
   }
 ]
