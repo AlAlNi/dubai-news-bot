@@ -874,5 +874,32 @@
     "strict_hash": "6f36d85e0cb5ed84c16ceb5aeb7703da",
     "fuzzy_hash": "789b622978558ca55ea6add60dcb2888",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.theargus.co.uk/news/national/25976075.fact-check-immigration-returns-miscaptioned-dubai-airport-video",
+    "timestamp": "2026-03-28T08:27:18.094536+00:00",
+    "status": "rejected",
+    "content_hash": "5644d7c65d3644613e838d56e9493ce5",
+    "strict_hash": "5644d7c65d3644613e838d56e9493ce5",
+    "fuzzy_hash": "014cd8b4f57287a28b708fcf03cb525f",
+    "reason": "**Оценка новости:** Новость не имеет связи с Дубаем, ОАЭ или регионом GCC, так как посвящена иммиграционной политике Великобритании и предвыборным обещаниям британской партии Labour. Она также затрагивает тему большой политики."
+  },
+  {
+    "url": "https://emirateswoman.com/lounging-at-home-on-a-rainy-day-12-cozy-sets-to-stay-comfortable-in",
+    "timestamp": "2026-03-28T08:27:27.191110+00:00",
+    "status": "rejected",
+    "content_hash": "6638e8150a9dbc8a7c9cb20808aecc33",
+    "strict_hash": "6638e8150a9dbc8a7c9cb20808aecc33",
+    "fuzzy_hash": "ffdfb7bf72485a48d2ae7af884b8dbae",
+    "reason": "Новость не подходит, так как является рекламным материалом (правило 3) и не несет общественно значимой информации, а также может быть сгенерирована ИИ или носить кликбейтный характер (правило 5). Связь с регионом (погода в ОАЭ) есть, но этого недостаточно."
+  },
+  {
+    "url": "https://www.bournemouthecho.co.uk/news/national/25976075.fact-check-immigration-returns-miscaptioned-dubai-airport-video",
+    "timestamp": "2026-03-28T08:27:27.432213+00:00",
+    "status": "rejected",
+    "content_hash": "5fb9b4a76a38a593185896c2cda1b0ee",
+    "strict_hash": "5fb9b4a76a38a593185896c2cda1b0ee",
+    "fuzzy_hash": "98b5fa7926af55acfb3664387f27b785",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
