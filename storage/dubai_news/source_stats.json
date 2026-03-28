@@ -870,5 +870,32 @@
     "url": "https://economictimes.indiatimes.com/news/international/business/uae-retailers-tap-alternative-ways-to-fill-food-aisle/articleshow/129853849.cms",
     "timestamp": "2026-03-28T13:14:17.357907+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.thehindu.com/real-estate/gulf-tensions-rattle-dubai-real-estate-sector/article70786985.ece",
+    "timestamp": "2026-03-28T13:43:15.582874+00:00",
+    "status": "rejected",
+    "content_hash": "77e8b614c458d05d60d17249e5a7913b",
+    "strict_hash": "77e8b614c458d05d60d17249e5a7913b",
+    "fuzzy_hash": "704c013c969efc2edd7dd2a21862b1cb",
+    "reason": "**Оценка новости:** Новость не подходит, так как нарушает правило №2 (политика и конфликты). Заголовок \"Gulf tensions rattle Dubai real estate sector\" прямо указывает, что основная тема — это влияние региональной напряженности (политический/конфликтный контекст) на экономику Дубая, что является нежелательной темой. Кроме того, текст, судя по началу, представляет собой исторический обзор, а не актуальное событие, что может не соответствовать критерию новизны и интереса (правило 6)."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-public-holidays-2027",
+    "timestamp": "2026-03-28T13:43:18.379057+00:00",
+    "status": "rejected",
+    "content_hash": "185ccbd7bdd9be4f509bd15f297a40d4",
+    "strict_hash": "185ccbd7bdd9be4f509bd15f297a40d4",
+    "fuzzy_hash": "8d29c2a76601427033874f894632a109",
+    "reason": "Cheap prefilter: слишком короткий текст (101 символов)"
+  },
+  {
+    "url": "https://www.perthnow.com.au/news/australians-warned-of-heightened-risks-in-dubai-hotels-c-22061169",
+    "timestamp": "2026-03-28T13:43:25.294769+00:00",
+    "status": "rejected",
+    "content_hash": "aae6621cec1ba4c8d3c06d4279f1efd5",
+    "strict_hash": "aae6621cec1ba4c8d3c06d4279f1efd5",
+    "fuzzy_hash": "e13872eb0f17487c492b4808957c61ec",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (правило 1), но является предупреждением иностранного правительства о «повышенных рисках» для безопасности туристов. Основная тема — безопасность, а не большая политика или конфликты (правило 2), однако сам факт официального предупреждения может негативно повлиять на имидж эмирата и быть воспринят как неуважение к стабильности и безопасности ОАЭ (правило 4). Для русскоязычного жителя Дубая это может быть полезной информацией (правило 6), но потенциальный ущерб репутации и возможная паника перевешивают новостную ценность."
   }
 ]
