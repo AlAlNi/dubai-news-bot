@@ -1096,7 +1096,7 @@ def is_news_allowed_by_deepseek(title: str, description: str, content_hash: str,
 
 def process_with_deepseek_simple(title: str, description: str) -> str:
     if not DEEPSEEK_API_KEY:
-        return f"**{title}**\n\nНовость о Дубае. Подробности по ссылке."
+        return build_fallback_summary(title, description)
 
     try:
         title = safe_strip(title)
@@ -1109,7 +1109,7 @@ def process_with_deepseek_simple(title: str, description: str) -> str:
             
         safe_description = description[:2000]
         
-        prompt = f"""Напиши короткую новость для телеграм-канала на русском языке.
+        prompt = f"""Напиши содержательную новость для телеграм-канала на русском языке.
 Заголовок: {title}
 Текст новости:
 {safe_description}
@@ -1119,12 +1119,14 @@ def process_with_deepseek_simple(title: str, description: str) -> str:
 2. Сохрани ВСЕ факты, цифры, локации, имена, даты
 3. Переведи заголовок и оберни в <b>...</b> в начало добавь уместные эмодзи
 4. Перескажи текст своими словами, но БЕЗ изменений фактов
-5. Убедитесь, что текст звучит естественно, разнообразен по длине предложений и включает естественные переходы.
+5. Текст должен звучать естественно, разнообразно по длине предложений и включать плавные переходы.
 6. Применяй смайлики и эмодзи, а также <blockquote>цитата</blockquote> но исключительно в подходящих случаях
 7. Если есть список элементов - сохрани его полностью 
 8. Не добавлять ссылку на источник — она будет добавлена отдельно
-9. Объем: 300-450 символов
+9. Объем: 450-700 символов
 10. Добавь 2-3 хэштега
+11. Запрещены общие фразы-заглушки в стиле "Новость о Дубае. Подробности по ссылке."
+12. Если данных мало, все равно дай минимум 2 конкретных факта из текста (кто/что/где/когда/почему это важно).
 """
         response = request_with_retry("POST", 
             "https://api.deepseek.com/v1/chat/completions",
@@ -1145,13 +1147,60 @@ def process_with_deepseek_simple(title: str, description: str) -> str:
         )
         if response.status_code == 200:
             result = response.json()
-            return result["choices"][0]["message"]["content"].strip()
+            generated_text = result["choices"][0]["message"]["content"].strip()
+            return ensure_summary_quality(generated_text, title, description)
         else:
             print(f"⚠️ DeepSeek ошибка: {response.status_code}")
-            return f"**{title}**\n\nНовость о Дубае. Подробности по ссылке."
+            return build_fallback_summary(title, description)
     except Exception as e:
         print(f"⚠️ DeepSeek ошибка: {e}")
-        return f"**{title}**\n\nНовость о Дубае. Подробности по ссылке."
+        return build_fallback_summary(title, description)
+
+def _to_plain_text(text: str) -> str:
+    cleaned = safe_strip(text)
+    cleaned = re.sub(r"<[^>]+>", " ", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned.strip()
+
+def _split_sentences(text: str) -> List[str]:
+    plain = _to_plain_text(text)
+    if not plain:
+        return []
+    parts = re.split(r"(?<=[.!?])\s+", plain)
+    return [part.strip() for part in parts if len(part.strip()) > 20]
+
+def build_fallback_summary(title: str, description: str) -> str:
+    safe_title = safe_strip(title) or "Новость из Дубая"
+    sentences = _split_sentences(description)
+    facts = sentences[:3]
+    if not facts:
+        facts = [safe_strip(description)[:320] or "Появились новые подробности по теме, важной для жителей и гостей Дубая."]
+    body = " ".join(facts).strip()
+
+    if len(body) < 220:
+        body = (
+            f"{body} Материал может быть важен для жителей эмирата, "
+            "потому что влияет на городские тренды, бизнес-среду и повседневную жизнь."
+        ).strip()
+
+    hashtags = "#Дубай #ОАЭ #Новости"
+    return f"<b>📰 {safe_title}</b>\n\n{body}\n\n{hashtags}"
+
+def ensure_summary_quality(summary: str, title: str, description: str) -> str:
+    text = safe_strip(summary)
+    lowered = text.lower()
+    generic_markers = (
+        "новость о дубае",
+        "подробности по ссылке",
+        "читайте по ссылке",
+    )
+    too_short = len(_to_plain_text(text)) < 280
+    too_generic = any(marker in lowered for marker in generic_markers)
+
+    if not text or too_short or too_generic:
+        print("⚠️ Сгенерирован слишком короткий/общий summary, используем fallback")
+        return build_fallback_summary(title, description)
+    return text
 
 def can_call_deepseek(deepseek_context: Dict[str, int]) -> bool:
     return deepseek_context.get("calls_made", 0) < deepseek_context.get("max_calls", MAX_DEEPSEEK_CALLS_PER_RUN)
@@ -1309,7 +1358,7 @@ def process_news_item(
     if consume_deepseek_call(deepseek_context, "summary generation"):
         summary_ru = process_with_deepseek_simple(title, description)
     else:
-        summary_ru = f"**{title}**\n\nНовость о Дубае. Подробности по ссылке."
+        summary_ru = build_fallback_summary(title, description)
 
     image_url = fetch_image_for_news(news_item)
 
