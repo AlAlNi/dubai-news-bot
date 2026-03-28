@@ -912,5 +912,32 @@
     "url": "https://propertynews.ae/uae/dubai/dubai-developers-confirm-on-time-project-deliveries-despite-ongoing-regional-conflict",
     "timestamp": "2026-03-28T15:40:00.792268+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://indianexpress.com/article/world/dubai-uae-saudi-arabia-bahrain-qatar-iran-us-israel-live-updates-10605758",
+    "timestamp": "2026-03-28T16:21:26.103298+00:00",
+    "status": "rejected",
+    "content_hash": "eea896b588bafdf7bc3f6870865d6dd4",
+    "strict_hash": "eea896b588bafdf7bc3f6870865d6dd4",
+    "fuzzy_hash": "9bdb4c396912c4733bfb324c37387bc5",
+    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ, её основная тема — военный конфликт и большая политика (атака на базу в Саудовской Аравии, война с Ираном), что прямо нарушает правила 1 и 2. Текст также выглядит как отрывок с сомнительной достоверностью.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/food-drink/new-dining-deals-dubai-march-2026",
+    "timestamp": "2026-03-28T16:21:29.324274+00:00",
+    "status": "rejected",
+    "content_hash": "92435c491a29e75d380d6c1f93ba486c",
+    "strict_hash": "92435c491a29e75d380d6c1f93ba486c",
+    "fuzzy_hash": "58f5e93488d5e6b7e641575f84091aaa",
+    "reason": "Cheap prefilter: слишком короткий текст (114 символов)"
+  },
+  {
+    "url": "https://www.news18.com/world/dubai-uae-qatar-iran-war-news-live-west-asia-conflict-updates-today-abu-dhabi-kuwait-saudi-airport-flight-status-missile-attacks-latest-news-liveblog-10001816.html",
+    "timestamp": "2026-03-28T16:21:34.436497+00:00",
+    "status": "rejected",
+    "content_hash": "a724e3c12d7cfbded17edb0936d5c915",
+    "strict_hash": "a724e3c12d7cfbded17edb0936d5c915",
+    "fuzzy_hash": "3be09e9b2206e38a4e8acecce266e90a",
+    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ, так как её основное содержание — о переключении азиатских нефтепереработчиков на другой ценовой ориентир из-за роста маркера Dubai. Заголовок о ракетной атаке вводит в заблуждение и не соответствует тексту, что является признаком кликбейта.\n**Окончательное решение:**"
   }
 ]
