@@ -847,5 +847,32 @@
     "url": "https://emirateswoman.com/16-refined-homegrown-uae-fashion-labels-gone-global",
     "timestamp": "2026-03-28T08:52:49.504563+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.zerohedge.com/commodities/asia-begins-pricing-us-oil-against-brent-dubai-volatility-spikes",
+    "timestamp": "2026-03-28T09:27:06.020951+00:00",
+    "status": "rejected",
+    "content_hash": "aa11352a6b2a359621cfa1350031baa1",
+    "strict_hash": "aa11352a6b2a359621cfa1350031baa1",
+    "fuzzy_hash": "5e1423b1f239d1fc8751fa4bfa58ab53",
+    "reason": "Новость о смене ценового ориентира для азиатских покупателей нефти напрямую связана с волатильностью дубайской марки, что соответствует региональной тематике, и может быть интересна для профессиональной аудитории, связанной с экономикой и энергетикой."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/28/crucial-talks-in-abu-dhabi-presidents-of-uae-ukraine-address-security-cooperation",
+    "timestamp": "2026-03-28T09:27:12.362832+00:00",
+    "status": "rejected",
+    "content_hash": "0477c70d7f4309f4c6f74d72f1a893ea",
+    "strict_hash": "0477c70d7f4309f4c6f74d72f1a893ea",
+    "fuzzy_hash": "4d3aff016027d8a3f263e0a0fc9a426e",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (встреча президентов в Абу-Даби), но её основная тема — большая политика и международный конфликт (безопасность, агрессия, Украина), что нарушает правило №2. Также она может содержать элементы пресс-релиза (правило №3).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.independent.co.uk/news/world/middle-east/burj-khalifa-lightning-dubai-heavy-storm-b2947334.html",
+    "timestamp": "2026-03-28T09:27:12.559010+00:00",
+    "status": "rejected",
+    "content_hash": "1c537d3b499d0021e908c2f87494bede",
+    "strict_hash": "1c537d3b499d0021e908c2f87494bede",
+    "fuzzy_hash": "1600caaa009e6faa2a47f988c0ca2325",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
