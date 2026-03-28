@@ -10,7 +10,7 @@ DEFAULT_BACKOFF_SECONDS = 0.8
 DEFAULT_MAX_BACKOFF_SECONDS = 8.0
 DEFAULT_JITTER_SECONDS = 0.35
 RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
-RETRYABLE_METHODS = {"GET", "HEAD", "POST"}
+RETRYABLE_METHODS = {"GET", "HEAD"}
 
 
 def _build_delay(
@@ -38,6 +38,7 @@ def request_with_retry(
     backoff_seconds: float = DEFAULT_BACKOFF_SECONDS,
     max_backoff_seconds: float = DEFAULT_MAX_BACKOFF_SECONDS,
     jitter_seconds: float = DEFAULT_JITTER_SECONDS,
+    retryable_methods: Optional[set[str]] = None,
     **kwargs: Any,
 ) -> requests.Response:
     """
@@ -47,7 +48,8 @@ def request_with_retry(
     - HTTP 429/5xx.
     """
     normalized_method = method.upper()
-    retryable_method = _is_retryable_method(normalized_method)
+    allowed_methods = retryable_methods if retryable_methods is not None else RETRYABLE_METHODS
+    retryable_method = normalized_method in {m.upper() for m in allowed_methods}
     last_exception: Optional[Exception] = None
 
     for attempt in range(1, max_attempts + 1):

@@ -163,7 +163,7 @@ def canonicalize_url(url: str) -> str:
         filtered_query.append((key, value))
 
     query = urlencode(filtered_query, doseq=True)
-    return urlunparse((parsed.scheme, host, path, parsed.params, query, parsed.fragment))
+    return urlunparse((parsed.scheme, host, path, parsed.params, query, ""))
 
 def extract_domain(url: str) -> str:
     raw_url = safe_strip(url)
