@@ -52,7 +52,7 @@ def canonicalize_url(url: str) -> str:
             continue
         filtered_query.append((key, value))
     query = urlencode(filtered_query, doseq=True)
-    return urlunparse((parsed.scheme, host, path, parsed.params, query, parsed.fragment))
+    return urlunparse((parsed.scheme, host, path, parsed.params, query, ""))
 
 def normalize_text_for_compare(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").strip()).lower()
