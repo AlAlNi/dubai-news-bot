@@ -829,5 +829,32 @@
     "url": "https://backend.gulfbusiness.com/blog/2026/03/28/dubai-al-quoz-the-courtyard",
     "timestamp": "2026-03-28T06:04:08.509126+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.racingpost.com/news/raceday-intel/the-track-will-suit-him-perfectly-race-in-focus-three-horses-to-note-and-the-best-quotes-for-the-dubai-world-cup-card-at-meydan-aBh7a7z6LNp3",
+    "timestamp": "2026-03-28T06:45:24.335046+00:00",
+    "status": "rejected",
+    "content_hash": "4dd32d55f52bb22c0ba7dff2ebe8220b",
+    "strict_hash": "4dd32d55f52bb22c0ba7dff2ebe8220b",
+    "fuzzy_hash": "d26d36e24995de41e4daf5e05a3e3ed1",
+    "reason": "Новость посвящена ключевому спортивному событию в Дубае (Dubai World Cup в Meydan), что соответствует правилам о связи с регионом и интересе для местных жителей, и не нарушает остальные запрещающие критерии."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/35-of-the-best-roast-dinners-in-dubai",
+    "timestamp": "2026-03-28T06:45:31.532458+00:00",
+    "status": "rejected",
+    "content_hash": "59418c044554a29f7bdcd5b448a7ab72",
+    "strict_hash": "59418c044554a29f7bdcd5b448a7ab72",
+    "fuzzy_hash": "ef6606ebbbce0d550ea4871f279eeec9",
+    "reason": "Новость представляет собой рекламный/развлекательный список заведений без конкретной общественно значимой информации, что нарушает правило 3, а также может быть сгенерирована ИИ или являться кликбейтом (правило 5). Связь с Дубаем есть, но новость не несет практической пользы или актуальности для жителя."
+  },
+  {
+    "url": "https://www.racingpost.com/news/raceday-intel/there-are-enough-niggling-concerns-can-three-of-the-best-horses-in-the-world-shine-on-dubai-world-cup-night-aDHHc9X82cKs",
+    "timestamp": "2026-03-28T06:45:31.682472+00:00",
+    "status": "rejected",
+    "content_hash": "254b8b2d5f8ad56f789f5eb667a340bf",
+    "strict_hash": "254b8b2d5f8ad56f789f5eb667a340bf",
+    "fuzzy_hash": "e4218cf5d7e21c4640c4c2f442493b22",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
