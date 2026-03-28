@@ -779,5 +779,32 @@
     "strict_hash": "f868f6efa87909e0a303fb60b1bf416f",
     "fuzzy_hash": "c39b7c928673fa65abaf7e75b2a6beef",
     "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.dallasnews.com/business/real-estate/2026/03/26/dubai-developer-abandons-planned-2300-acre-d-fw-project",
+    "timestamp": "2026-03-28T04:09:50.874864+00:00",
+    "status": "rejected",
+    "content_hash": "8cde933ed83771703d22d32bd1f0b227",
+    "strict_hash": "8cde933ed83771703d22d32bd1f0b227",
+    "fuzzy_hash": "cb175c9bd25f5aef2245a1c44b7ff16c",
+    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ, так как описывает отказ от проекта в США (Техас). Основной фокус — на действиях зарубежного девелопера и местных властей другого государства, что не соответствует правилам канала."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/8-of-the-best-garden-cafes-in-dubai-for-a-zen-escape",
+    "timestamp": "2026-03-28T04:09:59.467995+00:00",
+    "status": "rejected",
+    "content_hash": "cfe1d38fa67ab74c652670af0d75f6c2",
+    "strict_hash": "cfe1d38fa67ab74c652670af0d75f6c2",
+    "fuzzy_hash": "12bbb4bde4b3c04cd143263a02aeaa9d",
+    "reason": "**Оценка:** Новость представляет собой подборку садовых кафе в Дубае, что напрямую связано с регионом и может быть полезно для русскоговорящих жителей, ищущих места для отдыха. Однако текст носит ярко выраженный рекламно-развлекательный характер, похож на пресс-релиз или контент из глянцевого журнала, и не содержит конкретной общественно значимой новости (например, открытия нового заведения, события или изменения)."
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-tourism-return-influencers-uk-iran-b2947106.html",
+    "timestamp": "2026-03-28T04:09:59.701151+00:00",
+    "status": "rejected",
+    "content_hash": "b95d7e777a2e0c59a472fbfec1d91142",
+    "strict_hash": "b95d7e777a2e0c59a472fbfec1d91142",
+    "fuzzy_hash": "2a07246f23b67e5fa6b7109151141002",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
