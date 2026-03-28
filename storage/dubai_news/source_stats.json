@@ -936,5 +936,23 @@
     "strict_hash": "6e099b475b2b0318e5638537c7a9ebd6",
     "fuzzy_hash": "978ad0d24c71554d46173e0566d7362c",
     "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (инцидент в Абу-Даби), имеет общественную значимость (происшествие на промышленном объекте с пострадавшими) и не является рекламой. Однако она нарушает правило №2, так как её основная тема — военный конфликт (иранские атаки), что не соответствует редакционной политике канала.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.newsx.com/world/dubai-airport-open-or-closed-today-march-28-2026-emirates-flights-delayed-check-air-india-indigo-flight-status-schedule-rebooking-refund-189900",
+    "timestamp": "2026-03-28T19:22:40.913061+00:00",
+    "status": "rejected",
+    "content_hash": "4d7d9485872c63c6faf937b4531435e9",
+    "strict_hash": "4d7d9485872c63c6faf937b4531435e9",
+    "fuzzy_hash": "2b706c0c37574de5345b6e83296aa549",
+    "reason": "**Оценка новости:** Новость напрямую связана с работой аэропорта Дубая и статусом рейсов, что актуально для жителей и гостей ОАЭ. Однако заголовок и начало текста имеют явные признаки кликбейта и, возможно, сгенерированного контента, что нарушает правило №5."
+  },
+  {
+    "url": "https://propertynews.ae/guide/dubai-construction-sector-shows-strong-growth-momentum-in-q1-2026",
+    "timestamp": "2026-03-28T19:22:54.195317+00:00",
+    "status": "published",
+    "content_hash": "d6897da62f99e532fbd0ce269ed566ad",
+    "strict_hash": "d6897da62f99e532fbd0ce269ed566ad",
+    "fuzzy_hash": "76a6fd67ffca1ac058dded7d9fc4d1aa",
+    "reason": "approved"
   }
 ]
