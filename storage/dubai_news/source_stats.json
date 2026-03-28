@@ -933,5 +933,32 @@
     "url": "https://propertynews.ae/guide/dubai-construction-sector-shows-strong-growth-momentum-in-q1-2026",
     "timestamp": "2026-03-28T19:37:40.710600+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.newsx.com/world/dubai-international-airport-dxb-viral-video-watch-appears-deserted-in-clip-amid-us-israel-iran-war-leaving-viewers-shocked-as-social-media-reacts-189923",
+    "timestamp": "2026-03-28T20:18:28.825390+00:00",
+    "status": "rejected",
+    "content_hash": "b06070d0d536883310d05432faa7d3aa",
+    "strict_hash": "b06070d0d536883310d05432faa7d3aa",
+    "fuzzy_hash": "802f05a98e97ea9f684a58497768f754",
+    "reason": "Новость не подходит, так как нарушает правило №2 (основная тема — военно-политический конфликт) и правило №5 (кликбейтный заголовок, спекулирующий на теме войны и шоке зрителей). Связь с Дубаем есть, но подача неприемлема."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/03/27/middle-east-real-estate-investment-2026-geopolitical-outlook",
+    "timestamp": "2026-03-28T20:18:37.667184+00:00",
+    "status": "rejected",
+    "content_hash": "351d272cc517a34344582a022dd786cf",
+    "strict_hash": "351d272cc517a34344582a022dd786cf",
+    "fuzzy_hash": "71da3e02a2f027f3d69e11d893377740",
+    "reason": "**Оценка новости:** Новость носит общий аналитический характер о глобальном рынке недвижимости с упоминанием геополитики, но не имеет явной и конкретной связи с Дубаем/ОАЭ. Текст выглядит как фрагмент аналитического обзора или пресс-релиза без общественно значимой новости для жителя Дубая.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-police-arrest-5-in-dubai-linked-investment-scam-rs-12-22-lakh-cheated/articleshow/129860095.cms",
+    "timestamp": "2026-03-28T20:18:37.863126+00:00",
+    "status": "rejected",
+    "content_hash": "c16c99bf75a71084306509ad15a82474",
+    "strict_hash": "c16c99bf75a71084306509ad15a82474",
+    "fuzzy_hash": "cd5328a58be4006abd9f0060de95ed24",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
