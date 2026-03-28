@@ -927,5 +927,32 @@
     "url": "https://www.newsx.com/world/uae-weather-today-on-march-28-authorities-confirm-rain-thunderstorms-conditions-ended-check-dubai-abu-dhabi-weather-forecast-189974",
     "timestamp": "2026-03-28T21:38:49.487416+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://techbullion.com/from-moscows-legacy-to-dubais-horizon-elena-yurgenevas-inspiring-path-in-luxury-real-estate",
+    "timestamp": "2026-03-28T22:18:13.761586+00:00",
+    "status": "rejected",
+    "content_hash": "e868ea97062082e817d8b6836a80cdd3",
+    "strict_hash": "e868ea97062082e817d8b6836a80cdd3",
+    "fuzzy_hash": "259c2168fd80ed35d9bba6e25cced722",
+    "reason": "**Оценка новости:** Новость представляет собой рекламный материал о персоне в сфере недвижимости, написанный в стиле пресс-релиза или биографической зарисовки. Она имеет связь с Дубаем, но нарушает правило №3 (Рекламный характер), так как не содержит общественно значимой новости, а продвигает конкретного человека и её компанию. Также вызывает сомнения в естественности текста (правило №5).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/food-drink/budget-restaurants-dubai-under-dh150-for-two",
+    "timestamp": "2026-03-28T22:18:17.201999+00:00",
+    "status": "rejected",
+    "content_hash": "6309db140fd0eb851283e57628cdf562",
+    "strict_hash": "6309db140fd0eb851283e57628cdf562",
+    "fuzzy_hash": "a1b308e67255416823f09c69331becbd",
+    "reason": "Cheap prefilter: слишком короткий текст (106 символов)"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/dubai-crown-prince-sheikh-hamdan-bin-mohammed-al-maktoum-drops-viral-picture-of-lightning-strike-on-burj-khalifa-why-worlds-tallest-tower-doesnt-flinch-explained/articleshow/129861357.cms",
+    "timestamp": "2026-03-28T22:18:21.214528+00:00",
+    "status": "published",
+    "content_hash": "fd027d8056d587817eb7833a70b6e146",
+    "strict_hash": "fd027d8056d587817eb7833a70b6e146",
+    "fuzzy_hash": "00b85693e039fb974a4b82ea84647af9",
+    "reason": "approved"
   }
 ]
