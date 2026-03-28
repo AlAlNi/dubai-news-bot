@@ -856,5 +856,23 @@
     "strict_hash": "254b8b2d5f8ad56f789f5eb667a340bf",
     "fuzzy_hash": "e4218cf5d7e21c4640c4c2f442493b22",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.racingpost.com/news/international/dubai-world-cup-fixture-set-to-go-ahead-despite-torrential-downpours-and-ongoing-conflict-in-middle-east-aMFDH1a32igD",
+    "timestamp": "2026-03-28T07:38:07.890078+00:00",
+    "status": "rejected",
+    "content_hash": "380cb018116834f69fee0c3a1639b31e",
+    "strict_hash": "380cb018116834f69fee0c3a1639b31e",
+    "fuzzy_hash": "426cc8c7543cc0a4ee8ad557ea047366",
+    "reason": "**Оценка новости:** Новость напрямую связана с ключевым событием в Дубае (Dubai World Cup), что соответствует правилу 1. Однако она нарушает правило 2, так как акцент делается на «войне на пороге» (war on its doorstep) и конфликте в регионе, что является нежелательной темой. Также есть риск нарушения правила 4, так как упоминание конфликта может быть воспринято как неуважение к стабильному имиджу ОАЭ.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://emirateswoman.com/16-refined-homegrown-uae-fashion-labels-gone-global",
+    "timestamp": "2026-03-28T07:38:17.738845+00:00",
+    "status": "published",
+    "content_hash": "6f36d85e0cb5ed84c16ceb5aeb7703da",
+    "strict_hash": "6f36d85e0cb5ed84c16ceb5aeb7703da",
+    "fuzzy_hash": "789b622978558ca55ea6add60dcb2888",
+    "reason": "approved"
   }
 ]
