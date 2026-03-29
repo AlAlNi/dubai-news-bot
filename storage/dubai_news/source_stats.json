@@ -1011,5 +1011,32 @@
     "url": "https://backend.gulfbusiness.com/blog/2026/03/29/magnitude-wins-dubai-world-cup-2026",
     "timestamp": "2026-03-29T08:54:13.628325+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.thesun.ie/fabulous/16748739/kerry-katona-onlyfans-millionaire-row-katie-price",
+    "timestamp": "2026-03-29T09:02:56.830004+00:00",
+    "status": "rejected",
+    "content_hash": "ffb03c00d44c16b7514a0f19051df741",
+    "strict_hash": "ffb03c00d44c16b7514a0f19051df741",
+    "fuzzy_hash": "28de120d33d9349d0e4ceae651119bb3",
+    "reason": "**Оценка новости:** Новость посвящена личной жизни и интервью британской знаменитости Керри Катоны, где она упоминает ссору в Дубае. Связь с регионом косвенная и второстепенная, основное содержание — сенсационное личное откровение звезды, что близко к кликбейту и не несет значимой пользы для русскоязычного жителя Дубая.\n**Решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/03/4-venues-dubai-most-iconic-ladies-night",
+    "timestamp": "2026-03-29T09:03:06.063406+00:00",
+    "status": "rejected",
+    "content_hash": "61bfca7c1157af805038ad33f795f47b",
+    "strict_hash": "61bfca7c1157af805038ad33f795f47b",
+    "fuzzy_hash": "95378b2bdef869e0aefcd72c035a3356",
+    "reason": "Новость подходит, так как напрямую связана с Дубаем (мероприятие в Pier 7), не нарушает запретных тем, имеет практическую пользу и интерес для целевой аудитории (русскоязычные жительницы Дубая), и не выглядит как откровенная реклама или кликбейт."
+  },
+  {
+    "url": "https://www.thesun.co.uk/fabulous/38603529/kerry-katona-onlyfans-millionaire-row-katie-price",
+    "timestamp": "2026-03-29T09:03:06.282193+00:00",
+    "status": "rejected",
+    "content_hash": "c920ce5597810784515d9423f909a622",
+    "strict_hash": "c920ce5597810784515d9423f909a622",
+    "fuzzy_hash": "727bae0f7452c0345ba9ad5c35106b18",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
