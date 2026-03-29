@@ -1101,5 +1101,23 @@
     "strict_hash": "19e9b0eb190ae2d0de710bdb0af9576a",
     "fuzzy_hash": "959279ee2b78a23e1db003a5325569b7",
     "reason": "Новость напрямую связана с ОАЭ (визит в Абу-Даби), но её основная тема — большая политика и международный конфликт, что нарушает правило №2."
+  },
+  {
+    "url": "https://www.dailyexcelsior.com/iran-attacks-us-navy-ship-in-port-of-salalah-in-oman-threaten-forces-in-dubai",
+    "timestamp": "2026-03-29T12:31:54.466843+00:00",
+    "status": "rejected",
+    "content_hash": "5f08ee0ef516202dd6e20d11ddb866ae",
+    "strict_hash": "5f08ee0ef516202dd6e20d11ddb866ae",
+    "fuzzy_hash": "95af07a66f92c178020dc300e3d7e74a",
+    "reason": "Новость не подходит, так как нарушает правило №2 (политика и конфликты), так как описывает военное нападение, и правило №4 (уважение к ценностям ОАЭ), так как содержит угрозы силам в Дубае, что создаёт негативный и дестабилизирующий контекст для региона."
+  },
+  {
+    "url": "https://www.dailyexcelsior.com/5-indians-injured-in-uae-by-debris-following-interception-of-ballistic-missile-report",
+    "timestamp": "2026-03-29T12:32:18.729185+00:00",
+    "status": "rejected",
+    "content_hash": "60f7219cb1f2ad19534d1d47a0c9da2d",
+    "strict_hash": "60f7219cb1f2ad19534d1d47a0c9da2d",
+    "fuzzy_hash": "43b2fcdb7e1c9f0b9654e3dab1535d26",
+    "reason": "**Оценка новости:** Новость имеет прямую связь с ОАЭ (инцидент на территории страны), но её основная тема — военный конфликт и угроза безопасности, что нарушает правило о политике и конфликтах. Это событие также может негативно влиять на имидж безопасности региона.\n**Окончательное решение:**"
   }
 ]
