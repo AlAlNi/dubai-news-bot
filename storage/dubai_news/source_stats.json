@@ -1038,5 +1038,32 @@
     "strict_hash": "c920ce5597810784515d9423f909a622",
     "fuzzy_hash": "727bae0f7452c0345ba9ad5c35106b18",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.dailymail.co.uk/news/article-15687767/Scotlands-high-profile-gangland-figures-arrested-Bali.html",
+    "timestamp": "2026-03-29T09:27:40.699957+00:00",
+    "status": "rejected",
+    "content_hash": "7a124c7c3ba646176aee21e34d37f5b6",
+    "strict_hash": "7a124c7c3ba646176aee21e34d37f5b6",
+    "fuzzy_hash": "472bb12a6f11c409438b3238b51c57cd",
+    "reason": "Новость не подходит, так как не имеет явной связи с Дубаем (нарушение правила 1), её основная тема — криминал и деятельность преступных группировок, что не соответствует позитивной повестке канала и может быть воспринято как неуважение к ценностям ОАЭ (правило 4). Также она вряд ли будет полезна или интересна русскоговорящим жителям Дубая (правило 6)."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/cycling-in-dubai-just-got-better-with-13-new-cycling-tracks",
+    "timestamp": "2026-03-29T09:27:46.917681+00:00",
+    "status": "rejected",
+    "content_hash": "2ed66790fae8bda44494e76f2357d477",
+    "strict_hash": "2ed66790fae8bda44494e76f2357d477",
+    "fuzzy_hash": "17124276b168246e8f5d4344065228c0",
+    "reason": "Новость подходит, так как напрямую связана с инфраструктурными улучшениями в Дубае (RTA), не нарушает запретных тем, имеет практическую пользу для жителей и не выглядит рекламой или сгенерированным ИИ-текстом."
+  },
+  {
+    "url": "https://www.racingpost.com/news/reports/us-raider-magnitude-foils-forever-young-in-dubai-world-cup-after-calandagan-and-ombudsman-strut-their-stuff-a2NT99N0SFIg",
+    "timestamp": "2026-03-29T09:27:47.113562+00:00",
+    "status": "rejected",
+    "content_hash": "eb963fe02e2e31e186f839432b4a8a70",
+    "strict_hash": "eb963fe02e2e31e186f839432b4a8a70",
+    "fuzzy_hash": "84bc1723c2dabe715aab708c20abe6a8",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
