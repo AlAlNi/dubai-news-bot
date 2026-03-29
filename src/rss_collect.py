@@ -1204,6 +1204,15 @@ def build_fallback_summary(title: str, description: str) -> str:
     hashtags = "#Дубай #ОАЭ #Новости"
     return f"<b>📰 Обновление по теме Дубая</b>\n\n{original_title_block}{body}\n\n{hashtags}"
 
+def is_fallback_summary(summary: str) -> bool:
+    plain = _to_plain_text(summary).lower()
+    fallback_markers = (
+        "обновление по теме дубая",
+        "редакция подготовит расширенный пересказ",
+        "по данным источника, появилась новая информация",
+    )
+    return any(marker in plain for marker in fallback_markers)
+
 def ensure_summary_quality(summary: str, title: str, description: str) -> str:
     text = safe_strip(summary)
     lowered = text.lower()
@@ -1374,12 +1383,17 @@ def process_news_item(
     print(f"✅ Новость одобрена редактором: {title[:80]}...")
 
     current_time = datetime.now(timezone.utc).isoformat()
+    image_url = fetch_image_for_news(news_item)
+
     if consume_deepseek_call(deepseek_context, "summary generation"):
         summary_ru = process_with_deepseek_simple(title, description)
     else:
         summary_ru = build_fallback_summary(title, description)
 
-    image_url = fetch_image_for_news(news_item)
+    if is_fallback_summary(summary_ru):
+        print(f"🚫 Новость отклонена: fallback-summary недопустим: {title[:80]}...")
+        mark_news_as_rejected(news_item, "Некачественный fallback summary")
+        return None
 
     draft: Dict[str, Any] = {
         "source_name": news_item.get("source", "Unknown"),
