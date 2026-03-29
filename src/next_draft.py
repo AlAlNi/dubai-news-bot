@@ -531,6 +531,11 @@ def get_next_post_payload_with_image() -> Tuple[Optional[str], Optional[str], Op
             # Начинаем поиск заново с обновленным списком
             return get_next_post_payload_with_image()
 
+        candidate_image_url = (candidate.get("image_url") or "").strip()
+        if candidate_image_url and not is_valid_image_url(candidate_image_url):
+            print(f"⏭️ Пропускаем: изображение невалидно")
+            continue
+
         # Нашли подходящий черновик
         draft = candidate
         draft_index = i
@@ -562,16 +567,12 @@ def get_next_post_payload_with_image() -> Tuple[Optional[str], Optional[str], Op
 
     text = format_draft_for_telegram(draft)
 
-    # Проверяем валидность URL изображения
+    # В цикле выше проверили: если изображение есть, то оно валидно.
     image_url = (draft.get("image_url") or "").strip()
     if image_url:
-        if is_valid_image_url(image_url):
-            print(f"✅ Используем валидное изображение: {image_url}")
-        else:
-            print(f"⚠️ Изображение невалидно, отправляем пост без картинки")
-            image_url = None
+        print(f"✅ Используем валидное изображение: {image_url}")
     else:
-        print("📝 В драфте нет image_url, отправляем пост без картинки")
+        print("📝 У драфта нет изображения, публикуем текстовый пост")
 
     return text, image_url, draft
 

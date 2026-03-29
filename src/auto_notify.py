@@ -246,12 +246,10 @@ def send_telegram_message(text: str, image_url: str = None, retry_without_image:
             print(f"❌ Ошибка Telegram API: {resp.status_code}")
             print(f"   Ответ: {resp.text[:200]}")
             
-            # Если ошибка с фото и разрешена повторная попытка без фото
+            # Если фото отклонено Telegram, пробуем отправить пост без фото.
             if image_url and retry_without_image and resp.status_code == 400:
-                error_text = resp.text.lower()
-                if "wrong type of the web page content" in error_text or "bad request" in error_text:
-                    print("🔄 Фото невалидно, пробуем отправить без фото...")
-                    return send_telegram_message(text, image_url=None, retry_without_image=False)
+                print("🔄 Фото отклонено Telegram, пробуем отправить без фото...")
+                return send_telegram_message(text, image_url=None, retry_without_image=False)
             
             return {
                 "success": False,
