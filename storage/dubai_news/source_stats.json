@@ -1033,5 +1033,23 @@
     "strict_hash": "1a9761ca56ab2e5190584e43ad2f2150",
     "fuzzy_hash": "97fd77824002200e33a7de6ffb891949",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://wtop.com/sports/2026/03/magnitude-wins-dubai-gold-cup-after-12m-race-goes-ahead-despite-the-war-in-iran",
+    "timestamp": "2026-03-29T07:45:23.836379+00:00",
+    "status": "rejected",
+    "content_hash": "b61bf597f6f7cba35d44a5a8e66298ae",
+    "strict_hash": "b61bf597f6f7cba35d44a5a8e66298ae",
+    "fuzzy_hash": "fe7042a1b20b361c90c83c6416636830",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (проведение Dubai Gold Cup), но её основной контекст и заголовок сфокусированы на военном конфликте (\"despite the war in Iran\"), что нарушает правило о политике и конфликтах. Это делает материал неподходящим для канала.\n**Решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/29/magnitude-wins-dubai-world-cup-2026",
+    "timestamp": "2026-03-29T07:46:10.237759+00:00",
+    "status": "published",
+    "content_hash": "fe9540cbd73d8f2b0891ead5925230ff",
+    "strict_hash": "fe9540cbd73d8f2b0891ead5925230ff",
+    "fuzzy_hash": "f678d75a91353d0e88a5f6a1a45d49c7",
+    "reason": "approved"
   }
 ]
