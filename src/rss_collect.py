@@ -1162,6 +1162,26 @@ def _to_plain_text(text: str) -> str:
     cleaned = re.sub(r"\s+", " ", cleaned)
     return cleaned.strip()
 
+def is_probably_russian(text: str, min_ratio: float = 0.35, min_cyr_chars: int = 80) -> bool:
+    """
+    Простая эвристика языка:
+    - достаточно кириллических символов
+    - доля кириллицы среди букв не ниже порога
+    """
+    plain = _to_plain_text(text)
+    if not plain:
+        return False
+
+    cyr = len(re.findall(r"[А-Яа-яЁё]", plain))
+    latin = len(re.findall(r"[A-Za-z]", plain))
+    letters = cyr + latin
+
+    if cyr < min_cyr_chars:
+        return False
+    if letters == 0:
+        return False
+    return (cyr / letters) >= min_ratio
+
 def _split_sentences(text: str) -> List[str]:
     plain = _to_plain_text(text)
     if not plain:
@@ -1170,21 +1190,19 @@ def _split_sentences(text: str) -> List[str]:
     return [part.strip() for part in parts if len(part.strip()) > 20]
 
 def build_fallback_summary(title: str, description: str) -> str:
-    safe_title = safe_strip(title) or "Новость из Дубая"
-    sentences = _split_sentences(description)
-    facts = sentences[:3]
-    if not facts:
-        facts = [safe_strip(description)[:320] or "Появились новые подробности по теме, важной для жителей и гостей Дубая."]
-    body = " ".join(facts).strip()
+    safe_title = safe_strip(title)
+    original_title_block = ""
+    if safe_title:
+        original_title_block = f"<blockquote>Оригинальный заголовок: {safe_title[:180]}</blockquote>\n\n"
 
-    if len(body) < 220:
-        body = (
-            f"{body} Материал может быть важен для жителей эмирата, "
-            "потому что влияет на городские тренды, бизнес-среду и повседневную жизнь."
-        ).strip()
-
+    # Fallback всегда должен быть на русском, даже если исходник на английском/арабском.
+    body = (
+        "По данным источника, появилась новая информация по теме, связанной с Дубаем и ОАЭ. "
+        "Редакция подготовит расширенный пересказ после повторной обработки текста, "
+        "чтобы сохранить точность формулировок и всех фактов."
+    )
     hashtags = "#Дубай #ОАЭ #Новости"
-    return f"<b>📰 {safe_title}</b>\n\n{body}\n\n{hashtags}"
+    return f"<b>📰 Обновление по теме Дубая</b>\n\n{original_title_block}{body}\n\n{hashtags}"
 
 def ensure_summary_quality(summary: str, title: str, description: str) -> str:
     text = safe_strip(summary)
@@ -1196,9 +1214,10 @@ def ensure_summary_quality(summary: str, title: str, description: str) -> str:
     )
     too_short = len(_to_plain_text(text)) < 280
     too_generic = any(marker in lowered for marker in generic_markers)
+    not_russian = not is_probably_russian(text)
 
-    if not text or too_short or too_generic:
-        print("⚠️ Сгенерирован слишком короткий/общий summary, используем fallback")
+    if not text or too_short or too_generic or not_russian:
+        print("⚠️ Сгенерирован некачественный или не-русский summary, используем fallback")
         return build_fallback_summary(title, description)
     return text
 
