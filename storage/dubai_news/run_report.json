@@ -1566,5 +1566,24 @@
       "duplicate_skips": 0,
       "no_posts": 1
     }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-03-29T13:45:03.591978+00:00",
+    "finished_at": "2026-03-29T13:45:45.051406+00:00",
+    "duration_seconds": 41.459,
+    "success": true,
+    "counters": {
+      "attempts_made": 2,
+      "fetched": 2,
+      "rejected": 1,
+      "approved": 1,
+      "deepseek_calls": 2,
+      "deepseek_calls_max": 2,
+      "gnews_fetches": 1,
+      "rss_fetches": 1,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    }
   }
 ]

@@ -1119,5 +1119,23 @@
     "strict_hash": "60f7219cb1f2ad19534d1d47a0c9da2d",
     "fuzzy_hash": "43b2fcdb7e1c9f0b9654e3dab1535d26",
     "reason": "**Оценка новости:** Новость имеет прямую связь с ОАЭ (инцидент на территории страны), но её основная тема — военный конфликт и угроза безопасности, что нарушает правило о политике и конфликтах. Это событие также может негативно влиять на имидж безопасности региона.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.dailymail.co.uk/tvshowbiz/article-15688201/Kerry-Katona-brushes-Dubai-row-Katie-Price-unfollowed-husband-Lee-Andrews.html",
+    "timestamp": "2026-03-29T13:45:09.122846+00:00",
+    "status": "rejected",
+    "content_hash": "6d6cb2649e6b85a64449deedf1053112",
+    "strict_hash": "6d6cb2649e6b85a64449deedf1053112",
+    "fuzzy_hash": "3d9e0d2540f76fb065004233b2689643",
+    "reason": "**Оценка новости:** Новость посвящена личному конфликту британских знаменитостей, лишь косвенно связанному с Дубаем (упоминается \"Dubai row\"), и носит характер светской хроники. Она не имеет общественной значимости, не несет пользы для русскоязычного жителя Дубая и выглядит как типичный кликбейт.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/29/high-winds-hit-dubai-whats-driving-unstable-weather-conditions",
+    "timestamp": "2026-03-29T13:45:45.049498+00:00",
+    "status": "published",
+    "content_hash": "fa4b26625ba7f469e9068f4f90e836b0",
+    "strict_hash": "fa4b26625ba7f469e9068f4f90e836b0",
+    "fuzzy_hash": "bec24416d921103d093628a6e52f42a8",
+    "reason": "approved"
   }
 ]
