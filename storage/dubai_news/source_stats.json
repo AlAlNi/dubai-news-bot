@@ -814,5 +814,32 @@
     "strict_hash": "c5a74d27344dfceccd4d974610265b4f",
     "fuzzy_hash": "79a977aff2052bb277c01a049e8d5050",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.ndtv.com/world-news/dubai-news-iran-israel-war-dubai-could-be-blown-up-if-uae-enters-war-warns-top-us-economist-11282363",
+    "timestamp": "2026-03-30T17:55:16.616240+00:00",
+    "status": "rejected",
+    "content_hash": "466755e9146d583e280030c57e1e2219",
+    "strict_hash": "466755e9146d583e280030c57e1e2219",
+    "fuzzy_hash": "eba7360a55443d7a02563e1a3d29f348",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (Дубай и Абу-Даби) и содержит предупреждение от известного лица, что может быть интересно русскоязычным жителям. Однако она нарушает ключевые правила: её основная тема — большая политика и гипотетический военный конфликт (правило 2), а её тон может быть воспринят как неуважительный, создавая образ уязвимости эмиратов (правило 4). Заголовок также носит откровенно кликбейтный характер (правило 5).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/trump-iran-talks-advance-but-energy-assets-at-risk-if-deal-fails",
+    "timestamp": "2026-03-30T17:55:22.636999+00:00",
+    "status": "rejected",
+    "content_hash": "f7d44efb11934b97d028a6cd34f96e67",
+    "strict_hash": "f7d44efb11934b97d028a6cd34f96e67",
+    "fuzzy_hash": "949c0ee5c1779b07357aa014df10450a",
+    "reason": "**Оценка новости:** Новость посвящена международным переговорам США и Ирана, что является темой большой политики и не имеет явной прямой связи с Дубаем/ОАЭ. Основной источник — Gulf Business, но контекст сугубо внешнеполитический.\n**Решение:**"
+  },
+  {
+    "url": "https://www.news18.com/world/dubai-uae-qatar-iran-war-news-live-updates-west-asia-conflict-today-abu-dhabi-kuwait-saudi-flight-status-dubai-storm-today-liveblog-10004243.html",
+    "timestamp": "2026-03-30T17:55:22.925619+00:00",
+    "status": "rejected",
+    "content_hash": "0b58752cf8501558c1af7b98236cb283",
+    "strict_hash": "0b58752cf8501558c1af7b98236cb283",
+    "fuzzy_hash": "11a1dab81b882b2c0bddb93ff0835618",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
