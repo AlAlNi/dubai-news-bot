@@ -922,5 +922,32 @@
     "strict_hash": "e11a4fe0deec3d6346f76124a84abe92",
     "fuzzy_hash": "c5c742bd02a8dc7c0eec78351b71c37a",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.dailyrecord.co.uk/news/uk-world-news/iran-dubai-uae-trump-live-36942369",
+    "timestamp": "2026-03-30T21:33:12.166832+00:00",
+    "status": "rejected",
+    "content_hash": "3ef74f3b2ec0700d952b9740aeb93d59",
+    "strict_hash": "3ef74f3b2ec0700d952b9740aeb93d59",
+    "fuzzy_hash": "4117dad380320ad878eac234b21c7577",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (упоминается хаос в аэропорту), однако её основная тема — военный конфликт и эскалация на Ближнем Востоке, что нарушает ключевые правила канала о политике и конфликтах. Текст также имеет кликбейтный заголовок.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/uae-extends-remote-learning-for-schools-until-april-17",
+    "timestamp": "2026-03-30T21:33:53.493068+00:00",
+    "status": "rejected",
+    "content_hash": "54b8c929661d861b2a0b95c8c15e4be9",
+    "strict_hash": "54b8c929661d861b2a0b95c8c15e4be9",
+    "fuzzy_hash": "8a579b447cae7496b9b282348ba8d946",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://www.nytimes.com/2026/03/30/world/middleeast/dubai-dream-war-iran.html",
+    "timestamp": "2026-03-30T21:33:53.817980+00:00",
+    "status": "rejected",
+    "content_hash": "7cb31dcc4e3110ca5af65d555da1b860",
+    "strict_hash": "7cb31dcc4e3110ca5af65d555da1b860",
+    "fuzzy_hash": "85bdbb70e0973e4d54662630ed5d0754",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
