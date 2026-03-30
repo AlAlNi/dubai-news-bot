@@ -915,5 +915,32 @@
     "strict_hash": "17b4b83878d17188f6ca5a69b53665f1",
     "fuzzy_hash": "bff688cfac61320a8f0126cdc966a69f",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.news18.com/agency-feeds/uae-road-transport-authority-completes-13-cycling-tracks-across-dubai-10004148.html",
+    "timestamp": "2026-03-30T08:16:31.036492+00:00",
+    "status": "rejected",
+    "content_hash": "923268f4e2851c23c16cf34d182e1aa4",
+    "strict_hash": "923268f4e2851c23c16cf34d182e1aa4",
+    "fuzzy_hash": "3dc6c40d245708e391d1b7a65a0f3890",
+    "reason": "Новость подходит: имеет прямую связь с Дубаем (RTA), не нарушает запретные темы, носит инфраструктурный и общественно-полезный характер, что интересно для местных жителей, и текст выглядит естественным новостным сообщением."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/334100",
+    "timestamp": "2026-03-30T08:18:12.477073+00:00",
+    "status": "rejected",
+    "content_hash": "e06f009990c5fb49de6694de919f63b4",
+    "strict_hash": "e06f009990c5fb49de6694de919f63b4",
+    "fuzzy_hash": "6e8935d532a4f80bb485350ebf5670b0",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/world/uae-road-transport-authority-completes-13-cycling-tracks-across-dubai",
+    "timestamp": "2026-03-30T08:18:12.828094+00:00",
+    "status": "rejected",
+    "content_hash": "372acd69085b21fc666a7dcafb1d1d9b",
+    "strict_hash": "372acd69085b21fc666a7dcafb1d1d9b",
+    "fuzzy_hash": "81c3ac936a57917970884be06f9afd22",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
