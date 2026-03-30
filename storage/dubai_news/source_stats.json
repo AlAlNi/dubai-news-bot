@@ -861,5 +861,32 @@
     "strict_hash": "e98b1fdd56c78a07130446ca2c3acda4",
     "fuzzy_hash": "ec08625b4cccda12723cd1d7e044a8c2",
     "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (Дубай, Абу-Даби) и содержит предупреждение от известного лица, что может быть интересно для жителей. Однако её основная тема — большой политический конфликт и потенциальная угроза безопасности, что нарушает правило №2."
+  },
+  {
+    "url": "https://www.livemint.com/news/air-india-indigo-to-operate-these-flights-to-dubai-abu-dhabi-other-west-asia-hubs-on-30-march-amid-war-details-here-11774805621718.html",
+    "timestamp": "2026-03-30T06:23:58.354120+00:00",
+    "status": "rejected",
+    "content_hash": "ce811503a5836084235b743e3a1a6930",
+    "strict_hash": "ce811503a5836084235b743e3a1a6930",
+    "fuzzy_hash": "1cc08d557d731c5dbd49471f292e24ce",
+    "reason": "Новость не подходит, так как нарушает правило №2: её основной темой является влияние военного конфликта на авиасообщение, что относится к большой политике и войне. Также заголовок содержит кликбейт-элемент (\"Details here\"), что нарушает правило №5."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/from-difc-to-the-beach-where-13-new-cycling-tracks-have-opened-in-dubai",
+    "timestamp": "2026-03-30T06:24:41.760981+00:00",
+    "status": "rejected",
+    "content_hash": "b275edac1a72b0374c5fb0f5d95218c7",
+    "strict_hash": "b275edac1a72b0374c5fb0f5d95218c7",
+    "fuzzy_hash": "a44eac592a9965b4299d2d4d35b117a5",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://www.timesnownews.com/world/middle-east/dubai-will-be-blown-up-if-uae-joins-iran-war-warns-top-us-economist-jeffery-sachs-middle-east-tension-article-153951283",
+    "timestamp": "2026-03-30T06:24:42.162836+00:00",
+    "status": "rejected",
+    "content_hash": "d92283696ebaa9ac3e2b91962c2a696a",
+    "strict_hash": "d92283696ebaa9ac3e2b91962c2a696a",
+    "fuzzy_hash": "52abc7a48b29a615d0b6cd50ee5819c0",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
