@@ -346,6 +346,11 @@ def load_drafts() -> list:
     
     if drafts:
         drafts = cleanup_old_drafts(drafts)
+        drafts = [
+            draft for draft in drafts
+            if draft.get("workflow_state", "approved_by_editor") == "approved_by_editor"
+            and draft.get("editorial_decision", "approved") == "approved"
+        ]
         
         # Сохраняем копию в /tmp
         try:

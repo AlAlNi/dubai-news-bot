@@ -405,6 +405,13 @@ def handler(event, context):
         if result["success"]:
             run_counters["published"] += 1
             if selected_draft:
+                selected_draft["workflow_state"] = "published"
+                selected_draft["editorial_decision"] = "published_by_editor"
+                selected_draft["publication"] = {
+                    "published_at": datetime.now(timezone.utc).isoformat(),
+                    "telegram_channel_id": TELEGRAM_CHANNEL_ID,
+                    "message_id": result.get("message_id"),
+                }
                 history = add_to_published_history(selected_draft)
                 save_published_history(history)
             if dedupe_key:
