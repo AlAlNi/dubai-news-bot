@@ -1,5 +1,7 @@
 import random
 import time
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from typing import Any, Optional
 
 import requests
@@ -27,6 +29,31 @@ def _build_delay(
 
 def _is_retryable_method(method: str) -> bool:
     return method.upper() in RETRYABLE_METHODS
+
+
+def _get_retry_after_seconds(response: requests.Response) -> Optional[float]:
+    raw_value = response.headers.get("Retry-After")
+    if not raw_value:
+        return None
+
+    retry_after = raw_value.strip()
+    if not retry_after:
+        return None
+
+    try:
+        seconds = float(retry_after)
+        return max(0.0, seconds)
+    except ValueError:
+        pass
+
+    try:
+        retry_at = parsedate_to_datetime(retry_after)
+        if retry_at.tzinfo is None:
+            return None
+        wait_seconds = (retry_at - datetime.now(timezone.utc)).total_seconds()
+        return max(0.0, wait_seconds)
+    except Exception:
+        return None
 
 
 def request_with_retry(
@@ -81,6 +108,9 @@ def request_with_retry(
                 max_delay=max_backoff_seconds,
                 jitter_seconds=jitter_seconds,
             )
+            retry_after_seconds = _get_retry_after_seconds(response)
+            if retry_after_seconds is not None:
+                delay = max(delay, retry_after_seconds)
             print(
                 f"🔁 HTTP {normalized_method} retry {attempt}/{max_attempts} "
                 f"для {url} (status={response.status_code}, delay={delay:.2f}s)"
