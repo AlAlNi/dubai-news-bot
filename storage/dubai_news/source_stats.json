@@ -868,5 +868,32 @@
     "strict_hash": "cb1bc454e69eba0957db5a727ff66394",
     "fuzzy_hash": "a2fe7abf4111c07d7ff45fb62246cf04",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/dubai-could-be-blown-up-us-top-economist-jeffrey-sachs-warns-uae-against-joining-anti-iran-push/articleshow/129893469.cms",
+    "timestamp": "2026-03-30T19:47:34.313178+00:00",
+    "status": "rejected",
+    "content_hash": "f5d814fb1b84ea630fd97caec3e17afe",
+    "strict_hash": "f5d814fb1b84ea630fd97caec3e17afe",
+    "fuzzy_hash": "5e7ddbf93e31f4951386e015950021ea",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем и ОАЭ, однако её основная тема — это большой политический конфликт (война) и потенциальные риски для страны. Это нарушает правило №2, а также может быть воспринято как создающее негативный и тревожный фон, что косвенно касается правила №4 (уважение к ценностям). Для русскоязычного жителя это скорее тревожная, чем полезная информация.\n**Решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/dubai-dhs1bn-support-package-businesses-costs",
+    "timestamp": "2026-03-30T19:48:11.900513+00:00",
+    "status": "rejected",
+    "content_hash": "90f6cd50a98eeba47982677da3a8579d",
+    "strict_hash": "90f6cd50a98eeba47982677da3a8579d",
+    "fuzzy_hash": "8a5ecb907b024ec52cc3b06c5ab9b8fd",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/vadodara-witnesses-a-sweet-innovation-santushti-introduces-dubai-treats-with-global-rd-backing",
+    "timestamp": "2026-03-30T19:48:12.088414+00:00",
+    "status": "rejected",
+    "content_hash": "0247ceb8a4dd8569f2b711a51f189952",
+    "strict_hash": "0247ceb8a4dd8569f2b711a51f189952",
+    "fuzzy_hash": "a9d530f9ca0a75e412355221b04a2a7c",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
