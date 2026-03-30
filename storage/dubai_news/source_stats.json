@@ -787,5 +787,32 @@
     "strict_hash": "c7afe0d523707a5a8de57bbd7110a5f9",
     "fuzzy_hash": "c264de9527d08f31f01194c80937cf14",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.india.com/news/world/dubai-could-be-destroyed-if-what-warning-did-us-economist-issue-to-uae-missile-drone-attack-donald-trump-netanyahu-strait-of-hormuz-8361151",
+    "timestamp": "2026-03-30T16:59:23.319301+00:00",
+    "status": "rejected",
+    "content_hash": "2b092a46b6bdccb13cfa2645308dde95",
+    "strict_hash": "2b092a46b6bdccb13cfa2645308dde95",
+    "fuzzy_hash": "638e213c0faaa06a6cce919a49f7ebb0",
+    "reason": "**Оценка новости:** Новость содержит явную связь с ОАЭ (предупреждение о Дубае), однако её основная тема — большая политика и гипотетический военный конфликт с негативной оценкой внешней политики страны. Это нарушает правила 2 (политика/конфликты) и, вероятно, правило 4 (уважение к ценностям, так как содержит резкую критику со стороны иностранного эксперта).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/new-paid-parking-zones-announced-in-abu-dhabi-key-areas-revealed",
+    "timestamp": "2026-03-30T17:00:16.507720+00:00",
+    "status": "rejected",
+    "content_hash": "f953e18805ed1a18113e5c870d30a8fa",
+    "strict_hash": "f953e18805ed1a18113e5c870d30a8fa",
+    "fuzzy_hash": "bc0e0c273e911d682d9fd1e7589a7ecd",
+    "reason": "**Оценка:** Новость о введении платных парковок в Абу-Даби напрямую связана с ОАЭ и имеет практическую ценность для жителей, особенно автомобилистов. Однако она не касается Дубая, а сосредоточена на другом эмирате, что снижает её непосредственную релевантность для канала о Дубае.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.timesnownews.com/entertainment-news/bollywood/kings-dubai-schedule-scrapped-amid-west-asia-tensions-suhana-khans-action-sequence-to-be-shot-in-report-article-153953011",
+    "timestamp": "2026-03-30T17:00:16.710424+00:00",
+    "status": "rejected",
+    "content_hash": "c5a74d27344dfceccd4d974610265b4f",
+    "strict_hash": "c5a74d27344dfceccd4d974610265b4f",
+    "fuzzy_hash": "79a977aff2052bb277c01a049e8d5050",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
