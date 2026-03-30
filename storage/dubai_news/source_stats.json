@@ -888,5 +888,32 @@
     "strict_hash": "d92283696ebaa9ac3e2b91962c2a696a",
     "fuzzy_hash": "52abc7a48b29a615d0b6cd50ee5819c0",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/world/uae-cabinet-chaired-by-mohammed-bin-rashid-praises-heroic-defence-spirit-of-uae-armed-forces",
+    "timestamp": "2026-03-30T07:45:35.215754+00:00",
+    "status": "rejected",
+    "content_hash": "162b4246527ca1376935e0be0218a078",
+    "strict_hash": "162b4246527ca1376935e0be0218a078",
+    "fuzzy_hash": "d6a64686e4ec74069a80d2b1dc2e97b3",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (правило 1), не касается запрещённых политических конфликтов (правило 2), носит официальный информационный, а не рекламный характер (правило 3), демонстрирует уважение к государству (правило 4) и выглядит естественно (правило 5). Однако она представляет собой сухой официальный отчёт о заседании кабинета министров и вряд ли будет практически полезна или интересна для широкой аудитории русскоязычных жителей Дубая (правило 6). Также высока вероятность, что подобные официальные сообщения уже публиковались (правило 7)."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/foulath-holding-declares-force-majeure-on-some-ops",
+    "timestamp": "2026-03-30T07:45:40.881215+00:00",
+    "status": "rejected",
+    "content_hash": "3d891b3ed6937c32d600d2446c23b77f",
+    "strict_hash": "3d891b3ed6937c32d600d2446c23b77f",
+    "fuzzy_hash": "ca5ec854d21e8e74d8df26ece7124dbf",
+    "reason": "Новость не подходит, так как не имеет явной связи с Дубаем/ОАЭ (нарушает правило 1), а её тема (форс-мажор у компании в Бахрейне) вряд ли будет интересна или полезна русскоязычному жителю Дубая (нарушает правило 6)."
+  },
+  {
+    "url": "https://www.financialexpress.com/world-news/dubai-abu-dhabi-could-be-blown-up-economist-jeffrey-sachs-warns-uae-against-war-gamble/4188342",
+    "timestamp": "2026-03-30T07:45:41.084090+00:00",
+    "status": "rejected",
+    "content_hash": "17b4b83878d17188f6ca5a69b53665f1",
+    "strict_hash": "17b4b83878d17188f6ca5a69b53665f1",
+    "fuzzy_hash": "bff688cfac61320a8f0126cdc966a69f",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
