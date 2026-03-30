@@ -895,5 +895,32 @@
     "strict_hash": "0247ceb8a4dd8569f2b711a51f189952",
     "fuzzy_hash": "a9d530f9ca0a75e412355221b04a2a7c",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.express.co.uk/news/world/2188116/emirates-airline-latest-refund-advice",
+    "timestamp": "2026-03-30T20:34:33.070436+00:00",
+    "status": "rejected",
+    "content_hash": "50d6c142ed6c1f2dc5b88bfc32464152",
+    "strict_hash": "50d6c142ed6c1f2dc5b88bfc32464152",
+    "fuzzy_hash": "177899102576fb957cddffd8882001fd",
+    "reason": "Новость напрямую связана с авиакомпанией Emirates (базирующейся в Дубае) и дает важные инструкции для пассажиров, что соответствует интересам русскоговорящих жителей. Однако она затрагивает тему регионального конфликта («due to the war in the Middle East»), что нарушает правило о политике и конфликтах."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/uae-schools-extends-distance-learning-until-april-17",
+    "timestamp": "2026-03-30T20:34:39.373462+00:00",
+    "status": "rejected",
+    "content_hash": "8eb003fc6d4d2ee4b3d6df649a09075f",
+    "strict_hash": "8eb003fc6d4d2ee4b3d6df649a09075f",
+    "fuzzy_hash": "462fb9435559594a7b70760376773572",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (решение Министерства образования), носит общественно значимый характер для жителей (особенно семей с детьми), не нарушает установленных правил. Однако дата (2026 год) вызывает серьезные сомнения в достоверности и актуальности информации на текущий момент.\n**Решение:**"
+  },
+  {
+    "url": "https://www.indiatoday.in/world/story/economist-jeffrey-sachs-warns-uae-against-entering-conflict-as-dubai-and-abu-dhabi-face-immediate-danger-amid-gulf-tensions-2889000-2026-03-30",
+    "timestamp": "2026-03-30T20:34:39.602908+00:00",
+    "status": "rejected",
+    "content_hash": "e11a4fe0deec3d6346f76124a84abe92",
+    "strict_hash": "e11a4fe0deec3d6346f76124a84abe92",
+    "fuzzy_hash": "c5c742bd02a8dc7c0eec78351b71c37a",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
