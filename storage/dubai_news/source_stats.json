@@ -825,5 +825,23 @@
     "url": "https://www.news18.com/lifestyle/travel/west-asia-travel-update-air-india-group-to-operate-30-dubai-flights-indigo-assures-minimal-disruption-10003496.html",
     "timestamp": "2026-03-29T19:39:13.231363+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.thehindu.com/news/national/mortal-remains-of-una-local-killed-in-drone-attack-in-dubai-to-arrive-home-on-march-29/article70799474.ece",
+    "timestamp": "2026-03-30T01:22:12.625993+00:00",
+    "status": "rejected",
+    "content_hash": "0126981cea121aa8bb52aabea20a2c7a",
+    "strict_hash": "0126981cea121aa8bb52aabea20a2c7a",
+    "fuzzy_hash": "845141c7c55d0ad3560fc71bd5a1fc42",
+    "reason": "**Оценка новости:** Новость сообщает о гибели гражданина Индии в результате дронной атаки в Дубае, что напрямую связано с регионом. Однако основная тема — инцидент с применением беспилотника, что попадает под правило о политике и конфликтах, а также может негативно влиять на имидж безопасности эмирата."
+  },
+  {
+    "url": "https://www.moneycontrol.com/world/dubai-and-abu-dhabi-could-be-blown-up-jeffrey-sachs-warns-uae-against-entering-iran-war-article-13873707.html",
+    "timestamp": "2026-03-30T01:22:37.722255+00:00",
+    "status": "rejected",
+    "content_hash": "b34853c06e5709f4eed85c02b6d8b8e2",
+    "strict_hash": "b34853c06e5709f4eed85c02b6d8b8e2",
+    "fuzzy_hash": "e22839445cfdd5f156bc6f8645c3b017",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (правило 1), но её основная тема — большой военно-политический конфликт и угрозы безопасности ключевым городам страны (правило 2). Это делает материал неприемлемым для публикации в канале, избегающем тем войны и большой политики.\n**Окончательное решение:**"
   }
 ]
