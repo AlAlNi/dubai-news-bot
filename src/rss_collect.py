@@ -68,6 +68,23 @@ MAX_SOURCE_STATS_DAYS = env_int("MAX_SOURCE_STATS_DAYS", 7, min_value=1)
 MAX_NEWS_AGE_DAYS = env_int("MAX_NEWS_AGE_DAYS", 2, min_value=1)
 MAX_DRAFTS = env_int("MAX_DRAFTS", 50, min_value=1)
 CONTENT_UNIQUE_DAYS = env_int("CONTENT_UNIQUE_DAYS", 30, min_value=1)  # Сколько дней хранить историю контента
+NEWSROOM_MISSION = os.getenv(
+    "NEWSROOM_MISSION",
+    "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+).strip()
+NEWSROOM_GOAL = os.getenv(
+    "NEWSROOM_GOAL",
+    "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+).strip()
+NEWSROOM_TASKS = [
+    item.strip()
+    for item in os.getenv(
+        "NEWSROOM_TASKS",
+        "Оперативный поиск новостей;Фактчекинг и дедупликация;Подготовка понятных постов;Редакторское одобрение перед публикацией;Подготовка к рекламной монетизации",
+    ).split(";")
+    if item.strip()
+]
+AD_MIN_QUALITY_SCORE = env_int("AD_MIN_QUALITY_SCORE", 75, min_value=0)
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 HTTP_TIMEOUT = 25
@@ -177,6 +194,13 @@ def extract_domain(url: str) -> str:
 def normalize_text_for_compare(text: str) -> str:
     normalized = re.sub(r"\s+", " ", safe_strip(text))
     return normalized.lower()
+
+def build_newsroom_profile() -> Dict[str, Any]:
+    return {
+        "mission": NEWSROOM_MISSION,
+        "goal": NEWSROOM_GOAL,
+        "tasks": NEWSROOM_TASKS,
+    }
 
 def generate_content_hashes(title: str, description: str, url: str) -> tuple[str, str]:
     """Возвращает strict и fuzzy хеши."""
@@ -1230,6 +1254,30 @@ def ensure_summary_quality(summary: str, title: str, description: str) -> str:
         return build_fallback_summary(title, description)
     return text
 
+def evaluate_editorial_rubric(title: str, description: str, source_name: str) -> Dict[str, Any]:
+    plain = normalize_text_for_compare(f"{title} {description}")
+    quality_score = 40
+    if len(title) >= 35:
+        quality_score += 15
+    if len(description) >= 220:
+        quality_score += 20
+    if any(word in plain for word in ("dubai", "uae", "abu dhabi", "emirates")):
+        quality_score += 15
+    if any(word in plain for word in ("exclusive", "click here", "limited offer", "promo")):
+        quality_score -= 25
+    quality_score = max(0, min(100, quality_score))
+
+    ad_readiness = max(0, min(100, quality_score + (10 if source_name else 0)))
+    ad_ready = ad_readiness >= AD_MIN_QUALITY_SCORE
+    monetization_stage = "ready_for_direct_ads" if ad_ready else "grow_organic_audience"
+    return {
+        "quality_score": quality_score,
+        "ad_readiness_score": ad_readiness,
+        "ad_ready": ad_ready,
+        "ad_min_quality_score": AD_MIN_QUALITY_SCORE,
+        "monetization_stage": monetization_stage,
+    }
+
 def can_call_deepseek(deepseek_context: Dict[str, int]) -> bool:
     return deepseek_context.get("calls_made", 0) < deepseek_context.get("max_calls", MAX_DEEPSEEK_CALLS_PER_RUN)
 
@@ -1384,6 +1432,8 @@ def process_news_item(
 
     current_time = datetime.now(timezone.utc).isoformat()
     image_url = fetch_image_for_news(news_item)
+    newsroom_profile = build_newsroom_profile()
+    editorial_metrics = evaluate_editorial_rubric(title, description, news_item.get("source", ""))
 
     if consume_deepseek_call(deepseek_context, "summary generation"):
         summary_ru = process_with_deepseek_simple(title, description)
@@ -1406,6 +1456,21 @@ def process_news_item(
         "strict_hash": strict_hash,
         "fuzzy_hash": fuzzy_hash,
         "method": news_item.get("method", "unknown"),
+        "workflow_state": "approved_by_editor",
+        "editorial_decision": "approved",
+        "newsroom_profile": newsroom_profile,
+        "editorial_metrics": editorial_metrics,
+        "roles": {
+            "journalist": {
+                "status": "completed",
+                "action": "collected_and_summarized",
+            },
+            "editor": {
+                "status": "approved",
+                "action": "approved_for_publication",
+                "reason": reason,
+            },
+        },
     }
     
     if image_url:
@@ -1507,10 +1572,10 @@ def handler(event, context):
                 break
         
         if approved_draft:
-            # Добавляем в source_stats как опубликованную (status="published")
+            # Добавляем в source_stats как одобренную редактором
             add_url_to_source_stats(
                 approved_draft["source_urls"][0], 
-                status="published",  # Явно указываем статус "published"
+                status="approved",
                 content_hash=approved_draft.get("content_hash", ""),
                 reason="approved",
                 fuzzy_hash=approved_draft.get("fuzzy_hash", ""),
