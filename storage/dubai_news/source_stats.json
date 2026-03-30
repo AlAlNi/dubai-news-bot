@@ -841,5 +841,32 @@
     "strict_hash": "0b58752cf8501558c1af7b98236cb283",
     "fuzzy_hash": "11a1dab81b882b2c0bddb93ff0835618",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/king-shah-rukh-khan-suhana-khan-and-anil-kapoors-dubai-desert-sequence-moved-to-mumbai-amid-middle-east-conflict-report/articleshow/129892976.cms",
+    "timestamp": "2026-03-30T18:45:07.097040+00:00",
+    "status": "rejected",
+    "content_hash": "885953cc049393b85756bdbc2062a1e5",
+    "strict_hash": "885953cc049393b85756bdbc2062a1e5",
+    "fuzzy_hash": "c002d3897de7714306d10ad9f65f0814",
+    "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (отмена съёмок в пустыне Дубая), не является прямой рекламой и может быть интересна русскоязычной аудитории, интересующейся индийской культурой и кинопроизводством в регионе. Однако основной причиной переноса съёмок указан региональный конфликт, что нарушает правило №2 о большой политике и конфликтах."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/aluminium-price-four-year-high-iran-attacks-gulf-smelters",
+    "timestamp": "2026-03-30T18:45:12.783519+00:00",
+    "status": "rejected",
+    "content_hash": "54362485817c70b81d8f3119dcde10bb",
+    "strict_hash": "54362485817c70b81d8f3119dcde10bb",
+    "fuzzy_hash": "da2dbcbfbd317cfb08bcc99437b5ee85",
+    "reason": "**Оценка новости:** Новость напрямую связана с регионом (удар по предприятиям в ОАЭ), но её основная тема — военный конфликт и его последствия для рынков, что нарушает правило о политике и конфликтах. Также она может негативно влиять на имидж стабильности в ОАЭ."
+  },
+  {
+    "url": "https://www.businesstoday.in/markets/stocks/story/shankar-sharma-dubai-skies-and-a-big-oil-bet-as-drones-us-fighter-jets-flew-days-ahead-of-iran-strikes-523073-2026-03-30",
+    "timestamp": "2026-03-30T18:45:13.049130+00:00",
+    "status": "rejected",
+    "content_hash": "cb1bc454e69eba0957db5a727ff66394",
+    "strict_hash": "cb1bc454e69eba0957db5a727ff66394",
+    "fuzzy_hash": "a2fe7abf4111c07d7ff45fb62246cf04",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
