@@ -760,5 +760,32 @@
     "strict_hash": "5721e33b8151f8f270b7e57d66c4cea3",
     "fuzzy_hash": "70c90c7a686cb05cfd75fdcd9fc3fb05",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://indianexpress.com/article/world/dubai-uae-news-live-updates-iran-war-attack-kuwait-10608892",
+    "timestamp": "2026-03-30T16:00:04.543543+00:00",
+    "status": "rejected",
+    "content_hash": "f2e9511d19ad4c8ebf62a1f4557d531c",
+    "strict_hash": "f2e9511d19ad4c8ebf62a1f4557d531c",
+    "fuzzy_hash": "13491c625ed658564b2fb7aee7c26d02",
+    "reason": "Новость категорически не подходит, так как полностью нарушает правило №2 (основная тема — военный конфликт и атака в регионе) и, вероятно, правило №5 (кликбейтный заголовок, перечисляющий ключевые слова)."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/uber-to-acquire-global-chauffeur-service-blacklane",
+    "timestamp": "2026-03-30T16:00:12.408313+00:00",
+    "status": "rejected",
+    "content_hash": "8e6c1c8516807d22e2dcc9aea431c6c5",
+    "strict_hash": "8e6c1c8516807d22e2dcc9aea431c6c5",
+    "fuzzy_hash": "a0fe4372957eda19638ef1f7e7341320",
+    "reason": "**Оценка новости:** Новость о покупке Uber глобального лидера премиальных услуг с водителем Blacklane имеет косвенную связь с регионом через Gulf Business, но не содержит конкретной информации о влиянии на Дубай/ОАЭ. Основной фокус — корпоративная сделка, не нарушающая правил о политике или ценностях, однако текст выглядит как краткий пресс-релиз без общественно значимой детализации для жителей Дубая."
+  },
+  {
+    "url": "https://www.mirror.co.uk/news/world-news/huge-explosions-heard-dubai-trump-36941268",
+    "timestamp": "2026-03-30T16:00:16.953473+00:00",
+    "status": "rejected",
+    "content_hash": "c7afe0d523707a5a8de57bbd7110a5f9",
+    "strict_hash": "c7afe0d523707a5a8de57bbd7110a5f9",
+    "fuzzy_hash": "c264de9527d08f31f01194c80937cf14",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
