@@ -49,6 +49,34 @@ class ReserveStrategyTests(unittest.TestCase):
         self.assertEqual(result["method"], "google_news_rss")
         self.assertEqual(result["source_priority"], 3)
 
+    def test_detect_safety_format_for_service_update(self) -> None:
+        result = rss_collect.detect_safety_format(
+            "RTA service update: Dubai Metro delay",
+            "Commuters advised to use buses due to maintenance.",
+            "RTA Dubai News",
+        )
+        self.assertEqual(result, "service_update")
+
+    def test_detect_safety_format_for_tomorrow_changes(self) -> None:
+        result = rss_collect.detect_safety_format(
+            "New parking tariff effective from tomorrow in Dubai",
+            "Schedule change announced for Zone A.",
+            "Government of Dubai Media Updates",
+        )
+        self.assertEqual(result, "tomorrow_changes")
+
+    def test_process_news_item_rejects_without_verifiable_url(self) -> None:
+        item = {
+            "title": "Important service update",
+            "description": "Metro schedule has changed.",
+            "link": "",
+            "source": "RTA Dubai News",
+        }
+        with patch("rss_collect.mark_news_as_rejected") as rejected_mock:
+            result = rss_collect.process_news_item(item, seen_hashes=set())
+        self.assertIsNone(result)
+        rejected_mock.assert_called_once()
+
 
 if __name__ == "__main__":
     unittest.main()
