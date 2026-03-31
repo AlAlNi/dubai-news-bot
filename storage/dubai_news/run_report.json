@@ -2946,5 +2946,20 @@
       "telegram_failures": 0,
       "technical_errors": 0
     }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-03-31T06:10:00.242006+00:00",
+    "finished_at": "2026-03-31T06:10:02.036817+00:00",
+    "duration_seconds": 1.795,
+    "success": true,
+    "status": "published",
+    "counters": {
+      "telegram_calls": 1,
+      "telegram_failures": 0,
+      "published": 1,
+      "duplicate_skips": 0,
+      "no_posts": 0
+    }
   }
 ]

@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.tribuneindia.com/news/world/us-refutes-iranian-claims-of-attacks-on-american-forces-in-dubai",
-    "timestamp": "2026-03-29T06:06:18.712801+00:00",
-    "status": "rejected",
-    "content_hash": "20225af4b0845c01161e75a15a548c94",
-    "strict_hash": "20225af4b0845c01161e75a15a548c94",
-    "fuzzy_hash": "d294214bb5ad3c8e1db200e744bee325",
-    "reason": "**Оценка новости:** Новость напрямую связана с регионом (Дубай) и опровергает информацию о военном инциденте на его территории, что является общественно значимым событием. Однако её основная тема — военно-политический конфликт (Иран vs США) с элементами дезинформации, что нарушает правило о политике и конфликтах.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/29/bahrains-alba-confirms-iranian-strike-as-second-gcc-aluminium-plant-hit",
-    "timestamp": "2026-03-29T06:06:24.061052+00:00",
-    "status": "rejected",
-    "content_hash": "ec94bac2b331430fc38fab1e9b4d169e",
-    "strict_hash": "ec94bac2b331430fc38fab1e9b4d169e",
-    "fuzzy_hash": "925581856493d56cd9970b181cfbb3a0",
-    "reason": "**Оценка новости:** Новость напрямую связана с регионом GCC и отраслью (алюминиевая промышленность), но её основная тема — военный конфликт (атака Ирана) и последствия для бизнеса. Это нарушает правило №2 о политике и конфликтах, так как фокус на атаке и напряжённости, а не на деловом или экономическом развитии региона.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.straitstimes.com/sport/horse-racing-magnitude-beats-forever-young-to-win-dubai-world-cup",
-    "timestamp": "2026-03-29T06:06:24.221257+00:00",
-    "status": "rejected",
-    "content_hash": "1a9761ca56ab2e5190584e43ad2f2150",
-    "strict_hash": "1a9761ca56ab2e5190584e43ad2f2150",
-    "fuzzy_hash": "97fd77824002200e33a7de6ffb891949",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
     "url": "https://wtop.com/sports/2026/03/magnitude-wins-dubai-gold-cup-after-12m-race-goes-ahead-despite-the-war-in-iran",
     "timestamp": "2026-03-29T07:45:23.836379+00:00",
     "status": "rejected",
@@ -834,5 +807,10 @@
     "strict_hash": "a7c9f9d8b7b6a36805fa1788b5ea6cbc",
     "fuzzy_hash": "9f7f6a05528dd099e0d48cf7f78ce7e7",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-residential-reit-acquires-dh241m-villas-to-strengthen-rental-yield-strategy-in-dubai",
+    "timestamp": "2026-03-31T06:10:00.244227+00:00",
+    "status": "published"
   }
 ]
