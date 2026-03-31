@@ -165,6 +165,16 @@ GNEWS_SEARCH_QUERIES = [
     "United Arab Emirates",
 ]
 GNEWS_MAX_SEARCH_CALLS_PER_RUN = env_int("GNEWS_MAX_SEARCH_CALLS_PER_RUN", 1, min_value=1)
+GOOGLE_NEWS_RSS_QUERIES = [
+    item.strip()
+    for item in os.getenv(
+        "GOOGLE_NEWS_RSS_QUERIES",
+        "Dubai,RTA Dubai,Dubai Police,Dubai real estate,Dubai tourism,UAE visa rules",
+    ).split(",")
+    if item.strip()
+]
+GOOGLE_NEWS_RSS_MAX_QUERIES_PER_RUN = env_int("GOOGLE_NEWS_RSS_MAX_QUERIES_PER_RUN", 2, min_value=1)
+RESERVE_ATTEMPTS = env_int("RESERVE_ATTEMPTS", 1, min_value=1)
 
 TIME_SLOTS = [
     {"name": "Первая половина суток", "range": "00:00-11:59 UTC", "hour_range": (0, 11)},
@@ -942,6 +952,119 @@ def try_gnews_search_with_rotation(
     
     return None
 
+def build_google_news_rss_query_plan() -> List[str]:
+    if not GOOGLE_NEWS_RSS_QUERIES:
+        return []
+
+    now = datetime.now(timezone.utc)
+    day_seed = now.toordinal()
+    offset = day_seed % len(GOOGLE_NEWS_RSS_QUERIES)
+    return GOOGLE_NEWS_RSS_QUERIES[offset:] + GOOGLE_NEWS_RSS_QUERIES[:offset]
+
+def fetch_news_from_google_rss(query: str):
+    if not query:
+        return []
+
+    encoded_query = urlencode({"q": query})
+    feed_url = f"https://news.google.com/rss/search?{encoded_query}&hl=en-US&gl=US&ceid=US:en"
+
+    try:
+        print(f"🔍 Google News RSS поиск: '{query}'")
+        parsed = feedparser.parse(feed_url)
+        entries = list(getattr(parsed, "entries", []) or [])
+        print(f"✅ Google News RSS: найдено {len(entries)} материалов")
+        return entries
+    except Exception as e:
+        print(f"⚠️ Ошибка запроса к Google News RSS: {e}")
+        return []
+
+def process_google_news_rss_entry(entry: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    title = safe_strip(safe_get(entry, "title", ""))
+    link = safe_strip(safe_get(entry, "link", ""))
+    if not title or not link:
+        return None
+
+    source = safe_strip(safe_get(safe_get(entry, "source", {}), "title", "Google News RSS")) or "Google News RSS"
+    description = clean_html(
+        safe_strip(
+            safe_get(entry, "summary", "")
+            or safe_get(entry, "description", "")
+            or title
+        )
+    )
+    published_at = safe_strip(safe_get(entry, "published", ""))
+
+    if not is_about_dubai(title) and not is_about_dubai(description):
+        return None
+
+    strict_hash, fuzzy_hash = generate_content_hashes(title, description[:500], link)
+
+    return {
+        "title": title,
+        "link": link,
+        "canonical_url": canonicalize_url(link),
+        "source": source,
+        "description": description,
+        "lang": "en",
+        "content_hash": strict_hash,
+        "strict_hash": strict_hash,
+        "fuzzy_hash": fuzzy_hash,
+        "method": "google_news_rss",
+        "source_priority": 3,
+        "published_at": published_at,
+    }
+
+def try_google_news_rss_reserve(
+    existing_drafts: List[Dict[str, Any]],
+    seen_urls: set,
+    seen_hashes: set
+) -> Optional[Dict[str, Any]]:
+    del existing_drafts
+
+    query_plan = build_google_news_rss_query_plan()
+    max_queries = min(GOOGLE_NEWS_RSS_MAX_QUERIES_PER_RUN, len(query_plan))
+    print(f"📉 Google News RSS reserve: максимум {max_queries} query за запуск")
+
+    for query in query_plan[:max_queries]:
+        entries = fetch_news_from_google_rss(query)
+        if not entries:
+            continue
+
+        for entry in entries[:20]:
+            if is_too_old_for_rss(entry):
+                continue
+
+            processed = process_google_news_rss_entry(entry)
+            if not processed:
+                continue
+
+            if is_news_already_processed(
+                processed.get("link", ""),
+                processed.get("strict_hash", processed.get("content_hash", "")),
+                processed.get("fuzzy_hash", ""),
+                seen_urls,
+                seen_hashes,
+            ):
+                continue
+
+            print("🎉 Найдена новая новость через Google News RSS (reserve)")
+            return processed
+
+    return None
+
+def try_reserve_aggregators(
+    existing_drafts: List[Dict[str, Any]],
+    seen_urls: set,
+    seen_hashes: set
+) -> Optional[Dict[str, Any]]:
+    print("🛟 Резервный канал: агрегаторы (GNews -> Google News RSS)")
+    gnews_item = try_gnews_search_with_rotation(existing_drafts, seen_urls, seen_hashes)
+    if gnews_item:
+        gnews_item["source_priority"] = 3
+        return gnews_item
+
+    return try_google_news_rss_reserve(existing_drafts, seen_urls, seen_hashes)
+
 # ========= RSS =========
 
 def extract_image_from_rss_entry(entry) -> Optional[str]:
@@ -1539,6 +1662,8 @@ def handler(event, context):
     attempt = 0
     fetched_count = 0
     gnews_fetches = 0
+    google_rss_fetches = 0
+    reserve_fetches = 0
     rss_fetches = 0
     run_metrics = {"technical_errors": 0}
     rejected_in_session = 0
@@ -1568,7 +1693,7 @@ def handler(event, context):
         print(f"📝 Заголовков для проверки: {len(existing_titles)}")
         
         approved_draft = None
-        max_attempts = 3
+        max_attempts = 2 + RESERVE_ATTEMPTS
         domain_window: Dict[str, int] = {}
 
         print(
@@ -1583,14 +1708,18 @@ def handler(event, context):
             
             news_item = None
             
-            if attempt % 2 == 1:
-                print(f"🎯 Стратегия: GNews.io")
-                gnews_fetches += 1
-                news_item = try_gnews_search_with_rotation(existing_drafts, seen_urls, seen_hashes)
-            else:
-                print("🎯 Стратегия: RSS")
+            if attempt <= 2:
+                print("🎯 Стратегия: RSS (основной канал)")
                 rss_fetches += 1
                 news_item = try_rss_feeds(existing_drafts, seen_urls, seen_hashes)
+            else:
+                print("🎯 Стратегия: Reserve aggregators (только при дефиците слота)")
+                reserve_fetches += 1
+                news_item = try_reserve_aggregators(existing_drafts, seen_urls, seen_hashes)
+                if news_item and news_item.get("method") == "gnews":
+                    gnews_fetches += 1
+                elif news_item and news_item.get("method") == "google_news_rss":
+                    google_rss_fetches += 1
             
             if not news_item:
                 print(f"⚠️ Не найдено новостей (попытка #{attempt})")
@@ -1693,6 +1822,8 @@ def handler(event, context):
                 "deepseek_calls": deepseek_context["calls_made"],
                 "deepseek_calls_max": deepseek_context["max_calls"],
                 "gnews_fetches": gnews_fetches,
+                "google_rss_fetches": google_rss_fetches,
+                "reserve_fetches": reserve_fetches,
                 "rss_fetches": rss_fetches,
                 "telegram_failures": 0,
                 "technical_errors": run_metrics["technical_errors"],
@@ -1727,6 +1858,8 @@ def handler(event, context):
                 "deepseek_calls": deepseek_context["calls_made"],
                 "deepseek_calls_max": deepseek_context["max_calls"],
                 "gnews_fetches": gnews_fetches,
+                "google_rss_fetches": google_rss_fetches,
+                "reserve_fetches": reserve_fetches,
                 "rss_fetches": rss_fetches,
                 "telegram_failures": 0,
                 "technical_errors": run_metrics["technical_errors"],
