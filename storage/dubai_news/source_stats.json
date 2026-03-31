@@ -898,5 +898,32 @@
     "strict_hash": "48b0ab243a0a9c77e65d4ac11aca50db",
     "fuzzy_hash": "d3c46806c7b22e9566145727d9f40402",
     "reason": "**Оценка новости:** Новость посвящена военному конфликту (Иран, удары по танкеру) и не имеет явной связи с Дубаем, кроме упоминания в заголовке, которое выглядит как кликбейт. Основная тема — большая политика и военные действия, что прямо нарушает правила 1 и 2."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/drone-attack-on-kuwaiti-tanker-off-dubai-brought-under-control-kpc-says",
+    "timestamp": "2026-03-31T12:52:46.064343+00:00",
+    "status": "rejected",
+    "content_hash": "1f77349b85dc5621cf3eb022ac5edc26",
+    "strict_hash": "1f77349b85dc5621cf3eb022ac5edc26",
+    "fuzzy_hash": "60fe34f1f5192b74f2ac513f39665efb",
+    "reason": "**Оценка:** Новость сообщает о дронной атаке на танкер вблизи Дубая, что напрямую связано с регионом (ОАЭ/GCC). Однако основная тема — это инцидент с элементами безопасности и потенциального конфликта, что нарушает правило №2 о политике и конфликтах. Также подобные события могут негативно влиять на имидж стабильности региона.\n**Решение:**"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-south-awards-dh2-billion-contract-for-hayat-residential-community-development",
+    "timestamp": "2026-03-31T12:52:54.454121+00:00",
+    "status": "rejected",
+    "content_hash": "993445f49f1d8de063000befca4f2892",
+    "strict_hash": "993445f49f1d8de063000befca4f2892",
+    "fuzzy_hash": "158d617fe4ef7a1f3f214c406a961790",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://www.nytimes.com/2026/03/30/world/middleeast/kuwait-oil-tanker-iran-drone.html",
+    "timestamp": "2026-03-31T12:52:54.912933+00:00",
+    "status": "rejected",
+    "content_hash": "2bb26ded12436929de9995b699dea3db",
+    "strict_hash": "2bb26ded12436929de9995b699dea3db",
+    "fuzzy_hash": "09168243b3eb98ba97a3659b47f59447",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
