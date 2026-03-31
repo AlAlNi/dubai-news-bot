@@ -876,5 +876,23 @@
     "url": "https://backend.gulfbusiness.com/blog/2026/03/31/dubai-rta-launches-autonomous-taxis-heres-where-you-can-ride-them",
     "timestamp": "2026-03-31T13:55:26.330572+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/gold-heads-for-biggest-monthly-drop-in-more-than-17-years",
+    "timestamp": "2026-03-31T14:08:57.599361+00:00",
+    "status": "rejected",
+    "content_hash": "155e79c04822a534b22a938582fac0ef",
+    "strict_hash": "155e79c04822a534b22a938582fac0ef",
+    "fuzzy_hash": "1f3c991cbd145bb73dce69ebb919e59e",
+    "reason": "**Оценка новости:** Новость о рекордном месячном падении цен на золото имеет косвенную связь с регионом через источник Gulf Business, но не содержит конкретной привязки к Дубаю/ОАЭ, не является полезной service-информацией для жителя и выглядит как общий финансовый дайджест. Основной фокус — глобальные рынки, что не соответствует ключевому правилу 1."
+  },
+  {
+    "url": "https://www.thehindu.com/news/international/kuwait-says-oil-tanker-hit-in-iranian-attack-at-dubai-port/article70805571.ece",
+    "timestamp": "2026-03-31T14:09:03.114576+00:00",
+    "status": "rejected",
+    "content_hash": "89e81c0e41507dc21921ace547cdf71b",
+    "strict_hash": "89e81c0e41507dc21921ace547cdf71b",
+    "fuzzy_hash": "f62341d7029c9a5d1ae8e74944538b11",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (инцидент в порту), но её основная тема — военное нападение и международный конфликт (Иран), что нарушает правило №2. Также тема потенциального разлива нефти может негативно влиять на имидж эмирата, что вызывает вопросы по правилу №4 (уважение к ценностям ОАЭ).\n**Окончательное решение:**"
   }
 ]
