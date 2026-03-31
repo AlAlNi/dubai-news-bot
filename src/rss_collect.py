@@ -97,6 +97,14 @@ PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN = env_int("PREFILTER_MAX_DOMAIN_REPEATS_PER
 # ========= RSS ИСТОЧНИКИ =========
 
 DUBAI_SPECIFIC_RSS_FEEDS = [
+    # Официальные источники (максимальный приоритет)
+    {"name": "Dubai Media Office", "url": "https://mediaoffice.ae/en/news/rss", "lang": "en", "priority": 1},
+    {"name": "Government of Dubai Media Updates", "url": "https://www.dubai.ae/en/about-dubai/media-centre/rss", "lang": "en", "priority": 1},
+    {"name": "Dubai Police News", "url": "https://www.dubaipolice.gov.ae/rss/news.xml", "lang": "en", "priority": 1},
+    {"name": "Dubai Health Authority (DHA) News", "url": "https://www.dha.gov.ae/en/rss/news", "lang": "en", "priority": 1},
+    {"name": "RTA Dubai News", "url": "https://www.rta.ae/wps/portal/rta/ae/home/news-and-media/all-news/rss", "lang": "en", "priority": 1},
+    {"name": "Dubai Airports Media Centre", "url": "https://www.dubaiairports.ae/corporate/media-centre/rss", "lang": "en", "priority": 1},
+
     # Основные новостные
     {"name": "Gulf News", "url": "https://gulfnews.com/rss", "lang": "en", "priority": 1},
     {"name": "Khaleej Times", "url": "https://www.khaleejtimes.com/rss", "lang": "en", "priority": 1},
@@ -115,8 +123,8 @@ DUBAI_SPECIFIC_RSS_FEEDS = [
     {"name": "The Arabian Post", "url": "https://thearabianpost.com/feed", "lang": "en", "priority": 2},
     
     # Авиация и туризм
-    {"name": "Flydubai", "url": "https://content.flydubai.com/feed", "lang": "en", "priority": 2},
-    {"name": "Emirates Media Centre", "url": "https://www.emirates.com/media-centre/feed", "lang": "en", "priority": 2},
+    {"name": "Flydubai", "url": "https://content.flydubai.com/feed", "lang": "en", "priority": 1},
+    {"name": "Emirates Media Centre", "url": "https://www.emirates.com/media-centre/feed", "lang": "en", "priority": 1},
     {"name": "Dubai Travel Blog", "url": "https://www.dubaitravelblog.com/feed", "lang": "en", "priority": 3},
     
     # Дополнительные
