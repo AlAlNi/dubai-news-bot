@@ -240,6 +240,63 @@ def normalize_text_for_compare(text: str) -> str:
     normalized = re.sub(r"\s+", " ", safe_strip(text))
     return normalized.lower()
 
+def has_verifiable_source_url(news_item: Dict[str, Any]) -> bool:
+    link = safe_strip(news_item.get("link"))
+    if not link:
+        return False
+    if not (link.startswith("http://") or link.startswith("https://")):
+        return False
+    return bool(extract_domain(link))
+
+def detect_safety_format(title: str, description: str, source_name: str) -> str:
+    plain = normalize_text_for_compare(f"{title} {description}")
+    source_plain = normalize_text_for_compare(source_name)
+
+    service_markers = (
+        "metro",
+        "rta",
+        "road",
+        "traffic",
+        "weather warning",
+        "advisory",
+        "service update",
+        "maintenance",
+    )
+    tomorrow_markers = (
+        "tomorrow",
+        "starting tomorrow",
+        "effective from",
+        "new tariff",
+        "schedule change",
+        "regulation",
+    )
+    digest_markers = (
+        "daily roundup",
+        "daily briefing",
+        "5 things",
+        "top 5",
+        "summary",
+    )
+    official_markers = (
+        "government",
+        "media office",
+        "rta",
+        "police",
+        "authority",
+        "dubai.ae",
+        "gov",
+    )
+
+    if any(marker in plain for marker in service_markers):
+        return "service_update"
+    if any(marker in plain for marker in tomorrow_markers):
+        return "tomorrow_changes"
+    if any(marker in plain for marker in digest_markers) and any(
+        marker in source_plain for marker in official_markers
+    ):
+        return "official_five_point_digest"
+    return "standard_news"
+
 def build_newsroom_profile() -> Dict[str, Any]:
     return {
         "mission": NEWSROOM_MISSION,
@@ -1303,6 +1360,13 @@ def is_news_allowed_by_deepseek(title: str, description: str, content_hash: str,
 
 7) ДУБЛИКАТЫ И ПОВТОРЫ (ВАЖНО!). Проверь, не является ли эта новость точной копией или очень похожей на уже опубликованные новости.
 
+8) Разрешены «страховочные» форматы, если это НЕ выдумка и полезно аудитории:
+- короткие service-updates (метро/дороги/погодные предупреждения);
+- «что изменится завтра» (регуляторные изменения, тарифы, графики);
+- «сводка дня в 5 пунктах» только из официальных источников.
+
+9) Источник должен быть проверяемым: если факты нельзя подтвердить по явному URL источника, ОТКЛОНИТЬ.
+
 {existing_context}
 
 Новость для проверки:
@@ -1496,6 +1560,7 @@ def ensure_summary_quality(summary: str, title: str, description: str) -> str:
 
 def evaluate_editorial_rubric(title: str, description: str, source_name: str) -> Dict[str, Any]:
     plain = normalize_text_for_compare(f"{title} {description}")
+    safety_format = detect_safety_format(title, description, source_name)
     quality_score = 40
     if len(title) >= 35:
         quality_score += 15
@@ -1505,6 +1570,8 @@ def evaluate_editorial_rubric(title: str, description: str, source_name: str) ->
         quality_score += 15
     if any(word in plain for word in ("exclusive", "click here", "limited offer", "promo")):
         quality_score -= 25
+    if safety_format in {"service_update", "tomorrow_changes", "official_five_point_digest"}:
+        quality_score += 10
     quality_score = max(0, min(100, quality_score))
 
     ad_readiness = max(0, min(100, quality_score + (10 if source_name else 0)))
@@ -1516,6 +1583,7 @@ def evaluate_editorial_rubric(title: str, description: str, source_name: str) ->
         "ad_ready": ad_ready,
         "ad_min_quality_score": AD_MIN_QUALITY_SCORE,
         "monetization_stage": monetization_stage,
+        "safety_format": safety_format,
     }
 
 def passes_priority_quality_gate(news_item: Dict[str, Any], editorial_metrics: Dict[str, Any]) -> tuple[bool, str]:
@@ -1640,6 +1708,11 @@ def process_news_item(
     
     if not title:
         return None
+
+    if not has_verifiable_source_url(news_item):
+        print(f"🚫 Нет подтверждаемого URL источника: {title[:80]}...")
+        mark_news_as_rejected(news_item, "Отсутствует подтверждаемый URL источника")
+        return None
     
     if not description:
         description = title
@@ -1718,6 +1791,7 @@ def process_news_item(
         "editorial_decision": "approved",
         "newsroom_profile": newsroom_profile,
         "editorial_metrics": editorial_metrics,
+        "content_format": editorial_metrics.get("safety_format", "standard_news"),
         "roles": {
             "journalist": {
                 "status": "completed",
