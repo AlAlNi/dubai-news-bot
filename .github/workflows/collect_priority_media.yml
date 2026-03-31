@@ -1,0 +1,59 @@
+name: Dubai Priority Media Collector
+
+on:
+  # Дополнительный запуск для ключевых региональных медиа каждые 30 минут
+  schedule:
+    - cron: '30 * * * *'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect-priority-media:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Cache pip packages
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('src/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install dependencies
+      run: |
+        cd src
+        pip install -r requirements.txt
+
+    - name: Create storage directory
+      run: |
+        mkdir -p storage/dubai_news
+
+    - name: Run priority media collector
+      env:
+        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+        GNEWS_API_KEY_BACKUP: ${{ secrets.GNEWS_API_KEY_BACKUP }}
+        RSS_INCLUDE_SOURCES: Gulf News,Khaleej Times,The National,Arabian Business,Gulf Business
+      run: |
+        cd src
+        python -c "from rss_collect import handler; import json; result = handler({}, None); print(json.dumps(json.loads(result['body']), indent=2))"
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add storage/dubai_news/
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update priority media data [skip ci]"
+        git push
