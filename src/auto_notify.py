@@ -8,6 +8,7 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 import requests
 from http_client import request_with_retry
+from newsroom_kpi import compute_newsroom_kpi_snapshot
 from next_draft import (
     get_next_post_payload_with_image,
     add_to_published_history,
@@ -301,6 +302,7 @@ def handler(event, context):
             "success": success,
             "status": status,
             "counters": run_counters.copy(),
+            "newsroom_kpi": compute_newsroom_kpi_snapshot(MOUNTED_BUCKET_PATH, now_utc=finished_at),
         }
         if error:
             payload["error"] = error

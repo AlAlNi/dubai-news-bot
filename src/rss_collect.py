@@ -8,6 +8,7 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 import feedparser
 from http_client import request_with_retry
+from newsroom_kpi import compute_newsroom_kpi_snapshot
 
 # ========= НАСТРОЙКИ =========
 
@@ -2010,6 +2011,7 @@ def handler(event, context):
                 "telegram_failures": 0,
                 "technical_errors": run_metrics["technical_errors"],
             },
+            "newsroom_kpi": compute_newsroom_kpi_snapshot(MOUNTED_BUCKET_PATH, now_utc=end_time),
         }
         append_run_report(run_report)
         
@@ -2046,6 +2048,7 @@ def handler(event, context):
                 "telegram_failures": 0,
                 "technical_errors": run_metrics["technical_errors"],
             },
+            "newsroom_kpi": compute_newsroom_kpi_snapshot(MOUNTED_BUCKET_PATH, now_utc=end_time),
         }
         append_run_report(run_report)
         
