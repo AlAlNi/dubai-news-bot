@@ -93,6 +93,11 @@ MAX_DEEPSEEK_CALLS_PER_RUN = env_int("MAX_DEEPSEEK_CALLS_PER_RUN", 2, min_value=
 PREFILTER_MIN_TEXT_LEN = env_int("PREFILTER_MIN_TEXT_LEN", 120, min_value=40)
 PREFILTER_MAX_NOISE_RATIO = env_float("PREFILTER_MAX_NOISE_RATIO", 0.35, min_value=0.0, max_value=1.0)
 PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN = env_int("PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN", 2, min_value=1)
+RSS_INCLUDE_SOURCES = {
+    item.strip().lower()
+    for item in os.getenv("RSS_INCLUDE_SOURCES", "").split(",")
+    if item.strip()
+}
 
 # ========= RSS ИСТОЧНИКИ =========
 
@@ -110,7 +115,7 @@ DUBAI_SPECIFIC_RSS_FEEDS = [
     {"name": "Khaleej Times", "url": "https://www.khaleejtimes.com/rss", "lang": "en", "priority": 1},
     {"name": "The National", "url": "https://www.thenationalnews.com/rss", "lang": "en", "priority": 1},
     {"name": "Arabian Business", "url": "https://www.arabianbusiness.com/rss", "lang": "en", "priority": 1},
-    {"name": "Gulf Business", "url": "https://www.gulfbusiness.com/feed", "lang": "en", "priority": 2},
+    {"name": "Gulf Business", "url": "https://www.gulfbusiness.com/feed", "lang": "en", "priority": 1},
     
     # Lifestyle и события
     {"name": "What's On Dubai", "url": "https://whatson.ae/feed", "lang": "en", "priority": 2},
@@ -969,6 +974,12 @@ def try_rss_feeds(
     print("📡 Поиск через UAE RSS ленты...")
     
     rss_feeds = DUBAI_SPECIFIC_RSS_FEEDS
+    if RSS_INCLUDE_SOURCES:
+        rss_feeds = [
+            feed for feed in rss_feeds
+            if feed.get("name", "").strip().lower() in RSS_INCLUDE_SOURCES
+        ]
+        print(f"🎯 Фильтр источников включен: {', '.join(sorted(RSS_INCLUDE_SOURCES))}")
     rss_feeds = sorted(rss_feeds, key=lambda x: x.get("priority", 99))
     
     print(f"📰 Доступно RSS лент: {len(rss_feeds)}")
