@@ -3039,5 +3039,27 @@
       "duplicate_skips": 0,
       "no_posts": 0
     }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-03-31T06:45:00.842941+00:00",
+    "finished_at": "2026-03-31T06:46:05.241351+00:00",
+    "duration_seconds": 64.398,
+    "success": false,
+    "error": "name 'is_too_old_for_rss' is not defined",
+    "counters": {
+      "attempts_made": 3,
+      "fetched": 2,
+      "rejected": 2,
+      "approved": 0,
+      "deepseek_calls": 2,
+      "deepseek_calls_max": 2,
+      "gnews_fetches": 0,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 1,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    }
   }
 ]
