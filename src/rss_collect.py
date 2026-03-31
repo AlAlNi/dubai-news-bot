@@ -85,6 +85,7 @@ NEWSROOM_TASKS = [
     if item.strip()
 ]
 AD_MIN_QUALITY_SCORE = env_int("AD_MIN_QUALITY_SCORE", 75, min_value=0)
+PRIORITY2_MIN_QUALITY_SCORE = env_int("PRIORITY2_MIN_QUALITY_SCORE", 60, min_value=0)
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 HTTP_TIMEOUT = 25
@@ -117,13 +118,28 @@ DUBAI_SPECIFIC_RSS_FEEDS = [
     {"name": "Arabian Business", "url": "https://www.arabianbusiness.com/rss", "lang": "en", "priority": 1},
     {"name": "Gulf Business", "url": "https://www.gulfbusiness.com/feed", "lang": "en", "priority": 1},
     
-    # Lifestyle и события
+    # Вертикальные источники (priority=2, публикация только после quality-фильтра)
+    # Экономика/рынки
+    {"name": "Zawya", "url": "https://www.zawya.com/rss", "lang": "en", "priority": 2},
+    {"name": "MEED", "url": "https://www.meed.com/feed", "lang": "en", "priority": 2},
+
+    # Недвижимость
+    {"name": "PropertyNews.ae", "url": "https://propertynews.ae/feed", "lang": "en", "priority": 2},
+    {"name": "Emaar News", "url": "https://www.emaar.com/en/media-centre/rss.xml", "lang": "en", "priority": 2},
+    {"name": "Damac News", "url": "https://www.damacproperties.com/en/media-centre/rss", "lang": "en", "priority": 2},
+
+    # Туризм/события
+    {"name": "Visit Dubai", "url": "https://www.visitdubai.com/en/rss", "lang": "en", "priority": 2},
     {"name": "What's On Dubai", "url": "https://whatson.ae/feed", "lang": "en", "priority": 2},
     {"name": "Timeout Dubai", "url": "https://www.timeoutdubai.com/feed", "lang": "en", "priority": 2},
     {"name": "Emirates Woman", "url": "https://emirateswoman.com/feed", "lang": "en", "priority": 2},
-    
-    # Недвижимость и бизнес
-    {"name": "PropertyNews.ae", "url": "https://propertynews.ae/feed", "lang": "en", "priority": 2},
+
+    # Экспат/сервис
+    {"name": "KHDA News", "url": "https://www.khda.gov.ae/rss/news", "lang": "en", "priority": 2},
+    {"name": "GDRFA Dubai News", "url": "https://www.gdrfad.gov.ae/en/media-center/news/rss", "lang": "en", "priority": 2},
+    {"name": "DEWA News", "url": "https://www.dewa.gov.ae/en/about-us/media-publications/news-and-events/rss", "lang": "en", "priority": 2},
+
+    # Прочие тематические
     {"name": "Dubai Chronicle", "url": "https://dubaichronicle.com/feed/", "lang": "en", "priority": 2},
     {"name": "The Arabian Post", "url": "https://thearabianpost.com/feed", "lang": "en", "priority": 2},
     
@@ -1038,6 +1054,7 @@ def try_rss_feeds(
                     "fuzzy_hash": fuzzy_hash,
                     "method": "rss",
                     "rss_entry": entry,
+                    "source_priority": feed_conf.get("priority", 3),
                 }
 
         except Exception as e:
@@ -1297,6 +1314,18 @@ def evaluate_editorial_rubric(title: str, description: str, source_name: str) ->
         "monetization_stage": monetization_stage,
     }
 
+def passes_priority_quality_gate(news_item: Dict[str, Any], editorial_metrics: Dict[str, Any]) -> tuple[bool, str]:
+    source_priority = news_item.get("source_priority", 3)
+    quality_score = int(editorial_metrics.get("quality_score", 0))
+
+    if source_priority == 2 and quality_score < PRIORITY2_MIN_QUALITY_SCORE:
+        return (
+            False,
+            f"priority=2 quality gate: score {quality_score} < {PRIORITY2_MIN_QUALITY_SCORE}",
+        )
+
+    return True, "priority quality gate passed"
+
 def can_call_deepseek(deepseek_context: Dict[str, int]) -> bool:
     return deepseek_context.get("calls_made", 0) < deepseek_context.get("max_calls", MAX_DEEPSEEK_CALLS_PER_RUN)
 
@@ -1453,6 +1482,11 @@ def process_news_item(
     image_url = fetch_image_for_news(news_item)
     newsroom_profile = build_newsroom_profile()
     editorial_metrics = evaluate_editorial_rubric(title, description, news_item.get("source", ""))
+    gate_ok, gate_reason = passes_priority_quality_gate(news_item, editorial_metrics)
+    if not gate_ok:
+        print(f"🚫 Новость отклонена quality-gate: {title[:80]}...")
+        mark_news_as_rejected(news_item, gate_reason)
+        return None
 
     if consume_deepseek_call(deepseek_context, "summary generation"):
         summary_ru = process_with_deepseek_simple(title, description)
@@ -1475,6 +1509,7 @@ def process_news_item(
         "strict_hash": strict_hash,
         "fuzzy_hash": fuzzy_hash,
         "method": news_item.get("method", "unknown"),
+        "source_priority": news_item.get("source_priority", 3),
         "workflow_state": "approved_by_editor",
         "editorial_decision": "approved",
         "newsroom_profile": newsroom_profile,
