@@ -33,3 +33,6 @@ Thumbs.db
 storage/dubai_news/
 !storage/dubai_news/
 !storage/dubai_news/*.json
+# Local runtime artifacts
+log.txt
+data/drafts.json
