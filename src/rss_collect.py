@@ -86,6 +86,8 @@ NEWSROOM_TASKS = [
 ]
 AD_MIN_QUALITY_SCORE = env_int("AD_MIN_QUALITY_SCORE", 75, min_value=0)
 PRIORITY2_MIN_QUALITY_SCORE = env_int("PRIORITY2_MIN_QUALITY_SCORE", 60, min_value=0)
+DAILY_QUOTA_URGENT = env_int("DAILY_QUOTA_URGENT", 1, min_value=0)
+DAILY_QUOTA_PRACTICAL = env_int("DAILY_QUOTA_PRACTICAL", 1, min_value=0)
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 HTTP_TIMEOUT = 25
@@ -239,6 +241,10 @@ def build_newsroom_profile() -> Dict[str, Any]:
         "mission": NEWSROOM_MISSION,
         "goal": NEWSROOM_GOAL,
         "tasks": NEWSROOM_TASKS,
+        "daily_quota": {
+            "important_operational": DAILY_QUOTA_URGENT,
+            "practical_life": DAILY_QUOTA_PRACTICAL,
+        },
     }
 
 def generate_content_hashes(title: str, description: str, url: str) -> tuple[str, str]:
