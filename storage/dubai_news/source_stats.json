@@ -1021,5 +1021,32 @@
     "strict_hash": "93360c2633ec6b565d646d23ad314b6f",
     "fuzzy_hash": "a132548dcf55b8b54de1430fa74234b1",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://inews.co.uk/news/how-british-expats-targeted-dubai-police-4325076",
+    "timestamp": "2026-03-31T05:12:03.909051+00:00",
+    "status": "rejected",
+    "content_hash": "fe4fb26c73b3b2cfccbbdaab50955c23",
+    "strict_hash": "fe4fb26c73b3b2cfccbbdaab50955c23",
+    "fuzzy_hash": "92e39525f8433deb97b613565d7327b9",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (полиция Дубая) и может представлять интерес для русскоговорящих экспатов, однако она полностью нарушает правила 2 (большая политика и конфликты) и 4 (уважение к ценностям ОАЭ), так как описывает действия полиции в контексте военного конфликта и содержит крайне негативные и непроверенные обвинения."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/energy-security-ai-drive-surge-in-middle-east-renewables-report",
+    "timestamp": "2026-03-31T05:12:45.272010+00:00",
+    "status": "rejected",
+    "content_hash": "54ffacab1d737edd07327952914d9d52",
+    "strict_hash": "54ffacab1d737edd07327952914d9d52",
+    "fuzzy_hash": "ab7cf287b7f1fe0a751ccddd184ad751",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://www.thesun.co.uk/tvandshowbiz/38675320/rio-kate-ferdinand-maldives-dubai-missile-escape",
+    "timestamp": "2026-03-31T05:12:45.439698+00:00",
+    "status": "rejected",
+    "content_hash": "3dec76e116b420714cea13d3b49c4b58",
+    "strict_hash": "3dec76e116b420714cea13d3b49c4b58",
+    "fuzzy_hash": "c8d66f98f28e8076540ee707c284c178",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
