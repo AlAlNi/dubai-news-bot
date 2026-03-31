@@ -1048,5 +1048,32 @@
     "strict_hash": "3dec76e116b420714cea13d3b49c4b58",
     "fuzzy_hash": "c8d66f98f28e8076540ee707c284c178",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/uk/steven-lyonss-wife-arrested-in-dubai-days-after-scottish-gangland-figures-detention-in-bali/articleshow/129903992.cms",
+    "timestamp": "2026-03-31T05:14:47.333299+00:00",
+    "status": "rejected",
+    "content_hash": "263457d23cc7f65e3b9b00eec6546551",
+    "strict_hash": "263457d23cc7f65e3b9b00eec6546551",
+    "fuzzy_hash": "cb63f42a09e652c07ce52c97c46566c6",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (арест в эмирате), но её основная тема — криминальная хроника и деятельность международных преступных группировок. Это не соответствует позитивной или нейтральной деловой/социальной повестке канала и может быть воспринято как негативный инфоповод, не несущий пользы для целевой аудитории (правило 6). Также есть риск нарушения правила 4 (уважение к ценностям), так как акцент на криминале может создавать нежелательный образ эмирата.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/flexible-payments-ai-now-shape-how-gulf-shoppers-buy-finds-tabby-survey",
+    "timestamp": "2026-03-31T05:15:35.642358+00:00",
+    "status": "rejected",
+    "content_hash": "36ee7c59ca312da872ab8997b5083f86",
+    "strict_hash": "36ee7c59ca312da872ab8997b5083f86",
+    "fuzzy_hash": "7cbfb77236829874b68f6f80ce5a61d6",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://www.bollywoodhungama.com/news/bollywood/shoot-shah-rukh-khans-king-dubai-cancelled-amid-middle-east-tensions-desert-sequence-shifted-mumbai-report",
+    "timestamp": "2026-03-31T05:15:35.823496+00:00",
+    "status": "rejected",
+    "content_hash": "ac71f874d468837984e59fc3b388a5b2",
+    "strict_hash": "ac71f874d468837984e59fc3b388a5b2",
+    "fuzzy_hash": "a58c3056cd082e98a60158082322de64",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
