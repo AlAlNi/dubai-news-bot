@@ -894,5 +894,32 @@
     "strict_hash": "89e81c0e41507dc21921ace547cdf71b",
     "fuzzy_hash": "f62341d7029c9a5d1ae8e74944538b11",
     "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (инцидент в порту), но её основная тема — военное нападение и международный конфликт (Иран), что нарушает правило №2. Также тема потенциального разлива нефти может негативно влиять на имидж эмирата, что вызывает вопросы по правилу №4 (уважение к ценностям ОАЭ).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/indian-billionaire-challenges-adanis-winning-bid-for-4-bln-in-assets-f1-track",
+    "timestamp": "2026-03-31T14:22:54.765259+00:00",
+    "status": "rejected",
+    "content_hash": "da178c3907068e3c61979926943cb23e",
+    "strict_hash": "da178c3907068e3c61979926943cb23e",
+    "fuzzy_hash": "65879da07460c489aa9cab2581d42710",
+    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ, описывая сугубо индийский корпоративный спор. Основная тема — юридический вызов в Индии, что не представляет прямого интереса или пользы для русскоговорящего жителя Дубая."
+  },
+  {
+    "url": "https://whatson.ae/2026/03/easter-in-abu-dhabi-the-best-brunches-to-book-this-weekend",
+    "timestamp": "2026-03-31T14:23:04.417971+00:00",
+    "status": "rejected",
+    "content_hash": "6f1bd81a0aefd612c39fe2a16218f9ce",
+    "strict_hash": "6f1bd81a0aefd612c39fe2a16218f9ce",
+    "fuzzy_hash": "8a890e039c95913afa6488842db7b80f",
+    "reason": "**Оценка:** Новость не подходит, так как нарушает правило 1 (отсутствует явная связь с Дубаем, речь об Абу-Даби) и правило 3 (имеет рекламный характер, представляя собой подборку платных мероприятий без общественно значимой информации)."
+  },
+  {
+    "url": "https://www.manchestereveningnews.co.uk/news/world-news/oil-tanker-ablaze-after-projectile-33687844",
+    "timestamp": "2026-03-31T14:23:04.819119+00:00",
+    "status": "rejected",
+    "content_hash": "65239acac871c324dafde804b8e74274",
+    "strict_hash": "65239acac871c324dafde804b8e74274",
+    "fuzzy_hash": "50e739946eafc293208a2eb69d054d09",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
