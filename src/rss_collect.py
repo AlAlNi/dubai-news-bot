@@ -182,6 +182,10 @@ TIME_SLOTS = [
     {"name": "Первая половина суток", "range": "00:00-11:59 UTC", "hour_range": (0, 11)},
     {"name": "Вторая половина суток", "range": "12:00-23:59 UTC", "hour_range": (12, 23)},
 ]
+SLA_SLOT_REQUIREMENTS = [
+    {"slot": "morning", "deadline_hour": 7, "deadline_minute": 30},
+    {"slot": "evening", "deadline_hour": 15, "deadline_minute": 30},
+]
 
 # ========= ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ =========
 
@@ -623,6 +627,56 @@ def check_dubai_relevance(title: str, description: str) -> tuple[bool, str]:
     
     return True, "Содержит тематику Дубай/ОАЭ"
 
+def check_dubai_relevance_soft(title: str, description: str) -> tuple[bool, str]:
+    text = f"{title} {description}".lower()
+    soft_keywords = ["dubai", "uae", "emirates", "abu dhabi", "gulf"]
+    if any(keyword in text for keyword in soft_keywords):
+        return True, "Soft relevance: содержит базовую гео-привязку к ОАЭ"
+    return False, "Soft relevance: нет базовой гео-привязки к ОАЭ"
+
+def get_slot_by_hour(hour: int) -> str:
+    return "morning" if hour < 12 else "evening"
+
+def infer_draft_slot(draft: Dict[str, Any]) -> str:
+    explicit_slot = safe_strip(draft.get("slot_target"))
+    if explicit_slot in ("morning", "evening"):
+        return explicit_slot
+
+    published_raw = safe_strip(draft.get("published"))
+    if published_raw:
+        try:
+            published_dt = datetime.fromisoformat(published_raw.replace("Z", "+00:00"))
+            published_utc = published_dt.astimezone(timezone.utc)
+            return get_slot_by_hour(published_utc.hour)
+        except ValueError:
+            pass
+    return "morning"
+
+def build_slot_inventory(drafts: List[Dict[str, Any]]) -> Dict[str, int]:
+    counts = {"morning": 0, "evening": 0}
+    for draft in drafts:
+        slot = infer_draft_slot(draft)
+        counts[slot] = counts.get(slot, 0) + 1
+    return counts
+
+def get_active_sla_shortage(drafts: List[Dict[str, Any]], now_utc: datetime) -> Optional[str]:
+    slot_counts = build_slot_inventory(drafts)
+    for requirement in SLA_SLOT_REQUIREMENTS:
+        slot = requirement["slot"]
+        deadline = now_utc.replace(
+            hour=requirement["deadline_hour"],
+            minute=requirement["deadline_minute"],
+            second=0,
+            microsecond=0,
+        )
+        if now_utc <= deadline and slot_counts.get(slot, 0) < 1:
+            print(
+                f"⏰ SLA дефицит: slot={slot}, drafts={slot_counts.get(slot, 0)}, "
+                f"deadline={deadline.strftime('%H:%M')} UTC"
+            )
+            return slot
+    return None
+
 def build_seen_links(existing_drafts: List[Dict[str, Any]]) -> tuple[set, set]:
     """Возвращает множество URL и множество хешей контента"""
     seen_urls = set()
@@ -818,7 +872,7 @@ def fetch_news_from_gnews(api_key: str, query: str) -> Optional[List[Dict[str, A
     
     return None
 
-def process_gnews_article(article: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+def process_gnews_article(article: Dict[str, Any], relaxed_relevance: bool = False) -> Optional[Dict[str, Any]]:
     if not article:
         return None
     
@@ -849,7 +903,8 @@ def process_gnews_article(article: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     
     print(f"📖 Текст: {len(full_content)} символов")
 
-    relevant, reason = check_dubai_relevance(title, full_content)
+    relevance_checker = check_dubai_relevance_soft if relaxed_relevance else check_dubai_relevance
+    relevant, reason = relevance_checker(title, full_content)
     if not relevant:
         print(f"🚫 Не про Дубай: {reason}")
         return None
@@ -901,7 +956,8 @@ def get_time_slot_gnews_key() -> str:
 def try_gnews_search_with_rotation(
     existing_drafts: List[Dict[str, Any]], 
     seen_urls: set,
-    seen_hashes: set
+    seen_hashes: set,
+    relaxed_relevance: bool = False,
 ) -> Optional[Dict[str, Any]]:
     del existing_drafts
 
@@ -939,7 +995,7 @@ def try_gnews_search_with_rotation(
             if not is_about_dubai(title):
                 continue
 
-            processed = process_gnews_article(article)
+            processed = process_gnews_article(article, relaxed_relevance=relaxed_relevance)
             if not processed:
                 continue
 
@@ -984,7 +1040,7 @@ def fetch_news_from_google_rss(query: str):
         print(f"⚠️ Ошибка запроса к Google News RSS: {e}")
         return []
 
-def process_google_news_rss_entry(entry: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+def process_google_news_rss_entry(entry: Dict[str, Any], relaxed_relevance: bool = False) -> Optional[Dict[str, Any]]:
     title = safe_strip(safe_get(entry, "title", ""))
     link = safe_strip(safe_get(entry, "link", ""))
     if not title or not link:
@@ -1000,7 +1056,9 @@ def process_google_news_rss_entry(entry: Dict[str, Any]) -> Optional[Dict[str, A
     )
     published_at = safe_strip(safe_get(entry, "published", ""))
 
-    if not is_about_dubai(title) and not is_about_dubai(description):
+    relevance_checker = check_dubai_relevance_soft if relaxed_relevance else check_dubai_relevance
+    relevant, _ = relevance_checker(title, description)
+    if not relevant:
         return None
 
     strict_hash, fuzzy_hash = generate_content_hashes(title, description[:500], link)
@@ -1023,7 +1081,8 @@ def process_google_news_rss_entry(entry: Dict[str, Any]) -> Optional[Dict[str, A
 def try_google_news_rss_reserve(
     existing_drafts: List[Dict[str, Any]],
     seen_urls: set,
-    seen_hashes: set
+    seen_hashes: set,
+    relaxed_relevance: bool = False,
 ) -> Optional[Dict[str, Any]]:
     del existing_drafts
 
@@ -1040,7 +1099,7 @@ def try_google_news_rss_reserve(
             if is_too_old_for_rss(entry):
                 continue
 
-            processed = process_google_news_rss_entry(entry)
+            processed = process_google_news_rss_entry(entry, relaxed_relevance=relaxed_relevance)
             if not processed:
                 continue
 
@@ -1061,15 +1120,26 @@ def try_google_news_rss_reserve(
 def try_reserve_aggregators(
     existing_drafts: List[Dict[str, Any]],
     seen_urls: set,
-    seen_hashes: set
+    seen_hashes: set,
+    relaxed_relevance: bool = False,
 ) -> Optional[Dict[str, Any]]:
     print("🛟 Резервный канал: агрегаторы (GNews -> Google News RSS)")
-    gnews_item = try_gnews_search_with_rotation(existing_drafts, seen_urls, seen_hashes)
+    gnews_item = try_gnews_search_with_rotation(
+        existing_drafts,
+        seen_urls,
+        seen_hashes,
+        relaxed_relevance=relaxed_relevance,
+    )
     if gnews_item:
         gnews_item["source_priority"] = 3
         return gnews_item
 
-    return try_google_news_rss_reserve(existing_drafts, seen_urls, seen_hashes)
+    return try_google_news_rss_reserve(
+        existing_drafts,
+        seen_urls,
+        seen_hashes,
+        relaxed_relevance=relaxed_relevance,
+    )
 
 # ========= RSS =========
 
@@ -1114,7 +1184,9 @@ def extract_full_content_from_rss(entry) -> str:
 def try_rss_feeds(
     existing_drafts: List[Dict[str, Any]], 
     seen_urls: set,
-    seen_hashes: set
+    seen_hashes: set,
+    allowed_priorities: Optional[Set[int]] = None,
+    relaxed_relevance: bool = False,
 ) -> Optional[Dict[str, Any]]:
     print("📡 Поиск через UAE RSS ленты...")
     
@@ -1130,6 +1202,8 @@ def try_rss_feeds(
     print(f"📰 Доступно RSS лент: {len(rss_feeds)}")
     
     for feed_conf in rss_feeds:
+        if allowed_priorities is not None and feed_conf.get("priority", 3) not in allowed_priorities:
+            continue
         print(f"\n📡 Пробуем: {feed_conf['name']}")
         
         try:
@@ -1160,7 +1234,8 @@ def try_rss_feeds(
                     continue
                 
                 content = extract_full_content_from_rss(entry)
-                relevant, reason = check_dubai_relevance(title, content)
+                relevance_checker = check_dubai_relevance_soft if relaxed_relevance else check_dubai_relevance
+                relevant, reason = relevance_checker(title, content)
                 if not relevant:
                     continue
                 
@@ -1686,7 +1761,8 @@ def handler(event, context):
         else:
             print(f"❌ Смонтированный бакет НЕ найден")
         
-        current_hour = datetime.now(timezone.utc).hour
+        current_utc = datetime.now(timezone.utc)
+        current_hour = current_utc.hour
         time_half = 0 if current_hour < 12 else 1
         
         print(f"\n📊 ВРЕМЯ: {current_hour}:00 UTC, половина {time_half + 1}/2")
@@ -1694,8 +1770,13 @@ def handler(event, context):
         existing_drafts = load_existing_drafts()
         existing_titles = [draft.get("title", "") for draft in existing_drafts]
         seen_urls, seen_hashes = build_seen_links(existing_drafts)
+        slot_inventory = build_slot_inventory(existing_drafts)
+        sla_shortage_slot = get_active_sla_shortage(existing_drafts, current_utc)
         
         print(f"📊 Существующих новостей: {len(existing_drafts)}")
+        print(f"🗂️ Слоты в черновиках: morning={slot_inventory.get('morning', 0)}, evening={slot_inventory.get('evening', 0)}")
+        if sla_shortage_slot:
+            print(f"🚨 SLA режим включен: нужно пополнить slot={sla_shortage_slot}")
         print(f"📝 Заголовков для проверки: {len(existing_titles)}")
         
         approved_draft = None
@@ -1714,14 +1795,33 @@ def handler(event, context):
             
             news_item = None
             
-            if attempt <= 2:
-                print("🎯 Стратегия: RSS (основной канал)")
+            if attempt == 1:
+                print("🎯 Стратегия: RSS priority=1")
                 rss_fetches += 1
-                news_item = try_rss_feeds(existing_drafts, seen_urls, seen_hashes)
+                news_item = try_rss_feeds(
+                    existing_drafts,
+                    seen_urls,
+                    seen_hashes,
+                    allowed_priorities={1},
+                )
+            elif attempt == 2:
+                print("🎯 Стратегия: RSS priority=2")
+                rss_fetches += 1
+                news_item = try_rss_feeds(
+                    existing_drafts,
+                    seen_urls,
+                    seen_hashes,
+                    allowed_priorities={2},
+                )
             else:
-                print("🎯 Стратегия: Reserve aggregators (только при дефиците слота)")
+                print("🎯 Стратегия: Reserve aggregators (soft relevance)")
                 reserve_fetches += 1
-                news_item = try_reserve_aggregators(existing_drafts, seen_urls, seen_hashes)
+                news_item = try_reserve_aggregators(
+                    existing_drafts,
+                    seen_urls,
+                    seen_hashes,
+                    relaxed_relevance=True,
+                )
                 if news_item and news_item.get("method") == "gnews":
                     gnews_fetches += 1
                 elif news_item and news_item.get("method") == "google_news_rss":
@@ -1757,6 +1857,8 @@ def handler(event, context):
                     seen_hashes.add(fuzzy_hash)
             else:
                 approved_draft = processed
+                slot_target = sla_shortage_slot or get_slot_by_hour(current_hour)
+                approved_draft["slot_target"] = slot_target
                 print(f"🎉 НАЙДЕНА ПОДХОДЯЩАЯ НОВОСТЬ!")
                 break
         
