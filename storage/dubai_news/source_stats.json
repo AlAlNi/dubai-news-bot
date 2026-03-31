@@ -994,5 +994,32 @@
     "strict_hash": "510d859ed0e9ac2a806ab32742aa5ed9",
     "fuzzy_hash": "2bd8ef901a1c538d13519e12b874c76a",
     "reason": "DeepSeek budget exhausted before editor validation"
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/03/31/business/foreign-business/luxury-carmakers-gold-leafed-gulf-profits-under-threat-from-iran-war/2310435",
+    "timestamp": "2026-03-31T04:27:59.976141+00:00",
+    "status": "rejected",
+    "content_hash": "06121c3da5f8e293fe4f8b2380b57919",
+    "strict_hash": "06121c3da5f8e293fe4f8b2380b57919",
+    "fuzzy_hash": "a3a65b115145d911132626653df66733",
+    "reason": "Новость не подходит, так как нарушает правило №2: основная тема связана с угрозой войны (Иран), что относится к большой политике и конфликтам, которые мы не публикуем. Также заголовок носит кликбейтный характер (правило №5)."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/strait-of-hormuz-traffic-181-ships-march-70-percent-iranian",
+    "timestamp": "2026-03-31T04:28:06.578050+00:00",
+    "status": "rejected",
+    "content_hash": "deae005245ba2e55b4067c2f04c2efd7",
+    "strict_hash": "deae005245ba2e55b4067c2f04c2efd7",
+    "fuzzy_hash": "40d13334ff79c6887df45cdacbae944e",
+    "reason": "**Оценка новости:** Новость напрямую связана с регионом (пролив Гормуз — ключевая точка у берегов ОАЭ) и затрагивает важную экономическую и логистическую тему. Однако её основная тема — геополитическая напряжённость и активность Ирана, что попадает под правило о большой политике и конфликтах, а также может нести риски с точки зрения ценностей ОАЭ, предпочитающих нейтралитет."
+  },
+  {
+    "url": "https://www.itv.com/news/2026-03-30/uk-government-must-do-more-for-brits-detained-in-uae-says-campaign-group",
+    "timestamp": "2026-03-31T04:28:06.927408+00:00",
+    "status": "rejected",
+    "content_hash": "93360c2633ec6b565d646d23ad314b6f",
+    "strict_hash": "93360c2633ec6b565d646d23ad314b6f",
+    "fuzzy_hash": "a132548dcf55b8b54de1430fa74234b1",
+    "reason": "DeepSeek budget exhausted before editor validation"
   }
 ]
