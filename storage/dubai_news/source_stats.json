@@ -1147,5 +1147,23 @@
     "url": "https://backend.gulfbusiness.com/blog/2026/04/01/basma-15-uaes-new-initiative-brings-emirates-id-services-to-schools",
     "timestamp": "2026-04-01T17:06:59.815488+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/04/01/spacex-files-ipo-largest-listings-ever",
+    "timestamp": "2026-04-01T17:29:11.183141+00:00",
+    "status": "rejected",
+    "content_hash": "278677e82ca8c84cdb0a7b57a8ba78d0",
+    "strict_hash": "278677e82ca8c84cdb0a7b57a8ba78d0",
+    "fuzzy_hash": "a9ed70b178db4f035db3fa33e871d351",
+    "reason": "**Оценка новости:** Новость о IPO SpaceX не имеет явной связи с Дубаем/ОАЭ/GCC, упоминание издания Gulf Business недостаточно для соответствия правилу №1. Основная тема — корпоративные финансы и космическая отрасль в США, что не представляет прямого интереса или пользы для русскоговорящего жителя Дубая (правило №6)."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-bars-iranians-from-entering-transiting-country-amid-hostilities/articleshow/129941782.cms",
+    "timestamp": "2026-04-01T17:29:16.450018+00:00",
+    "status": "rejected",
+    "content_hash": "831ffa2cd6bede36845cb5698760560c",
+    "strict_hash": "831ffa2cd6bede36845cb5698760560c",
+    "fuzzy_hash": "a63e5cd4a5c1a486bd17b9645c0c4510",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (правило 1), но её основная тема — региональный конфликт и введение ограничительных мер на фоне войны, что попадает под запрет по правилу 2 (Политика и конфликты). Это делает её неподходящей для публикации в развлекательно-информационном канале.\n**Окончательное решение:**"
   }
 ]
