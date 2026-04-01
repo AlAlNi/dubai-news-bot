@@ -1,59 +1,5 @@
 [
   {
-    "url": "https://indianexpress.com/article/world/dubai-uae-news-live-updates-iran-war-attack-kuwait-10608892",
-    "timestamp": "2026-03-30T16:00:04.543543+00:00",
-    "status": "rejected",
-    "content_hash": "f2e9511d19ad4c8ebf62a1f4557d531c",
-    "strict_hash": "f2e9511d19ad4c8ebf62a1f4557d531c",
-    "fuzzy_hash": "13491c625ed658564b2fb7aee7c26d02",
-    "reason": "Новость категорически не подходит, так как полностью нарушает правило №2 (основная тема — военный конфликт и атака в регионе) и, вероятно, правило №5 (кликбейтный заголовок, перечисляющий ключевые слова)."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/uber-to-acquire-global-chauffeur-service-blacklane",
-    "timestamp": "2026-03-30T16:00:12.408313+00:00",
-    "status": "rejected",
-    "content_hash": "8e6c1c8516807d22e2dcc9aea431c6c5",
-    "strict_hash": "8e6c1c8516807d22e2dcc9aea431c6c5",
-    "fuzzy_hash": "a0fe4372957eda19638ef1f7e7341320",
-    "reason": "**Оценка новости:** Новость о покупке Uber глобального лидера премиальных услуг с водителем Blacklane имеет косвенную связь с регионом через Gulf Business, но не содержит конкретной информации о влиянии на Дубай/ОАЭ. Основной фокус — корпоративная сделка, не нарушающая правил о политике или ценностях, однако текст выглядит как краткий пресс-релиз без общественно значимой детализации для жителей Дубая."
-  },
-  {
-    "url": "https://www.mirror.co.uk/news/world-news/huge-explosions-heard-dubai-trump-36941268",
-    "timestamp": "2026-03-30T16:00:16.953473+00:00",
-    "status": "rejected",
-    "content_hash": "c7afe0d523707a5a8de57bbd7110a5f9",
-    "strict_hash": "c7afe0d523707a5a8de57bbd7110a5f9",
-    "fuzzy_hash": "c264de9527d08f31f01194c80937cf14",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
-    "url": "https://www.india.com/news/world/dubai-could-be-destroyed-if-what-warning-did-us-economist-issue-to-uae-missile-drone-attack-donald-trump-netanyahu-strait-of-hormuz-8361151",
-    "timestamp": "2026-03-30T16:59:23.319301+00:00",
-    "status": "rejected",
-    "content_hash": "2b092a46b6bdccb13cfa2645308dde95",
-    "strict_hash": "2b092a46b6bdccb13cfa2645308dde95",
-    "fuzzy_hash": "638e213c0faaa06a6cce919a49f7ebb0",
-    "reason": "**Оценка новости:** Новость содержит явную связь с ОАЭ (предупреждение о Дубае), однако её основная тема — большая политика и гипотетический военный конфликт с негативной оценкой внешней политики страны. Это нарушает правила 2 (политика/конфликты) и, вероятно, правило 4 (уважение к ценностям, так как содержит резкую критику со стороны иностранного эксперта).\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/new-paid-parking-zones-announced-in-abu-dhabi-key-areas-revealed",
-    "timestamp": "2026-03-30T17:00:16.507720+00:00",
-    "status": "rejected",
-    "content_hash": "f953e18805ed1a18113e5c870d30a8fa",
-    "strict_hash": "f953e18805ed1a18113e5c870d30a8fa",
-    "fuzzy_hash": "bc0e0c273e911d682d9fd1e7589a7ecd",
-    "reason": "**Оценка:** Новость о введении платных парковок в Абу-Даби напрямую связана с ОАЭ и имеет практическую ценность для жителей, особенно автомобилистов. Однако она не касается Дубая, а сосредоточена на другом эмирате, что снижает её непосредственную релевантность для канала о Дубае.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.timesnownews.com/entertainment-news/bollywood/kings-dubai-schedule-scrapped-amid-west-asia-tensions-suhana-khans-action-sequence-to-be-shot-in-report-article-153953011",
-    "timestamp": "2026-03-30T17:00:16.710424+00:00",
-    "status": "rejected",
-    "content_hash": "c5a74d27344dfceccd4d974610265b4f",
-    "strict_hash": "c5a74d27344dfceccd4d974610265b4f",
-    "fuzzy_hash": "79a977aff2052bb277c01a049e8d5050",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
     "url": "https://www.ndtv.com/world-news/dubai-news-iran-israel-war-dubai-could-be-blown-up-if-uae-enters-war-warns-top-us-economist-11282363",
     "timestamp": "2026-03-30T17:55:16.616240+00:00",
     "status": "rejected",
@@ -1196,5 +1142,10 @@
     "strict_hash": "e09eb4fd913913565426d48fb126a5ee",
     "fuzzy_hash": "ee7f3de19d701bb7bd93c34bbb4ee006",
     "reason": "**Оценка новости:** Новость посвящена военному конфликту, ударам по танкерам и угрозам Ирана, что напрямую нарушает правило №2 (Политика и конфликты). Тема не имеет позитивной или общественно-полезной связи с жизнью в Дубае, а лишь упоминает регион GCC в контексте войны, что также может противоречить духу правила №4 (Уважение к ценностям)."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/04/01/basma-15-uaes-new-initiative-brings-emirates-id-services-to-schools",
+    "timestamp": "2026-04-01T17:06:59.815488+00:00",
+    "status": "published"
   }
 ]
