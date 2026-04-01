@@ -1,24 +1,5 @@
 [
   {
-    "script": "rss_collect",
-    "started_at": "2026-03-28T15:21:02.186343+00:00",
-    "finished_at": "2026-03-28T15:21:18.218029+00:00",
-    "duration_seconds": 16.032,
-    "success": true,
-    "counters": {
-      "attempts_made": 2,
-      "fetched": 2,
-      "rejected": 1,
-      "approved": 1,
-      "deepseek_calls": 2,
-      "deepseek_calls_max": 2,
-      "gnews_fetches": 1,
-      "rss_fetches": 1,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    }
-  },
-  {
     "script": "auto_notify",
     "started_at": "2026-03-28T15:40:00.789338+00:00",
     "finished_at": "2026-03-28T15:40:01.968442+00:00",
@@ -9353,6 +9334,108 @@
             "events": 32,
             "reject_rate": 84.38,
             "duplicate_rate": 6.25
+          },
+          {
+            "source": "whatson.ae",
+            "events": 19,
+            "reject_rate": 84.21,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "propertynews.ae",
+            "events": 9,
+            "reject_rate": 66.67,
+            "duplicate_rate": 22.22
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-04-01T14:11:17.873352+00:00",
+    "finished_at": "2026-04-01T14:11:27.713000+00:00",
+    "duration_seconds": 9.84,
+    "success": false,
+    "counters": {
+      "attempts_made": 3,
+      "fetched": 2,
+      "rejected": 2,
+      "approved": 0,
+      "deepseek_calls": 2,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 1,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 1,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-04-01",
+      "daily": {
+        "published_per_day": {
+          "value": 4,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 83.87,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.newsx.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "timesofindia.indiatimes.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.timeoutdubai.com",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "backend.gulfbusiness.com",
+            "events": 33,
+            "reject_rate": 84.85,
+            "duplicate_rate": 6.06
           },
           {
             "source": "whatson.ae",

@@ -1137,5 +1137,23 @@
     "url": "https://whatson.ae/2026/04/spotted-sheikh-mohammed-makes-a-surprise-appearance-at-dubai-hills-mall",
     "timestamp": "2026-04-01T13:57:40.900960+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/04/01/india-raises-jet-fuel-commercial-lpg-prices-as-mideast-crisis-drives-global-surge",
+    "timestamp": "2026-04-01T14:11:22.364159+00:00",
+    "status": "rejected",
+    "content_hash": "262e55fde608a42024793d8b77be2af5",
+    "strict_hash": "262e55fde608a42024793d8b77be2af5",
+    "fuzzy_hash": "08e00d41874c4ea381ce3d4515178a7e",
+    "reason": "Новость не подходит, так как не имеет явной связи с Дубаем, ОАЭ или GCC, а её основная тема — политика и конфликт на Ближнем Востоке, что запрещено правилами."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/news/international/world-news/uae-bars-iranians-from-entering-or-transiting-the-country/articleshow/129939117.cms",
+    "timestamp": "2026-04-01T14:11:27.711293+00:00",
+    "status": "rejected",
+    "content_hash": "1cf8ede27a36c9724bf71317076380d9",
+    "strict_hash": "1cf8ede27a36c9724bf71317076380d9",
+    "fuzzy_hash": "9b401f84a9b6e3c6bcf9025867c22da9",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (правило 1), но её основная тема — это большая политика и международный конфликт (Иран), что нарушает правило 2. Также формулировки (\"война с Ираном\") могут быть восприняты как неуважение к официальной позиции ОАЭ, которая избегает подобных заявлений (правило 4).\n**Окончательное решение:**"
   }
 ]
