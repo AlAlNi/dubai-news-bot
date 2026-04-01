@@ -1132,5 +1132,23 @@
     "strict_hash": "7ca021b59b39bbfbf1700b4b3fbb90a2",
     "fuzzy_hash": "009f9c04d2ee2a603ae3fa087b2751da",
     "reason": "**Оценка новости:** Новость подходит, так как имеет прямую связь с Дубаем (рейс Fly Dubai), не нарушает запрещённые темы, носит информационный характер о событии, полезном для путешественников, и не выглядит рекламой или сгенерированным текстом."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/04/01/majid-al-futtaim-expands-retail-portfolio-with-primark-launch",
+    "timestamp": "2026-04-01T08:23:36.532217+00:00",
+    "status": "rejected",
+    "content_hash": "699fe02ced811ede2df73ae806ac8a9e",
+    "strict_hash": "699fe02ced811ede2df73ae806ac8a9e",
+    "fuzzy_hash": "d179b11f90c4ecffa14c9b9ee21df88f",
+    "reason": "Новость о втором магазине Primark в Дубае имеет прямую связь с регионом, не нарушает запретных тем и может быть интересна русскоязычным жителям, интересующимся шопингом и новыми открытиями. Однако текст выглядит как краткий пресс-релиз или пересказ новости с другого сайта без добавления самостоятельной ценности и глубокой проверки."
+  },
+  {
+    "url": "https://propertynews.ae/guide/burj-khalifa-penthouse-sets-uae-rental-record-at-dh12-million-annually",
+    "timestamp": "2026-04-01T08:24:04.804678+00:00",
+    "status": "approved",
+    "content_hash": "2ef0848529e21bfe815ec81e52c3bdfb",
+    "strict_hash": "2ef0848529e21bfe815ec81e52c3bdfb",
+    "fuzzy_hash": "1a7f01b2d6d917c7d61781929760acc2",
+    "reason": "approved"
   }
 ]
