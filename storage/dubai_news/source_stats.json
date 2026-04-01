@@ -1137,5 +1137,23 @@
     "strict_hash": "d11a38aa9f9d86617af86727d734a25a",
     "fuzzy_hash": "e4da54e142bcc9c7fa19a4fed872c233",
     "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (инцидент на его территории), не является политическим или рекламным материалом, а сообщает о происшествии с пострадавшими, что представляет общественный интерес для жителей. Однако текст обрывается, и отсутствует явный, проверяемый URL-источник для подтверждения фактов, что является критическим нарушением.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/uae-schools-announce-transport-fee-waivers",
+    "timestamp": "2026-04-01T04:40:30.304227+00:00",
+    "status": "rejected",
+    "content_hash": "7b5afbf2a93a8d464b2506303d24b4be",
+    "strict_hash": "7b5afbf2a93a8d464b2506303d24b4be",
+    "fuzzy_hash": "a7d3170bc7f9e774338c4252e54bf876",
+    "reason": "Новость подходит: имеет прямую связь с ОАЭ (школы), полезна русскоязычным жителям с детьми, не нарушает ценностей и не является прямой рекламой, а скорее service-update об изменении условий."
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/31/uber-increases-stake-in-weride-as-robotaxi-partnership-ramps-up-in-dubai",
+    "timestamp": "2026-04-01T04:40:33.806746+00:00",
+    "status": "rejected",
+    "content_hash": "8b9b12375fc96a8afb61b2298b9119b4",
+    "strict_hash": "8b9b12375fc96a8afb61b2298b9119b4",
+    "fuzzy_hash": "b9b0e4f3ce5d876a3c65ae7c3bcc513a",
+    "reason": "Некачественный fallback summary"
   }
 ]
