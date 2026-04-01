@@ -93,7 +93,6 @@ DAILY_QUOTA_PRACTICAL = env_int("DAILY_QUOTA_PRACTICAL", 1, min_value=0)
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 HTTP_TIMEOUT = 25
 ENABLE_CHEAP_PREFILTER = os.getenv("ENABLE_CHEAP_PREFILTER", "1").lower() in ("1", "true", "yes", "on")
-MAX_DEEPSEEK_CALLS_PER_RUN = env_int("MAX_DEEPSEEK_CALLS_PER_RUN", 2, min_value=0)
 PREFILTER_MIN_TEXT_LEN = env_int("PREFILTER_MIN_TEXT_LEN", 120, min_value=40)
 PREFILTER_MAX_NOISE_RATIO = env_float("PREFILTER_MAX_NOISE_RATIO", 0.35, min_value=0.0, max_value=1.0)
 PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN = env_int("PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN", 2, min_value=1)
@@ -1600,15 +1599,13 @@ def passes_priority_quality_gate(news_item: Dict[str, Any], editorial_metrics: D
     return True, "priority quality gate passed"
 
 def can_call_deepseek(deepseek_context: Dict[str, int]) -> bool:
-    return deepseek_context.get("calls_made", 0) < deepseek_context.get("max_calls", MAX_DEEPSEEK_CALLS_PER_RUN)
+    # Бюджет вызовов отключен: DeepSeek доступен без лимита в рамках одного запуска.
+    return True
 
 def consume_deepseek_call(deepseek_context: Dict[str, int], reason: str) -> bool:
-    if not can_call_deepseek(deepseek_context):
-        print(f"⛔ DeepSeek budget exhausted, skip: {reason}")
-        return False
     deepseek_context["calls_made"] = deepseek_context.get("calls_made", 0) + 1
     print(
-        f"💸 DeepSeek call {deepseek_context['calls_made']}/{deepseek_context.get('max_calls', MAX_DEEPSEEK_CALLS_PER_RUN)}: {reason}"
+        f"💸 DeepSeek call #{deepseek_context['calls_made']} (unlimited): {reason}"
     )
     return True
 
@@ -1733,11 +1730,9 @@ def process_news_item(
         return None
     
     if deepseek_context is None:
-        deepseek_context = {"calls_made": 0, "max_calls": MAX_DEEPSEEK_CALLS_PER_RUN}
+        deepseek_context = {"calls_made": 0}
 
-    if not consume_deepseek_call(deepseek_context, "editor validation"):
-        mark_news_as_rejected(news_item, "DeepSeek budget exhausted before editor validation")
-        return None
+    consume_deepseek_call(deepseek_context, "editor validation")
 
     allowed, reason, is_technical_error = is_news_allowed_by_deepseek(title, description, strict_hash or fuzzy_hash, existing_titles)
     
@@ -1766,10 +1761,8 @@ def process_news_item(
         mark_news_as_rejected(news_item, gate_reason)
         return None
 
-    if consume_deepseek_call(deepseek_context, "summary generation"):
-        summary_ru = process_with_deepseek_simple(title, description)
-    else:
-        summary_ru = build_fallback_summary(title, description)
+    consume_deepseek_call(deepseek_context, "summary generation")
+    summary_ru = process_with_deepseek_simple(title, description)
 
     if is_fallback_summary(summary_ru):
         print(f"🚫 Новость отклонена: fallback-summary недопустим: {title[:80]}...")
@@ -1823,7 +1816,7 @@ def handler(event, context):
     rss_fetches = 0
     run_metrics = {"technical_errors": 0}
     rejected_in_session = 0
-    deepseek_context = {"calls_made": 0, "max_calls": MAX_DEEPSEEK_CALLS_PER_RUN}
+    deepseek_context = {"calls_made": 0}
 
     try:
         print("=" * 60)
@@ -1860,7 +1853,7 @@ def handler(event, context):
 
         print(
             f"⚙️ DeepSeek cost control: feature_flag={ENABLE_CHEAP_PREFILTER}, "
-            f"max_calls_per_run={MAX_DEEPSEEK_CALLS_PER_RUN}, domain_repeat_limit={PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN}"
+            f"budget=disabled, domain_repeat_limit={PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN}"
         )
         
         for attempt in range(1, max_attempts + 1):
