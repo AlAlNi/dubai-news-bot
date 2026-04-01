@@ -1119,5 +1119,14 @@
     "strict_hash": "e000eabcf3a739d7e5a268cf4bfb1fab",
     "fuzzy_hash": "b5a91df3e9a8b6fedd20395b494b7a86",
     "reason": "Cheap prefilter: слишком короткий текст (98 символов)"
+  },
+  {
+    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/mexxiss-technologies-postpones-dubai-launch-of-global-digital-platforms-amid-rising-geopolitical-uncertainty/article70806990.ece",
+    "timestamp": "2026-04-01T01:27:10.897875+00:00",
+    "status": "rejected",
+    "content_hash": "3261acce0443e264b68a28a4dfa95499",
+    "strict_hash": "3261acce0443e264b68a28a4dfa95499",
+    "fuzzy_hash": "c43d21e6ec776707cd1c6458bc3efe79",
+    "reason": "Новость не подходит, так как не имеет явной связи с Дубаем (нарушение правила 1), а её основная тема — влияние геополитической нестабильности на бизнес — попадает под правило 2 (большая политика/конфликты). Текст также носит признаки корпоративного пресс-релиза (правило 3)."
   }
 ]
