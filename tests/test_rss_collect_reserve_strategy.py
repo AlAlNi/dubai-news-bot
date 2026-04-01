@@ -35,6 +35,20 @@ class ReserveStrategyTests(unittest.TestCase):
         self.assertEqual(result, google_item)
         google_mock.assert_called_once()
 
+
+    def test_try_google_news_rss_reserve_uses_rss_age_filter(self) -> None:
+        entry = {"title": "Sample", "link": "https://example.com/news"}
+
+        with patch("rss_collect.build_google_news_rss_query_plan", return_value=["Dubai"]), patch(
+            "rss_collect.fetch_news_from_google_rss", return_value=[entry]
+        ), patch("rss_collect.is_rss_entry_too_old", return_value=True) as old_mock, patch(
+            "rss_collect.process_google_news_rss_entry"
+        ) as process_mock:
+            result = rss_collect.try_google_news_rss_reserve([], set(), set())
+
+        self.assertIsNone(result)
+        old_mock.assert_called_once_with(entry)
+        process_mock.assert_not_called()
     def test_process_google_news_rss_entry_marks_reserve_method(self) -> None:
         entry = {
             "title": "Dubai Metro expands routes",
