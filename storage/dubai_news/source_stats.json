@@ -1237,5 +1237,23 @@
     "strict_hash": "ce51d9568892b191c61f6326510d69a5",
     "fuzzy_hash": "19cb50aaa9afa49e62cec0c18bcb4a7a",
     "reason": "Новость связана с Дубаем/ОАЭ (рейсы в/из ОАЭ), но её основная тема — это напряжённость в регионе (политика/конфликт), что нарушает правило 2. Также она может дублировать уже опубликованные предупреждения авиакомпаний."
+  },
+  {
+    "url": "https://emirateswoman.com/17-years-17-stays-daily-media-one-hotel-marks-anniversary-with-dubais-biggest-giveaway",
+    "timestamp": "2026-04-01T20:35:04.129345+00:00",
+    "status": "rejected",
+    "content_hash": "d140e9b7a8046c8efaaff4583f213cac",
+    "strict_hash": "d140e9b7a8046c8efaaff4583f213cac",
+    "fuzzy_hash": "2ace6ca69158fe830635c85f4f49823a",
+    "reason": "**Оценка новости:** Новость носит явный рекламный характер (анонс конкурса от отеля), не содержит общественно значимой информации и выглядит как пресс-релиз или рекламный пост. Связь с Дубаем есть, но полезность для аудитории как новости сомнительна.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/life-style/travel/news/dubai-airports-update-april-1-air-india-group-to-run-30-flights-indigo-shares-list-of-scheduled-flights-to-operate-amid-ongoing-conflict/articleshow/129943511.cms",
+    "timestamp": "2026-04-01T20:35:08.911988+00:00",
+    "status": "rejected",
+    "content_hash": "30d2fd6a3bfee79a07bf0d0ffe1f827f",
+    "strict_hash": "30d2fd6a3bfee79a07bf0d0ffe1f827f",
+    "fuzzy_hash": "4c457ed79ec0e7433cce48890b26da83",
+    "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (работа аэропортов), не касается напрямую политики/конфликтов и может быть полезна русскоязычным жителям как travel advisory. Однако текст обрывается, содержит бессмысленные повторения «canva» и не предоставлен полностью для проверки на рекламность, естественность и наличие подтверждающего URL-источника. На основе представленного фрагмента материал выглядит как неполный, ненадежный и потенциально сгенерированный."
   }
 ]
