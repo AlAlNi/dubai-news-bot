@@ -1154,7 +1154,7 @@ def try_google_news_rss_reserve(
             continue
 
         for entry in entries[:20]:
-            if is_too_old_for_rss(entry):
+            if is_rss_entry_too_old(entry):
                 continue
 
             processed = process_google_news_rss_entry(entry, relaxed_relevance=relaxed_relevance)
