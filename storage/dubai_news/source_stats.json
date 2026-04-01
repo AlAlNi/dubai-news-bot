@@ -1155,5 +1155,23 @@
     "strict_hash": "1cf8ede27a36c9724bf71317076380d9",
     "fuzzy_hash": "9b401f84a9b6e3c6bcf9025867c22da9",
     "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (правило 1), но её основная тема — это большая политика и международный конфликт (Иран), что нарушает правило 2. Также формулировки (\"война с Ираном\") могут быть восприняты как неуважение к официальной позиции ОАЭ, которая избегает подобных заявлений (правило 4).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/04/01/trump-claims-on-truth-social-that-iran-has-requested-ceasefire",
+    "timestamp": "2026-04-01T14:28:55.787538+00:00",
+    "status": "rejected",
+    "content_hash": "5ae1a1f262d420f424a946623373f547",
+    "strict_hash": "5ae1a1f262d420f424a946623373f547",
+    "fuzzy_hash": "e57ec7c170b6c71bba55e88245ad9182",
+    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ/GCC, её основная тема — большая политика и международный конфликт (заявление Трампа о перемирии с Ираном). Это прямо нарушает правила 1 и 2.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/dubai-driverless-taxis-are-here-and-heres-the-cost-for-a-ride",
+    "timestamp": "2026-04-01T14:29:15.412248+00:00",
+    "status": "approved",
+    "content_hash": "d31626ed56bff45c999ae89fab0f2304",
+    "strict_hash": "d31626ed56bff45c999ae89fab0f2304",
+    "fuzzy_hash": "deb4c3edf385578844c5c0e854b2bdd4",
+    "reason": "approved"
   }
 ]
