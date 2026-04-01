@@ -1264,5 +1264,23 @@
     "strict_hash": "1ca4b42a1dca0bc90db1648cd991f8b8",
     "fuzzy_hash": "5255b5b2f0d43477624c1b4808f31ce7",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/emirates-new-advice-march-2026",
+    "timestamp": "2026-04-01T21:33:35.917449+00:00",
+    "status": "rejected",
+    "content_hash": "8ef8c8df7826309af12f26815c5cccb4",
+    "strict_hash": "8ef8c8df7826309af12f26815c5cccb4",
+    "fuzzy_hash": "4f4ae47e6bc48743fa7440cd0c282eaf",
+    "reason": "Cheap prefilter: слишком короткий текст (85 символов)"
+  },
+  {
+    "url": "https://www.walesonline.co.uk/whats-on/travel/safe-travel-dubai-right-now-33695114",
+    "timestamp": "2026-04-01T21:33:40.010439+00:00",
+    "status": "rejected",
+    "content_hash": "2ecae0aaab081aeb7f8b5192bab68bd5",
+    "strict_hash": "2ecae0aaab081aeb7f8b5192bab68bd5",
+    "fuzzy_hash": "cdb2e30256010946c7cec3d74dffce56",
+    "reason": "**Оценка новости:** Новость не имеет прямой связи с Дубаем/ОАЭ, так как является общим туристическим советом для британских путешественников, сфокусированным на точке зрения иностранного правительства. Основной контент — это интерпретация рекомендаций МИД Великобритании, что не является новостью, исходящей из региона или непосредственно о нём.\n**Решение:**"
   }
 ]
