@@ -1,46 +1,5 @@
 [
   {
-    "url": "https://www.dailystar.co.uk/news/latest-news/70-brits-facing-years-prison-36941082",
-    "timestamp": "2026-03-30T10:06:54.556636+00:00",
-    "status": "published",
-    "content_hash": "55ceb2d4755d751e467e91470066d5a2",
-    "strict_hash": "55ceb2d4755d751e467e91470066d5a2",
-    "fuzzy_hash": "e1911d302cbe906a94e800537ce01a9d",
-    "reason": "approved"
-  },
-  {
-    "url": "https://zeenews.india.com/world/dubai-and-abu-dhabi-could-be-blown-up-us-economist-warns-uae-against-entering-iran-war-3031733.html",
-    "timestamp": "2026-03-30T10:19:08.980916+00:00",
-    "status": "rejected",
-    "content_hash": "71e9972392755e600f4b78fe8d697c95",
-    "strict_hash": "71e9972392755e600f4b78fe8d697c95",
-    "fuzzy_hash": "737d6fec55f7be1c8a9dcad1aaf5a02c",
-    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (Дубай и Абу-Даби) и содержит предупреждение от известного лица, что может быть интересно русскоговорящим жителям. Однако она нарушает правило №2 (большая политика и конфликты), так как её основная тема — возможное вовлечение ОАЭ в войну с Ираном и связанные с этим риски. Также она является развитием/дубликатом уже опубликованной темы об угрозах безопасности в контексте иранских атак (новость №1 в контексте)."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/oman-govt-wraps-up-salamair-acquisition",
-    "timestamp": "2026-03-30T10:19:17.023991+00:00",
-    "status": "rejected",
-    "content_hash": "964fda31b901193ed40801ed70273efd",
-    "strict_hash": "964fda31b901193ed40801ed70273efd",
-    "fuzzy_hash": "35d8136a138072a032d338ec77ee2d2c",
-    "reason": "**Оценка новости:** Новость касается завершения сделки по приобретению авиакомпании SalamAir правительством Омана. Она напрямую не связана с Дубаем/ОАЭ, а посвящена событиям в соседнем Омане, поэтому не соответствует ключевому правилу о связи с регионом. Также она может представлять ограниченный интерес для русскоговорящего жителя Дубая, если только он не работает в авиационной сфере.\n**Решение:**"
-  },
-  {
-    "url": "https://www.dailystar.co.uk/news/latest-news/70-brits-facing-years-prison-36941082",
-    "timestamp": "2026-03-30T10:20:21.317741+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/uae-weather-to-take-a-turn-again-authorities-issue-advisory",
-    "timestamp": "2026-03-30T10:29:14.771070+00:00",
-    "status": "rejected",
-    "content_hash": "cb5b64008620eb281f1c82ec42ce283b",
-    "strict_hash": "cb5b64008620eb281f1c82ec42ce283b",
-    "fuzzy_hash": "4ab99694b578f61ca370b22ad41ff789",
-    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (погодные условия и предупреждение властей), носит общественно значимый и полезный характер для жителей, не нарушает остальные правила. Однако текст крайне краток и выглядит как автоматически сгенерированный анонс или заголовок, что вызывает сомнения в его естественности и полноте (пункт 5)."
-  },
-  {
     "url": "https://backend.gulfbusiness.com/blog/2026/03/30/dubai-hotels-launch-work-from-hotel-packages",
     "timestamp": "2026-03-30T11:47:13.790961+00:00",
     "status": "rejected",
@@ -1137,5 +1096,10 @@
     "strict_hash": "6e80482580a094bd15186691c0825beb",
     "fuzzy_hash": "6aa3349b82cd1c1674b72866d67585ed",
     "reason": "approved"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/04/01/rta-expands-vehicle-licensing-network-across-dubai-key-areas-revealed",
+    "timestamp": "2026-04-01T11:08:14.156011+00:00",
+    "status": "published"
   }
 ]
