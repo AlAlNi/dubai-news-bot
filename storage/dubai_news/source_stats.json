@@ -1,86 +1,5 @@
 [
   {
-    "url": "https://www.livemint.com/news/air-india-indigo-to-operate-these-flights-to-dubai-abu-dhabi-other-west-asia-hubs-on-30-march-amid-war-details-here-11774805621718.html",
-    "timestamp": "2026-03-30T06:23:58.354120+00:00",
-    "status": "rejected",
-    "content_hash": "ce811503a5836084235b743e3a1a6930",
-    "strict_hash": "ce811503a5836084235b743e3a1a6930",
-    "fuzzy_hash": "1cc08d557d731c5dbd49471f292e24ce",
-    "reason": "Новость не подходит, так как нарушает правило №2: её основной темой является влияние военного конфликта на авиасообщение, что относится к большой политике и войне. Также заголовок содержит кликбейт-элемент (\"Details here\"), что нарушает правило №5."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/from-difc-to-the-beach-where-13-new-cycling-tracks-have-opened-in-dubai",
-    "timestamp": "2026-03-30T06:24:41.760981+00:00",
-    "status": "rejected",
-    "content_hash": "b275edac1a72b0374c5fb0f5d95218c7",
-    "strict_hash": "b275edac1a72b0374c5fb0f5d95218c7",
-    "fuzzy_hash": "a44eac592a9965b4299d2d4d35b117a5",
-    "reason": "Некачественный fallback summary"
-  },
-  {
-    "url": "https://www.timesnownews.com/world/middle-east/dubai-will-be-blown-up-if-uae-joins-iran-war-warns-top-us-economist-jeffery-sachs-middle-east-tension-article-153951283",
-    "timestamp": "2026-03-30T06:24:42.162836+00:00",
-    "status": "rejected",
-    "content_hash": "d92283696ebaa9ac3e2b91962c2a696a",
-    "strict_hash": "d92283696ebaa9ac3e2b91962c2a696a",
-    "fuzzy_hash": "52abc7a48b29a615d0b6cd50ee5819c0",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
-    "url": "https://www.tribuneindia.com/news/world/uae-cabinet-chaired-by-mohammed-bin-rashid-praises-heroic-defence-spirit-of-uae-armed-forces",
-    "timestamp": "2026-03-30T07:45:35.215754+00:00",
-    "status": "rejected",
-    "content_hash": "162b4246527ca1376935e0be0218a078",
-    "strict_hash": "162b4246527ca1376935e0be0218a078",
-    "fuzzy_hash": "d6a64686e4ec74069a80d2b1dc2e97b3",
-    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (правило 1), не касается запрещённых политических конфликтов (правило 2), носит официальный информационный, а не рекламный характер (правило 3), демонстрирует уважение к государству (правило 4) и выглядит естественно (правило 5). Однако она представляет собой сухой официальный отчёт о заседании кабинета министров и вряд ли будет практически полезна или интересна для широкой аудитории русскоязычных жителей Дубая (правило 6). Также высока вероятность, что подобные официальные сообщения уже публиковались (правило 7)."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/foulath-holding-declares-force-majeure-on-some-ops",
-    "timestamp": "2026-03-30T07:45:40.881215+00:00",
-    "status": "rejected",
-    "content_hash": "3d891b3ed6937c32d600d2446c23b77f",
-    "strict_hash": "3d891b3ed6937c32d600d2446c23b77f",
-    "fuzzy_hash": "ca5ec854d21e8e74d8df26ece7124dbf",
-    "reason": "Новость не подходит, так как не имеет явной связи с Дубаем/ОАЭ (нарушает правило 1), а её тема (форс-мажор у компании в Бахрейне) вряд ли будет интересна или полезна русскоязычному жителю Дубая (нарушает правило 6)."
-  },
-  {
-    "url": "https://www.financialexpress.com/world-news/dubai-abu-dhabi-could-be-blown-up-economist-jeffrey-sachs-warns-uae-against-war-gamble/4188342",
-    "timestamp": "2026-03-30T07:45:41.084090+00:00",
-    "status": "rejected",
-    "content_hash": "17b4b83878d17188f6ca5a69b53665f1",
-    "strict_hash": "17b4b83878d17188f6ca5a69b53665f1",
-    "fuzzy_hash": "bff688cfac61320a8f0126cdc966a69f",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
-    "url": "https://www.news18.com/agency-feeds/uae-road-transport-authority-completes-13-cycling-tracks-across-dubai-10004148.html",
-    "timestamp": "2026-03-30T08:16:31.036492+00:00",
-    "status": "rejected",
-    "content_hash": "923268f4e2851c23c16cf34d182e1aa4",
-    "strict_hash": "923268f4e2851c23c16cf34d182e1aa4",
-    "fuzzy_hash": "3dc6c40d245708e391d1b7a65a0f3890",
-    "reason": "Новость подходит: имеет прямую связь с Дубаем (RTA), не нарушает запретные темы, носит инфраструктурный и общественно-полезный характер, что интересно для местных жителей, и текст выглядит естественным новостным сообщением."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/334100",
-    "timestamp": "2026-03-30T08:18:12.477073+00:00",
-    "status": "rejected",
-    "content_hash": "e06f009990c5fb49de6694de919f63b4",
-    "strict_hash": "e06f009990c5fb49de6694de919f63b4",
-    "fuzzy_hash": "6e8935d532a4f80bb485350ebf5670b0",
-    "reason": "Некачественный fallback summary"
-  },
-  {
-    "url": "https://www.tribuneindia.com/news/world/uae-road-transport-authority-completes-13-cycling-tracks-across-dubai",
-    "timestamp": "2026-03-30T08:18:12.828094+00:00",
-    "status": "rejected",
-    "content_hash": "372acd69085b21fc666a7dcafb1d1d9b",
-    "strict_hash": "372acd69085b21fc666a7dcafb1d1d9b",
-    "fuzzy_hash": "81c3ac936a57917970884be06f9afd22",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
     "url": "https://www.dailystar.co.uk/news/latest-news/70-brits-facing-years-prison-36941082",
     "timestamp": "2026-03-30T10:06:54.556636+00:00",
     "status": "published",
@@ -1168,5 +1087,10 @@
     "strict_hash": "5b69f75b5a9b372c2661d384f6facedf",
     "fuzzy_hash": "bf6d77435f5005aea90a2c9a2bb3f847",
     "reason": "**Оценка новости:** Новость затрагивает влияние войны на репутацию рынка недвижимости Дубая, что напрямую связано с регионом. Однако она нарушает правило №2 (политика и конфликты как основная тема) и, вероятно, правило №5 (кликбейтный заголовок, нагнетающий негатив). Также она может косвенно противоречить правилу №4, так как ставит под сомнение устойчивость важного для ОАЭ сектора экономики."
+  },
+  {
+    "url": "https://propertynews.ae/guide/burj-khalifa-penthouse-sets-uae-rental-record-at-dh12-million-annually",
+    "timestamp": "2026-04-01T08:26:24.271926+00:00",
+    "status": "published"
   }
 ]
