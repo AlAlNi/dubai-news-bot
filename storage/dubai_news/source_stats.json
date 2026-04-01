@@ -1,55 +1,5 @@
 [
   {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/dubai-hotels-launch-work-from-hotel-packages",
-    "timestamp": "2026-03-30T11:47:13.790961+00:00",
-    "status": "rejected",
-    "content_hash": "d4c474b2f6e90cf4e0b3588d5a1b5358",
-    "strict_hash": "d4c474b2f6e90cf4e0b3588d5a1b5358",
-    "fuzzy_hash": "dd56d516b9187a732d4a20ed17264d46",
-    "reason": "Новость подходит: имеет прямую связь с Дубаем (правило 1), не касается запрещённых тем (2, 4), содержит общественно значимую информацию о тренде, а не чистую рекламу (3), текст выглядит естественным (5) и будет полезен русскоговорящим удалённым работникам в эмирате (6). Хеш для проверки дубликатов указан."
-  },
-  {
-    "url": "https://www.timesnownews.com/world/middle-east/dubai-missile-attack-now-blasts-sharjah-explosions-iran-war-middle-east-conflict-article-153952415",
-    "timestamp": "2026-03-30T12:53:13.627457+00:00",
-    "status": "rejected",
-    "content_hash": "ee29fb92208e638839e0ee89f32e99d9",
-    "strict_hash": "ee29fb92208e638839e0ee89f32e99d9",
-    "fuzzy_hash": "680cbf7903fb6b511286e8dcdaf228e3",
-    "reason": "**Оценка новости:** Новость напрямую связана с регионом (Шарджа, Дубай), но её основная тема — взрыв на фоне военно-политического конфликта (иранские атаки), что нарушает правило №2. Также заголовок носит откровенно кликбейтный и сенсационный характер, нарушая правило №5.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/us-israel-iran-conflict-airlines-face-fare-dilemma-as-fuel-spike-threatens-travel-demand",
-    "timestamp": "2026-03-30T12:53:18.273814+00:00",
-    "status": "rejected",
-    "content_hash": "18c17a3b94620b36fa56fbeae227b9c0",
-    "strict_hash": "18c17a3b94620b36fa56fbeae227b9c0",
-    "fuzzy_hash": "f2c77b15a2342cfa3865628b6e846de3",
-    "reason": "Новость не подходит, так как её основная тема — международный военно-политический конфликт (правило 2), а связь с Дубаем/ОАЭ неявна и упоминается лишь в источнике (Gulf Business), что нарушает правило 1."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/fake-delivery-sms-scams-surge-across-mea",
-    "timestamp": "2026-03-30T12:57:59.557808+00:00",
-    "status": "rejected",
-    "content_hash": "f1ed27a6c417aaf81297bd2d7ef696d8",
-    "strict_hash": "f1ed27a6c417aaf81297bd2d7ef696d8",
-    "fuzzy_hash": "3f6288ceddae6956dba5659fcfa10724",
-    "reason": "**Оценка:** Новость не подходит, так как не имеет явной связи с Дубаем/ОАЭ (нарушает правило 1). Тема касается общего роста мошенничества в регионе Ближнего Востока и Африки (MEA), а не конкретно ОАЭ. Кроме того, текст является кратким анонсом без деталей, что может указывать на кликбейт (правило 5), и его полезность для русскоязычного жителя Дубая под вопросом (правило 6)."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/dubai-property-transactions-up-49-regional-tensions",
-    "timestamp": "2026-03-30T13:13:26.159154+00:00",
-    "status": "approved",
-    "content_hash": "d18926bcced8bb38133da6e167c0b4e5",
-    "strict_hash": "d18926bcced8bb38133da6e167c0b4e5",
-    "fuzzy_hash": "c83bb36b629bc600a94b5ad8d4c96ddd",
-    "reason": "approved"
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/dubai-property-transactions-up-49-regional-tensions",
-    "timestamp": "2026-03-30T13:14:43.226673+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Mar/30/gulf-job-enquiries-from-tn-drop-50-amid-west-asia-tensions-soaring-airfares",
     "timestamp": "2026-03-30T14:22:07.321197+00:00",
     "status": "rejected",
@@ -1182,5 +1132,10 @@
     "strict_hash": "f75813f5471f74c537005337fa9a6086",
     "fuzzy_hash": "aa67bc0dff88717028e7756afe0bb116",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/spotted-sheikh-mohammed-makes-a-surprise-appearance-at-dubai-hills-mall",
+    "timestamp": "2026-04-01T13:57:40.900960+00:00",
+    "status": "published"
   }
 ]
