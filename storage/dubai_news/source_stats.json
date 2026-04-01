@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Mar/30/gulf-job-enquiries-from-tn-drop-50-amid-west-asia-tensions-soaring-airfares",
-    "timestamp": "2026-03-30T14:22:07.321197+00:00",
-    "status": "rejected",
-    "content_hash": "9582724412b071262c0ee1af9814f4c2",
-    "strict_hash": "9582724412b071262c0ee1af9814f4c2",
-    "fuzzy_hash": "cd5974805e06657b8ac543c5c870c576",
-    "reason": "**Оценка новости:** Новость имеет связь с регионом GCC через тему трудовой миграции, но фокус смещён на Индию (Тамилнад), а не на ситуацию в Дубае/ОАЭ. Основная тема — косвенное влияние геополитической напряжённости и экономических факторов, что может быть интересно русскоязычным жителям ОАЭ как контекст, однако сама новость не сообщает о событиях в эмирате, а является обобщённой аналитической заметкой о ситуации в другом государстве."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/30/saudi-ports-authority-introduces-fee-exemption-what-it-means-for-trade",
-    "timestamp": "2026-03-30T14:22:14.169271+00:00",
-    "status": "rejected",
-    "content_hash": "b4bfde9197cbecbf5eeade9bf3357db1",
-    "strict_hash": "b4bfde9197cbecbf5eeade9bf3357db1",
-    "fuzzy_hash": "ddfa5270e0863a01313d56b8ba056207",
-    "reason": "**Оценка новости:** Новость касается решения властей Саудовской Аравии об отмене сборов в портах и не имеет явной связи с Дубаем или ОАЭ. Основной фокус — на внутренней экономической политике соседней страны, что не соответствует правилу №1 о прямой связи с регионом.\n**Решение:**"
-  },
-  {
-    "url": "https://www.newsx.com/world/watch-video-sharjah-dubai-uae-hit-by-massive-explosions-residents-report-sonic-booms-across-the-city-authorities-confirm-air-defence-measures-are-underway-190800",
-    "timestamp": "2026-03-30T14:22:14.425541+00:00",
-    "status": "rejected",
-    "content_hash": "5721e33b8151f8f270b7e57d66c4cea3",
-    "strict_hash": "5721e33b8151f8f270b7e57d66c4cea3",
-    "fuzzy_hash": "70c90c7a686cb05cfd75fdcd9fc3fb05",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
     "url": "https://indianexpress.com/article/world/dubai-uae-news-live-updates-iran-war-attack-kuwait-10608892",
     "timestamp": "2026-03-30T16:00:04.543543+00:00",
     "status": "rejected",
@@ -1173,5 +1146,10 @@
     "strict_hash": "d31626ed56bff45c999ae89fab0f2304",
     "fuzzy_hash": "deb4c3edf385578844c5c0e854b2bdd4",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/dubai-driverless-taxis-are-here-and-heres-the-cost-for-a-ride",
+    "timestamp": "2026-04-01T15:17:22.431772+00:00",
+    "status": "published"
   }
 ]
