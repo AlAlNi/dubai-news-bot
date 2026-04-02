@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/heres-how-many-lost-items-dubai-police-returned-in-2025",
-    "timestamp": "2026-03-31T09:40:23.867288+00:00",
-    "status": "rejected",
-    "content_hash": "3de43ada416126182d26f9856c2595ee",
-    "strict_hash": "3de43ada416126182d26f9856c2595ee",
-    "fuzzy_hash": "18d56c7cef220b72782e8e5be9a04ebc",
-    "reason": "Новость подходит, так как напрямую связана с Дубаем (полиция Дубая), носит позитивный и социально значимый характер, не нарушает ценностей и может быть полезна жителям, демонстрируя эффективность служб. Однако текст требует серьезной доработки: он выглядит как сырой анонс или вводная часть, в нем отсутствуют ключевые данные (цифра, о которой говорит заголовок) и явная ссылка на проверяемый источник."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/ai-replicates-key-particle-physics-discoveries",
-    "timestamp": "2026-03-31T09:55:52.754326+00:00",
-    "status": "approved",
-    "content_hash": "09cda12da97af09d4f904f87c937e04a",
-    "strict_hash": "09cda12da97af09d4f904f87c937e04a",
-    "fuzzy_hash": "5c37a1c95a569a8844792df2cb73fda0",
-    "reason": "approved"
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/whoop-raises-575m-at-10-1bn-valuation",
-    "timestamp": "2026-03-31T10:44:50.409991+00:00",
-    "status": "rejected",
-    "content_hash": "d3eeab6ace98c73a53518c6d2937e901",
-    "strict_hash": "d3eeab6ace98c73a53518c6d2937e901",
-    "fuzzy_hash": "3b4295ea42cf0ee1759abc9de38e2960",
-    "reason": "**Оценка новости:** Новость о привлечении инвестиций компанией WHOOP и её планах по расширению в регионе GCC имеет прямую связь с ОАЭ (правило 1), не нарушает правила 2-4 и 6, а также не выглядит как сгенерированный ИИ текст. Однако она является типичным кратким пересказом пресс-релиза (правило 3) без дополнительной общественно значимой информации или анализа для жителя Дубая. Также отсутствует явный URL для проверки фактов (правило 9)."
-  },
-  {
-    "url": "https://propertynews.ae/guide/dubai-leasing-market-becomes-more-selective-as-rental-listings-rise-across-key-communities",
-    "timestamp": "2026-03-31T10:44:59.799220+00:00",
-    "status": "rejected",
-    "content_hash": "dde943ffefe1abfee185183444d4bee1",
-    "strict_hash": "dde943ffefe1abfee185183444d4bee1",
-    "fuzzy_hash": "8acb9712fa44e2498041c76712ffb49e",
-    "reason": "Некачественный fallback summary"
-  },
-  {
     "url": "https://backend.gulfbusiness.com/blog/2026/03/31/ai-replicates-key-particle-physics-discoveries",
     "timestamp": "2026-03-31T11:04:50.052839+00:00",
     "status": "published"
@@ -1135,5 +1099,10 @@
     "strict_hash": "167cd0fef9c7180a1c8f7caabbfe0a79",
     "fuzzy_hash": "a8b9acad66f32e251f192204e4c7b0c1",
     "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (правило 1), но её основная тема — инцидент с применением дронов, что попадает под категорию конфликтов/инцидентов безопасности (правило 2). Это не является позитивной или нейтральной общественно-значимой новостью для жителей, а скорее сообщением о чрезвычайном происшествии, что не соответствует общей направленности канала."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/jlt-residents-urge-action-over-late-night-construction-noise-disruptions-in-dubai",
+    "timestamp": "2026-04-02T11:02:53.012246+00:00",
+    "status": "published"
   }
 ]
