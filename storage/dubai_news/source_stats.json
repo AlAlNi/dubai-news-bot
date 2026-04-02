@@ -1,104 +1,5 @@
 [
   {
-    "url": "https://www.manilatimes.net/2026/03/31/business/foreign-business/luxury-carmakers-gold-leafed-gulf-profits-under-threat-from-iran-war/2310435",
-    "timestamp": "2026-03-31T04:27:59.976141+00:00",
-    "status": "rejected",
-    "content_hash": "06121c3da5f8e293fe4f8b2380b57919",
-    "strict_hash": "06121c3da5f8e293fe4f8b2380b57919",
-    "fuzzy_hash": "a3a65b115145d911132626653df66733",
-    "reason": "Новость не подходит, так как нарушает правило №2: основная тема связана с угрозой войны (Иран), что относится к большой политике и конфликтам, которые мы не публикуем. Также заголовок носит кликбейтный характер (правило №5)."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/strait-of-hormuz-traffic-181-ships-march-70-percent-iranian",
-    "timestamp": "2026-03-31T04:28:06.578050+00:00",
-    "status": "rejected",
-    "content_hash": "deae005245ba2e55b4067c2f04c2efd7",
-    "strict_hash": "deae005245ba2e55b4067c2f04c2efd7",
-    "fuzzy_hash": "40d13334ff79c6887df45cdacbae944e",
-    "reason": "**Оценка новости:** Новость напрямую связана с регионом (пролив Гормуз — ключевая точка у берегов ОАЭ) и затрагивает важную экономическую и логистическую тему. Однако её основная тема — геополитическая напряжённость и активность Ирана, что попадает под правило о большой политике и конфликтах, а также может нести риски с точки зрения ценностей ОАЭ, предпочитающих нейтралитет."
-  },
-  {
-    "url": "https://www.itv.com/news/2026-03-30/uk-government-must-do-more-for-brits-detained-in-uae-says-campaign-group",
-    "timestamp": "2026-03-31T04:28:06.927408+00:00",
-    "status": "rejected",
-    "content_hash": "93360c2633ec6b565d646d23ad314b6f",
-    "strict_hash": "93360c2633ec6b565d646d23ad314b6f",
-    "fuzzy_hash": "a132548dcf55b8b54de1430fa74234b1",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
-    "url": "https://inews.co.uk/news/how-british-expats-targeted-dubai-police-4325076",
-    "timestamp": "2026-03-31T05:12:03.909051+00:00",
-    "status": "rejected",
-    "content_hash": "fe4fb26c73b3b2cfccbbdaab50955c23",
-    "strict_hash": "fe4fb26c73b3b2cfccbbdaab50955c23",
-    "fuzzy_hash": "92e39525f8433deb97b613565d7327b9",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (полиция Дубая) и может представлять интерес для русскоговорящих экспатов, однако она полностью нарушает правила 2 (большая политика и конфликты) и 4 (уважение к ценностям ОАЭ), так как описывает действия полиции в контексте военного конфликта и содержит крайне негативные и непроверенные обвинения."
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/energy-security-ai-drive-surge-in-middle-east-renewables-report",
-    "timestamp": "2026-03-31T05:12:45.272010+00:00",
-    "status": "rejected",
-    "content_hash": "54ffacab1d737edd07327952914d9d52",
-    "strict_hash": "54ffacab1d737edd07327952914d9d52",
-    "fuzzy_hash": "ab7cf287b7f1fe0a751ccddd184ad751",
-    "reason": "Некачественный fallback summary"
-  },
-  {
-    "url": "https://www.thesun.co.uk/tvandshowbiz/38675320/rio-kate-ferdinand-maldives-dubai-missile-escape",
-    "timestamp": "2026-03-31T05:12:45.439698+00:00",
-    "status": "rejected",
-    "content_hash": "3dec76e116b420714cea13d3b49c4b58",
-    "strict_hash": "3dec76e116b420714cea13d3b49c4b58",
-    "fuzzy_hash": "c8d66f98f28e8076540ee707c284c178",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/world/uk/steven-lyonss-wife-arrested-in-dubai-days-after-scottish-gangland-figures-detention-in-bali/articleshow/129903992.cms",
-    "timestamp": "2026-03-31T05:14:47.333299+00:00",
-    "status": "rejected",
-    "content_hash": "263457d23cc7f65e3b9b00eec6546551",
-    "strict_hash": "263457d23cc7f65e3b9b00eec6546551",
-    "fuzzy_hash": "cb63f42a09e652c07ce52c97c46566c6",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (арест в эмирате), но её основная тема — криминальная хроника и деятельность международных преступных группировок. Это не соответствует позитивной или нейтральной деловой/социальной повестке канала и может быть воспринято как негативный инфоповод, не несущий пользы для целевой аудитории (правило 6). Также есть риск нарушения правила 4 (уважение к ценностям), так как акцент на криминале может создавать нежелательный образ эмирата.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://backend.gulfbusiness.com/blog/2026/03/31/flexible-payments-ai-now-shape-how-gulf-shoppers-buy-finds-tabby-survey",
-    "timestamp": "2026-03-31T05:15:35.642358+00:00",
-    "status": "rejected",
-    "content_hash": "36ee7c59ca312da872ab8997b5083f86",
-    "strict_hash": "36ee7c59ca312da872ab8997b5083f86",
-    "fuzzy_hash": "7cbfb77236829874b68f6f80ce5a61d6",
-    "reason": "Некачественный fallback summary"
-  },
-  {
-    "url": "https://www.bollywoodhungama.com/news/bollywood/shoot-shah-rukh-khans-king-dubai-cancelled-amid-middle-east-tensions-desert-sequence-shifted-mumbai-report",
-    "timestamp": "2026-03-31T05:15:35.823496+00:00",
-    "status": "rejected",
-    "content_hash": "ac71f874d468837984e59fc3b388a5b2",
-    "strict_hash": "ac71f874d468837984e59fc3b388a5b2",
-    "fuzzy_hash": "a58c3056cd082e98a60158082322de64",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
-    "url": "https://whatson.ae/2026/03/concerts-in-the-uae-2026-all-the-gigs-you-cant-miss",
-    "timestamp": "2026-03-31T05:37:32.504979+00:00",
-    "status": "rejected",
-    "content_hash": "8b2722c146e3bb38e574f14e163441f1",
-    "strict_hash": "8b2722c146e3bb38e574f14e163441f1",
-    "fuzzy_hash": "9155d25ec8c70de84db90012122bc59c",
-    "reason": "**Оценка новости:** Новость представляет собой анонс культурных и развлекательных событий в ОАЭ на 2026 год, что напрямую связано с регионом и может быть интересно русскоязычным жителям. Однако текст выглядит как рекламный анонс или пресс-релиз без конкретных деталей (даты, места, имена артистов), содержит общие фразы и ссылку на внешний источник, что нарушает правила о рекламном характере и естественности.\n**Решение:**"
-  },
-  {
-    "url": "https://whatson.ae/2026/03/driverless-taxis-dubai-how-to-book",
-    "timestamp": "2026-03-31T05:45:29.087463+00:00",
-    "status": "approved",
-    "content_hash": "0fd925a24ce0863f7b512a4bb7175278",
-    "strict_hash": "0fd925a24ce0863f7b512a4bb7175278",
-    "fuzzy_hash": "5b47299d012d1562121a4a3cfe7488bf",
-    "reason": "approved"
-  },
-  {
     "url": "https://whatson.ae/2026/03/driverless-taxis-dubai-how-to-book",
     "timestamp": "2026-03-31T05:47:37.549796+00:00",
     "status": "published"
@@ -1212,5 +1113,10 @@
     "strict_hash": "fdcfd04d092a7583411579b347d3ed44",
     "fuzzy_hash": "88ec8f3ccd595d2a2b03685ff4518f2f",
     "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (правило 1), но содержит непроверяемую и потенциально ложную информацию о запрете на въезд для иранцев, которая противоречит официальной позиции властей ОАЭ (контекст: опровержение слухов) и может быть воспринята как неуважение (правило 4). Текст выглядит как кликбейт (правило 5) и является дубликатом/противоречием уже опубликованной новости (правило 7). Источник не указан (правило 9)."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/04/02/uae-affirms-iranian-community-role-residency-misinformation",
+    "timestamp": "2026-04-02T05:46:03.254961+00:00",
+    "status": "published"
   }
 ]
