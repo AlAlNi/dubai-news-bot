@@ -1090,5 +1090,23 @@
     "strict_hash": "0c99b0cf7b01f99c99d8967e24d3ecbc",
     "fuzzy_hash": "e587f3bb1d45a79625e4c46cc817a909",
     "reason": "**Оценка новости:** Новость посвящена личной жизни и противоречивым заявлениям британской знаменитости о её планах путешествий. Она **НЕ ПОДХОДИТ**, так как нарушает несколько ключевых правил: отсутствует явная связь с Дубаем (п.1), имеет спекулятивный и развлекательный характер без общественной значимости (п.3, п.6), и текст выглядит как типичный кликбейт из таблоидов (п.5)."
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/04/02/indian-dealers-charge-first-gold-premiums-in-two-months",
+    "timestamp": "2026-04-02T09:55:54.310201+00:00",
+    "status": "rejected",
+    "content_hash": "3a5ca510a6963457ce291ffd8e967acf",
+    "strict_hash": "3a5ca510a6963457ce291ffd8e967acf",
+    "fuzzy_hash": "c0000156fa24888b9cba970568dc8899",
+    "reason": "Новость не имеет явной связи с Дубаем/ОАЭ, так как посвящена исключительно ситуации с ценами на золото у дилеров в Индии. Она не будет интересна или полезна русскоговорящему жителю Дубая."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/jlt-residents-urge-action-over-late-night-construction-noise-disruptions-in-dubai",
+    "timestamp": "2026-04-02T09:56:17.063291+00:00",
+    "status": "approved",
+    "content_hash": "2ff01d93046917c0f863918f4194f120",
+    "strict_hash": "2ff01d93046917c0f863918f4194f120",
+    "fuzzy_hash": "d609d8f5222c297cdd51fd3142901ea3",
+    "reason": "approved"
   }
 ]
