@@ -1,77 +1,5 @@
 [
   {
-    "url": "https://www.weau.com/2026/03/31/us-attacks-iranian-nuclear-site-while-tehran-hits-oil-tanker-off-dubai-coast",
-    "timestamp": "2026-03-31T19:33:36.803122+00:00",
-    "status": "rejected",
-    "content_hash": "292046181bc737296fdb658683d898ba",
-    "strict_hash": "292046181bc737296fdb658683d898ba",
-    "fuzzy_hash": "47a40cda885bf07f1b296a215f4d3089",
-    "reason": "**Оценка новости:** Новость напрямую связана с регионом (инцидент в Персидском заливе у побережья Дубая), однако её основная тема — военный конфликт и большая политика между США и Ираном, что нарушает правило №2. Также подобные события могут негативно восприниматься в контексте стабильности и безопасности ОАЭ (правило №4).\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.dubaichronicle.com/2026/03/30/dubai-economic-support-package-to-boost-resilience",
-    "timestamp": "2026-03-31T19:48:41.344979+00:00",
-    "status": "rejected",
-    "content_hash": "66aef3c6d94aa3f7f1e7cfbb34e891b4",
-    "strict_hash": "66aef3c6d94aa3f7f1e7cfbb34e891b4",
-    "fuzzy_hash": "3055ed69a8cf5c3ded1df5eb27c05e5b",
-    "reason": "**Оценка:** Новость подходит, так как напрямую связана с Дубаем (правило 1), носит общественно-экономический характер, а не политический или рекламный (правила 2, 3), соответствует ценностям ОАЭ (правило 4) и будет полезна русскоязычным жителям (правило 6). Текст выглядит естественным, а формат \"что изменится\" разрешён (правило 8). Однако для окончательного решения **необходимо проверить дубликаты по хешу (правило 7) и наличие явного URL источника (правило 9)**, что в рамках данной проверки невозможно."
-  },
-  {
-    "url": "https://www.dailymail.co.uk/news/article-15693741/Paranoid-Dubai-residents-started-reporting-group-chat-members-sharing-pictures-Iranian-drone-missile-attacks-rights-activist-reveals.html",
-    "timestamp": "2026-03-31T19:48:44.856658+00:00",
-    "status": "rejected",
-    "content_hash": "70e0952bb6db1ec4d2c078c006cdcb1d",
-    "strict_hash": "70e0952bb6db1ec4d2c078c006cdcb1d",
-    "fuzzy_hash": "65f19ff6ef37f616d30b82e402df695f",
-    "reason": "Новость не подходит, так как нарушает несколько ключевых правил: основная тема связана с военным конфликтом и политикой (п.2), а формулировки (\"paranoid residents\") могут быть восприняты как неуважение к обществу ОАЭ (п.4). Также текст выглядит как непроверенное заявление активиста без явного источника (п.9)."
-  },
-  {
-    "url": "https://www.dubaichronicle.com/2026/03/30/omniyat-reinforces-delivery-focus-with-a-fully-funded-usd11-7b-portfolio",
-    "timestamp": "2026-03-31T20:34:05.209626+00:00",
-    "status": "rejected",
-    "content_hash": "2cf9210fc41d51b514dadf640e000d35",
-    "strict_hash": "2cf9210fc41d51b514dadf640e000d35",
-    "fuzzy_hash": "0d051ad1e9db3737c38c3b758feffce2",
-    "reason": "**Оценка новости:** Новость носит выраженный рекламно-пресс-релизный характер, представляя собой отчет компании OMNIYAT о своем портфеле и планах. Хотя связь с Дубаем/ОАЭ есть, она не содержит общественно значимой новости (например, старта продаж, открытия объекта, изменения в законодательстве), а является корпоративным заявлением.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://en.protothema.gr/2026/03/31/the-us-bombed-iranian-ammunition-depots-tehran-strikes-tanker-in-dubai-live-updates",
-    "timestamp": "2026-03-31T20:34:08.185997+00:00",
-    "status": "rejected",
-    "content_hash": "7400c013c91b1cc8361f72324ec2b425",
-    "strict_hash": "7400c013c91b1cc8361f72324ec2b425",
-    "fuzzy_hash": "b87c15de93d514e2609b3b2e5a37e088",
-    "reason": "Новость содержит явную связь с Дубаем (инцидент в порту), но её основная тема — военный конфликт и эскалация напряжённости в регионе, что прямо нарушает правило №2."
-  },
-  {
-    "url": "https://www.newsx.com/world/uae-fuel-prices-april-2026-uae-dubai-abu-dhabi-petrol-diesel-rates-hiked-up-to-dh469l-check-full-price-list-effective-april-1-super-98-special-95-petrol-price-191605",
-    "timestamp": "2026-03-31T21:03:35.215936+00:00",
-    "status": "rejected",
-    "content_hash": "dcaad295a441c896ec397871ea9b5564",
-    "strict_hash": "dcaad295a441c896ec397871ea9b5564",
-    "fuzzy_hash": "f6e73bec8cdf1e188fd70fe201d30f41",
-    "reason": "Новость о повышении цен на топливо в ОАЭ с апреля 2026 года напрямую связана с регионом, имеет практическую ценность для жителей и соответствует разрешённому формату «что изменится завтра». Однако указанная дата (2026 год) выглядит неестественно и вызывает сомнения в достоверности, так как новость о ценах на два года вперёд не соответствует обычной практике ежемесячных объявлений."
-  },
-  {
-    "url": "https://www.timeoutdubai.com/food-drink/new-dining-deals-dubai-april-2026",
-    "timestamp": "2026-03-31T21:29:37.465778+00:00",
-    "status": "rejected",
-    "content_hash": "dda1c7ab425b3ea3fff79d11a8edf6f3",
-    "strict_hash": "dda1c7ab425b3ea3fff79d11a8edf6f3",
-    "fuzzy_hash": "c03eb935270f05e53551bf3a00889f00",
-    "reason": "Cheap prefilter: слишком короткий текст (115 символов)"
-  },
-  {
-    "url": "https://www.breakingnews.ie/world/us-attacks-iranian-nuclear-site-as-tehran-hits-oil-tanker-off-dubai-coast-1881204.html",
-    "timestamp": "2026-03-31T21:29:41.867819+00:00",
-    "status": "rejected",
-    "content_hash": "3c89c69db789b49d22df6d13077e30b0",
-    "strict_hash": "3c89c69db789b49d22df6d13077e30b0",
-    "fuzzy_hash": "9dfc94102f83698e1d5ff9a2456fa4e3",
-    "reason": "**Оценка новости:** Новость напрямую связана с регионом (инцидент в Персидском заливе у побережья Дубая), однако её основная тема — военный конфликт и большая политика между США и Ираном, что нарушает правило №2. Кроме того, подобные сообщения о напряжённости в регионе уже публиковались, что создаёт риск дублирования по сути (правило №7)."
-  },
-  {
     "url": "https://www.moneycontrol.com/world/missile-debris-hits-dubai-homes-as-uae-responds-to-iranian-drone-and-missile-threats-article-13875546.html",
     "timestamp": "2026-03-31T22:03:20.548566+00:00",
     "status": "rejected",
@@ -1153,5 +1081,10 @@
     "strict_hash": "be6231f65db22c1b58bb24afef8ddfc5",
     "fuzzy_hash": "91340fffa9b30254ada6598450b0c0a6",
     "reason": "**Оценка новости:** Новость напрямую связана с регионом (GCC), однако её основная тема — военный конфликт и большая политика, что нарушает правило №2. Также она может восприниматься как неуважение к стабильности региона (правило №4) и не несёт прямой пользы или интереса для русскоговорящего жителя Дубая в контексте повседневной жизни (правило №6).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.ndtv.com/offbeat/indian-billionaire-in-dubai-vows-no-job-cuts-for-6-000-workers-despite-regional-conflict-11301092",
+    "timestamp": "2026-04-02T21:49:23.753008+00:00",
+    "status": "published"
   }
 ]
