@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.dailymail.co.uk/tvshowbiz/article-15690901/Rio-Kate-Ferdinand-jet-Maldives-enjoying-stays-London-luxury-Portugal-holiday-home-continue-avoid-returning-war-torn-Dubai.html",
-    "timestamp": "2026-03-31T01:19:53.429298+00:00",
-    "status": "rejected",
-    "content_hash": "acf09d55603547ad323855ad510f8556",
-    "strict_hash": "acf09d55603547ad323855ad510f8556",
-    "fuzzy_hash": "4d33e58bc9172b64c6605ad520f70b06",
-    "reason": "**ОЦЕНКА:** Новость не имеет явной связи с Дубаем (упоминается лишь как место, которое пара \"покинула\"), содержит политический контекст (\"война\", \"бегство\") и носит откровенно спекулятивный, таблоидный характер, что нарушает правила 1, 2 и 5."
-  },
-  {
-    "url": "https://whatson.ae/2026/03/sheikh-hamdan-spotted-dining-at-a-popular-dubai-mall-restaurant",
-    "timestamp": "2026-03-31T01:19:59.890701+00:00",
-    "status": "rejected",
-    "content_hash": "4256b8b885a4ca1243e13e31cb340eeb",
-    "strict_hash": "4256b8b885a4ca1243e13e31cb340eeb",
-    "fuzzy_hash": "868b6667dba0d61fd0592a648ab5cfad",
-    "reason": "Новость подходит, так как имеет прямую связь с Дубаем (упоминание шейха Хамдана и Dubai Mall), носит светский и позитивный характер, не нарушает ценностей ОАЭ и может быть интересна русскоязычным жителям как пример из жизни города."
-  },
-  {
-    "url": "https://www.devdiscourse.com/article/politics/3855850-rahul-gandhi-lauds-kerala-nurses-and-gulf-expats",
-    "timestamp": "2026-03-31T01:20:00.094916+00:00",
-    "status": "rejected",
-    "content_hash": "510d859ed0e9ac2a806ab32742aa5ed9",
-    "strict_hash": "510d859ed0e9ac2a806ab32742aa5ed9",
-    "fuzzy_hash": "2bd8ef901a1c538d13519e12b874c76a",
-    "reason": "DeepSeek budget exhausted before editor validation"
-  },
-  {
     "url": "https://www.manilatimes.net/2026/03/31/business/foreign-business/luxury-carmakers-gold-leafed-gulf-profits-under-threat-from-iran-war/2310435",
     "timestamp": "2026-03-31T04:27:59.976141+00:00",
     "status": "rejected",
@@ -1207,5 +1180,10 @@
     "strict_hash": "fe56e38eee6f5876490abc5fe5a95724",
     "fuzzy_hash": "f92ef209464573e1e646a5bf9d7c607d",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timesnownews.com/education/india-consulate-in-dubai-allows-walk-in-nri-certificate-applications-for-class-12-students-on-april-4-article-153974330",
+    "timestamp": "2026-04-02T03:18:47.957331+00:00",
+    "status": "published"
   }
 ]
