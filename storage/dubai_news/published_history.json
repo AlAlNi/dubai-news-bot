@@ -2628,5 +2628,72 @@
     "language": "",
     "top_image": "",
     "keywords": []
+  },
+  {
+    "source_name": "Malayala Manorama",
+    "title": "Iran attacks Kuwait electricity, desalination plant; Easter masses cancelled in Dubai",
+    "summary_ru": "<b>⚡🇮🇷 Иран атаковал электростанцию и опреснительный завод в Кувейте; пасхальные мессы отменены в Дубае</b>\n\nМинистерство электроэнергии и водоснабжения Кувейта сообщило, что в пятницу один из энергокомплексов, совмещающий производство электроэнергии и опреснение воды, был поврежден в результате атаки со стороны Ирана. Инцидент произошел на рассвете.\n\n<blockquote>«Одна из станций по выработке электроэнергии и опреснению воды подверглась нападению на рассвете...»</blockquote>\n\nТем временем в соседних ОАЭ, в Дубае, были отменены все публичные католические мессы в честь Пасхи. Это решение связано с мерами безопасности на фоне эскалации напряженности в регионе.\n\n#Кувейт #БлижнийВосток #Безопасность",
+    "published": "2026-04-03T12:39:48.461480+00:00",
+    "source_urls": [
+      "https://www.onmanorama.com/news/world/2026/04/03/iran-attacks-gulf-dubai-cancels-easter-masses.html"
+    ],
+    "lang": "en",
+    "content_hash": "72c79feb4338f06768e0c0630736f68a",
+    "strict_hash": "72c79feb4338f06768e0c0630736f68a",
+    "fuzzy_hash": "d0cebf21e160e3071ebd478828960d8c",
+    "method": "gnews",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "**Оценка новости:** Новость содержит две части: атака Ирана на объект в Кувейте (не имеет прямой связи с Дубаем/ОАЭ и затрагивает тему регионального конфликта) и отмена пасхальных месс в Дубае (имеет связь с регионом, но в тексте отсутствует). Основной представленный текст посвящен политическому конфликту за пределами ОАЭ.\n**Окончательное решение:**\nОТКЛОНИТЬ\n**Причины по правилам:**\n1. **Связь с регионом:** Основная тема (атака на Кувейт) не имеет явной связи с Дубаем/ОАЭ/GCC. Упоминание Дубая в заголовке не раскрыто в предоставленном тексте.\n2. **Политика и конфликты:** Основная тема — военная атака и межгосударственный конфликт (Иран-Кувейт), что является запрещенной большой политикой."
+      }
+    },
+    "image_url": "https://img.onmanorama.com/content/dam/mm/en/archive/kerala/top-news/images/2026/4/3/iran-missile-attack.jpg",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-04-03T13:23:18.149198+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 754
+    },
+    "published_at": "2026-04-03T13:23:18.151838+00:00",
+    "source_url": "https://www.onmanorama.com/news/world/2026/04/03/iran-attacks-gulf-dubai-cancels-easter-masses.html",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
   }
 ]
