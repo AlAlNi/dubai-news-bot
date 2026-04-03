@@ -1131,5 +1131,23 @@
     "url": "https://whatson.ae/2026/04/premier-inn-hotels-in-dubai-are-making-their-stays-dog-friendly",
     "timestamp": "2026-04-03T09:05:56.136901+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://backend.gulfbusiness.com/blog/2026/04/03/dubai-rejects-claims-of-iran-attack-on-oracle-data-centre-fake-news",
+    "timestamp": "2026-04-03T09:29:06.515840+00:00",
+    "status": "rejected",
+    "content_hash": "a32d1080d321ab46f24a235ad5bedc83",
+    "strict_hash": "a32d1080d321ab46f24a235ad5bedc83",
+    "fuzzy_hash": "9352399f40ab13a5415e79da5857fb38",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (официальное опровержение властей), касается важной темы борьбы с дезинформацией и поддержания стабильности, что соответствует ценностям ОАЭ. Текст не является рекламой, политическим или конфликтным материалом в негативном ключе, а представляет собой официальное заявление, полезное для жителей.\n**Проверка на дубликаты:** Хеш контента (a32d1080d321ab46f24a235ad5bedc83) и содержание новости (опровержение атаки на дата-центр Oracle) не совпадают с последней опубликованной новостью о совместном предприятии Masdar и TotalEnergies. Дубликатов в предоставленном контексте нет."
+  },
+  {
+    "url": "https://www.marketscreener.com/news/dubai-media-office-denies-that-iran-launched-strike-on-oracle-s-data-center-in-dubai-ce7e51dddc8df321",
+    "timestamp": "2026-04-03T09:29:10.332473+00:00",
+    "status": "rejected",
+    "content_hash": "7236287616bd56ef847995632b93bafa",
+    "strict_hash": "7236287616bd56ef847995632b93bafa",
+    "fuzzy_hash": "b32568df0d45be9c7e4f0aa2dc61beef",
+    "reason": "**Оценка новости:** Новость не подходит, так как текст представляет собой обрывок, не связанный с заголовком, и не содержит проверяемой информации о заявлении Dubai Media Office. Контент выглядит как случайный фрагмент о рейтингах акций, что указывает на возможную ошибку или подмену."
   }
 ]
