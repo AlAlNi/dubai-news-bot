@@ -1,118 +1,5 @@
 [
   {
-    "url": "https://www.moneycontrol.com/world/missile-debris-hits-dubai-homes-as-uae-responds-to-iranian-drone-and-missile-threats-article-13875546.html",
-    "timestamp": "2026-03-31T22:03:20.548566+00:00",
-    "status": "rejected",
-    "content_hash": "3fbdbf9aea8922c37cc0b4a77cf2e48f",
-    "strict_hash": "3fbdbf9aea8922c37cc0b4a77cf2e48f",
-    "fuzzy_hash": "662fc40b1ba26f4cfb5f650583db7fa6",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (попадание обломков ракет), но её основная тема — военный конфликт и ответные действия на угрозы, что нарушает правило №2 о политике и конфликтах. Тема также потенциально тревожна и не соответствует нейтральному позитивному тону канала.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/uae-school-remote-march-extended-2026",
-    "timestamp": "2026-03-31T22:25:00.923346+00:00",
-    "status": "rejected",
-    "content_hash": "b0a2680803877bf5043aade01268ee26",
-    "strict_hash": "b0a2680803877bf5043aade01268ee26",
-    "fuzzy_hash": "a32e293a24f9a8a17f3c8cd7f4f05aac",
-    "reason": "Cheap prefilter: слишком короткий текст (75 символов)"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/things-to-do/easter-activities-dubai-2026",
-    "timestamp": "2026-03-31T23:25:50.367415+00:00",
-    "status": "rejected",
-    "content_hash": "e000eabcf3a739d7e5a268cf4bfb1fab",
-    "strict_hash": "e000eabcf3a739d7e5a268cf4bfb1fab",
-    "fuzzy_hash": "b5a91df3e9a8b6fedd20395b494b7a86",
-    "reason": "Cheap prefilter: слишком короткий текст (98 символов)"
-  },
-  {
-    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/mexxiss-technologies-postpones-dubai-launch-of-global-digital-platforms-amid-rising-geopolitical-uncertainty/article70806990.ece",
-    "timestamp": "2026-04-01T01:27:10.897875+00:00",
-    "status": "rejected",
-    "content_hash": "3261acce0443e264b68a28a4dfa95499",
-    "strict_hash": "3261acce0443e264b68a28a4dfa95499",
-    "fuzzy_hash": "c43d21e6ec776707cd1c6458bc3efe79",
-    "reason": "Новость не подходит, так как не имеет явной связи с Дубаем (нарушение правила 1), а её основная тема — влияние геополитической нестабильности на бизнес — попадает под правило 2 (большая политика/конфликты). Текст также носит признаки корпоративного пресс-релиза (правило 3)."
-  },
-  {
-    "url": "https://www.lokmattimes.com/international/uae-two-indians-among-four-injured-by-missile-debris-in-dubai",
-    "timestamp": "2026-04-01T03:50:21.622513+00:00",
-    "status": "rejected",
-    "content_hash": "d11a38aa9f9d86617af86727d734a25a",
-    "strict_hash": "d11a38aa9f9d86617af86727d734a25a",
-    "fuzzy_hash": "e4da54e142bcc9c7fa19a4fed872c233",
-    "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (инцидент на его территории), не является политическим или рекламным материалом, а сообщает о происшествии с пострадавшими, что представляет общественный интерес для жителей. Однако текст обрывается, и отсутствует явный, проверяемый URL-источник для подтверждения фактов, что является критическим нарушением.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://whatson.ae/2026/04/uae-schools-announce-transport-fee-waivers",
-    "timestamp": "2026-04-01T04:40:30.304227+00:00",
-    "status": "rejected",
-    "content_hash": "7b5afbf2a93a8d464b2506303d24b4be",
-    "strict_hash": "7b5afbf2a93a8d464b2506303d24b4be",
-    "fuzzy_hash": "a7d3170bc7f9e774338c4252e54bf876",
-    "reason": "Новость подходит: имеет прямую связь с ОАЭ (школы), полезна русскоязычным жителям с детьми, не нарушает ценностей и не является прямой рекламой, а скорее service-update об изменении условий."
-  },
-  {
-    "url": "https://techcrunch.com/2026/03/31/uber-increases-stake-in-weride-as-robotaxi-partnership-ramps-up-in-dubai",
-    "timestamp": "2026-04-01T04:40:33.806746+00:00",
-    "status": "rejected",
-    "content_hash": "8b9b12375fc96a8afb61b2298b9119b4",
-    "strict_hash": "8b9b12375fc96a8afb61b2298b9119b4",
-    "fuzzy_hash": "b9b0e4f3ce5d876a3c65ae7c3bcc513a",
-    "reason": "Некачественный fallback summary"
-  },
-  {
-    "url": "https://whatson.ae/2026/04/primark-confirms-mirdif-dubai-store-opening-date",
-    "timestamp": "2026-04-01T06:01:31.896000+00:00",
-    "status": "approved",
-    "content_hash": "49ed2bc139b29d799a0c2331f20fe5cf",
-    "strict_hash": "49ed2bc139b29d799a0c2331f20fe5cf",
-    "fuzzy_hash": "7e3579232c5337b229f3380a2340f4a3",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.thehindu.com/news/international/us-strikes-isfahan-as-iran-targets-fully-loaded-oil-tanker-off-dubai/article70808514.ece",
-    "timestamp": "2026-04-01T06:02:39.128047+00:00",
-    "status": "rejected",
-    "content_hash": "322cf4b039ef6330a55f28f8d98c747e",
-    "strict_hash": "322cf4b039ef6330a55f28f8d98c747e",
-    "fuzzy_hash": "69304ab9d1248d55797a2689d66ae71a",
-    "reason": "**ОЦЕНКА:** Новость категорически не подходит для публикации. Она нарушает правила 1 (связь с регионом — упоминание Дубая в заголовке является манипулятивным и не отражает сути), 2 (основная тема — военный конфликт и большая политика), 4 (тема дестабилизации региона неуважительна к ценностям ОАЭ) и 5 (текст выглядит как сгенерированный или фейковый, особенно с указанием будущей даты 2026 года)."
-  },
-  {
-    "url": "https://whatson.ae/2026/04/primark-confirms-mirdif-dubai-store-opening-date",
-    "timestamp": "2026-04-01T06:03:12.011641+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51579045/wrd-expands-autonomous-driving-milestone-in-uae-with-uber",
-    "timestamp": "2026-04-01T06:11:26.150165+00:00",
-    "status": "rejected",
-    "content_hash": "6044f61d00eaf3b67be40cc38b08c5f8",
-    "strict_hash": "6044f61d00eaf3b67be40cc38b08c5f8",
-    "fuzzy_hash": "603a0938ced71d61ce88992a21cf0913",
-    "reason": "Новость не подходит, так как отсутствует явная связь с Дубаем/ОАЭ (нарушено правило 1), текст является обрывочным фрагментом, похожим на пресс-релиз или кликбейт (нарушены правила 3 и 5), и не указан проверяемый источник (нарушено правило 9)."
-  },
-  {
-    "url": "https://whatson.ae/2026/04/the-best-dining-deals-you-can-enjoy-right-now-in-dubai",
-    "timestamp": "2026-04-01T06:21:49.300831+00:00",
-    "status": "rejected",
-    "content_hash": "b550e782f9e413eb3250b1c91ecd58c0",
-    "strict_hash": "b550e782f9e413eb3250b1c91ecd58c0",
-    "fuzzy_hash": "c7a4f0309c46c8d29b80d95a9d45bb87",
-    "reason": "**Оценка новости:** Новость представляет собой подборку ресторанных акций в Дубае, что напрямую связано с регионом и может быть полезно для аудитории. Однако текст носит явный рекламно-обзорный характер (правило 3) и является типичным кликбейт-материалом (правило 5) без конкретных, проверяемых на данный момент деталей (правило 9 — ссылка ведет на Instagram и общий сайт, а не на прямой источник каждого предложения)."
-  },
-  {
-    "url": "https://www.bolnews.com/business/uae-markets-suffer-120-billion-loss-due-to-regional-hostilities",
-    "timestamp": "2026-04-01T06:21:55.907977+00:00",
-    "status": "rejected",
-    "content_hash": "a15d641ca004b39579e9abbe35f720fc",
-    "strict_hash": "a15d641ca004b39579e9abbe35f720fc",
-    "fuzzy_hash": "df4191b6aabfb3a30dc56454e392a201",
-    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (Дубай и Абу-Даби), но её основная тема — финансовые потери из-за регионального военного конфликта (Израиль, США). Это нарушает правило №2 (политика и конфликты), так как конфликт является центральной причиной события. Также текст выглядит как отрывок, возможно, с кликбейтным заголовком, и не содержит явного проверяемого источника (только \"Arab media reports\"), что нарушает правило №9.\n**Окончательное решение:**"
-  },
-  {
     "url": "https://backend.gulfbusiness.com/blog/2026/04/01/no-layoffs-at-danube-group-says-rizwan-sajan",
     "timestamp": "2026-04-01T08:01:37.377399+00:00",
     "status": "rejected",
@@ -1239,5 +1126,10 @@
     "strict_hash": "5cac65a21fa0e2b5ba0f7586e73b6c13",
     "fuzzy_hash": "d1ab73163e9bd0b5ac70444eaf478e1a",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/kandura-rally-april-2026",
+    "timestamp": "2026-04-03T07:22:56.662611+00:00",
+    "status": "published"
   }
 ]
