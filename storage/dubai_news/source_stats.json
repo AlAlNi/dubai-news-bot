@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://www.birminghammail.co.uk/travel/uk-tourists-dubai-being-detained-33701940",
-    "timestamp": "2026-04-02T17:24:36.356680+00:00",
-    "status": "rejected",
-    "content_hash": "5016ef1d4e743dcd149bcd0b56fc3f7a",
-    "strict_hash": "5016ef1d4e743dcd149bcd0b56fc3f7a",
-    "fuzzy_hash": "5263e5d3421d275c1b18d050d0518cdb",
-    "reason": "**Оценка новости:** Новость не подходит, так как нарушает правило 2 (политика и конфликты — тема дипломатического инцидента и задержаний) и правило 4 (уважение к ценностям ОАЭ — подача создаёт негативный образ правовой системы страны). Также текст выглядит как отрывок без явного источника (правило 9)."
-  },
-  {
-    "url": "https://whatson.ae/2026/04/uae-businesses-can-now-land-prime-retail-spots-for-free",
-    "timestamp": "2026-04-02T17:42:03.301323+00:00",
-    "status": "approved",
-    "content_hash": "630c85c73c03ad11a86990bf1888b2f1",
-    "strict_hash": "630c85c73c03ad11a86990bf1888b2f1",
-    "fuzzy_hash": "3bf3bd37497b2d426bd99864528f0104",
-    "reason": "approved"
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/bollywoods-welcome-to-the-jungle-cancels-dubai-shoot-amid-geopolitical-tensions/articleshow/129967896.cms",
-    "timestamp": "2026-04-02T18:08:33.903032+00:00",
-    "status": "rejected",
-    "content_hash": "3a6d1618bea15653024ef12991114df8",
-    "strict_hash": "3a6d1618bea15653024ef12991114df8",
-    "fuzzy_hash": "91076e3b86c569f93e81f7c0a7f09b79",
-    "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (отмена съемок фильма), но её основная тема — влияние геополитической напряженности, что попадает под правило 2 (политика/конфликты). Это делает материал нежелательным для публикации в канале, фокусирующемся на жизни в эмирате."
-  },
-  {
-    "url": "https://whatson.ae/2026/04/best-daycations-in-abu-dhabi",
-    "timestamp": "2026-04-02T18:41:59.789121+00:00",
-    "status": "rejected",
-    "content_hash": "25c22e76221b5731c4c718df35a2b33f",
-    "strict_hash": "25c22e76221b5731c4c718df35a2b33f",
-    "fuzzy_hash": "3a1bd6df5d757caeee5f399f7c87fa4a",
-    "reason": "**Оценка новости:**\nЭто рекламный список развлекательных услуг в Абу-Даби, не содержащий конкретной новости или общественно значимой информации. Связь с Дубаем слабая (Абу-Даби — другой эмират), текст носит рекламный характер и не соответствует формату service-update или регуляторных изменений."
-  },
-  {
-    "url": "https://www.moneycontrol.com/world/uae-revokes-iranian-visas-shuts-doors-amid-escalating-tensions-with-tehran-article-13877504.html",
-    "timestamp": "2026-04-02T18:42:04.267880+00:00",
-    "status": "rejected",
-    "content_hash": "2cf9f6789d0e2688a2a630bd99d67fd8",
-    "strict_hash": "2cf9f6789d0e2688a2a630bd99d67fd8",
-    "fuzzy_hash": "5de0f53950b7563062c120e3f8c23c8b",
-    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ и основана на авторитетном источнике (The Wall Street Journal). Однако она полностью нарушает правило №2, так как её основная тема — большая политика и эскалация межгосударственного конфликта (напряженность с Ираном). Такие темы не соответствуют редакционной политике канала."
-  },
-  {
     "url": "https://whatson.ae/2026/04/uae-businesses-can-now-land-prime-retail-spots-for-free",
     "timestamp": "2026-04-02T19:09:21.746802+00:00",
     "status": "published"
@@ -1103,5 +1058,10 @@
     "strict_hash": "92b2d52f9ad4c5b7891b32670ea0127b",
     "fuzzy_hash": "63d04e555135b1389f7dc7279da7b5c9",
     "reason": "Новость содержит явную связь с Дубаем (инцидент в Dubai Internet City), но её заголовок и контекст нарушают правила: он имеет кликбейтный характер, фокусируется на политическом конфликте (Iran-US-Israel) и создаёт необоснованную тревогу, что может быть воспринято как неуважение к стабильности ОАЭ. Кроме того, суть события (падение обломков) дублирует уже опубликованную новость."
+  },
+  {
+    "url": "https://www.irishmirror.ie/news/world-news/dubai-buildings-damaged-debris-falls-36968038",
+    "timestamp": "2026-04-04T18:57:02.884866+00:00",
+    "status": "published"
   }
 ]
