@@ -1102,5 +1102,23 @@
     "strict_hash": "ec7f9e8e28965c02baa069ed72173833",
     "fuzzy_hash": "a9ddb35209a39e1c0c4cbfe88c444ba1",
     "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (источник — Правительственный медиаофис Дубая), носит позитивный экономический характер, не нарушает ценностей и не является прямой рекламой. Однако текст представляет собой лишь заголовок и ссылку на источник без конкретных фактов, что делает его похожим на анонс или пресс-релиз без развернутой общественно значимой информации для аудитории."
+  },
+  {
+    "url": "https://whatson.ae/2026/04/dine-in-the-top-dubai-restaurants-for-up-to-50-off",
+    "timestamp": "2026-04-04T10:23:36.541316+00:00",
+    "status": "rejected",
+    "content_hash": "75db8d1bf6b0395db09a1784c2ec3719",
+    "strict_hash": "75db8d1bf6b0395db09a1784c2ec3719",
+    "fuzzy_hash": "cb4e62beeaa9e4c718ec108009cc99f4",
+    "reason": "Новость о городской кампании скидок в ресторанах Дубая имеет явную связь с регионом и может быть полезна русскоязычным жителям, однако текст носит ярко выраженный рекламный характер и похож на пресс-релиз, что нарушает правило 3."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNjNSN0stTDRLMmJ1Q1FXWTd0M1V5cFl0SGwwY1RDaW5jWEcxX29Lb0w2SW53QnlQcGQzZzRBUUtNemdTejBkRmVLT3lNd2dsY0JCMnRQZjkzTmhfbktUMC1FMEJPOUFIcUxmUHlzWjdjTHk1ckVkQ2JuVERfT19FeHpUM1FVYzJsMjlIbTlyRkxNTm5GWk0yOEljdi1Yc3ZDVk9ZVFFfTUZBZVVFVXVEVHlJMzl2aTF1LXZRYUJvMlg5VXk1ekE?oc=5",
+    "timestamp": "2026-04-04T10:23:41.106526+00:00",
+    "status": "rejected",
+    "content_hash": "c472ea92990b2eb3debbfe96a8520783",
+    "strict_hash": "c472ea92990b2eb3debbfe96a8520783",
+    "fuzzy_hash": "da2b5c46fb2121351bcc7e5dfb9a5e14",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (попадание обломков на здание), но её основная тема — инцидент, связанный с военными действиями и противоракетной обороной. Это нарушает правило №2 (Политика и конфликты), так как является следствием регионального конфликта, даже если в материале нет деталей или оценок."
   }
 ]
