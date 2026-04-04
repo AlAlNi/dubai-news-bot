@@ -1111,5 +1111,23 @@
     "strict_hash": "aca7e35267285fbde3cc36f01dda50b5",
     "fuzzy_hash": "09ba5e877242e75f041f964b9a2eab5a",
     "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (инцидент в Dubai Marina), но её основная тема — военный конфликт (Иран) и его последствия на территории ОАЭ. Это нарушает ключевое правило о недопустимости тем большой политики и войн."
+  },
+  {
+    "url": "https://whatson.ae/2026/04/all-the-airlines-that-have-cancelled-their-flights-to-dubai",
+    "timestamp": "2026-04-04T09:28:36.729206+00:00",
+    "status": "rejected",
+    "content_hash": "3c4f5cdeb07455e8209db5cb45e64854",
+    "strict_hash": "3c4f5cdeb07455e8209db5cb45e64854",
+    "fuzzy_hash": "81dbe08c04629939969607fc2d0bceb5",
+    "reason": "Новость имеет прямую связь с Дубаем (авиасообщение), не является политической или рекламной, но выглядит как кликбейт (неконкретный заголовок) и, вероятно, дублирует недавние широко освещавшиеся новости о перебоях в авиасообщении в регионе, что делает её неоригинальной."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcVJRSUVnWndyc3Z0eFo5d1BlaEwyclhHV19JQ19GQmFyczVCYXRJelFFY1Z5SlpRbkdTQ0s4Y09hTFE5LVMxMmprX0lqbkViSWg1dGgzS254dGN0UEM1bHBNV0hGS3N0S0JUbFlaN2ZjWE9ZNXhyeUhpbjJkVVlWNHNBV2lITDhNczV5T3ZNMVpPd1A5WHMyY2FNWjZTMUhQdmNuZVN30gGrAUFVX3lxTE1xTVZiTTJrbDhlTUZTczAwM1dwa3hTUndyUHlkNFFUVUdWaEpDcXc4a0g1Wlp3RXlxWk93d1Y2RU1lNU1DalprdGVKd29vY1FEdGE5UTBEaktnQmprVVRhalg0d2xnbXBodmJJbXo5LWowNGFPd1dzSzFUN0NTQmI0dkVIcVV3QksxQ29iZ1hHVElzXzQ1RFZrakJlUE1wa0xoYkNnWlJuWmUwcw?oc=5",
+    "timestamp": "2026-04-04T09:28:40.984323+00:00",
+    "status": "rejected",
+    "content_hash": "2b74b61f72f6ce8c63c99815dcaa1128",
+    "strict_hash": "2b74b61f72f6ce8c63c99815dcaa1128",
+    "fuzzy_hash": "2c9a050221c87503b630f654669c7de5",
+    "reason": "**ОЦЕНКА:** Новость напрямую связана с Дубаем (инцидент с повреждением здания), но её основная тема — военный конфликт и его последствия на территории ОАЭ. Это нарушает ключевые правила о политике/конфликтах и может быть воспринято как неуважение к ценностям страны, создавая негативный образ."
   }
 ]
