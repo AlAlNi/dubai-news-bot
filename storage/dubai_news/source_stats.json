@@ -1084,5 +1084,23 @@
     "strict_hash": "7f4072185fde5b30e326200a3dc24f43",
     "fuzzy_hash": "f9a86a303539bcc360359b704cee6463",
     "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (падение обломков), но её основная тема — военный конфликт (иранская атака) с потенциально дестабилизирующим контекстом для региона. Это нарушает правило №2 (Политика и конфликты), а также может противоречить правилу №4 (Уважение к ценностям ОАЭ), так как создаёт образ Эмиратов как территории, затронутой внешним конфликтом.\n**Решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/astronomer-predicts-dates-of-eid-al-adha-2026",
+    "timestamp": "2026-04-04T12:32:26.155935+00:00",
+    "status": "rejected",
+    "content_hash": "807f3fc97272f212fa7b040f5ff8aa59",
+    "strict_hash": "807f3fc97272f212fa7b040f5ff8aa59",
+    "fuzzy_hash": "6889fc9ea05635da99d402b8c618f686",
+    "reason": "Новость подходит, так как имеет прямую связь с ОАЭ (прогноз астронома из Emirates Astronomical Society), полезна для русскоязычных жителей (планирование отпуска), основана на проверяемом источнике (Gulf News) и не нарушает остальные правила (не политика, не реклама, не кликбейт)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OUlhQOHlPRnpQTjVRTWtpRkJ6X09IMTlzMWVpV1RHSE5qMmZSYXdKbDl3dG9qU05Rd1RKSHRNRk8yOXVqeHZfU2JQWmtOSDhzNFA5cDNlV3AyN3dqSXhRYkU2RGh2cUdIb3htSnFlMGhqbUdnVXJV0gF_QVVfeXFMUEFrRnRmSFU4a3dNcXdVNkRzc29uZ2hOQllXTEpQZ0FzdjRBWjZNb0hvLWpodWM1V0VCc0RwbE91bTYyQTRBY3BQZW96YTZJOXBMY1kwUGtPRlJObHN2TGxUcWVhYUtFeDBwSEI2cElxRV9xV2NoanA2S3RSeThEdw?oc=5",
+    "timestamp": "2026-04-04T12:32:30.368794+00:00",
+    "status": "rejected",
+    "content_hash": "cba2eb018ce96a423319ee2d4bdbaf0f",
+    "strict_hash": "cba2eb018ce96a423319ee2d4bdbaf0f",
+    "fuzzy_hash": "94ddcbd39f404eaaf9803e8d73497715",
+    "reason": "Новость не подходит, так как нарушает правило №2 (политика и конфликты), так как её основной темой является война и её последствия, что не соответствует тематике канала. Также вызывает вопросы достоверность прямой причинно-следственной связи между конфликтом и конкретными цифрами жертв в ОАЭ."
   }
 ]
