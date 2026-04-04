@@ -1216,5 +1216,23 @@
     "strict_hash": "d12879159ffb378dd9b04ea7ba042274",
     "fuzzy_hash": "0aae0d632458f27de705a876303ac5dc",
     "reason": "Новость не подходит, так как нарушает правило №2 (основная тема — политический конфликт и его последствия для безопасности) и косвенно правило №4 (освещение закрытия религиозных учреждений из-за угроз может создать негативный образ стабильности в эмирате)."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/when-do-schools-close-for-summer-in-dubai-explained",
+    "timestamp": "2026-04-04T01:13:44.043779+00:00",
+    "status": "rejected",
+    "content_hash": "923513284d8094adb5685a916751f897",
+    "strict_hash": "923513284d8094adb5685a916751f897",
+    "fuzzy_hash": "c1dbec4ba51d0b86e7bd64024adf42ea",
+    "reason": "Cheap prefilter: слишком короткий текст (83 символов)"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/technology/tech-news/dubai-denies-oracle-data-centre-bombing-by-irgc-says-circulating-news-is-/articleshow/130001704.cms",
+    "timestamp": "2026-04-04T01:13:48.000764+00:00",
+    "status": "rejected",
+    "content_hash": "432d2bdbeafbaf52c2acd74cda3a4870",
+    "strict_hash": "432d2bdbeafbaf52c2acd74cda3a4870",
+    "fuzzy_hash": "4229c277171c46b12603d23582196145",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (опровержение властей), но её основная тема — это заявление о кибератаке, связанное с международным конфликтом и деятельностью иностранных военных структур (IRGC). Это попадает под правило №2 (политика и конфликты), так как является элементом информационного противостояния."
   }
 ]
