@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://www.indiatoday.in/world/story/uae-crackdown-on-iranians-after-tehran-drone-missile-attacks-2890461-2026-04-02",
-    "timestamp": "2026-04-02T15:35:12.353610+00:00",
-    "status": "rejected",
-    "content_hash": "3775197ecec81d26601f2ad5a2dbe996",
-    "strict_hash": "3775197ecec81d26601f2ad5a2dbe996",
-    "fuzzy_hash": "d641c87e4ac48580d81517bfb048b626",
-    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (правило 1), но её основная тема — большая политика и международный конфликт (правило 2), что является основанием для отказа. Кроме того, формулировки носят провокационный характер и могут быть восприняты как неуважение к политике ОАЭ (правило 4), а также текст выглядит как непроверенный слух без явного ссылаемого источника (правило 9)."
-  },
-  {
     "url": "https://whatson.ae/2026/04/your-guide-to-wellness-in-the-uae-this-april",
     "timestamp": "2026-04-02T15:51:43.422535+00:00",
     "status": "rejected",
@@ -1084,5 +1075,10 @@
     "strict_hash": "f41356b0ebfca682f586597d952b6ec1",
     "fuzzy_hash": "18a7fa210c661267e03a00aeebcf1fa4",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.devdiscourse.com/article/headlines/3861977-oracle-faces-target-threat-amid-dubai-incident",
+    "timestamp": "2026-04-04T15:40:53.753991+00:00",
+    "status": "published"
   }
 ]
