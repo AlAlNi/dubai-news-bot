@@ -1111,5 +1111,23 @@
     "strict_hash": "c5b6c89d1b3f0c0aa6fa30a2c855a078",
     "fuzzy_hash": "5a4096bbab2dafa481a7045dd62db409",
     "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (происшествие в Dubai Internet City), но её основная тема — последствия военного конфликта (перехват объектов в небе в связи с событиями в Иране). Это нарушает правило №2 о политике и конфликтах."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/uae-public-holidays-2026-official-dates",
+    "timestamp": "2026-04-04T13:45:19.085483+00:00",
+    "status": "rejected",
+    "content_hash": "cfa00d2684fd16939a321a69352daabd",
+    "strict_hash": "cfa00d2684fd16939a321a69352daabd",
+    "fuzzy_hash": "68173919cb787bfe1fa9d7af93105ce6",
+    "reason": "Cheap prefilter: слишком короткий текст (82 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1uRl9XdlViUnEwU05RVndXUVB2Nm9GcGdwZHV3R3VBcmNHempZYjN0ZjlsellkbUtxaEpHd3dZbWR3bFJVX0JJT0NDc2JMdVV0S2FJbUI0dmJSZUJpRDd5Z2lkZ9IBa0FVX3lxTE9pU3lDLXAwWjV6bWsxdVJoVWtaM0hrT0hCam5QMmdQOHhNTWJTdkt0Z1N5RS16cXIwdTZjZk1ZUklfZEhfNWg0V1h5SzZteVB0N0J1RTFJQ2JvVTQ2THpiNDVwbUktSVJ0X3Nn?oc=5",
+    "timestamp": "2026-04-04T13:45:29.586617+00:00",
+    "status": "approved",
+    "content_hash": "894ad80a0aafe5254172b37d4419d579",
+    "strict_hash": "894ad80a0aafe5254172b37d4419d579",
+    "fuzzy_hash": "2320644699d61eafa48043e154cb7402",
+    "reason": "approved"
   }
 ]
