@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://timesofindia.indiatimes.com/world/middle-east/dubai-news-why-we-love-this-place-dubai-governments-gesture-for-scottish-expat-stuns-netizens-online/articleshow/129994959.cms",
-    "timestamp": "2026-04-03T18:01:22.206229+00:00",
-    "status": "rejected",
-    "content_hash": "fa665f07faab86eb426cc50f75381f5d",
-    "strict_hash": "fa665f07faab86eb426cc50f75381f5d",
-    "fuzzy_hash": "310678c6c8d8624722cfd0ded4118e95",
-    "reason": "**Оценка новости:** Новость имеет связь с Дубаем (действия правительства), но текст обрывается и не содержит конкретных фактов, что указывает на возможный кликбейт или неполный материал. Основная тема — позитивный жест властей, что соответствует ценностям ОАЭ, однако отсутствие проверяемого источника и завершенной информации делает публикацию невозможной."
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/uae-inflation-allowance",
-    "timestamp": "2026-04-03T18:33:53.587140+00:00",
-    "status": "rejected",
-    "content_hash": "18ddc193edee17c61dcfec9ca328c391",
-    "strict_hash": "18ddc193edee17c61dcfec9ca328c391",
-    "fuzzy_hash": "075707751bd3e160ad68047f5c4c243e",
-    "reason": "Cheap prefilter: слишком короткий текст (94 символов)"
-  },
-  {
-    "url": "https://www.timesnownews.com/world/middle-east/iran-israel-us-war-live-updates-us-iran-news-ceasefire-trump-nuclear-sites-tensions-latest-news-liveblog-153970574",
-    "timestamp": "2026-04-03T18:33:59.137749+00:00",
-    "status": "rejected",
-    "content_hash": "b8de896dea5e75d893e26abe2a4f679a",
-    "strict_hash": "b8de896dea5e75d893e26abe2a4f679a",
-    "fuzzy_hash": "6133d3290971641ab2b3d056155df034",
-    "reason": "Новость не подходит, так как нарушает правила 1, 2 и 5. Основная тема — военно-политический конфликт (Израиль-Иран), что запрещено. Связь с Абу-Даби (ОАЭ) упоминается лишь в контексте последствий этого конфликта, что не является прямой региональной новостью о Дубае/ОАЭ. Текст выглядит как кликбейтный заголовок с общим описанием, характерным для лент «лайв-трансляций»."
-  },
-  {
     "url": "https://www.thehindu.com/business/Industry/rbi-grants-approval-to-emirates-national-bank-of-dubai-to-acquire-up-to-74-stake-in-rbl-bank/article70818828.ece",
     "timestamp": "2026-04-03T19:11:54.621323+00:00",
     "status": "approved",
@@ -975,5 +948,10 @@
     "strict_hash": "08a87dcd535a11fea67d7abbec89b61d",
     "fuzzy_hash": "8e50ffeb6c8528a0d35e046d8aa59d4d",
     "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (инцидент в аэропорту, задержание), но её основная тема — конфликт (дроновая атака) и последующее уголовное преследование, что нарушает правило о политике и конфликтах. Текст выглядит как кликбейтный заголовок (PYOK — типичный источник сенсаций), а отсутствие явного URL и подробностей делает источник непроверяемым и снижает достоверность.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZHlDa1BMcExCNGZoa0hyeE5QWFBuUlhMaU5ibWpuUFp2T01mVWpjQ3pBWGlvTnNJNHB4NTVSdkdna1MzVTBUMVF6X2VhMUNpOGNaYUduMGNrbVhIaWJEU3RXbjVmRW56OWdNV2FjTEs1MzFNRmVRVktBUlQzVlhQeEhxSG53NVpZb3hjWXY2cl9ueGdRSFJsTmdiTQ?oc=5",
+    "timestamp": "2026-04-05T18:58:33.858309+00:00",
+    "status": "published"
   }
 ]
