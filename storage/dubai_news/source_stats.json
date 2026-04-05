@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcENFY1ZaRWlXb2lnV0NYdHFRLTVtd1lOT254WklnTXE3QmNhNTRPdXBkUWdrTVRSNUZ5ajd3ZFR5RlRhV09LbUZpNDZkLWMzZjlVZm1yN0lmNzlUOFlFeFNadEZ4M29UclQ0R240VWEzSlNNd3FSUzl4Y3hRcTFXeEtIU2hrbWlzSmd2b05zeTdNSkhsU0JZenF1Z0EwdlB1czdMNTd1MUkxU3FKYi0tT3pvMmw1RXc?oc=5",
-    "timestamp": "2026-04-03T16:02:42.686553+00:00",
-    "status": "rejected",
-    "content_hash": "361530979db79c4034c92d573c267169",
-    "strict_hash": "361530979db79c4034c92d573c267169",
-    "fuzzy_hash": "1ef3dca388712ba415e197493c2df7b2",
-    "reason": "**Оценка:** Новость напрямую связана с ОАЭ (правило 1), касается важного регуляторного изменения (визовые правила), что представляет практический интерес для русскоговорящих жителей (правило 6). Формат соответствует разрешенному типу «что изменится завтра» (правило 8). Однако текст представляет собой лишь заголовок и ссылку без развернутого содержания и явного указания первоисточника (например, GDRFA или ICP), что вызывает вопросы по правилам 5 (естественность/полнота) и 9 (проверяемый источник). Необходима проверка на дубликаты по хешу.\n**Решение:**"
-  },
-  {
-    "url": "https://emirateswoman.com/easter-in-the-uae-brunches-experiences-and-events-to-book",
-    "timestamp": "2026-04-03T16:29:04.572782+00:00",
-    "status": "rejected",
-    "content_hash": "c8f1b6f2193fa12c14107d4bebf9e326",
-    "strict_hash": "c8f1b6f2193fa12c14107d4bebf9e326",
-    "fuzzy_hash": "3fc892916ae7ae3a77e20253fb0fea98",
-    "reason": "**Оценка новости:** Новость информирует о праздничных мероприятиях на Пасху в ОАЭ, что напрямую связано с регионом и представляет интерес для русскоязычных жителей как service-информация. Однако текст носит явный рекламно-анонсирующий характер (представляет собой анонс статей на стороннем сайте) без конкретных новостных фактов или полезных деталей (даты, места, цены), что нарушает правило №3."
-  },
-  {
-    "url": "https://www.freepressjournal.in/business/irgc-targets-oracle-data-centre-attack-reported-in-dubai",
-    "timestamp": "2026-04-03T16:29:11.369905+00:00",
-    "status": "rejected",
-    "content_hash": "3c759801113be32c35a1338deb733fb5",
-    "strict_hash": "3c759801113be32c35a1338deb733fb5",
-    "fuzzy_hash": "2e78f72e12e33212e5e8fd7abbaf2d37",
-    "reason": "**ОЦЕНКА:** Новость не подходит для публикации, так как нарушает несколько ключевых правил. Основная тема — кибератака, связанная с иностранными военными силами (IRGC) и международным конфликтом (правило 2: политика/конфликты). Текст носит неподтверждённый, провокационный характер и может быть воспринят как неуважение к стабильности и безопасности ОАЭ (правило 4). Кроме того, информация неполная и не из официальных источников (правило 9), а её полезность для русскоязычного жителя Дубая сомнительна (правило 6)."
-  },
-  {
     "url": "https://www.moneycontrol.com/world/did-iran-strike-oracle-data-centre-in-uae-dubai-fact-checks-claim-article-13878882.html",
     "timestamp": "2026-04-03T17:04:05.769894+00:00",
     "status": "rejected",
@@ -983,5 +956,10 @@
     "strict_hash": "1892508327923bc5a7c81696714b8338",
     "fuzzy_hash": "2821e4c3bf65d3d595d59bbf42fcb995",
     "reason": "approved"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONjNqR0J2Vy1jUGw3UExZZGg5Y0Z3OTlYZFF2OEd1ck5FMWthQXAwMUh3SFBiemlNYlBFemNnM3lsa2NySWQ4dEEyVS0xc29zZ29IcGNnZ2lIcF9xVzBaUG0zMHg4eWRjUmZfcHNrWjMwY290SW90Tzd3UXk5cWRIbTl6UUtQdks2MDBIdGUxbHhrdw?oc=5",
+    "timestamp": "2026-04-05T16:49:10.086498+00:00",
+    "status": "published"
   }
 ]
