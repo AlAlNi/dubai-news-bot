@@ -1225,5 +1225,23 @@
     "strict_hash": "41b3baa9d7b904b67cb584c14d86289b",
     "fuzzy_hash": "88034a3696b46c1b2fedbdf5f924d030",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/some-of-the-best-pizza-delivery-in-dubai",
+    "timestamp": "2026-04-05T06:09:33.970539+00:00",
+    "status": "rejected",
+    "content_hash": "1a6f2f92068c2a73be3c7b8f273c9d33",
+    "strict_hash": "1a6f2f92068c2a73be3c7b8f273c9d33",
+    "fuzzy_hash": "976917580ca6300f70e20e4747f86f79",
+    "reason": "Новость не подходит, так как является рекламным обзором пиццерий без общественно значимой новости и не соответствует формату новостного канала."
+  },
+  {
+    "url": "https://www.freepressjournal.in/viral/medical-marvel-dubai-man-suffers-heart-attack-responds-within-moments-after-advanced-cpr-machine-used-on-him-video",
+    "timestamp": "2026-04-05T06:09:38.277464+00:00",
+    "status": "rejected",
+    "content_hash": "f2d8ecce1f89e28fed35acfe88d214be",
+    "strict_hash": "f2d8ecce1f89e28fed35acfe88d214be",
+    "fuzzy_hash": "3cecbe1ece5ec513f823130cba086702",
+    "reason": "Новость подходит, так как имеет явную связь с Дубаем (случай на дороге), не нарушает запретных тем, носит общественно значимый характер (медицинский случай, демонстрация работы служб) и может быть интересна русскоязычным жителям. Однако необходимо проверить наличие подтверждающего источника (URL) и убедиться, что это не дубликат уже опубликованной новости о происшествии в Internet City (контекст разный, но нужно уточнить)."
   }
 ]
