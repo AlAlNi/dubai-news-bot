@@ -896,5 +896,23 @@
     "strict_hash": "591db8ddd46c8abb6eb0a0c63c2aea68",
     "fuzzy_hash": "f7e02a80b5ef177814cf3e354d1982fe",
     "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (инициатива полиции), не касается большой политики и не выглядит рекламой. Однако заголовок и стиль изложения носят откровенно кликбейтный и сенсационный характер (\"Mass crackdown\"), что нарушает правило о естественности и достоверности. Также вызывает вопросы источник — The Times of India может пересказывать официальное сообщение, но прямой ссылки на первоисточник (например, Dubai Police или Dubai Media Office) в предоставленном тексте нет."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-real-estate-transactions-reach-dh138-7-billion-in-q1-2026-as-high-value-investments-accelerate-market-growth",
+    "timestamp": "2026-04-06T11:51:07.016170+00:00",
+    "status": "rejected",
+    "content_hash": "95a496b42b540aa0bdcc2dc3dbb1fd18",
+    "strict_hash": "95a496b42b540aa0bdcc2dc3dbb1fd18",
+    "fuzzy_hash": "ed57a3b490f2d7e03359c2b627fc7105",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (правило 1), содержит конкретные статистические данные по рынку недвижимости, что представляет практический интерес для русскоязычных жителей и инвесторов (правило 6). Текст носит аналитический, а не рекламный характер (правило 3), не затрагивает запрещённые темы (правила 2, 4) и выглядит естественно (правило 5). Однако ключевой проблемой является **дата (Q1 2026)** — на момент проверки это будущий период, что ставит под сомнение достоверность данных и делает невозможной проверку по текущим источникам (нарушение правил 5 и 9). Это может быть либо опечатка, либо выдумка/прогноз, оформленный как факт."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR3Y1bWdCWUl2TzY3T0JaYnY1TjhDNklfelhwWlZ2QzRYVzB0cVVqYkZFVmdfX2cwd3dORE92eDBfUzhTR3FRUXRTMUlLVzl2Q1o3U2p6TENsOXBtSEhTb1ZCV21YSEh5SG9oNDFCUUFBQm4zNVhobW1kcXB3LXJZZkNJSUxGT3o2dktYRUpIREFLTlMzUXZiRHU5d0oyNFl2dWc?oc=5",
+    "timestamp": "2026-04-06T11:51:18.332928+00:00",
+    "status": "approved",
+    "content_hash": "bb55f9af83283abe0d60af6ab21af3a6",
+    "strict_hash": "bb55f9af83283abe0d60af6ab21af3a6",
+    "fuzzy_hash": "c452473ef4a1e7539f8dc4020c04a1b1",
+    "reason": "approved"
   }
 ]
