@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.express.co.uk/news/world/2190246/dubai-buildings-damaged-debris-falls-from-sky-after-drones-intercepted",
-    "timestamp": "2026-04-04T17:02:22.417848+00:00",
-    "status": "rejected",
-    "content_hash": "f4c3975eb61f23a59234557df8bca674",
-    "strict_hash": "f4c3975eb61f23a59234557df8bca674",
-    "fuzzy_hash": "8a5300908d293fbbf491f00ade01b5fc",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (повреждение зданий в городе), но её основная тема — последствия военного конфликта (перехват дронов и падение обломков). Это нарушает ключевое правило №2 о политике и конфликтах."
-  },
-  {
-    "url": "https://www.devdiscourse.com/article/international/3862044-dubais-resilience-amid-middle-east-tensions-a-close-call-in-internet-city",
-    "timestamp": "2026-04-04T17:22:40.000629+00:00",
-    "status": "rejected",
-    "content_hash": "5aab1d3c9c8cb470548996c17e77f41b",
-    "strict_hash": "5aab1d3c9c8cb470548996c17e77f41b",
-    "fuzzy_hash": "501c576a549785e62091c0deb2ef32bf",
-    "reason": "**Оценка новости:** Новость описывает конкретный инцидент в Дубай Интернет Сити с официальным подтверждением от Dubai Media Office, что соответствует правилам о связи с регионом и проверяемом источнике. Однако основная тема касается последствий военных действий/перехвата в регионе, что напрямую попадает под правило №2 (политика и конфликты).\n**Окончательное решение:**"
-  },
-  {
     "url": "https://www.irishmirror.ie/news/world-news/dubai-buildings-damaged-debris-falls-36968038",
     "timestamp": "2026-04-04T17:56:32.076039+00:00",
     "status": "approved",
@@ -932,5 +914,10 @@
     "strict_hash": "d23aae65d3d63384982185ac54308f02",
     "fuzzy_hash": "fdc9450cc5388b2a34938c4dff28bfd0",
     "reason": "Эта новость полностью дублирует уже опубликованную в канале (см. контекст, пункт 1). Заголовок, источник и хеш идентичны. Публикация точной копии запрещена правилом 7."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR3Y1bWdCWUl2TzY3T0JaYnY1TjhDNklfelhwWlZ2QzRYVzB0cVVqYkZFVmdfX2cwd3dORE92eDBfUzhTR3FRUXRTMUlLVzl2Q1o3U2p6TENsOXBtSEhTb1ZCV21YSEh5SG9oNDFCUUFBQm4zNVhobW1kcXB3LXJZZkNJSUxGT3o2dktYRUpIREFLTlMzUXZiRHU5d0oyNFl2dWc?oc=5",
+    "timestamp": "2026-04-06T17:54:34.368374+00:00",
+    "status": "published"
   }
 ]
