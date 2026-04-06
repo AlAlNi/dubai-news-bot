@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HTXo5SlhldHladmNlSDFwaU03NFp6VDZmd1ktRDNEam9KS1VwX3FUUHJ4aUZCRmY4TmRJVlM2Uy1sT3VlLXg4TlNWeFdzTUF5VWZLQjBZNi1oNi1LbGg5bW84QkF1MmVGcGc?oc=5",
-    "timestamp": "2026-04-04T14:59:59.270008+00:00",
-    "status": "rejected",
-    "content_hash": "94158de187f914dc017235be37b6bade",
-    "strict_hash": "94158de187f914dc017235be37b6bade",
-    "fuzzy_hash": "383e8f10d400bbf0413891a70c1747ce",
-    "reason": "**Оценка новости:** Новость напрямую связана с регионом (заявленная атака на дата-центр в Дубае), но её основная тема — военный конфликт и действия иностранных вооружённых формирований (IRGC). Это нарушает ключевое правило о политике и конфликтах, а также потенциально затрагивает тему безопасности, что может быть воспринято как неуважение к ценностям ОАЭ, где подобные инциденты обычно официально опровергаются или замалчиваются. Текст выглядит как пересказ заявления одной из сторон конфликта без подтверждения из местных источников."
-  },
-  {
-    "url": "https://www.devdiscourse.com/article/headlines/3861977-oracle-faces-target-threat-amid-dubai-incident",
-    "timestamp": "2026-04-04T15:22:50.421733+00:00",
-    "status": "approved",
-    "content_hash": "f41356b0ebfca682f586597d952b6ec1",
-    "strict_hash": "f41356b0ebfca682f586597d952b6ec1",
-    "fuzzy_hash": "18a7fa210c661267e03a00aeebcf1fa4",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.devdiscourse.com/article/headlines/3861977-oracle-faces-target-threat-amid-dubai-incident",
-    "timestamp": "2026-04-04T15:40:53.753991+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.business-standard.com/world-news/debris-from-aerial-interception-falls-onto-building-in-dubai-marina-126040400093_1.html",
-    "timestamp": "2026-04-04T15:54:41.405300+00:00",
-    "status": "rejected",
-    "content_hash": "b164b21a9e13d6e770146b18ec6fa081",
-    "strict_hash": "b164b21a9e13d6e770146b18ec6fa081",
-    "fuzzy_hash": "07ba8d10dbc3e5bb3fc5a83f61d394a2",
-    "reason": "Новость описывает инцидент с падением обломков в Дубае Марина, имеет явную связь с регионом, основана на официальном заявлении властей и представляет практический интерес для жителей, так как касается безопасности. Однако тема связана с военной/оборонной деятельностью (авиаперехват), что может подпадать под правило 2 (политика/конфликты), и требует осторожности."
-  },
-  {
     "url": "https://indianexpress.com/shorts/world/dubai-missile-debris-oracle-churches-online-services-10618238",
     "timestamp": "2026-04-04T16:23:40.960709+00:00",
     "status": "rejected",
@@ -914,5 +882,10 @@
     "strict_hash": "e58f4baa15c8731a5dab25726ec31605",
     "fuzzy_hash": "ce426c08b28d09a3aac1072d813e7db9",
     "reason": "**Оценка новости:** Новость не подходит для публикации, так как она посвящена внутреннему политическому конфликту в Индии (Ассам) и использует упоминание о Дубае лишь как риторический прием для критики оппонента. Это нарушает правила 1 (связь с регионом — отсутствует реальная связь с жизнью Дубая) и 2 (политика и конфликты — основная тема).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.livemint.com/news/world/air-india-indigo-issue-april-6-advisory-limited-flights-to-dubai-abu-dhabi-riyadh-and-jeddah-check-details-11775432433909.html",
+    "timestamp": "2026-04-06T15:56:31.616169+00:00",
+    "status": "published"
   }
 ]
