@@ -1,127 +1,5 @@
 [
   {
-    "url": "https://techbullion.com/calculated-ambition-changenow-defies-market-uncertainty-with-new-dubai-headquarters",
-    "timestamp": "2026-04-03T23:01:33.112853+00:00",
-    "status": "rejected",
-    "content_hash": "7e02a46a884085a8b1177bef35935869",
-    "strict_hash": "7e02a46a884085a8b1177bef35935869",
-    "fuzzy_hash": "4eb778f942a67c76c9a08520caa3aedf",
-    "reason": "**Оценка новости:** Новость о переезде криптобиржи ChangeNOW в Дубай имеет явную связь с регионом (новый хаб в деловом районе Дубая) и может быть интересна русскоязычной аудитории, связанной с криптоиндустрией. Однако текст представлен как явный пресс-релиз (рекламный характер) и начинается с нетипичных для новости элементов (\"Share Share Share Share Email\"), что указывает на возможную автоматическую генерацию или копирование без редактуры."
-  },
-  {
-    "url": "https://www.tribuneindia.com/news/diaspora/iran-us-iseral-war-dubai-gurdwara-temples-shut-temporarily-over-security-concerns",
-    "timestamp": "2026-04-03T23:25:25.279811+00:00",
-    "status": "rejected",
-    "content_hash": "d12879159ffb378dd9b04ea7ba042274",
-    "strict_hash": "d12879159ffb378dd9b04ea7ba042274",
-    "fuzzy_hash": "0aae0d632458f27de705a876303ac5dc",
-    "reason": "Новость не подходит, так как нарушает правило №2 (основная тема — политический конфликт и его последствия для безопасности) и косвенно правило №4 (освещение закрытия религиозных учреждений из-за угроз может создать негативный образ стабильности в эмирате)."
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/when-do-schools-close-for-summer-in-dubai-explained",
-    "timestamp": "2026-04-04T01:13:44.043779+00:00",
-    "status": "rejected",
-    "content_hash": "923513284d8094adb5685a916751f897",
-    "strict_hash": "923513284d8094adb5685a916751f897",
-    "fuzzy_hash": "c1dbec4ba51d0b86e7bd64024adf42ea",
-    "reason": "Cheap prefilter: слишком короткий текст (83 символов)"
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/technology/tech-news/dubai-denies-oracle-data-centre-bombing-by-irgc-says-circulating-news-is-/articleshow/130001704.cms",
-    "timestamp": "2026-04-04T01:13:48.000764+00:00",
-    "status": "rejected",
-    "content_hash": "432d2bdbeafbaf52c2acd74cda3a4870",
-    "strict_hash": "432d2bdbeafbaf52c2acd74cda3a4870",
-    "fuzzy_hash": "4229c277171c46b12603d23582196145",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (опровержение властей), но её основная тема — это заявление о кибератаке, связанное с международным конфликтом и деятельностью иностранных военных структур (IRGC). Это попадает под правило №2 (политика и конфликты), так как является элементом информационного противостояния."
-  },
-  {
-    "url": "https://www.devdiscourse.com/article/politics/3861683-flight-disruptions-delay-repatriation-of-nepalese-bodies-from-gulf-amidst-regional-tensions",
-    "timestamp": "2026-04-04T03:21:36.927344+00:00",
-    "status": "rejected",
-    "content_hash": "e6b92312803ff8de872b232e9e14abe9",
-    "strict_hash": "e6b92312803ff8de872b232e9e14abe9",
-    "fuzzy_hash": "cb6aeec66953d058cb2416b11e64796d",
-    "reason": "**Оценка новости:** Новость имеет связь с Дубаем (упоминание города), но её основная тема — негативные последствия региональных политических напряжений и конфликтов (задержка репатриации тел из-за сбоев полётов). Это напрямую нарушает правило №2 о политике и конфликтах.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://whatson.ae/2026/04/uaes-tallest-waterslide-to-open-at-yas-waterworld-yas-island",
-    "timestamp": "2026-04-04T04:07:48.958362+00:00",
-    "status": "approved",
-    "content_hash": "4bba702880438ce53ea860b6d3485489",
-    "strict_hash": "4bba702880438ce53ea860b6d3485489",
-    "fuzzy_hash": "c2c6d610f7b89857191b0694f15558b2",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/04/uaes-tallest-waterslide-to-open-at-yas-waterworld-yas-island",
-    "timestamp": "2026-04-04T04:59:19.161621+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.dailymail.co.uk/tvshowbiz/article-15704589/Bikini-clad-Kate-Ferdinand-shares-sweet-snap-daughter-Shae-Portugal-fleeing-Dubai-husband-Rio-kids.html",
-    "timestamp": "2026-04-04T05:08:57.228328+00:00",
-    "status": "rejected",
-    "content_hash": "264033a09124f0bc3a2f643a1fcf2d25",
-    "strict_hash": "264033a09124f0bc3a2f643a1fcf2d25",
-    "fuzzy_hash": "e02e28dbf47cf07f31338b2d0d074f43",
-    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем (описывает отдых семьи в Португалии после отъезда из ОАЭ), носит светский характер из жизни знаменитостей и не содержит полезной или общественно значимой информации для русскоязычного жителя Дубая. Текст похож на рекламный или кликбейтный материал из таблоида.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://whatson.ae/2026/04/find-calm-at-these-8-spas-in-dubai-for-a-restful-day",
-    "timestamp": "2026-04-04T05:49:44.703913+00:00",
-    "status": "rejected",
-    "content_hash": "987a49bb5fa7c9633dcae26254e55400",
-    "strict_hash": "987a49bb5fa7c9633dcae26254e55400",
-    "fuzzy_hash": "f4ee4a9e85ef8a6f6292f05871d9707b",
-    "reason": "Этот материал представляет собой рекламный обзор спа-салонов, оформленный в стиле lifestyle-журнала, без конкретной новостной повестки или общественно значимой информации. Он нарушает правило 3 (Рекламный характер), а также правило 5 (кликбейтный заголовок и неестественный, \"пушистый\" текст) и не соответствует разрешенным \"страховочным\" форматам."
-  },
-  {
-    "url": "https://www.express.co.uk/news/world/2190059/easter-masses-cancelled-dubai-iran-war",
-    "timestamp": "2026-04-04T05:49:48.178108+00:00",
-    "status": "rejected",
-    "content_hash": "24612d4cd75d16ebbc1bd4f48c241bb1",
-    "strict_hash": "24612d4cd75d16ebbc1bd4f48c241bb1",
-    "fuzzy_hash": "87ada13245611f258dd5bdbffbb5166d",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (отмена мероприятий в церкви), но её основная тема — это последствие военно-политического конфликта (угрозы со стороны Ирана) и отмена религиозного мероприятия по соображениям безопасности. Это попадает под правило №2 (Политика и конфликты).\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.dailystar.co.uk/showbiz/katie-price-branded-cruel-re-36965447",
-    "timestamp": "2026-04-04T06:36:06.031631+00:00",
-    "status": "rejected",
-    "content_hash": "1226709f9cad329a2dda856c2edbd51f",
-    "strict_hash": "1226709f9cad329a2dda856c2edbd51f",
-    "fuzzy_hash": "877a74336937704b77ee243193bdd033",
-    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ (правило 1), представляет собой сплетню о личной жизни британской знаменитости и носит кликбейтный характер (правило 5). Она не несет полезной информации для русскоговорящего жителя Дубая (правило 6).\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://whatson.ae/2026/04/get-a-warning-alert-while-at-the-mall-heres-what-you-should-do",
-    "timestamp": "2026-04-04T06:47:36.566205+00:00",
-    "status": "rejected",
-    "content_hash": "12c078c5dd4074c7281b2c223f3b70c2",
-    "strict_hash": "12c078c5dd4074c7281b2c223f3b70c2",
-    "fuzzy_hash": "c66d90f4aceb5cf77d17e71584b5ceb6",
-    "reason": "Новость содержит практическую инструкцию для жителей ОАЭ на случай получения экстренного оповещения, что соответствует правилам о связи с регионом, полезности и уважении к ценностям. Однако текст выглядит как пересказ или анонс статьи без прямого источника и конкретных инструкций, что нарушает правило о проверяемости и может указывать на рекламный характер (кликбейт для перехода на сайт)."
-  },
-  {
-    "url": "https://www.news18.com/viral/dubai-realtor-slammed-for-pitching-villas-with-strait-of-hormuz-views-ws-l-10013213.html",
-    "timestamp": "2026-04-04T06:47:40.871680+00:00",
-    "status": "rejected",
-    "content_hash": "02b53594bed4f44cb1c423df0cb4b963",
-    "strict_hash": "02b53594bed4f44cb1c423df0cb4b963",
-    "fuzzy_hash": "f8a676bc15fd86e13f614829fe98224a",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (действия местного риэлтора), но её основная тема — циничное использование военно-политической напряжённости (конфликт в Ормузском проливе) в качестве рекламного инструмента. Это нарушает правила о политике/конфликтах и рекламном характере, а также может быть воспринято как неуважение к ценностям региона, который стремится к стабильности.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://whatson.ae/2026/04/watch-your-step-these-sidewalks-in-dubai-are-getting-a-big-makeover",
-    "timestamp": "2026-04-04T07:42:42.420670+00:00",
-    "status": "approved",
-    "content_hash": "3667578232684f0d37cf7a222f0ad7a9",
-    "strict_hash": "3667578232684f0d37cf7a222f0ad7a9",
-    "fuzzy_hash": "139119e045644a4ef6e8e1470c18f157",
-    "reason": "approved"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jS1FSNEVTZ2pfbUsxWGJXc01lOEV6STNjSnZ0Uy1zSVRtc25FMnhVZW5mYWVUR3VmSE5pcWoteFkxZmdIVEdtcWlvclBucnM3QXZrZHRNZDNWdnE1?oc=5",
     "timestamp": "2026-04-04T08:03:08.308981+00:00",
     "status": "rejected",
@@ -1040,5 +918,10 @@
     "strict_hash": "bb93d081dbc4d4136d55e2e3477c58df",
     "fuzzy_hash": "b3157c2472132a244d79e2a06c20151a",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/guide/dubai-property-sales-reach-dh176-7-billion-in-q1-2026-as-off-plan-demand-strengthens-market-growth",
+    "timestamp": "2026-04-06T07:59:13.940816+00:00",
+    "status": "published"
   }
 ]
