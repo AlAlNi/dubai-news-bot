@@ -914,5 +914,23 @@
     "strict_hash": "ee8087a7e0c44a662fc6e3eab864e31f",
     "fuzzy_hash": "d654976ca221daea4b6f34567c6ce01c",
     "reason": "**Оценка новости:** Новость имеет прямую связь с ОАЭ (инцидент в аэропорту Дубая и судебное преследование), но её основная тема — уголовное дело против иностранца, что может быть воспринято как негативный образ страны. Текст основан на сообщениях Daily Mail, что вызывает вопросы о достоверности и тоне подачи, характерном для таблоидов. Для русскоязычного жителя Дубая это скорее сенсационная, чем полезная информация."
+  },
+  {
+    "url": "https://whatson.ae/2026/04/over-33000-fines-handed-out-as-dubai-focuses-on-quieter-roads",
+    "timestamp": "2026-04-06T17:37:19.233448+00:00",
+    "status": "rejected",
+    "content_hash": "3fdf60c038a5822e17f6e86bbff976f3",
+    "strict_hash": "3fdf60c038a5822e17f6e86bbff976f3",
+    "fuzzy_hash": "f7b1c5b2e6053455da1affe43531c5ee",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (инициатива властей), касается общественного порядка и безопасности, что полезно для жителей, и основана на официальных данных полиции. Однако она является **прямым развитием или дубликатом** уже опубликованной новости о инициативе \"Quiet Roads\" и штрафах от Dubai Police."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdmp6ZDkzNERqVEdfMTJuXzVENjZERHlrbmtfNnF1Q2kxZjdGaVVDT1h6cDd3RGlhSlJKanhSQnNjV0J6S0FiZkVZSUVNVE02SU1JcnZ2MXlKMlFQRHZYalRCckVwRGMySHNoTm4yT2JwcTZLRzNWeHZyYWpLUk1JaWxjemJvclo5elhRRnl5UDFrLU4yY19QRGhtVDY3Ukw2aUpB?oc=5",
+    "timestamp": "2026-04-06T17:37:23.055127+00:00",
+    "status": "rejected",
+    "content_hash": "d23aae65d3d63384982185ac54308f02",
+    "strict_hash": "d23aae65d3d63384982185ac54308f02",
+    "fuzzy_hash": "fdc9450cc5388b2a34938c4dff28bfd0",
+    "reason": "Эта новость полностью дублирует уже опубликованную в канале (см. контекст, пункт 1). Заголовок, источник и хеш идентичны. Публикация точной копии запрещена правилом 7."
   }
 ]
