@@ -896,5 +896,23 @@
     "strict_hash": "e8bc443f902426a980b0d907f59df454",
     "fuzzy_hash": "28a123059035b16882eb5056664e4d33",
     "reason": "Эта новость напрямую связана с Дубаем (инициатива властей) и полезна для жителей, но является точным дубликатом уже опубликованной новости под заголовком «‘Quiet Roads’ initiative steps up, as Dubai Police announce vehicle seizures, fines»."
+  },
+  {
+    "url": "https://whatson.ae/2026/04/museum-pass-abu-dhabi-launched",
+    "timestamp": "2026-04-06T16:35:41.567493+00:00",
+    "status": "rejected",
+    "content_hash": "fcde159395350507411aa66ba18169a7",
+    "strict_hash": "fcde159395350507411aa66ba18169a7",
+    "fuzzy_hash": "63fbfbea5edc836698c50b1cb7d33595",
+    "reason": "**Оценка новости:** Новость носит рекламно-информационный характер о скидочном абонементе в музеях Абу-Даби. Она напрямую не связана с Дубаем (нарушает правило 1), а также является скорее рекламным предложением без общественно значимой новости (нарушает правило 3)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcUNrYzBUOHAwUkdoUGFwSkFZRnhUU0hnVlN2SmZJbTB1bWEyWjdZdFhhOEk0d0lJMGVnRjl5Z3BFY1VPYVRCV1RwWXNWS2Z0NXYxT195ZXp4QUVTLXZRMHVHVDhRWG1nUURjemRWVndiMnFRbk52Sjlzd0tXUXltQnM1QmN1Y0VSVEF2d29XcE1qcm41MG1TazhyX1BVSWNPaXJRc2ZUdkNjTTZzSXFheWlpYm1VcGd2QUVkbTJBOA?oc=5",
+    "timestamp": "2026-04-06T16:35:53.381655+00:00",
+    "status": "approved",
+    "content_hash": "9f75cce96dfe341cffa66027b11ae4be",
+    "strict_hash": "9f75cce96dfe341cffa66027b11ae4be",
+    "fuzzy_hash": "34dc8fcc568f749a19ea0a310f7742e1",
+    "reason": "approved"
   }
 ]
