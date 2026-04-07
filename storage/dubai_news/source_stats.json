@@ -913,5 +913,23 @@
     "strict_hash": "4b3fc7166e1f61af1b5db9d9314c04a1",
     "fuzzy_hash": "956df96245ba555b6dcc76f4c02ea4da",
     "reason": "**Оценка новости:** Новость напрямую связана с регионом (Дубай, Абу-Даби), носит практический, service-update характер (информация о рейсах), что разрешено правилами, и будет полезна русскоязычным жителям. Однако текст в предоставленном виде является неполным (обрывок описания источника) и не содержит проверяемых фактов и деталей самого advisory."
+  },
+  {
+    "url": "https://whatson.ae/2026/04/10-luxury-hotels-in-dubai-offering-big-discounts-right-now",
+    "timestamp": "2026-04-07T12:56:49.324753+00:00",
+    "status": "rejected",
+    "content_hash": "a1892a11b7bb1bd0c508a72a5ac1cc68",
+    "strict_hash": "a1892a11b7bb1bd0c508a72a5ac1cc68",
+    "fuzzy_hash": "67ec96b7b90516e39e5a986a29978a11",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (правило 1), носит информационный, а не политический характер (правило 2), и может быть полезна русскоязычным жителям для планирования отдыха (правило 6). Однако она имеет явный рекламный характер, продвигая конкретные предложения отелей без общественно значимого новостного повода (правило 3), и похожа на типичный кликбейт-материал из раздела \"Что посмотреть/чем заняться\" (правило 5)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR0U1S2lnZXBHLWlPNFdiaFhZbDhHY0VHb0FUMHdEVk95MFRYVmJPTkxXSHRoYVR2djhmNk5yWmVWM2tUS1oxSkxKX0N4TjR4U3l2blpWOXNIWFphNmNoeFN3Rkc2WGlFYkoyLXhWSmN6SjJWSmNJcnNMZzhnVE5vVHRBRGJ6aEwx?oc=5",
+    "timestamp": "2026-04-07T12:56:50.564524+00:00",
+    "status": "rejected",
+    "content_hash": "9b9b5ca91bfb42bcf66c48f2290a8630",
+    "strict_hash": "9b9b5ca91bfb42bcf66c48f2290a8630",
+    "fuzzy_hash": "538c271e6eb66f6cba1b1e3bbd88a78e",
+    "reason": "Cheap prefilter: слишком короткий текст (111 символов)"
   }
 ]
