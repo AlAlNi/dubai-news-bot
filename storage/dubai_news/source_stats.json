@@ -998,5 +998,23 @@
     "strict_hash": "09ba61abc01d7b282520a5ea61522857",
     "fuzzy_hash": "4128bc324181a9e313bd910e1a4d571e",
     "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (DWTC), не касается политики и не выглядит откровенной рекламой, а сообщает о рекордных показателях, что представляет интерес для жителей. Однако текст представляет собой лишь заголовок и ссылку на источник без конкретных данных, что выглядит как кликбейт и не позволяет проверить достоверность и естественность изложения. Формат не соответствует разрешенным «страховочным» (service-updates, сводки и т.д.).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-sharjah-ajman-road",
+    "timestamp": "2026-04-07T20:36:08.341809+00:00",
+    "status": "rejected",
+    "content_hash": "0dfa23d9698095468e7afef6fbf1ee40",
+    "strict_hash": "0dfa23d9698095468e7afef6fbf1ee40",
+    "fuzzy_hash": "93f3a43fcc0590e714f0ca153a42473f",
+    "reason": "Cheap prefilter: слишком короткий текст (98 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQd21MRGd1YThEazIyaWhLcTdwbUNuMVBlWHlwdDNiV2FLdFpTTTUwb2R4NUtpMkNpMVBScjJucHF6aDE1R0Etdzd1czZFVkFIdExfMjlmVVhxOHpTOFpMSzItVlpobE1ubVMwTmVkVUc0bkQ0LS1vM1lia1R6aE1GV01mWDRaNGVGdzhiZWh5WFI0YVM3blZpa3pJblFiLVNpTjY1QzdJc1ZtUTJDR3Q0RkUzclhuMXFPSGw5SXlvVHlqamFtX1Nvdl82VXRwbi1UcHlWQ282dERIRHJUZDgtYjM0R1d0S2tVT1lobXhTMVgwZ0MxM1ZjX2dfekM5cGswWTNyb1N4R3UzT2R6SE9CTWxfRVIxd9IBmwJBVV95cUxNcTgyUTB0NWh6N080My1ybHB4SUhhbjJPUjc4Vk9rSDgzZG9qOHdrRTZySnJzcmpBNlRNMW81R3pxekNuVTFCNFZaa3h1N25SRXY1NGxNejJSZXExZDllTVV4SXBmUmotN1kycXNyOHF2bVZtMXR0QUplTjlYbjBTeVMwaW5qNXN4TXRkWWlWRkdmcDZQbTJYQW9qM0stdmhxeEpseGZ0S2syRzNXQXoyWEV1VDNkeWJnWkZLd3pESWN0U3VweGtMRFZ5dWFKRFpsRUhuR08xOXlPYVZ4Z1FBV0lNVnNDXzVndDJMZ05YeDhraHVlN0E4eWJTaGVMOTd2QWVPVVpsa2hqSVlfTzBDY2pnTjdZX3hINTdN?oc=5",
+    "timestamp": "2026-04-07T20:36:12.986883+00:00",
+    "status": "rejected",
+    "content_hash": "678e827684bd20a970890f7ddad5a9a2",
+    "strict_hash": "678e827684bd20a970890f7ddad5a9a2",
+    "fuzzy_hash": "f68858330eadc565df5982c27d8b8f8b",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (заявление главы департамента туризма), но её основная тема — реакция на региональные политические напряжения, что нарушает правило №2. Это делает её потенциально спорной и нежелательной для нейтрального новостного канала."
   }
 ]
