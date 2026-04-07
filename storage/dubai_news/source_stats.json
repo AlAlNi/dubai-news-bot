@@ -1025,5 +1025,23 @@
     "strict_hash": "ea90fb8e586832c0688d070b40ac2746",
     "fuzzy_hash": "07b927965124c51095bb53aebc178af7",
     "reason": "**Оценка новости:** Новость содержит актуальные данные о ценах на золото в Дубае и ОАЭ, что соответствует региональной тематике и может быть полезно русскоговорящим жителям. Однако она имеет явный рекламный характер (указан конкретный ювелирный бренд как источник) и представляет собой типовой обновляемый прайс-лист без общественно значимого информационного повода."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/things-to-do/tuesday-happy-hours-in-dubai-2026",
+    "timestamp": "2026-04-07T21:34:57.862279+00:00",
+    "status": "rejected",
+    "content_hash": "ceb41c92974815dbf2440dcca9c57636",
+    "strict_hash": "ceb41c92974815dbf2440dcca9c57636",
+    "fuzzy_hash": "47c1f5867b5327009590d62814fdb97d",
+    "reason": "Cheap prefilter: слишком короткий текст (94 символов)"
+  },
+  {
+    "url": "https://www.theweek.in/news/middle-east/2026/04/07/uae-to-get-a-new-highway-connecting-dubai-sharjah-and-ajman-68-km-6-8-lanes.html",
+    "timestamp": "2026-04-07T21:35:08.053537+00:00",
+    "status": "approved",
+    "content_hash": "7cd9e9153e178e914486326563d4067f",
+    "strict_hash": "7cd9e9153e178e914486326563d4067f",
+    "fuzzy_hash": "8385867b1be6f6c9d35ea0a27433f272",
+    "reason": "approved"
   }
 ]
