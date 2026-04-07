@@ -882,5 +882,23 @@
     "strict_hash": "b5133340ab5cbde18b910fb53a4d87f5",
     "fuzzy_hash": "11cd42061ea16c813e1cf8717480ee37",
     "reason": "Новость содержит актуальные данные о ценах на золото в ОАЭ, что напрямую связано с регионом и может быть полезно для жителей. Однако она имеет ярко выраженный рекламный характер (ссылка на конкретного ювелира) и формат типичного рыночного обновления без общественно значимого информационного повода."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/things-to-do/dog-walking-spots-in-dubai",
+    "timestamp": "2026-04-07T22:28:43.799769+00:00",
+    "status": "rejected",
+    "content_hash": "eaa9ea61add86b96f495719523e55ed7",
+    "strict_hash": "eaa9ea61add86b96f495719523e55ed7",
+    "fuzzy_hash": "0717a6b54adba39a2e50a6438d70498a",
+    "reason": "Cheap prefilter: слишком короткий текст (79 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS0sxOVFKSUg0N1NUUm1HcWxkXzFVMnJObklRczcwcG1zaWR0MmNyV004Z1BLRVZfX25yaWtOaTBTSVZIX0dyaDhobGFfWDU2WnViUVRLVnRWWFFBOWp2TnE5TWhwZnA4YzJ2RlNWdEVWMlVrdHFvcVZVbldxbUgyeHczS1hhWmZlMDNOMUFZT0hEUVNOVnZDOVk3QzVBcDlCMWp1N3hFRDFfYkgtanBVX3JSTDBXRUhMeGpENjNhclFDMGNUQlFKZW5YbmRhQmJXZlE?oc=5",
+    "timestamp": "2026-04-07T22:28:47.577350+00:00",
+    "status": "rejected",
+    "content_hash": "170c732cb7acae324e35350207437274",
+    "strict_hash": "170c732cb7acae324e35350207437274",
+    "fuzzy_hash": "d257c8fabb12e62bcb4e56e354db7dee",
+    "reason": "**Оценка:** Новость содержит только заголовок без фактического содержания, что делает невозможной проверку по большинству критериев (связь с регионом, рекламный характер, достоверность, полезность). Отсутствует текст для анализа и проверяемый URL-источник."
   }
 ]
