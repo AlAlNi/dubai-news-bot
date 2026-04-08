@@ -859,5 +859,23 @@
     "strict_hash": "4f55e81608a8736892223ac4eb2a0dc0",
     "fuzzy_hash": "69fc3ca21aeacf5f984833e1ff14a3d5",
     "reason": "**Оценка новости:** Новость напрямую связана с регионом (Дубай, ОАЭ, GCC), однако её основная тема — военный конфликт и большая политика (атака Ирана, реакция Израиля, заявление Трампа), что нарушает правило №2. Кроме того, заголовок и текст носят явно провокационный, кликбейтный характер («Will Tehran violate...?»), что нарушает правило №5."
+  },
+  {
+    "url": "https://whatson.ae/2026/04/difc-arts-night-returns-to-transform-the-financial-hub-into-an-open-air-art-gallery",
+    "timestamp": "2026-04-08T17:59:11.528852+00:00",
+    "status": "rejected",
+    "content_hash": "254a27bac913744ab0374b28e92de751",
+    "strict_hash": "254a27bac913744ab0374b28e92de751",
+    "fuzzy_hash": "c33cf8b14b7bf2aa9f87d195bad7b5e0",
+    "reason": "**Оценка новости:** Новость о возвращении DIFC Arts Night в Дубае имеет прямую связь с регионом, посвящена культурному событию без политики и рекламы, соответствует ценностям ОАЭ и будет интересна русскоговорящим жителям, интересующимся искусством и событиями города. Текст выглядит естественным, а источник (What's On Dubai) проверяем.\n**Проверка на дубликаты:** В контексте последних опубликованных новостей дубликатов не обнаружено. Хеш контента уникален."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSkxiRFJmNHVZY3VmX2xtdEVqNVlsZkhIS09jNE5fR01QZkJ2OE81MVh5bjFuWUNGc2RuME1halBUNk5EOExKLUZyVzVqbEJRNC1Zc3dOaHhHYnRJLXFuN0trU0I2cVEwYkZic2p6MUhmNEN0Qy1GSzlQczQzemNnYnFzMWpIeGlXM2JoS1lZYWxzTmNWUE1MMHJwLW5IbkZIOVBOVU5OSXoxZ1EzWlkxdDJfRmxZUFZHSmExRmlJMndQd1pSeUx4bTVpQXFvSG83cFlDU2dabFRSSzhIZ1YzY2NwVnVxVXFMRUtIVWRCcENUZFZMVjRSbGR5c2U?oc=5",
+    "timestamp": "2026-04-08T17:59:15.636343+00:00",
+    "status": "rejected",
+    "content_hash": "f184fa2ec457199915a0f37392d17076",
+    "strict_hash": "f184fa2ec457199915a0f37392d17076",
+    "fuzzy_hash": "e7b78577247e36dc53bb096bf51943c5",
+    "reason": "**Оценка новости:** Новость имеет явную связь с Дубаем (правило 1), но содержит признаки кликбейтного заголовка, упоминающего политический конфликт (Иран), что нарушает правила 2 и 5. Текст выглядит как рекламный/пресс-релиз без конкретных фактов и проверяемого источника (нарушение правил 3 и 9).\n**Окончательное решение:**"
   }
 ]
