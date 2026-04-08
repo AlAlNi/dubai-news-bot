@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.dailymail.co.uk/news/article-15707881/MPs-promoted-luxury-Dubai-desert-city-despite-tycoons-project-banned-UK.html",
-    "timestamp": "2026-04-06T03:46:25.634406+00:00",
-    "status": "rejected",
-    "content_hash": "c8718ebf0cbe76a0286bbc651c876d77",
-    "strict_hash": "c8718ebf0cbe76a0286bbc651c876d77",
-    "fuzzy_hash": "b9b5e7084ce7c4f8b8c6f60e4b0124f7",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (проект недвижимости), но её основная тема — это обвинения в коррупции и скандал с британскими политиками, что нарушает правила о политике/конфликтах и может быть воспринято как неуважение к репутации эмирата. Текст также выглядит как пересказ расследования зарубежного СМИ, что не соответствует формату полезных обновлений для жителей.\n**Решение:**"
-  },
-  {
-    "url": "https://whatson.ae/2026/04/35-new-parks-are-coming-to-dubai-this-year",
-    "timestamp": "2026-04-06T04:36:06.778223+00:00",
-    "status": "rejected",
-    "content_hash": "8ef14b8ad4fab909cec05fffcb4eafc4",
-    "strict_hash": "8ef14b8ad4fab909cec05fffcb4eafc4",
-    "fuzzy_hash": "d8a56e0c88ad5efbb06fc209938d3211",
-    "reason": "**Оценка новости:** Новость соответствует ключевым правилам: имеет прямую связь с Дубаем (развитие городской инфраструктуры), не касается политики или рекламы, уважает ценности ОАЭ (зелёные инициативы в рамках Dubai 2040), полезна для жителей (новые общественные пространства). Однако в заголовке указан \"this year\", а в тексте — \"2026\", что вызывает сомнения в точности и требует проверки источника."
-  },
-  {
-    "url": "https://www.thesun.co.uk/tvandshowbiz/38732736/kate-ferdinand-clashes-husband-rio-maldives",
-    "timestamp": "2026-04-06T04:36:07.069079+00:00",
-    "status": "rejected",
-    "content_hash": "ccf5bb6e26a92f05b542c5c761f9aef7",
-    "strict_hash": "ccf5bb6e26a92f05b542c5c761f9aef7",
-    "fuzzy_hash": "85287f040aabd99bfaa702567c9e135e",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
     "url": "https://www.thesun.ie/tvandshowbiz/16781922/kate-ferdinand-clashes-husband-rio-new-family-additions-dubai-maldives",
     "timestamp": "2026-04-06T06:15:51.721035+00:00",
     "status": "rejected",
@@ -918,5 +891,10 @@
     "strict_hash": "fd8fef6f658b3cce69522d397b18d34a",
     "fuzzy_hash": "2a8685bfa56b2671306845d2a1a4dbc2",
     "reason": "approved"
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/fia-seeks-centres-help-on-removal-of-dubai-airport-authorities-capping-on-flight-ops/articleshow/130091424.cms",
+    "timestamp": "2026-04-08T05:52:27.995796+00:00",
+    "status": "published"
   }
 ]
