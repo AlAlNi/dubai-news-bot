@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.dailymail.co.uk/news/article-15709069/Dubai-ruler-forgot-planning-permission-house-Highland-estate.html",
-    "timestamp": "2026-04-06T23:03:49.388645+00:00",
-    "status": "rejected",
-    "content_hash": "4194262a3c80ee048f0c522730820f13",
-    "strict_hash": "4194262a3c80ee048f0c522730820f13",
-    "fuzzy_hash": "598b227c6331ad499a30ec9082012866",
-    "reason": "**Оценка новости:** Новость касается правителя Дубая, что соответствует правилу о связи с регионом, однако основная тема — его личный строительный конфликт в Шотландии, что не представляет общественно значимой новости для русскоязычных жителей Дубая и носит отчасти негативный/скандальный оттенок, потенциально неуважительный к имиджу ОАЭ."
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/new-brunches-in-dubai-2026",
-    "timestamp": "2026-04-06T23:26:40.412882+00:00",
-    "status": "rejected",
-    "content_hash": "fd34c4d335f85732708211fcffd4bf60",
-    "strict_hash": "fd34c4d335f85732708211fcffd4bf60",
-    "fuzzy_hash": "d0bce2e4feed36edbbdcd5ec533eea0f",
-    "reason": "Cheap prefilter: слишком короткий текст (93 символов)"
-  },
-  {
-    "url": "https://www.hindustantimes.com/india-news/your-wife-has-bank-links-in-pakistan-himanta-sarma-s-wife-to-gaurav-gogoi-amid-passport-dubai-links-row-101775471611953.html",
-    "timestamp": "2026-04-06T23:26:44.196268+00:00",
-    "status": "rejected",
-    "content_hash": "da892f32194cb0deb34095a4435447ca",
-    "strict_hash": "da892f32194cb0deb34095a4435447ca",
-    "fuzzy_hash": "e13aee2b6b2225fba125f305c5c0cc7e",
-    "reason": "**Оценка новости:** Новость посвящена политическому скандалу в Индии с упоминанием Дубая лишь как второстепенной детали в обвинениях. Она не имеет прямой связи с регионом (нарушает правило 1), её основная тема — большая политика и конфликт (нарушает правило 2), и она не представляет практического интереса для русскоговорящего жителя Дубая (нарушает правило 6)."
-  },
-  {
     "url": "https://www.thesun.ie/tvandshowbiz/16784376/katie-price-not-moving-dubai-with-husband-lee-andrews",
     "timestamp": "2026-04-06T23:59:38.177826+00:00",
     "status": "rejected",
@@ -847,5 +820,10 @@
     "strict_hash": "f8ad9aca610de07eee4786a90aa2e1a9",
     "fuzzy_hash": "48571404dfbfb41fc19e9a3ba8c0fb31",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/want-to-train-with-the-dubai-police-take-part-in-their-free-community-fitness-night",
+    "timestamp": "2026-04-08T23:49:34.991359+00:00",
+    "status": "published"
   }
 ]
