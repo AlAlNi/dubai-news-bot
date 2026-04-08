@@ -877,5 +877,23 @@
     "strict_hash": "f184fa2ec457199915a0f37392d17076",
     "fuzzy_hash": "e7b78577247e36dc53bb096bf51943c5",
     "reason": "**Оценка новости:** Новость имеет явную связь с Дубаем (правило 1), но содержит признаки кликбейтного заголовка, упоминающего политический конфликт (Иран), что нарушает правила 2 и 5. Текст выглядит как рекламный/пресс-релиз без конкретных фактов и проверяемого источника (нарушение правил 3 и 9).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/mega-festival-elrow-dubai-has-been-postponed",
+    "timestamp": "2026-04-08T19:13:56.504417+00:00",
+    "status": "rejected",
+    "content_hash": "6abb7a7c913ab1721a4c3d1645445d8f",
+    "strict_hash": "6abb7a7c913ab1721a4c3d1645445d8f",
+    "fuzzy_hash": "cb99cdf27402d4300da071671b40ee34",
+    "reason": "**Оценка новости:** Новость о переносе даты фестиваля elrow в Дубае имеет прямую связь с регионом, не нарушает ценностей ОАЭ и может быть полезна русскоязычным жителям, планирующим досуг. Однако текст выглядит как анонс/реклама события (нарушение правила 3) и взят из развлекательного гида, что может указывать на рекламный характер, а не на общественно значимую новость.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMUtKUi0wMU9PM2ZKTl94UWVBN3A1M01EX3d5M1NuU0RobzRfWHc4TXVRdUdQYTI5bDJRR25XZ2xIYmpPTUVXdTlpdEVTdFhWcjNKWnhIcWpOd3ZMcFBoYmtoWmd6U0J1OU5LQ2F5c3FwUDVNdUVsRjBjSUo2OE9FMUhMZGpkMnNQVHVGaE9xMmp2WXp0eGJhekh1WkhsRG9sR0FIQlFKVEU4cVl2bFlBX0wwQmdBdncwdmotbVd0TXZhRWMyNWx1YkRWVUFveER6VXZpSkM0UnBSNTRXS0R2c2RJMnhzZm9GUXppaVdnZjFLRDRueVZnNg?oc=5",
+    "timestamp": "2026-04-08T19:14:08.691260+00:00",
+    "status": "approved",
+    "content_hash": "cab2c8df9c3c556794d946eb0561fb7a",
+    "strict_hash": "cab2c8df9c3c556794d946eb0561fb7a",
+    "fuzzy_hash": "1ef194eeab2b9707d19be77293d80250",
+    "reason": "approved"
   }
 ]
