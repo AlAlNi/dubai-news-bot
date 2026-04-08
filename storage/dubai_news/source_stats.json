@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.financialexpress.com/india-news/uae-golden-visa-dubai-properties-and-llm-rock-assam-politics-himanta-sarma-invokes-st-kitts-case-to-counter-cong/4197024",
-    "timestamp": "2026-04-06T21:59:58.672844+00:00",
-    "status": "rejected",
-    "content_hash": "77c778b278e5414ba960f26d937b83ec",
-    "strict_hash": "77c778b278e5414ba960f26d937b83ec",
-    "fuzzy_hash": "96863ee4deb159326150bf1ba5671e2c",
-    "reason": "**Оценка новости:**\nНовость не имеет явной связи с Дубаем/ОАЭ (нарушено правило 1), посвящена региональной политике в Индии (правило 2) и не представляет интереса для русскоговорящего жителя Дубая (правило 6). Текст выглядит как фрагмент политического репортажа без подтверждённого источника об ОАЭ.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/dubai-parks-2026",
-    "timestamp": "2026-04-06T22:25:29.728196+00:00",
-    "status": "rejected",
-    "content_hash": "9bc63dd8cdd9d89a8ff8eae4d753b4f5",
-    "strict_hash": "9bc63dd8cdd9d89a8ff8eae4d753b4f5",
-    "fuzzy_hash": "2d108fde56b210f55920db2f9d254b38",
-    "reason": "Cheap prefilter: слишком короткий текст (90 символов)"
-  },
-  {
-    "url": "https://www.express.co.uk/travel/articles/2190796/dubai-flights-latest-uae-bans-iranian-nationals-amid-iran-missile-attacks",
-    "timestamp": "2026-04-06T22:25:33.631826+00:00",
-    "status": "rejected",
-    "content_hash": "9b0484e7ea1233dd226425d123f688e1",
-    "strict_hash": "9b0484e7ea1233dd226425d123f688e1",
-    "fuzzy_hash": "def4b47c08c7dbb2aa32f0a5e3128ff8",
-    "reason": "**Оценка:** Новость напрямую связана с ОАЭ (правило 1), касается изменений в правилах въезда, что является важной service-информацией для жителей и путешественников (правило 6, 8). Однако она затрагивает международные отношения и может быть отнесена к большой политике (правило 2), а также требует обязательной проверки официального источника (правило 9), который в предоставленном отрывке не указан явно.\n**Решение:**"
-  },
-  {
     "url": "https://www.dailymail.co.uk/news/article-15709069/Dubai-ruler-forgot-planning-permission-house-Highland-estate.html",
     "timestamp": "2026-04-06T23:03:49.388645+00:00",
     "status": "rejected",
@@ -851,5 +824,10 @@
     "strict_hash": "c0f6f1416304d92c0c92345bb1bded9c",
     "fuzzy_hash": "77b2ceb0ebc6aba883e79e74bbad2e31",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/34-interesting-uae-milestones-that-will-blow-your-mind",
+    "timestamp": "2026-04-08T22:53:55.002605+00:00",
+    "status": "published"
   }
 ]
