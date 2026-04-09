@@ -845,5 +845,23 @@
     "strict_hash": "ee74bcf36091f35c509df46e2bbb55de",
     "fuzzy_hash": "610498da8f954266844f7b2a71035791",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/moving-to-dubai/features-moving-to-dubai/uae-golden-visa-guide-2026",
+    "timestamp": "2026-04-09T23:30:38.359965+00:00",
+    "status": "rejected",
+    "content_hash": "9cea02355ec7d900258037974acdfe34",
+    "strict_hash": "9cea02355ec7d900258037974acdfe34",
+    "fuzzy_hash": "82a01e813fbf2002b8f43b793752489f",
+    "reason": "Cheap prefilter: слишком короткий текст (102 символов)"
+  },
+  {
+    "url": "https://www.reuters.com/business/aerospace-defense/dubais-dae-blackstone-launch-16-billion-annual-aircraft-leasing-programme-2026-04-09",
+    "timestamp": "2026-04-09T23:30:40.608520+00:00",
+    "status": "rejected",
+    "content_hash": "0d3abce3ddb0fe28e5a06b5631108f7c",
+    "strict_hash": "0d3abce3ddb0fe28e5a06b5631108f7c",
+    "fuzzy_hash": "34d80cdc7414277668539e3e74b036dc",
+    "reason": "Новость является точным дубликатом уже опубликованной (см. контекст, новость №1), поэтому не может быть размещена повторно."
   }
 ]
