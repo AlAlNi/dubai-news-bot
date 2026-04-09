@@ -844,5 +844,23 @@
     "strict_hash": "19c8c26c67b0370d7e8023dc35b3ad56",
     "fuzzy_hash": "23e5aa8c00a4d52e7e08f6ba103d85a6",
     "reason": "Cheap prefilter: слишком короткий текст (85 символов)"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/things-to-do-in-dubai-this-weekend-april-10-to-12-2026",
+    "timestamp": "2026-04-09T08:12:14.343483+00:00",
+    "status": "rejected",
+    "content_hash": "ffa1e142eaea3889c13eaf6199248e56",
+    "strict_hash": "ffa1e142eaea3889c13eaf6199248e56",
+    "fuzzy_hash": "002c85c827f3fff0424936fbf61a970d",
+    "reason": "Новость представляет собой типичный рекламный список развлечений (кликбейтный заголовок \"7 things to do\") без конкретных общественно значимых фактов, выглядит как перепечатка пресс-релиза или анонса событий от развлекательного издания."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UUjBZMFNjNTlwVzNBaTJ5OGhqVVZQRkpqc205alNxa1l5SlNqMk5iajk4VU1LQzQ5NkdHU1hhc1gtejBpVVZ2UmdydWNZTGFZMDNwTG5fZTZNZkE0RDJuNC1WRWJTNkVVczhTR0NfSFdlSTY0?oc=5",
+    "timestamp": "2026-04-09T08:12:29.444056+00:00",
+    "status": "approved",
+    "content_hash": "d5f467b1b4339946a340158d60c5ed38",
+    "strict_hash": "d5f467b1b4339946a340158d60c5ed38",
+    "fuzzy_hash": "857c061968797cbe566867a082cc6e14",
+    "reason": "approved"
   }
 ]
