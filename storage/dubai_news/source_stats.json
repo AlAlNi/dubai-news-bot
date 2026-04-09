@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQy10bzdmcDB5VFBmWlllZDBrTFlFSkNvMFB6WnE1anY0Nm5JMkRqbXJ6enEtNWt0TDlmZUtJMXE0NVNhNEQwMEEzUDYwQjhsa1JudV9ESXFzc1RLR3JrZGNuT293eUVSako3SENPeThVM1ZDOUM5SDNZekQ1aFFXYmp6bUFucVZkdDNoVnI5dWxZWUpYRDhzRVpveDJLWHUtSkVZdi13?oc=5",
-    "timestamp": "2026-04-07T23:06:51.594703+00:00",
-    "status": "rejected",
-    "content_hash": "28d6098f9672636be9f28da5d2924363",
-    "strict_hash": "28d6098f9672636be9f28da5d2924363",
-    "fuzzy_hash": "1a2851f9f37709ff96b2bea34c398a30",
-    "reason": "**Оценка новости:**\nЗаголовок и текст носят негативный, кликбейтный характер без конкретных фактов или проверяемых данных. Связь с Дубаем есть, но подача может восприниматься как неуважение к имиджу ОАЭ (нарушение правил 4 и 5). Также отсутствует явный источник для проверки (нарушение правила 9).\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/dubai-airport-travel-advice-april-2026",
-    "timestamp": "2026-04-07T23:29:24.477483+00:00",
-    "status": "rejected",
-    "content_hash": "5f4105e7a55a40df68f51c6b667cce31",
-    "strict_hash": "5f4105e7a55a40df68f51c6b667cce31",
-    "fuzzy_hash": "ddc35edd218d3e46f69189530da3449c",
-    "reason": "Cheap prefilter: слишком короткий текст (104 символов)"
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/news/new-updates/dubai-may-become-part-of-akhand-bharat-pakistan-senator-mushahid-hussain-after-uae-demands-3-5-billion-loan-repayment/articleshow/130084980.cms",
-    "timestamp": "2026-04-07T23:29:29.350371+00:00",
-    "status": "rejected",
-    "content_hash": "1f67d44154d318b52fe7e1eb69db1969",
-    "strict_hash": "1f67d44154d318b52fe7e1eb69db1969",
-    "fuzzy_hash": "126c733d342ef777efe30da3ae0a79f9",
-    "reason": "**Оценка новости:** Новость касается политического заявления пакистанского сенатора о возможных последствиях отношений ОАЭ и Индии, что напрямую связано с регионом (ОАЭ). Однако её основная тема — большая политика и гипотетический межгосударственный конфликт, что нарушает правило 2. Кроме того, тема может быть воспринята как спекулятивная и неуважительная по отношению к суверенитету ОАЭ (правило 4), и её практическая польза для русскоязычного жителя Дубая сомнительна (правило 6).\n**Окончательное решение:**"
-  },
-  {
     "url": "https://economictimes.indiatimes.com/wealth/invest/24k-gold-rates-in-dubai-today-april-7-2026-latest-24k-22k-prices-at-kalyan-jewellers-dubai-jewellery-group-malabar-gold-diamonds-joyalukkas/articleshow/130085781.cms",
     "timestamp": "2026-04-08T00:03:05.817918+00:00",
     "status": "rejected",
@@ -863,5 +836,10 @@
     "strict_hash": "0d3abce3ddb0fe28e5a06b5631108f7c",
     "fuzzy_hash": "34d80cdc7414277668539e3e74b036dc",
     "reason": "Новость является точным дубликатом уже опубликованной (см. контекст, новость №1), поэтому не может быть размещена повторно."
+  },
+  {
+    "url": "https://www.marketscreener.com/news/dubai-s-dae-and-blackstone-launch-1-6-billion-annual-aircraft-leasing-programme-ce7e50dbd18bf427",
+    "timestamp": "2026-04-09T23:48:31.823379+00:00",
+    "status": "published"
   }
 ]
