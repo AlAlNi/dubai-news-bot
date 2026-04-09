@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://economictimes.indiatimes.com/gold-rate-in-dubai-and-abu-dhabi/slideshow/130081753.cms",
-    "timestamp": "2026-04-07T22:04:29.083051+00:00",
-    "status": "rejected",
-    "content_hash": "b5133340ab5cbde18b910fb53a4d87f5",
-    "strict_hash": "b5133340ab5cbde18b910fb53a4d87f5",
-    "fuzzy_hash": "11cd42061ea16c813e1cf8717480ee37",
-    "reason": "Новость содержит актуальные данные о ценах на золото в ОАЭ, что напрямую связано с регионом и может быть полезно для жителей. Однако она имеет ярко выраженный рекламный характер (ссылка на конкретного ювелира) и формат типичного рыночного обновления без общественно значимого информационного повода."
-  },
-  {
-    "url": "https://www.timeoutdubai.com/things-to-do/dog-walking-spots-in-dubai",
-    "timestamp": "2026-04-07T22:28:43.799769+00:00",
-    "status": "rejected",
-    "content_hash": "eaa9ea61add86b96f495719523e55ed7",
-    "strict_hash": "eaa9ea61add86b96f495719523e55ed7",
-    "fuzzy_hash": "0717a6b54adba39a2e50a6438d70498a",
-    "reason": "Cheap prefilter: слишком короткий текст (79 символов)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS0sxOVFKSUg0N1NUUm1HcWxkXzFVMnJObklRczcwcG1zaWR0MmNyV004Z1BLRVZfX25yaWtOaTBTSVZIX0dyaDhobGFfWDU2WnViUVRLVnRWWFFBOWp2TnE5TWhwZnA4YzJ2RlNWdEVWMlVrdHFvcVZVbldxbUgyeHczS1hhWmZlMDNOMUFZT0hEUVNOVnZDOVk3QzVBcDlCMWp1N3hFRDFfYkgtanBVX3JSTDBXRUhMeGpENjNhclFDMGNUQlFKZW5YbmRhQmJXZlE?oc=5",
-    "timestamp": "2026-04-07T22:28:47.577350+00:00",
-    "status": "rejected",
-    "content_hash": "170c732cb7acae324e35350207437274",
-    "strict_hash": "170c732cb7acae324e35350207437274",
-    "fuzzy_hash": "d257c8fabb12e62bcb4e56e354db7dee",
-    "reason": "**Оценка:** Новость содержит только заголовок без фактического содержания, что делает невозможной проверку по большинству критериев (связь с регионом, рекламный характер, достоверность, полезность). Отсутствует текст для анализа и проверяемый URL-источник."
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQy10bzdmcDB5VFBmWlllZDBrTFlFSkNvMFB6WnE1anY0Nm5JMkRqbXJ6enEtNWt0TDlmZUtJMXE0NVNhNEQwMEEzUDYwQjhsa1JudV9ESXFzc1RLR3JrZGNuT293eUVSako3SENPeThVM1ZDOUM5SDNZekQ1aFFXYmp6bUFucVZkdDNoVnI5dWxZWUpYRDhzRVpveDJLWHUtSkVZdi13?oc=5",
     "timestamp": "2026-04-07T23:06:51.594703+00:00",
     "status": "rejected",
@@ -858,5 +831,10 @@
     "strict_hash": "a18e85b0aba8c506dcfb8fefe96b9c47",
     "fuzzy_hash": "b6efcc6da03c9151f0b74d6263e7f03f",
     "reason": "**Оценка:** Новость напрямую связана с Дубаем (правило 1), полезна для русскоговорящих жителей (правило 6), носит справочный, а не рекламный характер (правило 3) и не нарушает других базовых правил. Однако, это типичная объяснительная статья о давно существующих правилах RERA, а не оперативное новостное событие или изменение. Риск дублирования с ранее опубликованными материалами на ту же тему высок, хотя конкретный хеш в контексте не указан."
+  },
+  {
+    "url": "https://crypto.news/vara-clarifies-token-issuance-framework-for-virtual-assets-in-dubai",
+    "timestamp": "2026-04-09T22:53:56.629144+00:00",
+    "status": "published"
   }
 ]
