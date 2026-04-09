@@ -853,5 +853,23 @@
     "strict_hash": "cb1a71006c7589f1a18391a4a2ac0964",
     "fuzzy_hash": "8d6fef112b8d0ad4594b600f10f2a45a",
     "reason": "**Оценка новости:**\nНовость имеет прямую связь с Дубаем (переезд американца), но основной акцент сделан на политическом контексте (угрозы безопасности, ракетные обстрелы), что нарушает правило 2. Также заголовок носит кликбейтный характер (правило 5), а источник (Fox News) может подавать информацию в политизированном ключе, что рискует нарушить правило 4 об уважении к ценностям ОАЭ."
+  },
+  {
+    "url": "https://whatson.ae/2026/04/only-in-dubai-the-wild-and-extra-things-to-do-around-the-city",
+    "timestamp": "2026-04-09T10:03:34.795896+00:00",
+    "status": "rejected",
+    "content_hash": "3a3af8673aaef9b58420c9e67715bd34",
+    "strict_hash": "3a3af8673aaef9b58420c9e67715bd34",
+    "fuzzy_hash": "bc544805c004beb58c216dbadfc0cd0b",
+    "reason": "**Оценка новости:** Это рекламный список развлечений (\"only in Dubai\") с сайта What's On, не содержащий конкретной новости или общественно значимой информации. Текст носит рекламно-развлекательный характер и не соответствует формату новостного сообщения."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSVZPQ3ByR0pVc2RRZlZCQmF2UlZuR2lEM010NFFuX1U1dnRiZlVkRmxmNFVHQldRRGt5bnpIbUdLdnZkNk43N0VJSEgteEstbW1aaWVmdWVhWExjcVpjTlhaaUhNQjRDUy1SVlQ1c1h4dWQwUTl5MldRZUhmeUZwZENKbTE5SS0tN0UwTzNQc2U5aENBUFMzcDV4Rno?oc=5",
+    "timestamp": "2026-04-09T10:03:39.617389+00:00",
+    "status": "rejected",
+    "content_hash": "6f59153130997cdd6ffdc9fabd2de495",
+    "strict_hash": "6f59153130997cdd6ffdc9fabd2de495",
+    "fuzzy_hash": "6bd52f8672974546b561617166010532",
+    "reason": "**Оценка новости:**\nЭто видео о кулинарном рецепте (печенье), упоминающем Дубай в названии, но без явной связи с регионом, общественной значимости или пользы для жителей. Выглядит как развлекательный/рекламный контент без новостной ценности."
   }
 ]
