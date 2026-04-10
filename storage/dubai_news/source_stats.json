@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.dailymail.co.uk/tvshowbiz/article-15713361/Kate-Ferdinand-stepdaughter-Tia-14-swim-sharks-Portugal-break-fleeing-Dubai.html",
-    "timestamp": "2026-04-08T09:44:44.128483+00:00",
-    "status": "rejected",
-    "content_hash": "5b2f92df4bdaac6e57f11f8f8ca110d3",
-    "strict_hash": "5b2f92df4bdaac6e57f11f8f8ca110d3",
-    "fuzzy_hash": "22edbc41413c2dd567fc7153c6056196",
-    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем (упоминается лишь как точка отправления), носит светский/развлекательный характер о личной жизни знаменитости и не представляет информационной ценности для русскоязычного жителя Дубая. Текст похож на кликбейтный материал из таблоида."
-  },
-  {
-    "url": "https://whatson.ae/2026/04/7-of-the-best-yoga-classes-in-dubai-to-help-you-reset",
-    "timestamp": "2026-04-08T09:59:31.234723+00:00",
-    "status": "rejected",
-    "content_hash": "3c511ca7e5ff39e8f1eca378f5ba1eb3",
-    "strict_hash": "3c511ca7e5ff39e8f1eca378f5ba1eb3",
-    "fuzzy_hash": "05e995f9c374a475431d77e673153f81",
-    "reason": "**Оценка новости:**\nЭто подборка рекламного характера о платных услугах (йога-классах) без конкретной новостной или общественно значимой информации. Текст написан в стиле lifestyle-рекомендаций, что нарушает правило №3 (рекламный характер), а также может не соответствовать правилу №5 (естественность/достоверность) из-за обобщённого спискового формата без чётких новостных поводов."
-  },
-  {
-    "url": "https://www.livemint.com/news/india/air-india-group-releases-flight-schedule-for-8-april-to-connect-dubai-abu-dhabi-other-gulf-cities-details-inside-11775582188609.html",
-    "timestamp": "2026-04-08T09:59:36.556584+00:00",
-    "status": "rejected",
-    "content_hash": "818849ae5505cc3a344c8ba9f4919fa4",
-    "strict_hash": "818849ae5505cc3a344c8ba9f4919fa4",
-    "fuzzy_hash": "4674fa02caeac3c8083be7dd6c48d9cb",
-    "reason": "**Оценка новости:** Новость сообщает о расписании рейсов Air India Group, включая рейсы в Дубай и Абу-Даби, что напрямую связано с регионом. Однако текст представляет собой анонс пресс-релиза авиакомпании без общественно значимого контекста (например, открытия нового маршрута, увеличения частоты полетов) и носит явный рекламный характер."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/dubai-precast-secures-major-residential-townhouse-contract-at-meydan-development",
-    "timestamp": "2026-04-08T10:56:22.098507+00:00",
-    "status": "approved",
-    "content_hash": "437c2814d9064bcc563a4f45af7a426f",
-    "strict_hash": "437c2814d9064bcc563a4f45af7a426f",
-    "fuzzy_hash": "c54a049f5351b3b6d9ef0aba17d4852a",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/dubai-precast-secures-major-residential-townhouse-contract-at-meydan-development",
     "timestamp": "2026-04-08T11:10:11.596307+00:00",
     "status": "published"
@@ -881,5 +845,10 @@
     "strict_hash": "adc4d77768826632693313120966ec67",
     "fuzzy_hash": "0698804a4edd4c26a3cb9095ec4a9d4c",
     "reason": "**Оценка новости:** Новость посвящена визиту британского политика Найджела Фараджа в Большон (Великобритания) в преддверии местных выборов. Связь с Дубаем/ОАЭ упоминается лишь вскользь («подарок из Дубая») как второстепенная деталь, что не соответствует правилу №1 о явной связи с регионом. Основная тема — зарубежная политическая активность, что также нарушает правило №2."
+  },
+  {
+    "url": "https://propertynews.ae/guide/al-habtoor-group-announces-dh5-billion-commercial-tower-at-al-habtoor-city",
+    "timestamp": "2026-04-10T11:04:36.866557+00:00",
+    "status": "published"
   }
 ]
