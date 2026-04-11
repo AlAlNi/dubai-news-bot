@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://crypto.news/vara-clarifies-token-issuance-framework-for-virtual-assets-in-dubai",
-    "timestamp": "2026-04-09T22:53:56.629144+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.marketscreener.com/news/dubai-s-dae-and-blackstone-launch-1-6-billion-annual-aircraft-leasing-programme-ce7e50dbd18bf427",
-    "timestamp": "2026-04-09T23:09:10.899656+00:00",
-    "status": "approved",
-    "content_hash": "ee74bcf36091f35c509df46e2bbb55de",
-    "strict_hash": "ee74bcf36091f35c509df46e2bbb55de",
-    "fuzzy_hash": "610498da8f954266844f7b2a71035791",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/moving-to-dubai/features-moving-to-dubai/uae-golden-visa-guide-2026",
-    "timestamp": "2026-04-09T23:30:38.359965+00:00",
-    "status": "rejected",
-    "content_hash": "9cea02355ec7d900258037974acdfe34",
-    "strict_hash": "9cea02355ec7d900258037974acdfe34",
-    "fuzzy_hash": "82a01e813fbf2002b8f43b793752489f",
-    "reason": "Cheap prefilter: слишком короткий текст (102 символов)"
-  },
-  {
-    "url": "https://www.reuters.com/business/aerospace-defense/dubais-dae-blackstone-launch-16-billion-annual-aircraft-leasing-programme-2026-04-09",
-    "timestamp": "2026-04-09T23:30:40.608520+00:00",
-    "status": "rejected",
-    "content_hash": "0d3abce3ddb0fe28e5a06b5631108f7c",
-    "strict_hash": "0d3abce3ddb0fe28e5a06b5631108f7c",
-    "fuzzy_hash": "34d80cdc7414277668539e3e74b036dc",
-    "reason": "Новость является точным дубликатом уже опубликованной (см. контекст, новость №1), поэтому не может быть размещена повторно."
-  },
-  {
     "url": "https://www.marketscreener.com/news/dubai-s-dae-and-blackstone-launch-1-6-billion-annual-aircraft-leasing-programme-ce7e50dbd18bf427",
     "timestamp": "2026-04-09T23:48:31.823379+00:00",
     "status": "published"
@@ -1028,5 +996,10 @@
     "strict_hash": "0a9954ac7a971e15963dbd0d5368b384",
     "fuzzy_hash": "0bd3c0e0314a42524b7b3265092943a5",
     "reason": "**Оценка новости:** Новость не подходит для публикации, так как нарушает несколько ключевых правил. Основная тема — криминал и арест по линии Интерпола — не соответствует позитивному и деловому тону канала, может быть воспринята как неуважение к имиджу ОАЭ (правило 4) и не представляет прямого интереса или пользы для русскоговорящего жителя Дубая (правило 6). Кроме того, стиль изложения («nick», «clan») характерен для таблоидов и вызывает сомнения в достоверности и естественности (правило 5).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/dubai-allows-home-based-learning-for-children-aged-06-during-distance-learning-under-new-khda-guidelines/articleshow/130188705.cms",
+    "timestamp": "2026-04-11T23:45:56.821218+00:00",
+    "status": "published"
   }
 ]
