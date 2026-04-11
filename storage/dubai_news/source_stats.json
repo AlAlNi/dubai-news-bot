@@ -1026,5 +1026,23 @@
     "strict_hash": "ab789a99b24384a2e34a0e948b5ccfcc",
     "fuzzy_hash": "6040e48033fc401cc5dfa0353007f705",
     "reason": "Новость подходит, так как имеет прямую связь с Дубаем (участие полиции), не нарушает запретные темы, носит информационный, а не рекламный характер и может быть интересна русскоязычным жителям как демонстрация эффективности местных правоохранительных органов. Текст взят из проверяемого источника (Gulf Today) и не похож на предыдущие публикации."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/start-getting-hot-in-dubai-date-2026",
+    "timestamp": "2026-04-11T15:24:18.714392+00:00",
+    "status": "rejected",
+    "content_hash": "8c46e5f38f480dd092098d5b0babda39",
+    "strict_hash": "8c46e5f38f480dd092098d5b0babda39",
+    "fuzzy_hash": "98b4c8ef37d83498e5379fe37306f804",
+    "reason": "Cheap prefilter: слишком короткий текст (74 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdm5ORkxNUEdmaFQ3TU9KYkZRbnByMlpoYmVwbnhWcVN2N0xLQzVwRVhfZFRaU2V3WV9iZFZBZzVXb0hBQUs1bmpUVzFoSmk1VHRUUUhndDNnUlZUYWZ5TE11Q1YtMUxwbG5BM2dtclQ3WDBDWnVWb0RrQm5vQVZZbk9ScjZUV1JQS0l0ZnVDYUpXVGtrSExELXFwVTdYLXRjRXQ3anM0Zm9yS2t3NUxYSlhyckVaY3JZZEHSAcwBQVVfeXFMT3FPOUN3R19xc2V2dEZSQTRIMlA0LXprVFdmUEJTc0N3UEs4NTNIaEhONExwODFxZnFOTXdmT2g2T2pObERlSk5qQkwyOFFMci1zTDVIX1BxT1NxWTlEM2hzMUxkZUdlMTV4cUNIRFlOZ25XOU9sR3FRdEhldkExWVFrUFgwNGk4aDZab3RoMlZnTThjVVpycGFtcW94QU5pUHFvUkpiVGNxTU90R2pRQ3BuYlNHMHQ1SFd1ZGFkMU1UVXVRRWlhc0ZSenZJ?oc=5",
+    "timestamp": "2026-04-11T15:24:28.076021+00:00",
+    "status": "rejected",
+    "content_hash": "49e16998e8834cf22499906c2fb043c4",
+    "strict_hash": "49e16998e8834cf22499906c2fb043c4",
+    "fuzzy_hash": "bba7840eb2ca5504d03ac6cd7ba7bf10",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (участие Dubai Police), не касается запрещённых тем политики/конфликтов, носит информационный, а не рекламный характер, демонстрирует позитивную роль органов ОАЭ и будет интересна русскоязычным жителям как новость о безопасности. Текст выглядит естественным, а источник (Gulf News) проверяем.\n**Проверка на дубликаты:** По предоставленному хешу и содержанию, эта конкретная новость о помощи Dubai Police в задержании \"Lyons Clan\" в последних опубликованных новостях не фигурирует. Это не дубликат."
   }
 ]
