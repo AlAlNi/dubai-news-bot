@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://cointelegraph.com/news/dubai-vara-clarifies-token-issuance-rules",
-    "timestamp": "2026-04-09T21:53:11.493732+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://crypto.news/vara-clarifies-token-issuance-framework-for-virtual-assets-in-dubai",
-    "timestamp": "2026-04-09T22:05:39.824802+00:00",
-    "status": "approved",
-    "content_hash": "e166523f0f27e29820c0f0b87604665e",
-    "strict_hash": "e166523f0f27e29820c0f0b87604665e",
-    "fuzzy_hash": "69a5518124f2efd01bdd47286db097ae",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/air-travel-uae-april-2026",
-    "timestamp": "2026-04-09T22:33:14.364515+00:00",
-    "status": "rejected",
-    "content_hash": "6fa7ef719f4fd97b0edf65e75f740846",
-    "strict_hash": "6fa7ef719f4fd97b0edf65e75f740846",
-    "fuzzy_hash": "c531c6e663690d7015657b9ae0bf9a6b",
-    "reason": "Cheap prefilter: слишком короткий текст (100 символов)"
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/nri/migrate/when-and-how-landlords-can-increase-rent-for-residents-in-dubai/articleshow/130137145.cms",
-    "timestamp": "2026-04-09T22:33:18.614366+00:00",
-    "status": "rejected",
-    "content_hash": "a18e85b0aba8c506dcfb8fefe96b9c47",
-    "strict_hash": "a18e85b0aba8c506dcfb8fefe96b9c47",
-    "fuzzy_hash": "b6efcc6da03c9151f0b74d6263e7f03f",
-    "reason": "**Оценка:** Новость напрямую связана с Дубаем (правило 1), полезна для русскоговорящих жителей (правило 6), носит справочный, а не рекламный характер (правило 3) и не нарушает других базовых правил. Однако, это типичная объяснительная статья о давно существующих правилах RERA, а не оперативное новостное событие или изменение. Риск дублирования с ранее опубликованными материалами на ту же тему высок, хотя конкретный хеш в контексте не указан."
-  },
-  {
     "url": "https://crypto.news/vara-clarifies-token-issuance-framework-for-virtual-assets-in-dubai",
     "timestamp": "2026-04-09T22:53:56.629144+00:00",
     "status": "published"
@@ -1037,5 +1005,10 @@
     "strict_hash": "fc9ad85ac07a5c4510b1a1c136ae6537",
     "fuzzy_hash": "4b2a3340e72bf73d7ba9c974ebe3558b",
     "reason": "approved"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/real-estate/news/dubai-introduces-single-platform-for-real-estate-and-residency-services-what-it-means-for-buyers-and-investors/articleshow/130189037.cms",
+    "timestamp": "2026-04-11T22:42:55.138307+00:00",
+    "status": "published"
   }
 ]
