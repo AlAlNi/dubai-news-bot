@@ -953,5 +953,23 @@
     "strict_hash": "62324956f611ce7ed73a1497761c3e68",
     "fuzzy_hash": "db529f66b9a4e7886edc38ee9420bd3b",
     "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ (правило 1), так как повествует о личной жизни британской знаменитости, а упоминание Дубая — лишь второстепенная деталь в её частных планах. Основной контент не представляет общественно значимой информации для русскоязычных жителей Дубая (правило 6) и носит светский, сплетнический характер.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/check-your-phone-does-it-say-proud-of-uae-heres-why",
+    "timestamp": "2026-04-11T08:31:37.964308+00:00",
+    "status": "rejected",
+    "content_hash": "f11be60df9e0e0da4beb96e60a73b82f",
+    "strict_hash": "f11be60df9e0e0da4beb96e60a73b82f",
+    "fuzzy_hash": "60f420324f7c0a1352e71ca46535d1db",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ (общенациональная кампания), не касается политики или конфликтов, не является рекламой в чистом виде, а освещает социальную инициативу, уважающую ценности страны. Текст выглядит естественно и будет интересен русскоязычным жителям как местный культурный феномен. Однако **ключевая проблема — отсутствие явного URL для проверки фактов** в предоставленном тексте. Упоминание источника «What's On» без прямой ссылки не соответствует правилу №9."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUXFSQ0FxRXBnaHJ6RDk5RXRsZm5yR09jakVfS2VQY2NmRnhWLVA5YnU1VjRJLVJyQ0hZeFlGd1l5MDBnQU45eHNuS3IxOXVkLWF2YmRXSXRPM19mZFZiZHRCOThrckVjRjJtdUFzVkpvU01qWnJHSEtyVUM1VndFU3k2b2NJQ1ZhU3JRc2ZQcnlHeU5tRDQ3eUQxak54aXBIRlVLSi1EeGNubmlDZzZoN0xCQ2NLWGVMcGdBeGRB?oc=5",
+    "timestamp": "2026-04-11T08:31:52.103133+00:00",
+    "status": "approved",
+    "content_hash": "6dd6b5fcb1a3cd614d1a99e1a778cc52",
+    "strict_hash": "6dd6b5fcb1a3cd614d1a99e1a778cc52",
+    "fuzzy_hash": "f88b3260c440d8800e5daaa8fdc84f32",
+    "reason": "approved"
   }
 ]
