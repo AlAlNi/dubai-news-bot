@@ -46,6 +46,10 @@ SOURCE_WINDOW_HOURS = env_int("SOURCE_WINDOW_HOURS", 48)
 DRAFT_MAX_AGE_DAYS = env_int("DRAFT_MAX_AGE_DAYS", 7)
 CONTENT_UNIQUE_DAYS = env_int("CONTENT_UNIQUE_DAYS", 30)  # Сколько дней хранить историю опубликованного контента
 
+BLOCKED_PUBLICATION_IMAGE_URLS = {
+    "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+}
+
 def canonicalize_url(url: str) -> str:
     raw_url = (url or "").strip()
     if not raw_url:
@@ -96,6 +100,10 @@ def is_valid_image_url(url: str) -> bool:
     
     url = url.strip()
     if not url:
+        return False
+
+    if url in BLOCKED_PUBLICATION_IMAGE_URLS:
+        print("⚠️ URL изображения в списке блокировки, публикуем пост без картинки")
         return False
     
     # Проверка расширения файла (быстрая предварительная проверка)
