@@ -968,5 +968,23 @@
     "strict_hash": "d8303d1a7bf7e28e59b3fe3987e1a56a",
     "fuzzy_hash": "c3f2d32380b2bec60d0e4d2a7c2405b2",
     "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (авиасообщение), но её основная причина — внешний политический конфликт (кризис с Ираном), что нарушает правило №2. Также она может вызвать негативную реакцию, связанную с перебоями, что косвенно противоречит духу правила №4."
+  },
+  {
+    "url": "https://whatson.ae/2026/04/new-cinema-experience-opens-in-abu-dhabi",
+    "timestamp": "2026-04-12T10:29:40.943093+00:00",
+    "status": "rejected",
+    "content_hash": "a08fce7355d7b71343daac3c776f3e56",
+    "strict_hash": "a08fce7355d7b71343daac3c776f3e56",
+    "fuzzy_hash": "8bad2d365407f435f3d56e1e3b5ef120",
+    "reason": "Новость не подходит, так как не имеет явной связи с Дубаем (правило 1), а посвящена открытию кинотеатра в Абу-Даби. Это также может быть сочтено рекламным материалом (правило 3) и не представляет прямого интереса для жителя Дубая (правило 6)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZjZvLVlFNHU4ajZkM0tWLVdQTWdOVUZYSE5UVWlnYUk4X0dOdlZieWh1dDZTbGFuS2RSa2l0M0FCV3hNZVAweTdwNjJlVUpOZF90eEEtMXVkcnBDdW4xa0dPS2Rld2hNTEcxX2JZN0dzLWlNOU10YUFhZWFiWFdJa1oxdFVnYUVwaFhxc3dVUTlRS3dvTVNkdDVqaWZoaWJJc0hVYnc0eGZvUWZWaXFHM2hWQ3BXZEJTNEt5YVlB?oc=5",
+    "timestamp": "2026-04-12T10:29:46.165196+00:00",
+    "status": "rejected",
+    "content_hash": "b3f9b02f53d6cb8ff831acddd162ab3c",
+    "strict_hash": "b3f9b02f53d6cb8ff831acddd162ab3c",
+    "fuzzy_hash": "49fb3242a04c1586d9d2ecebbec9ad58",
+    "reason": "**Оценка:** Новость носит явный рекламный и прогнозный характер, не содержит конкретных фактов или общественно значимой информации, а представляет собой общий аналитический материал, направленный на привлечение инвесторов. Связь с Дубаем есть, но материал нарушает правила 3 (Рекламный характер) и 5 (Естественность/достоверность — выглядит как кликбейт/SEO-статья)."
   }
 ]
