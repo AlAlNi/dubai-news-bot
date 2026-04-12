@@ -400,11 +400,6 @@ def handler(event, context):
                 fuzzy_hash=fuzzy_hash,
             )
 
-        draft_method = (selected_draft or {}).get("method")
-        if draft_method == "gnews" and image_url:
-            print("ℹ️ Для новостей из Google API отправляем пост без картинки")
-            image_url = None
-
         # Отправляем в Telegram с автоматической обработкой ошибок фото
         run_counters["telegram_calls"] += 1
         result = send_telegram_message(text, image_url)
