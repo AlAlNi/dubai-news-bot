@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-airport-restrictions-war-india-b2955094.html",
-    "timestamp": "2026-04-10T20:02:28.233023+00:00",
-    "status": "rejected",
-    "content_hash": "314802595245a980dbb3ced187625177",
-    "strict_hash": "314802595245a980dbb3ced187625177",
-    "fuzzy_hash": "7281bd4466d22b4de42b4e9765a1d114",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (аэропорт) и касается важного для жителей и экспатов вопроса — ограничений на авиасообщение. Однако основной причиной указан внешний политический конфликт («Iran crisis»), что нарушает правило №2 о недопустимости тем большой политики и войн."
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/astronomers-eid-al-adha-2026-start-date",
-    "timestamp": "2026-04-10T20:25:14.763887+00:00",
-    "status": "rejected",
-    "content_hash": "928cde9c6b662adc646954e46a452d15",
-    "strict_hash": "928cde9c6b662adc646954e46a452d15",
-    "fuzzy_hash": "37e9fba3ce187f37f8b047b4c3a717c3",
-    "reason": "Cheap prefilter: слишком короткий текст (108 символов)"
-  },
-  {
-    "url": "https://www.business-standard.com/industry/aviation/dubai-limits-foreign-flights-until-may-31-hitting-indian-airlines-hardest-126041000379_1.html",
-    "timestamp": "2026-04-10T20:25:26.158593+00:00",
-    "status": "approved",
-    "content_hash": "85057d1b886af277415811480e015f0a",
-    "strict_hash": "85057d1b886af277415811480e015f0a",
-    "fuzzy_hash": "ec855d787b157bf6bdddf090d29c4210",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.business-standard.com/industry/aviation/dubai-limits-foreign-flights-until-may-31-hitting-indian-airlines-hardest-126041000379_1.html",
     "timestamp": "2026-04-10T20:50:33.761982+00:00",
     "status": "published"
@@ -848,5 +821,10 @@
     "strict_hash": "ad17c8853ab50b279acff407ce592e05",
     "fuzzy_hash": "27e10ebb6e2a85883ad7c7c4f29b50af",
     "reason": "approved"
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/nri/migrate/dubai-links-property-and-residency-services-under-single-system/articleshow/130204587.cms",
+    "timestamp": "2026-04-12T20:48:27.135991+00:00",
+    "status": "published"
   }
 ]
