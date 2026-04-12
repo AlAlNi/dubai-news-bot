@@ -1730,7 +1730,7 @@ def process_news_item(
         return None
     
     if deepseek_context is None:
-        deepseek_context = {"calls_made": 0, "max_calls": -1}
+        deepseek_context = {"calls_made": 0}
 
     consume_deepseek_call(deepseek_context, "editor validation")
 
@@ -1816,7 +1816,7 @@ def handler(event, context):
     rss_fetches = 0
     run_metrics = {"technical_errors": 0}
     rejected_in_session = 0
-    deepseek_context = {"calls_made": 0, "max_calls": -1}
+    deepseek_context = {"calls_made": 0}
 
     try:
         print("=" * 60)
