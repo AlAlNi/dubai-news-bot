@@ -594,5 +594,14 @@
     "strict_hash": "99b81a07cc3fdfffb3b9b1a987439462",
     "fuzzy_hash": "abf3ea1a0d89f1a91c38a5c97221c7bd",
     "reason": "**Оценка новости:** Новость имеет связь с ОАЭ (Emirates, туризм), но её основная тема завязана на геополитическом контексте (США-Израиль-Иран), что нарушает правило 2. Заголовок и текст носят кликбейтный и общий характер, напоминающий пресс-релиз, без конкретных полезных деталей для жителя Дубая (нарушение правил 3, 5 и 6).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1laTdZT0xaRTNBR2tSSklTaHdpa0xxMWtxNkNlNzVCN2I0SVYwWlczcV9jcXRFSElpTnBIN1VKQUt5dF9mVmRQWTlmaDdKM0w4Y1RtbGp6VG16MkczMm1HaGJNUW9QNGVINUhISVNQNHFXYU9JZnhMa1k5dw?oc=5",
+    "timestamp": "2026-04-14T14:18:52.120305+00:00",
+    "status": "rejected",
+    "content_hash": "d54cee11a34f2ab2dbc205723beaa07b",
+    "strict_hash": "d54cee11a34f2ab2dbc205723beaa07b",
+    "fuzzy_hash": "9880c14d8d9593c6dee776e7f92a6904",
+    "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
   }
 ]
