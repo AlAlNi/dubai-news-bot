@@ -739,5 +739,23 @@
     "strict_hash": "1a257fab73df1c684202f0628fe86a33",
     "fuzzy_hash": "9ee658430b1fee19d54400b86af33850",
     "reason": "**Оценка новости:** Эта новость является точным дубликатом уже опубликованной (п. 1 контекста: \"Dubai's landmark Burj Al Arab hotel will shut for 18-month refurb amid tourism decline - Reuters\"). Содержание, ключевые факты (отель, закрытие, 18 месяцев) и даже хеш-сумма идентичны. Правило №7 (ДУБЛИКАТЫ) прямо запрещает публикацию.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://propertynews.ae/business/uae-and-china-sign-landmark-investment-cooperation-pact-to-drive-mutual-growth",
+    "timestamp": "2026-04-15T19:00:32.746435+00:00",
+    "status": "rejected",
+    "content_hash": "6d98793e9abc10f84f5cbca168b8face",
+    "strict_hash": "6d98793e9abc10f84f5cbca168b8face",
+    "fuzzy_hash": "409ee4808e2ff822e0ea49685a9fba19",
+    "reason": "**Оценка новости:** Новость напрямую связана с ОАЭ, описывает значимое международное соглашение с Китаем, подписанное при участии высокопоставленных лиц. Текст носит информационный, а не рекламный характер, соответствует ценностям ОАЭ и представляет практический интерес для русскоговорящих жителей (экономика, бизнес-возможности). Признаков ИИ-генерации или кликбейта не обнаружено. Источник указан.\n**Проверка на дубликаты:** В предоставленном контексте опубликованных новостей (о ремонте отеля и визовых изменениях) прямого дубликата нет. Данная новость о новом инвестиционном пакте является уникальной."
+  },
+  {
+    "url": "https://www.hindustantimes.com/trending/indian-woman-earning-300k-at-google-quits-us-job-and-moves-to-dubai-101776235368322.html",
+    "timestamp": "2026-04-15T19:00:46.525420+00:00",
+    "status": "approved",
+    "content_hash": "a43a529edfd4223cd62a0125ad141edb",
+    "strict_hash": "a43a529edfd4223cd62a0125ad141edb",
+    "fuzzy_hash": "d6daa23d094520148ac9d50ff1009783",
+    "reason": "approved"
   }
 ]
