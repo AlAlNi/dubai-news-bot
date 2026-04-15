@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/guide/beat-the-heat-mastering-your-dewa-and-empower-bills-in-summer-2026",
-    "timestamp": "2026-04-13T16:07:10.946262+00:00",
-    "status": "approved",
-    "content_hash": "1e2449a6ff9e27d420f7fb0a959d5fdf",
-    "strict_hash": "1e2449a6ff9e27d420f7fb0a959d5fdf",
-    "fuzzy_hash": "fcc82c27990d497df32b0ae7db951807",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.newsx.com/business/gold-rate-silver-rate-today-13-april-2026-gold-price-drops-151457-on-mcx-silver-falls-25-as-crude-oil-surges-check-gold-price-in-chennai-hyderabad-delhi-mumbai-and-dubai-gold-rate-198155",
-    "timestamp": "2026-04-13T16:42:39.500080+00:00",
-    "status": "rejected",
-    "content_hash": "b388662924a5b8cc4bfcc0dc4b25f8f0",
-    "strict_hash": "b388662924a5b8cc4bfcc0dc4b25f8f0",
-    "fuzzy_hash": "65cda212bbb6876d98e848c509b4a53d",
-    "reason": "**Оценка новости:** Новость не подходит, так как не имеет явной связи с Дубаем/ОАЭ (правило 1). Основной фокус — на индийском рынке (цены в рупиях на MCX, перечислены индийские города). Упоминание Дубая в заголовке — лишь формальное включение в список, без конкретных данных или местного контекста. Также текст выглядит как автоматически генерируемый рыночный дайджест (правило 5)."
-  },
-  {
-    "url": "https://propertynews.ae/guide/beat-the-heat-mastering-your-dewa-and-empower-bills-in-summer-2026",
-    "timestamp": "2026-04-13T17:14:37.843561+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/dubai-municipality-invests-aed-348-million-to-introduce-35-new-parks-enhancing-urban-green-spaces",
     "timestamp": "2026-04-13T17:51:48.809226+00:00",
     "status": "approved",
@@ -748,5 +725,10 @@
     "strict_hash": "5dadcac2c94ef0942e60d7960b2d3bb5",
     "fuzzy_hash": "53e2665a7227be1556f94bb8b6a0aa9f",
     "reason": "**ОЦЕНКА:** Новость является точным дубликатом уже опубликованной информации (п. 2 из контекста: \"Dubai's landmark Burj Al Arab hotel will shut for 18-month refurb amid tourism decline - Reuters\"). Тема напрямую связана с Дубаем, не нарушает других правил, но полностью повторяет известный факт."
+  },
+  {
+    "url": "https://propertynews.ae/business/uae-and-chile-ignite-new-trade-era-as-comprehensive-partnership-enters-full-force",
+    "timestamp": "2026-04-15T17:15:51.932056+00:00",
+    "status": "published"
   }
 ]
