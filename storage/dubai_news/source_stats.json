@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.hindustantimes.com/cities/pune-news/punedubai-air-travel-eases-as-situation-begins-to-stabilise-101776018566527.html",
-    "timestamp": "2026-04-13T12:42:04.187934+00:00",
-    "status": "rejected",
-    "content_hash": "403f40cc363502ba45c01f71ba8e2974",
-    "strict_hash": "403f40cc363502ba45c01f71ba8e2974",
-    "fuzzy_hash": "68fdaa9f621ce0d87e9adc700088b223",
-    "reason": "**Оценка новости:** Новость рассказывает о стабилизации авиасообщения между Пуной (Индия) и Дубаем, что напрямую связано с регионом и представляет практический интерес для русскоязычных жителей ОАЭ, часто путешествующих в Индию. Однако основной контекст — последствия конфликта (политической нестабильности), что нарушает правило №2, а также текст обрывается и выглядит как фрагмент без четкого указания проверяемого источника, что нарушает правила №5 и №9."
-  },
-  {
-    "url": "https://propertynews.ae/uncategorized/dubai-property-prices-may-ease-but-market-segments-expected-to-perform-differently",
-    "timestamp": "2026-04-13T13:00:29.729953+00:00",
-    "status": "rejected",
-    "content_hash": "b920f923ad9ee379652be346120e6deb",
-    "strict_hash": "b920f923ad9ee379652be346120e6deb",
-    "fuzzy_hash": "b9edd8a87830e8cb3b9184cc8583906d",
-    "reason": "**Оценка новости:** Новость напрямую связана с рынком недвижимости Дубая, основана на мнении эксперта (CEO Betterhomes) и содержит аналитику о сегментации рынка, что полезно для русскоязычных жителей. Однако она является практически полным смысловым дубликатом уже опубликованной новости (ожидания по ценам на недвижимость с разбивкой по сегментам), лишь сформулированным иначе и с акцентом на возможное смягчение цен."
-  },
-  {
-    "url": "https://www.timesnownews.com/travel/the-late-asha-bhosle-was-also-a-restauranteur-inside-her-dubai-kitchen-article-154060074",
-    "timestamp": "2026-04-13T13:00:36.855421+00:00",
-    "status": "rejected",
-    "content_hash": "22fac65e8932951e731c1a9a5da9cbae",
-    "strict_hash": "22fac65e8932951e731c1a9a5da9cbae",
-    "fuzzy_hash": "dd7478d97a87d10a1a4dd5f514df87c8",
-    "reason": "**Оценка новости:** Новость не подходит, так как не имеет явной связи с Дубаем/ОАЭ (нарушено правило 1). Основное содержание — это некролог индийской певице, а упоминание её ресторана в Дубае является второстепенной и неактуальной на данный момент деталью. Текст также носит мемориальный, а не новостной для региона характер.\n**Решение:**"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/dubai-property-prices-expected-to-vary-by-segment-despite-strong-market-momentum-in-2026",
     "timestamp": "2026-04-13T14:02:45.614139+00:00",
     "status": "published"
@@ -739,5 +712,10 @@
     "strict_hash": "3489df8650fa5af5ac3767e117349004",
     "fuzzy_hash": "cc0844e2674c7d9805ecc78946c79d85",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-south-aero-city-expansion-hits-major-construction-milestones-ahead-of-schedule",
+    "timestamp": "2026-04-15T13:59:23.530360+00:00",
+    "status": "published"
   }
 ]
