@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://www.businesstoday.in/india/story/akshaya-tritiya-2026-celebrations-go-global-lower-making-charges-free-gold-coins-dubai-jewellers-roll-out-dun-deals-525386-2026-04-14",
-    "timestamp": "2026-04-14T15:49:23.204310+00:00",
-    "status": "rejected",
-    "content_hash": "f27348e2bcad35acdcf762a129b07939",
-    "strict_hash": "f27348e2bcad35acdcf762a129b07939",
-    "fuzzy_hash": "dfec3010cb11ad659bbced9086e4dcd0",
-    "reason": "**Оценка новости:** Новость рассказывает о росте спроса на золото в Дубае в преддверии индийского фестиваля Акшая Трития, что напрямую связывает её с регионом (правило 1). Тема не касается политики, не выглядит откровенной рекламой (скорее, рыночный тренд) и не противоречит ценностям ОАЭ. Однако текст обрывается, что мешает полноценной проверке на естественность и достоверность (правило 5), а главное — отсутствует явный, проверяемый источник (правило 9). Без ссылки на конкретное новостное агентство или официальное заявление проверить факты невозможно.\n**Решение:**"
-  },
-  {
-    "url": "https://propertynews.ae/guide/the-2026-silver-visa-a-practical-guide-to-permanent-residency-for-retired-parents",
-    "timestamp": "2026-04-14T16:02:07.663773+00:00",
-    "status": "approved",
-    "content_hash": "c1566bdc26fa392e1ffd6fe59c5ca143",
-    "strict_hash": "c1566bdc26fa392e1ffd6fe59c5ca143",
-    "fuzzy_hash": "255439973947da9e417d301f2283a342",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/guide/the-2026-silver-visa-a-practical-guide-to-permanent-residency-for-retired-parents",
-    "timestamp": "2026-04-14T16:17:52.200775+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.timesnownews.com/technology-science/iphone-18-vs-iphone-17-price-in-india-usa-dubai-launch-date-specs-design-and-more-article-154072730",
     "timestamp": "2026-04-14T17:43:01.076449+00:00",
     "status": "rejected",
@@ -727,5 +704,10 @@
     "strict_hash": "2b4a86a310eead26c10b73d71f94856d",
     "fuzzy_hash": "6c6d9ce981939eb2d5f811e750163669",
     "reason": "Новость не подходит, так как нарушает правило №2 (политика и конфликты — основная тема — военный конфликт и угрозы) и косвенно правило №4 (тема дестабилизации региона может быть воспринята как неуважение к ценностям ОАЭ, стремящихся к миру и безопасности). Связь с Дубаем/ОАЭ (упоминание Дубая в тексте) есть, но она второстепенна на фоне конфликта."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/developers-granted-direct-access-to-dubai-land-department-systems-for-instant-sales",
+    "timestamp": "2026-04-16T16:46:23.821541+00:00",
+    "status": "published"
   }
 ]
