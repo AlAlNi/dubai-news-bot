@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQS3hEVU5DWmRyMG9kVEphMHNTcHJTT0w4Q3JEODhhZXJwbnltUk1PTUhyNVFKVjFpRmtZU1owMTJIcFN2UnFfUm5JWjZOeFM4VFNVNHlQOVcybEtrSUNBRWxSY25xZm13bDBDRDBTZmRQLTJHNUxqUE5zcldCYVprVFMzajNQam1ueE8xWUFXRTRDRGdKaVJSMnJFWVFHZ2p3SWZ0NWpWX2h0VFdIZGRoNlZMd0hobDZ2b3FkcTlRR3F5U1M2Z2duU2pXMGNPVXRjTGxocHV1MnBIeGVXSnpTTjQ3blppTFViR1ZmUHljTkVva1k4LU5hZ18xcmd3VGoyQXRVYjJYeE5vbm5nQmdRR0d3R1BaQllvTUhFaXFmdHlicmRLaEVzYXdva0xTOTMzWXNhZFYxbUtySF9saWtDV1NvOVRzWmNhTklkdW91RlUya1VsY250am5JTGw5dzFV?oc=5",
-    "timestamp": "2026-04-15T09:56:42.602582+00:00",
-    "status": "rejected",
-    "content_hash": "af1cf4962421b6e0b8055b2c673fefd9",
-    "strict_hash": "af1cf4962421b6e0b8055b2c673fefd9",
-    "fuzzy_hash": "a25d5bec1c73c8413d68adf2d959a492",
-    "reason": "**Оценка новости:** Новость не подходит, так как нарушает несколько ключевых правил. Заголовок и текст являются типичным кликбейтом (правило 5), не содержат конкретной проверяемой информации об изменениях для Дубая/ОАЭ, а лишь перечисляют страны. Основной посыл — рекламный, продвигающий рост туризма (правило 3). Связь с регионом (правило 1) есть, но подана в недопустимом формате. Источник (Travel And Tour World) часто публикует материалы пресс-релизами, и в данном тексте нет явного URL для проверки конкретных заявлений (правило 9).\n**Решение:**"
-  },
-  {
-    "url": "https://propertynews.ae/business/uae-establishes-global-standard-with-sweeping-new-virtual-asset-regulatory-framework",
-    "timestamp": "2026-04-15T10:08:23.448712+00:00",
-    "status": "approved",
-    "content_hash": "aeeb1d1c440f1d1656ccef9cfb787e37",
-    "strict_hash": "aeeb1d1c440f1d1656ccef9cfb787e37",
-    "fuzzy_hash": "8928ebaa31104c0c7dc3a6edf2941c70",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/business/uae-establishes-global-standard-with-sweeping-new-virtual-asset-regulatory-framework",
     "timestamp": "2026-04-15T10:23:49.925311+00:00",
     "status": "published"
@@ -743,5 +725,10 @@
     "strict_hash": "c52c74f41ef93a3f78c7e2d22aa6ee3d",
     "fuzzy_hash": "9c0f947290c97b248039ecbd49b6a0dd",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/dubai-free-zones-council-unveils-unified-business-identity-to-streamline-foreign-investment",
+    "timestamp": "2026-04-17T10:20:43.659196+00:00",
+    "status": "published"
   }
 ]
