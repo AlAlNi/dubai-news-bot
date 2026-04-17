@@ -1,86 +1,5 @@
 [
   {
-    "url": "https://www.devdiscourse.com/article/headlines/3873865-dubais-bold-us-investment-moves",
-    "timestamp": "2026-04-15T03:48:10.093902+00:00",
-    "status": "rejected",
-    "content_hash": "43b6a1bd2524546da54517e2dcc6e067",
-    "strict_hash": "43b6a1bd2524546da54517e2dcc6e067",
-    "fuzzy_hash": "6fe610e8db1d6d5f1f99651e905f5d67",
-    "reason": "**Оценка новости:** Новость напрямую связана с экономической деятельностью Дубая (правило 1), не касается запрещённых тем (правила 2, 4) и не выглядит рекламой (правило 3). Она представляет собой конкретное информационное сообщение о международных инвестициях, что может быть полезно и интересно русскоязычным жителям (правило 6). Однако текст обрывается, и в нём отсутствует явный, проверяемый URL-источник для подтверждения фактов (нарушение правила 9). Также необходимо сверить хеш с архивом, чтобы исключить дубликат (правило 7)."
-  },
-  {
-    "url": "https://propertynews.ae/world/the-algarves-spring-window-global-investors-pivot-to-portugals-new-lifestyle-hubs",
-    "timestamp": "2026-04-15T04:38:07.697450+00:00",
-    "status": "rejected",
-    "content_hash": "e7139a1593c50ce8cba4a5fa6b67742f",
-    "strict_hash": "e7139a1593c50ce8cba4a5fa6b67742f",
-    "fuzzy_hash": "762e69351255e490ebb579950ac643b6",
-    "reason": "**Оценка новости:**\nНовость посвящена рынку недвижимости в Португалии (Алгарве) и лишь в конце содержит сравнение с Дубаем, упоминая его Golden Visa и инфраструктуру. Связь с Дубаем/ОАЭ неявная и второстепенная — текст фактически рекламирует инвестиции в Португалию, используя Дубай как косвенную ссылку для контраста. Это нарушает правила 1 (связь с регионом) и 3 (рекламный характер). Также текст имеет признаки ИИ-генерации (излишне обобщённые формулировки, маркетинговый стиль).\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.timesnownews.com/technology-science/google-i/o-2026-keynote-date-time-in-india-usa-dubai-how-to-watch-live-what-to-expect-next-month-article-154076554",
-    "timestamp": "2026-04-15T04:38:13.950375+00:00",
-    "status": "rejected",
-    "content_hash": "a4e85b317db5440bb41e8a71dfb82b42",
-    "strict_hash": "a4e85b317db5440bb41e8a71dfb82b42",
-    "fuzzy_hash": "f7668a5cadac30a92435eed845959c5d",
-    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ (упоминание в заголовке — лишь один из часовых поясов), является анонсом глобального технологического ивента и не содержит уникальной или полезной информации для русскоязычного жителя Дубая. Это типичный информационный пересказ, не представляющий новостной ценности для целевого канала.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.manchestereveningnews.co.uk/news/uk-news/foreign-office-issues-new-travel-33771192",
-    "timestamp": "2026-04-15T06:17:05.226792+00:00",
-    "status": "rejected",
-    "content_hash": "97828e63e7927757218a48d532141def",
-    "strict_hash": "97828e63e7927757218a48d532141def",
-    "fuzzy_hash": "571ed0ca67241bb1151f5da27637c06c",
-    "reason": "**Оценка:** Новость содержит обновление официальных рекомендаций по безопасности для путешественников в Дубай, что напрямую связано с регионом и представляет практический интерес для русскоязычных жителей и гостей. Однако основным поводом является международный политический конфликт (Иран-США), что нарушает правило №2."
-  },
-  {
-    "url": "https://propertynews.ae/gcc/qatar-enhances-residential-life-in-lusail-through-advanced-smart-city-infrastructure",
-    "timestamp": "2026-04-15T06:27:27.891062+00:00",
-    "status": "rejected",
-    "content_hash": "215dab4db8c524e7d260d4cd132e8484",
-    "strict_hash": "215dab4db8c524e7d260d4cd132e8484",
-    "fuzzy_hash": "60e2b1a44fa8831db7422093994ed97c",
-    "reason": "**Оценка новости:** Новость посвящена развитию умного города Лусаил в Катаре, не имеет прямой связи с Дубаем или ОАЭ, нарушая первое и ключевое правило. Тематика (инфраструктура, недвижимость) потенциально интересна для аудитории, но не является уникальной или критически важной для жителя Дубая."
-  },
-  {
-    "url": "https://time.com/article/2026/04/14/iran-war-dubai-uae-resilience",
-    "timestamp": "2026-04-15T06:27:36.084282+00:00",
-    "status": "rejected",
-    "content_hash": "a3650f534284178f2fb94ad166842b07",
-    "strict_hash": "a3650f534284178f2fb94ad166842b07",
-    "fuzzy_hash": "d814b8ad2dfa73b497acabb1c12f9d14",
-    "reason": "**ОЦЕНКА:** Новость представляет собой общий аналитический текст о факторах успеха Дубая, но не содержит конкретной новостной информации, событий или полезных обновлений для жителей. Текст носит абстрактный, почти философский характер и похож на вводную часть статьи или эссе, что нарушает правила 1 (явная связь не прослеживается в предоставленном фрагменте), 3 (похоже на промо-материал) и 5 (кликбейтный заголовок без конкретики). Источник и проверяемые факты в предоставленном тексте отсутствуют."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/news/international/world-news/dubai-realty-shaken-from-west-asia-conflict-but-holds-its-ground/articleshow/130267468.cms",
-    "timestamp": "2026-04-15T08:12:57.977586+00:00",
-    "status": "rejected",
-    "content_hash": "00ef57177e07bac7ee34e723ce5c946f",
-    "strict_hash": "00ef57177e07bac7ee34e723ce5c946f",
-    "fuzzy_hash": "163b4b50161f2a08fe1afd5b8a2ad27a",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (рынок недвижимости), но её основная тема — влияние регионального конфликта (Западная Азия) на экономику. Это нарушает правило №2 (Политика и конфликты), так как конфликт является центральной причиной изменений, о которых сообщается. Кроме того, заголовок и тема могут быть восприняты как негативно влияющие на имидж стабильности эмирата, что потенциально затрагивает правило №4 (Уважение к ценностям ОАЭ)."
-  },
-  {
-    "url": "https://propertynews.ae/business/digital-dining-surge-uae-foodservice-volume-jumps-18-in-strong-q1-performance",
-    "timestamp": "2026-04-15T08:22:22.668779+00:00",
-    "status": "rejected",
-    "content_hash": "0a64d23446a2a0f6b8a6a44004f274e6",
-    "strict_hash": "0a64d23446a2a0f6b8a6a44004f274e6",
-    "fuzzy_hash": "ea2d471af9ff049703770cb7d9a9459f",
-    "reason": "**Оценка новости:** Новость содержит статистику по росту рынка доставки еды в ОАЭ, напрямую связана с регионом и может быть полезна для жителей, интересующихся бизнес-средой и потребительскими трендами. Однако данные приведены за 2026 год (очевидная ошибка или выдумка), что ставит под сомнение достоверность, а стиль текста напоминает пресс-релиз или аналитический отчет, что нарушает правила 3 и 5.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rT2pza1hXdTQ0R2JTbXNkaTM2TC1PYXZjbndMeXVNMWpDejlCUGR2SFdZcF9EYjVUSmpvY01tX3RpSUxRTDNLUVE5bUdzUm5veUhKX0hkSnVSN2IwX0tpNmJEN0ZYRHFs?oc=5",
-    "timestamp": "2026-04-15T08:22:40.133588+00:00",
-    "status": "approved",
-    "content_hash": "499072d4598409fcad493cb91793c61a",
-    "strict_hash": "499072d4598409fcad493cb91793c61a",
-    "fuzzy_hash": "5dc14897ac5c71c0986570a31a92c1a8",
-    "reason": "approved"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQS3hEVU5DWmRyMG9kVEphMHNTcHJTT0w4Q3JEODhhZXJwbnltUk1PTUhyNVFKVjFpRmtZU1owMTJIcFN2UnFfUm5JWjZOeFM4VFNVNHlQOVcybEtrSUNBRWxSY25xZm13bDBDRDBTZmRQLTJHNUxqUE5zcldCYVprVFMzajNQam1ueE8xWUFXRTRDRGdKaVJSMnJFWVFHZ2p3SWZ0NWpWX2h0VFdIZGRoNlZMd0hobDZ2b3FkcTlRR3F5U1M2Z2duU2pXMGNPVXRjTGxocHV1MnBIeGVXSnpTTjQ3blppTFViR1ZmUHljTkVva1k4LU5hZ18xcmd3VGoyQXRVYjJYeE5vbm5nQmdRR0d3R1BaQllvTUhFaXFmdHlicmRLaEVzYXdva0xTOTMzWXNhZFYxbUtySF9saWtDV1NvOVRzWmNhTklkdW91RlUya1VsY250am5JTGw5dzFV?oc=5",
     "timestamp": "2026-04-15T09:56:42.602582+00:00",
     "status": "rejected",
@@ -801,5 +720,10 @@
     "strict_hash": "6e50a7e832b9c831eb212a25020e1bd8",
     "fuzzy_hash": "97a03eb937144cf594dcc34fc9ef9b0c",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/abu-dhabis-adq-ignites-biotech-sector-with-new-multi-billion-dirham-life-sciences-fund",
+    "timestamp": "2026-04-17T08:50:14.785915+00:00",
+    "status": "published"
   }
 ]
