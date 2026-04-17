@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.perthnow.com.au/news/business/hermes-hit-as-war-deters-shoppers-from-dubai-to-paris-c-22146968",
-    "timestamp": "2026-04-15T23:10:35.990707+00:00",
-    "status": "rejected",
-    "content_hash": "e03fc38dca7664893365198cad670c1a",
-    "strict_hash": "e03fc38dca7664893365198cad670c1a",
-    "fuzzy_hash": "bf6377c9319b490da9358cd3ebe2a9be",
-    "reason": "**Оценка новости:** Новость не подходит, так как нарушает правило №2 (основная тема — война и её влияние на бизнес) и правило №1 (связь с Дубаем лишь косвенная и негативная, в контексте падения спроса из-за конфликта). Также текст выглядит как финансовый отчёт, а не общественно значимое событие для жителей."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/dubai-land-department-launches-immersive-ai-powered-virtual-reality-portal-for-global-investors",
-    "timestamp": "2026-04-15T23:34:02.187460+00:00",
-    "status": "approved",
-    "content_hash": "c22483c06c41a7d94c805422ce42284c",
-    "strict_hash": "c22483c06c41a7d94c805422ce42284c",
-    "fuzzy_hash": "420257c41e498a592d584ba6e869fd8c",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/dubai-land-department-launches-immersive-ai-powered-virtual-reality-portal-for-global-investors",
     "timestamp": "2026-04-15T23:53:43.169196+00:00",
     "status": "published"
@@ -789,5 +771,10 @@
     "strict_hash": "7ba5fb52312b08d39a7a774142719119",
     "fuzzy_hash": "5a7eb5d1a89bc2fd41b84e9cf59ca8c7",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/top-real-estate-brokers-now-eligible-for-uaes-10-year-blue-residency",
+    "timestamp": "2026-04-17T23:50:48.320770+00:00",
+    "status": "published"
   }
 ]
