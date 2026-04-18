@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://www.express.co.uk/news/world/2194576/major-dubai-tourist-attraction-closing",
-    "timestamp": "2026-04-16T08:12:52.030398+00:00",
-    "status": "rejected",
-    "content_hash": "18771f0b258601c43af6762f7b64cb98",
-    "strict_hash": "18771f0b258601c43af6762f7b64cb98",
-    "fuzzy_hash": "83aefb1fc766dee6602d40572968cc81",
-    "reason": "**Оценка новости:** Новость является точным дубликатом уже опубликованной (п. 2 из контекста: \"Dubai's landmark Burj Al Arab hotel will shut for 18-month refurb amid tourism decline - Reuters\"). Тема напрямую связана с Дубаем, не нарушает правил о политике, рекламе и ценностях, но полностью повторяет известную информацию."
-  },
-  {
-    "url": "https://propertynews.ae/business/difc-zabeel-expansion-dubai-to-host-42000-new-companies-in-future-tech-district",
-    "timestamp": "2026-04-16T08:23:40.590414+00:00",
-    "status": "approved",
-    "content_hash": "a1914a97775c1fee048858637f06d299",
-    "strict_hash": "a1914a97775c1fee048858637f06d299",
-    "fuzzy_hash": "9b29c2ca0ccf52c29cce4b3b0c23e1c1",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/business/difc-zabeel-expansion-dubai-to-host-42000-new-companies-in-future-tech-district",
-    "timestamp": "2026-04-16T08:51:02.696176+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.mirror.co.uk/news/world-news/dubai-burj-al-arab-hotel-37024026",
     "timestamp": "2026-04-16T09:55:53.574698+00:00",
     "status": "rejected",
@@ -799,5 +776,10 @@
     "strict_hash": "73213b2e0a8b3cccae5ef037cf287c26",
     "fuzzy_hash": "8c64e0629aaaee3be2919083cc18abd1",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/federal-tax-authority-launches-muwafaq-package-to-support-small-business-growth",
+    "timestamp": "2026-04-18T09:01:07.289474+00:00",
+    "status": "published"
   }
 ]
