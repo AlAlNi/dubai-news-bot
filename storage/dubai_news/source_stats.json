@@ -776,5 +776,23 @@
     "strict_hash": "0b1dd11729e7c3f5ec3ecbc1cbc37889",
     "fuzzy_hash": "6a6fd2436a67bb900af6457d59b5be5c",
     "reason": "Новость не подходит, так как нарушает правило 2 (основная тема — организованная преступность и арест, что является негативным криминальным событием, а не нейтральной или позитивной информацией о регионе) и правило 4 (публикация может быть воспринята как неуважение к имиджу ОАЭ, акцентируя внимание на криминальной деятельности на его территории)."
+  },
+  {
+    "url": "https://propertynews.ae/world/southern-france-sees-surge-in-agricultural-estate-investments-for-digital-nomads",
+    "timestamp": "2026-04-18T06:07:39.976654+00:00",
+    "status": "rejected",
+    "content_hash": "5fc60fae4df36ef22e6dd8f5768ef7a4",
+    "strict_hash": "5fc60fae4df36ef22e6dd8f5768ef7a4",
+    "fuzzy_hash": "ea15d631e3248192709786d5d023712c",
+    "reason": "**Оценка новости:** Новость посвящена тренду на рынке элитной недвижимости в Южной Франции и не имеет явной и непосредственной связи с Дубаем, ОАЭ или регионом GCC. Упоминание ОАЭ в тексте носит косвенный, сравнительный характер и не является основой для публикации в узкорегиональном канале.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://www.breitbart.com/news/dubai-police-arrest-alleged-irish-organized-crime-boss",
+    "timestamp": "2026-04-18T06:07:59.835169+00:00",
+    "status": "approved",
+    "content_hash": "f992cb9c79901a5d7e5cf228d3fc81d7",
+    "strict_hash": "f992cb9c79901a5d7e5cf228d3fc81d7",
+    "fuzzy_hash": "33f132f9d8425cdab0cdadf02c33db57",
+    "reason": "approved"
   }
 ]
