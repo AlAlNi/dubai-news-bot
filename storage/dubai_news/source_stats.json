@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://www.racingpost.com/news/britain/newmarket-father-and-son-partnership-to-split-after-private-training-offer-from-dubai-aE20F1e6eeTx",
-    "timestamp": "2026-04-16T03:39:48.860099+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.middleeasteye.net/news/burj-al-arab-close-18-months-refurbishment-following-dubai-tourism-drop",
-    "timestamp": "2026-04-16T03:54:13.688552+00:00",
-    "status": "rejected",
-    "content_hash": "ddcee5a0ce748eb59877a86eac0e12c5",
-    "strict_hash": "ddcee5a0ce748eb59877a86eac0e12c5",
-    "fuzzy_hash": "51efbb09a198b681d559d48b6924ff73",
-    "reason": "**Оценка новости:** Новость является точным дубликатом уже опубликованной (см. контекст, новость №1). Заголовок и ключевая информация (отель Burj Al Arab, закрытие на 18 месяцев) полностью совпадают. Кроме того, в тексте присутствует непроверяемая и спекулятивная причина закрытия («из-за атак Ирана»), что нарушает правила о достоверности и может касаться нежелательной темы конфликтов.\n**Решение:**"
-  },
-  {
-    "url": "https://propertynews.ae/world/toronto-overhauls-anti-speculation-taxes-to-accelerate-housing-construction-timelines",
-    "timestamp": "2026-04-16T04:44:13.506906+00:00",
-    "status": "rejected",
-    "content_hash": "74b9443d262d949d2042c95afe2433c9",
-    "strict_hash": "74b9443d262d949d2042c95afe2433c9",
-    "fuzzy_hash": "ed8fd42591d2d9f87170c0e3e4017af6",
-    "reason": "**Оценка новости:** Новость посвящена изменениям налоговой политики в Торонто (Канада) для стимулирования строительства. Связь с Дубаем/ОАЭ упоминается лишь в нескольких общих сравнительных предложениях для контекста, что недостаточно для соответствия правилу №1. Основная тема — зарубежная муниципальная политика.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.deccanchronicle.com/southern-states/telangana/sit-links-dubai-overdose-victim-kedar-to-moinabad-drug-case-1950710",
-    "timestamp": "2026-04-16T04:44:20.250544+00:00",
-    "status": "rejected",
-    "content_hash": "e75d276228ee01eb14aeb7a48d1aa57b",
-    "strict_hash": "e75d276228ee01eb14aeb7a48d1aa57b",
-    "fuzzy_hash": "141729ad58364383e11eefef77bcc1da",
-    "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ (правило 1), так как повествует о расследовании в Индии (Хайдарабад), где лишь упоминается факт смерти человека в Дубае в прошлом году. Основная тема — уголовное дело о наркотиках, что не соответствует формату канала и может нарушать правило об уважении к ценностям (правило 4). Новость не представляет практического интереса для русскоязычного жителя Дубая (правило 6).\n**Окончательное решение:**"
-  },
-  {
     "url": "https://manilastandard.net/business/314727302/dubai-international-chamber-opens-manila-office.html",
     "timestamp": "2026-04-16T06:19:10.672342+00:00",
     "status": "approved",
@@ -794,5 +762,10 @@
     "strict_hash": "9cd3e6007a3b551db711e34f64964f11",
     "fuzzy_hash": "0b3c17ecb7b8d3ae268beaa337fb1164",
     "reason": "**Оценка новости:** Новость об аресте ирландского гражданина в Дубае имеет прямую связь с регионом (правило 1), но её основная тема — уголовное преследование, что не соответствует позитивной или нейтральной повестке канала и может быть воспринято как негативный образ (правило 4). Кроме того, она не несёт прямой пользы или интереса для русскоговорящего жителя Дубая (правило 6) и не относится к разрешённым service-форматам (правило 8).\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/nri/latest-updates/cathay-pacific-extends-suspension-of-dubai-riyadh-passenger-cargo-services/articleshow/130329035.cms",
+    "timestamp": "2026-04-18T05:46:14.305645+00:00",
+    "status": "published"
   }
 ]
