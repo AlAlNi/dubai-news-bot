@@ -940,5 +940,23 @@
     "strict_hash": "6bcb8a949baa0ed2cc55eeca46950267",
     "fuzzy_hash": "077f036399ff7182006ab4392cc6afcf",
     "reason": "**Оценка новости:** Новость не имеет явной связи с Дубаем/ОАЭ (правило 1), так как посвящена смерти ирландского полицейского и лишь упоминает арест в Дубае как второстепенный факт. Основная тема — международная преступность, что косвенно может затрагивать репутацию эмирата (правило 4). Для русскоязычного жителя Дубая это событие не несет практической пользы или значимого интереса (правило 6)."
+  },
+  {
+    "url": "https://propertynews.ae/business/green-desks-dubai-unveils-outdoor-co-working-hubs-in-public-parks",
+    "timestamp": "2026-04-20T09:48:43.538168+00:00",
+    "status": "rejected",
+    "content_hash": "efd8f99af48c9ee8b66c77327cbb38cc",
+    "strict_hash": "efd8f99af48c9ee8b66c77327cbb38cc",
+    "fuzzy_hash": "840a3cda9d9895b3e5f7c80c621b4e26",
+    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем, описывает общественно значимую городскую инициативу, не нарушает правил о политике, рекламе и ценностях. Текст выглядит естественным и полезным для русскоязычных жителей, особенно фрилансеров и удалённых работников. Источник указан.\n**Проверка на дубликаты:** В предоставленном контексте (новость о стабильности арендных ставок) прямого дубликата нет. Данная новость о запуске конкретной инфраструктурной инициативы является уникальной."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNZk1qZ3pudXV0Ni1NNXdURzhqeFJnZXFaVzgxb1k1eHl1QTdaVndLd2NWZHRSeUVNd09kdnNuN2E3cUVBcWJqZHdRbXN4bE9qekV0TWVWd1d1cGU4NFE5dEVRVTlfZE5HaGZJZFJkdkNORnUxWmhkQVEzRU5RaHlXR193TXZZdGxLV2tkcUp3ZmtFRDczdlFZOF9udUs4OFhoYVV0VWduSzg5azVlazhvVVk1NmQ0TkYwWkIxSFhubW4wSU9FOTRoNHMzSVVweWtUZU5reDQxRG9yY0pRQzFFYUFLa09kYzQ3YXhXemxfOHdNeHF6a0Ftd1RWQjU0ZDVqMlJYMHIwcS1UZGlQZDREWHRudnowZFgtQ0NSVmlFZmhxdl9lRjNaX181c0JjOXNhX0Y4aXJhQ1FwcGpGbGtIVFVSMkRsMTJNUWc?oc=5",
+    "timestamp": "2026-04-20T09:48:51.415063+00:00",
+    "status": "rejected",
+    "content_hash": "22cc65384340dde5d6275c86bc731075",
+    "strict_hash": "22cc65384340dde5d6275c86bc731075",
+    "fuzzy_hash": "db6a463b9577347fc0df8440b73a57a7",
+    "reason": "**Оценка новости:** Новость содержит явную связь с Дубаем (Burj Al Arab), но её основная тема — закрытие отеля из-за спада туризма, вызванного геополитической напряжённостью. Это напрямую нарушает правило №2 (политика и конфликты), так как фокус смещён на негативное влияние большой политики и региональных конфликтов на ключевую отрасль ОАЭ. Кроме того, заголовок имеет явный кликбейтный характер (нарушение правила №5)."
   }
 ]
