@@ -804,5 +804,23 @@
     "url": "https://propertynews.ae/uae/dubai/new-community-energy-credits-to-lower-monthly-costs-for-dubai-apartment-residents",
     "timestamp": "2026-04-21T12:05:19.409652+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-creek-harbour-demand-rises-following-metro-connectivity-update",
+    "timestamp": "2026-04-21T12:59:44.143561+00:00",
+    "status": "rejected",
+    "content_hash": "254c048737058b1d3121abf96795a35c",
+    "strict_hash": "254c048737058b1d3121abf96795a35c",
+    "fuzzy_hash": "f82a211eedc19e25f142a1731795bd5f",
+    "reason": "**Оценка новости:** Новость напрямую связана с инфраструктурным развитием Дубая (правило 1), не нарушает правила 2-4 и 6, носит информационный, а не чисто рекламный характер (правило 3), и выглядит как естественный журналистский текст (правило 5). Однако она **является дубликатом по сути** (правило 7). Основная новость — обновление по метро — уже была раскрыта в предыдущих публикациях, а данный текст представляет собой её аналитическое развитие с фокусом на рынок недвижимости, что делает его производным и не уникальным для новостной ленты."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uS3ZzbzBPUWNoMGVBRlNfR3FGSEJ0YjJZRDN2M2JwWVVCWnc0ZVpmX25vODZGVGNTRnJwMXNYbzlzeGlvVGVHSG56SDVyMHBfOS1neG16Z2l6bThRMWkw?oc=5",
+    "timestamp": "2026-04-21T12:59:52.239248+00:00",
+    "status": "rejected",
+    "content_hash": "c7d9597aed15703a317b557355a84605",
+    "strict_hash": "c7d9597aed15703a317b557355a84605",
+    "fuzzy_hash": "6c9b05729e21655a11aaaa19a8072d5e",
+    "reason": "**Оценка новости:** Новость о временном закрытии Cloud 22 в Atlantis Dubai для ремонта имеет прямую связь с Дубаем, не нарушает запретных тем и носит информационный, а не чисто рекламный характер. Однако она является **дубликатом** уже опубликованной новости о закрытии нескольких ресторанов в том же отеле, просто уточняя детали по конкретной локации."
   }
 ]
