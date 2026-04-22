@@ -733,5 +733,23 @@
     "strict_hash": "d2a66e36f7bd3e8ddf5bc2cf19a2b0d6",
     "fuzzy_hash": "dd3b0141ce63b82f63ae34050410db0f",
     "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (аэропорт DXB), содержит общественно значимую информацию о восстановлении работы ключевой инфраструктуры и будет полезна русскоговорящим жителям. Однако основной акцент на «региональных беспорядках» нарушает правило о политике и конфликтах, придавая новости нежелательный для канала контекст."
+  },
+  {
+    "url": "https://propertynews.ae/world/portugal-eases-land-use-rules-to-accelerate-urban-housing-projects",
+    "timestamp": "2026-04-22T06:29:48.513886+00:00",
+    "status": "rejected",
+    "content_hash": "f565238f759d831b4ae28eddfafc382e",
+    "strict_hash": "f565238f759d831b4ae28eddfafc382e",
+    "fuzzy_hash": "30616a616895b1751dc27bf5823f2c27",
+    "reason": "Новость не подходит, так как не имеет явной связи с Дубаем/ОАЭ/GCC — основное содержание посвящено изменениям в законодательстве Португалии, а упоминание ОАЭ носит лишь сравнительный и второстепенный характер."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaVgwcDltRHMxUmJBelBGVEF6ODlKdWtuMm93bXFLQnVFQnhFdlBZOE9USGQzWjhtb21QV0hhLUVHVjRrWVZ6YWM1X1RXNEl3YVVEZ3ZaNGJYQW5iRXNLMjFldk9qR1RnR01TMUFRTnRUY3BKZGo0VENLVW9MZk5zNUROQkZIdVYxNkNiNkQteExJbkVjZm41TGZObmJLM0ZrQTZEMkR2Rm1lSXViYWlPSHAwRldKcFp3YVVpTHdmdlhPNzF2YURyTEhFdjRjZ0k?oc=5",
+    "timestamp": "2026-04-22T06:29:55.198461+00:00",
+    "status": "rejected",
+    "content_hash": "913bb9afbfacb7489d34da4e451b8e6d",
+    "strict_hash": "913bb9afbfacb7489d34da4e451b8e6d",
+    "fuzzy_hash": "57877c8d31ac26b4940a543c667d8b40",
+    "reason": "**Оценка новости:** Новость имеет прямую связь с Дубаем (недвижимость), но нарушает правило №2 (большая политика/война как основная тема — «Iran War») и, вероятно, правило №5 (кликбейтный заголовок, спекулирующий на конфликте). Также тема может быть воспринята как негативная для рынка, что не соответствует позитивному тону канала."
   }
 ]
