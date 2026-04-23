@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://cricketaddictor.com/cricket-news/ipl-2026-betting-scandal-explodes-in-punjab-42-lakh-freeze-dubai-link-exposed-439817",
-    "timestamp": "2026-04-21T17:34:18.303713+00:00",
-    "status": "rejected",
-    "content_hash": "80451fe41361c26f248398a916d1d22e",
-    "strict_hash": "80451fe41361c26f248398a916d1d22e",
-    "fuzzy_hash": "a604a213093b06a17db8c9279b9d0831",
-    "reason": "Новость не подходит, так как не имеет явной связи с Дубаем/ОАЭ (нарушение правила 1), её основная тема — криминальный скандал в Индии, что не представляет прямого интереса для русскоговорящего жителя Дубая (нарушение правила 6). Также текст носит откровенно кликбейтный характер (нарушение правила 5)."
-  },
-  {
-    "url": "https://propertynews.ae/guide/asset-protection-navigating-the-2026-difc-family-foundation-laws-for-homeowners",
-    "timestamp": "2026-04-21T17:52:06.219791+00:00",
-    "status": "rejected",
-    "content_hash": "03c982f885bd76a4c9f76d09a93f8d23",
-    "strict_hash": "03c982f885bd76a4c9f76d09a93f8d23",
-    "fuzzy_hash": "8b4e2e7d78c3115ca20c43d0c5cc9353",
-    "reason": "**Оценка новости:**\nТекст представляет собой рекламный/обзорный материал о финансовых услугах, а не новость в чистом виде. Он написан в стиле пресс-релиза, продвигает конкретные юридические услуги и содержит призыв к действию («Consult with a DIFC-registered practitioner»). Связь с Дубаем/ОАЭ есть, но новостная ценность для широкой аудитории сомнительна — это скорее специализированный контент для узкого круга лиц.\n**Окончательное решение:**"
-  },
-  {
-    "url": "https://www.al-monitor.com/originals/2026/04/trumps-board-peace-holds-talks-dp-world-rebuilding-gaza-ft-says",
-    "timestamp": "2026-04-21T17:52:12.137398+00:00",
-    "status": "rejected",
-    "content_hash": "2f1c15ec9078a89f84a2368fab749650",
-    "strict_hash": "2f1c15ec9078a89f84a2368fab749650",
-    "fuzzy_hash": "38ba3a70abc000e0938339560830e1c1",
-    "reason": "**Оценка новости:** Новость имеет связь с Дубаем через упоминание DP World, однако её основная тема — политический процесс вокруг Газы и инициатива администрации США, что напрямую нарушает правило №2 о политике и конфликтах. Это не service-update и не регуляторное изменение для жителей."
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/new-eco-heritage-initiative-to-boost-property-values-in-dubais-historic-districts",
     "timestamp": "2026-04-21T18:57:29.063216+00:00",
     "status": "approved",
@@ -689,5 +662,10 @@
     "strict_hash": "8b244a7440185e83ebb96d399e8a21e2",
     "fuzzy_hash": "945709c6034b8e397f19e17d2d512703",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/modernizing-maturity-dubai-unveils-modular-renovation-framework",
+    "timestamp": "2026-04-23T18:10:55.405199+00:00",
+    "status": "published"
   }
 ]
