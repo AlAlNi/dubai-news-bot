@@ -684,5 +684,23 @@
     "strict_hash": "65eee33b3c6cecb9500503e2dff29997",
     "fuzzy_hash": "1db67002d21f8cc7e9bd2ad133b68dc1",
     "reason": "Новость рассказывает о первой экспортной поставке зеленого перца из индийского Ферозепура в Дубай. Хотя упоминание Дубая присутствует, основная тема — успех индийских фермеров и программа ODOP, что не представляет прямого интереса для русскоязычного жителя Дубая и не является значимой локальной новостью для канала о регионе."
+  },
+  {
+    "url": "https://propertynews.ae/gcc/beyond-muscat-salalahs-real-estate-market-gains-momentum-with-new-luxury-coastal-retreats",
+    "timestamp": "2026-04-24T04:47:21.306901+00:00",
+    "status": "rejected",
+    "content_hash": "66eb52cebdbeee62cf5e7a4a3e3604aa",
+    "strict_hash": "66eb52cebdbeee62cf5e7a4a3e3604aa",
+    "fuzzy_hash": "f064471c48c2e878fa16065d98796948",
+    "reason": "Новость не связана с Дубаем или ОАЭ, а рассказывает о рынке недвижимости в Омане (Салала). Это нарушает первое правило — отсутствие прямой связи с регионом канала."
+  },
+  {
+    "url": "https://www.newsx.com/sports/damac-vs-al-okhdood-live-streaming-and-channel-details-time-where-to-watch-saudi-pro-league-2026-match-in-dubai-uae-the-middle-east-india-and-the-rest-of-the-world-204098",
+    "timestamp": "2026-04-24T04:47:24.452687+00:00",
+    "status": "rejected",
+    "content_hash": "d3d8398d3197cdd2d50beddaf240de89",
+    "strict_hash": "d3d8398d3197cdd2d50beddaf240de89",
+    "fuzzy_hash": "6f692782f195509799d280aacb5d4460",
+    "reason": "Новость о футбольном матче саудовской лиги не имеет прямой связи с Дубаем или ОАЭ, а также не представляет интереса для русскоязычного жителя региона, так как это спортивное событие в другой стране."
   }
 ]
