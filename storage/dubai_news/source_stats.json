@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.thesun.ie/news/16861355/iran-threatens-dubai-gulf-invasion-tanker-seizure",
-    "timestamp": "2026-04-23T21:13:05.931572+00:00",
-    "status": "rejected",
-    "content_hash": "ab79f73cb18390a617e0febf86ee11e1",
-    "strict_hash": "ab79f73cb18390a617e0febf86ee11e1",
-    "fuzzy_hash": "276b6f8af68b10679f21250b61e58eb4",
-    "reason": "Новость содержит угрозы вторжения Ирана в Дубай и демонстрацию вооружённых сил, что является прямой политической и военной темой, нарушающей правила 2 (политика и конфликты) и 4 (уважение к ценностям UAE). Кроме того, источник не указан, а заголовок носит кликбейтный характер."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/entry-level-revolution-dubai-introduces-micro-deed-ownership-law",
-    "timestamp": "2026-04-23T21:37:32.274550+00:00",
-    "status": "approved",
-    "content_hash": "27da448b5dee3242888f79594c9543ac",
-    "strict_hash": "27da448b5dee3242888f79594c9543ac",
-    "fuzzy_hash": "d4ced4bca303b477697a403a0a1c02da",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/entry-level-revolution-dubai-introduces-micro-deed-ownership-law",
     "timestamp": "2026-04-23T21:55:05.714147+00:00",
     "status": "published"
@@ -901,5 +883,10 @@
     "strict_hash": "3db350cdf3a499386c77e82c385275c4",
     "fuzzy_hash": "e37ec90f02e8f552af7b1edb8eebfd15",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/wealth-magnet-uae-to-host-over-6500-ultra-wealthy-individuals-by-2031",
+    "timestamp": "2026-04-25T21:48:07.857994+00:00",
+    "status": "published"
   }
 ]
