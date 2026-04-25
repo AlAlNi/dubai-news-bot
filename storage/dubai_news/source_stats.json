@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://chicago.suntimes.com/crime/2026/04/22/loretto-hospital-fraud-embezzlement-crime-sameer-suhail-anosh-ahmed-trump",
-    "timestamp": "2026-04-23T11:39:51.298838+00:00",
-    "status": "rejected",
-    "content_hash": "1c2b7a363425fa002ebb64e3f42cacf2",
-    "strict_hash": "1c2b7a363425fa002ebb64e3f42cacf2",
-    "fuzzy_hash": "aecd5a7736d35dd2031a84e2333088a2",
-    "reason": "Новость о враче, вернувшемся из Дубая в Чикаго для предъявления обвинений в мошенничестве, не имеет прямой связи с Дубаем или ОАЭ — Дубай упоминается лишь как транзитная точка, а основное событие происходит в США. Это не соответствует правилу 1 (связь с регионом) и правилу 6 (интерес для русскоговорящего жителя Дубая)."
-  },
-  {
     "url": "https://propertynews.ae/business/creek-side-transformation-binghatti-launches-billion-dollar-residential-landmark-in-al-jaddaf",
     "timestamp": "2026-04-23T11:53:50.953140+00:00",
     "status": "approved",
@@ -779,5 +770,10 @@
     "strict_hash": "508cb9acac4c8cdaad3eee6244ad4747",
     "fuzzy_hash": "f35581dc3d412537f0d96cd28a7b3c02",
     "reason": "Новость представляет собой короткий заголовок без содержательного текста, что делает её неинформативной и похожей на кликбейт. Отсутствует проверяемый источник и полезная для русскоязычного жителя Дубая информация."
+  },
+  {
+    "url": "https://propertynews.ae/business/emirates-nbd-reports-record-q1-2026-profits-as-uae-economy-powers-forward",
+    "timestamp": "2026-04-25T11:47:23.564430+00:00",
+    "status": "published"
   }
 ]
