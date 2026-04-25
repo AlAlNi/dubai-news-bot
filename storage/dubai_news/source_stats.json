@@ -761,5 +761,23 @@
     "strict_hash": "c434890a6e2ffaacf64b8a6f4244ce6e",
     "fuzzy_hash": "d3e6b847f17b50a87cc125327ad02a61",
     "reason": "Новость содержит спекулятивную связь с войной в Иране и падением цен на недвижимость в Дубае, что нарушает правило №2 (политика и конфликты) и выглядит как кликбейт с признаками ИИ-генерации (правило №5). Кроме того, тема падения цен уже освещена в опубликованной новости №3, что является дубликатом (правило №7)."
+  },
+  {
+    "url": "https://propertynews.ae/world/singapores-residential-market-shows-enduring-strength-amid-calibrated-supply-strategies",
+    "timestamp": "2026-04-25T11:32:13.409702+00:00",
+    "status": "rejected",
+    "content_hash": "f6168dcac7affb8f52a6e09c42b8a3df",
+    "strict_hash": "f6168dcac7affb8f52a6e09c42b8a3df",
+    "fuzzy_hash": "6c3f4898a58a83520477239145a26fbd",
+    "reason": "Новость о рынке недвижимости Сингапура не имеет прямой связи с Дубаем или ОАЭ, упоминание Дубая в тексте носит лишь сравнительный характер и не является основной темой. Кроме того, это явный перепост с сайта PropertyNews.ae, что нарушает правило о дубликатах и отсутствии оригинального контента для вашего канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTkhlQWtPNU9ydVJvbnJIN3FRT1BWUnVZR0hXN1JTX3J5Tnk0T2VFbk5tS01GQ18yeUR0SFVNdWlnd0tDWW1UY0R0V3ZIbjhnYzRMTkZuVFh5TERjMVA3UnlaYlZpUFdZcTk4TVdMUkJGVkozX2NoaTFqblhVNEJEb2tWOENWSHc?oc=5",
+    "timestamp": "2026-04-25T11:32:16.199498+00:00",
+    "status": "rejected",
+    "content_hash": "508cb9acac4c8cdaad3eee6244ad4747",
+    "strict_hash": "508cb9acac4c8cdaad3eee6244ad4747",
+    "fuzzy_hash": "f35581dc3d412537f0d96cd28a7b3c02",
+    "reason": "Новость представляет собой короткий заголовок без содержательного текста, что делает её неинформативной и похожей на кликбейт. Отсутствует проверяемый источник и полезная для русскоязычного жителя Дубая информация."
   }
 ]
