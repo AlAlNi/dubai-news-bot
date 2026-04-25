@@ -897,5 +897,23 @@
     "strict_hash": "1847ab895fa515df53efc6bbee753880",
     "fuzzy_hash": "76d094d66c252b08c2ad19e087e28375",
     "reason": "Новость отклоняется, так как её основная тема — последствия геополитического конфликта (Иран-США) и реакция на него, что нарушает правило №2 (политика и конфликты). Кроме того, заголовок содержит кликбейт (\"comeback call\", \"tensions rise\"), а текст не имеет прямой общественно значимой ценности для русскоязычного жителя Дубая, кроме узкопрофессионального контекста."
+  },
+  {
+    "url": "https://propertynews.ae/business/global-leadership-uae-secures-top-rank-in-2026-artificial-intelligence-index",
+    "timestamp": "2026-04-25T22:26:11.245061+00:00",
+    "status": "rejected",
+    "content_hash": "444836f4ec537f015a69fe079c8f83b5",
+    "strict_hash": "444836f4ec537f015a69fe079c8f83b5",
+    "fuzzy_hash": "c4b311b4b5360a52998b5aac1a4b52c1",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://www.newsx.com/brand-desk/rolls-royce-rent-dubai-a-tailor-made-experience-204989",
+    "timestamp": "2026-04-25T22:26:37.218157+00:00",
+    "status": "error",
+    "content_hash": "83aa7e841252bfb224297de446e13884",
+    "strict_hash": "83aa7e841252bfb224297de446e13884",
+    "fuzzy_hash": "20462145bb12b0c818e91d74c34fdb63",
+    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
   }
 ]
