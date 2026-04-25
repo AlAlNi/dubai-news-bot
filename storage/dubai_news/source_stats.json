@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://timesofindia.indiatimes.com/city/surat/dri-seizes-16-parcels-imported-into-sursez-from-dubai/articleshow/130450735.cms",
-    "timestamp": "2026-04-23T10:05:36.836561+00:00",
-    "status": "rejected",
-    "content_hash": "7670434400cc85574c90b668f3c77dd2",
-    "strict_hash": "7670434400cc85574c90b668f3c77dd2",
-    "fuzzy_hash": "d0cd683e17af93e60befb2aa26763a10",
-    "reason": "Новость о конфискации посылок из Дубая в индийской зоне SEZ не имеет прямой связи с жизнью в Дубае или ОАЭ, а также не представляет интереса для русскоязычного жителя эмирата. Это локальная индийская криминальная хроника, не соответствующая тематике канала."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/one-code-for-everything-dubai-launches-unified-property-id",
-    "timestamp": "2026-04-23T10:14:24.420540+00:00",
-    "status": "approved",
-    "content_hash": "5a13ef952ecdb827969cf1efb8a5edda",
-    "strict_hash": "5a13ef952ecdb827969cf1efb8a5edda",
-    "fuzzy_hash": "6baa852073bb1d8077b91cd74c4d80af",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/one-code-for-everything-dubai-launches-unified-property-id",
-    "timestamp": "2026-04-23T10:40:39.617790+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://chicago.suntimes.com/crime/2026/04/22/loretto-hospital-fraud-embezzlement-crime-sameer-suhail-anosh-ahmed-trump",
     "timestamp": "2026-04-23T11:39:51.298838+00:00",
     "status": "rejected",
@@ -770,5 +747,10 @@
     "strict_hash": "accb2aba01636e3e6f72a9f158bb7631",
     "fuzzy_hash": "c09f495a47cff34b20f42e4c81d1b857",
     "reason": "Новость представляет собой короткий заголовок и ссылку на Business Insider, без содержательного текста, что делает её похожей на рекламный анонс или кликбейт. Кроме того, тема «устойчивости рынка недвижимости» уже косвенно затрагивается в опубликованной новости о падении цен (пункт 4), что может быть дублированием по смыслу, а отсутствие проверяемого содержания нарушает правило 9."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/new-developer-incentives-announced-to-boost-housing-near-specialized-tech-hubs",
+    "timestamp": "2026-04-25T10:54:58.910818+00:00",
+    "status": "published"
   }
 ]
