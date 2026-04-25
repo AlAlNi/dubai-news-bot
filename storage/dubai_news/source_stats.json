@@ -752,5 +752,23 @@
     "strict_hash": "d29f7aab61554c6ff26e183830dcf93d",
     "fuzzy_hash": "d04db3b603fcdd70df2985d8201b3923",
     "reason": "Новость касается геополитического кризиса между США и Ираном, который напрямую влияет на страны Залива, включая ОАЭ, и затрагивает экономическую стабильность региона. Однако основная тема — это большая политика и международный конфликт, что противоречит правилу №2 (политика и конфликты). Кроме того, новость не представляет практического интереса для русскоговорящего жителя Дубая в формате service-update или полезной сводки, а является аналитикой по острой политической теме."
+  },
+  {
+    "url": "https://propertynews.ae/gcc/oman-approves-new-integrated-tourism-complexes-to-boost-foreign-property-ownership",
+    "timestamp": "2026-04-25T10:35:13.802286+00:00",
+    "status": "rejected",
+    "content_hash": "4e40f53f75bd168ea27b3f8f1b78b700",
+    "strict_hash": "4e40f53f75bd168ea27b3f8f1b78b700",
+    "fuzzy_hash": "24a6b9bf0f9ed05213925ca59313b71c",
+    "reason": "Новость об Омане не имеет прямой связи с Дубаем или ОАЭ, а также не представляет интереса для русскоговорящего жителя Дубая, так как касается исключительно рынка недвижимости соседнего султаната."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNmRDdlc5YjYwcDA1OXp0UV9hUDJMamFPZGJPd3lhb0pzLTJNQU9USndwdWE2UDdadDdxSTl6RTk5U1NVN0JaQkE2b2NFSnptVDBWMERVSzczOE5MNzUxcEhsNk13TTg0dm5BcDJ6RGl0am1JcVczcTlMQ3NHRzJ5U2hhbWZ5U0plMHRsMVFra3lnbnpyeURrS3QtLXRKQ3FtdDNTYkVlRGQxeEtRNTdxdnd0RXdHS2VqdzBpVGpZVkV6MXk3YU01RkJ4ZHB0QloyWlEweHFUR2VJYjdVVkE?oc=5",
+    "timestamp": "2026-04-25T10:35:17.375731+00:00",
+    "status": "rejected",
+    "content_hash": "accb2aba01636e3e6f72a9f158bb7631",
+    "strict_hash": "accb2aba01636e3e6f72a9f158bb7631",
+    "fuzzy_hash": "c09f495a47cff34b20f42e4c81d1b857",
+    "reason": "Новость представляет собой короткий заголовок и ссылку на Business Insider, без содержательного текста, что делает её похожей на рекламный анонс или кликбейт. Кроме того, тема «устойчивости рынка недвижимости» уже косвенно затрагивается в опубликованной новости о падении цен (пункт 4), что может быть дублированием по смыслу, а отсутствие проверяемого содержания нарушает правило 9."
   }
 ]
