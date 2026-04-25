@@ -1,19 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/business/fintech-innovation-sahm-secures-major-regulatory-approval-to-scale-in-dubai",
-    "timestamp": "2026-04-23T14:07:32.321037+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.express.co.uk/news/world/2197306/dubai-top-target-iran-threatens",
-    "timestamp": "2026-04-23T14:18:39.257559+00:00",
-    "status": "rejected",
-    "content_hash": "68a9cb827816c794eb5376233425666b",
-    "strict_hash": "68a9cb827816c794eb5376233425666b",
-    "fuzzy_hash": "2c7165ec15f591a0e10a9c459f4b348a",
-    "reason": "Новость явно нарушает правило №2 (политика и конфликты) — основная тема связана с угрозами войны, вторжением и геополитическим конфликтом между Ираном и ОАЭ. Также присутствуют признаки кликбейта и недостоверности (правило №5), так как подобные сенсационные заявления без подтверждения из официальных источников ОАЭ не соответствуют стандартам канала. Новость не несёт пользы для русскоговорящего жителя Дубая (правило №6) и может быть воспринята как неуважение к стабильности региона (правило №4)."
-  },
-  {
     "url": "https://propertynews.ae/business/boardroom-resilience-dubai-chamber-and-dbwc-forge-new-path-for-female-leaders",
     "timestamp": "2026-04-23T15:13:12.380385+00:00",
     "status": "approved",
@@ -829,5 +815,10 @@
     "strict_hash": "8e1e12a66517fa084bc6c48743207e73",
     "fuzzy_hash": "48904e92bf5f87880e208e19ac7e63b3",
     "reason": "Новость является рекламным пресс-релизом о возобновлении работы Skydive Dubai со скидками для резидентов, что не представляет общественно значимой информации, а лишь продвигает услуги компании. Кроме того, источник (Travel And Tour World) не является официальным или проверяемым для подтверждения фактов, а сам текст выглядит как типичная рекламная заметка без новостной ценности для русскоязычного жителя."
+  },
+  {
+    "url": "https://www.businesstoday.in/personal-finance/real-estate/story/dubai-home-prices-fall-for-first-time-since-the-pandemic-boom-report-527128-2026-04-24",
+    "timestamp": "2026-04-25T14:54:00.478467+00:00",
+    "status": "published"
   }
 ]
