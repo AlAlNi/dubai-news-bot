@@ -706,5 +706,23 @@
     "strict_hash": "81c4fc74d7ad264663f3a117aeb0b848",
     "fuzzy_hash": "41b039344f2328564ad9b85650fccc58",
     "reason": "Новость является явным пресс-релизом от компании Bestax Chartered Accountants, рекламирующим их услуги. В тексте отсутствует общественно значимая новость или польза для широкой аудитории русскоговорящих жителей Дубая, что нарушает правило 3 (рекламный характер) и правило 6 (интерес для аудитории)."
+  },
+  {
+    "url": "https://propertynews.ae/world/the-global-shift-toward-quiet-luxury-in-commercial-real-estate-and-integrated-workspaces",
+    "timestamp": "2026-04-25T06:15:25.257274+00:00",
+    "status": "rejected",
+    "content_hash": "dee534b32bb040455c1e5aa65becd2f7",
+    "strict_hash": "dee534b32bb040455c1e5aa65becd2f7",
+    "fuzzy_hash": "8c7b7636c7753ea3e9e9f7b98a657f90",
+    "reason": "Новость носит общий аналитический характер о глобальном тренде в коммерческой недвижимости, лишь вскользь упоминая Дубай. Она не содержит конкретной, проверяемой информации, интересной или полезной для русскоязычного жителя Дубая, и больше похожа на пересказ общемирового тренда без привязки к локальным событиям или данным."
+  },
+  {
+    "url": "https://www.livemint.com/industry/infrastructure/as-dubai-home-prices-fall-for-first-time-since-pandemic-due-to-us-iran-war-it-could-offer-an-investment-opportunity-11777049709991.html",
+    "timestamp": "2026-04-25T06:15:28.697043+00:00",
+    "status": "rejected",
+    "content_hash": "4ae40d9b4ed03255d661576554ebf401",
+    "strict_hash": "4ae40d9b4ed03255d661576554ebf401",
+    "fuzzy_hash": "e6f694726d01815d2475ef8fc008a374",
+    "reason": "Новость отклоняется, так как она является дубликатом уже опубликованной новости под номером 4 («Dubai home prices fall for first time since the pandemic boom: Report»), а также содержит спекулятивную привязку к военному конфликту (война США и Ирана), что нарушает правило 2 (политика и конфликты) и правило 4 (уважение к ценностям UAE, так как упоминание войны может быть воспринято как негативный контекст для региона)."
   }
 ]
