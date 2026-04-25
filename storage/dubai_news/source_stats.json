@@ -793,5 +793,23 @@
     "strict_hash": "47a81ed2e2bd14e4e5888d2837aeef2e",
     "fuzzy_hash": "370e7339af0f01b1ebacfd34f70f432f",
     "reason": "Новость о покупке недвижимости индийским актёром в Дубае имеет слабую связь с регионом (упоминание UAE), но не содержит общественно значимой информации для русскоязычных жителей — это скорее светская хроника, а не новость рынка. Кроме того, заголовок ссылается на MSN, но сам текст обрывочен и не даёт проверяемых фактов, что нарушает правило 9."
+  },
+  {
+    "url": "https://whatson.ae/2026/04/these-brilliant-uae-daycation-deals-are-too-good-to-miss",
+    "timestamp": "2026-04-25T13:57:47.689053+00:00",
+    "status": "rejected",
+    "content_hash": "feefa2c5d345fd38c5f7aaed504f1abe",
+    "strict_hash": "feefa2c5d345fd38c5f7aaed504f1abe",
+    "fuzzy_hash": "360cd9ee2e88b9d33b2860ddd020d3d9",
+    "reason": "Новость представляет собой подборку рекламных предложений о дневных спа-пакетах в отелях ОАЭ, что является явным рекламным материалом без общественно значимой информации. Она не соответствует критериям полезности для русскоязычного жителя Дубая и выглядит как пресс-релиз."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1laTdZT0xaRTNBR2tSSklTaHdpa0xxMWtxNkNlNzVCN2I0SVYwWlczcV9jcXRFSElpTnBIN1VKQUt5dF9mVmRQWTlmaDdKM0w4Y1RtbGp6VG16MkczMm1HaGJNUW9QNGVINUhISVNQNHFXYU9JZnhMa1k5dw?oc=5",
+    "timestamp": "2026-04-25T13:57:48.981139+00:00",
+    "status": "rejected",
+    "content_hash": "519c155521a1eaf3ea3d535316e60fc0",
+    "strict_hash": "519c155521a1eaf3ea3d535316e60fc0",
+    "fuzzy_hash": "9880c14d8d9593c6dee776e7f92a6904",
+    "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
   }
 ]
