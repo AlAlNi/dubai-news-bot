@@ -870,5 +870,23 @@
     "strict_hash": "04652292f76631370e3a3010facebf31",
     "fuzzy_hash": "0cc6fc69c41fc6460b9a034499854415",
     "reason": "Новость представляет собой личное мнение футболиста, сравнивающего безопасность в Дубае и Лондоне, что может быть воспринято как неуважение к ситуации в ОАЭ (упоминание ракет над головой) и не соответствует ценностям UAE. Кроме того, текст имеет признаки кликбейта и не содержит проверяемых фактов или общественно значимой информации для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://propertynews.ae/business/infrastructure-for-the-ai-age-diez-and-volt-uae-launch-high-tech-data-centers",
+    "timestamp": "2026-04-25T18:35:33.160966+00:00",
+    "status": "rejected",
+    "content_hash": "1ec0096f46bd8ef3fe4a8db9d4672076",
+    "strict_hash": "1ec0096f46bd8ef3fe4a8db9d4672076",
+    "fuzzy_hash": "d46ef27dec945d007464bfbae2e918a3",
+    "reason": "Новость о партнёрстве DIEZ и VOLT UAE для создания AI-готовых дата-центров в Dubai Silicon Oasis имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит достоверно и будет интересна русскоязычным жителям Дубая, интересующимся развитием цифровой инфраструктуры. Однако требуется проверка на дубликаты по предоставленному хешу."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOc2VQY1U1LTVNSU5fY0U4cWlwaHlPQTJDSklwcE4xbXZ4cFNoSzNOcm9FMmx4SS1GamIwTU14b191d1NNSHEzdGMxOGRpUXNHWEtPTVJpMXZwVlN2ME12MmNfajhpZV9scl92MnRFdmFEc0JOOTRTczFFNG52Nm1adWZvMTdab2hwWWtxVm9rVWEzZ0RuSWxqSGhOUmJUVHBqSjJvNzNNYlBKdjZxZ3VPbnBKclgybUtaOTFCOEhQWlZUWEx4RjQyX0dTMml1NjlaQ0pKR3REUVB3dUVYaVRnLVUzZw?oc=5",
+    "timestamp": "2026-04-25T18:35:36.193588+00:00",
+    "status": "rejected",
+    "content_hash": "971db9644683cbaace98b927794ceecd",
+    "strict_hash": "971db9644683cbaace98b927794ceecd",
+    "fuzzy_hash": "5f49668e0c40d8ce34d790d26027a473",
+    "reason": "Новость напрямую связана с рынком недвижимости Дубая, что соответствует тематике канала. Однако заголовок и текст крайне короткие, не содержат проверяемых данных, ссылок на конкретный отчёт или источник (MSN — агрегатор, а не первоисточник), что нарушает правило проверяемости. Кроме того, информация выглядит как обрывок новости без контекста и может быть неинтересна русскоязычному жителю без дополнительных деталей."
   }
 ]
