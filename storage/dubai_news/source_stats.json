@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://indianexpress.com/article/world/rs-86816-crore-dubai-metro-gold-line-project-approved-10650860",
-    "timestamp": "2026-04-23T06:23:27.996025+00:00",
-    "status": "rejected",
-    "content_hash": "0c2278c54fe5b26c805457bcc42cb6ea",
-    "strict_hash": "0c2278c54fe5b26c805457bcc42cb6ea",
-    "fuzzy_hash": "aae73cf66cf07c2ab16ec1c795475c74",
-    "reason": "**Оценка новости:** Новость напрямую связана с Дубаем (строительство метро), не является политической, конфликтной или рекламной, соответствует ценностям ОАЭ и представляет практический интерес для жителей. Однако текст выглядит как обрывочный фрагмент, возможно, сгенерированный ИИ или скопированный без полного контекста, и не содержит явного указания на проверяемый источник (URL), что нарушает правила 5 и 9.\n**Решение:**"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/modernizing-maturity-dubai-unveils-modular-renovation-framework",
-    "timestamp": "2026-04-23T06:55:40.073466+00:00",
-    "status": "approved",
-    "content_hash": "103bf6e16d0b3cdc1c7880a1b00cface",
-    "strict_hash": "103bf6e16d0b3cdc1c7880a1b00cface",
-    "fuzzy_hash": "6aab878c7e1e64c726b0f2dd5aa878f3",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.liverpoolecho.co.uk/news/liverpool-news/darren-till-hopes-friend-daniel-33817372",
     "timestamp": "2026-04-23T08:19:44.025463+00:00",
     "status": "rejected",
@@ -724,5 +706,10 @@
     "strict_hash": "4ae40d9b4ed03255d661576554ebf401",
     "fuzzy_hash": "e6f694726d01815d2475ef8fc008a374",
     "reason": "Новость отклоняется, так как она является дубликатом уже опубликованной новости под номером 4 («Dubai home prices fall for first time since the pandemic boom: Report»), а также содержит спекулятивную привязку к военному конфликту (война США и Ирана), что нарушает правило 2 (политика и конфликты) и правило 4 (уважение к ценностям UAE, так как упоминание войны может быть воспринято как негативный контекст для региона)."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/technology-district-expansion-drives-surge-in-professional-housing-demand",
+    "timestamp": "2026-04-25T07:42:23.704338+00:00",
+    "status": "published"
   }
 ]
