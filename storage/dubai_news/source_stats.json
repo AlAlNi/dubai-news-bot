@@ -811,5 +811,23 @@
     "strict_hash": "519c155521a1eaf3ea3d535316e60fc0",
     "fuzzy_hash": "9880c14d8d9593c6dee776e7f92a6904",
     "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
+  },
+  {
+    "url": "https://whatson.ae/2026/04/15-of-the-best-restaurants-in-dubai-with-a-view-in-2026",
+    "timestamp": "2026-04-25T14:39:06.819182+00:00",
+    "status": "rejected",
+    "content_hash": "5e133d0264a4b89520483034a6b81527",
+    "strict_hash": "5e133d0264a4b89520483034a6b81527",
+    "fuzzy_hash": "a19180b2e4dee8081f0ad8c0fc548f20",
+    "reason": "Эта новость — типичный рекламно-списочный материал (подборка ресторанов), который не содержит общественно значимой информации, а лишь продвигает заведения. Кроме того, заголовок указывает на 2026 год, что выглядит как кликбейт или ошибка, снижая достоверность."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUXJ4LWl6YjNvTjJzaGFxanJvREd1UmdPaWFtX2NUUDBnSTktLU9mNEdNOEtDQ3pTNWNqcmVkalRvTFlHdnF6cjRiNG9BS0hrYjRMbkNJRkVELXNIM01CdzFJZ2ZMeGZHTkJaS2gtd1VvTXkzTXJMdHR2TEUtQ09JUExFOVgtWGZHM093TjRCN2tXRXZXZERLd2d6TGZSZFNNSlVPNFZnVVhKd2lRNHdYWUZZYlhSd3Y5anFGVjBFWG1fRWphQjNqQ2c1b04xOFQxaWFhaF9KNHVQMXU1WmZ0SmdNdFNUT0JhdDdGQ2dYdFJSNEg1N29uaDFB?oc=5",
+    "timestamp": "2026-04-25T14:39:11.025511+00:00",
+    "status": "rejected",
+    "content_hash": "8e1e12a66517fa084bc6c48743207e73",
+    "strict_hash": "8e1e12a66517fa084bc6c48743207e73",
+    "fuzzy_hash": "48904e92bf5f87880e208e19ac7e63b3",
+    "reason": "Новость является рекламным пресс-релизом о возобновлении работы Skydive Dubai со скидками для резидентов, что не представляет общественно значимой информации, а лишь продвигает услуги компании. Кроме того, источник (Travel And Tour World) не является официальным или проверяемым для подтверждения фактов, а сам текст выглядит как типичная рекламная заметка без новостной ценности для русскоязычного жителя."
   }
 ]
