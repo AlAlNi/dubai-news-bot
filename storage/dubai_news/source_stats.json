@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOFdncU1hZlM3endjMG5YaVBERE9fYVZBa1NBRlFGUWctS3NnT0FYdm1qbGFaUHZ1bV9tQk5YTkxOTWpna2NhWDNDREJaTEN5MkFkZHlfLUpoQktDdHdnTjJzV2ZZX1FHYkJVODZ1RlhjdkNMMUVKWVVmZW03V0JUNlplVENBX1d4bmd3REtuTVlfa0s0VUc0Zg?oc=5",
-    "timestamp": "2026-04-24T19:29:07.621220+00:00",
-    "status": "rejected",
-    "content_hash": "8d579b8e2638a4a17640a885a71fc838",
-    "strict_hash": "8d579b8e2638a4a17640a885a71fc838",
-    "fuzzy_hash": "e1193b1f10ba674fd01cb8216366723f",
-    "reason": "Новость о борьбе полиции Дубая с опасными трюками на дорогах соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако она является дубликатом уже опубликованной новости \"Dubai Police clamp down on reckless motorcyclists - The National\" (пункт 7), так как освещает ту же тему и, вероятно, те же события. Источник (Pakistan Today) не является первичным и не добавляет новой информации."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/technology-district-expansion-drives-surge-in-professional-housing-demand",
-    "timestamp": "2026-04-24T19:44:04.112917+00:00",
-    "status": "approved",
-    "content_hash": "a95f0d00d0fd2fce8d3234af9a05b5f4",
-    "strict_hash": "a95f0d00d0fd2fce8d3234af9a05b5f4",
-    "fuzzy_hash": "f326a654b2572a837696ce5893607ef1",
-    "reason": "approved"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQmFrbEdQbmRiREJxYjBMVGoyOEdvTG1pM0lEREhINXI2Mjh3WFVwU0thQ1djb283Y1RQWmoyTEZPVnFpb1c0d0pSTXQ4b1Q2RkJKVkxHVFE3cUhZa2NTRWNTd2Y3eUtkcldBekFiTzUzQ3FJUndObGFMSHhBR3c0cGxKV2dEN0tfLVlHY3dB?oc=5",
-    "timestamp": "2026-04-24T20:10:20.966084+00:00",
-    "status": "rejected",
-    "content_hash": "b3da7957eea043c8324b83c18ac1f09c",
-    "strict_hash": "b3da7957eea043c8324b83c18ac1f09c",
-    "fuzzy_hash": "0ce6b42c976c7439a7a57a8698666dd9",
-    "reason": "Новость дублирует уже опубликованную ранее новость под номером 5: \"Dubai Police clamp down on reckless motorcyclists - The National\". Тема и суть идентичны, различается только источник (ARN News Centre вместо The National), что является недопустимым повтором."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/new-real-time-maintenance-dashboard-to-boost-investor-confidence-in-dubai",
-    "timestamp": "2026-04-24T20:36:11.154315+00:00",
-    "status": "approved",
-    "content_hash": "c64f3985c19b7c3cbc7a1a55945fcb77",
-    "strict_hash": "c64f3985c19b7c3cbc7a1a55945fcb77",
-    "fuzzy_hash": "497357f7e1dd9d4e70bacb19636cb916",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/new-real-time-maintenance-dashboard-to-boost-investor-confidence-in-dubai",
     "timestamp": "2026-04-24T21:00:10.331714+00:00",
     "status": "published"
@@ -902,5 +866,10 @@
     "strict_hash": "a963c21d0f17c0c3674b910cbec99f6e",
     "fuzzy_hash": "a73aadcb10a821a4f4b2c1c4ccd91a7e",
     "reason": "Новость о запуске нового жилого комплекса «North Haven» в Дубае соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит естественно и информативно для русскоязычных жителей, интересующихся рынком недвижимости. Однако при проверке на дубликаты с уже опубликованными новостями (про солнечные стандарты и биометрию ЕС) явных совпадений нет, но хеш контента уникален. Источник не указан явно (нет URL), что нарушает правило 9. Тем не менее, новость не является дубликатом и полезна аудитории."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-sets-new-global-benchmark-with-mandatory-solar-glass-standards-for-skyscrapers",
+    "timestamp": "2026-04-26T20:52:02.183644+00:00",
+    "status": "published"
   }
 ]
