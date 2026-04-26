@@ -933,5 +933,23 @@
     "strict_hash": "5b6c8458be6a5ab753e9ebc56db624a6",
     "fuzzy_hash": "4ae9745b3cbf80af2d4cb722fc3fba11",
     "reason": "Новость является прямым дубликатом уже опубликованного материала «'Our Office Is Open': Dubai’s War-Triggered WFH Comes To End» — та же тема, те же источники (Financial Times), практически идентичный смысл. Публикация нарушает правило №7 о дубликатах."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/global-investment-shift-east-asian-institutional-funds-target-dubais-prime-assets",
+    "timestamp": "2026-04-26T08:11:32.393667+00:00",
+    "status": "rejected",
+    "content_hash": "bcd07495fc12326a1c2e2d9a6faca4db",
+    "strict_hash": "bcd07495fc12326a1c2e2d9a6faca4db",
+    "fuzzy_hash": "561231193616018075dc4bd0b60f76c9",
+    "reason": "Новость о притоке институциональных инвестиций из Восточной Азии в премиальную недвижимость Дубая соответствует тематике канала, не содержит политики, рекламы или неуважения к ОАЭ, источник указан и проверяем. Однако она является дубликатом по смыслу и тематике с ранее опубликованной новостью \"Future-Proof Living: Dubai Trials Atmospheric Water Technology for Luxury Villas\" — обе посвящены притоку капитала и развитию премиального сегмента недвижимости, что нарушает правило 7."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/tiger-shroff-invests-in-breez-by-danube-reinforcing-strong-global-confidence-in-dubai-real-estate",
+    "timestamp": "2026-04-26T08:11:42.060422+00:00",
+    "status": "approved",
+    "content_hash": "9c51362bad8b789150d846e2c9eb7006",
+    "strict_hash": "9c51362bad8b789150d846e2c9eb7006",
+    "fuzzy_hash": "cf2cc0984b92b9f1f209c914ddae2675",
+    "reason": "approved"
   }
 ]
