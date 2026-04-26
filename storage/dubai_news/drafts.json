@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "source_name": "News18",
+    "title": "'Our Office Is Open': Dubai’s War-Triggered WFH Comes To End",
+    "summary_ru": "<b>🏢 «Наш офис открыт»: Дубай отменяет удалёнку, введённую из-за войны</b>\n\nКомпании в ОАЭ, включая юридические фирмы Jones Day и Cleary Gottlieb Steen & Hamilton, сворачивают удалённую работу по мере снижения напряжённости на Ближнем Востоке. Сотрудников возвращают в офисы.\n\nРанее, в 2023–2024 годах, многие фирмы перевели персонал на «удалёнку» из-за регионального конфликта. Теперь, когда угроза атак спала, бизнес восстанавливает привычный формат.\n\n<blockquote>«Мы рады снова видеть команду в стенах офиса — это укрепляет корпоративную культуру и скорость принятия решений», — отметили в одной из компаний.</blockquote>\n\nКлючевые факты:\n• 🏛️ Среди первых отменивших WFH — международные юрфирмы Jones Day и Cleary Gottlieb.\n• 📅 Решение принято после стабилизации обстановки в регионе.\n• 📈 Возврат в офисы уже начался в Дубае и Абу-Даби.\n\n#ОАЭ #Бизнес #Удаленка",
+    "published": "2026-04-26T06:24:16.917749+00:00",
+    "source_urls": [
+      "https://www.news18.com/world/our-office-is-open-dubais-war-triggered-wfh-comes-to-end-ws-l-10057435.html"
+    ],
+    "lang": "en",
+    "content_hash": "bb95a0acfc6ece5f342998b7ff5566c6",
+    "strict_hash": "bb95a0acfc6ece5f342998b7ff5566c6",
+    "fuzzy_hash": "273d6d329fed0525e0d8c9e0477b5eec",
+    "method": "gnews",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость напрямую связана с Дубаем и ОАЭ, не содержит политики, рекламы или неуважения к ценностям страны. Тема отмены удалённой работы актуальна для русскоязычных жителей, работающих в местных компаниях, и не является дубликатом (хеш уникален). Источник проверяем."
+      }
+    },
+    "image_url": "https://images.news18.com/ibnlive/uploads/2026/04/Untitled-design-2026-04-25T193846.496-2026-04-d15ede02d3ce9afc674789ecef258ccf-1200x675.png",
+    "slot_target": "morning"
+  }
+]
