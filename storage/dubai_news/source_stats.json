@@ -1,51 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/dubai/north-haven-a-major-new-master-community-unveiled-for-dubais-growing-workforce",
-    "timestamp": "2026-04-26T20:28:13.028797+00:00",
-    "status": "rejected",
-    "content_hash": "a963c21d0f17c0c3674b910cbec99f6e",
-    "strict_hash": "a963c21d0f17c0c3674b910cbec99f6e",
-    "fuzzy_hash": "a73aadcb10a821a4f4b2c1c4ccd91a7e",
-    "reason": "Новость о запуске нового жилого комплекса «North Haven» в Дубае соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит естественно и информативно для русскоязычных жителей, интересующихся рынком недвижимости. Однако при проверке на дубликаты с уже опубликованными новостями (про солнечные стандарты и биометрию ЕС) явных совпадений нет, но хеш контента уникален. Источник не указан явно (нет URL), что нарушает правило 9. Тем не менее, новость не является дубликатом и полезна аудитории."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/dubai-sets-new-global-benchmark-with-mandatory-solar-glass-standards-for-skyscrapers",
-    "timestamp": "2026-04-26T20:52:02.183644+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.newsx.com/sports/hyk-vs-rap-psl-2026-live-streaming-and-channel-details-where-to-watch-hyderabad-kingsmen-vs-rawalpindiz-in-india-pakistan-dubai-uae-and-rest-of-the-world-205422",
-    "timestamp": "2026-04-26T21:04:37.239414+00:00",
-    "status": "rejected",
-    "content_hash": "d4a0478bbcbe2e0be6f1e7b73915cf9c",
-    "strict_hash": "d4a0478bbcbe2e0be6f1e7b73915cf9c",
-    "fuzzy_hash": "131cd8372bbbc0525b3fa00121bb3298",
-    "reason": "Новость о трансляции матча PSL 2026 между Hyderabad Kingsmen и Rawalpindiz лишь упоминает Дубай (UAE) в списке регионов для просмотра, но основное событие проходит в Карачи (Пакистан) и не имеет прямой содержательной связи с Дубаем или ОАЭ. Кроме того, это типичная спортивная трансляционная заметка, которая не представляет интереса для русскоязычного жителя Дубая и не соответствует критерию полезности."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/dubai-land-department-launches-instant-ejari-registration-via-whatsapp",
-    "timestamp": "2026-04-26T21:29:15.913248+00:00",
-    "status": "approved",
-    "content_hash": "38d3aea22153ea921da39f96d4664a2d",
-    "strict_hash": "38d3aea22153ea921da39f96d4664a2d",
-    "fuzzy_hash": "a141110e08162654b5aed5f27ac3046b",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/dubai-land-department-launches-instant-ejari-registration-via-whatsapp",
-    "timestamp": "2026-04-26T21:50:14.222436+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOb19mUV9MZ3pqc3NsQ1RfTUsyd3NDR0dGdXRjNzBHQjBjYjlVTWo2eHBRRVcyaHRTVWpqOTBYUzk0RThfNnJUZE0zNXd6OWpPTkVuZFA0UDBiNlpDY3dqMm1LZ05NSWdONXNSZXM2a3FvbkpQTUkyb2wxakF0Y0didTVxZHJCU1A1TVduMjFwdXF6elhUZFdJQmR3Tk9pSmpoekJ1aWpReVBUMXJ5U0dFZWNIaDA1YXFSdHc0ZTNaN1l6Y3AwQ1d3M1VSNy1NdFRTTzl2Um5jTTBxVGltZ2VKcWR3?oc=5",
-    "timestamp": "2026-04-26T22:02:55.963623+00:00",
-    "status": "rejected",
-    "content_hash": "c8df7b9276202f9ffede252065360d9c",
-    "strict_hash": "c8df7b9276202f9ffede252065360d9c",
-    "fuzzy_hash": "907709b17b7b0dad7f62b8be73fe3a88",
-    "reason": "Новость о новых визовых правилах и ужесточении въезда в Дубай с 2026 года потенциально интересна русскоязычным жителям, но её заголовок и текст выглядят как кликбейт с признаками ИИ-генерации, а источник (Travel And Tour World) не является официальным и не предоставляет проверяемых ссылок на государственные указы. Кроме того, тема пересекается с уже опубликованной новостью о биометрических правилах ЕС, но не является точным дубликатом."
-  },
-  {
     "url": "https://propertynews.ae/business/business-support-ajman-extends-100-tourism-fee-waivers-to-boost-sme-growth",
     "timestamp": "2026-04-26T22:27:34.682290+00:00",
     "status": "approved",
@@ -608,5 +562,10 @@
     "strict_hash": "9a3ec3acae284b5b9510939c9a70249c",
     "fuzzy_hash": "8a30a7f3336b73b4461375d2f6dd1a36",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/dubai-sets-new-global-standard-as-dewa-shatters-electricity-reliability-record",
+    "timestamp": "2026-04-28T22:07:07.286260+00:00",
+    "status": "published"
   }
 ]
