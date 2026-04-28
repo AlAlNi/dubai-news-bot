@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.express.co.uk/news/world/2198381/dubai-travel-update-visa-applications",
-    "timestamp": "2026-04-26T04:02:14.383130+00:00",
-    "status": "rejected",
-    "content_hash": "5a11f1476c1657b87da58e1a3ba3334f",
-    "strict_hash": "5a11f1476c1657b87da58e1a3ba3334f",
-    "fuzzy_hash": "a00a2625737fcd2c2e1afe1ebdf16e85",
-    "reason": "Новость содержит упоминание о «strikes on the country» (ударах по стране), что является прямой отсылкой к военным/политическим конфликтам, затрагивающим ОАЭ. Это нарушает правило №2 (политика и конфликты). Кроме того, текст ссылается на коммерческий сайт UAEVisaTravel.com и выглядит как рекламный пресс-релиз, что нарушает правило №3."
-  },
-  {
-    "url": "https://propertynews.ae/world/punes-tech-hubs-the-new-destination-for-international-real-estate-capital",
-    "timestamp": "2026-04-26T04:51:38.698992+00:00",
-    "status": "rejected",
-    "content_hash": "f8d0ab674b8fa5842140216959741d31",
-    "strict_hash": "f8d0ab674b8fa5842140216959741d31",
-    "fuzzy_hash": "2fd70939e985e76f9fe5848c0a0760a9",
-    "reason": "Новость о рынке недвижимости в индийском городе Пуна не имеет прямой связи с Дубаем, ОАЭ или регионом GCC, а лишь проводит поверхностную аналогию с дубайскими проектами. Это делает её нерелевантной для канала о Дубае."
-  },
-  {
-    "url": "https://www.thetimes.com/world/ireland-world/article/kinahan-cartel-money-assets-frozen-daniel-news-r2nn6z39g",
-    "timestamp": "2026-04-26T04:51:42.094904+00:00",
-    "status": "rejected",
-    "content_hash": "aa13a29d68d4e0e7505ad2e06d19ec10",
-    "strict_hash": "aa13a29d68d4e0e7505ad2e06d19ec10",
-    "fuzzy_hash": "2502e389f06efdde5130c1b7dd7d5f7f",
-    "reason": "Новость о заморозке активов наркокартеля Кинахана в Дубае имеет прямую связь с регионом (ОАЭ), не является политической или рекламной, не нарушает ценности UAE (борьба с преступностью — позитивная тема), текст выглядит естественным и основан на проверяемом источнике (The Times). Однако для русскоязычного жителя Дубая эта тема может быть малоинтересна, так как касается международной криминальной истории, а не повседневной жизни в эмирате. Кроме того, необходимо проверить на дубликаты — если подобная новость уже публиковалась, её следует отклонить."
-  },
-  {
-    "url": "https://www.news18.com/world/our-office-is-open-dubais-war-triggered-wfh-comes-to-end-ws-l-10057435.html",
-    "timestamp": "2026-04-26T06:24:21.590963+00:00",
-    "status": "approved",
-    "content_hash": "bb95a0acfc6ece5f342998b7ff5566c6",
-    "strict_hash": "bb95a0acfc6ece5f342998b7ff5566c6",
-    "fuzzy_hash": "273d6d329fed0525e0d8c9e0477b5eec",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/future-proof-living-dubai-trials-atmospheric-water-technology-for-luxury-villas",
     "timestamp": "2026-04-26T06:54:39.976886+00:00",
     "status": "approved",
@@ -695,5 +659,10 @@
     "strict_hash": "948ee699714ca0af56e52a06c1c0eab0",
     "fuzzy_hash": "57d22c9c9e72bb416cb25cb2310f7314",
     "reason": "Новость не подходит: основное событие (суд над бывшей секс-работницей) происходит в Австралии, а не в Дубае/ОАЭ, и лишь упоминает, что её завербовали во время отпуска в Дубае. Связь с регионом минимальна и не является центральной темой."
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/nakheel-awards-contracts-worth-over-aed-3-5-billion-to-build-544-villas-on-palm-jebel-ali-302754471.html",
+    "timestamp": "2026-04-28T06:37:59.154974+00:00",
+    "status": "published"
   }
 ]
