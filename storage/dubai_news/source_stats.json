@@ -599,5 +599,23 @@
     "strict_hash": "f5688e11cd5e40569ad0fd78cb235971",
     "fuzzy_hash": "6ce55f1d04bec4872124204adca4d974",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/financial-fortress-adgm-secures-record-700-billion-influx-from-global-titans",
+    "timestamp": "2026-04-29T12:10:45.647893+00:00",
+    "status": "rejected",
+    "content_hash": "d29b5f22858d0ae3bfed168531b55f12",
+    "strict_hash": "d29b5f22858d0ae3bfed168531b55f12",
+    "fuzzy_hash": "b6a94ba7309dbf216044250fac936e3f",
+    "reason": "Новость об ADGM и притоке $700 млрд не имеет прямой связи с Дубаем (событие в Абу-Даби), а также выглядит как рекламный пресс-релиз без общественно значимой новости для русскоязычного жителя Дубая. Кроме того, источник (PropertyNews.ae) не является официальным и не предоставляет проверяемых фактов."
+  },
+  {
+    "url": "https://www.dailyexcelsior.com/uae-to-leave-opec-from-may-1",
+    "timestamp": "2026-04-29T12:10:48.422858+00:00",
+    "status": "rejected",
+    "content_hash": "a058c1c9c099c47cc95820993a86ed3e",
+    "strict_hash": "a058c1c9c099c47cc95820993a86ed3e",
+    "fuzzy_hash": "df4f5a53e2216d4d324f438d322068ec",
+    "reason": "Новость является точным дубликатом уже опубликованного материала «UAE to leave OPEC from May 1» (хеш совпадает). Публикация повторной новости нарушает правило №7."
   }
 ]
