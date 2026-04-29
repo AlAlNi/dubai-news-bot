@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/dubai/dubai-south-announces-first-dedicated-senior-living-district-for-global-retirees",
-    "timestamp": "2026-04-27T09:26:57.485437+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pZGJmV0xwd09jMk1EajkzTjg4TGRydFQzXzZyNzB0Rnl1dmlnUFotRll5SzJIbjRuM0plX2RpXzc5NkkzbThDQUhNazFyU2tuZk9WelVDajFBSVd0YzZnWGpVc1VUZk1vYXdYOUNVakE?oc=5",
-    "timestamp": "2026-04-27T09:38:03.297550+00:00",
-    "status": "rejected",
-    "content_hash": "42fe663d40e48198aabd77a662be5f6f",
-    "strict_hash": "42fe663d40e48198aabd77a662be5f6f",
-    "fuzzy_hash": "2a292631c352a188deb8eaa0c4dc32f5",
-    "reason": "Новость о дизайнерах из Бейрута и Дубая, проявляющих стойкость на фоне войны, имеет связь с регионом (Дубай), но основная тема — война и её последствия, что нарушает правило №2 (политика и конфликты). Кроме того, текст слишком короткий и не содержит проверяемых фактов или явного URL источника, что нарушает правило №9."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/global-pension-funds-pivot-to-dubai-as-residential-portfolios-offer-stable-yields",
-    "timestamp": "2026-04-27T10:05:56.288456+00:00",
-    "status": "approved",
-    "content_hash": "ea0a0a98e4797f05b38f0172f77d0f4a",
-    "strict_hash": "ea0a0a98e4797f05b38f0172f77d0f4a",
-    "fuzzy_hash": "7e1986d9dd952fcc482d2aab72e21535",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/global-pension-funds-pivot-to-dubai-as-residential-portfolios-offer-stable-yields",
     "timestamp": "2026-04-27T11:53:34.067670+00:00",
     "status": "published"
@@ -608,5 +585,10 @@
     "strict_hash": "55010d42f1208d1a20b300d5c91bf9ce",
     "fuzzy_hash": "f8eaec84705db197839df53bb7311bc3",
     "reason": "Эта новость — криминальная хроника из Великобритании, где фигурирует бегство подозреваемого в Дубай. Связь с регионом крайне слабая и негативная (убийство, бегство преступника), что нарушает правила 1 (нет явной позитивной или нейтральной связи с Дубаем/ОАЭ) и 4 (может быть воспринято как неуважение к имиджу безопасного эмирата). Кроме того, новость не представляет интереса для русскоговорящего жителя Дубая (правило 6)."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/new-equity-release-initiative-offers-fresh-capital-for-dubai-homeowners",
+    "timestamp": "2026-04-29T11:47:44.410685+00:00",
+    "status": "published"
   }
 ]
