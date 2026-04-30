@@ -560,5 +560,23 @@
     "strict_hash": "a70153bb360023dfa470ddbc26087b99",
     "fuzzy_hash": "11ddaeae6cfd5d1acadac43537c13ce9",
     "reason": "Новость не имеет прямой связи с Дубаем или ОАЭ — в ней обсуждается рынок недвижимости Мумбаи, а упоминание жителя Дубая лишь формально. Тема не представляет интереса для русскоязычного жителя Дубая и не соответствует критериям полезности или актуальности для канала."
+  },
+  {
+    "url": "https://propertynews.ae/world/indias-luxury-real-estate-map-redrawn-as-gurugram-takes-the-lead-over-mumbai",
+    "timestamp": "2026-04-30T05:23:47.015832+00:00",
+    "status": "rejected",
+    "content_hash": "9867da5e1e940f9751e1c75f8204bde4",
+    "strict_hash": "9867da5e1e940f9751e1c75f8204bde4",
+    "fuzzy_hash": "13b176bb05c6e3c2baa5ae94326ce3e1",
+    "reason": "Новость не связана с Дубаем, ОАЭ или регионом GCC — основное содержание посвящено рынку недвижимости Индии (Гуруграм и Мумбаи). Упоминание Дубая в качестве сравнения не делает её релевантной для канала."
+  },
+  {
+    "url": "https://www.business-standard.com/markets/news/dubai-investor-visa-real-estate-limit-indian-investors-126042901530_1.html",
+    "timestamp": "2026-04-30T05:23:49.183576+00:00",
+    "status": "rejected",
+    "content_hash": "24433de476c33500f0989b7999aca6f6",
+    "strict_hash": "24433de476c33500f0989b7999aca6f6",
+    "fuzzy_hash": "670fadd95b5adea6180ff747726f4cca",
+    "reason": "Новость является дубликатом уже опубликованной новости «Dubai Opens Doors: DLD Scraps Minimum Property Value for Investor Visas» — тема и суть идентичны, различается только заголовок и источник. Публикация повторной информации нарушает правило №7."
   }
 ]
