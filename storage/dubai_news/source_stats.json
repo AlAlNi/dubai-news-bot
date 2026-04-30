@@ -1,33 +1,6 @@
 [
   {
     "url": "https://www.prnewswire.co.uk/news-releases/nakheel-awards-contracts-worth-over-aed-3-5-billion-to-build-544-villas-on-palm-jebel-ali-302754471.html",
-    "timestamp": "2026-04-28T04:56:23.551991+00:00",
-    "status": "approved",
-    "content_hash": "0faf8e20df6e0291e5e42c40ac7c7715",
-    "strict_hash": "0faf8e20df6e0291e5e42c40ac7c7715",
-    "fuzzy_hash": "ea2510fe6cca321c5d9f21cd11630f73",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/gcc/omans-urban-evolution-integrated-neighborhoods-set-to-transform-regional-living",
-    "timestamp": "2026-04-28T05:22:25.280957+00:00",
-    "status": "rejected",
-    "content_hash": "dfbed3804320b4a632d658d00bcab4d9",
-    "strict_hash": "dfbed3804320b4a632d658d00bcab4d9",
-    "fuzzy_hash": "387d7c0467d53d0e797b7bb089f69b67",
-    "reason": "Новость об Омане не имеет прямой связи с Дубаем, ОАЭ или GCC, а также не представляет интереса для русскоязычного жителя Дубая, так как описывает региональное развитие соседней страны без упоминания влияния на эмират."
-  },
-  {
-    "url": "https://nypost.com/2026/04/27/world-news/former-sex-worker-jailed-over-drug-act-during-dubai-vacation",
-    "timestamp": "2026-04-28T05:22:27.897855+00:00",
-    "status": "rejected",
-    "content_hash": "948ee699714ca0af56e52a06c1c0eab0",
-    "strict_hash": "948ee699714ca0af56e52a06c1c0eab0",
-    "fuzzy_hash": "57d22c9c9e72bb416cb25cb2310f7314",
-    "reason": "Новость не подходит: основное событие (суд над бывшей секс-работницей) происходит в Австралии, а не в Дубае/ОАЭ, и лишь упоминает, что её завербовали во время отпуска в Дубае. Связь с регионом минимальна и не является центральной темой."
-  },
-  {
-    "url": "https://www.prnewswire.co.uk/news-releases/nakheel-awards-contracts-worth-over-aed-3-5-billion-to-build-544-villas-on-palm-jebel-ali-302754471.html",
     "timestamp": "2026-04-28T06:37:59.154974+00:00",
     "status": "published"
   },
@@ -578,5 +551,10 @@
     "strict_hash": "24433de476c33500f0989b7999aca6f6",
     "fuzzy_hash": "670fadd95b5adea6180ff747726f4cca",
     "reason": "Новость является дубликатом уже опубликованной новости «Dubai Opens Doors: DLD Scraps Minimum Property Value for Investor Visas» — тема и суть идентичны, различается только заголовок и источник. Публикация повторной информации нарушает правило №7."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-opens-doors-dld-scraps-minimum-property-value-for-investor-visas",
+    "timestamp": "2026-04-30T06:35:15.610877+00:00",
+    "status": "published"
   }
 ]
