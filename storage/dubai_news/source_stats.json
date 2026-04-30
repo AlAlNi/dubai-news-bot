@@ -1,55 +1,5 @@
 [
   {
-    "url": "https://www.firstpost.com/world/vasu-shroff-indian-businessman-who-helped-shape-dubais-textile-trade-dies-at-85-14004826.html",
-    "timestamp": "2026-04-27T22:25:57.780186+00:00",
-    "status": "rejected",
-    "content_hash": "62b7f4e7c87c142fbc2519163ba42a77",
-    "strict_hash": "62b7f4e7c87c142fbc2519163ba42a77",
-    "fuzzy_hash": "25946526a0c2a5e9a81fc11cd82d7cd6",
-    "reason": "Новость о смерти известного индийского бизнесмена Васу Шроффа, «Текстильного короля» Дубая, имеет прямую связь с регионом и не нарушает ни одно из правил, однако она является дубликатом уже опубликованной новости (пункт 3 контекста: «Dubai businessman ‘Textile King’ Vasu Shroff dies at 85 - Khaleej Times»)."
-  },
-  {
-    "url": "https://propertynews.ae/business/financial-resilience-peaks-as-uae-central-bank-reports-15-growth-in-foreign-assets",
-    "timestamp": "2026-04-27T22:39:48.015101+00:00",
-    "status": "rejected",
-    "content_hash": "625bd79cbaa207cc8c800144be3c421e",
-    "strict_hash": "625bd79cbaa207cc8c800144be3c421e",
-    "fuzzy_hash": "8dca2c3f6b61fd98f49f18c3e92dce2a",
-    "reason": "Новость о росте иностранных активов ЦБ ОАЭ соответствует критериям: имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям, текст выглядит естественно и достоверно, источник (CBUAE) проверяем. Однако новость не является дубликатом уже опубликованных материалов, но её тема (финансовый отчёт) может быть малоинтересна русскоязычному жителю Дубая, так как не содержит практической пользы или оперативной информации. Тем не менее, она подходит как общеэкономическая сводка."
-  },
-  {
-    "url": "https://www.dailystar.co.uk/news/latest-news/daniel-kinahan-to-plead-guilty-37074512",
-    "timestamp": "2026-04-27T22:39:50.995276+00:00",
-    "status": "rejected",
-    "content_hash": "a2a46ccf4ab691731eaae27ed612b4aa",
-    "strict_hash": "a2a46ccf4ab691731eaae27ed612b4aa",
-    "fuzzy_hash": "8666ba47720390157ac3c2e72747c301",
-    "reason": "Новость является прямым продолжением уже опубликованной истории о конфискации активов картеля Кинахана в Дубае (пункт 4 контекста). Это дублирующая информация по той же теме, без нового значимого поворота, который бы оправдывал повторную публикацию."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUGN5c0ZJTHoxWkFjOEJrdDdSOUdOcnVmOGw0Y3pfOVE0QzNKZ2djSkhjNjhOZ3dTQkJKQTE5aXJoS1piQm9xZ0lOZVpwbTJWTHZpY1R4dk9sQ3BNZ1BMeHd3RFRnRFNyRWFUTkNWajdXblpQYlkyRDJka0stTW1XZXRUYWY?oc=5",
-    "timestamp": "2026-04-27T23:27:56.838556+00:00",
-    "status": "rejected",
-    "content_hash": "b9eac623e1754ad61a55da711f370745",
-    "strict_hash": "b9eac623e1754ad61a55da711f370745",
-    "fuzzy_hash": "35c4410c63c3f8ebbb63519d3b24a847",
-    "reason": "Cheap prefilter: слишком короткий текст (111 символов)"
-  },
-  {
-    "url": "https://propertynews.ae/business/dubai-launches-global-scale-up-initiative-to-fast-track-local-companies-to-international-markets",
-    "timestamp": "2026-04-27T23:42:41.186321+00:00",
-    "status": "approved",
-    "content_hash": "a59895e7f5b9ca2bdc672915cc03509a",
-    "strict_hash": "a59895e7f5b9ca2bdc672915cc03509a",
-    "fuzzy_hash": "abeb8e0347d43ddcb0bfbf3eb30747b9",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/business/dubai-launches-global-scale-up-initiative-to-fast-track-local-companies-to-international-markets",
-    "timestamp": "2026-04-28T00:00:55.501572+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.thesun.co.uk/news/38941632/glam-hippie-healer-jailed-mafia-cocaine-ring-plot",
     "timestamp": "2026-04-28T01:15:14.498293+00:00",
     "status": "rejected",
@@ -591,5 +541,10 @@
     "strict_hash": "3f7919e5e132b6fc573b54ef6a6f9689",
     "fuzzy_hash": "e7d0d793301a3ef025bccf6b8ae13341",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/reem-island-milestone-modons-tara-park-achieves-dh2-billion-sell-out",
+    "timestamp": "2026-04-30T00:03:00.525795+00:00",
+    "status": "published"
   }
 ]
