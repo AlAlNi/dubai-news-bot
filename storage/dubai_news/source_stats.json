@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/business/industrial-renaissance-ras-al-khaimah-economic-licenses-surge-by-15-5",
-    "timestamp": "2026-04-29T10:05:25.315737+00:00",
-    "status": "rejected",
-    "content_hash": "f487c6ce83d93f77b3c221598a8aedeb",
-    "strict_hash": "f487c6ce83d93f77b3c221598a8aedeb",
-    "fuzzy_hash": "762eaa8c5c1a7be2649219d94ff31f4b",
-    "reason": "Новость о росте экономических лицензий в Рас-Аль-Хайме соответствует тематике канала (ОАЭ), не содержит политики, рекламы или неуважения к ценностям, информация выглядит достоверной и основана на данных Департамента экономического развития. Однако она не является дубликатом опубликованных новостей, но может быть не слишком интересна русскоязычным жителям Дубая, так как фокусируется на промышленном секторе другого эмирата."
-  },
-  {
-    "url": "https://www.mirror.co.uk/3am/celebrity-news/katie-prices-fans-say-shes-37084026",
-    "timestamp": "2026-04-29T10:05:28.731256+00:00",
-    "status": "rejected",
-    "content_hash": "80b7b9352fb2158b2caa4d725690ddbb",
-    "strict_hash": "80b7b9352fb2158b2caa4d725690ddbb",
-    "fuzzy_hash": "52f9d929bc0c0764bfb895e753017b43",
-    "reason": "Новость о Кэти Прайс и CBD-масле в Дубае не подходит для публикации, так как она не представляет общественно значимой информации для русскоязычных жителей, а скорее является сплетней о западной знаменитости, нарушающей местные законы. Кроме того, тема рекламы и продвижения запрещённого вещества может быть воспринята как неуважение к законам ОАЭ."
-  },
-  {
-    "url": "https://www.thesun.co.uk/news/38959375/woman-stabbed-death-home-silver-knife-dubai",
-    "timestamp": "2026-04-29T10:25:15.012592+00:00",
-    "status": "rejected",
-    "content_hash": "55010d42f1208d1a20b300d5c91bf9ce",
-    "strict_hash": "55010d42f1208d1a20b300d5c91bf9ce",
-    "fuzzy_hash": "f8eaec84705db197839df53bb7311bc3",
-    "reason": "Эта новость — криминальная хроника из Великобритании, где фигурирует бегство подозреваемого в Дубай. Связь с регионом крайне слабая и негативная (убийство, бегство преступника), что нарушает правила 1 (нет явной позитивной или нейтральной связи с Дубаем/ОАЭ) и 4 (может быть воспринято как неуважение к имиджу безопасного эмирата). Кроме того, новость не представляет интереса для русскоговорящего жителя Дубая (правило 6)."
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/new-equity-release-initiative-offers-fresh-capital-for-dubai-homeowners",
     "timestamp": "2026-04-29T11:47:44.410685+00:00",
     "status": "published"
@@ -589,5 +562,10 @@
     "strict_hash": "79d9a9d84dc5b080d5515d16e0349754",
     "fuzzy_hash": "f3ecece7d512db198e0af2b298b32afe",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/space-business-dubai-invites-private-sector-to-lead-satellite-innovation",
+    "timestamp": "2026-05-01T11:15:54.836929+00:00",
+    "status": "published"
   }
 ]
