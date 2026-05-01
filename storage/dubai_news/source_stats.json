@@ -1,42 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/business/uae-and-new-zealand-launch-major-trade-negotiations-to-boost-economic-ties",
-    "timestamp": "2026-04-29T00:01:37.799719+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://asia.nikkei.com/business/energy/uae-leaves-opec-and-opec-in-major-blow-to-global-oil-producers-group",
-    "timestamp": "2026-04-29T01:17:49.268849+00:00",
-    "status": "rejected",
-    "content_hash": "26db40befef98d9814bd4d3831d890b9",
-    "strict_hash": "26db40befef98d9814bd4d3831d890b9",
-    "fuzzy_hash": "16625a1536319ba247dc96ec7792ab3b",
-    "reason": "Новость явно связана с ОАЭ и Дубаем, но её основная тема — геополитика и конфликт внутри ОПЕК, что нарушает правило №2 (политика и конфликты). Кроме того, упоминание «Iran war» и исторического контекста делает материал потенциально чувствительным для ценностей ОАЭ."
-  },
-  {
-    "url": "https://propertynews.ae/guide/the-2026-utility-advantage-how-demand-response-cooling-can-save-your-family-thousands",
-    "timestamp": "2026-04-29T01:56:51.321817+00:00",
-    "status": "rejected",
-    "content_hash": "f474d15094dbee2de4d454f677c8ef3d",
-    "strict_hash": "f474d15094dbee2de4d454f677c8ef3d",
-    "fuzzy_hash": "ae66c0db14da5adde58da81bd8ba7de9",
-    "reason": "Новость представляет собой рекламно-информационный материал, продвигающий услуги DEWA и Empower, а также концепцию «умного дома», без явной общественно значимой новостной ценности. Текст выглядит как искусственно сгенерированный или адаптированный пресс-релиз, нацеленный на продвижение, а не на информирование."
-  },
-  {
-    "url": "https://www.bangkokpost.com/business/general/3245784/uae-quits-opec-in-blow-to-global-oil-cartel",
-    "timestamp": "2026-04-29T01:56:54.458028+00:00",
-    "status": "rejected",
-    "content_hash": "3437383035e9910835c9094a2ef674fd",
-    "strict_hash": "3437383035e9910835c9094a2ef674fd",
-    "fuzzy_hash": "79d41a24c3fb433c08864b1e11a776c9",
-    "reason": "Новость о выходе ОАЭ из ОПЕК+ содержит элементы большой политики и геополитического конфликта (упоминание войны с Ираном, противостояние с Саудовской Аравией), что прямо нарушает правило №2. Кроме того, тема носит глобальный политический характер, а не локальный интерес для русскоязычного жителя Дубая (правило №6). Новость также выглядит как сенсационный кликбейт с признаками неполной или устаревшей информации (на самом деле ОАЭ вышли из ОПЕК в 2023 году, а не «на днях»)."
-  },
-  {
-    "url": "https://propertynews.ae/business/uae-named-worlds-top-hub-for-entrepreneurs-for-the-fifth-consecutive-year",
-    "timestamp": "2026-04-29T03:55:45.072823+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://asia.nikkei.com/business/energy/uae-leaves-opec-in-blow-to-global-oil-producers-group",
     "timestamp": "2026-04-29T04:52:38.685119+00:00",
     "status": "rejected",
@@ -594,5 +557,10 @@
     "strict_hash": "ab3b1350789e7484f2403ed2145bd854",
     "fuzzy_hash": "68a9c718d3a21fb0b02d0ed691cb0fe5",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/dubai-chambers-reports-25-percent-surge-in-new-member-companies-for-q1-2026",
+    "timestamp": "2026-05-01T04:08:59.623868+00:00",
+    "status": "published"
   }
 ]
