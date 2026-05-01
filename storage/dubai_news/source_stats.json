@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://asia.nikkei.com/business/energy/uae-leaves-opec-in-blow-to-global-oil-producers-group",
-    "timestamp": "2026-04-29T04:52:38.685119+00:00",
-    "status": "rejected",
-    "content_hash": "0b8de09f730bc825d278810ff7b0a231",
-    "strict_hash": "0b8de09f730bc825d278810ff7b0a231",
-    "fuzzy_hash": "a48896154e2dafaac080d0ce6536c473",
-    "reason": "Новость отклоняется, так как её основная тема — геополитика и конфликт (упоминание войны в Иране), что нарушает правило №2, а также содержит непроверяемые и потенциально дестабилизирующие заявления, не соответствующие ценностям ОАЭ (правило №4)."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/the-dh4-billion-day-dubai-real-estate-smashes-daily-sales-records",
-    "timestamp": "2026-04-29T05:21:51.331162+00:00",
-    "status": "approved",
-    "content_hash": "80964e8bf84d735404c892a813e835ea",
-    "strict_hash": "80964e8bf84d735404c892a813e835ea",
-    "fuzzy_hash": "38afa368c6c0c848463d4867ce920e19",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/the-dh4-billion-day-dubai-real-estate-smashes-daily-sales-records",
-    "timestamp": "2026-04-29T06:31:14.223587+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.thetimes.com/uk/crime/article/teenage-kart-racer-airbnb-dubai-knqvcpx5p",
     "timestamp": "2026-04-29T07:38:28.833585+00:00",
     "status": "rejected",
@@ -589,5 +566,10 @@
     "strict_hash": "c2df83fefc5f66c767a1a5468f07f8c1",
     "fuzzy_hash": "20897279748b3875ea85890b823bb06b",
     "reason": "Новость касается изменения правил получения 2-летней визы для инвесторов в недвижимость Дубая, что напрямую связано с регионом и представляет интерес для русскоязычных жителей. Однако она является дубликатом уже опубликованной новости «Dubai 2-year residency visa new rule for property investors» (тема та же — изменение правил для визы, хотя детали могут различаться). Согласно правилу 7, такие повторы недопустимы."
+  },
+  {
+    "url": "https://www.bolnews.com/world/dubai-2-year-residency-visa-new-rule-for-property-investors",
+    "timestamp": "2026-05-01T07:31:01.059398+00:00",
+    "status": "published"
   }
 ]
