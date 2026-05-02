@@ -757,5 +757,14 @@
     "strict_hash": "b402c566449fd7c25ed610f586bfe507",
     "fuzzy_hash": "7f1919347f072b5e618e7b5b3da1bf63",
     "reason": "Cheap prefilter: слишком короткий текст (103 символов)"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/gulf-good-news-hosts-grand-ggn-awards-2026-in-dubai",
+    "timestamp": "2026-05-02T18:09:48.740007+00:00",
+    "status": "rejected",
+    "content_hash": "f91de3a26f89978bb77b021349253577",
+    "strict_hash": "f91de3a26f89978bb77b021349253577",
+    "fuzzy_hash": "44f7bcc741f96458dd63a254f792a31f",
+    "reason": "Новость является явным пресс-релизом о вручении наград, не содержит общественно значимой информации для русскоязычных жителей Дубая, а её текст обрывается и выглядит как рекламный материал, что нарушает правила 3 и 6."
   }
 ]
