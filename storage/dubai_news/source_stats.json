@@ -712,5 +712,23 @@
     "strict_hash": "ff9fd14aa8c57ef63da06000d442179b",
     "fuzzy_hash": "1f465e30b9248fe1317eeb9b216a7e58",
     "reason": "Новость затрагивает влияние иранского конфликта на поставки продуктов в Дубай, что имеет прямую связь с регионом и может быть интересно русскоязычным жителям. Однако тема напрямую связана с войной и геополитическим конфликтом (Иран), что нарушает правило №2 (политика и конфликты). Кроме того, заголовок содержит кликбейтный элемент («Iran war»), а достоверность фактов из источника The Express Tribune требует дополнительной проверки."
+  },
+  {
+    "url": "https://propertynews.ae/uae/the-primary-residence-shift-families-and-professionals-drive-sustained-demand-in-ras-al-khaimah",
+    "timestamp": "2026-05-02T15:37:31.650207+00:00",
+    "status": "rejected",
+    "content_hash": "c53d070fba3fc5d3dea264ae8ea16d5c",
+    "strict_hash": "c53d070fba3fc5d3dea264ae8ea16d5c",
+    "fuzzy_hash": "a91e60262c777b10ae4672461f7afd4a",
+    "reason": "Новость посвящена рынку недвижимости Рас-эль-Хаймы, что входит в ОАЭ, и не содержит политики, рекламы или неуважения к ценностям. Текст выглядит как аналитический обзор, а не ИИ-кликбейт, и будет полезен русскоязычным жителям, интересующимся переездом или инвестициями. Дубликатов с опубликованными новостями (о Дубае) нет, источник не указан явно, но информация носит общий аналитический характер, а не срочную новость."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNRW54TzBCck1HZ0dUalJ3alNkYmdvaUgtU3BHMzlHanNQTE1BWVppeHN2dHFTSzZZVkVQV080X1NUalM2YTdhM1ZFR3R4VGp3alo0c3lRbXpjTHhSeHpGTExuVWJiajlFcG5YYmJHSGhJZkZ2LVBBVmNmSkE5VkNNeGpZdExURTlQNzNPN3YtUXU2bDMwQXNGd1Z4d1A4NmdYSDZMZ2VpSWRuOWhNZnhhUlRWVXhJckdrcHctWjlPdjRnNXBqaFRpNWp6TXdtb182VGk0NGlKWTJmY1hfSThfb2wzeERIOHRieWlqQk92emZfamxmdUozdg?oc=5",
+    "timestamp": "2026-05-02T15:37:35.120125+00:00",
+    "status": "rejected",
+    "content_hash": "fa42442550e078427563f7cd7b7a181f",
+    "strict_hash": "fa42442550e078427563f7cd7b7a181f",
+    "fuzzy_hash": "fdfde0136ab31992e1898ea716b3b3e0",
+    "reason": "Новость не подходит: заголовок кликбейтный, текст явно сгенерирован ИИ (повтор заголовка, неестественные пробелы), тема \"открытия туристов\" неактуальна для 2026 года и не содержит проверяемых фактов, а также не имеет явной связи с текущими событиями в Дубае."
   }
 ]
