@@ -639,5 +639,14 @@
     "url": "https://propertynews.ae/business/uae-and-australia-forge-new-strategic-trade-and-investment-corridor",
     "timestamp": "2026-05-02T08:26:08.527152+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/restaurants-dubai-tourism-travel-iran-war-b2968939.html",
+    "timestamp": "2026-05-02T08:49:04.168236+00:00",
+    "status": "rejected",
+    "content_hash": "b6966cc5020404853e6e2e82974dd270",
+    "strict_hash": "b6966cc5020404853e6e2e82974dd270",
+    "fuzzy_hash": "34bfff37327b1a1d2c00fc61ef78f511",
+    "reason": "Новость явно связана с Дубаем (рестораны, импорт продуктов) и затрагивает актуальную для жителей тему — влияние геополитики на местный бизнес и цены. Однако она нарушает правило №2 (основная тема — война и её последствия) и правило №5 (текст содержит признаки кликбейта и эмоциональной манипуляции, а также ссылается на непроверяемый источник — «Iran war» без конкретики). Кроме того, новость не является дубликатом уже опубликованных материалов."
   }
 ]
