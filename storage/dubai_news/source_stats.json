@@ -666,5 +666,23 @@
     "strict_hash": "d54cee11a34f2ab2dbc205723beaa07b",
     "fuzzy_hash": "9880c14d8d9593c6dee776e7f92a6904",
     "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
+  },
+  {
+    "url": "https://propertynews.ae/gcc/al-ulas-living-canvas-new-residential-phases-bridge-history-and-luxury",
+    "timestamp": "2026-05-02T10:41:37.668199+00:00",
+    "status": "rejected",
+    "content_hash": "b95695045cc0414bfe8dfa2f35c4613e",
+    "strict_hash": "b95695045cc0414bfe8dfa2f35c4613e",
+    "fuzzy_hash": "e3d78795d8472ea93298d32210082807",
+    "reason": "Новость о развитии жилых кварталов в Аль-Уле (Саудовская Аравия) не имеет прямой связи с Дубаем, ОАЭ или GCC (Советом сотрудничества арабских государств Персидского залива). Тема посвящена исключительно внутреннему проекту Саудовской Аравии, что нарушает первое правило."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaEV3bGRfZ2xWZzJKbmdyOHE0SHhnVjR5OGZ0QzVYS3NaY2xVQUtGV1Y3TXcxaTZaYXpsNm1MRXoyM0pEMzJxZEpMMUJHUlpHV19uRGtXYmYydjJPRW55cTYxeDV3QVhyWnUtQUlzZmNOc3ZRLTRqVzc2dzlRbVlhWFRKNHNYblZEdGJYWkVJRDgyeWROVC1KaDZhX3MwZklQZVlUSWF0dnNXNllh?oc=5",
+    "timestamp": "2026-05-02T10:41:40.685311+00:00",
+    "status": "rejected",
+    "content_hash": "2c17e294930b3a0fb22edd295922a9cd",
+    "strict_hash": "2c17e294930b3a0fb22edd295922a9cd",
+    "fuzzy_hash": "d3a856c1163ffd2ef16a3a4cddde568c",
+    "reason": "Новость содержит упоминание войны в Иране как причины проблем с поставками продуктов в Дубае, что нарушает правило №2 (политика и конфликты). Кроме того, заголовок выглядит как кликбейт, а источник (WTAQ) не является очевидно проверяемым для русскоязычной аудитории."
   }
 ]
