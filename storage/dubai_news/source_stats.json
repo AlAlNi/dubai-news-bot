@@ -832,5 +832,23 @@
     "strict_hash": "a258c15360d26acb67de7fa3625487ee",
     "fuzzy_hash": "d183b253603b37b841c1d9a99cf8481e",
     "reason": "Новость представляет собой развлекательный список активностей на закате в Дубае, что не является общественно значимой новостью, а скорее рекламно-туристическим контентом. Она не соответствует критерию полезности для русскоговорящего жителя и выглядит как типичный пресс-релиз."
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-launches-new-digital-valuation-framework-to-accelerate-global-investment",
+    "timestamp": "2026-05-03T22:30:23.896764+00:00",
+    "status": "rejected",
+    "content_hash": "e1413a106f777da7545084d5269535f0",
+    "strict_hash": "e1413a106f777da7545084d5269535f0",
+    "fuzzy_hash": "d6f68d97a41892de7ff2e979b4e26405",
+    "reason": "Новость об Абу-Даби, а не о Дубае, и не имеет прямой связи с эмиратом или ОАЭ в целом, а также не представляет интереса для русскоязычного жителя Дубая, так как описывает инициативу другого эмирата."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02NFdWQjdlaXJsT0ZhSVhibTgxNWF5S214UXJxbmFWc1B6YXlabTBYdXNjbUNKcTRXYXJvMVpVMUxsbkdHWDZhS2g2eVpxbU0taVdORXVvVFU5TmtDRUtNOU01V1dIQ1lqeUhIN0FZZTB5NW9kZE5weE9wQ194Vzg?oc=5",
+    "timestamp": "2026-05-03T22:30:27.320798+00:00",
+    "status": "rejected",
+    "content_hash": "0f501d4c3ad851deb8aadb65553a4702",
+    "strict_hash": "0f501d4c3ad851deb8aadb65553a4702",
+    "fuzzy_hash": "e5525895938722759625bd732df22d5e",
+    "reason": "Новость представляет собой подборку ресторанов бургеров в Дубае, что является типичным рекламно-развлекательным контентом без общественно значимой информации. Она не соответствует критерию полезности для русскоязычного жителя и выглядит как пресс-релиз или нативная реклама."
   }
 ]
