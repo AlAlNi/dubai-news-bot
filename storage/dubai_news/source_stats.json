@@ -835,5 +835,23 @@
     "strict_hash": "803f4d086956b1f08cc05ebb4d5af713",
     "fuzzy_hash": "1d3474e3537c9f2cc0f43c6753da0fe5",
     "reason": "Новость отклоняется, так как её основная тема — влияние военного конфликта (Иран) на пассажиропоток в Дубае, что нарушает правило №2 (политика и конфликты). Кроме того, заголовок содержит кликбейт и ссылается на устаревшие или непроверенные данные, что противоречит правилам №5 и №9."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/good-news-dubai-airport-boosts-flights-as-airspace-reopens",
+    "timestamp": "2026-05-04T05:25:31.016492+00:00",
+    "status": "rejected",
+    "content_hash": "7b8ab26816dbe2c7d1dee355d6415660",
+    "strict_hash": "7b8ab26816dbe2c7d1dee355d6415660",
+    "fuzzy_hash": "56989f5aca0cfab765c4e3e7b0136daf",
+    "reason": "Новость дублирует уже опубликованный материал под номером 1 (о снятии ограничений на полеты после атак Ирана). Тема идентична, источник тот же (What's On), и текст является пересказом той же информации. Нарушение правила 7 (дубликаты)."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/wealth/real-estate/mumbais-60-billion-makeover-sees-sea-bridges-6-metro-lines-new-airport-can-it-match-singapore-or-dubai/slideshow/130737311.cms",
+    "timestamp": "2026-05-04T05:25:34.067423+00:00",
+    "status": "rejected",
+    "content_hash": "b25baf62d94f7f54f269e9cc82838d33",
+    "strict_hash": "b25baf62d94f7f54f269e9cc82838d33",
+    "fuzzy_hash": "7a115ca4f3e33aa6d664de404b4b8a6e",
+    "reason": "Новость рассказывает об инфраструктурном проекте в Мумбаи, а не в Дубае или ОАЭ. Связь с регионом отсутствует, тема не представляет интереса для русскоязычного жителя Дубая."
   }
 ]
