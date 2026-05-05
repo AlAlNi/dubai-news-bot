@@ -1,55 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXNSMW9wY1Q4c1dXQkluMll4STVRMFNYdlVEdTRsVS1BZk9Bek1uS0hWMXc2LWxHTTRzNWs2S3ZCWHd3LTItNWZueTk0TW9jMktkbnhwUlE3Q0UwNnJZSFd2eS1Rdy1Ic1haVElqSFFLZW02eTFnTnc0R3Fuckd6MVFQTGtrLTBnT1dDR0piMTdUbzJpcm5mMFNHY1YyVll0Ym5CcWtQUEtRV0tk?oc=5",
-    "timestamp": "2026-05-03T07:06:01.217805+00:00",
-    "status": "rejected",
-    "content_hash": "f9f362d0c952c414065fd1d013730f61",
-    "strict_hash": "f9f362d0c952c414065fd1d013730f61",
-    "fuzzy_hash": "e3863698b7412378392a1b26411550a5",
-    "reason": "Эта новость явно нарушает правило №2 (политика и конфликты), так как в заголовке упоминается «Iran war» и его влияние на Дубай. Тема войны и её последствий для бизнеса — это политический и конфликтный контекст, который не подходит для канала. Кроме того, новость может быть воспринята как неуважение к стабильности ОАЭ (правило №4). Источник (The Independent) проверяем, но содержание недопустимо."
-  },
-  {
-    "url": "https://propertynews.ae/business/dubai-financial-market-records-extraordinary-43-profit-growth-amid-international-investor-influx",
-    "timestamp": "2026-05-03T07:46:51.750023+00:00",
-    "status": "approved",
-    "content_hash": "d4eca82ebc78a427fa4724d834f40024",
-    "strict_hash": "d4eca82ebc78a427fa4724d834f40024",
-    "fuzzy_hash": "471da8327315b0e030b6eaa7ea07130e",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/business/dubai-financial-market-records-extraordinary-43-profit-growth-amid-international-investor-influx",
-    "timestamp": "2026-05-03T08:53:02.739993+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://torontosun.com/news/world/a-mob-hit-in-ireland-a-10-year-manhunt-and-an-arrest-in-dubai",
-    "timestamp": "2026-05-03T09:03:35.304166+00:00",
-    "status": "rejected",
-    "content_hash": "87c90a81f0a0e94e902e29d691fa4fcd",
-    "strict_hash": "87c90a81f0a0e94e902e29d691fa4fcd",
-    "fuzzy_hash": "4201dccce827b3fbdc7a6171b6c09c9c",
-    "reason": "Новость о задержании в Дубае участника ирландской мафии — это криминальная история, не связанная с жизнью в ОАЭ, и не представляет интереса для русскоязычного жителя Дубая. Она нарушает правила 1 (связь с регионом минимальна, событие произошло в Ирландии) и 6 (не полезна и не интересна местной аудитории)."
-  },
-  {
-    "url": "https://propertynews.ae/business/uae-embarks-on-new-chapter-of-energy-sovereignty-following-historic-opec-exit",
-    "timestamp": "2026-05-03T09:13:06.285189+00:00",
-    "status": "rejected",
-    "content_hash": "c5a906d6c756b0faa79dbd0b80e9452e",
-    "strict_hash": "c5a906d6c756b0faa79dbd0b80e9452e",
-    "fuzzy_hash": "223a482dde88af374f3a8d0ab63e4c7c",
-    "reason": "Новость о выходе ОАЭ из ОПЕК — это важное геополитическое и экономическое событие, напрямую связанное с регионом. Однако она нарушает правило №2 (политика и конфликты), так как основная тема — это большая международная политика и стратегические альянсы, что не соответствует формату новостного канала о жизни в Дубае. Кроме того, текст имеет признаки аналитической статьи, а не оперативной новости для русскоговорящего жителя, и не содержит практической пользы для повседневной жизни."
-  },
-  {
-    "url": "https://www.freepressjournal.in/education/neet-ug-2026-nta-issues-important-instructions-for-candidates-appearing-in-dubai-sharjah-and-riyadh",
-    "timestamp": "2026-05-03T09:13:09.987478+00:00",
-    "status": "rejected",
-    "content_hash": "b559f9d93a5d331b07f8885b8ef06c16",
-    "strict_hash": "b559f9d93a5d331b07f8885b8ef06c16",
-    "fuzzy_hash": "103f2174ef150c48b81654a63884d799",
-    "reason": "Новость о проведении экзамена NEET UG 2026 в Дубае и Шардже имеет прямую связь с регионом (ОАЭ) и может быть полезна русскоязычным жителям, чьи дети сдают этот экзамен. Однако текст явно сгенерирован ИИ (обрывается на середине предложения, указан хеш контента, нет проверяемого источника), а также не соответствует формату новостного канала — это скорее инструкция для индийских студентов, а не общественно значимая новость для русскоязычной аудитории Дубая. Кроме того, новость не является дубликатом уже опубликованных материалов."
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMUItbDY0cGNUMng0dVdCZXZwME44di02NjNQUUxPYXJfcGdockdEaWRPM0FmUjVnOWlSN3E3YmZVZ25mc3RkSGhuZkZVNldWeEs1Rl9PTmJmNXl3MU5oV3VDUmg0S2tfWFlaWjgzWWpzVzFWWGFYQnhyNjF3VXBuQ3RFZ2RmaS1CU0doTk1oNG1HUnJGTGVWZ3QzbDBDRk3SAbIBQVVfeXFMT2Z3M0hNcXM0YW5XVC1RYms1SzMybGw0YlNzTndfQlpZQVV4dWNuVGs1VlpBSXRDSTR1enFHSDZmN21mcWVkeEVWLXZvaWtfWGZBTkluQVRXcUxIQkZqdUpzQ0h2U25RdUkwdWZ1SE9GMlhUVm0tMi14Yk1ZTFNUSkFwTktnSW82ZW1CN3RsNWYzY1hCUDdEZXVQMHlueWM4SFlIaVluekN4aUY5RVpaOXoyQQ?oc=5",
     "timestamp": "2026-05-03T10:31:09.009866+00:00",
     "status": "approved",
@@ -708,5 +658,10 @@
     "strict_hash": "bb346e0c0aef6ec10cba47a78f301db6",
     "fuzzy_hash": "f5291445c93c42edaf2a3d959bad62c1",
     "reason": "Новость касается военного конфликта между США и Ираном в Ормузском проливе, что является темой большой политики и военных действий, а не локальной новостью о Дубае или ОАЭ. Хотя упоминаются ОАЭ, основное содержание нарушает правило №2 (политика и конфликты)."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dld-launches-ai-powered-investor-health-index-to-ensure-market-stability",
+    "timestamp": "2026-05-05T09:13:42.913479+00:00",
+    "status": "published"
   }
 ]
