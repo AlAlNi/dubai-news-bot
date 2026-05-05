@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYkhOb2JQYTVsUUNQdkxtRmRhODdyR3ZRMmh2VHEtMkI3TGZDWV83b2tpRzl3cEU5Sk1qU2Mzakg1elJYak9oQzNmYWczZnBWNWNkdnZKYmpmaDd4X095Nk05SUp5N1VYV2o4NlFKNGtoSnlvWV83YnNnWFVvMFhwM29sTE0xVUlTek9pWG1XdVNNX0YzZGfSAagBQVVfeXFMTk9jQWhTQUtfSUVxc0tpNnpwRF9WRk1XWVNIMUNTWmtWeDduaUFwdGNwTUtTYnFxSldEc0VReVptTFpCQl9CXzBYNmducVJKQ0JMNEJfMFh3dXRSajdXRkdUN19jWGlFb1cyd1RBYkxQZjdJdm5Vd2xQN2FOODEwMVgzYVFWdzRJalQ1NzlfYXdKUGlRTjZaMm85OENsQ1J3VG1tQzRhX05U?oc=5",
-    "timestamp": "2026-05-03T00:07:54.034757+00:00",
-    "status": "rejected",
-    "content_hash": "ab719a9a5a4a3ece11e47475aede364a",
-    "strict_hash": "ab719a9a5a4a3ece11e47475aede364a",
-    "fuzzy_hash": "a66f000fef12e9d13ee5a46e52f68607",
-    "reason": "Новость представляет собой короткий заголовок о погоде в ОАЭ, что соответствует критерию связи с регионом и может быть полезно для русскоговорящих жителей. Однако текст крайне скуден, не содержит проверяемых фактов или ссылок на источник, а также выглядит как кликбейт без содержательной информации. По правилам 5 (достоверность) и 9 (проверяемый источник) новость следует отклонить."
-  },
-  {
-    "url": "https://propertynews.ae/uae/abu-dhabi/capital-growth-abu-dhabi-property-transactions-reach-aed-25-billion-milestone",
-    "timestamp": "2026-05-03T01:50:19.998169+00:00",
-    "status": "rejected",
-    "content_hash": "207d4f619e1d3db589ab3bdb86acc6a9",
-    "strict_hash": "207d4f619e1d3db589ab3bdb86acc6a9",
-    "fuzzy_hash": "1751f326ffd99e68ab307520bc983032",
-    "reason": "Новость посвящена рынку недвижимости Абу-Даби, что входит в регион ОАЭ, не содержит политики, рекламы или неуважения к ценностям. Текст выглядит естественно, но имеет признаки обобщённого аналитического материала без конкретных проверяемых фактов (нет ссылки на источник данных, даты, имена). Для русскоговорящего жителя Дубая новость может быть полезна, однако отсутствие явного URL и ссылки на первоисточник делает её непроверяемой по правилу 9. Кроме того, тема Абу-Даби, а не Дубая, что снижает прямую связь с каналом."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JU04xX09KaXFGNjZIYWxpQUwwMDhKd3JIdTlwbG0zcVo0YWpwOVdPY253NlVqVXNjTXpyaEJ3ZERZVllTdjI0WHc0cGw0QU9yRjgzbWItOU9fWkRXam5MRlA4cnNRc1pKZU1HT3J6dUxEZw?oc=5",
-    "timestamp": "2026-05-03T01:50:29.526651+00:00",
-    "status": "approved",
-    "content_hash": "c5f9db9d547fe6fd1d13087ee35c5147",
-    "strict_hash": "c5f9db9d547fe6fd1d13087ee35c5147",
-    "fuzzy_hash": "6f2a51e5042f05522e5a634540841bb9",
-    "reason": "approved"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52bUtkUHJIREo3VFpmRXJTbmJqZWNleXNNcHFYUm15NkozZnpScUJXVXpnc2llS2VwMGpXalRNZjh6UzhtZ0Y3aEZFVl96U0VYa1VBX3ZR?oc=5",
     "timestamp": "2026-05-03T04:27:41.707996+00:00",
     "status": "rejected",
@@ -707,5 +680,10 @@
     "strict_hash": "b164368ddb88401c1f1934d6b625d6b4",
     "fuzzy_hash": "64588fa82345979a3fe976f693fd00e7",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/new-dld-digital-framework-set-to-accelerate-global-institutional-investment-in-dubai",
+    "timestamp": "2026-05-05T03:42:35.680130+00:00",
+    "status": "published"
   }
 ]
