@@ -690,5 +690,23 @@
     "strict_hash": "16a28aef8d0ed351b6b2f4df10863607",
     "fuzzy_hash": "e1a8f35168a707687462bae2a684ffcf",
     "reason": "Новость касается судебного процесса в Индии по делу о терактах 1993 года, связанного с криминальным авторитетом Давудом Ибрагимом. Упоминание Дубая в заголовке не делает её значимой для русскоязычного жителя ОАЭ, так как основное содержание — это детали индийского правосудия, а не события в регионе. Кроме того, тема терроризма и политических конфликтов нарушает правило №2."
+  },
+  {
+    "url": "https://propertynews.ae/world/canadian-youth-savings-for-property-ownership-surpass-10-billion",
+    "timestamp": "2026-05-05T11:10:10.648951+00:00",
+    "status": "rejected",
+    "content_hash": "ee270c94d53ad317cada725e3b03fab8",
+    "strict_hash": "ee270c94d53ad317cada725e3b03fab8",
+    "fuzzy_hash": "a80f125a7356e584abea1be5e8cfa404",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.perthnow.com.au/news/the-nightly/dubai-airport-flights-disrupted-as-uae-intercepts-iran-missiles-and-drones-over-strait-of-hormuz-airspace-c-22234873",
+    "timestamp": "2026-05-05T11:10:18.604287+00:00",
+    "status": "approved",
+    "content_hash": "98aeb8e3365bc58f51bcb06678a3444c",
+    "strict_hash": "98aeb8e3365bc58f51bcb06678a3444c",
+    "fuzzy_hash": "cc5ad2c632e36959e6cda62c3eca2079",
+    "reason": "approved"
   }
 ]
