@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOU1FWG84eXJyNFpidzdFMTZnZHV2TjFqWXNZNEczLVhGTHRmdlQyQkNHSmxJd0hnVWFqejVCRzhyMUVDUGJUMC1uaW1qMW13RmQwcWluY1pSYnVHVHVTVGk0bDZuc3Z1bU5uZngwRmVSWFVSWlNyaGluM1FnUms5WFdrdVMxQmhEX0hwUldKX3JMeExtdU1SS2RLd1R5VE84a0RzTXVXbFlKY3FEeEpXUWIzNVJlUW1SQkhn?oc=5",
-    "timestamp": "2026-05-04T00:11:05.899528+00:00",
-    "status": "rejected",
-    "content_hash": "48b833cc3f35a1b144529ef87f7c4990",
-    "strict_hash": "48b833cc3f35a1b144529ef87f7c4990",
-    "fuzzy_hash": "0a6cd7d766f2aac88562f3356e4cde43",
-    "reason": "Новость касается судебного преследования в ОАЭ и возможных инвестиций из Дубая, что формально связано с регионом. Однако основная тема — политические обвинения и конфликт в Судане (Burhan, RSF), что нарушает правило №2 (политика и конфликты). Кроме того, текст выглядит как фрагмент, а не полноценная новость, и неясен его источник в контексте проверяемости."
-  },
-  {
-    "url": "https://whatson.ae/2026/05/watch-sheikh-mohammed-launches-dubai-metro-blue-line-tunnelling-works",
-    "timestamp": "2026-05-04T01:50:35.782774+00:00",
-    "status": "rejected",
-    "content_hash": "7822c54e51b69df192c990f4c138cd7b",
-    "strict_hash": "7822c54e51b69df192c990f4c138cd7b",
-    "fuzzy_hash": "f93eec74c64a2f1306923ec3407efd3e",
-    "reason": "Новость о запуске туннельных работ на Голубой линии метро Дубая шейхом Мохаммедом — это прямое продолжение уже опубликованной новости (пункт 4 из контекста: «Sheikh Mohammed inaugurates work for Dubai Metro Blue Line tunnels - Khaleej Times»). Тема, источник и суть идентичны, хотя текст взят с другого портала (What's On). Это явный дубликат."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPd012YlNTWDRjbnRsTDhjb2M2MUxZT0FEQ1g4eU4tOGo0X2RjR3l4dnBBRzV5RGUxY1ptR0ZLU204RGZ3Q25sMC1fWTBtWjVYcWtJeUJldW1iSUF1WGtYeW81Z0hFSEhrN28tNXV3QVJkblBvQzBMV29MVDg3MElnS3IyblBmTlpxRGhTVkNaSThydE9HMUFqM2RvSmRvY2NSeUNKYTF6N3M4eUZQSTBMRkppekRYSndTb3gyb0RUZm03Nkc2aXk2bnUtZWpkQU1VaU5lUnNGa0dHNHlFanJZVlFFRGdGbVF5OVJveXJkd0xPdjFYSWdyaE5reEo?oc=5",
-    "timestamp": "2026-05-04T01:50:44.041060+00:00",
-    "status": "approved",
-    "content_hash": "59b178a8fc908c42ff49697f1125424b",
-    "strict_hash": "59b178a8fc908c42ff49697f1125424b",
-    "fuzzy_hash": "528b7e894456871f9fc93f927e0e43b3",
-    "reason": "approved"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObFg3YTdiRzUyeVZUal9PeUVPZ0JhajA2aENXXzNoSDYyTEtQcklZTjRvYlFoYmlzd1lVaWs1TTN3Yy1MeDhuaGRRdTFtNmpjSExaUjgwUUNtRkVfT1Q0eTFkMUtTSDNVelp0RWs4V0c4R0JObkhJRVdlOWZ2UWFseXBtTFZxbnNaT2ZzUnpKd3JFUWowcVBFblE2Q1l2Z0hVcVgxS3JzcmRrMURmMHI3QXlB?oc=5",
     "timestamp": "2026-05-04T04:27:26.359543+00:00",
     "status": "rejected",
@@ -586,5 +559,10 @@
     "strict_hash": "4bf68eb7470bcbc2c82b75b188f92930",
     "fuzzy_hash": "73a268bd7ca2c1ecd67acb490bf2c960",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-land-department-launches-transparency-gold-seal-to-rate-developer-quality",
+    "timestamp": "2026-05-06T03:56:22.211312+00:00",
+    "status": "published"
   }
 ]
