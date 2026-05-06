@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.devdiscourse.com/article/business/3895577-dubai-airports-soar-as-uae-airspace-reopens",
-    "timestamp": "2026-05-04T20:47:44.219114+00:00",
-    "status": "rejected",
-    "content_hash": "5010cecf015c91b4489ffe99d84529d6",
-    "strict_hash": "5010cecf015c91b4489ffe99d84529d6",
-    "fuzzy_hash": "99b9e27cad73457669566df56414b428",
-    "reason": "Новость дублирует уже опубликованную информацию о снятии ограничений на полеты в ОАЭ (новость №2 в контексте), а также содержит упоминание «Iran war», что нарушает правило №2 (политика и конфликты). Текст обрывается и выглядит как незавершенный фрагмент."
-  },
-  {
-    "url": "https://propertynews.ae/business/green-synergy-uae-and-japan-seal-strategic-hydrogen-energy-pact",
-    "timestamp": "2026-05-04T20:58:05.775173+00:00",
-    "status": "approved",
-    "content_hash": "90a40c28f7dad1637731c97778a672d9",
-    "strict_hash": "90a40c28f7dad1637731c97778a672d9",
-    "fuzzy_hash": "32311764251a9edc00c8ae7432703ecc",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/uae/abu-dhabi/the-residency-revolution-abu-dhabis-new-investor-fast-track-hub-for-global-homeowners",
-    "timestamp": "2026-05-04T21:56:58.728311+00:00",
-    "status": "approved",
-    "content_hash": "1fdf966ac03b34e9260eef70f5bb158e",
-    "strict_hash": "1fdf966ac03b34e9260eef70f5bb158e",
-    "fuzzy_hash": "d823b56213fed32d0685d77d09739476",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/abu-dhabi/the-residency-revolution-abu-dhabis-new-investor-fast-track-hub-for-global-homeowners",
     "timestamp": "2026-05-04T22:10:33.821499+00:00",
     "status": "published"
@@ -590,5 +563,10 @@
     "strict_hash": "42b8f97c5c731fbb39ef795bcc158714",
     "fuzzy_hash": "13182e03168dc50a413e11fe0bd8965a",
     "reason": "Новость касается работы аэропорта Дубая (DXB) и возвращения к нормальному режиму после снятия ограничений на полеты — это напрямую связано с регионом и полезно для русскоязычных жителей. Однако текст обрывается на середине предложения, содержит признаки неполной или машинной генерации (повтор \"Dubai International Airport, also known as DXB did a job of k...\"), а также не указан проверяемый источник (URL). Кроме того, новость выглядит как устаревший или шаблонный дайджест, а не актуальное обновление."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/i-prefer-hiring-indians-dubai-based-emaar-founder-mohamed-alabbar-praises-work-ethic-and-discipline/articleshow/130847952.cms",
+    "timestamp": "2026-05-06T22:04:41.880750+00:00",
+    "status": "published"
   }
 ]
