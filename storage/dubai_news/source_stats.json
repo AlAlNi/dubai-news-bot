@@ -564,5 +564,14 @@
     "url": "https://propertynews.ae/uae/dubai/dubai-land-department-launches-transparency-gold-seal-to-rate-developer-quality",
     "timestamp": "2026-05-06T03:56:22.211312+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.express.co.uk/travel/articles/2202102/dubai-panic-businesses-beg-tourists",
+    "timestamp": "2026-05-06T04:12:44.944364+00:00",
+    "status": "rejected",
+    "content_hash": "7d28862191dfa1a0478a793dea28bb0b",
+    "strict_hash": "7d28862191dfa1a0478a793dea28bb0b",
+    "fuzzy_hash": "839b74ce1c170da01207b435c289cd0b",
+    "reason": "Новость отклоняется, так как содержит признаки кликбейта и панического тона (\"panic\", \"ghost town\"), что нарушает правило 5 (естественность и достоверность) и может быть воспринято как неуважение к стабильности ОАЭ (правило 4). Кроме того, тема напрямую связана с политическим конфликтом (правило 2), что недопустимо для канала."
   }
 ]
