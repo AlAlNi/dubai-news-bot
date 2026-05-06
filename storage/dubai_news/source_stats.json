@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://www.scmp.com/business/commodities/article/3352334/gold-rush-hong-kong-sees-sudden-jump-bullion-imports-dubai-amid-us-iran-war",
-    "timestamp": "2026-05-04T19:04:22.309561+00:00",
-    "status": "rejected",
-    "content_hash": "d9e15fa74887ee1759454ed3ff05fc8a",
-    "strict_hash": "d9e15fa74887ee1759454ed3ff05fc8a",
-    "fuzzy_hash": "ee0ee21a847962a25a2fad36861da37d",
-    "reason": "Новость о росте импорта золота из Дубая в Гонконг на фоне напряжённости между США и Ираном имеет косвенную связь с регионом (Дубай как транзитный хаб), но основная тема — международная политика и конфликт (война), что нарушает правило №2. Кроме того, текст не представляет практического интереса для русскоязычного жителя Дубая и выглядит как фрагмент аналитики, а не оперативная новость."
-  },
-  {
-    "url": "https://propertynews.ae/business/blue-horizons-difc-unveils-worlds-first-regulatory-framework-for-ocean-based-finance",
-    "timestamp": "2026-05-04T19:13:24.347347+00:00",
-    "status": "approved",
-    "content_hash": "e459529e96a3cd8876a0013881ec7ad7",
-    "strict_hash": "e459529e96a3cd8876a0013881ec7ad7",
-    "fuzzy_hash": "62b369a3dc8f113a9061ccd46d03578d",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/business/blue-horizons-difc-unveils-worlds-first-regulatory-framework-for-ocean-based-finance",
-    "timestamp": "2026-05-04T20:23:05.209156+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.devdiscourse.com/article/business/3895577-dubai-airports-soar-as-uae-airspace-reopens",
     "timestamp": "2026-05-04T20:47:44.219114+00:00",
     "status": "rejected",
@@ -581,5 +558,10 @@
     "strict_hash": "48c18cb389d10b8649e911d9aa112331",
     "fuzzy_hash": "1be0a656a3da340e2b87fe484fb555da",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/parking-powerhouse-parkin-reports-41-revenue-surge-in-q1-2026",
+    "timestamp": "2026-05-06T20:41:37.512306+00:00",
+    "status": "published"
   }
 ]
