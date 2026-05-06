@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObFg3YTdiRzUyeVZUal9PeUVPZ0JhajA2aENXXzNoSDYyTEtQcklZTjRvYlFoYmlzd1lVaWs1TTN3Yy1MeDhuaGRRdTFtNmpjSExaUjgwUUNtRkVfT1Q0eTFkMUtTSDNVelp0RWs4V0c4R0JObkhJRVdlOWZ2UWFseXBtTFZxbnNaT2ZzUnpKd3JFUWowcVBFblE2Q1l2Z0hVcVgxS3JzcmRrMURmMHI3QXlB?oc=5",
-    "timestamp": "2026-05-04T04:27:26.359543+00:00",
-    "status": "rejected",
-    "content_hash": "803f4d086956b1f08cc05ebb4d5af713",
-    "strict_hash": "803f4d086956b1f08cc05ebb4d5af713",
-    "fuzzy_hash": "1d3474e3537c9f2cc0f43c6753da0fe5",
-    "reason": "Новость отклоняется, так как её основная тема — влияние военного конфликта (Иран) на пассажиропоток в Дубае, что нарушает правило №2 (политика и конфликты). Кроме того, заголовок содержит кликбейт и ссылается на устаревшие или непроверенные данные, что противоречит правилам №5 и №9."
-  },
-  {
-    "url": "https://whatson.ae/2026/05/good-news-dubai-airport-boosts-flights-as-airspace-reopens",
-    "timestamp": "2026-05-04T05:25:31.016492+00:00",
-    "status": "rejected",
-    "content_hash": "7b8ab26816dbe2c7d1dee355d6415660",
-    "strict_hash": "7b8ab26816dbe2c7d1dee355d6415660",
-    "fuzzy_hash": "56989f5aca0cfab765c4e3e7b0136daf",
-    "reason": "Новость дублирует уже опубликованный материал под номером 1 (о снятии ограничений на полеты после атак Ирана). Тема идентична, источник тот же (What's On), и текст является пересказом той же информации. Нарушение правила 7 (дубликаты)."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/wealth/real-estate/mumbais-60-billion-makeover-sees-sea-bridges-6-metro-lines-new-airport-can-it-match-singapore-or-dubai/slideshow/130737311.cms",
-    "timestamp": "2026-05-04T05:25:34.067423+00:00",
-    "status": "rejected",
-    "content_hash": "b25baf62d94f7f54f269e9cc82838d33",
-    "strict_hash": "b25baf62d94f7f54f269e9cc82838d33",
-    "fuzzy_hash": "7a115ca4f3e33aa6d664de404b4b8a6e",
-    "reason": "Новость рассказывает об инфраструктурном проекте в Мумбаи, а не в Дубае или ОАЭ. Связь с регионом отсутствует, тема не представляет интереса для русскоязычного жителя Дубая."
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOalFxV2FPRmR6OVNSTnlzaEJPSXRNbHl0R0FpNDZKa2ZUelFtTVNhZU9GS1o1R1Q4dmEtNzViZGpDN3NiUV9mVzRqWHNKeVJpSDhuRnZ1Sk1Jcm14dkVqYTFGWm9yY050NV9SRm9zeXhpcGxfV093eXRWaDlZekhMNy0yN29PVXV5Sms3YUdtUEE2MTlrSXNhSHdHTUxYaU5EaFFGZWpxODR6Qnl1MDlpZnNKRDhPTjdhRUo5aDZIR3Y4Y1c2bzlfdHBn?oc=5",
     "timestamp": "2026-05-04T07:36:25.351633+00:00",
     "status": "approved",
@@ -591,5 +564,10 @@
     "strict_hash": "7e9e67e90f9351d899f2c5f2d8d4e601",
     "fuzzy_hash": "83e48e503699992e8812cc38be5f0641",
     "reason": "Новость не подходит: она содержит ложную информацию о конфликте между ОАЭ и Ираном (такого конфликта нет), что нарушает правило 4 (уважение к ценностям UAE) и правило 2 (политика и конфликты). Кроме того, тема не связана с интересами русскоговорящего жителя Дубая (правило 6)."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/wealth/invest/gold-rates-today-may-5-2026-check-prices-of-24k-22k-and-18k-gold-in-dubai-abu-dhabi-riyadh-kuwait-city-doha-muscat/gold-rates-in-dubai-and-abu-dhabi/slideshow/130822896.cms",
+    "timestamp": "2026-05-06T06:38:40.672545+00:00",
+    "status": "published"
   }
 ]
