@@ -1,55 +1,5 @@
 [
   {
-    "url": "https://www.bollywoodhungama.com/news/bollywood/ameesha-patel-stuck-at-dubai-airport-amid-flight-cancellations-cant-wait-to-get-home-to-mumbai",
-    "timestamp": "2026-05-05T17:04:41.316736+00:00",
-    "status": "rejected",
-    "content_hash": "1e222ad8a70dc440047408d57f5d61b1",
-    "strict_hash": "1e222ad8a70dc440047408d57f5d61b1",
-    "fuzzy_hash": "c1ec3376bee794e61be026a41aa85fc0",
-    "reason": "Новость о застрявшей в аэропорту Дубая индийской актрисе имеет слабую связь с регионом (просто локация), не несёт пользы для русскоязычных жителей и выглядит как развлекательный контент, а не общественно значимая информация. Кроме того, это типичная история о знаменитости, не затрагивающая интересы местной аудитории."
-  },
-  {
-    "url": "https://propertynews.ae/guide/the-2026-digital-residency-vault-mastering-the-uae-pass-for-family-logistics",
-    "timestamp": "2026-05-05T17:13:21.812630+00:00",
-    "status": "rejected",
-    "content_hash": "65c5a021a7c0e2bd7bb94658850b16a9",
-    "strict_hash": "65c5a021a7c0e2bd7bb94658850b16a9",
-    "fuzzy_hash": "878edaacc3b2c186f094d1172e30e604",
-    "reason": "Новость носит рекламно-информационный характер, продвигает возможности UAE Pass и не содержит конкретной новостной ценности или проверяемых фактов о реальных изменениях. Текст выглядит как обобщённый пресс-релиз без указания даты, источника изменений или ссылки на официальный анонс, что нарушает правила проверяемости и естественности."
-  },
-  {
-    "url": "https://www.timesnownews.com/business-economy/economy/dubai-realty-shows-resilience-stays-steady-despite-war-tensions-article-154248367",
-    "timestamp": "2026-05-05T17:13:26.819705+00:00",
-    "status": "rejected",
-    "content_hash": "da34238c8dffca2e855b4c6527ef10e1",
-    "strict_hash": "da34238c8dffca2e855b4c6527ef10e1",
-    "fuzzy_hash": "c4df52d3a7fec66fcc4f8a0c08099ed2",
-    "reason": "Новость не подходит для публикации: она содержит упоминание войны (Иран) и политической напряжённости, что нарушает правило 2 (политика и конфликты), а также имеет признаки кликбейта и неясный источник (iStock не является проверяемым новостным источником)."
-  },
-  {
-    "url": "https://www.middleeasteye.net/news/uae-dubai-tourism-industry-reels-foreigners-flee",
-    "timestamp": "2026-05-05T18:54:18.307414+00:00",
-    "status": "rejected",
-    "content_hash": "0a2d87ff8a8c50aadf1f100a9fa1cac9",
-    "strict_hash": "0a2d87ff8a8c50aadf1f100a9fa1cac9",
-    "fuzzy_hash": "fed6297737e2a7c7fda3f66b63b472d6",
-    "reason": "Новость нарушает правило №2 (политика и конфликты), так как основная тема — влияние войны США и Израиля с Ираном на туризм Дубая, что является прямой отсылкой к военному конфликту. Также присутствует негативный контекст, который может быть воспринят как неуважение к стабильности ОАЭ (правило №4). Новость не соответствует формату канала."
-  },
-  {
-    "url": "https://propertynews.ae/business/new-financial-treaty-strengthens-economic-ties-between-uae-and-kuwait",
-    "timestamp": "2026-05-05T19:04:19.694922+00:00",
-    "status": "approved",
-    "content_hash": "6556bd7717d3c2db02ae178655dee3b6",
-    "strict_hash": "6556bd7717d3c2db02ae178655dee3b6",
-    "fuzzy_hash": "5eee420ed013ab22eb87aee88ed52c1d",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/business/new-financial-treaty-strengthens-economic-ties-between-uae-and-kuwait",
-    "timestamp": "2026-05-05T20:13:51.644498+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.business-standard.com/finance/personal-finance/layover-in-dubai-new-rules-clarify-refunds-delays-and-baggage-norms-126050500670_1.html",
     "timestamp": "2026-05-05T20:39:56.140646+00:00",
     "status": "approved",
@@ -612,5 +562,10 @@
     "strict_hash": "88a3144c10ef72af3ea72a69e8ec764f",
     "fuzzy_hash": "ee64c58a9d85288861f7c5daf332fd90",
     "reason": "Новость представляет собой ежедневную сводку цен на золото в регионе, что является типичным сервисным контентом для русскоязычных жителей Дубая, интересующихся инвестициями и покупками. Однако в тексте есть орфографическая ошибка в заголовке (\"Chcek\"), а также признаки шаблонной или автоматически сгенерированной информации без указания конкретного проверяемого источника (URL не указан). Кроме того, новость не является уникальной — подобные ежедневные сводки о ценах на золото уже публиковались ранее, что делает её дубликатом по сути."
+  },
+  {
+    "url": "https://propertynews.ae/business/expanding-horizons-uae-and-costa-rica-finalize-new-trade-implementation-roadmap",
+    "timestamp": "2026-05-07T20:21:14.427257+00:00",
+    "status": "published"
   }
 ]
