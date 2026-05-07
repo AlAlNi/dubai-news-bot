@@ -1,60 +1,5 @@
 [
   {
-    "url": "https://www.news18.com/world/iran-breaches-ceasefire-with-strike-on-uae-first-attack-since-april-8-ws-l-10074096.html",
-    "timestamp": "2026-05-05T04:41:12.991745+00:00",
-    "status": "rejected",
-    "content_hash": "fad9ed855ab910beb4651b93cea9dea2",
-    "strict_hash": "fad9ed855ab910beb4651b93cea9dea2",
-    "fuzzy_hash": "b0c6a4f05acbd16731db7c99940fefe9",
-    "reason": "Новость явно нарушает правило №2 (политика и конфликты) — основная тема связана с военными действиями и нарушением режима прекращения огня, что является большой политикой и конфликтом. Также есть признаки недостоверности (ссылка на \"allegedly\" без подтверждения из официальных источников ОАЭ), что нарушает правило №5. Новость не соответствует ценностям UAE (правило №4) и не является проверяемой (правило №9)."
-  },
-  {
-    "url": "https://propertynews.ae/gcc/kuwait-finance-house-introduces-first-green-mortgages-to-support-sustainable-living",
-    "timestamp": "2026-05-05T04:55:13.314420+00:00",
-    "status": "rejected",
-    "content_hash": "db911c8e88579b80a1cf7c8a100a9606",
-    "strict_hash": "db911c8e88579b80a1cf7c8a100a9606",
-    "fuzzy_hash": "d30d5cac7d36ae09efa10ee27ae27886",
-    "reason": "Новость о запуске «зеленой ипотеки» в Кувейте не имеет прямой связи с Дубаем, ОАЭ или регионом GCC в контексте, актуальном для русскоязычного жителя Дубая. Это локальное событие для Кувейта, которое не представляет интереса для целевой аудитории канала."
-  },
-  {
-    "url": "https://www.manchestereveningnews.co.uk/news/world-news/uae-says-iran-resumed-attacks-33886924",
-    "timestamp": "2026-05-05T04:55:15.130789+00:00",
-    "status": "rejected",
-    "content_hash": "c1890220c0b004f451e9aaf336c11f3a",
-    "strict_hash": "c1890220c0b004f451e9aaf336c11f3a",
-    "fuzzy_hash": "697610a8d339d115036efb8fddce0a72",
-    "reason": "Новость явно нарушает правило №2 (политика и конфликты), так как основная тема — военные действия между Ираном и ОАЭ, а также геополитический кризис в Ормузском проливе. Это не соответствует формату новостного канала о жизни в Дубае."
-  },
-  {
-    "url": "https://propertynews.ae/business/green-synergy-uae-and-japan-seal-strategic-hydrogen-energy-pact",
-    "timestamp": "2026-05-05T06:25:17.906320+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/dld-launches-ai-powered-investor-health-index-to-ensure-market-stability",
-    "timestamp": "2026-05-05T07:11:44.929337+00:00",
-    "status": "approved",
-    "content_hash": "ee35cca4f0c68fddb4a804b9cd56bd17",
-    "strict_hash": "ee35cca4f0c68fddb4a804b9cd56bd17",
-    "fuzzy_hash": "eda49689e49a045316118aed3ad22d5f",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.sootoday.com/world-news/the-us-fights-to-reopen-the-strait-of-hormuz-as-the-uae-comes-under-attack-in-a-test-of-iran-truce-12230427",
-    "timestamp": "2026-05-05T07:30:55.506708+00:00",
-    "status": "rejected",
-    "content_hash": "bb346e0c0aef6ec10cba47a78f301db6",
-    "strict_hash": "bb346e0c0aef6ec10cba47a78f301db6",
-    "fuzzy_hash": "f5291445c93c42edaf2a3d959bad62c1",
-    "reason": "Новость касается военного конфликта между США и Ираном в Ормузском проливе, что является темой большой политики и военных действий, а не локальной новостью о Дубае или ОАЭ. Хотя упоминаются ОАЭ, основное содержание нарушает правило №2 (политика и конфликты)."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/dld-launches-ai-powered-investor-health-index-to-ensure-market-stability",
-    "timestamp": "2026-05-05T09:13:42.913479+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://propertynews.ae/uae/abu-dhabi/sustainable-savings-abu-dhabi-launches-lower-mortgage-rates-for-eco-friendly-homes",
     "timestamp": "2026-05-05T09:52:40.154326+00:00",
     "status": "rejected",
@@ -621,5 +566,10 @@
     "strict_hash": "29cc21942892450bd9d06b50fe2c98ab",
     "fuzzy_hash": "38d5918331126224ce37fa1a5b44c7df",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/difc-launches-groundbreaking-regulations-for-venture-studios-to-fuel-startup-growth",
+    "timestamp": "2026-05-07T09:42:16.876318+00:00",
+    "status": "published"
   }
 ]
