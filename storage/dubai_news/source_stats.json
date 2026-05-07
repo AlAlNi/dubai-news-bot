@@ -567,5 +567,23 @@
     "url": "https://propertynews.ae/uae/sharjah/new-regulatory-framework-launched-to-professionalize-sharjahs-brokerage-sector",
     "timestamp": "2026-05-07T16:59:35.680631+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://propertynews.ae/guide/hydro-homes-the-2026-trend-of-integrated-indoor-vertical-farming",
+    "timestamp": "2026-05-07T17:40:51.732442+00:00",
+    "status": "rejected",
+    "content_hash": "c8bf256729f4bb572a6296e239ab2a4a",
+    "strict_hash": "c8bf256729f4bb572a6296e239ab2a4a",
+    "fuzzy_hash": "745ced53fb744b067a8535645518011e",
+    "reason": "Новость выглядит как рекламно-инфоповод, продвигающий концепцию «Hydro-Homes» и конкретный сайт PropertyNews.ae, без указания проверяемого источника (ссылки на официальные документы Министерства или DEWA). Текст имеет признаки ИИ-генерации и кликбейта, а также не содержит явной общественно значимой новости для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.hindustantimes.com/lifestyle/fashion/ai-imagines-what-kareena-kapoor-would-look-in-dubai-australia-fans-swoon-over-japanese-avatar-china-russia-ukraine-video-101778124654322.html",
+    "timestamp": "2026-05-07T17:40:55.139889+00:00",
+    "status": "rejected",
+    "content_hash": "33753c8ab65953eef9bf07db81b49741",
+    "strict_hash": "33753c8ab65953eef9bf07db81b49741",
+    "fuzzy_hash": "c50da43e04eb2b73b4e6e82af0561562",
+    "reason": "Новость не имеет отношения к Дубаю, ОАЭ или региону GCC — речь идёт о том, как ИИ представляет индийскую актрису в образах разных стран, включая Дубай, но это лишь элемент развлекательного контента без реальной связи с жизнью в Эмиратах. Кроме того, текст выглядит как типичная развлекательная статья без общественно значимой информации для русскоязычного жителя Дубая."
   }
 ]
