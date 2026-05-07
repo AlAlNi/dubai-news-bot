@@ -581,5 +581,23 @@
     "strict_hash": "b4f4e09f1256727f440dfc734cbd92b3",
     "fuzzy_hash": "8c4fc7a6019a2baac6003a348bc4b7c7",
     "reason": "Новость является корпоративным объявлением индийской компании о заседании совета директоров, связанном с приобретением фирмы в Дубае. Однако текст не содержит общественно значимой информации для русскоязычных жителей Дубая, выглядит как сухой пресс-релиз для биржевых инвесторов и не представляет интереса для аудитории канала."
+  },
+  {
+    "url": "https://propertynews.ae/world/los-angeles-micro-community-zoning-reshapes-the-luxury-housing-supply-chain",
+    "timestamp": "2026-05-07T01:54:33.620449+00:00",
+    "status": "rejected",
+    "content_hash": "3d7f4baac1f4f5ad0fa706e5590661db",
+    "strict_hash": "3d7f4baac1f4f5ad0fa706e5590661db",
+    "fuzzy_hash": "31c9d2a1914c9302b1deb6da4e0405b4",
+    "reason": "Новость полностью посвящена изменениям в зонировании и рынке жилья в Лос-Анджелесе, не имеет никакой связи с Дубаем, ОАЭ или регионом GCC, а также не представляет интереса для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.freightwaves.com/news/fedex-wins-war-waiver-for-dubai-cargo-route",
+    "timestamp": "2026-05-07T01:54:41.723145+00:00",
+    "status": "approved",
+    "content_hash": "95911ee9e07acbd040ca990715e5bf51",
+    "strict_hash": "95911ee9e07acbd040ca990715e5bf51",
+    "fuzzy_hash": "0a3c046496a6017f7a57bd14d7e3b8b4",
+    "reason": "approved"
   }
 ]
