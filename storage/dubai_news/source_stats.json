@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.timesnownews.com/world/middle-east/iran-war-update-strait-of-hormuz-cargo-ship-missile-attack-near-dubai-article-154255268",
-    "timestamp": "2026-05-06T12:15:11.892176+00:00",
-    "status": "rejected",
-    "content_hash": "f540af357022a30ce7a0f155c3140005",
-    "strict_hash": "f540af357022a30ce7a0f155c3140005",
-    "fuzzy_hash": "b48c9ad3ffc3483e274172014d9f7fa0",
-    "reason": "Новость не подходит для публикации: она касается военного инцидента с ракетным ударом по судну в Персидском заливе, что относится к большой политике и конфликтам (правило 2), а также не имеет прямой связи с Дубаем или ОАЭ (правило 1) — судно французское, инцидент связан с напряженностью в Ормузском проливе, а не с местными событиями."
-  },
-  {
-    "url": "https://propertynews.ae/world/tech-led-expansion-fuels-property-value-growth-in-western-australia",
-    "timestamp": "2026-05-06T12:23:53.099442+00:00",
-    "status": "rejected",
-    "content_hash": "d6a17f3e72f418ba660f3c771019e4af",
-    "strict_hash": "d6a17f3e72f418ba660f3c771019e4af",
-    "fuzzy_hash": "0bc6c4369fbbf14eeb6d51d78a2911ee",
-    "reason": "Новость не связана с Дубаем или ОАЭ — основное содержание посвящено рынку недвижимости в Западной Австралии, а упоминание ОАЭ носит второстепенный сравнительный характер. Кроме того, текст имеет признаки рекламного или аналитического материала без конкретной общественно значимой новости для русскоязычного жителя Дубая."
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/world/us/indian-origin-techie-doctor-duo-considers-moving-to-dubai-no-green-card-cant-visit-home-on-h-1b/articleshow/130834721.cms",
-    "timestamp": "2026-05-06T12:23:55.708702+00:00",
-    "status": "rejected",
-    "content_hash": "52d8f3902e42ea367a857799ab5b249d",
-    "strict_hash": "52d8f3902e42ea367a857799ab5b249d",
-    "fuzzy_hash": "32021d81e7b9d2ad7a7783c98387e395",
-    "reason": "Новость не подходит: это история о паре врачей, рассматривающих переезд в Дубай из-за проблем с американской визой, что не является общественно значимой новостью для русскоязычных жителей Дубая, а скорее частным случаем без проверяемого источника и явной связи с регионом (Дубай упоминается лишь как гипотетическая цель)."
-  },
-  {
     "url": "https://www.lokmattimes.com/international/france-owned-cargo-ship-hit-by-cruise-missile-near-dubai-amid-strait-of-hormuz-standoff-crew-members-injured-a517",
     "timestamp": "2026-05-06T15:11:33.044610+00:00",
     "status": "rejected",
@@ -631,5 +604,10 @@
     "strict_hash": "621e5d009956467d2787985153c40580",
     "fuzzy_hash": "c3195081d9883d18783cc9827021750d",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/ras-al-khaimah/remote-work-influx-drives-rak-residential-occupancy-to-historic-highs",
+    "timestamp": "2026-05-08T14:59:29.101261+00:00",
+    "status": "published"
   }
 ]
