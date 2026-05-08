@@ -1,42 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/business/parking-powerhouse-parkin-reports-41-revenue-surge-in-q1-2026",
-    "timestamp": "2026-05-06T20:41:37.512306+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/world/middle-east/i-prefer-hiring-indians-dubai-based-emaar-founder-mohamed-alabbar-praises-work-ethic-and-discipline/articleshow/130847952.cms",
-    "timestamp": "2026-05-06T20:52:56.084093+00:00",
-    "status": "approved",
-    "content_hash": "f842fdc3a3702ffadd372473f8c1ca5d",
-    "strict_hash": "f842fdc3a3702ffadd372473f8c1ca5d",
-    "fuzzy_hash": "ea0e8604abe6e066d51aaf7ac7fa6cd4",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/uae/abu-dhabi/prop-audit-2026-mandatory-energy-efficiency-ratings-to-drive-abu-dhabi-property-value",
-    "timestamp": "2026-05-06T21:02:26.958791+00:00",
-    "status": "rejected",
-    "content_hash": "4be2bdf0203b8c3322ec0bdb49420f05",
-    "strict_hash": "4be2bdf0203b8c3322ec0bdb49420f05",
-    "fuzzy_hash": "ae20b06c61cc73b83d02facc34871759",
-    "reason": "Новость об обязательной энергоэффективности в Абу-Даби не имеет прямой связи с Дубаем (событие происходит в другом эмирате), а также содержит признаки рекламного пресс-релиза с продвижением конкретного сайта и неочевидной проверяемостью источника."
-  },
-  {
-    "url": "https://www.newsx.com/middle-east/dubai-international-airport-latest-update-dxb-returns-to-normal-operations-passengers-advised-to-check-flight-status-213311",
-    "timestamp": "2026-05-06T21:02:30.036315+00:00",
-    "status": "rejected",
-    "content_hash": "42b8f97c5c731fbb39ef795bcc158714",
-    "strict_hash": "42b8f97c5c731fbb39ef795bcc158714",
-    "fuzzy_hash": "13182e03168dc50a413e11fe0bd8965a",
-    "reason": "Новость касается работы аэропорта Дубая (DXB) и возвращения к нормальному режиму после снятия ограничений на полеты — это напрямую связано с регионом и полезно для русскоязычных жителей. Однако текст обрывается на середине предложения, содержит признаки неполной или машинной генерации (повтор \"Dubai International Airport, also known as DXB did a job of k...\"), а также не указан проверяемый источник (URL). Кроме того, новость выглядит как устаревший или шаблонный дайджест, а не актуальное обновление."
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/world/middle-east/i-prefer-hiring-indians-dubai-based-emaar-founder-mohamed-alabbar-praises-work-ethic-and-discipline/articleshow/130847952.cms",
-    "timestamp": "2026-05-06T22:04:41.880750+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.newsx.com/world/dubai-massive-fire-breaks-out-in-under-construction-50-storey-building-amid-iran-war-triggers-social-media-warning-leave-dubai-its-not-safe-213506",
     "timestamp": "2026-05-06T22:13:32.568618+00:00",
     "status": "rejected",
@@ -633,5 +596,10 @@
     "strict_hash": "cfd5bb301b7a55d31e26c861122eca2f",
     "fuzzy_hash": "e04101b14cc28d4e8e4311408b42495e",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/beyond-the-classroom-abu-dhabi-debuts-school-integrated-living-in-al-shamkha",
+    "timestamp": "2026-05-08T22:06:25.952114+00:00",
+    "status": "published"
   }
 ]
