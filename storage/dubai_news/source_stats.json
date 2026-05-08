@@ -581,5 +581,23 @@
     "strict_hash": "a9e1a381c435580b2c2a80195ad728a7",
     "fuzzy_hash": "79cb33c782d913df469aad3c0eb19e46",
     "reason": "Новость о личных ощущениях британской знаменитости не имеет общественно значимой связи с Дубаем или ОАЭ, не представляет интереса для русскоязычных жителей и не содержит проверяемых фактов, относящихся к региону."
+  },
+  {
+    "url": "https://propertynews.ae/business/scaling-the-food-chain-abu-dhabis-industrial-food-sector-reaches-3-6-billion",
+    "timestamp": "2026-05-08T08:18:16.103785+00:00",
+    "status": "rejected",
+    "content_hash": "248f3fe94aeaac975b4fe4662cbf5df3",
+    "strict_hash": "248f3fe94aeaac975b4fe4662cbf5df3",
+    "fuzzy_hash": "f0eee74d2357b8f985983b2945bcd8c1",
+    "reason": "Новость об успехах пищевой промышленности Абу-Даби имеет прямое отношение к ОАЭ, не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и достоверно, а также может быть полезна русскоязычным жителям, интересующимся экономикой региона. Однако это не новость о Дубае, а об Абу-Даби, что снижает её релевантность для канала, посвящённого именно Дубаю. Кроме того, в контексте нет дубликатов, но тема не является критически важной для повседневной жизни в Дубае."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1laTdZT0xaRTNBR2tSSklTaHdpa0xxMWtxNkNlNzVCN2I0SVYwWlczcV9jcXRFSElpTnBIN1VKQUt5dF9mVmRQWTlmaDdKM0w4Y1RtbGp6VG16MkczMm1HaGJNUW9QNGVINUhISVNQNHFXYU9JZnhMa1k5dw?oc=5",
+    "timestamp": "2026-05-08T08:18:17.032245+00:00",
+    "status": "rejected",
+    "content_hash": "519c155521a1eaf3ea3d535316e60fc0",
+    "strict_hash": "519c155521a1eaf3ea3d535316e60fc0",
+    "fuzzy_hash": "9880c14d8d9593c6dee776e7f92a6904",
+    "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
   }
 ]
