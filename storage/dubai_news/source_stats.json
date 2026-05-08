@@ -618,5 +618,23 @@
     "strict_hash": "4208ef80bc0c351260aea266ef2a83d7",
     "fuzzy_hash": "275213dcdf80522f0bdfffeb4956e5ed",
     "reason": "Новость содержит неподтверждённые сообщения о взрывах и перехвате ракет в Дубае и Абу-Даби, что относится к военным конфликтам и большой политике, а также может быть воспринято как неуважение к безопасности ОАЭ. Источник — социальные сети и OSINT-аккаунты, что не является проверяемым официальным источником."
+  },
+  {
+    "url": "https://propertynews.ae/uae/sharjah/sustainable-growth-sharjah-introduces-urban-farming-permits-for-residential-communities",
+    "timestamp": "2026-05-08T16:09:19.449823+00:00",
+    "status": "rejected",
+    "content_hash": "64f08ce01e765c055cb35722ee40c373",
+    "strict_hash": "64f08ce01e765c055cb35722ee40c373",
+    "fuzzy_hash": "3dab39e0210219fa96eeedb535347f4e",
+    "reason": "priority=2 quality gate: score 50 < 60"
+  },
+  {
+    "url": "https://www.lokmattimes.com/international/iran-launches-fresh-barrage-of-missiles-and-drones-at-uae-dubai-air-defence-systems-activated-a517",
+    "timestamp": "2026-05-08T16:09:22.548740+00:00",
+    "status": "rejected",
+    "content_hash": "bcf54418efc81cc1edb6d79dd544f7aa",
+    "strict_hash": "bcf54418efc81cc1edb6d79dd544f7aa",
+    "fuzzy_hash": "e7a2c5ea66df30c9d49e32207a9ab9cb",
+    "reason": "Новость содержит явную связь с регионом (Дубай/ОАЭ), но её основная тема — военный конфликт и ракетные удары, что нарушает правило №2 (политика и конфликты). Кроме того, такая информация может быть воспринята как неуважение к стабильности ОАЭ (правило №4) и не соответствует интересам русскоязычного жителя, которому нужны проверенные, не тревожные новости."
   }
 ]
