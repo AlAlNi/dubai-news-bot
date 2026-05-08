@@ -1,71 +1,5 @@
 [
   {
-    "script": "auto_notify",
-    "started_at": "2026-05-02T23:55:31.302747+00:00",
-    "finished_at": "2026-05-02T23:55:32.556492+00:00",
-    "duration_seconds": 1.254,
-    "success": true,
-    "status": "published",
-    "counters": {
-      "telegram_calls": 1,
-      "telegram_failures": 0,
-      "published": 1,
-      "duplicate_skips": 0,
-      "no_posts": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-05-02",
-      "daily": {
-        "published_per_day": {
-          "value": 12,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 69.23,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.tribuneindia.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "news.google.com",
-            "events": 14,
-            "reject_rate": 92.86,
-            "duplicate_rate": 14.29
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
     "script": "rss_collect",
     "started_at": "2026-05-03T00:07:48.123086+00:00",
     "finished_at": "2026-05-03T00:07:54.035984+00:00",
@@ -13589,5 +13523,66 @@
         ]
       }
     }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-05-08T20:12:10.356080+00:00",
+    "finished_at": "2026-05-08T20:12:10.988743+00:00",
+    "duration_seconds": 0.633,
+    "success": false,
+    "status": "telegram_error",
+    "counters": {
+      "telegram_calls": 1,
+      "telegram_failures": 1,
+      "published": 0,
+      "duplicate_skips": 0,
+      "no_posts": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-05-08",
+      "daily": {
+        "published_per_day": {
+          "value": 9,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 75.0,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.newsx.com",
+            "events": 9,
+            "reject_rate": 100.0,
+            "duplicate_rate": 22.22
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    },
+    "error": "telegram_api_error"
   }
 ]
