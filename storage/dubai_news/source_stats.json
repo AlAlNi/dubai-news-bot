@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/abu-dhabi/the-new-waterfront-frontier-al-bateens-heritage-inspired-luxury-expansion",
-    "timestamp": "2026-05-06T10:56:12.605256+00:00",
-    "status": "rejected",
-    "content_hash": "ecb14ecf106b1ae07152cd433159677d",
-    "strict_hash": "ecb14ecf106b1ae07152cd433159677d",
-    "fuzzy_hash": "9dd0380eab235fbaa3bba44d9b41a810",
-    "reason": "Новость не подходит для публикации: она посвящена Абу-Даби, а не Дубаю/ОАЭ в целом, и не содержит явной связи с Дубаем. Кроме того, текст носит рекламно-описательный характер о недвижимости, без общественно значимой новости, и не представляет интереса для русскоговорящего жителя Дубая."
-  },
-  {
-    "url": "https://7news.com.au/news/world/dubai-airport-chaos-as-airlines-suspend-flights-amid-iranian-missile-strikes-on-the-united-arab-emirates-c-22240824",
-    "timestamp": "2026-05-06T10:56:14.972585+00:00",
-    "status": "rejected",
-    "content_hash": "872dfcecde3fdf9a326360e07ed46b81",
-    "strict_hash": "872dfcecde3fdf9a326360e07ed46b81",
-    "fuzzy_hash": "4648425e75a397cd0b4f13e67a200b1a",
-    "reason": "Новость явно нарушает правило №2 (политика и конфликты), так как основная тема — ракетные удары и военные действия, что недопустимо для канала о Дубае. Также она не соответствует правилу №4 (уважение к ценностям UAE), так как описывает кризисную ситуацию, которая может быть воспринята как негативная для имиджа страны."
-  },
-  {
     "url": "https://www.timesnownews.com/world/middle-east/iran-war-update-strait-of-hormuz-cargo-ship-missile-attack-near-dubai-article-154255268",
     "timestamp": "2026-05-06T12:15:11.892176+00:00",
     "status": "rejected",
@@ -626,5 +608,10 @@
     "strict_hash": "097b4942e060b216e474205fe9f7180e",
     "fuzzy_hash": "6551b39b100bc765a537184f6a80b0cc",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/the-24-7-shoreline-how-dubais-dh3-billion-night-beach-project-is-driving-coastal-value",
+    "timestamp": "2026-05-08T12:15:04.238153+00:00",
+    "status": "published"
   }
 ]
