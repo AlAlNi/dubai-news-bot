@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.lokmattimes.com/international/france-owned-cargo-ship-hit-by-cruise-missile-near-dubai-amid-strait-of-hormuz-standoff-crew-members-injured-a517",
-    "timestamp": "2026-05-06T15:11:33.044610+00:00",
-    "status": "rejected",
-    "content_hash": "77a70ea717d6c127b4c4b75c5bca7c26",
-    "strict_hash": "77a70ea717d6c127b4c4b75c5bca7c26",
-    "fuzzy_hash": "adaebd2073af9922563661f8c8ea0134",
-    "reason": "Новость не подходит: она не связана с Дубаем или ОАЭ (событие происходит в Ормузском проливе, судно французское), затрагивает военный конфликт и не представляет интереса для русскоязычного жителя Дубая."
-  },
-  {
-    "url": "https://propertynews.ae/uae/sharjah/muwailih-commercial-becomes-sharjahs-top-destination-for-global-real-estate-investors",
-    "timestamp": "2026-05-06T15:22:10.998030+00:00",
-    "status": "rejected",
-    "content_hash": "7f317242dbf7c8aed326403d1c0ca9d0",
-    "strict_hash": "7f317242dbf7c8aed326403d1c0ca9d0",
-    "fuzzy_hash": "e8d2417c55bc05e7e48b6b3dc55a0703",
-    "reason": "Новость посвящена инвестиционной привлекательности района Мувайлих в Шардже, что имеет косвенную связь с ОАЭ, но не с Дубаем. Текст носит рекламно-информационный характер, напоминает пресс-релиз, и не содержит общественно значимой новости для русскоязычного жителя Дубая. Кроме того, источник не указан, а хеш контента не совпадает с опубликованными новостями, но это не отменяет других нарушений."
-  },
-  {
-    "url": "https://www.livemint.com/money/as-rupee-hits-new-low-dubai-based-nri-shares-downside-of-investing-in-property-in-india-11778030742227.html",
-    "timestamp": "2026-05-06T15:22:13.771121+00:00",
-    "status": "rejected",
-    "content_hash": "0225608f42341ee0a6c8b2de3eb3f681",
-    "strict_hash": "0225608f42341ee0a6c8b2de3eb3f681",
-    "fuzzy_hash": "4f7ae176e6f9b2c4f7701f401bd093d9",
-    "reason": "Новость не соответствует критериям: она не имеет прямой связи с Дубаем или ОАЭ (основная тема — инвестиции в недвижимость в Индии и курс рупии), а также не представляет интереса для русскоязычного жителя Дубая, так как фокусируется на индийском рынке и проблемах NRI."
-  },
-  {
     "url": "https://www.derbytelegraph.co.uk/news/local-news/new-derbyshire-headteacher-swaps-dubai-10949997",
     "timestamp": "2026-05-06T17:04:03.447441+00:00",
     "status": "rejected",
@@ -636,5 +609,10 @@
     "strict_hash": "bcf54418efc81cc1edb6d79dd544f7aa",
     "fuzzy_hash": "e7a2c5ea66df30c9d49e32207a9ab9cb",
     "reason": "Новость содержит явную связь с регионом (Дубай/ОАЭ), но её основная тема — военный конфликт и ракетные удары, что нарушает правило №2 (политика и конфликты). Кроме того, такая информация может быть воспринята как неуважение к стабильности ОАЭ (правило №4) и не соответствует интересам русскоязычного жителя, которому нужны проверенные, не тревожные новости."
+  },
+  {
+    "url": "https://www.al-monitor.com/newsletter/2026-05-08/uae-unveils-washwasha-venice-biennale",
+    "timestamp": "2026-05-08T16:21:59.254754+00:00",
+    "status": "published"
   }
 ]
