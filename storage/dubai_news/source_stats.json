@@ -725,5 +725,23 @@
     "strict_hash": "5d87680ce1a71c77e1a31e73aa799bd4",
     "fuzzy_hash": "7784e0b2725610fbb02310365e9a8078",
     "reason": "Новость является прямым продолжением уже опубликованной истории о пожаре на лодке в Ормузском проливе, с акцентом на действия консульства Индии в Дубае. Она соответствует критериям связи с регионом и интереса для русскоязычных жителей, но является дубликатом по сути (та же тема, те же действующие лица) относительно уже вышедшей новости."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/autonomous-home-maintenance-how-ai-sensors-are-revolutionizing-property-care",
+    "timestamp": "2026-05-09T23:36:53.265687+00:00",
+    "status": "rejected",
+    "content_hash": "e8041723fc04c69ae9d181efbc6894f9",
+    "strict_hash": "e8041723fc04c69ae9d181efbc6894f9",
+    "fuzzy_hash": "079a48a624c63caeed49db9471e0fe8c",
+    "reason": "Новость носит рекламно-информационный характер о внедрении технологий, без конкретной привязки к официальным источникам, датам или событиям, и больше напоминает общий обзор или пресс-релиз, а не оперативную новость. Кроме того, отсутствует проверяемый URL источника, что нарушает правило 9."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/life-style/travel/news/from-women-only-night-beach-to-floating-walkway-what-can-travellers-expect-from-dubais-brand-new-tourist-attraction/articleshow/130976224.cms",
+    "timestamp": "2026-05-09T23:37:01.536295+00:00",
+    "status": "approved",
+    "content_hash": "8e460e4318b8fc35771a0831febdf637",
+    "strict_hash": "8e460e4318b8fc35771a0831febdf637",
+    "fuzzy_hash": "7768d7c42581924d6a1a60032d451fb8",
+    "reason": "approved"
   }
 ]
