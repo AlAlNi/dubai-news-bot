@@ -670,5 +670,23 @@
     "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-revolutionizes-property-ownership-with-instant-blockchain-transfers",
     "timestamp": "2026-05-09T17:05:49.216385+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://propertynews.ae/guide/the-mentorship-credit-how-2026-communities-value-your-wisdom",
+    "timestamp": "2026-05-09T17:41:08.467709+00:00",
+    "status": "rejected",
+    "content_hash": "aa39ad64282ed099d19e29e2df7e5dbe",
+    "strict_hash": "aa39ad64282ed099d19e29e2df7e5dbe",
+    "fuzzy_hash": "2187ba59725cdb676269fafeefcc14db",
+    "reason": "Новость выглядит как рекламно-имиджевый материал застройщиков, не содержит проверяемых фактов или официальных объявлений, а также имеет признаки ИИ-генерации и кликбейта. Для русскоязычного жителя Дубая польза сомнительна, так как программа не подтверждена конкретными источниками."
+  },
+  {
+    "url": "https://www.ndtvprofit.com/world/dubais-bankers-traders-return-to-city-contending-with-war-11056528",
+    "timestamp": "2026-05-09T17:41:11.123454+00:00",
+    "status": "rejected",
+    "content_hash": "f223f9bb8a92cca0b049baeae5120bbb",
+    "strict_hash": "f223f9bb8a92cca0b049baeae5120bbb",
+    "fuzzy_hash": "c0f5b1a096917871f124be13c7ccf078",
+    "reason": "Новость касается возвращения банкиров и трейдеров в Дубай на фоне военного конфликта, что напрямую связано с регионом, но основная тема — война и её влияние на бизнес, что нарушает правило 2 (политика и конфликты). Кроме того, текст может содержать неуважение к ценностям ОАЭ, упоминая войну в контексте жизни в Дубае."
   }
 ]
