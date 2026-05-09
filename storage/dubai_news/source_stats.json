@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/guide/hydro-homes-the-2026-trend-of-integrated-indoor-vertical-farming",
-    "timestamp": "2026-05-07T17:40:51.732442+00:00",
-    "status": "rejected",
-    "content_hash": "c8bf256729f4bb572a6296e239ab2a4a",
-    "strict_hash": "c8bf256729f4bb572a6296e239ab2a4a",
-    "fuzzy_hash": "745ced53fb744b067a8535645518011e",
-    "reason": "Новость выглядит как рекламно-инфоповод, продвигающий концепцию «Hydro-Homes» и конкретный сайт PropertyNews.ae, без указания проверяемого источника (ссылки на официальные документы Министерства или DEWA). Текст имеет признаки ИИ-генерации и кликбейта, а также не содержит явной общественно значимой новости для русскоязычного жителя Дубая."
-  },
-  {
-    "url": "https://www.hindustantimes.com/lifestyle/fashion/ai-imagines-what-kareena-kapoor-would-look-in-dubai-australia-fans-swoon-over-japanese-avatar-china-russia-ukraine-video-101778124654322.html",
-    "timestamp": "2026-05-07T17:40:55.139889+00:00",
-    "status": "rejected",
-    "content_hash": "33753c8ab65953eef9bf07db81b49741",
-    "strict_hash": "33753c8ab65953eef9bf07db81b49741",
-    "fuzzy_hash": "c50da43e04eb2b73b4e6e82af0561562",
-    "reason": "Новость не имеет отношения к Дубаю, ОАЭ или региону GCC — речь идёт о том, как ИИ представляет индийскую актрису в образах разных стран, включая Дубай, но это лишь элемент развлекательного контента без реальной связи с жизнью в Эмиратах. Кроме того, текст выглядит как типичная развлекательная статья без общественно значимой информации для русскоязычного жителя Дубая."
-  },
-  {
-    "url": "https://www.nation.com.pk/07-May-2026/uae-warns-iran-international-defense-ties-purely-sovereign-matter",
-    "timestamp": "2026-05-07T18:07:13.748854+00:00",
-    "status": "rejected",
-    "content_hash": "da96593721d7ec61e8ca830a587171ae",
-    "strict_hash": "da96593721d7ec61e8ca830a587171ae",
-    "fuzzy_hash": "7957f8543d5ecb965087f53fbe30aec3",
-    "reason": "Новость касается дипломатических отношений ОАЭ и Ирана, что напрямую связано с регионом, но основная тема — это политический конфликт и предупреждения между государствами, что нарушает правило №2 (политика и конфликты). Кроме того, тема может быть воспринята как затрагивающая чувствительные межгосударственные отношения, что не соответствует правилу №4 (уважение к ценностям UAE). Для русскоязычного жителя Дубая новость не представляет практической пользы или интереса (правило №6)."
-  },
-  {
     "url": "https://propertynews.ae/business/expanding-horizons-uae-and-costa-rica-finalize-new-trade-implementation-roadmap",
     "timestamp": "2026-05-07T19:25:29.635911+00:00",
     "status": "approved",
@@ -706,5 +679,10 @@
     "strict_hash": "96bd930105283ffe19ea639aeb7f4d07",
     "fuzzy_hash": "b3331e279414d8c46e9a1909e06dfd05",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/gold-standard-new-central-bank-rules-to-secure-uaes-position-as-global-bullion-leader",
+    "timestamp": "2026-05-09T19:16:16.720216+00:00",
+    "status": "published"
   }
 ]
