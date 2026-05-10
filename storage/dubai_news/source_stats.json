@@ -1,19 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-real-estate-maturity-apartment-values-surge-as-end-users-drive-market-growth",
-    "timestamp": "2026-05-08T10:45:13.361500+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.express.co.uk/news/world/2203058/iran-dubai-warning-explosions-hormuz",
-    "timestamp": "2026-05-08T10:53:01.753824+00:00",
-    "status": "rejected",
-    "content_hash": "d7dc9f431b3fc58c3a76b689fd6035c3",
-    "strict_hash": "d7dc9f431b3fc58c3a76b689fd6035c3",
-    "fuzzy_hash": "18d03efbe539a842d3fdbc65805d14ab",
-    "reason": "Новость касается угроз Ирана в адрес ОАЭ из-за взрывов в порту, что напрямую связано с регионом, но основная тема — это международный конфликт и военная напряжённость, что нарушает правило №2 (политика и конфликты). Кроме того, текст содержит признаки кликбейта и неполной информации (BREAKING STORY), что снижает достоверность."
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/the-24-7-shoreline-how-dubais-dh3-billion-night-beach-project-is-driving-coastal-value",
     "timestamp": "2026-05-08T12:05:47.433152+00:00",
     "status": "approved",
@@ -733,5 +719,10 @@
     "strict_hash": "cb3d9085404a7b97a0a8c806264ceeb3",
     "fuzzy_hash": "ba70309df8371314e99be3884cbd12a5",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-islands-announces-the-regions-first-dedicated-pedestrian-link",
+    "timestamp": "2026-05-10T11:58:30.560588+00:00",
+    "status": "published"
   }
 ]
