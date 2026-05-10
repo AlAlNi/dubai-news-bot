@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://www.newsx.com/middle-east/uae-dubai-abu-dhabi-news-iran-us-war-latest-updates-explosions-in-uae-massive-blasts-heard-air-defences-intercept-iranian-missiles-drones-215272",
-    "timestamp": "2026-05-08T15:07:47.053422+00:00",
-    "status": "rejected",
-    "content_hash": "4208ef80bc0c351260aea266ef2a83d7",
-    "strict_hash": "4208ef80bc0c351260aea266ef2a83d7",
-    "fuzzy_hash": "275213dcdf80522f0bdfffeb4956e5ed",
-    "reason": "Новость содержит неподтверждённые сообщения о взрывах и перехвате ракет в Дубае и Абу-Даби, что относится к военным конфликтам и большой политике, а также может быть воспринято как неуважение к безопасности ОАЭ. Источник — социальные сети и OSINT-аккаунты, что не является проверяемым официальным источником."
-  },
-  {
     "url": "https://propertynews.ae/uae/sharjah/sustainable-growth-sharjah-introduces-urban-farming-permits-for-residential-communities",
     "timestamp": "2026-05-08T16:09:19.449823+00:00",
     "status": "rejected",
@@ -751,5 +742,10 @@
     "strict_hash": "b508c6f7f6824c34de6b2dd37ada1b1a",
     "fuzzy_hash": "5d03edbdf2286b4544090543630ab104",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/new-green-home-initiative-slashes-dubai-property-registration-fees",
+    "timestamp": "2026-05-10T16:03:32.696007+00:00",
+    "status": "published"
   }
 ]
