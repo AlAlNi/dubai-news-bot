@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/sharjah/sustainable-growth-sharjah-introduces-urban-farming-permits-for-residential-communities",
-    "timestamp": "2026-05-08T16:09:19.449823+00:00",
-    "status": "rejected",
-    "content_hash": "64f08ce01e765c055cb35722ee40c373",
-    "strict_hash": "64f08ce01e765c055cb35722ee40c373",
-    "fuzzy_hash": "3dab39e0210219fa96eeedb535347f4e",
-    "reason": "priority=2 quality gate: score 50 < 60"
-  },
-  {
-    "url": "https://www.lokmattimes.com/international/iran-launches-fresh-barrage-of-missiles-and-drones-at-uae-dubai-air-defence-systems-activated-a517",
-    "timestamp": "2026-05-08T16:09:22.548740+00:00",
-    "status": "rejected",
-    "content_hash": "bcf54418efc81cc1edb6d79dd544f7aa",
-    "strict_hash": "bcf54418efc81cc1edb6d79dd544f7aa",
-    "fuzzy_hash": "e7a2c5ea66df30c9d49e32207a9ab9cb",
-    "reason": "Новость содержит явную связь с регионом (Дубай/ОАЭ), но её основная тема — военный конфликт и ракетные удары, что нарушает правило №2 (политика и конфликты). Кроме того, такая информация может быть воспринята как неуважение к стабильности ОАЭ (правило №4) и не соответствует интересам русскоязычного жителя, которому нужны проверенные, не тревожные новости."
-  },
-  {
-    "url": "https://www.al-monitor.com/newsletter/2026-05-08/uae-unveils-washwasha-venice-biennale",
-    "timestamp": "2026-05-08T16:21:59.254754+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.tribuneindia.com/news/world/uaes-ministry-of-defence-says-air-defence-systems-actively-engaging-with-missiles-uav-threats",
-    "timestamp": "2026-05-08T16:51:05.876953+00:00",
-    "status": "rejected",
-    "content_hash": "8f5cea494f8f561abc34a6a18c454cb5",
-    "strict_hash": "8f5cea494f8f561abc34a6a18c454cb5",
-    "fuzzy_hash": "5dca3624378fec90a0656e1a36d1e6c0",
-    "reason": "Новость касается военной активности и перехвата ракет/БПЛА в ОАЭ, что напрямую связано с регионом, но основная тема — это военный конфликт и угрозы безопасности, что нарушает правило №2 (политика и конфликты). Кроме того, такая информация может быть воспринята как тревожная и не соответствующая ценностям стабильности ОАЭ (правило №4). Для русскоязычного жителя Дубая это скорее вызовет беспокойство, чем практическую пользу."
-  },
-  {
     "url": "https://propertynews.ae/guide/paws-on-the-move-the-2026-guide-to-pet-friendly-transit-in-dubai",
     "timestamp": "2026-05-08T18:04:36.064322+00:00",
     "status": "approved",
@@ -765,5 +733,10 @@
     "strict_hash": "b7f591a73c249cde7243ff014e615c9e",
     "fuzzy_hash": "c421af5997b1ff0c6f1d8197b1247c5c",
     "reason": "Новость о планах дубайской финтех-компании Qashio расшириться в ЕС через офис в Дублине имеет прямую связь с Дубаем (компания зарегистрирована в ОАЭ) и может быть интересна русскоязычным жителям, работающим в сфере бизнеса и стартапов. Однако текст выглядит как пресс-релиз без общественно значимой новости, а также не содержит проверяемого источника (URL не указан). Кроме того, новость не является дубликатом уже опубликованных."
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/fairness-first-abu-dhabi-launches-new-localized-rental-dispute-hubs",
+    "timestamp": "2026-05-10T17:07:43.302536+00:00",
+    "status": "published"
   }
 ]
