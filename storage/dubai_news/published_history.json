@@ -19361,5 +19361,72 @@
     "language": "",
     "top_image": "",
     "keywords": []
+  },
+  {
+    "source_name": "NewsX",
+    "title": "UAE Weather Update Tomorrow: Dubai, Abu Dhabi and Sharjah to See Humid Conditions, Cloud Cover and Strong Winds",
+    "summary_ru": "🌤 <b>UAE Weather Update Tomorrow: Dubai, Abu Dhabi and Sharjah to See Humid Conditions, Cloud Cover and Strong Winds</b>\n\nЗавтра жителей Дубая, Абу-Даби и Шарджи ожидает облачная погода с высокой влажностью. По данным Национального центра метеорологии ОАЭ, местами прогнозируются сильные порывы ветра. Днём температура воздуха будет тёплой. Влажность сохранится на протяжении всего дня, что может создать дискомфорт на открытом воздухе. Ветер усилится в отдельные периоды, особенно в прибрежных районах.\n\n⚠️ Рекомендуется соблюдать осторожность при вождении и избегать длительного пребывания на солнце в часы пик.\n\n#ОАЭ #Погода #Дубай",
+    "published": "2026-05-11T01:22:58.780009+00:00",
+    "source_urls": [
+      "https://www.newsx.com/middle-east/uae-weather-update-tomorrow-dubai-abu-dhabi-and-sharjah-to-see-humid-conditions-cloud-cover-and-strong-216668/"
+    ],
+    "lang": "en",
+    "content_hash": "3bab4e658eb99ea8d2b31b3225f79fdd",
+    "strict_hash": "3bab4e658eb99ea8d2b31b3225f79fdd",
+    "fuzzy_hash": "7bf3dc9cac4bbaa11a19a388cd1fb9ab",
+    "method": "gnews",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "tomorrow_changes"
+    },
+    "content_format": "tomorrow_changes",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость представляет собой стандартный прогноз погоды от официального источника (Национальный центр метеорологии ОАЭ), что соответствует формату service-update и полезно для русскоязычных жителей. Дубликатов среди опубликованных новостей нет, тема не политическая, не рекламная и уважает ценности ОАЭ."
+      }
+    },
+    "image_url": "https://www.newsx.com/wp-content/uploads/2026/05/uae-weather-update-tomorrow-dubai-abu-dhabi-and-sharjah-to-see-humid-conditions-cloud-cover-and-strong-winds.png",
+    "slot_target": "morning",
+    "publication": {
+      "published_at": "2026-05-11T04:16:18.638046+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1112
+    },
+    "published_at": "2026-05-11T04:16:18.651865+00:00",
+    "source_url": "https://www.newsx.com/middle-east/uae-weather-update-tomorrow-dubai-abu-dhabi-and-sharjah-to-see-humid-conditions-cloud-cover-and-strong-216668",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
   }
 ]
