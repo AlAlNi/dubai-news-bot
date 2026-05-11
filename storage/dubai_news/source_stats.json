@@ -797,5 +797,23 @@
     "strict_hash": "ff51ee4ec48abd9e2d4bac403b434acf",
     "fuzzy_hash": "7f494f6db35e8c0c44a2124f08697087",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/the-rail-dividend-how-the-gcc-railway-is-boosting-dubais-suburban-property-values",
+    "timestamp": "2026-05-11T02:02:27.186296+00:00",
+    "status": "rejected",
+    "content_hash": "35585f92d375816ce677814a0c03775f",
+    "strict_hash": "35585f92d375816ce677814a0c03775f",
+    "fuzzy_hash": "c26ef6bea2a71e04d790d745f88467e1",
+    "reason": "Новость явно связана с Дубаем и ОАЭ, не содержит политики, рекламы или неуважения к ценностям. Текст выглядит естественно, но имеет признаки аналитической статьи, а не оперативной новости, и не является дубликатом уже опубликованных материалов. Однако источник (PropertyNews.ae) указан, но ссылка на конкретный URL отсутствует, что затрудняет проверку фактов. Кроме того, новость носит скорее обзорный характер и может быть не столь актуальна для русскоязычного жителя, как service-updates или регуляторные изменения."
+  },
+  {
+    "url": "https://www.newsx.com/middle-east/did-iran-strike-dubai-again-huge-blaze-in-al-jaddaf-sparks-attack-rumours-across-uae-here-is-the-truth-216688",
+    "timestamp": "2026-05-11T02:02:30.500692+00:00",
+    "status": "rejected",
+    "content_hash": "6f83a2168c8bf34e882ceea60c00d59f",
+    "strict_hash": "6f83a2168c8bf34e882ceea60c00d59f",
+    "fuzzy_hash": "a2c77814b0fe1c0fee57c9130c5e67ab",
+    "reason": "Новость основана на слухах о возможной атаке на Дубай, что напрямую связано с регионом, но её основная тема — паника и предположения о военном конфликте (пункт 2), что недопустимо для канала. Кроме того, заголовок носит кликбейтный характер (пункт 5), а текст не содержит проверяемых официальных источников, опровергающих слухи (пункт 9)."
   }
 ]
