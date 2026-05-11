@@ -1,73 +1,5 @@
 [
   {
-    "url": "https://www.newsx.com/business/gold-price-today-mcx-9-may-2026-dubai-leads-as-india-and-global-gold-rates-markets-stay-steady-check-rates-in-your-city-now-gold-rates-in-chennai-delhi-mumbai-dubai-pakistan-215943",
-    "timestamp": "2026-05-09T16:30:20.694011+00:00",
-    "status": "rejected",
-    "content_hash": "bf540efc29fae6a65d9223d562950155",
-    "strict_hash": "bf540efc29fae6a65d9223d562950155",
-    "fuzzy_hash": "999fb74cf6efb5f0aed40e9714d916e7",
-    "reason": "Новость о ценах на золото в Индии и мире не имеет прямой связи с Дубаем или ОАЭ, а также не представляет интереса для русскоязычного жителя Дубая, так как фокус на индийском рынке и глобальных котировках без локальной привязки."
-  },
-  {
-    "url": "https://propertynews.ae/gcc/oman-residential-property-prices-jump-18-7-amid-pro-investor-reforms",
-    "timestamp": "2026-05-09T16:40:59.051714+00:00",
-    "status": "rejected",
-    "content_hash": "550a54f3ed77b388fe3c77320b593880",
-    "strict_hash": "550a54f3ed77b388fe3c77320b593880",
-    "fuzzy_hash": "f26598b5ce987e9d0382e466c7bf622f",
-    "reason": "Новость об Омане не имеет прямой связи с Дубаем, ОАЭ или GCC, а также не представляет интереса для русскоязычного жителя Дубая, так как описывает рынок недвижимости соседней страны без упоминания регионального контекста."
-  },
-  {
-    "url": "https://www.newsx.com/middle-east/dubai-international-airport-dxb-open-today-latest-update-on-dubai-abu-dhabi-uae-flights-after-iran-launches-missiles-and-drones-215954",
-    "timestamp": "2026-05-09T16:41:03.297384+00:00",
-    "status": "rejected",
-    "content_hash": "b22c9f876d2ec6841caee84cfdb0234e",
-    "strict_hash": "b22c9f876d2ec6841caee84cfdb0234e",
-    "fuzzy_hash": "ddf0c460dfe8c99dc2273e308d6a40a5",
-    "reason": "Новость касается работы аэропортов Дубая и Абу-Даби после инцидента с ракетным обстрелом со стороны Ирана, что напрямую связано с регионом и может быть полезно русскоязычным жителям для планирования поездок. Однако основная тема — военный конфликт (ракетные удары Ирана), что нарушает правило №2 (политика и конфликты), а также текст содержит признаки кликбейта и неполной проверяемости (обрывается на середине). Кроме того, новость дублирует возможные предыдущие сводки о перебоях в работе аэропортов."
-  },
-  {
-    "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-revolutionizes-property-ownership-with-instant-blockchain-transfers",
-    "timestamp": "2026-05-09T17:05:49.216385+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://propertynews.ae/guide/the-mentorship-credit-how-2026-communities-value-your-wisdom",
-    "timestamp": "2026-05-09T17:41:08.467709+00:00",
-    "status": "rejected",
-    "content_hash": "aa39ad64282ed099d19e29e2df7e5dbe",
-    "strict_hash": "aa39ad64282ed099d19e29e2df7e5dbe",
-    "fuzzy_hash": "2187ba59725cdb676269fafeefcc14db",
-    "reason": "Новость выглядит как рекламно-имиджевый материал застройщиков, не содержит проверяемых фактов или официальных объявлений, а также имеет признаки ИИ-генерации и кликбейта. Для русскоязычного жителя Дубая польза сомнительна, так как программа не подтверждена конкретными источниками."
-  },
-  {
-    "url": "https://www.ndtvprofit.com/world/dubais-bankers-traders-return-to-city-contending-with-war-11056528",
-    "timestamp": "2026-05-09T17:41:11.123454+00:00",
-    "status": "rejected",
-    "content_hash": "f223f9bb8a92cca0b049baeae5120bbb",
-    "strict_hash": "f223f9bb8a92cca0b049baeae5120bbb",
-    "fuzzy_hash": "c0f5b1a096917871f124be13c7ccf078",
-    "reason": "Новость касается возвращения банкиров и трейдеров в Дубай на фоне военного конфликта, что напрямую связано с регионом, но основная тема — война и её влияние на бизнес, что нарушает правило 2 (политика и конфликты). Кроме того, текст может содержать неуважение к ценностям ОАЭ, упоминая войну в контексте жизни в Дубае."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/magazines/panache/actor-madhavan-feels-proud-after-dubais-burj-khalifa-developer-praises-indians-work-ethic-hard-work-beats-talent/articleshow/130969645.cms",
-    "timestamp": "2026-05-09T18:13:11.905083+00:00",
-    "status": "approved",
-    "content_hash": "b2a092c4fe58ac2206ac7f557c3933c9",
-    "strict_hash": "b2a092c4fe58ac2206ac7f557c3933c9",
-    "fuzzy_hash": "3af6983a32f7e10aea79bc10c93dcefc",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/business/gold-standard-new-central-bank-rules-to-secure-uaes-position-as-global-bullion-leader",
-    "timestamp": "2026-05-09T18:43:26.350483+00:00",
-    "status": "approved",
-    "content_hash": "96bd930105283ffe19ea639aeb7f4d07",
-    "strict_hash": "96bd930105283ffe19ea639aeb7f4d07",
-    "fuzzy_hash": "b3331e279414d8c46e9a1909e06dfd05",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/business/gold-standard-new-central-bank-rules-to-secure-uaes-position-as-global-bullion-leader",
     "timestamp": "2026-05-09T19:16:16.720216+00:00",
     "status": "published"
@@ -755,5 +687,10 @@
     "strict_hash": "780e74ab7e1fc368c875cec1c15d1077",
     "fuzzy_hash": "ab65619f517b5272049fab50e757fb03",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/sharjah/sharjah-speeds-up-global-investment-with-five-minute-blockchain-title-deeds",
+    "timestamp": "2026-05-11T19:03:52.480733+00:00",
+    "status": "published"
   }
 ]
