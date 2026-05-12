@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbFhpblNzaG1LN3hoU2JHLVBhZFpJV2o5a2VWVExjU05MZEd4SGQwMVQwclBnbzhFZ0VkQkxqT2JRY0JiTEpZY25wdDZBLUlzRG9FTDhKV1ZiR0NVd0RFSEFjcTdrR2ZMeGdNTnVGWV9La1ZaXzczQlRoY0NGUExmeGRHWjRuRjRNWEdueWFNbXFPY3ZvMjV6Snk2VVZoMDRLWHhRcnlVLVVWdkNybWVLeHJ1V0oxUQ?oc=5",
-    "timestamp": "2026-05-10T07:38:42.288536+00:00",
-    "status": "rejected",
-    "content_hash": "04587292bab6e36c820081786b904d04",
-    "strict_hash": "04587292bab6e36c820081786b904d04",
-    "fuzzy_hash": "0f029be1b1b2a15524f1e995a7fee7ab",
-    "reason": "Новость явно связана с Дубаем и ОАЭ, но её основная тема — война и её влияние на регион, что нарушает правило №2 (политика и конфликты). Кроме того, заголовок и текст выглядят как кликбейт, а не как нейтральная новость, что также не соответствует правилам."
-  },
-  {
-    "url": "https://propertynews.ae/business/dp-world-expands-global-reach-with-landmark-turkey-merger",
-    "timestamp": "2026-05-10T07:55:18.296009+00:00",
-    "status": "rejected",
-    "content_hash": "803d99eea9c7e168b065b9dae33c7ead",
-    "strict_hash": "803d99eea9c7e168b065b9dae33c7ead",
-    "fuzzy_hash": "8ecef491ced123d51b8be66d282a8415",
-    "reason": "Новость о слиянии DP World с турецкой Evyap Group имеет связь с ОАЭ (DP World — дубайская компания), не содержит политики или рекламы, но выглядит как пресс-релиз без общественно значимой новости для русскоязычного жителя Дубая. Текст носит общий хвалебный характер, не содержит конкретных полезных деталей (например, как это повлияет на цены или услуги в Дубае), и его достоверность не подкреплена явным проверяемым источником (ссылка на PropertyNews.ae не является первоисточником). Кроме того, новость не является дубликатом уже опубликованных."
-  },
-  {
-    "url": "https://www.dailystar.co.uk/news/uk-news/hotels-grimsby-4-times-more-37134593",
-    "timestamp": "2026-05-10T07:55:20.900755+00:00",
-    "status": "rejected",
-    "content_hash": "6ce56ff395cb3ad1ae0abc2e78122afe",
-    "strict_hash": "6ce56ff395cb3ad1ae0abc2e78122afe",
-    "fuzzy_hash": "d8869145c6709aa1ee7f0bdb7b577f0b",
-    "reason": "Новость сравнивает цены в отелях Гримсби (Великобритания) и Дубая, упоминает «иранскую войну» и не имеет прямой связи с жизнью в ОАЭ. Текст выглядит как кликбейт с признаками ИИ-генерации и не представляет интереса для русскоговорящего жителя Дубая."
-  },
-  {
-    "url": "https://propertynews.ae/uae/abu-dhabi/garden-city-growth-al-ain-residential-permits-surge-amid-shift-to-hybrid-work",
-    "timestamp": "2026-05-10T09:22:02.388077+00:00",
-    "status": "rejected",
-    "content_hash": "136bfdd6bc3de2d4ce3310b305275da4",
-    "strict_hash": "136bfdd6bc3de2d4ce3310b305275da4",
-    "fuzzy_hash": "eded65e94c908c3562c31c0c7880d282",
-    "reason": "Новость о росте числа разрешений на строительство в Эль-Айне соответствует тематике канала (ОАЭ), не содержит политики, рекламы или неуважения к ценностям страны, а также представляет интерес для русскоязычных жителей, рассматривающих варианты переезда или инвестиций. Однако текст выглядит как переработанный пресс-релиз без конкретных цифр и проверяемого источника (ссылка на данные департамента не указана), что нарушает правило 9 (отсутствие явного URL). Кроме того, новость не является дубликатом уже опубликованных."
-  },
-  {
-    "url": "https://www.finanznachrichten.de/nachrichten-2026-05/68447935-awareness-marketing-management-dwc-llc-uae-based-the-black-box-announces-project-pipeline-exceeding-usd-10-million-following-participation-at-make-it-296.htm",
-    "timestamp": "2026-05-10T09:22:05.085566+00:00",
-    "status": "rejected",
-    "content_hash": "2d52da71428cb4f496147761e2e14291",
-    "strict_hash": "2d52da71428cb4f496147761e2e14291",
-    "fuzzy_hash": "fb65c97757dacd6f7dfe6ce3e42b5321",
-    "reason": "Новость является явным пресс-релизом компании, рекламирующим её успехи и проекты, без общественно значимой информации для русскоязычных жителей Дубая. Отсутствует проверяемый источник, кроме платформы для пресс-релизов, и текст не представляет интереса для целевой аудитории канала."
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5nMWl1SWpzZ2g0YUN3RmpUalotYXhBbnhia2xqWkxlT3JnVWlFdUlnN050aEFUNEZVdU5jTWU5LTlGVkJOd3JiQdIBTkFVX3lxTE5KX0swWFQwVHdKSUhUZFFMdnhyQnI0QUk5NDZQQmt3UnFFTVhXR2hOWllheWJHUGNVczJCcUFESUpldWItRlFvQmljczd0UQ?oc=5",
     "timestamp": "2026-05-10T09:53:59.919680+00:00",
     "status": "rejected",
