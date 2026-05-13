@@ -1,55 +1,5 @@
 [
   {
-    "url": "https://manilastandard.net/lifestyle/314738040/emirates-restores-96-of-global-network-via-dubai-hub-recovery.html",
-    "timestamp": "2026-05-10T23:26:05.504403+00:00",
-    "status": "approved",
-    "content_hash": "49305530d0733f492813f18e2cca2b43",
-    "strict_hash": "49305530d0733f492813f18e2cca2b43",
-    "fuzzy_hash": "6d485420850a6b6f3f701cf9978ad851",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/the-silicon-valley-shift-tech-entrepreneurs-drive-record-demand-for-dubais-prime-estates",
-    "timestamp": "2026-05-10T23:41:03.616267+00:00",
-    "status": "approved",
-    "content_hash": "e2a858e3dfeb5a98f757d7d1b08e330b",
-    "strict_hash": "e2a858e3dfeb5a98f757d7d1b08e330b",
-    "fuzzy_hash": "6f2e2588ee416fef8a51a3f4bd28a9c7",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/the-silicon-valley-shift-tech-entrepreneurs-drive-record-demand-for-dubais-prime-estates",
-    "timestamp": "2026-05-11T00:00:38.782815+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.newsx.com/middle-east/uae-weather-update-tomorrow-dubai-abu-dhabi-and-sharjah-to-see-humid-conditions-cloud-cover-and-strong-216668",
-    "timestamp": "2026-05-11T01:23:02.379357+00:00",
-    "status": "approved",
-    "content_hash": "ff51ee4ec48abd9e2d4bac403b434acf",
-    "strict_hash": "ff51ee4ec48abd9e2d4bac403b434acf",
-    "fuzzy_hash": "7f494f6db35e8c0c44a2124f08697087",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/the-rail-dividend-how-the-gcc-railway-is-boosting-dubais-suburban-property-values",
-    "timestamp": "2026-05-11T02:02:27.186296+00:00",
-    "status": "rejected",
-    "content_hash": "35585f92d375816ce677814a0c03775f",
-    "strict_hash": "35585f92d375816ce677814a0c03775f",
-    "fuzzy_hash": "c26ef6bea2a71e04d790d745f88467e1",
-    "reason": "Новость явно связана с Дубаем и ОАЭ, не содержит политики, рекламы или неуважения к ценностям. Текст выглядит естественно, но имеет признаки аналитической статьи, а не оперативной новости, и не является дубликатом уже опубликованных материалов. Однако источник (PropertyNews.ae) указан, но ссылка на конкретный URL отсутствует, что затрудняет проверку фактов. Кроме того, новость носит скорее обзорный характер и может быть не столь актуальна для русскоязычного жителя, как service-updates или регуляторные изменения."
-  },
-  {
-    "url": "https://www.newsx.com/middle-east/did-iran-strike-dubai-again-huge-blaze-in-al-jaddaf-sparks-attack-rumours-across-uae-here-is-the-truth-216688",
-    "timestamp": "2026-05-11T02:02:30.500692+00:00",
-    "status": "rejected",
-    "content_hash": "6f83a2168c8bf34e882ceea60c00d59f",
-    "strict_hash": "6f83a2168c8bf34e882ceea60c00d59f",
-    "fuzzy_hash": "a2c77814b0fe1c0fee57c9130c5e67ab",
-    "reason": "Новость основана на слухах о возможной атаке на Дубай, что напрямую связано с регионом, но её основная тема — паника и предположения о военном конфликте (пункт 2), что недопустимо для канала. Кроме того, заголовок носит кликбейтный характер (пункт 5), а текст не содержит проверяемых официальных источников, опровергающих слухи (пункт 9)."
-  },
-  {
     "url": "https://www.newsx.com/middle-east/uae-weather-update-tomorrow-dubai-abu-dhabi-and-sharjah-to-see-humid-conditions-cloud-cover-and-strong-216668",
     "timestamp": "2026-05-11T04:16:17.358114+00:00",
     "status": "published"
@@ -544,5 +494,10 @@
     "strict_hash": "8f07c977d5ec8f9e434a6128e7a0f5a7",
     "fuzzy_hash": "6ad8690537a3c7de5818e5052f11ff81",
     "reason": "Новость о жителе Дубая, который с помощью ИИ «исправил» финал «Титаника», не имеет никакой связи с регионом, кроме упоминания национальности героя. Это развлекательный контент, не представляющий интереса для русскоязычного жителя Дубая и не соответствующий тематике новостного канала."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/green-horizons-dubai-approves-sky-bridge-parks-to-link-residential-towers",
+    "timestamp": "2026-05-13T04:07:30.674322+00:00",
+    "status": "published"
   }
 ]
