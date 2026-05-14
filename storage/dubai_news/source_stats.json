@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.news18.com/agency-feeds/canara-bank-q4-profit-drops-10-pc-moves-staff-out-of-dubai-after-conflict-10085922.html",
-    "timestamp": "2026-05-12T05:02:20.027643+00:00",
-    "status": "rejected",
-    "content_hash": "2d304f134b53681670a1cc34a112ba0a",
-    "strict_hash": "2d304f134b53681670a1cc34a112ba0a",
-    "fuzzy_hash": "e03a3c9720c4d5ad1021a74884b39ba5",
-    "reason": "Новость о финансовых показателях индийского банка и перемещении персонала из Дубая имеет лишь косвенную связь с регионом (упоминание Дубая в заголовке), но основное содержание посвящено внутренним делам Индии и не представляет интереса для русскоязычного жителя ОАЭ. Кроме того, тема «конфликта» в заголовке может нарушать правило о политике и конфликтах."
-  },
-  {
-    "url": "https://propertynews.ae/gcc/qatars-investor-passport-digital-system-set-to-revolutionize-cross-border-property-deals",
-    "timestamp": "2026-05-12T05:40:41.752896+00:00",
-    "status": "rejected",
-    "content_hash": "f9c90c8ae11f57be5ac7f27458170862",
-    "strict_hash": "f9c90c8ae11f57be5ac7f27458170862",
-    "fuzzy_hash": "afc28634fce46ddec06009f1ac00e326",
-    "reason": "Новость о цифровой платформе для инвесторов в Катаре не имеет прямой связи с Дубаем или ОАЭ, а также не представляет интереса для русскоязычного жителя Дубая, так как касается исключительно катарского рынка недвижимости."
-  },
-  {
-    "url": "https://www.manilatimes.net/2026/05/12/tmt-newswire/globenewswire/protrainings-practical-business-ai-training-to-gcc-organisations/2341036",
-    "timestamp": "2026-05-12T05:40:44.069926+00:00",
-    "status": "rejected",
-    "content_hash": "4b22c15fe1bf0b82b52fcd4cbf1fd2f9",
-    "strict_hash": "4b22c15fe1bf0b82b52fcd4cbf1fd2f9",
-    "fuzzy_hash": "989f9c69c7afd0309d2e2351550ec163",
-    "reason": "Новость является явным пресс-релизом компании PROTRAINING о запуске курсов по AI, без общественно значимой информации для жителей Дубая, и не проходит проверку на рекламный характер и интерес для аудитории."
-  },
-  {
     "url": "https://economictimes.indiatimes.com/nri/invest/war-puts-brakes-on-uae-realty-boom-as-dubai-projects-face-delays/articleshow/131023104.cms",
     "timestamp": "2026-05-12T08:08:25.951635+00:00",
     "status": "rejected",
@@ -515,5 +488,10 @@
     "strict_hash": "da36f453e256f35d928b8a25a03c54e7",
     "fuzzy_hash": "be984985b5daeb84cb87db7f5e9cb9fc",
     "reason": "Новость о влиянии повышения Индией пошлин на золото на продажи в ОАЭ имеет прямую связь с регионом (Дубай — крупный центр торговли золотом), не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и может быть интересна русскоязычным жителям, интересующимся экономикой и рынком драгоценностей. Однако текст обрывается на середине, что вызывает сомнения в его полноте и достоверности, а также отсутствует явная ссылка на проверяемый источник. Кроме того, тема косвенно связана с Дубаем, но не является прямой новостью о самом эмирате, что снижает её приоритетность."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/nakheel-redefines-waterfront-luxury-groundbreaking-of-the-pearl-collection-at-dubai-islands",
+    "timestamp": "2026-05-14T07:49:28.957109+00:00",
+    "status": "published"
   }
 ]
