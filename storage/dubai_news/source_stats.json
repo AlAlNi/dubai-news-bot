@@ -507,5 +507,23 @@
     "strict_hash": "e2e838ecd8d09ee3c164897339443e57",
     "fuzzy_hash": "36f5f1672c768e6e2cf7ad131fb836e1",
     "reason": "Новость о смерти 34-летней женщины в Дубае, основанная на социальных сетях, не содержит общественно значимой информации, полезной для русскоязычных жителей, и не имеет проверяемого официального источника. Это частный случай, не соответствующий критериям новостного канала."
+  },
+  {
+    "url": "https://propertynews.ae/world/vietnams-coastal-shift-new-luxury-retirement-hubs-emerge-in-da-nang",
+    "timestamp": "2026-05-14T11:43:43.902611+00:00",
+    "status": "rejected",
+    "content_hash": "d39b109525d35b4b19e992503b5f5bc7",
+    "strict_hash": "d39b109525d35b4b19e992503b5f5bc7",
+    "fuzzy_hash": "91edcdfc4a36485cabf09f5f9f2a4740",
+    "reason": "Новость рассказывает о развитии рынка элитной недвижимости для пенсионеров во Вьетнаме, лишь вскользь упоминая ОАЭ как пример для подражания. Основной фокус — на Вьетнаме, а не на Дубае или ОАЭ, что нарушает правило 1 (связь с регионом). Кроме того, новость не представляет практического интереса для русскоговорящего жителя Дубая (правило 6)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNeDhIQXpyem1naUI0dXp6ZUVFbDBCQy10VWJ3THEwQXUyVGR2QUtzelFBdndJbnB3ZW01WUJQUFdRbGVhRHhaZkM4RFNubGpoU3dHWXRkY2ZQYU4yN0JTczB6WXhzb203N2pXQ1lPYUZpekYyQ3ctNDhDc2dBd0pzTFJ0U29saVpmZ2ppaUlDc1g4ZkRZU2I0NTB5ODlESkM4MUVIMkF4TGZvXzJLdk8tQU5ZeWdOWDAtd0F4WTRLWVhta01XRERZQjlKcFB0Q1c0VkFKVWVnZFZWZFg4djAwT2tBanJnU3BPVy0tLW90a0hSTnlFOHAyVnZ3dHBLRkZacnRzeS15OHRqaGxIcVJDQXIyWWN2WEpBYjZIdzJLSFItZU4wcG9jSlE4MHp3MkpuN3BMRVlfMThrV1Z3?oc=5",
+    "timestamp": "2026-05-14T11:43:46.442567+00:00",
+    "status": "rejected",
+    "content_hash": "a1288e8b3cd5527f7f116a26fe6938e9",
+    "strict_hash": "a1288e8b3cd5527f7f116a26fe6938e9",
+    "fuzzy_hash": "959d80f8c89e95fd64b3cbc5d177c319",
+    "reason": "Новость представляет собой рекламно-туристический пресс-релиз без конкретной общественно значимой информации, с явными признаками кликбейта и ИИ-генерации (общий заголовок, отсутствие фактов, ссылка на неавторитетный источник). Кроме того, тема не является актуальной новостью для русскоязычного жителя Дубая."
   }
 ]
