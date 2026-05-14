@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://economictimes.indiatimes.com/nri/invest/war-puts-brakes-on-uae-realty-boom-as-dubai-projects-face-delays/articleshow/131023104.cms",
-    "timestamp": "2026-05-12T08:08:25.951635+00:00",
-    "status": "rejected",
-    "content_hash": "b4c8a436d414f58276083d480534f181",
-    "strict_hash": "b4c8a436d414f58276083d480534f181",
-    "fuzzy_hash": "1b91114a46d497f44cc300f3a8cf926c",
-    "reason": "Новость касается влияния конфликта в Западной Азии на рынок недвижимости ОАЭ, что напрямую связано с регионом, но основная тема — это последствия войны и геополитической нестабильности, что нарушает правило №2 (политика и конфликты). Кроме того, текст содержит признаки кликбейта и может быть воспринят как негативный для имиджа Дубая."
-  },
-  {
-    "url": "https://propertynews.ae/uae/abu-dhabi/al-maryah-island-unveils-new-urban-elite-residential-conversion-strategy",
-    "timestamp": "2026-05-12T08:24:28.845760+00:00",
-    "status": "rejected",
-    "content_hash": "b48863d04bd47581c19ed0bb467cc441",
-    "strict_hash": "b48863d04bd47581c19ed0bb467cc441",
-    "fuzzy_hash": "e59edb6652260e655fc4d6b5ac1f549f",
-    "reason": "Новость об изменении зонирования на острове Al Maryah в Абу-Даби не имеет прямой связи с Дубаем (это другой эмират), а также не содержит общественно значимой информации для русскоязычных жителей Дубая — это скорее девелоперский пресс-релиз."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/west-asia-war-pushes-half-of-dubais-2026-property-handovers-to-2027/articleshow/131022815.cms",
-    "timestamp": "2026-05-12T08:24:31.511589+00:00",
-    "status": "rejected",
-    "content_hash": "fec70c097abc0a0c97d5cbecf8872775",
-    "strict_hash": "fec70c097abc0a0c97d5cbecf8872775",
-    "fuzzy_hash": "31dfba32b9ee3cfba937e1c1e56b82e2",
-    "reason": "Новость имеет прямую связь с Дубаем и ОАЭ (рынок недвижимости), не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и основана на проверяемом источнике. Однако тема (задержки сдачи объектов из-за конфликта) может быть чувствительной для аудитории, но не нарушает правила. Дубликатов среди опубликованных новостей нет."
-  },
-  {
     "url": "https://theprint.in/india/finance-professional-converts-his-assets-into-gold-in-dubai-held-on-arrival-at-mumbai-airport/2928434",
     "timestamp": "2026-05-12T10:58:38.505838+00:00",
     "status": "rejected",
@@ -520,5 +493,10 @@
     "strict_hash": "fa42d84c1522090eb0bcece292610af7",
     "fuzzy_hash": "b3fe46fc35267e9cd535f5086c070e39",
     "reason": "Новость о регистрации дочерней компании индийской фирмы в Дубае имеет связь с регионом, но не представляет интереса для русскоязычного жителя Дубая — это корпоративная отчетность без общественно значимой информации."
+  },
+  {
+    "url": "https://www.newsx.com/middle-east/dubai-airport-news-virgin-atlantic-suspends-londondubai-flights-until-2027-permanently-cancels-riyadh-route-218369",
+    "timestamp": "2026-05-14T10:28:43.016101+00:00",
+    "status": "published"
   }
 ]
