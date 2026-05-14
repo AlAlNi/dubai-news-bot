@@ -507,5 +507,23 @@
     "strict_hash": "713651b7779cd6bbcc8d4906bbf3f905",
     "fuzzy_hash": "173103b47601e6119bdcf6fd38142b3e",
     "reason": "Новость содержит критический анализ «дубайской модели» на основе круиза WTTC в Суэце, что может быть воспринято как неуважение к экономической политике ОАЭ (нарушение правила 4). Кроме того, заголовок явно указывает на «уязвимости», что не соответствует позитивному или нейтральному освещению региона в канале."
+  },
+  {
+    "url": "https://propertynews.ae/world/brazils-urban-revival-sao-paulo-unveils-major-residential-incentives-for-downtown-core",
+    "timestamp": "2026-05-14T13:28:34.470858+00:00",
+    "status": "rejected",
+    "content_hash": "04bbacd400b07f451e3fb273dc46d600",
+    "strict_hash": "04bbacd400b07f451e3fb273dc46d600",
+    "fuzzy_hash": "8232844b0fce3fb98880aa3ebabb144a",
+    "reason": "Новость не связана с Дубаем или ОАЭ — основное событие происходит в Сан-Паулу, Бразилия. Упоминание Дубая в тексте носит лишь сравнительный характер и не является основной темой."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDBFQVFfUWFJbjFmSm9hYXlvUkNsbmNQRXpJem5BZGVscnJfTXlNM0lvbWN1ZWF4QnhXNGZJbGRObGRuNnJUNjJnSl9SbUpJZlBsbnlMNWRIOTR0am9hT2Q5S3oyZkN1NDJHZlZuWG5uMENLVDdac0ZBdmFQRlZoQUNjTnZrcHBVVXJfa0MwcC1jNTZQcXV4UklSLVM1R0NVNnJyQ2x5eDVuaGx6dTQxVkJKdG4?oc=5",
+    "timestamp": "2026-05-14T13:28:37.457857+00:00",
+    "status": "rejected",
+    "content_hash": "8f5490b6622842db598d4069ca75ff9a",
+    "strict_hash": "8f5490b6622842db598d4069ca75ff9a",
+    "fuzzy_hash": "21781408b0b74718233fb4a1ec3f32bc",
+    "reason": "Новость представляет собой рекламно-туристический материал о Пальме Джумейра, а не актуальную новость. Отсутствует общественно значимая информация, текст выглядит как нативная реклама или путеводитель, что нарушает правило 3 (рекламный характер) и правило 6 (интерес для русскоговорящего жителя — скорее для туриста, а не резидента)."
   }
 ]
