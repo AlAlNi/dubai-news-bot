@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/gcc/qatar-sets-global-standard-with-carbon-capture-incentives-for-developers",
-    "timestamp": "2026-05-13T09:35:01.686911+00:00",
-    "status": "rejected",
-    "content_hash": "f1139708306c5f8823ff2d495ecf561c",
-    "strict_hash": "f1139708306c5f8823ff2d495ecf561c",
-    "fuzzy_hash": "3accb204713b376051dff5cee0fa3521",
-    "reason": "Новость не подходит для публикации: она не связана с Дубаем или ОАЭ (речь о Катаре), что нарушает первое правило. Кроме того, текст выглядит как пресс-релиз с рекламным оттенком, а не как общественно значимая новость для русскоязычных жителей Дубая."
-  },
-  {
-    "url": "https://www.straitstimes.com/world/middle-east/uae-sees-rapidly-growing-trade-with-syria-as-ties-warm",
-    "timestamp": "2026-05-13T09:35:04.033093+00:00",
-    "status": "rejected",
-    "content_hash": "b0379484dfc6bdd3ed6923548de13746",
-    "strict_hash": "b0379484dfc6bdd3ed6923548de13746",
-    "fuzzy_hash": "884ea55631d4c878178ca7633790a9c5",
-    "reason": "Новость о росте торговли между ОАЭ и Сирией имеет прямую связь с регионом (Дубай/ОАЭ), не содержит политических конфликтов, рекламы или неуважения к ценностям UAE, выглядит естественно и достоверно (со ссылкой на заявление министра), может быть интересна русскоговорящим жителям как показатель экономических изменений в регионе. Дубликатов среди опубликованных новостей нет."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOVVBOGg4b0h6ZjVYSlVhU296dlQzajZrYjRjVnB3UDZMcS1BQ0g5M2Z1RVFTcGFBa2tRTDZUYnVJdHFReWhLMFEtejNjRWtwOE1nNV9YZVUzOU1jMU5feDhiTFlJaG02NE1NQlktMk5qRDF5aDZpME9YTkw2enJmLUQzNklyVUJ4RHpqcjh0UHE1VG9XTEdkZkNZVjhnd3lySXVHLTF6YVZ3eUZrR1RVZ09LX3M?oc=5",
-    "timestamp": "2026-05-13T11:06:52.235523+00:00",
-    "status": "rejected",
-    "content_hash": "be212940c97992e1cd8d6656eefac0da",
-    "strict_hash": "be212940c97992e1cd8d6656eefac0da",
-    "fuzzy_hash": "56cb051b674861db62f20417dc69eca6",
-    "reason": "Новость явно связана с Дубаем (застройщик Emaar), не содержит политики или рекламы, не нарушает ценности ОАЭ, выглядит естественно и интересна русскоязычным жителям, так как рынок недвижимости — важная тема. Дубликатов среди опубликованных новостей нет, источник (Semafor) проверяем."
-  },
-  {
     "url": "https://propertynews.ae/world/singapore-reit-market-strengthens-with-major-1-billion-global-investment",
     "timestamp": "2026-05-13T11:54:49.442304+00:00",
     "status": "rejected",
@@ -521,5 +494,10 @@
     "strict_hash": "05641b91bd4a66cf7d9e4ba7222d7053",
     "fuzzy_hash": "bec037b575985b4ef65ea6de26a14ca9",
     "reason": "Новость о захвате судна у берегов Фуджейры напрямую связана с ОАЭ, но её основная тема — инцидент с участием неустановленных лиц и потенциальный конфликт в иранских водах, что относится к категории «политика и конфликты». Кроме того, текст не содержит практической пользы для русскоязычного жителя Дубая и может быть воспринят как тревожный, что нарушает правило уважения к ценностям UAE."
+  },
+  {
+    "url": "https://propertynews.ae/business/dubai-financial-market-hits-historic-aed-1-billion-daily-trading-milestone",
+    "timestamp": "2026-05-15T11:26:49.945752+00:00",
+    "status": "published"
   }
 ]
