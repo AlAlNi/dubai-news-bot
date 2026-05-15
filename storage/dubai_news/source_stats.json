@@ -518,5 +518,14 @@
     "strict_hash": "75d002b9c5164092c9596dbb619529a9",
     "fuzzy_hash": "3d297d925a12a9e1a94448b31824f8f8",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.newsx.com/middle-east/uae-weather-today-dubai-to-stay-around-35c-as-dusty-winds-sweep-across-country-mountains-offer-cooler-weekend-219262",
+    "timestamp": "2026-05-15T18:05:38.152933+00:00",
+    "status": "rejected",
+    "content_hash": "7aef020cb211601409903f1c7344c65d",
+    "strict_hash": "7aef020cb211601409903f1c7344c65d",
+    "fuzzy_hash": "4ffa339fde4bdb2cc207332ef2d9c22c",
+    "reason": "Новость о погоде в Дубае (около 35°C, пыльные ветры) соответствует тематике канала, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако она является дубликатом уже опубликованной новости под номером 5 («UAE Weather Today (14 May 2026): Dusty Winds, Rough Seas And Sudden Temperature Dip To Hit Dubai, Abu Dhabi»), так как описывает те же погодные условия (пыльные ветры, жара) в тот же день. Хеш контента отличается, но смысл и дата совпадают, что нарушает правило 7."
   }
 ]
