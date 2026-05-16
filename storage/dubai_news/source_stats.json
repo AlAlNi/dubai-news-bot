@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxON0NTUzI5ODJ6YW9ibG9NRGh0Z2RBZXhqbURoQ1NKYWFXQlUzY0FUWUk4R2RnM1VaMzlVZExRUlJoY0dZaDNnaFJVZmRZdXdxQnR1Q0xxU1ZpcklROHVpcVpGZm9lWWZNbF80ZFA2QXA5cG9waXNzS0hLQnBLQVp1N1IwWndNUlpyM0x3dmpXMDBET280Yk81XzRkNmtXQUh5TW91MXZHMHhxRVpEMXlKakYyWlNTN3E2WlJfNWNJc1NvNy1lMUtuVHAtZ2Z5NmhmaE1qcmFxTkt2SkN1X2RtSkcxNHVDVWcxa1J5dks2QldLak95?oc=5",
-    "timestamp": "2026-05-14T15:41:24.437940+00:00",
-    "status": "rejected",
-    "content_hash": "b2a232e77d2b3b27c9c6d4e9ce65d89a",
-    "strict_hash": "b2a232e77d2b3b27c9c6d4e9ce65d89a",
-    "fuzzy_hash": "900b5aac4b5eeb30b9921b28751b97ce",
-    "reason": "Новость о возобновлении ежедневных рейсов Kenya Airways между Найроби и Дубаем имеет прямую связь с регионом (Дубай как пункт назначения), не содержит политики, рекламы или неуважения к ценностям ОАЭ, а также может быть полезна русскоязычным жителям, планирующим поездки в Африку. Однако текст крайне короткий, не содержит проверяемых деталей (например, дат, ссылок на официальный источник), и выглядит как фрагмент пресс-релиза без общественно значимой новости. Кроме того, источник \"Travel And Tour World\" не является официальным авиаперевозчиком или регулятором, что затрудняет проверку фактов."
-  },
-  {
-    "url": "https://propertynews.ae/world/athens-coastal-renaissance-the-ellinikon-reaches-new-residential-sales-milestone",
-    "timestamp": "2026-05-14T16:07:30.329511+00:00",
-    "status": "rejected",
-    "content_hash": "86dae4cb99c1fa75dac162d9541df6a0",
-    "strict_hash": "86dae4cb99c1fa75dac162d9541df6a0",
-    "fuzzy_hash": "f93c9038d5b4f9a048956703f87f3685",
-    "reason": "Новость о проекте в Афинах лишь упоминает Дубай как пример для подражания, но основное событие не связано с ОАЭ или регионом GCC, что нарушает первое правило."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOczlZT2I4STI3TEppOUtuNjNad2lFRlJjLUN6a2Fsd040dXpVTkhOTl82MWR2aVFpSDNudndIM0FLUG5wN3dEYnZIRTFCd0FBZEhGUUNSNVp0VkMwQ2piR1NwbkFUeHhJTTRxM3BMQU16bmN5UVp2SFhYVFM1VE5acmtaZTI0b1R5OGQzd1VuRTVWWDBzSE8ta0EyZEp6UDRVVi15bGF1cVIzLWFkYmVvNGhKZlZFeklLZnN0dzMwb1dfWnNjYTJtNHdsVkNYb2pubUZ0cWIyU1VOT2x0elE2dWV1aXc4WFN3YlJPT2VuNEpyLUJaVy1KQ3h2VUFLV0kzMkQ0MTFrRnhCcXo4WWJJcFZNYWlGZXRGa1c4bS1HNFpqVlRGY2pGelNud3pkdldkdTZLUjE5eXliLWdZbzdjNDFINmxHSnVDR0E?oc=5",
-    "timestamp": "2026-05-14T16:07:33.102226+00:00",
-    "status": "rejected",
-    "content_hash": "0e2843f9621e1619862f7bf5c4f570b4",
-    "strict_hash": "0e2843f9621e1619862f7bf5c4f570b4",
-    "fuzzy_hash": "50590fdd358aa2e3488038d888eae232",
-    "reason": "Новость явно касается политического конфликта между Ираном, ОАЭ, Израилем и Саудовской Аравией, что нарушает правило №2 (политика и конфликты). Кроме того, заголовок носит кликбейтный и панический характер, а источник (Travel And Tour World) не является официальным и проверяемым для таких серьёзных тем."
-  },
-  {
     "url": "https://www.newsx.com/world/uae-weather-today-14-may-2026-dusty-winds-rough-seas-and-sudden-temperature-dip-to-hit-dubai-abu-dhabi-218675",
     "timestamp": "2026-05-14T18:15:57.031470+00:00",
     "status": "approved",
@@ -642,5 +615,10 @@
     "strict_hash": "b8cc016b1359b70b5cdc7bebbae108a5",
     "fuzzy_hash": "55eb52f9adddc18eed9e76a1e543fc99",
     "reason": "Новость касается геополитического конфликта с участием Ирана и США, что является большой политикой и потенциально чувствительной темой для региона. Это нарушает правило №2 (политика и конфликты) и может быть воспринято как неуважение к стабильности ОАЭ (правило №4)."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/dubai-unveils-plans-for-a-dazzling-new-museum-of-digital-art",
+    "timestamp": "2026-05-16T17:09:33.818948+00:00",
+    "status": "published"
   }
 ]
