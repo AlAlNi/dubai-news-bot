@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN0l4YnF5QlRJeXV2Zzd0ejRPMUtYZklBamVCSE53UnduWncwTkcwUDdNazFpTFF0TXU0WlM4SGl5bHN6MXJGMTcteVpVRTMxNlUyXzljU0hfcVUxRGZkVEdXR0V4OHV0eE10aGVYaDJaczY5YkNlU2ViZnljWGpTeFRLYk42YkJPTGtwTXZSVENUdGFwLW9CdlA1ZTgzU29o?oc=5",
-    "timestamp": "2026-05-14T13:15:10.223365+00:00",
-    "status": "rejected",
-    "content_hash": "713651b7779cd6bbcc8d4906bbf3f905",
-    "strict_hash": "713651b7779cd6bbcc8d4906bbf3f905",
-    "fuzzy_hash": "173103b47601e6119bdcf6fd38142b3e",
-    "reason": "Новость содержит критический анализ «дубайской модели» на основе круиза WTTC в Суэце, что может быть воспринято как неуважение к экономической политике ОАЭ (нарушение правила 4). Кроме того, заголовок явно указывает на «уязвимости», что не соответствует позитивному или нейтральному освещению региона в канале."
-  },
-  {
-    "url": "https://propertynews.ae/world/brazils-urban-revival-sao-paulo-unveils-major-residential-incentives-for-downtown-core",
-    "timestamp": "2026-05-14T13:28:34.470858+00:00",
-    "status": "rejected",
-    "content_hash": "04bbacd400b07f451e3fb273dc46d600",
-    "strict_hash": "04bbacd400b07f451e3fb273dc46d600",
-    "fuzzy_hash": "8232844b0fce3fb98880aa3ebabb144a",
-    "reason": "Новость не связана с Дубаем или ОАЭ — основное событие происходит в Сан-Паулу, Бразилия. Упоминание Дубая в тексте носит лишь сравнительный характер и не является основной темой."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDBFQVFfUWFJbjFmSm9hYXlvUkNsbmNQRXpJem5BZGVscnJfTXlNM0lvbWN1ZWF4QnhXNGZJbGRObGRuNnJUNjJnSl9SbUpJZlBsbnlMNWRIOTR0am9hT2Q5S3oyZkN1NDJHZlZuWG5uMENLVDdac0ZBdmFQRlZoQUNjTnZrcHBVVXJfa0MwcC1jNTZQcXV4UklSLVM1R0NVNnJyQ2x5eDVuaGx6dTQxVkJKdG4?oc=5",
-    "timestamp": "2026-05-14T13:28:37.457857+00:00",
-    "status": "rejected",
-    "content_hash": "8f5490b6622842db598d4069ca75ff9a",
-    "strict_hash": "8f5490b6622842db598d4069ca75ff9a",
-    "fuzzy_hash": "21781408b0b74718233fb4a1ec3f32bc",
-    "reason": "Новость представляет собой рекламно-туристический материал о Пальме Джумейра, а не актуальную новость. Отсутствует общественно значимая информация, текст выглядит как нативная реклама или путеводитель, что нарушает правило 3 (рекламный характер) и правило 6 (интерес для русскоговорящего жителя — скорее для туриста, а не резидента)."
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxON0NTUzI5ODJ6YW9ibG9NRGh0Z2RBZXhqbURoQ1NKYWFXQlUzY0FUWUk4R2RnM1VaMzlVZExRUlJoY0dZaDNnaFJVZmRZdXdxQnR1Q0xxU1ZpcklROHVpcVpGZm9lWWZNbF80ZFA2QXA5cG9waXNzS0hLQnBLQVp1N1IwWndNUlpyM0x3dmpXMDBET280Yk81XzRkNmtXQUh5TW91MXZHMHhxRVpEMXlKakYyWlNTN3E2WlJfNWNJc1NvNy1lMUtuVHAtZ2Z5NmhmaE1qcmFxTkt2SkN1X2RtSkcxNHVDVWcxa1J5dks2QldLak95?oc=5",
     "timestamp": "2026-05-14T15:41:24.437940+00:00",
     "status": "rejected",
@@ -596,5 +569,10 @@
     "strict_hash": "dbdaae9e3821e1d2491eae303f3ba23a",
     "fuzzy_hash": "f11b9b3224128c93137ddbc0febdf503",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.newsx.com/middle-east/how-much-gold-can-indians-carry-from-dubai-check-latest-duty-free-limits-india-vs-uae-price-gap-219711",
+    "timestamp": "2026-05-16T13:50:41.342388+00:00",
+    "status": "published"
   }
 ]
