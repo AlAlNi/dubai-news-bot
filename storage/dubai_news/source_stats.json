@@ -629,5 +629,23 @@
     "strict_hash": "29784e18d524ca4ac1c4f32e54daa231",
     "fuzzy_hash": "e3ce91a8e1e39decd88a35eaca772857",
     "reason": "Новость от Financial Times о влиянии конфликта в Персидском заливе на местных покупателей люксовой недвижимости нарушает правило №2 (политика и конфликты), так как основная тема — геополитическая напряженность в регионе, что недопустимо для канала. Кроме того, отсутствует явная связь с Дубаем/ОАЭ (упоминается только \"Gulf conflict\"), а текст слишком короткий и не содержит проверяемых фактов."
+  },
+  {
+    "url": "https://propertynews.ae/guide/the-matter-standard-why-your-2026-villa-upgrade-must-be-brand-neutral",
+    "timestamp": "2026-05-16T17:46:11.162694+00:00",
+    "status": "rejected",
+    "content_hash": "3c03d2abaa076a6d7b88036296914ecc",
+    "strict_hash": "3c03d2abaa076a6d7b88036296914ecc",
+    "fuzzy_hash": "877ae1ec88a2a3ded27cabac9f6e2108",
+    "reason": "Новость представляет собой рекламно-информационную статью о стандарте «Matter» для умных домов, привязанную к Дубаю и ОАЭ. Текст выглядит как нативная реклама или пресс-релиз, продвигающий услуги по модернизации вилл, с указанием конкретных цен и районов, что нарушает правило 3 (рекламный характер). Кроме того, новость не является оперативной или общественно значимой, а скорее представляет собой обзорную статью с элементами прогноза на 2026 год, что снижает её интерес для русскоязычного жителя (правило 6). Источник (PropertyNews.ae) указан, но сама новость не соответствует критериям полезного сервис-апдейта."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMzBVdWRMWnJwX2xDVzZIZTg5alQxVlc1M25DaXFySDk4OXlQOEo3aENyUlNrTkJxRVNQdUZtNFNWV3V2R3NxRjg3TFhQY0RhVHY4Z0RZYzYwZk1IUGtKY21pRHNfanNGZkZPOUdNRjRNSmRBQVRVLUZsWGhnWUljaDRUMmxraXBpVERPbm42d3d3UC1NTjBHQWl4NnhhWDRvVE53alM5ZFJDSzdXMTJv0gG0AUFVX3lxTFBPdW05Z1J5cDlULTljTmpmU2dXTEZ6Q2RGcVQwdVBPVW9nbURsRTJSVFZjdEdsUENpWmdLbV9HVS1XNUNkNEMxU254MDhsVkJXR1FaeDFVSm90ekNLSGZOQXdyQmpxWjc2c1hUcWp6V2kyN29FYk52aFdrYXQ3YUVjaEl5Qkg3TVZyRWVGdEEybUlNb21ybG40UVp2bHRtTDRxZlo1dUowcWE3eExkWi0wMUpLYg?oc=5",
+    "timestamp": "2026-05-16T17:46:13.931552+00:00",
+    "status": "rejected",
+    "content_hash": "e78751133ce540fe3b05644fbc418c32",
+    "strict_hash": "e78751133ce540fe3b05644fbc418c32",
+    "fuzzy_hash": "46caef1d57baaf837f20ae59d413d2a9",
+    "reason": "Новость касается политического заявления ОАЭ по поводу Ирана и обвинений в причастности к войне — это прямая политика и международный конфликт, что нарушает правило 2 (политика и конфликты). Также тема может быть воспринята как неуважение к ценностям UAE из-за упоминания «террора» и споров с Ираном (правило 4). Новость не имеет практической пользы для русскоговорящего жителя Дубая (правило 6)."
   }
 ]
