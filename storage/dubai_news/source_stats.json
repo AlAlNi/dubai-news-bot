@@ -656,5 +656,23 @@
     "strict_hash": "c9e33a5366bb7264c324202e70d2df5f",
     "fuzzy_hash": "bd00945b5d66d00376fa866f73b48c92",
     "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные в Дубае, что напрямую связано с регионом и может быть полезно русскоязычным жителям. Однако она имеет признаки повторяющегося формата (еженедельная подборка) и не содержит уникальной общественно значимой информации, а также не является срочным сервисным обновлением."
+  },
+  {
+    "url": "https://propertynews.ae/guide/pedestrian-culture-the-2026-guide-to-dubais-new-waterfront-art-walk",
+    "timestamp": "2026-05-16T18:48:15.556187+00:00",
+    "status": "rejected",
+    "content_hash": "bbeeef4ae6725d19585d37f310fe590f",
+    "strict_hash": "bbeeef4ae6725d19585d37f310fe590f",
+    "fuzzy_hash": "bbe97cd948afd72cc9f18c4370f153cb",
+    "reason": "Новость описывает новый пешеходный арт-маршрут в Дубае, что соответствует тематике канала, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст выглядит как рекламный пресс-релиз (упоминание роста цен на недвижимость, ссылка на PropertyNews.ae), а также содержит признаки ИИ-генерации (клише вроде «Slow Living era», «quiet luxury»). Кроме того, новость не имеет проверяемого источника (ссылка ведет на агрегатор, а не на официальный источник), и её достоверность вызывает сомнения — упоминание «2026 года» как уже наступившего указывает на вымысел или футуристический прогноз, что нарушает правило 8 (не является service-update или сводкой из официальных источников). Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5THo5NU9fRnFySXFTbTNfR2NXM3V3RGpSbGt2Mlplc0ZNMW85RDhfalhRWmtUNlptQ0U1X1daWktFN3FYZ05SOXgwdUVkUHJOMmJFY2Jfd0FXMHlHVlAtdWswaWtNUdIBbkFVX3lxTE9iNTdkb3FUems0Zk9YaWNfRTJESnVvRXRObC1PZFdka0dSVDEyaGJLdWY0cHRDR2pnVVliemxuUjlEVnJSMzVrTHNfdDVaenNPRHFjRFRaa1JFMnlHTVZWMXFHUUFuMDRxdEJiczB3?oc=5",
+    "timestamp": "2026-05-16T18:48:22.167631+00:00",
+    "status": "approved",
+    "content_hash": "1fa83a84d0b383df96fdcd2e70906782",
+    "strict_hash": "1fa83a84d0b383df96fdcd2e70906782",
+    "fuzzy_hash": "cf5a10dc4fc0c8a6cf0da6ab1ff8189d",
+    "reason": "approved"
   }
 ]
