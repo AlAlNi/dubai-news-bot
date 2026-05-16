@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/gcc/bahrains-marassi-milestone-new-residential-handovers-reshape-the-waterfront",
-    "timestamp": "2026-05-14T09:26:33.557226+00:00",
-    "status": "rejected",
-    "content_hash": "2ffe6127850c94417004431454d29dc2",
-    "strict_hash": "2ffe6127850c94417004431454d29dc2",
-    "fuzzy_hash": "bf8738fb32d073bf17dc34a36c2fdde6",
-    "reason": "Новость не связана с Дубаем или ОАЭ, а посвящена проекту в Бахрейне, что нарушает первое правило. Кроме того, текст имеет признаки рекламного пресс-релиза и не представляет интереса для русскоязычного жителя Дубая."
-  },
-  {
-    "url": "https://scanx.trade/stock-market-news/companies/dhampur-bio-organics-incorporates-wholly-owned-subsidiary-in-dubai-uae/40245132",
-    "timestamp": "2026-05-14T09:26:35.542463+00:00",
-    "status": "rejected",
-    "content_hash": "fa42d84c1522090eb0bcece292610af7",
-    "strict_hash": "fa42d84c1522090eb0bcece292610af7",
-    "fuzzy_hash": "b3fe46fc35267e9cd535f5086c070e39",
-    "reason": "Новость о регистрации дочерней компании индийской фирмы в Дубае имеет связь с регионом, но не представляет интереса для русскоязычного жителя Дубая — это корпоративная отчетность без общественно значимой информации."
-  },
-  {
     "url": "https://www.newsx.com/middle-east/dubai-airport-news-virgin-atlantic-suspends-londondubai-flights-until-2027-permanently-cancels-riyadh-route-218369",
     "timestamp": "2026-05-14T10:28:43.016101+00:00",
     "status": "published"
@@ -573,5 +555,10 @@
     "strict_hash": "5b078085f9721f22a20e7a73f614b6ff",
     "fuzzy_hash": "a971331d5917ee08e6927d87636f5827",
     "reason": "Новость о подписании соглашений между Индией и ОАЭ в сфере оборонного сотрудничества имеет прямую связь с регионом (ОАЭ) и не содержит политической или конфликтной риторики, а также не является рекламой. Однако тема оборонного партнёрства может быть воспринята как политическая, что противоречит правилу №2 (большая политика). Кроме того, новость не представляет очевидного интереса для русскоговорящего жителя Дубая, так как не затрагивает его повседневную жизнь, услуги или развлечения."
+  },
+  {
+    "url": "https://propertynews.ae/business/uae-launches-regional-first-venture-debt-fund-to-fuel-high-growth-startups",
+    "timestamp": "2026-05-16T10:23:12.450145+00:00",
+    "status": "published"
   }
 ]
