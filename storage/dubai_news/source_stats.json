@@ -745,5 +745,23 @@
     "strict_hash": "e03f21992f82312ba9a7feb41c1700eb",
     "fuzzy_hash": "8169082c870563596f99b8647da7d5eb",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/05/8-of-the-best-garden-cafes-in-dubai-for-a-zen-escape",
+    "timestamp": "2026-05-17T14:21:43.015019+00:00",
+    "status": "rejected",
+    "content_hash": "75ef9db64078417b48cbae06a5791c1b",
+    "strict_hash": "75ef9db64078417b48cbae06a5791c1b",
+    "fuzzy_hash": "ed97e84b934b2a53b62484fbf5d29491",
+    "reason": "Новость представляет собой подборку кафе с зелёными зонами в Дубае, что соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако это скорее развлекательный контент, а не новость, и он не является дубликатом ранее опубликованных материалов. Интерес для русскоговорящего жителя может быть, но текст выглядит как типичный лайфстайл-пост, а не оперативная или общественно значимая информация."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBERWRpUm40LWE3eEhWYmY2dlAxWFNhUlRGclJQYkU3RjJNRV83UkdDNFlGc3IxaFN4bFNLdjlEMXE1dEVPQTFQejQzWEd2MlBTYTg2SDhIWDd3VmtPdGtGeHBWNzFsR1YwOHJneE1OTGlTSFFxUG1yRA?oc=5",
+    "timestamp": "2026-05-17T14:21:43.815766+00:00",
+    "status": "rejected",
+    "content_hash": "d16fccb5d87295a49fca415a55df50f8",
+    "strict_hash": "d16fccb5d87295a49fca415a55df50f8",
+    "fuzzy_hash": "f424d43690b12817efb592280f4ffc0c",
+    "reason": "Cheap prefilter: слишком короткий текст (93 символов)"
   }
 ]
