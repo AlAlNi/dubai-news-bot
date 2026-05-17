@@ -759,5 +759,23 @@
     "strict_hash": "ec611f08be1c1ddcf6a12c8464f206be",
     "fuzzy_hash": "4fdf176e78d097de775e0276027bf3c2",
     "reason": "Новость является дубликатом уже опубликованной информации о завершении 80% проекта туннеля на Al Khaleej Street. Источник (Emirates 24|7) и содержание полностью совпадают с первой новостью из контекста (Government of Dubai Media Office)."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/aesthetic-places-in-dubai-that-look-straight-out-of-pinterest",
+    "timestamp": "2026-05-17T12:55:05.508582+00:00",
+    "status": "rejected",
+    "content_hash": "4ac9729ff71833e781a4883174d8448c",
+    "strict_hash": "4ac9729ff71833e781a4883174d8448c",
+    "fuzzy_hash": "5364ff64950c875d22515cbc68521a6d",
+    "reason": "Новость представляет собой подборку эстетичных мест для фото в Дубае, что может быть интересно русскоязычным жителям, но текст выглядит как рекламно-развлекательный контент без общественно значимой новости, с признаками кликбейта и отсутствием проверяемого источника с конкретными фактами."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CclZaSHBuVG9RU19yM3RwSUEtZVB3OC16S1hmd0ZPNlBMbjg0Si1jNk15clBwdjNIQ1VjVzdoTTdoNjY5SVI2ay1tUkhfc0hJQzFRRHQ3Y2ttaEFwSXE1eEMyZw?oc=5",
+    "timestamp": "2026-05-17T12:55:08.445797+00:00",
+    "status": "rejected",
+    "content_hash": "875446333b97caf083fc1ffe5d83895a",
+    "strict_hash": "875446333b97caf083fc1ffe5d83895a",
+    "fuzzy_hash": "f8cc9441ec23bdd3c2cb67ac55c9e50f",
+    "reason": "Новость является точным дубликатом уже опубликованной новости под номером 1 в контексте. Она не несет новой информации для аудитории."
   }
 ]
