@@ -780,5 +780,14 @@
     "strict_hash": "248316b770fae2f84a95c06df4bee16a",
     "fuzzy_hash": "29c5bfa87f840ba274d6583f36afc6d6",
     "reason": "Новость является дубликатом уже опубликованной новости №3 (RTA Completes 80% of Al Khaleej Street Tunnel Project...). Хотя источник другой (Gulf Today вместо Government of Dubai Media Office), суть и цифры идентичны, что нарушает правило 7."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVEdsNEp1ZjFJVmRHNzc5YnlmNnIzMV9KWlcybTRjVjAzQks0Vms2Uk1nTmYzSnAtQWhTZlBVTUEwSGsxSnhTQjZUamRkY19xblkzQnFOV0hRdjNRT2ZDeEp3QzNhQUlwVjE4aGtZNlBiNUdNbDNaZWVKUGRlaWhHUmFBd0JkMWxoS0tQaEtFUklPMTBFM0hjSUx0S0dYcjFfakI5ejhTaVNkZFFmUER5cmVCUk1uQzQ?oc=5",
+    "timestamp": "2026-05-17T17:32:07.263448+00:00",
+    "status": "rejected",
+    "content_hash": "1a7a83cbdca740b6871e311980603b0c",
+    "strict_hash": "1a7a83cbdca740b6871e311980603b0c",
+    "fuzzy_hash": "4b9bdd8a8f4eb098d553e35092dfeaff",
+    "reason": "Новость о новом дорожном проекте в Дубае, который сократит время в пути, явно связана с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит естественно и будет интересна русскоговорящим жителям. Однако она является дубликатом уже опубликованной новости №3 (RTA Completes 80% of Al Khaleej Street Tunnel Project), так как обе сообщают о крупном дорожном проекте в Дубае, хотя и с разными деталями. Поскольку правило 7 требует отклонять точные копии или очень похожие новости, а данная новость пересекается по теме с уже вышедшей, её следует отклонить."
   }
 ]
