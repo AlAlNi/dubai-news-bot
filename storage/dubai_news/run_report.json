@@ -1,78 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-05-10T19:51:45.591793+00:00",
-    "finished_at": "2026-05-10T19:52:14.602897+00:00",
-    "duration_seconds": 29.011,
-    "success": true,
-    "counters": {
-      "attempts_made": 2,
-      "fetched": 1,
-      "rejected": 0,
-      "approved": 1,
-      "deepseek_calls": 2,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 0,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-05-10",
-      "daily": {
-        "published_per_day": {
-          "value": 7,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 62.07,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.newsx.com",
-            "events": 6,
-            "reject_rate": 100.0,
-            "duplicate_rate": 16.67
-          },
-          {
-            "source": "news.google.com",
-            "events": 10,
-            "reject_rate": 60.0,
-            "duplicate_rate": 10.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-05-10T20:09:52.023546+00:00",
     "finished_at": "2026-05-10T20:09:57.968203+00:00",
     "duration_seconds": 5.945,
@@ -14777,6 +14705,78 @@
           "value": 0.0,
           "alert_if_gt": 60.0,
           "ok": true
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.newsx.com",
+            "events": 6,
+            "reject_rate": 66.67,
+            "duplicate_rate": 33.33
+          },
+          {
+            "source": "whatson.ae",
+            "events": 6,
+            "reject_rate": 66.67,
+            "duplicate_rate": 16.67
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-05-17T01:24:18.594650+00:00",
+    "finished_at": "2026-05-17T01:24:23.226784+00:00",
+    "duration_seconds": 4.632,
+    "success": false,
+    "counters": {
+      "attempts_made": 3,
+      "fetched": 1,
+      "rejected": 1,
+      "approved": 0,
+      "deepseek_calls": 1,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 1,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 1,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-05-17",
+      "daily": {
+        "published_per_day": {
+          "value": 0,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 100.0,
+          "alert_if_gt": 60.0,
+          "ok": false
         }
       },
       "weekly_actions": {
