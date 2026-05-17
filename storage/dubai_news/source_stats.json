@@ -767,5 +767,23 @@
     "strict_hash": "92859fb5cb1d705f5156942f70159d77",
     "fuzzy_hash": "917a8c2354c1705b91ea464628299b90",
     "reason": "Новость о дорожном проекте в Дубае, направленном на сокращение времени в пути, имеет прямую связь с регионом и представляет интерес для русскоязычных жителей, так как касается инфраструктурных улучшений. Однако она является дубликатом уже опубликованной новости (пункт 2 контекста: RTA Completes 80% of Al Khaleej Street Tunnel Project), так как обе сообщают о крупном дорожном проекте RTA, хотя и с разными деталями (сроки и конкретные цифры). Согласно правилу 7, такие повторяющиеся темы следует отклонять."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/05/17/dubai-property-prices-under-stress-test",
+    "timestamp": "2026-05-17T15:50:07.687665+00:00",
+    "status": "rejected",
+    "content_hash": "2412cd026d5df012554e051b00fbcca9",
+    "strict_hash": "2412cd026d5df012554e051b00fbcca9",
+    "fuzzy_hash": "c7a45898afc2e90ecdb6f9c153f0b79e",
+    "reason": "Новость содержит признаки ИИ-генерации (неестественный текст, обрывочная структура, ссылка на несуществующий Twitter-аккаунт), а также ссылается на непроверяемый источник (Sterling Capital без URL). Кроме того, тема геополитических рисков может быть воспринята как неуважение к стабильности ОАЭ."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWUVuTmZLdEsyUkVRRTloOGk3d1JYRVE2ZFVTZUY2ZXFzRHczcjBIVmE0SkE5TXpmRmZ0ZWpKS0NSeFBjT1U4d2JUUUpMT2lHaXB2YnUtUUNfZVhyaHJreFZLaUFlZlZmeUpKMXFDN3Rjb2hRUkx6aWZJMktFNUkxNTVpOFMxakpSUzRBckcwWE9Lb2pEalpTN2czcXc2T0ZZMUVTTXg0blJTdw?oc=5",
+    "timestamp": "2026-05-17T15:50:14.717536+00:00",
+    "status": "approved",
+    "content_hash": "89067c88d800291c648a6cdf7e97613c",
+    "strict_hash": "89067c88d800291c648a6cdf7e97613c",
+    "fuzzy_hash": "0877e1d4055550c2876d9bd3d1148750",
+    "reason": "approved"
   }
 ]
