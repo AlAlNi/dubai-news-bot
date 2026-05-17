@@ -1,46 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/guide/the-modular-extension-a-homeowners-guide-to-2026-residential-annex-laws",
-    "timestamp": "2026-05-15T17:22:11.017586+00:00",
-    "status": "approved",
-    "content_hash": "75d002b9c5164092c9596dbb619529a9",
-    "strict_hash": "75d002b9c5164092c9596dbb619529a9",
-    "fuzzy_hash": "3d297d925a12a9e1a94448b31824f8f8",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.newsx.com/middle-east/uae-weather-today-dubai-to-stay-around-35c-as-dusty-winds-sweep-across-country-mountains-offer-cooler-weekend-219262",
-    "timestamp": "2026-05-15T18:05:38.152933+00:00",
-    "status": "rejected",
-    "content_hash": "7aef020cb211601409903f1c7344c65d",
-    "strict_hash": "7aef020cb211601409903f1c7344c65d",
-    "fuzzy_hash": "4ffa339fde4bdb2cc207332ef2d9c22c",
-    "reason": "Новость о погоде в Дубае (около 35°C, пыльные ветры) соответствует тематике канала, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако она является дубликатом уже опубликованной новости под номером 5 («UAE Weather Today (14 May 2026): Dusty Winds, Rough Seas And Sudden Temperature Dip To Hit Dubai, Abu Dhabi»), так как описывает те же погодные условия (пыльные ветры, жара) в тот же день. Хеш контента отличается, но смысл и дата совпадают, что нарушает правило 7."
-  },
-  {
-    "url": "https://propertynews.ae/guide/the-modular-extension-a-homeowners-guide-to-2026-residential-annex-laws",
-    "timestamp": "2026-05-15T18:45:36.193928+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/rak-properties-announces-phase-2-of-quattro-del-mar-as-ras-al-khaimahs-luxury-demand-surges",
-    "timestamp": "2026-05-15T19:15:27.873490+00:00",
-    "status": "rejected",
-    "content_hash": "1fce43fe81e85c64b979a0426bcaae4f",
-    "strict_hash": "1fce43fe81e85c64b979a0426bcaae4f",
-    "fuzzy_hash": "d62c6afe07e102edc68e3a43c0937784",
-    "reason": "Новость о запуске второй фазы проекта Quattro Del Mar в Рас-эль-Хайме соответствует тематике канала (связь с ОАЭ), не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и интересна для русскоязычных жителей, интересующихся недвижимостью. Однако это дубликат по смыслу с уже опубликованной новостью о расширении Jumeirah Bay North (обе о росте спроса на люксовую недвижимость в ОАЭ), что нарушает правило 7."
-  },
-  {
-    "url": "https://www.newsx.com/middle-east/two-major-european-airlines-suspend-all-dubai-summer-flights-amid-middle-east-tensions-219305",
-    "timestamp": "2026-05-15T19:15:30.574219+00:00",
-    "status": "rejected",
-    "content_hash": "673c5a2cc74c418150711be6d35e0825",
-    "strict_hash": "673c5a2cc74c418150711be6d35e0825",
-    "fuzzy_hash": "570a1abb5e1ffb0d159a85afd77d9006",
-    "reason": "Новость напрямую связана с Дубаем (аэропорт) и касается отмены рейсов крупными авиакомпаниями, что представляет интерес для русскоязычных жителей, планирующих путешествия. Однако текст содержит признаки ИИ-генерации (неестественная структура, обрывочность, указание на 2026 год, что выглядит как ошибка или выдумка), а также ссылается на «региональный конфликт» без конкретики, что может нарушать правило о политике. Кроме того, источник не указан явно, а достоверность фактов под вопросом."
-  },
-  {
     "url": "https://www.newsx.com/middle-east/dubai-airport-flight-update-flydubai-launches-direct-flights-to-benghazi-starting-17th-june-219286",
     "timestamp": "2026-05-15T20:00:46.672893+00:00",
     "status": "approved",
@@ -816,5 +775,10 @@
     "strict_hash": "cfcadc6de969c1b9caa463ff075d9b69",
     "fuzzy_hash": "c0c3b7826f55a710e14558d0d89bb859",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-real-estate-sector-strategy-2033-targets-aed-1-trillion-in-transaction-value",
+    "timestamp": "2026-05-17T19:21:47.369843+00:00",
+    "status": "published"
   }
 ]
