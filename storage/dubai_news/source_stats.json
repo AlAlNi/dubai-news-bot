@@ -1,64 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/dubai/rak-properties-partners-with-global-wellness-brand-for-cape-hayat-luxury-development",
-    "timestamp": "2026-05-18T18:57:29.728962+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://7news.com.au/entertainment/celebrity/tv-star-and-former-model-katie-price-claims-husband-lee-andrews-has-been-kidnapped-in-dubai--c-22299247",
-    "timestamp": "2026-05-18T19:12:45.877890+00:00",
-    "status": "rejected",
-    "content_hash": "b9749851e95291dc47fa62953aa665f6",
-    "strict_hash": "b9749851e95291dc47fa62953aa665f6",
-    "fuzzy_hash": "45fe016185e3d03fda462594e76073ec",
-    "reason": "Новость о заявлении Кэти Прайс о «похищении» её мужа в Дубае не соответствует критериям канала: она носит скандальный и непроверенный характер, не имеет общественной значимости для русскоязычных жителей Дубая, а также может быть воспринята как неуважение к правопорядку ОАЭ (правило 4). Кроме того, отсутствует проверяемый официальный источник, а сама история выглядит как кликбейт (правило 5)."
-  },
-  {
-    "url": "https://propertynews.ae/guide/beyond-the-grade-how-the-2026-skills-passport-is-changing-uae-education",
-    "timestamp": "2026-05-18T19:23:25.021279+00:00",
-    "status": "rejected",
-    "content_hash": "8ea38eb9d88ea18a5b72633ba91fc927",
-    "strict_hash": "8ea38eb9d88ea18a5b72633ba91fc927",
-    "fuzzy_hash": "a7fddd959ac63eab46480aef9a0315fa",
-    "reason": "Новость описывает внедрение «Skills-Passport» в ОАЭ с 2026 года, что напрямую связано с образовательной системой региона и может быть полезно русскоязычным жителям Дубая. Однако текст содержит признаки ИИ-генерации (общие фразы, отсутствие конкретных ссылок на официальные источники, даты и детали, которые невозможно проверить), а также не указан проверяемый URL источника. Кроме того, новость не является дубликатом опубликованной (которая о дорожном проекте), но её достоверность вызывает сомнения."
-  },
-  {
-    "url": "https://www.newsx.com/middle-east/gold-rate-today-on-18-may-2026-check-out-yellow-metal-prices-of-24k-22k-18k-prices-in-uae-dubai-abu-dhabi-qatar-saudi-arabia-and-oman-220918",
-    "timestamp": "2026-05-18T19:23:27.240999+00:00",
-    "status": "rejected",
-    "content_hash": "bebf8005982419dc1f3bb8fc8355cbd7",
-    "strict_hash": "bebf8005982419dc1f3bb8fc8355cbd7",
-    "fuzzy_hash": "171d6e1f7843fbec6619b38367ad9860",
-    "reason": "Новость о ценах на золото в ОАЭ и регионе GCC соответствует критериям по связи с регионом и может быть полезна русскоязычным жителям, интересующимся экономикой. Однако текст содержит признаки кликбейта и ИИ-генерации (указана конкретная дата 18 мая 2026 года, что выглядит как искусственно созданный контент, а не актуальная новость), а также не имеет проверяемого источника в явном виде."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/wealth/invest/gold-rates-today-may-18-2026-check-prices-of-24k-22k-and-18k-gold-in-dubai-abu-dhabi-riyadh-kuwait-city-doha-muscat/gold-rates-in-dubai-and-abu-dhabi/slideshow/131171410.cms",
-    "timestamp": "2026-05-18T20:52:44.588425+00:00",
-    "status": "rejected",
-    "content_hash": "af3f74b9b6fb6be8b207d862f7fdef6e",
-    "strict_hash": "af3f74b9b6fb6be8b207d862f7fdef6e",
-    "fuzzy_hash": "0e15f7aee61e32b4e629cdeca5c3e6cc",
-    "reason": "Новость представляет собой стандартную ежедневную сводку цен на золото в регионе, что полезно для русскоязычных жителей Дубая, но источник (сайт ювелирной сети) не является официальным, а сам формат — это типичный повторяющийся дайджест, который уже мог публиковаться ранее. Кроме того, заголовок включает несколько городов GCC, что размывает фокус на Дубае, а текст выглядит как автоматически сгенерированная копия с минимальной редактурой."
-  },
-  {
-    "url": "https://propertynews.ae/guide/the-ai-sandbox-navigating-dubais-2026-algorithmic-compliance-licenses",
-    "timestamp": "2026-05-18T21:01:43.700999+00:00",
-    "status": "rejected",
-    "content_hash": "41fa2fcd5d0efa78c92a4d7d4179baf3",
-    "strict_hash": "41fa2fcd5d0efa78c92a4d7d4179baf3",
-    "fuzzy_hash": "fcd02444cd01aac4b9c25e06584c76f2",
-    "reason": "Новость представляет собой рекламно-информационный материал о новой лицензии для ИИ-стартапов в Дубае, но не содержит конкретной общественно значимой новости, а больше похожа на пресс-релиз или рекламную статью, что нарушает правило 3. Кроме того, текст имеет признаки ИИ-генерации (общие фразы, отсутствие конкретных дат и ссылок на официальные источники), что нарушает правило 5."
-  },
-  {
-    "url": "https://www.arkansasonline.com/news/2026/may/18/sole-uae-nuclear-plant-hit",
-    "timestamp": "2026-05-18T21:01:45.877796+00:00",
-    "status": "rejected",
-    "content_hash": "86836af8a22c0a512f4fee1d28fffa6d",
-    "strict_hash": "86836af8a22c0a512f4fee1d28fffa6d",
-    "fuzzy_hash": "5cbd3ad44c7d65797cb9bd7795de419a",
-    "reason": "Новость сообщает о предполагаемом ударе дрона по единственной атомной электростанции ОАЭ, что напрямую связано с регионом, но основная тема — это террористическая атака и потенциальный конфликт, что нарушает правило №2 (политика и конфликты). Кроме того, текст обрывается и выглядит как фрагмент сомнительного источника, что вызывает вопросы к достоверности (правило №5)."
-  },
-  {
     "url": "https://www.prnewswire.co.uk/news-releases/dubai-doctor-expands-advanced-body-contouring-procedures-amid-rising-demand-for-high-definition-liposuction-302774553.html",
     "timestamp": "2026-05-18T22:32:33.800492+00:00",
     "status": "rejected",
@@ -461,5 +402,10 @@
     "strict_hash": "7aaf8633a6489760e3e14630f01da8b3",
     "fuzzy_hash": "37e024cda183d5e5a9a8ca43b5039fa0",
     "reason": "Новость о пропаже мужа Кэти Прайс в Дубае — это светская хроника, не имеющая общественной значимости для русскоязычных жителей ОАЭ, и не содержит проверяемых фактов, связанных с регионом. Она больше похожа на таблоидный кликбейт, чем на полезную новость."
+  },
+  {
+    "url": "https://propertynews.ae/business/etihad-rail-hits-major-milestone-with-fujairah-station-completion-and-passenger-service-launch",
+    "timestamp": "2026-05-20T21:04:08.412469+00:00",
+    "status": "published"
   }
 ]
