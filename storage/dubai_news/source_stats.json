@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://timesofindia.indiatimes.com/world/middle-east/drone-attack-sparks-fire-at-nuclear-plant-in-uae/articleshow/131163731.cms",
-    "timestamp": "2026-05-18T16:38:55.882166+00:00",
-    "status": "rejected",
-    "content_hash": "befbd6db15f2a62a93ce7da08bb4a114",
-    "strict_hash": "befbd6db15f2a62a93ce7da08bb4a114",
-    "fuzzy_hash": "e0bb0a0e825fad984fbd9e6a2f51b8f3",
-    "reason": "Новость о пожаре на АЭС в ОАЭ из-за атаки дрона напрямую связана с регионом, но её основная тема — военный конфликт и большая политика (война с Ираном), что нарушает правило №2. Кроме того, текст содержит признаки кликбейта и неясный источник, а также может быть воспринят как неуважение к безопасности ОАЭ."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/rak-properties-partners-with-global-wellness-brand-for-cape-hayat-luxury-development",
-    "timestamp": "2026-05-18T17:25:23.317305+00:00",
-    "status": "approved",
-    "content_hash": "635b47ed936105f6fd241e2c5e0c4fff",
-    "strict_hash": "635b47ed936105f6fd241e2c5e0c4fff",
-    "fuzzy_hash": "32b958a2f31e6402790a5595be797dd1",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/rak-properties-partners-with-global-wellness-brand-for-cape-hayat-luxury-development",
     "timestamp": "2026-05-18T18:57:29.728962+00:00",
     "status": "published"
@@ -456,5 +438,10 @@
     "strict_hash": "82ea909dc883e1127fe6eaa0e0dffec1",
     "fuzzy_hash": "5b411f351c4e135d97e7bc0bda89bf49",
     "reason": "Новость о листинге дубайской компании в Йоханнесбурге имеет прямую связь с Дубаем (базирование Averi Finance), не содержит политики, рекламы или неуважения к ОАЭ, текст выглядит естественно и ссылается на Bloomberg. Однако для русскоязычного жителя Дубая эта информация узкоспециализированная (корпоративные финансы, сделка с южноафриканской горнодобывающей компанией) и вряд ли представляет массовый интерес или практическую пользу. Кроме того, это не дубликат опубликованной новости о бизнес-миссиях в Гане."
+  },
+  {
+    "url": "https://propertynews.ae/business/dubai-chamber-facilitates-over-270-business-meetings-in-ghana-to-boost-west-african-trade",
+    "timestamp": "2026-05-20T18:27:08.388555+00:00",
+    "status": "published"
   }
 ]
