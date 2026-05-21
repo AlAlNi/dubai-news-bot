@@ -465,5 +465,23 @@
     "strict_hash": "2f7673ecda22c79e9a5d8d229cf1de75",
     "fuzzy_hash": "de0b16d7168e3bead5f05ab28c362d83",
     "reason": "Новость напрямую связана с ОАЭ и затрагивает изменения в визовых правилах, что актуально для русскоязычных жителей Дубая, особенно с учётом большого числа индийских экспатов. Текст короткий, без признаков рекламы или политики, но выглядит как фрагмент или заголовок без полного содержания и проверяемого источника (указан только домен VisaHQ, а не конкретная ссылка на официальный источник)."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/flying-taxis-museum-of-the-future-dubai",
+    "timestamp": "2026-05-21T13:55:03.122312+00:00",
+    "status": "rejected",
+    "content_hash": "2577f8cc8772a8bb403061dc4418cbee",
+    "strict_hash": "2577f8cc8772a8bb403061dc4418cbee",
+    "fuzzy_hash": "0e739e58a5af433a487a537df3d28862",
+    "reason": "Новость напрямую связана с Дубаем (Museum of the Future, проект летающего такси), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Текст выглядит естественно и интересен русскоязычным жителям, так как описывает актуальную городскую инновацию. Однако требуется проверка на дубликаты по предоставленному хешу."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWUZWblA3QmFZT3hTYldWbFJxRjZ5WnVFQ3BuMTZOYk5jNmdtenQ5ZjMyMGtrZVZQRm5qMXJZaVA1ZmVUTm9Jd0lCaHE0YUJOcjRrRFlLYXFBLWZjMUgxdVVkZjlzYU8wQ09VWExoQ2h4TlR5dUhKd2wxWXJndUdSX3c3cDFsOUUxUWRsXzZxdDdRd1NoRWFCQVVZRWF2SEJ5eDZlNDVR?oc=5",
+    "timestamp": "2026-05-21T13:55:09.723855+00:00",
+    "status": "approved",
+    "content_hash": "85a6a3aa45c4b68cc7ba7585336015f7",
+    "strict_hash": "85a6a3aa45c4b68cc7ba7585336015f7",
+    "fuzzy_hash": "d1000c01b2e4e5180a31683acc9c6af4",
+    "reason": "approved"
   }
 ]
