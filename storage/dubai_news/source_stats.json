@@ -423,5 +423,23 @@
     "strict_hash": "1cd94b51a31c4ed677cba4012c40a952",
     "fuzzy_hash": "7109f32bce61ab0c18606e543e67b653",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/05/12-peaceful-things-to-do-in-dubai-this-weekend",
+    "timestamp": "2026-05-21T23:50:46.294724+00:00",
+    "status": "rejected",
+    "content_hash": "fbe75a7c30e096bd14360d91645cd74c",
+    "strict_hash": "fbe75a7c30e096bd14360d91645cd74c",
+    "fuzzy_hash": "14a645d218fd4c44fcbc17022689c534",
+    "reason": "Новость представляет собой анонс развлекательных активностей на предстоящий праздник, что соответствует интересам русскоязычных жителей Дубая. Однако указан 2026 год, что выглядит как ошибка или ИИ-генерация (Eid Al Adha в 2026 году ещё не наступил, а текущий контекст — 2025 год), плюс текст явно взят с сайта What's On и является перепечаткой без указания проверяемого источника и даты. Это нарушает правила достоверности и естественности."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/culture-circle-enters-uae-to-build-gccs-most-trusted-indian-sneaker-streetwear-marketplace",
+    "timestamp": "2026-05-21T23:50:48.115382+00:00",
+    "status": "rejected",
+    "content_hash": "f008c32449cf8f982e860d03722bbff8",
+    "strict_hash": "f008c32449cf8f982e860d03722bbff8",
+    "fuzzy_hash": "1aff47f4c112c66699a775b7f61c93b1",
+    "reason": "Новость является явным пресс-релизом о запуске индийского маркетплейса в Дубае, не содержит общественно значимой информации для русскоязычных жителей, а также имеет признаки рекламного характера и ИИ-генерации (шаблонный текст с VMPL)."
   }
 ]
