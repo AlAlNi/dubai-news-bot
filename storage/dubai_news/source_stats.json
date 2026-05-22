@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://www.bloomberg.com/news/articles/2026-05-20/uae-s-averi-targets-johannesburg-listing-through-reverse-merger",
-    "timestamp": "2026-05-20T17:39:34.732689+00:00",
-    "status": "rejected",
-    "content_hash": "82ea909dc883e1127fe6eaa0e0dffec1",
-    "strict_hash": "82ea909dc883e1127fe6eaa0e0dffec1",
-    "fuzzy_hash": "5b411f351c4e135d97e7bc0bda89bf49",
-    "reason": "Новость о листинге дубайской компании в Йоханнесбурге имеет прямую связь с Дубаем (базирование Averi Finance), не содержит политики, рекламы или неуважения к ОАЭ, текст выглядит естественно и ссылается на Bloomberg. Однако для русскоязычного жителя Дубая эта информация узкоспециализированная (корпоративные финансы, сделка с южноафриканской горнодобывающей компанией) и вряд ли представляет массовый интерес или практическую пользу. Кроме того, это не дубликат опубликованной новости о бизнес-миссиях в Гане."
-  },
-  {
-    "url": "https://propertynews.ae/business/dubai-chamber-facilitates-over-270-business-meetings-in-ghana-to-boost-west-african-trade",
-    "timestamp": "2026-05-20T18:27:08.388555+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://propertynews.ae/business/etihad-rail-hits-major-milestone-with-fujairah-station-completion-and-passenger-service-launch",
-    "timestamp": "2026-05-20T19:13:29.775852+00:00",
-    "status": "approved",
-    "content_hash": "4f9fa7f95454a14112387bddca53b944",
-    "strict_hash": "4f9fa7f95454a14112387bddca53b944",
-    "fuzzy_hash": "210350187e4f9bdadf27a1f585680160",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.chroniclelive.co.uk/news/uk-news/katie-price-shares-final-texts-33977362",
     "timestamp": "2026-05-20T20:33:47.625688+00:00",
     "status": "rejected",
@@ -461,5 +438,10 @@
     "strict_hash": "9288e78a42f976fdc06a541852a36e25",
     "fuzzy_hash": "4476053c10d9129c9182a0738b83cb6d",
     "reason": "Новость не имеет никакого отношения к Дубаю, ОАЭ или региону GCC, а рассказывает о расследовании в Индии. Она также не представляет интереса для русскоязычного жителя Дубая и не соответствует тематике канала."
+  },
+  {
+    "url": "https://decrypt.co/368643/crypto-exchange-kraken-secures-vara-license-launch-dubai",
+    "timestamp": "2026-05-22T20:00:46.845564+00:00",
+    "status": "published"
   }
 ]
