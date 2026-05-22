@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/world/manhattans-adaptive-reuse-converting-iconic-office-space-into-luxury-living",
-    "timestamp": "2026-05-20T10:18:15.454511+00:00",
-    "status": "rejected",
-    "content_hash": "6298de7cd60a36497cefd9189bca3f21",
-    "strict_hash": "6298de7cd60a36497cefd9189bca3f21",
-    "fuzzy_hash": "5d5744d918dc5c18816fa8b680a6463d",
-    "reason": "Новость о перестройке офисных зданий в жилые в Нью-Йорке не имеет прямой связи с Дубаем или ОАЭ, упоминание Дубая в тексте носит лишь сравнительный характер и не является основной темой. Материал не соответствует первому правилу (связь с регионом) и вряд ли будет интересен русскоязычному жителю Дубая."
-  },
-  {
-    "url": "https://www.baytoday.ca/world-news/the-uae-says-drones-that-targeted-its-barakah-nuclear-power-plant-came-from-iraqi-territory-12298282",
-    "timestamp": "2026-05-20T10:18:17.671135+00:00",
-    "status": "rejected",
-    "content_hash": "c4b210e9cf9c79f33df59b01e6b85bec",
-    "strict_hash": "c4b210e9cf9c79f33df59b01e6b85bec",
-    "fuzzy_hash": "cd5af0afb63e673144f8763260344490",
-    "reason": "Новость касается атаки дронов на ядерный объект в ОАЭ, что напрямую связано с регионом, но основная тема — военный конфликт и политическая напряженность с участием Ирака и Ирана, что нарушает правило 2 (политика и конфликты). Также тема может быть воспринята как чувствительная для ценностей ОАЭ (правило 4)."
-  },
-  {
-    "url": "https://www.nbcnews.com/world/middle-east/uae-says-drones-targeted-barakah-nuclear-power-plant-came-iraqi-territ-rcna346005",
-    "timestamp": "2026-05-20T10:33:43.746705+00:00",
-    "status": "rejected",
-    "content_hash": "57c92abdd559e690903e6e9ffd8815f0",
-    "strict_hash": "57c92abdd559e690903e6e9ffd8815f0",
-    "fuzzy_hash": "48b579687266814273e7ea5797eb5c8f",
-    "reason": "Новость напрямую связана с ОАЭ (атака на АЭС Барака), но её основная тема — военный конфликт и обвинения в адрес Ирака и иранских прокси, что нарушает правило №2 (политика и конфликты). Кроме того, такая информация может быть воспринята как подрывающая стабильность и безопасность региона, что противоречит правилу №4 (уважение к ценностям UAE)."
-  },
-  {
     "url": "https://propertynews.ae/business/india-uae-economic-partnership-surges-with-record-37-trade-growth-since-inception",
     "timestamp": "2026-05-20T13:30:07.327610+00:00",
     "status": "approved",
@@ -442,5 +415,10 @@
     "strict_hash": "ddb2b45387d783507346764ec8b8afd1",
     "fuzzy_hash": "106c3d3c1b686b17a43ca64fdfd2641c",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/05/eid-al-adha-2026-rta-updates-parking-and-dubai-metro-timings",
+    "timestamp": "2026-05-22T11:51:51.316245+00:00",
+    "status": "published"
   }
 ]
