@@ -497,5 +497,23 @@
     "strict_hash": "fb02df02b9ae155183362679dacd47ec",
     "fuzzy_hash": "f11675e7162da71d1055d42adbabad33",
     "reason": "Новость является рекламным пресс-релизом криптобиржи WEEX, не содержит общественно значимой информации для русскоязычных жителей Дубая, а её заголовок и текст явно носят промо-характер. Кроме того, событие произошло в будущем (2026 год), что ставит под сомнение достоверность."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/nation-riviera-beach-club-beach-days-done-properly-in-abu-dhabi",
+    "timestamp": "2026-05-23T08:14:45.921926+00:00",
+    "status": "rejected",
+    "content_hash": "2fd6bd66a2a1ac36b64cc4bcd73ea073",
+    "strict_hash": "2fd6bd66a2a1ac36b64cc4bcd73ea073",
+    "fuzzy_hash": "a2938a68629203cf7d27cd55d17bc932",
+    "reason": "Эта новость — рекламный обзор пляжного клуба в Абу-Даби, написанный в формате пресс-релиза или блога. Она не содержит общественно значимой информации, полезной для русскоязычного жителя Дубая, и выглядит как заказной материал."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/nri/visit/dubai-hospitality-gets-a-nine-day-breather-during-eid-al-adha-holidays/articleshow/131267846.cms",
+    "timestamp": "2026-05-23T08:14:53.288295+00:00",
+    "status": "approved",
+    "content_hash": "c557094448fc76eca6323428e4c1d81c",
+    "strict_hash": "c557094448fc76eca6323428e4c1d81c",
+    "fuzzy_hash": "1b722c7081bdaf3c79c265a5a8bb6cac",
+    "reason": "approved"
   }
 ]
