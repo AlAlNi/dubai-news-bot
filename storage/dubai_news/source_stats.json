@@ -511,5 +511,23 @@
     "strict_hash": "a42ee9ebc29ff1bcd39f0f370c65f1ea",
     "fuzzy_hash": "1e786249f3dd1fd8d7d37993b32871b1",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-free-parking-eid-al-adha-2026",
+    "timestamp": "2026-05-23T11:53:53.798431+00:00",
+    "status": "rejected",
+    "content_hash": "6b7665a0cb0fbcb961ca5d80b71c7c31",
+    "strict_hash": "6b7665a0cb0fbcb961ca5d80b71c7c31",
+    "fuzzy_hash": "660b9bac87d9492e3885b566567a65f2",
+    "reason": "Cheap prefilter: слишком короткий текст (70 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuN3NnOHBpQzFudHBrcmdWc3VOYlNkbGc3eGJicU43cHdrRnJnYm1SRm8yRkZzWnlMdk9mWVJZZlVMMS1SWmE5WUxNaVFuZ2dNc0owaUZESXozOVBSeURjRzRFTzZpbXRIWmQ3M0dB?oc=5",
+    "timestamp": "2026-05-23T11:54:01.741328+00:00",
+    "status": "approved",
+    "content_hash": "eedb83c020b8a0067730843776b35e95",
+    "strict_hash": "eedb83c020b8a0067730843776b35e95",
+    "fuzzy_hash": "caac8b1c3c3d232de1c390ef227da837",
+    "reason": "approved"
   }
 ]
