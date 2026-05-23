@@ -575,5 +575,23 @@
     "strict_hash": "3be8226ae81a55fec19e787ec4209152",
     "fuzzy_hash": "564ca3118713a628484a907bcf191f8f",
     "reason": "Новость дублирует уже опубликованную информацию о бесплатном паркинге и праздничных изменениях в Дубае на Ид аль-Адха (см. новость №1 в контексте). Хотя тема актуальна и соответствует региону, публикация точного повтора нарушает правило №7."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/burj-khalifa-losing-crown-tallest-tower-reason",
+    "timestamp": "2026-05-23T21:43:51.728835+00:00",
+    "status": "rejected",
+    "content_hash": "b94699bffc88c6bbfe25359abc11d4fc",
+    "strict_hash": "b94699bffc88c6bbfe25359abc11d4fc",
+    "fuzzy_hash": "08068543ac029ff5fca175b751991972",
+    "reason": "Cheap prefilter: слишком короткий текст (76 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQnBfRzBBVkJOeGJNelpsbWo4QWIxT1ZaWjNIaEE5V3RyVTlwRWF6N1Q3ai1odEdOZFh4SldhZVBIOFdodVhpRmpmV2JZOUxGVC1FdUJSbzMxSE5jLXVmVDREd0oxMlI1RjNJTGNMaG9wTUtfT2hVZWp2Y3JHR196RVJMdG1JTm9qMzVZY1lwWmdsNmJMZThYOFc5eWFmN3VJNGdLUEJEUHV5cGVTdWI0MWZSZkvSAccBQVVfeXFMTXZ6NHQwUnhKWVVJaVZZNUF1YWMxLWg0WV9ybE12eGlWQXNfNGx2S3lueTZoMGZTX3IxWXUtcGMzUDRhbm5fS1RoSGMtX3B2YnVkQjBxaGYwd1V1UWtBRmgwMVBjcmRmUlliV2NDZEcwSTBEbk5mVElyZlkzM0VmNXl3WXRlVEhLTVNoZEhkNXQ2eE1jbjVHOW4wXzJrdGNhN1VwSFZ5VTFLbUpQQ21zY2VsczQ0V1ZRdFE4cWNMcnl6S1MwblRROA?oc=5",
+    "timestamp": "2026-05-23T21:43:53.714556+00:00",
+    "status": "rejected",
+    "content_hash": "d63325bbcda1136303fbdbe802b76e78",
+    "strict_hash": "d63325bbcda1136303fbdbe802b76e78",
+    "fuzzy_hash": "003436346f3ec515c7081bdeafa92e7a",
+    "reason": "Новость является дубликатом уже опубликованной новости №1 (Eid Al Adha holidays in UAE: Free parking in Dubai, Abu Dhabi, Sharjah and Ajman - Gulf News) и содержит неверную дату (2026 год вместо 2025), что делает её недостоверной."
   }
 ]
