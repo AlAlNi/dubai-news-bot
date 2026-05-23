@@ -584,5 +584,14 @@
     "strict_hash": "d63325bbcda1136303fbdbe802b76e78",
     "fuzzy_hash": "003436346f3ec515c7081bdeafa92e7a",
     "reason": "Новость является дубликатом уже опубликованной новости №1 (Eid Al Adha holidays in UAE: Free parking in Dubai, Abu Dhabi, Sharjah and Ajman - Gulf News) и содержит неверную дату (2026 год вместо 2025), что делает её недостоверной."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOejM2Q3d2QjZLSzFqMkdNckcxUGNzZmd2NmstWnBoYUdHLU9OY1lvRUN4S2NwYzdqQmNRNlh1RDRlSVhSWDNSV2NwQXlNTlJvZVBXVWJHNXpEaDR6ZjRRZGxYcFpNdUJLTHN5SjlUWUtqSE52TjV1ZFphbTlYWkozc2NJWGZHWTllbENETmk1RElZOS1tNS1teDdheUszcXFPUndvdUgxcUFycHkzRERnT0V2bE9DcWhpNDFCRjhuT0NndWw2Tk51NGN3?oc=5",
+    "timestamp": "2026-05-23T22:26:10.739657+00:00",
+    "status": "rejected",
+    "content_hash": "bbf1d0f96787777c32fd1054e44ff945",
+    "strict_hash": "bbf1d0f96787777c32fd1054e44ff945",
+    "fuzzy_hash": "bfc2de3cd019abbe52a1586ff607a0f7",
+    "reason": "Новость дублирует уже опубликованный материал под номером 3 («Dubai Eid Travel Rush: RTA Issues Urgent Metro Advisory and Enforces Strict Airport Luggage Rules»), а также частично пересекается с новостью №2. Тема та же, источник тот же (Gulf News), суть идентична — предупреждение RTA о загруженности метро и правилах провоза багажа. Публикация нарушает правило 7 (дубликаты и повторы)."
   }
 ]
