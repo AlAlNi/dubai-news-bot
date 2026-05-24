@@ -632,5 +632,23 @@
     "strict_hash": "96b16bd420b576dbcee94e2faf30322a",
     "fuzzy_hash": "6f23370d12367bc51d0af29becccf3ea",
     "reason": "Новость отклоняется, так как её основная тема — последствия военного конфликта (война США и Израиля с Ираном) и связанный с этим отток специалистов из Дубая. Это прямо нарушает правило №2 (политика и конфликты), а также может быть воспринято как неуважение к стабильности ОАЭ (правило №4). Кроме того, новость не представляет интереса для русскоязычного жителя Дубая, так как несёт негативный и тревожный контекст."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dxb-then-now-historic-photos-incredible",
+    "timestamp": "2026-05-24T17:52:09.464231+00:00",
+    "status": "rejected",
+    "content_hash": "df22ff60534fe92d9d1ab3e3e8a4be55",
+    "strict_hash": "df22ff60534fe92d9d1ab3e3e8a4be55",
+    "fuzzy_hash": "3cd94f0ebcaf850ad394b22768d51f30",
+    "reason": "Cheap prefilter: слишком короткий текст (108 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnRIMUtESjRJWTlGUFpJcVk3Y3JzSElYTWNkem9vbEFZbVBSdmcxcGRqd1dMMGVNQllqWHhlYllrdUU4TG43VFh5VXN4Zk5VQTE5eHE0LWVqTUx3dDFabHgzWmJFMjFTd240aGQ5d2VXZ19GUlBqcmg4QnNzckpoSzlfMDhodXlpMTJPRjVERkJ5MU4xSXNybVZaRVh6emFaMkJHcVBB0gGuAUFVX3lxTE1OY1ZFSGlhQ3JWUWVDRkd2amF0cWc5YTlNclp3UUpsa0lOa3l5N0t6QXJxcm5lV2l1M2kwWW5MWUt3dGxMNDZfcmY5cEU0MDV0YlRLRDQ5dTY4c2U2UVhLa0QtN2x3cUpqTkl6TWJrQXJMZGFJdmsySkFyNHVGOGRHQjU1YlVXekdnaUpPWi12dW9mTzBoclJMWE9vd2V4SnlBQ1FoOFdsdHRiaXFCdw?oc=5",
+    "timestamp": "2026-05-24T17:52:12.377241+00:00",
+    "status": "rejected",
+    "content_hash": "d22ea8db0c01deb6a64810a472bb4d85",
+    "strict_hash": "d22ea8db0c01deb6a64810a472bb4d85",
+    "fuzzy_hash": "e5f1720028d0e18485404df26df5bcff",
+    "reason": "Новость предупреждает о штрафах и тюремном сроке за незаконное использование фейерверков в Дубае перед Ид аль-Адха — это актуальное предупреждение от официального источника, связанное с регионом и безопасностью, без признаков рекламы или политики. Однако она является дубликатом уже опубликованной новости \"Dubai Police warn against fireworks use and trade during Eid Al Adha celebrations\" (контекст №1), так как обе сообщают об одном и том же предупреждении полиции."
   }
 ]
