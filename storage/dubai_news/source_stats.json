@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.al-monitor.com/newsletter/2026-05-22/emirati-abstraction-meets-floral-forms",
-    "timestamp": "2026-05-22T12:38:36.132727+00:00",
-    "status": "rejected",
-    "content_hash": "1a02e933443bec20ce3fd1b7544dd6ec",
-    "strict_hash": "1a02e933443bec20ce3fd1b7544dd6ec",
-    "fuzzy_hash": "7fb7a0da6ef38eedb8e7a089a6ec56f0",
-    "reason": "Новость о выставке Art Dubai имеет прямое отношение к региону, не содержит политики или рекламы, но её заголовок и текст выглядят как культурный обзор, а не оперативная новость. Кроме того, она не представляет очевидной практической ценности для русскоязычного жителя Дубая и может быть воспринята как дубликат по тематике (ранее уже публиковались новости о культурных событиях)."
-  },
-  {
-    "url": "https://whatson.ae/2026/05/khda-confirms-no-increase-in-dubai-private-school-fees-for-26-27",
-    "timestamp": "2026-05-22T13:23:02.909624+00:00",
-    "status": "approved",
-    "content_hash": "f088ce812487696771d2b8746a7d252e",
-    "strict_hash": "f088ce812487696771d2b8746a7d252e",
-    "fuzzy_hash": "8a14bf7d0b7b988aa2f6de9d1d2555d0",
-    "reason": "approved"
-  },
-  {
     "url": "https://whatson.ae/2026/05/khda-confirms-no-increase-in-dubai-private-school-fees-for-26-27",
     "timestamp": "2026-05-22T14:56:52.533720+00:00",
     "status": "published"
@@ -623,5 +605,10 @@
     "strict_hash": "2225fce807b086a99349afa78d02dbba",
     "fuzzy_hash": "2ef7d84cc254a2b9a824832cd55c0033",
     "reason": "Новость о личной драме британской знаменитости и её муже не имеет никакой связи с жизнью в Дубае или ОАЭ, а также не представляет интереса для русскоязычного жителя региона. Это типичная западная таблоидная история, которая нарушает правила 1 и 6."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/dubai-allocates-six-public-beaches-for-families-only-during-eid-al-adha",
+    "timestamp": "2026-05-24T14:41:04.777612+00:00",
+    "status": "published"
   }
 ]
