@@ -499,5 +499,23 @@
     "strict_hash": "6aafc8942f30c6de02a126df4ebbed61",
     "fuzzy_hash": "fb5cb03c80325410d7b2048e7cf2be8e",
     "reason": "Новость представляет собой статистический обзор рынка недвижимости Дубая с данными о сделках и прогнозом на Q1 2026. Текст выглядит как фрагмент аналитического отчёта или пресс-релиза, не содержит явной общественно значимой новости, а скорее рекламирует сервис IndexBox. Кроме того, источник (IndexBox) не является официальным или проверяемым для оперативной новости, а данные о Q1 2026 выглядят как прогноз, а не факт. Новость не соответствует критериям полезности для русскоязычного жителя (сухая статистика без контекста) и имеет признаки рекламного характера."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/march14-dubai-review",
+    "timestamp": "2026-05-25T16:59:03.211930+00:00",
+    "status": "rejected",
+    "content_hash": "ad188021730ebe08bc74cb41a02c8d81",
+    "strict_hash": "ad188021730ebe08bc74cb41a02c8d81",
+    "fuzzy_hash": "0e69efe2345f64ee695a0b7b6c907a8c",
+    "reason": "Эта новость — рекламный обзор салона красоты, написанный в формате пресс-релиза или нативной рекламы. В ней нет общественно значимой информации, полезной для русскоязычного жителя Дубая, а только описание интерьера и услуг."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQX2h5R2lLNTZGTEMzb1Q1alRrQzRJblhoNS16OUkycVFreDVVbWcxQ2YwRVRTZkhUMUI0d0ZZZ29FeGpfV05sdVhWLUdtX0hGOG5pSDNBLTZISWtjcEZWaGVkVldrc21zdnBHQy15aVJHaDRPZk4taWs4LVJlTHdaLVZxX2tQTnA0aUkyUEhpZDAyX054Q2ZObXg5clQzTURHalJlWEpQSDVoZWVjOVZIRGw0bEkzVUJ6V0xtamtWZmxVRGtkYzlDNy1GRHRkR1VlWlVrNHJTaEtQQUdyWVNzaU9FTUdRQUR3UTFXemhKRzlYNlVSdTR0S2UtRkk?oc=5",
+    "timestamp": "2026-05-25T16:59:09.550294+00:00",
+    "status": "approved",
+    "content_hash": "81c482a64100d7c705ea98f222a5f8dc",
+    "strict_hash": "81c482a64100d7c705ea98f222a5f8dc",
+    "fuzzy_hash": "68dec55ca403885be8c236edf74e0c0d",
+    "reason": "approved"
   }
 ]
