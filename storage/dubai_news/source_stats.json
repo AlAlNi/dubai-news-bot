@@ -499,5 +499,23 @@
     "strict_hash": "dc332b7f26fb970a774f049bd544c4aa",
     "fuzzy_hash": "356ef6cfef653928436aaeefe251d91c",
     "reason": "Новость явно является рекламным пресс-релизом юридической фирмы, не содержит общественно значимой информации для русскоязычных жителей Дубая, а также имеет признаки ИИ-генерации (указание на FinanceWire и шаблонный текст). Связь с регионом есть, но новость не проходит по критериям рекламного характера, достоверности и полезности для аудитории."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/inside-the-pearl-spa-one-of-abu-dhabis-most-calming-escapes",
+    "timestamp": "2026-05-25T18:24:02.559407+00:00",
+    "status": "rejected",
+    "content_hash": "7126a16df8e17d9c92113631fd491e7e",
+    "strict_hash": "7126a16df8e17d9c92113631fd491e7e",
+    "fuzzy_hash": "4e0ccbffb537a32e4f971a412eb0856c",
+    "reason": "Новость представляет собой рекламно-описательный материал о спа-салоне в Абу-Даби, не содержит общественно значимой информации, интересной для русскоязычного жителя Дубая, и выглядит как пресс-релиз."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORHB0TUdWbkdmVVlWVlJPVnZlWWdiSFBzUmRidHVvSGtrWmdSZUdHQWUyUVctTXJXSUtyVm0zVDJrNjdKQUtVNWVSNGlkVGhsdEJUVkVmRDhhQ0s4RXdjUDgzUzZnRWt6Rl9oOUZsS2NYbHNVQnhldEhXVjlIQUkxb29Bdm1uSUF6NnFfV3hNR1lWRTB4bGhqblhoZnQwdVRoSEZ2STQ3TTA2ZXA1YjZWdHFhX2RWUXFrNC1MU2c3aFFadXhRMlJQaTdEVTJrb1dFeFBN?oc=5",
+    "timestamp": "2026-05-25T18:24:04.751344+00:00",
+    "status": "rejected",
+    "content_hash": "f062388bcd3cdb5c6d3f7bc9f16c825f",
+    "strict_hash": "f062388bcd3cdb5c6d3f7bc9f16c825f",
+    "fuzzy_hash": "4cc0705264f27ef33e178f60c45248bc",
+    "reason": "Новость представляет собой короткий анонс с заголовком о восстановлении рынка премиальной недвижимости Дубая, но текст практически отсутствует и выглядит как фрагмент или заглушка. Отсутствует проверяемый источник и полноценное содержание, что нарушает правила достоверности и полезности для аудитории."
   }
 ]
