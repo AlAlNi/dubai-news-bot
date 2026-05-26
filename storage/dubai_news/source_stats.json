@@ -482,5 +482,23 @@
     "strict_hash": "00e7eb656e10199b207445c740fef8bd",
     "fuzzy_hash": "edf6eceae6839b3d16a662c528117452",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabis-pioneering-sustainable-community-achieves-landmark-estidama-5-pearl-office-rating",
+    "timestamp": "2026-05-26T13:47:46.170795+00:00",
+    "status": "rejected",
+    "content_hash": "e04917f0dddaa57a7802329849573141",
+    "strict_hash": "e04917f0dddaa57a7802329849573141",
+    "fuzzy_hash": "7776b7f8513c1590d08170ef1fd3c6db",
+    "reason": "Новость об Abu Dhabi и получении рейтинга Estidama 5 Pearl не имеет прямой связи с Дубаем (событие в Абу-Даби), а также написана в стиле пресс-релиза с избыточными общими фразами, что нарушает правила 1 и 3. Кроме того, текст выглядит неестественно и может быть сгенерирован ИИ (правило 5)."
+  },
+  {
+    "url": "https://www.thesun.ie/tvandshowbiz/17010447/katie-price-tv-appeal-hunt-missing-lee-andrews-dubai",
+    "timestamp": "2026-05-26T13:47:46.410412+00:00",
+    "status": "rejected",
+    "content_hash": "b1977ee675ead2679f5689fc9b7645c2",
+    "strict_hash": "b1977ee675ead2679f5689fc9b7645c2",
+    "fuzzy_hash": "c33ede3c8c33908bc67c24a3c421637f",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
   }
 ]
