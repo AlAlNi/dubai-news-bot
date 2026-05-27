@@ -397,5 +397,23 @@
     "strict_hash": "345f4c93ecb8e326515a7cb6147013e2",
     "fuzzy_hash": "3bd9ba21b24380e1ba6e89d133d55f6d",
     "reason": "Новость о пытках в дубайском СИЗО от BBC напрямую связана с ОАЭ, но нарушает правило №4 (неуважение к ценностям UAE) и правило №2 (политика/конфликты/обвинения в нарушении прав человека). Такая тема недопустима для канала, ориентированного на русскоговорящих жителей Дубая."
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/a-leading-developer-reports-strong-profits-plans-new-mega-project-in-abu-dhabi",
+    "timestamp": "2026-05-27T23:08:52.137312+00:00",
+    "status": "rejected",
+    "content_hash": "79e74fff43e536e21f5246006143028a",
+    "strict_hash": "79e74fff43e536e21f5246006143028a",
+    "fuzzy_hash": "32e7ed08889c4baf6072e0d85e53a78c",
+    "reason": "Новость о прибылях девелопера и новом проекте в Абу-Даби имеет слабую связь с Дубаем (основной фокус на Абу-Даби), текст выглядит как пересказ пресс-релиза без конкретных деталей и проверяемого источника (ссылка на PropertyNews.ae не является прямым URL), а также не представляет очевидного интереса для русскоязычного жителя Дубая, так как не содержит практической пользы или уникальной информации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWVPUW9la1dydmExbU9rOWU5cnczRGVDbWg0cDZkMFNWSnU0LXUzeVJGSS1LRzhDSXRnRlowMmRBaUY1aUFpbjlzcklrNnF4c1lQQkdmRjVoek9ZbUlKVG5VNUwzVG1pQUhlVDJ4UnlLTzhJXzhWak4ySGQxODJ2YmNqR0ZFcVdnY19xQUt5QXpPMS1jY29HRk5reWk0S0N4MmpGSXQ4dGZIWWfSAbABQVVfeXFMUFFXSnMybmdJOVUzay1pVkRXMlFfeFVkcm4wTHZxckRXLTVXYXQtajZSZ0pQNU1UMlZ4eEducW4yVEhZNDVDcjRMb0pZTFZCNk43cEZZQnNIQ1lSZmlCZkthNlRVMnJXWFdnYktZYXN6UWRVcy1CQ1hvMF9MTWpvbEdFbTdxcTVPSU5qRHdYS2MzZGszRnVfZHFoa25rc19ENC1ZRXMxZGZXM2JvZWFhVFg?oc=5",
+    "timestamp": "2026-05-27T23:08:55.416588+00:00",
+    "status": "rejected",
+    "content_hash": "0df7472e085695fae46a7a871f3ca821",
+    "strict_hash": "0df7472e085695fae46a7a871f3ca821",
+    "fuzzy_hash": "119f11bafbddb52c4b589182cee99225",
+    "reason": "Новость о британце, заключённом в «адскую» тюрьму в Дубае, с описанием жестокого обращения, нарушает правило №4 (уважение к ценностям UAE) и правило №2 (политика и конфликты — тема судебных разбирательств и тюремной системы). Также она не представляет интереса для русскоговорящего жителя Дубая (правило №6) и может быть воспринята как неуважение к местным властям."
   }
 ]
