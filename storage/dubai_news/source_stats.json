@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabis-pioneering-sustainable-community-achieves-landmark-estidama-5-pearl-office-rating",
-    "timestamp": "2026-05-26T13:47:46.170795+00:00",
-    "status": "rejected",
-    "content_hash": "e04917f0dddaa57a7802329849573141",
-    "strict_hash": "e04917f0dddaa57a7802329849573141",
-    "fuzzy_hash": "7776b7f8513c1590d08170ef1fd3c6db",
-    "reason": "Новость об Abu Dhabi и получении рейтинга Estidama 5 Pearl не имеет прямой связи с Дубаем (событие в Абу-Даби), а также написана в стиле пресс-релиза с избыточными общими фразами, что нарушает правила 1 и 3. Кроме того, текст выглядит неестественно и может быть сгенерирован ИИ (правило 5)."
-  },
-  {
-    "url": "https://www.thesun.ie/tvandshowbiz/17010447/katie-price-tv-appeal-hunt-missing-lee-andrews-dubai",
-    "timestamp": "2026-05-26T13:47:46.410412+00:00",
-    "status": "rejected",
-    "content_hash": "b1977ee675ead2679f5689fc9b7645c2",
-    "strict_hash": "b1977ee675ead2679f5689fc9b7645c2",
-    "fuzzy_hash": "c33ede3c8c33908bc67c24a3c421637f",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQN0FDMVVRRGlKR2tsdkJKVHpkak5EdEc2eDhoS1VwaDJTUHlrY0JRVTF1Nnd4Z1g2U0JzTVBpNmlkZHhOMXNLMWFXLWJRX18yVzJTNXYxQnJLTTd1T3ZoTTI0ekI1WjRkei1feWN3?oc=5",
-    "timestamp": "2026-05-26T16:24:03.628336+00:00",
-    "status": "rejected",
-    "content_hash": "b2d3f53e686ecd1c4397e41e53701aa0",
-    "strict_hash": "b2d3f53e686ecd1c4397e41e53701aa0",
-    "fuzzy_hash": "2c87671a42c660d26aabd73cd30b8be0",
-    "reason": "Новость представляет собой анонс туристического саммита в Дубае, что напрямую связано с регионом и не содержит политики или рекламы. Однако заголовок и текст выглядят как типичный пресс-релиз без конкретной общественно значимой информации, а источник (Travel And Tour World) не является официальным или проверяемым для подтверждения фактов."
-  },
-  {
-    "url": "https://www.cryptobreaking.com/dubai-pushes-toward-a-cashless",
-    "timestamp": "2026-05-26T16:49:52.943998+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://propertynews.ae/uae/abu-dhabi/substantial-new-residential-supply-expected-in-abu-dhabi-amidst-robust-rental-performance",
     "timestamp": "2026-05-26T17:19:42.150101+00:00",
     "status": "rejected",
@@ -441,5 +409,10 @@
     "strict_hash": "860d20a563571516b61d54acb9cd8a68",
     "fuzzy_hash": "d3ae6c53115165828af477723fb7057d",
     "reason": "Новость не связана с Дубаем напрямую — это скандальная история о британской знаменитости, которая лишь упоминает Дубай как место задержания. Тема не представляет интереса для русскоязычного жителя ОАЭ и не соответствует формату новостного канала о регионе."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/world/crown-prince-of-dubai-hamdan-bin-mohammed-performs-eid-al-adha-prayer-at-zabeel-grand-mosque",
+    "timestamp": "2026-05-28T16:59:38.307876+00:00",
+    "status": "published"
   }
 ]
