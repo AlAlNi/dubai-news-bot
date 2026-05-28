@@ -414,5 +414,23 @@
     "strict_hash": "8bf004e81df2ac1860a1cbd5b92d88c8",
     "fuzzy_hash": "94562ad6ee087a2ddec16bba6fbcb131",
     "reason": "Новость рассказывает о трейдере из Дубая, который коллекционирует редкие карточки Pokémon, но основное действие происходит в Сингапуре, а связь с Дубаем лишь фоновая (он оттуда прилетел). Тема не является общественно значимой для русскоязычных жителей Дубая, больше похожа на развлекательный репортаж без практической пользы."
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-sustains-steady-demand-as-dubai-achieves-sales-peak-in-resilient-uae-property-market",
+    "timestamp": "2026-05-28T14:28:11.975688+00:00",
+    "status": "rejected",
+    "content_hash": "ae204a8bd58dcc451cf6ab9f932313fd",
+    "strict_hash": "ae204a8bd58dcc451cf6ab9f932313fd",
+    "fuzzy_hash": "5ee8a5dc3f90a534a5ec1c19d3323d88",
+    "reason": "Новость представляет собой общий обзор рынка недвижимости ОАЭ без конкретных цифр, дат или ссылок на источник, что делает её похожей на аналитический пресс-релиз. Текст изобилует общими фразами и не содержит проверяемых фактов, что нарушает правило 9 (отсутствие явного URL источника) и правило 5 (признаки кликбейта/ИИ-генерации)."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/world/crown-prince-of-dubai-hamdan-bin-mohammed-performs-eid-al-adha-prayer-at-zabeel-grand-mosque",
+    "timestamp": "2026-05-28T14:28:19.023531+00:00",
+    "status": "approved",
+    "content_hash": "86626a4d0623f9ec4dbb41b7d3d59b58",
+    "strict_hash": "86626a4d0623f9ec4dbb41b7d3d59b58",
+    "fuzzy_hash": "2c69c511f1bc9ed82dfd242a0f53a745",
+    "reason": "approved"
   }
 ]
