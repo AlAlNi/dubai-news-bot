@@ -1,46 +1,5 @@
 [
   {
-    "url": "https://indianexpress.com/article/entertainment/web-series/desi-bling-school-dropout-satish-sanpal-from-sabzi-shop-to-burj-khalifa-billions-10706872",
-    "timestamp": "2026-05-26T04:43:26.214226+00:00",
-    "status": "rejected",
-    "content_hash": "854eb51be53370637de1209097fa1bc0",
-    "strict_hash": "854eb51be53370637de1209097fa1bc0",
-    "fuzzy_hash": "99fb4d0bcab839b8cfe3fb76476ba0d1",
-    "reason": "Новость рассказывает о жизни индийского миллиардера в Дубае и упоминает сериал Netflix, что имеет связь с регионом, но текст выглядит как пересказ статьи без явной общественной значимости для русскоязычных жителей, а также содержит признаки кликбейта и не имеет проверяемого источника (URL не указан). Кроме того, тема может быть воспринята как неуважение к ценностям ОАЭ из-за критики \"показной роскоши\"."
-  },
-  {
-    "url": "https://whatson.ae/2026/05/15-of-the-best-restaurants-in-dubai-with-a-view-in-2026",
-    "timestamp": "2026-05-26T06:37:29.562106+00:00",
-    "status": "rejected",
-    "content_hash": "ef5bec8052685408baac1140cc7e1966",
-    "strict_hash": "ef5bec8052685408baac1140cc7e1966",
-    "fuzzy_hash": "cefc075dc0dc2a597fb0f5d13e297412",
-    "reason": "Эта новость — типичный ресторанный обзор-список, который не содержит общественно значимой информации, а больше напоминает контент для развлекательного блога. Она не является срочной или полезной новостью для русскоязычного жителя, а также имеет признаки кликбейтного формата («лучшие рестораны 2026» — слишком отдаленная перспектива)."
-  },
-  {
-    "url": "https://www.lancashiretelegraph.co.uk/news/national/uk-today/26137087.dubai-international-airport-close-relocate-2032",
-    "timestamp": "2026-05-26T06:37:37.300063+00:00",
-    "status": "approved",
-    "content_hash": "41aa3ea9782123f0e7ec0c10bd3dce61",
-    "strict_hash": "41aa3ea9782123f0e7ec0c10bd3dce61",
-    "fuzzy_hash": "6074196f1b5822e22fdb9dc61bbb0ac0",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.lancashiretelegraph.co.uk/news/national/uk-today/26137087.dubai-international-airport-close-relocate-2032",
-    "timestamp": "2026-05-26T08:39:28.376423+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.cryptobreaking.com/dubai-pushes-toward-a-cashless",
-    "timestamp": "2026-05-26T08:49:15.321843+00:00",
-    "status": "approved",
-    "content_hash": "00e7eb656e10199b207445c740fef8bd",
-    "strict_hash": "00e7eb656e10199b207445c740fef8bd",
-    "fuzzy_hash": "edf6eceae6839b3d16a662c528117452",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabis-pioneering-sustainable-community-achieves-landmark-estidama-5-pearl-office-rating",
     "timestamp": "2026-05-26T13:47:46.170795+00:00",
     "status": "rejected",
@@ -423,5 +382,10 @@
     "strict_hash": "c7156de60149e9e064ba0452f77d4a1d",
     "fuzzy_hash": "fc8e0f03c2978b1c61f77603da2d7669",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-plans-dh209-billion-for-future-smart-cities",
+    "timestamp": "2026-05-28T08:50:11.178342+00:00",
+    "status": "published"
   }
 ]
