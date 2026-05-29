@@ -433,5 +433,14 @@
     "strict_hash": "f8ddaaa144fd3d47d5faa20bb1dec0aa",
     "fuzzy_hash": "ea36c7632bcdc29f3d60495ce9bfdf58",
     "reason": "Новость касается скандала вокруг британской знаменитости и её мужа, арестованного в Дубае по обвинению в шпионаже. Тема не связана с жизнью русскоязычного сообщества в ОАЭ, носит таблоидный характер и не представляет общественно значимой информации для подписчиков канала."
+  },
+  {
+    "url": "https://www.thesun.co.uk/tvandshowbiz/39245721/katie-price-lee-jailed-dubai-alcatraz",
+    "timestamp": "2026-05-29T06:37:49.879519+00:00",
+    "status": "rejected",
+    "content_hash": "543d93a8ff0ffb4a2807d40aa598c993",
+    "strict_hash": "543d93a8ff0ffb4a2807d40aa598c993",
+    "fuzzy_hash": "38e2e6266ba0a9aae8b645bebbb580ce",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
   }
 ]
