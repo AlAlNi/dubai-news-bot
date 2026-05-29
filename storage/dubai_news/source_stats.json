@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.thestar.com.my/aseanplus/2026/05/27/hong-kong-airport-opens-new-terminal-to-compete-against-singapore-dubai",
-    "timestamp": "2026-05-27T18:10:27.104085+00:00",
-    "status": "rejected",
-    "content_hash": "b5cb92cda32130e70dd046c2d1eff856",
-    "strict_hash": "b5cb92cda32130e70dd046c2d1eff856",
-    "fuzzy_hash": "1201b123ec9b31920c6b0184bd71c15d",
-    "reason": "Новость не связана напрямую с Дубаем или ОАЭ — она лишь упоминает Дубай в контексте конкуренции аэропортов, что не является значимой локальной информацией для русскоязычного жителя региона. Основной фокус на Гонконге, поэтому новость не соответствует критериям канала."
-  },
-  {
-    "url": "https://propertynews.ae/uae/abu-dhabi/aldar-plans-new-mega-project-in-abu-dhabi-after-strong-profit-jump",
-    "timestamp": "2026-05-27T19:13:45.669786+00:00",
-    "status": "rejected",
-    "content_hash": "c7d3fbcc68c44a081bdee279c670fb6d",
-    "strict_hash": "c7d3fbcc68c44a081bdee279c670fb6d",
-    "fuzzy_hash": "0a8305abac2b852ccf28d792d53410f2",
-    "reason": "Новость о планах Aldar в Абу-Даби не имеет прямой связи с Дубаем (проект в Абу-Даби, а не в Дубае), и для русскоязычного жителя Дубая она не представляет интереса или пользы, так как касается другого эмирата."
-  },
-  {
-    "url": "https://www.manchestereveningnews.co.uk/news/uk-news/family-fears-dad-jailed-dubai-34016154",
-    "timestamp": "2026-05-27T19:13:47.723600+00:00",
-    "status": "rejected",
-    "content_hash": "5df98ec764e31cfc38d4dd47f1b61671",
-    "strict_hash": "5df98ec764e31cfc38d4dd47f1b61671",
-    "fuzzy_hash": "b6173d76825f734da7009fe4fbf41582",
-    "reason": "Новость о британце, задержанном в Дубае без объяснения причин и якобы подвергшемся пыткам, напрямую связана с регионом, но затрагивает чувствительную тему обращения с заключенными в ОАЭ, что может быть воспринято как неуважение к местным властям и ценностям. Кроме того, это потенциально конфликтная история, основанная на неподтвержденных заявлениях семьи, что нарушает правила проверки достоверности и уважения к UAE."
-  },
-  {
     "url": "https://www.ladbible.com/news/uk-news/british-father-detained-dubai-ryan-pepper-655119-20260527",
     "timestamp": "2026-05-27T20:33:26.318354+00:00",
     "status": "rejected",
@@ -410,5 +383,10 @@
     "strict_hash": "aa6e9a01cb1d5563638d37af2d9caee4",
     "fuzzy_hash": "b401e94dbd527b1596df50efdeda4282",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/05/round-the-clock-restaurants-in-dubai-that-are-open-24-7",
+    "timestamp": "2026-05-29T19:36:58.514956+00:00",
+    "status": "published"
   }
 ]
