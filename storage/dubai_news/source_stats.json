@@ -456,5 +456,23 @@
     "strict_hash": "35906cf84ddcefbf971493158d98ce97",
     "fuzzy_hash": "2e5c5269c9c43a38c59bed2664ab1eb7",
     "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://whatson.ae/2026/05/these-iconic-brunches-in-dubai-are-worth-the-hype",
+    "timestamp": "2026-05-30T14:23:45.393558+00:00",
+    "status": "rejected",
+    "content_hash": "a12a901160ad7b3c9ed114050ab2853d",
+    "strict_hash": "a12a901160ad7b3c9ed114050ab2853d",
+    "fuzzy_hash": "dd945495df7c507a03747f4d1c02e3fe",
+    "reason": "Новость представляет собой рекламно-развлекательный материал о бранчах в Дубае, не содержащий общественно значимой информации или новостного повода. Текст выглядит как типичный пресс-релиз или статья для глянцевого журнала, что нарушает правило 3 (рекламный характер) и правило 6 (неинтересно и бесполезно для русскоязычного жителя, ищущего актуальные новости, а не обзор ресторанов)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMk5LVlN0eWpwSEMwdWpHUmpMaUdaYlk5Q2pRWVI2MVZrSEZjZ3FIR1BYLWhYd2NnXzg0YmViaEp6R0dvc0ZSSXhJVXBtbEtmMWJqLTJmVGFzZW9qOE5LTkc2Nm1XUUtwQjhJWE5BQk5uYzBtODJXbE1aMktyS2tZY3JQdDE5TmN6eHhEdnc2VjZZYlhNODItMVB6a3JfRVprd3FhYg?oc=5",
+    "timestamp": "2026-05-30T14:23:48.602046+00:00",
+    "status": "rejected",
+    "content_hash": "b8bf2118e8f9824a075799e84fb8261a",
+    "strict_hash": "b8bf2118e8f9824a075799e84fb8261a",
+    "fuzzy_hash": "2f27be3039c942fb8541439a8f65d9a7",
+    "reason": "Новость представляет собой заголовок и ссылку на сторонний ресурс (IndexBox) с прогнозом на апрель 2026 года, что выглядит как рекламный анонс или пресс-релиз без проверяемого источника и общественно значимого содержания. Текст не содержит конкретных фактов, ссылок на официальные данные или полезной информации для русскоговорящего жителя Дубая, а также имеет признаки кликбейта и ИИ-генерации."
   }
 ]
