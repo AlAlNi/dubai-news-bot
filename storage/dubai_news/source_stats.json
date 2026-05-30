@@ -465,5 +465,23 @@
     "strict_hash": "77d7b1b093b321bde1476483e8c38b94",
     "fuzzy_hash": "01a81446ba556759a8c423062f1a77bc",
     "reason": "Новость имеет заголовок, указывающий на связь с Дубаем (туризм и недвижимость), но текст представлен лишь в виде заголовка и ссылки на источник, что не позволяет проверить достоверность, естественность и отсутствие рекламного характера. Кроме того, отсутствует проверяемый URL источника, а сам заголовок выглядит как кликбейт, что нарушает правила 5 и 9."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/top-instagrammable-pools-in-dubai-youll-want-to-visit",
+    "timestamp": "2026-05-30T15:59:15.402682+00:00",
+    "status": "rejected",
+    "content_hash": "ef62a31a4133ade120565efbf477fe1c",
+    "strict_hash": "ef62a31a4133ade120565efbf477fe1c",
+    "fuzzy_hash": "32b093e51a873381fd2d47e1d1962301",
+    "reason": "Новость представляет собой рекламно-развлекательный материал о фотогеничных бассейнах, без общественно значимой информации, полезной для русскоязычного жителя Дубая. Она не соответствует критериям информационного канала и выглядит как нативная реклама или контент для глянцевого издания."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFV5WGNMLS1ZYkZfcEtKYjBKVU5MTDBUYURXU0E5cFZRSDRSb3d6N2V5SUxSTXVuOG9RSUFhSmh0SEEwNGpvM1NJSk81dGRtcU14WFlxQ3VyOUtnUVpuc3FURkVqZS1lUUZWTVUyaVV1R0RGOEFIb2NIaGREbkdjTmpzaUZJS19tMV9NM2RQMURqUlo0S2owZGRTRVpIdnNSZ1o1eXZuQ0otRmpmZHc?oc=5",
+    "timestamp": "2026-05-30T15:59:18.630626+00:00",
+    "status": "rejected",
+    "content_hash": "6dc41984b8ebc92970af1b2488e8448b",
+    "strict_hash": "6dc41984b8ebc92970af1b2488e8448b",
+    "fuzzy_hash": "2e824fc92bbe85f2d42f54e1dee089f1",
+    "reason": "Новость о продлении платежей за танкеры и опционе на недвижимость в Дубае не имеет общественно значимого содержания для русскоязычных жителей, выглядит как корпоративный пресс-релиз без проверяемого источника и не соответствует критериям полезности или интереса для аудитории канала."
   }
 ]
