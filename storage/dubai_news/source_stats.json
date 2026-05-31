@@ -540,5 +540,23 @@
     "strict_hash": "0174cca976282d9ab604206e317df074",
     "fuzzy_hash": "e42300a27b10d30d6af6d32ef3798323",
     "reason": "Новость о том, что индийцы лидируют среди иностранных инвесторов в недвижимость Дубая, соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ОАЭ. Однако она является дубликатом по смыслу с уже опубликованной новостью о росте сделок с недвижимостью (пункт 1 контекста), так как обе касаются одной и той же темы — рынка недвижимости Дубая и инвесторов. Кроме того, текст слишком короткий и не содержит проверяемого источника (только название издания без ссылки), что нарушает правило 9."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-changes-coming-in-june-2026",
+    "timestamp": "2026-05-31T11:26:21.256858+00:00",
+    "status": "rejected",
+    "content_hash": "4077d47f1d72ecb356c040a1a7b0e5ac",
+    "strict_hash": "4077d47f1d72ecb356c040a1a7b0e5ac",
+    "fuzzy_hash": "470f952b1598f588ff03759656f658c6",
+    "reason": "Cheap prefilter: слишком короткий текст (95 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLUZ1UU9DUWNFd2k5R2xadVFFRVpyMTFfOXFqZmVBRjFYcm5BOHhEeHJkQjJ1cV8wY0hRUXduNU5mVnBSdzJNcVoyRDl5WVBRYUtudEJXLWJpWTBjb25aaTF4aTFmWjJvV19PV3FKQ0V6UnpOeDdwZ2dRVmwyeDhPeUd6UmN6TnFQR182U3p6ZEFPbmZwNGhJbDNBQnBmODR2b1FEV0JNdw?oc=5",
+    "timestamp": "2026-05-31T11:26:23.488412+00:00",
+    "status": "rejected",
+    "content_hash": "dbd75dd397f878caaf27c94370b1ba3e",
+    "strict_hash": "dbd75dd397f878caaf27c94370b1ba3e",
+    "fuzzy_hash": "9285c1279afaa346e429134e58bf4732",
+    "reason": "Новость практически идентична уже опубликованной новости №1 (Dubai Real Estate Transactions Rise 20% MoM to AED 68.6B in April), отличается только источником и незначительными деталями в заголовке. Это явный дубликат, нарушающий правило №7."
   }
 ]
