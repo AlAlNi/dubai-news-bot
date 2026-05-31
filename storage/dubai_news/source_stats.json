@@ -513,5 +513,23 @@
     "strict_hash": "d8276ae03deeff78216032660981e4ce",
     "fuzzy_hash": "20362e1c8b306e52dd7ec76c33084d05",
     "reason": "Новость представляет собой рекламный или информационно-спонсорский материал о возможности инвестировать в недвижимость Дубая от 500 дирхамов. Текст явно носит рекламный характер и не содержит общественно значимой новости, а также не имеет проверяемого источника в виде конкретного URL."
+  },
+  {
+    "url": "https://whatson.ae/2026/05/6-of-the-best-greek-restaurants-in-dubai-to-try-right-now",
+    "timestamp": "2026-05-31T09:41:55.966405+00:00",
+    "status": "rejected",
+    "content_hash": "9b4d13668df71321fb2d631735c16559",
+    "strict_hash": "9b4d13668df71321fb2d631735c16559",
+    "fuzzy_hash": "d0dedd41adaa2704fea93d7abccf9f8c",
+    "reason": "Новость представляет собой рекламно-развлекательный материал о ресторанах, а не общественно значимую информацию. Она не соответствует критерию полезности для русскоязычного жителя (нет срочности, регуляторных изменений или service-update) и выглядит как нативная реклама или контент для раздела «лайфстайл», что нарушает правило 3 (рекламный характер) и правило 6 (интерес/польза)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZWF0Y3h0UFFsQzFsaFR4N3ZhVHl2OVplMXIybFotRlpjSUZfMnFRWXJ0MjBxV2UtbTY2Z1JsM1RKTzY5ald3LUwzZExnMVRyZG83M21mRWIzZWZEZ18wdnFmVG5QUDJjaEFUQlZZclN6UzYxOTFRWkF3U0l2elFWaGt4czFGc3JMcjRHVE9MUEpFWkVUY2tZd2NVZGdtdGlWR2oxag?oc=5",
+    "timestamp": "2026-05-31T09:42:01.473765+00:00",
+    "status": "approved",
+    "content_hash": "3cca90a1b86c6e6e9b381571140d05dd",
+    "strict_hash": "3cca90a1b86c6e6e9b381571140d05dd",
+    "fuzzy_hash": "34b48b5788bb4b2a1c39b6a779938403",
+    "reason": "approved"
   }
 ]
