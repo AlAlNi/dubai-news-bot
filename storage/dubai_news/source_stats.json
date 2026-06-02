@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://indianexpress.com/article/entertainment/web-series/desi-bling-rizwan-sajan-born-in-slum-now-lives-in-40000-sq-ft-house-dubai-home-theater-pool-gaming-zone-10712111",
-    "timestamp": "2026-05-31T02:28:29.887113+00:00",
-    "status": "approved",
-    "content_hash": "f16133b3f7ae26fd17aa84b6f812599a",
-    "strict_hash": "f16133b3f7ae26fd17aa84b6f812599a",
-    "fuzzy_hash": "44a51904bf58b65ef8a44553f0990d0e",
-    "reason": "approved"
-  },
-  {
-    "url": "https://indianexpress.com/article/cities/ahmedabad/gift-city-shootspace-digital-investment-fraud-bhumi-patel-arrested-10716169",
-    "timestamp": "2026-05-31T05:01:16.623222+00:00",
-    "status": "rejected",
-    "content_hash": "c29ec6145b3175acb7d55d1ff116f682",
-    "strict_hash": "c29ec6145b3175acb7d55d1ff116f682",
-    "fuzzy_hash": "7ef2057d395ae3d57b57f1ce058e6e57",
-    "reason": "Новость не связана с Дубаем или ОАЭ — основное событие происходит в Индии (Ахмедабад, GIFT City), а упоминание Дубая лишь в контексте того, откуда прилетела подозреваемая. Это не представляет интереса для русскоязычного жителя Дубая и не соответствует критерию связи с регионом."
-  },
-  {
-    "url": "https://indianexpress.com/article/entertainment/web-series/desi-bling-rizwan-sajan-born-in-slum-now-lives-in-40000-sq-ft-house-dubai-home-theater-pool-gaming-zone-10712111",
-    "timestamp": "2026-05-31T05:25:17.885295+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://whatson.ae/2026/05/top-dubai-souks-to-visit-right-now",
     "timestamp": "2026-05-31T06:47:33.872180+00:00",
     "status": "rejected",
@@ -419,5 +396,10 @@
     "strict_hash": "e4ae075ebbb445568ddbc0f712eb0184",
     "fuzzy_hash": "81936478c7a9471859bba131796a859d",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/abu-dhabi-announces-launch-of-a-new-smart-parking-service",
+    "timestamp": "2026-06-02T05:57:09.163205+00:00",
+    "status": "published"
   }
 ]
