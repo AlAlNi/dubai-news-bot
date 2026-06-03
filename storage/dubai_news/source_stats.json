@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://www.tribuneindia.com/news/world/dubai-chambers-engages-in-series-of-meetings-to-strengthen-trade-investment-ties-between-dubai-ethiopia",
-    "timestamp": "2026-06-01T11:52:18.478228+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://simpleflying.com/why-emirates-expanding-beyond-dubai-hub",
-    "timestamp": "2026-06-01T13:14:52.361581+00:00",
-    "status": "rejected",
-    "content_hash": "7a0760d20ee24e75fbec015caf7903ea",
-    "strict_hash": "7a0760d20ee24e75fbec015caf7903ea",
-    "fuzzy_hash": "09f05d51d78c082b1bd7fc0eadf162f5",
-    "reason": "Новость представляет собой аналитический материал о стратегии расширения авиакомпании Emirates за пределами Дубая, что напрямую связано с регионом и не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст имеет признаки ИИ-генерации (обрывочный, шаблонный стиль, отсутствие конкретных источников и дат), а также не является оперативной новостью, интересной для русскоязычного жителя Дубая (скорее, отраслевой обзор для специалистов). Кроме того, источник не указан явно, что нарушает правило проверяемости."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/off-plan-sales-drive-dubais-residential-market-as-secondary-transactions-decline-in-q1",
-    "timestamp": "2026-06-01T14:50:02.048099+00:00",
-    "status": "rejected",
-    "content_hash": "895cba94312aecde289e7136606d96c3",
-    "strict_hash": "895cba94312aecde289e7136606d96c3",
-    "fuzzy_hash": "1970bfbce4f3a6b70987a63434f5ca92",
-    "reason": "Новость о рынке недвижимости Дубая соответствует тематике канала, не содержит политики, рекламы или неуважения к ОАЭ, написана естественно и будет полезна русскоязычным жителям, интересующимся инвестициями. Однако она является дубликатом: ранее уже публиковались материалы о спаде на вторичном рынке и росте off-plan продаж в Q1 (например, новость \"Off-Plan Sales Drive Dubai’s Residential Market as Secondary Transactions Decline in Q1\" с тем же хешем). Поэтому публикация невозможна."
-  },
-  {
-    "url": "https://www.hindustantimes.com/trending/27yearold-founder-leaves-bengaluru-for-dubai-completely-burned-with-system-in-india-101780279064010.html",
-    "timestamp": "2026-06-01T14:50:08.451723+00:00",
-    "status": "approved",
-    "content_hash": "804ec6058b9b28201afd887977abc1ec",
-    "strict_hash": "804ec6058b9b28201afd887977abc1ec",
-    "fuzzy_hash": "6fdb03d7b2b166dca043a8a6fdb57e7c",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.hindustantimes.com/trending/27yearold-founder-leaves-bengaluru-for-dubai-completely-burned-with-system-in-india-101780279064010.html",
     "timestamp": "2026-06-01T18:13:05.179458+00:00",
     "status": "published"
@@ -339,5 +307,10 @@
     "strict_hash": "afcac5d8c42320d99c99cdf4cf84ef85",
     "fuzzy_hash": "44513ddbddf410e2d987a51cbdfc5b29",
     "reason": "Новость не подходит для публикации, так как основная тема — это уголовное расследование в Индии (ED), а упоминание Дубая лишь косвенное (возможные активы). Это не представляет интереса для русскоязычного жителя Дубая и не является общественно значимой новостью об ОАЭ."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/pune/dubai-bound-passengers-stranded-at-pune-airport-for-over-9-hrs-due-to-flight-delay/articleshow/131470835.cms",
+    "timestamp": "2026-06-03T14:53:59.650591+00:00",
+    "status": "published"
   }
 ]
