@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "source_name": "India Today",
+    "title": "Pune-Dubai SpiceJet flight delayed for over 9 hours, passengers claim no updates",
+    "summary_ru": "✈️ **Рейс SpiceJet Пуна–Дубай задержан на 9 часов: пассажиры остались без информации**\n\nПассажиры рейса SpiceJet из Пуны (Индия) в Дубай (ОАЭ) заявили, что провели более 9 часов в аэропорту Пуны после многократных переносов вылета. Многие жалуются на отсутствие официальных обновлений от авиакомпании.\n\n<blockquote>«Нас оставили в терминале без еды и воды, персонал не отвечал на вопросы», — рассказал один из пассажиров.</blockquote>\n\nСогласно данным, рейс должен был вылететь вечером 12 марта, но несколько раз откладывался. Окончательно самолет отправился только утром 13 марта. Причины задержки официально не названы, но пассажиры предполагают технические неполадки.\n\n#SpiceJet #ЗадержкаРейса #ПунаДубай",
+    "published": "2026-06-04T12:27:12.166438+00:00",
+    "source_urls": [
+      "https://www.indiatoday.in/india/story/passengers-allege-hours-long-wait-after-overnight-delay-of-spicejet-dubai-flight-2921572-2026-06-04"
+    ],
+    "lang": "en",
+    "content_hash": "42755f736fdcb80eab86bbc9cb05502c",
+    "strict_hash": "42755f736fdcb80eab86bbc9cb05502c",
+    "fuzzy_hash": "c6b656686b4bbe55b6c52fe126281d1d",
+    "method": "gnews",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о задержке рейса SpiceJet из Пуны в Дубай напрямую связана с регионом (Дубай как пункт назначения), не содержит политики, рекламы или неуважения к ценностям ОАЭ, а также представляет интерес для русскоязычных жителей, которые могут столкнуться с подобными ситуациями. Текст выглядит естественным и основан на реальном инциденте, источник проверяем (ссылка на новость). Дубликатов не обнаружено."
+      }
+    },
+    "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202606/akasa-and-spicejet-planes-suffer-damage-after-they-came-in-contact-at-the-delhi-airport-175003236-16x9.jpg?VersionId=Z8cs.zS_QTM1xNrr7nxrP5gjwb82puTL",
+    "slot_target": "evening"
+  }
+]
