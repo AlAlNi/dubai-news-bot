@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.financialexpress.com/world-news/nri/dont-anxiously-liquidate-experts-advise-dubais-indian-diaspora-to-deal-with-life-volatile-times/4256665",
-    "timestamp": "2026-06-02T14:36:28.731050+00:00",
-    "status": "rejected",
-    "content_hash": "fdd8fe36686bc58b3b197b896c6bf139",
-    "strict_hash": "fdd8fe36686bc58b3b197b896c6bf139",
-    "fuzzy_hash": "308663dddc28e0c89b8b0be741f723a6",
-    "reason": "Новость касается финансовых советов для индийской диаспоры в Дубае на случай нестабильных времен, что имеет прямую связь с регионом и может быть полезно русскоязычным жителям, но текст выглядит как перевод или адаптация западного материала с признаками кликбейта и не содержит проверяемого источника."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/the-market-orient-brings-a-world-of-flavour-to-dubai",
-    "timestamp": "2026-06-02T14:42:10.268058+00:00",
-    "status": "rejected",
-    "content_hash": "ee8b4d294a09cd22114e02afd1168832",
-    "strict_hash": "ee8b4d294a09cd22114e02afd1168832",
-    "fuzzy_hash": "f53a42867159d1d3b59b9d2f6719b93d",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://www.walesonline.co.uk/lifestyle/showbiz/katie-prices-husband-lee-andrews-34048067",
-    "timestamp": "2026-06-02T14:42:12.514225+00:00",
-    "status": "rejected",
-    "content_hash": "5c6eb8aba1165b7792eae3fe8939daac",
-    "strict_hash": "5c6eb8aba1165b7792eae3fe8939daac",
-    "fuzzy_hash": "928c0429c97f15fe51b6289be324c52b",
-    "reason": "Новость о личной жизни британской модели и её муже, связанная с арестом в Дубае, имеет слабую связь с регионом (только место ареста) и не представляет интереса для русскоязычного жителя Дубая, так как касается западных знаменитостей и их семейных драм."
-  },
-  {
     "url": "https://whatson.ae/2026/06/world-cup-abu-dhabi-2026",
     "timestamp": "2026-06-02T18:31:08.050567+00:00",
     "status": "rejected",
@@ -348,5 +321,10 @@
     "strict_hash": "d187d2343a0b94f4b1fdd5b599dc6b85",
     "fuzzy_hash": "97e5cfb5e2072a43f8d470723e165ecf",
     "reason": "Новость рассказывает о шотландском преступнике, скрывающемся в Дубае, что формально связано с регионом, но основная тема — криминальные разборки и война банд в Шотландии, что не имеет отношения к жизни русскоязычного жителя Дубая и не является общественно значимой новостью для ОАЭ. Кроме того, текст носит сенсационный и кликбейтный характер, а источник (Daily Record) не является официальным или проверяемым для новостного канала о Дубае."
+  },
+  {
+    "url": "https://propertynews.ae/uae/ras-al-khaimah/ras-al-khaimah-residential-stock-to-double-by-2030-driving-al-marjan-island-price-surge",
+    "timestamp": "2026-06-04T16:26:11.371435+00:00",
+    "status": "published"
   }
 ]
