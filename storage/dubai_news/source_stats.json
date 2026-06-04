@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://fortune.com/2026/06/01/property-prices-down-dubai",
-    "timestamp": "2026-06-02T05:10:29.740037+00:00",
-    "status": "rejected",
-    "content_hash": "b716ffa2d04392e2485f301f4c0e00e5",
-    "strict_hash": "b716ffa2d04392e2485f301f4c0e00e5",
-    "fuzzy_hash": "8fc452446e550259e6af4c28a742acc9",
-    "reason": "Новость содержит спекуляции о падении цен на недвижимость в Дубае на фоне военного конфликта (Иран), что нарушает правило №2 (политика и конфликты) и может быть воспринято как дестабилизирующая информация, не соответствующая ценностям ОАЭ (правило №4). Кроме того, заголовок носит кликбейтный характер, а текст не содержит проверяемых официальных источников для подтверждения «серьёзности» ситуации."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/abu-dhabi-announces-launch-of-a-new-smart-parking-service",
-    "timestamp": "2026-06-02T05:22:14.406022+00:00",
-    "status": "approved",
-    "content_hash": "e4ae075ebbb445568ddbc0f712eb0184",
-    "strict_hash": "e4ae075ebbb445568ddbc0f712eb0184",
-    "fuzzy_hash": "81936478c7a9471859bba131796a859d",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/abu-dhabi-announces-launch-of-a-new-smart-parking-service",
-    "timestamp": "2026-06-02T05:57:09.163205+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.somersetlive.co.uk/news/uk-world-news/lee-andrews-unfollows-katie-price-10993966",
     "timestamp": "2026-06-02T09:48:51.579309+00:00",
     "status": "rejected",
@@ -348,5 +325,10 @@
     "strict_hash": "4676de97f152a64e88d1f9aeae9dbff0",
     "fuzzy_hash": "fddf0bc1e0f9f7270b941dc5c0cddac7",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/uae-non-oil-economy-demonstrates-robust-growth-driven-by-strong-local-demand-in-may",
+    "timestamp": "2026-06-04T08:56:31.845902+00:00",
+    "status": "published"
   }
 ]
