@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://www.thesun.co.uk/tvandshowbiz/39283100/katie-price-flies-dubai-lee-andrews-due-jail-release",
-    "timestamp": "2026-06-02T22:05:57.143725+00:00",
-    "status": "rejected",
-    "content_hash": "632ac8acf3c0f8b85449d6aa821d31f6",
-    "strict_hash": "632ac8acf3c0f8b85449d6aa821d31f6",
-    "fuzzy_hash": "b18048902a307f55b93cddb1bc89111c",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
     "url": "https://whatson.ae/2026/06/aura-skypool-is-temporarily-closed-and-heres-when-it-will-reopen",
     "timestamp": "2026-06-02T23:26:29.086087+00:00",
     "status": "rejected",
@@ -381,5 +372,10 @@
     "strict_hash": "1c85b6278625171f0fba8dabd8cd63e0",
     "fuzzy_hash": "a2f6d283fb229eb815fe9057bf6d3533",
     "reason": "Новость представляет собой технический обзор регуляторных изменений в сфере маркетинга виртуальных активов в Дубае. Тема имеет прямую связь с регионом (ОАЭ), не содержит политики, рекламы или неуважения к ценностям, но текст выглядит как фрагмент официального документа или пресс-релиза без адаптации для широкой аудитории, что снижает его интерес и полезность для русскоговорящего жителя. Кроме того, отсутствует явный проверяемый источник (URL), а содержание носит узкоспециализированный характер, не являясь оперативным сервис-апдейтом."
+  },
+  {
+    "url": "https://www.indiatoday.in/india/story/passengers-allege-hours-long-wait-after-overnight-delay-of-spicejet-dubai-flight-2921572-2026-06-04",
+    "timestamp": "2026-06-04T23:16:54.360179+00:00",
+    "status": "published"
   }
 ]
