@@ -408,5 +408,23 @@
     "strict_hash": "2bb1f973f22984b7b187570ae7e85bab",
     "fuzzy_hash": "3986a2878bf1bdab7b204384a03dc96e",
     "reason": "Новость о личной жизни британской знаменитости и её муже, находящемся в тюрьме Дубая, не имеет общественно значимой связи с регионом, не представляет интереса для русскоязычных жителей Дубая и не соответствует формату новостного канала о городе и жизни в ОАЭ."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/dubai-news-you-might-have-missed-this-week-june-1-to-5",
+    "timestamp": "2026-06-05T15:48:25.357648+00:00",
+    "status": "rejected",
+    "content_hash": "689674b41c140ad60596bd7078d5db42",
+    "strict_hash": "689674b41c140ad60596bd7078d5db42",
+    "fuzzy_hash": "8d69ab6d05641b6e47186155548bcf85",
+    "reason": "Новость представляет собой еженедельную сводку событий в Дубае, основанную на официальных источниках (MOHRE), что соответствует формату \"сводка дня\" и полезно для русскоязычных жителей. Однако она не является уникальной новостью, а скорее пересказом уже опубликованных материалов, и её заголовок указывает на даты (1-5 июня), что может быть неактуально. Кроме того, текст взят с сайта What's On, что делает источник проверяемым, но сама новость дублирует ранее опубликованные темы (например, правила для частного сектора уже упоминались в контексте RTA и JAFZA). Учитывая правило 7 о дубликатах и повторах, а также отсутствие явной уникальности, новость следует отклонить."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSmlMd2xGTjJmRy11UHVTWDNWSFpVMlBHNmhqRmxLR2YzQWEtdmFqN3YxckZXVTR0MGhOaldCNzdsSzBVVVVqOGh2bGlEYU9qR0xpZGtPQV9RRWdCS1h5ajlDWWg5cFEtdVEzajJHSGx3VEpoOXZ6N05nM3V1dXpDb3cxVHRGTGNfNjJwX3FCQXB6WmZjUjBoSFFEZ0dwT2pFZ1NjWWJCVDQwRWo0UEtVaEU5V3Q3LVE4Y2fSAb8BQVVfeXFMTVVtMV9iUEYwNk9mUEpyLXhBUnB1R1ZZOXFscnNnZ2hla014SHE1SkdzdHJ4UTE0czlKdWQ5ZmlEdTBZWFRCOWJDMEVKWFJCbENIaUt5N1FkRC1XSzAtY3BYTGt3eVloYmo1NVIzUGdWTTBCcGQ5VW5pamFuSjF6THNXTmJFNnh4UHF0aXpJSzJ3S1ViOTdabkdfUjRFZHdIQUc0eko0aUQxbDhfOFVodGpnU1NUbmZ5cWVuNmJCX3c?oc=5",
+    "timestamp": "2026-06-05T15:48:28.440601+00:00",
+    "status": "rejected",
+    "content_hash": "16684c7bf6faeb92f9b2b052fafafd3c",
+    "strict_hash": "16684c7bf6faeb92f9b2b052fafafd3c",
+    "fuzzy_hash": "dd451df490ab9963123e2295b61ef933",
+    "reason": "Новость касается обвинений в адрес полиции Дубая в похищении бывшей жены и детей принца, что напрямую связано с регионом, но содержит серьёзные обвинения в адрес властей ОАЭ, что нарушает правило 4 (уважение к ценностям UAE) и правило 2 (политика/конфликты). Кроме того, текст выглядит как кликбейт с признаками ИИ-генерации (короткий, без проверяемых деталей), а источник (Inshorts) не предоставляет явного URL для проверки фактов."
   }
 ]
