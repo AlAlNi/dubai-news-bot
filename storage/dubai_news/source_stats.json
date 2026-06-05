@@ -368,5 +368,23 @@
     "url": "https://whatson.ae/2026/06/in-pics-the-winners-of-the-whats-on-dubai-awards-2026",
     "timestamp": "2026-06-05T08:49:44.389457+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/whats-on-dubai-awards-2026-the-party",
+    "timestamp": "2026-06-05T09:30:19.142306+00:00",
+    "status": "rejected",
+    "content_hash": "b21baa5d0cb39422fac5fe1d9ba0bfb5",
+    "strict_hash": "b21baa5d0cb39422fac5fe1d9ba0bfb5",
+    "fuzzy_hash": "be2c3e8e15f28d5a62934de3d1b6a3d6",
+    "reason": "Новость является рекламным постом о прошедшей вечеринке вручения премии What’s On Dubai Awards, без общественно значимой информации, полезной для русскоязычного жителя. Текст не содержит проверяемых фактов или service-updates, а лишь описывает событие в хвалебном тоне."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/ex-wife-of-a-dubai-prince-3-children-abducted-amid-bitter-custody-battle-lawyer-raises-alarm-she-just-vanished/articleshow/131516215.cms",
+    "timestamp": "2026-06-05T09:30:23.119190+00:00",
+    "status": "rejected",
+    "content_hash": "17c7fda4dadbe5121e6d46b9030aec72",
+    "strict_hash": "17c7fda4dadbe5121e6d46b9030aec72",
+    "fuzzy_hash": "2ec9161032fff5af2912179515032892",
+    "reason": "Новость касается личной драмы, связанной с членами королевской семьи Дубая, что формально имеет отношение к региону. Однако она содержит обвинения в адрес эмиратской полиции («abducted by Emirati police»), что может быть воспринято как неуважение к властям ОАЭ и нарушает правило 4 (уважение к ценностям UAE). Кроме того, тема носит скандальный и конфликтный характер, не являясь общественно значимой для русскоязычных жителей Дубая (правило 6)."
   }
 ]
