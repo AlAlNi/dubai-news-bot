@@ -550,5 +550,14 @@
     "strict_hash": "532b0772526cc218b62733d6d5379c5c",
     "fuzzy_hash": "ed8d31b01a31af1674017d8518907314",
     "reason": "Новость о продажах недвижимости в Дубае на сумму 1,04 млрд дирхамов за полдня соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ОАЭ, выглядит как факт из проверяемого источника (Gulf Today). Однако она очень похожа на уже опубликованную новость о продажах недвижимости в Дубае (контекст №1: \"Dubai property sales hit 66,900 in 2026...\"), что может быть дубликатом по смыслу, хотя цифры и период разные. Учитывая строгое правило о дубликатах, лучше отклонить, чтобы избежать повторов."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMmJCakVvaDB0ZUF4bzVocS1lUE9zNUwtZVNtZGctQTF1b2tPM0NWNnlyU3kwalFyTWt5MUFDZWNlUWJ2elNRUnlnM19naHJWSkF3ZER4ZS1BMndacWdYanhmOFUwUXRDYlkwT2lfVzdBUElGM1ZzbUNQSWcyR3hnMzdKdm9rVU1UcHAxcEJ0eXJKWkFvb0NYZDZTTkdXQ2NTb1haaHQ1eFRvb2hrTDVMTXNCejhtVFNHWVB2eUlQa3pZblNOV3hqUndUd2NudGc?oc=5",
+    "timestamp": "2026-06-06T18:08:07.089902+00:00",
+    "status": "rejected",
+    "content_hash": "fa1089530627ae67f96479dedb17e369",
+    "strict_hash": "fa1089530627ae67f96479dedb17e369",
+    "fuzzy_hash": "e943b1e77d3e0e003bcb4f20e03a9a6e",
+    "reason": "Новость о транзакциях в жилой недвижимости Дубая за первые пять месяцев 2026 года напрямую связана с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, источник проверяем (Economy Middle East). Однако она является дубликатом по смыслу с уже опубликованной новостью о продажах недвижимости в Дубае за 2026 год (Arabian Business), так как обе освещают один и тот же период и общую тему рынка недвижимости, что нарушает правило 7."
   }
 ]
