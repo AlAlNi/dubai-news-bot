@@ -532,5 +532,23 @@
     "strict_hash": "737bd7e37b82a6cd03b7f70e8610a664",
     "fuzzy_hash": "0fec5b4eed0c1ee4667720d14db8e1e0",
     "reason": "Новость представляет собой короткое упоминание о сделке на 100 млн дирхамов в сфере недвижимости Дубая, но не содержит никаких деталей, общественно значимого контекста или проверяемых фактов — выглядит как рекламный анонс или пресс-релиз без ценности для аудитории. Кроме того, текст крайне скудный, с признаками автоматической генерации или кликбейта, и не соответствует критериям полезности для русскоговорящего жителя."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/blue-line-dubai-metro-station-locations-revealed",
+    "timestamp": "2026-06-06T16:58:27.153316+00:00",
+    "status": "rejected",
+    "content_hash": "504cf79b5ab92c665b01c82a41693b2a",
+    "strict_hash": "504cf79b5ab92c665b01c82a41693b2a",
+    "fuzzy_hash": "a81dac330d08b739b7d19d778587af3c",
+    "reason": "Cheap prefilter: слишком короткий текст (110 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTUFGZENKRnRuR2pVOGhaVHAtTUNYNWVYdGI2YjJXYmQwcVJHaHJzZGdQQkU4dkMzbFR6Mm04WmVHX1BmX1NMaUdRMmN6Wml4TlVYYjYwdG1ndHdTVFBTZk9TbEkwaXViRjU0RnJMTDljQ3FNRzhVTUZSVjFYWU11MnE1NDFZTWhtLWRMU2dPVnZUc0k3ck9jdWsxT1VQdTFGQ19JV090Q2E?oc=5",
+    "timestamp": "2026-06-06T16:58:31.488581+00:00",
+    "status": "rejected",
+    "content_hash": "532b0772526cc218b62733d6d5379c5c",
+    "strict_hash": "532b0772526cc218b62733d6d5379c5c",
+    "fuzzy_hash": "ed8d31b01a31af1674017d8518907314",
+    "reason": "Новость о продажах недвижимости в Дубае на сумму 1,04 млрд дирхамов за полдня соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ОАЭ, выглядит как факт из проверяемого источника (Gulf Today). Однако она очень похожа на уже опубликованную новость о продажах недвижимости в Дубае (контекст №1: \"Dubai property sales hit 66,900 in 2026...\"), что может быть дубликатом по смыслу, хотя цифры и период разные. Учитывая строгое правило о дубликатах, лучше отклонить, чтобы избежать повторов."
   }
 ]
