@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/business/uae-accelerates-agri-tech-investment-to-boost-food-security-and-economic-resilience",
-    "timestamp": "2026-06-03T23:25:37.559073+00:00",
-    "status": "rejected",
-    "content_hash": "90027feaac697d19d59870114bdb8f10",
-    "strict_hash": "90027feaac697d19d59870114bdb8f10",
-    "fuzzy_hash": "8dc18f8906ff721b0a12b8e2b015b654",
-    "reason": "Новость носит общий обзорный характер об агротехнологиях в ОАЭ, но не содержит конкретной, проверяемой информации, привязанной к дате или событию, и выглядит как переработанный пресс-релиз или аналитическая статья без явной новостной ценности для русскоязычного жителя Дубая. Кроме того, текст обрывается, что указывает на неполноту, а источник не указан."
-  },
-  {
-    "url": "https://www.news18.com/viral/i-never-expected-this-indian-comedian-spends-47-days-in-dubai-detention-centre-over-harmless-dumb-reel-ws-l-10127912.html",
-    "timestamp": "2026-06-03T23:25:39.650630+00:00",
-    "status": "rejected",
-    "content_hash": "d500bb4890eabf9c581a91a2e44c8b04",
-    "strict_hash": "d500bb4890eabf9c581a91a2e44c8b04",
-    "fuzzy_hash": "1301dc1a4233c79675d91bdaa2094ecf",
-    "reason": "Новость рассказывает о задержании индийского комика в Дубае за юмористическое видео, что напрямую связано с регионом и может быть интересно русскоязычным жителям, но содержит потенциально чувствительную тему — критику местных законов и практик задержания, что может быть воспринято как неуважение к ценностям ОАЭ."
-  },
-  {
-    "url": "https://www.baytoday.ca/world-news/iran-and-the-us-trade-strikes-in-the-persian-gulf-further-testing-ceasefire-12368184",
-    "timestamp": "2026-06-04T00:12:59.232502+00:00",
-    "status": "rejected",
-    "content_hash": "aa10bef230220d668ec505e88ebf58dc",
-    "strict_hash": "aa10bef230220d668ec505e88ebf58dc",
-    "fuzzy_hash": "75695c5ea9156f81ca37b53eff645132",
-    "reason": "Новость отклоняется, так как её основная тема — военный конфликт между Ираном и США, что является большой политикой и прямым нарушением правила №2. Несмотря на упоминание Дубая в источнике, событие не связано с жизнью города или ОАЭ напрямую."
-  },
-  {
     "url": "https://propertynews.ae/business/uae-strengthens-private-sector-labor-protections-bolstering-business-confidence",
     "timestamp": "2026-06-04T02:38:02.966097+00:00",
     "status": "approved",
@@ -470,5 +443,10 @@
     "strict_hash": "99f8e32cdfc8aac8161b44209ef1971f",
     "fuzzy_hash": "f492c27af50763fdfcafd88af31d668a",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.news18.com/agency-feeds/qatar-airways-to-increase-operations-to-dubai-with-five-daily-flights-10132824.html",
+    "timestamp": "2026-06-06T00:15:45.798919+00:00",
+    "status": "published"
   }
 ]
