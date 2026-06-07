@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/whats-on-dubai-awards-2026-the-party",
-    "timestamp": "2026-06-05T09:30:19.142306+00:00",
-    "status": "rejected",
-    "content_hash": "b21baa5d0cb39422fac5fe1d9ba0bfb5",
-    "strict_hash": "b21baa5d0cb39422fac5fe1d9ba0bfb5",
-    "fuzzy_hash": "be2c3e8e15f28d5a62934de3d1b6a3d6",
-    "reason": "Новость является рекламным постом о прошедшей вечеринке вручения премии What’s On Dubai Awards, без общественно значимой информации, полезной для русскоязычного жителя. Текст не содержит проверяемых фактов или service-updates, а лишь описывает событие в хвалебном тоне."
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/world/middle-east/ex-wife-of-a-dubai-prince-3-children-abducted-amid-bitter-custody-battle-lawyer-raises-alarm-she-just-vanished/articleshow/131516215.cms",
-    "timestamp": "2026-06-05T09:30:23.119190+00:00",
-    "status": "rejected",
-    "content_hash": "17c7fda4dadbe5121e6d46b9030aec72",
-    "strict_hash": "17c7fda4dadbe5121e6d46b9030aec72",
-    "fuzzy_hash": "2ec9161032fff5af2912179515032892",
-    "reason": "Новость касается личной драмы, связанной с членами королевской семьи Дубая, что формально имеет отношение к региону. Однако она содержит обвинения в адрес эмиратской полиции («abducted by Emirati police»), что может быть воспринято как неуважение к властям ОАЭ и нарушает правило 4 (уважение к ценностям UAE). Кроме того, тема носит скандальный и конфликтный характер, не являясь общественно значимой для русскоязычных жителей Дубая (правило 6)."
-  },
-  {
-    "url": "https://www.dailystar.co.uk/news/latest-news/british-airways-cancels-flights-dubai-37250709",
-    "timestamp": "2026-06-05T10:57:26.839349+00:00",
-    "status": "rejected",
-    "content_hash": "3043b3e4cb32765e1d04ae74282b934c",
-    "strict_hash": "3043b3e4cb32765e1d04ae74282b934c",
-    "fuzzy_hash": "52db29c7f25efc328358ec7d5ef22f98",
-    "reason": "Новость о приостановке рейсов British Airways в Дубай и другие города региона напрямую связана с ОАЭ и важна для русскоязычных жителей, планирующих перелёты. Однако основная причина отмены — региональный конфликт, что нарушает правило №2 (политика и конфликты), поэтому новость следует отклонить."
-  },
-  {
     "url": "https://whatson.ae/2026/06/10-redeemable-pool-day-deals-in-dubai-for-eid-al-adha-2026",
     "timestamp": "2026-06-05T12:32:26.871581+00:00",
     "status": "rejected",
@@ -566,5 +539,10 @@
     "strict_hash": "bc53122cf4ac10f2eb6491355f06e5d8",
     "fuzzy_hash": "99ee83fed3da23774ddf5c04c231dd78",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/dubai-launches-integrated-sme-platform-reducing-startup-costs-by-over-dh80000",
+    "timestamp": "2026-06-07T11:56:53.121407+00:00",
+    "status": "published"
   }
 ]
