@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.thenews.com.pk/latest/1404772-katie-prices-husband-lee-andrews-faces-fresh-controversy-after-dubai-arrest-reports",
-    "timestamp": "2026-06-05T01:37:08.790575+00:00",
-    "status": "rejected",
-    "content_hash": "b02c5cc5fbe3f12d21ad5b53fcc76821",
-    "strict_hash": "b02c5cc5fbe3f12d21ad5b53fcc76821",
-    "fuzzy_hash": "07680b14bcd13cba574ca57c74f9f573",
-    "reason": "Новость о личной жизни британской знаменитости и её муже, арестованном в Дубае по частному гражданскому делу, не представляет общественно значимого интереса для русскоязычных жителей Дубая, не связана с региональной повесткой и выглядит как таблоидный кликбейт."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/in-pics-the-winners-of-the-whats-on-dubai-awards-2026",
-    "timestamp": "2026-06-05T05:11:04.072665+00:00",
-    "status": "approved",
-    "content_hash": "76591a288f64b27742afe0ed44dc63b1",
-    "strict_hash": "76591a288f64b27742afe0ed44dc63b1",
-    "fuzzy_hash": "128894ab531d0a1580f0900b01f32e4c",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.bbc.com/news/articles/c362618d9e8o",
     "timestamp": "2026-06-05T06:48:46.920571+00:00",
     "status": "rejected",
@@ -530,5 +512,10 @@
     "strict_hash": "e00627264bc391f59e48d72d2a19f776",
     "fuzzy_hash": "d4b3f089e8e6852d0ae3e6d03886572a",
     "reason": "Новость представляет собой короткий анонс без конкретных фактов, деталей или проверяемого содержания, что делает её похожей на рекламный или пустой пресс-релиз. Отсутствует общественно значимая информация, полезная для русскоговорящего жителя Дубая."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/dubai-police-use-ai-to-predict-accident-hotspots-detect-speeding-vehicles-in-real-time/articleshow/131551453.cms",
+    "timestamp": "2026-06-07T05:46:14.881002+00:00",
+    "status": "published"
   }
 ]
