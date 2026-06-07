@@ -526,5 +526,23 @@
     "strict_hash": "e90687885454fb2c39549c05e1953435",
     "fuzzy_hash": "584a9a86a701bac231ddef6d7c9e625f",
     "reason": "Новость явно спекулирует на теме войны в Иране, что нарушает правило №2 (политика и конфликты) и может быть воспринято как неуважение к региональной стабильности (правило №4). Кроме того, заголовок выглядит как кликбейт, а связь с Дубаем используется лишь как фон для сомнительного контекста."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/public-holiday-school-dates-islamic-new-year",
+    "timestamp": "2026-06-07T06:58:10.074726+00:00",
+    "status": "rejected",
+    "content_hash": "3d9c323d19fecfcd6ed8dca14898081c",
+    "strict_hash": "3d9c323d19fecfcd6ed8dca14898081c",
+    "fuzzy_hash": "f908f5472ca5af5fa48ff6ee263429bb",
+    "reason": "Cheap prefilter: слишком короткий текст (97 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQblliR0Y5UHVtUE9IZmpuVFI4ZWNwOHdXek9lTXhhU3dnMEpINlI1MFpMbUpNWHRwSHVYNHNPdW1raE5OZ0Z2eGtZR29GUGozaWNJaEs0ZE0tNWNsWTZmckxmdFFoTjAtVEx1QzFWMUZFLTFKdTlhT1dRdVY4VTNQbTVqYTk?oc=5",
+    "timestamp": "2026-06-07T06:58:13.068574+00:00",
+    "status": "rejected",
+    "content_hash": "be74fc0f213e6075800a2a359d6f1d49",
+    "strict_hash": "be74fc0f213e6075800a2a359d6f1d49",
+    "fuzzy_hash": "8be65b1711763dec9ee348e7b4772b15",
+    "reason": "Новость о том, что отели Дубая переориентируются на местных жителей из-за оттока туристов, имеет прямую связь с регионом и может быть интересна русскоязычным жителям, но её заголовок и содержание могут быть восприняты как негативные для туристической репутации ОАЭ (потенциальное неуважение к ценностям UAE). Кроме того, источник (The Japan Times) не является местным, а текст выглядит как перепечатка без явной проверяемой ссылки на официальные данные."
   }
 ]
