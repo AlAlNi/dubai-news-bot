@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://www.timeoutdubai.com/news/dubai-metro-tip-30-minute-rule",
-    "timestamp": "2026-06-06T20:05:04.424628+00:00",
-    "status": "rejected",
-    "content_hash": "457d717dfb3ca1bbe8f5dba618665991",
-    "strict_hash": "457d717dfb3ca1bbe8f5dba618665991",
-    "fuzzy_hash": "c7e31d14a06e4a3f93fe1fa47d8c99aa",
-    "reason": "Cheap prefilter: слишком короткий текст (108 символов)"
-  },
-  {
-    "url": "https://www.dailystar.co.uk/news/latest-news/airport-worker-smuggled-30million-dubai-37256767",
-    "timestamp": "2026-06-06T20:05:07.574982+00:00",
-    "status": "rejected",
-    "content_hash": "d909bd7fd1a069a3b44f3d704fbed602",
-    "strict_hash": "d909bd7fd1a069a3b44f3d704fbed602",
-    "fuzzy_hash": "37b6f285988fddc6c92f181c605db2ad",
-    "reason": "Новость о сотруднице аэропорта, которая помогала контрабандистам вывозить деньги в Дубай, имеет прямую связь с регионом (Дубай как конечная точка), не является политической или рекламной, не нарушает ценности ОАЭ (описывает преступление, а не критикует страну), выглядит как реальный криминальный репортаж с проверяемым источником (вероятно, британские СМИ), и может быть интересна русскоязычным жителям Дубая как необычная история. Дубликатов среди опубликованных новостей нет."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kVjI4cG1JYjJxTUJUbHBlWEVSM3RtQVZuZjBpaHY4UTBZWWRlVXY0bmpnU3Rkb284cVFuSHFtbEFGVUhuZ0R3ZVp0N3BuQmh1N0gxUy1TSHpFSTlma0xPalRxNnRnMUJmeERPUkdmaVdMVHJSLXlCWUx3?oc=5",
-    "timestamp": "2026-06-06T20:39:50.220901+00:00",
-    "status": "rejected",
-    "content_hash": "e0bf268710cf9d4b5adf07ad9538e172",
-    "strict_hash": "e0bf268710cf9d4b5adf07ad9538e172",
-    "fuzzy_hash": "44a96ca62d909d3711018d3d83f3e694",
-    "reason": "Новость о рейтинге ОАЭ как привлекательного направления для инвестиций в недвижимость имеет прямое отношение к региону, не содержит политики, рекламы или неуважения к ценностям. Однако она является общим утверждением без конкретных фактов или дат, а её заголовок и текст практически идентичны, что вызывает сомнения в новизне и информационной ценности для русскоязычного жителя Дубая. Кроме того, новость может быть дубликатом по смыслу с уже опубликованным материалом о рынке недвижимости Дубая, хотя и с другим источником."
-  },
-  {
-    "url": "https://www.timeoutdubai.com/things-to-do/beach-club-offers-dubai-june",
-    "timestamp": "2026-06-06T21:56:58.677308+00:00",
-    "status": "rejected",
-    "content_hash": "7213dd04ae7b8e603705dc45cd04a0b7",
-    "strict_hash": "7213dd04ae7b8e603705dc45cd04a0b7",
-    "fuzzy_hash": "e4473c66da2bb599e1412d36427ccef6",
-    "reason": "Cheap prefilter: слишком короткий текст (99 символов)"
-  },
-  {
-    "url": "https://www.dailyrecord.co.uk/entertainment/celebrity/katie-price-accepts-marriage-over-37257198",
-    "timestamp": "2026-06-06T21:57:00.440065+00:00",
-    "status": "rejected",
-    "content_hash": "cb7f86918b3408d601b21e48b9cdb193",
-    "strict_hash": "cb7f86918b3408d601b21e48b9cdb193",
-    "fuzzy_hash": "11fc3f57b7d435ef604f93f61111cae2",
-    "reason": "Новость о личной жизни британской модели и её мужа, арестованного в Дубае, не имеет общественной значимости для русскоязычных жителей ОАЭ, носит характер таблоидной хроники и не соответствует критериям полезности и интереса для целевой аудитории канала."
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOUERhM2lPSlp4THJRV2xYcm0zLUU3QnZtSFM2Y3FDWmpLX2dOZDg1RHZZVG9DMm9hTUJnWkpxdlN4dFJidFB2MnNpM3lUR3lTUXpENGpEbmJYQzVXSVdSdUo4amxCNFlTOW56MUphcFlYS0ktb0tLVmdCZW5KV1BCWGJhRWtiV3laV1hZV2ZBbHdhNXhidVRBTVhTenFLQml1eEE0cllVdW1DX25WbkpiX1NiNWVFZ1I3MjVCMjdsaUFvRk4tcy1nbVJMZ3hoUno0TTVxWUp6U19paU16UEtQSlJvcGpxQWxCU2kzN1VSYlNYT0IyRkJ2WUMtZEIwdHBEcWww?oc=5",
     "timestamp": "2026-06-06T22:36:15.091960+00:00",
     "status": "rejected",
@@ -446,5 +401,10 @@
     "strict_hash": "6969b8a8687369a46d6f57100179258e",
     "fuzzy_hash": "1b2372d217afe3a13cc1f0f617ebc044",
     "reason": "Новость представляет собой личную историю иммигрантки, которая не содержит общественно значимой информации, не связана с важными событиями в Дубае/ОАЭ и не представляет интереса для русскоязычного жителя, так как является субъективным опытом без проверяемых фактов или полезных данных."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubais-first-time-homebuyer-programme-empowers-over-3200-new-property-owners",
+    "timestamp": "2026-06-08T21:57:28.670428+00:00",
+    "status": "published"
   }
 ]
