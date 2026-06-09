@@ -1,51 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/dubai/dubai-real-estate-brokerage-shifts-towards-quality-advice-and-technology",
-    "timestamp": "2026-06-07T16:24:55.213154+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/in-pics-what-the-dubai-metro-blue-line-stations-could-look-like",
-    "timestamp": "2026-06-07T17:05:58.508157+00:00",
-    "status": "approved",
-    "content_hash": "13ed21ea44cff7f3b1c8eee5cd672b92",
-    "strict_hash": "13ed21ea44cff7f3b1c8eee5cd672b92",
-    "fuzzy_hash": "6e2a0602f60af0c3145b79554c9d3955",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.coventrytelegraph.net/news/local-news/emirates-employee-admits-helping-crime-34076345",
-    "timestamp": "2026-06-07T17:47:47.573616+00:00",
-    "status": "rejected",
-    "content_hash": "723f793322ff1f142b777deffad80740",
-    "strict_hash": "723f793322ff1f142b777deffad80740",
-    "fuzzy_hash": "bbfcab96981616cb26c79286eda6d7f1",
-    "reason": "Новость о сотруднике Emirates, помогавшем преступной семье провозить контрабанду наличных, имеет прямую связь с Дубаем (авиакомпания Emirates), но основная тема — уголовное преступление и судебный процесс в Великобритании, что не соответствует критериям «полезности» для русскоязычного жителя Дубая и может быть воспринято как негативная информация об ОАЭ."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/in-pics-what-the-dubai-metro-blue-line-stations-could-look-like",
-    "timestamp": "2026-06-07T18:12:23.401764+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/skyscrapers-that-will-change-the-skyline-of-dubai",
-    "timestamp": "2026-06-07T19:05:21.264440+00:00",
-    "status": "rejected",
-    "content_hash": "7c3c0b9b75bb1c413b8a7239607f1cf9",
-    "strict_hash": "7c3c0b9b75bb1c413b8a7239607f1cf9",
-    "fuzzy_hash": "0fd0057215d2f9dd8d0a4038e52d9753",
-    "reason": "Новость представляет собой перечень строящихся небоскребов в Дубае, что напрямую связано с регионом и интересно русскоязычным жителям, интересующимся развитием города. Однако текст взят с сайта What's On и выглядит как анонс или перепечатка без указания конкретного проверяемого источника и даты, а также содержит признаки кликбейтного заголовка (\"jaw-dropping\", \"entirely different level\"). Кроме того, необходимо проверить на дубликаты по предоставленному хешу."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/nri/visit/dubai-luxury-hotels-woo-staycationers-as-tourists-flee/articleshow/131562174.cms",
-    "timestamp": "2026-06-07T19:05:24.550526+00:00",
-    "status": "rejected",
-    "content_hash": "b052874ba040fb84cdcabd1f04af91c1",
-    "strict_hash": "b052874ba040fb84cdcabd1f04af91c1",
-    "fuzzy_hash": "08820ddd67db7613867f681839eff981",
-    "reason": "Новость рассказывает о том, что отели Дубая переориентируются на местных жителей из-за оттока туристов, вызванного войной. Это явно связано с регионом и содержит общественно значимую информацию для русскоязычных жителей, но тема войны и её влияния на туризм может быть воспринята как политически чувствительная и нарушающая правило №2 (политика и конфликты) и правило №4 (уважение к ценностям UAE, так как упоминание войны в контексте негативного влияния на экономику ОАЭ может быть сочтено неуважительным)."
-  },
-  {
     "url": "https://www.hindustantimes.com/trending/punjab-man-earns-49-000-as-dubai-garbage-collector-internet-says-very-low-salary-101780806515359.html",
     "timestamp": "2026-06-07T19:54:33.119471+00:00",
     "status": "rejected",
@@ -416,5 +370,10 @@
     "strict_hash": "2d1b606b463c4ac135529545d11ce94e",
     "fuzzy_hash": "f241dfe58cb529314519f4f1f24b4b32",
     "reason": "Новость о ценах на золото в ОАЭ имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям, но текст выглядит как типичная биржевая сводка с признаками ИИ-генерации (повторы, неестественные формулировки) и не представляет уникальной ценности для русскоязычного жителя Дубая, так как подобные обновления публикуются ежедневно и не являются эксклюзивными."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-expands-first-time-home-buyer-program-amidst-strong-market-demand",
+    "timestamp": "2026-06-09T19:24:19.436800+00:00",
+    "status": "published"
   }
 ]
