@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/uae-public-invited-to-take-part-in-new-national-pledge-campaign",
-    "timestamp": "2026-06-07T13:19:32.643864+00:00",
-    "status": "rejected",
-    "content_hash": "34b0d732b0b116b52b52975983cf6044",
-    "strict_hash": "34b0d732b0b116b52b52975983cf6044",
-    "fuzzy_hash": "130d3021e6c31138e14226c7051565a9",
-    "reason": "Новость о национальной кампании «Pledge & Commitment» в ОАЭ имеет прямую связь с регионом, не содержит политики или рекламы, уважает ценности UAE и может быть интересна русскоязычным жителям как информация о патриотической инициативе. Однако текст выглядит как фрагмент с техническими артефактами (символы, обрывки URL), что снижает его естественность и достоверность, а источник (What's On) не предоставляет явной проверяемой ссылки на официальный запуск. Кроме того, новость не является дубликатом предыдущих публикаций."
-  },
-  {
-    "url": "https://www.al-monitor.com/originals/2026/06/us-eyes-iranian-assets-gulf-allies-reconstruction-source-says",
-    "timestamp": "2026-06-07T13:19:35.074669+00:00",
-    "status": "rejected",
-    "content_hash": "822bcee79de6c872a183368c53891e7d",
-    "strict_hash": "822bcee79de6c872a183368c53891e7d",
-    "fuzzy_hash": "dffd1390ea420f94dcbf95a47c317f26",
-    "reason": "Новость касается геополитической темы (США, Иран, Gulf allies), что является большой политикой и конфликтом, а не локальной новостью о жизни в Дубае или ОАЭ. Она не соответствует критерию №2 (политика и конфликты) и не представляет интереса для русскоговорящего жителя Дубая (критерий №6)."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYkhJanlOVDcyRUJ5OHd1enVYSGQxNGtHdlMwX2NLdjhCd2xnZWtRRDB5ZFNnSmJLV1lYdWJDQUlkZno1cVF3LVZpcUluRnNfdmotTUUwckRKakxIY3g0VDBKMGhkOGdncVVMSzdCSGM2ZG5kUmRpMDA4eDF0endHdlhCSmZ3ZUF3c3pGREpGNXRVUDF5dVBKN0J1U01ZRkU2OWxVcEJ3WUxMT3ZK?oc=5",
-    "timestamp": "2026-06-07T14:28:00.938689+00:00",
-    "status": "rejected",
-    "content_hash": "7acf7e62fa1ffb61a2d7f9ae0578209e",
-    "strict_hash": "7acf7e62fa1ffb61a2d7f9ae0578209e",
-    "fuzzy_hash": "73c3eccbd32b5859af04061d15536ca9",
-    "reason": "Новость явно нарушает правило №2 (политика и конфликты), так как в заголовке упоминается война как причина снижения туристического потока, что является прямой отсылкой к геополитическому конфликту. Кроме того, текст выглядит как короткая выдержка без проверяемого источника и контекста, что также нарушает правило №5 (естественность и достоверность) и правило №9 (отсутствие явного URL для проверки фактов). Для русскоязычного жителя Дубая новость не несёт практической пользы, а скорее создаёт негативный фон."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/dubai-real-estate-brokerage-shifts-towards-quality-advice-and-technology",
-    "timestamp": "2026-06-07T15:18:46.247136+00:00",
-    "status": "approved",
-    "content_hash": "29cfab4b8712576223d7850452af8793",
-    "strict_hash": "29cfab4b8712576223d7850452af8793",
-    "fuzzy_hash": "9697ff16331b8c5908689dd0bf8b4385",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.scmp.com/news/world/middle-east/article/3356236/how-iran-war-allows-residents-indulge-opulence-dubais-luxury-hotels",
-    "timestamp": "2026-06-07T15:52:28.532098+00:00",
-    "status": "rejected",
-    "content_hash": "406049c069eefa743dbf830b0cdd127f",
-    "strict_hash": "406049c069eefa743dbf830b0cdd127f",
-    "fuzzy_hash": "d20596a46d97a2d60abc7c424b8e34d6",
-    "reason": "Новость явно связана с Дубаем (отели, туризм, влияние войны на местный рынок), но её основная тема — последствия войны (Иран) для туристического сектора, что нарушает правило №2 (политика и конфликты). Кроме того, заголовок и текст носят кликбейтный характер, эксплуатируя тему войны для привлечения внимания, что противоречит правилу №5. Новость не соответствует критериям для публикации."
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/dubai-real-estate-brokerage-shifts-towards-quality-advice-and-technology",
     "timestamp": "2026-06-07T16:24:55.213154+00:00",
     "status": "published"
@@ -411,5 +366,10 @@
     "strict_hash": "5fbca9f7778485d9d47a681fee480cd4",
     "fuzzy_hash": "ac999f1cd2ca7b588ad06a99f3bf9743",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/uae-expands-vat-refund-scheme-for-emirati-homebuilders",
+    "timestamp": "2026-06-09T16:10:24.045834+00:00",
+    "status": "published"
   }
 ]
