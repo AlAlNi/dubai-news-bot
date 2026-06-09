@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://www.news18.com/india/malayali-healthcare-workers-facing-uae-visa-curbs-kerala-cm-seeks-pm-modis-intervention-ws-el-10134929.html",
-    "timestamp": "2026-06-07T22:05:32.646276+00:00",
-    "status": "rejected",
-    "content_hash": "35d68887db7643d2beb71186cf549087",
-    "strict_hash": "35d68887db7643d2beb71186cf549087",
-    "fuzzy_hash": "cc67864397a5aaa59eae15359d195f48",
-    "reason": "Новость касается визовых ограничений для медицинских работников из Кералы в ОАЭ, что имеет прямую связь с регионом, но основное содержание — политическое обращение главного министра к премьер-министру Индии, что нарушает правило №2 (большая политика). Кроме того, текст ссылается на «региональную напряженность» и закрытие больницы в Дубае, что может быть воспринято как неуважение к стабильности ОАЭ (правило №4). Новость также не представляет интереса для русскоговорящего жителя Дубая (правило №6)."
-  },
-  {
     "url": "https://www.manilatimes.net/2026/06/07/world/ex-wife-of-uae-royal-released-on-bail-in-custody-dispute/2360203",
     "timestamp": "2026-06-07T23:36:03.382293+00:00",
     "status": "rejected",
@@ -398,5 +389,10 @@
     "strict_hash": "369ddf75addaf42039e32faeade53618",
     "fuzzy_hash": "09ef440b032121090e4fa05598143e3c",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/these-bright-orange-flowers-are-suddenly-everywhere-in-dubai-heres-why",
+    "timestamp": "2026-06-09T23:23:42.042782+00:00",
+    "status": "published"
   }
 ]
