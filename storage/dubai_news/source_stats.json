@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.hindustantimes.com/trending/punjab-man-earns-49-000-as-dubai-garbage-collector-internet-says-very-low-salary-101780806515359.html",
-    "timestamp": "2026-06-07T19:54:33.119471+00:00",
-    "status": "rejected",
-    "content_hash": "04515665b38b5dec1bdb794ad768e816",
-    "strict_hash": "04515665b38b5dec1bdb794ad768e816",
-    "fuzzy_hash": "4609fa48c22821c6b55d6bb45413f3e9",
-    "reason": "Новость о зарплате мусорщика в Дубае не является общественно значимой для русскоязычных жителей, содержит признаки кликбейта и не имеет проверяемого источника с явным URL."
-  },
-  {
-    "url": "https://www.news18.com/viral/punjab-man-reveals-he-earns-rs-49000-as-a-garbage-collector-in-dubai-internet-says-bahot-aage-jaoge-ws-l-10134930.html",
-    "timestamp": "2026-06-07T21:03:55.915031+00:00",
-    "status": "rejected",
-    "content_hash": "66ca6c487daba51a64249dd4e630d626",
-    "strict_hash": "66ca6c487daba51a64249dd4e630d626",
-    "fuzzy_hash": "6532c2b23aceb457cfabec6e3b51c8a8",
-    "reason": "Новость о зарплате мусорщика из Пенджаба в Дубае имеет косвенную связь с регионом, но её основной фокус — на виральности и социальных сетях, а не на общественно значимой информации для русскоязычных жителей Дубая. Текст выглядит как пересказ популярного поста, не содержит проверяемых фактов или полезных данных, и может быть воспринят как кликбейт."
-  },
-  {
-    "url": "https://www.freepressjournal.in/viral/punjab-man-working-as-garbage-collector-in-dubai-reveals-5-digit-salary-12-hour-workdays-sparks-debate-online",
-    "timestamp": "2026-06-07T21:44:21.423638+00:00",
-    "status": "rejected",
-    "content_hash": "f15331b366d83ccea2656d83c351a4f3",
-    "strict_hash": "f15331b366d83ccea2656d83c351a4f3",
-    "fuzzy_hash": "2323857279f5ff681b144131cb330e7c",
-    "reason": "Новость рассказывает о вирусной истории про зарплату и условия работы уборщика из Пенджаба в Дубае. Тема имеет прямое отношение к региону, не является политической или рекламной, но вызывает сомнения по критерию интереса для русскоязычного жителя Дубая (история ориентирована на индийскую аудиторию и уже широко обсуждается в соцсетях, что делает её дубликатом/повтором). Кроме того, отсутствует проверяемый источник (ссылка на оригинальное видео или официальные данные), а сам текст похож на пересказ вирусного контента без новой ценности."
-  },
-  {
     "url": "https://www.news18.com/india/malayali-healthcare-workers-facing-uae-visa-curbs-kerala-cm-seeks-pm-modis-intervention-ws-el-10134929.html",
     "timestamp": "2026-06-07T22:05:32.646276+00:00",
     "status": "rejected",
@@ -402,5 +375,10 @@
     "strict_hash": "7f840280f45732bbaf6a5d92f348dbb1",
     "fuzzy_hash": "ce801b704349b93bed5ccc8bb5b55532",
     "reason": "Новость явно нарушает правило №2 (политика и конфликты), так как заголовок и текст прямо говорят о войне с Ираном и её влиянии на Дубай, что является большой политической и конфликтной темой. Также это может быть воспринято как неуважение к ценностям ОАЭ (правило №4), подрывая образ безопасного убежища."
+  },
+  {
+    "url": "https://www.news18.com/agency-feeds/apeda-facilitates-first-export-of-gi-tagged-tezpur-litchi-from-assam-to-dubai-10138241.html",
+    "timestamp": "2026-06-09T21:55:22.132939+00:00",
+    "status": "published"
   }
 ]
