@@ -413,5 +413,23 @@
     "url": "https://propertynews.ae/uae/dubai/dubai-homebuyers-gain-new-mortgage-options-for-nakheel-and-meraas-properties",
     "timestamp": "2026-06-10T12:31:53.218547+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/20-budget-friendly-things-to-do-in-abu-dhabi",
+    "timestamp": "2026-06-10T14:18:32.691813+00:00",
+    "status": "rejected",
+    "content_hash": "90989edf178e26a48abb7270c73a5468",
+    "strict_hash": "90989edf178e26a48abb7270c73a5468",
+    "fuzzy_hash": "1f0f8f4281584b5726797913a5a27d48",
+    "reason": "Новость представляет собой подборку бюджетных развлечений в Абу-Даби, что не имеет прямой связи с Дубаем (правило 1). Кроме того, это типичный контент для развлекательного издания, а не новость, и он не представляет интереса для русскоязычного жителя именно Дубая (правило 6)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM2VHbWE4RGYycUl3WmJnN2ctYnZycGFhUF9CVFRDQkNwM29nekZSbFFKQ2x6TFRTMFJWcXFld21nSEVTMkZGOWFTVDdYNDJsN1ZuWHRrMEZCTUR4QVY0OVI4U05YVHFVT2FRMXoxbHliQWpUQy03Wk9JRE1wUklKU3VvWHJFZGpZOUx1b01MS1RCMXNpVzRCUFJEcjdIR19oT2VMTFZxV0FwdEhkZ1ZFWE9kanU5RnBoOTlDX3RSZmtZQQ?oc=5",
+    "timestamp": "2026-06-10T14:18:36.697398+00:00",
+    "status": "rejected",
+    "content_hash": "579d274a64058c175c2bfbb0ef5c9736",
+    "strict_hash": "579d274a64058c175c2bfbb0ef5c9736",
+    "fuzzy_hash": "00536f2c1e2b748b14f7de31c4682a76",
+    "reason": "Новость представляет собой справочный материал о процедуре регистрации автомобилей в Дубае на 2026 год, что напрямую связано с регионом и может быть полезно русскоязычным жителям. Однако текст является лишь заголовком и ссылкой на источник, без фактического содержания, что не позволяет проверить его на дубликаты, достоверность и соответствие правилам (отсутствует проверяемый текст новости, а не просто анонс). Кроме того, тема регистрации автомобилей не является срочной или общественно значимой новостью, а скорее вечнозеленым гидом, что может быть расценено как не соответствующий формат для новостного канала."
   }
 ]
