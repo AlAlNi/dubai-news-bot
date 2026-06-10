@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.manilatimes.net/2026/06/07/world/ex-wife-of-uae-royal-released-on-bail-in-custody-dispute/2360203",
-    "timestamp": "2026-06-07T23:36:03.382293+00:00",
-    "status": "rejected",
-    "content_hash": "5d37472ab5ef82c15422c9532b19243e",
-    "strict_hash": "5d37472ab5ef82c15422c9532b19243e",
-    "fuzzy_hash": "8826eacded5cc248fce45335ed6c6f16",
-    "reason": "Новость касается личного конфликта внутри королевской семьи Дубая, что может быть воспринято как неуважение к ценностям ОАЭ и нарушает правило 4. Кроме того, тема связана с судебными разбирательствами и семейными спорами, что не является общественно значимой информацией для русскоязычного жителя Дубая (правило 6)."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOblhlRmV1ZU41Zk1ERDlYNE1lM1YydXVZQTF1MjJVOVlGWnloamt6aTJ1OUVKU0EzR2g3dzQ1Z2NhMS1ka3dvWUNCQlZ1YjZxdFJFM0hoSkxGanQ5YXphVDV0alRqT0VsS0JTdmJlLVprMUdIcEdNVlRwMWNpWEcwbjk1Vmd5a2pKNjhieHFkc1JTUWI1cjZKMWIydWZnWE01ZmlMWUZfZzFHdjR0RjNVSXh5bHZ4c2JqT09CTktnNUE2Q29XV2k2aQ?oc=5",
-    "timestamp": "2026-06-07T23:58:11.351070+00:00",
-    "status": "rejected",
-    "content_hash": "4a0e0f4e6e2511b5f28b177fea92c8bb",
-    "strict_hash": "4a0e0f4e6e2511b5f28b177fea92c8bb",
-    "fuzzy_hash": "2311abe3620fd9a03885e70dedea6d85",
-    "reason": "Новость не подходит: заголовок и текст содержат отсылку к войне как причине изменений в туризме, что нарушает правило 2 (политика и конфликты). Кроме того, источник (Türkiye Today) не является официальным или проверяемым для ОАЭ, а тема может быть воспринята как неуважение к стабильности региона (правило 4)."
-  },
-  {
-    "url": "https://www.thenews.com.pk/latest/1405094-katie-price-sends-clear-message-about-lee-andrews-after-dubai-trip",
-    "timestamp": "2026-06-08T03:39:56.268378+00:00",
-    "status": "rejected",
-    "content_hash": "54cca7060ad32723fc0fb78c28786b41",
-    "strict_hash": "54cca7060ad32723fc0fb78c28786b41",
-    "fuzzy_hash": "c95c60f50c8faf7bb6cf2103bde6e777",
-    "reason": "Новость о личной жизни британской звезды реалити-шоу, которая лишь упоминает Дубай как место поездки, не имеет значимой связи с регионом, не представляет интереса для русскоязычного жителя Дубая и не содержит проверяемой общественно значимой информации."
-  },
-  {
     "url": "https://www.hindustantimes.com/india-news/cm-satheesan-seeks-centres-help-as-iran-hospital-closure-in-dubai-hits-kerala-based-healthcare-workers-101780844456126.html",
     "timestamp": "2026-06-08T05:12:43.475456+00:00",
     "status": "rejected",
@@ -421,5 +394,10 @@
     "strict_hash": "757265cb096ba50d70d69c59f816885c",
     "fuzzy_hash": "a87e73ed3ef594b493d798c5fa130a5c",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thehindubusinessline.com/economy/agri-business/india-exports-1-tonne-of-gi-tagged-tezpur-litchi-to-dubai/article71080462.ece",
+    "timestamp": "2026-06-10T04:39:19.685980+00:00",
+    "status": "published"
   }
 ]
