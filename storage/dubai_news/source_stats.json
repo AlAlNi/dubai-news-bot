@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://japantoday.com/category/features/travel/dubai-luxury-hotels-woo-staycationers-as-tourists-flee",
-    "timestamp": "2026-06-08T10:03:24.816081+00:00",
-    "status": "rejected",
-    "content_hash": "75c17231e58d3f348351db069634d2a6",
-    "strict_hash": "75c17231e58d3f348351db069634d2a6",
-    "fuzzy_hash": "208551c6c98f0668377912d4c932c5c9",
-    "reason": "Новость не подходит для публикации, так как её основная тема — влияние войны на туристический поток в Дубай, что является политическим контекстом и нарушает правило №2 (политика и конфликты). Кроме того, текст имеет признаки кликбейта и может быть воспринят как неуважение к стабильности ОАЭ (правило №4)."
-  },
-  {
     "url": "https://whatson.ae/2026/06/world-cup-sports-bars-fanzones-dubai-2026",
     "timestamp": "2026-06-08T12:57:17.017388+00:00",
     "status": "rejected",
@@ -417,5 +408,10 @@
     "strict_hash": "1c035beba425dd4bdba4bc8104e51bab",
     "fuzzy_hash": "0a2ad89f5d298d823218979df4457c7a",
     "reason": "Новость о поставке личи из Индии в Дубай имеет слабую связь с регионом (упоминается только как пункт назначения), не содержит общественно значимой информации для русскоязычных жителей Дубая и больше похожа на пресс-релиз о достижениях индийского экспорта, чем на актуальную местную новость."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-homebuyers-gain-new-mortgage-options-for-nakheel-and-meraas-properties",
+    "timestamp": "2026-06-10T12:31:53.218547+00:00",
+    "status": "published"
   }
 ]
