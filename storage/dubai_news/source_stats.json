@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://www.lokmattimes.com/international/7-indians-killed-9-injured-in-dubai-road-accident",
-    "timestamp": "2026-06-09T12:12:29.501771+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://simpleflying.com/why-emirates-8810-mile-dubai-auckland-flight-actually-uk-india-route",
-    "timestamp": "2026-06-09T13:23:55.450646+00:00",
-    "status": "rejected",
-    "content_hash": "d3ed081898971d4219655a5325f2dcf9",
-    "strict_hash": "d3ed081898971d4219655a5325f2dcf9",
-    "fuzzy_hash": "8b06744eafb4d59e28ccf3ca26526950",
-    "reason": "Новость представляет собой аналитический материал о маршрутной сети авиакомпании Emirates, связывающей Дубай с Великобританией и Индией. Тема напрямую связана с Дубаем и ОАЭ, не содержит политики, рекламы или неуважения к ценностям UAE, текст выглядит естественным и информативным для русскоязычного жителя, интересующегося авиасообщением. Однако требуется проверка на дубликаты по предоставленному хешу."
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/uae-expands-vat-refund-scheme-for-emirati-homebuilders",
-    "timestamp": "2026-06-09T13:37:02.887837+00:00",
-    "status": "approved",
-    "content_hash": "5fbca9f7778485d9d47a681fee480cd4",
-    "strict_hash": "5fbca9f7778485d9d47a681fee480cd4",
-    "fuzzy_hash": "ac999f1cd2ca7b588ad06a99f3bf9743",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/uae-expands-vat-refund-scheme-for-emirati-homebuilders",
     "timestamp": "2026-06-09T16:10:24.045834+00:00",
     "status": "published"
@@ -416,5 +393,10 @@
     "strict_hash": "ce91abe34a466e1d682595e3ee182ac9",
     "fuzzy_hash": "c3326a05c06b57337b7a7c2ea2f62b21",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/emaar-unveils-dh200-billion-dubai-masterplan-for-150000-residents",
+    "timestamp": "2026-06-11T14:48:31.643248+00:00",
+    "status": "published"
   }
 ]
