@@ -1,46 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/business/united-arab-emirates-ascends-to-second-position-in-global-islamic-economy",
-    "timestamp": "2026-06-09T06:39:25.909506+00:00",
-    "status": "approved",
-    "content_hash": "bf5c1d738fb12ee2c50276848ebb02df",
-    "strict_hash": "bf5c1d738fb12ee2c50276848ebb02df",
-    "fuzzy_hash": "233c3c9cb3caa7fdf0e765d324f02348",
-    "reason": "approved"
-  },
-  {
-    "url": "https://propertynews.ae/business/united-arab-emirates-ascends-to-second-position-in-global-islamic-economy",
-    "timestamp": "2026-06-09T08:37:37.029943+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.express.co.uk/celebrity-news/2214987/katie-prices-husband-begs-her",
-    "timestamp": "2026-06-09T10:08:25.156048+00:00",
-    "status": "rejected",
-    "content_hash": "2adc60ba14a46693f9bb4428b590badc",
-    "strict_hash": "2adc60ba14a46693f9bb4428b590badc",
-    "fuzzy_hash": "5664e47844856c31c46f077ce91243f7",
-    "reason": "Новость о муже Кэти Прайс, сидящем в тюрьме в Дубае, имеет связь с регионом, но её основная тема — это личная драма западной знаменитости, а не общественно значимое событие для русскоязычных жителей Дубая. Кроме того, текст выглядит как пересказ таблоидной сплетни без проверяемого источника и не соответствует критериям полезности для целевой аудитории."
-  },
-  {
-    "url": "https://propertynews.ae/business/uae-retail-market-set-to-exceed-227-billion-by-2033-amid-luxury-spending-and-ai-integration",
-    "timestamp": "2026-06-09T10:27:17.472365+00:00",
-    "status": "rejected",
-    "content_hash": "9370a3761dee87d57b328778e10b0d01",
-    "strict_hash": "9370a3761dee87d57b328778e10b0d01",
-    "fuzzy_hash": "87312a4b5376ec0b2c67fc8e0de86322",
-    "reason": "Новость о прогнозе роста розничного рынка ОАЭ до $227 млрд к 2033 году соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ценностям, не является дубликатом опубликованных новостей (в контексте только одна новость об аварии), источник проверяем (указан прогноз), и может быть интересна русскоязычным жителям Дубая как информация о развитии экономики и потребительского рынка. Однако текст выглядит как пресс-релиз или аналитический обзор без явной общественно значимой новости, что нарушает правило 3 (рекламный характер). Также отсутствует явный URL источника для проверки фактов (правило 9)."
-  },
-  {
-    "url": "https://www.dailystar.co.uk/showbiz/katie-price-issues-ultimatum-husband-37266443",
-    "timestamp": "2026-06-09T10:27:19.415417+00:00",
-    "status": "rejected",
-    "content_hash": "e3706176c9b0c3a7b381a9b5da80b288",
-    "strict_hash": "e3706176c9b0c3a7b381a9b5da80b288",
-    "fuzzy_hash": "20c784737f77ae89097cd01ac02b5c94",
-    "reason": "Новость о личной драме британской модели и её муже в дубайской тюрьме не имеет общественной значимости для русскоязычных жителей Дубая, выглядит как таблоидный кликбейт и не соответствует критериям полезности и достоверности для новостного канала."
-  },
-  {
     "url": "https://www.lokmattimes.com/international/7-indians-killed-9-injured-in-dubai-road-accident",
     "timestamp": "2026-06-09T12:12:29.501771+00:00",
     "status": "published"
@@ -434,5 +393,10 @@
     "strict_hash": "6fa1d0e908e469915b612fd2bc407c7b",
     "fuzzy_hash": "44ad8f76cf96d5ccee7f11590a2dd1c0",
     "reason": "approved"
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/news/international/uae/the-donald-of-dubai-uae-billionaire-close-to-trump-bets-66-billion-on-ai-to-become-the-worlds-data-king/articleshow/131643926.cms",
+    "timestamp": "2026-06-11T10:53:35.675557+00:00",
+    "status": "published"
   }
 ]
