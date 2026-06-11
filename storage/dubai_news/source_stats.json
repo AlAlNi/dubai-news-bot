@@ -416,5 +416,23 @@
     "strict_hash": "175945eca90151a4c7cfc3ec76729562",
     "fuzzy_hash": "994a3da886ad5a6af6bbdc31b7e51fb5",
     "reason": "Новость о возвращении лимитированного десертного коктейля в Shake Shack — это, по сути, рекламный анонс сети фастфуда, не несущий общественно значимой информации для русскоязычного жителя Дубая. Текст не содержит новостной ценности, а лишь информирует о маркетинговой акции, что нарушает правило 3 (рекламный характер) и правило 6 (отсутствие практической пользы или интереса для широкой аудитории)."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/8-of-the-best-bars-in-dubai-to-watch-the-sunset",
+    "timestamp": "2026-06-11T10:03:49.539412+00:00",
+    "status": "rejected",
+    "content_hash": "2252b8dc6c899f7807b8116fb27cd18c",
+    "strict_hash": "2252b8dc6c899f7807b8116fb27cd18c",
+    "fuzzy_hash": "ba0891c1b7bce22986860eafb9fbf35c",
+    "reason": "Новость представляет собой подборку баров для наблюдения за закатом — это явно рекламно-развлекательный контент, а не общественно значимая новость. Отсутствует проверяемый источник и полезная информация для русскоязычного жителя, текст похож на анонс из развлекательного издания."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/news/international/uae/the-donald-of-dubai-uae-billionaire-close-to-trump-bets-66-billion-on-ai-to-become-the-worlds-data-king/articleshow/131643926.cms",
+    "timestamp": "2026-06-11T10:03:58.011750+00:00",
+    "status": "approved",
+    "content_hash": "6fa1d0e908e469915b612fd2bc407c7b",
+    "strict_hash": "6fa1d0e908e469915b612fd2bc407c7b",
+    "fuzzy_hash": "44ad8f76cf96d5ccee7f11590a2dd1c0",
+    "reason": "approved"
   }
 ]
