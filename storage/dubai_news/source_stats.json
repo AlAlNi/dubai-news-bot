@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/20-budget-friendly-things-to-do-in-abu-dhabi",
-    "timestamp": "2026-06-10T14:18:32.691813+00:00",
-    "status": "rejected",
-    "content_hash": "90989edf178e26a48abb7270c73a5468",
-    "strict_hash": "90989edf178e26a48abb7270c73a5468",
-    "fuzzy_hash": "1f0f8f4281584b5726797913a5a27d48",
-    "reason": "Новость представляет собой подборку бюджетных развлечений в Абу-Даби, что не имеет прямой связи с Дубаем (правило 1). Кроме того, это типичный контент для развлекательного издания, а не новость, и он не представляет интереса для русскоязычного жителя именно Дубая (правило 6)."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM2VHbWE4RGYycUl3WmJnN2ctYnZycGFhUF9CVFRDQkNwM29nekZSbFFKQ2x6TFRTMFJWcXFld21nSEVTMkZGOWFTVDdYNDJsN1ZuWHRrMEZCTUR4QVY0OVI4U05YVHFVT2FRMXoxbHliQWpUQy03Wk9JRE1wUklKU3VvWHJFZGpZOUx1b01MS1RCMXNpVzRCUFJEcjdIR19oT2VMTFZxV0FwdEhkZ1ZFWE9kanU5RnBoOTlDX3RSZmtZQQ?oc=5",
-    "timestamp": "2026-06-10T14:18:36.697398+00:00",
-    "status": "rejected",
-    "content_hash": "579d274a64058c175c2bfbb0ef5c9736",
-    "strict_hash": "579d274a64058c175c2bfbb0ef5c9736",
-    "fuzzy_hash": "00536f2c1e2b748b14f7de31c4682a76",
-    "reason": "Новость представляет собой справочный материал о процедуре регистрации автомобилей в Дубае на 2026 год, что напрямую связано с регионом и может быть полезно русскоязычным жителям. Однако текст является лишь заголовком и ссылкой на источник, без фактического содержания, что не позволяет проверить его на дубликаты, достоверность и соответствие правилам (отсутствует проверяемый текст новости, а не просто анонс). Кроме того, тема регистрации автомобилей не является срочной или общественно значимой новостью, а скорее вечнозеленым гидом, что может быть расценено как не соответствующий формат для новостного канала."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMll0Q1JYeXltaVNkSUZIQWRDY0Z1dVFkaGZ2NlpHTVZpT01wbmFwOTVMbi1PVGIxWnRFVjJWZHhTNWE3eldBS2NSTTh2NDlpNGd3WkdIMWJtWXh6elM5RXREY1BCVHI1b3lUSDNsNXBOcWpqYUs3S0cycEo0cmEtT3ExeGZHM0diekZYWTdDQUdYWGNvNXpwTVJKcGxaYk5yTl9vdXBHelc5QVdr0gG_AUFVX3lxTE0zOTluZXhJMW5lZ2c0Wk8zWE1yQnEtYjBQVFJXVFFFREpjRE1KYWRNOGxwUGFwN2F2TDNJOFhPY0kxeHJ3RU9UOWpDaG1mUG1OUDFYWHlzOTBSazV0VVZVR3JOb1g4MktxTVJoeHpoeGU4UG1DZmt0cS1FdUNzRldtMUNoY2lDYjZrb0tWRHVpSzVFV3d2QUhOMzh4ZjZQVW1XbXc1WTU5ZDJuc3JLeExWT1dQT0dUZldpcl9QamMw?oc=5",
-    "timestamp": "2026-06-10T14:36:07.057190+00:00",
-    "status": "approved",
-    "content_hash": "43bb0472602bfc9adc13bbf805a7293f",
-    "strict_hash": "43bb0472602bfc9adc13bbf805a7293f",
-    "fuzzy_hash": "6be38930d660db8820e8aae8edd4c9a3",
-    "reason": "approved"
-  },
-  {
     "url": "https://whatson.ae/2026/06/watch-visit-dubai-shares-video-of-dubai-reimagined-in-lego",
     "timestamp": "2026-06-10T17:51:29.441480+00:00",
     "status": "rejected",
@@ -392,5 +365,10 @@
     "strict_hash": "96d5de4995f2b82cf67c19c4ccf3c344",
     "fuzzy_hash": "87a282d42a56c95e95d64b5d07f5d76e",
     "reason": "Новость не подходит для публикации: она не связана с Дубаем/ОАЭ/GCC (основное действие происходит в районе Ормузского пролива, а главные герои — индийские моряки), а также затрагивает темы военного конфликта и геополитической напряжённости, что нарушает правило 2 (политика и конфликты)."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/chandigarh/four-months-on-dubai-flights-back-fly-to-fro-abu-dhabi-from-june-26",
+    "timestamp": "2026-06-12T16:52:24.442427+00:00",
+    "status": "published"
   }
 ]
