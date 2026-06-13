@@ -1,19 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/ufc-fight-night-returns-to-abu-dhabi-this-summer",
-    "timestamp": "2026-06-11T18:22:55.724208+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://triblive.com/news/world/iran-responds-to-2nd-day-of-u-s-strikes-by-firing-at-gulf-states-and-jordan",
-    "timestamp": "2026-06-11T19:57:38.842626+00:00",
-    "status": "rejected",
-    "content_hash": "d006463413ae31670d81d58ab8374641",
-    "strict_hash": "d006463413ae31670d81d58ab8374641",
-    "fuzzy_hash": "b53fa539ec08460f2e088aec01f0b790",
-    "reason": "Новость касается военного конфликта между США и Ираном с упоминанием обстрелов стран Персидского залива, что является темой большой политики и военных действий, а также может быть воспринято как неуважение к ценностям ОАЭ. Это нарушает правила 2 и 4."
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/dubai-property-values-double-in-key-communities-over-five-years",
     "timestamp": "2026-06-11T21:11:29.466793+00:00",
     "status": "approved",
@@ -471,5 +457,10 @@
     "strict_hash": "24aa0ca58cb37134749f474bec9a3c2c",
     "fuzzy_hash": "49f8265f2b9c43cd2510bfd4b08edcb7",
     "reason": "Новость о муже Кэти Прайс, вышедшем из тюрьмы в Дубае, имеет прямую связь с регионом, не является политической или рекламной, не нарушает ценности ОАЭ, выглядит естественно и может быть интересна русскоязычным жителям как курьезный случай. Однако она не является дубликатом уже опубликованных новостей (о недвижимости, метро и проектах Emaar). Источник (вероятно, таблоид) не указан явно, но факт ареста и освобождения в Дубае — проверяемая информация."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/news/new-updates/dubai-world-trade-centre-metro-stations-dirty-signboard-was-flagged-to-authorities-what-happened-next-left-the-internet-impressed/articleshow/131698742.cms",
+    "timestamp": "2026-06-13T20:22:30.135182+00:00",
+    "status": "published"
   }
 ]
