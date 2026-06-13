@@ -502,5 +502,23 @@
     "strict_hash": "35c5b7701dc03ed42e17daab4d21933f",
     "fuzzy_hash": "1bde808399b4d671b20e8ba3228f91f1",
     "reason": "Новость о британской знаменитости и её муже, отбывавшем срок в дубайской тюрьме, не имеет прямой связи с жизнью русскоязычного жителя Дубая, носит характер светской хроники и не представляет общественно значимой информации для целевой аудитории канала."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/things-to-do/best-world-cup-fanzones-dubai-2026",
+    "timestamp": "2026-06-13T23:59:16.032914+00:00",
+    "status": "rejected",
+    "content_hash": "7e91bd4a5d0707858573041d14312fe1",
+    "strict_hash": "7e91bd4a5d0707858573041d14312fe1",
+    "fuzzy_hash": "b752df5476936098ff5b527728ab0432",
+    "reason": "Cheap prefilter: слишком короткий текст (76 символов)"
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/news/new-updates/ahmedabad-customs-recover-smuggled-gold-worth-over-rs-4-crore-from-flight-arriving-from-dubai/articleshow/131703287.cms",
+    "timestamp": "2026-06-13T23:59:18.619846+00:00",
+    "status": "rejected",
+    "content_hash": "4558bac17f470db0a8e24f44adbd94d9",
+    "strict_hash": "4558bac17f470db0a8e24f44adbd94d9",
+    "fuzzy_hash": "adf52be3d947fc4b5e6a4474e1e38b34",
+    "reason": "Новость о конфискации контрабандного золота в Ахмедабаде, прибывшего рейсом из Дубая, лишь косвенно связана с регионом (Дубай — точка отправления), но основное событие происходит в Индии и не представляет интереса для русскоязычного жителя Дубая. Тема не является общественно значимой для аудитории канала, а также может быть воспринята как негативная информация о рейсах из Дубая."
   }
 ]
