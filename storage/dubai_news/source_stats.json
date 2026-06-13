@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.thestar.com.my/lifestyle/travel/2026/06/11/residents-become-dubai039s-lifeline-in-luxury-tourism",
-    "timestamp": "2026-06-11T16:35:12.622642+00:00",
-    "status": "rejected",
-    "content_hash": "61a61e84459b9151f88a9ffe91cb42fd",
-    "strict_hash": "61a61e84459b9151f88a9ffe91cb42fd",
-    "fuzzy_hash": "0e268951cde09fb4f56ed552a7a4c02a",
-    "reason": "Новость рассказывает о том, что роскошные отели Дубая теперь зависят от местных жителей из-за оттока туристов, вызванного войнами. Это не дубликат предыдущей новости (о ДТП на Emirates Road), но тема напрямую связана с геополитическими конфликтами (война) и их влиянием на туризм, что нарушает правило №2 (политика и конфликты). Кроме того, текст может содержать негативный подтекст о зависимости экономики ОАЭ от внешних факторов, что потенциально неуважительно к ценностям UAE (правило №4)."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/ufc-fight-night-returns-to-abu-dhabi-this-summer",
-    "timestamp": "2026-06-11T18:02:45.395978+00:00",
-    "status": "approved",
-    "content_hash": "37f37767df1c0f6024e680e171a18d20",
-    "strict_hash": "37f37767df1c0f6024e680e171a18d20",
-    "fuzzy_hash": "84448d24b194ab665e021396c4fb06bc",
-    "reason": "approved"
-  },
-  {
     "url": "https://whatson.ae/2026/06/ufc-fight-night-returns-to-abu-dhabi-this-summer",
     "timestamp": "2026-06-11T18:22:55.724208+00:00",
     "status": "published"
@@ -457,5 +439,10 @@
     "strict_hash": "276a07d3b2ac2eec5e238a3a3a116274",
     "fuzzy_hash": "6f39f0dd5aa93dd5d17f28bc3b623dd8",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/hijri-new-year-dubai-announces-free-parking-and-transport-updates",
+    "timestamp": "2026-06-13T18:17:28.337059+00:00",
+    "status": "published"
   }
 ]
