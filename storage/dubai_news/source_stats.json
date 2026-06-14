@@ -498,5 +498,23 @@
     "strict_hash": "09105139c4fd4593362cb310c20e1760",
     "fuzzy_hash": "d49d1b85efde909710fd2e0c7252fa17",
     "reason": "Новость рассказывает о торговом центре в Брэдфорде (Великобритания), который стилизован под азиатский/арабский стиль, но не имеет никакого отношения к Дубаю, ОАЭ или региону GCC. Это репортаж из Англии, не представляющий интереса для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/dubai-mallathon-is-back-for-2026-and-its-expanded",
+    "timestamp": "2026-06-14T13:26:51.060863+00:00",
+    "status": "rejected",
+    "content_hash": "20d71069cf64081737dbea8d19584d7e",
+    "strict_hash": "20d71069cf64081737dbea8d19584d7e",
+    "fuzzy_hash": "9c1c989b7a7b9b4da05ad9c4f57efe52",
+    "reason": "Новость о возвращении спортивной инициативы Dubai Mallathon в 2026 году имеет прямую связь с Дубаем, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Текст выглядит естественно, но не указан проверяемый источник (URL), а также отсутствует информация о том, публиковалась ли уже эта новость ранее (хеш не проверен). Для русскоязычного жителя новость может быть интересна, однако без подтверждения источника и проверки на дубликаты публикация рискованна."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/looking-for-domestic-help-dubai-police-issues-alert-on-hiring-maids-urges-use-of-licensed-agencies/articleshow/131707635.cms",
+    "timestamp": "2026-06-14T13:26:57.958039+00:00",
+    "status": "approved",
+    "content_hash": "95ef024ac1b85177045160320ec7b9e1",
+    "strict_hash": "95ef024ac1b85177045160320ec7b9e1",
+    "fuzzy_hash": "4534333a74902d61dccce40dcb35f5c3",
+    "reason": "approved"
   }
 ]
