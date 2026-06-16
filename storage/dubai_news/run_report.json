@@ -1,107 +1,5 @@
 [
   {
-    "script": "rss_collect",
-    "started_at": "2026-06-07T11:45:18.667598+00:00",
-    "finished_at": "2026-06-07T11:47:02.575058+00:00",
-    "duration_seconds": 103.907,
-    "success": true,
-    "counters": {
-      "attempts_made": 2,
-      "fetched": 1,
-      "rejected": 0,
-      "approved": 1,
-      "deepseek_calls": 2,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 0,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-06-07",
-      "daily": {
-        "published_per_day": {
-          "value": 1,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 77.78,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.dailystar.co.uk",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "emirateswoman.com",
-            "events": 4,
-            "reject_rate": 100.0,
-            "duplicate_rate": 25.0
-          },
-          {
-            "source": "whatson.ae",
-            "events": 9,
-            "reject_rate": 100.0,
-            "duplicate_rate": 11.11
-          },
-          {
-            "source": "www.timeoutdubai.com",
-            "events": 4,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 16,
-            "reject_rate": 87.5,
-            "duplicate_rate": 43.75
-          },
-          {
-            "source": "timesofindia.indiatimes.com",
-            "events": 4,
-            "reject_rate": 75.0,
-            "duplicate_rate": 25.0
-          },
-          {
-            "source": "propertynews.ae",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 66.67
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
     "script": "auto_notify",
     "started_at": "2026-06-07T11:56:53.111372+00:00",
     "finished_at": "2026-06-07T11:56:53.881585+00:00",
@@ -15155,6 +15053,72 @@
       "published": 0,
       "duplicate_skips": 0,
       "no_posts": 1
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-06-16",
+      "daily": {
+        "published_per_day": {
+          "value": 0,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 100.0,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "whatson.ae",
+            "events": 13,
+            "reject_rate": 61.54,
+            "duplicate_rate": 15.38
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-06-16T06:05:14.842458+00:00",
+    "finished_at": "2026-06-16T06:05:18.450353+00:00",
+    "duration_seconds": 3.608,
+    "success": false,
+    "counters": {
+      "attempts_made": 3,
+      "fetched": 1,
+      "rejected": 1,
+      "approved": 0,
+      "deepseek_calls": 1,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 1,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 1,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
     },
     "newsroom_kpi": {
       "date_utc": "2026-06-16",
