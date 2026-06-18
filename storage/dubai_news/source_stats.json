@@ -380,5 +380,23 @@
     "strict_hash": "dec00deeab09b362c219b6ca12236bd2",
     "fuzzy_hash": "43614a47d65ca4424795228ec9d0fdb9",
     "reason": "Новость о ресторане в Ковентри (Великобритания), владелец которого привнёс «частичку Дубая», не имеет прямой связи с Дубаем, ОАЭ или регионом GCC. Это локальная история для британского города, не представляющая интереса для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/experience-every-second-of-the-world-cup-at-huqqabaz",
+    "timestamp": "2026-06-18T20:09:23.642293+00:00",
+    "status": "rejected",
+    "content_hash": "6e78f015587596310fe8c220f9867952",
+    "strict_hash": "6e78f015587596310fe8c220f9867952",
+    "fuzzy_hash": "e12f181619c09a12f5568ed1be0f8360",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/trump-albania-luxury-resorts-protests-tourism-kushner-b2997905.html",
+    "timestamp": "2026-06-18T20:09:25.683593+00:00",
+    "status": "rejected",
+    "content_hash": "e9dfb908bd819ab93dc8288ef862f15a",
+    "strict_hash": "e9dfb908bd819ab93dc8288ef862f15a",
+    "fuzzy_hash": "97b6408f0c0e982aab8eab12f8f1a3e4",
+    "reason": "Новость не связана с Дубаем, ОАЭ или регионом GCC, а также содержит политический контекст (протесты в Албании) и негативное сравнение с Дубаем, что нарушает правила уважения к ценностям UAE."
   }
 ]
