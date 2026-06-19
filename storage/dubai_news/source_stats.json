@@ -375,5 +375,23 @@
     "url": "https://whatson.ae/2026/06/uk-lifts-travel-warning-for-the-uae",
     "timestamp": "2026-06-19T10:53:12.967805+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/w-abu-dhabi-launches-early-bird-rates-for-its-legendary-b-i-g-race-weekend-brunches",
+    "timestamp": "2026-06-19T11:13:21.450965+00:00",
+    "status": "rejected",
+    "content_hash": "3e2f76c3258406c02218a2d7f36fb50b",
+    "strict_hash": "3e2f76c3258406c02218a2d7f36fb50b",
+    "fuzzy_hash": "8b49016bd266b640bdf6a3a8749b0431",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.lbc.co.uk/article/dubai-travel-ban-dropped-5HjdbnL_2",
+    "timestamp": "2026-06-19T11:13:24.049288+00:00",
+    "status": "rejected",
+    "content_hash": "7dbbceeb2af9932044d03b4c8d1f2a40",
+    "strict_hash": "7dbbceeb2af9932044d03b4c8d1f2a40",
+    "fuzzy_hash": "3591e7ed28a592bef1c331eb082a7208",
+    "reason": "Новость явно устарела (упоминает события марта и конфликт с Ираном, который уже неактуален), содержит политический контекст (война, конфликт, санкции) и не соответствует текущей повестке Дубая. Кроме того, она не имеет проверяемого источника и может вводить в заблуждение."
   }
 ]
