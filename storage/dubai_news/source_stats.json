@@ -375,5 +375,23 @@
     "url": "https://whatson.ae/2026/06/uae-sets-social-media-age-limit-at-15",
     "timestamp": "2026-06-18T23:53:40.282909+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/10-things-to-do-in-dubai-this-weekend-june-19-to-21",
+    "timestamp": "2026-06-19T00:19:50.778273+00:00",
+    "status": "rejected",
+    "content_hash": "d2ed65ca7690e64310ae0044a9a1b679",
+    "strict_hash": "d2ed65ca7690e64310ae0044a9a1b679",
+    "fuzzy_hash": "274d445731f36f9f077b3f965fbf6012",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные, что соответствует интересам русскоязычных жителей Дубая, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако это типичный дайджест событий, который часто публикуется в каналах, и без проверки на дубликаты по хешу (d2ed65ca7690e64310ae0044a9a1b679) нельзя гарантировать уникальность."
+  },
+  {
+    "url": "https://www.straitstimes.com/world/middle-east/uae-sets-minimum-social-media-age-at-15-mandates-age-checks",
+    "timestamp": "2026-06-19T00:19:56.181714+00:00",
+    "status": "approved",
+    "content_hash": "a6becc40a2786acf49cebe2f93be10b6",
+    "strict_hash": "a6becc40a2786acf49cebe2f93be10b6",
+    "fuzzy_hash": "54eeed20b0bf29147031bc20ed374ddd",
+    "reason": "approved"
   }
 ]
