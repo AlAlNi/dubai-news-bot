@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.theguardian.com/business/2026/jun/18/dubai-property-sales-fall-since-middle-east-war-say-experts",
-    "timestamp": "2026-06-18T17:41:18.485460+00:00",
-    "status": "rejected",
-    "content_hash": "fb6ffd5f477d087dcfee9df1305243e4",
-    "strict_hash": "fb6ffd5f477d087dcfee9df1305243e4",
-    "fuzzy_hash": "a5a2c7b98cd5c05d209c7e8093fe9917",
-    "reason": "Новость напрямую связана с рынком недвижимости Дубая, что соответствует правилу 1, но её заголовок и тон носят негативный и тревожный характер, что может быть воспринято как неуважение к экономической стабильности ОАЭ (правило 4). Кроме того, текст ссылается на войну на Ближнем Востоке как на причину спада, что вводит политический контекст (правило 2). Новость не является рекламой, но её достоверность и источник требуют проверки, а для русскоязычной аудитории она может быть полезна, однако негативный посыл перевешивает."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/take-part-in-a-free-yoga-class-at-palm-jumeirah-mall-this-weekend",
-    "timestamp": "2026-06-18T17:55:03.652381+00:00",
-    "status": "rejected",
-    "content_hash": "b2317fa28ae8dd52b6581053658e1fcb",
-    "strict_hash": "b2317fa28ae8dd52b6581053658e1fcb",
-    "fuzzy_hash": "87ce362cac4731250d9ca2002924cfba",
-    "reason": "Новость о бесплатном занятии йогой в Palm Jumeirah Mall соответствует критериям: имеет прямую связь с Дубаем, не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст естественен и полезен для русскоязычных жителей. Однако это анонс мероприятия, который может быть воспринят как рекламный пресс-релиз без общественно значимой новости, и источник (What's On) не предоставляет явного URL для проверки фактов."
-  },
-  {
-    "url": "https://www.coventrytelegraph.net/whats-on/food-drink-news/curry-house-owner-brings-touch-34137730",
-    "timestamp": "2026-06-18T17:55:05.968734+00:00",
-    "status": "rejected",
-    "content_hash": "dec00deeab09b362c219b6ca12236bd2",
-    "strict_hash": "dec00deeab09b362c219b6ca12236bd2",
-    "fuzzy_hash": "43614a47d65ca4424795228ec9d0fdb9",
-    "reason": "Новость о ресторане в Ковентри (Великобритания), владелец которого привнёс «частичку Дубая», не имеет прямой связи с Дубаем, ОАЭ или регионом GCC. Это локальная история для британского города, не представляющая интереса для русскоязычного жителя Дубая."
-  },
-  {
     "url": "https://whatson.ae/2026/06/experience-every-second-of-the-world-cup-at-huqqabaz",
     "timestamp": "2026-06-18T20:09:23.642293+00:00",
     "status": "rejected",
@@ -488,5 +461,10 @@
     "strict_hash": "986198be8bf31613d920162bd0ba03dd",
     "fuzzy_hash": "9969d91909245b0a4ce3194d2559d75a",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/new-bridge-connecting-to-dubai-harbour-is-now-open",
+    "timestamp": "2026-06-20T18:20:28.548262+00:00",
+    "status": "published"
   }
 ]
