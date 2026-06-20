@@ -424,5 +424,23 @@
     "strict_hash": "16543c2b92a60808d596931844cd9719",
     "fuzzy_hash": "18b2468a07061180c85fd5d7e842c2b0",
     "reason": "Новость о том, что МИД Великобритании изменил рекомендации для поездок в Дубай, напрямую связана с регионом и представляет интерес для русскоязычных жителей, планирующих поездки. Однако она является дубликатом уже опубликованной новости (пункт 1 контекста: \"Dubai tourism, businesses expect bookings boost as UK eases UAE travel warning\"), так как обе сообщают об одном и том же событии — смягчении предупреждений FCDO для поездок в ОАЭ."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/fathers-day-in-abu-dhabi-fun-ways-to-spoil-dad-this-sunday",
+    "timestamp": "2026-06-20T07:42:23.497936+00:00",
+    "status": "rejected",
+    "content_hash": "52c833353da54474ae9927bf956bef07",
+    "strict_hash": "52c833353da54474ae9927bf956bef07",
+    "fuzzy_hash": "da93c7a3467b635bd0b092f2da2ce1c0",
+    "reason": "Новость посвящена развлечениям в Абу-Даби на День отца, что не имеет прямой связи с Дубаем (правило 1), а также выглядит как рекламный анонс без общественно значимой информации (правило 3). Кроме того, это не service-update и не регуляторное изменение, а развлекательный пост, не представляющий интереса для русскоязычного жителя Дубая (правило 6)."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/indian-buyers-return-cautiously-to-dubai-realty-market-after-us-iran-deal-ticket-sizes-fall/articleshow/131866032.cms",
+    "timestamp": "2026-06-20T07:42:30.100993+00:00",
+    "status": "approved",
+    "content_hash": "8cb72175ce2a043499be030ee026bcce",
+    "strict_hash": "8cb72175ce2a043499be030ee026bcce",
+    "fuzzy_hash": "07465f4be766970979b9b7101f4d4721",
+    "reason": "approved"
   }
 ]
