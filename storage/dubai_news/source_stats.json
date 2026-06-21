@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/uk-lifts-travel-warning-for-the-uae",
-    "timestamp": "2026-06-19T10:53:12.967805+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/w-abu-dhabi-launches-early-bird-rates-for-its-legendary-b-i-g-race-weekend-brunches",
-    "timestamp": "2026-06-19T11:13:21.450965+00:00",
-    "status": "rejected",
-    "content_hash": "3e2f76c3258406c02218a2d7f36fb50b",
-    "strict_hash": "3e2f76c3258406c02218a2d7f36fb50b",
-    "fuzzy_hash": "8b49016bd266b640bdf6a3a8749b0431",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://www.lbc.co.uk/article/dubai-travel-ban-dropped-5HjdbnL_2",
-    "timestamp": "2026-06-19T11:13:24.049288+00:00",
-    "status": "rejected",
-    "content_hash": "7dbbceeb2af9932044d03b4c8d1f2a40",
-    "strict_hash": "7dbbceeb2af9932044d03b4c8d1f2a40",
-    "fuzzy_hash": "3591e7ed28a592bef1c331eb082a7208",
-    "reason": "Новость явно устарела (упоминает события марта и конфликт с Ираном, который уже неактуален), содержит политический контекст (война, конфликт, санкции) и не соответствует текущей повестке Дубая. Кроме того, она не имеет проверяемого источника и может вводить в заблуждение."
-  },
-  {
-    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-abu-dhabi-uae-is-it-safe-uk-foreign-office-advice-b2998464.html",
-    "timestamp": "2026-06-19T12:30:50.829139+00:00",
-    "status": "rejected",
-    "content_hash": "5cffe823bb4e7fbcc926bc3774241e66",
-    "strict_hash": "5cffe823bb4e7fbcc926bc3774241e66",
-    "fuzzy_hash": "d31a6a83760cc5e3b20b0040d11dbb20",
-    "reason": "Новость касается безопасности туризма в ОАЭ, что напрямую связано с регионом и может быть интересно русскоязычным жителям и туристам. Однако заголовок и содержание основаны на устаревшем или неактуальном контексте (упоминание соглашения между США и Ираном, которое не является текущей новостью), а также ссылаются на иностранный источник (Foreign Office), что не соответствует требованию проверяемости через явный URL и может вводить в заблуждение. Кроме того, тема потенциально затрагивает политические конфликты (правило 2), что делает её неприемлемой."
-  },
-  {
     "url": "https://whatson.ae/2026/06/feeling-burnt-out-try-these-10-calming-things-to-do-in-dubai",
     "timestamp": "2026-06-19T14:42:31.324534+00:00",
     "status": "rejected",
@@ -533,5 +501,10 @@
     "strict_hash": "181f386abcb680cd9c6bb433d37422f4",
     "fuzzy_hash": "b173aa1a04d447acfaf3c2b68213ff21",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/summer-officially-begins-in-the-uae-today-21-june-2026",
+    "timestamp": "2026-06-21T13:14:40.636151+00:00",
+    "status": "published"
   }
 ]
