@@ -1,33 +1,6 @@
 [
   {
     "url": "https://www.news18.com/agency-feeds/brett-lee-drops-pics-with-r-madhavan-from-dubai-golf-session-10160197.html",
-    "timestamp": "2026-06-19T18:15:50.104508+00:00",
-    "status": "approved",
-    "content_hash": "b9bef9faee190124d0d75f9e46494013",
-    "strict_hash": "b9bef9faee190124d0d75f9e46494013",
-    "fuzzy_hash": "e95fe02f474ac9ab1cd1c059c33c834d",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/where-to-party-in-dubai-this-summer",
-    "timestamp": "2026-06-19T19:24:35.150649+00:00",
-    "status": "rejected",
-    "content_hash": "0bfa927984dd8b0e8d7837af2ce8d7dc",
-    "strict_hash": "0bfa927984dd8b0e8d7837af2ce8d7dc",
-    "fuzzy_hash": "c821a1c337ec60dd897fe35a068db938",
-    "reason": "Новость представляет собой анонс летних вечеринок и ресторанов в Дубае, что явно связано с регионом и может быть интересно русскоязычным жителям. Однако текст выглядит как рекламный пресс-релиз (анонс заведений без общественно значимой новости), а также является дубликатом типичных развлекательных материалов, которые часто публикуются в подобных каналах. Источник (What's On) указан, но новость не несёт уникальной или критически важной информации."
-  },
-  {
-    "url": "https://www.dailystar.co.uk/showbiz/katie-prices-sister-slams-lee-37318334",
-    "timestamp": "2026-06-19T19:24:37.949866+00:00",
-    "status": "rejected",
-    "content_hash": "b571d3e3276e82e65df83e9372a99a23",
-    "strict_hash": "b571d3e3276e82e65df83e9372a99a23",
-    "fuzzy_hash": "325513a1faf06de3ccc080e10cabd52d",
-    "reason": "Новость о родственнице Кэти Прайс, критикующей внешний вид Ли Эндрюса после освобождения из дубайской тюрьмы, имеет слабую связь с регионом (упоминается тюрьма в Дубае), но основная тема — это светская хроника о британских знаменитостях, не представляющая интереса для русскоязычного жителя Дубая и не несущая общественно значимой информации. Кроме того, текст выглядит как пересказ таблоидной сплетни без проверяемого источника."
-  },
-  {
-    "url": "https://www.news18.com/agency-feeds/brett-lee-drops-pics-with-r-madhavan-from-dubai-golf-session-10160197.html",
     "timestamp": "2026-06-19T19:59:26.468843+00:00",
     "status": "published"
   },
@@ -533,5 +506,10 @@
     "strict_hash": "f5949ca12d031ce21aa5430c1ffda229",
     "fuzzy_hash": "f5ddf31ec8c79c1e9e15d1354b119326",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/uae-weather-rain-and-cooler-temperatures-expected-this-week",
+    "timestamp": "2026-06-21T19:55:54.802678+00:00",
+    "status": "published"
   }
 ]
