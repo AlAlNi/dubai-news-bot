@@ -1,105 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/experience-every-second-of-the-world-cup-at-huqqabaz",
-    "timestamp": "2026-06-18T20:09:23.642293+00:00",
-    "status": "rejected",
-    "content_hash": "6e78f015587596310fe8c220f9867952",
-    "strict_hash": "6e78f015587596310fe8c220f9867952",
-    "fuzzy_hash": "e12f181619c09a12f5568ed1be0f8360",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://www.independent.co.uk/travel/news-and-advice/trump-albania-luxury-resorts-protests-tourism-kushner-b2997905.html",
-    "timestamp": "2026-06-18T20:09:25.683593+00:00",
-    "status": "rejected",
-    "content_hash": "e9dfb908bd819ab93dc8288ef862f15a",
-    "strict_hash": "e9dfb908bd819ab93dc8288ef862f15a",
-    "fuzzy_hash": "97b6408f0c0e982aab8eab12f8f1a3e4",
-    "reason": "Новость не связана с Дубаем, ОАЭ или регионом GCC, а также содержит политический контекст (протесты в Албании) и негативное сравнение с Дубаем, что нарушает правила уважения к ценностям UAE."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcFh5S1FUeVR2M3ZjM1V0MEt0V1hXSnllZ0tWRDVvbkxxQkJjQldCaWtWTkpoMmc1NmRUVUd1S0owbzBFZDB4X2lwdENzb0c1NDNHXzlQa05KcG1MZElzZ0h4MW1oWEx4NDlvV19RR2tIY2Rjdkh5bDZsNDlmWVlud2NCVENQTzlBSnVqN3lmVG1zWUVZRDZMMHVZY1FtQzBNLUNEY19zek5VMG9RZmxMa0FHdUVHQ1lWWWJlUQ?oc=5",
-    "timestamp": "2026-06-18T21:02:17.862329+00:00",
-    "status": "rejected",
-    "content_hash": "ea62cd1017c785f88228c5dda33d7d79",
-    "strict_hash": "ea62cd1017c785f88228c5dda33d7d79",
-    "fuzzy_hash": "f023a05ae418188250a6627896e8b76d",
-    "reason": "Новость не связана с Дубаем или ОАЭ напрямую, а лишь упоминает эмират в негативном контексте как пример для сравнения. Основная тема — политика и протесты в Албании, что нарушает правила 1 и 2."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/uae-sets-social-media-age-limit-at-15",
-    "timestamp": "2026-06-18T22:51:35.905371+00:00",
-    "status": "approved",
-    "content_hash": "b846d9eaa2e0cbb3df981d16f2d79544",
-    "strict_hash": "b846d9eaa2e0cbb3df981d16f2d79544",
-    "fuzzy_hash": "322c2ea50fc3126927462422afc5b6fd",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.thestar.com.my/tech/tech-news/2026/06/18/uae-sets-minimum-social-media-age-at-15-mandates-age-checks",
-    "timestamp": "2026-06-18T23:17:58.068837+00:00",
-    "status": "rejected",
-    "content_hash": "4f1ac41d7db1a487a5fadc8a3b88e212",
-    "strict_hash": "4f1ac41d7db1a487a5fadc8a3b88e212",
-    "fuzzy_hash": "c8d03c417d7e3aa478e4201119871e08",
-    "reason": "Новость сообщает о введении в ОАЭ минимального возраста для использования соцсетей (15 лет) и обязательной проверке возраста. Это актуальная регуляторная информация, напрямую связанная с регионом, не содержит политики, рекламы или неуважения к ценностям, источник (Reuters) проверяем. Однако заголовок и содержание практически идентичны уже опубликованной новости «UAE sets social media age limit», что является дубликатом."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/uae-sets-social-media-age-limit-at-15",
-    "timestamp": "2026-06-18T23:53:40.282909+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/10-things-to-do-in-dubai-this-weekend-june-19-to-21",
-    "timestamp": "2026-06-19T00:19:50.778273+00:00",
-    "status": "rejected",
-    "content_hash": "d2ed65ca7690e64310ae0044a9a1b679",
-    "strict_hash": "d2ed65ca7690e64310ae0044a9a1b679",
-    "fuzzy_hash": "274d445731f36f9f077b3f965fbf6012",
-    "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные, что соответствует интересам русскоязычных жителей Дубая, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако это типичный дайджест событий, который часто публикуется в каналах, и без проверки на дубликаты по хешу (d2ed65ca7690e64310ae0044a9a1b679) нельзя гарантировать уникальность."
-  },
-  {
-    "url": "https://www.straitstimes.com/world/middle-east/uae-sets-minimum-social-media-age-at-15-mandates-age-checks",
-    "timestamp": "2026-06-19T00:19:56.181714+00:00",
-    "status": "approved",
-    "content_hash": "a6becc40a2786acf49cebe2f93be10b6",
-    "strict_hash": "a6becc40a2786acf49cebe2f93be10b6",
-    "fuzzy_hash": "54eeed20b0bf29147031bc20ed374ddd",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.manchestereveningnews.co.uk/news/world-news/uk-foreign-office-announces-major-34145427",
-    "timestamp": "2026-06-19T02:17:22.310421+00:00",
-    "status": "rejected",
-    "content_hash": "bbebe22430388d4a6b181c82e9670822",
-    "strict_hash": "bbebe22430388d4a6b181c82e9670822",
-    "fuzzy_hash": "746e33f7bdad4754ddff810df1d20ac9",
-    "reason": "Новость касается изменений в рекомендациях для путешественников из Великобритании в ОАЭ и регион, что напрямую связано с Дубаем и может быть полезно русскоязычным жителям, планирующим поездки. Однако текст содержит признаки кликбейта (акцент на «major change» и упоминание политического контекста — соглашение США и Ирана), что может нарушать правило 5 (естественность и достоверность) и правило 2 (политика и конфликты). Кроме того, новость не является дубликатом уже опубликованной."
-  },
-  {
-    "url": "https://www.straitstimes.com/world/middle-east/uae-sets-minimum-social-media-age-at-15-mandates-age-checks",
-    "timestamp": "2026-06-19T05:16:10.956883+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/uk-lifts-travel-warning-for-the-uae",
-    "timestamp": "2026-06-19T06:07:59.803298+00:00",
-    "status": "approved",
-    "content_hash": "48b814ebea1cca51b66b7f455c3fd68e",
-    "strict_hash": "48b814ebea1cca51b66b7f455c3fd68e",
-    "fuzzy_hash": "7a37e42decfae842053f0b362dac9845",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.devdiscourse.com/article/business/3937056-uae-invest-africa-to-host-2026-africa-debate-in-dubai",
-    "timestamp": "2026-06-19T07:38:36.312081+00:00",
-    "status": "approved",
-    "content_hash": "ebdfc279a5790f62a2196b9b6b058953",
-    "strict_hash": "ebdfc279a5790f62a2196b9b6b058953",
-    "fuzzy_hash": "c1336f6e1ffd865cc8bf14db23331207",
-    "reason": "approved"
-  },
-  {
     "url": "https://whatson.ae/2026/06/uk-lifts-travel-warning-for-the-uae",
     "timestamp": "2026-06-19T10:53:12.967805+00:00",
     "status": "published"
@@ -592,5 +492,10 @@
     "strict_hash": "40ec8ce710bc792a4d23fb6b5a294f99",
     "fuzzy_hash": "0003eb2928adb7bc210f8c0653e72a39",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/this-new-uae-to-london-flight-route-is-offering-fares-for-dhs999",
+    "timestamp": "2026-06-21T10:37:18.252777+00:00",
+    "status": "published"
   }
 ]
