@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://www.news18.com/agency-feeds/brett-lee-drops-pics-with-r-madhavan-from-dubai-golf-session-10160197.html",
-    "timestamp": "2026-06-19T19:59:26.468843+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/real-estate/news/from-luxury-hotspot-to-buyer-aversion-dubai-property-sales-plunge-as-middle-east-war-rattles-buyers-report/articleshow/131830433.cms",
-    "timestamp": "2026-06-19T20:14:37.751044+00:00",
-    "status": "rejected",
-    "content_hash": "035a3cace34c244ce7e7ee315e930c21",
-    "strict_hash": "035a3cace34c244ce7e7ee315e930c21",
-    "fuzzy_hash": "502a8d1d8f4a5b4fc3ba0975a0e7fd60",
-    "reason": "Новость содержит негативную информацию о падении рынка недвижимости Дубая, что может быть воспринято как неуважение к экономической стабильности ОАЭ (нарушение правила 4). Кроме того, тема напрямую связана с войной на Ближнем Востоке (нарушение правила 2), что не соответствует формату канала."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/turkish-airlines-to-resume-flights-to-abu-dhabi-in-july",
-    "timestamp": "2026-06-19T21:00:44.587575+00:00",
-    "status": "rejected",
-    "content_hash": "17336eff87b3e341e71e2b5a4400e268",
-    "strict_hash": "17336eff87b3e341e71e2b5a4400e268",
-    "fuzzy_hash": "efaac17af02121c4110ae464c28c6aac",
-    "reason": "Новость о возобновлении рейсов Turkish Airlines в Абу-Даби имеет прямое отношение к ОАЭ, не содержит политики, рекламы или неуважения к ценностям, информация выглядит достоверной и будет полезна русскоязычным жителям, планирующим поездки. Однако это не новость о Дубае, а об Абу-Даби, и она не является дубликатом уже опубликованных материалов."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82NzFmMGFBMlI0aWNDejNsUTRGaU1tR3ZuQnd4N2ZoYm5ITnRiMXR4aEpUWC1NT002UjJBQ1NZYkVLVEpiemtqalNCNHZzMkU3czlyVWFabWtkLU9FUzZCSjR6WnBFZFZmdEhiRXFR?oc=5",
-    "timestamp": "2026-06-19T21:00:48.992512+00:00",
-    "status": "rejected",
-    "content_hash": "b8a0179f62370ebed30a4e8a6a2a7e70",
-    "strict_hash": "b8a0179f62370ebed30a4e8a6a2a7e70",
-    "fuzzy_hash": "80525517d466892b41a6b12c0958194b",
-    "reason": "Новость дублирует уже опубликованную тему о снятии предупреждения Великобритании для поездок в ОАЭ (пункт 1 контекста), а также содержит кликбейтный заголовок с избыточными формулировками («Ignites Global Travel Comeback», «Amid Middle East Stability Shift»), что нарушает правило 5 (естественность и достоверность). Кроме того, источник (Travel And Tour World) не является официальным или проверяемым для подтверждения фактов (правило 9)."
-  },
-  {
     "url": "https://www.express.co.uk/travel/articles/2219380/expert-simon-calder-issues-ready",
     "timestamp": "2026-06-19T21:44:07.605656+00:00",
     "status": "rejected",
