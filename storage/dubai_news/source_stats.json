@@ -1,59 +1,5 @@
 [
   {
-    "url": "https://www.dailystar.co.uk/news/latest-news/glam-lawyer-accused-plotting-move-37319359",
-    "timestamp": "2026-06-19T23:35:28.577194+00:00",
-    "status": "rejected",
-    "content_hash": "8a03284fabec8eedcea90885c4c604ad",
-    "strict_hash": "8a03284fabec8eedcea90885c4c604ad",
-    "fuzzy_hash": "c561a7fdf4e46bf496d01f9f8871fdae",
-    "reason": "Новость о бразильском адвокате, обвиняемом в отмывании денег с упоминанием Дубая, не имеет прямой и значимой связи с регионом (Дубай упоминается лишь как возможное направление для вывода активов, а не как место события), а также не представляет интереса для русскоязычного жителя Дубая, так как касается иностранного уголовного дела без локального контекста."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/7-of-the-best-yoga-classes-in-dubai-for-international-yoga-day",
-    "timestamp": "2026-06-19T23:59:43.704524+00:00",
-    "status": "rejected",
-    "content_hash": "a8b6f1dd947196ed59a462d7387fbb61",
-    "strict_hash": "a8b6f1dd947196ed59a462d7387fbb61",
-    "fuzzy_hash": "93cd89e4f0128297e67027cdbf8d0ae7",
-    "reason": "Новость представляет собой подборку мест для занятий йогой в Дубае, приуроченную к Международному дню йоги. Она не является рекламой, а скорее полезным гидом для русскоязычных жителей, ищущих активности в городе, что соответствует интересам аудитории. Однако текст явно сгенерирован ИИ или скопирован с сайта What's On, не содержит проверяемого источника (URL не указан) и выглядит как типичный контент для наполнения ленты, а не как эксклюзивная новость."
-  },
-  {
-    "url": "https://www.manchestereveningnews.co.uk/trips-and-breaks/simon-calder-gives-chilling-three-34150810",
-    "timestamp": "2026-06-19T23:59:45.864780+00:00",
-    "status": "rejected",
-    "content_hash": "d3f572068290ba2ef52891ce18280a8f",
-    "strict_hash": "d3f572068290ba2ef52891ce18280a8f",
-    "fuzzy_hash": "e6ce4123dbfbd0053316451aeefc01cc",
-    "reason": "Новость дублирует уже опубликованный материал «Dubai tourism, businesses expect bookings boost as UK eases UAE travel warning» — оба сообщают об отмене предупреждения FCDO для поездок в ОАЭ. Несмотря на актуальность, это повтор по сути, что нарушает правило 7."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/these-iconic-brunches-in-dubai-are-worth-the-hype",
-    "timestamp": "2026-06-20T03:42:58.722903+00:00",
-    "status": "rejected",
-    "content_hash": "41abec4e83baea471bccee844cdbe8e3",
-    "strict_hash": "41abec4e83baea471bccee844cdbe8e3",
-    "fuzzy_hash": "882df96ce6b0842b0eeb8176af150d5a",
-    "reason": "Новость представляет собой рекламно-развлекательный материал о бранчах в Дубае, без общественно значимой информации или пользы для русскоязычного жителя. Она больше похожа на анонс или пресс-релиз, чем на новость, и не соответствует критериям полезности и достоверности."
-  },
-  {
-    "url": "https://www.dailystar.co.uk/showbiz/katie-prices-husband-tries-reinvent-37321525",
-    "timestamp": "2026-06-20T03:43:01.052076+00:00",
-    "status": "rejected",
-    "content_hash": "12a2899020134b3f8b69e30c9737943e",
-    "strict_hash": "12a2899020134b3f8b69e30c9737943e",
-    "fuzzy_hash": "489994fa6d04c03a9216d0d00178cdba",
-    "reason": "Новость о муже Кэти Прайс, сменившем прическу после освобождения из дубайской тюрьмы, имеет слабую связь с регионом (событие произошло в Дубае), но не представляет общественно значимой информации для русскоязычных жителей, носит характер таблоидной светской хроники и не соответствует критериям полезности или информационной ценности для канала."
-  },
-  {
-    "url": "https://metro.co.uk/2026/06/19/safe-travel-dubai-right-now-fcdo-changes-advice-28846881",
-    "timestamp": "2026-06-20T04:51:32.500772+00:00",
-    "status": "rejected",
-    "content_hash": "16543c2b92a60808d596931844cd9719",
-    "strict_hash": "16543c2b92a60808d596931844cd9719",
-    "fuzzy_hash": "18b2468a07061180c85fd5d7e842c2b0",
-    "reason": "Новость о том, что МИД Великобритании изменил рекомендации для поездок в Дубай, напрямую связана с регионом и представляет интерес для русскоязычных жителей, планирующих поездки. Однако она является дубликатом уже опубликованной новости (пункт 1 контекста: \"Dubai tourism, businesses expect bookings boost as UK eases UAE travel warning\"), так как обе сообщают об одном и том же событии — смягчении предупреждений FCDO для поездок в ОАЭ."
-  },
-  {
     "url": "https://whatson.ae/2026/06/fathers-day-in-abu-dhabi-fun-ways-to-spoil-dad-this-sunday",
     "timestamp": "2026-06-20T07:42:23.497936+00:00",
     "status": "rejected",
