@@ -451,5 +451,23 @@
     "strict_hash": "ecda596e077b14ce6b3748381259b0c2",
     "fuzzy_hash": "5a41f4772758ca6116d2b12fe769f97a",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/5-top-things-to-do-in-dubai-this-week-june-22-to-25",
+    "timestamp": "2026-06-22T17:25:09.724581+00:00",
+    "status": "rejected",
+    "content_hash": "5b08f64da65f852690015988d7e59829",
+    "strict_hash": "5b08f64da65f852690015988d7e59829",
+    "fuzzy_hash": "97216c4dd9afdfd760ce0e9286678c62",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на неделю, что является типичным контентом для афиши, а не оперативной новостью. Она не содержит общественно значимой информации, а её источник (What's On) и формат напоминают рекламно-развлекательный материал, что не соответствует критериям информационного канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNb29wYXAxWDROVHM1eGZoOFpwNkVKNmczcVRPN29SUTFQTTRaMXV6YnRMRmsxNmFtMnA0dktzRkNqeFo5TTNFRkg0cVZzWHMta3gwZ0hVdDg1aVptSnNsMkpFU0s3ZTBwV09RRnhaak5HT3U1aWd2TjJTOWQ3RGtjVGRNclhrOUh1RW9DZ2RDTld1aVVxZjlSdGFOY1dPRHg3WVVNZ0xhdC1oUnQ4WkZDQ3BQUGpTVjBEZ0tNZTVvSF9DUdIB1AFBVV95cUxOaWI4dU9JSVNWS3YzNjBVMF9LMm5idmVYX3RRT2Z0ZEZab2VLNXJadkNteHp6aHNNQXpjN3VxS0hOMi1FbUVhVHFwX2hSMFFPanNyZlBNS21hVHZlWlk1NTVTcS1ROWlfVkhhcV9GZTg3SFB0TlJHVWZtMlBfRm5nTlJBd3RUcDhoU0swM1BOSVNuUUV1azRjVVdYRzlrQnBKaHZlRXdvaUZDMkJHMTlsZHhPU2lwTkY3R0syYWdHT3JXSmRnR0NCQ0F6b0MwRHNseUpzaw?oc=5",
+    "timestamp": "2026-06-22T17:25:13.635448+00:00",
+    "status": "rejected",
+    "content_hash": "e8f6da44086bacebd6a2f80293a43e02",
+    "strict_hash": "e8f6da44086bacebd6a2f80293a43e02",
+    "fuzzy_hash": "3a3505c4dab296953a7c9795401dde54",
+    "reason": "Новость явно связана с Дубаем (RTA, метро, автобусные станции), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Текст выглядит естественным и достоверным, источник (Gulf News) проверяем. Однако это точный дубликат уже опубликованной новости \"Delivery riders get more rest areas across Dubai during midday work ban - Khaleej Times\" — обе сообщают об установке зон отдыха для курьеров, хотя формулировки различаются, суть идентична. Поэтому новость следует отклонить."
   }
 ]
