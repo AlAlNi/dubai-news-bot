@@ -452,5 +452,23 @@
     "strict_hash": "abf6d535c3210719190efd5fe4e5fb56",
     "fuzzy_hash": "8f124c4ee37f0b227a10c96f4a242dbe",
     "reason": "Новость дублирует уже опубликованную тему о расширении автобусных полос RTA (пункт 1 контекста). Кроме того, источник IndexBox выглядит как агрегатор статистики, а не оригинальная новость, что снижает доверие к тексту."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/ufc-fight-night-2026-in-abu-dhabi-full-fight-card-revealed",
+    "timestamp": "2026-06-22T06:20:31.562475+00:00",
+    "status": "rejected",
+    "content_hash": "51e4681784a48fe1a8363adceee80250",
+    "strict_hash": "51e4681784a48fe1a8363adceee80250",
+    "fuzzy_hash": "85bbb00d552a054f05dda4e2b27eaf27",
+    "reason": "Новость о UFC Fight Night в Абу-Даби имеет связь с регионом (ОАЭ), не содержит политики, рекламы или неуважения к ценностям, текст выглядит естественно и может быть интересен русскоязычным жителям Дубая, так как многие посещают такие мероприятия. Однако это не новость о Дубае, а об Абу-Даби, и она не является срочным сервис-апдейтом или регуляторным изменением. Кроме того, в контексте нет дубликатов, но тема не соответствует фокусу канала на Дубае."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa0EwWE05MEZ1aE1qVlU5NnpaR3ZRZWMxd2RpYXhpWGw3MjFwR3dnaF9UZjBNZTh2TVFGb2VYTUt4d25uQTBQNjA0NHY4NTJMdTRsSkM5LWNPS2ZqRkwwNmNWV2xoMGZVTmtfZUJVNDEyOUxMME1nbnVpdVRocmxyZUV0WW11eXZ6TUNMblpaME5QaUs0NFZxaHB2U1dFemNvRzRZeGZHSFBHY2N4ZVF5MmlZbDRYZWNfQUEtc1BSaUYzUQ?oc=5",
+    "timestamp": "2026-06-22T06:20:34.903603+00:00",
+    "status": "rejected",
+    "content_hash": "af39ff54c8aef6c80562e7c9a124119f",
+    "strict_hash": "af39ff54c8aef6c80562e7c9a124119f",
+    "fuzzy_hash": "e267a3fc6e8e7046c329366e7c030148",
+    "reason": "Новость о новых автобусных и такси-полосах в Дубае напрямую связана с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит естественно и будет полезна русскоязычным жителям. Однако она является дубликатом уже опубликованной новости \"RTA expands bus lanes in bid to hit Dubai’s sustainable mobility targets\" (пункт 1 контекста), так как обе сообщают об одном и том же событии — расширении сети выделенных полос RTA."
   }
 ]
