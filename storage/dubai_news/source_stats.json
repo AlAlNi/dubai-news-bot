@@ -379,5 +379,23 @@
     "strict_hash": "b755677e7ad2c4ba5e7d7b80b40e9581",
     "fuzzy_hash": "fa762b7a3e8156f2f0c01ccc38a689e9",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/breaking-news-etihad-rail-announces-passenger-launch-date",
+    "timestamp": "2026-06-23T22:58:57.959368+00:00",
+    "status": "rejected",
+    "content_hash": "fd3e63b205882d71a4689e08edcff307",
+    "strict_hash": "fd3e63b205882d71a4689e08edcff307",
+    "fuzzy_hash": "05feeb95342d7a6a50dc4841e5468806",
+    "reason": "Новость о запуске пассажирского поезда Etihad Rail имеет прямую связь с ОАЭ, не содержит политики, рекламы или неуважения к ценностям. Однако она является дубликатом уже опубликованной новости \"UAE to launch first passenger train this month - statement\" (контекст №1), так как сообщает о том же событии — объявлении даты запуска."
+  },
+  {
+    "url": "https://www.hindustantimes.com/trending/indian-woman-wins-free-apartment-in-dubai-i-thought-it-was-some-kind-of-scam-101782207792154.html",
+    "timestamp": "2026-06-23T22:59:05.119342+00:00",
+    "status": "approved",
+    "content_hash": "a14f725846ec12d4cba5fa9fdc90cdd6",
+    "strict_hash": "a14f725846ec12d4cba5fa9fdc90cdd6",
+    "fuzzy_hash": "98c66999b9122c0d2a396262181082f0",
+    "reason": "approved"
   }
 ]
