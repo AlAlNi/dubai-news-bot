@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/things-to-do-in-abu-dhabi-this-week-june-22-to-25-2026",
-    "timestamp": "2026-06-22T20:32:38.831068+00:00",
-    "status": "rejected",
-    "content_hash": "46fe49cee81d5043a0d056c2a2ab2f4b",
-    "strict_hash": "46fe49cee81d5043a0d056c2a2ab2f4b",
-    "fuzzy_hash": "b12e80232243cfcd24b3812245b69737",
-    "reason": "Новость представляет собой анонс развлекательных мероприятий в Абу-Даби, что не имеет прямой связи с Дубаем (правило 1), а также выглядит как рекламный анонс без общественно значимой информации (правило 3). Кроме того, источник (What's On) не является официальным и не предоставляет проверяемых фактов (правило 9)."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOS0N4ejZ2ajdlYks5VTFQSkVERlNUVjhjUTNlZTd5VFd4ZklVU3FWTVluQk5ZMl9ocWl2NUFFWjEwM3IwSHF5eUxxOFdDN0lnVEZiNXNzblp5Q1BJODdibl82c05fLTk5X0FxZUdCQXFUVTFTSWNORTJ4T3k0VkFiclFjN1ZsYzBSNzczZDBGSnExNDZlLVJ0MUZUcVR3SlBzRWJVUkhZQU00cThRN1ozc3FjQVEzejk2QmV4NVFyLUctZVlDZHdsMzJOX2kxcXlUdk5udEt30gHoAUFVX3lxTE0zME1zbHBELVRuODhFX1dTc01vbnBzRFZOSW1xWC11Uy1KSjI3UmpaYk1IdUUtd1ZKVXJoTWdXM1ptNkRsYjJMd01XbkwyZWI3NnNJM0FaaGladE0xMmJJd1dOdEJienNiTHJuRHU2UThNUG40cEZESV9BVklrVVNUeWl4NVJiV3MyOFlHWnRtSTZUN3lNUElya0JmUVEzQWg5V0U3a1N3WXhlYWtpRHRaWkhmSFBQYTFkcC1sWEtCYnRMMjg5ZTR2WkZzLXF5YVoyZHlEUXQzMWZDb2p5Q1d5VGZXUFp2RDI?oc=5",
-    "timestamp": "2026-06-22T20:32:42.124370+00:00",
-    "status": "rejected",
-    "content_hash": "648932ec8e3dd0442594222de1334578",
-    "strict_hash": "648932ec8e3dd0442594222de1334578",
-    "fuzzy_hash": "e22b1c0c9b8eafc4554a293ddf82d105",
-    "reason": "Новость явно связана с Дубаем и ОАЭ, не содержит политики, рекламы или неуважения к ценностям. Однако текст представляет собой лишь заголовок и короткую цитату без развернутого содержания, что делает его похожим на анонс или пресс-релиз без общественно значимой новости. Кроме того, отсутствует проверяемый источник с полным текстом, а также нет явной пользы или интереса для русскоговорящего жителя Дубая (тема инноваций слишком общая). Дубликатов среди опубликованных новостей нет."
-  },
-  {
-    "url": "https://techbullion.com/top-10-real-estate-and-property-trade-shows-in-dubai-2026-the-complete-investor-and-industry-guide",
-    "timestamp": "2026-06-22T21:37:50.013053+00:00",
-    "status": "rejected",
-    "content_hash": "8019b2bcb3e12e537d709ddd56b9d54e",
-    "strict_hash": "8019b2bcb3e12e537d709ddd56b9d54e",
-    "fuzzy_hash": "cee6a54480f5e0e212f2bb0c5dae8660",
-    "reason": "Новость представляет собой рекламно-справочный материал о предстоящих выставках недвижимости, что не является оперативной или общественно значимой новостью, а скорее коммерческим гидом. Кроме того, текст имеет признаки ИИ-генерации (избыточные детали и структура) и не содержит проверяемого источника для всех утверждений."
-  },
-  {
     "url": "https://whatson.ae/2026/06/this-acclaimed-nikkei-hand-roll-bar-is-opening-in-dubai",
     "timestamp": "2026-06-22T22:41:33.416028+00:00",
     "status": "rejected",
@@ -495,5 +468,10 @@
     "strict_hash": "f083e5e59f3204f13038b129cc0eab9f",
     "fuzzy_hash": "89c0acb4e7f3f890e7ef857ed9af9191",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/nakheel-releases-222-beachfront-residences-at-dubais-palm-jebel-ali-amid-high-demand",
+    "timestamp": "2026-06-24T21:38:31.816100+00:00",
+    "status": "published"
   }
 ]
