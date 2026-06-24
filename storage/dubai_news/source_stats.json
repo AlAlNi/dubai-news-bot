@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA0b3k1S0t6RWR3UjlnR0ZMRUdXNEtUX3NvTkhuclRHRFpwMVZRWk96WkVLdkNxdmRxVFpKX0dIaThDeXRTNkExYVVKUlBubG1mYW1uYXUwTTR3VGRwS3JjNTQtQTN1ME80SmFqSTA2U2tBNHNxRlFzU19TZW4?oc=5",
-    "timestamp": "2026-06-22T00:12:26.104067+00:00",
-    "status": "approved",
-    "content_hash": "bae148f988198d49ad959b91785241ad",
-    "strict_hash": "bae148f988198d49ad959b91785241ad",
-    "fuzzy_hash": "50aaa07fb62de7e25688a02487b6b679",
-    "reason": "approved"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEpsZ0Juem5JZkdwY1pHNVpya3VIZmpCYlRzRlluamQzQkNoaGxYWVBjT0JvMy1keHg5NUpvV0l6bnExTjNVeTdISWtRS2tTUWw1V3Ffb2hRbVAwek9GTlNIVU54RXptcTE0bmFjRGpuZkplcllfaGNTbHNzQ05rWkprbGNDS3prMEQtclQ1bGEwWHBBQ1k0ODh6SQ?oc=5",
-    "timestamp": "2026-06-22T02:01:55.575292+00:00",
-    "status": "rejected",
-    "content_hash": "abf6d535c3210719190efd5fe4e5fb56",
-    "strict_hash": "abf6d535c3210719190efd5fe4e5fb56",
-    "fuzzy_hash": "8f124c4ee37f0b227a10c96f4a242dbe",
-    "reason": "Новость дублирует уже опубликованную тему о расширении автобусных полос RTA (пункт 1 контекста). Кроме того, источник IndexBox выглядит как агрегатор статистики, а не оригинальная новость, что снижает доверие к тексту."
-  },
-  {
     "url": "https://whatson.ae/2026/06/ufc-fight-night-2026-in-abu-dhabi-full-fight-card-revealed",
     "timestamp": "2026-06-22T06:20:31.562475+00:00",
     "status": "rejected",
@@ -429,5 +411,10 @@
     "strict_hash": "f4497cd7bd9bd2a2a750ef1238328054",
     "fuzzy_hash": "69ddc0a754235e60bfbdc2332c9067b8",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.swissinfo.ch/eng/various/swiss-flights-to-dubai-will-resume-from-24-october/91634158",
+    "timestamp": "2026-06-24T04:21:06.160088+00:00",
+    "status": "published"
   }
 ]
