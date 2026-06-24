@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/this-acclaimed-nikkei-hand-roll-bar-is-opening-in-dubai",
-    "timestamp": "2026-06-22T22:41:33.416028+00:00",
-    "status": "rejected",
-    "content_hash": "5152720d402887a869041715f3512ddc",
-    "strict_hash": "5152720d402887a869041715f3512ddc",
-    "fuzzy_hash": "a9e51981a1f9be8438bd0896f9392bf8",
-    "reason": "Новость о ресторанном открытии в Дубае — это анонс нового заведения, который может быть интересен русскоязычным жителям, интересующимся гастрономией. Однако текст выглядит как перепечатка с сайта What's On, не содержит проверяемого источника (URL не указан), и по сути является рекламным пресс-релизом без общественно значимой новости. Кроме того, тема не соответствует строгим критериям информационного канала (не service-update, не регуляторное изменение)."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/nri/visit/air-india-to-operate-direct-flights-from-guwahati-to-dubai-abu-dhabi-from-august-4/articleshow/131906915.cms",
-    "timestamp": "2026-06-22T22:41:39.783322+00:00",
-    "status": "approved",
-    "content_hash": "7476acfec1fd3b1b8260b35afda5596a",
-    "strict_hash": "7476acfec1fd3b1b8260b35afda5596a",
-    "fuzzy_hash": "9e7e7548bbed2b09ab820d8ea0f8e1c2",
-    "reason": "approved"
-  },
-  {
     "url": "https://economictimes.indiatimes.com/nri/visit/air-india-to-operate-direct-flights-from-guwahati-to-dubai-abu-dhabi-from-august-4/articleshow/131906915.cms",
     "timestamp": "2026-06-22T23:38:44.666605+00:00",
     "status": "published"
@@ -500,5 +482,10 @@
     "strict_hash": "7efd7f2eb599a449a98bf3e070144f8f",
     "fuzzy_hash": "520572928d5e6118a9ecfddd852342d5",
     "reason": "Новость о выходе дубайской образовательной компании GEMS Education на рынок Индии имеет прямую связь с Дубаем (штаб-квартира компании), не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст выглядит естественно и достоверно, источник проверяем. Однако для русскоговорящего жителя Дубая эта новость не представляет прямого интереса или пользы, так как касается экспансии в другую страну, а не местных событий, услуг или изменений в ОАЭ. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://indianexpress.com/article/trending/trending-in-india/indian-expat-built-a-uae-tech-company-with-dh350-loan-from-his-mother-10753844",
+    "timestamp": "2026-06-24T23:15:02.608716+00:00",
+    "status": "published"
   }
 ]
