@@ -635,5 +635,50 @@
     "strict_hash": "8d0767400d9b62b4971cf282f6feebb2",
     "fuzzy_hash": "17ce6d8fa27b3b3987fbadc73ed956a3",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/heading-to-fujairah-via-etihad-rail-top-things-to-do-in-the-picturesque-city",
+    "timestamp": "2026-06-25T23:07:12.212951+00:00",
+    "status": "rejected",
+    "content_hash": "d67504d7c4cb11fce445eaa722954e8a",
+    "strict_hash": "d67504d7c4cb11fce445eaa722954e8a",
+    "fuzzy_hash": "f99f887d8748db6a063b296438f4e611",
+    "reason": "Новость о запуске пассажирского поезда Etihad Rail между Абу-Даби и Фуджейрой имеет прямую связь с ОАЭ, не содержит политики, рекламы или неуважения к ценностям, а также будет полезна русскоязычным жителям Дубая, интересующимся путешествиями. Однако дата запуска указана как 30 июня 2026 года, что выглядит как опечатка или вымысел (на момент проверки реальные сроки запуска пассажирских перевозок Etihad Rail не объявлены), а источник (What's On) не предоставляет проверяемого URL для подтверждения фактов. Кроме того, новость может быть дубликатом, если ранее публиковались материалы о запуске Etihad Rail."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/gta-6-preorders-are-now-live-in-the-uae-heres-how-much-it-costs",
+    "timestamp": "2026-06-25T23:07:21.140730+00:00",
+    "status": "rejected",
+    "content_hash": "555761fe9a58fcdaae910d500a23651e",
+    "strict_hash": "555761fe9a58fcdaae910d500a23651e",
+    "fuzzy_hash": "f7bd209f46987dfbc380a6a9df1f215d",
+    "reason": "Новость о предзаказах GTA 6 в ОАЭ имеет прямую связь с регионом (указана цена и доступность в UAE), не содержит политики, рекламы или неуважения к ценностям, не является дубликатом опубликованных ранее новостей, и может быть интересна русскоговорящим жителям Дубая, интересующимся игровой индустрией. Однако текст выглядит как анонс с сайта What's On, что может быть воспринято как рекламный пресс-релиз без общественно значимой новости, а также отсутствует проверяемый источник (URL не указан явно). Поэтому новость следует отклонить."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/sharjah-extends-paid-parking-hours-to-midnight-from-july-1-2026",
+    "timestamp": "2026-06-25T23:07:26.723919+00:00",
+    "status": "rejected",
+    "content_hash": "bd1c74651695b23162bcec1b8f99e434",
+    "strict_hash": "bd1c74651695b23162bcec1b8f99e434",
+    "fuzzy_hash": "516f0e9feed6a9de7a0fef18944b5178",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/nagpur/nitin-gadkari-pushes-for-direct-dubai-singapore-flights-from-nagpur-position-city-as-logistics-aviation-hub/articleshow/131990492.cms",
+    "timestamp": "2026-06-25T23:07:29.776082+00:00",
+    "status": "rejected",
+    "content_hash": "aa8eb4c7458426998ca9e58a8d26d275",
+    "strict_hash": "aa8eb4c7458426998ca9e58a8d26d275",
+    "fuzzy_hash": "c27f31d1f4cd5fbc561cf10c21d9a0ca",
+    "reason": "Новость о предложении министра Индии запустить прямые рейсы из Нагпура в Дубай имеет косвенную связь с регионом (Дубай как пункт назначения), но основное действие происходит в Индии и не представляет прямого интереса для русскоязычного жителя Дубая. Кроме того, это не является подтверждённым решением или изменением, а лишь политической инициативой, что снижает её актуальность для канала."
+  },
+  {
+    "url": "https://www.thebanker.com/content/6d27eb56-be9c-4f1d-821d-f2cb1f527763",
+    "timestamp": "2026-06-25T23:07:36.470843+00:00",
+    "status": "approved",
+    "content_hash": "1dca516e09ce0b223429598b1ffddc0e",
+    "strict_hash": "1dca516e09ce0b223429598b1ffddc0e",
+    "fuzzy_hash": "601c2768a08ac6697df9d0898a786690",
+    "reason": "approved"
   }
 ]
