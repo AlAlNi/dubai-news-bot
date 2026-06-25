@@ -608,5 +608,32 @@
     "url": "https://whatson.ae/2026/06/dar-al-funoon-a-new-performing-arts-centre-is-coming-to-abu-dhabi",
     "timestamp": "2026-06-25T20:17:10.196968+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.telegraph.co.uk/world-news/2026/06/25/british-tiktok-influencer-charged-with-murder-in-dubai",
+    "timestamp": "2026-06-25T21:12:38.624303+00:00",
+    "status": "rejected",
+    "content_hash": "388cb31611ae95f2b76b0e99d289e44a",
+    "strict_hash": "388cb31611ae95f2b76b0e99d289e44a",
+    "fuzzy_hash": "516a240fa38f0515c5de5fa6821a843f",
+    "reason": "Новость о британской TikTok-блогерше, обвиняемой в убийстве в Дубае, имеет прямую связь с регионом и не является рекламой или политикой. Однако она содержит детали жестокого преступления (убийство, насилие), что может быть воспринято как неуважение к ценностям ОАЭ и не соответствует формату новостного канала, ориентированного на полезную и позитивную информацию для русскоязычных жителей."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/nagpur/gadkari-pushes-for-direct-dubai-singapore-flights-from-nagpur/articleshow/131988651.cms",
+    "timestamp": "2026-06-25T21:12:40.871440+00:00",
+    "status": "rejected",
+    "content_hash": "0b61851fab23958017cbbac9d8ad8e26",
+    "strict_hash": "0b61851fab23958017cbbac9d8ad8e26",
+    "fuzzy_hash": "0c3aef2779348c9b573ca4ed925771ec",
+    "reason": "Новость не подходит для публикации, так как основное событие происходит в Индии (Нагпур) и касается местного политика, а не Дубая или ОАЭ. Связь с регионом лишь косвенная (упоминание рейсов в Дубай), что не соответствует первому правилу."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/nri/migrate/what-should-dubai-residents-know-about-new-flexi-rent-plan-that-will-allow-tenants-to-pay-monthly/articleshow/131987565.cms",
+    "timestamp": "2026-06-25T21:12:48.641084+00:00",
+    "status": "approved",
+    "content_hash": "a114380758137d14ba60e45f873c5410",
+    "strict_hash": "a114380758137d14ba60e45f873c5410",
+    "fuzzy_hash": "697091f4d8e4cdfa117535303156b9a2",
+    "reason": "approved"
   }
 ]
