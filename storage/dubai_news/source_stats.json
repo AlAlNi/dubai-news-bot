@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPM3VmWHE4ZHpoRDduZHBZTVVJRzdXbTBfelNTY1YyT3ZEekp1N0M2SzB5SlItZlpUZUZuUFJ2ZlJfa0dDQjdFS0QxcXFpSzdrR0lvTHBuNlJxdS01MlBWZDRBRDVjUG02aXB5aU9OakxJSVBoejVuZ2FCUEFzWFpSSk1UaVpXZDAyNmZzaHV0WXNHNTlD0gGcAUFVX3lxTFBmbnkxaXltUmF4M1BJbTg0UVhTRjJ5ckltTjI4b3pwVHhQcVl4aEhwWVRIcjJhR1BmRVN5WkZTZVZ0eEdLRFAwODNpQ1VVVVpVSkNKMVZKeThDNENpcS1YWGRxXzN6aEdWWXlyM2ppb2JoV3pPNDRmLWlxNDFrTjBlTVhvdEJVUGp5Y25rdlM0bkw3NDQyRlNySHNjSw?oc=5",
-    "timestamp": "2026-06-23T20:32:36.862628+00:00",
-    "status": "approved",
-    "content_hash": "946c7f3bff599bf2a47514afcabe1b27",
-    "strict_hash": "946c7f3bff599bf2a47514afcabe1b27",
-    "fuzzy_hash": "e38dc3c134cb4c3ceeed7c4d8b4391f3",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.deccanchronicle.com/world/emirates-offers-free-five-star-hotel-stays-for-dubai-bound-passengers-1965613",
-    "timestamp": "2026-06-23T21:03:58.742182+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/etihad-rail-ticket-prices-revealed-heres-how-much-youll-pay",
-    "timestamp": "2026-06-23T21:23:11.205149+00:00",
-    "status": "rejected",
-    "content_hash": "7ae4aab458412f2e4b3a037dd3a61e19",
-    "strict_hash": "7ae4aab458412f2e4b3a037dd3a61e19",
-    "fuzzy_hash": "65b00a8f8cf8da9c8244b78e664b0ce4",
-    "reason": "Новость о запуске пассажирского поезда Etihad Rail и ценах на билеты напрямую связана с ОАЭ, не содержит политики, рекламы или неуважения к ценностям страны. Информация актуальна и полезна для русскоязычных жителей Дубая, так как касается нового транспортного сообщения между эмиратами. Однако текст выглядит как фрагмент с сайта What's On, а не как самостоятельная новость с проверяемым источником (URL не указан), и хеш контента не совпадает с опубликованными дубликатами. Учитывая отсутствие явного URL для проверки фактов, новость следует отклонить."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVG9pQ2xNczFDTUo2WlMweU82WFljaHJibTN0cFl3SXdTZXFjcmM3Ymh0Z1VCRnFnMmJXOFhFSU1zaWhHYXpwYzdsdUNmTzVTVkpQWVMxTHdoYWhEZXdRTkpJUXJpR3BDQ21COVFjZE5xcm1oeW13NEY0QWpsXzJic01VRFN1d1ExOWVMQUVJd2JkYmp0aVE?oc=5",
-    "timestamp": "2026-06-23T21:23:11.935228+00:00",
-    "status": "rejected",
-    "content_hash": "a9200eebd43045bb72cfdbaeca16805d",
-    "strict_hash": "a9200eebd43045bb72cfdbaeca16805d",
-    "fuzzy_hash": "b4bc36d56dc49ce5af7a10f528c47c73",
-    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
-  },
-  {
     "url": "https://www.manilatimes.net/2026/06/23/world/uae-to-launch-first-passenger-train-this-month-statement/2370766",
     "timestamp": "2026-06-23T22:46:16.690521+00:00",
     "status": "approved",
@@ -644,5 +612,10 @@
     "strict_hash": "7c7705630d5e8028f50769280f51d6bf",
     "fuzzy_hash": "3f382dfa4f9ce4016de1bd538ced8d9c",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/8-major-changes-coming-to-dubai-in-july-that-could-affect-you",
+    "timestamp": "2026-06-25T22:39:22.250720+00:00",
+    "status": "published"
   }
 ]
