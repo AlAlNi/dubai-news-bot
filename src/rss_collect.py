@@ -176,7 +176,8 @@ GOOGLE_NEWS_RSS_QUERIES = [
     if item.strip()
 ]
 GOOGLE_NEWS_RSS_MAX_QUERIES_PER_RUN = env_int("GOOGLE_NEWS_RSS_MAX_QUERIES_PER_RUN", 2, min_value=1)
-RESERVE_ATTEMPTS = env_int("RESERVE_ATTEMPTS", 1, min_value=1)
+RESERVE_ATTEMPTS = env_int("RESERVE_ATTEMPTS", 3, min_value=1)
+CANDIDATES_PER_STRATEGY = env_int("CANDIDATES_PER_STRATEGY", 3, min_value=1)
 
 TIME_SLOTS = [
     {"name": "Первая половина суток", "range": "00:00-11:59 UTC", "hour_range": (0, 11)},
@@ -1862,74 +1863,85 @@ def handler(event, context):
             print(f"\n{'='*50}")
             print(f"🔄 ПОПЫТКА #{attempt}/{max_attempts}")
             print('='*50)
-            
-            news_item = None
-            
-            if attempt == 1:
-                print("🎯 Стратегия: RSS priority=1")
-                rss_fetches += 1
-                news_item = try_rss_feeds(
-                    existing_drafts,
-                    seen_urls,
-                    seen_hashes,
-                    allowed_priorities={1},
-                )
-            elif attempt == 2:
-                print("🎯 Стратегия: RSS priority=2")
-                rss_fetches += 1
-                news_item = try_rss_feeds(
-                    existing_drafts,
-                    seen_urls,
-                    seen_hashes,
-                    allowed_priorities={2},
-                )
-            else:
-                print("🎯 Стратегия: Reserve aggregators (soft relevance)")
-                reserve_fetches += 1
-                news_item = try_reserve_aggregators(
-                    existing_drafts,
-                    seen_urls,
-                    seen_hashes,
-                    relaxed_relevance=True,
-                )
-                if news_item and news_item.get("method") == "gnews":
-                    gnews_fetches += 1
-                elif news_item and news_item.get("method") == "google_news_rss":
-                    google_rss_fetches += 1
-            
-            if not news_item:
-                print(f"⚠️ Не найдено новостей (попытка #{attempt})")
-                continue
 
-            fetched_count += 1
-            
-            processed = process_news_item(
-                news_item,
-                existing_titles,
-                seen_hashes,
-                deepseek_context=deepseek_context,
-                domain_window=domain_window,
-                run_metrics=run_metrics,
-            )
-            
-            if not processed:
-                rejected_in_session += 1
-                print(f"🚫 Новость отклонена (всего: {rejected_in_session})")
-                
-                link = news_item.get("link", "")
-                strict_hash = news_item.get("strict_hash", news_item.get("content_hash", ""))
-                fuzzy_hash = news_item.get("fuzzy_hash", "")
-                if link:
-                    seen_urls.add(canonicalize_url(link))
-                if strict_hash:
-                    seen_hashes.add(strict_hash)
-                if fuzzy_hash:
-                    seen_hashes.add(fuzzy_hash)
-            else:
+            for candidate_attempt in range(1, CANDIDATES_PER_STRATEGY + 1):
+                if CANDIDATES_PER_STRATEGY > 1:
+                    print(
+                        f"🔎 Кандидат #{candidate_attempt}/{CANDIDATES_PER_STRATEGY} "
+                        f"в текущей стратегии"
+                    )
+
+                news_item = None
+
+                if attempt == 1:
+                    print("🎯 Стратегия: RSS priority=1")
+                    rss_fetches += 1
+                    news_item = try_rss_feeds(
+                        existing_drafts,
+                        seen_urls,
+                        seen_hashes,
+                        allowed_priorities={1},
+                    )
+                elif attempt == 2:
+                    print("🎯 Стратегия: RSS priority=2")
+                    rss_fetches += 1
+                    news_item = try_rss_feeds(
+                        existing_drafts,
+                        seen_urls,
+                        seen_hashes,
+                        allowed_priorities={2},
+                    )
+                else:
+                    print("🎯 Стратегия: Reserve aggregators (soft relevance)")
+                    reserve_fetches += 1
+                    news_item = try_reserve_aggregators(
+                        existing_drafts,
+                        seen_urls,
+                        seen_hashes,
+                        relaxed_relevance=True,
+                    )
+                    if news_item and news_item.get("method") == "gnews":
+                        gnews_fetches += 1
+                    elif news_item and news_item.get("method") == "google_news_rss":
+                        google_rss_fetches += 1
+
+                if not news_item:
+                    print(f"⚠️ Не найдено новостей (попытка #{attempt})")
+                    break
+
+                fetched_count += 1
+
+                processed = process_news_item(
+                    news_item,
+                    existing_titles,
+                    seen_hashes,
+                    deepseek_context=deepseek_context,
+                    domain_window=domain_window,
+                    run_metrics=run_metrics,
+                )
+
+                if not processed:
+                    rejected_in_session += 1
+                    print(f"🚫 Новость отклонена (всего: {rejected_in_session})")
+
+                    link = news_item.get("link", "")
+                    strict_hash = news_item.get("strict_hash", news_item.get("content_hash", ""))
+                    fuzzy_hash = news_item.get("fuzzy_hash", "")
+                    if link:
+                        seen_urls.add(canonicalize_url(link))
+                    if strict_hash:
+                        seen_hashes.add(strict_hash)
+                    if fuzzy_hash:
+                        seen_hashes.add(fuzzy_hash)
+                    continue
+
                 approved_draft = processed
                 slot_target = sla_shortage_slot or get_slot_by_hour(current_hour)
                 approved_draft["slot_target"] = slot_target
                 print(f"🎉 НАЙДЕНА ПОДХОДЯЩАЯ НОВОСТЬ!")
+                break
+
+            if approved_draft:
                 break
         
         if approved_draft:
@@ -1965,6 +1977,8 @@ def handler(event, context):
                 "deepseek_calls_made": deepseek_context["calls_made"],
                 "deepseek_calls_max": deepseek_context["max_calls"],
                 "cheap_prefilter_enabled": ENABLE_CHEAP_PREFILTER,
+                "candidates_per_strategy": CANDIDATES_PER_STRATEGY,
+                "reserve_attempts": RESERVE_ATTEMPTS,
             }
             
         else:
@@ -1979,6 +1993,8 @@ def handler(event, context):
                 "deepseek_calls_made": deepseek_context["calls_made"],
                 "deepseek_calls_max": deepseek_context["max_calls"],
                 "cheap_prefilter_enabled": ENABLE_CHEAP_PREFILTER,
+                "candidates_per_strategy": CANDIDATES_PER_STRATEGY,
+                "reserve_attempts": RESERVE_ATTEMPTS,
             }
         
         print("\n" + "=" * 60)
