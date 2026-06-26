@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://indianexpress.com/article/trending/trending-in-india/indian-expat-built-a-uae-tech-company-with-dh350-loan-from-his-mother-10753844",
-    "timestamp": "2026-06-24T01:25:38.801469+00:00",
-    "status": "approved",
-    "content_hash": "a469d5858e6022d70b16d6bfc36320f8",
-    "strict_hash": "a469d5858e6022d70b16d6bfc36320f8",
-    "fuzzy_hash": "73ea0de1db545917bb730a1dadc21e3a",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/green-planet-camping-in-the-rainforest-dubai",
-    "timestamp": "2026-06-24T02:10:17.072986+00:00",
-    "status": "rejected",
-    "content_hash": "e7cff5f536908e6589b13d0341f1299b",
-    "strict_hash": "e7cff5f536908e6589b13d0341f1299b",
-    "fuzzy_hash": "cc18bc687fcf1d6617d96a4c4c27d400",
-    "reason": "Новость о возобновлении ночного кемпинга в The Green Planet в Дубае — это анонс развлекательного мероприятия, который напрямую связан с Дубаем, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст выглядит как перепечатка с сайта What's On без указания проверяемого источника (URL не указан), а также не представляет общественно значимой или полезной информации для русскоговорящего жителя (скорее рекламный анонс). Кроме того, тема не является service-update или регуляторным изменением, а дубликатов среди опубликованных новостей нет."
-  },
-  {
-    "url": "https://www.swissinfo.ch/eng/various/swiss-flights-to-dubai-will-resume-from-24-october/91634158",
-    "timestamp": "2026-06-24T02:10:21.634825+00:00",
-    "status": "approved",
-    "content_hash": "f4497cd7bd9bd2a2a750ef1238328054",
-    "strict_hash": "f4497cd7bd9bd2a2a750ef1238328054",
-    "fuzzy_hash": "69ddc0a754235e60bfbdc2332c9067b8",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.swissinfo.ch/eng/various/swiss-flights-to-dubai-will-resume-from-24-october/91634158",
-    "timestamp": "2026-06-24T04:21:06.160088+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.ndtv.com/offbeat/indian-woman-wins-free-apartment-in-dubai-initially-thought-it-was-scam-11677588",
     "timestamp": "2026-06-24T05:38:39.079871+00:00",
     "status": "approved",
@@ -824,5 +792,10 @@
     "strict_hash": "ed6862ea8f791872997ffe9f2904a294",
     "fuzzy_hash": "80211af8342d535c9261aafb27a7487a",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/india/air-india-to-launch-direct-guwahati-flights-to-dubai-abu-dhabi-from-august-4",
+    "timestamp": "2026-06-26T05:16:58.964673+00:00",
+    "status": "published"
   }
 ]
