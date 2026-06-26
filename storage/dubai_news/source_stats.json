@@ -797,5 +797,32 @@
     "url": "https://www.tribuneindia.com/news/india/air-india-to-launch-direct-guwahati-flights-to-dubai-abu-dhabi-from-august-4",
     "timestamp": "2026-06-26T05:16:58.964673+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.cbsnews.com/news/brooke-george-british-influencer-dubai-execution-stabbing-man-death-self-defense",
+    "timestamp": "2026-06-26T06:34:40.342565+00:00",
+    "status": "rejected",
+    "content_hash": "48f7347c2ec818836469fca36f45c703",
+    "strict_hash": "48f7347c2ec818836469fca36f45c703",
+    "fuzzy_hash": "6a9f34747680d0d959734ae620013aef",
+    "reason": "Новость о британской блогерше, которой грозит казнь в Дубае, является громким и потенциально кликбейтным материалом, основанным на непроверенных данных от одной правозащитной группы. Она не соответствует критериям достоверности и может быть воспринята как неуважение к судебной системе ОАЭ, а также не представляет практической пользы для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.ladbible.com/travel/dubai-cybercrime-laws-risk-arrests-790575-20260625",
+    "timestamp": "2026-06-26T06:34:42.963130+00:00",
+    "status": "rejected",
+    "content_hash": "7514768aa83af10c78b4da932644d666",
+    "strict_hash": "7514768aa83af10c78b4da932644d666",
+    "fuzzy_hash": "5dcb1d1845063bfc8e40cf2b58db61f7",
+    "reason": "Новость явно нарушает правило №4 (уважение к ценностям UAE), так как представляет Дубай и ОАЭ в негативном свете, акцентируя внимание на «тёмной стороне» и арестах за прошлые действия, что может быть воспринято как неуважение. Также она не соответствует правилу №6 (интерес для русскоговорящего жителя Дубая), так как ориентирована на британскую аудиторию и не несёт практической пользы. Кроме того, текст имеет признаки кликбейта и сенсационности (правило №5)."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/life-style/people/meet-jainam-jain-14-year-old-who-built-an-ai-startup-in-dubai-after-finishing-school-at-13-now-owns-an-office-in-burj-khalifa/articleshow/131998583.cms",
+    "timestamp": "2026-06-26T06:34:50.921060+00:00",
+    "status": "approved",
+    "content_hash": "968ab4fd41cbe8931759c63e14d9a120",
+    "strict_hash": "968ab4fd41cbe8931759c63e14d9a120",
+    "fuzzy_hash": "188de5466a17c85704b4d7208e68e8f4",
+    "reason": "approved"
   }
 ]
