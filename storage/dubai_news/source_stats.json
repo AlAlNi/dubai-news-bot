@@ -635,5 +635,86 @@
     "url": "https://www.thebanker.com/content/6d27eb56-be9c-4f1d-821d-f2cb1f527763",
     "timestamp": "2026-06-26T00:18:20.024051+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.standard.co.uk/homesandproperty/property-news/regents-park-mega-mansion-the-holme-sold-abbas-sajwani-b1287590.html",
+    "timestamp": "2026-06-26T01:36:58.625359+00:00",
+    "status": "rejected",
+    "content_hash": "0d159751e1ed273eab7a8fe9df0f368c",
+    "strict_hash": "0d159751e1ed273eab7a8fe9df0f368c",
+    "fuzzy_hash": "22394993f706fcc56da145993524bde8",
+    "reason": "Новость о покупке особняка в Лондоне сыном дубайского застройщика имеет слабую связь с регионом (упоминается только происхождение покупателя), не представляет интереса для русскоязычного жителя Дубая и не содержит общественно значимой информации о жизни в ОАЭ."
+  },
+  {
+    "url": "https://www.telegraph.co.uk/business/2026/06/25/son-of-donald-dubai-buy-190m-london-mansion-holme",
+    "timestamp": "2026-06-26T01:37:01.470956+00:00",
+    "status": "rejected",
+    "content_hash": "721e4ea0a4ac5824c848159f86f2c5e8",
+    "strict_hash": "721e4ea0a4ac5824c848159f86f2c5e8",
+    "fuzzy_hash": "e3077b8685c6e69f841f8c1b17d8c6b1",
+    "reason": "Новость о покупке сыном миллиардера из Дубая особняка в Лондоне имеет лишь косвенную связь с регионом (упоминание прозвища \"Дональд из Дубая\" и фамилии Sajwani), но основное событие происходит в Великобритании и не представляет интереса для русскоязычного жителя Дубая. Кроме того, текст не содержит проверяемых источников, связанных с ОАЭ, и выглядит как светская хроника, а не новость для местного канала."
+  },
+  {
+    "url": "https://www.kentonline.co.uk/medway/news/man-killed-in-dubai-pictured-as-woman-22-charged-with-murd-341928",
+    "timestamp": "2026-06-26T01:37:04.121546+00:00",
+    "status": "rejected",
+    "content_hash": "f5f8cbb2348e791169593026ee1edf84",
+    "strict_hash": "f5f8cbb2348e791169593026ee1edf84",
+    "fuzzy_hash": "d305e766e4b7416f8a1185c5eea0ff81",
+    "reason": "Новость о британце, убитом в Дубае, и аресте подозреваемой — это криминальная история, которая не соответствует профилю канала: она не несёт практической пользы для русскоязычных жителей, содержит элементы сенсационности и может быть воспринята как неуважение к правопорядку ОАЭ. Кроме того, источник не указан явно, а тема не связана с повседневной жизнью или полезными сервисами."
+  },
+  {
+    "url": "https://www.dailyrecord.co.uk/news/uk-world-news/brit-woman-faces-dubai-firing-37347449",
+    "timestamp": "2026-06-26T01:37:06.775483+00:00",
+    "status": "rejected",
+    "content_hash": "f8a3388961e07ac33c6d367cb2f9a524",
+    "strict_hash": "f8a3388961e07ac33c6d367cb2f9a524",
+    "fuzzy_hash": "6c5ac0e1306a3c8c6cb91457be367b29",
+    "reason": "Новость касается уголовного дела в Дубае, что формально связано с регионом, однако основное содержание — это сенсационная криминальная история с элементами кликбейта и потенциально неуважительным тоном в отношении судебной системы ОАЭ (упоминание «расстрельной команды»). Текст не является общественно значимой новостью для русскоязычного жителя, а скорее напоминает таблоидную сенсацию, что нарушает правила 4, 5 и 6."
+  },
+  {
+    "url": "https://www.bbc.com/news/articles/cwy0p813jn7o",
+    "timestamp": "2026-06-26T01:37:09.541061+00:00",
+    "status": "rejected",
+    "content_hash": "1c4f3e23873eb9666c11b2e4f7a7ca8d",
+    "strict_hash": "1c4f3e23873eb9666c11b2e4f7a7ca8d",
+    "fuzzy_hash": "d663a8e6078f52fe85cdce4d4da9fdf0",
+    "reason": "Новость о TikTok-блогерше, обвиняемой в убийстве в Дубае, имеет прямую связь с регионом, но её основная тема — уголовное преступление с возможной смертной казнью, что является тяжёлым криминальным контентом, не соответствующим ценностям ОАЭ и не представляющим интереса для русскоязычного жителя Дубая (скорее, это сенсационная криминальная хроника). Кроме того, текст содержит признаки кликбейта и может быть воспринят как неуважение к правовой системе ОАЭ."
+  },
+  {
+    "url": "https://www.timesofisrael.com/dubai-enlisting-businesses-to-help-keep-it-a-tourism-and-finance-hub-after-iran-war",
+    "timestamp": "2026-06-26T01:37:11.767686+00:00",
+    "status": "rejected",
+    "content_hash": "cb0d991cf943983df03eb8a080d027bc",
+    "strict_hash": "cb0d991cf943983df03eb8a080d027bc",
+    "fuzzy_hash": "3ebeb40fa5097223864b1bcd402c5d01",
+    "reason": "Новость отклоняется, так как её основная тема — военный конфликт (война с Ираном) и его экономические последствия, что прямо нарушает правило №2 (политика и конфликты). Кроме того, текст содержит непроверяемые и потенциально дестабилизирующие сведения, не соответствующие ценностям ОАЭ."
+  },
+  {
+    "url": "https://www.timesnownews.com/india/air-india-express-to-become-first-airline-to-directly-connect-guwahati-with-dubai-abu-dhabi-check-schedule-article-154757404",
+    "timestamp": "2026-06-26T01:37:13.933660+00:00",
+    "status": "rejected",
+    "content_hash": "10d7fa7a9c57eac33abe7174c941d89c",
+    "strict_hash": "10d7fa7a9c57eac33abe7174c941d89c",
+    "fuzzy_hash": "49f3c94b427f87f8e078a45a9656b0d5",
+    "reason": "Новость является дубликатом уже опубликованной новости под номером 1 в контексте: «Air India Express to launch direct Guwahati flights to Dubai, Abu Dhabi from August 4». Текст и тема полностью совпадают, различается лишь заголовок и незначительные детали. Публикация нарушает правило 7 (дубликаты и повторы)."
+  },
+  {
+    "url": "https://www.telegraphindia.com/business/air-india-express-to-run-direct-flights-to-dubai-abu-dhabi-from-guwahati/cid/2167212",
+    "timestamp": "2026-06-26T01:37:16.008593+00:00",
+    "status": "rejected",
+    "content_hash": "a7d0878ec5707fd01b13f494cbd194e3",
+    "strict_hash": "a7d0878ec5707fd01b13f494cbd194e3",
+    "fuzzy_hash": "4cc6ce07e93f053e13d03532cb5e37f2",
+    "reason": "Новость является точным дубликатом уже опубликованной новости «Air India Express to launch direct Guwahati flights to Dubai, Abu Dhabi from August 4». Несмотря на соответствие остальным критериям, правило №7 (запрет на дубликаты) нарушено."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUUtCR3lIZTNyU0hFTzhDbGxmeXZHaHV0OXBvMG1XSUlvbUN6UERNZTBWY2xnWllQWTVCSkdWajhwVUo5UHROVm9pcVpuU1BoMnlYMm0za2YxTWlBU2w2YUVOSXY4OEJQYTVhRGdmcGZFWDk4M085Y2NSQXU3Tl9mRE9PcXRZcEhmS1ZjRko4a3p6V0dWS1B4aU9oSGxrcHNCa2FBcjZwRndCWVRlTDVWLXBaYW9ONFlYeWNZ?oc=5",
+    "timestamp": "2026-06-26T01:37:18.735986+00:00",
+    "status": "rejected",
+    "content_hash": "4be3085ed2d6dc8e0d64db05d58c6373",
+    "strict_hash": "4be3085ed2d6dc8e0d64db05d58c6373",
+    "fuzzy_hash": "62c7d19632935f76d2395bfc79d8f465",
+    "reason": "Новость дублирует уже опубликованную информацию о расширении списка стран для визы по прибытии — это практически та же тема, что и в новости №3 из контекста. Хотя связь с ОАЭ есть и политически нейтрально, публикация будет повторением."
   }
 ]
