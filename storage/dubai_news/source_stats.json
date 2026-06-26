@@ -1529,5 +1529,59 @@
     "strict_hash": "0c929b691ea1bb4ed3e657a759fff77c",
     "fuzzy_hash": "36d68d0ddb8dc77118f6550063d6e990",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/emirates-boarding-pass-discounts-offers-2026",
+    "timestamp": "2026-06-26T23:55:13.571405+00:00",
+    "status": "rejected",
+    "content_hash": "ce0126ed4529495b86a8a705d587ef2a",
+    "strict_hash": "ce0126ed4529495b86a8a705d587ef2a",
+    "fuzzy_hash": "e8c459e15307ddf9846e8a48d5dd53c2",
+    "reason": "Cheap prefilter: слишком короткий текст (103 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/taggy-uae-app-second-hand-shopping",
+    "timestamp": "2026-06-26T23:55:19.881225+00:00",
+    "status": "rejected",
+    "content_hash": "b1711345e876a285daa3e61ec5c922d7",
+    "strict_hash": "b1711345e876a285daa3e61ec5c922d7",
+    "fuzzy_hash": "8f1f0e850fc2f51d687d902c547e9b99",
+    "reason": "Cheap prefilter: слишком короткий текст (106 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/when-will-etihad-rail-dubai-to-sharjah-service-begin",
+    "timestamp": "2026-06-26T23:55:24.355808+00:00",
+    "status": "rejected",
+    "content_hash": "3c90335efaaf24902c69a8b60f49c617",
+    "strict_hash": "3c90335efaaf24902c69a8b60f49c617",
+    "fuzzy_hash": "1b9e02afcb6c785cec407b3f4d14f93c",
+    "reason": "Cheap prefilter: слишком короткий текст (94 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vcFQtX2l0dWFvQTZGeEZ4S1A0cGJBT1J0OEMyNUZLZ3dXeFprTzhncjVHeHdDXy1vUmc2aHNYZndUUWl4TUUtMl9INnFJUWxpWm5NU3gxQQ?oc=5",
+    "timestamp": "2026-06-26T23:55:27.770764+00:00",
+    "status": "rejected",
+    "content_hash": "522529105ff5a58296b582310b6d2f57",
+    "strict_hash": "522529105ff5a58296b582310b6d2f57",
+    "fuzzy_hash": "b1eb7a9d12afcbb240b32cc8717ca2b0",
+    "reason": "Новость об influencer, которому грозит смертная казнь в Дубае, имеет прямую связь с регионом и не является рекламой или политикой. Однако она содержит тему, которая может быть воспринята как неуважение к ценностям ОАЭ (упоминание смертной казни в негативном контексте), а также не представляет очевидной пользы или интереса для русскоговорящего жителя Дубая, так как это единичный криминальный случай."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHFYSUlyWEF1SXBqLTAtTTFxS2owdXg3alVEVEFLNDFtQ1ZxQk1fbFRZUzIwOUw1VEZlZWlMREg1bUFqdHFOTHJaRzlRSzBzTWtjUG5ocHg3dDI2c01SV1JFZERpZGxKdU1RaGdTY1p3eVRheVBsMlNmN1RuVnk5SkhfQzA1d9IBiwFBVV95cUxNMElqZjl4c1ZEcVpWTEN2RHhySzUxUFMySkF5bnAwZ3VQQmYtdkYxNWN6ekpyeW1hZmF1NGlHZWdveU1WYVhiSHpKelZXeWlzRnNlRDFKR0RiZnc5OFlrcV9jb3JNWVRNMTFpa1lvb3BZeVNNLVEyZ1BfNlZVZTE2WkxJeVJDdUpfSGln?oc=5",
+    "timestamp": "2026-06-26T23:55:30.024946+00:00",
+    "status": "rejected",
+    "content_hash": "2170441634baa6895954145c0de0db57",
+    "strict_hash": "2170441634baa6895954145c0de0db57",
+    "fuzzy_hash": "56c677703caa7065c405dd236eb2338b",
+    "reason": "Новость явно нарушает правило №2 (политика и конфликты) — речь идет о судебном деле с возможным смертным приговором, что является конфликтной и сенсационной темой. Также присутствует неуважение к правовой системе ОАЭ (правило №4) и признаки кликбейта (правило №5). Новость не несет практической пользы для русскоговорящего жителя Дубая (правило №6)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZDh5Qnk2ZDBqdFNkeEF1NGpMT0RNLVlXMnFrSGNRaXRGWG9DTVlrYWRTNHdMdzN3bVBnVE5femFaVkRKQXR6ZjVUMW15RXFGV0NBLXJkelo4c09TOVMwVmlINlROVXdQT1dCOFItMTY4MVFqVzdhZW0xREtKSV9uYkFucGxRenZtbVgzNkx6ckgxcGUxTTQ3MTBiTlp3Mnd3blpyZUJEVmM3eG8?oc=5",
+    "timestamp": "2026-06-26T23:55:30.387876+00:00",
+    "status": "rejected",
+    "content_hash": "0f820c62cbdb51c931cc3c174c81dd04",
+    "strict_hash": "0f820c62cbdb51c931cc3c174c81dd04",
+    "fuzzy_hash": "a56643fcf1acb2e9434bba86e3fbeadc",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
