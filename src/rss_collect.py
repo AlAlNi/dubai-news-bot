@@ -1450,7 +1450,7 @@ def process_with_deepseek_simple(title: str, description: str) -> str:
 4. Перескажи текст своими словами, но БЕЗ изменений фактов.
 5. Текст должен звучать естественно, разнообразно по длине предложений и включать плавные переходы.
 6. Используй эмодзи минималистично — только как маркеры списков или логические разделители блоков. Не ставь их внутри предложений.
-7. Цитаты, прямую речь или второстепенные громоздкие подробности оформляй как нативную сворачиваемую цитату Telegram с помощью Markdown-разметки (> **Заголовок скрытого блока** \n > Текст внутри цитаты).
+7. Не используй Markdown-разметку: не ставь ** для выделения и не начинай строки с > для цитат, потому что эти символы публикуются в новости. Для выделения заголовка используй только HTML-теги <b>...</b>. Цитаты и прямую речь оформляй через HTML: <blockquote>текст цитаты</blockquote>. Длинные второстепенные подробности оформляй как сворачиваемый блок: <blockquote expandable>текст блока</blockquote>.
 8. Если в тексте есть список элементов — сохрани его полностью. Оформляй пункты списка с новой строки, используя один одинаковый эмодзи-маркер для всего списка.
 9. Любые промокоды, точные адреса, суммы, даты или ключевые идентификаторы оборачивай в моноширинный шрифт (`текст`), чтобы читатель мог скопировать их в один клик.
 10. Не добавлять ссылку на источник — она будет добавлена отдельно.
@@ -1467,7 +1467,7 @@ def process_with_deepseek_simple(title: str, description: str) -> str:
                 "messages": [
                     {
                         "role": "system",
-                        "content": "Ты пишешь короткие новости для телеграм-канала.",
+                        "content": "Ты пишешь короткие новости для телеграм-канала. Не используй Markdown-выделение ** и Markdown-цитаты через символ >; для цитат используй HTML <blockquote> или <blockquote expandable>.",
                     },
                     {"role": "user", "content": prompt},
                 ],
@@ -1544,8 +1544,37 @@ def is_fallback_summary(summary: str) -> bool:
     )
     return any(marker in plain for marker in fallback_markers)
 
+def sanitize_telegram_markdown_artifacts(text: str) -> str:
+    """Убирает Markdown-артефакты и переводит Markdown-цитаты в HTML blockquote."""
+    cleaned = safe_strip(text).replace("**", "")
+    lines = cleaned.splitlines()
+    normalized_lines: List[str] = []
+    quote_lines: List[str] = []
+
+    def flush_quote() -> None:
+        if not quote_lines:
+            return
+        quote_text = "\n".join(quote_lines).strip()
+        if quote_text:
+            normalized_lines.append(f"<blockquote>{quote_text}</blockquote>")
+        quote_lines.clear()
+
+    for line in lines:
+        quote_match = re.match(r"^\s*>\s?(.*)$", line)
+        if quote_match:
+            quote_lines.append(quote_match.group(1).strip())
+            continue
+
+        flush_quote()
+        normalized_lines.append(line.rstrip())
+
+    flush_quote()
+    cleaned = "\n".join(normalized_lines)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
+
 def ensure_summary_quality(summary: str, title: str, description: str) -> str:
-    text = safe_strip(summary)
+    text = sanitize_telegram_markdown_artifacts(summary)
     lowered = text.lower()
     generic_markers = (
         "новость о дубае",
