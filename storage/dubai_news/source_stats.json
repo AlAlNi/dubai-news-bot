@@ -1476,5 +1476,32 @@
     "strict_hash": "f84ffd834543b58e20e2843f872457c7",
     "fuzzy_hash": "ed5d7c91dc5d2e7d9f48fcf78edc5a70",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.mirror.co.uk/news/uk-news/brooke-george-dubai-firing-squad-37347732",
+    "timestamp": "2026-06-26T22:02:17.285489+00:00",
+    "status": "rejected",
+    "content_hash": "929c5a7283d820e95c8aacf4c9d11189",
+    "strict_hash": "929c5a7283d820e95c8aacf4c9d11189",
+    "fuzzy_hash": "172ecbc5c62ef089b9098363cc2a8ba4",
+    "reason": "Новость рассказывает о британке, которой грозит смертная казнь в Дубае, с акцентом на скандальные и сенсационные детали (раздевание, антисанитария, несправедливый суд). Это явно подрывает репутацию судебной системы ОАЭ и нарушает правило 4 (уважение к ценностям UAE), а также содержит признаки кликбейта (правило 5). Кроме того, тема уголовного дела с потенциальной казнью не является полезной или интересной для русскоязычного жителя Дубая (правило 6)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbWE2dkRsOVlhU1hBNnFQSE9DZUlXSFJnWDd1X2hkRExLTWI0WktaVnhfbFlLWTNXc3AwRGR1RWNXa0c3eV9uaTloOTNHbDlUYldHSWk2ZlVhbTRBRXNMdGp1LVdjd25rUHkwZU03aHdjbHRvbjdHTS1aUHRETXBUeDZKNVB0Tm02U2RoRndMSGRrRFg4YWxiYUtISUlLTzU2UVNMcWJjUWZ3bHp3MkYzOVp5b3ZjTkthd0Z2andZSXJ4RjVoX3Q4ZHFsdEJ0dGg0cDV0dGtJbXdReDl1NmhpdWt4XzNmVXV1VHFTaGJUVXVOU0h1N2ZCa2QzX1Q?oc=5",
+    "timestamp": "2026-06-26T22:02:21.025141+00:00",
+    "status": "rejected",
+    "content_hash": "2594afcec3693c16452f92cc36c86b8e",
+    "strict_hash": "2594afcec3693c16452f92cc36c86b8e",
+    "fuzzy_hash": "ef2ed9f179ea629c9cb2832e5e451e3a",
+    "reason": "Новость о ложной тревоге из-за технического сбоя в Дубае имеет прямую связь с регионом, не содержит политики или рекламы, но выглядит как короткая заметка без проверяемого источника (ссылка ведёт на агрегатор Oskaloosa Herald, а не на официальное заявление властей Дубая). Кроме того, тема может быть воспринята как негативная для имиджа безопасности ОАЭ, что нарушает правило уважения к ценностям UAE."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPZ1VYQWdMWnlrcEY2d21zeEFvYXJZaVRSX1Q2VHJEMi1OU0NQTXp0MDNtSm5hY0tOQVZESXMtVDlhVG9Rb1RiUmJZSEpuNWNiRG9VV1FqREFXcFBLN2lnemRDZHgyRnhuV0k4QUZ0VjVGaFdBZ0tvdEFwa0JQOHZJRW5HZnhWY2RZNVdWUGZidS11T2xlemNBWHppUFh2bENBa1hFaDBzNXZWQXI2S0VzdFdQeTJhME5jWTBvd2ItQTlhYzJ6NThsZmFnTERUZldDQmlZcWpfSUtiMGxYMzVGS1ZoY3NiZmpCcEJVUWZmUDJTN0h4dTY3X3lYWW5oSkNJSGl3?oc=5",
+    "timestamp": "2026-06-26T22:02:24.507464+00:00",
+    "status": "rejected",
+    "content_hash": "e6d6716369907a8d0bb70ba28987957f",
+    "strict_hash": "e6d6716369907a8d0bb70ba28987957f",
+    "fuzzy_hash": "39e46ebbeca5c92beaac66085407c8ad",
+    "reason": "Новость о ложной тревоге из-за технического сбоя в Дубае имеет прямую связь с регионом и не нарушает правила по политике, рекламе или ценностям. Однако текст крайне короткий, не содержит проверяемого источника (только название издания Ottumwa Courier без ссылки) и выглядит как обрывок, что не соответствует требованию проверяемости фактов. Кроме того, тема может быть воспринята как потенциально тревожная для жителей, но без подтверждения из официальных источников публиковать её рискованно."
   }
 ]
