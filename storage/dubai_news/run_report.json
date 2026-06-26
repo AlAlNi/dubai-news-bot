@@ -1,71 +1,5 @@
 [
   {
-    "script": "auto_notify",
-    "started_at": "2026-06-18T14:16:24.829301+00:00",
-    "finished_at": "2026-06-18T14:16:24.837794+00:00",
-    "duration_seconds": 0.008,
-    "success": true,
-    "status": "no_posts",
-    "counters": {
-      "telegram_calls": 0,
-      "telegram_failures": 0,
-      "published": 0,
-      "duplicate_skips": 0,
-      "no_posts": 1
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-06-18",
-      "daily": {
-        "published_per_day": {
-          "value": 2,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 71.43,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "whatson.ae",
-            "events": 12,
-            "reject_rate": 75.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "news.google.com",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 0.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
     "script": "rss_collect",
     "started_at": "2026-06-18T14:44:28.672388+00:00",
     "finished_at": "2026-06-18T14:44:59.558465+00:00",
@@ -14252,6 +14186,90 @@
           "Dubai Municipality News",
           "Expo City Dubai News",
           "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-06-26T20:25:47.641224+00:00",
+    "finished_at": "2026-06-26T20:26:41.310086+00:00",
+    "duration_seconds": 53.669,
+    "success": false,
+    "counters": {
+      "attempts_made": 5,
+      "fetched": 6,
+      "rejected": 6,
+      "approved": 0,
+      "deepseek_calls": 3,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 1,
+      "google_rss_fetches": 2,
+      "reserve_fetches": 5,
+      "rss_fetches": 4,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-06-26",
+      "daily": {
+        "published_per_day": {
+          "value": 5,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 94.17,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "emirateswoman.com",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 61,
+            "reject_rate": 93.44,
+            "duplicate_rate": 13.11
+          },
+          {
+            "source": "whatson.ae",
+            "events": 20,
+            "reject_rate": 85.0,
+            "duplicate_rate": 30.0
+          },
+          {
+            "source": "timesofindia.indiatimes.com",
+            "events": 5,
+            "reject_rate": 80.0,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
         ]
       }
     }
