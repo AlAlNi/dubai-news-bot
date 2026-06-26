@@ -1,55 +1,5 @@
 [
   {
-    "url": "https://www.manilatimes.net/2026/06/23/world/uae-to-launch-first-passenger-train-this-month-statement/2370766",
-    "timestamp": "2026-06-23T22:46:16.690521+00:00",
-    "status": "approved",
-    "content_hash": "b755677e7ad2c4ba5e7d7b80b40e9581",
-    "strict_hash": "b755677e7ad2c4ba5e7d7b80b40e9581",
-    "fuzzy_hash": "fa762b7a3e8156f2f0c01ccc38a689e9",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/breaking-news-etihad-rail-announces-passenger-launch-date",
-    "timestamp": "2026-06-23T22:58:57.959368+00:00",
-    "status": "rejected",
-    "content_hash": "fd3e63b205882d71a4689e08edcff307",
-    "strict_hash": "fd3e63b205882d71a4689e08edcff307",
-    "fuzzy_hash": "05feeb95342d7a6a50dc4841e5468806",
-    "reason": "Новость о запуске пассажирского поезда Etihad Rail имеет прямую связь с ОАЭ, не содержит политики, рекламы или неуважения к ценностям. Однако она является дубликатом уже опубликованной новости \"UAE to launch first passenger train this month - statement\" (контекст №1), так как сообщает о том же событии — объявлении даты запуска."
-  },
-  {
-    "url": "https://www.hindustantimes.com/trending/indian-woman-wins-free-apartment-in-dubai-i-thought-it-was-some-kind-of-scam-101782207792154.html",
-    "timestamp": "2026-06-23T22:59:05.119342+00:00",
-    "status": "approved",
-    "content_hash": "a14f725846ec12d4cba5fa9fdc90cdd6",
-    "strict_hash": "a14f725846ec12d4cba5fa9fdc90cdd6",
-    "fuzzy_hash": "98c66999b9122c0d2a396262181082f0",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/the-dates-for-dubai-comedy-festival-2026-have-been-revealed",
-    "timestamp": "2026-06-23T23:55:26.050561+00:00",
-    "status": "rejected",
-    "content_hash": "ff2c1830b43b9de55bf98b3749902d5a",
-    "strict_hash": "ff2c1830b43b9de55bf98b3749902d5a",
-    "fuzzy_hash": "d70decbe6828be8f6a6736a8b72c4da3",
-    "reason": "Новость о датах проведения Dubai Comedy Festival 2026 соответствует критериям: имеет прямую связь с Дубаем, не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст выглядит естественно и будет интересен русскоязычным жителям, ищущим развлечения. Однако источник (What's On) указан, но нет прямой ссылки на официальное объявление, что делает проверяемость факта слабой. Кроме того, новость не является дубликатом опубликованных."
-  },
-  {
-    "url": "https://www.livemint.com/news/trends/i-asked-chatgpt-to-plan-a-dubai-and-abu-dhabi-trip-for-45-000-the-result-was-surprisingly-realistic-11782213037051.html",
-    "timestamp": "2026-06-23T23:55:28.793209+00:00",
-    "status": "rejected",
-    "content_hash": "d0dc7b71961fb0c2ffe6b04fb48a4598",
-    "strict_hash": "d0dc7b71961fb0c2ffe6b04fb48a4598",
-    "fuzzy_hash": "d87aa0c5face8ce4776d6ef415fda33b",
-    "reason": "Новость представляет собой эксперимент с ИИ по планированию поездки в Дубай и Абу-Даби с бюджетом ₹45,000. Хотя тема связана с регионом, она не является общественно значимой новостью, а скорее развлекательным контентом, который может быть воспринят как рекламный или кликбейтный. Кроме того, источник (Livemint) не является официальным или проверяемым для данного формата, а текст имеет признаки ИИ-генерации или поверхностного анализа."
-  },
-  {
-    "url": "https://www.hindustantimes.com/trending/indian-woman-wins-free-apartment-in-dubai-i-thought-it-was-some-kind-of-scam-101782207792154.html",
-    "timestamp": "2026-06-24T00:05:13.539322+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://indianexpress.com/article/trending/trending-in-india/indian-expat-built-a-uae-tech-company-with-dh350-loan-from-his-mother-10753844",
     "timestamp": "2026-06-24T01:25:38.801469+00:00",
     "status": "approved",
@@ -680,5 +630,10 @@
     "strict_hash": "1dca516e09ce0b223429598b1ffddc0e",
     "fuzzy_hash": "601c2768a08ac6697df9d0898a786690",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thebanker.com/content/6d27eb56-be9c-4f1d-821d-f2cb1f527763",
+    "timestamp": "2026-06-26T00:18:20.024051+00:00",
+    "status": "published"
   }
 ]
