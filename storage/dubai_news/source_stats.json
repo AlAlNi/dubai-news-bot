@@ -1741,5 +1741,23 @@
     "strict_hash": "be5c8a5958a6b3595f4842277c0f4c98",
     "fuzzy_hash": "7f432f162c5d1543b7a7978871724b1f",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thesun.co.uk/news/39561375/brit-tiktoker-dubai-death-penalty-arrest-brooke-george",
+    "timestamp": "2026-06-27T09:22:36.269194+00:00",
+    "status": "rejected",
+    "content_hash": "3fe2ecdd0390c601448cf368b9ce59eb",
+    "strict_hash": "3fe2ecdd0390c601448cf368b9ce59eb",
+    "fuzzy_hash": "4e2bf46b287448a0822f5ad4a38c07fb",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLXVzb2NCdmJiLU1YVlp4OEhubG1PMjJDdEU2S3Q3MUg5ajRpS3lwZnNUbEdHRmN6Q0s1OGRnM0tJdWxnQ2E2TXYxbHhIMGFUcWd2ejRNM2dtN0U0WUZOdC1zQVdZQnhiTzhZSmtVMDlIQTJDWmRwQmhoLU5WU2diNUxKS3A?oc=5",
+    "timestamp": "2026-06-27T09:22:46.033954+00:00",
+    "status": "approved",
+    "content_hash": "61991480ab317440f012f8b8f669c0e2",
+    "strict_hash": "61991480ab317440f012f8b8f669c0e2",
+    "fuzzy_hash": "0312861a48b1de401e58034d68192bad",
+    "reason": "approved"
   }
 ]
