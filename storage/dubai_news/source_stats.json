@@ -1785,5 +1785,41 @@
     "strict_hash": "2a99f0128e794879d1d9398aff5f9635",
     "fuzzy_hash": "a870800f42a78331308543ef7c3a476b",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVVlplblk0TUVEWWtWQi1OT1QzblhBeTlQVWhLSngydUVHZnJwVFQ4dm1Jd0lmUlhtT0lGRVJreHpnWWlwLW54WXZzUXUySnlpakRpZUw1OHRPVVRoTW4xYWRJM21GdmtwT1d1MlNBTXpNN1AzQk9iVTE3eE8?oc=5",
+    "timestamp": "2026-06-27T15:01:39.783892+00:00",
+    "status": "rejected",
+    "content_hash": "e839e45c035e2f3b178c3bfb16a6945d",
+    "strict_hash": "e839e45c035e2f3b178c3bfb16a6945d",
+    "fuzzy_hash": "7fe9968631e38154c412cfc41a03778a",
+    "reason": "Новость напрямую связана с Дубаем (заседание Медиа-совета под председательством шейха Ахмеда бин Мохаммеда), не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст выглядит как официальное сообщение без признаков ИИ-генерации или кликбейта. Однако новость представляет собой сухой пресс-релиз без конкретной общественно значимой информации для русскоязычного жителя (запуск бизнес-медиаплатформы — это внутренняя отраслевая новость, не влияющая на повседневную жизнь). Кроме того, среди опубликованных новостей нет дубликатов по этой теме."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSnRJb1NoWXBrOUhRZ3dybEc1VElZVWd2aHlYbVlzM3JDblA0bGFLTTJTOVl2Y1ZmQWhTT291N0txLVlMY2tpMnZaQ1J6VnBDcHVXMl93SFlYcmQ1bHFXUWJsU2Y4Z0gwZlJfbnZxeEFTS1dUWjVSWW5iRnN1Qm1aWEdqVUlvMjBvY1dvN09OUzM?oc=5",
+    "timestamp": "2026-06-27T15:01:42.102154+00:00",
+    "status": "rejected",
+    "content_hash": "0faae9b2af193a4e3aa7aa994c8df23c",
+    "strict_hash": "0faae9b2af193a4e3aa7aa994c8df23c",
+    "fuzzy_hash": "867d626675abdfc41a51841009f70b27",
+    "reason": "Новость представляет собой подборку ресторанов с красивыми видами, что является типичным контентным материалом, а не оперативной или общественно значимой новостью. Отсутствует явная новостная ценность, текст выглядит как рекламно-развлекательная статья, а не как актуальная информация для русскоговорящего жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVllyb2tndGZMY2JLemxvcWYwVGp1LUVxdFp6SnpYQmxSNURNN3VBWm5rVEtGNWg4VTBPTkFHZTc4NTZzenZTUHFsdEhmS3NUQ3NfekhybEYwNnROcDJoZ2hDREdrYTRBaEF6RGpuZEZoUVZDZmZsY3llLUh4ZW56S190SUxLRnBQYnc?oc=5",
+    "timestamp": "2026-06-27T15:01:42.576258+00:00",
+    "status": "rejected",
+    "content_hash": "a86b9cdd8848571dc57a144a8c4b4145",
+    "strict_hash": "a86b9cdd8848571dc57a144a8c4b4145",
+    "fuzzy_hash": "983a3238c8f898df1d87a83249525670",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9fdzRGZWJLZjVvblNNQ0U4LU5hUGg1bHlINF9HS0Q4YXBlQm5oWl9NVXpsOWpsQW85OUJWNVl3bWF6cVhMSGtzdA?oc=5",
+    "timestamp": "2026-06-27T15:01:44.368300+00:00",
+    "status": "rejected",
+    "content_hash": "dbe6a8f52657b290356ba5a71f9f7b82",
+    "strict_hash": "dbe6a8f52657b290356ba5a71f9f7b82",
+    "fuzzy_hash": "3bbcd88362a59e5d6ab5f5ce6c3dd093",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
