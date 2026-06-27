@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://scanx.trade/stock-market-news/companies/zydus-wellness-incorporates-dubai-step-down-subsidiary/43871356",
-    "timestamp": "2026-06-25T15:23:09.104869+00:00",
-    "status": "rejected",
-    "content_hash": "49a91792751d8d1c76d770c9fe4d4b89",
-    "strict_hash": "49a91792751d8d1c76d770c9fe4d4b89",
-    "fuzzy_hash": "6b25b1dd41faca1a7a8d09b4da1e45d9",
-    "reason": "Новость о регистрации дочерней компании Zydus Wellness в Дубае имеет прямую связь с регионом (ОАЭ), не содержит политики, рекламы или неуважения к ценностям, текст выглядит естественно и достоверно, источник проверяем. Однако для русскоговорящего жителя Дубая эта новость не представляет интереса или практической пользы — это корпоративное событие, не влияющее на повседневную жизнь аудитории."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/fun-things-to-do-in-abu-dhabi-this-weekend-june-26-to-28-2026",
-    "timestamp": "2026-06-25T16:14:40.248667+00:00",
-    "status": "rejected",
-    "content_hash": "8ab12465e55a842f411c1b2ee294bf14",
-    "strict_hash": "8ab12465e55a842f411c1b2ee294bf14",
-    "fuzzy_hash": "3283f42309e748f463dafbecf81adcf6",
-    "reason": "Новость представляет собой анонс развлекательных мероприятий в Абу-Даби на предстоящие выходные. Она не является дубликатом последней опубликованной новости, но не соответствует критерию связи с регионом (Абу-Даби, а не Дубай) и не представляет интереса для русскоговорящего жителя Дубая, так как фокус на другом эмирате."
-  },
-  {
     "url": "https://www.hindustantimes.com/trending/no-constant-honking-no-garbage-indian-founder-on-life-in-dubai-101782360297509.html",
     "timestamp": "2026-06-25T16:14:43.253312+00:00",
     "status": "rejected",
@@ -1830,5 +1812,10 @@
     "strict_hash": "64939b9906af447133e3a1557334738f",
     "fuzzy_hash": "ed797097c79ce4c80354ea9a416c7104",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/uae-petrol-prices-could-fall-in-july-after-months-of-increases",
+    "timestamp": "2026-06-27T16:14:43.136029+00:00",
+    "status": "published"
   }
 ]
