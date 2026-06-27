@@ -1660,5 +1660,86 @@
     "strict_hash": "6006f9c541bcc15315e78d941b521ebd",
     "fuzzy_hash": "cf1caa670122cd934d79b2f6e5f50b0b",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.news18.com/world/what-caused-the-incorrect-missile-attack-warning-in-dubai-uae-issues-apology-ws-l-10176162.html",
+    "timestamp": "2026-06-27T06:21:07.825527+00:00",
+    "status": "rejected",
+    "content_hash": "1bcc7d0d33b194cf136d0bda3e442e04",
+    "strict_hash": "1bcc7d0d33b194cf136d0bda3e442e04",
+    "fuzzy_hash": "902194e189ecb998a2063f115c4ada60",
+    "reason": "Новость является дубликатом уже опубликованной новости №1: \"Missile alert in Dubai triggered by technical glitch, authorities say\". Тема, источник и суть совпадают, хотя текст может быть из другого издания. Публикация повторной информации нарушает правило 7."
+  },
+  {
+    "url": "https://www.thesun.co.uk/news/39557901/father-brit-killed-influencer-dubai-murdered",
+    "timestamp": "2026-06-27T06:21:09.805748+00:00",
+    "status": "rejected",
+    "content_hash": "721838b0fa96a0d22a750faf48fc8fd9",
+    "strict_hash": "721838b0fa96a0d22a750faf48fc8fd9",
+    "fuzzy_hash": "dad8742d796837d3280cc45beae2a22c",
+    "reason": "Новость не подходит: основная тема — убийство и семейная драма, связанная с британцами в Дубае, что является криминальной историей без общественно значимой ценности для русскоязычного жителя Дубая, а также содержит элементы сенсационности и кликбейта."
+  },
+  {
+    "url": "https://www.thesun.ie/news/17186168/father-brit-killed-influencer-dubai-murdered",
+    "timestamp": "2026-06-27T06:21:12.478325+00:00",
+    "status": "rejected",
+    "content_hash": "96f73af5552c8419a61b0f6646593aa0",
+    "strict_hash": "96f73af5552c8419a61b0f6646593aa0",
+    "fuzzy_hash": "d38062a8bd65e760ed02ff7792a402eb",
+    "reason": "Новость не подходит: основная тема — криминальная история с убийством, что является конфликтной и негативной информацией, не соответствующей ценностям ОАЭ, а также не представляет интереса для русскоязычного жителя Дубая (скорее, таблоидная хроника)."
+  },
+  {
+    "url": "https://techbullion.com/first-super-car-rental-dubai-premium-luxury-and-supercar-rental-experience-in-uae",
+    "timestamp": "2026-06-27T06:21:14.228614+00:00",
+    "status": "rejected",
+    "content_hash": "caefae5df61bc348c176c09c760f40c2",
+    "strict_hash": "caefae5df61bc348c176c09c760f40c2",
+    "fuzzy_hash": "02e4b2392702cb5045ae9518a2de5a23",
+    "reason": "Новость явно является рекламным пресс-релизом компании по аренде суперкаров, не содержит общественно значимой информации и нарушает правило 3 (рекламный характер). Также отсутствует проверяемый источник новостной ценности."
+  },
+  {
+    "url": "https://www.mirror.co.uk/news/world-news/dubai-murder-victim-assault-conviction-37353371",
+    "timestamp": "2026-06-27T06:21:17.179094+00:00",
+    "status": "rejected",
+    "content_hash": "ef6fa2e37a35998c551c88abbece20ec",
+    "strict_hash": "ef6fa2e37a35998c551c88abbece20ec",
+    "fuzzy_hash": "00036ac421ef569cd7410dadaa0b35bb",
+    "reason": "Новость о возможном убийстве британским TikTok-блогером в Дубае имеет прямую связь с регионом, но содержит детали уголовного преступления (убийство, суд, смертная казнь), что является чувствительной темой, потенциально неуважительной к ценностям ОАЭ, и не представляет практической пользы для русскоязычного жителя Дубая. Кроме того, это не service-update и не регуляторное изменение, а криминальная хроника, которая может быть воспринята как кликбейт."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQREdXWHBVb3VGa01uTV96Um42OFFMY2hZTm9mb3B2blB4cHdVR0c0c0dWbTZRVnc0T3d6QlFlTnhHenJManJMOUVVS2Jia1ZOWWJZLU5VdVhWb1p6YVIzdm44ZzUzaWVucDV1Z0d0QU1od0ltdndkS0xaZHJBMl81Qm9MS1JVN3dtM3hUQ3psLUpWRkVtQk1mc3RpQUJzZ2RlSHlJbFZqR2YwQQ?oc=5",
+    "timestamp": "2026-06-27T06:21:20.283960+00:00",
+    "status": "rejected",
+    "content_hash": "8d2d6b44286be3427b615af9b69b50da",
+    "strict_hash": "8d2d6b44286be3427b615af9b69b50da",
+    "fuzzy_hash": "ec2e8d5922b510c1da082d7fa9dc5845",
+    "reason": "Новость о рейсе Bombardier Global 8000 из Дубая в Лос-Анджелес имеет слабую связь с регионом (упоминается только Дубай как точка вылета), но по сути является рекламно-технической статьей о характеристиках частного самолета, не представляющей общественно значимого интереса для русскоязычных жителей Дубая. Кроме того, текст выглядит как перепечатка с авиационного портала без проверяемой пользы для аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNT01Bcktlb1E0N0pFZWFUVW9DTEdUS0pMUWUtdjItZjg5ME51eHVtY3VvSjZmUzlPWTNKbzFNTkd1cVEyV1dxSVBfZVdNQ3Fhd1BMUDZzQ3ZWSmtadFNCdjM3OTFDUVJtenktQk1OOXcwa3N0aWI5S2gyTU5lU2Z1WktlRG1kMHJRYVRMVEpSY1VJUzN3MjMwV3B6V1FReUxfUm5WOGFJVkJxVldMbGJpTmR5aU9fTzNkVzJRTmJjX0c1UWJLMjVHenZFV0RMRl84Y2JXU3c0dTVYanRuYnZSVnhkQ1ZRRlNrUXpwZ3pldkxmVkk5cXoxS3RLZGx2bjTSAYQCQVVfeXFMTndlR3Jwc21MbHZBNEJrQmRZYWNFWkpkRmcyTEQ0NGZObE5zbkFzOVRmZjBsX3RwYWlyYXFWaDZmYUotRkxINVc1eEU3dm9XMGhIekFUNzU4dzBxTDI3c3A2TWpleGEwbUM4bUhqeFc0ZE1yNmVDeXJud3BoMFFFWXI5SjhacjVZRzAtWFZSbHlRZVNkMXhKMV82bUtNSTFZU1NNSUxHMmJIT1ktTVFpa3dqYVhwb2xNcVV2b3RqbjRvOEtxcjBjeWlXczJyMmpCcVVqVWp6bWFacmNqR2thekR1T3Fld25iQURKN3ZIN1VtT2ZlS3dtVzZMMGtKREtPMVJ6Zl8?oc=5",
+    "timestamp": "2026-06-27T06:21:22.685660+00:00",
+    "status": "rejected",
+    "content_hash": "65d1222aaa207a59fd1feab4d0d78d10",
+    "strict_hash": "65d1222aaa207a59fd1feab4d0d78d10",
+    "fuzzy_hash": "1777685de7ed8b098cee868331331f00",
+    "reason": "Новость представляет собой вирусный контент (видео с дорогим автомобилем на светофоре) без общественно значимой информации, основанный на субъективном впечатлении одного человека. Она не несет практической пользы для русскоязычного жителя Дубая и больше похожа на развлекательный кликбейт, чем на новость."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWExjMUItY21hMFp5RHpMVjRZZERKeFcxZlB0VjF3VGw3VlZKTkd1MWdXc1BHek94cC1oNy16bzBsY3d1NjY1TVBoYmN2Vk1Rd1draGYwOFAycUIyVXF3WXE5Q0NQTUxlNDVDb3BCa0VPWXlRNm5aWXdReWg3TXlrWmFsaWVFaXZxX1JvQWV4c2IzZ9IBlwFBVV95cUxONEI1NEctc1ZFQnRYQUpnOGhuWHk0MmNVOHNhcGQ2MXlOZ0xvVHRVVGRKSmQ0OVhLV05laFp5eko5dy11aE4wVjBqVDF6alNDUHhEdEhaQTVpazJ3X2dEVS16ck5uUFlZdUdVSjN5WU9ZS3ZZZDVVOFhTVWNTcExwbGc0U1FDbXg5RGZyeVdaOU5wUTctSzUw?oc=5",
+    "timestamp": "2026-06-27T06:21:23.128324+00:00",
+    "status": "rejected",
+    "content_hash": "c2aa78d78db4854db96017495c50c42e",
+    "strict_hash": "c2aa78d78db4854db96017495c50c42e",
+    "fuzzy_hash": "eabe6e11bce492ebd2ee22b4c18f66f8",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40bm91ZF9fX1dZMFlOWnBVQUlDZ1dqdnY5NWxtRTFTQWlHNThxOWhaYWVBT3JDQ002X18yZnN6TkdjXzJUaWl5b0t1RFRyU1YtUmxaYXBSYzZQVXEwNDVyRVRoRXVmOWJhYUluUHd1dkFEYzRwcTBLZDJCWl_SAZABQVVfeXFMT19kWUhYblZFQkdocnFHX0pkTU5Wc3RpUDRvZElmN3NmUC1EWUpRQ19Wc0xER1pUc21lYmw4dW5nVGR3dFpTQ29ud2FfZ1FvZFFkMzNvTlh3b05DT2RZOGJpbnJKRWR5ZE5DeFFhb1VXV214ZWtyeVpTcTJYQ1dpSkp0UTNBa0dpMWd0RDVJY0dM?oc=5",
+    "timestamp": "2026-06-27T06:21:24.934361+00:00",
+    "status": "rejected",
+    "content_hash": "e0cedddc6736814830603a586fad97ac",
+    "strict_hash": "e0cedddc6736814830603a586fad97ac",
+    "fuzzy_hash": "e802b841ff935833605d5d4154d6728a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
