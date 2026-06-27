@@ -1642,5 +1642,23 @@
     "url": "https://www.ajc.com/news/2026/06/missile-alert-goes-off-in-dubai-in-the-united-arab-emirates-warning-of-an-incoming-projectile",
     "timestamp": "2026-06-27T04:10:38.273557+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.thetimes.com/travel/destinations/middle-east-travel/uae/dubai/dubai-what-is-it-like-right-now-j2hh22bn3",
+    "timestamp": "2026-06-27T04:34:22.391015+00:00",
+    "status": "rejected",
+    "content_hash": "2304c573aa12047f9b5894c50eec4337",
+    "strict_hash": "2304c573aa12047f9b5894c50eec4337",
+    "fuzzy_hash": "dd5caa9b5ca61edc2cd399191db7608c",
+    "reason": "Новость представляет собой личный репортаж о туристическом опыте в Дубае, что соответствует тематике канала, не содержит политики, рекламы или неуважения к ОАЭ. Однако текст имеет признаки субъективного обзора (личные впечатления, описание ресторанов и отелей), а не общественно значимой новости, и его достоверность сложно проверить по указанному источнику (The Times, но URL не указан). Кроме того, тема туризма в Дубае уже широко освещена, и данная новость может быть воспринята как повтор."
+  },
+  {
+    "url": "https://www.news18.com/agency-feeds/missile-alert-in-dubai-triggered-by-technical-glitch-authorities-say-10176040.html",
+    "timestamp": "2026-06-27T04:34:28.405138+00:00",
+    "status": "approved",
+    "content_hash": "6006f9c541bcc15315e78d941b521ebd",
+    "strict_hash": "6006f9c541bcc15315e78d941b521ebd",
+    "fuzzy_hash": "cf1caa670122cd934d79b2f6e5f50b0b",
+    "reason": "approved"
   }
 ]
