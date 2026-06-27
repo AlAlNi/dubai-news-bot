@@ -1,46 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/dar-al-funoon-a-new-performing-arts-centre-is-coming-to-abu-dhabi",
-    "timestamp": "2026-06-25T20:17:10.196968+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.telegraph.co.uk/world-news/2026/06/25/british-tiktok-influencer-charged-with-murder-in-dubai",
-    "timestamp": "2026-06-25T21:12:38.624303+00:00",
-    "status": "rejected",
-    "content_hash": "388cb31611ae95f2b76b0e99d289e44a",
-    "strict_hash": "388cb31611ae95f2b76b0e99d289e44a",
-    "fuzzy_hash": "516a240fa38f0515c5de5fa6821a843f",
-    "reason": "Новость о британской TikTok-блогерше, обвиняемой в убийстве в Дубае, имеет прямую связь с регионом и не является рекламой или политикой. Однако она содержит детали жестокого преступления (убийство, насилие), что может быть воспринято как неуважение к ценностям ОАЭ и не соответствует формату новостного канала, ориентированного на полезную и позитивную информацию для русскоязычных жителей."
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/city/nagpur/gadkari-pushes-for-direct-dubai-singapore-flights-from-nagpur/articleshow/131988651.cms",
-    "timestamp": "2026-06-25T21:12:40.871440+00:00",
-    "status": "rejected",
-    "content_hash": "0b61851fab23958017cbbac9d8ad8e26",
-    "strict_hash": "0b61851fab23958017cbbac9d8ad8e26",
-    "fuzzy_hash": "0c3aef2779348c9b573ca4ed925771ec",
-    "reason": "Новость не подходит для публикации, так как основное событие происходит в Индии (Нагпур) и касается местного политика, а не Дубая или ОАЭ. Связь с регионом лишь косвенная (упоминание рейсов в Дубай), что не соответствует первому правилу."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/nri/migrate/what-should-dubai-residents-know-about-new-flexi-rent-plan-that-will-allow-tenants-to-pay-monthly/articleshow/131987565.cms",
-    "timestamp": "2026-06-25T21:12:48.641084+00:00",
-    "status": "approved",
-    "content_hash": "a114380758137d14ba60e45f873c5410",
-    "strict_hash": "a114380758137d14ba60e45f873c5410",
-    "fuzzy_hash": "697091f4d8e4cdfa117535303156b9a2",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/8-major-changes-coming-to-dubai-in-july-that-could-affect-you",
-    "timestamp": "2026-06-25T21:21:22.009903+00:00",
-    "status": "approved",
-    "content_hash": "7c7705630d5e8028f50769280f51d6bf",
-    "strict_hash": "7c7705630d5e8028f50769280f51d6bf",
-    "fuzzy_hash": "3f382dfa4f9ce4016de1bd538ced8d9c",
-    "reason": "approved"
-  },
-  {
     "url": "https://whatson.ae/2026/06/8-major-changes-coming-to-dubai-in-july-that-could-affect-you",
     "timestamp": "2026-06-25T22:39:22.250720+00:00",
     "status": "published"
@@ -1835,5 +1794,10 @@
     "strict_hash": "f123c0118cf5799a5d54ad784c83ff08",
     "fuzzy_hash": "58a927f61695769be6ee47add462a5c0",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.theweek.in/news/middle-east/2026/06/27/india-leads-dubai-fdi-2025.html",
+    "timestamp": "2026-06-27T22:11:15.050925+00:00",
+    "status": "published"
   }
 ]
