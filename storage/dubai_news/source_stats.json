@@ -1714,5 +1714,32 @@
     "url": "https://www.news18.com/agency-feeds/missile-alert-in-dubai-triggered-by-technical-glitch-authorities-say-10176040.html",
     "timestamp": "2026-06-27T07:53:24.436013+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.dailyrecord.co.uk/news/uk-world-news/man-allegedly-stabbed-death-dubai-37354854",
+    "timestamp": "2026-06-27T08:09:14.112685+00:00",
+    "status": "rejected",
+    "content_hash": "4b3e99e48b6d2ce19dee67ca3979ef4f",
+    "strict_hash": "4b3e99e48b6d2ce19dee67ca3979ef4f",
+    "fuzzy_hash": "7de062ec13a12c04e2c27c0f83781f60",
+    "reason": "Новость о британской TikTok-блогерше, обвиняемой в убийстве в Дубае, содержит элементы криминальной хроники, но основное внимание уделено громкому судебному разбирательству с возможной смертной казнью, что может быть воспринято как неуважение к правовой системе ОАЭ и не соответствует ценностям региона. Кроме того, тема насилия и уголовного дела не является общественно значимой для русскоязычных жителей Дубая, а скорее носит сенсационный характер."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZzdhTDdCTmllZW1Dalp0ZUVyVmdFa0lMZWVYX010R2p1dXlNN2dfSWVtcTcySjRvVC15MjhwTHJPYXNUOTFULS1lTzE1RjltdktpZ2NxT0Jwb1dScEhhQzcwRDlwd25naUZTbUFpeTdjWjY3eFY5dmtoUVFtZEJkVjgxX1BoTGtOYUtBeGNweThzdGRYWGplZFAtcGtWbWl3anZJZ1dKcVM?oc=5",
+    "timestamp": "2026-06-27T08:09:17.168784+00:00",
+    "status": "rejected",
+    "content_hash": "9d7d97523e23ff71edca2f18944a3dd7",
+    "strict_hash": "9d7d97523e23ff71edca2f18944a3dd7",
+    "fuzzy_hash": "af5f89756a68154cd45298769d2c66e4",
+    "reason": "Новость о британском TikTok-блогере, обвинённом в убийстве в Дубае, имеет прямую связь с регионом и не является рекламой или политикой. Однако она содержит потенциально чувствительную тему (уголовное преступление с участием иностранца), что может быть воспринято как неуважение к ценностям ОАЭ, а также не представляет практической пользы для русскоязычного жителя Дубая. Кроме того, это не дубликат уже опубликованных новостей."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdlRqME83OFRzeTRHcTJkMnNWcngwYmtoS0J2Nk1DR2pGRWpmM2xIdm9XcC1sdFhuLWQ5WkFtZW43RzRSLXp4ai1nTGFhbVowZDZzcHd4UVZBSktVWG5uTjFCZXRGSEdQcFVnN05FbHNDdkwweWU4MUt1aldpVTFvcGRWcTZKVlpneTBN?oc=5",
+    "timestamp": "2026-06-27T08:09:25.261834+00:00",
+    "status": "approved",
+    "content_hash": "be5c8a5958a6b3595f4842277c0f4c98",
+    "strict_hash": "be5c8a5958a6b3595f4842277c0f4c98",
+    "fuzzy_hash": "7f432f162c5d1543b7a7978871724b1f",
+    "reason": "approved"
   }
 ]
