@@ -1790,5 +1790,50 @@
     "strict_hash": "72174aa484412960d0594e10cbf0afbf",
     "fuzzy_hash": "1739d21dde75dc002f818d9bf7cff3d4",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.silive.com/news/2026/06/what-can-staten-island-learn-from-a-global-city-like-dubai-a-staten-islander-found-out-during-a-family-visit.html",
+    "timestamp": "2026-06-27T21:53:40.520032+00:00",
+    "status": "rejected",
+    "content_hash": "a64affe28a5299c25eed2011dffa4e3f",
+    "strict_hash": "a64affe28a5299c25eed2011dffa4e3f",
+    "fuzzy_hash": "0807a5b339f7b4e5103f3906fe0c851d",
+    "reason": "Новость не подходит для публикации: она написана от лица жителя Статен-Айленда, основная аудитория — американцы, а не русскоговорящие жители Дубая, и не содержит практически значимой или полезной информации для местного сообщества."
+  },
+  {
+    "url": "https://www.ladbible.com/news/world-news/dubai-brit-woman-brooke-george-arrested-no-legal-access-739504-20260627",
+    "timestamp": "2026-06-27T21:53:43.318744+00:00",
+    "status": "rejected",
+    "content_hash": "80d567b52202b61bf8bb96eb735d96c6",
+    "strict_hash": "80d567b52202b61bf8bb96eb735d96c6",
+    "fuzzy_hash": "086e490281b2cdd0d30afc9307379984",
+    "reason": "Новость о британке, приговорённой к расстрелу в Дубае, нарушает правило №2 (политика и конфликты) — основная тема связана с уголовным правосудием и потенциальным смертным приговором, что является чувствительной и конфликтной темой. Также это может быть воспринято как неуважение к правовой системе ОАЭ (правило №4). Кроме того, новость не представляет интереса для русскоязычного жителя Дубая (правило №6), так как касается конкретного иностранца и не несёт практической пользы."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsa09aTUotTS04cWJ3RjJwVkxFS0drZWxMbmo3aWcxVWVHOXFVbkNwRWdNZXpveV9raWpoVW80cGNJRjVtMVhWVG1Zc1prTDlYVmdxTEpNc0lsV1ZsTE9NMFBFcmVic1AxSXQ2OG9WeHRxUlpTR2ZyZWl5TnJzelk?oc=5",
+    "timestamp": "2026-06-27T21:53:46.801282+00:00",
+    "status": "rejected",
+    "content_hash": "af4047b4d40ce5a9e6d923c6368575b8",
+    "strict_hash": "af4047b4d40ce5a9e6d923c6368575b8",
+    "fuzzy_hash": "fe44ac2e456dd95180143cbee9495765",
+    "reason": "Новость о разыскиваемом члене преступной группировки, замеченном в Дубае, нарушает правило №2 (политика и конфликты — тема международной преступности и санкций), а также может быть воспринята как неуважение к имиджу ОАЭ (правило №4). Кроме того, источник (The Sun) не является официальным или проверяемым для данного контекста, а новость не несёт практической пользы для русскоязычного жителя Дубая (правило №6)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQem5OYWZhNFNFZ1RtTW9ldXgtUG9QNkhja2xCNk4waEVIbHpfb3Z6YmxpU2hHb2NJT2xmWnhocDVLaU5xSWg2OW9UWXJQdzctQ3dLYzRPeUFOaUh0NHZkQ1FOdXRIZ0lYQWpJd1hXdFJaVnJkekRXTUZ4cGdHTWtBM3dEa25sai13d3k4ZUhvemluWEpfRFUyUGNqdXFDTTZMZHhUbXV5dVNiTW90bkMtN19PbmdubklvdjVldHVOVFFKTDEzaGdtYtIBzgFBVV95cUxNcGJaN3o4OVYwLWhQM0UtcEU4Z1B3QXZkM3k2R3FDbUpha2tWcWVqSmNIdVhqbFBIWlBOY282SVYtT0xLOG5HM0lOUUJfOXlSSjRqQl9sRng1cHB6RkZMSk1SVlJMcU04c3l1N3NZalJ4YVhvbkxnbGhuc1R0TmZkd2lWS29vNi13NkxzQ1MwZ3lvNWNndnBWZ3llZVU4b2JLamptQktDMExQVXE2bFlZMmRYSTBVU01fRzMtbXBremF1Ym1sLXI1eDFjVXczdw?oc=5",
+    "timestamp": "2026-06-27T21:53:49.126095+00:00",
+    "status": "rejected",
+    "content_hash": "47d6c028b2175478282019933b98c355",
+    "strict_hash": "47d6c028b2175478282019933b98c355",
+    "fuzzy_hash": "2b03f7c747276bf3d1a756528dcca86f",
+    "reason": "Новость не имеет прямой связи с Дубаем или ОАЭ — это статья о том, как Индия может построить город по образцу Дубая. Она не содержит информации, актуальной для русскоязычного жителя Дубая, и не является новостью о самом регионе."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRkdkSk80cTZ2VnBVcmp6clRJaWRuY1JFY19RYWtZaHdDRmV0M3kyNHI1emVRVU82TjNPTTkzNmVySTM4cWNBOThkQW5jYlZMTThuSTU5X2pHSVJGMEt5NF9aTHVNN3pLYmFheVBwWEVfaDdPRE12NlFGMW14eXRkYllfRjhsT3BraHFPVTRsVQ?oc=5",
+    "timestamp": "2026-06-27T21:53:49.573163+00:00",
+    "status": "rejected",
+    "content_hash": "f123c0118cf5799a5d54ad784c83ff08",
+    "strict_hash": "f123c0118cf5799a5d54ad784c83ff08",
+    "fuzzy_hash": "58a927f61695769be6ee47add462a5c0",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
