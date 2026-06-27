@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/dubai/dubai-introduces-flexi-rents-to-bolster-tenant-affordability",
-    "timestamp": "2026-06-25T04:18:01.267146+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.india.com/viral/indian-woman-gives-tour-of-her-1-bhk-house-in-dubai-with-annual-rent-rs-31-lakh-leaves-internet-shocked-viral-video-8456261",
-    "timestamp": "2026-06-25T04:45:10.257189+00:00",
-    "status": "rejected",
-    "content_hash": "d668d8fb3cf6dbaa678fa2187ba55955",
-    "strict_hash": "d668d8fb3cf6dbaa678fa2187ba55955",
-    "fuzzy_hash": "495086b2b9800674697bf43ff63adeac",
-    "reason": "Новость представляет собой развлекательный контент о стоимости аренды квартиры в Дубае, что может быть интересно русскоязычным жителям, но не содержит общественно значимой информации и больше напоминает вирусный пост, а не новость. Кроме того, текст обрывается, и источник не указан явно, что затрудняет проверку достоверности."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/some-of-the-best-chinese-restaurants-to-try-in-dubai",
-    "timestamp": "2026-06-25T06:40:04.157116+00:00",
-    "status": "rejected",
-    "content_hash": "b232f7ae2403686b51c989c755704c8a",
-    "strict_hash": "b232f7ae2403686b51c989c755704c8a",
-    "fuzzy_hash": "58769a27a4c6649f4207ee4e6d7312bd",
-    "reason": "Новость представляет собой подборку ресторанов китайской кухни в Дубае, что соответствует тематике канала, не содержит политики или рекламы, но является типичным «списком» без общественно значимой новостной ценности и может быть воспринята как скрытая реклама заведений. Кроме того, текст явно сгенерирован или скопирован с сайта What's On, что нарушает правило проверки на естественность и достоверность."
-  },
-  {
-    "url": "https://www.indiatoday.in/trending-news/story/gurugram-woman-dubai-1bhk-comes-with-marina-views-rs-26-lakh-monthly-rent-2933421-2026-06-24",
-    "timestamp": "2026-06-25T06:40:07.467271+00:00",
-    "status": "rejected",
-    "content_hash": "642cf6cf4b7a76c7289b06da728c2fab",
-    "strict_hash": "642cf6cf4b7a76c7289b06da728c2fab",
-    "fuzzy_hash": "33b6f70b86e98caec98127a421a76906",
-    "reason": "Новость о вирусном видео с обзором квартиры в Дубае и её арендной ставке — это развлекательный контент, а не общественно значимая новость. Она не несёт практической пользы для русскоязычного жителя (кроме любопытства), а её формат близок к кликбейту и вирусному контенту, что нарушает правило 5 (естественность и достоверность) и правило 6 (интерес/польза). Кроме того, тема аренды и вирусных видео уже неоднократно освещалась, что создаёт риск дублирования по смыслу."
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/british-nationals-emerge-as-leading-international-property-investors-in-dubai",
     "timestamp": "2026-06-25T08:28:51.037515+00:00",
     "status": "published"
@@ -1741,5 +1709,10 @@
     "strict_hash": "e0cedddc6736814830603a586fad97ac",
     "fuzzy_hash": "e802b841ff935833605d5d4154d6728a",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.news18.com/agency-feeds/missile-alert-in-dubai-triggered-by-technical-glitch-authorities-say-10176040.html",
+    "timestamp": "2026-06-27T07:53:24.436013+00:00",
+    "status": "published"
   }
 ]
