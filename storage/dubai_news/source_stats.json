@@ -1745,5 +1745,23 @@
     "strict_hash": "72307d397eec67ecde9e15e5b4fe96fa",
     "fuzzy_hash": "e09efbde7072950d936e2cceb14f73a0",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.dailyexcelsior.com/missile-alert-goes-off-in-dubai-but-authorities-quickly-tell-public-to-disregard-warning",
+    "timestamp": "2026-06-27T11:19:51.147685+00:00",
+    "status": "rejected",
+    "content_hash": "8e12f88ff24bf557f4ab16df302d8f87",
+    "strict_hash": "8e12f88ff24bf557f4ab16df302d8f87",
+    "fuzzy_hash": "dd224eccf8b1212a292fb80fd5f0ff98",
+    "reason": "Новость отклоняется, так как основная тема — ложная тревога о ракетной угрозе — относится к военным/политическим инцидентам, что нарушает правило №2 (политика и конфликты). Кроме того, такая информация может быть воспринята как подрывающая чувство безопасности в ОАЭ, что противоречит правилу №4 (уважение к ценностям UAE)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nMTNXUS1OOWVtRDBfYlBMbTk0OGI5UXM0NldMV3RCQ1pyYmVJRnNQSzZNWkIwTXVGMjhVLTJtNHRrMzhVeTcyaEJ2NjZ2N2gzYnhpNmdkTXctSWkxenpzV1VNRk5VSTU1SDRiQTBrRGdYa2xrVGFmY1hkcw?oc=5",
+    "timestamp": "2026-06-27T11:20:00.697669+00:00",
+    "status": "approved",
+    "content_hash": "162c0b3c3b25db75efd016f3417bc804",
+    "strict_hash": "162c0b3c3b25db75efd016f3417bc804",
+    "fuzzy_hash": "24ae270fe6554eabf8de0425e1bed6bb",
+    "reason": "approved"
   }
 ]
