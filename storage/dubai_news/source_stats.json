@@ -1143,5 +1143,41 @@
     "strict_hash": "c9679ad66d2fb1256773b5a762cfc9fb",
     "fuzzy_hash": "9f73eda6750cfb1157de7c8b20ea5ef2",
     "reason": "Новость о предупреждении полиции Дубая по безопасности автомобилей летом соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит естественно и полезна для русскоговорящих жителей. Однако она является дубликатом недавно опубликованной новости \"Dubai Police warn illegal car modifications can cause fires\" (The National) — обе касаются летних предупреждений полиции о безопасности автомобилей, что нарушает правило 7."
+  },
+  {
+    "url": "https://www.arkansasonline.com/news/2026/jun/28/us-hits-targets-in-iran-after-it-strikes-at-gulf",
+    "timestamp": "2026-06-28T21:53:46.914177+00:00",
+    "status": "rejected",
+    "content_hash": "96688859dba476d0ae95e705615ab94c",
+    "strict_hash": "96688859dba476d0ae95e705615ab94c",
+    "fuzzy_hash": "10344169389ee22256c209fd462c0185",
+    "reason": "Новость отклоняется, так как её основная тема — военный конфликт между США и Ираном, что является большой политикой и военными действиями, не связанными напрямую с жизнью в Дубае или ОАЭ, и нарушает правило №2."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQk90QnpoeUtxQUtrdHJrRmN0ZmJZMkloNEtodXp4RFVCU2R1aVB6ZWZPRUk4NmNWWU5pRk45Sm1IVGxTX1dqT1RiYl9Gb2dCLXFUWVpMSUpDTlM2Y1Bpcmdoa3RiVW1JUGJJbUlHVHRmOU9WM2V1dE1laDZwOVRQV3NFWmQ?oc=5",
+    "timestamp": "2026-06-28T21:53:49.934535+00:00",
+    "status": "rejected",
+    "content_hash": "27769236b9cad57e25d3d2c15ed33f0b",
+    "strict_hash": "27769236b9cad57e25d3d2c15ed33f0b",
+    "fuzzy_hash": "f5b0092488098ca53253d908370d7c6a",
+    "reason": "Новость о сотрудничестве Дубая с Китаем в развитии метро с использованием ИИ имеет прямую связь с регионом (Дубай, ОАЭ), не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и интересна для русскоговорящих жителей, так как касается развития транспорта. Однако она является дубликатом уже опубликованной новости №1 (RTA expands strategic partnerships with Chinese firms to boost smart mobility), так как обе сообщают об одном и том же событии — партнерстве Дубая с китайскими компаниями в сфере транспорта и технологий."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZEF1Y1F6RnUwNkprRk45Z1A0eXNHdnh2a1ptZGFZck03QnA1UXhnRFg3SVh2Wmc3Ym9fTjVPQ2dFQ1V4VUNGdjFyNjMxVzNWcmZ3c0x4QVVfa3RDenJaQWdLcnBEWFdhR0NBeVk3TjVJRFhac2FmRGRWUlBCR0pYYlg2b20?oc=5",
+    "timestamp": "2026-06-28T21:53:53.142732+00:00",
+    "status": "rejected",
+    "content_hash": "23141a754a2e254c203c5144555c56ca",
+    "strict_hash": "23141a754a2e254c203c5144555c56ca",
+    "fuzzy_hash": "f2b4aaf05a1f330ed4d2561247b163dc",
+    "reason": "Новость о предупреждении полиции Дубая после 3,589 нарушений безопасности автомобилей напрямую связана с регионом, не содержит политики или рекламы, уважает ценности ОАЭ, выглядит достоверно и полезна для русскоязычных жителей (особенно водителей). Однако она очень похожа на уже опубликованную новость \"Dubai Police warn illegal car modifications can cause fires\" — обе касаются предупреждений полиции о безопасности автомобилей, что может быть дубликатом по теме."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOHJFX0t5OHVJQTBuOGJnR3I4RWdpMTBPMVNBaEdHaV9TaWhEN0RJY2xCWmN1UXZPR1dtU2tVWW9KYnVsS05QTXEza2pOblZjQndxcU9PMk5lZGh3N0FyaWxvMDhYdHRST2JhSFI4VUpSSktJNEZrdVc5cmpTRi1Vd1dNN3FlMC1wYjMxalJ2Ykc4YTJ0Z1E?oc=5",
+    "timestamp": "2026-06-28T21:53:53.698763+00:00",
+    "status": "rejected",
+    "content_hash": "ec3b58a572a811a420b6da8c2f630fee",
+    "strict_hash": "ec3b58a572a811a420b6da8c2f630fee",
+    "fuzzy_hash": "1c12055a34bcdfa32f3a74c775c28e95",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
   }
 ]
