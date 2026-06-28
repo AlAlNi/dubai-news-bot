@@ -1491,5 +1491,23 @@
     "strict_hash": "e1b0736a40a9a1dd3bd5447522c820ed",
     "fuzzy_hash": "6b6bd95482f3f92c6fdddedf9e610ba6",
     "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/unique-restaurants-in-dubai-that-will-completely-surprise-you",
+    "timestamp": "2026-06-28T13:14:11.135329+00:00",
+    "status": "rejected",
+    "content_hash": "da912ea4ddfe2621d70df358ecba7135",
+    "strict_hash": "da912ea4ddfe2621d70df358ecba7135",
+    "fuzzy_hash": "84bcb41d711005f404843d5a7da5b58c",
+    "reason": "Новость представляет собой рекламно-развлекательный обзор ресторанов без конкретной общественно значимой информации, а также содержит признаки кликбейта и не имеет проверяемого источника с явным URL. Она не соответствует критериям полезности для русскоязычного жителя Дубая и выглядит как типичный пресс-релиз."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOUtndk1keTZVWkFjTmxUbExob0VmY3lhcExfVWstMFV6cnRsTDBNZDhKWGRVSmR1amFxVThnSko4RldkWXNDbDg1cTMxOGxOYmFSU09NMjFTa00xb29RNS1SemVIaGhuY3o5UVk0aEZ3X3h5WlJRTUw1czNmWFd0bFFINUtNbWdESmZBVFRoOGNNX2RfWWc?oc=5",
+    "timestamp": "2026-06-28T13:14:28.153492+00:00",
+    "status": "rejected",
+    "content_hash": "184e6608371d0d5ff33be44968607197",
+    "strict_hash": "184e6608371d0d5ff33be44968607197",
+    "fuzzy_hash": "515b29cd9068370ee959fc2abf2c5090",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
   }
 ]
