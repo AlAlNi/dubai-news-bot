@@ -886,5 +886,41 @@
     "url": "https://propertynews.ae/business/uae-and-iran-re-establish-air-links-signalling-renewed-regional-economic-activity",
     "timestamp": "2026-06-29T20:53:12.115533+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://propertynews.ae/business/uae-property-market-narrows-price-gap-signalling-enhanced-stability-and-investor-confidence",
+    "timestamp": "2026-06-29T21:16:07.328993+00:00",
+    "status": "rejected",
+    "content_hash": "3c81b1375d25d7e49678c10fcfc1a448",
+    "strict_hash": "3c81b1375d25d7e49678c10fcfc1a448",
+    "fuzzy_hash": "19ee48cf4f1e39c3d4b6c7cf86e323d1",
+    "reason": "Новость носит общий аналитический характер о рынке недвижимости ОАЭ, но не содержит конкретной привязки к Дубаю, новых фактов или практической пользы для русскоязычного жителя. Текст выглядит как обобщённый пересказ рыночных тенденций без указания проверяемого источника, что нарушает правило 9, а также не соответствует критерию интереса для локальной аудитории (правило 6)."
+  },
+  {
+    "url": "https://propertynews.ae/business/sharjah-police-unveil-50-fine-reduction-to-boost-business-environment",
+    "timestamp": "2026-06-29T21:16:10.594809+00:00",
+    "status": "rejected",
+    "content_hash": "8bf26e811d754dc191d49db414882e73",
+    "strict_hash": "8bf26e811d754dc191d49db414882e73",
+    "fuzzy_hash": "fbfc7b1a8421868b98760a788563a352",
+    "reason": "Новость о снижении штрафов в Шардже имеет косвенную связь с ОАЭ, но не с Дубаем напрямую, и не является дубликатом уже опубликованных материалов. Однако она не соответствует критерию интереса для русскоговорящего жителя Дубая, так как касается другого эмирата и не содержит информации, применимой к Дубаю."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-holding-real-estate-streamlines-golden-visa-process-for-property-investors",
+    "timestamp": "2026-06-29T21:16:11.724157+00:00",
+    "status": "rejected",
+    "content_hash": "37b846cd8faf73351b1ff324067bcafd",
+    "strict_hash": "37b846cd8faf73351b1ff324067bcafd",
+    "fuzzy_hash": "b47144ac20a2663396fc1fd00f6fee90",
+    "reason": "Cheap prefilter: слишком частый домен в окне (propertynews.ae)"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/lifestyle/jasmin-bhasin-hospitalised-in-dubai-during-birthday-trip-aly-goni-shares-update",
+    "timestamp": "2026-06-29T21:16:13.797580+00:00",
+    "status": "rejected",
+    "content_hash": "4d1c6424f944e610a0b4757dd355fc2e",
+    "strict_hash": "4d1c6424f944e610a0b4757dd355fc2e",
+    "fuzzy_hash": "502b2c7aeebdf3bea1aefc005c150a18",
+    "reason": "Новость о госпитализации индийской актрисы в Дубае не имеет общественной значимости для русскоязычных жителей ОАЭ, носит характер светской хроники и не соответствует критерию полезности/интересности для целевой аудитории канала."
   }
 ]
