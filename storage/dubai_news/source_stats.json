@@ -953,5 +953,32 @@
     "strict_hash": "69491b1cccd212d56a7d85f263b27348",
     "fuzzy_hash": "e711a89ae7fb9550ec33a589985e21c2",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/an-immersive-vegas-style-theatre-experience-is-coming-to-wynn-al-marjan-island",
+    "timestamp": "2026-06-29T13:02:57.555719+00:00",
+    "status": "rejected",
+    "content_hash": "fd0385b7ef3ca9fd2e131eb85e965ee3",
+    "strict_hash": "fd0385b7ef3ca9fd2e131eb85e965ee3",
+    "fuzzy_hash": "613a4488885454e71d83491216616d2c",
+    "reason": "Новость о театральном шоу в Wynn Al Marjan Island в Рас-эль-Хайме (ОАЭ) имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям, не является дубликатом опубликованных новостей, интересна русскоязычным жителям как анонс культурного события. Однако источник (What's On) указан, но текст обрывается и не содержит проверяемого URL для подтверждения фактов, что нарушает правило 9."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/8-things-to-do-in-dubai-this-week-june-29-to-july-2",
+    "timestamp": "2026-06-29T13:03:03.989403+00:00",
+    "status": "rejected",
+    "content_hash": "b978d7fecfadcbbb1fa5b2e841a663a6",
+    "strict_hash": "b978d7fecfadcbbb1fa5b2e841a663a6",
+    "fuzzy_hash": "a943e73febbd1012910ade910e7bb88d",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на неделю (рестораны, спа, кофе) без явной общественной значимости или пользы для русскоязычного жителя, а также выглядит как перепечатка контента с сайта What's On, что не соответствует критериям информационного канала."
+  },
+  {
+    "url": "https://emirateswoman.com/emirati-entrepreneur-ghaliya-ahli-on-redefining-wellness-as-a-way-of-life",
+    "timestamp": "2026-06-29T13:03:17.300451+00:00",
+    "status": "approved",
+    "content_hash": "e31ebe2c4a2584e79729d6d69a625c80",
+    "strict_hash": "e31ebe2c4a2584e79729d6d69a625c80",
+    "fuzzy_hash": "bbe2f072ccabc39a9c40bb4a5bb3412d",
+    "reason": "approved"
   }
 ]
