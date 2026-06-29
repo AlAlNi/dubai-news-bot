@@ -999,5 +999,50 @@
     "strict_hash": "3262dda6aeebb65794c5b4279e8fe673",
     "fuzzy_hash": "6fa1a2ad123464163f2d88bb8035d40e",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.moneycontrol.com/world/tehran-dubai-flights-to-resume-on-monday-after-months-of-disruption-during-middle-east-war-article-13960621.html",
+    "timestamp": "2026-06-29T05:11:58.917551+00:00",
+    "status": "rejected",
+    "content_hash": "4d71c337726a81cd919763408ce43bf7",
+    "strict_hash": "4d71c337726a81cd919763408ce43bf7",
+    "fuzzy_hash": "7d8be82c820e514aecd62872275ef227",
+    "reason": "Новость о возобновлении рейсов Тегеран-Дубай имеет прямую связь с регионом (Дубай и ОАЭ), но её основная тема — последствия военного конфликта между Ираном, Израилем и США, что нарушает правило №2 (политика и конфликты). Кроме того, новость может быть воспринята как неуважение к ценностям ОАЭ из-за упоминания войны в контексте региона."
+  },
+  {
+    "url": "https://www.indiatoday.in/entertainment/television/story/jasmine-bhasin-hospitalised-dubai-birthday-aly-goni-health-update-2936194-2026-06-28",
+    "timestamp": "2026-06-29T05:12:00.824003+00:00",
+    "status": "rejected",
+    "content_hash": "2172882927bc02b86c8b72100fbe33c2",
+    "strict_hash": "2172882927bc02b86c8b72100fbe33c2",
+    "fuzzy_hash": "b6365610dff950ddadda9c139312ea09",
+    "reason": "Новость о госпитализации индийской актрисы в Дубае не имеет общественной значимости для русскоязычных жителей, не связана с городской инфраструктурой или важными событиями в регионе, а также не содержит проверяемых фактов, выходящих за рамки личной жизни знаменитости."
+  },
+  {
+    "url": "https://www.hindustantimes.com/entertainment/tv/jasmin-bhasin-gets-hospitalised-in-dubai-on-birthday-aly-goni-says-very-difficult-and-emotional-few-days-101782659435528.html",
+    "timestamp": "2026-06-29T05:12:02.613052+00:00",
+    "status": "rejected",
+    "content_hash": "45291b75e9d037ee4bea83c9d71e9c59",
+    "strict_hash": "45291b75e9d037ee4bea83c9d71e9c59",
+    "fuzzy_hash": "20261c073a28ab1d22cd215a2a83b796",
+    "reason": "Новость о госпитализации индийской актрисы в Дубае не имеет общественной значимости для русскоязычных жителей, носит характер светской хроники и не соответствует критериям полезности и интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcGR0Z25sNDd0bFlvc2MzbXBBMW1qOF9rcWJSVTVNVzZkQlVSdUpnUXRXT01tdzRMSEtoWEZDcy1xdmVVTDl3TFdmSEhwWnFydXE4VDN6MnU3UXZEQzUyZjdrdF84STJfYXlQLTZjOG5CajlRUC15OWtZRkZRZ2JrR2RKY3J2QXVrdTV4Yw?oc=5",
+    "timestamp": "2026-06-29T05:12:05.728171+00:00",
+    "status": "rejected",
+    "content_hash": "338f0ed5bcad228b72b29637befbc4f9",
+    "strict_hash": "338f0ed5bcad228b72b29637befbc4f9",
+    "fuzzy_hash": "2efc0adf0609820a95b7ee0c0c456dbf",
+    "reason": "Новость является дубликатом уже опубликованного материала \"Dubai Police warn illegal car modifications can cause fires - The National\". Оба сообщения освещают одну и ту же тему предупреждения полиции Дубая о безопасности автомобилей, хотя источник и заголовок незначительно отличаются. Поскольку суть новости идентична, она не может быть опубликована повторно."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVU9IazdqWWhkemFXcTZMVlBRbGdhZ0JOcHBWOUplY1FZUkNLUDduaDN4ZlhHMno3UXYzLWlPSl94UW5xOHFKa3NnMkVySnZSVUFvQ2E0dWRpQllkMHJXVmxQOTZCSUk4TXhaeGNtZlZ1WnN3UEhsVHJ6V2JRZk1lRXVYcV8yYWxRdWo0cVVvR0F4QTJuZjIzUHdtSFJwZTZRams0bUFmOA?oc=5",
+    "timestamp": "2026-06-29T05:12:13.673429+00:00",
+    "status": "approved",
+    "content_hash": "639229727ab1470b7750ebcdcd67d156",
+    "strict_hash": "639229727ab1470b7750ebcdcd67d156",
+    "fuzzy_hash": "3517f4df2f848b639fcf81989fe1ef1b",
+    "reason": "approved"
   }
 ]
