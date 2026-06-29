@@ -927,5 +927,77 @@
     "strict_hash": "b1517633032a675f3a5c5344e19ecca8",
     "fuzzy_hash": "096c09a22ef60a9f83c41f37913ec11d",
     "reason": "Новость является дубликатом уже опубликованной новости №1 из контекста (Dubai's RTA expands strategic partnerships with leading Chinese firms). Тема и источник практически идентичны, что нарушает правило №7."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/steps-to-replace-a-lost-or-damaged-emirates-id",
+    "timestamp": "2026-06-29T03:58:58.156087+00:00",
+    "status": "rejected",
+    "content_hash": "6c2ecc72dfea8315589d1b1a0023ca9a",
+    "strict_hash": "6c2ecc72dfea8315589d1b1a0023ca9a",
+    "fuzzy_hash": "afcea746574953dfd277d470a851a389",
+    "reason": "Новость представляет собой инструкцию по замене утерянной или повреждённой Emirates ID, что является полезной и актуальной информацией для резидентов ОАЭ. Она не содержит политики, рекламы или неуважения к ценностям страны, а также не является дубликатом уже опубликованных материалов."
+  },
+  {
+    "url": "https://www.news18.com/movies/television/jasmine-bhasin-hospitalised-in-dubai-on-her-birthday-aly-goni-shares-health-update-suddenly-fell-very-sick-ws-l-10178634.html",
+    "timestamp": "2026-06-29T03:59:12.793306+00:00",
+    "status": "rejected",
+    "content_hash": "350f5e290c354f055b39652931906a7b",
+    "strict_hash": "350f5e290c354f055b39652931906a7b",
+    "fuzzy_hash": "4b38c3e1a76f75a06c797a8b5f9933b1",
+    "reason": "Новость о госпитализации индийской актрисы в Дубае не имеет общественной значимости для русскоязычных жителей эмирата, носит характер светской хроники и не соответствует критерию полезности и интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://www.timesnownews.com/entertainment-news/tv/jasmin-bhasin-hospitalised-in-dubai-on-birthday-boyfriend-aly-goni-shares-health-update-article-154787120",
+    "timestamp": "2026-06-29T03:59:14.431261+00:00",
+    "status": "rejected",
+    "content_hash": "b0dbf31ae7e4dbba3c079f25a7aeebae",
+    "strict_hash": "b0dbf31ae7e4dbba3c079f25a7aeebae",
+    "fuzzy_hash": "a3685c25a9acbf61142b6d67c6c38713",
+    "reason": "Новость о госпитализации индийской актрисы в Дубае не имеет общественной значимости для русскоязычных жителей ОАЭ, носит характер светской хроники и не соответствует критерию полезности/интересности для целевой аудитории канала."
+  },
+  {
+    "url": "https://www.freepressjournal.in/entertainment/jasmine-bhasin-hospitalised-in-dubai-on-birthday-aly-goni-reveals-she-is-battling-serious-infection",
+    "timestamp": "2026-06-29T03:59:16.049698+00:00",
+    "status": "rejected",
+    "content_hash": "9881767ebbce9c37ad4f9971251b990a",
+    "strict_hash": "9881767ebbce9c37ad4f9971251b990a",
+    "fuzzy_hash": "d363027e04221979008c0e7e21322af8",
+    "reason": "Новость о госпитализации индийской актрисы в Дубае не имеет общественной значимости для русскоязычных жителей ОАЭ, носит характер светской хроники и не соответствует критерию полезности и интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://www.mirror.co.uk/3am/celebrity-news/katie-price-puppy-lee-andrews-37359066",
+    "timestamp": "2026-06-29T03:59:18.009532+00:00",
+    "status": "rejected",
+    "content_hash": "8e5650538ebadb327019e4a2e532fc1c",
+    "strict_hash": "8e5650538ebadb327019e4a2e532fc1c",
+    "fuzzy_hash": "e1acce150a534f6fcf6800267cf6335b",
+    "reason": "Новость о покупке щенка британской знаменитостью Кэти Прайс в Дубае не имеет общественной значимости для русскоязычных жителей региона, носит развлекательный характер и не связана с местными событиями или полезной информацией."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVGkzbXpxdlYzbXd4WllDVXF6VHl3V1d4Y3lMNkNGSmRLTTFVVEJWbnI5T2g4b0I2aG5FaElhMUdhM3RSQmE1dGpUSEdhTlJVZHFRMGhiSVZyUklqUWpzQVJTRk9maVVkQjNpM2hndVlCODFCaFFMajhJRXBDZFgzWVJHcXZkZHM1M0FOSnd1TmpCb0JpcTdXeVYzalEwYkVP?oc=5",
+    "timestamp": "2026-06-29T03:59:21.754272+00:00",
+    "status": "rejected",
+    "content_hash": "7fbf446d1e37e9119431fc67f0800e20",
+    "strict_hash": "7fbf446d1e37e9119431fc67f0800e20",
+    "fuzzy_hash": "54cfaf7eba546389cec4f06c6d83fc55",
+    "reason": "Новость представляет собой общий обзор привлекательности рынка недвижимости Дубая для глобальных инвесторов, но источник (The National Law Review) не является профильным новостным изданием ОАЭ, а сам текст выглядит как поверхностный пересказ без конкретных фактов, дат или проверяемых данных. Кроме того, новость не содержит явной привязки к текущим событиям или пользы для русскоязычного жителя, а её заголовок и содержание слишком общие и напоминают рекламный обзор."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMUNMR21ERzdwRk54bkk4UnlrdXNfNHEyN1ZsaVlrMEtUZ05JYXZpNm1EQWI3MmlPNFd0eTdOYWlUSjNXTnFpeEhUYnJ6UEwzbzg0TF92RS0zX1RyaXVtalEtcWowQUZyYk84c0kyWjd3SjhHbHFwOTRsc3hWNTJLMU9SVGhsdk1abEh4U1pIUDNiaktwLUVTTThLYTFUd1JMSGpR?oc=5",
+    "timestamp": "2026-06-29T03:59:23.790724+00:00",
+    "status": "rejected",
+    "content_hash": "4134fc4a91c0f2d256eb817b88ac3dfa",
+    "strict_hash": "4134fc4a91c0f2d256eb817b88ac3dfa",
+    "fuzzy_hash": "57c7c6f24c60658729605725932388e1",
+    "reason": "Новость отклонена, так как она явно ссылается на 2026 год, что указывает на выдумку или ошибку (сейчас 2025 год), а также не содержит проверяемого источника и выглядит как сгенерированный или кликбейтный контент без конкретной пользы для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVFFBT2VXazk4RnB3SDRrU0JyelBQa0xYTXYtalN4eEpYMGtJbTlNZnNidmhtN2VId3paVVNYNGlfdS01MGIxSEdJUW9TY2JTaXlHSklsTV9qdl9JR3ktMlZtVjFicFI0TEZEVHpocmE2dnNnSWlZLVh5blIyVUFyWHpIcWdtSUpmNThNMGUtcnJNN3RVMFRBUklzNDBmMHh6b2dnaFhoLXRHVzNzZXRTeTlNVkY3UVZIU21kQmJyN1luekFmMll1cm02b3VWVFlqNDMtLXpUcWE5ZmNqN1hB0gHkAUFVX3lxTE14cjdySWFDMEoxUFRXcEhsY3o2NDZxemc0SXlUTkx0c2RtOXQyQmhxeUhMME9yS3hhMWpRcXN0dkF1cXlMam5Ib2doTXFNUEQ5NGVHWWRzM1JnRnJ2cGhfcXdKRVpETGcwZmljYl9UazUxNXBEY0ktaGZra3lEdmk5WWFtd1B0YWoya2FwdUpLOG1uaUExMmhmNXJINTR3anJEUWhPbkdycjBOdFNRbks5b2VvWDYyY0tuc1RodTRHME9EcE40N2NzRXRXam41RFdfMm9nRmo0UzdSa3pnWnZ1cnRNeQ?oc=5",
+    "timestamp": "2026-06-29T03:59:24.099900+00:00",
+    "status": "rejected",
+    "content_hash": "3262dda6aeebb65794c5b4279e8fe673",
+    "strict_hash": "3262dda6aeebb65794c5b4279e8fe673",
+    "fuzzy_hash": "6fa1a2ad123464163f2d88bb8035d40e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
