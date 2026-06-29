@@ -940,5 +940,104 @@
     "strict_hash": "639229727ab1470b7750ebcdcd67d156",
     "fuzzy_hash": "3517f4df2f848b639fcf81989fe1ef1b",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/06/world-cup-2026-round-of-32-kick-off-times-in-the-uae",
+    "timestamp": "2026-06-29T08:58:03.114585+00:00",
+    "status": "rejected",
+    "content_hash": "c9eb0bd98b514987a4c39af4e62b87f3",
+    "strict_hash": "c9eb0bd98b514987a4c39af4e62b87f3",
+    "fuzzy_hash": "ce678a373ddc8eb586afcfe8d0696723",
+    "reason": "Новость о расписании матчей ЧМ-2026 в часовом поясе ОАЭ имеет прямую связь с регионом (указано время для UAE) и может быть полезна русскоязычным жителям, интересующимся футболом. Однако она не содержит общественно значимой информации, а является типичным гидом по трансляциям, что ближе к развлекательному контенту, а не к новостям. Кроме того, источник (What's On) не указан в виде явного URL для проверки, что нарушает правило 9. Также есть риск, что это дубликат или повтор уже опубликованных материалов о ЧМ-2026, но точных совпадений с контекстом нет."
+  },
+  {
+    "url": "https://whatson.ae/2026/06/things-to-do-in-abu-dhabi-this-week-june-29-to-july-2-2026",
+    "timestamp": "2026-06-29T08:58:12.455736+00:00",
+    "status": "rejected",
+    "content_hash": "13f05712e7b93f8ce239dfc016e9446a",
+    "strict_hash": "13f05712e7b93f8ce239dfc016e9446a",
+    "fuzzy_hash": "60320ca7353bdc3dd1bb3c457125d90d",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий в Абу-Даби, что не имеет прямой связи с Дубаем (правило 1). Кроме того, это типичный анонс событий, который не является общественно значимой новостью для русскоязычного жителя Дубая (правило 6) и может быть расценен как рекламный контент (правило 3)."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/06/29/difc-zabeel-district-dubai-office-expansion",
+    "timestamp": "2026-06-29T08:58:30.020532+00:00",
+    "status": "rejected",
+    "content_hash": "cde8ea35251928cc6a671ecf3594ca6d",
+    "strict_hash": "cde8ea35251928cc6a671ecf3594ca6d",
+    "fuzzy_hash": "8c1a44cbbe01b910d7b5c99af1131445",
+    "reason": "Новость имеет явную связь с Дубаем (DIFC Zabeel District), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст выглядит как фрагмент аналитической статьи с неполным содержанием и ссылкой на Twitter, что затрудняет проверку достоверности и источника. Кроме того, новость не является дубликатом уже опубликованных, но её формат (общие рассуждения о будущем без конкретных фактов) может быть неинтересен русскоязычному жителю Дубая."
+  },
+  {
+    "url": "https://www.thesun.ie/news/17198157/dubai-brit-brooke-george-mum-tess-plea-firing-squad",
+    "timestamp": "2026-06-29T08:58:32.746175+00:00",
+    "status": "rejected",
+    "content_hash": "c4282a39a2def5de15ad295814251c17",
+    "strict_hash": "c4282a39a2def5de15ad295814251c17",
+    "fuzzy_hash": "0e70627031b5bd2a806ffa8be7f7944c",
+    "reason": "Новость касается уголовного дела в Дубае (британская туристка обвиняется в убийстве бойфренда), что формально связано с регионом, но основная тема — громкое уголовное дело с элементами политизации (просьбы к властям, упоминание «расстрельной команды»), что нарушает правило 2 (политика и конфликты) и правило 4 (неуважение к правовой системе ОАЭ). Кроме того, текст явно кликбейтный и эмоционально окрашенный, что противоречит правилу 5."
+  },
+  {
+    "url": "https://www.ndtv.com/offbeat/dubai-nail-artist-32-earns-rs-10-lakh-monthly-shares-her-journey-11699853",
+    "timestamp": "2026-06-29T08:58:35.383059+00:00",
+    "status": "rejected",
+    "content_hash": "28b0a5bfebceee943f93a9a3ed6f30d5",
+    "strict_hash": "28b0a5bfebceee943f93a9a3ed6f30d5",
+    "fuzzy_hash": "5440a2191fec5ff8ce4636305d68e83c",
+    "reason": "Новость о вьетнамском мастере маникюра в Дубае, зарабатывающем 10 лакхов в месяц, имеет явную связь с регионом (Дубай) и не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако это скорее вдохновляющая история успеха, а не общественно значимая новость, и она не представляет интереса для русскоязычного жителя Дубая (нет практической пользы или актуальной информации). Кроме того, текст может быть воспринят как кликбейт с акцентом на доход, а не на полезный контент."
+  },
+  {
+    "url": "https://www.irishmirror.ie/showbiz/celebrity-news/katie-price-sparks-fan-concern-37359553",
+    "timestamp": "2026-06-29T08:58:37.692433+00:00",
+    "status": "rejected",
+    "content_hash": "5e8bcc034801a81671a71c5c204ecbfa",
+    "strict_hash": "5e8bcc034801a81671a71c5c204ecbfa",
+    "fuzzy_hash": "c379cec7e3a6fcb741ba005e1d8a8d27",
+    "reason": "Новость о покупке щенка Кэти Прайс в Дубае не имеет общественной значимости для русскоязычных жителей, носит развлекательный характер и не соответствует критерию полезности/интересности для целевой аудитории канала. Кроме того, тема благополучия животных может быть воспринята как косвенная критика, что нарушает правило уважения к ценностям ОАЭ."
+  },
+  {
+    "url": "https://www.thesun.co.uk/tvandshowbiz/39576285/katie-price-lee-andrews-baby-boy-puppy",
+    "timestamp": "2026-06-29T08:58:38.016360+00:00",
+    "status": "rejected",
+    "content_hash": "4b996bc05bc36ecd48cb62c47e949994",
+    "strict_hash": "4b996bc05bc36ecd48cb62c47e949994",
+    "fuzzy_hash": "67a6a266e234bb6ec07efe3245c83091",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.firstpost.com/world/tehran-dubai-flights-to-resume-after-weeks-of-disruption-during-iran-conflict-ws-e-14027195.html",
+    "timestamp": "2026-06-29T08:58:41.882850+00:00",
+    "status": "rejected",
+    "content_hash": "e7b63b38d6a7cfdb1ee94053e98843c5",
+    "strict_hash": "e7b63b38d6a7cfdb1ee94053e98843c5",
+    "fuzzy_hash": "99a0ef1ad2a7747ca1bdb168de38e36e",
+    "reason": "Новость о возобновлении рейсов между Тегераном и Дубаем имеет прямую связь с регионом (Дубай и ОАЭ), не содержит политической пропаганды или неуважения к ценностям UAE, не является рекламой и представляет интерес для русскоязычных жителей, которые могут пользоваться этим маршрутом. Однако основная тема — последствия регионального конфликта (Иран и \"более широкий конфликт в Западной Азии\"), что нарушает правило №2 (политика и конфликты). Кроме того, новость может быть воспринята как затрагивающая чувствительные геополитические темы, что не соответствует формату канала."
+  },
+  {
+    "url": "https://www.ndtv.com/lifestyle/jasmin-bhasin-hospitalised-in-dubai-on-birthday-aly-goni-says-she-fell-sick-due-to-a-serious-infection-11699678",
+    "timestamp": "2026-06-29T08:58:44.063759+00:00",
+    "status": "rejected",
+    "content_hash": "2258b7406b2da1a2ee6547d37657a880",
+    "strict_hash": "2258b7406b2da1a2ee6547d37657a880",
+    "fuzzy_hash": "72764185e5d45fe2b50609954ded5ef1",
+    "reason": "Новость о госпитализации индийской актрисы в Дубае не имеет общественной значимости для русскоязычных жителей, не связана с местными событиями или услугами, и больше напоминает светскую хронику из жизни знаменитостей, что не соответствует формату новостного канала о регионе."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQa2ctUENZaU9zSWFBUUFCeGp4UG5jdXlKNVZreGhacFVOQTdyWlFGVVppc3JnSk5WNVBtelRiLWhiOXBtOTViVU9qOXAzdzFoS2doRE1WMWZ5UTVNUmVSVWg3QUpoU2pDaloxeXZFSVpyUmstTEM3Y1Iyb3NjX0ZJWHd0d0FGOWljX1ZXei1mRENJWWYxVDRVcjhwajRxOTB2cEZVSVpMYWNmV1dGSkRqbzNSNG83TGotLWNvLWNrMmNuOGpzWHNFMTBUMnlTSlFTT2ROWXJUY0x3dk1nTnVZcmlEZ1c1MS1Od29nMXQ1d2lBVUswZkJpbmNiTFpfZUFPRURnQkQ5UXc5S2E3YmNKbzdyM19UTVg2SUI1SmJfbERtQ1BvSGkxVWxn?oc=5",
+    "timestamp": "2026-06-29T08:58:48.000875+00:00",
+    "status": "rejected",
+    "content_hash": "8d249a60e4c6be3ba024bb0640a26da8",
+    "strict_hash": "8d249a60e4c6be3ba024bb0640a26da8",
+    "fuzzy_hash": "220296900447f25fa840b90267b092de",
+    "reason": "Новость о партнёрстве Expo City Dubai с Emirates NBD для ипотечных решений имеет прямую связь с Дубаем, не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст естественен и полезен для русскоязычных жителей, интересующихся недвижимостью. Однако она является дубликатом: аналогичная информация уже была опубликована в новости №1 (Dubai's real estate projects value top $75bln in H1 - ZAWYA), хотя и с другим акцентом, но тема финансирования жилья в Дубае уже освещена. Источник (TradingView) не является прямым и проверяемым URL, что нарушает правило 9."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdVpIUHJsb19DMEFRRFRZd1V2ejB3Qzd0TC1TNml4OHRjeFQwV09HTDMxRENiZ2w1eGlSUEZJeXJzSEtzZjVBOFpVbUhzMEwyWkcyZzRhbjI2OUNaeWlvRzJPSG1hM3BZVDdBVmVkTklzcGotd3lIb0JNeG1FZHVtYlFWZ3NMTHZfRFJ4cG5tYVhBbDRvaDNyWlJYU1lhQm1RTkRVNzBDZlNybTZIY3dDVjA0LVc1Z1hnWWtITA?oc=5",
+    "timestamp": "2026-06-29T08:58:55.466620+00:00",
+    "status": "approved",
+    "content_hash": "3e143926da63787361ee75e8c0821c72",
+    "strict_hash": "3e143926da63787361ee75e8c0821c72",
+    "fuzzy_hash": "9cbbdc53d1b23c6ddecf0f964d89c2ce",
+    "reason": "approved"
   }
 ]
