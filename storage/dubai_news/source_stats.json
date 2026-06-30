@@ -1106,5 +1106,41 @@
     "strict_hash": "bf0cce2eb2c46b26b4b715151e56bd0d",
     "fuzzy_hash": "ac647e467bfdd0e22d85000b4f87d72c",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.news18.com/lifestyle/health-and-fitness/jasmine-bhasin-hospitalised-during-birthday-trip-to-dubai-reveals-terminal-ileitis-diagnosis-10180959.html",
+    "timestamp": "2026-06-30T15:10:46.046452+00:00",
+    "status": "rejected",
+    "content_hash": "d8a276f6d4c7439e41b107c4cc6ff962",
+    "strict_hash": "d8a276f6d4c7439e41b107c4cc6ff962",
+    "fuzzy_hash": "d3e9bda4af7d95dbb6a38fdba1581bb4",
+    "reason": "Новость о госпитализации индийской актрисы в Дубае не имеет значимой связи с жизнью города, не представляет интереса для русскоязычного жителя и не является общественно значимой информацией о регионе. Это частный случай, не соответствующий тематике канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdXNXaVcyRUkxazN5NjVPQWpjaVFXQUcxd1lHY3F0QlY3UkpleFktOUZzd0U4M3V3blFjUGxTazRsdzZzTXFuTlhiTF9ETFhad3ZVenlFbExveXpuZWtIaXFrQnlmX1ZHT0FlZVJ2aTFaTDZ4bFJPXzBZYmIwZFlDR2NRc001aUV2RHdTUnhZOVVMeUc4dk1aZXV4R2NOQmFrQWloN2VTLUQ3V2Y1MzZuekdSWUFJS3MzNHc?oc=5",
+    "timestamp": "2026-06-30T15:10:48.495543+00:00",
+    "status": "rejected",
+    "content_hash": "57a12471b7b7280f4ab7add8ef1461cc",
+    "strict_hash": "57a12471b7b7280f4ab7add8ef1461cc",
+    "fuzzy_hash": "ca13376e132a2e053c9241884d113e3b",
+    "reason": "Новость дублирует тему уже опубликованного материала \"Dubai investors shift focus from pure real estate to long-term quality of life - Khaleej Times\" (пункт 2 в контексте). Оба сообщения говорят о том, что инвесторы в Дубае становятся более избирательными и ориентируются на долгосрочную перспективу. Публикация этого текста будет повторением."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GNTdERlR3XzJvc2NkdG9Da2ZKaUt6WVBXWXRRTjVWNTVDRGZHSW9vbFdnZk1OUmRYaFYyMFp5ZVlkTnAzRVROdXpEenB5NEJLV200TldVbU5ocG16aF90T3hoZkJOamU5MzJ1UW5B?oc=5",
+    "timestamp": "2026-06-30T15:10:51.296533+00:00",
+    "status": "rejected",
+    "content_hash": "f53a5f9033bd0559c71bdd9097b67da7",
+    "strict_hash": "f53a5f9033bd0559c71bdd9097b67da7",
+    "fuzzy_hash": "4d5e7d83ad989dba0d396c7a328de3ed",
+    "reason": "Новость является рекламным пресс-релизом о расширении сервиса Visa, где Дубай упомянут лишь как один из городов в списке. Отсутствует общественно значимая информация, интересная именно русскоязычным жителям Дубая, а также нет проверяемого локального контекста."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CODE2UGFOR1Y2LWwyMzJUU2pZYmxKempPaUNpQmZsTlBFSzMxQU1mTmhCczZCdEpWSVlLOTZPM2dWMmFNdGVneGVwRE56UUthSElrUlZJYnRPTlh2QTFlajM1WXAtcTBfellJSTh3?oc=5",
+    "timestamp": "2026-06-30T15:10:51.646210+00:00",
+    "status": "rejected",
+    "content_hash": "78afa8112d96423f84681cc6db91e1a5",
+    "strict_hash": "78afa8112d96423f84681cc6db91e1a5",
+    "fuzzy_hash": "8577c06933ab387c25975ce60a809a66",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
