@@ -926,5 +926,59 @@
     "strict_hash": "84ac8fcc35a4096b4af8cd7a6860cd97",
     "fuzzy_hash": "ec259c25bf078380833b050544876d8f",
     "reason": "Новость о госпитализации индийской актрисы в Дубае не имеет общественной значимости для русскоязычных жителей ОАЭ, не связана с местными событиями или услугами и выглядит как развлекательный контент о здоровье знаменитости, что не соответствует тематике канала."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/shah-rukh-khan-is-like-this-farah-khan-recalls-king-star-flying-out-the-entire-cast-and-crew-of-happy-new-year-to-dubai-for-premiere/articleshow/132072875.cms",
+    "timestamp": "2026-06-30T02:12:46.222973+00:00",
+    "status": "rejected",
+    "content_hash": "993461af64f90d6a3ef0370975f993b0",
+    "strict_hash": "993461af64f90d6a3ef0370975f993b0",
+    "fuzzy_hash": "412084f67587099e8223d514511b5493",
+    "reason": "Новость не связана с Дубаем как с регионом для значимых событий или изменений, а представляет собой развлекательную историю из жизни индийских знаменитостей, которая не несёт практической пользы для русскоязычного жителя ОАЭ и не соответствует критериям информационного канала."
+  },
+  {
+    "url": "https://www.thehindu.com/life-and-style/dubai-bets-on-india-infrastructure-and-flexibility-to-drive-tourism-growth/article71160697.ece",
+    "timestamp": "2026-06-30T02:12:48.454540+00:00",
+    "status": "rejected",
+    "content_hash": "ffe661af6596f624b06459949a4ce5b7",
+    "strict_hash": "ffe661af6596f624b06459949a4ce5b7",
+    "fuzzy_hash": "8d62c89f49af99a972859d55f0eb98f5",
+    "reason": "Новость посвящена роли Индии в туристической стратегии Дубая, что имеет прямую связь с регионом и может быть интересно русскоязычным жителям, но текст содержит признаки кликбейта и неполный контекст (упоминание закрытия аэропорта, что не соответствует текущей ситуации), а также не указан проверяемый источник."
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-worlds-largest-al-maktoum-international-airport-b3004861.html",
+    "timestamp": "2026-06-30T02:12:52.353111+00:00",
+    "status": "rejected",
+    "content_hash": "0b838f810f5d42b519b45580b6131721",
+    "strict_hash": "0b838f810f5d42b519b45580b6131721",
+    "fuzzy_hash": "fb96a47e30c73a1959ea6023cd46f15c",
+    "reason": "Новость о планах открытия крупнейшего в мире аэропорта в Дубае (Al Maktoum International) к 2032 году напрямую связана с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит достоверно и интересна для русскоговорящих жителей. Однако при проверке на дубликаты обнаружено, что тема строительства и развития аэропорта Аль-Мактум уже освещалась в контексте недвижимости (новость 2: \"Dubai's real estate projects value top $75bln in H1\"), а сам заголовок и содержание являются повторением ранее опубликованных материалов о планах по расширению аэропорта. Учитывая, что это не service-update и не уникальная новость, а повтор уже известной информации, её следует отклонить."
+  },
+  {
+    "url": "https://www.mirror.co.uk/news/uk-news/brooke-george-dubai-murder-brit-37360331",
+    "timestamp": "2026-06-30T02:12:54.919717+00:00",
+    "status": "rejected",
+    "content_hash": "b15711b470727605e28947d23c6ee53e",
+    "strict_hash": "b15711b470727605e28947d23c6ee53e",
+    "fuzzy_hash": "d7fce684d152c06e585759a9c1479cae",
+    "reason": "Новость о британской блогерше, обвиняемой в убийстве в Дубае, содержит элементы криминальной хроники, но её основной фокус — на личной трагедии и семейных переживаниях, а не на общественно значимой информации для русскоязычных жителей. Кроме того, текст имеет признаки кликбейта и не содержит проверяемых официальных источников, что нарушает правила достоверности."
+  },
+  {
+    "url": "https://nypost.com/2026/06/29/world-news/mom-of-tiktokker-accused-of-killing-boyfriend-in-dubai-begs-for-her-little-girl-to-be-spared-firing-squad",
+    "timestamp": "2026-06-30T02:12:57.387516+00:00",
+    "status": "rejected",
+    "content_hash": "39ae3bc0410653cd0c19858ab41cf697",
+    "strict_hash": "39ae3bc0410653cd0c19858ab41cf697",
+    "fuzzy_hash": "fd5d1c5d263dfdd1711fdb8f0c29064a",
+    "reason": "Новость не подходит для публикации, так как основная тема — уголовное дело с возможной смертной казнью, что является конфликтной и чувствительной темой, нарушающей правило 2 (политика и конфликты) и правило 4 (уважение к ценностям UAE). Кроме того, новость не представляет интереса для русскоговорящего жителя Дубая (правило 6) и не имеет проверяемого источника в явном виде (правило 9)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYTdHN2NYX083Z1hSMV9zd3NraDVxZ21EZFJ1NDNOeExKVkRmSEFZemVDRHY2NlBzRVhGNGttU2dESUxhV0NJU0hHTkVjLTdhMTI3S1dvek1KbDVtOEVWZGJfbTRxcEFSaXN6VnNLUnFESENuaExFQXFPLXNtSUp3V0h1bkJrNmVsNWpCbERhTnNUVElDVDRKSDlTR18xR1U3ME84OA?oc=5",
+    "timestamp": "2026-06-30T02:13:06.221603+00:00",
+    "status": "approved",
+    "content_hash": "8b1c4737ed1f9c678de76fb1fb37ca79",
+    "strict_hash": "8b1c4737ed1f9c678de76fb1fb37ca79",
+    "fuzzy_hash": "085b90b4656dfde620493437f9ff6aa3",
+    "reason": "approved"
   }
 ]
