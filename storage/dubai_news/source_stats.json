@@ -1147,5 +1147,32 @@
     "strict_hash": "2b43cac8562c7fe4ec94ff8af01991c0",
     "fuzzy_hash": "b426b3571cf6216d4119ab3a63761185",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.ladbible.com/news/crime/police-detained-dubai-brooke-george-firing-squad-crime-976478-20260630",
+    "timestamp": "2026-06-30T19:18:19.791177+00:00",
+    "status": "rejected",
+    "content_hash": "51a94d1c44f76a8985e8ce2d74ffd043",
+    "strict_hash": "51a94d1c44f76a8985e8ce2d74ffd043",
+    "fuzzy_hash": "26a483c6fb7bf795235ee511fc49fda3",
+    "reason": "Новость касается уголовного дела в Дубае (связь с регионом есть), но основная тема — убийство и возможный смертный приговор, что является тяжёлым криминальным и конфликтным контентом, не соответствующим формату новостного канала о жизни в Дубае. Кроме того, текст основан на непроверяемом источнике (Detained in Dubai) и содержит эмоционально заряженный, кликбейтный заголовок, что нарушает правила достоверности и уважения к ценностям ОАЭ."
+  },
+  {
+    "url": "https://www.ndtv.com/entertainment/farah-khan-reveals-shah-rukh-khan-took-50-crew-members-to-dubai-for-happy-new-year-premiere-11706041",
+    "timestamp": "2026-06-30T19:18:23.762433+00:00",
+    "status": "rejected",
+    "content_hash": "23c8788c0b5947f639f331cf08ae9556",
+    "strict_hash": "23c8788c0b5947f639f331cf08ae9556",
+    "fuzzy_hash": "a81d6ca3e982bcb65cf0892dcf0d880b",
+    "reason": "Новость о том, как Шах Рукх Кхан привез 50 членов съемочной группы в Дубай на премьеру фильма, не имеет прямой связи с регионом (Дубай упоминается лишь как место проведения мероприятия, а не как источник новости), не представляет общественно значимой информации для русскоязычного жителя Дубая и больше похожа на развлекательный контент из мира Болливуда, а не на новость о жизни в ОАЭ."
+  },
+  {
+    "url": "https://www.coindesk.com/policy/2026/06/30/dubai-set-for-crypto-firm-influx-as-mica-deadline-pushes-companies-to-reassess-europe",
+    "timestamp": "2026-06-30T19:18:31.876345+00:00",
+    "status": "approved",
+    "content_hash": "be100a91781230493cf4e22bec6b5bc7",
+    "strict_hash": "be100a91781230493cf4e22bec6b5bc7",
+    "fuzzy_hash": "bde4c721cdcbb10de897b25a2424ba77",
+    "reason": "approved"
   }
 ]
