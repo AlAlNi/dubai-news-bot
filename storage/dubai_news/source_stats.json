@@ -1278,5 +1278,41 @@
     "strict_hash": "8890ea8e7384c6e24891593df778e3ae",
     "fuzzy_hash": "15023dc4dcc406702fded5cc69749ef4",
     "reason": "Новость о покупке щенка Кэти Прайс в Дубае не имеет прямой связи с жизнью города, его инфраструктурой или интересами русскоязычных жителей, а также носит характер светской сплетни без общественной значимости для региона."
+  },
+  {
+    "url": "https://www.marketscreener.com/news/hsbc-reportedly-in-talks-to-sell-turkey-operations-to-uae-s-emirates-nbd-ce7f5fdcdb8af427",
+    "timestamp": "2026-06-30T22:08:31.918741+00:00",
+    "status": "rejected",
+    "content_hash": "00d9bfe95827f0ad90d03fc9cd9e5035",
+    "strict_hash": "00d9bfe95827f0ad90d03fc9cd9e5035",
+    "fuzzy_hash": "8f1c2c959c92200f73f9d2eb38ecbbca",
+    "reason": "Новость о возможной продаже турецкого бизнеса HSBC банку Emirates NBD из ОАЭ имеет прямую связь с регионом (UAE), не содержит политики, рекламы или неуважения к ценностям, но текст обрывается на середине и выглядит как фрагмент финансового анализа, а не законченная новость. Кроме того, источник не указан явно, а достоверность факта не подтверждена."
+  },
+  {
+    "url": "https://techbullion.com/why-smart-businesses-are-hiring-logo-designers-in-dubai-and-web-designers-in-riyadh-right-now",
+    "timestamp": "2026-06-30T22:08:34.224428+00:00",
+    "status": "rejected",
+    "content_hash": "a5ef92f1f0c34ebc4bba89e6ac40e2e7",
+    "strict_hash": "a5ef92f1f0c34ebc4bba89e6ac40e2e7",
+    "fuzzy_hash": "2d12ebb03709cecae98060e856d18f87",
+    "reason": "Новость явно носит рекламный характер, продвигая услуги дизайнеров в Дубае и Эр-Рияде, без какой-либо общественно значимой информации или связи с актуальными событиями в регионе. Текст выглядит как типичный SEO-материал или пресс-релиз, не представляющий интереса для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/life-style/the-arts/neymar-jrs-penthouse-in-dubai-looks-straight-out-of-a-futuristic-car-game-plot-art-inspirations-to-take-away/articleshow/132089593.cms",
+    "timestamp": "2026-06-30T22:08:37.187944+00:00",
+    "status": "rejected",
+    "content_hash": "69af99e0fdf9a3de62d6deb6c4bdd530",
+    "strict_hash": "69af99e0fdf9a3de62d6deb6c4bdd530",
+    "fuzzy_hash": "c9203f6dde108930d672c189c8755ff8",
+    "reason": "Новость о пентхаусе Неймара в Дубае имеет явную связь с регионом (недвижимость в Дубае), не содержит политики, рекламы или неуважения к ценностям ОАЭ, не является дубликатом опубликованных ранее новостей (в контексте нет похожих материалов), и может быть интересна русскоязычным жителям как пример роскошного образа жизни. Однако текст обрывается и содержит признаки кликбейтного заголовка, а также не указан проверяемый источник (URL). Поэтому новость следует отклонить."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdHA0SHRwU01lTVpVYmI2M2xETjRPOGVQZkVGQ3pUQ3JXMHVpNzIxODBmN3kxajVzYmxsZGxQRDRZc0JkMVdja1lZbjhkZVpJWU5fYkFFczZNY0luZUJabzZmakNEMXpNbG50eTBtWER6VVVjTnVxUGdVXzhYWUtpYWN5aW9Qdw?oc=5",
+    "timestamp": "2026-06-30T22:08:45.030379+00:00",
+    "status": "approved",
+    "content_hash": "eddaf9a866dc51c6569c65751f9e571a",
+    "strict_hash": "eddaf9a866dc51c6569c65751f9e571a",
+    "fuzzy_hash": "86addf1f01f2e1a7417d0458496e2c11",
+    "reason": "approved"
   }
 ]
