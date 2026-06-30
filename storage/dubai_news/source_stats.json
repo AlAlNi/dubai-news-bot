@@ -1,59 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeUtRN1pCSFBqVml5X05VQVZXWnpTNU51enB6ajJSS0YxXzRlRWhOVFN5eUtwa0tYQWxzeWdKbENvdUdabHZLQXVRaVRHck1mcDFfU28yTWdqa0JLLTVRRk54S2pfRVN3U3FLcHJrNTg1UFliYnlJc25DNlFfRmRhNjZDbm1IUdIBjgFBVV95cUxOdlRaSnN4N3FjbFZYWUc4WlF6eFgyNDViMzU5MkRvb1cyQWx5bWhqdWV2V3IyT3RHb3oycmtKRjJmbkRIUjdfSlpEUzBmRjZpMmFrc2l2MDczV1J6UE9SRlpsWVZ3Sm9uUzFpajh4SXdMbF9IQ1RUdVk0aWFPMUw2cUJqMk1WZlE5cWNjXzFR?oc=5",
-    "timestamp": "2026-06-28T10:11:05.144497+00:00",
-    "status": "approved",
-    "content_hash": "ef988e79a417f9309ba602394acdde68",
-    "strict_hash": "ef988e79a417f9309ba602394acdde68",
-    "fuzzy_hash": "6b141003c3be61f6f2ca64efae3a9e6a",
-    "reason": "approved"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdzZGdW4wZEdsTm85TU1aYi1DQTc0ekg5VnFWeUtJZmNDSld0NmRzS2RkTER2SGJlejFkVlNRMi11UTB4bVlXbkpQYS1ndkNwc1BJa3VoZUNTR1FqMk8za0JXOGtLTHBuaHI4Z082dGZaYkpPblV3dm1YdXpzZVRUNGs0VUdoVzBlQkRYaXFrVHVUd285TUhnUmJJaUZ6LWlkQnVLNXhIUEdGdlk?oc=5",
-    "timestamp": "2026-06-28T11:41:12.909711+00:00",
-    "status": "approved",
-    "content_hash": "a767a168d254f9cf188271e93e41e080",
-    "strict_hash": "a767a168d254f9cf188271e93e41e080",
-    "fuzzy_hash": "2b11071a10d46e1a3d7797bfc1ad170f",
-    "reason": "approved"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRVN4QXhlOF9IR2lmU25LTUd5azJ5SGRxREpGSDFxVGFfWGg3OUt0MzltN1FSZWN1cTMteFBINFVfX3c1el9ZMkR3WmVGdlpVNl9odmk1T3ZsT3FoV2Exemh5akVwRXhLQjBjNE91bUtraFk3RXk3VEJQNEszQ3ZKSFdaR0dpVms4eVVqOXhubGR1aDZmSjk2SVlsTjRnNlllMUh3czhxODVPM2ZhSkJfb0Z1cGxWQUN5a1VIZGxR?oc=5",
-    "timestamp": "2026-06-28T12:02:22.905144+00:00",
-    "status": "rejected",
-    "content_hash": "37cdbb23f50d1b636da2cb677f2204b1",
-    "strict_hash": "37cdbb23f50d1b636da2cb677f2204b1",
-    "fuzzy_hash": "d18b3220a0e8b3cdd0c85e8b90cfaa3d",
-    "reason": "Новость является точным дубликатом уже опубликованной новости под номером 1 в контексте: \"Dubai Police warn illegal car modifications can cause fires - The National\". Заголовок и источник совпадают, хеш контента уникален, но смысл идентичен. Публикация повторной новости нарушает правило 7."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZDNvZlRPcEZBZzV1YkZFZ2hPQXZCOWxNOU9IRWpuT0syZWNNRFBUN09oaDFsckZNaDNxZ2J2Vk9KUm5LYUhpT3o2WkhLM2dicjg4aHVoX2FwMkpyOXhzT1JWTmFWVUxDcFlxMVdXRDRpSzRtUU5OM2lIUUU5TzNvMV92NTdrRl9sMUN0THVWRnYwaGlZel9tdHltLUU4Z9IBpgFBVV95cUxQM0Fra29FNnZxTmtDMlM3SUdVZm5qdFU4d3NFWm9wemdCM1VMN21IN1MzbllDQ2syenJiSGhENldMVllqOVdsUWpzcWR2ZHZjVDhqZmpYRmlmZkN1UWR5azJTU09xc1otS0FheF9fdFhLYkRCR2lXVl82NHA4NzdUNHJqbkJWU19NRXl4MzRBQ1A1NmJFMS12RDY5LXFJUFk2eG5iS1RR?oc=5",
-    "timestamp": "2026-06-28T12:02:25.761333+00:00",
-    "status": "rejected",
-    "content_hash": "d62f7e3c0aecc96f22919afdbd7a9b77",
-    "strict_hash": "d62f7e3c0aecc96f22919afdbd7a9b77",
-    "fuzzy_hash": "5ed12964dd083fe6655fdc210b20734b",
-    "reason": "Новость о предупреждении водителей в ОАЭ из-за жары и риска возгорания автомобилей напрямую связана с регионом, не содержит политики или рекламы, уважает ценности ОАЭ, выглядит естественно и полезна для русскоговорящих жителей Дубая. Однако она является дубликатом уже опубликованной новости \"Dubai Police warn illegal car modifications can cause fires\" (тема рисков возгорания автомобилей в жаркую погоду), что нарушает правило 7."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0x4dThQb0lWNndXbl9IclhtWXRpYmZVU0x0OEJLTEVxWmphVVI1NHY4VGVwRTd6Qk94RkVDaFF1bVUwZXlZOWJyeXlDenAyS0RGRDJTUXpzTVR5X2steDAzZDdsWThRaXktQll0S0diUlY4Y0tpUHRNXzB6NkhmWUdWd0lGc2I4WEJmWWJJNzNwTk9IUWVmQzVUQm50Z09SbldMNHhTMkctRVZSeExScXpjOGFhdw?oc=5",
-    "timestamp": "2026-06-28T12:02:26.123473+00:00",
-    "status": "rejected",
-    "content_hash": "c0e9cd68eaac228da9892550eb73ded9",
-    "strict_hash": "c0e9cd68eaac228da9892550eb73ded9",
-    "fuzzy_hash": "1d4f93d317a770fd8d4357090c36d2e0",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ1J6VUdVRnhaZzFjdzg4ejF4QkpPSzJfaXFOQTZQTWJkMUNSWGR0Rk91cG5BVWpKN2ttZUNiOWViYzF2dzZLZm1OVGExVzFNSFFoaExQelhhT1B1b1JvSGpaLVplbVRhZ2lCQXF2TVlra2hKZUNHeUdMNDZCV3UtYlpLeXVBMTlHVm9hdDNsZTJRYWtVWWc?oc=5",
-    "timestamp": "2026-06-28T12:02:27.798011+00:00",
-    "status": "rejected",
-    "content_hash": "e1b0736a40a9a1dd3bd5447522c820ed",
-    "strict_hash": "e1b0736a40a9a1dd3bd5447522c820ed",
-    "fuzzy_hash": "6b6bd95482f3f92c6fdddedf9e610ba6",
-    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
-  },
-  {
     "url": "https://whatson.ae/2026/06/unique-restaurants-in-dubai-that-will-completely-surprise-you",
     "timestamp": "2026-06-28T13:14:11.135329+00:00",
     "status": "rejected",
