@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/06/family-friendly-restaurants-in-dubai-where-kids-can-play-and-parents-can-relax",
-    "timestamp": "2026-06-29T16:48:43.752919+00:00",
-    "status": "rejected",
-    "content_hash": "97f9db4d160b4b5c2fc8c5eb18d66945",
-    "strict_hash": "97f9db4d160b4b5c2fc8c5eb18d66945",
-    "fuzzy_hash": "684ccb1d5539980f18c043f973ac179b",
-    "reason": "Новость представляет собой подборку ресторанов для семей с детьми, что может быть полезно для русскоговорящих жителей Дубая. Однако текст явно является рекламно-справочным материалом (пресс-релизом) без общественно значимой новостной ценности, а также содержит признаки кликбейта и не имеет проверяемого источника с конкретными фактами."
-  },
-  {
-    "url": "https://www.cryptobreaking.com/dubai-crypto-market-adds-50th",
-    "timestamp": "2026-06-29T16:49:03.408394+00:00",
-    "status": "rejected",
-    "content_hash": "6a00e24185b4a7ac3a4e9fd35637c0ea",
-    "strict_hash": "6a00e24185b4a7ac3a4e9fd35637c0ea",
-    "fuzzy_hash": "c8e4a0fbcbae3f897103f21c08ceb8f8",
-    "reason": "Новость соответствует тематике канала (Дубай, крипторегулирование), не содержит политики, рекламы или неуважения к ОАЭ, источник (VARA) проверяем. Однако она является дубликатом по смыслу с недавно опубликованными новостями о росте рынка недвижимости и лицензировании — тема «50-я лицензия VARA» уже освещалась в контексте общего роста сектора, что делает её повторной."
-  },
-  {
-    "url": "https://propertynews.ae/business/uae-and-iran-re-establish-air-links-signalling-renewed-regional-economic-activity",
-    "timestamp": "2026-06-29T19:01:30.595641+00:00",
-    "status": "approved",
-    "content_hash": "58d5006d969761a0878e00e0322f8496",
-    "strict_hash": "58d5006d969761a0878e00e0322f8496",
-    "fuzzy_hash": "4498444c28d551434dadb369008dd44d",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.express.co.uk/news/uk/2222860/mum-uk-influencer-facing-death",
     "timestamp": "2026-06-29T20:24:31.972568+00:00",
     "status": "rejected",
@@ -1266,5 +1239,10 @@
     "strict_hash": "08560789ee9fcc694ce1d710b9f6e7c1",
     "fuzzy_hash": "825895efad0891b52dd783b33d8749b7",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/indian-passport-fees-are-increasing-in-the-uae-from-july-1",
+    "timestamp": "2026-07-01T19:03:46.725539+00:00",
+    "status": "published"
   }
 ]
