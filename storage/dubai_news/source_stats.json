@@ -1,95 +1,5 @@
 [
   {
-    "url": "https://www.ladbible.com/news/uk-news/mum-brooke-george-facing-death-penalty-dubai-begs-authorities-430228-20260628",
-    "timestamp": "2026-06-29T10:07:43.042686+00:00",
-    "status": "rejected",
-    "content_hash": "56ff0bc4cb0f3d125e5bda4550cf348b",
-    "strict_hash": "56ff0bc4cb0f3d125e5bda4550cf348b",
-    "fuzzy_hash": "762b32f2db607910047f7a4739871399",
-    "reason": "Новость касается британской туристки, которой грозит смертная казнь в Дубае, что напрямую связано с регионом, но основная тема — уголовное дело и возможная смертная казнь, что является чувствительной темой, потенциально неуважительной к правовой системе ОАЭ, и не представляет интереса для русскоязычного жителя Дубая (скорее, это скандальная история для западных СМИ). Кроме того, новость имеет признаки кликбейта и не соответствует критериям полезности для местной аудитории."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUV9QWm9FUGdyaS1ibnBSQ215TTZtUE9SNXhoV1NtSnAwQV9oNkZZLWFIazc0SXhuREtCWHJoMXB1Y3J5OERjLVdDamUtc1BIeFZyTkJ1LXVJMUhVM3FPTnNraVE0MlFhRXNPUHRjcFJ2dVNhU180cGQ1eHl2RGNwb1FGZDBCS203dkM2V3czTmVOakVPRUgwOVg5T2NZbmc?oc=5",
-    "timestamp": "2026-06-29T10:07:47.413506+00:00",
-    "status": "rejected",
-    "content_hash": "cacf9a1842e2bb45cae6a8a8e83f0fcc",
-    "strict_hash": "cacf9a1842e2bb45cae6a8a8e83f0fcc",
-    "fuzzy_hash": "57743adbea7cb974f5f4328af6f74c51",
-    "reason": "Новость о том, что портфель проектов недвижимости Дубая превысил 275 млрд дирхамов в 2026 году, имеет прямую связь с регионом и представляет интерес для русскоязычных жителей, интересующихся рынком недвижимости. Однако заголовок и текст содержат явную ошибку: указан 2026 год, что выглядит как опечатка или некорректная дата (вероятно, имеется в виду 2024 или 2025 год). Это ставит под сомнение достоверность новости. Кроме того, тема дублирует уже опубликованную новость №2 («Dubai's real estate projects value top $75bln in H1»), хотя и с другими цифрами и источником, что требует дополнительной проверки на уникальность. Учитывая ошибку в дате и потенциальное дублирование, новость следует отклонить."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYVVqcmoyaEZnMzVnMF90ZEdxMkxXdVhrSnFTZDRyeVVCRTZ2emZoV3FyUXdWc3U0WU52TUZMM0t4SmJZV1BXMi13UTljM2ktMkMtMkRrdHJpYzhJYUIyM1laUGU3OGJrUmlyeTlDeWFZa1Vpb1JkOElab0ZrOUU4eGNidHFkelVJeERYQlZvOU1adm5kNmZ6MGlMMmVJVmhyeE9Zb0k2RGJKLVFLRFBNZ1ctNnRUXzcxUXpRT1BUOGFoRnZNWmVMTnpTanBMeEIxOTY1bjBad2lVUQ?oc=5",
-    "timestamp": "2026-06-29T10:07:49.590688+00:00",
-    "status": "rejected",
-    "content_hash": "6866cdb52c228742e6e27933db2f4014",
-    "strict_hash": "6866cdb52c228742e6e27933db2f4014",
-    "fuzzy_hash": "5809ae40439fc982512e318843d7dc48",
-    "reason": "Новость является дубликатом уже опубликованной новости №1 из контекста: «Dubai Holding Real Estate launches Golden Visa support for property buyers». Тема и суть идентичны, различается только источник (IndexBox вместо Gulf Business). Согласно правилу 7, такая новость должна быть отклонена."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0J4djI2V2RVXzVobUt3cXlRaUs3bGFmODJ5a21qZXlfZ2dWcjkzT05CMGctRFVPb3JnLXE1S05Yb0dxbkh6UU9td195XzNyeE5MWl9kQzBuU0QweGswYkxLZXdUVlpiT1l3V0lVSXhqVmlOV2JBdVZTUV80Zi16bUVNYThOYmRTZHNyUVk1ZTdDeHRkRjhXN1VqVUVyV0xKRTdYZWlaX2Q?oc=5",
-    "timestamp": "2026-06-29T10:07:49.923451+00:00",
-    "status": "rejected",
-    "content_hash": "19c6e54916dff95bd6cf1a990137cbd6",
-    "strict_hash": "19c6e54916dff95bd6cf1a990137cbd6",
-    "fuzzy_hash": "69ba2de18722b383e0f87c598a7715f9",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vcWM0cklUd2w5VnVFektPTDhnaXFab1ZRTnJjc3UwMG5mYnZocXVGc09oSk9MNlhHSEZxNHpFYjNPaHZqX1R0RE40UUpmUEpjaHhWMHlPZk9aQ3FnTkJ0eEl1b2FvT3NzNlFwSEhSVGZUSHlGeWJoaQ?oc=5",
-    "timestamp": "2026-06-29T10:07:51.277852+00:00",
-    "status": "rejected",
-    "content_hash": "090cceeed6b4a9a82dcc75cd4b061be3",
-    "strict_hash": "090cceeed6b4a9a82dcc75cd4b061be3",
-    "fuzzy_hash": "1441aa8a3e6b4d5bb23929bce938652b",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRlZEQ3d4WktiYUlyTVRSOTB0V3h1ZnUyQmZ6blM5Yy1zX1F2OVg0NWYtc2dzOHNvbU1XT3M0Tk4zbFZEU3ZmNThxS0M4WUY5SFdXX3ZPQzB6VE96TkZLVWhpQU5ScS1WejJEOFNHYkJhQjd4WGZkYzNxTzNjdlNicEZCV093YmFkWWdpeTNwQUx2VVJjZUtHN1ZJSXdPU3BFMENudFVWRGlkQVRTQ3phSnVVZlE1U0xjRWRxS1hDSndLdmJnZEZ4WC1wdDExUFJ6MHBVdmlZS1h3blZsY3JTNFhsRzVrNWQ3?oc=5",
-    "timestamp": "2026-06-29T10:07:52.503679+00:00",
-    "status": "rejected",
-    "content_hash": "473dbd61019c76dd7e6edfd731ada0f6",
-    "strict_hash": "473dbd61019c76dd7e6edfd731ada0f6",
-    "fuzzy_hash": "473bfd8d8d5eb8c398c78168def410e8",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMDZSUXhWck5HNGxTNFNtTHpZWDVZZl92SDRZNUVWUzIxeVlaQ2pEd3oyUHhnVEpyOW5td1haUTRDM0tFVE9VTk95TFBmTU5OWDZiSl94VFVLYkpRWlcweHllaFl2SDJpc001VTVRQ2EtMmRRUjI1RHVCZHl4UUZjdm9HX242T3M3ZHJ2Ri0wVnhfYTR5VmMxNUQwWGNLZnhMeHZZd0VJUQ?oc=5",
-    "timestamp": "2026-06-29T10:07:53.778447+00:00",
-    "status": "rejected",
-    "content_hash": "69491b1cccd212d56a7d85f263b27348",
-    "strict_hash": "69491b1cccd212d56a7d85f263b27348",
-    "fuzzy_hash": "e711a89ae7fb9550ec33a589985e21c2",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://whatson.ae/2026/06/an-immersive-vegas-style-theatre-experience-is-coming-to-wynn-al-marjan-island",
-    "timestamp": "2026-06-29T13:02:57.555719+00:00",
-    "status": "rejected",
-    "content_hash": "fd0385b7ef3ca9fd2e131eb85e965ee3",
-    "strict_hash": "fd0385b7ef3ca9fd2e131eb85e965ee3",
-    "fuzzy_hash": "613a4488885454e71d83491216616d2c",
-    "reason": "Новость о театральном шоу в Wynn Al Marjan Island в Рас-эль-Хайме (ОАЭ) имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям, не является дубликатом опубликованных новостей, интересна русскоязычным жителям как анонс культурного события. Однако источник (What's On) указан, но текст обрывается и не содержит проверяемого URL для подтверждения фактов, что нарушает правило 9."
-  },
-  {
-    "url": "https://whatson.ae/2026/06/8-things-to-do-in-dubai-this-week-june-29-to-july-2",
-    "timestamp": "2026-06-29T13:03:03.989403+00:00",
-    "status": "rejected",
-    "content_hash": "b978d7fecfadcbbb1fa5b2e841a663a6",
-    "strict_hash": "b978d7fecfadcbbb1fa5b2e841a663a6",
-    "fuzzy_hash": "a943e73febbd1012910ade910e7bb88d",
-    "reason": "Новость представляет собой анонс развлекательных мероприятий на неделю (рестораны, спа, кофе) без явной общественной значимости или пользы для русскоязычного жителя, а также выглядит как перепечатка контента с сайта What's On, что не соответствует критериям информационного канала."
-  },
-  {
-    "url": "https://emirateswoman.com/emirati-entrepreneur-ghaliya-ahli-on-redefining-wellness-as-a-way-of-life",
-    "timestamp": "2026-06-29T13:03:17.300451+00:00",
-    "status": "approved",
-    "content_hash": "e31ebe2c4a2584e79729d6d69a625c80",
-    "strict_hash": "e31ebe2c4a2584e79729d6d69a625c80",
-    "fuzzy_hash": "bbe2f072ccabc39a9c40bb4a5bb3412d",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.manilatimes.net/2026/06/29/tmt-newswire/pr-newswire/jnj-international-co-ltd-to-expand-global-distribution-network-at-automechanika-dubai-2026/2374442",
     "timestamp": "2026-06-29T14:33:34.869401+00:00",
     "status": "rejected",
@@ -1302,5 +1212,10 @@
     "strict_hash": "4ca70fe585cf2900d587995b61632c68",
     "fuzzy_hash": "e5a8044283284f1ebfb8e66d996a601a",
     "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://www.mirror.co.uk/sport/football/transfer-news/man-utd-transfer-danny-simpson-37365739",
+    "timestamp": "2026-07-01T13:38:03.678841+00:00",
+    "status": "published"
   }
 ]
