@@ -1275,5 +1275,32 @@
     "strict_hash": "9cc1cad740ba181e5694f08ba719f6d1",
     "fuzzy_hash": "2d2ace0f829351f970b6fd1e32b3426d",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/these-prestigious-british-schools-are-all-set-to-open-in-the-uae",
+    "timestamp": "2026-07-01T11:16:43.428440+00:00",
+    "status": "rejected",
+    "content_hash": "db9b3449c884488b3d11d214d970f462",
+    "strict_hash": "db9b3449c884488b3d11d214d970f462",
+    "fuzzy_hash": "471cd2cbe45c4ad8ca3b434dad777962",
+    "reason": "Новость о престижных британских школах, открывающихся в ОАЭ, напрямую связана с регионом, не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и будет полезна русскоязычным жителям Дубая с детьми. Однако источник (What's On) указан, но ссылка не ведёт на конкретный проверяемый URL, что нарушает правило 9. Кроме того, тема образования уже могла освещаться в канале, но по предоставленному контексту дубликатов нет."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/whats-on-abu-dhabi-awards-2026-the-highly-commended",
+    "timestamp": "2026-07-01T11:16:49.926299+00:00",
+    "status": "rejected",
+    "content_hash": "a4a2cb22f67a5b0a8b35c024f459f86a",
+    "strict_hash": "a4a2cb22f67a5b0a8b35c024f459f86a",
+    "fuzzy_hash": "9f1ec001c016b17e5fd21326f26a1f0f",
+    "reason": "Новость посвящена премии What’s On Abu Dhabi Awards 2026, что относится к Абу-Даби, а не к Дубаю. Хотя регион ОАЭ, связь с Дубаем отсутствует, а текст носит характер рекламного анонса без общественно значимой информации для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/whats-on-abu-dhabi-awards-2026-the-party",
+    "timestamp": "2026-07-01T11:16:55.845298+00:00",
+    "status": "rejected",
+    "content_hash": "4ca70fe585cf2900d587995b61632c68",
+    "strict_hash": "4ca70fe585cf2900d587995b61632c68",
+    "fuzzy_hash": "e5a8044283284f1ebfb8e66d996a601a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
   }
 ]
