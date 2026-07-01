@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.hindustantimes.com/real-estate/why-abu-dhabi-is-preferred-over-dubai-for-real-estate-investments-amid-us-iran-war-101782642361699.html",
-    "timestamp": "2026-06-28T22:53:32.890894+00:00",
-    "status": "rejected",
-    "content_hash": "4544927035f7ca26953b62badca58d68",
-    "strict_hash": "4544927035f7ca26953b62badca58d68",
-    "fuzzy_hash": "2d50c0967725720ee44d4507fadf6aae",
-    "reason": "Новость сравнивает Дубай и Абу-Даби в контексте инвестиций на фоне упоминания войны между США и Ираном, что нарушает правило 2 (политика и конфликты) и правило 4 (неуважение к ценностям UAE, так как тема войны может быть чувствительной). Кроме того, текст выглядит как рекламный пресс-релиз с явным продвижением Абу-Даби, что не соответствует правилу 3. Связь с Дубаем слабая, а интерес для русскоговорящего жителя сомнительный."
-  },
-  {
-    "url": "https://www.dailystar.co.uk/news/latest-news/small-suburban-town-known-cakes-37347213",
-    "timestamp": "2026-06-28T22:53:34.866606+00:00",
-    "status": "rejected",
-    "content_hash": "3697f6a4ae0343f63435d4be84ee1f47",
-    "strict_hash": "3697f6a4ae0343f63435d4be84ee1f47",
-    "fuzzy_hash": "d527c18a5132be0bffc81f58526e1269",
-    "reason": "Новость не имеет никакого отношения к Дубаю, ОАЭ или региону GCC. Это локальная история о британском городе, который местный политик сравнил с Дубаем в рамках риторики о развитии. Такое сравнение не создаёт реальной связи с регионом и не представляет интереса для русскоязычного жителя Дубая."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQW1OaDlwVVZjNm1meVdQSE45RmNYY0xGeG02OHlOZHFhQklVSmQ4bHFDTGJFeW5nQnRHRTNuV1Fwb3pBby1DMmN2aVdXVnVhTTRqb29SREI5Q2Mybk1HcEJkQmV4a0N1ZVlVOWg0TExoazl6UXhnTmtKTGl0Zm5jZDZCWU1xTFZPVjNMN2lyZmJWcERldTdpaTRya25tM2pQb0FNV0tLamtpdnJsNTVIdFhR0gHEAUFVX3lxTFBfcGlubFhIR1pLR1BoaHYyTTczUGpiTHpwT3pERDcxZU80T29fbUJGbHprVGh4YlJjaWtMRGxLbGg0a0I1YnVMTXFTNFNYM2VGaDlQQjg3emt0Qmc2eHpVMGJ0Mkg4NWMycVFRcHNtbndrS3IyclJsdFpIUXJpdTU1UmdTbjNCMnJjSEZOUEtSd1ZibnNnSmJvU3Fzc29NUFNIeGRBMGl5cHRtMVlnZ09aSHFkdEtjMFA5WndvMzU5TTE3WWc?oc=5",
-    "timestamp": "2026-06-28T22:53:36.959082+00:00",
-    "status": "rejected",
-    "content_hash": "b1517633032a675f3a5c5344e19ecca8",
-    "strict_hash": "b1517633032a675f3a5c5344e19ecca8",
-    "fuzzy_hash": "096c09a22ef60a9f83c41f37913ec11d",
-    "reason": "Новость является дубликатом уже опубликованной новости №1 из контекста (Dubai's RTA expands strategic partnerships with leading Chinese firms). Тема и источник практически идентичны, что нарушает правило №7."
-  },
-  {
     "url": "https://whatson.ae/2026/06/steps-to-replace-a-lost-or-damaged-emirates-id",
     "timestamp": "2026-06-29T03:58:58.156087+00:00",
     "status": "rejected",
@@ -1296,5 +1269,10 @@
     "strict_hash": "d50a620747acd9757566279f449b5687",
     "fuzzy_hash": "3ff3d4de640ffc4df9a6040622324106",
     "reason": "approved"
+  },
+  {
+    "url": "https://indianexpress.com/article/world/etihad-rail-uae-first-passenger-train-abu-dhabi-fujairah-tickets-route-10764216",
+    "timestamp": "2026-07-01T00:16:27.982585+00:00",
+    "status": "published"
   }
 ]
