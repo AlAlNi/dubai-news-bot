@@ -1263,5 +1263,41 @@
     "strict_hash": "765c891ad31df8bc2d9a5970f74e93ca",
     "fuzzy_hash": "8d2a32f463e866a54b29f0a50c838f4c",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/new-restaurants-in-dubai-july-2026",
+    "timestamp": "2026-07-02T02:09:16.654401+00:00",
+    "status": "rejected",
+    "content_hash": "2b56761358b0dcac9ca724062629c575",
+    "strict_hash": "2b56761358b0dcac9ca724062629c575",
+    "fuzzy_hash": "eb45b01f56b6a027e2862aebb27f7fb3",
+    "reason": "Cheap prefilter: слишком короткий текст (110 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/july-2026-dubai-changes",
+    "timestamp": "2026-07-02T02:09:23.279184+00:00",
+    "status": "rejected",
+    "content_hash": "26e47138d539d80420e90fd8c166d807",
+    "strict_hash": "26e47138d539d80420e90fd8c166d807",
+    "fuzzy_hash": "d7f90b5bf72f78c2fbb0b48ad7e96736",
+    "reason": "Cheap prefilter: слишком короткий текст (93 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/england-dr-congo-dubai",
+    "timestamp": "2026-07-02T02:09:28.384465+00:00",
+    "status": "rejected",
+    "content_hash": "2e095f07c73bfd2c862bf199dd3aa1d3",
+    "strict_hash": "2e095f07c73bfd2c862bf199dd3aa1d3",
+    "fuzzy_hash": "386a5315ea0658e243b0a88b75dbfdc4",
+    "reason": "Cheap prefilter: слишком короткий текст (95 символов)"
+  },
+  {
+    "url": "https://www.timesnownews.com/mumbai/dubai-court-bars-mumbai-based-events-promoter-from-leaving-country-after-cheating-partner-of-7-70-crores-article-154822950",
+    "timestamp": "2026-07-02T02:09:35.961538+00:00",
+    "status": "approved",
+    "content_hash": "42e77b2ed0a0aba67553c00a4f2d5281",
+    "strict_hash": "42e77b2ed0a0aba67553c00a4f2d5281",
+    "fuzzy_hash": "d35a64283a15d494fcd15f495e7aa17f",
+    "reason": "approved"
   }
 ]
