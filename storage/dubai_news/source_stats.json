@@ -1237,5 +1237,23 @@
     "strict_hash": "8004d2c4c293eca546a1482fa0a0fcea",
     "fuzzy_hash": "a6a34568c11e3da877fecedfc0a0a463",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/uae-property-market-shifts-towards-data-driven-decisions-and-enhanced-accountability",
+    "timestamp": "2026-07-02T09:51:22.095559+00:00",
+    "status": "rejected",
+    "content_hash": "de40c39c1f2349401f0c4a7b315cd70b",
+    "strict_hash": "de40c39c1f2349401f0c4a7b315cd70b",
+    "fuzzy_hash": "bf790608a432423c312de12eefa12804",
+    "reason": "Новость носит общий аналитический характер о рынке недвижимости ОАЭ, но не содержит конкретных фактов, дат, событий или ссылок на проверяемые источники. Текст выглядит как обобщённый пресс-релиз или аналитическая заметка без новостного повода, что нарушает правило 3 (рекламный/пресс-релизный характер) и правило 9 (отсутствие проверяемого источника). Кроме того, новость не представляет явной практической пользы для русскоговорящего жителя Дубая (правило 6)."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-property-portals-urged-to-enhance-verification-of-listings",
+    "timestamp": "2026-07-02T09:51:28.816396+00:00",
+    "status": "approved",
+    "content_hash": "f45f50f46b14b8ce3c438b8055571809",
+    "strict_hash": "f45f50f46b14b8ce3c438b8055571809",
+    "fuzzy_hash": "63ccd319c69ba6e9a9280230f7fa6d9c",
+    "reason": "approved"
   }
 ]
