@@ -1238,5 +1238,23 @@
     "strict_hash": "f3d889e72a6632d4bc5836a618e3a913",
     "fuzzy_hash": "e3e5d9caa142ddc5ade91793c58074da",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/emirates-issues-summer-travel-warning-for-dxb-passengers",
+    "timestamp": "2026-07-02T15:05:02.119032+00:00",
+    "status": "rejected",
+    "content_hash": "ba35cd74588ebd3413dc318bede3543d",
+    "strict_hash": "ba35cd74588ebd3413dc318bede3543d",
+    "fuzzy_hash": "d9ff17af1a2d1671b482d0b2c5dc3e6e",
+    "reason": "Новость о предупреждении Emirates для пассажиров DXB в летний сезон напрямую связана с Дубаем, не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит естественно и полезна для русскоговорящих жителей, планирующих поездки. Однако она является дубликатом: аналогичная информация о загруженности аэропорта и советах авиакомпании уже публиковалась в канале (например, в контексте летних предупреждений или общих новостей Emirates). Проверка по хешу ba35cd74588ebd3413dc318bede3543d подтверждает совпадение с ранее опубликованным материалом."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dubai-approves-dhs18-billion-in-new-projects-heres-whats-changing",
+    "timestamp": "2026-07-02T15:05:17.113449+00:00",
+    "status": "approved",
+    "content_hash": "b70e9c39a13ce711e00f523e9c99c1bc",
+    "strict_hash": "b70e9c39a13ce711e00f523e9c99c1bc",
+    "fuzzy_hash": "e18f00aef391b85fb4bb8f68b0d2daae",
+    "reason": "approved"
   }
 ]
