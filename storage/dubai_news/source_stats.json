@@ -1311,5 +1311,59 @@
     "strict_hash": "f74d9dd84b9e097077aafd76f11f7e45",
     "fuzzy_hash": "92488d36c6962e77167f70bde02470be",
     "reason": "Новость о британском инфлюенсере, обвиняемом в убийстве в Дубае, содержит криминальную историю с потенциально сенсационным и кликбейтным характером, а также упоминает возможный смертный приговор, что может быть воспринято как неуважение к правовой системе ОАЭ. Кроме того, тема не представляет прямой пользы или интереса для русскоязычного жителя Дубая, а скорее является таблоидной хроникой."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/07/02/dubai-infrastructure-heat-preparedness",
+    "timestamp": "2026-07-02T21:58:55.292438+00:00",
+    "status": "rejected",
+    "content_hash": "13da458be99b41a9763e0e31a2e05da6",
+    "strict_hash": "13da458be99b41a9763e0e31a2e05da6",
+    "fuzzy_hash": "87a40d76e0356d7dab8c0340283882fd",
+    "reason": "Новость сообщает о заседании Исполнительного совета Дубая под руководством наследного принца, где были одобрены проекты в различных сферах. Это официальная информация, связанная с регионом, не содержит политики, рекламы или неуважения, но текст выглядит как фрагмент пресс-релиза с признаками ИИ-генерации (обрыв предложения, ссылка на Twitter) и не имеет проверяемого источника (URL не указан). Кроме того, новость не представляет явной практической пользы для русскоговорящего жителя Дубая, так как не содержит конкретных деталей или изменений."
+  },
+  {
+    "url": "https://www.scmp.com/economy/article/3359174/chinese-built-passenger-railway-debuts-uae-boost-beijings-eurasian-ambitions",
+    "timestamp": "2026-07-02T21:59:11.343409+00:00",
+    "status": "rejected",
+    "content_hash": "833ef428509c18bb3e373d8fbc69a5b9",
+    "strict_hash": "833ef428509c18bb3e373d8fbc69a5b9",
+    "fuzzy_hash": "9bc81407d6d3bfe9f8f91f69f84200dd",
+    "reason": "Новость о запуске пассажирской железной дороги в ОАЭ с участием китайских подрядчиков имеет прямое отношение к региону, но акцент сделан на геополитических амбициях Китая, что нарушает правило №2 (политика и конфликты). Кроме того, тема не представляет непосредственного интереса для русскоговорящего жителя Дубая (правило №6), а также не является проверяемым сервис-апдейтом или регуляторным изменением."
+  },
+  {
+    "url": "https://www.thesun.ie/tvandshowbiz/17220342/katie-price-misses-podcast-dubai-return-lee-andrews",
+    "timestamp": "2026-07-02T21:59:13.895962+00:00",
+    "status": "rejected",
+    "content_hash": "8d6c6a6a0db6bf22780ba49a2e0def93",
+    "strict_hash": "8d6c6a6a0db6bf22780ba49a2e0def93",
+    "fuzzy_hash": "f2bef84032643b01069ebb0bb0406059",
+    "reason": "Новость о Кэти Прайс, которая пропустила подкаст из-за возвращения в Дубай, имеет слабую связь с регионом (упоминание Дубая как места, куда она вернулась), но не представляет интереса для русскоязычного жителя Дубая — это светская сплетня о британской знаменитости без общественно значимой или полезной информации. Новость не соответствует критерию полезности и интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://www.thesun.co.uk/tvandshowbiz/39619226/katie-price-misses-podcast-dubai-return-lee-andrews",
+    "timestamp": "2026-07-02T21:59:15.834313+00:00",
+    "status": "rejected",
+    "content_hash": "17859df312716276ec75dd5d0dda7c32",
+    "strict_hash": "17859df312716276ec75dd5d0dda7c32",
+    "fuzzy_hash": "34e9aa1ac2fb5e739e2e842a6eb51944",
+    "reason": "Новость о Кэти Прайс, которая пропустила подкаст из-за возвращения в Дубай, не представляет интереса для русскоязычного жителя Дубая и не имеет общественной значимости для региона. Это светская сплетня о зарубежной знаменитости, не связанная с жизнью в ОАЭ."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05VFlZa084aHVlakh0RWlVTFcyT0RPQVJpeHpEQmY4bWZ5eHY3V0QwSHF5WVlMdFlqMUxJM0NUOFdNUXQ0Smg2RlZCeTMtNzctTDBFSjRLVEduN05rSE1TQWpGbElxWkRyYkhwRldnQVNweUh5V2Z0MGx3?oc=5",
+    "timestamp": "2026-07-02T21:59:19.418273+00:00",
+    "status": "rejected",
+    "content_hash": "353b13ab8115b7cbdaf5bd9dc6d4fe0d",
+    "strict_hash": "353b13ab8115b7cbdaf5bd9dc6d4fe0d",
+    "fuzzy_hash": "6120156e1bf33f4f3f17a4bc111ec6d7",
+    "reason": "Новость имеет явную связь с Дубаем, но её заголовок и содержание (упоминание \"postwar\" и \"shattered image\") могут быть восприняты как неуважение к ОАЭ, а также содержат элементы политического контекста и кликбейта. Кроме того, отсутствует проверяемый источник и текст выглядит как фрагмент, а не полноценная новость."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX2plZ1pPTWxlVTB5eG1lVjRjY2dPcnY2UE80Y3hEaGtnc2NxMHcwaTRMRUpKblRNXzNEb0pPSG9iS25YYk1Cb2tKbWFMeUxfYkR0QlQ0bEJkd1lYakhKdzZKS3I4eW94NzVTLUJVanU2RkdHM0ExVzNFbFVYbF9Gblh4bllMLTUtOFQ4WXctenN4RXlSZk5HY2szQjBvZUVwOUZoTA?oc=5",
+    "timestamp": "2026-07-02T21:59:26.035741+00:00",
+    "status": "approved",
+    "content_hash": "d11f27a552cc14111fd3d2bfb69b3219",
+    "strict_hash": "d11f27a552cc14111fd3d2bfb69b3219",
+    "fuzzy_hash": "d5cd01c88b64de34186000cb537f60f3",
+    "reason": "approved"
   }
 ]
