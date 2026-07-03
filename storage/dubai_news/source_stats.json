@@ -1266,5 +1266,86 @@
     "strict_hash": "cb1ed2a57367b32a24cb06d282586dc1",
     "fuzzy_hash": "c488cda428a98c81fa6acac2a1bcf7d9",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.mirror.co.uk/3am/celebrity-news/katie-price-missing-podcast-dubai-37377330",
+    "timestamp": "2026-07-03T01:09:54.564976+00:00",
+    "status": "rejected",
+    "content_hash": "f896d9c2a7c641e870e94ad7d6320d52",
+    "strict_hash": "f896d9c2a7c641e870e94ad7d6320d52",
+    "fuzzy_hash": "49d3d8a3d5292e5339f613b8096eeece",
+    "reason": "Новость о британской модели Кэти Прайс, пропускающей работу ради отдыха в Дубае, не имеет общественной значимости для русскоязычных жителей региона, носит характер светской сплетни и не соответствует критериям полезности и интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://techbullion.com/villa-movers-and-packers-in-dubai-complete-home-relocation-services",
+    "timestamp": "2026-07-03T01:09:56.284650+00:00",
+    "status": "rejected",
+    "content_hash": "88067b8463b9beeb95be559239f80487",
+    "strict_hash": "88067b8463b9beeb95be559239f80487",
+    "fuzzy_hash": "d66bc0a299c38cc7b1b33bb84810959b",
+    "reason": "Новость явно является рекламным текстом о компании по переездам, не содержит общественно значимой информации и не представляет интереса для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajF1WkRDNFphamtHTEVyQU56UDhDTDlWU1FpYVBNbEZfQUo3Q1dxcEdob0lCc3pUTklCeXhWbUU2VGtoSGpSbG5vX2h6QWxpUExSREhhYUdkSHB6cGZtYmZDUUVJb3dVOW43X0NrcC01TGJOQTdZU0hTQTlkRURyY1hfYVJ1TGZ4d2dZYUhMNWVGcW5kd3lsM2w5Z0JmVGZsTEZEbWIxNkZZTENFd1FWVlhmYVROOGo3U3ItcTFTbjI?oc=5",
+    "timestamp": "2026-07-03T01:09:58.598140+00:00",
+    "status": "rejected",
+    "content_hash": "230c9e2d1008e4f08520e1c34086f796",
+    "strict_hash": "230c9e2d1008e4f08520e1c34086f796",
+    "fuzzy_hash": "d9c877c0d8146242c15b521aa08a86f8",
+    "reason": "Новость содержит упоминание \"Iran War Hit\", что является прямой отсылкой к военному конфликту и большой политике, что нарушает правило №2. Кроме того, заголовок носит спекулятивный и кликбейтный характер, а источник (Skift) не является официальным или проверяемым для данного контекста."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY0ozUHpUMFdWOXJPVFdBRzkzZWJzNUZ2MkIxR2VzRGRRdW1abEF3VUF5cVNaZ3NqRl84bE45QVEzZGVrc0ZYR1FSeHNNUm8yaVdMUHdtN3dLWUNNMkkwQjdwaEtCeUxXR293ZmxVX2JwQkFKdmxVdDlIV3ZQMFVNMUNGR1ExMTRBRUJPV3VR?oc=5",
+    "timestamp": "2026-07-03T01:10:00.891581+00:00",
+    "status": "rejected",
+    "content_hash": "5a8cf14bf1a6796d6df075ea1d73505c",
+    "strict_hash": "5a8cf14bf1a6796d6df075ea1d73505c",
+    "fuzzy_hash": "319bc3ae9f3516b49fec92c9789c5296",
+    "reason": "Новость о детской пиццерии в Дубае имеет явную связь с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст естественен и может быть интересен русскоговорящим жителям с детьми. Однако источник (Yahoo) не является официальным или проверяемым для локального контекста, а новость выглядит как развлекательный анонс без общественной значимости, что снижает её полезность для канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR0dqdHhFTzZyLTIwdklraGZNMWFqV1ZIcGtyVEFDcDFHTHFXSzk0NGJKT2lScmVOV3JaLTdDb2JfMHg2UFRVZEZYYWVpaXF0TjdYWjBMX19vdTJRZDlnU1dJYzZKUDFVZmpBYV9LSmU5V0lNYVcxcTJPWGhUUDBMYzR5QUl3X1Z3WHJ3SDM2MUtyTlNNMkZ0b0piTzlYWm8?oc=5",
+    "timestamp": "2026-07-03T01:10:01.867214+00:00",
+    "status": "rejected",
+    "content_hash": "2879192eef25e81cfe812a63a91e02f7",
+    "strict_hash": "2879192eef25e81cfe812a63a91e02f7",
+    "fuzzy_hash": "2761b95ab2d340352fa75daa8f36b6a6",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWU1xcFAwM2ZoUHl0WDVIWnlsX1R5bTFJZHdYUTFoSmFCMzlCemVaQlphRGZoWTduUm50eTZGU0NuZG9TRzQ5NGp2NjNuN3d1X2huUXl4OW0wbFVWSXhaU20xYUNlc0w4Rm8wMFlyQ1Q2SFhIQWtmelhNd1gyU3RUMVpPcG85RGJtRjh5MWNFMXhxYUdaeXAwQzRyVXJGUzJsRlExYVYzNkdxLVRRbTRZRmRqWnBka3Q20gHLAUFVX3lxTFBOandhazM5cWZIMFhXYW04bEpHZkJIcTJsLTU3YTFtMHVidVlJWWtMRGNEME0xanlwNmNMblpLT0pBaFF2dkxtR0cyVlJES2cxU2Q0SzhYdW1jVjlUcjdabFc1WjJLWEh2djBMamVlbVdLMXotSXNxdC04S3l6MTVzeUY4bWgxVnVvRkVBbm1FU0hnUFFvSFViWlY4c1lRZXA4MExNcnZFanZDeFd3NUl6d0pnQXZwR2s2SmNGSmlqSFZhQjkyNTJQLTNN?oc=5",
+    "timestamp": "2026-07-03T01:10:03.554347+00:00",
+    "status": "rejected",
+    "content_hash": "918a951b70759964551e459d23b9fbdd",
+    "strict_hash": "918a951b70759964551e459d23b9fbdd",
+    "fuzzy_hash": "286d045e13e0417757716980260208f8",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wSXI0VW0tMlJfUDloOHBCcjhhY1k4M0diX2tqRi0zRnZjSkZwQjYwM2lDX09HYXRpS19Ba2htWXJUSm1XcWp4NWtqQm9BMDA5N0xJ?oc=5",
+    "timestamp": "2026-07-03T01:10:05.455076+00:00",
+    "status": "rejected",
+    "content_hash": "5971006312fcb24584fe81cf7ccb8523",
+    "strict_hash": "5971006312fcb24584fe81cf7ccb8523",
+    "fuzzy_hash": "3dd3d254b369ce4ca2453ad2f59fa698",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JTzNDV0xoNWtodk1VSVQtemd2OE5PSnVmS21EVm1Sd0ZrVmliRkV4eDk1YkZjVTlxaXl3WEl3MFpBNFpldHVHMnlSX29kbTJ3azZObEUtMGM2cmFEamxySjNubHFqX2h0ZU5SUm5pa3JBbWk1dUI2WnpwVdIBgwFBVV95cUxOM2x3T1hTc3NLREMzRlZtME9NT0gzeXRMSXhtdVRVRTI4VEtSb01mN2xxOEJlRUtXdURsTzUxYjVwUUZmbzgwdEwwVTZRMWI2bnhTZG5ZRjBpaUZ0SWtqWlpVa0t3dVRhMGk2TVIyc3FmbUU1bkxSbnlwWlgwWGw4VjRkSQ?oc=5",
+    "timestamp": "2026-07-03T01:10:07.430178+00:00",
+    "status": "rejected",
+    "content_hash": "40c31b4d296e63157a0f230c7c60bab5",
+    "strict_hash": "40c31b4d296e63157a0f230c7c60bab5",
+    "fuzzy_hash": "6263332653e8d00cbdcc9387aab7b52d",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTkFPc1lqMHlMWnJLeF84aDJlZFZrU1ZlM1hBekFoajVTVjRyUG9STFhkWW5GTXVFQ0tmTlNoYnY4OHZNdl9Xc2ZZcjdJUEJiYldJd2c1REJteElYZDNManV2WFF6NnJ0dUJnSjRLUVJUa0U5UENRdFpRRHlWdF9XSkxZVWZ5WEhlUy1ZODZVNER2andN?oc=5",
+    "timestamp": "2026-07-03T01:10:09.234862+00:00",
+    "status": "rejected",
+    "content_hash": "6a09b14a5c905c1b0fa0f51e6ee87ed6",
+    "strict_hash": "6a09b14a5c905c1b0fa0f51e6ee87ed6",
+    "fuzzy_hash": "9787ca07a3984eaa4627204d0cb55489",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
