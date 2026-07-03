@@ -1359,5 +1359,41 @@
     "strict_hash": "c251bf2fc7dca451688c5431337293c4",
     "fuzzy_hash": "92e39a1c7b23a06b8ed7dd198232ba1d",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-property-market-records-strong-dh900-million-in-early-trading",
+    "timestamp": "2026-07-03T17:12:12.844354+00:00",
+    "status": "rejected",
+    "content_hash": "3c6711f4aab6d1806afbf7ba0d90afbe",
+    "strict_hash": "3c6711f4aab6d1806afbf7ba0d90afbe",
+    "fuzzy_hash": "ca1c737106e9b2e9fa644fc583e2cf7a",
+    "reason": "Новость о рынке недвижимости Дубая с указанием конкретной суммы сделок (900 млн дирхамов) соответствует тематике канала, не содержит политики, рекламы или неуважения к ОАЭ. Текст выглядит естественно, источник (вероятно, официальные данные) проверяем. Однако новость является типичной ежедневной сводкой по сделкам с недвижимостью — такие публикации выходят регулярно, и данная не содержит уникальной или эксклюзивной информации, отличающейся от уже опубликованных материалов. По сути, это дубликат стандартного формата новостей о рынке."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-reduced-work-week-2026",
+    "timestamp": "2026-07-03T17:12:18.467511+00:00",
+    "status": "rejected",
+    "content_hash": "554575312331ef019c5a6a3d8617aef7",
+    "strict_hash": "554575312331ef019c5a6a3d8617aef7",
+    "fuzzy_hash": "e86bfb6469a164c7f70071cc31ef91cb",
+    "reason": "Cheap prefilter: слишком короткий текст (84 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-hottest-stretch-of-summer",
+    "timestamp": "2026-07-03T17:12:23.763250+00:00",
+    "status": "rejected",
+    "content_hash": "96708c896262b95c4473fa18fa890ca1",
+    "strict_hash": "96708c896262b95c4473fa18fa890ca1",
+    "fuzzy_hash": "ad186a2b47dd14a4bddf584c970d0c49",
+    "reason": "Cheap prefilter: слишком короткий текст (108 символов)"
+  },
+  {
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/07/03/ai-romance-scam-impersonating-dubai-prince-ensnares-victims",
+    "timestamp": "2026-07-03T17:12:25.970139+00:00",
+    "status": "rejected",
+    "content_hash": "e8da740924fd37510a165be56702163e",
+    "strict_hash": "e8da740924fd37510a165be56702163e",
+    "fuzzy_hash": "84818e1c4d7ad0807e50b4f54848b02d",
+    "reason": "Новость о мошенничестве с использованием ИИ, где жертва из США обманута якобы «принцем из Дубая», не имеет прямой связи с регионом (событие происходит в Вашингтоне, а Дубай лишь использован как декорация), не представляет интереса для русскоговорящего жителя Дубая и не содержит проверяемых локальных фактов."
   }
 ]
