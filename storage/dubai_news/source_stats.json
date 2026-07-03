@@ -1377,5 +1377,32 @@
     "strict_hash": "3b5b64a4d2329d2a2e29988fd0db7eb2",
     "fuzzy_hash": "c11fe10b077604ea64e2093f34136431",
     "reason": "approved"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VdWR4Vk9oQ19IVTQ2NVJxNFdNZlJBSzlWd2tKeU5tdnZ5andTRnA4N1hCM3Q3cFZwSENfQm80bldmNWZGbWZnVWlFOURMSFB0NFhtWHlsRlQzZw?oc=5",
+    "timestamp": "2026-07-03T19:00:30.305659+00:00",
+    "status": "rejected",
+    "content_hash": "151c4d12ca533bdf6670552b7baeae68",
+    "strict_hash": "151c4d12ca533bdf6670552b7baeae68",
+    "fuzzy_hash": "3fa66f5b6198baca5edda910104e0c6e",
+    "reason": "Новость о матери тикток-блогера, обвиняемого в убийстве в Дубае, имеет прямую связь с регионом (Дубай) и не является рекламой или политикой. Однако она содержит криминальную тематику, которая может быть воспринята как неуважение к ценностям ОАЭ (пункт 4), а также не представляет очевидной пользы или интереса для русскоязычного жителя Дубая (пункт 6). Кроме того, это не service-update и не регуляторное изменение."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTmE5c2dpTlRfbllBR0g0Qy1fc2sydE9Mcm5kMGlyWGl5MTVlZzF6XzJHS1F4MDEzZ3U2MEI0OVFlbENud3IzRUlhcTBTQmJNWlJPOWFPVzZCUEZ3NWpGMERwUDZyeEVDb0k5NVl3WkZ2LXZmajdKdTVQZ2N6eXFJbldSbkRWSEFiMVNjeQ?oc=5",
+    "timestamp": "2026-07-03T19:00:33.693122+00:00",
+    "status": "rejected",
+    "content_hash": "a23fb3b617b74b2f0ca186b734133292",
+    "strict_hash": "a23fb3b617b74b2f0ca186b734133292",
+    "fuzzy_hash": "ecba0a96aee29360466e60a4156be190",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на предстоящие выходные в Дубае от авторитетного издания Time Out. Она соответствует критериям по связи с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, а также будет полезна русскоязычным жителям, ищущим досуг. Однако дата указана как 3-5 июля 2026 года, что выглядит как опечатка или ошибка (возможно, имелся в виду 2025 год), что ставит под сомнение достоверность и актуальность информации. Кроме того, в контексте нет явных дубликатов, но заголовок и текст слишком короткие и не содержат проверяемых фактов."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOc1JhRHpFVFAwb0dZeDJMMXdQT3p2alpvVDRnbnU3aVFnb3pGajFnTXNMNXdGa1pQbWhtMG41TkJTaVE1YlZxdVcxNW5UVHgtbDREdTl0bWlsY1lLZ1V4N1hnSDNyb1dxdE85dWVLU3J2V2k2UVVjN1l3VWhoWndZbFlJWllpWTlqMHBObDYydjY2RUxfcUVvVlFLcThaa2M3aWZkRDYybjE1RDRYaHJkRGVPTHZpSllrNDJtX25TNnZ5MmVIRjY1T1VneVVlczIybXczNzZIdw?oc=5",
+    "timestamp": "2026-07-03T19:00:34.473594+00:00",
+    "status": "rejected",
+    "content_hash": "97216185ab0b067b8b9f95398655a1e9",
+    "strict_hash": "97216185ab0b067b8b9f95398655a1e9",
+    "fuzzy_hash": "37606e0c6d150b2c96a12ee3c5a5539c",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
