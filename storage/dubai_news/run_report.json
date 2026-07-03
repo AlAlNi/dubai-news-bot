@@ -1,78 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-06-25T19:00:22.655434+00:00",
-    "finished_at": "2026-06-25T19:00:58.193544+00:00",
-    "duration_seconds": 35.538,
-    "success": true,
-    "counters": {
-      "attempts_made": 2,
-      "fetched": 1,
-      "rejected": 0,
-      "approved": 1,
-      "deepseek_calls": 2,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 0,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-06-25",
-      "daily": {
-        "published_per_day": {
-          "value": 3,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 86.96,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "whatson.ae",
-            "events": 14,
-            "reject_rate": 85.71,
-            "duplicate_rate": 50.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 16,
-            "reject_rate": 81.25,
-            "duplicate_rate": 6.25
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-06-25T19:26:30.898833+00:00",
     "finished_at": "2026-06-25T19:26:59.166326+00:00",
     "duration_seconds": 28.267,
@@ -20825,6 +20753,108 @@
             "events": 11,
             "reject_rate": 72.73,
             "duplicate_rate": 36.36
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-07-03T05:42:23.082637+00:00",
+    "finished_at": "2026-07-03T05:43:30.237013+00:00",
+    "duration_seconds": 67.154,
+    "success": true,
+    "counters": {
+      "attempts_made": 3,
+      "fetched": 4,
+      "rejected": 3,
+      "approved": 1,
+      "deepseek_calls": 5,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 0,
+      "google_rss_fetches": 2,
+      "reserve_fetches": 2,
+      "rss_fetches": 4,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-07-03",
+      "daily": {
+        "published_per_day": {
+          "value": 0,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 95.83,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.thesun.co.uk",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.mirror.co.uk",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "emirateswoman.com",
+            "events": 5,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.timeoutdubai.com",
+            "events": 9,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 74,
+            "reject_rate": 87.84,
+            "duplicate_rate": 17.57
+          },
+          {
+            "source": "whatson.ae",
+            "events": 13,
+            "reject_rate": 76.92,
+            "duplicate_rate": 38.46
+          },
+          {
+            "source": "www.hindustantimes.com",
+            "events": 4,
+            "reject_rate": 75.0,
+            "duplicate_rate": 0.0
           }
         ],
         "add_sources_ab_test_7d": [

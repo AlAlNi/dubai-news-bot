@@ -1387,5 +1387,41 @@
     "strict_hash": "750b4f2c41286899b615aa57ef275acb",
     "fuzzy_hash": "35c8f592da92a41138791fe6631b0578",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/15-brilliant-summer-pool-day-deals-in-dubai",
+    "timestamp": "2026-07-03T05:42:57.658346+00:00",
+    "status": "rejected",
+    "content_hash": "b92a4fe472ef364b643a931e2e181db7",
+    "strict_hash": "b92a4fe472ef364b643a931e2e181db7",
+    "fuzzy_hash": "4a8f48eee12f3716b0116f438372395a",
+    "reason": "Новость представляет собой подборку летних акций и скидок в бассейнах и пляжных клубах Дубая, что соответствует правилу №1 (связь с регионом) и может быть полезно русскоязычным жителям (правило №6). Однако текст явно носит рекламный характер, является анонсом коммерческих предложений без общественно значимой новости, что нарушает правило №3. Кроме того, это типичный пример контента, который часто дублируется в каналах, и не соответствует критериям \"страховочных\" форматов (правило №8)."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/world-cup-2026-round-of-16-kick-off-times-in-the-uae",
+    "timestamp": "2026-07-03T05:43:06.092516+00:00",
+    "status": "rejected",
+    "content_hash": "8b4f6e83286ee43a0ceb33057fa7150a",
+    "strict_hash": "8b4f6e83286ee43a0ceb33057fa7150a",
+    "fuzzy_hash": "26222e9fa3b4a544be935d3660f8095c",
+    "reason": "Новость о расписании матчей ЧМ-2026 в формате «гида по времени» для зрителей в ОАЭ — это полезный сервис для русскоязычных жителей Дубая, не содержит политики, рекламы или неуважения к ценностям UAE. Однако она является дубликатом по тематике и формату с уже опубликованной новостью №4 (время матчей Англии в Дубае), а также не имеет явного проверяемого источника (ссылка ведёт на пост, а не на официальный URL). Поэтому новость следует отклонить."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTEp6a1IwV3JzRkRCMkhaaFFNXzJGc3lwRko3MGJPV1JOZmsyR1hLOUNINjhkc2dLUjA4eU45cElhTFdicUxCZlF3UENOQXE3N29yNTkwUGtZQXBYS1BycWJJbW1tSmNfdm1SSjQ0Y2J3MXhhbHEwN2FTSmlNQmxZSjdn?oc=5",
+    "timestamp": "2026-07-03T05:43:22.634754+00:00",
+    "status": "rejected",
+    "content_hash": "52881028bb00388b90bed1bec837a396",
+    "strict_hash": "52881028bb00388b90bed1bec837a396",
+    "fuzzy_hash": "71a6f5f2eb18742a601f05ae2f385f71",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные, что соответствует интересам русскоговорящих жителей Дубая, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако она является типичным дайджестом событий, который может дублировать аналогичные публикации, но в данном контексте дубликатов не обнаружено."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzBvVC00TVVjWUxVTzlKbkNPaDg0OW5tc0JONU9zRTFMY0dORjNOMFoxdXdkdnVjNHVLbjdlb2xyTnhydENRUTRxd0RJd3RJU3JaUzd1TmZVRm04ZEtiUkh0Qjh6VExyYjZocjdrNmppaWVhWVV3VTByZjJqNlFnN2FMNFFxVmg3cTNvOTVwaDNCN0F4ZmkzRkpMa19VQ2V0NW5FMmYwbUkyX0NRZjNkbmU1Q24?oc=5",
+    "timestamp": "2026-07-03T05:43:30.233531+00:00",
+    "status": "approved",
+    "content_hash": "4c1750d90c46841500b891ac10b6b89e",
+    "strict_hash": "4c1750d90c46841500b891ac10b6b89e",
+    "fuzzy_hash": "6d4b9aaa8be716003ae8532197c6aadd",
+    "reason": "approved"
   }
 ]
