@@ -1273,5 +1273,41 @@
     "strict_hash": "730b81dfdd3710001bd83ab21a297eeb",
     "fuzzy_hash": "f7a8226a11276d454bd58d7d576998cf",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.straitstimes.com/world/ai-romance-scam-impersonating-dubai-prince-ensnares-victims",
+    "timestamp": "2026-07-03T15:51:56.718928+00:00",
+    "status": "rejected",
+    "content_hash": "ebf94d07853b7b08dcca641aa9edd059",
+    "strict_hash": "ebf94d07853b7b08dcca641aa9edd059",
+    "fuzzy_hash": "16c9372b1261ff899fe3ff07107c32db",
+    "reason": "Новость является точным дубликатом уже опубликованной новости под номером 1 в контексте (AI romance scam impersonating Dubai prince ensnares victims). Несмотря на соответствие другим критериям (связь с регионом, отсутствие политики и рекламы), правило 7 (дубликаты и повторы) нарушено."
+  },
+  {
+    "url": "https://www.indiatoday.in/entertainment/television/story/jasmin-bhasin-terminal-ileitis-update-back-home-after-dubai-hospital-stay-2939509-2026-07-03",
+    "timestamp": "2026-07-03T15:51:59.137309+00:00",
+    "status": "rejected",
+    "content_hash": "377b50eb19e56337c10a5873a4054725",
+    "strict_hash": "377b50eb19e56337c10a5873a4054725",
+    "fuzzy_hash": "80c186b7b46e7e62deb06f95eecc2e0c",
+    "reason": "Новость о госпитализации и выписке индийской актрисы в Дубае не имеет значимой связи с жизнью русскоязычного сообщества в ОАЭ, не содержит общественно полезной информации и больше похожа на светскую хронику, не соответствующую профилю канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdnNFcTFyeUE1SzEwR19pODZxQkVHTEY1Ry1NX1Q3ODlUaktreEtlbG9NdVpkbDdjVm5VZk1TTnE0dkNPX3EwTC1uSDVTa0lrVGlIcEs0RHEzdE5ud000cnQwVl8tQVdYaFp2dFRyTS1malNyYktJUDkzU2pVNEkzbXJSSzd1UExYcUdtekdSXzAzMjFZdUkzWVFJdWFwT01NYUlPMg?oc=5",
+    "timestamp": "2026-07-03T15:52:02.510684+00:00",
+    "status": "rejected",
+    "content_hash": "622b1b24ea8131abf837f4afaa65b724",
+    "strict_hash": "622b1b24ea8131abf837f4afaa65b724",
+    "fuzzy_hash": "26e154eac88f5c6cfa3d058d3cc4e234",
+    "reason": "Новость является точным дубликатом уже опубликованной новости под номером 1 в контексте. Тема (мошенничество с ИИ, выдающее себя за дубайского принца) имеет связь с регионом, не является политикой или рекламой, но нарушает правило 7 о дубликатах."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wejFnVEpwLVkzY201SE1Ta0ZNemVIblFUSkF2a1FOdy0tMnlOWS1YQ1JFcFAwSm9saE1pOV9acEd4WEhnSkIzS1lrTHJzU3NoOGptRy1pU2dSMVM2M3FxMUVzU1ZObFI0amVlTHUwaHY3ZE0?oc=5",
+    "timestamp": "2026-07-03T15:52:10.808033+00:00",
+    "status": "approved",
+    "content_hash": "1c85a3e82a4f9c10249db9b98c28370d",
+    "strict_hash": "1c85a3e82a4f9c10249db9b98c28370d",
+    "fuzzy_hash": "fbcbc6d1191226e6614ed9a0e00a98f4",
+    "reason": "approved"
   }
 ]
