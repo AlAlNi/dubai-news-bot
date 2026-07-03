@@ -1359,5 +1359,23 @@
     "strict_hash": "e8da740924fd37510a165be56702163e",
     "fuzzy_hash": "84818e1c4d7ad0807e50b4f54848b02d",
     "reason": "Новость о мошенничестве с использованием ИИ, где жертва из США обманута якобы «принцем из Дубая», не имеет прямой связи с регионом (событие происходит в Вашингтоне, а Дубай лишь использован как декорация), не представляет интереса для русскоговорящего жителя Дубая и не содержит проверяемых локальных фактов."
+  },
+  {
+    "url": "https://www.indiatoday.in/lifestyle/society/story/dubai-4-day-work-week-our-flexible-summer-got-us-thinking-what-would-indians-do-with-an-extra-leave-2939541-2026-07-03",
+    "timestamp": "2026-07-03T18:46:18.808112+00:00",
+    "status": "rejected",
+    "content_hash": "c92451a8c251f4b911f8f6bf45ecc5e2",
+    "strict_hash": "c92451a8c251f4b911f8f6bf45ecc5e2",
+    "fuzzy_hash": "d01597e97ed678b851fa6dffd82e1d11",
+    "reason": "Новость представляет собой развлекательный материал о том, как индийцы в Дубае хотели бы провести дополнительный выходной, и не содержит общественно значимой информации, полезной для русскоязычных жителей. Тема носит легкий, почти анекдотический характер, не соответствует критериям информационного канала и может быть воспринята как неуважение к местным трудовым нормам."
+  },
+  {
+    "url": "https://www.scmp.com/news/world/middle-east/article/3359265/fake-dubai-prince-scam-how-ai-deepfakes-love-bomb-victims-steal-hearts-and-money",
+    "timestamp": "2026-07-03T18:46:27.932907+00:00",
+    "status": "approved",
+    "content_hash": "3b5b64a4d2329d2a2e29988fd0db7eb2",
+    "strict_hash": "3b5b64a4d2329d2a2e29988fd0db7eb2",
+    "fuzzy_hash": "c11fe10b077604ea64e2093f34136431",
+    "reason": "approved"
   }
 ]
