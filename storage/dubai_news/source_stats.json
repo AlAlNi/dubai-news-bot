@@ -1347,5 +1347,23 @@
     "strict_hash": "6a09b14a5c905c1b0fa0f51e6ee87ed6",
     "fuzzy_hash": "9787ca07a3984eaa4627204d0cb55489",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNzMzdHpYTXFSanlVbWJOWjBqTzhIWjlQbWhOVnlYWGZjS3NiSGdmVHN0SkoxOHNsai03NjE2a29RcDNoLWRQNVMyYUtLNGdJbXZHSWVpVVpIZFZ6ZUVpdFVPUElMZFlPQVRyZTNjRmExenFxTk5fbXpPQVhJVUlBejlmN1ctX0Y3Q0VtNWhpbmlRdEN2SENlWHJVYzQ?oc=5",
+    "timestamp": "2026-07-03T01:53:12.583332+00:00",
+    "status": "rejected",
+    "content_hash": "c2ff11b494ece2d1da088b55b6303b3d",
+    "strict_hash": "c2ff11b494ece2d1da088b55b6303b3d",
+    "fuzzy_hash": "e911af37d15149a69f1e53e79e322b0e",
+    "reason": "Новость является дубликатом уже опубликованного материала \"Hamdan bin Mohammed witnesses launch of Dubai Digital Twin Platform\" от Government of Dubai Media Office. Хотя тема актуальна и связана с Дубаем, публикация той же информации из другого источника нарушает правило №7 о дубликатах."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUHJlTlpvUFM3SGhkWXVEVEhRcVIya21nWHdnNzJfQVZ4b25KTXJTaU85aGxxQk1fR0xkWXk3YnpfbUpXUEpKOEROUzAzNHEyUDlJRlVpRDFNOE5vdDhvbFFOaXh0R0w4XzhIU2lsWm4xS2NVNXZNWkpqM0ZfaEUwOVUtd1FYS1pKMnJGbW0zX19NNkg5?oc=5",
+    "timestamp": "2026-07-03T01:53:16.802586+00:00",
+    "status": "rejected",
+    "content_hash": "fc6313940cdbc70223900bbd6ea92638",
+    "strict_hash": "fc6313940cdbc70223900bbd6ea92638",
+    "fuzzy_hash": "433eefa835e656489ca23024169a79dc",
+    "reason": "Новость сообщает о завершении программы капитального ремонта эскалаторов в Дубае, что имеет прямую связь с регионом и инфраструктурой, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст выглядит как сухой статистический отчёт с сайта IndexBox, а не как новость для русскоязычного жителя, и неясно, насколько это событие актуально и интересно аудитории (особенно с датой \"July 2026\", что может быть опечаткой или нерелевантным планированием). Кроме того, источник (IndexBox) не является очевидным официальным или проверяемым для данной темы, а сама новость может быть дубликатом или слишком узкоспециализированной."
   }
 ]
