@@ -1250,5 +1250,23 @@
     "strict_hash": "e10e93cb84b396c428dc6df5e2c000c3",
     "fuzzy_hash": "07ca5fe0ad255a08a01d65b93b204b04",
     "reason": "Новость о бывшем участнике шоу Love Island, который уехал из Дубая в Великобританию, не имеет прямой связи с текущими событиями в регионе и не представляет интереса для русскоязычного жителя Дубая. Это скорее светская хроника о личной жизни знаменитости, не связанная с ОАЭ."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-stocks-uae-markets-end-higher-ihc-gains-on-india-aluminium-venture/articleshow/132161637.cms",
+    "timestamp": "2026-07-04T01:07:58.075380+00:00",
+    "status": "rejected",
+    "content_hash": "ed473be3840380688abf1211c4a5b213",
+    "strict_hash": "ed473be3840380688abf1211c4a5b213",
+    "fuzzy_hash": "ae7767d1234afd78ba3c98b11a828c21",
+    "reason": "Новость о росте фондовых рынков ОАЭ на фоне глобального ралли имеет прямую связь с регионом (Дубай, ОАЭ), не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и может быть интересна русскоязычным жителям, следящим за экономикой. Однако она является дубликатом по смыслу с уже опубликованной новостью №4 (RTA completes Dubai metro... — нет, это разные темы, но проверка на дубликаты по хешу и контексту показывает, что данная новость не совпадает с опубликованными. Тем не менее, в контексте есть новость про рынки? Нет, в списке нет похожей. Новость подходит по всем критериям, включая проверяемый источник (ZAWYA)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHYyVWdJdkctTW5qOXBXQ0hFMklRVVloWlI4ZEdoWDJZTWNfX2VIcEZSdVZleGh0STgtQ09yRHdqQ1hvVnd1ZnAxcjh1ZHE4SUYtY29VQUx2VDNJZDdvOE1rVDd3ZW9iN2FGdll6NDdEV2dSZXhZU1gtMWYzMDg0RUprZmNDODdTdEpPQXRDZmMwTHBEZmY5bzZ4clcwNUZLQ0EtRTZ6TVVRS2U4MEx3ZA?oc=5",
+    "timestamp": "2026-07-04T01:08:05.791256+00:00",
+    "status": "approved",
+    "content_hash": "385072872bbbf88d19be26254edc74fa",
+    "strict_hash": "385072872bbbf88d19be26254edc74fa",
+    "fuzzy_hash": "d5109ec18edce3e918f02f0cd431e662",
+    "reason": "approved"
   }
 ]
