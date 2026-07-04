@@ -1091,5 +1091,14 @@
     "strict_hash": "e3e1d3ec81e9078b7497c100ecbaaa80",
     "fuzzy_hash": "9ee3260f7d7076daf8fb1d4a43ecb2a5",
     "reason": "Новость является дубликатом уже опубликованной новости №1 (RTA closes bus and taxi road at Dubai Mall Metro Station until end of 2026 - Gulf News). Тема и источник совпадают, что нарушает правило 7."
+  },
+  {
+    "url": "https://www.birminghammail.co.uk/news/midlands-news/solihull-drug-smuggler-says-i-34173712",
+    "timestamp": "2026-07-04T18:31:52.372289+00:00",
+    "status": "rejected",
+    "content_hash": "995dab9090ec2f021928269251943f69",
+    "strict_hash": "995dab9090ec2f021928269251943f69",
+    "fuzzy_hash": "815c648d40e3650d233128e453d351a7",
+    "reason": "Эта новость не подходит для канала о Дубае, так как основное событие (судебное дело о наркотиках) происходит в Великобритании, а Дубай упоминается лишь как точка вылета. Тема не представляет интереса для русскоязычного жителя ОАЭ и не соответствует критериям полезности или актуальности для региона."
   }
 ]
