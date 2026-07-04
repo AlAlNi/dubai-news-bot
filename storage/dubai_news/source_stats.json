@@ -1259,5 +1259,86 @@
     "strict_hash": "841f13d25d0d1396bd29e3f6d1e3a863",
     "fuzzy_hash": "b5a7ac40c90b6564111f5a61b0eb73bd",
     "reason": "approved"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdXpGeU94eU5JeEhhRTA4b21ZdG4yb2ZWdTFITTFWU1MyUmNyUURETFIzWXZacXFGSVEtUnZRY0lXQkcxcFhueVpVdGpWM1Y4RWRRWm4xY0JKMGpZYmxLdHk0bW1YMU1pRjZrYXliaS1yVi15bHRTY004dmZMdVd5M3VBVm9heUVpTE1QWlJ2Zk9NZjliajlCYUhVbGVDRUQ2T2NXQQ?oc=5",
+    "timestamp": "2026-07-04T09:13:10.887808+00:00",
+    "status": "rejected",
+    "content_hash": "622093bd8a28362f8937ad6e63c67e70",
+    "strict_hash": "622093bd8a28362f8937ad6e63c67e70",
+    "fuzzy_hash": "83b6b4e21075fbe087f07606409bcf1e",
+    "reason": "Новость дублирует уже опубликованный материал о закрытии туннеля на Emirates Road (пункт 1 контекста). Несмотря на соответствие критериям связи с регионом и полезности, правило 7 (дубликаты) является приоритетным."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbEZNLTg0SWdzUnNqckJBbEZURG1aclprMkVoWDVBT1lLT1BvSXI0a1d1dW5lZ3FwUWZObmhYYzA4MFpLR0NEdFI1TUd6am9MLTRldmpXNWZuanpuTXhlUWd6WndUY0MzZzJfbUczcTNuZVotZ0JIWHpsU21IbW10NF9CU3YyQ0dDeldyR01EdU5FdkhaZnJScEtWaDg3RnlzSlBRQmJUd0FEcC1hdjJHSnJOUkhaM2ZQNVlQWmJ30gHGAUFVX3lxTE9uNDRDT3BSTzZlV0xFaGQxZXRUV1lkUHR3N0ljVjFQWnJCVlRQMnRVQkMtclRhRnFqTFJPMHp5VDFxdXczTGYxR0hQWHEtTDViVG5qdzVFYUlWczJWbGFhWmJNc2hDWGY2YXVTNkphcWJQVkVxVDR4YldwWm1SNGgyeWs3QzRvOUU4SHdQRmVXSkRIRnl4NlpTYkZSdlJ0WFljYW5YNEw0dDZSZnp0cklBWmRTWVVmNjBPTlZlMTNSTGxTZWFWdw?oc=5",
+    "timestamp": "2026-07-04T09:13:14.085658+00:00",
+    "status": "rejected",
+    "content_hash": "5c5151edff9a05c55c480d64338abc95",
+    "strict_hash": "5c5151edff9a05c55c480d64338abc95",
+    "fuzzy_hash": "f0a4bd4020c40185057b0502399ce271",
+    "reason": "Новость о перекрытии движения на Emirates Road с 4 июля из-за расширения дорог — это актуальный сервисный апдейт для жителей Дубая, напрямую связанный с регионом и не содержащий политики, рекламы или неуважения. Однако она является дубликатом уже опубликованной новости (пункт 1 контекста: \"Traffic diversion alert: Major Emirates Road tunnel to close for two months\"), что нарушает правило 7."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSkRMRFkyMlJnUXZNTnYzZVRuRWNNNjBPT3dyTE9KOURud1NlSXBBdjVFLU5XSWdkWGtfOVB4V0JtWElHWi1WdUZIMGR4bkV1MElpUHNONXVqWkRzUjg0ODZlNi0ybTU1cXpETlFWV01qbGF3X3dEZ0RjekJIalcwQjlMSFNJeGUzTlpBLW5GMGQ?oc=5",
+    "timestamp": "2026-07-04T09:13:15.601366+00:00",
+    "status": "rejected",
+    "content_hash": "aa9af7e36cad7b784a4dd6e809d72af9",
+    "strict_hash": "aa9af7e36cad7b784a4dd6e809d72af9",
+    "fuzzy_hash": "f3e7ccf1de6181808505e667bcfb70c1",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlp1X2ZHRUZQTHpDTHJMWm5Zc2loeS1GNzFTOF9ld05HZS1PcE9TeVdmWnpSOGJINzR4VF9SSHd6clRjOEFxa296dHl0LXlKYXFZSjFUa2hQcDg2TXMwWmNGTWRTNmw3eXp3eXhWNjlaRUJGYWRtV213YkNraTFNQlRPMjVzcnRlUlIxenZ6VGxSZk1yVk8yTFQ3cWlKSDRrRjBiT0k5UXBjY3N3LWt6NERGWQ?oc=5",
+    "timestamp": "2026-07-04T09:13:16.168430+00:00",
+    "status": "rejected",
+    "content_hash": "85bc279b81c12b72e53a951b2e146fc2",
+    "strict_hash": "85bc279b81c12b72e53a951b2e146fc2",
+    "fuzzy_hash": "6af29504d359a828878be400b31b5fb5",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVnZua3VDZXV3d1dhWndoQXRDRUhhYUpVRXB6VzNLRjBNMkNyX0wwM3ZoQVB2YTJIUHZkRnFjTW93b0lmZUdtU09PZUNib3JHX3N4ZDZxV3lhY3R3OC1UdUhSS2dCUFFjMDBpUWRmUUpTQ1BSWlN4S1lqUEh4dlVLWWhHRTdQdUoyRjdhZjdNMkZpZlk4NmxYenZsVzU1WEVTT0R4VW9fdElvZUE?oc=5",
+    "timestamp": "2026-07-04T09:13:18.068555+00:00",
+    "status": "rejected",
+    "content_hash": "259baa7bc0060b0053c4061d0943c839",
+    "strict_hash": "259baa7bc0060b0053c4061d0943c839",
+    "fuzzy_hash": "f8486b836382b3a029456bf2197e59ca",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeXdXVzVzZjF5RkVwYmJYR0FUV1oyaGFmVkdqejZfRDdoNjZYa19uZ2VyTDJZb2hpMERQd2lNNk5zeHdVeXZkcjZDRFRoeFl3YklBaXhfb2FuQUNFTjBfQ09RdkxhWE52cHk1Tkt1YVhJaDB4d3J3RUh5Q3A2bDJoZFcwR2tWRm91SnVwVG1CRFF5ak1uZnlyM3NQYjVnNkY2ajdtNlRXa0ZSWVBrZTJyUUppek53Wm5VZ2fSAcwBQVVfeXFMTjN6UEZpNGRQNDRMWmgydjJmYTJQV3FWQlIwYUk1MDNYWnZhRURieWo1bkcyRDY0em1WTVVkRlNGYll3cmpuYjZSNUQwd01fb2tzQkdUMU9ydS1ZandXVVI5MlNrOEVTczUwWS1oRzBjQnNpSDJpV1pCMmkxdmV3SUtpV0xJY2ViMy1LdU0tbTU3dGFTMXdLVkZJZ2U1WVFNY1M4a00yZmZXZGg2Mnd3Y1RUM2NaNFl3cDIyYVhiRDdrR282XzhiX283Qi02?oc=5",
+    "timestamp": "2026-07-04T09:13:19.875851+00:00",
+    "status": "rejected",
+    "content_hash": "22302e5c06bdefa5ffbdebb529e3fcba",
+    "strict_hash": "22302e5c06bdefa5ffbdebb529e3fcba",
+    "fuzzy_hash": "d9bc6fa9604c1d13445ef14ee36eeb53",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYTdXNndYYWo0b2M2OHMtemVWNVdfdGJGTVhPNnBVV29TMHZZb1VRWWdBWjJ4aWFlWTloR0tWWk55NngxdjY0NnIxenZ4VVlEeS13ZFRVVU5BTzg4Y0o2cllsaktFRVZaaGU2aXNrNXE1d2hrV0l0Q2lYYlk5cEE5UmdTcnA1Ujh6LTc5SVNSNk5MZ3M2NUJVcVl3?oc=5",
+    "timestamp": "2026-07-04T09:13:21.589800+00:00",
+    "status": "rejected",
+    "content_hash": "54fdc6505778e54654fffa128b731b1d",
+    "strict_hash": "54fdc6505778e54654fffa128b731b1d",
+    "fuzzy_hash": "d5241d8e92adea12c326175ed32e26fa",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWkczWklEdWMweEVzbTdyWVoxbDhLVThTS09XSmVmenlCN3NWRk1qQW1JRGR1T2N5MmpQZGZXd1hKX2c1Znozb01jSFdpeEF2RUdkcWZQT2haOW16VHFqVW9LdW5kV0NwQmt1S0I5cmtYU21hMzVjM3FUbWxQbS1OQnE2eFZaODdUUVFFY3RMaE5DcEtSTnpGbEphanZuT19OM3dwcFFVbzZScXBUZEZzRlRwbkpRbzd6alZ0eFlLY3c5ZkdjOFJjT2tLVVlKNnVu0gHrAUFVX3lxTE85RjQyeU45MGVpREhhTkZTSDFiYXBuQ2daUUJ1VzRQUkllZmR4aXR2QVJ1MFhnZjJKa01LUG8zS2lmNnBfUjlCcGF3SzF0ZERnbXZmUW1pV210WDZSUzViMjNqVG5YREotX3FwX2VaN2h4bEVLLVpYcHZWdnVQVUczT04xcG9TR3dnUjdnUmpBVTJWaU0zR1lEMG9sR2tid2ZobEQySUpMeTVwNWpzYlQzREk5emVBNTNWSzhIMktYanZvNEJuN3VPZ1RuZE5GZjZOcndrRGd5MUhpdkVmMEFPRVhZaXNZb0g4UG8?oc=5",
+    "timestamp": "2026-07-04T09:13:23.273794+00:00",
+    "status": "rejected",
+    "content_hash": "e84e24d48c36b9555184a4e5ee8a4b74",
+    "strict_hash": "e84e24d48c36b9555184a4e5ee8a4b74",
+    "fuzzy_hash": "5820e74431f1683a0b7be2a435df3cc4",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWlOcUhXTi1hV3o5SHR1WEg4ZmVEZTlDcUc5dmY4c2M0dEJDdHRLdldYU2RyVWhNVHF2WVlKaHBoTDNhRFBzbzY2XzZFNzNjSDBpU1N0cnVVajcyQU00UmloT3N0OVEtYzMzOXo4WEg1OVJwNWhTNFdpRE5RaFVJZkN6LXNSY3dzTGxHUXZ6U3JXT1NjVnR0d3EzWUFYQUVsNjhaSlF3X1duQVN3aWFkVkNoT2p3cERlcEhCRA?oc=5",
+    "timestamp": "2026-07-04T09:13:25.093590+00:00",
+    "status": "rejected",
+    "content_hash": "ce7d2658607ff66611971f95973e7b57",
+    "strict_hash": "ce7d2658607ff66611971f95973e7b57",
+    "fuzzy_hash": "4ec88203942c3b82c8d785e4297dd34d",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
