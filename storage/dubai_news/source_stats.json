@@ -1223,5 +1223,32 @@
     "url": "https://www.hindustantimes.com/trending/this-is-dubais-level-of-safety-man-films-defender-stopping-for-peacock-family-to-cross-101783085380659.html",
     "timestamp": "2026-07-04T04:42:14.364730+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://markets.businessinsider.com/news/currencies/elys-life-to-host-private-launch-event-in-dubai-1036297538",
+    "timestamp": "2026-07-04T05:09:30.464948+00:00",
+    "status": "rejected",
+    "content_hash": "4095abf298353170cadcbe2e539d3e00",
+    "strict_hash": "4095abf298353170cadcbe2e539d3e00",
+    "fuzzy_hash": "a4ba7080638ee1b7b59228378ae6ed86",
+    "reason": "Новость является рекламным анонсом частного мероприятия (запуск платформы ELYS Life), не содержит общественно значимой информации для русскоязычных жителей Дубая и выглядит как пресс-релиз, что нарушает правило 3."
+  },
+  {
+    "url": "https://nypost.com/2026/07/03/business/woman-loses-savings-in-ai-scam-with-deepfake-dubai-prince",
+    "timestamp": "2026-07-04T05:09:33.044973+00:00",
+    "status": "rejected",
+    "content_hash": "b7966f9b74495440246edee4f9ed0df5",
+    "strict_hash": "b7966f9b74495440246edee4f9ed0df5",
+    "fuzzy_hash": "d056a8409a4a241af8c577568567c4bd",
+    "reason": "Новость о мошенничестве с использованием дипфейков и образа «дубайского принца» имеет прямую связь с регионом (Дубай), не является политической или рекламной, не нарушает ценности ОАЭ (скорее предупреждает о преступлении), выглядит естественно и достоверно (ссылка на источник — Khaleej Times), будет полезна русскоязычным жителям как предупреждение о новой схеме обмана. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/world/dubai-court-imposes-travel-ban-on-indian-event-promoter-deepak-choudhary-in-execution-proceedings-over-alleged-aed-2-99-million-dues",
+    "timestamp": "2026-07-04T05:09:40.719129+00:00",
+    "status": "approved",
+    "content_hash": "f067c7821b7e1a79a849b06f7c2d924a",
+    "strict_hash": "f067c7821b7e1a79a849b06f7c2d924a",
+    "fuzzy_hash": "2d9d8f8d01eb8bb4ce71206b0c820ba0",
+    "reason": "approved"
   }
 ]
