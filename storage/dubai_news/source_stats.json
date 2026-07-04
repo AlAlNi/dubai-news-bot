@@ -1268,5 +1268,41 @@
     "strict_hash": "385072872bbbf88d19be26254edc74fa",
     "fuzzy_hash": "d5109ec18edce3e918f02f0cd431e662",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-flexi-rent-explained",
+    "timestamp": "2026-07-04T02:03:04.022339+00:00",
+    "status": "rejected",
+    "content_hash": "db34580e1dcbfbcacad9e9b77d9b3f51",
+    "strict_hash": "db34580e1dcbfbcacad9e9b77d9b3f51",
+    "fuzzy_hash": "8b11033cb8f350af119654bf1d5e3643",
+    "reason": "Cheap prefilter: слишком короткий текст (104 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/2026-world-cup/dubai-venues-showing-every-world-cup-match",
+    "timestamp": "2026-07-04T02:03:10.307335+00:00",
+    "status": "rejected",
+    "content_hash": "0b8d096b11a6a71e5bd04d9aedc70996",
+    "strict_hash": "0b8d096b11a6a71e5bd04d9aedc70996",
+    "fuzzy_hash": "0d798aba117c7e6340540a944c9c5bbb",
+    "reason": "Cheap prefilter: слишком короткий текст (93 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/food-drink/best-dining-deals-offers-dubai-summer",
+    "timestamp": "2026-07-04T02:03:15.873041+00:00",
+    "status": "rejected",
+    "content_hash": "bbd8d7224b234ae125d49e29c94c44fb",
+    "strict_hash": "bbd8d7224b234ae125d49e29c94c44fb",
+    "fuzzy_hash": "c21fba2f1a9b8f2b2140c42094667ec0",
+    "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
+  },
+  {
+    "url": "https://www.hindustantimes.com/trending/this-is-dubais-level-of-safety-man-films-defender-stopping-for-peacock-family-to-cross-101783085380659.html",
+    "timestamp": "2026-07-04T02:03:21.851480+00:00",
+    "status": "approved",
+    "content_hash": "78f966721951b6cc1c6d0c333f71d0f9",
+    "strict_hash": "78f966721951b6cc1c6d0c333f71d0f9",
+    "fuzzy_hash": "ee1d6a4c61e2a44d195700eb743d4810",
+    "reason": "approved"
   }
 ]
