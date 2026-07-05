@@ -1,127 +1,5 @@
 [
   {
-    "url": "https://www.straitstimes.com/world/ai-romance-scam-impersonating-dubai-prince-ensnares-victims",
-    "timestamp": "2026-07-03T15:51:56.718928+00:00",
-    "status": "rejected",
-    "content_hash": "ebf94d07853b7b08dcca641aa9edd059",
-    "strict_hash": "ebf94d07853b7b08dcca641aa9edd059",
-    "fuzzy_hash": "16c9372b1261ff899fe3ff07107c32db",
-    "reason": "Новость является точным дубликатом уже опубликованной новости под номером 1 в контексте (AI romance scam impersonating Dubai prince ensnares victims). Несмотря на соответствие другим критериям (связь с регионом, отсутствие политики и рекламы), правило 7 (дубликаты и повторы) нарушено."
-  },
-  {
-    "url": "https://www.indiatoday.in/entertainment/television/story/jasmin-bhasin-terminal-ileitis-update-back-home-after-dubai-hospital-stay-2939509-2026-07-03",
-    "timestamp": "2026-07-03T15:51:59.137309+00:00",
-    "status": "rejected",
-    "content_hash": "377b50eb19e56337c10a5873a4054725",
-    "strict_hash": "377b50eb19e56337c10a5873a4054725",
-    "fuzzy_hash": "80c186b7b46e7e62deb06f95eecc2e0c",
-    "reason": "Новость о госпитализации и выписке индийской актрисы в Дубае не имеет значимой связи с жизнью русскоязычного сообщества в ОАЭ, не содержит общественно полезной информации и больше похожа на светскую хронику, не соответствующую профилю канала."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdnNFcTFyeUE1SzEwR19pODZxQkVHTEY1Ry1NX1Q3ODlUaktreEtlbG9NdVpkbDdjVm5VZk1TTnE0dkNPX3EwTC1uSDVTa0lrVGlIcEs0RHEzdE5ud000cnQwVl8tQVdYaFp2dFRyTS1malNyYktJUDkzU2pVNEkzbXJSSzd1UExYcUdtekdSXzAzMjFZdUkzWVFJdWFwT01NYUlPMg?oc=5",
-    "timestamp": "2026-07-03T15:52:02.510684+00:00",
-    "status": "rejected",
-    "content_hash": "622b1b24ea8131abf837f4afaa65b724",
-    "strict_hash": "622b1b24ea8131abf837f4afaa65b724",
-    "fuzzy_hash": "26e154eac88f5c6cfa3d058d3cc4e234",
-    "reason": "Новость является точным дубликатом уже опубликованной новости под номером 1 в контексте. Тема (мошенничество с ИИ, выдающее себя за дубайского принца) имеет связь с регионом, не является политикой или рекламой, но нарушает правило 7 о дубликатах."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wejFnVEpwLVkzY201SE1Ta0ZNemVIblFUSkF2a1FOdy0tMnlOWS1YQ1JFcFAwSm9saE1pOV9acEd4WEhnSkIzS1lrTHJzU3NoOGptRy1pU2dSMVM2M3FxMUVzU1ZObFI0amVlTHUwaHY3ZE0?oc=5",
-    "timestamp": "2026-07-03T15:52:10.808033+00:00",
-    "status": "approved",
-    "content_hash": "1c85a3e82a4f9c10249db9b98c28370d",
-    "strict_hash": "1c85a3e82a4f9c10249db9b98c28370d",
-    "fuzzy_hash": "fbcbc6d1191226e6614ed9a0e00a98f4",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.al-monitor.com/originals/2026/07/ai-romance-scam-impersonating-dubai-prince-ensnares-victims",
-    "timestamp": "2026-07-03T16:42:02.269207+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwbnZUb0U3cnk1VlVucmlMdEVVLURfNE9iYnVxdUsxZjJqRUpQajRaUnhsX3pKcXk2Rmplc2t2SlFud2kxUzRxR3RQVmt6Qi1TbFIta3BrYw?oc=5",
-    "timestamp": "2026-07-03T16:53:44.112079+00:00",
-    "status": "rejected",
-    "content_hash": "429c66ce7010c36826a8f87ef8655187",
-    "strict_hash": "429c66ce7010c36826a8f87ef8655187",
-    "fuzzy_hash": "b18809098318a76fab80d27fd8239fb9",
-    "reason": "Новость о матери тикток-блогера, обвиняемого в убийстве в Дубае, имеет прямую связь с регионом (Дубай), не является политической или рекламной, но содержит криминальную тематику, которая может быть воспринята как неуважение к ценностям ОАЭ (убийство, громкий скандал). Кроме того, это не service-update и не полезная информация для русскоговорящего жителя, а скорее сенсационная криминальная история."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSHlsc0w4Wmw4R0w2ZzFOanE5S1hlNzQwaERTeE5GX0hlMVpEODg5MVE0T3NNLXVNTFVLZFRZc0oyNGFmYm5HMVh1bU9VT203d2pKa2VFZ3c4Y0N2M05WbFgwdWpXaWI3T1VIYzA0QW0xZFE3bUp3UXJYYk9zaDNFdmRLeDluUQ?oc=5",
-    "timestamp": "2026-07-03T16:53:46.793068+00:00",
-    "status": "rejected",
-    "content_hash": "a9bb5f68e6899c8bac785d8ad52fa3f2",
-    "strict_hash": "a9bb5f68e6899c8bac785d8ad52fa3f2",
-    "fuzzy_hash": "5cf0f72451543d86f536443807fffe93",
-    "reason": "Новость рассказывает о тюнинг-ателье в Дубае, которое построило приподнятый BMW M240i в стиле Dakar. Это нишевый автомобильный контент, не являющийся общественно значимой новостью для русскоязычных жителей, и больше похож на рекламный или развлекательный материал без практической пользы."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFZDbXkzc1NZNEFaMTNyamQwMWxSaDhET1VOZnNFQ2VCWnJLZXptaU9GZWNOM2pEMDU2ZXdkZWtVblhlTWk4VGRwcHdsdTFDc0pVdjdaV0hybEp2UXg3WnR4NERKbkgzZDRUVDF0N29PeDd2LUZrb2oya1lyeDBSQTk1cG9YaG0zQ2ZCcjdrX2diMHc4dEtyc0ZxNkJ2MGtEdEFXajRwS2lfS3BVLTFSd1NR?oc=5",
-    "timestamp": "2026-07-03T16:53:47.196319+00:00",
-    "status": "rejected",
-    "content_hash": "61a1856470b213247ac51a5883187981",
-    "strict_hash": "61a1856470b213247ac51a5883187981",
-    "fuzzy_hash": "c260d8403db086a595df4a135d6f4671",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOTViU2t0a2ljVjJ2eHQ3MlVyMjRYSnR0a3dhSjNEUERmYi1aaVlhTzVCN1NXSUNranFZRzh1djJYdkk3eTlCUm5Kd3hZUWhFQ1QwNVBBMnJfbkpxa0NuWk02eU9QMFlENVhqSzRmc1RTaTEtTXhEVm85TjdYeXJGLVBseGV2c3dxaUpjTEhmTDM0RjJ6NGFvOEhFWmNzR0tWZ0Y0T2VQT2o4UUY5VkJZT2QwdUJZb3Zwa3c0RmNFR0IxS3BTZUFOUmxUdFd0c29zQXgzc1lQbGF0R1c0UUJRaNIB5gFBVV95cUxQdV9DR3Etcm5GUWhHU3VCcjR5Q2pvR20tQmcySmFKZi1RTUk1ZURQSXlycUFBalU2MVZMVzVVb3pIUUl0ZE80SUplQ2Vka1E4eV9OSTQyblA2blNFV0xwUFFISExfOHp3N1BLV2h4bVRXamhVVkZ6RTdmelJGOTlOd2FWdjVPcWE3YVFsNkpCQjRzVzdtOVJVb2NmSmhvVzVYd0ROSXlmWVVLSTFfb0p2allCVHB3Z3pJX1JrVy1ZQndha1p1OUtCOURDaWlXc2UtV2JxaXJmUC1YNHhVczkwcVJYVlNvUQ?oc=5",
-    "timestamp": "2026-07-03T16:53:48.859239+00:00",
-    "status": "rejected",
-    "content_hash": "ef6d3586f14c266336e8cb5e6e5a593c",
-    "strict_hash": "ef6d3586f14c266336e8cb5e6e5a593c",
-    "fuzzy_hash": "434d815aab6d2a663d9fa45b3261ef8f",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU0xGWG91MDczZURLekRyRVhVZExJWlAyX1h3NlVoR0NyZlpTRW9YSXR1XzI2NFBlNjNCVUFmVE5ad1luaHk1LTJkN2VxelU5V0p1S0wtT2Q5VndzMUNsNnVzMUJ0QnNRZGpFcF8wWkhPYkZ2SVctLWpPc1h5c0laUmRET282SktBV2tXcGhELW1wZ2NzeWhhTEY5b2NFZw?oc=5",
-    "timestamp": "2026-07-03T16:53:50.417602+00:00",
-    "status": "rejected",
-    "content_hash": "c251bf2fc7dca451688c5431337293c4",
-    "strict_hash": "c251bf2fc7dca451688c5431337293c4",
-    "fuzzy_hash": "92e39a1c7b23a06b8ed7dd198232ba1d",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://propertynews.ae/uae/dubai/dubai-property-market-records-strong-dh900-million-in-early-trading",
-    "timestamp": "2026-07-03T17:12:12.844354+00:00",
-    "status": "rejected",
-    "content_hash": "3c6711f4aab6d1806afbf7ba0d90afbe",
-    "strict_hash": "3c6711f4aab6d1806afbf7ba0d90afbe",
-    "fuzzy_hash": "ca1c737106e9b2e9fa644fc583e2cf7a",
-    "reason": "Новость о рынке недвижимости Дубая с указанием конкретной суммы сделок (900 млн дирхамов) соответствует тематике канала, не содержит политики, рекламы или неуважения к ОАЭ. Текст выглядит естественно, источник (вероятно, официальные данные) проверяем. Однако новость является типичной ежедневной сводкой по сделкам с недвижимостью — такие публикации выходят регулярно, и данная не содержит уникальной или эксклюзивной информации, отличающейся от уже опубликованных материалов. По сути, это дубликат стандартного формата новостей о рынке."
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/dubai-reduced-work-week-2026",
-    "timestamp": "2026-07-03T17:12:18.467511+00:00",
-    "status": "rejected",
-    "content_hash": "554575312331ef019c5a6a3d8617aef7",
-    "strict_hash": "554575312331ef019c5a6a3d8617aef7",
-    "fuzzy_hash": "e86bfb6469a164c7f70071cc31ef91cb",
-    "reason": "Cheap prefilter: слишком короткий текст (84 символов)"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/dubai-hottest-stretch-of-summer",
-    "timestamp": "2026-07-03T17:12:23.763250+00:00",
-    "status": "rejected",
-    "content_hash": "96708c896262b95c4473fa18fa890ca1",
-    "strict_hash": "96708c896262b95c4473fa18fa890ca1",
-    "fuzzy_hash": "ad186a2b47dd14a4bddf584c970d0c49",
-    "reason": "Cheap prefilter: слишком короткий текст (108 символов)"
-  },
-  {
-    "url": "https://www.thestar.com.my/tech/tech-news/2026/07/03/ai-romance-scam-impersonating-dubai-prince-ensnares-victims",
-    "timestamp": "2026-07-03T17:12:25.970139+00:00",
-    "status": "rejected",
-    "content_hash": "e8da740924fd37510a165be56702163e",
-    "strict_hash": "e8da740924fd37510a165be56702163e",
-    "fuzzy_hash": "84818e1c4d7ad0807e50b4f54848b02d",
-    "reason": "Новость о мошенничестве с использованием ИИ, где жертва из США обманута якобы «принцем из Дубая», не имеет прямой связи с регионом (событие происходит в Вашингтоне, а Дубай лишь использован как декорация), не представляет интереса для русскоговорящего жителя Дубая и не содержит проверяемых локальных фактов."
-  },
-  {
     "url": "https://www.indiatoday.in/lifestyle/society/story/dubai-4-day-work-week-our-flexible-summer-got-us-thinking-what-would-indians-do-with-an-extra-leave-2939541-2026-07-03",
     "timestamp": "2026-07-03T18:46:18.808112+00:00",
     "status": "rejected",
@@ -766,5 +644,10 @@
     "strict_hash": "c9f06b5e54bb8afbb6bda060dfb53208",
     "fuzzy_hash": "40ca6a2434d00a16a610888f24496b66",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/uae-landlords-gain-new-tenant-credit-screening-capabilities",
+    "timestamp": "2026-07-05T17:22:00.095548+00:00",
+    "status": "published"
   }
 ]
