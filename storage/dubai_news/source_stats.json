@@ -878,5 +878,23 @@
     "strict_hash": "ad0cfe896889fcaf8a07a48f4b9efca1",
     "fuzzy_hash": "2fe925e2d52b36b047da079f8164d57a",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubais-millennium-estates-villas-in-meydan-witness-renewed-progress",
+    "timestamp": "2026-07-05T06:04:59.981572+00:00",
+    "status": "rejected",
+    "content_hash": "b2f25b65ecaef4fd6cc57f706d2e45b3",
+    "strict_hash": "b2f25b65ecaef4fd6cc57f706d2e45b3",
+    "fuzzy_hash": "00267edcd22f262fc5d174500d2a1bc6",
+    "reason": "Новость рассказывает о возобновлении строительства давно задержанного жилого комплекса в Дубае, что является локальной и проверяемой информацией о рынке недвижимости. Она не содержит политики, рекламы или неуважения к ценностям ОАЭ, а также не является дубликатом уже опубликованных новостей (в списке есть только общий тренд рынка, а не конкретный проект). Текст выглядит естественно и будет интересен русскоязычным жителям, следящим за рынком жилья."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/sharjah-announces-temporary-traffic-diversion-for-etihad-rail-works",
+    "timestamp": "2026-07-05T06:05:10.944426+00:00",
+    "status": "approved",
+    "content_hash": "7b4aa1f76f956ad16923737557d6c584",
+    "strict_hash": "7b4aa1f76f956ad16923737557d6c584",
+    "fuzzy_hash": "a05b927defd8161b63579cda91f761e9",
+    "reason": "approved"
   }
 ]
