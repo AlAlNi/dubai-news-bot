@@ -896,5 +896,32 @@
     "strict_hash": "b4406c498f5d319ba625a7b343efb2d4",
     "fuzzy_hash": "4b72f1b1a923598f02695f7d49b7a3cb",
     "reason": "Новость является пресс-релизом о назначении сотрудника в индийскую компанию, не содержит общественно значимой информации для жителей Дубая и имеет явный рекламный характер."
+  },
+  {
+    "url": "https://www.newsx.com/business-2/investyadnya-appoints-former-kotak-mahindra-banks-difc-branch-dubai-ceo-amul-sharma-to-strengthen-financial-leadership-and-growth-strategy-244634",
+    "timestamp": "2026-07-05T01:59:44.023056+00:00",
+    "status": "rejected",
+    "content_hash": "64d5f940a600a2a50d22630e1d542d4c",
+    "strict_hash": "64d5f940a600a2a50d22630e1d542d4c",
+    "fuzzy_hash": "fc7bff71223026bed4b7abebd9573a4e",
+    "reason": "Новость является пресс-релизом о назначении топ-менеджера в индийскую компанию, не имеет общественно значимой ценности для русскоязычных жителей Дубая и выглядит как рекламный материал."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/grand-trophy-launch-of-europes-biggest-kabaddi-league-ipkl-2026-to-take-place-in-dubai-global-corporates-to-attend-the-hague-netherlands",
+    "timestamp": "2026-07-05T01:59:45.819562+00:00",
+    "status": "rejected",
+    "content_hash": "1ee2460a418d0eb171e7e015dc6b190e",
+    "strict_hash": "1ee2460a418d0eb171e7e015dc6b190e",
+    "fuzzy_hash": "d8f012d346064a35cd8570f4d132194a",
+    "reason": "Новость представляет собой рекламный пресс-релиз о запуске трофея лиги кабадди, не содержит общественно значимой информации для русскоязычного жителя Дубая, а также имеет признаки искусственно сгенерированного или кликбейтного контента."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcXQtU0VDbGkya2Ftd3J6Y0RIMGh6QnpEYVhrX1ZaUll4TWY5eUJHaS1ORmxyd1E3ODFjZVhnTk5jTkZEZjZqem9yQm1qbzdzNzdyN0UxbDRzTlRlVWh5SDV2RVAxRzZoR3FOX1lSUU5nV1B5b0JVa3dXVktoZkh6bzQzNA?oc=5",
+    "timestamp": "2026-07-05T01:59:54.609300+00:00",
+    "status": "approved",
+    "content_hash": "abf2d6026c6e66488989da913d6990ca",
+    "strict_hash": "abf2d6026c6e66488989da913d6990ca",
+    "fuzzy_hash": "0fe1407b9a50100bf0e8b92ffe19e3d5",
+    "reason": "approved"
   }
 ]
