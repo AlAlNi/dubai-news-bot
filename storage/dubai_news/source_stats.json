@@ -626,5 +626,14 @@
     "strict_hash": "6d3850fb2ed11bf67e91d786689dac6e",
     "fuzzy_hash": "fb281ed905022131308151fd900178e2",
     "reason": "Новость слишком общая и не содержит конкретной информации, которая была бы полезна или интересна русскоязычному жителю Дубая. Заголовок и текст дублируют друг друга, отсутствует проверяемый источник с явным URL, а также нет привязки к конкретным событиям или изменениям в регионе."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZWdHZHZFbno1eHBsOWo5VmNpOUVhNEJxUmZBWHFjVG1JSnQ1N19SQXB0OXZ1UGExUnBWY2ZZR3lQWWlTcEtCS3hCeGluYjRnUG56TVE2UXY0ZXlYVHFBcFZPZFVTTHZ4QTFGa2c4b0RZNWVKQVBYc2pnaWpDbTZqMjlhU1VDQzVqVHJNTEJXU0VjRnprN28xV9IBoAFBVV95cUxNdEl2d29rbTBpSmY3b1AzVFhyakZKbnJMS0pQbUl4dzlRTHh4TkhKNG41WFBuamlsMmpHUFk3dy0wQnhzMkFOazhUMEkweEl5dGUzREdoX0dBc0NWbEVrUXRtTnZUT29iTjdWYV9DSFlGQVVTNE5WVzItVnZVNGpmT1Q3S1FjRWlUb25IYlFFN0ZYU09obFd1dVFDM2tWV091?oc=5",
+    "timestamp": "2026-07-05T21:50:34.776959+00:00",
+    "status": "rejected",
+    "content_hash": "66fd569539b133c7aab46a0dac141fa6",
+    "strict_hash": "66fd569539b133c7aab46a0dac141fa6",
+    "fuzzy_hash": "3d7e0837adef0ef871baeeee5bcc163e",
+    "reason": "Новость является дубликатом уже опубликованной новости под номером 1 (Gulf News) — та же тема, тот же источник (полиция Дубая) и практически идентичное содержание. Публикация повторной информации нарушает правило 7."
   }
 ]
