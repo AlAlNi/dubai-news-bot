@@ -598,5 +598,41 @@
     "strict_hash": "013880223d323e3e95ae9041df91de41",
     "fuzzy_hash": "d4e7a0faa05098c4123998e94947629b",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/delicious-ways-to-celebrate-world-chocolate-day-in-dubai-2",
+    "timestamp": "2026-07-06T14:56:33.854104+00:00",
+    "status": "rejected",
+    "content_hash": "0eaa0454c0c0ddaeee7f2b372142ea42",
+    "strict_hash": "0eaa0454c0c0ddaeee7f2b372142ea42",
+    "fuzzy_hash": "8de903795276f8c5432608edc3a5c72f",
+    "reason": "Новость представляет собой подборку ресторанных акций и десертов ко Всемирному дню шоколада в Дубае. Это явно рекламно-развлекательный контент (пресс-релиз), не содержащий общественно значимой информации, полезной для русскоязычного жителя, и не соответствует критериям «страховочного» формата."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/jude-bellingham-loves-dubai",
+    "timestamp": "2026-07-06T14:56:40.532962+00:00",
+    "status": "rejected",
+    "content_hash": "f126fb30b7d0cfc209fafea7b9113989",
+    "strict_hash": "f126fb30b7d0cfc209fafea7b9113989",
+    "fuzzy_hash": "f27195ef104d3ef3e56fa7d5fb2b0de6",
+    "reason": "Новость о том, что футболист Джуд Беллингем делится любимыми местами в Дубае, является развлекательным контентом, не несущим общественно значимой информации или пользы для русскоязычного жителя. Она не соответствует критерию полезности и интереса для целевой аудитории (правило 6), а также не является проверяемым service-update или регуляторным изменением."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/uae-tenant-credit-check-is-now-live",
+    "timestamp": "2026-07-06T14:56:45.832033+00:00",
+    "status": "rejected",
+    "content_hash": "b993ca23fd77492ad56443a89a142b0b",
+    "strict_hash": "b993ca23fd77492ad56443a89a142b0b",
+    "fuzzy_hash": "19a6c390790394b6b8be6e1d2e06ffd7",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNVUtibXI3OWNOTVhjME1UbkN4YXNkU3RjTG8ta0U4dGgwcnhHU3N1WDlqbm1TOXVFWHo3QWt0X3ItQUNnaTluakFtOGZlNmN3VEQ2MTJlZGVWNHBGOGdEYkVRb1hEQ2NXRVI4WTJCTlVxY2FPdGhSelBxZmdlYW9WMENSZVg4TmlPR2t3R1B1cTVtUVpqQ05pVXM4LWZMQ21pTWdiYzNDM2tIOGdCcWZhQ0lWLTVuejNXbDNoUWJ3UVdsVmxSUUZzbi1BWVZzR0dncFR6NzVHR1M0WU1ZSE83QUVjd2NtcGZwQ1VET1dwM0h4UVhZZUYxY3pQNFRlOVJxLXdfbG92a19yOGNJRW45OTI4OA?oc=5",
+    "timestamp": "2026-07-06T14:56:48.235281+00:00",
+    "status": "rejected",
+    "content_hash": "383a4c943e3fd67b033c151335c8f8a5",
+    "strict_hash": "383a4c943e3fd67b033c151335c8f8a5",
+    "fuzzy_hash": "1da1436547be4e2aa5bf3d89ad40c4f2",
+    "reason": "Новость дублирует уже опубликованный материал о росте рынка недвижимости Дубая (первая новость в контексте также сообщает о рекордных объёмах сделок за полугодие). Тема и данные практически идентичны, что нарушает правило №7 о дубликатах."
   }
 ]
