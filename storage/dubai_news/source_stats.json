@@ -658,5 +658,41 @@
     "strict_hash": "bb28725bf1ec0535f107ae4f174de048",
     "fuzzy_hash": "8b19564ca36e861102f427f0d4242513",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/world-cup-2026-quarter-finals-kick-off-times-in-the-uae",
+    "timestamp": "2026-07-06T07:00:52.669656+00:00",
+    "status": "rejected",
+    "content_hash": "81f0fd2ebe9ef585c879509b026b572b",
+    "strict_hash": "81f0fd2ebe9ef585c879509b026b572b",
+    "fuzzy_hash": "75a15dd89b07684979022b5742835bbd",
+    "reason": "Новость о расписании матчей ЧМ-2026 в ОАЭ имеет прямую связь с регионом (указано время для UAE), не содержит политики, рекламы или неуважения к ценностям, источник проверяем (What's On). Однако это не уникальная новость, а скорее информационный сервис для болельщиков, который может быть полезен русскоговорящим жителям Дубая. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/uae-public-holidays-turn-5-days-into-14-days-off-in-2026",
+    "timestamp": "2026-07-06T07:01:00.506509+00:00",
+    "status": "rejected",
+    "content_hash": "ed74802a0f2611e28dcc0f8671bab1fc",
+    "strict_hash": "ed74802a0f2611e28dcc0f8671bab1fc",
+    "fuzzy_hash": "55a503b4bc8aca243e18a71db751b433",
+    "reason": "Новость представляет собой переработанный анонс оставшихся государственных праздников ОАЭ в 2026 году и советы по планированию отпуска. Она соответствует критериям: имеет прямую связь с ОАЭ, не содержит политики, рекламы или неуважения, полезна для русскоязычных жителей, планирующих отпуск. Однако источник (Whats On) является развлекательным порталом, а не официальным, и текст имеет признаки перепечатки с другого сайта (указан как \"пост\"). При этом дубликатов среди опубликованных новостей нет, и информация о праздниках является общедоступной и проверяемой."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/introducing-oro-verde-yas-bays-stunning-new-nikkei-restaurant",
+    "timestamp": "2026-07-06T07:01:05.263147+00:00",
+    "status": "rejected",
+    "content_hash": "de9af3c73c4b893a7cbb68a15ecca1c5",
+    "strict_hash": "de9af3c73c4b893a7cbb68a15ecca1c5",
+    "fuzzy_hash": "5004a7cd68760b0b886ed44415469e1e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbnV4eTJlWmIwekQydl9JMk4welozdzNIUkVVU0R6d2I1aHR0WkZOVER0ZEUwS1pBcUs0RE1Td01UUnh0MW9pQW9tZjlLUHowcWQwY3BJSlJRWUZZcUF3RjI2Q0FXX3VQRFpxSVU4ZzhSZWpkcGk1RlJlUVRXTGFRZXFyV3hoeTJUaDE3OTZPdnFjN2xYaDhnaUdwaks0QUZaTjA2TDZOYS1ScmlMdkZBMFJjb3dUMnh3N1paQWtONjlnVFk3WURFUy1wSzQ5MlRoUklpUFc2N3lpV0pfNE0wNVQ3ZV9HdkU?oc=5",
+    "timestamp": "2026-07-06T07:01:13.195598+00:00",
+    "status": "approved",
+    "content_hash": "3dd578177e4b573865aa61ab776f8921",
+    "strict_hash": "3dd578177e4b573865aa61ab776f8921",
+    "fuzzy_hash": "adf14b5e6e437ff0a9f50cd04bb2b71d",
+    "reason": "approved"
   }
 ]
