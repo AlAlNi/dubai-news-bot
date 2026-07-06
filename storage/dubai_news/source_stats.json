@@ -666,5 +666,50 @@
     "strict_hash": "1021c6120a66f24a70a422730a505725",
     "fuzzy_hash": "9058c4aef3be68d4541bbf86974b2361",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/6-fun-things-to-do-in-abu-dhabi-this-week-july-6-to-9",
+    "timestamp": "2026-07-06T11:54:23.431098+00:00",
+    "status": "rejected",
+    "content_hash": "e107b399492df24813535ec93757d2e4",
+    "strict_hash": "e107b399492df24813535ec93757d2e4",
+    "fuzzy_hash": "fdae8517527af990d2e678302502e03c",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий в Абу-Даби, что имеет связь с регионом (ОАЭ), не содержит политики, рекламы или неуважения к ценностям. Однако она является типичным афишным материалом без общественно значимой новости, а также не имеет проверяемого источника (ссылка ведет на агрегатор, а не на официальный сайт). Кроме того, новость не представляет интереса для русскоговорящего жителя Дубая, так как фокус на Абу-Даби, а не на Дубае."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/7-things-to-do-in-dubai-this-week-july-6-to-9",
+    "timestamp": "2026-07-06T11:54:30.648713+00:00",
+    "status": "rejected",
+    "content_hash": "2bfcca8037dfabcda33bf642ddefc46b",
+    "strict_hash": "2bfcca8037dfabcda33bf642ddefc46b",
+    "fuzzy_hash": "158cb9069dc0526589dc6f18ea4c615e",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на неделю, что является типичным контент-списком без общественно значимой информации. Она не содержит явной связи с регионом (кроме упоминания Дубая), выглядит как рекламный анонс и не представляет интереса для русскоязычного жителя, так как не несет полезной или новостной ценности."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/this-luxury-dubai-staycation-starts-from-just-dhs550-per-night",
+    "timestamp": "2026-07-06T11:54:35.628245+00:00",
+    "status": "rejected",
+    "content_hash": "46fe1dcd156fa637cd68b0038c59703a",
+    "strict_hash": "46fe1dcd156fa637cd68b0038c59703a",
+    "fuzzy_hash": "097a4e0e31d7b72cebf73040e1f6f148",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb2ozX1RBQ01wT01aN2MtblI5c0Zqc1Rad1BCMkxxMi14RGR1SzlrU2RBYXlEa3FtcjBmN0dYZS1Jbl9zRDRCZ0MzMHZ4QTR5eGJfckdLQUFubG12RVJPRC1ROC15RFhfemQ3cW1XYk1aT1NpYzN3QmFnQ3pUR05uMWNOSzdDblIybmVzc2ZLeHVISTIzTVBvYm5XMG1QTFpYWlI0?oc=5",
+    "timestamp": "2026-07-06T11:54:38.741770+00:00",
+    "status": "rejected",
+    "content_hash": "a02918b43e574574f54b88f33102058c",
+    "strict_hash": "a02918b43e574574f54b88f33102058c",
+    "fuzzy_hash": "ac9779065cf629fdca7f4a44d75c3e20",
+    "reason": "Эта новость представляет собой интервью с 19-летним предпринимателем о его стартапе в сфере недвижимости. Она не является общественно значимой новостью, а скорее похожа на рекламный или имиджевый материал, не несущий практической пользы для широкой аудитории русскоговорящих жителей Дубая. Кроме того, отсутствует явная проверяемая ссылка на источник, а тема дублирует общий контекст рынка недвижимости, уже освещенный в предыдущей публикации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeVAxUEdkLUhQLVgyU2g0MlNFekdTSW4yY20zS2pxVk00aWl3bElPbk1NanJ0b0E0SHJLVDQwN21GZXdfdkgwVDNiSmNPdUpHbFpTVzJNMTV0RWNKRzJWYXpnX2JHYlQ4N2VRWEZGbDg4RlVfZnRic3BqX015S2hfeE9zS3N3RnBxSlHSAYoBQVVfeXFMT3lQMVBHZC1IUC1YMlNoNDJTRXpHU0luMmNtM0tqcVZNNGlpd2xJT25NTWpydG9BNEhyS1Q0MDdtRmV3X3ZIMFQzYkpjT3VKR2xaU1cyTTE1dEVjSkcyVmF6Z19iR2JUODdlUVhGRmw4OEZVX2Z0YnNwal9NeUtoX3hPc0tzd0ZwcUpR?oc=5",
+    "timestamp": "2026-07-06T11:54:41.584049+00:00",
+    "status": "rejected",
+    "content_hash": "cdbae7ad6e971cc5f4f84e4bf0fa10d4",
+    "strict_hash": "cdbae7ad6e971cc5f4f84e4bf0fa10d4",
+    "fuzzy_hash": "231bc00ecf060a7754f82fab6e433f5e",
+    "reason": "Новость имеет явную связь с Дубаем (рынок недвижимости), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако заголовок указывает на 2026 год, что выглядит как ошибка или футуристический прогноз, а не актуальная новость. Кроме того, текст практически отсутствует (только заголовок и название издания), что делает его неинформативным и похожим на дубликат уже опубликованной новости о росте продаж в H1 2024 (контекст №1). Источник не указан явно, факты не проверяемы."
   }
 ]
