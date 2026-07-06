@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.birminghammail.co.uk/news/midlands-news/solihull-drug-smuggler-says-i-34173712",
-    "timestamp": "2026-07-04T18:31:52.372289+00:00",
-    "status": "rejected",
-    "content_hash": "995dab9090ec2f021928269251943f69",
-    "strict_hash": "995dab9090ec2f021928269251943f69",
-    "fuzzy_hash": "815c648d40e3650d233128e453d351a7",
-    "reason": "Эта новость не подходит для канала о Дубае, так как основное событие (судебное дело о наркотиках) происходит в Великобритании, а Дубай упоминается лишь как точка вылета. Тема не представляет интереса для русскоязычного жителя ОАЭ и не соответствует критериям полезности или актуальности для региона."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNVZscXNsU1AwdEtKRXpmemJ4SDd6RDVaenBWMGYzM1lFNVVtcmNPYVJ3WE5UaHMwcHh5aGZyTnd5dHI5TnNMQ2Q3Wm5jRTF3cklMdDlzU2d1VnV0el9hSHBldlNJMi1BRTdyNVlNX2otOF95a29tVHNtd21PXzVzWnEzOUF3T2tIemlUczlCRWdqcGltdVNEdk05Wk5jM2hKaEJBX3dTOXl5NGdCZHhjWlBtbUZhZDBh?oc=5",
-    "timestamp": "2026-07-04T18:55:46.688273+00:00",
-    "status": "rejected",
-    "content_hash": "5fdf5c14a71e9ab294f81fbc6f7a7abf",
-    "strict_hash": "5fdf5c14a71e9ab294f81fbc6f7a7abf",
-    "fuzzy_hash": "eee89fe752fb96be7f2b21682d15f3c7",
-    "reason": "Новость о перекрытии движения на Emirates Road из-за расширения дороги напрямую связана с Дубаем, не содержит политики, рекламы или неуважения к ценностям ОАЭ, а также представляет практический интерес для русскоязычных жителей, так как касается изменений в транспортной инфраструктуре. Однако она является дубликатом уже опубликованной новости под номером 4 («Traffic diversion alert: Major Emirates Road tunnel to close for two months»), так как обе сообщают о перекрытии на Emirates Road, хотя источник и дата начала различаются. Учитывая правило 7 о дубликатах, новость следует отклонить."
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ieGlxMFI2SWtILTdMSEFuc05yNFBmR2hFMWt6QWUwaTE0Vkp6cTBaRnZqY3BpV2FJZ0o1bGE2eTk1ZHZ2V3AzUlhjQW9zTnFfSzRNUWdBMU5JTEpuQ3BMaw?oc=5",
     "timestamp": "2026-07-04T20:29:09.055248+00:00",
     "status": "approved",
@@ -661,5 +643,10 @@
     "strict_hash": "b8a23311eb1b6f03f1894f7e9b66a424",
     "fuzzy_hash": "20ec3d4dc635acec4a62621a5fd57efc",
     "reason": "Новость о смерти известного педагога из Кералы, работавшего в ОАЭ, имеет связь с регионом, не содержит политики, рекламы или неуважения к ценностям, но является некрологом, который может быть интересен только узкой группе русскоязычных жителей (выходцам из Кералы). При этом текст выглядит естественным, источник проверяем, дубликатов среди опубликованных новостей нет. Однако для русскоязычной аудитории Дубая эта новость не представляет общезначимого интереса или пользы."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/your-nol-card-is-about-to-get-a-serious-upgrade-in-dubai",
+    "timestamp": "2026-07-06T20:09:07.020464+00:00",
+    "status": "published"
   }
 ]
