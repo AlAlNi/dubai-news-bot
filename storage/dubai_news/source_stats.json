@@ -1,59 +1,5 @@
 [
   {
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-stocks-uae-markets-end-higher-ihc-gains-on-india-aluminium-venture/articleshow/132161637.cms",
-    "timestamp": "2026-07-04T01:07:58.075380+00:00",
-    "status": "rejected",
-    "content_hash": "ed473be3840380688abf1211c4a5b213",
-    "strict_hash": "ed473be3840380688abf1211c4a5b213",
-    "fuzzy_hash": "ae7767d1234afd78ba3c98b11a828c21",
-    "reason": "Новость о росте фондовых рынков ОАЭ на фоне глобального ралли имеет прямую связь с регионом (Дубай, ОАЭ), не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и может быть интересна русскоязычным жителям, следящим за экономикой. Однако она является дубликатом по смыслу с уже опубликованной новостью №4 (RTA completes Dubai metro... — нет, это разные темы, но проверка на дубликаты по хешу и контексту показывает, что данная новость не совпадает с опубликованными. Тем не менее, в контексте есть новость про рынки? Нет, в списке нет похожей. Новость подходит по всем критериям, включая проверяемый источник (ZAWYA)."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHYyVWdJdkctTW5qOXBXQ0hFMklRVVloWlI4ZEdoWDJZTWNfX2VIcEZSdVZleGh0STgtQ09yRHdqQ1hvVnd1ZnAxcjh1ZHE4SUYtY29VQUx2VDNJZDdvOE1rVDd3ZW9iN2FGdll6NDdEV2dSZXhZU1gtMWYzMDg0RUprZmNDODdTdEpPQXRDZmMwTHBEZmY5bzZ4clcwNUZLQ0EtRTZ6TVVRS2U4MEx3ZA?oc=5",
-    "timestamp": "2026-07-04T01:08:05.791256+00:00",
-    "status": "approved",
-    "content_hash": "385072872bbbf88d19be26254edc74fa",
-    "strict_hash": "385072872bbbf88d19be26254edc74fa",
-    "fuzzy_hash": "d5109ec18edce3e918f02f0cd431e662",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/dubai-flexi-rent-explained",
-    "timestamp": "2026-07-04T02:03:04.022339+00:00",
-    "status": "rejected",
-    "content_hash": "db34580e1dcbfbcacad9e9b77d9b3f51",
-    "strict_hash": "db34580e1dcbfbcacad9e9b77d9b3f51",
-    "fuzzy_hash": "8b11033cb8f350af119654bf1d5e3643",
-    "reason": "Cheap prefilter: слишком короткий текст (104 символов)"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/2026-world-cup/dubai-venues-showing-every-world-cup-match",
-    "timestamp": "2026-07-04T02:03:10.307335+00:00",
-    "status": "rejected",
-    "content_hash": "0b8d096b11a6a71e5bd04d9aedc70996",
-    "strict_hash": "0b8d096b11a6a71e5bd04d9aedc70996",
-    "fuzzy_hash": "0d798aba117c7e6340540a944c9c5bbb",
-    "reason": "Cheap prefilter: слишком короткий текст (93 символов)"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/food-drink/best-dining-deals-offers-dubai-summer",
-    "timestamp": "2026-07-04T02:03:15.873041+00:00",
-    "status": "rejected",
-    "content_hash": "bbd8d7224b234ae125d49e29c94c44fb",
-    "strict_hash": "bbd8d7224b234ae125d49e29c94c44fb",
-    "fuzzy_hash": "c21fba2f1a9b8f2b2140c42094667ec0",
-    "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
-  },
-  {
-    "url": "https://www.hindustantimes.com/trending/this-is-dubais-level-of-safety-man-films-defender-stopping-for-peacock-family-to-cross-101783085380659.html",
-    "timestamp": "2026-07-04T02:03:21.851480+00:00",
-    "status": "approved",
-    "content_hash": "78f966721951b6cc1c6d0c333f71d0f9",
-    "strict_hash": "78f966721951b6cc1c6d0c333f71d0f9",
-    "fuzzy_hash": "ee1d6a4c61e2a44d195700eb743d4810",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.hindustantimes.com/trending/this-is-dubais-level-of-safety-man-films-defender-stopping-for-peacock-family-to-cross-101783085380659.html",
     "timestamp": "2026-07-04T04:42:14.364730+00:00",
     "status": "published"
@@ -662,5 +608,10 @@
     "strict_hash": "cb778aa6e82e79cbbd9a04fc7d489b43",
     "fuzzy_hash": "cc352f741b00a269ee47933ed2755c8e",
     "reason": "approved"
+  },
+  {
+    "url": "https://indianexpress.com/article/world/dubai-metro-mall-expansion-burj-khalifa-road-closures-until-2026-end-10772571",
+    "timestamp": "2026-07-06T04:21:41.869716+00:00",
+    "status": "published"
   }
 ]
