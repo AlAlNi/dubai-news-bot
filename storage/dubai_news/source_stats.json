@@ -694,5 +694,23 @@
     "url": "https://propertynews.ae/uae/dubai/dubai-residential-market-records-dh221-3-billion-in-sales-for-h1-2026",
     "timestamp": "2026-07-07T00:15:58.243355+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/the-gamechangers-middle-east-uaes-premier-startup-investment-reality-series-receives-1500-founder-applications-ahead-of-deadline",
+    "timestamp": "2026-07-07T01:16:46.759885+00:00",
+    "status": "rejected",
+    "content_hash": "d41d6e68dc797359560a2f207555b9f1",
+    "strict_hash": "d41d6e68dc797359560a2f207555b9f1",
+    "fuzzy_hash": "e692323386f27c8145f93ee5d359a2f9",
+    "reason": "Новость является рекламным пресс-релизом о стартап-шоу, не содержит общественно значимой информации для русскоязычного жителя Дубая, а также имеет признаки ИИ-генерации и кликбейта."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjYUk4S2RNSkhDLXBnNjhpaXg5X3FINHk4ZnFvT2M2eWZ6elJwamZsR2FHbHVqWkdjY2dRZE4tYmtOb2xiNm1zMFRVeS1KbU14LUtBcmV0ZG5XdUd4eDZ1akliY1FCTlJCUWZjZDdR?oc=5",
+    "timestamp": "2026-07-07T01:16:50.889359+00:00",
+    "status": "rejected",
+    "content_hash": "1bc1dea5bb5187d7c1014eb25a531858",
+    "strict_hash": "1bc1dea5bb5187d7c1014eb25a531858",
+    "fuzzy_hash": "95d028ddd645d65d3c0b16b0f77c51d8",
+    "reason": "Новость сообщает о едином сроке внедрения визовых требований для стран GCC, что напрямую связано с ОАЭ и регионом, не содержит политики, рекламы или неуважения к ценностям. Однако текст выглядит как перепечатка с туристического портала без указания конкретного проверяемого источника (URL не указан), а также тема визовых изменений уже могла освещаться в других новостях, что требует проверки на дубликаты. Учитывая отсутствие явного URL для верификации и потенциальную повторяемость темы, новость следует отклонить."
   }
 ]
