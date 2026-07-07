@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMm9pT3BOMnBJZGFROGFKM1BnVm1UUHZwcFlOekI2RUttN2FLUHAzZ0VKQm9iNWpSc3FNdXgycTg1bzlWUWxXenlNOXdmSVlKVHRNeG5LU2JMOGt1NktGRVFBdDR3U1Z6eVIwRzIxb0VJU016Q3czb1dCcWRBclNQOHRjTDhjRTNRXzZ2cng5QVd2RHA0?oc=5",
-    "timestamp": "2026-07-05T20:16:43.975450+00:00",
-    "status": "rejected",
-    "content_hash": "6d3850fb2ed11bf67e91d786689dac6e",
-    "strict_hash": "6d3850fb2ed11bf67e91d786689dac6e",
-    "fuzzy_hash": "fb281ed905022131308151fd900178e2",
-    "reason": "Новость слишком общая и не содержит конкретной информации, которая была бы полезна или интересна русскоязычному жителю Дубая. Заголовок и текст дублируют друг друга, отсутствует проверяемый источник с явным URL, а также нет привязки к конкретным событиям или изменениям в регионе."
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZWdHZHZFbno1eHBsOWo5VmNpOUVhNEJxUmZBWHFjVG1JSnQ1N19SQXB0OXZ1UGExUnBWY2ZZR3lQWWlTcEtCS3hCeGluYjRnUG56TVE2UXY0ZXlYVHFBcFZPZFVTTHZ4QTFGa2c4b0RZNWVKQVBYc2pnaWpDbTZqMjlhU1VDQzVqVHJNTEJXU0VjRnprN28xV9IBoAFBVV95cUxNdEl2d29rbTBpSmY3b1AzVFhyakZKbnJMS0pQbUl4dzlRTHh4TkhKNG41WFBuamlsMmpHUFk3dy0wQnhzMkFOazhUMEkweEl5dGUzREdoX0dBc0NWbEVrUXRtTnZUT29iTjdWYV9DSFlGQVVTNE5WVzItVnZVNGpmT1Q3S1FjRWlUb25IYlFFN0ZYU09obFd1dVFDM2tWV091?oc=5",
     "timestamp": "2026-07-05T21:50:34.776959+00:00",
     "status": "rejected",
@@ -745,5 +736,10 @@
     "strict_hash": "2acaaabb49942fb79ab009f01d9796e0",
     "fuzzy_hash": "dd6e682e4d3b058561c78857b7801fe3",
     "reason": "Новость явно связана с Дубаем (запуск кампании Brand Dubai), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст крайне короткий, выглядит как фрагмент пресс-релиза без общественно значимой информации, неясна практическая польза для русскоязычного жителя (нет деталей о скидках, мероприятиях или датах). Кроме того, источник указан (Government of Dubai Media Office), но сам текст не содержит проверяемых фактов, кроме названия кампании. Новость не является дубликатом предыдущих."
+  },
+  {
+    "url": "https://www.thebanker.com/content/112fc5f0-9d4f-4edb-8b32-607353fb6a61",
+    "timestamp": "2026-07-07T20:53:55.503551+00:00",
+    "status": "published"
   }
 ]
