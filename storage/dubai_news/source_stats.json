@@ -741,5 +741,41 @@
     "url": "https://www.thebanker.com/content/112fc5f0-9d4f-4edb-8b32-607353fb6a61",
     "timestamp": "2026-07-07T20:53:55.503551+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/8-completely-free-ways-to-stay-fit-in-dubai-this-summer",
+    "timestamp": "2026-07-07T21:13:54.805323+00:00",
+    "status": "rejected",
+    "content_hash": "2dda485b9846d07cad60ca46f814a799",
+    "strict_hash": "2dda485b9846d07cad60ca46f814a799",
+    "fuzzy_hash": "9a3e05888c6a746b9a5e1e89cce49fc1",
+    "reason": "Новость представляет собой перепечатку статьи с сайта What's On о бесплатных способах поддерживать форму в Дубае летом. Она соответствует критериям связи с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, полезна для русскоязычных жителей, но требует проверки на дубликаты по предоставленному хешу."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/everything-we-know-so-far-about-wynn-al-marjan-island",
+    "timestamp": "2026-07-07T21:14:02.924681+00:00",
+    "status": "rejected",
+    "content_hash": "25ef98811e3800a9536af94d9f95aebe",
+    "strict_hash": "25ef98811e3800a9536af94d9f95aebe",
+    "fuzzy_hash": "9a05b7c0d34fa91e6d10a96d718df70f",
+    "reason": "Новость о строительстве курорта Wynn Al Marjan Island в Рас-эль-Хайме имеет прямую связь с ОАЭ, не содержит политики, рекламы или неуважения к ценностям, но является перепечаткой с сайта What's On без указания конкретного проверяемого источника и новых фактов, а также может быть дубликатом ранее опубликованных материалов о проекте."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/uae-public-holidays-2027",
+    "timestamp": "2026-07-07T21:14:07.873237+00:00",
+    "status": "rejected",
+    "content_hash": "6cab5122a6c2225d8655d3c5adf9c9c0",
+    "strict_hash": "6cab5122a6c2225d8655d3c5adf9c9c0",
+    "fuzzy_hash": "7bd54dcc4cde1350574d78a03effddbd",
+    "reason": "Cheap prefilter: слишком короткий текст (101 символов)"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/piyush-goyal-hails-jharkhands-amrapali-mangoes-debuting-in-dubai-export-initiative-yields-180-higher-returns-for-women-farmers",
+    "timestamp": "2026-07-07T21:14:10.051940+00:00",
+    "status": "rejected",
+    "content_hash": "66a541b3cc65036cae692772d8b1fe01",
+    "strict_hash": "66a541b3cc65036cae692772d8b1fe01",
+    "fuzzy_hash": "a5a603f4b5b48359e0661127f10cc5d2",
+    "reason": "Новость не подходит для публикации, так как основное событие (экспорт манго из Джаркханда в Дубай) происходит в Индии, а Дубай упоминается лишь как конечный пункт поставки. Связь с регионом слабая, новость не представляет интереса для русскоязычного жителя Дубая и не содержит общественно значимой информации о жизни в ОАЭ."
   }
 ]
