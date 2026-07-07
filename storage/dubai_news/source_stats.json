@@ -691,5 +691,14 @@
     "url": "https://timesofindia.indiatimes.com/technology/tech-news/woman-loses-a-years-savings-to-ai-deepfake-scam-on-dating-site-scammers-impersonated-dubais-crown-prince/articleshow/132213088.cms",
     "timestamp": "2026-07-07T15:09:47.279917+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KMGs2MXNzYjdtRU5kN0ZBQmNGd2l1emlNZ2NrbnBxRjRrSDJSRWJ5c2wwUG92LWtiTjFjTGIzYWExay05UVQ1WjZFRmN6MjVFX25xUUowYXFwbFVhak1aaUJ3N0RsVENzOWxtWmRn?oc=5",
+    "timestamp": "2026-07-07T16:01:21.897599+00:00",
+    "status": "error",
+    "content_hash": "41414b4b9105591f1b573d5e727541d4",
+    "strict_hash": "41414b4b9105591f1b573d5e727541d4",
+    "fuzzy_hash": "af5a7595e478c06f7b611483a64bb8a5",
+    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
   }
 ]
