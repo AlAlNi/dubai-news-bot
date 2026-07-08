@@ -903,5 +903,41 @@
     "strict_hash": "c8b362e16e03d646d7bdb1703ce429bb",
     "fuzzy_hash": "e6d8619f2fb11180e950e9d10246061d",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/the-pros-picks-where-dubais-bartenders-visit-off-duty",
+    "timestamp": "2026-07-08T10:06:11.020077+00:00",
+    "status": "rejected",
+    "content_hash": "50ac26d8e4c2a0cc30415ed969400e96",
+    "strict_hash": "50ac26d8e4c2a0cc30415ed969400e96",
+    "fuzzy_hash": "f82c424be2a15c15d67cc09b6cbaa2d4",
+    "reason": "Новость представляет собой рекламно-развлекательный материал о барах Дубая, основанный на субъективных мнениях барменов. Это не общественно значимая новость, а скорее анонс или статья из раздела «лайфстайл», что нарушает правило 3 (рекламный характер) и правило 6 (низкая полезность для русскоязычного жителя, если только это не тематический гид). Кроме того, источник (What's On) указан, но сам текст является перепечаткой блога, а не оперативной новостью."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/venomous-creatures-dubai",
+    "timestamp": "2026-07-08T10:06:21.163170+00:00",
+    "status": "rejected",
+    "content_hash": "e871bdd0543a4e83f659847331a40863",
+    "strict_hash": "e871bdd0543a4e83f659847331a40863",
+    "fuzzy_hash": "ec04d365eda5b6c3d7676d2d4bb1b323",
+    "reason": "Новость о ядовитых существах в Дубае основана на реальном случае (обнаружение черной вдовы), имеет прямую связь с регионом и представляет практический интерес для жителей. Однако она является точным дубликатом уже опубликованного материала (первая новость в контексте — про вертипорт — с того же сайта What's On, но это не дубликат; дубликатом является сам факт, что эта новость уже была в канале? Нет, в контексте её нет. Но проверка по хешу показывает, что это копия ранее неопубликованного? Хеш уникален. Тем не менее, новость носит скорее развлекательно-познавательный характер, а не является срочным или критически важным предупреждением. Учитывая, что это пересказ статьи из The National без добавления новой информации, и отсутствие прямой пользы для русскоязычного жителя (кроме общего любопытства), новость можно отклонить по критерию 6 (интерес, но не необходимость) и 5 (признаки рерайта)."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dubais-first-air-taxi-vertiport-gets-the-green-light-ahead-of-launch",
+    "timestamp": "2026-07-08T10:06:25.692870+00:00",
+    "status": "rejected",
+    "content_hash": "70d2e657319c53210252ed028e2a144b",
+    "strict_hash": "70d2e657319c53210252ed028e2a144b",
+    "fuzzy_hash": "a7d4a99e8e8b405798be712f7d3ef87b",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWUFuYWFkdnM1QXJ1RnYxWXRtbnN0cGxPWDZHaFlkeVlUX0QyZ1FFSW00cEdETmFMdmlQTVJoSEJSTzd6RUxGTXV4SFlycjE3RnZ0U09JYzRXd0tyQmVyRG5pM1RtdlpmYkNaRDVjbG9aRHRYV0dXSmt3ejZITk5Zb1FhMmNmUVFPV2llTzA5T1I5SEtURkJodEprLU5HdTJ3VkhyTFVlVmRxakpVdVgyVTFqOUN0RUljS1dKd2tVUXJnaWNhNmtyeEVMZ3ZBcDNHNGZVeXFvU1hGd1pl?oc=5",
+    "timestamp": "2026-07-08T10:06:34.589260+00:00",
+    "status": "approved",
+    "content_hash": "285ecf7902588ea62e75d50f2ea32adf",
+    "strict_hash": "285ecf7902588ea62e75d50f2ea32adf",
+    "fuzzy_hash": "bca066cfc941aa3853611e32d3fa9f8f",
+    "reason": "approved"
   }
 ]
