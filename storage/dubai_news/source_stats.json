@@ -868,5 +868,86 @@
     "strict_hash": "1f2bd3b7dbd130ffab4028614f2ea93e",
     "fuzzy_hash": "3747714b081fa33450024ee3486dd18e",
     "reason": "approved"
+  },
+  {
+    "url": "https://markets.businessinsider.com/news/currencies/aun-digital-unveils-custom-crm-solution-to-help-uae-startups-scale-1036306101",
+    "timestamp": "2026-07-08T19:05:32.227516+00:00",
+    "status": "rejected",
+    "content_hash": "ff9fafb6c47b73674a4844a1ef1a9bbe",
+    "strict_hash": "ff9fafb6c47b73674a4844a1ef1a9bbe",
+    "fuzzy_hash": "af371f054f355ec81dfd57221cf274b5",
+    "reason": "Новость является явным пресс-релизом компании Aun Digital, рекламирующим её услуги, без общественно значимой информации для русскоязычных жителей Дубая. Она нарушает правило 3 (рекламный характер) и правило 6 (отсутствие интереса для аудитории)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU0paX0RTdHMtVXdsTzBidE9lalphOUplUmFaWVA3bGt4MDQwOVdmWUhkdnlSeHlaeUJvQ1hPTW55Yy1DQ001RmotTE5ic0U0ZmY2MXNXX2ZMQ0g4VEIxa1dPNi1IOXUxT19WWDBicDRaTV93SmRnbWxtUWhTdVVYSHVabHJJOGcxN0xmR1FHTTkwVVU4am1JZGFvcHlEdDJ4MFE?oc=5",
+    "timestamp": "2026-07-08T19:05:36.511080+00:00",
+    "status": "rejected",
+    "content_hash": "08c28c864c4a5f36ee7b3a87b740d58a",
+    "strict_hash": "08c28c864c4a5f36ee7b3a87b740d58a",
+    "fuzzy_hash": "cae72436ce04724ccfa3ad7fe8c5a79c",
+    "reason": "Новость о запуске новой серии международных медиа-брифингов от GDMO имеет прямую связь с Дубаем и ОАЭ, не содержит политики, рекламы или неуважения к ценностям. Однако текст крайне короткий, не содержит никакой конкретной информации, дат или деталей, что делает его неинтересным и бесполезным для русскоязычного жителя Дубая. Кроме того, источник (GDMO) указан, но сам текст не предоставляет проверяемых фактов."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTkJhbk9uU0YxUzd6YkprNWxGN1JWSkwzSFQzU1lOanRaT285NlNDdGFmZ0FtVTlGdHhsaktvZ0hTX1prbXFTMFlsVENUWUVSTHBPY3BnMUI0amhIOUhVR29Pa2ZaZmlTTjlGeWZOR1o1S291OE1hZDNQdmJJTlRoaG9WRFJMMGY2dXRUYjBxSmljdE1fLXRuRWU3bFcxZUJJelY3d1NSeVZHQ0JHMWQ4VQ?oc=5",
+    "timestamp": "2026-07-08T19:05:39.053024+00:00",
+    "status": "rejected",
+    "content_hash": "ff815283406601b35278017fec8c117b",
+    "strict_hash": "ff815283406601b35278017fec8c117b",
+    "fuzzy_hash": "cd75e175741fe3548022d21e804ad173",
+    "reason": "Новость о возможном размещении турецких С-400 в Дубае не имеет прямой связи с жизнью в ОАЭ, а является частью международной военно-политической повестки (Турция, США, F-35). Это нарушает правила 1 (связь с регионом) и 2 (политика и конфликты)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbXJ5bzZ6RHJGYjgtV3JHanlIVFNOYjQ5QXRra1RkQnJPejV3b0VMTVZmbWdsUjkzZnF6SEIzb3MzT0ZOcUs4cXlsbXVMZGZpc0FqQ3ZnbVQ1VkRPazJWZ1dhZW5IV0I2RXZ4Z0N5dEF1RzJMbkxpMnVfclV3NVBueFF0V0tUTWpRR1RrZVdaYWNhUnRuYTY0ZmJSLXd5YVV3NGc?oc=5",
+    "timestamp": "2026-07-08T19:05:39.598810+00:00",
+    "status": "rejected",
+    "content_hash": "da2d12934ccf312b95783f0b66e66c03",
+    "strict_hash": "da2d12934ccf312b95783f0b66e66c03",
+    "fuzzy_hash": "c121398fd48cd0d5b519ea8d3ce1bc06",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNzc4ZUtlaDNFVzdOUFNCS0pGMUVEcUhwZi1fb1h5VFVkYnVLQXFEbXVLNzJOSC1xb3FyenNNVy1fTUJSWTNld0JiMXhJUFZlWkJ2a0tybWQtZldqbk5UQUhZeWo4dVR4cGlmY0tvOGxyX25ZUVQtV1BVU0pJUGpCemF3UXJMdnZXSTBWWlNlX3MzTlhmNUlnQUlPMnc0b2syYVhMay1TakZ5VkZyOVE?oc=5",
+    "timestamp": "2026-07-08T19:05:41.352186+00:00",
+    "status": "rejected",
+    "content_hash": "96f3eb0c3991c7c2f6686c052a45ccca",
+    "strict_hash": "96f3eb0c3991c7c2f6686c052a45ccca",
+    "fuzzy_hash": "c51e159ac8ad47fb5e06b57b5d112edb",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV1l3ZXZocDIyUk14X0lfV1hqVGZ6U0pCRW55UWd2VmU4QVJGQzVZcjhLRHNTQjRwRXkwZDZpeVZQaElrUmJHYk83amZiQk5INWpVMWcyYUZCci1jMndRUFdrczRoTnBUN2hWUmg2a283V1BlbkZRdm9OalZIVnZyQ3I3VHlDTWZFT01LVHVhWHB0QlBFb1lKeV9aQnZYeVlFRGlhRk9rSzYwUlpvZFRlQXJSTDVRZ3ZE?oc=5",
+    "timestamp": "2026-07-08T19:05:42.995474+00:00",
+    "status": "rejected",
+    "content_hash": "2b472950f9adc9514886eb3e74f208df",
+    "strict_hash": "2b472950f9adc9514886eb3e74f208df",
+    "fuzzy_hash": "901ffeb1cd7b967093dd34078f628cee",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMlpkcy1IU0R5OTFjX3padFNtY2tackkyOENFVkJ4akh6cks0SWpUX3ctUDlyS2IxUlpJNlA2dmhnakljdXFVSGtfdnY1bGJZUDh6RmFDdnpDR0l6RExyTXRTelFHN3h3b29uWmZhaFQ0Ym9YYWJUMnczc2lWWW1CbzFsZEM4WlV4Uzh4R2R2T05FZVc5VDQ5NWZEUnFlckg0MkR3NXBrakd3bGRFS2tpZWZNVmg?oc=5",
+    "timestamp": "2026-07-08T19:05:44.779742+00:00",
+    "status": "rejected",
+    "content_hash": "965221f5224bd9d32dc940b0d377aa19",
+    "strict_hash": "965221f5224bd9d32dc940b0d377aa19",
+    "fuzzy_hash": "86e1f440f77005a914546e0ebb95d0fd",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSTRLMmVUdHhQUmZYQUpOWUd4UjViSXIwTlByVkxtZ1g0azYzVi1vMXVoa2ZHdXdIVVpPNUhZOFJhM2V4ejlyYXhhWnBDSHI1aWtoS19wRjhuaS1MMGdtcW1iOVBOQnM2elQxWlJSUUtxb1J2cWtTem1wdDlqQXhOQXBzZXZSWkhTU21SMHNB?oc=5",
+    "timestamp": "2026-07-08T19:05:46.539271+00:00",
+    "status": "rejected",
+    "content_hash": "1d79329b74b8a2482d3f866ef560c47c",
+    "strict_hash": "1d79329b74b8a2482d3f866ef560c47c",
+    "fuzzy_hash": "c9a3e5b2dc410f338d579eec20b3cdd9",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40U3ZZQTFtaEJNTm1TSjBPeUJGSUtPbHIwSnFMNHlKYldYekk1ejdGTkFMcjVnZU1pRDY5VlNTWFJRRmQxcm5NNEYteFFiYklaWWhaeTFhbFF2T2lRZnljUVZjOTQ?oc=5",
+    "timestamp": "2026-07-08T19:05:48.294113+00:00",
+    "status": "rejected",
+    "content_hash": "526845b24bbaa480ad074637e65773fd",
+    "strict_hash": "526845b24bbaa480ad074637e65773fd",
+    "fuzzy_hash": "6cfed51554101afa394a56f4a1e93391",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
