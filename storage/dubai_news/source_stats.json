@@ -872,5 +872,32 @@
     "url": "https://whatson.ae/2026/07/uae-weather-red-alert-issued-for-fog-in-abu-dhabi-and-dubai-speed-limits-reduced",
     "timestamp": "2026-07-08T12:47:07.765523+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.bbc.com/news/articles/c17y81vnje5o",
+    "timestamp": "2026-07-08T13:03:01.041424+00:00",
+    "status": "rejected",
+    "content_hash": "00dc054449d206d607080b97ac907685",
+    "strict_hash": "00dc054449d206d607080b97ac907685",
+    "fuzzy_hash": "31c4777fedc7090423f32968abd677fb",
+    "reason": "Новость является дубликатом уже опубликованной новости под номером 6 в контексте (BBC: \"Package holidays to Dubai and Egypt cheaper as European prices creep up\"). Текст и тема полностью совпадают, что нарушает правило 7."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVDN5MGVheWxJRktteGktcU5qbG5zbDFQYUpaenQ0TDBQTjQ5Y1ViVFktZVNHdUhPR1NXMk9RWHBBM29rN0hqRjhVYy1vOVFFTDZzajNsZW9MUzdNU2x3SF9nWDk5WGJDaHVDWWtuWnZpZTMyWHdwdEdnS1hfWHJxWWJQRVY?oc=5",
+    "timestamp": "2026-07-08T13:03:04.849969+00:00",
+    "status": "rejected",
+    "content_hash": "2e5c071f1319598db13824e109bd24b3",
+    "strict_hash": "2e5c071f1319598db13824e109bd24b3",
+    "fuzzy_hash": "8992d6aea5e8f1e95332fd7f6220c94e",
+    "reason": "Новость официальная, от правительственного источника, напрямую связана с Дубаем, не содержит политики, рекламы или неуважения. Однако она является типичным пресс-релизом о рутинном заседании совета, без конкретных общественно значимых изменений или пользы для русскоязычного жителя (нет новых правил, тарифов или сервисов). Кроме того, это уже 95-е заседание, что делает новость малозначимой для ежедневной ленты."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WaUx1SzRySFFWMzhyWGxmTmY3Uy0xMmszTFAwQWxWQWpoaXAxM0FHVWxfcXVmYThuQ1RnajROWFRRWGk4S19PMUdqSllfNkFReUNIRFRRTkdjYzFZQUljbWk3THNiXzZ3eEwySVpVSTl6QQ?oc=5",
+    "timestamp": "2026-07-08T13:03:12.435855+00:00",
+    "status": "approved",
+    "content_hash": "ca4d2df89622b32d246ea75ef6e0c1af",
+    "strict_hash": "ca4d2df89622b32d246ea75ef6e0c1af",
+    "fuzzy_hash": "938940f3ea5247236b0199ecd70a9602",
+    "reason": "approved"
   }
 ]
