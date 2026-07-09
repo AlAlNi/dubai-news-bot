@@ -1056,5 +1056,77 @@
     "strict_hash": "81f0492782ec20266f0e1d5c616fc917",
     "fuzzy_hash": "5bbcc2b04f2937239bcd6a9a935329fb",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dubais-cheapest-rental-areas-have-been-revealed",
+    "timestamp": "2026-07-09T05:54:40.238047+00:00",
+    "status": "rejected",
+    "content_hash": "9fcc993a644055de345e5838b510afdb",
+    "strict_hash": "9fcc993a644055de345e5838b510afdb",
+    "fuzzy_hash": "509978b453782215878b9079a29d1f8b",
+    "reason": "Новость о самых дешёвых районах для аренды в Дубае соответствует тематике канала, не содержит политики, рекламы или неуважения к ценностям ОАЭ, основана на проверяемых данных и будет полезна русскоязычным жителям, ищущим жильё. Однако она является дубликатом — аналогичная информация уже публиковалась (например, в новости №3 о росте ВВП Дубая косвенно, но тема аренды неоднократно освещалась, а конкретный пост с таким заголовком уже был в канале ранее, что подтверждается хешем контента)."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dune-3-liwa-desert-abu-dhabi",
+    "timestamp": "2026-07-09T05:54:46.958641+00:00",
+    "status": "rejected",
+    "content_hash": "40448ef8028d2b175ccf717dbb72d4c9",
+    "strict_hash": "40448ef8028d2b175ccf717dbb72d4c9",
+    "fuzzy_hash": "9ddad2990a3c7c750d1100de2057c67e",
+    "reason": "Новость о съёмках «Дюны 3» в пустыне Лива (Абу-Даби) интересна, но не имеет прямой связи с Дубаем (событие происходит в соседнем эмирате) и не несёт практической пользы для русскоязычного жителя Дубая. Кроме того, это скорее развлекательный контент, а не новость, и он не соответствует критерию «интерес для русскоговорящего жителя Дубая» (правило 6)."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/want-to-eat-at-dubais-top-restaurants-for-less-heres-how",
+    "timestamp": "2026-07-09T05:54:51.906828+00:00",
+    "status": "rejected",
+    "content_hash": "1dc2877272a9a7bf4d82af6de821270e",
+    "strict_hash": "1dc2877272a9a7bf4d82af6de821270e",
+    "fuzzy_hash": "c5830b4e05b67b02fde2739f1a77c0d0",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZUR2X2kwZ0Z3X2JILU9LNDduRm5zSGNkd0FOdHF4QWxjcGRZR21xUXExbGdUUVh3aWZJUGNCbWItem1IQktRMkVoa0UyeUpibHJzWlk0Y2IzLWlYdzhud09vTjZEcVdEOHlMWDNMMXYxSW5yU2IzMzJubTh0dnRxcjJOT0pCeklHdmVB?oc=5",
+    "timestamp": "2026-07-09T05:54:55.180959+00:00",
+    "status": "rejected",
+    "content_hash": "c24094a7d5879f85f6857bf7136f9abb",
+    "strict_hash": "c24094a7d5879f85f6857bf7136f9abb",
+    "fuzzy_hash": "0669c7b760c1b048241e4bf0cad68946",
+    "reason": "Новость представляет собой подборку отелей для отдыха в Дубае, что имеет прямую связь с регионом и может быть интересно русскоговорящим жителям. Однако она выглядит как рекламный материал (список staycations) без общественно значимой новостной ценности, что нарушает правило 3. Кроме того, в контексте уже есть похожие новости о бесплатном проживании в отелях (пункт 6), что может указывать на повтор тематики."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTUlUSU94VEZHeHF4WEZSQnN2bzZ3UGxscDZSVk9uNlpPMHpmS25oWUk3Ynl0X2xGUzc0UFhTd1VNd0lJaHNkeG1QeTJKNWt5aHZxVGs4YzhLaVNJdVBvaGhKVUJ2LXlOZ0F1Vmw1VGVJdGZsOFUzWjcyYzdYTm9Rag?oc=5",
+    "timestamp": "2026-07-09T05:54:57.516552+00:00",
+    "status": "rejected",
+    "content_hash": "5b1aa58b0955f2a3ad15b39bc7f46588",
+    "strict_hash": "5b1aa58b0955f2a3ad15b39bc7f46588",
+    "fuzzy_hash": "99e36da277250132b693e71ac50939d3",
+    "reason": "Новость о самых дешёвых районах для аренды в Дубае напрямую связана с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит естественно и будет полезна русскоязычным жителям, ищущим доступное жильё. Однако в предоставленном контексте нет явного дубликата, но заголовок и текст слишком короткие, а источник (whatson.ae) указан, но без проверяемого URL или подробностей, что может вызвать сомнения в достоверности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcHQxZzljN0xaVWtsOTU5cjZLWFBqNlJyQlNiNThOOXFfTXVudTBkVGFrT0Nzc1hyTTBYNjhYbkFGSWw4bFFaMk83N0R0UDRIblNWWFZlMVNBWFpIYlUtcld2OTUwbkVham5IZy1ZMWZhUWhoMDdYc0hjS2NKbUE0LUxLcWdnTDN5Vlc4R1FhRnBfTmJ4ZDFRbFJ0YjJOWnBVYlRSMTh6SXpDYnQtWF92bnpqd2QyaHZiVWJDYTQ2OEpyX2E2VWFkeTNDc2NQTHc?oc=5",
+    "timestamp": "2026-07-09T05:54:57.738363+00:00",
+    "status": "rejected",
+    "content_hash": "51e2bfd1f7006ea834ec3275d08ada0e",
+    "strict_hash": "51e2bfd1f7006ea834ec3275d08ada0e",
+    "fuzzy_hash": "dca3b3b34525cb54e001755cc3ed9ad9",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY2QtZ2hIM1FyLVFINDlvZVIyM3FIcEN2NVptZTRDUFJVSmk0MTA2QlhZVEg4UlpReDJCTGFxTGFUU1R4cGpEWkVxcGl6ZHE4NXhibXA3MWlwWDJWR2YwVnNSazRQT2c1U0hFV0dVWkVSOUlkdkxDS1BFU0dOSW5kWkZqbDhYRUhDMDJj?oc=5",
+    "timestamp": "2026-07-09T05:54:59.404419+00:00",
+    "status": "rejected",
+    "content_hash": "e905b9ab318c0e9bf293d8a822f13e86",
+    "strict_hash": "e905b9ab318c0e9bf293d8a822f13e86",
+    "fuzzy_hash": "85f610075eb651c6b25d1c8b83f46d8c",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX0VLVGRyc2ZNbU1XcnFDTG1ZaTRUd3BrMS1vRWozVlg0RW1VZzhNSjZGX0JEdnVTOXM1VnMxSWdId0QzbWxCaTQxYkxuOTB1dUZmSVJvVm91Zzh4VXNGZ1hzdDNhQnZXUy14anRtV1oxS2JlVEdHSHBVRnVtVHhfSm1VNkItRGh1OTNoNjV5d29pQmZNaUlMa2hHZmFTLUEwZlJ0UHluTG9zZmNhX1HSAcABQVVfeXFMTXltX1d1aWozM05HamNGcGZLM2JOMFBIYm4yR05mUDMzSTBhdnVkallfWWdtU25zMHo4c0FjTjVFWGlRODVvVFFPVGo0U1FZbmNuTDlyQU44NEQ5REg3UWNkU0dFVkZvUFVPSWFOWjMtQjJxY1ZUTVZBUlo2MEFNdGR3MVlBdEV2OXlEeU5vNEZnZ3hTN0dUWmlXSkxtT0dTaC1YWkVkWlQ0VUNyMy04WUFCU0xhc2NZVUN2cWhWdDlk?oc=5",
+    "timestamp": "2026-07-09T05:55:00.773020+00:00",
+    "status": "rejected",
+    "content_hash": "e508b6258a4956f425bc7aa8816979e9",
+    "strict_hash": "e508b6258a4956f425bc7aa8816979e9",
+    "fuzzy_hash": "75b4a55b4cdb90db21a9bad587c7a8de",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
