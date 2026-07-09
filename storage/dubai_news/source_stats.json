@@ -1069,5 +1069,59 @@
     "strict_hash": "e508b6258a4956f425bc7aa8816979e9",
     "fuzzy_hash": "75b4a55b4cdb90db21a9bad587c7a8de",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4Z0JiMzhDSmdpYTI4Q3g3TmlPOVM2WkZkYWlYUkREQzBlMVBWb0NQM1J6NUhpWklHSGxoUU0yczlIcExyMEl2cUxONzRBQ1JlWGFuVVhoVWd4ZDJHWEpCYXhEN2V6WGkwNVZxQ2VBSUNMY0U?oc=5",
+    "timestamp": "2026-07-09T08:08:15.283015+00:00",
+    "status": "rejected",
+    "content_hash": "e6be45d57c3c09d82e93ae00217944ea",
+    "strict_hash": "e6be45d57c3c09d82e93ae00217944ea",
+    "fuzzy_hash": "38844d28b24d14dbabeb9ef56a4c7f15",
+    "reason": "Новость является точным дубликатом уже опубликованной новости под номером 2 в контексте. Она не несет новой информации и нарушает правило 7 (дубликаты и повторы)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4ySGZDSHo0cE5TYmRaNjdsNDZhT1R6dnJOQ2lBeTZXYk1KWHlyYW5qVWpmcFJwVXVMZ1BaVW1lSDkwQlV1OGtkM09PQXRvNTdnSExOQURpSTBwejBFS0dndl9hWGFWWEQySTdZYXYtcWM3UWFDVzBSREU0ZHlBUQ?oc=5",
+    "timestamp": "2026-07-09T08:08:17.685070+00:00",
+    "status": "rejected",
+    "content_hash": "2baa8a6b4e782f512e483e383b7e31c2",
+    "strict_hash": "2baa8a6b4e782f512e483e383b7e31c2",
+    "fuzzy_hash": "8803cffbe6ae29e2c3cb081dd331a3c7",
+    "reason": "Новость представляет собой список бесплатных развлечений в Дубае, что напрямую связано с регионом и может быть полезно для русскоязычных жителей. Однако она имеет признаки рекламного характера (список от Time Out) и не содержит общественно значимой информации, а также не является срочным сервисным обновлением или регуляторным изменением. Кроме того, в контексте уже есть похожие новости о бесплатных предложениях (пункт 6), что может указывать на дублирование тематики."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIV2Nod29mUGVkQl9wVFBuZFNtcm1ZTkJhNXhzaDNCbEJqMVUtZ0F1TmpUZl9fRTJFZy1ZQzNHRV9jR3B4Y3VxeVduRU1McS14T1RBbTBCb1pjMFhOUmt3Q29zcU5iYVh4RXppWTFhQQ?oc=5",
+    "timestamp": "2026-07-09T08:08:17.966621+00:00",
+    "status": "rejected",
+    "content_hash": "45f36149d77d7fd6f935f3e7dfd65f4d",
+    "strict_hash": "45f36149d77d7fd6f935f3e7dfd65f4d",
+    "fuzzy_hash": "6027fdee98f391bb453845e769f65649",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUDhfMUhXdFlPS1lHWEFPM0tST05zV1FyZ2EtQzhIODk4X19UaTh6X0k1dU5JU25zeGVzTEV1R1pFMTE2VXZuRUoyZUdqazNpbkVONllxQm9ZVzdLdG0wVmdhcXhYOEUwVldMczhfSk45eXZVVk85bzVFRmpISE4zSVJKdGNxM1lCUTNwMVlEczgwLUdVZGE1N09zQVpQTWdsNXE4QmdidklmWS1wSGRsc2FR?oc=5",
+    "timestamp": "2026-07-09T08:08:19.697669+00:00",
+    "status": "rejected",
+    "content_hash": "dda056dd20946e851e184d5be22edca3",
+    "strict_hash": "dda056dd20946e851e184d5be22edca3",
+    "fuzzy_hash": "64f80577423c86b1968b470bfbbc1867",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV0RZM3dlcWc5NkpsbTl6ejBtaGxMM0c5aWVTaEp0MEJldXVZSGhDdTRWU19fYkFnb2JGME9xYkZsTlNtLXRDMWs0eGpUQXQ3NTkwMkJrVjlpenIxN1Y0VW5oMzd5ZXNsSlhRNG1HSUdFeXR3bEROZTIyMmNULVdTTGtJbEI0NHFocEo5aGlMaFNKcFhsWDYzTU9BbUlSQlhEdkthRGxaRFI3czhWM05nczRfSXR4cE12cFlNYWdCRjNKUXptSWc?oc=5",
+    "timestamp": "2026-07-09T08:08:21.178095+00:00",
+    "status": "rejected",
+    "content_hash": "6d488185124b659d474f587bfad58587",
+    "strict_hash": "6d488185124b659d474f587bfad58587",
+    "fuzzy_hash": "e59b2fa169aec018ef14a74ed781c50d",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMG1UUS1rRzFZR2FvUVUta2NPVnYxSXEwT2RJMWFfQXJzTkRYdXlqbmhuLTFQcUVLbzctaDJWeGxjZVRYdWl4aHpvX3cxNmw0aWNFUGs4X0Ntc01YMjdkYWMyUkFVVUVNV0RpQkdnM25GcGJKT1lFYjZJVUE1TnlWUXMyU21acC1TOEdyRjhScmFXU0owTTZGNEpNUmUyRWMyN0piRDlfVkxFSHRIMWJ6WUhqdTJodEtRSUdvTmV2VnJzS2ZrcEVwSnFadzQ0TUhMS3lIWHV0amR0QdIB7AFBVV95cUxNR2VnNEtuLVUtVjZQOHpSZUt3N2VsZEQ4UVFQRnZLcVloVmZLVE9fRGx1N25pR2lUby00YzdBYzhBM29qR3Bob0ZKVU50cF9tdXVRMUNkR29uUkhHVE9UWWJ5SFEwNXVqOEY3dXJ1WFVGRVFKRGlLc2N2MVlQd2c2U3A2MTd6Q3ZfeW9QTWJtWHZ6d2Ntc0Z1Wm5GLUlmcnlBMHNpYlloUTcxVzJ3UkV2WWxqQ1pKeTBleWFoMERabXlfYVRfSF93NUs5MzlSdlVHWGdoNWlFUDRFY0FMeC1VcEZ2X243MjV3M0JWUA?oc=5",
+    "timestamp": "2026-07-09T08:08:22.688235+00:00",
+    "status": "rejected",
+    "content_hash": "9b780883fb802585fb6edf1b5f590f02",
+    "strict_hash": "9b780883fb802585fb6edf1b5f590f02",
+    "fuzzy_hash": "fa37876bec163f41bb8b50afd066727a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
