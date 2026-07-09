@@ -1226,5 +1226,41 @@
     "strict_hash": "ce162f3765057d18b1a920ca2ca564ed",
     "fuzzy_hash": "e4cc138d8a5b8f0d28438c78763184a3",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/things-to-do/iconic-dubai-attractions-2026",
+    "timestamp": "2026-07-09T21:11:32.524435+00:00",
+    "status": "rejected",
+    "content_hash": "6a9097ee26ab3339d4cecfbeef99b15d",
+    "strict_hash": "6a9097ee26ab3339d4cecfbeef99b15d",
+    "fuzzy_hash": "cda88048491bb4ec4ca7ae0ea427b412",
+    "reason": "Cheap prefilter: слишком короткий текст (108 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-malls-coming-soon-latest",
+    "timestamp": "2026-07-09T21:11:38.230102+00:00",
+    "status": "rejected",
+    "content_hash": "19f0f0a7b19bf2be18840b183bd4893e",
+    "strict_hash": "19f0f0a7b19bf2be18840b183bd4893e",
+    "fuzzy_hash": "a01629c90731720261fbb9bf2dc797af",
+    "reason": "Cheap prefilter: слишком короткий текст (98 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/ain-dubai-closed",
+    "timestamp": "2026-07-09T21:11:45.471790+00:00",
+    "status": "rejected",
+    "content_hash": "ccf72b09119769ac4cb54496f9c08ff8",
+    "strict_hash": "ccf72b09119769ac4cb54496f9c08ff8",
+    "fuzzy_hash": "15780f8dfb6c6edf23046ee1a763fa22",
+    "reason": "Cheap prefilter: слишком короткий текст (73 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbktKajBuOG5SOEUwWmJmVV9qenQ2UDNOYjlvTi1yc3RyaHZ0dVNaTk1CNHgzUG1mZWtJbi0wcjNqUlc0Si15enp6VEFHUUhzWVoxVE1CanVnV01NSklXTlhiZ0dZdS1mQUJkbVBLN3gzR3FGTWhROE9JaXUxbVVsZi1SZ2N2SGhIRG9iX2FSZmlHVFRhUjlsaU1lNVRUZk03T29UdlNVSjJHaWxKWGhuSEVrYk8?oc=5",
+    "timestamp": "2026-07-09T21:11:54.459243+00:00",
+    "status": "approved",
+    "content_hash": "2f8b2d17053c6057b766a8fe67d35c79",
+    "strict_hash": "2f8b2d17053c6057b766a8fe67d35c79",
+    "fuzzy_hash": "ab289f86272b93f79377136751b8c6a6",
+    "reason": "approved"
   }
 ]
