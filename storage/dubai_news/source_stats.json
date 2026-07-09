@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KMGs2MXNzYjdtRU5kN0ZBQmNGd2l1emlNZ2NrbnBxRjRrSDJSRWJ5c2wwUG92LWtiTjFjTGIzYWExay05UVQ1WjZFRmN6MjVFX25xUUowYXFwbFVhak1aaUJ3N0RsVENzOWxtWmRn?oc=5",
-    "timestamp": "2026-07-07T16:01:21.897599+00:00",
-    "status": "error",
-    "content_hash": "41414b4b9105591f1b573d5e727541d4",
-    "strict_hash": "41414b4b9105591f1b573d5e727541d4",
-    "fuzzy_hash": "af5a7595e478c06f7b611483a64bb8a5",
-    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/in-pics-this-two-michelin-star-london-restaurant-is-about-to-open-in-dubai",
-    "timestamp": "2026-07-07T17:04:38.388613+00:00",
-    "status": "rejected",
-    "content_hash": "97189c6334d5b508bc437d224af8184d",
-    "strict_hash": "97189c6334d5b508bc437d224af8184d",
-    "fuzzy_hash": "b654b676eef7a88ebe782e3480b1fcdf",
-    "reason": "Новость о ресторане Gymkhana, который открывается в Дубае, явно связана с регионом, не содержит политики или рекламы в чистом виде, а также представляет интерес для русскоязычных жителей, интересующихся гастрономией. Однако текст выглядит как перепечатка с сайта What's On, а не оригинальная новость, и не содержит проверяемого источника (URL не указан). Кроме того, это скорее анонс, а не общественно значимая новость, и может быть воспринят как рекламный материал."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/your-guide-to-the-etihad-rail-passenger-stations-in-the-uae",
-    "timestamp": "2026-07-07T17:04:50.893497+00:00",
-    "status": "approved",
-    "content_hash": "8438586f5510bf105a2271325cf5acbc",
-    "strict_hash": "8438586f5510bf105a2271325cf5acbc",
-    "fuzzy_hash": "587f904cb8fb3ae9fce9d45702e25dfd",
-    "reason": "approved"
-  },
-  {
     "url": "https://whatson.ae/2026/07/your-guide-to-the-etihad-rail-passenger-stations-in-the-uae",
     "timestamp": "2026-07-07T18:08:34.214128+00:00",
     "status": "published"
@@ -1212,5 +1185,10 @@
     "strict_hash": "7d5ca6abb7bc06315a946af0746c7f67",
     "fuzzy_hash": "822ee8ca249369cf88c8bb26b0f6efd5",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/uae-weather-temperatures-could-reach-47c-as-humidity-builds-next-week",
+    "timestamp": "2026-07-09T18:04:36.732118+00:00",
+    "status": "published"
   }
 ]
