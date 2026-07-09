@@ -1123,5 +1123,50 @@
     "strict_hash": "9b780883fb802585fb6edf1b5f590f02",
     "fuzzy_hash": "fa37876bec163f41bb8b50afd066727a",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/business/dubai-achieves-dh232-billion-gdp-in-first-quarter-non-oil-sector-expansion-sustains-growth-momentum",
+    "timestamp": "2026-07-09T09:19:32.157327+00:00",
+    "status": "rejected",
+    "content_hash": "9c030b35ba0e36d60118859d05590923",
+    "strict_hash": "9c030b35ba0e36d60118859d05590923",
+    "fuzzy_hash": "8b91bd7c49b4b376598d482b6d2bba45",
+    "reason": "Новость является дубликатом уже опубликованного материала под номером 3: \"Dubai GDP climbs to Dh232bn in Q1 as non-oil sectors drive expansion - thenationalnews.com\". Текст практически идентичен по смыслу и данным, хотя источник указан другой. Публикация повторной новости нарушает правило 7."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/flying-your-dog-out-of-dubai-heres-what-you-need-to-know-before-you-go",
+    "timestamp": "2026-07-09T09:19:41.635860+00:00",
+    "status": "rejected",
+    "content_hash": "9bbc2fca969e6bb9c232a4dd374072f8",
+    "strict_hash": "9bbc2fca969e6bb9c232a4dd374072f8",
+    "fuzzy_hash": "c0b62ac1580543dccd47878190767eea",
+    "reason": "Новость о перевозке собак из Дубая имеет прямую связь с регионом и может быть полезна русскоязычным жителям, планирующим релокацию. Однако текст явно основан на советах конкретной компании (Pet Air Valet), что придаёт ему рекламный характер, а источник (Whats On) не предоставляет проверяемых официальных данных — только мнение коммерческой организации."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/a-beginners-guide-to-eating-well-in-ras-al-khaimah",
+    "timestamp": "2026-07-09T09:19:49.396812+00:00",
+    "status": "rejected",
+    "content_hash": "2bcfbff874ec9e4bd5c81ffe34c6febd",
+    "strict_hash": "2bcfbff874ec9e4bd5c81ffe34c6febd",
+    "fuzzy_hash": "7d2daf98612cd6da8cf23a0d94fb6f37",
+    "reason": "Новость представляет собой гастрономический гид по Рас-Аль-Хайме, что имеет прямую связь с регионом (ОАЭ), не содержит политики, рекламы или неуважения к ценностям. Однако это не новость, а скорее обзорный материал (лонгрид) без общественно значимой срочной информации, и он не является service-update или регуляторным изменением. Кроме того, в контексте уже есть новости о Дубае, но дубликатов нет. Тем не менее, для русскоязычного жителя Дубая, который может планировать поездку в соседний эмират, материал может быть полезен, но он больше похож на статью из журнала, а не на оперативную новость для канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeUlETmVrbERuN1NFblIwZmpYZmYzaUtwN0o3Y3huQ0pqNmNncHhqb1RPbUJqb1dtUDhWQ2JFemNYYjczQWVlak0zT0VqM3k3MC1qdWxoYVE1U3Q1QWJZVFBsa0NUNWdCNThGNVExVGFQbHlLSy1haGMzTnp1YTM3cGF0UTl4ems3UUthY29tUmF0UUNhY2RvZi1FU0lIdGVUMUs2M2hSSEs?oc=5",
+    "timestamp": "2026-07-09T09:19:52.152070+00:00",
+    "status": "rejected",
+    "content_hash": "4049dd08e6e85ecffc40a6612542079b",
+    "strict_hash": "4049dd08e6e85ecffc40a6612542079b",
+    "fuzzy_hash": "f1af2e9607f3b4bf990d05a9a569a642",
+    "reason": "Новость явно связана с регионом (Gulf companies), но её основная тема — война с Ираном и её экономические последствия, что является политическим конфликтом. Это нарушает правило №2 (политика и конфликты), поэтому новость не подходит для публикации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mWGJtLUh4SjhrRWdfT0hYNnBOckUxV3liWUtuSnV6WGNNcF9YTXg5OFlCal9oVXpiV2JBalZwNXpwenJqcHhBY0g0Yno0NG8xX0k3TGVRZmVuRjRqQXFzR3hCZG1MNFV1amFJ?oc=5",
+    "timestamp": "2026-07-09T09:19:59.071769+00:00",
+    "status": "approved",
+    "content_hash": "7f4564ca939c3a642cda8790e0a45bd2",
+    "strict_hash": "7f4564ca939c3a642cda8790e0a45bd2",
+    "fuzzy_hash": "7d10b10a83a7f3ca28168da79caa01e3",
+    "reason": "approved"
   }
 ]
