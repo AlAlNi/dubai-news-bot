@@ -1221,5 +1221,59 @@
     "strict_hash": "2f8b2d17053c6057b766a8fe67d35c79",
     "fuzzy_hash": "ab289f86272b93f79377136751b8c6a6",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/family-holidays-dubai-cheap-travel-middle-east-b3011754.html",
+    "timestamp": "2026-07-09T22:50:02.751158+00:00",
+    "status": "rejected",
+    "content_hash": "137610919ffcb2b321ec57c680840317",
+    "strict_hash": "137610919ffcb2b321ec57c680840317",
+    "fuzzy_hash": "fc31b35b25bdef7251274430ed185e54",
+    "reason": "Новость содержит ссылку на «конфликт на Ближнем Востоке» как причину снижения цен, что является политическим контекстом и может быть воспринято как неуважение к стабильности региона (нарушение правил 2 и 4). Кроме того, текст обрывается и не содержит проверяемого источника (нарушение правила 9)."
+  },
+  {
+    "url": "https://www.straitstimes.com/world/middle-east/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader",
+    "timestamp": "2026-07-09T22:50:05.243232+00:00",
+    "status": "rejected",
+    "content_hash": "62c468970abd585a8853a09f7d51a0ab",
+    "strict_hash": "62c468970abd585a8853a09f7d51a0ab",
+    "fuzzy_hash": "80a4c3f3bd4d33f7168b7125fddbf0bb",
+    "reason": "Новость явно касается военного конфликта между Ираном и США, что является большой политикой и военной темой, не связанной с жизнью в Дубае или ОАЭ напрямую, а также нарушает правило об уважении к ценностям региона, так как описывает боевые действия в Персидском заливе."
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-abu-dhabi-uae-is-it-safe-uk-foreign-office-advice-b3011775.html",
+    "timestamp": "2026-07-09T22:50:07.388300+00:00",
+    "status": "rejected",
+    "content_hash": "596869ded4013a3a70f8150f1d8acb58",
+    "strict_hash": "596869ded4013a3a70f8150f1d8acb58",
+    "fuzzy_hash": "fffaadf08f4e76d08bd404425b44d484",
+    "reason": "Новость касается безопасности туристов в Дубае и Абу-Даби на фоне конфликта США и Ирана, что прямо связано с регионом, но основная тема — это большая политика и военный конфликт, что нарушает правило №2. Кроме того, текст может вызвать тревогу и не соответствует ценностям стабильности ОАЭ."
+  },
+  {
+    "url": "https://www.livemint.com/brand-stories/inside-dubai-s-real-estate-evolution-with-ajay-rajendran-of-meraki-developers-11783590698678.html",
+    "timestamp": "2026-07-09T22:50:09.424531+00:00",
+    "status": "rejected",
+    "content_hash": "b9691effd2d938874869c52cc0752b9d",
+    "strict_hash": "b9691effd2d938874869c52cc0752b9d",
+    "fuzzy_hash": "1bc54573252d70018a1370b4c688d1aa",
+    "reason": "Новость представляет собой интервью или пресс-релиз о застройщике Meraki Developers, что является рекламным материалом без общественно значимой новости. Отсутствует проверяемый источник и явная новостная ценность для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeXgyMXZ6NW0wQW5NVXlKRHNERlhtNjl6S0dTcWVjMl91Q19JMWtXWm5fakl6a1dSblhkMDhRMzNjQ2ttNFJTQnBkbGNvXzdpdGpDSXJ1eVM5bTBodzU5YnR0Z0RMRzNKNjh4MnlfNWdnS3VhaVlrRmNGTnQtOVBVUU5HRzNDVWhNQmVrY2lvVndNcThpS1pTYlFzT21zeUx2cXFHTk53dHE0emJE?oc=5",
+    "timestamp": "2026-07-09T22:50:12.117960+00:00",
+    "status": "rejected",
+    "content_hash": "8834541876a3df887c910fb62cd28f69",
+    "strict_hash": "8834541876a3df887c910fb62cd28f69",
+    "fuzzy_hash": "4b35b84797904bcbada265f4aa6cae7d",
+    "reason": "Новость о ярмарочных десертах в Миннесоте не имеет никакого отношения к Дубаю, ОАЭ или региону GCC. Упоминание «Dubai whoopie pie» — это лишь название блюда, а не событие, связанное с регионом."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcXc1bGdyVE5iWVdwSU9PVHJ1WEJ0ZHVXSmh0dEVQV01JbmFKcmlzdnNUVEdMRmdvUDZ1cExrOXl0b1FXY29sclNRSF9wMURBVlU5WXVtMEtORjVBbmxzQ3ZLdHRsWkM5SHQ5Y2QwU0FMdVExdFJQa1FSMFlCS0RYVkdR?oc=5",
+    "timestamp": "2026-07-09T22:50:19.504005+00:00",
+    "status": "approved",
+    "content_hash": "34afc83bfd21f5d14e1fcd254617a934",
+    "strict_hash": "34afc83bfd21f5d14e1fcd254617a934",
+    "fuzzy_hash": "bca7b459328a4cbb3c190a7b7e33a22d",
+    "reason": "approved"
   }
 ]
