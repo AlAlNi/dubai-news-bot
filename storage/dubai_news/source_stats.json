@@ -1230,5 +1230,32 @@
     "strict_hash": "34052cb09dc7a52fc670e4886ebd3f0e",
     "fuzzy_hash": "834411c6471656ef2ed435f226609514",
     "reason": "approved"
+  },
+  {
+    "url": "https://scanx.trade/stock-market-news/companies/gujarat-kidney-and-super-speciality-acquires-51-stake-in-dubai-based-blue-tree-clinics-llc-for-19-83-64-500/45160549",
+    "timestamp": "2026-07-10T05:34:48.812404+00:00",
+    "status": "rejected",
+    "content_hash": "bc43cc4b642220ca3739d630c6998042",
+    "strict_hash": "bc43cc4b642220ca3739d630c6998042",
+    "fuzzy_hash": "e2d72aab7c2c352045268a81a64e3803",
+    "reason": "Новость о покупке доли в дубайской клинике индийской компанией имеет прямую связь с регионом (Дубай), не содержит политики, рекламы или неуважения к ценностям ОАЭ, не является дубликатом и может быть интересна русскоязычным жителям как пример деловой активности. Однако текст обрывается и не содержит проверяемого источника (URL), что нарушает правило 9."
+  },
+  {
+    "url": "https://techbullion.com/which-is-the-best-office-renovation-service-in-dubai-for-premium-workspaces",
+    "timestamp": "2026-07-10T05:34:51.027492+00:00",
+    "status": "rejected",
+    "content_hash": "a5ae34ba9712acaf62d826b093dda2e4",
+    "strict_hash": "a5ae34ba9712acaf62d826b093dda2e4",
+    "fuzzy_hash": "2d7ab1a9a167a530f23869c10dc2564a",
+    "reason": "Эта новость является рекламной статьей, сравнивающей услуги по ремонту офисов в Дубае. Она не содержит общественно значимой информации, а представляет собой завуалированную рекламу или пресс-релиз, что нарушает правило №3."
+  },
+  {
+    "url": "https://indianexpress.com/shorts/world/emirates-a380-direct-flights-dubai-delhi-mumbai-bengaluru-10778987",
+    "timestamp": "2026-07-10T05:34:59.198466+00:00",
+    "status": "approved",
+    "content_hash": "896115999d3805a382ae9fda0ba3e488",
+    "strict_hash": "896115999d3805a382ae9fda0ba3e488",
+    "fuzzy_hash": "0a186e01ac7704145b310f9d93f0cda9",
+    "reason": "approved"
   }
 ]
