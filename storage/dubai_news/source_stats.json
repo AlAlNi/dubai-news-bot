@@ -1234,5 +1234,23 @@
     "strict_hash": "138de239611bed181fc5065b0b98e399",
     "fuzzy_hash": "35b801d5e7133ff2797970df9ec2667f",
     "reason": "Новость о летних активностях в Palm Jumeirah Mall имеет прямую связь с Дубаем, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст выглядит как анонс мероприятия без указания проверяемого источника (ссылка ведет на Twitter, а не на официальный сайт), и по сути является рекламным пресс-релизом без общественно значимой новости. Кроме того, в списке опубликованных новостей нет дубликатов, но формат не соответствует «страховочным» (нет service-update или регуляторных изменений)."
+  },
+  {
+    "url": "https://www.thesun.ie/news/17266558/daniel-kinahan-extradition-appeal-blow-dubai-garda-court-ireland",
+    "timestamp": "2026-07-10T18:07:35.316138+00:00",
+    "status": "rejected",
+    "content_hash": "b4a9669efc2a15f8ae6d8e9c9f3fc873",
+    "strict_hash": "b4a9669efc2a15f8ae6d8e9c9f3fc873",
+    "fuzzy_hash": "a799cc9751f4139433bcdbc4f2b31f9b",
+    "reason": "Новость о криминальном авторитете Дэниеле Кинахане, его экстрадиции и судебных разбирательствах в Дубае не соответствует тематике канала: это криминальная хроника, связанная с международной преступностью и судебными процессами, что нарушает правило №2 (политика и конфликты) и не представляет интереса для русскоязычного жителя Дубая (правило №6). Кроме того, текст имеет признаки кликбейта и сенсационности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUXB0MHU1b0RabERfZ1RoMktQS3V1MGZpLTRQdUhDdmR5R2FpcTA5OFJLQll4akUwYngzRWVrVjhGbng3M3lneDZJNWViYVlMampFWDcta0lNTWNJQXRGaWpQdU9kSE1NR3lfMmNYcVh0UHhReFMzdl9yblhVMFVlSUVKQ25QdE9UTmRwUlhLdVdSWE5MOThrMnJOMC00RXBGVFd4d2xqYUg?oc=5",
+    "timestamp": "2026-07-10T18:07:43.520724+00:00",
+    "status": "approved",
+    "content_hash": "6de89d45031bed560f9dfc3b3594f20d",
+    "strict_hash": "6de89d45031bed560f9dfc3b3594f20d",
+    "fuzzy_hash": "56111d61487142dbef4251dd384b8ea6",
+    "reason": "approved"
   }
 ]
