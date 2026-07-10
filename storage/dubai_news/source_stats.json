@@ -1135,5 +1135,50 @@
     "strict_hash": "3e7ae3fccc9d26998780139a429657f9",
     "fuzzy_hash": "21f55405b8d73bb86c8c274b2895a9f6",
     "reason": "Новость о запуске проекта Yas Point в Абу-Даби не имеет прямой связи с Дубаем — это событие в соседнем эмирате, и для русскоязычного жителя Дубая оно не представляет непосредственного интереса или пользы. Кроме того, текст выглядит как пресс-релиз без общественно значимой новости для вашего канала."
+  },
+  {
+    "url": "https://www.dailyrecord.co.uk/news/uk-world-news/influencer-27-dies-after-falling-37413296",
+    "timestamp": "2026-07-10T21:34:43.322158+00:00",
+    "status": "rejected",
+    "content_hash": "a633367aa6438a6bac384cc358309529",
+    "strict_hash": "a633367aa6438a6bac384cc358309529",
+    "fuzzy_hash": "cdd8a2cf149ab268f83e5bdc8a6629e9",
+    "reason": "Новость о смерти инфлюенсерши после падения с высоты в Дубае — это трагический инцидент, который не несёт общественно значимой информации для русскоязычных жителей, а скорее напоминает кликбейтную светскую хронику. Отсутствует практическая польза или связь с важными городскими событиями, а также есть риск неуважения к местным ценностям."
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-abu-dhabi-uae-safe-flights-foreign-office-advice-b3012512.html",
+    "timestamp": "2026-07-10T21:34:45.316879+00:00",
+    "status": "rejected",
+    "content_hash": "803117820285839949c48d7d75e4aee2",
+    "strict_hash": "803117820285839949c48d7d75e4aee2",
+    "fuzzy_hash": "7ad474812e6cbc003c5db8f2a058233a",
+    "reason": "Новость касается безопасности поездок в Дубай и Абу-Даби на фоне эскалации конфликта между США и Ираном, что напрямую связано с регионом, но основная тема — большая политика и военный конфликт, что нарушает правило №2. Кроме того, текст может вызвать тревогу и не соответствует ценностям стабильности ОАЭ."
+  },
+  {
+    "url": "https://www.mirror.co.uk/news/world-news/kauana-bilhar-dead-dubai-police-37412940",
+    "timestamp": "2026-07-10T21:34:47.433144+00:00",
+    "status": "rejected",
+    "content_hash": "d7ad782af7df4882d788940320d03b19",
+    "strict_hash": "d7ad782af7df4882d788940320d03b19",
+    "fuzzy_hash": "5d0c037e557e1dd36dd270013d987865",
+    "reason": "Новость о смерти инфлюенсера в Дубае имеет прямую связь с регионом, но содержит элементы, которые могут быть восприняты как неуважение к ценностям ОАЭ (упоминание возможного убийства без официального подтверждения), а также не представляет практической пользы для русскоговорящего жителя Дубая, являясь скорее сенсационной криминальной историей."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcVNPR0QyUUdqMzlrWnpNZ0lpMExLWTdLbDYxOGtjVUhyWUIxSng4M2hBMmptOFMtTzhpQms5X203aS1iMXpQVHBobmhpWnFlWmFjTE1MbDF1YkhGUk9TalliSzc5M1pCVGl4UkxjdWloYmx5RE1ZYmE5N2JNV2dSUWxGNFd3UnZ3UjBUenZIYzBmNURB?oc=5",
+    "timestamp": "2026-07-10T21:34:50.148281+00:00",
+    "status": "rejected",
+    "content_hash": "53e62c7c46274dab7c838e27757a9843",
+    "strict_hash": "53e62c7c46274dab7c838e27757a9843",
+    "fuzzy_hash": "05323bc48d8dcb993ff1445da9191287",
+    "reason": "Новость является дубликатом уже опубликованной новости под номером 1: \"World’s first commercial vertiport approved for air taxi operations in Dubai - Zag Daily\". Оба сообщения об одном и том же событии — одобрении дизайна вертипортов в Дубае. Разные источники не меняют сути, это повтор."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOG9ndGVtNUFqMk1yVndULW1jSmxvdHdWWXlVM0FIcGM1TDR3cVBvaFlLN1dLSXJxOG42WHFsdXFHbTZBN2d2QzhwdEs0aGxfbmpiTDk4OHR4dzBIWkhlMWR6dHFjcTRZbEFjanBKV0VDbEtXYUFNdGkyck1DUkJaUE9BZUoyLTVKTlJickxoQW4wWVlKclE?oc=5",
+    "timestamp": "2026-07-10T21:34:51.186485+00:00",
+    "status": "rejected",
+    "content_hash": "51146b70550d075d9a8ab3302cb9a82b",
+    "strict_hash": "51146b70550d075d9a8ab3302cb9a82b",
+    "fuzzy_hash": "ce2cbe8fc3f2b8be450ce168dd473277",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
   }
 ]
