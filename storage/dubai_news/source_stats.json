@@ -1235,5 +1235,41 @@
     "strict_hash": "0b5bbc6e2f21b480181e0ada933a1ab6",
     "fuzzy_hash": "362bf88deaf583af9096dd0efb4844cc",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/free-hotel-stay-dubai-emiraes-2026",
+    "timestamp": "2026-07-10T13:56:25.996321+00:00",
+    "status": "rejected",
+    "content_hash": "ccf76efad101f09a4062843969a92866",
+    "strict_hash": "ccf76efad101f09a4062843969a92866",
+    "fuzzy_hash": "6d41e79749b1c07aa2362828e4f4b5ae",
+    "reason": "Cheap prefilter: слишком короткий текст (88 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dxb-airport-travel-advisory-summer-2026",
+    "timestamp": "2026-07-10T13:56:33.963739+00:00",
+    "status": "rejected",
+    "content_hash": "bd32beec6876235ee32cc6bd0c982f4d",
+    "strict_hash": "bd32beec6876235ee32cc6bd0c982f4d",
+    "fuzzy_hash": "4e1a3c2228d8f1bd749e36d75073e687",
+    "reason": "Новость предупреждает о самом загруженном летнем дне в аэропорту Дубая с ожидаемым пассажиропотоком в 225 000 человек — это актуальный сервис-апдейт для путешественников, соответствует правилам (связь с регионом, не политика, не реклама, полезно для русскоговорящих жителей). Однако текст новости крайне короткий («Everything you need to know» без раскрытия деталей), что вызывает сомнения в достоверности и полноте информации, а также отсутствует проверяемый источник (URL не указан). При этом хеш контента bd32beec6876235ee32cc6bd0c982f4d не совпадает с опубликованными новостями, дубликатов нет."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-metro-changes-coming-soon",
+    "timestamp": "2026-07-10T13:56:39.438383+00:00",
+    "status": "rejected",
+    "content_hash": "56e9359969319d2e1fdc9da05a504243",
+    "strict_hash": "56e9359969319d2e1fdc9da05a504243",
+    "fuzzy_hash": "5f2385d07bd01cc40dc23f21df229209",
+    "reason": "Cheap prefilter: слишком короткий текст (115 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVVRHNEFHekJnLUtXTFJjWWNCVWp3SHc0WVEwemRZSFotdnlFNG9VT1lNdHpGaVVyLXdUdExid0xZSWVheGJtelNEOTIwdFVVTmNWU2FRWEZQZDZPaWlERGJfbmZIWjZRbUV2czlnTkVXYVZETERqYVVCYlFPTExwVnpQX0ludWZIbEFfdllWNHBfV3lLNFJ3dzZvbzdJOWtHbnRKOVhyUk5zMk9GaGNsY2RFeXVDSktSVFlCYkViM0owQ3lHM3pleFFmZ2vSAecBQVVfeXFMUGl0YWs2ZWhxek5iN29EZlVDX1RENGFBTEVUZlNseXV3dC1WWUlTYS12NG5YMVU3MUh5RmVteGlSTlZGdFk1Q3pRbVRjR2pCQ0dycFJjRXFyRUJfTTh5SmlsVUlOWklKNnhRVlpvdGF0QXlTenlhbTdWZUEtbm5QdGotV3JIMk5hRG9vYVdUUTRCOXBaN2VtOU5oZDBQN3dwN3p1N2s4ZlJFZnk3dmNzNlluWVJrLWZSSTMzZGktVlZkOUpHeEdSOVhmTkFDc3o5RjNBYTlhX3RJdHFnUUloWDVLMEZMQ2dv?oc=5",
+    "timestamp": "2026-07-10T13:56:48.260694+00:00",
+    "status": "approved",
+    "content_hash": "0a6d6fd74ab69e795432f9ee88653991",
+    "strict_hash": "0a6d6fd74ab69e795432f9ee88653991",
+    "fuzzy_hash": "99c3a3d53446425bdd147bac70e078e3",
+    "reason": "approved"
   }
 ]
