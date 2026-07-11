@@ -1212,5 +1212,23 @@
     "strict_hash": "513c12134776fbe1c3bb2618f5b849f3",
     "fuzzy_hash": "0455eeeaae6d0a01d2acb29d6bb4104d",
     "reason": "approved"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRlVHa0U1SWhYU05RUnA0X2czNlpuaVNaWG9SYVNZVWkxZmtwUjZ2NFlBX3JWWkZla2VMNkF3a3k5dHdob2NXZGpEZkNnc0wyRURIOUtTdXUwS29mUGNqUWZiR2ZUeklmNGZYenJTZWwxRW5UQWEtTHpNWm9jYVVIUXc3R1BsTlc4RnJjMGtRbi1aUEhJaGc?oc=5",
+    "timestamp": "2026-07-11T12:53:30.997401+00:00",
+    "status": "rejected",
+    "content_hash": "bb41c8fa9c2ef0e9750fec77a6858496",
+    "strict_hash": "bb41c8fa9c2ef0e9750fec77a6858496",
+    "fuzzy_hash": "65808b993cb3243b83aac0053c7844d8",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUnhaWWxXbFdEWVZKWjNDdkR3Q3RrTjR6WGJpdFFGVWxOdmNfYUkyMkdRTDBxQUJiTndidDVXSjJuQkU1QjlERU9DREtMQlNlVlVKa0RlRmI3dlJiWGRBMTlJNXFGTXBnQ2Y2TlM5OWp3bEtMVlpDSmtOYmhnRUVJdVlrcjdobXZ4VTdpbmdmMUpkd2JXM2c?oc=5",
+    "timestamp": "2026-07-11T12:53:32.481726+00:00",
+    "status": "rejected",
+    "content_hash": "d9fcdfb314e7ce7002c173d58979888e",
+    "strict_hash": "d9fcdfb314e7ce7002c173d58979888e",
+    "fuzzy_hash": "f24e0db17f26c501f15b7e88ec35aa4e",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
   }
 ]
