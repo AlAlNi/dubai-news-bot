@@ -1265,5 +1265,23 @@
     "strict_hash": "47d2675d4866387f60bc9314447cec4f",
     "fuzzy_hash": "4b8b8165c9828c165e62d9959adc9120",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUk9YSzNRYjlNaFZ5S0MwX3lCWmV5dmk4ZlE4NnpYc2Fmbmc2VWg1OXprM1BQS2hMNEFLNnJpYmZuWlFkS2lxWnFUT2xjbXpWUUVhaXN5Y09ra0swN0FjbEd5ck5MTUJ3b05sckZUMWFNX0RuY1FzOFAzZ1ZmNUtjSXprclFNZUpNczZVN3U3X0NpelRhT29aQU9CYlM1cHNn?oc=5",
+    "timestamp": "2026-07-11T01:30:43.908667+00:00",
+    "status": "rejected",
+    "content_hash": "2c247a2f4edb5eee8874af93d787e2f4",
+    "strict_hash": "2c247a2f4edb5eee8874af93d787e2f4",
+    "fuzzy_hash": "44a83b4c933ed84bf4b1ec32bb934cd7",
+    "reason": "Новость о партнёрстве DEX Squared, Arms & McGregor для приобретения отелей в Дубае выглядит как корпоративный пресс-релиз, не содержащий общественно значимой информации для русскоязычных жителей. Отсутствует явная польза или интерес для аудитории, а также нет проверяемого источника с конкретными фактами."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMkZjamFJSmxzcGpOTTNFTUVmZENxa2dOaWF2VnJDdDN0bTdyTmU4VGhEV0VSYjBmd1MzQUp2ZTlpamZsSmtfdnMyTnVIcFl1SzRtTHVTSzQ3MlpndjVoa2d3RXV3VGF2US16dkxLX0RaMGZiWTBtV2xoZm1hWlRDNnpRUC1JMTViSkNtcUE1ZzZzUy12YUFiY1hXaDhKZmF2Y2p1bzVKd2NhdFpSRGJMaFdDMV8yMDREQTVScWJIRlB0VkxFYmg4WHR1YlFQQQ?oc=5",
+    "timestamp": "2026-07-11T01:30:46.679112+00:00",
+    "status": "rejected",
+    "content_hash": "db0ba947d5c727780b4fe02fe865a78a",
+    "strict_hash": "db0ba947d5c727780b4fe02fe865a78a",
+    "fuzzy_hash": "8e2497a530862594dba9c73a65b73f54",
+    "reason": "Новость о прогнозе роста рынка недвижимости ОАЭ до $811,4 млрд к 2031 году имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям, текст выглядит естественным и основан на проверяемом источнике (Economy Middle East). Однако это аналитический прогноз, а не оперативная новость, и он может быть интересен русскоязычным жителям Дубая, интересующимся инвестициями. Дубликатов среди опубликованных новостей нет."
   }
 ]
