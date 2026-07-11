@@ -1211,5 +1211,50 @@
     "strict_hash": "5c139b6c391ff858b98c9c52d5445f8f",
     "fuzzy_hash": "3e921466d768b3de905c62b0b707ad25",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/the-barrel-dubai-review-comfort-food-and-a-pet-friendly-terrace",
+    "timestamp": "2026-07-11T07:05:15.701631+00:00",
+    "status": "rejected",
+    "content_hash": "9e5245335d9c640ae0b72547400f6186",
+    "strict_hash": "9e5245335d9c640ae0b72547400f6186",
+    "fuzzy_hash": "b10d1831130bd2792d6bf930ffba69a8",
+    "reason": "Новость является ресторанным обзором, рекламирующим конкретное заведение (The Barrel Bar & Restaurant), без общественно значимой информации или пользы для широкой аудитории. Это явный пресс-релиз или рекламный материал, что нарушает правило 3."
+  },
+  {
+    "url": "https://nypost.com/2026/07/10/world-news/influencer-model-plunges-to-her-death-from-27th-floor-of-dubai-skyscraper",
+    "timestamp": "2026-07-11T07:05:33.666075+00:00",
+    "status": "rejected",
+    "content_hash": "7dee8cc01ab4c0a3ed78c18552e42570",
+    "strict_hash": "7dee8cc01ab4c0a3ed78c18552e42570",
+    "fuzzy_hash": "4f9a1a4b2977369c2d62b5f5b15fa793",
+    "reason": "Новость о гибели инфлюенсера в Дубае имеет явную связь с регионом, не является политической или рекламной, не нарушает ценности ОАЭ (трагический инцидент, а не критика), текст выглядит естественным и не содержит кликбейта. Однако она не представляет практической пользы или интереса для русскоговорящего жителя Дубая (это скорее сенсационная криминальная хроника, а не полезная информация), и её достоверность сложно проверить по указанному источнику (нет явного URL). Кроме того, тема может быть воспринята как неуважение к местным законам и порядкам, если в тексте есть намёки на небезопасность. С учётом правил 6 и 9 — отклоняю."
+  },
+  {
+    "url": "https://www.naturalnews.com/2026-07-10-businesses-report-blocked-payments-saudi-arabia-uae.html",
+    "timestamp": "2026-07-11T07:05:35.473371+00:00",
+    "status": "rejected",
+    "content_hash": "f17db8bd4e28eaf0c3e6ebfe5ff1fa5b",
+    "strict_hash": "f17db8bd4e28eaf0c3e6ebfe5ff1fa5b",
+    "fuzzy_hash": "c1c2d1df7fb945f819358d1affdab1c2",
+    "reason": "Новость явно касается политического конфликта между Саудовской Аравией и ОАЭ, что нарушает правило №2 (политика и конфликты). Кроме того, тема может быть воспринята как неуважение к ценностям ОАЭ (правило №4), а также не представляет практического интереса для русскоговорящего жителя Дубая (правило №6)."
+  },
+  {
+    "url": "https://indianexpress.com/article/world/uae-megaprojects-dubai-loop-disney-resort-abu-dhabi-stargate-ai-10780649",
+    "timestamp": "2026-07-11T07:05:38.165248+00:00",
+    "status": "rejected",
+    "content_hash": "96bfee87dd9fa2894722b5f41aad1d84",
+    "strict_hash": "96bfee87dd9fa2894722b5f41aad1d84",
+    "fuzzy_hash": "304a203bbdfa72b1e04c631e88303887",
+    "reason": "Новость представляет собой обзор 10 крупных инфраструктурных проектов ОАЭ, включая Dubai Loop (пилотный маршрут от DIFC до Dubai Mall), что напрямую связано с регионом и интересно русскоязычным жителям. Однако текст обрывается на середине (3335 символов), не указан источник, а заголовок и содержание выглядят как типичный перечень из пресс-релиза или агрегатора, что нарушает правила проверяемости и может быть расценено как рекламный характер без общественно значимой новости."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQb1cxcDVsUkxib0dNWGFFSjQ5RXVUVi14S3d1YmYyNmlsblp5UUhKN0dLN3NJYlN0b2hUMkdWbFduNnVkOXR2a0pPRDhBWVM4cjhvVFpaNGE3dkpxSFhDTXdkaDRFd3Z3S0ZGZG02S3ZkbGt2LUVFMUZOdXJvVWc2a3NzUElScEpuVEo2c2JhaDF0QTRMRkdFVnduQ2tXeDlVdkFOcnR3RU9rVXFMdGxVRnZJZEF5el93dUZ3TVp4czVWTjRZWWxlcUtZVWFNelFaeENFLTlyaDFfU3BJVnJXaXYwZGR2OGPSAe8BQVVfeXFMTjhJTGdHV3JyV1dJSTI2UmVQcHpHWG1zM1YxY3g0QnloeGNmZmZpOGpFV1QzdW9MeUVoaVlrcnI0cTZhOTNJNVg4cHo0Z0ZTbzdtbk9xQ1RUWVd3d0ZtOGxTUzB4TVhhVkZDeDR4SmRzb1Nkc0xhTlhWdy1CVTNHaFVXb2hrZE1Da25hT0JuVUdISERUX0FoWWtfdjM0eFVualQySlEwUU1YUXJUSUNTVnh0RWRxMW5YOUlEVENOS0pFMHh6azRxTTNkWHROSzNZcWQ3UzhVMjljNnRWQUhPZ0RwU0dCT2tKMXgxcmtMdDQ?oc=5",
+    "timestamp": "2026-07-11T07:05:41.663235+00:00",
+    "status": "rejected",
+    "content_hash": "ed71dd7679d82f04a57227a9636d3121",
+    "strict_hash": "ed71dd7679d82f04a57227a9636d3121",
+    "fuzzy_hash": "d72fa7bfa53f3e56ab866cabc9f9d508",
+    "reason": "Новость о лидерстве рынка недвижимости ОАЭ среди мировых инвестиционных хабов соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ценностям, источник указан (Khaleej Times). Однако текст крайне короткий, выглядит как анонс или заголовок без содержательной части, что может быть признаком неполноценной новости. При этом дубликатов среди опубликованных нет."
   }
 ]
