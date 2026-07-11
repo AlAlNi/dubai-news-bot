@@ -1175,5 +1175,32 @@
     "strict_hash": "db0ba947d5c727780b4fe02fe865a78a",
     "fuzzy_hash": "8e2497a530862594dba9c73a65b73f54",
     "reason": "Новость о прогнозе роста рынка недвижимости ОАЭ до $811,4 млрд к 2031 году имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям, текст выглядит естественным и основан на проверяемом источнике (Economy Middle East). Однако это аналитический прогноз, а не оперативная новость, и он может быть интересен русскоязычным жителям Дубая, интересующимся инвестициями. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://www.ladbible.com/news/crime/dubai-influencer-kauana-bilhar-death-438721-20260710",
+    "timestamp": "2026-07-11T04:40:58.125284+00:00",
+    "status": "rejected",
+    "content_hash": "06112d00d8c7835de2df11629668bf98",
+    "strict_hash": "06112d00d8c7835de2df11629668bf98",
+    "fuzzy_hash": "cecaa645cc6f36da2692abd07e31e0ec",
+    "reason": "Новость о гибели блогера в Дубае имеет прямую связь с регионом, но содержит детали о подозрительных обстоятельствах и голосовом сообщении, что может быть воспринято как неуважение к ценностям ОАЭ (правило 4) и не несет практической пользы для русскоязычного жителя (правило 6). Кроме того, текст выглядит как сенсационный кликбейт с признаками ИИ-генерации (правило 5)."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/women/voices-of-power/she-left-her-luxury-life-in-switzerland-and-dubai-to-start-a-free-school-in-a-remote-indian-village-how-this-swiss-woman-found-her-lifes-purpose/articleshow/132311815.cms",
+    "timestamp": "2026-07-11T04:41:00.543946+00:00",
+    "status": "rejected",
+    "content_hash": "8ed7cef1fd8ea8ae28c5d7b569da060c",
+    "strict_hash": "8ed7cef1fd8ea8ae28c5d7b569da060c",
+    "fuzzy_hash": "8228eb4e1dbc08f6b1dd6bb05fc6ff32",
+    "reason": "Новость не связана с Дубаем — это история о швейцарской женщине, которая уехала из Дубая в Индию. Основной фокус на её жизни в Индии, а не на событиях или значимых изменениях в ОАЭ. Для русскоязычного жителя Дубая новость не представляет практического интереса или пользы."
+  },
+  {
+    "url": "https://www.hindustantimes.com/trending/people-only-see-the-tax-free-salary-indian-woman-reveals-hidden-cost-of-living-alone-in-dubai-101783696693224.html",
+    "timestamp": "2026-07-11T04:41:08.874862+00:00",
+    "status": "approved",
+    "content_hash": "472d3db99e2bef85a7667ab4223a1a09",
+    "strict_hash": "472d3db99e2bef85a7667ab4223a1a09",
+    "fuzzy_hash": "14ab3718def177fec026d179df0bcc59",
+    "reason": "approved"
   }
 ]
