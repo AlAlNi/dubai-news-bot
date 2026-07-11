@@ -1194,5 +1194,23 @@
     "strict_hash": "01fba5195465caa15cc592fc4163f77a",
     "fuzzy_hash": "cf46e9320f290f6667eed56a37d4f72b",
     "reason": "Новость является дубликатом уже опубликованной новости под номером 1 в контексте: «Cyber Fraud: Dubai Police warns against downloading unverified apps - Emirates 24|7». Тема и суть предупреждения идентичны, различается только источник. Публикация повторной информации нарушает правило 7."
+  },
+  {
+    "url": "https://www.tmz.com/2026/07/10/kauana-bilhar-dead",
+    "timestamp": "2026-07-11T12:13:10.985661+00:00",
+    "status": "rejected",
+    "content_hash": "3372b798a547b6a1e8e59399dae0aa2b",
+    "strict_hash": "3372b798a547b6a1e8e59399dae0aa2b",
+    "fuzzy_hash": "cb7be18f8e584d2d71612e30d918e4a1",
+    "reason": "Новость о гибели бразильской инфлюенсерши в Дубае имеет прямую связь с регионом, не является политической или рекламной, но содержит потенциально неуважительную для ОАЭ тему (смерть при невыясненных обстоятельствах, возможно, связанная с рискованным поведением), что может быть воспринято как нарушение местных ценностей. Кроме того, текст основан на непроверяемых источниках (ссылка на бразильское СМИ без прямого URL) и имеет признаки кликбейта, а также не представляет практической пользы для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWm5Ocl83d2tZY0YtcEdlOFlXU1JpYXBZdGR6Z1pYaTdTd0RBajlHX0NXZ2ZybV83dG9LaHVqQjEzR1p1VndIV2VzNjdaVnR1TlFUZTdxWlpHUnZoOVBCRldIXy1tNDNQQ0lXZUNrbVNaQWswQk5FNmp2ZmhRX0o0Zkg2VlJyZHA0endNaFlObzkyZmZ5VXR3ZDh0enRtYWN2emFKZkdRZDFVSC1hdkJQV3dBdWpxcTE3ZF9IZFRtVE43ek0ydzZKUEdkOTRTQzFwdmJVOFRVVGlucDhfZV9xelZ0dEV1Q00?oc=5",
+    "timestamp": "2026-07-11T12:13:18.151280+00:00",
+    "status": "approved",
+    "content_hash": "513c12134776fbe1c3bb2618f5b849f3",
+    "strict_hash": "513c12134776fbe1c3bb2618f5b849f3",
+    "fuzzy_hash": "0455eeeaae6d0a01d2acb29d6bb4104d",
+    "reason": "approved"
   }
 ]
