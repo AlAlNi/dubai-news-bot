@@ -1185,5 +1185,14 @@
     "strict_hash": "31a15901ae066a202cc88e5bcb93423d",
     "fuzzy_hash": "55a3877a84e9982badb48b4cba1ee2e4",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeFRUZ3lwSVRIcUIxd201NEhvZGtIcklUT01tS0tSbVBhWnpSM1N4WDcwcVZtSE0zT05mTXpFT3V4STU1aU8zNzFPcXFyc2pRMTZCdVk3VUlYUnhGSC1QTFRsamJiejlXdHlwTFhSbGh6VGpLYmpjME5Xc3FGWk5YeEFKb1N2WXNvNUJCR3RlREN2TUZnNUg4Yw?oc=5",
+    "timestamp": "2026-07-11T11:43:28.743455+00:00",
+    "status": "rejected",
+    "content_hash": "01fba5195465caa15cc592fc4163f77a",
+    "strict_hash": "01fba5195465caa15cc592fc4163f77a",
+    "fuzzy_hash": "cf46e9320f290f6667eed56a37d4f72b",
+    "reason": "Новость является дубликатом уже опубликованной новости под номером 1 в контексте: «Cyber Fraud: Dubai Police warns against downloading unverified apps - Emirates 24|7». Тема и суть предупреждения идентичны, различается только источник. Публикация повторной информации нарушает правило 7."
   }
 ]
