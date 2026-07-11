@@ -1,104 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4Z0JiMzhDSmdpYTI4Q3g3TmlPOVM2WkZkYWlYUkREQzBlMVBWb0NQM1J6NUhpWklHSGxoUU0yczlIcExyMEl2cUxONzRBQ1JlWGFuVVhoVWd4ZDJHWEpCYXhEN2V6WGkwNVZxQ2VBSUNMY0U?oc=5",
-    "timestamp": "2026-07-09T08:08:15.283015+00:00",
-    "status": "rejected",
-    "content_hash": "e6be45d57c3c09d82e93ae00217944ea",
-    "strict_hash": "e6be45d57c3c09d82e93ae00217944ea",
-    "fuzzy_hash": "38844d28b24d14dbabeb9ef56a4c7f15",
-    "reason": "Новость является точным дубликатом уже опубликованной новости под номером 2 в контексте. Она не несет новой информации и нарушает правило 7 (дубликаты и повторы)."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4ySGZDSHo0cE5TYmRaNjdsNDZhT1R6dnJOQ2lBeTZXYk1KWHlyYW5qVWpmcFJwVXVMZ1BaVW1lSDkwQlV1OGtkM09PQXRvNTdnSExOQURpSTBwejBFS0dndl9hWGFWWEQySTdZYXYtcWM3UWFDVzBSREU0ZHlBUQ?oc=5",
-    "timestamp": "2026-07-09T08:08:17.685070+00:00",
-    "status": "rejected",
-    "content_hash": "2baa8a6b4e782f512e483e383b7e31c2",
-    "strict_hash": "2baa8a6b4e782f512e483e383b7e31c2",
-    "fuzzy_hash": "8803cffbe6ae29e2c3cb081dd331a3c7",
-    "reason": "Новость представляет собой список бесплатных развлечений в Дубае, что напрямую связано с регионом и может быть полезно для русскоязычных жителей. Однако она имеет признаки рекламного характера (список от Time Out) и не содержит общественно значимой информации, а также не является срочным сервисным обновлением или регуляторным изменением. Кроме того, в контексте уже есть похожие новости о бесплатных предложениях (пункт 6), что может указывать на дублирование тематики."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIV2Nod29mUGVkQl9wVFBuZFNtcm1ZTkJhNXhzaDNCbEJqMVUtZ0F1TmpUZl9fRTJFZy1ZQzNHRV9jR3B4Y3VxeVduRU1McS14T1RBbTBCb1pjMFhOUmt3Q29zcU5iYVh4RXppWTFhQQ?oc=5",
-    "timestamp": "2026-07-09T08:08:17.966621+00:00",
-    "status": "rejected",
-    "content_hash": "45f36149d77d7fd6f935f3e7dfd65f4d",
-    "strict_hash": "45f36149d77d7fd6f935f3e7dfd65f4d",
-    "fuzzy_hash": "6027fdee98f391bb453845e769f65649",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUDhfMUhXdFlPS1lHWEFPM0tST05zV1FyZ2EtQzhIODk4X19UaTh6X0k1dU5JU25zeGVzTEV1R1pFMTE2VXZuRUoyZUdqazNpbkVONllxQm9ZVzdLdG0wVmdhcXhYOEUwVldMczhfSk45eXZVVk85bzVFRmpISE4zSVJKdGNxM1lCUTNwMVlEczgwLUdVZGE1N09zQVpQTWdsNXE4QmdidklmWS1wSGRsc2FR?oc=5",
-    "timestamp": "2026-07-09T08:08:19.697669+00:00",
-    "status": "rejected",
-    "content_hash": "dda056dd20946e851e184d5be22edca3",
-    "strict_hash": "dda056dd20946e851e184d5be22edca3",
-    "fuzzy_hash": "64f80577423c86b1968b470bfbbc1867",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV0RZM3dlcWc5NkpsbTl6ejBtaGxMM0c5aWVTaEp0MEJldXVZSGhDdTRWU19fYkFnb2JGME9xYkZsTlNtLXRDMWs0eGpUQXQ3NTkwMkJrVjlpenIxN1Y0VW5oMzd5ZXNsSlhRNG1HSUdFeXR3bEROZTIyMmNULVdTTGtJbEI0NHFocEo5aGlMaFNKcFhsWDYzTU9BbUlSQlhEdkthRGxaRFI3czhWM05nczRfSXR4cE12cFlNYWdCRjNKUXptSWc?oc=5",
-    "timestamp": "2026-07-09T08:08:21.178095+00:00",
-    "status": "rejected",
-    "content_hash": "6d488185124b659d474f587bfad58587",
-    "strict_hash": "6d488185124b659d474f587bfad58587",
-    "fuzzy_hash": "e59b2fa169aec018ef14a74ed781c50d",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMG1UUS1rRzFZR2FvUVUta2NPVnYxSXEwT2RJMWFfQXJzTkRYdXlqbmhuLTFQcUVLbzctaDJWeGxjZVRYdWl4aHpvX3cxNmw0aWNFUGs4X0Ntc01YMjdkYWMyUkFVVUVNV0RpQkdnM25GcGJKT1lFYjZJVUE1TnlWUXMyU21acC1TOEdyRjhScmFXU0owTTZGNEpNUmUyRWMyN0piRDlfVkxFSHRIMWJ6WUhqdTJodEtRSUdvTmV2VnJzS2ZrcEVwSnFadzQ0TUhMS3lIWHV0amR0QdIB7AFBVV95cUxNR2VnNEtuLVUtVjZQOHpSZUt3N2VsZEQ4UVFQRnZLcVloVmZLVE9fRGx1N25pR2lUby00YzdBYzhBM29qR3Bob0ZKVU50cF9tdXVRMUNkR29uUkhHVE9UWWJ5SFEwNXVqOEY3dXJ1WFVGRVFKRGlLc2N2MVlQd2c2U3A2MTd6Q3ZfeW9QTWJtWHZ6d2Ntc0Z1Wm5GLUlmcnlBMHNpYlloUTcxVzJ3UkV2WWxqQ1pKeTBleWFoMERabXlfYVRfSF93NUs5MzlSdlVHWGdoNWlFUDRFY0FMeC1VcEZ2X243MjV3M0JWUA?oc=5",
-    "timestamp": "2026-07-09T08:08:22.688235+00:00",
-    "status": "rejected",
-    "content_hash": "9b780883fb802585fb6edf1b5f590f02",
-    "strict_hash": "9b780883fb802585fb6edf1b5f590f02",
-    "fuzzy_hash": "fa37876bec163f41bb8b50afd066727a",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://propertynews.ae/business/dubai-achieves-dh232-billion-gdp-in-first-quarter-non-oil-sector-expansion-sustains-growth-momentum",
-    "timestamp": "2026-07-09T09:19:32.157327+00:00",
-    "status": "rejected",
-    "content_hash": "9c030b35ba0e36d60118859d05590923",
-    "strict_hash": "9c030b35ba0e36d60118859d05590923",
-    "fuzzy_hash": "8b91bd7c49b4b376598d482b6d2bba45",
-    "reason": "Новость является дубликатом уже опубликованного материала под номером 3: \"Dubai GDP climbs to Dh232bn in Q1 as non-oil sectors drive expansion - thenationalnews.com\". Текст практически идентичен по смыслу и данным, хотя источник указан другой. Публикация повторной новости нарушает правило 7."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/flying-your-dog-out-of-dubai-heres-what-you-need-to-know-before-you-go",
-    "timestamp": "2026-07-09T09:19:41.635860+00:00",
-    "status": "rejected",
-    "content_hash": "9bbc2fca969e6bb9c232a4dd374072f8",
-    "strict_hash": "9bbc2fca969e6bb9c232a4dd374072f8",
-    "fuzzy_hash": "c0b62ac1580543dccd47878190767eea",
-    "reason": "Новость о перевозке собак из Дубая имеет прямую связь с регионом и может быть полезна русскоязычным жителям, планирующим релокацию. Однако текст явно основан на советах конкретной компании (Pet Air Valet), что придаёт ему рекламный характер, а источник (Whats On) не предоставляет проверяемых официальных данных — только мнение коммерческой организации."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/a-beginners-guide-to-eating-well-in-ras-al-khaimah",
-    "timestamp": "2026-07-09T09:19:49.396812+00:00",
-    "status": "rejected",
-    "content_hash": "2bcfbff874ec9e4bd5c81ffe34c6febd",
-    "strict_hash": "2bcfbff874ec9e4bd5c81ffe34c6febd",
-    "fuzzy_hash": "7d2daf98612cd6da8cf23a0d94fb6f37",
-    "reason": "Новость представляет собой гастрономический гид по Рас-Аль-Хайме, что имеет прямую связь с регионом (ОАЭ), не содержит политики, рекламы или неуважения к ценностям. Однако это не новость, а скорее обзорный материал (лонгрид) без общественно значимой срочной информации, и он не является service-update или регуляторным изменением. Кроме того, в контексте уже есть новости о Дубае, но дубликатов нет. Тем не менее, для русскоязычного жителя Дубая, который может планировать поездку в соседний эмират, материал может быть полезен, но он больше похож на статью из журнала, а не на оперативную новость для канала."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeUlETmVrbERuN1NFblIwZmpYZmYzaUtwN0o3Y3huQ0pqNmNncHhqb1RPbUJqb1dtUDhWQ2JFemNYYjczQWVlak0zT0VqM3k3MC1qdWxoYVE1U3Q1QWJZVFBsa0NUNWdCNThGNVExVGFQbHlLSy1haGMzTnp1YTM3cGF0UTl4ems3UUthY29tUmF0UUNhY2RvZi1FU0lIdGVUMUs2M2hSSEs?oc=5",
-    "timestamp": "2026-07-09T09:19:52.152070+00:00",
-    "status": "rejected",
-    "content_hash": "4049dd08e6e85ecffc40a6612542079b",
-    "strict_hash": "4049dd08e6e85ecffc40a6612542079b",
-    "fuzzy_hash": "f1af2e9607f3b4bf990d05a9a569a642",
-    "reason": "Новость явно связана с регионом (Gulf companies), но её основная тема — война с Ираном и её экономические последствия, что является политическим конфликтом. Это нарушает правило №2 (политика и конфликты), поэтому новость не подходит для публикации."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mWGJtLUh4SjhrRWdfT0hYNnBOckUxV3liWUtuSnV6WGNNcF9YTXg5OFlCal9oVXpiV2JBalZwNXpwenJqcHhBY0g0Yno0NG8xX0k3TGVRZmVuRjRqQXFzR3hCZG1MNFV1amFJ?oc=5",
-    "timestamp": "2026-07-09T09:19:59.071769+00:00",
-    "status": "approved",
-    "content_hash": "7f4564ca939c3a642cda8790e0a45bd2",
-    "strict_hash": "7f4564ca939c3a642cda8790e0a45bd2",
-    "fuzzy_hash": "7d10b10a83a7f3ca28168da79caa01e3",
-    "reason": "approved"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTFFDZTNXZ0Y4WVNOcExUN3FMVTNaQVN4UzAzRnByeFdYRkpTenhNR0NPdGVvb2hVLUhpY0U1YjVSUTJ3MGsxS1ZzXzc0RWd3WHU1THQzdTJyXy1oSElPOUlMcXA3aGtXUXVMOVE3a0VYaU5Wc29DbjJITE1SVUZnVDliam94YjhNakpxdjV1Uk1NR3B5OC1XeFliTWZ2S194S3ptTlgzTEh2NlZTWFNxN3VYRQ?oc=5",
     "timestamp": "2026-07-09T11:30:59.776908+00:00",
     "status": "rejected",
@@ -1252,5 +1153,10 @@
     "strict_hash": "12ac690ab7b01dfc822ef12f11fe5ac2",
     "fuzzy_hash": "8d751a0de04f5150ab757e1e0085f3f8",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.hindustantimes.com/trending/people-only-see-the-tax-free-salary-indian-woman-reveals-hidden-cost-of-living-alone-in-dubai-101783696693224.html",
+    "timestamp": "2026-07-11T09:44:47.391195+00:00",
+    "status": "published"
   }
 ]
