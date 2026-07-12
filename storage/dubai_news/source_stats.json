@@ -977,5 +977,23 @@
     "strict_hash": "c81d72a7f24a1b5d48d4929094dc586c",
     "fuzzy_hash": "ddbf38697d7f6835476704a9f63914fb",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.indiatoday.in/india/story/dubai-cyber-fraud-rs-250-crore-19-arrested-146-crimes-21-states-2945858-2026-07-11",
+    "timestamp": "2026-07-12T04:52:42.267570+00:00",
+    "status": "rejected",
+    "content_hash": "65cac9c44c92f4e89a1c31fe1275c9ae",
+    "strict_hash": "65cac9c44c92f4e89a1c31fe1275c9ae",
+    "fuzzy_hash": "2672fbd4048c0beeb12eb3c6002eccdc",
+    "reason": "Новость о раскрытии крупной кибермошеннической схемы, связанной с Дубаем, имеет прямое отношение к региону (пункт 1) и не содержит политики, рекламы или неуважения к ОАЭ. Однако она не представляет интереса для русскоговорящего жителя Дубая (пункт 6), так как описывает аресты в Индии, а не местные события или полезные предупреждения для аудитории канала. Кроме того, это не дубликат уже опубликованных новостей."
+  },
+  {
+    "url": "https://www.moneycontrol.com/news/india/bird-strikes-dubai-lucknow-plane-authorities-say-flight-not-impacted-13971679.html",
+    "timestamp": "2026-07-12T04:52:49.051790+00:00",
+    "status": "approved",
+    "content_hash": "ada4a965fc03c7ee6133dc95059e8508",
+    "strict_hash": "ada4a965fc03c7ee6133dc95059e8508",
+    "fuzzy_hash": "28f287114dc576b297e158356752fa8c",
+    "reason": "approved"
   }
 ]
