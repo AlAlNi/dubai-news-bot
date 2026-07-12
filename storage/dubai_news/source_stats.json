@@ -986,5 +986,41 @@
     "strict_hash": "9f7ef9e405d3d46553cf8987f174b3d2",
     "fuzzy_hash": "c4f70f3eb66abdc802f1650e9d48728d",
     "reason": "approved"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16emxVYXlhZ1IzdmJxTkVZQUE0X1pVaWRVanhsTkxsUGxqV1NKUFpHenBaaF94RVFJZk5Ub00wX1VTSDNmRlpkLTR0UWpuTkN5QlNoaGJDWVVtNHFzSWlwa3FuOFRHY0dMUEhoMDF3?oc=5",
+    "timestamp": "2026-07-12T01:42:59.966523+00:00",
+    "status": "rejected",
+    "content_hash": "6c65927b99bf6c7f0958a78b41caab2b",
+    "strict_hash": "6c65927b99bf6c7f0958a78b41caab2b",
+    "fuzzy_hash": "d66793bc1772237c2ee5afd5d626e555",
+    "reason": "Новость является дубликатом уже опубликованного материала \"Nairobi hosts Dubai tourism trade roadshow\" — оба сообщают об одном и том же событии (туристический роуд-шоу Дубая в Кении). Кроме того, заголовок носит явный рекламно-пресс-релизный характер и не представляет интереса для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oUFE0SXF6a3B3dGRuSTktdVY1MFFwRXRWZW1YMVMzei1iUW9zS1lrZlNhSjJoTWhaSWljNW0wdWw3ckRtczl5MDlJRXhreVRzUEtYalJOUlN5U1AtejBBSE82SWZLRktrTDg0bG5R?oc=5",
+    "timestamp": "2026-07-12T01:43:02.298102+00:00",
+    "status": "rejected",
+    "content_hash": "80428a10babfd697d894e64f910789d2",
+    "strict_hash": "80428a10babfd697d894e64f910789d2",
+    "fuzzy_hash": "463d16b706c7cfd301abc668e4ff948f",
+    "reason": "Новость о запуске второго ежедневного рейса Emirates в Коломбо имеет прямую связь с Дубаем (авиакомпания базируется в ОАЭ) и может быть интересна русскоязычным жителям, планирующим путешествия. Однако текст выглядит как перегруженный рекламный пресс-релиз с кликбейтным заголовком, а источник (Travel And Tour World) не является официальным или проверяемым для подтверждения фактов. Кроме того, новость не содержит срочной или практически полезной информации для повседневной жизни в Дубае."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kTXRwWDNPV3V6WWhwc1gxd3gxNVFVUzdFeWhzd3N0eHNPTkV5dmNQSmZkRXRpLWxHS2dJVWJEZ3lZMFUyS0p0MF9zRFBDcGRsZnN4SUNuTDdzNUFzQ05VU0FfbS00UmExUG1RbUhn?oc=5",
+    "timestamp": "2026-07-12T01:43:02.705263+00:00",
+    "status": "rejected",
+    "content_hash": "d647ca5635c95677d2118cff343b3933",
+    "strict_hash": "d647ca5635c95677d2118cff343b3933",
+    "fuzzy_hash": "a0ead2fb0894161ecb110f2a944d3e4d",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Bd0ptdTc0cUJxaHJiVkpuNDhEVjZKcHpkZ2VvVTdVWENfTjF5Yk44aHQtbVM4SEF1d3NGZGpPSnpNZXJlbVhITHd2d1o3WmxsOGtINTFjRkVWallPQ1k1NmUweFhWcXZlN1VxcldB?oc=5",
+    "timestamp": "2026-07-12T01:43:04.365441+00:00",
+    "status": "rejected",
+    "content_hash": "c81d72a7f24a1b5d48d4929094dc586c",
+    "strict_hash": "c81d72a7f24a1b5d48d4929094dc586c",
+    "fuzzy_hash": "ddbf38697d7f6835476704a9f63914fb",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
