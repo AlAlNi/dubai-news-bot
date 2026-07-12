@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://propertynews.ae/uae/ras-al-khaimah/ras-al-khaimah-to-add-25600-residential-units-by-2030-apartments-lead-supply",
-    "timestamp": "2026-07-10T11:53:30.215502+00:00",
-    "status": "rejected",
-    "content_hash": "0bcaf147e5c926d3495c35696897ae53",
-    "strict_hash": "0bcaf147e5c926d3495c35696897ae53",
-    "fuzzy_hash": "b2f31cdf4441491bfc136de8471bb485",
-    "reason": "Новость о планах Рас-эль-Хаймы по строительству 25 600 жилых единиц к 2030 году соответствует критериям: имеет прямую связь с регионом (ОАЭ), не содержит политики, рекламы или неуважения к ценностям, текст выглядит естественным и достоверным, источник проверяем (указан контекст, но в новости нет явного URL — требуется уточнение). Однако новость не является дубликатом уже опубликованных (все они про Дубай, а не про Рас-эль-Хайму). Интерес для русскоговорящего жителя Дубая есть, так как касается рынка недвижимости в соседнем эмирате."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/summer-workshops-for-kids-in-dubai",
-    "timestamp": "2026-07-10T11:53:39.259198+00:00",
-    "status": "rejected",
-    "content_hash": "aca895dd51ea9d24b8487035c2133fa6",
-    "strict_hash": "aca895dd51ea9d24b8487035c2133fa6",
-    "fuzzy_hash": "b8d6947cce6c5cdd3dfcd858d55ec689",
-    "reason": "Новость представляет собой подборку летних мастер-классов для детей в Дубае, что соответствует региону и может быть полезно русскоязычным жителям. Однако текст явно является рекламно-информационным материалом (пресс-релизом) без общественно значимой новостной ценности, а также содержит признаки кликбейтного заголовка и не имеет проверяемого источника с конкретными фактами."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/7-fabulous-weekend-lunch-deals-to-try-in-dubai",
-    "timestamp": "2026-07-10T11:53:45.732441+00:00",
-    "status": "rejected",
-    "content_hash": "24e4efa2523e800b4201053b37a1a118",
-    "strict_hash": "24e4efa2523e800b4201053b37a1a118",
-    "fuzzy_hash": "bed511205fe7b8314d0e8f67e2369b4b",
-    "reason": "Новость представляет собой подборку ресторанных предложений, что является рекламным контентом без общественно значимой информации, и не соответствует критериям полезности для русскоязычного жителя Дубая."
-  },
-  {
-    "url": "https://www.dailyexcelsior.com/us-launches-new-airstrikes-on-iran-tehran-fires-back-at-3-gulf-arab-states",
-    "timestamp": "2026-07-10T11:53:47.448417+00:00",
-    "status": "rejected",
-    "content_hash": "6a33499201ca7834e4e152ca7ae05669",
-    "strict_hash": "6a33499201ca7834e4e152ca7ae05669",
-    "fuzzy_hash": "bc0ab35426c10b038f6439fee59f89d4",
-    "reason": "Новость отклоняется, так как её основная тема — военный конфликт между США и Ираном с вовлечением стран Персидского залива, что является большой политикой и военными действиями, запрещёнными правилами канала."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSFBIZk9DRVVHS2tLOHN2YzcyWXlZMUp2TlVpOVRBTFRNZU1xR1hoTTNUZ1R4OEFzeXRqaFdMV3Y0YTRGbDdFWmN1bERhNEdpSDV6elgycm41NG5Hc3NMSjc3UW5GNmE0YUFBX3VSRm5WNG5Vb0RBTk9sTkcwQWdBN0M2SjVPT0gtN3V2WTZNd0N4UjhnVGV2aUNlaFljTWhyNXhTSlI0R1ZFRXNQcElNZmpvWnh2RllROGlmZWdTclg5VzN6UGVz?oc=5",
-    "timestamp": "2026-07-10T12:40:32.946909+00:00",
-    "status": "approved",
-    "content_hash": "0b5bbc6e2f21b480181e0ada933a1ab6",
-    "strict_hash": "0b5bbc6e2f21b480181e0ada933a1ab6",
-    "fuzzy_hash": "362bf88deaf583af9096dd0efb4844cc",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.timeoutdubai.com/news/free-hotel-stay-dubai-emiraes-2026",
     "timestamp": "2026-07-10T13:56:25.996321+00:00",
     "status": "rejected",
@@ -959,5 +914,10 @@
     "strict_hash": "8426b3f433d596cbda5a792d5d838d49",
     "fuzzy_hash": "966dd5a6bef50697b052086e28146f57",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dubai-unveils-major-new-12km-road-connecting-sheikh-zayed-road-and-emirates-road",
+    "timestamp": "2026-07-12T13:46:32.659382+00:00",
+    "status": "published"
   }
 ]
