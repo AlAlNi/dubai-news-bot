@@ -1,90 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-07-05T20:16:02.602737+00:00",
-    "finished_at": "2026-07-05T20:16:47.820280+00:00",
-    "duration_seconds": 45.218,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 1,
-      "rejected": 1,
-      "approved": 0,
-      "deepseek_calls": 1,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 1,
-      "reserve_fetches": 4,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-07-05",
-      "daily": {
-        "published_per_day": {
-          "value": 2,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 84.62,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.timeoutdubai.com",
-            "events": 4,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "whatson.ae",
-            "events": 5,
-            "reject_rate": 80.0,
-            "duplicate_rate": 40.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 36,
-            "reject_rate": 77.78,
-            "duplicate_rate": 27.78
-          },
-          {
-            "source": "www.tribuneindia.com",
-            "events": 4,
-            "reject_rate": 75.0,
-            "duplicate_rate": 0.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-07-05T20:36:00.078150+00:00",
     "finished_at": "2026-07-05T20:36:03.933464+00:00",
     "duration_seconds": 3.855,
@@ -17439,6 +17355,108 @@
             "events": 3,
             "reject_rate": 100.0,
             "duplicate_rate": 0.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 37,
+            "reject_rate": 81.08,
+            "duplicate_rate": 32.43
+          },
+          {
+            "source": "timesofindia.indiatimes.com",
+            "events": 4,
+            "reject_rate": 75.0,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-07-12T12:53:58.800459+00:00",
+    "finished_at": "2026-07-12T12:55:52.627881+00:00",
+    "duration_seconds": 113.827,
+    "success": true,
+    "counters": {
+      "attempts_made": 2,
+      "fetched": 1,
+      "rejected": 0,
+      "approved": 1,
+      "deepseek_calls": 2,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 0,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 0,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-07-12",
+      "daily": {
+        "published_per_day": {
+          "value": 2,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 80.95,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.dubaichronicle.com",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 50.0
+          },
+          {
+            "source": "www.timeoutdubai.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 33.33
+          },
+          {
+            "source": "www.thesun.ie",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.thesun.co.uk",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 8,
+            "reject_rate": 87.5,
+            "duplicate_rate": 12.5
           },
           {
             "source": "news.google.com",
