@@ -995,5 +995,32 @@
     "strict_hash": "ada4a965fc03c7ee6133dc95059e8508",
     "fuzzy_hash": "28f287114dc576b297e158356752fa8c",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thesun.ie/tvandshowbiz/17278115/katie-price-husband-lee-andrews-arrested-dubai",
+    "timestamp": "2026-07-12T05:16:07.826810+00:00",
+    "status": "rejected",
+    "content_hash": "18e9667e333f4967d353fd1437d31e96",
+    "strict_hash": "18e9667e333f4967d353fd1437d31e96",
+    "fuzzy_hash": "69e9e8bc4a70f6989a53f5c629fc5e1f",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOQnhzVnF3SmQtZ0N5Y0o2WXFobl9GYzBEMHdZb1hfek1RR18wcEp3bG5hOVRYN0tPWTVuYmtIRGpfd09vWUhXMUZtdUlvd3N1TU41Y2ZGdXJ3Um5PdTJFWVRvbWQxM3VieFFBa2FOOElPSnpxeWdGVkFZaU9Fdkt0V1VzLTVLZUhVcy1LcWR1RklPOHhjTXAtV2NXdDRzSnRFbmRQNTZUQmlpbzFCc29uNlZCQUdfdGRKOUo5S3N6MllMQTlvSXpjV1pjWUVkSjZuSlY4dzA5YXVBLVhISDZrOGNsZElWLWEyakVRR0lyTENzUlVFNmpZTmQ4QXpLRjlqVkZDcA?oc=5",
+    "timestamp": "2026-07-12T05:16:12.650495+00:00",
+    "status": "rejected",
+    "content_hash": "83dc9fb6ff70d26a487d701c0ae062df",
+    "strict_hash": "83dc9fb6ff70d26a487d701c0ae062df",
+    "fuzzy_hash": "8f2f905fbb829fdcbbf8ac770ad38277",
+    "reason": "Новость о росте рынка недвижимости в Dubai South соответствует тематике канала (связь с Дубаем), не содержит политики, рекламы или неуважения к ценностям ОАЭ, источник (ZAWYA) проверяем. Однако она является дубликатом по смыслу с уже опубликованной новостью №3 о транзакциях в сфере недвижимости Дубая, хотя и с другим фокусом. Учитывая правило 7 о дубликатах и повторах, публикация этой новости может быть избыточной."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rZ0ZqYTY0dVZtLU54dnJJYkE1bHhpdGh6UGxOYV9TRzlTSWxtX3hMdGl3R2M5c1JOYXV3VXl5OVJiSHI3cnZhTl9OalRDZVdaLXN4cXFQQlF5Sm5XWk55UFF3SmUxT1J4dFZRX3hB?oc=5",
+    "timestamp": "2026-07-12T05:16:16.032345+00:00",
+    "status": "rejected",
+    "content_hash": "d671a69cac64c9e275970f9ad5768224",
+    "strict_hash": "d671a69cac64c9e275970f9ad5768224",
+    "fuzzy_hash": "904c86b3bf123f1bc7a2cd7bb0b915cc",
+    "reason": "Новость выглядит как рерайт пресс-релиза с низкой информационной ценностью, без конкретных фактов, дат или цифр, и содержит признаки ИИ-генерации (повтор слов, неестественная структура). Кроме того, она дублирует общую тему спортивного туризма, которая уже освещалась в других форматах, и не представляет интереса для русскоязычного жителя Дубая."
   }
 ]
