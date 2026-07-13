@@ -794,5 +794,32 @@
     "strict_hash": "ab508e817f7dc8765fa08777a1da2584",
     "fuzzy_hash": "43823fddbe4bae343c81139285cb75f4",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-traffic-new-road",
+    "timestamp": "2026-07-13T20:48:26.665990+00:00",
+    "status": "rejected",
+    "content_hash": "aad20eb0b5a55057f4ea05d333c94f08",
+    "strict_hash": "aad20eb0b5a55057f4ea05d333c94f08",
+    "fuzzy_hash": "aec22dd7309a346e98e423fbad87064c",
+    "reason": "Новость имеет явную связь с Дубаем (строительство дороги), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст крайне короткий, не содержит проверяемых фактов, ссылок на источник и выглядит как кликбейт без конкретики. Кроме того, тема дорожной инфраструктуры уже могла освещаться в других новостях, но точный дубликат не обнаружен. Из-за отсутствия проверяемого источника и информационной пустоты новость следует отклонить."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/uae-mourning-sheikh-hamad",
+    "timestamp": "2026-07-13T20:48:33.670326+00:00",
+    "status": "rejected",
+    "content_hash": "7257965f666d1e0df4aeba44293e5c87",
+    "strict_hash": "7257965f666d1e0df4aeba44293e5c87",
+    "fuzzy_hash": "6484a8b7ba149151e6aa0f6d05b06d39",
+    "reason": "Cheap prefilter: слишком короткий текст (112 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/things-to-do/fifa-world-cup-2026-semi-final-what-time-dubai",
+    "timestamp": "2026-07-13T20:48:46.128544+00:00",
+    "status": "approved",
+    "content_hash": "13731cf2089fee90445f6b230cd84d5c",
+    "strict_hash": "13731cf2089fee90445f6b230cd84d5c",
+    "fuzzy_hash": "31b53b28ea414bc711d21aaa485d0bb4",
+    "reason": "approved"
   }
 ]
