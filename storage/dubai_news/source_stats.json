@@ -1,118 +1,5 @@
 [
   {
-    "url": "https://www.ladbible.com/news/crime/dubai-influencer-kauana-bilhar-death-438721-20260710",
-    "timestamp": "2026-07-11T04:40:58.125284+00:00",
-    "status": "rejected",
-    "content_hash": "06112d00d8c7835de2df11629668bf98",
-    "strict_hash": "06112d00d8c7835de2df11629668bf98",
-    "fuzzy_hash": "cecaa645cc6f36da2692abd07e31e0ec",
-    "reason": "Новость о гибели блогера в Дубае имеет прямую связь с регионом, но содержит детали о подозрительных обстоятельствах и голосовом сообщении, что может быть воспринято как неуважение к ценностям ОАЭ (правило 4) и не несет практической пользы для русскоязычного жителя (правило 6). Кроме того, текст выглядит как сенсационный кликбейт с признаками ИИ-генерации (правило 5)."
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/women/voices-of-power/she-left-her-luxury-life-in-switzerland-and-dubai-to-start-a-free-school-in-a-remote-indian-village-how-this-swiss-woman-found-her-lifes-purpose/articleshow/132311815.cms",
-    "timestamp": "2026-07-11T04:41:00.543946+00:00",
-    "status": "rejected",
-    "content_hash": "8ed7cef1fd8ea8ae28c5d7b569da060c",
-    "strict_hash": "8ed7cef1fd8ea8ae28c5d7b569da060c",
-    "fuzzy_hash": "8228eb4e1dbc08f6b1dd6bb05fc6ff32",
-    "reason": "Новость не связана с Дубаем — это история о швейцарской женщине, которая уехала из Дубая в Индию. Основной фокус на её жизни в Индии, а не на событиях или значимых изменениях в ОАЭ. Для русскоязычного жителя Дубая новость не представляет практического интереса или пользы."
-  },
-  {
-    "url": "https://www.hindustantimes.com/trending/people-only-see-the-tax-free-salary-indian-woman-reveals-hidden-cost-of-living-alone-in-dubai-101783696693224.html",
-    "timestamp": "2026-07-11T04:41:08.874862+00:00",
-    "status": "approved",
-    "content_hash": "472d3db99e2bef85a7667ab4223a1a09",
-    "strict_hash": "472d3db99e2bef85a7667ab4223a1a09",
-    "fuzzy_hash": "14ab3718def177fec026d179df0bcc59",
-    "reason": "approved"
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/world/middle-east/emirates-to-launch-flagship-airbus-a380-on-dubaidelhi-route-from-october-25-expands-premium-economy-in-india/articleshow/132314916.cms",
-    "timestamp": "2026-07-11T04:53:33.551036+00:00",
-    "status": "approved",
-    "content_hash": "5c139b6c391ff858b98c9c52d5445f8f",
-    "strict_hash": "5c139b6c391ff858b98c9c52d5445f8f",
-    "fuzzy_hash": "3e921466d768b3de905c62b0b707ad25",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/07/the-barrel-dubai-review-comfort-food-and-a-pet-friendly-terrace",
-    "timestamp": "2026-07-11T07:05:15.701631+00:00",
-    "status": "rejected",
-    "content_hash": "9e5245335d9c640ae0b72547400f6186",
-    "strict_hash": "9e5245335d9c640ae0b72547400f6186",
-    "fuzzy_hash": "b10d1831130bd2792d6bf930ffba69a8",
-    "reason": "Новость является ресторанным обзором, рекламирующим конкретное заведение (The Barrel Bar & Restaurant), без общественно значимой информации или пользы для широкой аудитории. Это явный пресс-релиз или рекламный материал, что нарушает правило 3."
-  },
-  {
-    "url": "https://nypost.com/2026/07/10/world-news/influencer-model-plunges-to-her-death-from-27th-floor-of-dubai-skyscraper",
-    "timestamp": "2026-07-11T07:05:33.666075+00:00",
-    "status": "rejected",
-    "content_hash": "7dee8cc01ab4c0a3ed78c18552e42570",
-    "strict_hash": "7dee8cc01ab4c0a3ed78c18552e42570",
-    "fuzzy_hash": "4f9a1a4b2977369c2d62b5f5b15fa793",
-    "reason": "Новость о гибели инфлюенсера в Дубае имеет явную связь с регионом, не является политической или рекламной, не нарушает ценности ОАЭ (трагический инцидент, а не критика), текст выглядит естественным и не содержит кликбейта. Однако она не представляет практической пользы или интереса для русскоговорящего жителя Дубая (это скорее сенсационная криминальная хроника, а не полезная информация), и её достоверность сложно проверить по указанному источнику (нет явного URL). Кроме того, тема может быть воспринята как неуважение к местным законам и порядкам, если в тексте есть намёки на небезопасность. С учётом правил 6 и 9 — отклоняю."
-  },
-  {
-    "url": "https://www.naturalnews.com/2026-07-10-businesses-report-blocked-payments-saudi-arabia-uae.html",
-    "timestamp": "2026-07-11T07:05:35.473371+00:00",
-    "status": "rejected",
-    "content_hash": "f17db8bd4e28eaf0c3e6ebfe5ff1fa5b",
-    "strict_hash": "f17db8bd4e28eaf0c3e6ebfe5ff1fa5b",
-    "fuzzy_hash": "c1c2d1df7fb945f819358d1affdab1c2",
-    "reason": "Новость явно касается политического конфликта между Саудовской Аравией и ОАЭ, что нарушает правило №2 (политика и конфликты). Кроме того, тема может быть воспринята как неуважение к ценностям ОАЭ (правило №4), а также не представляет практического интереса для русскоговорящего жителя Дубая (правило №6)."
-  },
-  {
-    "url": "https://indianexpress.com/article/world/uae-megaprojects-dubai-loop-disney-resort-abu-dhabi-stargate-ai-10780649",
-    "timestamp": "2026-07-11T07:05:38.165248+00:00",
-    "status": "rejected",
-    "content_hash": "96bfee87dd9fa2894722b5f41aad1d84",
-    "strict_hash": "96bfee87dd9fa2894722b5f41aad1d84",
-    "fuzzy_hash": "304a203bbdfa72b1e04c631e88303887",
-    "reason": "Новость представляет собой обзор 10 крупных инфраструктурных проектов ОАЭ, включая Dubai Loop (пилотный маршрут от DIFC до Dubai Mall), что напрямую связано с регионом и интересно русскоязычным жителям. Однако текст обрывается на середине (3335 символов), не указан источник, а заголовок и содержание выглядят как типичный перечень из пресс-релиза или агрегатора, что нарушает правила проверяемости и может быть расценено как рекламный характер без общественно значимой новости."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQb1cxcDVsUkxib0dNWGFFSjQ5RXVUVi14S3d1YmYyNmlsblp5UUhKN0dLN3NJYlN0b2hUMkdWbFduNnVkOXR2a0pPRDhBWVM4cjhvVFpaNGE3dkpxSFhDTXdkaDRFd3Z3S0ZGZG02S3ZkbGt2LUVFMUZOdXJvVWc2a3NzUElScEpuVEo2c2JhaDF0QTRMRkdFVnduQ2tXeDlVdkFOcnR3RU9rVXFMdGxVRnZJZEF5el93dUZ3TVp4czVWTjRZWWxlcUtZVWFNelFaeENFLTlyaDFfU3BJVnJXaXYwZGR2OGPSAe8BQVVfeXFMTjhJTGdHV3JyV1dJSTI2UmVQcHpHWG1zM1YxY3g0QnloeGNmZmZpOGpFV1QzdW9MeUVoaVlrcnI0cTZhOTNJNVg4cHo0Z0ZTbzdtbk9xQ1RUWVd3d0ZtOGxTUzB4TVhhVkZDeDR4SmRzb1Nkc0xhTlhWdy1CVTNHaFVXb2hrZE1Da25hT0JuVUdISERUX0FoWWtfdjM0eFVualQySlEwUU1YUXJUSUNTVnh0RWRxMW5YOUlEVENOS0pFMHh6azRxTTNkWHROSzNZcWQ3UzhVMjljNnRWQUhPZ0RwU0dCT2tKMXgxcmtMdDQ?oc=5",
-    "timestamp": "2026-07-11T07:05:41.663235+00:00",
-    "status": "rejected",
-    "content_hash": "ed71dd7679d82f04a57227a9636d3121",
-    "strict_hash": "ed71dd7679d82f04a57227a9636d3121",
-    "fuzzy_hash": "d72fa7bfa53f3e56ab866cabc9f9d508",
-    "reason": "Новость о лидерстве рынка недвижимости ОАЭ среди мировых инвестиционных хабов соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ценностям, источник указан (Khaleej Times). Однако текст крайне короткий, выглядит как анонс или заголовок без содержательной части, что может быть признаком неполноценной новости. При этом дубликатов среди опубликованных нет."
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/world/middle-east/emirates-to-launch-flagship-airbus-a380-on-dubaidelhi-route-from-october-25-expands-premium-economy-in-india/articleshow/132314916.cms",
-    "timestamp": "2026-07-11T07:16:27.050288+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.thesun.ie/tv/17273997/towie-georgia-kousoulou-tommy-mallet-dubai-move",
-    "timestamp": "2026-07-11T07:24:10.109780+00:00",
-    "status": "rejected",
-    "content_hash": "0965e75fff014e680bb94edf0dc54c79",
-    "strict_hash": "0965e75fff014e680bb94edf0dc54c79",
-    "fuzzy_hash": "6df5d7921ec87b507081b21018690990",
-    "reason": "Новость о переезде британских реалити-звёзд в Дубай имеет слабую связь с регионом (только упоминание переезда), не содержит общественно значимой информации для русскоязычных жителей, а также выглядит как развлекательный кликбейт про личную жизнь знаменитостей, что не соответствует критериям полезности и достоверности для новостного канала."
-  },
-  {
-    "url": "https://www.thesun.co.uk/tv/39719203/towie-georgia-kousoulou-tommy-mallet-dubai-move",
-    "timestamp": "2026-07-11T07:24:13.263878+00:00",
-    "status": "rejected",
-    "content_hash": "85d706ffafe1de1b083e22f7bdc0dc01",
-    "strict_hash": "85d706ffafe1de1b083e22f7bdc0dc01",
-    "fuzzy_hash": "b709fa25bd0159a5f8c37c51683c1ec0",
-    "reason": "Новость о переезде звезд британского реалити-шоу в Дубай имеет связь с регионом, не содержит политики, рекламы или неуважения к ОАЭ. Однако она представляет собой типичную светскую сплетню из таблоида, которая вряд ли будет интересна или полезна русскоговорящему жителю Дубая (правило 6), а также не соответствует формату service-update или сводки из официальных источников (правило 8). Источник (The Sun) проверяем, но новость не несет практической ценности для целевой аудитории."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQalZMNW1HUWJUdm9jWm96cEFpVEUxdzlxMXJUV2R4bzYxSlFlMGtleEFDaWNKVlBuWjRGQWJ4ZExibTU1Wk4wVVNHcjNhNDZyWWVoeVFXRmtiMUdyOGp5VVB5d0pldUlyRHFUSkNORG5WakNFRDZkQjVWWEQ4YTRpZm9zdlBPSlRCLTd4V2FxQzYwN0xFcFRNNnJkWC13MnBaM0hiR3hsMU4xZjk2V2dKdTl5S3jSAc8BQVVfeXFMTmV2bWQxQ1UtbDhyeTdHWm1FR0hINjhyOUJ3V3VXNFRiSDNka05WZzl5b2plUGpyZ0NVZFR2WjZndTFuWHZwODQ5T3hnajF1RUtkLWpnd2JONUl4NHNndjJzZkN2Mktxa25UdmlrVEhYSTRneGRFZUlnM082WmZ2Y2UwLXFyT2R6Y1JBYmdIbmhEaXZRZ25ndlJfOXRPcG1JcEszNTFXUVlPUUlPcEhVaEU2VjBsaDRxYVFKeGgtN0VHUHpxcDlXWnN2RmtRNE9N?oc=5",
-    "timestamp": "2026-07-11T07:24:21.928511+00:00",
-    "status": "approved",
-    "content_hash": "cd99deec82e8b1296560997541318e1a",
-    "strict_hash": "cd99deec82e8b1296560997541318e1a",
-    "fuzzy_hash": "5a8dc189a19249aaf4b72a2bb510bbf7",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.thesun.co.uk/news/39722229/dubai-ruler-glum-scotland-birthday-bash-entourage",
     "timestamp": "2026-07-11T09:06:38.479523+00:00",
     "status": "rejected",
@@ -847,5 +734,10 @@
     "strict_hash": "e4ddb418270b380188d5ca8f9b5a310d",
     "fuzzy_hash": "7e6c91020f1ffb357428821ea741468a",
     "reason": "Новость явно касается военного конфликта между США и Ираном, включая атаки на государства Персидского залива и закрытие Ормузского пролива. Это прямая тема большой политики и военных действий, что нарушает правило №2. Кроме того, такая информация может быть воспринята как дестабилизирующая и неуважительная к региону, что противоречит правилу №4."
+  },
+  {
+    "url": "https://interestingengineering.com/transportation/world-first-certified-commercial-vertiport-uae",
+    "timestamp": "2026-07-13T07:30:32.262541+00:00",
+    "status": "published"
   }
 ]
