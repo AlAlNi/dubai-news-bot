@@ -653,5 +653,50 @@
     "strict_hash": "cdc4f00e7c0f76d396052d7a647a8b31",
     "fuzzy_hash": "1df9f88ca8f2cffd07115d4d152579d3",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thenews.com.pk/latest/1408916-katie-price-makes-first-public-comments-after-lee-andrews-second-arrest-in-dubai",
+    "timestamp": "2026-07-13T12:19:56.903639+00:00",
+    "status": "rejected",
+    "content_hash": "227322a205d4aea96dfb5ea62869b5bd",
+    "strict_hash": "227322a205d4aea96dfb5ea62869b5bd",
+    "fuzzy_hash": "189eb162e5e4955392b68f53dae1b458",
+    "reason": "Новость о личной жизни британской модели и её мужа, арестованного в Дубае, не представляет общественной значимости для русскоязычных жителей ОАЭ, носит характер таблоидной хроники и не соответствует критериям полезности и интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/iran-expands-attacks-on-gulf-states-after-us-strikes",
+    "timestamp": "2026-07-13T12:19:58.957820+00:00",
+    "status": "rejected",
+    "content_hash": "bc752290991bdbca179756447cc00747",
+    "strict_hash": "bc752290991bdbca179756447cc00747",
+    "fuzzy_hash": "abcb41952d3cfd6f447f0cd3b2b1b955",
+    "reason": "Новость явно касается военного конфликта между США и Ираном с прямым упором на атаки на государства Персидского залива и закрытие Ормузского пролива. Это нарушает правило №2 (политика и конфликты) и не соответствует формату новостного канала о Дубае, ориентированного на жизнь, бизнес и сервисы в регионе."
+  },
+  {
+    "url": "https://www.dailyexcelsior.com/united-arab-emirates-warns-public-of-incoming-missile-and-drone-attack-as-explosions-heard-in-qatar",
+    "timestamp": "2026-07-13T12:20:01.503274+00:00",
+    "status": "rejected",
+    "content_hash": "90be47d5b6dcbf122a1f2d0dd8bc774f",
+    "strict_hash": "90be47d5b6dcbf122a1f2d0dd8bc774f",
+    "fuzzy_hash": "477df5483828d336e62779f5a6405ec7",
+    "reason": "Новость явно нарушает правило №2 (политика и конфликты) — основная тема — военные действия, ракетные удары и международный конфликт с участием США и Ирана. Также есть признаки недостоверности (ссылка на несуществующую дату \"Jul 12\" в контексте 2025 года) и отсутствие проверяемого источника. Для канала о Дубае такая информация неприемлема."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdTljclJtRnk0NnVrOTNkdEk5X2tsYVNPLTVSM3JlVmpKemU4OENjXzdhdkdhTVV3ZGltUnlJN1hTYmlpc054VE1scE55RzVUN1dsNVlKaE5hdWFRTEV1c1ctSXREQmVvdVVGYlZzVDBBbUJJZFg4QTIzbWRieHczbWF5SVI?oc=5",
+    "timestamp": "2026-07-13T12:20:04.746149+00:00",
+    "status": "rejected",
+    "content_hash": "996f081f7fa083c4e31a116c66f19589",
+    "strict_hash": "996f081f7fa083c4e31a116c66f19589",
+    "fuzzy_hash": "ce6d2d1b1d3b2ffa56ed9a248bb5b301",
+    "reason": "Новость о том, что вьетнамские туристы получили более лёгкий доступ в Дубай, имеет прямую связь с регионом (пункт 1) и может быть интересна русскоязычным жителям, так как отражает туристические тренды. Однако текст представлен лишь заголовком и ссылкой на источник, без содержания, что не позволяет проверить достоверность, естественность и отсутствие дубликатов (пункты 5, 7, 9). Кроме того, нет явной общественной значимости или пользы для аудитории (пункт 6)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZzNXb2JWTHFSNjdoZmd4XzBkNG9WUzBuMnNoMEpjTmFsTzB3aGNaYjEtcWtNdF9GWi1aek5fbV82dUZYVUFfbWtKYVhLQ0ZCU213U3lkbHVYVHlJYnpyaTYyVThYTUpBTmc4ZzJ0bHpjR2ZCLTJkNzZQVmtsVVRPNXNLeTg4cjAyVFZYMm5TSmRNcHExbE96ZzVPX3Bydk9NazU5YXNfdWlaN1VRdVBFeXAxdUZTeTlQd0t4dDd5eHo0RU9POXFfdDlQWjlSbnBPZFk0UTdVaWNHbWdJRGdram1oOUpWSl9tSXFjZjhUTkF3RURMb0d4Nw?oc=5",
+    "timestamp": "2026-07-13T12:20:07.808029+00:00",
+    "status": "rejected",
+    "content_hash": "fc316b53b9489296f99d741f5fcfa595",
+    "strict_hash": "fc316b53b9489296f99d741f5fcfa595",
+    "fuzzy_hash": "97dc1006842abd1aff363c6151f3ba08",
+    "reason": "Новость о безвизовом въезде в Германию для 62 стран не имеет прямой связи с Дубаем, ОАЭ или регионом GCC, а также не представляет интереса для русскоязычного жителя Дубая, если только он не является гражданином одной из этих стран (что не указано). Тема носит общеевропейский характер и не соответствует критериям канала."
   }
 ]
