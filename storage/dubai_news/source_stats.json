@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://techbullion.com/amc-vs-pay-per-service-in-dubai-the-real-cost-of-waiting-for-things-to-break",
-    "timestamp": "2026-07-11T21:22:23.970226+00:00",
-    "status": "rejected",
-    "content_hash": "6c7304daa1e778eb8a2cc7231c000ff5",
-    "strict_hash": "6c7304daa1e778eb8a2cc7231c000ff5",
-    "fuzzy_hash": "beee6833b30c939c8775042b2878b560",
-    "reason": "Новость представляет собой сравнительный анализ двух подходов к обслуживанию дома в Дубае (AMC против оплаты по факту), что является полезной бытовой информацией для жителей. Однако текст имеет признаки рекламного или спонсорского контента (продвижение услуги), а также не содержит проверяемого источника и общественно значимой новостной ценности."
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/etimes/trending/people-only-see-the-tax-free-salary-23-year-old-indian-woman-reveals-the-hidden-cost-of-living-in-dubai/articleshow/132327836.cms",
-    "timestamp": "2026-07-11T21:39:29.427017+00:00",
-    "status": "rejected",
-    "content_hash": "841eced55e381e119f09b110a406e834",
-    "strict_hash": "841eced55e381e119f09b110a406e834",
-    "fuzzy_hash": "51ba7c10f2833c205eb4c4a3f21cf800",
-    "reason": "Новость основана на вирусном видео, обсуждающем скрытые расходы жизни в Дубае, что актуально для русскоязычных жителей, но не содержит проверяемых фактов и выглядит как пересказ субъективного мнения, а не новость. Отсутствует явный URL источника для подтверждения."
-  },
-  {
-    "url": "https://www.thenews.com.pk/latest/1408787-us-targets-dubai-financier-tied-to-khamenei-in-fresh-iran-sanctions",
-    "timestamp": "2026-07-11T22:22:17.584736+00:00",
-    "status": "rejected",
-    "content_hash": "5b9d7af019994e66edd47c5a4181a2d2",
-    "strict_hash": "5b9d7af019994e66edd47c5a4181a2d2",
-    "fuzzy_hash": "879a59322b29ca873c3e6594fd8077d2",
-    "reason": "Новость касается санкций США против финансиста, базирующегося в Дубае, что имеет прямую связь с регионом, но основная тема — международная политика и санкции, что нарушает правило 2 (политика и конфликты). Кроме того, тема может быть воспринята как чувствительная для ОАЭ, так как затрагивает связи с Ираном, что нарушает правило 4."
-  },
-  {
     "url": "https://www.indiatvnews.com/trending/offbeat/living-alone-in-dubai-23-year-old-indian-woman-reflects-on-the-emotional-cost-of-moving-abroad-2026-07-11-1047922",
     "timestamp": "2026-07-11T23:42:44.519365+00:00",
     "status": "rejected",
@@ -848,5 +821,10 @@
     "strict_hash": "54027a5f72dbe0839ee85eeb284b5ba0",
     "fuzzy_hash": "343b26885b714bf360b93b7ba201fcea",
     "reason": "Новость рассказывает о женщине, которая уехала из Дубая в Индию для благотворительности. Связь с регионом есть (она жила и работала в Дубае), тема не политическая и не рекламная, но история не представляет интереса для русскоговорящего жителя Дубая (это личная история о жизни в другой стране) и не является общественно значимой новостью о самом Дубае или ОАЭ."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/dubai-housing-market-stays-resilient-amid-middle-east-tensions-h1-residential-deals-touch-aed-226-billion-anarock/articleshow/132360195.cms",
+    "timestamp": "2026-07-13T23:03:07.058530+00:00",
+    "status": "published"
   }
 ]
