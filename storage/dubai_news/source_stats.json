@@ -844,5 +844,41 @@
     "strict_hash": "f669537ae2f6a0b0f3d10d36d390868e",
     "fuzzy_hash": "828f553c766f423de28d58ea93d1e971",
     "reason": "Новость рассказывает о расследовании индийского правоохранительного органа (ED) в отношении кибермошенничества, где следы криптовалют ведут в Дубай. Однако основная тема — это преступление и расследование в Индии, а не событие, непосредственно связанное с жизнью в Дубае или ОАЭ. Связь с регионом слишком слабая и косвенная, новость не представляет интереса для русскоговорящего жителя Дубая."
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/when-will-dubai-summer-end-in-2026",
+    "timestamp": "2026-07-13T23:42:10.365203+00:00",
+    "status": "rejected",
+    "content_hash": "a255ac06017d99abfc7c1397d21c93a9",
+    "strict_hash": "a255ac06017d99abfc7c1397d21c93a9",
+    "fuzzy_hash": "e8b1386d0fee8b5568070054a8ecf344",
+    "reason": "Cheap prefilter: слишком короткий текст (111 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/airlines-dxb-flights-cancelled-july",
+    "timestamp": "2026-07-13T23:42:15.709306+00:00",
+    "status": "rejected",
+    "content_hash": "755d00240402be3dda3c698f73fc129b",
+    "strict_hash": "755d00240402be3dda3c698f73fc129b",
+    "fuzzy_hash": "d8787d746f643733428655845ae43d7c",
+    "reason": "Cheap prefilter: слишком короткий текст (109 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/things-to-do/this-week-dubai-july-13-19",
+    "timestamp": "2026-07-13T23:42:21.203382+00:00",
+    "status": "rejected",
+    "content_hash": "356733774e47bf621bcab723bdf4adf7",
+    "strict_hash": "356733774e47bf621bcab723bdf4adf7",
+    "fuzzy_hash": "d510bf73ed9f769211f71e10f5781365",
+    "reason": "Cheap prefilter: слишком короткий текст (90 символов)"
+  },
+  {
+    "url": "https://www.dailyexcelsior.com/housing-sales-in-dubai-declines-16-pc-in-jan-jun-to-aed-226-bn-amid-west-asia-conflict",
+    "timestamp": "2026-07-13T23:42:23.966074+00:00",
+    "status": "rejected",
+    "content_hash": "4be98d06d79c952a20a13503f6fc7ca1",
+    "strict_hash": "4be98d06d79c952a20a13503f6fc7ca1",
+    "fuzzy_hash": "c1561d6c3c7ac629a0ac1a970710b38d",
+    "reason": "Новость содержит устаревшие данные (2026 год, упоминание конфликта в Западной Азии) и ссылается на индийское агентство Anarock, что вызывает сомнения в актуальности и достоверности для текущего контекста. Кроме того, тема падения продаж на фоне конфликта может быть воспринята как негативная и не соответствующая ценностям ОАЭ, а также не представляет интереса для русскоговорящего жителя Дубая из-за неясного источника и временной путаницы."
   }
 ]
