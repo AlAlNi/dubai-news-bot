@@ -794,5 +794,41 @@
     "url": "https://www.timeoutdubai.com/things-to-do/fifa-world-cup-2026-semi-final-what-time-dubai",
     "timestamp": "2026-07-13T21:06:10.125228+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://emirateswoman.com/how-francesca-alexandra-found-her-calling-in-dubais-super-prime-market",
+    "timestamp": "2026-07-13T21:43:58.070943+00:00",
+    "status": "rejected",
+    "content_hash": "de20bec936e9f1ce2176f828045469ea",
+    "strict_hash": "de20bec936e9f1ce2176f828045469ea",
+    "fuzzy_hash": "734378a3c0122d08f25f5c050f96dbdc",
+    "reason": "Новость представляет собой личную историю успеха сотрудника риелторской компании, что больше похоже на рекламный или имиджевый материал, а не на общественно значимую новость. Кроме того, отсутствует явная проверяемая ссылка на первоисточник (указан только домен Emirates Woman), а тема не представляет интереса для широкой аудитории русскоговорящих жителей Дубая."
+  },
+  {
+    "url": "https://www.hindustantimes.com/real-estate/dubai-real-estate-housing-sales-dip-16-in-h1-2026-amid-us-iran-war-says-report-101783930211411.html",
+    "timestamp": "2026-07-13T21:44:15.982976+00:00",
+    "status": "rejected",
+    "content_hash": "1198d4034b631dc5486f0750b4c0b22e",
+    "strict_hash": "1198d4034b631dc5486f0750b4c0b22e",
+    "fuzzy_hash": "63a8b35b7c3f74d1bf5865d30d6f1588",
+    "reason": "Новость дублирует уже опубликованную информацию о рынке недвижимости Дубая (AED 226 млрд в H1 2026 от ANAROCK), но с другим заголовком и цифрами (AED 225.7 млрд и падение 16% против 16.1%). Кроме того, упоминание «US-Iran war» в заголовке нарушает правило 2 (политика и конфликты) и правило 4 (уважение к ценностям UAE), так как вносит спекулятивный геополитический контекст, не соответствующий официальной позиции ОАЭ."
+  },
+  {
+    "url": "https://www.al-monitor.com/originals/2026/07/iran-escalates-attacks-us-bases-gulf-states-warns-more-incidents-strait",
+    "timestamp": "2026-07-13T21:44:18.426604+00:00",
+    "status": "rejected",
+    "content_hash": "363953f4e1e12ef88d8d627133e26ccb",
+    "strict_hash": "363953f4e1e12ef88d8d627133e26ccb",
+    "fuzzy_hash": "d19c59faf375edde0c86a870b6fba50b",
+    "reason": "Новость явно нарушает правило №2 (политика и конфликты), так как основная тема — военные действия между Ираном и США, включая обмен ракетными ударами и угрозу закрытия Ормузского пролива. Это не имеет отношения к локальным новостям Дубая/ОАЭ, а является международным конфликтом высокого уровня. Кроме того, текст не представляет интереса для русскоговорящего жителя Дубая в контексте повседневной жизни (правило №6)."
+  },
+  {
+    "url": "https://www.cnbctv18.com/india/mba-student-among-19-arrested-as-gujarat-police-busts-dubai-linked-%e2%82%b9250-crore-cyber-fraud-network-19943984.htm",
+    "timestamp": "2026-07-13T21:44:20.229068+00:00",
+    "status": "rejected",
+    "content_hash": "5a3d8b4cc7393d2edb6d9ab688d720c2",
+    "strict_hash": "5a3d8b4cc7393d2edb6d9ab688d720c2",
+    "fuzzy_hash": "57d31beb03a669bcfe3221064a21743e",
+    "reason": "Новость рассказывает о раскрытии полицией Гуджарата (Индия) мошеннической сети, связанной с Дубаем. Хотя упоминание Дубая есть, основное событие происходит в Индии и не представляет интереса для русскоязычного жителя ОАЭ, а также не является общественно значимой новостью для региона."
   }
 ]
