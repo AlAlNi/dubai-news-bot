@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeks3UFpFZzZnNGJxLXRpRHRrRFNVa1RKU2hMN1JZdHBjUzF1dmhON1F1U0tCUHpRblVlaUpQSm1KN0t1M04xXy0wVWpGdVZtVVpNWGlZbEthV2dhdDlKSTZIeUpHaWpvTVhfeVVUY01ISmljRmY1UFlJOTNDQ0cwMDJvOGloc05ZMXMtanl3LTFzYmhScTNiUGZNeVNOMVlmMFpZ?oc=5",
-    "timestamp": "2026-07-11T16:42:28.516704+00:00",
-    "status": "rejected",
-    "content_hash": "620cc52088694fc55325f1dc2ba78486",
-    "strict_hash": "620cc52088694fc55325f1dc2ba78486",
-    "fuzzy_hash": "891b880abc872acbe913afab9067b92b",
-    "reason": "Новость является дубликатом уже опубликованной новости под номером 2 (Cyber Fraud: Dubai Police warns against downloading unverified apps - Emirates 24|7). Тема и источник совпадают, разница только в названии издания. Публикация повторной информации нецелесообразна."
-  },
-  {
     "url": "https://www.birminghammail.co.uk/news/midlands-news/solihull-man-guilty-smuggling-32kg-34261215",
     "timestamp": "2026-07-11T17:29:22.285841+00:00",
     "status": "rejected",
@@ -757,5 +748,10 @@
     "strict_hash": "d55ef7d029747fec452a115d7f4a3f03",
     "fuzzy_hash": "66541cfe565c598c3cf2846840b3f1dc",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-property-sales-soar-past-dh139-billion-amid-easing-rental-growth",
+    "timestamp": "2026-07-13T17:19:46.918178+00:00",
+    "status": "published"
   }
 ]
