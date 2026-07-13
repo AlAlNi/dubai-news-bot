@@ -739,5 +739,32 @@
     "url": "https://interestingengineering.com/transportation/world-first-certified-commercial-vertiport-uae",
     "timestamp": "2026-07-13T07:30:32.262541+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.breitbart.com/news/us-ends-latest-round-of-airstrikes-on-iran-after-tehran-strikes-gulf-states",
+    "timestamp": "2026-07-13T08:32:11.330881+00:00",
+    "status": "rejected",
+    "content_hash": "7719697112c7d9ab7786862792afd5f2",
+    "strict_hash": "7719697112c7d9ab7786862792afd5f2",
+    "fuzzy_hash": "2b6238d74f75798c39a7c6c231f988a7",
+    "reason": "Новость не подходит для публикации: основная тема — военные действия США против Ирана, что является большой политикой и конфликтом, не связанным напрямую с Дубаем или ОАЭ (упоминание Дубая лишь как местонахождение агентства AP). Это нарушает правила 1 и 2."
+  },
+  {
+    "url": "https://metro.co.uk/2026/07/12/katie-price-makes-first-comments-husband-lee-andrews-arrest-dubai-29119235",
+    "timestamp": "2026-07-13T08:32:13.898207+00:00",
+    "status": "rejected",
+    "content_hash": "b9ad0896fd655bb8fef8fda235d2943b",
+    "strict_hash": "b9ad0896fd655bb8fef8fda235d2943b",
+    "fuzzy_hash": "9db4a9453eeff435057ec60a4e9d011f",
+    "reason": "Новость о задержании мужа Кэти Прайс в Дубае имеет прямую связь с регионом, но её основная тема — личная жизнь западной знаменитости и её мужа, что не представляет интереса для русскоязычного жителя Дубая и не соответствует критерию полезности. Кроме того, текст выглядит как типичная светская хроника, а не общественно значимая новость."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/real-estate/the-emir-of-dubai-owns-a-63000-acre-estate-in-scotland-but-the-sheikh-has-visited-his-multi-million-dollar-property-only-five-times-in-20-years-because-it-doesnt-have-enough-bedrooms/articleshow/132349520.cms",
+    "timestamp": "2026-07-13T08:32:16.004054+00:00",
+    "status": "rejected",
+    "content_hash": "3429a78d1d6a3710401dc862104322c6",
+    "strict_hash": "3429a78d1d6a3710401dc862104322c6",
+    "fuzzy_hash": "8bc526b9ecd3f2d6faa63ef8f67a1c79",
+    "reason": "Новость не подходит для публикации: она не несёт практической пользы для русскоговорящего жителя Дубая, носит характер светской сплетни о личной жизни правителя, что может быть воспринято как неуважение к ценностям ОАЭ (правило 4), и не соответствует критерию интереса для целевой аудитории (правило 6)."
   }
 ]
