@@ -1,64 +1,5 @@
 [
   {
-    "url": "https://www.dubaichronicle.com/2026/07/12/dubai-south-enters-its-next-growth-phase",
-    "timestamp": "2026-07-12T09:47:28.492775+00:00",
-    "status": "rejected",
-    "content_hash": "0713169cfee87c34030b7e753816a0c6",
-    "strict_hash": "0713169cfee87c34030b7e753816a0c6",
-    "fuzzy_hash": "5b97b7c73f896418798e3b0cf917d52c",
-    "reason": "Новость о развитии Dubai South имеет прямую связь с Дубаем, не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст выглядит естественно и информативно. Однако она является дубликатом по смыслу с уже опубликованной новостью о недвижимости в Дубае (пункт 2 контекста), так как обе касаются развития и транзакций в регионе, хотя и с разных сторон. Учитывая, что дубликаты не допускаются, новость следует отклонить."
-  },
-  {
-    "url": "https://www.nydailynews.com/2026/07/11/brazilian-influencer-falls-27th-floor-dubai-dies",
-    "timestamp": "2026-07-12T09:47:46.694854+00:00",
-    "status": "rejected",
-    "content_hash": "627777cbae0782a60be40d0f490d86b4",
-    "strict_hash": "627777cbae0782a60be40d0f490d86b4",
-    "fuzzy_hash": "0dd9c84244a12c82340e2f7808b5db39",
-    "reason": "Новость о гибели бразильской инфлюенсерши в Дубае имеет прямую связь с регионом, не является политической или рекламной, не нарушает ценности ОАЭ (трагический несчастный случай), выглядит естественно и достоверно (ссылка на бразильский источник G1), может быть интересна русскоязычным жителям как резонансное происшествие. Дубликатов среди опубликованных новостей нет."
-  },
-  {
-    "url": "https://www.breitbart.com/news/us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz-tehran-lashes-out-again-at-gulf-arab-states",
-    "timestamp": "2026-07-12T09:47:50.286390+00:00",
-    "status": "rejected",
-    "content_hash": "39b59cc513c3700f0811164876243a44",
-    "strict_hash": "39b59cc513c3700f0811164876243a44",
-    "fuzzy_hash": "3d46a166a4d106cae077a000e9835237",
-    "reason": "Новость не подходит для публикации, так как её основная тема — военный конфликт между США и Ираном, что является большой политикой и военными действиями, а не локальной новостью о Дубае или ОАЭ."
-  },
-  {
-    "url": "https://www.thenews.com.pk/latest/1408826-katie-prices-husband-lee-andrews-reportedly-arrested-again-in-dubai-details",
-    "timestamp": "2026-07-12T09:47:58.128541+00:00",
-    "status": "approved",
-    "content_hash": "b88020f65e43e83e0281887adb4660cb",
-    "strict_hash": "b88020f65e43e83e0281887adb4660cb",
-    "fuzzy_hash": "7869fd399135dea854a18cc6cdefab75",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/07/how-to-throw-the-ultimate-at-home-festival-in-dubai-this-summer",
-    "timestamp": "2026-07-12T11:03:54.111867+00:00",
-    "status": "rejected",
-    "content_hash": "01d31df96072d30369bb6de27d19ee87",
-    "strict_hash": "01d31df96072d30369bb6de27d19ee87",
-    "fuzzy_hash": "fc96fb7250dd6cebab8ed7ec6c69bc7d",
-    "reason": "Новость представляет собой развлекательную статью-гид о том, как устроить домашний фестиваль летом в Дубае. Она не содержит политики, рекламы или неуважения к ценностям ОАЭ, но является типичным контентным материалом (лайфстайл-совет), а не оперативной новостью, и не имеет проверяемого источника с общественно значимой информацией, что делает её малополезной для новостного канала."
-  },
-  {
-    "url": "https://www.dubaichronicle.com/2026/07/12/dubai-strong-value-julius-baers-global-wealth-report",
-    "timestamp": "2026-07-12T11:04:11.514945+00:00",
-    "status": "rejected",
-    "content_hash": "729e429b530877cd60d9679efc6bea82",
-    "strict_hash": "729e429b530877cd60d9679efc6bea82",
-    "fuzzy_hash": "8252bfd8878c9e8d883a66866f98ab3e",
-    "reason": "Новость основана на отчете Julius Baer, имеет прямое отношение к Дубаю (стоимость жизни и образ жизни для состоятельных людей), не содержит политики, рекламы или неуважения к ОАЭ. Однако текст обрывается на полуслове, содержит нерабочую ссылку и признаки неполной или автоматически сгенерированной информации, что нарушает правило проверки достоверности и естественности. Кроме того, источник (Twitter @DubaiChronicle) не является проверяемым URL для подтверждения фактов."
-  },
-  {
-    "url": "https://www.thenews.com.pk/latest/1408826-katie-prices-husband-lee-andrews-reportedly-arrested-again-in-dubai-details",
-    "timestamp": "2026-07-12T11:18:00.947599+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://whatson.ae/2026/07/dubai-unveils-major-new-12km-road-connecting-sheikh-zayed-road-and-emirates-road",
     "timestamp": "2026-07-12T12:55:52.625797+00:00",
     "status": "approved",
@@ -1147,5 +1088,10 @@
     "strict_hash": "5ec05c71bc116e6b37ea9c7ce6800f1d",
     "fuzzy_hash": "6304fe726688503b13aa4daf0e7ebdd9",
     "reason": "Новость является точным дубликатом уже опубликованного материала (заголовок и содержание совпадают с первой новостью в контексте). Нарушение правила №7 (дубликаты и повторы)."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/07/14/dubai-property-prices-june-2026-reidin-report",
+    "timestamp": "2026-07-14T11:38:35.172979+00:00",
+    "status": "published"
   }
 ]
