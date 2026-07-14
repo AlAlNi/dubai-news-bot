@@ -1021,5 +1021,23 @@
     "strict_hash": "b3e1580b4e392fb77e102a7db93635ac",
     "fuzzy_hash": "55eb85bb23aa2ead4941e433fc8b5592",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubais-rental-market-sees-landlords-retain-properties-amid-strong-demand-for-luxury-units",
+    "timestamp": "2026-07-14T07:02:48.991866+00:00",
+    "status": "rejected",
+    "content_hash": "201ad8840ceaf61d8b3cbe41943d8b82",
+    "strict_hash": "201ad8840ceaf61d8b3cbe41943d8b82",
+    "fuzzy_hash": "f951bf176eb9082c2f0f6b06b62a1565",
+    "reason": "Новость о рынке аренды жилья в Дубае соответствует тематике канала, не содержит политики, рекламы или неуважения к ценностям ОАЭ, написана естественным языком и будет интересна русскоязычным жителям, интересующимся недвижимостью. Однако она является дубликатом ранее опубликованной новости \"Dubai Is Already Planning for the Next Strait of Hormuz Crisis\" — проверка по хешу показывает совпадение контента (оба текста имеют одинаковый хеш 201ad8840ceaf61d8b3cbe41943d8b82), что указывает на техническую ошибку или повтор."
+  },
+  {
+    "url": "https://simpleflying.com/why-emirates-airbus-a380-premium-economy-quietly-become-sweet-spot-europe-dubai-routes",
+    "timestamp": "2026-07-14T07:03:10.860139+00:00",
+    "status": "approved",
+    "content_hash": "9050bbd2d9412e10b3bc0650812d554a",
+    "strict_hash": "9050bbd2d9412e10b3bc0650812d554a",
+    "fuzzy_hash": "d769aec5bd33258e68b6cf2242ce8ede",
+    "reason": "approved"
   }
 ]
