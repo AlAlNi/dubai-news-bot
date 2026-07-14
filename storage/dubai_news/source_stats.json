@@ -1102,5 +1102,41 @@
     "strict_hash": "efb7d18463266f2e13cab20de1ac85e7",
     "fuzzy_hash": "48f6a47a469e6eff0a163e1e2836bd29",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-comedy-festival-2026",
+    "timestamp": "2026-07-14T13:05:16.912836+00:00",
+    "status": "rejected",
+    "content_hash": "142466bd77915eae032b2d6f6f28d66d",
+    "strict_hash": "142466bd77915eae032b2d6f6f28d66d",
+    "fuzzy_hash": "c202ebd69ea92fd1758dd87f12fed77f",
+    "reason": "Cheap prefilter: слишком короткий текст (78 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/dubai-metro-burj-khalifa-road-closure",
+    "timestamp": "2026-07-14T13:05:22.295147+00:00",
+    "status": "rejected",
+    "content_hash": "c0496eb9bff69cb7c653fa67c3d159a5",
+    "strict_hash": "c0496eb9bff69cb7c653fa67c3d159a5",
+    "fuzzy_hash": "109e408bbb7a0d86d2f1575769b47afc",
+    "reason": "Cheap prefilter: слишком короткий текст (100 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/uae-public-holiday-august-2026",
+    "timestamp": "2026-07-14T13:05:27.073741+00:00",
+    "status": "rejected",
+    "content_hash": "75c409f1cbe5771f82c504fc33ffb41e",
+    "strict_hash": "75c409f1cbe5771f82c504fc33ffb41e",
+    "fuzzy_hash": "5c19b334f5595e5f8278a5b19025fcc0",
+    "reason": "Cheap prefilter: слишком короткий текст (80 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fRXVwVm1adktvZWktdHFpdHc1ZDczZEh0T1FKVXlJRWQwX3IybGhxLTl1R1ZjS3BIbmF2cFNEN212X3ppVlZEcENxZE4xV0R6STFUeG9KYXd6Z3BUQl8weFEweWh2UXFt?oc=5",
+    "timestamp": "2026-07-14T13:05:35.681493+00:00",
+    "status": "approved",
+    "content_hash": "9b4bb7b23af4b4e9e115e8a800aa905b",
+    "strict_hash": "9b4bb7b23af4b4e9e115e8a800aa905b",
+    "fuzzy_hash": "9e2e75d846360aad632aaa2a04e891f3",
+    "reason": "approved"
   }
 ]
