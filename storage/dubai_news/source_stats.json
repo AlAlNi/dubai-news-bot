@@ -1089,5 +1089,32 @@
     "url": "https://www.financialexpress.com/world-news/us-embassy-in-abu-dhabi-dubai-consulate-cancel-consular-appointments-all-you-need-to-know/4290962",
     "timestamp": "2026-07-14T19:38:24.159796+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.independent.co.uk/news/world/middle-east/dubai-strait-hormuz-port-iran-jebel-ali-b3014367.html",
+    "timestamp": "2026-07-14T20:37:32.455124+00:00",
+    "status": "rejected",
+    "content_hash": "316ba4571422940092cbf4b875d32f46",
+    "strict_hash": "316ba4571422940092cbf4b875d32f46",
+    "fuzzy_hash": "a6cd69b663db61de34a645fbc47ffe98",
+    "reason": "Новость отклоняется, так как её основная тема — геополитический конфликт вокруг Ормузского пролива, что нарушает правило №2 (политика и конфликты). Кроме того, информация выглядит как непроверенная сенсация, а источник не указан явно (правило №9)."
+  },
+  {
+    "url": "https://www.cnbctv18.com/world/amid-strait-of-hormuz-blockade-uae-plans-new-port-to-reduce-dependency-19944966.htm",
+    "timestamp": "2026-07-14T20:37:34.741594+00:00",
+    "status": "rejected",
+    "content_hash": "63f6fdf390b7288da10f5fa7d15e3214",
+    "strict_hash": "63f6fdf390b7288da10f5fa7d15e3214",
+    "fuzzy_hash": "c737bae6cb6975e7e187382b11c87def",
+    "reason": "Новость о планах ОАЭ построить новый порт на восточном побережье для снижения зависимости от Ормузского пролива имеет прямую связь с регионом и экономикой, не содержит политики, рекламы или неуважения к ценностям UAE. Однако текст взят из CNBCTV18.com, что является проверяемым источником, но тема может быть воспринята как спекулятивная или неактуальная для повседневной жизни русскоязычного жителя Дубая. Кроме того, новость не является дубликатом уже опубликованных материалов."
+  },
+  {
+    "url": "https://www.thenews.com.pk/latest/1409080-dp-world-in-crucial-talks-to-build-new-uae-port-bypassing-the-strait-of-hormuz",
+    "timestamp": "2026-07-14T20:37:41.829012+00:00",
+    "status": "approved",
+    "content_hash": "20c3957d2b1f0d2c7ded9596b5e06e15",
+    "strict_hash": "20c3957d2b1f0d2c7ded9596b5e06e15",
+    "fuzzy_hash": "bafad2f5d237a2905cac83cf27ed850b",
+    "reason": "approved"
   }
 ]
