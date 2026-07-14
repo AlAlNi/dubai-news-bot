@@ -1116,5 +1116,59 @@
     "strict_hash": "20c3957d2b1f0d2c7ded9596b5e06e15",
     "fuzzy_hash": "bafad2f5d237a2905cac83cf27ed850b",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.manchestereveningnews.co.uk/news/world-news/uk-foreign-office-issues-travel-34286450",
+    "timestamp": "2026-07-14T20:48:57.329552+00:00",
+    "status": "rejected",
+    "content_hash": "6cda20ef3d2d3aa6470219f697296b46",
+    "strict_hash": "6cda20ef3d2d3aa6470219f697296b46",
+    "fuzzy_hash": "0265032bc40e1b995157616933a78414",
+    "reason": "Новость касается ОАЭ (Дубай, Абу-Даби) и содержит предупреждение для путешественников от UK Foreign Office, что может быть полезно русскоязычным жителям. Однако основная тема — эскалация конфликта в Ормузском проливе, что относится к большой политике и военной напряженности, а также дублирует контекст первой опубликованной новости (DP World и обход Ормуза). По правилам 2 и 7 новость следует отклонить."
+  },
+  {
+    "url": "https://theprint.in/world/2024-cocaine-bust-in-spain-leads-all-the-way-to-wall-street-dubai/2985859",
+    "timestamp": "2026-07-14T20:48:59.977480+00:00",
+    "status": "rejected",
+    "content_hash": "f422ef068bf7c1d3495bd75bd44b7162",
+    "strict_hash": "f422ef068bf7c1d3495bd75bd44b7162",
+    "fuzzy_hash": "fe43ab699fd348fa7db0c5a421fa7e2d",
+    "reason": "Новость о расследовании кокаиновой сети, ведущей в Дубай, имеет связь с регионом, но основная тема — международная наркопреступность и судебные разбирательства в Испании, что не является общественно значимой или полезной информацией для русскоязычного жителя Дубая. Кроме того, текст содержит признаки кликбейта и не соответствует критериям уважения к ценностям ОАЭ, так как упоминает Дубай в негативном контексте незаконной деятельности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR1RDVklFLTcyM0QwQUVvcTVWZ3owTmQzVU00ZDl4TWIyckkybG5yTV9VUXE3MFpKNFNUR0ktdFo3Wm5RR2didU5LWDdLeU0tbVdpSmt2STJ2aXI0Vnh6dnZOanpycTI2cjBoQ1RJT1BCamNQWUtPZHROMjUxVU1BS2VTVnRub3JZaGZRZUhJZXBBRmFLc2RWbmFjdzdtMERGd3dLajgxNmFVdEcxeXdBTm9rbURiWUdPcy1SZGZzaGQzTFExZjFwMGQ5V2NmYlg5M0pMaHVlbw?oc=5",
+    "timestamp": "2026-07-14T20:49:04.154278+00:00",
+    "status": "rejected",
+    "content_hash": "0259b18dff96cf28be96f8b2173838b3",
+    "strict_hash": "0259b18dff96cf28be96f8b2173838b3",
+    "fuzzy_hash": "922d57806311673ba8ffb694573ba8aa",
+    "reason": "Новость о том, что дубайский миллиардер подарил 59 автомобилей футбольной команде, связана с Дубаем (через личность миллиардера) и не содержит политики, рекламы или неуважения к ОАЭ. Однако текст выглядит как кликбейтный пересказ с неясным источником (VnExpress International), а сама тема — развлекательная, не представляющая практической ценности для русскоязычного жителя Дубая. Кроме того, это не service-update и не регуляторное изменение, а факт невозможно проверить по указанному URL."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PZG9jWTB3MHNmaWZzT2pQVUNCSlU2MHRpZjJlWnllLTluNk9yNFhQNGlZekx4MHU4bzNFT1hTWVBxdWJkdmVMVkZpX1RKcW0yekxaaFh0VzV2NWoyRXJZQXk4aENPblh1SHhhc283VC1memlNdkQ2T1NJZm0?oc=5",
+    "timestamp": "2026-07-14T20:49:07.334451+00:00",
+    "status": "rejected",
+    "content_hash": "1b049b07782ece86cec6620c21df99bb",
+    "strict_hash": "1b049b07782ece86cec6620c21df99bb",
+    "fuzzy_hash": "fb1920302c88db9fd69235b4901bcafa",
+    "reason": "Новость явно связана с Дубаем (аренда жилья), не содержит политики, рекламы или неуважения к ценностям ОАЭ, источник проверяемый (Time Out Dubai). Однако текст представлен только заголовком и ссылкой на источник, без фактического содержания — это неполноценная новость, а скорее анонс. Кроме того, среди опубликованных новостей нет явного дубликата, но отсутствие развернутого текста не позволяет оценить достоверность и полезность для аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVE50VDZZTjQ0Q3UzbXZqT09JSm8xel9YbUxSN1prRXFaMEFjZTBfZ0dYYmJxMG4wSzhya0VnMmxKVkdpSHlNZEZZXy1YXzNxN1l6SC0tUlRlSk4yYURPa3ZaNWdaOWNzS2xPTlQzdFQ4WWlKSXg5eHZnMHFmcFI4SHk2ZG5IUEVDNTJILWpXSFlCOWI0?oc=5",
+    "timestamp": "2026-07-14T20:49:07.919375+00:00",
+    "status": "rejected",
+    "content_hash": "99235e50df588f5b283e39d7d4b70aba",
+    "strict_hash": "99235e50df588f5b283e39d7d4b70aba",
+    "fuzzy_hash": "3e35b0dee02fea7589dedea6123de953",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVkZaZHJiQlZQZU9VRjFGa2NjMjl6WU1ZWmV6b0dXYjAwZklJUzVPTUEyeWN3V2VkUE1VaHU3SmNPVUVXMGlMWXJjcDM4UUhhaHQ1YnJFYzhSQVJBQ0hqWHlyRGRtNlZYMjU3M0dHUGUwaEV6VjN4QnY5bkJfU0RoR1pRa0NnOC1qV3ZvUnBMcGlKVTQ2Ym84SDBhdmxtVVMzNDBGLdIBqgFBVV95cUxPTERMc0hZLUdBS1F0QTlyZGhPUGhMV29xZ21lVUp4SVlLbGNNdWVCTFBmUkxFbWFIR0hwUlVyWm12MDF6WWxDZWdXRWxhblZLelFJU003N0ZMMThoYWZGSTRMemk4NkVpWUZXRXhhVzZUdDk3S3FaVVhWUXo0LS02YlNfMko3a3VMMHoteVhLQWY2RlNiV0ZoTHdBSkRTOU8wNndhbTlrZmlPQQ?oc=5",
+    "timestamp": "2026-07-14T20:49:09.551422+00:00",
+    "status": "rejected",
+    "content_hash": "df867f01f36a999cb7436062564db3df",
+    "strict_hash": "df867f01f36a999cb7436062564db3df",
+    "fuzzy_hash": "c5b8f432c7dc17cd77192745a221bbba",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
