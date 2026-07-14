@@ -1138,5 +1138,14 @@
     "strict_hash": "1b9a765cdbecb814b7ee3214a68d905f",
     "fuzzy_hash": "0d8cdfb0f1110c279a5018ea4f2bb45b",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/07/14/dubai-property-prices-june-2026-investors",
+    "timestamp": "2026-07-14T11:17:25.358497+00:00",
+    "status": "rejected",
+    "content_hash": "5ec05c71bc116e6b37ea9c7ce6800f1d",
+    "strict_hash": "5ec05c71bc116e6b37ea9c7ce6800f1d",
+    "fuzzy_hash": "6304fe726688503b13aa4daf0e7ebdd9",
+    "reason": "Новость является точным дубликатом уже опубликованного материала (заголовок и содержание совпадают с первой новостью в контексте). Нарушение правила №7 (дубликаты и повторы)."
   }
 ]
