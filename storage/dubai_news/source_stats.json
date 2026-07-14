@@ -953,5 +953,23 @@
     "url": "https://www.mercurynews.com/2026/07/13/brazilian-influencer-falls-27th-floor-dubai-dies",
     "timestamp": "2026-07-14T03:21:00.782213+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/real-estate/news/why-dubais-housing-market-slowed-in-2026-sales-fell-16-prices-dipped-by-7/articleshow/132369123.cms",
+    "timestamp": "2026-07-14T04:26:41.266121+00:00",
+    "status": "rejected",
+    "content_hash": "602ded31e4d2ec5ef5d4f32c867a09b5",
+    "strict_hash": "602ded31e4d2ec5ef5d4f32c867a09b5",
+    "fuzzy_hash": "9740c788430134dca699df3a5354e0ba",
+    "reason": "Новость отклоняется, так как её основная причина спада рынка — «геополитическая напряжённость на Ближнем Востоке» — прямо нарушает правило №2 (политика и конфликты). Кроме того, заголовок указывает на 2026 год, что выглядит как футуристический прогноз или ошибка, снижая достоверность."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/dubai-plans-new-port-to-cut-reliance-on-strait-of-hormuz/articleshow/132370012.cms",
+    "timestamp": "2026-07-14T04:26:49.865844+00:00",
+    "status": "approved",
+    "content_hash": "e107416cdf53aff25f7865a2440a6c07",
+    "strict_hash": "e107416cdf53aff25f7865a2440a6c07",
+    "fuzzy_hash": "3d8412a3138925fc3a0c7a5f6cf5d789",
+    "reason": "approved"
   }
 ]
