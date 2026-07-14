@@ -1084,5 +1084,23 @@
     "strict_hash": "2f2440a4cb7618c68d0a6d1a702223c7",
     "fuzzy_hash": "0ae3e3cdbe8e118af883c3179f441c53",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dubai-zoo-artwork-solimar-miller-artist",
+    "timestamp": "2026-07-14T09:45:36.952070+00:00",
+    "status": "rejected",
+    "content_hash": "2da0b0041ada64aa23580f9af17d0630",
+    "strict_hash": "2da0b0041ada64aa23580f9af17d0630",
+    "fuzzy_hash": "01b0501f4424ee1080e9ed295a59a8aa",
+    "reason": "Новость о новом арт-объекте в Джумейре, посвящённом воспоминаниям о старом зоопарке Дубая, имеет прямую связь с регионом, не содержит политики или рекламы, уважает ценности ОАЭ и может быть интересна русскоязычным жителям, знакомым с этим местом. Однако текст явно является копией с сайта What's On, и его источник не указан в виде прямой ссылки, что нарушает правило проверяемости. Кроме того, новость не является срочным сервис-апдейтом или регуляторным изменением, а её дубликатность не проверена из-за отсутствия полного текста."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/07/14/dubai-property-prices-june-2026-reidin-report",
+    "timestamp": "2026-07-14T09:45:57.924494+00:00",
+    "status": "approved",
+    "content_hash": "67d7287c9847f4ad3dc22cec1e8ebe51",
+    "strict_hash": "67d7287c9847f4ad3dc22cec1e8ebe51",
+    "fuzzy_hash": "e6f97baf7d9ec516ad48d350177e5cb5",
+    "reason": "approved"
   }
 ]
