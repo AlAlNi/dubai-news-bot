@@ -1,46 +1,5 @@
 [
   {
-    "url": "https://www.moneycontrol.com/news/india/bird-strikes-dubai-lucknow-plane-authorities-say-flight-not-impacted-13971679.html",
-    "timestamp": "2026-07-12T06:42:01.480866+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://metro.co.uk/2026/07/11/katie-prices-husband-lee-andrews-arrested-again-dubai-weeks-release-29112602",
-    "timestamp": "2026-07-12T07:40:22.702915+00:00",
-    "status": "rejected",
-    "content_hash": "e0580ed48860f9da4fb363df9bd6afa8",
-    "strict_hash": "e0580ed48860f9da4fb363df9bd6afa8",
-    "fuzzy_hash": "2bc2224263919f53b3e6188fdfaa8902",
-    "reason": "Новость о задержании мужа Кэти Прайс в Дубае имеет прямую связь с регионом, но её основная тема — скандальная светская хроника, не несущая общественно значимой или полезной информации для русскоязычного жителя Дубая. Кроме того, текст содержит признаки кликбейта и не соответствует критерию интереса для целевой аудитории."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNczBsWjV3aU9KMVNwa0xRZjY0SHkyUktVSWhRc01fVXhraXc2NnVtaW5BMHFUZFpUd2l0SE5IVlN3Y2x6OTA2dnc1ek1QUm1LeFN3VDZJdzV0VlljX3BaZkNGRTBIaXNjRklIY2J0eWpVQm0zRUhtT3JEcS1LanlvUkdmak82MDJjRk93YlV2aFJqbThEcWk3ZE9tZG5BM3JvclZkckhPX21VTVluMTZMR3JiVkFzSTNDTlAtZlBMWjk1cGFQM2p5RFRudlFPQQ?oc=5",
-    "timestamp": "2026-07-12T07:40:26.367411+00:00",
-    "status": "rejected",
-    "content_hash": "748fa8a7f0540c9a5f69b0c44eca711c",
-    "strict_hash": "748fa8a7f0540c9a5f69b0c44eca711c",
-    "fuzzy_hash": "c475c3e24603719becd020d721ba31a6",
-    "reason": "Новость напрямую связана с рынком недвижимости Дубая, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Тема аренды и продаж недвижимости актуальна для русскоязычных жителей, источник указан. Однако текст крайне короткий и не содержит проверяемых деталей (цифр, дат, ссылок на отчёт), что вызывает сомнения в достоверности и полезности. Кроме того, новость дублирует тематику уже опубликованной заметки о транзакциях в недвижимости (пункт 2 контекста), хоть и с другим акцентом."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/world-cup-2026-semi-final-kick-off-times-in-the-uae",
-    "timestamp": "2026-07-12T07:57:49.795764+00:00",
-    "status": "rejected",
-    "content_hash": "a66cbd0ee4791d868c0efce9595c5ef2",
-    "strict_hash": "a66cbd0ee4791d868c0efce9595c5ef2",
-    "fuzzy_hash": "ec79454e7afe2b1dbb98aafcded8152f",
-    "reason": "Новость о времени начала полуфиналов ЧМ-2026 в ОАЭ имеет прямую связь с регионом (указаны времена для UAE), не содержит политики, рекламы или неуважения к ценностям, источник проверяем (What's On). Однако это событие мирового спорта, которое может быть интересно русскоговорящим жителям Дубая, но не является уникальной или срочной новостью для канала о Дубае. При этом дубликатов среди опубликованных новостей нет."
-  },
-  {
-    "url": "https://www.tribuneindia.com/news/j-k/ladakh-set-to-export-1000-mt-of-apricots-to-dubai-first-shipment-to-be-dispatched-on-july-14",
-    "timestamp": "2026-07-12T07:58:05.453440+00:00",
-    "status": "rejected",
-    "content_hash": "f50b3b54c3ac608a5bfe1a557091acbb",
-    "strict_hash": "f50b3b54c3ac608a5bfe1a557091acbb",
-    "fuzzy_hash": "25528b09f3039dfae6946acd5859efd0",
-    "reason": "Новость о поставках абрикосов из Ладакха в Дубай имеет прямую связь с регионом (экспорт в Дубай, упоминание Lulu Group), не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст выглядит естественным и достоверным, источник (вероятно, индийские СМИ) проверяем. Однако для русскоговорящего жителя Дубая эта новость не представляет интереса или практической пользы — это локальная индийская история, не влияющая на повседневную жизнь в эмирате. Дубликатов среди опубликованных новостей нет."
-  },
-  {
     "url": "https://www.dubaichronicle.com/2026/07/12/dubai-south-enters-its-next-growth-phase",
     "timestamp": "2026-07-12T09:47:28.492775+00:00",
     "status": "rejected",
@@ -1039,5 +998,10 @@
     "strict_hash": "9050bbd2d9412e10b3bc0650812d554a",
     "fuzzy_hash": "d769aec5bd33258e68b6cf2242ce8ede",
     "reason": "approved"
+  },
+  {
+    "url": "https://simpleflying.com/why-emirates-airbus-a380-premium-economy-quietly-become-sweet-spot-europe-dubai-routes",
+    "timestamp": "2026-07-14T09:11:05.789447+00:00",
+    "status": "published"
   }
 ]
