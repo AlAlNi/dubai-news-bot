@@ -994,5 +994,32 @@
     "url": "https://timesofindia.indiatimes.com/world/middle-east/dubai-plans-new-port-to-cut-reliance-on-strait-of-hormuz/articleshow/132370012.cms",
     "timestamp": "2026-07-14T06:19:43.561605+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.timesnownews.com/world/middle-east/dubai-planning-to-build-new-port-to-bypass-strait-of-hormuz-amid-gulf-war-uncertainty-due-to-iran-say-reports-article-155089352",
+    "timestamp": "2026-07-14T06:35:16.212937+00:00",
+    "status": "rejected",
+    "content_hash": "1c7612bb073ff291accb5c9709f76171",
+    "strict_hash": "1c7612bb073ff291accb5c9709f76171",
+    "fuzzy_hash": "65e5ee0aa4da763fb31a1a65e2d966ae",
+    "reason": "Новость отклоняется, так как её основная тема — военный конфликт и геополитическая нестабильность (война США и Израиля против Ирана, обход Ормузского пролива), что прямо нарушает правило №2 (политика и конфликты). Кроме того, информация основана на непроверяемых «сообщениях» без указания конкретного источника, что нарушает правило №9."
+  },
+  {
+    "url": "https://www.zerohedge.com/geopolitical/dubais-new-east-coast-port-signals-beginning-end-irans-hormuz-leverage",
+    "timestamp": "2026-07-14T06:35:18.479327+00:00",
+    "status": "rejected",
+    "content_hash": "a226b8208cde7790621d373df24977ef",
+    "strict_hash": "a226b8208cde7790621d373df24977ef",
+    "fuzzy_hash": "a3e45baad87099d122f35b6cdd2df220",
+    "reason": "Новость не подходит для публикации: она посвящена геополитическому конфликту между США и Ираном, что является большой политикой и военной темой, не связанной напрямую с повседневной жизнью в Дубае или ОАЭ, а также может содержать неуважение к региональной стабильности."
+  },
+  {
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Dubai-Is-Already-Planning-for-the-Next-Strait-of-Hormuz-Crisis.html",
+    "timestamp": "2026-07-14T06:35:25.506870+00:00",
+    "status": "approved",
+    "content_hash": "b3e1580b4e392fb77e102a7db93635ac",
+    "strict_hash": "b3e1580b4e392fb77e102a7db93635ac",
+    "fuzzy_hash": "55eb85bb23aa2ead4941e433fc8b5592",
+    "reason": "approved"
   }
 ]
