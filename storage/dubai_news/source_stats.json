@@ -1279,5 +1279,86 @@
     "url": "https://whatson.ae/2026/07/happy-birthday-sheikh-mohammed-dubais-leader-turns-77-today",
     "timestamp": "2026-07-15T06:23:32.711734+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.al-monitor.com/originals/2026/07/trump-drops-hormuz-fee-plan-favour-gulf-investment-deals",
+    "timestamp": "2026-07-15T06:36:18.301707+00:00",
+    "status": "error",
+    "content_hash": "86aec9bb967802d9cd793ca7c83c1335",
+    "strict_hash": "86aec9bb967802d9cd793ca7c83c1335",
+    "fuzzy_hash": "fc919480ae6bdbb5908c1099c8387785",
+    "reason": "Технический сбой: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52N3BBY00wazh0cGgtX3FxYTgtWkVMcmxuSHJyckR3NlduT05IbmlBaWpiRW41RGpSaEJaaUJma1dYRzNBUVloeEdWeU5pdzFKMlpLdlNVQnJIZnFmX29LUll0dFRFVll5akFIbQ?oc=5",
+    "timestamp": "2026-07-15T06:36:22.002040+00:00",
+    "status": "rejected",
+    "content_hash": "7c9e458ba0bde57318f1d942bf092af8",
+    "strict_hash": "7c9e458ba0bde57318f1d942bf092af8",
+    "fuzzy_hash": "baed93e8d8cdc4b738ed9f9a720c3ffb",
+    "reason": "Новость дублирует уже опубликованную информацию о новых автобусных маршрутах RTA (пункт 3 в контексте). Хотя тема соответствует региону и интересам аудитории, правило 7 (запрет на дубликаты) нарушено."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZ0gwaXV1VjZZeGFOS2EwOVhoWjc4MEExNHRQSTN1SzNkLV9CajBoMVdSOWpCbGx0Tm9kT0hWRWxoSFZfdjVXckhPaHZ6NXNoRFNEYVI4ek1UeFdOakxLaVBHY18tRVZxQjI0WVl0dXhUU2piQ3R5Snhka1V5bXJRRG90eW4yNHRIc3JiSExvRVM?oc=5",
+    "timestamp": "2026-07-15T06:36:24.840815+00:00",
+    "status": "rejected",
+    "content_hash": "45f90d2d01ec43b565e2be0d62cb14c8",
+    "strict_hash": "45f90d2d01ec43b565e2be0d62cb14c8",
+    "fuzzy_hash": "6ff409e1b574dad6ea4997ab46a59adc",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1na1NnVG5yX0ZMemY3NDFXTVEzQVJ2MkZieXNJWTJJbUFteWxmdWJqUkRKb3MwWVBMV25tZmhrS0dyT0ZLb3FQLXhMdXJhMnVoUlFYODY3eHlpSUc3OXFTcEJsTjZIVkVPSHFrNm5WdGZEdDZCZkV6WElvQ0tZUQ?oc=5",
+    "timestamp": "2026-07-15T06:36:25.236775+00:00",
+    "status": "rejected",
+    "content_hash": "01527b8c4a01040d18f351e8510dccc7",
+    "strict_hash": "01527b8c4a01040d18f351e8510dccc7",
+    "fuzzy_hash": "a819504637ebd435e1704cdd34e5ea7b",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMG1UUS1rRzFZR2FvUVUta2NPVnYxSXEwT2RJMWFfQXJzTkRYdXlqbmhuLTFQcUVLbzctaDJWeGxjZVRYdWl4aHpvX3cxNmw0aWNFUGs4X0Ntc01YMjdkYWMyUkFVVUVNV0RpQkdnM25GcGJKT1lFYjZJVUE1TnlWUXMyU21acC1TOEdyRjhScmFXU0owTTZGNEpNUmUyRWMyN0piRDlfVkxFSHRIMWJ6WUhqdTJodEtRSUdvTmV2VnJzS2ZrcEVwSnFadzQ0TUhMS3lIWHV0amR0QdIB7AFBVV95cUxNR2VnNEtuLVUtVjZQOHpSZUt3N2VsZEQ4UVFQRnZLcVloVmZLVE9fRGx1N25pR2lUby00YzdBYzhBM29qR3Bob0ZKVU50cF9tdXVRMUNkR29uUkhHVE9UWWJ5SFEwNXVqOEY3dXJ1WFVGRVFKRGlLc2N2MVlQd2c2U3A2MTd6Q3ZfeW9QTWJtWHZ6d2Ntc0Z1Wm5GLUlmcnlBMHNpYlloUTcxVzJ3UkV2WWxqQ1pKeTBleWFoMERabXlfYVRfSF93NUs5MzlSdlVHWGdoNWlFUDRFY0FMeC1VcEZ2X243MjV3M0JWUA?oc=5",
+    "timestamp": "2026-07-15T06:36:27.153836+00:00",
+    "status": "rejected",
+    "content_hash": "9b780883fb802585fb6edf1b5f590f02",
+    "strict_hash": "9b780883fb802585fb6edf1b5f590f02",
+    "fuzzy_hash": "fa37876bec163f41bb8b50afd066727a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObmRkVHBwNzc1NE9zeVBiZ3FScC1sYjUzTHBNWVRqQzFxX3hxa3lkNGpwX3hEUi1kd3ZDeHBrTXdRSDJTUEJDXzktTGY3cUZ3bXFEa3I4bEZTclA4TUt0VGJGOURycll1U242UllMTkZHWnhCOXVEUmJCZUdzQTRLYnZkaDkyU3luMFRvWFNab1M?oc=5",
+    "timestamp": "2026-07-15T06:36:28.822596+00:00",
+    "status": "rejected",
+    "content_hash": "d9865617e0a20ed149dfdf8a81ac6289",
+    "strict_hash": "d9865617e0a20ed149dfdf8a81ac6289",
+    "fuzzy_hash": "36f09827f4c01903bb44dcf9303dda48",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWZfOEwzUldYYlp0amxkdUFWTnRCN3BCVDRqVUgzX3B0TWVXd3dxNDdmMUJxRUtXWXdhUWtxc2lsRTdkOTVJcTRYNGxxejY0SDFpYUF1azhlZHhkNXdFSExhYTJEaTBYU3dMRVhJUk1zSjZqZWRxeXUwY3dxM2FmNWpYSGVxQ19PZ01YUXhacVhVNGhUckdXc3M0a09yQmQ4NnpBN3dmbE1RVHB1a0xlOXhjQzk?oc=5",
+    "timestamp": "2026-07-15T06:36:30.473453+00:00",
+    "status": "rejected",
+    "content_hash": "ba306bac2c94578e51a34c500abf0158",
+    "strict_hash": "ba306bac2c94578e51a34c500abf0158",
+    "fuzzy_hash": "1580e9422016d905c1b20ea861aea890",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OTTYxaldqMGQ4eHB4MVB0bE1CcE9NZWczY0NJVlN1bEhfcVQ0N3lPZWphSzZfUU16TWx2LVFmSVhyTlFRa1lUWHkzcUtXSGhHNDZ0UnViYTZ4azZkMUY3REVfQW9GUXQxQ0h2Qw?oc=5",
+    "timestamp": "2026-07-15T06:36:31.941292+00:00",
+    "status": "rejected",
+    "content_hash": "bd09db3b0100c2157ed7327a464564e5",
+    "strict_hash": "bd09db3b0100c2157ed7327a464564e5",
+    "fuzzy_hash": "a2e889e4071c9eb50abfed8bfa9ae4b7",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeTAxVkM0YTVURjAyRTRXWWZmZUFJb1RWSmVpWXNGQXp3U3g5YXZoWHE2THZGS2lyX1pjdTZkRXVmS0J4TzBUUElWdzZwTmh5UE1HSWVaM1BvTXI1c0hWc3E3TUFrbTFIcVdVZ0RBMm9aWFVzRThSNDRZUWhraEtfVUN5cVNqZ9IBjgFBVV95cUxPbm8tX2ExWGRWMjctaTBTanRhYUhRcC1RR19fN0dLVU5OVjJkOWpVZ1A0dzgyRkY5bmlCVm9adENPX01PQ0x3VUQ4MFF0cFNNNF85ZVZXNnMzUHVqaUJLMGc5VE4tTTFyaTZIeDg2b1RUM2VuRnRUTEFEVUFjUl9PWVdNTHh1NjhGcmtwRVlR?oc=5",
+    "timestamp": "2026-07-15T06:36:33.573000+00:00",
+    "status": "rejected",
+    "content_hash": "6f5b701b6a4553cdbee8bd039737ec95",
+    "strict_hash": "6f5b701b6a4553cdbee8bd039737ec95",
+    "fuzzy_hash": "b3d5fef00fe208b778245495d0f2fe15",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
