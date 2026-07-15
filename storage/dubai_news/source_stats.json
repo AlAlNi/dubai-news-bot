@@ -1441,5 +1441,23 @@
     "strict_hash": "46818dadc5486b9439cdc9542741f7d3",
     "fuzzy_hash": "097bd4cdd139a1f08256256f8707d6e9",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/15-of-the-best-business-lunches-in-dubai-to-try-right-now",
+    "timestamp": "2026-07-15T09:49:24.170590+00:00",
+    "status": "rejected",
+    "content_hash": "d29ebc1bddbc7b40cef9fa76ef18e19f",
+    "strict_hash": "d29ebc1bddbc7b40cef9fa76ef18e19f",
+    "fuzzy_hash": "cebb4264d549b90ab6ab8a251c42efff",
+    "reason": "Новость представляет собой подборку ресторанов для бизнес-ланчей в Дубае, что соответствует региону, не содержит политики или неуважения к ценностям ОАЭ. Однако текст явно является рекламно-справочным материалом (пресс-релизом) без общественно значимой новости, а также дублирует тематику уже опубликованных материалов (например, новость №4 про искусство в Jumeirah, хотя и не является точной копией, но стилистически близка к развлекательным подборкам). Кроме того, источник (What's On) не предоставляет проверяемых фактов, а лишь список заведений, что нарушает правило №9."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSi1JbG5PYVM3R2xnNlZYd1BFemd1Uk9jdFhWbnBYbnRwVHpxU0l3Y0p4MGRJTm15RjQ4UTBmTjJTeGUyMTFIaE52UU80RnhhUDduQ3RQOXNtVnR2bVVVbzJPS2NLdjJlcWdrYzRVU2xzWFlhN2JQQ29mb1Mwa3l4YUVzYlF4Tm12dlctbS1BTzRMRjZKTzJ3YlZHLXh4d0otT1B1X1kwdEhJNHlrWHlUUVpLX0pXYy01dzBRTkpzSnZpdG45dXVLTXctdw?oc=5",
+    "timestamp": "2026-07-15T09:49:47.427603+00:00",
+    "status": "approved",
+    "content_hash": "54610a39dcfa27cdd63cc0fa969a9f78",
+    "strict_hash": "54610a39dcfa27cdd63cc0fa969a9f78",
+    "fuzzy_hash": "4d40e2ec7297a02a34c8787de63804db",
+    "reason": "approved"
   }
 ]
