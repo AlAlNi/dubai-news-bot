@@ -1220,5 +1220,50 @@
     "strict_hash": "eec9ae72bb9c34f90b36a3378864e3ce",
     "fuzzy_hash": "3843a9071865ff1b81d1520df5e1b3fc",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/england-argentina-dubai",
+    "timestamp": "2026-07-15T01:18:53.757033+00:00",
+    "status": "rejected",
+    "content_hash": "54dbde4d3baf1e59ba54064a1c25879b",
+    "strict_hash": "54dbde4d3baf1e59ba54064a1c25879b",
+    "fuzzy_hash": "1e39e7abcb15585b1738de5da32d6c70",
+    "reason": "Cheap prefilter: слишком короткий текст (98 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/things-to-do/best-world-cup-fanzones-dubai-2026-guide",
+    "timestamp": "2026-07-15T01:18:59.217069+00:00",
+    "status": "rejected",
+    "content_hash": "10af7ae72cc4493ee5c56f071eba27ca",
+    "strict_hash": "10af7ae72cc4493ee5c56f071eba27ca",
+    "fuzzy_hash": "c5d9629784efb07e0dff533b07f2ad83",
+    "reason": "Cheap prefilter: слишком короткий текст (84 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/burj-khalifa-world-tallest-building-title",
+    "timestamp": "2026-07-15T01:19:05.611369+00:00",
+    "status": "rejected",
+    "content_hash": "b3bf8f8630f8319c4d99632e1ed3bffe",
+    "strict_hash": "b3bf8f8630f8319c4d99632e1ed3bffe",
+    "fuzzy_hash": "bed8128aa79129b6097bf71afc4d2f1c",
+    "reason": "Cheap prefilter: слишком короткий текст (83 символов)"
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/uae-based-law-firm-leaders-advocates-honoured-in-business-worldwide-magazines-2026-global-corporate-excellence-awards-302825049.html",
+    "timestamp": "2026-07-15T01:19:07.540951+00:00",
+    "status": "rejected",
+    "content_hash": "328996e6fbc80a8d228dec18474435d1",
+    "strict_hash": "328996e6fbc80a8d228dec18474435d1",
+    "fuzzy_hash": "7cb44ca30262747e0b723f9dcb20b7bf",
+    "reason": "Новость о награждении дубайской юридической фирмы международной премией имеет связь с регионом, но по сути является рекламным пресс-релизом (PRNewswire) без общественно значимой информации для русскоязычных жителей Дубая. Текст не содержит полезных сервисных данных или изменений, влияющих на повседневную жизнь."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WcnZzbUtmQXBFSnduWk4zejJGaXVuU0xfOWtQcWN6MU54dHpISlpQNXFuNWJMaFVYMkdLSTF0RXhXM1E3OUZYajdyQ2JmejBqWW1mLTM2MlhDYUVHV0tobE5vMHdHdjg?oc=5",
+    "timestamp": "2026-07-15T01:19:15.304478+00:00",
+    "status": "approved",
+    "content_hash": "d3626940a66cd1512538a13076785b70",
+    "strict_hash": "d3626940a66cd1512538a13076785b70",
+    "fuzzy_hash": "2fb28d417ca1d4ba5d11c7cdfbb3b11d",
+    "reason": "approved"
   }
 ]
