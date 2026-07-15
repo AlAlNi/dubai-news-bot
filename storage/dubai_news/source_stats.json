@@ -1463,5 +1463,23 @@
     "strict_hash": "d404ad17e3e8e5df2e237a4c0a56c24f",
     "fuzzy_hash": "1beb652479e90fdd713031d99e4f033b",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.hindustantimes.com/lifestyle/health/your-phone-is-dirtier-than-a-toilet-dubai-microbiologist-neethu-sureshkumar-warns-explains-how-to-clean-it-properly-101784086293629.html",
+    "timestamp": "2026-07-15T16:50:54.008919+00:00",
+    "status": "rejected",
+    "content_hash": "2dcad43936c2e8534f8e87f145b62e87",
+    "strict_hash": "2dcad43936c2e8534f8e87f145b62e87",
+    "fuzzy_hash": "897a13f9789926bf85cd4611e05b5387",
+    "reason": "Новость о советах дубайского микробиолога по очистке телефона имеет локальную привязку (эксперт из Дубая) и не нарушает правила по политике, рекламе или ценностям. Однако она не является оперативной или общественно значимой новостью, а скорее представляет собой вечнозелёный совет, который уже многократно освещался в разных форматах. Кроме того, текст основан на одном Instagram-видео, что делает его малозначимым для русскоязычного жителя Дубая, ищущего актуальную информацию."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUmItSWFiZk5lQmg4OXB6TWQyaWVkcWRUbjJRMzFDVV83cVc0bGl6ODJqNTZfWVJWZV8zLTFRV09GTldfUFluMEdRN3kwelNiVXhTcGx3YlIwaWIycC1Ea3ZZcHZvNGFSdXk4RXRTeUVXeHM3ZFJRVHJ1cE11bW1CaGJJaEVVUnI0cTgxLVl6UFdEbFBjdXR5YkNn0gGfAUFVX3lxTE5KbnlzeTUxVkNQNkpNdkZTMFhhVHBGSXZ2WVNFZ1FyMVVuMmhaRmZ3QjhLM0hFdTBmeXk1SFpsVTczTlo5WmZqQVZNcmNvT1lFQkVJNGdnVzB6OS1HZDYtXzd3MnZzOV9iR2JYTllxbUVmZWNnZ2g5R25mWXpaaGdqb3hOTTRrQlg1YTM5M2xuZ1ZiZG9xVUMyOEdvRVBzWQ?oc=5",
+    "timestamp": "2026-07-15T16:50:57.938871+00:00",
+    "status": "rejected",
+    "content_hash": "1c0796ea4c2d0bee25f975ff4fc8577a",
+    "strict_hash": "1c0796ea4c2d0bee25f975ff4fc8577a",
+    "fuzzy_hash": "eb978e387bf0cc2a1a4ccf3360e479d5",
+    "reason": "Новость о выигрыше бизнесмена из Хайдарабада в лотерее Dubai Duty Free имеет прямую связь с Дубаем, не содержит политики или рекламы, уважает ценности ОАЭ и может быть интересна русскоязычным жителям, так как лотереи Duty Free — популярная тема. Однако текст крайне короткий, не содержит проверяемых деталей (имя, дата, сумма в дирхамах) и ссылается на источник, который не указан явно в виде URL. Кроме того, новость о выигрышах в Duty Free — часто повторяющийся формат, и она может быть дубликатом ранее неопубликованных, но типичных сообщений. Учитывая отсутствие проверяемого источника и риск дублирования, новость следует отклонить."
   }
 ]
