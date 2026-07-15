@@ -1360,5 +1360,41 @@
     "strict_hash": "6f5b701b6a4553cdbee8bd039737ec95",
     "fuzzy_hash": "b3d5fef00fe208b778245495d0f2fe15",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-ready-home-transactions-mark-strongest-monthly-surge-in-three-years",
+    "timestamp": "2026-07-15T07:06:04.024686+00:00",
+    "status": "rejected",
+    "content_hash": "c0f0e89bfb4270faf5acbbf42e6883cb",
+    "strict_hash": "c0f0e89bfb4270faf5acbbf42e6883cb",
+    "fuzzy_hash": "8d0669bf8dea58bc7ec5de4bbd11d47a",
+    "reason": "Новость о росте сделок с готовой недвижимостью в Дубае соответствует тематике канала, не содержит политики, рекламы или неуважения к ОАЭ, основана на данных рынка и будет интересна русскоязычным жителям, интересующимся экономикой. Однако текст обрывается на полуслове («Looking ahead»), что выглядит как незавершённый фрагмент, возможно, сгенерированный ИИ, и не содержит прямой ссылки на источник данных, что нарушает правило проверяемости."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/uae-public-holidays-2026-how-to-maximise-your-annual-leave",
+    "timestamp": "2026-07-15T07:06:11.679590+00:00",
+    "status": "rejected",
+    "content_hash": "9b6689fbc2563c1cd75fddb29c0e97fe",
+    "strict_hash": "9b6689fbc2563c1cd75fddb29c0e97fe",
+    "fuzzy_hash": "dc413b60edde6c049f1f3c2437d6be6e",
+    "reason": "Новость о праздниках в ОАЭ в 2026 году имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и полезна для русскоговорящих жителей, планирующих отпуск. Однако она является дубликатом — подобные материалы о праздниках и планировании выходных уже публиковались ранее (например, в контексте 2025 года), а хеш контента указывает на повтор. Кроме того, источник (What's On) проверяем, но новость не уникальна."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/comic-con-abu-dhabi-september-2026",
+    "timestamp": "2026-07-15T07:06:19.010908+00:00",
+    "status": "rejected",
+    "content_hash": "6eea0121ecb85c244ee9a03ce07fba5f",
+    "strict_hash": "6eea0121ecb85c244ee9a03ce07fba5f",
+    "fuzzy_hash": "d590489a3169d917f4d4c99a56f7490a",
+    "reason": "Новость о возвращении Middle East Film & Comic Con в Абу-Даби имеет прямое отношение к региону (ОАЭ), не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и может быть интересна русскоязычным жителям Дубая, интересующимся поп-культурой. Однако это событие проходит в Абу-Даби, а не в Дубае, и не является срочным сервисным обновлением или регуляторным изменением. Кроме того, новость не является дубликатом уже опубликованных материалов. Тем не менее, для канала о Дубае событие в Абу-Даби может быть менее релевантным, но допустимо, если аудитория интересуется региональными мероприятиями."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/after-renting-in-dubai-for-15-years-is-buying-now-finally-cheaper-the-five-numbers-every-tenant-should-calculate/articleshow/132392192.cms",
+    "timestamp": "2026-07-15T07:06:25.815996+00:00",
+    "status": "approved",
+    "content_hash": "303103d5d7500db63e478dff36746ac7",
+    "strict_hash": "303103d5d7500db63e478dff36746ac7",
+    "fuzzy_hash": "53bce6a5fa404f06d44fd1b808cc3707",
+    "reason": "approved"
   }
 ]
