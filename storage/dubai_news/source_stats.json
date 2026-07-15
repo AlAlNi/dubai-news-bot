@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QSmR3VUZkX0VpZzlGdmZqNTVGVVdiZVpMSTg1S1V3eFZ4cDRqUlpnZFVLamlMQ2F3UkpweUhESmtpVFEtUzhPYUpvd3JwQWZyaVU5aUNUYlE3VlpHc19pTFZjRVQxZ2dQT3laekJoUUFULXM?oc=5",
-    "timestamp": "2026-07-13T17:29:46.320011+00:00",
-    "status": "rejected",
-    "content_hash": "b634189066079f8df6b60bbd91b9921a",
-    "strict_hash": "b634189066079f8df6b60bbd91b9921a",
-    "fuzzy_hash": "debfd645b861c9be4f8a74f97d66fb4b",
-    "reason": "Новость о проведении роуд-шоу Дубая в Найроби имеет прямую связь с регионом (Дубай/ОАЭ) и не содержит политики, рекламы или неуважения к ценностям. Однако она представляет собой короткую заметку без проверяемого источника (нет URL) и вряд ли будет интересна русскоговорящему жителю Дубая, так как касается событий в Кении."
-  },
-  {
-    "url": "https://www.straitstimes.com/world/iran-escalates-attacks-on-us-bases-in-gulf-states-warns-of-more-incidents-in-strait",
-    "timestamp": "2026-07-13T18:57:57.264103+00:00",
-    "status": "rejected",
-    "content_hash": "acd5e31f7ab759048517dcd73b1e4ac9",
-    "strict_hash": "acd5e31f7ab759048517dcd73b1e4ac9",
-    "fuzzy_hash": "8d5c3e64b3f7abf80a3c9cb0806ccbf2",
-    "reason": "Новость касается военных действий между Ираном и США в регионе Персидского залива, что напрямую связано с ОАЭ и GCC, однако основная тема — это большая политика и военный конфликт, что нарушает правило №2. Кроме того, текст содержит признаки кликбейта и не соответствует требованию проверяемого источника (указан только хеш, а не URL)."
-  },
-  {
-    "url": "https://www.straitstimes.com/asia/iran-escalates-attacks-on-us-bases-in-gulf-states-warns-of-more-incidents-in-strait",
-    "timestamp": "2026-07-13T18:58:00.079660+00:00",
-    "status": "rejected",
-    "content_hash": "47dea75876c1f8b45c79140bd89d8536",
-    "strict_hash": "47dea75876c1f8b45c79140bd89d8536",
-    "fuzzy_hash": "c8ee62e8a671c5e2ea211bb2586b2903",
-    "reason": "Новость отклоняется, так как её основная тема — военный конфликт между Ираном и США, что является большой политикой и военными действиями, что прямо нарушает правило №2. Кроме того, хотя упоминаются страны Залива, фокус на межгосударственном военном противостоянии, а не на жизни в Дубае или ОАЭ, что делает её нерелевантной для русскоязычного жителя Дубая (правило №6)."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT1paUnZTZWVaY1BQQ05tZGdIQzJsY1l2RUZVT2NQanNTOG9jV3lzdWljR1JTMVBlQWo1R3FQbU9WLWg0Rkp1S1FYV1ZRZnFXVTFDWko0Yjd6NVVBcElsN2tINWdqZFlaUVBMWDNZXzQ1VkFTdXRZVUt2c3g4OGJ0MXZrUGtZeXZUVDI2SEsyZXE2TGxZUDh5OWhTLXNOd21MdGxYV1k2akVEZ3c?oc=5",
-    "timestamp": "2026-07-13T18:58:04.019078+00:00",
-    "status": "rejected",
-    "content_hash": "a664de46e02c8d2d4863c7d6a0dbf29d",
-    "strict_hash": "a664de46e02c8d2d4863c7d6a0dbf29d",
-    "fuzzy_hash": "e4738a233c790f1089932c1f7f74ee01",
-    "reason": "Новость о введении визы по прибытии для граждан ЮАР имеет прямую связь с ОАЭ (изменение визовой политики), не содержит политики, рекламы или неуважения к ценностям, не является дубликатом опубликованных новостей, полезна для русскоязычных жителей (как информация о туристических потоках и возможностях), источник указан (Getaway Magazine). Однако текст крайне короткий и не содержит проверяемых деталей (даты, условий, ссылки на официальный источник), что вызывает сомнения в достоверности и полноте."
-  },
-  {
-    "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-real-estate-transactions-soar-to-dh203-billion-as-ireis-returns-to-adnec",
-    "timestamp": "2026-07-13T19:10:40.817984+00:00",
-    "status": "approved",
-    "content_hash": "47c63a5233493e99abc06b5f4b8b4161",
-    "strict_hash": "47c63a5233493e99abc06b5f4b8b4161",
-    "fuzzy_hash": "eef949e0ea7151823da34a1b4c2f9d91",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-real-estate-transactions-soar-to-dh203-billion-as-ireis-returns-to-adnec",
     "timestamp": "2026-07-13T19:40:18.953133+00:00",
     "status": "published"
