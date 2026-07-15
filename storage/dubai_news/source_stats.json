@@ -1504,5 +1504,41 @@
     "strict_hash": "005c853324a03ff95be025203914298e",
     "fuzzy_hash": "53dfeee4dd7a2c4597fd6582ad880eea",
     "reason": "Новость о том, как RTA оперативно исправила грязную табличку в метро Дубая и наградила экспата, снявшего видео, — это позитивная история, подтверждающая высокий уровень сервиса и отзывчивость властей. Она напрямую связана с Дубаем, не содержит политики, рекламы или неуважения, а также будет интересна русскоязычным жителям, так как демонстрирует реальную работу городских служб. Однако это явный дубликат уже опубликованной новости под номером 2 в контексте: \"He spotted one dirty Metro sign... and ended up being honoured by Dubai's leaders - Gulf News\". Сюжеты идентичны, различаются только источники (Khaleej Times vs Gulf News)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ1lZOURyc3ZkQ19Pd0dRaFNLaG1VU1ZNWloyT29lN1NHaks3c2VPbkFvblNPTVd2YlNzd1NUc0F0c2lxZG11eGhxbmZVczhueTNORXdKcDVoTVg5M0RkUmhGZ1kwb0doWGJZR05uUF92ZnhMTzlPc1Z0ZVdtMWJuUkpzSlJ1M21kU3pUdHFnR1dTUkd0VXZ0V05OT3RRYmR1MklLTVoxYUk?oc=5",
+    "timestamp": "2026-07-15T12:51:40.805752+00:00",
+    "status": "rejected",
+    "content_hash": "336c984a211caf35c3040b3f08a71b5f",
+    "strict_hash": "336c984a211caf35c3040b3f08a71b5f",
+    "fuzzy_hash": "d72b7d9b43178618b6c51677402fdc4c",
+    "reason": "Новость о планах Мохамеда Алаббара инвестировать $20 млрд в Сирию имеет прямую связь с Дубаем/ОАЭ (известный бизнесмен из Дубая), не содержит политики в смысле конфликтов или протестов, не является рекламой, не нарушает ценности ОАЭ, выглядит достоверно (источник Bloomberg), интересна для русскоязычных жителей (крупные инвестиции региона), и не является дубликатом опубликованных новостей. Однако требуется проверка на дубликаты по хешу — он уникален."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3hMTGdsRS1Dc1pXUjd2UkhhQTlDSEs3Y3dwbjBMOHBCTW9YN0NJM08wYklPVTQ2Q09qSklUY3VMVUVqUzFDbmh4NWRMREQ5V1EwVjRzQUttZkt3UGNYVi1uQlNRTlBsb0tqLWRVR0ctUk5nTy1CSEcxYXhtQXFLYjA1M1VjSWtKSFkzY0trNUQwSmJtUFdtUDRCNkxyd05Hc2xvdjdTU0Ixajc4SjJV?oc=5",
+    "timestamp": "2026-07-15T12:51:42.839758+00:00",
+    "status": "rejected",
+    "content_hash": "bc5817f4e8777ca061e920e39000523e",
+    "strict_hash": "bc5817f4e8777ca061e920e39000523e",
+    "fuzzy_hash": "4320ff13d0114662a88a4ac86f97801b",
+    "reason": "Новость представляет собой короткий заголовок без содержательного текста, что делает её кликбейтной и неинформативной. Отсутствует проверяемый источник и полезная информация для русскоговорящего жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRmctd0NCM3MtX0dsYTh6M1N3SXRrb25XdFRHQjVfSTY5OUdmT191eUVfY3hJY3MzSURrc1M2WVRyX21CclZsYmNDbmdkSndGWlRnLVBLVDJsbUFGb3RGNnFqN0FCZWx4aXhISm9nMjdGMUNSZUZPZ2FaS25zZHNvS3Y5cmpOM2FYZXZfNXE1VUdMVmRDeXczZHAtQTM2dlRRX2tRcUxHZThGZmFsUkkw?oc=5",
+    "timestamp": "2026-07-15T12:51:43.310837+00:00",
+    "status": "rejected",
+    "content_hash": "8f98d5f20d35c1346099d201fa842774",
+    "strict_hash": "8f98d5f20d35c1346099d201fa842774",
+    "fuzzy_hash": "852a0a621086632afb2d7319744b8121",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XbUpVNWVQWmM5RUNBc3o1U0ZoUUlXT2xENTRQOXJRR1o5MGRiNUpsd3pYcTJndVl0eVR5Z2hGd2lMSF9VTXVTS05lSFpjOUN6LVhpd1RucUt3TlZaZHFMMEZHcS1qQkFPdjhHcEhPQkV5V0gzWE8w?oc=5",
+    "timestamp": "2026-07-15T12:51:45.082058+00:00",
+    "status": "rejected",
+    "content_hash": "1d8369686fa9321ff753c2547f85a8b9",
+    "strict_hash": "1d8369686fa9321ff753c2547f85a8b9",
+    "fuzzy_hash": "f9e50c8934443534bb0952c02d9330d4",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
