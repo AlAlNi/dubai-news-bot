@@ -1503,5 +1503,23 @@
     "strict_hash": "43bd70c5b437ca5c27c961fdc7000589",
     "fuzzy_hash": "5dbb80a486425a72c79858c3acc1bbfe",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.moneycontrol.com/news/business/real-estate/dubai-s-property-boom-slows-into-a-more-selective-phase-after-iran-conflict-13974499.html",
+    "timestamp": "2026-07-15T20:33:01.709491+00:00",
+    "status": "rejected",
+    "content_hash": "7054fa26aebcf5af1b1c114dd518cc34",
+    "strict_hash": "7054fa26aebcf5af1b1c114dd518cc34",
+    "fuzzy_hash": "7802a25e3ad3739b1ac550f052371abd",
+    "reason": "Новость о замедлении роста рынка недвижимости Дубая после конфликта с Ираном имеет прямую связь с регионом и содержит общественно значимую информацию для русскоязычных жителей, интересующихся инвестициями. Однако она нарушает правило №2 (политика и конфликты), так как в заголовке и контексте упоминается геополитический конфликт, что может быть воспринято как чувствительная тема. Кроме того, текст выглядит как пересказ отчета с элементами ИИ-генерации (упоминание AI Summary), что ставит под сомнение его достоверность и естественность."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQczRpcmE0RUE0WE1paFZrQWdFeEZVSWY5OVRMT05wVDN6NzBfVTlxNm9KbTNHYlhkWUhiaEhPNkVqWU4tSmFWaGRqdWotWmJKQmhjbE85aTRSWlNNV3pxWTZ0cUw1aklIdzhxOWNraFh0ZWM3Sy02UTROUGRxcjVaWlQtOWRVUFA1WjBWcVgzX05sdmYwbmdIejBOMFF4aElR?oc=5",
+    "timestamp": "2026-07-15T20:33:04.792503+00:00",
+    "status": "rejected",
+    "content_hash": "46a8391b65f5a1cae07ddb437b6180b7",
+    "strict_hash": "46a8391b65f5a1cae07ddb437b6180b7",
+    "fuzzy_hash": "a267f25399d9bebea1ca8b9b550e11de",
+    "reason": "Новость является дубликатом уже опубликованной новости под номером 10 в контексте: «Dubai Basketball officially announce their new head coach - BasketNews.com». Заголовок и источник совпадают, разница лишь в уточнении «another major addition» вместо «new head coach», что не меняет сути — это повтор той же темы и того же источника."
   }
 ]
