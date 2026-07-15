@@ -1495,5 +1495,68 @@
     "strict_hash": "f03b750d2c5f2ff510debf011f4bbf7d",
     "fuzzy_hash": "d3a832e21c9ad6a8c239774da834a8e4",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/long-weekends-dubai-list-two-remaining-for-2026",
+    "timestamp": "2026-07-15T15:17:32.101204+00:00",
+    "status": "rejected",
+    "content_hash": "5587f9072d1282e3396c2e8e2bf85e2b",
+    "strict_hash": "5587f9072d1282e3396c2e8e2bf85e2b",
+    "fuzzy_hash": "67a79d302a70e4bbc46f67d4d948136e",
+    "reason": "Cheap prefilter: слишком короткий текст (112 символов)"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/shopping/mall-of-the-emirates-summer-bucket-list",
+    "timestamp": "2026-07-15T15:17:38.530767+00:00",
+    "status": "rejected",
+    "content_hash": "224b9f24183462fd2932dfa9c56364fb",
+    "strict_hash": "224b9f24183462fd2932dfa9c56364fb",
+    "fuzzy_hash": "0a34496cc0f0b4dbad034928b1b45e05",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.timeoutdubai.com/news/new-dubai-metro-bus-routes",
+    "timestamp": "2026-07-15T15:17:43.608703+00:00",
+    "status": "rejected",
+    "content_hash": "9eef131d7aa0a7bd562620e9311a2db8",
+    "strict_hash": "9eef131d7aa0a7bd562620e9311a2db8",
+    "fuzzy_hash": "8cd3e50d56d2fe7cf11209e56b42f10b",
+    "reason": "Cheap prefilter: слишком короткий текст (97 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWHBFQXQ0MVJ6aWNhRWhtM1l0LXl5WTdDLURuSWNMSmk4NW4wMlJFLWhUS255Tl9CQWN6ZEFTQ1JQbEp0dWpiVmc1cjZycC1LaDJKVHNDdXAta2xteHJCVkpqdUVZS09ZMlhhcjVXVC03UUxVQWhpVGZiUE5PQVloVHN0aVZTc25FX0dwZQ?oc=5",
+    "timestamp": "2026-07-15T15:17:47.412277+00:00",
+    "status": "rejected",
+    "content_hash": "b2e31b84a03293cfb32a6d50f2cb3581",
+    "strict_hash": "b2e31b84a03293cfb32a6d50f2cb3581",
+    "fuzzy_hash": "687d907131975963265927cae9d2d5ef",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные, что соответствует формату полезного контента для русскоговорящих жителей Дубая. Однако она является типичным дайджестом от Time Out Dubai, который не содержит уникальной или срочной информации, а также не проходит проверку на дубликаты — подобные еженедельные подборки уже публиковались ранее (см. контекст, пункт 1, 2, 5, 7). Кроме того, отсутствует проверяемый источник с конкретными фактами, а сам текст минимален и не несёт общественно значимой новости."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRFZXeFZ2azEtakl5ZElZQm1HaHVZRkpaVkdiZTFDeHpYdXhVNUpUaDY5emhhaTlOR3VZTkQyajI1QXphRTg3OVQzYVQ1VEpsWkdieFVBMDJ3RWVFTzBxSEtuYjRLMWNEdGt6eFBLcjJTaHhQeXVYRnFpSnluSVh4UFhYd1BlNHNGZGNyOHFzSTJYSm5CY2dIMlBZMnhxakx1Vlk2eWxUMGduVXp5MmhRakU2bXpJcndmSk80RXRPU21HZ3Uy0gHKAUFVX3lxTE9DTEVRM0I1NzRrRzJLOEtTeFN0Tk5BNVZRc0Fvd3VQWGZDM1NETVJ5cTFNYjFqbS14cUZpcHI0Z2lkWnRQWEkzc3E4NmVJelpOa0M0c0dfajVXT2EyTFg1YkRJV3VRYmh2dHRKTjVCNlV0TjdPYkpKTDVWMk13ZkZnQmNWbnpURlhXZnB3aU90T2NOMzRva2lVeGxuMWxQWHNIaV9qdmp2cERUNWhlbzJxN1JJbzJNb1VLaGdMSk9rUnIwSUxlZjM4VWc?oc=5",
+    "timestamp": "2026-07-15T15:17:50.078543+00:00",
+    "status": "rejected",
+    "content_hash": "13ef96f559af66a6815a1cb154627aab",
+    "strict_hash": "13ef96f559af66a6815a1cb154627aab",
+    "fuzzy_hash": "07e10e37cdf00b147c45cc6535a86269",
+    "reason": "Новость дублирует уже опубликованную информацию о запуске автономного такси в Umm Suqeim и Jumeirah (пункт 1 в контексте). Отличается только источником и упоминанием \"бесплатного\" сервиса, что не является существенно новой информацией."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOGpQcUFGRmdMdDNaTW5YTlU5WktZVzE0dFFHTUZqTTIzLXVQOUxzU091dVBkUnFYanBkU2tIWHJJMDBucXdnSFJwcW1Rc1AwbjNFQjMxa3JjeTRmbjkxaVFkcTdTczd4VFVkVGRrS3pQV2hoM3g0a3FBSzc0V2NUT2xRN3gtYkRJRmNKZEluVWI?oc=5",
+    "timestamp": "2026-07-15T15:17:50.659685+00:00",
+    "status": "rejected",
+    "content_hash": "50f8b23d2b0e4459215e67139e38195c",
+    "strict_hash": "50f8b23d2b0e4459215e67139e38195c",
+    "fuzzy_hash": "5745c10fd14be75d54c1e8090032c21b",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdTdPc1BRMlhqR0t3UVBvbkxVQjl6ODFuZnV0bFZpcEgwWTlzZk0wU2dGNmxETndOcEpGV0s3ZHcwQjlibjY2MlRVSk03Q0tpUll5OGVXSFlRdklzY1FGWWZSSTJ5VjJCd2dXNHJZN3JuRGIxSGJqOFJXSkczV2FFaVgzbHo1dzF5YWplaG1MNHFHUFVlNWR5eV9XaFF1RHJocjhR?oc=5",
+    "timestamp": "2026-07-15T15:17:52.375313+00:00",
+    "status": "rejected",
+    "content_hash": "d404ad17e3e8e5df2e237a4c0a56c24f",
+    "strict_hash": "d404ad17e3e8e5df2e237a4c0a56c24f",
+    "fuzzy_hash": "1beb652479e90fdd713031d99e4f033b",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
