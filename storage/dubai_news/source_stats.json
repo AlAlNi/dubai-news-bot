@@ -1434,5 +1434,23 @@
     "strict_hash": "84840d2408c16cd02d2ec804837bbc9d",
     "fuzzy_hash": "869aaa88fa8841c6da69280029143d41",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.newindianexpress.com/states/gujarat/2026/Jul/15/man-smuggles-gold-paste-worth-crores-from-dubai-in-modified-undergarment-held-at-ahmedabad-airport",
+    "timestamp": "2026-07-15T23:32:43.435696+00:00",
+    "status": "rejected",
+    "content_hash": "8767f59a8baf5c864e83cccf905ed865",
+    "strict_hash": "8767f59a8baf5c864e83cccf905ed865",
+    "fuzzy_hash": "6d6b48cbf92fde82df652f5651a389bf",
+    "reason": "Новость о контрабанде золота из Дубая в Индию не имеет прямой пользы или интереса для русскоговорящего жителя Дубая, а также не является общественно значимой для региона ОАЭ — это криминальная хроника из другой страны."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMmxxcGFCOHpCd1hTT1FIZFRCVFBKMV9QVHZHeDJIaVJIRkR3MFQyRVpTcXJxc0NRdE45TFVPLXB1TmFHandMaGZwblJENFBBNWhiX200UGN1czlLMkdlREdtNTQzbGxzSFV3MC1FaVFHUzJsbmVPYmlZU1lka3dPdEE2a1k?oc=5",
+    "timestamp": "2026-07-15T23:32:46.383919+00:00",
+    "status": "rejected",
+    "content_hash": "c67e30688b8b679f7eb8d32fd367026f",
+    "strict_hash": "c67e30688b8b679f7eb8d32fd367026f",
+    "fuzzy_hash": "2997f5f319138d12fe9105f2f35ada29",
+    "reason": "Новость от The Telegraph о туристах в Дубае на фоне напряжённости в регионе явно затрагивает политические и конфликтные темы (правило 2), что недопустимо для канала. Кроме того, заголовок носит кликбейтный характер и не содержит проверяемой информации, полезной для русскоязычного жителя Дубая."
   }
 ]
