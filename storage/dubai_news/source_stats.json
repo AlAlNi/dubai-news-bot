@@ -1540,5 +1540,14 @@
     "strict_hash": "1d8369686fa9321ff753c2547f85a8b9",
     "fuzzy_hash": "f9e50c8934443534bb0952c02d9330d4",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13RzEzOV9vM2tQQ3pIWTc3UzFvMWlLUVhnemhDcW4tS0NTT0RPT3lVVnVhMms2RW1pcXdlUGd4Um5WTGVIdTRONS1HOHJyZWFXLUtfMTRabnN4QQ?oc=5",
+    "timestamp": "2026-07-15T13:09:31.527342+00:00",
+    "status": "rejected",
+    "content_hash": "b25248b39c75690a55d88e32faeb4922",
+    "strict_hash": "b25248b39c75690a55d88e32faeb4922",
+    "fuzzy_hash": "e5650fba2f0bade9638e7b643cb22218",
+    "reason": "Новость о победе пакистанской компании на конкурсе в Дубае имеет слабую связь с регионом (конкурс проходил в Дубае, но сама новость не о жизни города или ОАЭ, а о достижении иностранного бренда). Она не представляет интереса для русскоговорящего жителя Дубая, так как не содержит полезной или актуальной для него информации. Кроме того, текст выглядит как короткая заметка без проверяемого источника и общественной значимости."
   }
 ]
