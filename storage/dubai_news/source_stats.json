@@ -1217,5 +1217,32 @@
     "url": "https://whatson.ae/2026/07/blue-tokai-cafe-opens-in-dubai",
     "timestamp": "2026-07-16T10:19:09.155184+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/one-last-chance-to-own-a-home-at-dubais-first-chelsea-football-club-branded-residences",
+    "timestamp": "2026-07-16T11:28:03.994958+00:00",
+    "status": "rejected",
+    "content_hash": "0e54065b70494e16e03d388e35df08f4",
+    "strict_hash": "0e54065b70494e16e03d388e35df08f4",
+    "fuzzy_hash": "6e46b1f3a08d04114d145aab428ba2a9",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/10-things-to-do-in-dubai-this-weekend-july-17-to-19",
+    "timestamp": "2026-07-16T11:29:30.040975+00:00",
+    "status": "rejected",
+    "content_hash": "9d304756e44bff4e80977ca164187c3f",
+    "strict_hash": "9d304756e44bff4e80977ca164187c3f",
+    "fuzzy_hash": "9af7f00a71d6cd24da940efd84779d86",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные, что соответствует интересам русскоязычных жителей Дубая, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако она является типичным дайджестом событий, а не уникальной новостью, и её источник (What's On) не указан в виде прямой проверяемой ссылки, что нарушает правило 9. Кроме того, подобные подборки \"10 things to do\" часто публикуются и могут быть дубликатами по смыслу, хотя хеш уникален."
+  },
+  {
+    "url": "https://emirateswoman.com/sheikha-bodour-al-qasimi-is-conferred-one-of-italys-highest-national-honours",
+    "timestamp": "2026-07-16T11:31:01.387646+00:00",
+    "status": "approved",
+    "content_hash": "59a762bbb973728a9f7bea8dd7936e89",
+    "strict_hash": "59a762bbb973728a9f7bea8dd7936e89",
+    "fuzzy_hash": "a2462c26945831ef02c6b169b45396e6",
+    "reason": "approved"
   }
 ]
