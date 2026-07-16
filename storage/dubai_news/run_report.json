@@ -1,113 +1,5 @@
 [
   {
-    "script": "rss_collect",
-    "started_at": "2026-07-11T09:15:45.356488+00:00",
-    "finished_at": "2026-07-11T09:16:37.384989+00:00",
-    "duration_seconds": 52.029,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 4,
-      "rejected": 4,
-      "approved": 0,
-      "deepseek_calls": 3,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 3,
-      "reserve_fetches": 5,
-      "rss_fetches": 3,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-07-11",
-      "daily": {
-        "published_per_day": {
-          "value": 1,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 91.67,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "propertynews.ae",
-            "events": 4,
-            "reject_rate": 100.0,
-            "duplicate_rate": 75.0
-          },
-          {
-            "source": "www.timeoutdubai.com",
-            "events": 9,
-            "reject_rate": 100.0,
-            "duplicate_rate": 11.11
-          },
-          {
-            "source": "www.independent.co.uk",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.thesun.ie",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.thesun.co.uk",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "whatson.ae",
-            "events": 19,
-            "reject_rate": 78.95,
-            "duplicate_rate": 26.32
-          },
-          {
-            "source": "news.google.com",
-            "events": 60,
-            "reject_rate": 73.33,
-            "duplicate_rate": 23.33
-          },
-          {
-            "source": "indianexpress.com",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 0.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
     "script": "auto_notify",
     "started_at": "2026-07-11T09:44:47.380552+00:00",
     "finished_at": "2026-07-11T09:44:48.128680+00:00",
@@ -20224,5 +20116,95 @@
       }
     },
     "error": "telegram_api_error"
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-07-16T19:55:10.339124+00:00",
+    "finished_at": "2026-07-16T19:55:58.569906+00:00",
+    "duration_seconds": 48.231,
+    "success": false,
+    "counters": {
+      "attempts_made": 5,
+      "fetched": 0,
+      "rejected": 0,
+      "approved": 0,
+      "deepseek_calls": 0,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 0,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 3,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-07-16",
+      "daily": {
+        "published_per_day": {
+          "value": 5,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "source_share_official": {
+          "value": 20.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 70.0,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.timeoutdubai.com",
+            "events": 8,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 11,
+            "reject_rate": 81.82,
+            "duplicate_rate": 45.45
+          },
+          {
+            "source": "news.google.com",
+            "events": 73,
+            "reject_rate": 78.08,
+            "duplicate_rate": 20.55
+          },
+          {
+            "source": "propertynews.ae",
+            "events": 4,
+            "reject_rate": 75.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "emirateswoman.com",
+            "events": 4,
+            "reject_rate": 75.0,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
+        ]
+      }
+    }
   }
 ]
