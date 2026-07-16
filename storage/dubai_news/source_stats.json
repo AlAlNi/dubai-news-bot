@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://www.dailyexcelsior.com/indian-crew-member-killed-in-iranian-strike-on-uae-shipping-tankers-in-strait-of-hormuz-2",
-    "timestamp": "2026-07-14T18:38:36.926828+00:00",
-    "status": "rejected",
-    "content_hash": "d3f553df697780256bedad09d3d9efde",
-    "strict_hash": "d3f553df697780256bedad09d3d9efde",
-    "fuzzy_hash": "e7643ec960513fd8f9418adc4776006e",
-    "reason": "Новость отклоняется, так как её основная тема — военный конфликт и гибель людей в результате удара, что является политикой и конфликтом (правило 2). Кроме того, заголовок и текст содержат признаки кликбейта и не соответствуют требованию уважения к ценностям ОАЭ (правило 4), а также не представляют интереса для русскоязычного жителя Дубая в качестве полезной или позитивной информации (правило 6)."
-  },
-  {
-    "url": "https://www.manilatimes.net/2026/07/14/tmt-newswire/globenewswire/vip-rent-a-car-expands-fleet-to-meet-growing-demand-for-luxury-rentals-in-dubai/2383802",
-    "timestamp": "2026-07-14T18:38:38.928347+00:00",
-    "status": "rejected",
-    "content_hash": "19dca63094560370988b7af673815cf2",
-    "strict_hash": "19dca63094560370988b7af673815cf2",
-    "fuzzy_hash": "ea6bf7c20a293a6a83c16491636fa5dc",
-    "reason": "Новость явно является рекламным пресс-релизом (Globe Newswire) о расширении автопарка конкретной компании, без общественно значимой информации для русскоязычных жителей Дубая. Она нарушает правило 3 (рекламный характер) и правило 6 (отсутствие интереса для аудитории)."
-  },
-  {
-    "url": "https://www.dailyexcelsior.com/indian-crew-member-killed-in-iranian-strike-on-uae-shipping-tankers-in-strait-of-hormuz",
-    "timestamp": "2026-07-14T18:38:41.449847+00:00",
-    "status": "rejected",
-    "content_hash": "69c23c7bf60808cc3a508e8b4985f1d8",
-    "strict_hash": "69c23c7bf60808cc3a508e8b4985f1d8",
-    "fuzzy_hash": "625078a427edc3f4942faf830d069e0f",
-    "reason": "Новость содержит информацию о гибели индийского моряка в результате удара по танкерам ОАЭ в Ормузском проливе. Это прямая угроза безопасности судоходства в регионе, связанная с военным конфликтом, что нарушает правило №2 (политика и конфликты) и может быть воспринято как неуважение к стабильности ОАЭ (правило №4). Кроме того, тема не представляет интереса для русскоязычного жителя Дубая в бытовом плане (правило №6)."
-  },
-  {
-    "url": "https://www.financialexpress.com/world-news/us-embassy-in-abu-dhabi-dubai-consulate-cancel-consular-appointments-all-you-need-to-know/4290962",
-    "timestamp": "2026-07-14T18:38:47.243215+00:00",
-    "status": "approved",
-    "content_hash": "f743c07259e26cc964e39c75b1219d8d",
-    "strict_hash": "f743c07259e26cc964e39c75b1219d8d",
-    "fuzzy_hash": "359ef2e3986ff7f1e4688cd4fc2976ce",
-    "reason": "approved"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNVU4Qm1sQ3NocFdhQXloNk5hdDhRWk5YU0ViMzc1SVpobUxsVktoTTl3ZDEtVkplS0tQcnlmdXBvLXNSTHBlUHlybWdpMkE4Umx5UUJaV3JJbHNwdTJ0ZmtmN2l2Q0h2SUNiVFBRSlFUd2V3VnktQXc4X19zV29oVGF5a2JUWGxsMF9iTlIyVWF3YWxkQ3Axb1pZajh6MlF1V09Gd1M0WWw3UTdWWERSUg?oc=5",
-    "timestamp": "2026-07-14T19:01:04.164989+00:00",
-    "status": "approved",
-    "content_hash": "dc54663cfa03b64fcb0ca218cb01fe2e",
-    "strict_hash": "dc54663cfa03b64fcb0ca218cb01fe2e",
-    "fuzzy_hash": "a32b2e3b80cdc00d52656c0f1a9a2a07",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.financialexpress.com/world-news/us-embassy-in-abu-dhabi-dubai-consulate-cancel-consular-appointments-all-you-need-to-know/4290962",
     "timestamp": "2026-07-14T19:38:24.159796+00:00",
     "status": "published"
@@ -1276,5 +1231,10 @@
     "strict_hash": "2bd46b0498e0064d8602527736f24102",
     "fuzzy_hash": "66e6de07b53cb6a67dde8963dbe8cf40",
     "reason": "Новость о завершении строительства последней башни Chelsea Residences в Dubai Maritime City от DAMAC Properties — это типичный пресс-релиз застройщика, не содержащий общественно значимой информации, а лишь рекламирующий успешные продажи и преимущества проекта. Она не представляет интереса для широкой аудитории русскоговорящих жителей Дубая, так как не сообщает о новых регуляторных изменениях, сервисных обновлениях или важных событиях."
+  },
+  {
+    "url": "https://www.cryptobreaking.com/revolut-gets-uae-in-principle",
+    "timestamp": "2026-07-16T19:24:14.208240+00:00",
+    "status": "published"
   }
 ]
