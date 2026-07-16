@@ -1370,5 +1370,23 @@
     "strict_hash": "57c400bc664120d7e53f20eab416c999",
     "fuzzy_hash": "8487e78d16b0fdde1276fc8af9e8e893",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dubais-museum-of-the-future-is-closing-for-a-major-refresh",
+    "timestamp": "2026-07-16T04:50:20.344196+00:00",
+    "status": "rejected",
+    "content_hash": "7251738db3771f646e206d949bd84331",
+    "strict_hash": "7251738db3771f646e206d949bd84331",
+    "fuzzy_hash": "e0854655aba90e66ce93037379e4678d",
+    "reason": "Новость о закрытии Музея будущего в Дубае на реконструкцию до 2027 года является дубликатом уже опубликованной новости (пункт 2 в контексте). Хотя тема соответствует региону и не нарушает другие правила, повторная публикация той же информации нарушает правило 7."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-express-launches-direct-guwahati-flights-to-dubai-abu-dhabi-from-august/articleshow/132420210.cms",
+    "timestamp": "2026-07-16T04:51:16.150226+00:00",
+    "status": "approved",
+    "content_hash": "3604234204879fafda412ad6dc47db5d",
+    "strict_hash": "3604234204879fafda412ad6dc47db5d",
+    "fuzzy_hash": "1817e00d18b8566756bb09f8d499d995",
+    "reason": "approved"
   }
 ]
