@@ -1244,5 +1244,50 @@
     "strict_hash": "59a762bbb973728a9f7bea8dd7936e89",
     "fuzzy_hash": "a2462c26945831ef02c6b169b45396e6",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/07/16/tmt-newswire/pr-newswire/japanese-investors-offered-final-opportunity-to-own-at-chelsea-residences-by-damac-in-dubai/2385511",
+    "timestamp": "2026-07-16T12:00:46.072223+00:00",
+    "status": "rejected",
+    "content_hash": "83560f760dcb70f3779be57fcb1f5582",
+    "strict_hash": "83560f760dcb70f3779be57fcb1f5582",
+    "fuzzy_hash": "5c74c721b8ba7755d56107ffdeaba046",
+    "reason": "Новость является рекламным пресс-релизом DAMAC Properties, ориентированным на японских инвесторов, без общественно значимой информации для русскоязычных жителей Дубая. Она нарушает правила 3 (рекламный характер) и 6 (отсутствие интереса для целевой аудитории)."
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/japanese-investors-offered-final-opportunity-to-own-at-chelsea-residences-by-damac-in-dubai-302826819.html",
+    "timestamp": "2026-07-16T12:00:48.695872+00:00",
+    "status": "rejected",
+    "content_hash": "fdc8e5262aa49cbb7525ea8b1bb8cad2",
+    "strict_hash": "fdc8e5262aa49cbb7525ea8b1bb8cad2",
+    "fuzzy_hash": "2eda5ca7ba4c8ad859310a073e7f08bc",
+    "reason": "Новость является рекламным пресс-релизом DAMAC Properties, ориентированным на японских инвесторов, без общественно значимой информации для русскоязычных жителей Дубая. Она нарушает правила 3 (рекламный характер) и 6 (отсутствие интереса для целевой аудитории)."
+  },
+  {
+    "url": "https://www.dailyexcelsior.com/indian-mission-closely-coordinating-with-uae-to-provide-support-to-deceased-sailors-family",
+    "timestamp": "2026-07-16T12:00:51.946331+00:00",
+    "status": "rejected",
+    "content_hash": "65d254a4bcfd0d2c59fba12d459aaa1a",
+    "strict_hash": "65d254a4bcfd0d2c59fba12d459aaa1a",
+    "fuzzy_hash": "92f2857cc08042ac91a1b95138a04629",
+    "reason": "Новость касается гибели индийского моряка в результате атаки на судно у берегов Омана, что не имеет прямой связи с Дубаем или ОАЭ (кроме упоминания координации с властями ОАЭ), а также содержит элементы международной политики и конфликта (атака на судно). Тема не представляет интереса для русскоязычного жителя Дубая и не соответствует критериям полезности или актуальности для канала."
+  },
+  {
+    "url": "https://indianexpress.com/article/india/pune-sailor-missing-since-july-12-attack-on-ship-off-oman-coast-is-dead-dubai-consulate-10788536",
+    "timestamp": "2026-07-16T12:00:54.838807+00:00",
+    "status": "rejected",
+    "content_hash": "6cad9c2c771f54d9e2208b17bc593ebd",
+    "strict_hash": "6cad9c2c771f54d9e2208b17bc593ebd",
+    "fuzzy_hash": "a1093d82ca1b7cd20a77acdc922bcef0",
+    "reason": "Новость о гибели индийского моряка после атаки на судно у берегов Омана не имеет прямой связи с Дубаем или ОАЭ (консульство лишь подтвердило факт), а также затрагивает тему военного конфликта и гибели людей, что нарушает правила 1 и 2."
+  },
+  {
+    "url": "https://www.cryptobreaking.com/revolut-granted-uae-in-principle",
+    "timestamp": "2026-07-16T12:01:01.068715+00:00",
+    "status": "approved",
+    "content_hash": "249b00f5fe717820fc3f1c44ae349a83",
+    "strict_hash": "249b00f5fe717820fc3f1c44ae349a83",
+    "fuzzy_hash": "5bdeb82cc995aef07442445b2aa08c2a",
+    "reason": "approved"
   }
 ]
