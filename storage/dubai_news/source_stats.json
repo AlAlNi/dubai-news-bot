@@ -1402,5 +1402,50 @@
     "strict_hash": "0e1395231dbdf982e123b2080f37e6c5",
     "fuzzy_hash": "e767d1eee7aa7e4a0eb004c7123e0945",
     "reason": "Новость о местах просмотра Гран-при Бельгии Формулы-1 в Дубае соответствует тематике канала (связь с Дубаем), не содержит политики, рекламы или неуважения к ценностям ОАЭ, а также будет интересна русскоязычным жителям, ищущим досуг. Однако текст представлен лишь заголовком и ссылкой на Time Out Dubai, что не является полноценной новостью с проверяемыми фактами — это скорее анонс без содержания. Кроме того, подобные гиды по мероприятиям уже могли публиковаться ранее (например, аналогичные форматы о ресторанах или событиях). Учитывая отсутствие полного текста и риск дублирования, новость следует отклонить."
+  },
+  {
+    "url": "https://www.indiatoday.in/world/story/mv-gfs-galaxy-attack-off-oman-indian-crewman-dead-uae-mission-aids-family-ptag-2948606-2026-07-15",
+    "timestamp": "2026-07-16T01:29:18.977594+00:00",
+    "status": "rejected",
+    "content_hash": "e44c52b141b83d4b6ab04d3e8b8a5eb4",
+    "strict_hash": "e44c52b141b83d4b6ab04d3e8b8a5eb4",
+    "fuzzy_hash": "c52ede272d0c814fef7012a651d4498b",
+    "reason": "Новость о гибели индийского моряка в результате атаки на судно у берегов Омана не имеет прямой связи с Дубаем или ОАЭ (инцидент произошёл в международных водах, а участие консульства — стандартная процедура), а также затрагивает тему вооружённого конфликта и геополитической напряжённости, что нарушает правила 1 и 2."
+  },
+  {
+    "url": "https://www.deccanchronicle.com/business/ladakh-steps-into-the-global-spotlight-as-first-apricot-consignment-to-dubai-takes-off-1971134",
+    "timestamp": "2026-07-16T01:29:21.376126+00:00",
+    "status": "rejected",
+    "content_hash": "33dbaa2032d89174519701431832a326",
+    "strict_hash": "33dbaa2032d89174519701431832a326",
+    "fuzzy_hash": "091d824509074d95e3e727613a2a6c66",
+    "reason": "Новость о первой крупной партии абрикосов из Ладакха, отправленной в Дубай, имеет слабую связь с регионом (упоминание ОАЭ как пункта назначения), но основное содержание посвящено событию в Индии, а не жизни в Дубае. Для русскоязычного жителя Дубая новость не представляет интереса или практической пользы, так как не затрагивает местные услуги, события или изменения."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMExqeUEtOXlvTkN0SEYzUjNBSmpqTmIwWlNBTVVkdVdiZFhBTVFBR0tMdTA4bHZCWWZURGpkUGRXd2tTYnlTUmFSRVBQc0dQckRZX2N0MHRwbmc1dmZaYlhFYndleEhhZDVZejFHS2M3REhxT3E0QVBlWWV4SXR1VmJjem9YbG5LLVliN1pWY3VvVXhLQlAwR0dEel9pQ3hJTXBXVFI3cWo5c2J5VDFyTHpKSlVZQV9VT2JZSg?oc=5",
+    "timestamp": "2026-07-16T01:29:25.868283+00:00",
+    "status": "rejected",
+    "content_hash": "437448f1cc2fb6df47182b1897c392ee",
+    "strict_hash": "437448f1cc2fb6df47182b1897c392ee",
+    "fuzzy_hash": "70f86e5b05f3275b5bf4e8879e44ba8b",
+    "reason": "Новость о запуске полицейских патрульных машин Ghiath в Дубае имеет прямую связь с регионом (Дубай, ОАЭ), не содержит политики, рекламы или неуважения к ценностям, выглядит естественно и может быть интересна русскоязычным жителям как информация о повышении безопасности. Однако источник (Fuel Cells Works) не является официальным или широко известным, а текст крайне короткий и не содержит проверяемых деталей (нет ссылки на официальное заявление полиции Дубая). Кроме того, новость может быть дубликатом, если ранее публиковалась похожая информация о запуске умных патрулей (в контексте нет точного совпадения, но тема безопасности часто освещается). Учитывая недостаток проверяемости и краткость, новость отклоняется."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNamZfV1dDLUhNaDVOWXIxeTlSVGZnZExua01XcnA5eVpzclNZbGxxWXpHUUVVbXI3UE9BVXgwTUplU3NTczU3MjNXNm13RTBiM3Q4SGhOWG1pTTdodGNocTlfLXV3RnJlbjVleGZoamdkNjRpQkxJb0xnakVfeUxwSEtXVUVBWUdUZHVfekQyRGZXMzhRa0E?oc=5",
+    "timestamp": "2026-07-16T01:29:26.412058+00:00",
+    "status": "rejected",
+    "content_hash": "a134f5c4502cf6ea7db8eec6c5b0766b",
+    "strict_hash": "a134f5c4502cf6ea7db8eec6c5b0766b",
+    "fuzzy_hash": "a00aec6d727d4662a7bb4c7af6a4be98",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdkF0TUVfeU9nVnBJS1RacDNaczhZa2FTSk52OTF0eE1vWmpQN1ZqeHU0MVNvQUw0WmNSZGFUa1BkRW9XZUdoTktLZHRFV09kNmlDU3VQUHJiVFBzWWlaTzkyTV9PVEUyRDdnZnVYbmZnQ2tMMlJfbUpkTXhXLU5JTTRoc29EMURrdDlLUlZVV0tTanNqWHR4UGFRZFRyOXZ0QkUwX19WRQ?oc=5",
+    "timestamp": "2026-07-16T01:29:34.702887+00:00",
+    "status": "approved",
+    "content_hash": "f58c37134ab01c769814f48391836931",
+    "strict_hash": "f58c37134ab01c769814f48391836931",
+    "fuzzy_hash": "54793626fad4edd368eecaa03f9b29bd",
+    "reason": "approved"
   }
 ]
