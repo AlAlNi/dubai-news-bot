@@ -1,109 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaGROMHZNQlZrczJZOC1SNmxmSjRJM1plTVNBNk5rQWpRYU5Uanh1QU9Ncm55TUdhLU14Q1k4dXptNDNoaUV4aWhoTVlKdjlwY0gyd1ZwbkM0OE9hZlE2Z1VBdVBVWWVyRjRYOVNYMDF6ajhTaHdWdGF1VlBrNGdGNGI2b0hnREk5MVA1bURlUXN4dG13WEVlbHRCR0pPOHNrM2lNUUNsZzh2TEV6SXZwbUp6cFE0QjU1Y1JvYTBUZ1hSVV9aMlY5WWxjSQ?oc=5",
-    "timestamp": "2026-07-14T12:47:45.136124+00:00",
-    "status": "approved",
-    "content_hash": "efb7d18463266f2e13cab20de1ac85e7",
-    "strict_hash": "efb7d18463266f2e13cab20de1ac85e7",
-    "fuzzy_hash": "48f6a47a469e6eff0a163e1e2836bd29",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/dubai-comedy-festival-2026",
-    "timestamp": "2026-07-14T13:05:16.912836+00:00",
-    "status": "rejected",
-    "content_hash": "142466bd77915eae032b2d6f6f28d66d",
-    "strict_hash": "142466bd77915eae032b2d6f6f28d66d",
-    "fuzzy_hash": "c202ebd69ea92fd1758dd87f12fed77f",
-    "reason": "Cheap prefilter: слишком короткий текст (78 символов)"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/dubai-metro-burj-khalifa-road-closure",
-    "timestamp": "2026-07-14T13:05:22.295147+00:00",
-    "status": "rejected",
-    "content_hash": "c0496eb9bff69cb7c653fa67c3d159a5",
-    "strict_hash": "c0496eb9bff69cb7c653fa67c3d159a5",
-    "fuzzy_hash": "109e408bbb7a0d86d2f1575769b47afc",
-    "reason": "Cheap prefilter: слишком короткий текст (100 символов)"
-  },
-  {
-    "url": "https://www.timeoutdubai.com/news/uae-public-holiday-august-2026",
-    "timestamp": "2026-07-14T13:05:27.073741+00:00",
-    "status": "rejected",
-    "content_hash": "75c409f1cbe5771f82c504fc33ffb41e",
-    "strict_hash": "75c409f1cbe5771f82c504fc33ffb41e",
-    "fuzzy_hash": "5c19b334f5595e5f8278a5b19025fcc0",
-    "reason": "Cheap prefilter: слишком короткий текст (80 символов)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fRXVwVm1adktvZWktdHFpdHc1ZDczZEh0T1FKVXlJRWQwX3IybGhxLTl1R1ZjS3BIbmF2cFNEN212X3ppVlZEcENxZE4xV0R6STFUeG9KYXd6Z3BUQl8weFEweWh2UXFt?oc=5",
-    "timestamp": "2026-07-14T13:05:35.681493+00:00",
-    "status": "approved",
-    "content_hash": "9b4bb7b23af4b4e9e115e8a800aa905b",
-    "strict_hash": "9b4bb7b23af4b4e9e115e8a800aa905b",
-    "fuzzy_hash": "9e2e75d846360aad632aaa2a04e891f3",
-    "reason": "approved"
-  },
-  {
-    "url": "https://oilprice.com/Latest-Energy-News/World-News/Dubai-Is-Already-Planning-for-the-Next-Strait-of-Hormuz-Crisis.html",
-    "timestamp": "2026-07-14T14:04:30.418119+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.dailyexcelsior.com/us-launches-attacks-on-iran-as-tehran-retaliates-against-uae-tankers-in-strait-of-hormuz-and-bahrain",
-    "timestamp": "2026-07-14T15:07:33.307760+00:00",
-    "status": "rejected",
-    "content_hash": "30225f39147dd0ba06ca16183797a7a4",
-    "strict_hash": "30225f39147dd0ba06ca16183797a7a4",
-    "fuzzy_hash": "0a15fcab62ad6a1097717ba482927df6",
-    "reason": "Новость явно нарушает правило №2 (политика и конфликты), так как основная тема — военные действия США против Ирана и ответные удары, что является большой политикой и военным конфликтом. Также она не соответствует правилу №1 (связь с регионом), так как хотя упоминаются ОАЭ и Бахрейн, фокус новости — на глобальном военном противостоянии, а не на жизни в Дубае."
-  },
-  {
-    "url": "https://www.ajc.com/news/2026/07/us-attack-iran-as-tehran-retaliates-against-uae-tankers-in-strait-of-hormuz-and-bahrain",
-    "timestamp": "2026-07-14T15:07:35.005175+00:00",
-    "status": "rejected",
-    "content_hash": "094dbdac5fd3847cee3c007fa909d2e7",
-    "strict_hash": "094dbdac5fd3847cee3c007fa909d2e7",
-    "fuzzy_hash": "aa89780e7b129f3b18742c3fee3f7a1a",
-    "reason": "Новость явно нарушает правило №2 (политика и конфликты), так как основная тема — военные действия между США и Ираном, а также упоминание атак на танкеры ОАЭ. Это не соответствует формату новостного канала о Дубае."
-  },
-  {
-    "url": "https://www.newindianexpress.com/world/2026/Jul/14/indian-sailor-killed-eight-injured-as-iranian-missiles-hit-uae-tankers-in-hormuz",
-    "timestamp": "2026-07-14T15:07:37.260210+00:00",
-    "status": "rejected",
-    "content_hash": "56bff471f4ed16594c7b09517cdd0f6a",
-    "strict_hash": "56bff471f4ed16594c7b09517cdd0f6a",
-    "fuzzy_hash": "77bca4ca6af09a775c63d7a205c88d82",
-    "reason": "Новость содержит явную связь с регионом (ОАЭ, Дубай), но её основная тема — военный конфликт с применением ракет и жертвами, что нарушает правило №2 (политика и конфликты). Кроме того, такая информация может быть воспринята как неуважение к ценностям ОАЭ (правило №4) и не соответствует формату канала, ориентированного на полезные и нейтральные новости для русскоговорящих жителей."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbU9wZ0RJSlZ6ZmZqQ0tKN2lYM005X3UyUzNpeDZrSDFvOV90cmpVTi0wT0NjZVF3QWl3akg1amh6amU5MTlXNy1HM0pTSndxWVJIbDRCWnJ2ek1uWTdGN2l0MG1qZmJYRjVXcTNxeFc5OWZLeElKYm9DWjdqWTY4bG9mWXU2bURieDZaWVN6aGY3aHpuYTU5MzhCaWhEWVota0HSAacBQVVfeXFMT2FoMVNkcHpzV0xEcFBuMlNKdnFwVnVCV0ZnWXBGcEoxdG0xNldXNG80cS1kbG11d2ROeGpMbjBKcXdvUzRrLVd0WDZTLXI3VW1sLXA3dFBlalNTNTYyM0ZVTHBHV3JoV3MwUnpBZFpqcjMwM1RfM2stSHNHUE5sUGhoZjBwZ0Q5VngtcGJTYXpFRFI5alFqVjhwaHNqbXNPTzd1aVduUlU?oc=5",
-    "timestamp": "2026-07-14T15:07:40.931102+00:00",
-    "status": "rejected",
-    "content_hash": "39abbaa4d2f2703539100835871bf911",
-    "strict_hash": "39abbaa4d2f2703539100835871bf911",
-    "fuzzy_hash": "a2266b7f8b57f09643105ded2b5e64ea",
-    "reason": "Новость о кокаиновой операции, ведущей в Дубай, не соответствует тематике канала: основное событие (крупная полицейская операция в Испании) не имеет прямой и значимой связи с жизнью в Дубае или ОАЭ, а упоминание города носит второстепенный криминальный контекст, что также может нарушать правило уважения к ценностям UAE."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMmpRcXc5Z3lYZkt2YUJyMkhTZnpyTktZUkc1aXVOQ2FwdWJ5VF8wclA3SnUzb3BaWnRwblBleDMtdkptX2haSGh5a0ZkdmNHX1F4dHh1aHJBWTY1V0dsOHVfOHpfaTltUTFiQ19EZ2FLNUtnM0lVTzl5MHV4TkRXWkZSUFZWZUc3VUI5dGJlcV80RmNtbFEwYWNIbWN5c0NnVG9EVExB?oc=5",
-    "timestamp": "2026-07-14T15:07:43.220174+00:00",
-    "status": "rejected",
-    "content_hash": "514d46504a0e41196cacb703dbfaa7d9",
-    "strict_hash": "514d46504a0e41196cacb703dbfaa7d9",
-    "fuzzy_hash": "bb6e462cc9f8bc41c0c9d8549d21a87c",
-    "reason": "Новость касается криптохаба Дубая, но основная тема — влияние регионального конфликта, что нарушает правило 2 (политика и конфликты). Кроме того, заголовок и текст выглядят как аналитика, а не оперативная новость, и неясен проверяемый источник."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zbE5IYXF5YjJKYWtReG9xSEc2U0FiVDlhd19ScWdlMVR3cWl2VkxRbmtlZlRiZWFhZFR1ZVN0UGhXZ3NmNHc0blc1czQ5YnhhVmxZeERjZGZUTzR0TEoxcUJNRFhlRG1Xd0laZjdBaFRtblNBc1JqRQ?oc=5",
-    "timestamp": "2026-07-14T15:07:43.592973+00:00",
-    "status": "rejected",
-    "content_hash": "656c778ef69eec15bb224dbf603e310a",
-    "strict_hash": "656c778ef69eec15bb224dbf603e310a",
-    "fuzzy_hash": "036a1ba95b9ca69e8187f62959d19011",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
     "url": "https://www.dailyexcelsior.com/indian-crew-member-killed-in-iranian-strike-on-uae-shipping-tankers-in-strait-of-hormuz-2",
     "timestamp": "2026-07-14T18:38:36.926828+00:00",
     "status": "rejected",
@@ -1280,5 +1176,10 @@
     "strict_hash": "7e1d52aab34b0ff5e3af6c6f9159d84c",
     "fuzzy_hash": "e4529c945fb15091cc5f7c1b9b4d3bbb",
     "reason": "approved"
+  },
+  {
+    "url": "https://emirateswoman.com/sheikha-bodour-al-qasimi-is-conferred-one-of-italys-highest-national-honours",
+    "timestamp": "2026-07-16T15:08:47.379479+00:00",
+    "status": "published"
   }
 ]
