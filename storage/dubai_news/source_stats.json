@@ -1172,5 +1172,50 @@
     "strict_hash": "36a93ea35aaadb2d7edf5b4e0038c296",
     "fuzzy_hash": "d6d5f746ba70c1cd7afff0a9457d80eb",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMFhteEZvcXlPNjByeDZIMGw0Z05GQ0J4VURGRnYzYTB3WnRKYjJkYnhJN2tQUTN3Z3JFcm1KeUNzMEtmVWZNZlRWNWNraXNlQ3h5NldjUlB5QTRJODgtMjNyZUt2bGhMS01QaXhmVmkzUEZXVXNpSWJyNDNFWmhKMVdRM1d1WXJPVy1wSzZlb0FwRXBnT1NsLWJ3a3BIMVU3d3hoVFkwMV9sWTFKN0s3WDNLQzRGUQ?oc=5",
+    "timestamp": "2026-07-17T01:43:14.909382+00:00",
+    "status": "rejected",
+    "content_hash": "157e85fd022c62fd08aeb0a8e4979817",
+    "strict_hash": "157e85fd022c62fd08aeb0a8e4979817",
+    "fuzzy_hash": "2ec46ad510acf9354b6d3286af42869a",
+    "reason": "Новость содержит упоминание \"войны с Ираном\", что является темой военного конфликта и большой политики, что прямо нарушает правило №2. Кроме того, заголовок и текст выглядят как кликбейт с непроверяемыми данными о падении продаж на 26% без указания конкретного источника в ОАЭ."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNlpGTEExYjRVRFBNNXVZRGtHWF9mbUN2ek1oOHhHNmR2MVh6ZlFWQUZyU0U4Y2gzT3ZhOUpwcnNDSFFlYTBYbjBRZTBoNlozT3A4VTRmX1dHX1pDRk11S0lPQkZyZHI1UHZiWG5pMERoMlhncFJlVkIxcFhmbTBxd2I5dFBYT2VUMWN5XzltcGh5bVNfb3Y3Tnpn?oc=5",
+    "timestamp": "2026-07-17T01:43:17.510025+00:00",
+    "status": "rejected",
+    "content_hash": "36720ad7ac57bc74ababafb12113a6ce",
+    "strict_hash": "36720ad7ac57bc74ababafb12113a6ce",
+    "fuzzy_hash": "74b2a7bb4f010ac2d93a80c57ecd2095",
+    "reason": "Новость о компании TOP Ships, отказывающейся от сделки в Дубае, не имеет прямой и значимой связи с жизнью города или региона для русскоязычного жителя, а также выглядит как узкоспециализированная финансовая информация без общественного интереса для канала о Дубае."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNelpMYklHNWdhV3BkcFc0bXNMT1NWX19RYjkwUXdBeHVSVXZ6WndGWmpLWkhaYllNVTU1OXFJVDJwaFR6OWxjem9hX01nVzBXc0lOZUIzeVV0TmxBc0V0ZkEySHROeEVoQXhHVG9BdzhuZEpYYzdWTDEwVDZlaXVPOHRpZEhCNmhUV3dmNTJhaFpYYTlaNnk0RkdBZUZuS0ZlOHZaNEFwdw?oc=5",
+    "timestamp": "2026-07-17T01:43:17.988042+00:00",
+    "status": "rejected",
+    "content_hash": "7bf8f58bfebeac329345ec9ed4ecc45e",
+    "strict_hash": "7bf8f58bfebeac329345ec9ed4ecc45e",
+    "fuzzy_hash": "7f3ac6d8bdad67abea2ebd39dccc90e0",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS0JQNWFXX2NpdTBaRjgtN2tqWU5HX3NhTmVoZUplelZ3bTBrOUZNaGhDdzFhVnpZdS1QSnZsU1NHLThlRjIyOVpMa1g3dl85MExDc2RQdmNSdlQ1QW1ZX2gxZHN4UVlyWnpfSVR3Y09fcWRFVzZGX2JyVWlyTGlVLWh0cVBhRHZjakJ1Q3VsSGcxVjMzNV9sZTR2YlNzVXY2bTAxb3h3ZUZsVXRFbGNSSzY5TGc2NHM1V2pFZ3NB0gHGAUFVX3lxTE9Hbk1ROUR4WTdlY2FkNjVNc1lPYU5xeTJtR25jRHQ4WDRQb0tSUUppREQtMEJnODh2SEJTS2lxLW05bU9oeGN0U09vZTZKMzRhQU55alEyMjZyaGU4OFNGTGRjS09QR2J2b2lNc256a0xGV2JNaTBidXhxcFNZYTRvdnlVVnB3bDBTU21mdmJTUGNjbHNDdV9zN1R2d3BaRnNQNk42amdLdi1tR3VuNjJ4ZUZ0ZjRDb050QzdRb2V1V3dfekZxQQ?oc=5",
+    "timestamp": "2026-07-17T01:43:19.711183+00:00",
+    "status": "rejected",
+    "content_hash": "bb47eaccefed3e01786416f354540ed2",
+    "strict_hash": "bb47eaccefed3e01786416f354540ed2",
+    "fuzzy_hash": "91b8a58da04e1f2ac30363cd955eaecd",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYUV3aG9FbWlIc3pwMktuQWVfbWdnVGxMMzNBVW9JRXpsZ2RRSE1qMnFaemQwdk5Nb1l3OUNieXBLTVpkVmlqLUdQNFRZN2lTbnVSeWxpMFJxczFvX090U2NvanJsNjVQeWxXY1Z4Y1FGejRvSkJlTVNweUx4cHV0TWc1by1SMXVEaW9HSUxWNHA3eUxqdEhGY2lSREN0eGZWazYzUVEwVG9MYW5vemtua0pVSlpFbTVsZGs1MEJfMmdBdw?oc=5",
+    "timestamp": "2026-07-17T01:43:21.442803+00:00",
+    "status": "rejected",
+    "content_hash": "8981cf4a306f07b13ccb22e4632b2a48",
+    "strict_hash": "8981cf4a306f07b13ccb22e4632b2a48",
+    "fuzzy_hash": "f72c8f7227ba458464591d15e3403fff",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
