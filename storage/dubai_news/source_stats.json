@@ -996,5 +996,32 @@
     "strict_hash": "4c8570fd1877fcbeb3e3cd885a045e2c",
     "fuzzy_hash": "5b6b1c5b897a1163d469aae44d787a8c",
     "reason": "approved"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbS1XN3BHbzFvbzVpTWdoWENuaHUtSlBzeHRLbkk1cmJuQ2tlZlFuVmJiZ0Y1TmJ1WnVoeVpkc0lnYkNQbTRjWWxBMXNQdVpKM2Zid1RZR0dTRHV1TjJncmw5Q1lESHhEQ0RNaWJRZjY5Rk9hZ0pXbTNTOHdHQ0JJT3I2T3BUdThJdktlbllGcXBNVzhwNGRtdVZSemJXcFBPU2k1Vlh1R18tVG5GaXlxSGtCeWVPVkNuU3JsUQ?oc=5",
+    "timestamp": "2026-07-17T14:11:43.195568+00:00",
+    "status": "rejected",
+    "content_hash": "90384f76792021589f66fea0139965be",
+    "strict_hash": "90384f76792021589f66fea0139965be",
+    "fuzzy_hash": "c4f8943e607b8f63c24277d76eb0adbf",
+    "reason": "Новость является дубликатом уже опубликованной новости под номером 2 (о водителе, превысившем скорость 230 км/ч и оштрафованном на 50 000 дирхамов). Отличается только источником и незначительной деталью про снятые номера, но суть идентична."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRFE2OTZxOTdkN2E0SGo1cFJMbFRiVUtiVU9pV20wQjdyT3cyTG95NmlHeWVHajZpUEl3cTg0Vm9IM09yRW9zVWdnOG5pN3drSDJnYjdGdXNyQTZUaGVlRWpLZEJzZ05ZOWhMMTVCRVU3a2QyUEJDZWpuZi1nMDNXTDcxLU9xNEYyOWtfay1qRGs0S0U5RDhPNGpoNDNoRnlmTmo1T1R6Vjc?oc=5",
+    "timestamp": "2026-07-17T14:11:45.336187+00:00",
+    "status": "rejected",
+    "content_hash": "57c7eaaa8cf61bf32ea4d757114d606e",
+    "strict_hash": "57c7eaaa8cf61bf32ea4d757114d606e",
+    "fuzzy_hash": "bedf2b7e2c47a85b3d4c9c7a7338a36c",
+    "reason": "Новость является дубликатом уже опубликованного материала (пункт 2 в контексте: \"Caught on camera: Dubai Police expose driver speeding at 230km/hr, facing Dh50,000 fine - Gulf News\"). Тема и суть идентичны, различается только источник."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ054US1iaE94OUl0Q1BmVUVVU2N6UGpIWnpSZWRyZ2t5bHF4a3Y0cnBVbjNQV0dCOTJaeG9BT0gyQk1QWHNSYW5ua2IxZ1hTNEJkSDQtX0Z0VzdJeXlqd3d2SnJqZ2FqbXNFdGJGSDVfVG9fOWxaaVNmazlCaVdiYmdZa3JudnZuMDROMHNhUQ?oc=5",
+    "timestamp": "2026-07-17T14:11:46.306846+00:00",
+    "status": "rejected",
+    "content_hash": "06e0172b72a26c5afabfa5ff34a183b4",
+    "strict_hash": "06e0172b72a26c5afabfa5ff34a183b4",
+    "fuzzy_hash": "10b3f247adde1b0695526ba3e5fa1ddf",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
