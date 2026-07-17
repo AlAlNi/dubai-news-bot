@@ -862,5 +862,32 @@
     "strict_hash": "ec82eab712f40f31ae79688093da7af7",
     "fuzzy_hash": "2dc89fcfff21004b1cc878ed19cf4cf6",
     "reason": "Новость представляет собой интервью/историю успеха предпринимателя, связанного с Абу-Даби, что соответствует региону ОАЭ. Однако текст имеет явный рекламно-имиджевый характер (продвижение личности и её бизнеса), не содержит общественно значимой информации для русскоязычных жителей Дубая, а также не является проверяемой новостью с явным источником фактов. Кроме того, это не дубликат предыдущих публикаций, но по сути — пресс-релиз."
+  },
+  {
+    "url": "https://www.perthnow.com.au/entertainment/influencers/stephanie-rice-retired-olympic-swimmer-breaks-year-long-silence-on-career-and-life-with-surprising-update-c-22593277",
+    "timestamp": "2026-07-17T21:21:01.625389+00:00",
+    "status": "rejected",
+    "content_hash": "75ae425f8bd9e0dc781d40fb8379d0a4",
+    "strict_hash": "75ae425f8bd9e0dc781d40fb8379d0a4",
+    "fuzzy_hash": "11f9d1c2abc303d303ff6ad7a2612dec",
+    "reason": "Новость о бывшей олимпийской чемпионке Стефани Райс, переехавшей в Дубай и делящейся обновлениями о жизни, имеет слабую связь с регионом (она просто живёт в Дубае), но не содержит общественно значимой информации для русскоязычных жителей — это скорее светская хроника без практической пользы. Кроме того, текст выглядит как пересказ западного таблоида, а не как проверяемая новость с явным источником."
+  },
+  {
+    "url": "https://www.nytimes.com/2026/07/17/world/middleeast/dubai-iran-war-migrant-workers-layoffs.html",
+    "timestamp": "2026-07-17T21:21:01.742825+00:00",
+    "status": "rejected",
+    "content_hash": "8a22f3c671a8ed365f99603216d42b54",
+    "strict_hash": "8a22f3c671a8ed365f99603216d42b54",
+    "fuzzy_hash": "e74aba12f0b814a1725aa63334798584",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://coingape.com/block-of-fame/pulse/triple-a-eyes-dubai-expansion-after-vara-in-principle-approval",
+    "timestamp": "2026-07-17T21:21:09.025261+00:00",
+    "status": "approved",
+    "content_hash": "3e31a7afecb38940d114a5f95787d27e",
+    "strict_hash": "3e31a7afecb38940d114a5f95787d27e",
+    "fuzzy_hash": "a6f49131b32ad4aa9f27344bcd2495a9",
+    "reason": "approved"
   }
 ]
