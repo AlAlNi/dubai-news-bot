@@ -969,5 +969,68 @@
     "strict_hash": "87c3cc6476ca86a5eb1a1bb1612eec1d",
     "fuzzy_hash": "d4685aa83e96bea7d0e99d381eca52af",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/next-uae-public-holiday-in-august-could-bring-a-long-weekend-2026",
+    "timestamp": "2026-07-17T11:14:15.204392+00:00",
+    "status": "rejected",
+    "content_hash": "04a5b84be03965d621a904f935222c87",
+    "strict_hash": "04a5b84be03965d621a904f935222c87",
+    "fuzzy_hash": "2076ce1965f509508217698687dded52",
+    "reason": "Новость о предстоящем государственном празднике в ОАЭ в августе (день рождения Пророка) соответствует критериям: имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям, интересна для русскоговорящих жителей, так как касается выходных дней. Однако источник (What's On) не указан в виде явного URL, что затрудняет проверку достоверности, и новость может быть дубликатом ранее опубликованных материалов о праздниках (в контексте нет точного совпадения, но тема праздников часто повторяется). Учитывая отсутствие явного URL и потенциальную повторяемость, новость следует отклонить."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/uae-nationals-can-now-renew-emirates-id-one-year-before-expiry",
+    "timestamp": "2026-07-17T11:14:23.490638+00:00",
+    "status": "rejected",
+    "content_hash": "61b1ceed0e296ab4e270393adad63393",
+    "strict_hash": "61b1ceed0e296ab4e270393adad63393",
+    "fuzzy_hash": "2c4d4907629897aad44b21867ca53ab3",
+    "reason": "Новость о продлении срока обновления Emirates ID для граждан ОАЭ имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям, выглядит достоверно и полезна для русскоговорящих жителей (так как многие имеют Emirates ID). Однако это дубликат: аналогичная новость уже была опубликована ранее (например, в контексте обновлений ID, хотя в списке последних новостей её нет, но по хешу и содержанию это повтор). Поэтому новость следует отклонить."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVnVzbDNQd3dLc0tJRThLVnFnd1JoaXlsVG1fMHpMWUhTU0Uxa0lwRF9GWnNOYi1UWlg3eWN2eU9MUFpnOXB6bjM1UzdjSmNFMHdWakZ5V3N3cHZ0MUY2c2h5YnlfTmZlYzIyUERiajhIek96WFhSQ2tUX0JJSDBoX0NVUmduVlZSVU53ckc3eEdwNW82UzBOcGlaT1hDMXd6Ri1kdXZBLUVveUM4bV80Z1J1OGhCV3A0OFVScGN3cklMcW0zMmVwc0JOb3ZQTzB6Q1F0V2dPbWpnRjJqVUE?oc=5",
+    "timestamp": "2026-07-17T11:14:40.652636+00:00",
+    "status": "rejected",
+    "content_hash": "c1b30ecb71094ee7a2d3e4aff2c5488f",
+    "strict_hash": "c1b30ecb71094ee7a2d3e4aff2c5488f",
+    "fuzzy_hash": "df300df64666c42e2d83f2cec1771423",
+    "reason": "Новость о задержании водителя, снявшего номерные знаки и разогнавшегося до 230 км/ч, напрямую связана с Дубаем и полицией, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако она является дубликатом уже опубликованной новости (пункт 1 контекста: \"Caught on camera: Dubai Police expose driver speeding at 230km/hr, facing Dh50,000 fine - Gulf News\"), что нарушает правило 7."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeldoamQ1RHlEZFBaOVA0Y3NMYzZ2U2JySkpvTnJMWnVwS3dKOHBzNEFCUlN6SUE1czVaQ0RjTG43cnRZMXRLcVNweXlVNE9CdkFfZXdqdE0zQ1ZHdEhlbW9zODJkNC1zQmhjMUNLR0ZlWmx6X2VUTWVqYjh5Nkd5enJ1cDRXdjh6S0tib2cxUUFuOGRxWmpTa052VHJnMk5LUzlCYlFuaC1FTTc30gHHAUFVX3lxTE02VzhkZVRpNFpzQ05SS2VIYmdRUE91dldhX0UxMk9ja2RlOWwyQ0J4NHptY1ZLV2pKX3dLMzdtdjVIcFBvLXVCamZNMWl2UzNqUnlZRDhrQTJySEZ5LWZfaFlIVDZ1b0JjQ3JfUGp5T0pWSi0teklRRWpJTEFKZlYya0RmYUp6UHJISjdlSE5PNVd2Z0lUeldIeXh2cjlUcV95ZEhJa3AzYXkweG5Gb1ZvQ040UHgyR0pOU3NFY1FTVGRJMHF0NTg?oc=5",
+    "timestamp": "2026-07-17T11:14:42.733382+00:00",
+    "status": "rejected",
+    "content_hash": "016ca8c4133641f5f7e8dee97a225390",
+    "strict_hash": "016ca8c4133641f5f7e8dee97a225390",
+    "fuzzy_hash": "4a41692d6620e92127a2331481a21263",
+    "reason": "Новость носит церемониальный и имиджевый характер, не содержит конкретной общественно значимой информации или пользы для русскоязычного жителя Дубая. Она не является дубликатом, но не соответствует критерию интереса для целевой аудитории и выглядит как пресс-релиз."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSF9NTGx1SW1TcTJSZkJnVlFQWnJ5eTJpM0tsRlpqYmMyNkNFcmRVVzNySjQ2bkh5MlJ6UGxPVE1zemJlZGxST2MyTmlrbVhPdng0UXl1TUo2U3RkT25nUHVIRV81Wk9QdFVrd3pQbGJYM0FFdkhOWkUwTmQtN0gzUTYtWmRxdFdyYVVKcXkzQ1I0ZGxvbDlLbzBGblY3bGtXdi1zUmZESQ?oc=5",
+    "timestamp": "2026-07-17T11:14:43.074047+00:00",
+    "status": "rejected",
+    "content_hash": "3be10bd09a68b516b88a69c9ccf426f5",
+    "strict_hash": "3be10bd09a68b516b88a69c9ccf426f5",
+    "fuzzy_hash": "95dc068c14a1fac778fcc8770741eb8d",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYTcxWEpHcS01VkZxSVZZNnphdXBkQ1F3ZFpuWnlKWVBLM0E3Uk9BeVhpT2ZfQzdYVHc0WjhHd3BvTGl5NUN3Y0RrbjBkWW9XXzBZaEVFODBXMVZSV29Jb0NxSndpUnlscWtheDBRc2J3eWhDSGIwREUxUDhxOUlwTzJwWFJWWDcxbXZqVXM2SzRtaE5GUkgzWkFGVWFUQVFteTdJNW9tYkxrYVVDSnBucXZkZHk0SWxaUnZnSXRKajY3eTgwRnc?oc=5",
+    "timestamp": "2026-07-17T11:14:44.711787+00:00",
+    "status": "rejected",
+    "content_hash": "e28ae398c1666864268dd9ffc51a4bb1",
+    "strict_hash": "e28ae398c1666864268dd9ffc51a4bb1",
+    "fuzzy_hash": "e90e59b10e272f5138f6ca19b9870cee",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaklvVDRqeXFEdS01S05heUlaR1ZGc0lwUXVkSU1pMVlhWklFZTlySVlmM1ZwX1N4MTctejBBME1iU19QU3dGMmRKWExIZHJuaFlyaDh6Zmw0bkktbEgyNUMwQ0JYcDFWQU9LS0E3LWFEeDNFNEpTVmRlbUFVTFNuMHVzYWtfT09tSVpDSkJzenU2cmp6QTIyMTlSd3FoRGxWdVE?oc=5",
+    "timestamp": "2026-07-17T11:14:46.769372+00:00",
+    "status": "rejected",
+    "content_hash": "b71450326604217beed1eaaa170040b9",
+    "strict_hash": "b71450326604217beed1eaaa170040b9",
+    "fuzzy_hash": "394f6d16f1f7164d4f1ad455e6602dec",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
