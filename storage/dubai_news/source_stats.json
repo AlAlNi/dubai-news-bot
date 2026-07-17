@@ -893,5 +893,23 @@
     "strict_hash": "ea4eae07e0072791ff6bf244c1664e51",
     "fuzzy_hash": "7e3146d6bba48f24f64142c59942c08e",
     "reason": "Новость о расширении компании CloverLeads из Дубая в Саудовскую Аравию имеет слабую связь с регионом, но по сути является корпоративным пресс-релизом без общественно значимой информации для русскоязычных жителей Дубая. Текст не содержит полезных сервисных данных или изменений, затрагивающих повседневную жизнь аудитории."
+  },
+  {
+    "url": "https://www.dailyrecord.co.uk/sport/football/football-news/graeme-souness-unmasks-extremely-rude-37442570",
+    "timestamp": "2026-07-17T19:39:16.553687+00:00",
+    "status": "rejected",
+    "content_hash": "811e8439b0b87421460a0ff281564ab7",
+    "strict_hash": "811e8439b0b87421460a0ff281564ab7",
+    "fuzzy_hash": "d2a9d54fd50a97746915d5d6a03fe499",
+    "reason": "Новость о футбольном эксперте и игроке сборной Англии не имеет никакого отношения к Дубаю, ОАЭ или региону GCC. Упоминание ресторана в Дубае является лишь незначительным контекстом, а не основной темой."
+  },
+  {
+    "url": "https://www.scmp.com/business/banking-finance/article/3360913/china-and-uae-cross-border-qr-payment-link-boost-global-yuan",
+    "timestamp": "2026-07-17T19:39:25.007066+00:00",
+    "status": "approved",
+    "content_hash": "9b5871333e37f99cc08c5e8d0120594e",
+    "strict_hash": "9b5871333e37f99cc08c5e8d0120594e",
+    "fuzzy_hash": "f8f626c4b0e2272176ff56c4df2c106c",
+    "reason": "approved"
   }
 ]
