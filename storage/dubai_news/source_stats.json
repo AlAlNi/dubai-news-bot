@@ -1091,5 +1091,86 @@
     "url": "https://www.cryptobreaking.com/revolut-gets-uae-in-principle",
     "timestamp": "2026-07-16T19:24:14.208240+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://inews.co.uk/news/world/1000-month-4-star-hotel-how-dubai-trying-lure-back-british-tourists-4642386",
+    "timestamp": "2026-07-17T01:00:47.983941+00:00",
+    "status": "rejected",
+    "content_hash": "827a86520e197b932b1e6d8fca308304",
+    "strict_hash": "827a86520e197b932b1e6d8fca308304",
+    "fuzzy_hash": "2fcc53f6b349e6a756e243c285e25a3c",
+    "reason": "Новость отклоняется, так как её основная тема — удар иранской ракеты по отелю в Дубае, что является прямым упоминанием военного конфликта и подрывает репутацию эмирата как безопасного убежища, нарушая правила 2 (политика и конфликты) и 4 (уважение к ценностям UAE). Кроме того, текст имеет признаки кликбейта и может быть неинтересен русскоязычным жителям, сосредоточенным на повседневной жизни."
+  },
+  {
+    "url": "https://www.thestar.com.my/news/world/2026/07/16/iran-us-escalate-in-gulf-but-release-of-american-signals-path-to-climb-down",
+    "timestamp": "2026-07-17T01:00:51.219299+00:00",
+    "status": "rejected",
+    "content_hash": "cc98c681793b32d0ba73e72ca112e151",
+    "strict_hash": "cc98c681793b32d0ba73e72ca112e151",
+    "fuzzy_hash": "7425371de48880cab46d8250f8afb075",
+    "reason": "Новость об эскалации между Ираном и США в Персидском заливе не соответствует тематике канала, так как основное содержание касается международной политики и конфликта, а не жизни в Дубае или ОАЭ. Правило 2 (политика и конфликты) нарушено."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU00tdjUtamxqY19Tbl9fLUM2UFVwVzRKaDhPODNTaE00OEdUUEJmeTBQOEU0VzlYb18wU1VJNjJ2U212UWNwRi0xRVQ0azU0MkxmVkVwc0EyY3ZaSW0zTi1rQm55VnFHVVlJZDB1SUNpTG81V1FuSnEwS2RmMnJnYzBMLVZrQVl2RUpkN20yb3NOelE2bjA1eHZ6U3Atdw?oc=5",
+    "timestamp": "2026-07-17T01:00:54.954771+00:00",
+    "status": "rejected",
+    "content_hash": "4566dc7fe5dac5f3b0b2c623cff59848",
+    "strict_hash": "4566dc7fe5dac5f3b0b2c623cff59848",
+    "fuzzy_hash": "2f8150d9b014b33adb94430825292858",
+    "reason": "Новость о бесплатной проверке автомобилей от Dubai Police соответствует тематике канала (связь с Дубаем, общественная польза), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако она является дубликатом: в контексте уже есть новость №4 «RTA, Dubai Police launch awareness campaign for truck drivers» — обе кампании направлены на безопасность дорожного движения и могут быть восприняты как повтор. Кроме того, источник CairoScene не является официальным и не предоставляет проверяемого URL для подтверждения фактов."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNajFwYVpzX2RsZ0Z2Mm41dXJKcWV3bEt1ay1qZTZITnZwUkl0enRXMEpTQVR2bHJpYTNIWmx0SmJqakEwVk8zUHNGX1EtcmpZZ2NVVVdhUzB2UU1fNE8yRl9HSlBpamowQlk1S0NjbDRoenZqUk9IMHZSSENKZThIa2xHY1poYjFxWVRvU2lqVQ?oc=5",
+    "timestamp": "2026-07-17T01:00:57.233330+00:00",
+    "status": "rejected",
+    "content_hash": "976d5938404cf5b275ad54f95b236a8e",
+    "strict_hash": "976d5938404cf5b275ad54f95b236a8e",
+    "fuzzy_hash": "fc64dcc282746752e152d9d76968fd5a",
+    "reason": "Cheap prefilter: слишком короткий текст (119 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZFdWMVZnWnF3U1lXZlY0bFY4QUZwWldwcFZmTmJiazMxOVJlY1g1bDhPRlFZMEcyOUhUQkdWRlVic195dExvYnk1QnhXMGVWcERldW5KcFVjaDRFY01tNlhrNnFObFJXbDVsSXVZdGplZ0gzNlBPWk04VXdSU1ctcmd3?oc=5",
+    "timestamp": "2026-07-17T01:01:01.230126+00:00",
+    "status": "rejected",
+    "content_hash": "b4292d6b181a1a5186e6a3eea9711076",
+    "strict_hash": "b4292d6b181a1a5186e6a3eea9711076",
+    "fuzzy_hash": "ff0523504e8e5ddd077a866edd6de59c",
+    "reason": "Новость о том, что компания TOP Ships Inc. отменила сделку с недвижимостью в Дубае, имеет слабую связь с регионом, но не представляет интереса для русскоязычного жителя Дубая (это корпоративная финансовая новость, не влияющая на повседневную жизнь). Кроме того, текст крайне короткий и не содержит проверяемых деталей, что вызывает сомнения в его достоверности и полезности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1dESnlfSkdKRnhkNGhJSExpNm9KVTlqZkgtd0paRkNyTHE2bHNoMHdmdTlrZ21GVnNPYUZmS2YtcXhFQzFpOU9sYVptM1F2cGZIQ2xSb2l2clVoQkRBZzIxaEpDVzk1aFpYQjFjV3dwOGt5QXZacUYxRDhnUldwbmJCMjNNQjdfYXNoMDRZRVBiY3Z4SW9CY09aUDJTdVN4M005ajBKa2ZPaTN0Qmc?oc=5",
+    "timestamp": "2026-07-17T01:01:02.349629+00:00",
+    "status": "rejected",
+    "content_hash": "8a796a97c877a072408d4e2c46d61afd",
+    "strict_hash": "8a796a97c877a072408d4e2c46d61afd",
+    "fuzzy_hash": "048ce1dd20bb1c5dde5a10ede62773fc",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3phNVRpZlZSWnJoVlhqSnJITzZicV9OY0Z0MW43cHZyRUM3RjhnekluRkJfTlhzNDFZR1NHaDU4Wm5paGZRcVJDTUZ3OHg0YU9yZmlVRWNkclFhNm9HLTh2RWRvaDlLdlVjQmc3bS11MHp3aHpCUHM0WlVyeExTLWhFS2JEUEtpT2pLWDg0QUpMdTF1TmxYTXR5ZW9nZ0VjZklUTVp5UXpKUkUtckxYcE55WQ?oc=5",
+    "timestamp": "2026-07-17T01:01:03.619836+00:00",
+    "status": "rejected",
+    "content_hash": "bcf709443e42fea0143a866abea2274f",
+    "strict_hash": "bcf709443e42fea0143a866abea2274f",
+    "fuzzy_hash": "9761fe1713729bccc6803dbeff213859",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MOUo0SGJaU05TQVlNUWJZaTk3R1dvU3lEcEVBMjRsV0ZFWlBoRVVLQVRZZC1JczVJa093ZXlxZTlkcHdjYlFReFlYQ0c2SlpwbXNhZXF6MW5iWkI0RDR6Tm44YTN3bkowQjZWUlVXcDJORllBZlg4TA?oc=5",
+    "timestamp": "2026-07-17T01:01:05.090173+00:00",
+    "status": "rejected",
+    "content_hash": "57e64317098ae80878910fb2e0cd7353",
+    "strict_hash": "57e64317098ae80878910fb2e0cd7353",
+    "fuzzy_hash": "850d7883c186afab4e9b79ad8caaa619",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOZUF3VkhDTjIwWnRaRE1oLU5Da1JSNXV1R2I4Mm5ZbjlQLTZBMnpYa3AtNjN1MlB4czJZOW1reXNnRkU2S1hMdjQxc3QzWFVaeklwX0NlSHJldXBZS0xDYU9BWDJfSXBpMnFjMW5aWGZKd0N0NlJHa2hXSjVTVXNfMjFxVHhrWm9hTUZFX2lMTEdvNkIwNEMtLWRTSW5HaUk4NlE5X1gyeHJJTU1PSHNOYWtmR2NSdk5Mdkx2aUh6c3IzZkM4bVgtYUMzcUYyNW1NTXM5UFhWTTZQcFNOc0huS1AyT3lDQU9WeURxVkZwalhzMTB0TjB1TDhEUzNKSGl1QURmNEpzOHY1Z0kzSDdTdjFCb3NJdVkzd0E?oc=5",
+    "timestamp": "2026-07-17T01:01:06.260178+00:00",
+    "status": "rejected",
+    "content_hash": "36a93ea35aaadb2d7edf5b4e0038c296",
+    "strict_hash": "36a93ea35aaadb2d7edf5b4e0038c296",
+    "fuzzy_hash": "d6d5f746ba70c1cd7afff0a9457d80eb",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
