@@ -849,5 +849,41 @@
     "strict_hash": "226b5f89a44ba321432cf6b6c1252eec",
     "fuzzy_hash": "8a04da068cbce3853235aaa4dd0962b7",
     "reason": "Новость частично связана с Дубаем (упоминание Султана Ахмеда Бин Сулайема, известной фигуры из ОАЭ), но основное содержание — о политике Малайзии в отношении корпоративного управления, что не представляет прямого интереса для русскоязычного жителя Дубая. Кроме того, текст обрывается и выглядит как фрагмент, что снижает его достоверность и полезность."
+  },
+  {
+    "url": "https://www.thesun.ie/tvandshowbiz/17310259/katie-price-holidays-cornwall-lee-andrews-dubai-prison",
+    "timestamp": "2026-07-18T00:55:13.243630+00:00",
+    "status": "rejected",
+    "content_hash": "1952f52216a4b3f3e6f1c03ebc31bdcf",
+    "strict_hash": "1952f52216a4b3f3e6f1c03ebc31bdcf",
+    "fuzzy_hash": "faa30860234b4fcc89f4a3a767c4d120",
+    "reason": "Новость о личной жизни британской модели и её муже не имеет никакого отношения к Дубаю, ОАЭ или региону GCC, а также не представляет интереса для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.moneycontrol.com/world/from-dubai-to-saudi-arabia-the-five-gulf-sites-iran-could-target-to-inflict-maximum-costs-on-the-us-article-13976933.html",
+    "timestamp": "2026-07-18T00:55:15.238835+00:00",
+    "status": "rejected",
+    "content_hash": "0b4ee919d37af4bcdd2fa9a272393ccd",
+    "strict_hash": "0b4ee919d37af4bcdd2fa9a272393ccd",
+    "fuzzy_hash": "db414ed7a08952df9328c5ccc127bed7",
+    "reason": "Новость не подходит для публикации, так как её основная тема — военно-политический конфликт между Ираном и США с упоминанием целей в регионе, что нарушает правило №2 (политика и конфликты). Кроме того, текст не имеет прямой связи с Дубаем или ОАЭ, а лишь упоминает Саудовскую Аравию, и не представляет интереса для русскоговорящего жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JZ3ZabHhYM2dwSk1mb3NWLWZWYlNpOTVYRVE1OWdLRjNBOVVRUGVyd2hLU2oweUk3Y0lPUVFPclY2SlhMOXpvdUZhQ1FsdGthOUpIdE54bVdNN0pfMkN2VHhWaFpSX0d5Y2dZZQ?oc=5",
+    "timestamp": "2026-07-18T00:55:16.477635+00:00",
+    "status": "rejected",
+    "content_hash": "40ad748be8532e274fccc37ae570fbe1",
+    "strict_hash": "40ad748be8532e274fccc37ae570fbe1",
+    "fuzzy_hash": "38947d6e0c254f9569fd21b14337b961",
+    "reason": "Cheap prefilter: слишком короткий текст (103 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOFkwNU9XQmxtLUlTZEQ4ZzlOLVpQWmNLUHhGVC1tMW1maVEtdHV6SHpPQUtVZjZJc0lOM0RVWEhoSlk0Z01Dekg4RG9sbHBTeVl6YmRTVGZyNU9Kc0dWdUlCQ2g1b2tLSk1CdU9iTy1tVzhydjNNbUJoS2c2LXJOUHZ5aHBSWW5TNTNaZ2pBbWRGbWxHdW5zREJJV1FIeGd3dEM4ekJzdXR6MG84bWxDdlFma0xBaU5OOTRxTFNJZXUyUdIByAFBVV95cUxQVDFnYWhTQzlfUFhTbXNIRnV4WEpFVGRVNFVfQ1NnbmZ4LTNDNkV5TEFNWWFpZUkwcWV0WVdsV2NhS3psZHNXdGxpUTU4X1NUWnpWd01tNXNRbEI5T0M2NVpMa1VieDRjWVFCRHo1TnktcTFhZnNRVWlISkw3MUtaTDM3akZrb0JSM2ZLNFc3VmlWdGlBa1ozY0piRzBYSk5CTnlFS1UxUlZNUjZQM3ZxY3o5YmFna1Z3V29wRXFNZlRNOEk2cG1Ycg?oc=5",
+    "timestamp": "2026-07-18T00:55:23.532531+00:00",
+    "status": "approved",
+    "content_hash": "b15a49a4510c9f1cd8b8d00d4cbd51ec",
+    "strict_hash": "b15a49a4510c9f1cd8b8d00d4cbd51ec",
+    "fuzzy_hash": "0bbfe31257f6e08b40b2260d56bc4c7e",
+    "reason": "approved"
   }
 ]
