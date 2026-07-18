@@ -771,5 +771,23 @@
     "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-real-estate-transactions-climb-to-dh117-billion-in-h1-2026",
     "timestamp": "2026-07-18T21:57:21.325985+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/katie-prices-father-in-law-joins-lee-andrews-in-dubai-jail-you-really-couldnt-make-this-up/articleshow/132477466.cms",
+    "timestamp": "2026-07-18T22:22:27.294087+00:00",
+    "status": "rejected",
+    "content_hash": "547bfcce88fb3481bbb28031a4be4fd1",
+    "strict_hash": "547bfcce88fb3481bbb28031a4be4fd1",
+    "fuzzy_hash": "cbb95497461933d21424a4433b2cd25c",
+    "reason": "Новость о семейных проблемах британской модели и её мужа в дубайской тюрьме не имеет общественной значимости для русскоязычных жителей Дубая, носит характер таблоидной хроники и не соответствует критерию полезности и интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://www.thesun.co.uk/tvandshowbiz/39797150/katie-price-handsome-podcaster-pal-shares-sweet-moment-harvey",
+    "timestamp": "2026-07-18T22:22:27.487978+00:00",
+    "status": "rejected",
+    "content_hash": "a8c879081665dc5a5c327e553e12af9d",
+    "strict_hash": "a8c879081665dc5a5c327e553e12af9d",
+    "fuzzy_hash": "626c3eb8bba14f606d5dcdde2c4804a0",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
   }
 ]
