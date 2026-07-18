@@ -912,5 +912,32 @@
     "strict_hash": "4d649636b9a2ab924e20ccd2bfdf2b8f",
     "fuzzy_hash": "faa57f4afdade82a718678f956a2b4af",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.thesun.ie/tvandshowbiz/17311674/lee-andrews-dad-thrown-in-same-prison-fraud",
+    "timestamp": "2026-07-18T04:24:42.686384+00:00",
+    "status": "rejected",
+    "content_hash": "846245444768997cb5e4598898daba68",
+    "strict_hash": "846245444768997cb5e4598898daba68",
+    "fuzzy_hash": "e87541a4215948e31cdbf8a5638bab01",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.thesun.co.uk/tvandshowbiz/39792298/lee-andrews-dad-thrown-in-same-prison-fraud",
+    "timestamp": "2026-07-18T04:24:44.064877+00:00",
+    "status": "rejected",
+    "content_hash": "4222c0128eaa2699aeb4825626d37e2f",
+    "strict_hash": "4222c0128eaa2699aeb4825626d37e2f",
+    "fuzzy_hash": "8f8fa366c3299cb660822d68e1f51f3e",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/rest-of-world/while-commercial-ships-and-oil-tankers-struggled-to-get-by-this-soviet-born-billionaires-300-million-superyacht-left-dubai-and-cruised-through-the-strait-of-hormuz-on-a-2000-mile-journey-to-the-maldives/articleshow/132462904.cms",
+    "timestamp": "2026-07-18T04:24:48.128189+00:00",
+    "status": "rejected",
+    "content_hash": "e92c0a5743b30e0759732bc9c9fa299d",
+    "strict_hash": "e92c0a5743b30e0759732bc9c9fa299d",
+    "fuzzy_hash": "ea626c9c221cd6b9b75e0955e80ba0e5",
+    "reason": "Новость о российском миллиардере и его суперъяхте, покинувшей Дубай и прошедшей через Ормузский пролив, не соответствует критериям: она не имеет прямой связи с жизнью в Дубае или ОАЭ (яхта лишь ушла из порта), затрагивает военно-политическую тему (напряжённость в проливе), носит характер светской хроники без общественной пользы для русскоязычного жителя, а также содержит признаки кликбейта и неясный источник."
   }
 ]
