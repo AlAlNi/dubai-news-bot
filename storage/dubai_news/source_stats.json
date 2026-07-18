@@ -789,5 +789,14 @@
     "strict_hash": "a8c879081665dc5a5c327e553e12af9d",
     "fuzzy_hash": "626c3eb8bba14f606d5dcdde2c4804a0",
     "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.sfgate.com/realestate/article/181-fremont-grand-penthouse-sf-22346665.php",
+    "timestamp": "2026-07-18T23:26:01.903655+00:00",
+    "status": "rejected",
+    "content_hash": "2f0ccc5ed4a6340e573fb0098fe0c10a",
+    "strict_hash": "2f0ccc5ed4a6340e573fb0098fe0c10a",
+    "fuzzy_hash": "0e5b4124123b26d11171600de3519402",
+    "reason": "Новость о пентхаусе в Сан-Франциско не имеет никакого отношения к Дубаю, ОАЭ или региону GCC, а также не представляет интереса для русскоязычного жителя Дубая."
   }
 ]
