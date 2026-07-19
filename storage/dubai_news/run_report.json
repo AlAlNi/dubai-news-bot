@@ -1,114 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-07-14T06:35:11.569015+00:00",
-    "finished_at": "2026-07-14T06:35:25.508897+00:00",
-    "duration_seconds": 13.94,
-    "success": true,
-    "counters": {
-      "attempts_made": 3,
-      "fetched": 3,
-      "rejected": 2,
-      "approved": 1,
-      "deepseek_calls": 4,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 3,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 3,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-07-14",
-      "daily": {
-        "published_per_day": {
-          "value": 3,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 33.33,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 88.0,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.baytoday.ca",
-            "events": 6,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.sootoday.com",
-            "events": 6,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.al-monitor.com",
-            "events": 4,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.dailyexcelsior.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 28,
-            "reject_rate": 89.29,
-            "duplicate_rate": 10.71
-          },
-          {
-            "source": "www.timeoutdubai.com",
-            "events": 9,
-            "reject_rate": 88.89,
-            "duplicate_rate": 11.11
-          },
-          {
-            "source": "whatson.ae",
-            "events": 10,
-            "reject_rate": 80.0,
-            "duplicate_rate": 10.0
-          },
-          {
-            "source": "timesofindia.indiatimes.com",
-            "events": 4,
-            "reject_rate": 75.0,
-            "duplicate_rate": 0.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-07-14T07:02:22.078014+00:00",
     "finished_at": "2026-07-14T07:03:10.862230+00:00",
     "duration_seconds": 48.784,
@@ -17738,6 +17630,84 @@
     "started_at": "2026-07-19T14:00:46.385507+00:00",
     "finished_at": "2026-07-19T14:00:52.779855+00:00",
     "duration_seconds": 6.394,
+    "success": false,
+    "counters": {
+      "attempts_made": 5,
+      "fetched": 0,
+      "rejected": 0,
+      "approved": 0,
+      "deepseek_calls": 0,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 0,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 3,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-07-19",
+      "daily": {
+        "published_per_day": {
+          "value": 1,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 100.0,
+          "target_min": 35.0,
+          "ok": true
+        },
+        "reject_rate_after_editor": {
+          "value": 76.92,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "news.google.com",
+            "events": 29,
+            "reject_rate": 82.76,
+            "duplicate_rate": 13.79
+          },
+          {
+            "source": "whatson.ae",
+            "events": 5,
+            "reject_rate": 80.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "emirateswoman.com",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-07-19T14:19:20.132908+00:00",
+    "finished_at": "2026-07-19T14:20:04.605037+00:00",
+    "duration_seconds": 44.472,
     "success": false,
     "counters": {
       "attempts_made": 5,
