@@ -1,113 +1,5 @@
 [
   {
-    "script": "rss_collect",
-    "started_at": "2026-07-14T13:04:49.145973+00:00",
-    "finished_at": "2026-07-14T13:05:35.683798+00:00",
-    "duration_seconds": 46.538,
-    "success": true,
-    "counters": {
-      "attempts_made": 3,
-      "fetched": 4,
-      "rejected": 3,
-      "approved": 1,
-      "deepseek_calls": 2,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 1,
-      "reserve_fetches": 1,
-      "rss_fetches": 4,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-07-14",
-      "daily": {
-        "published_per_day": {
-          "value": 5,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 20.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 85.42,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.baytoday.ca",
-            "events": 6,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.sootoday.com",
-            "events": 6,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.al-monitor.com",
-            "events": 4,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.dailyexcelsior.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.timeoutdubai.com",
-            "events": 12,
-            "reject_rate": 91.67,
-            "duplicate_rate": 8.33
-          },
-          {
-            "source": "news.google.com",
-            "events": 41,
-            "reject_rate": 87.8,
-            "duplicate_rate": 7.32
-          },
-          {
-            "source": "whatson.ae",
-            "events": 9,
-            "reject_rate": 77.78,
-            "duplicate_rate": 11.11
-          },
-          {
-            "source": "timesofindia.indiatimes.com",
-            "events": 4,
-            "reject_rate": 75.0,
-            "duplicate_rate": 0.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
     "script": "auto_notify",
     "started_at": "2026-07-14T14:04:30.406634+00:00",
     "finished_at": "2026-07-14T14:04:31.531083+00:00",
@@ -17501,6 +17393,78 @@
             "events": 25,
             "reject_rate": 80.0,
             "duplicate_rate": 8.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 4,
+            "reject_rate": 75.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "emirateswoman.com",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-07-19T18:02:08.284325+00:00",
+    "finished_at": "2026-07-19T18:02:08.296416+00:00",
+    "duration_seconds": 0.012,
+    "success": true,
+    "status": "no_posts",
+    "counters": {
+      "telegram_calls": 0,
+      "telegram_failures": 0,
+      "published": 0,
+      "duplicate_skips": 0,
+      "no_posts": 1
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-07-19",
+      "daily": {
+        "published_per_day": {
+          "value": 1,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 100.0,
+          "target_min": 35.0,
+          "ok": true
+        },
+        "reject_rate_after_editor": {
+          "value": 78.57,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "news.google.com",
+            "events": 24,
+            "reject_rate": 79.17,
+            "duplicate_rate": 8.33
           },
           {
             "source": "whatson.ae",
