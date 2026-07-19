@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/07/review-andaliman-makes-a-strong-case-for-putting-indonesian-food-on-your-radar",
-    "timestamp": "2026-07-17T07:09:52.319431+00:00",
-    "status": "rejected",
-    "content_hash": "70b926d260cf768e67ea79ee15b260c4",
-    "strict_hash": "70b926d260cf768e67ea79ee15b260c4",
-    "fuzzy_hash": "262ff86f03de7f5db88bb696542c872d",
-    "reason": "Новость представляет собой ресторанный обзор, который не содержит общественно значимой информации, а скорее напоминает рекламный материал или пресс-релиз. Кроме того, отсутствует явная проверяемая ссылка на источник, а тема не представляет интереса для русскоязычного жителя Дубая в качестве актуальной новости."
-  },
-  {
-    "url": "https://emirateswoman.com/13-stress-free-visa-on-arrival-destinations-for-uae-residents",
-    "timestamp": "2026-07-17T07:10:00.756497+00:00",
-    "status": "rejected",
-    "content_hash": "709d8447155be886b0ef11b49f1ce7b9",
-    "strict_hash": "709d8447155be886b0ef11b49f1ce7b9",
-    "fuzzy_hash": "bce94b73c01c8c269099e777a32fed66",
-    "reason": "Новость представляет собой подборку безвизовых направлений для резидентов ОАЭ, что полезно для русскоязычных жителей Дубая, планирующих поездки. Однако она не имеет прямой связи с Дубаем или ОАЭ (кроме упоминания резидентов), а также выглядит как переработанный контент с сайта Emirates Woman, что может указывать на рекламный или неоригинальный характер. Кроме того, отсутствует проверяемый источник с явным URL, а тема не является срочной или общественно значимой новостью о регионе."
-  },
-  {
-    "url": "https://www.devdiscourse.com/article/entertainment/3951511-mystery-booms-in-dubai-a-non-event",
-    "timestamp": "2026-07-17T07:10:18.283687+00:00",
-    "status": "rejected",
-    "content_hash": "db0de3d49fffeebf5037d476ccb932fa",
-    "strict_hash": "db0de3d49fffeebf5037d476ccb932fa",
-    "fuzzy_hash": "0c5792ed6f33db0821fe4562054013e0",
-    "reason": "Новость касается официального опровержения слухов о взрывах в центре Дубая, что напрямую связано с регионом и имеет общественный интерес. Однако тема «взрывов» и «громких звуков» может быть воспринята как потенциально тревожная и неуважительная к стабильности ОАЭ, а также не несёт практической пользы для русскоязычного жителя (скорее, создаёт ненужный информационный шум). Кроме того, текст обрывается и не содержит проверяемого источника."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdWRyN2t0ZmxUc1RaSXpsUS1RMkdWS3dzWjBIMnAyRXE1VnVmQi0ySXI1M3VZallnb2ZpTkVqVVpGSDYtbFdQUzFiVmU1UXV5SkxpblM3RC1zLV91VVNDd2tfLTNHc3otaUNXM3dCN3NvbFBob1BHSGhPcnVfSEVxZHcycnZyVmhnTHhxRGJ4eThXVTNGRDdNN25yYlBRaHpENS0tU3FXZ21fdkEtTlR2NXVadFZDSXM?oc=5",
-    "timestamp": "2026-07-17T07:10:19.748632+00:00",
-    "status": "rejected",
-    "content_hash": "bead307298290293a00695238a0880d5",
-    "strict_hash": "bead307298290293a00695238a0880d5",
-    "fuzzy_hash": "854cca55ace35d7c3a08f81cf842bb94",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
     "url": "https://propertynews.ae/uae/sharjah/sharjahs-central-and-eastern-regions-record-dh1-1-billion-in-h1-2026-property-transactions",
     "timestamp": "2026-07-17T09:45:49.058363+00:00",
     "status": "approved",
@@ -717,5 +681,10 @@
     "strict_hash": "7087f980f5afb5f04dcfa2092c7849fe",
     "fuzzy_hash": "0ea05bc6c32b7f03192c7ef72246b36d",
     "reason": "Новость рассказывает о строительстве крупного аэропорта в Европе, который потенциально может конкурировать с Дубаем. Связь с регионом лишь косвенная (упоминание Dubai International Airport как конкурента), основная тема не про Дубай или ОАЭ, а про европейский инфраструктурный проект. Новость не представляет интереса для русскоговорящего жителя Дубая, так как не содержит информации, полезной или актуальной для жизни в эмирате."
+  },
+  {
+    "url": "https://emirateswoman.com/how-two-sisters-built-a-global-abaya-label-muse",
+    "timestamp": "2026-07-19T09:09:50.160577+00:00",
+    "status": "published"
   }
 ]
