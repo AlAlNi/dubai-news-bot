@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.outlookindia.com/international/iran-war-hits-dubai-jobs-indian-workers-face-layoffs-and-pay-cuts",
-    "timestamp": "2026-07-18T19:41:35.461317+00:00",
-    "status": "rejected",
-    "content_hash": "b1673f06eec12ec1bf1f9df1e57a2f3e",
-    "strict_hash": "b1673f06eec12ec1bf1f9df1e57a2f3e",
-    "fuzzy_hash": "0111c0d067f99e63dfccb3a7a7948dd3",
-    "reason": "Новость нарушает правило №2 (политика и конфликты), так как основная тема — военные действия между Ираном, США и Израилем, а также их последствия для рынка труда в Дубае. Кроме того, заголовок носит кликбейтный и тревожный характер, что противоречит правилу №5 (естественность и достоверность). Связь с регионом есть, но из-за политического контекста и потенциального неуважения к стабильности ОАЭ (правило №4) новость не может быть опубликована."
-  },
-  {
-    "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-real-estate-transactions-climb-to-dh117-billion-in-h1-2026",
-    "timestamp": "2026-07-18T19:58:25.134341+00:00",
-    "status": "approved",
-    "content_hash": "1dd7e48dab856c54412f0ebc6ce83f70",
-    "strict_hash": "1dd7e48dab856c54412f0ebc6ce83f70",
-    "fuzzy_hash": "632aab0b2c2f0b9139a7bbac22cc7e3c",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/abu-dhabi/modon-properties-achieves-dh1-25-billion-in-sales-as-hudayriyat-island-homes-sell-out-in-24-hours",
     "timestamp": "2026-07-18T20:42:44.991517+00:00",
     "status": "approved",
@@ -648,5 +630,10 @@
     "strict_hash": "d91a6eb6ef7c06b79fba1191c7ccc14f",
     "fuzzy_hash": "ab54bb1eda574e7d385babb95191521b",
     "reason": "Новость рассказывает о том, как работники в Дубае планируют смотреть финал Чемпионата мира по футболу, что актуально для русскоязычных жителей, не содержит политики или рекламы, основана на материале Khaleej Times. Однако тема (просмотр финала ЧМ) не является срочной или общественно значимой, а также не соответствует критерию «интерес для русскоговорящего жителя Дубая» в контексте текущих новостей — это скорее развлекательный контент, а не полезная информация. Кроме того, в списке опубликованных новостей нет явного дубликата, но новость выглядит как повторяющаяся тема (ранее уже были материалы о ЧМ)."
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/bitdelta-securities-secures-full-cma-category-5-license-in-the-uae-establishes-regulated-local-office-in-dubai-302828677.html",
+    "timestamp": "2026-07-20T20:26:12.929110+00:00",
+    "status": "published"
   }
 ]
