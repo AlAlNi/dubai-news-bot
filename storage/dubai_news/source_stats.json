@@ -612,5 +612,23 @@
     "strict_hash": "016620f3eb7399c3aeb4e41b947619c5",
     "fuzzy_hash": "c925e99e4244a7b4fde33de9a548fa68",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.livemint.com/news/world/who-was-rajiv-meherish-indian-origin-founder-of-the-popular-dubai-based-restaurant-chain-raju-omlet-who-passed-away-11784526831472.html",
+    "timestamp": "2026-07-20T19:12:53.673464+00:00",
+    "status": "rejected",
+    "content_hash": "c3e67b452ff01960aac42e9c73afae79",
+    "strict_hash": "c3e67b452ff01960aac42e9c73afae79",
+    "fuzzy_hash": "cfb950853ca7a605f33248334d19096b",
+    "reason": "Новость является прямым дубликатом уже опубликованной новости №9 («Founder of Dubai's Raju Omlet, Rajiv Meherish, passes away»). Тот же человек, то же событие, та же тема — разница только в заголовке и незначительных деталях текста. Публикация нарушает правило №7 о дубликатах."
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/bitdelta-securities-secures-full-cma-category-5-license-in-the-uae-establishes-regulated-local-office-in-dubai-302828677.html",
+    "timestamp": "2026-07-20T19:12:59.863218+00:00",
+    "status": "approved",
+    "content_hash": "3d0d996cfba193a3e0da7dc787158287",
+    "strict_hash": "3d0d996cfba193a3e0da7dc787158287",
+    "fuzzy_hash": "fc348d631d4eaeff54a2c5006c63d3f8",
+    "reason": "approved"
   }
 ]
