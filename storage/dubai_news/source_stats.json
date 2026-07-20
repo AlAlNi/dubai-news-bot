@@ -504,5 +504,23 @@
     "strict_hash": "408895750d1c342a4db0cfcf1117deba",
     "fuzzy_hash": "6e389c075bd9ce6b3f8aac0a70c4c7a5",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTHVZLW1zaXlxb2VqMXYzRVpTQmplMGV4YTZqTmdiQ1Y0Q1dYcTdROEVzR3VEV1lzZkEtS0JRZjh0YzRXTkJsMnVVQjY1T0xoejJNNkFrR05waUF0WDhUYmttamZ4TkpCa1BNZTZRWnNGZWR4QU5UVVl2Sm50MDNJYWVTd2UzU0dsSEdDeVJCdFFLVTBOendsLTUyMmtYT2NHcGpubHZtWHU1clk?oc=5",
+    "timestamp": "2026-07-20T13:25:43.447430+00:00",
+    "status": "rejected",
+    "content_hash": "00429803bc4bcb1829c1b644945500f1",
+    "strict_hash": "00429803bc4bcb1829c1b644945500f1",
+    "fuzzy_hash": "9eda2d26a55dc1f3ee691f2422066f42",
+    "reason": "Новость о запуске годовой многократной визы для Умры в Саудовской Аравии не имеет прямой связи с Дубаем или ОАЭ, так как касается исключительно правил Саудовской Аравии. Для русскоязычного жителя Дубая эта информация не является актуальной или полезной, так как не влияет на жизнь в регионе."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTTM5UjYybE5Na1JUUHc2VFR2ckFrblJjSkZsd3EzUHdWbDB4eWEyZkJVOHFOWlp4TWJpS3dRN3gxVkxkTnU0QUo3dThBRUMzaG1uNEVSVmJOUUhTTjVZbE9XdzR0XzB1QUFuWFlFak16bGk3NXVsaDhXTEl2RGQ3NTEtd2R5TC01Znl3ZkFkWHVjZHNhbnI5d1hVMA?oc=5",
+    "timestamp": "2026-07-20T13:25:50.664752+00:00",
+    "status": "approved",
+    "content_hash": "28470997d579ae8dcceb7e225eb57dd4",
+    "strict_hash": "28470997d579ae8dcceb7e225eb57dd4",
+    "fuzzy_hash": "15a5fff1af04a9f7ecb029152525141e",
+    "reason": "approved"
   }
 ]
