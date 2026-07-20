@@ -455,5 +455,41 @@
     "strict_hash": "3b25dc88b0655e0cd9229542b855162e",
     "fuzzy_hash": "33e5728d299b0e7867522e6377763be4",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/inside-arkhe-dubais-new-all-in-one-wellness-performance-club",
+    "timestamp": "2026-07-20T08:37:57.953573+00:00",
+    "status": "rejected",
+    "content_hash": "66300a15e34802c8677f179bdb4fe735",
+    "strict_hash": "66300a15e34802c8677f179bdb4fe735",
+    "fuzzy_hash": "f5ba83553cc4d8d7f9715bd84c4e04e6",
+    "reason": "Новость представляет собой рекламно-описательный материал о новом фитнес-клубе в Дубае, без общественно значимой информации или пользы для широкой аудитории. Текст явно скопирован с сайта What's On и не содержит проверяемых фактов, кроме самого факта открытия, что делает его похожим на пресс-релиз."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/new-hotels-opening-in-the-uae",
+    "timestamp": "2026-07-20T08:38:04.344254+00:00",
+    "status": "rejected",
+    "content_hash": "92b497599581cf52d3c9d087c4386e79",
+    "strict_hash": "92b497599581cf52d3c9d087c4386e79",
+    "fuzzy_hash": "a0035f2cb532d57f05ae3a51d038d0f3",
+    "reason": "Новость представляет собой анонс о 55 отелях, открывающихся в ОАЭ, что напрямую связано с регионом и может быть интересно русскоязычным жителям, интересующимся туризмом и отдыхом. Однако текст выглядит как рекламный пресс-релиз без конкретной общественно значимой информации, а источник (What's On) не предоставляет проверяемых фактов или ссылок, что нарушает правило 9."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/fun-things-to-do-in-abu-dhabi-this-week-july-20-to-23",
+    "timestamp": "2026-07-20T08:38:09.420639+00:00",
+    "status": "rejected",
+    "content_hash": "8717c53adad9fc9770f06bf6845a766d",
+    "strict_hash": "8717c53adad9fc9770f06bf6845a766d",
+    "fuzzy_hash": "3bd26dcf17516ab6be6f0021ca1bb47e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX2hEWTM0YVhPaEVVemVCMFBKTm5fb0czNlhLakxyelVRZzc4WmZ0ajNfU2lCTlJsdDZIZEJ1MlRnSVZKMGE0MnR2VTFJekx4eG5MSzhZNTJSdDRjQ19MWXlNZVRsMmVHcWdaNEVPMmJxeUY4OF9BWld1OEI1OERTNElFQlRRX1hXTVREc09DazZ0dw?oc=5",
+    "timestamp": "2026-07-20T08:38:17.785681+00:00",
+    "status": "approved",
+    "content_hash": "cc2bc07c0989a29e95b147e483523b5a",
+    "strict_hash": "cc2bc07c0989a29e95b147e483523b5a",
+    "fuzzy_hash": "48052f5e102515eb4af9c9e67a3678b9",
+    "reason": "approved"
   }
 ]
