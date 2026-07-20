@@ -1,114 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-07-14T22:29:56.955512+00:00",
-    "finished_at": "2026-07-14T22:30:05.573276+00:00",
-    "duration_seconds": 8.618,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 1,
-      "rejected": 1,
-      "approved": 0,
-      "deepseek_calls": 1,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 1,
-      "reserve_fetches": 4,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-07-14",
-      "daily": {
-        "published_per_day": {
-          "value": 7,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "source_share_official": {
-          "value": 14.29,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 84.51,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.cnbctv18.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "www.sootoday.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.baytoday.ca",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.dailyexcelsior.com",
-            "events": 5,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.timeoutdubai.com",
-            "events": 12,
-            "reject_rate": 91.67,
-            "duplicate_rate": 8.33
-          },
-          {
-            "source": "news.google.com",
-            "events": 47,
-            "reject_rate": 89.36,
-            "duplicate_rate": 8.51
-          },
-          {
-            "source": "whatson.ae",
-            "events": 7,
-            "reject_rate": 85.71,
-            "duplicate_rate": 14.29
-          },
-          {
-            "source": "timesofindia.indiatimes.com",
-            "events": 4,
-            "reject_rate": 75.0,
-            "duplicate_rate": 0.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-07-14T22:45:01.965451+00:00",
     "finished_at": "2026-07-14T22:45:42.929585+00:00",
     "duration_seconds": 40.964,
@@ -17050,6 +16942,84 @@
             "events": 24,
             "reject_rate": 79.17,
             "duplicate_rate": 8.33
+          },
+          {
+            "source": "whatson.ae",
+            "events": 4,
+            "reject_rate": 75.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "emirateswoman.com",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-07-20T01:07:25.798287+00:00",
+    "finished_at": "2026-07-20T01:07:43.795227+00:00",
+    "duration_seconds": 17.997,
+    "success": false,
+    "counters": {
+      "attempts_made": 5,
+      "fetched": 9,
+      "rejected": 9,
+      "approved": 0,
+      "deepseek_calls": 2,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 0,
+      "google_rss_fetches": 9,
+      "reserve_fetches": 9,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-07-20",
+      "daily": {
+        "published_per_day": {
+          "value": 0,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 100.0,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "news.google.com",
+            "events": 33,
+            "reject_rate": 84.85,
+            "duplicate_rate": 6.06
           },
           {
             "source": "whatson.ae",
