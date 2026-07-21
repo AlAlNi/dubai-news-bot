@@ -904,5 +904,23 @@
     "strict_hash": "e9f90d1f466d8f4b0e086704d14d6cd7",
     "fuzzy_hash": "61fc631d888ad0ba1c0cb467f0c3942f",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/we-tried-the-barrel-roasts-sunday-roast-heres-our-review",
+    "timestamp": "2026-07-21T14:54:54.880287+00:00",
+    "status": "rejected",
+    "content_hash": "6941ebcbf3448b2249773fa0e3aff802",
+    "strict_hash": "6941ebcbf3448b2249773fa0e3aff802",
+    "fuzzy_hash": "fc816b17fea6482f7dffa06fe5df802a",
+    "reason": "Новость представляет собой субъективный обзор воскресного обеда в ресторане Дубая, что является рекламно-развлекательным контентом, а не общественно значимой новостью. Она не соответствует критериям полезности для русскоязычного жителя и выглядит как завуалированная реклама."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/gipsy-kings-are-coming-to-dubai-this-october",
+    "timestamp": "2026-07-21T14:55:08.124704+00:00",
+    "status": "approved",
+    "content_hash": "b5ef8cb4b92df49f9d8bcad339018737",
+    "strict_hash": "b5ef8cb4b92df49f9d8bcad339018737",
+    "fuzzy_hash": "22ff721d6e0951f5cfe1dfa4e5ca49fe",
+    "reason": "approved"
   }
 ]
