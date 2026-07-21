@@ -981,5 +981,14 @@
     "strict_hash": "f946e54a4bbbf6102d3dbec5131843d7",
     "fuzzy_hash": "d3378c333e183c7ff1788400147169f7",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRnF2RXFtRnhXQXpVVzFlZEI4YUVoNi1WVmYycFViLTNQZmFhVllOTklTeVZLbDFzbjlqamZ5WFVrMW9ONmpBYzVrVzZKN3o2MUxYOU9YaDJmMVg2ZU1PVlFGV09vY1ZHMmR0NXQwV0JCZEltZWx2TnU4c0Q1bTdmbkU5XzctQU9KM0phSFg3eDA3T1BoY2JZUU9VWW5VUQ?oc=5",
+    "timestamp": "2026-07-21T18:08:52.178837+00:00",
+    "status": "rejected",
+    "content_hash": "396d2e83e21da144827e4be3607ddb88",
+    "strict_hash": "396d2e83e21da144827e4be3607ddb88",
+    "fuzzy_hash": "60dc78bd0f488092106f430de27853e1",
+    "reason": "Новость о модернизации освещения на пешеходных мостах в Дубае имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит достоверно и может быть полезна русскоязычным жителям. Однако она является дубликатом уже опубликованной новости №4 (Dubai approves five-year plan to expand pedestrian and cycling network by 2030), так как обе касаются инфраструктурных улучшений для пешеходов, хотя и с разными деталями. Учитывая строгое правило о дубликатах, новость следует отклонить."
   }
 ]
