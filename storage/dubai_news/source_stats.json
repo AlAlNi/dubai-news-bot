@@ -1040,5 +1040,32 @@
     "strict_hash": "3bef2492eb869c5ce3d9abd896376b18",
     "fuzzy_hash": "d52df2d25304cc42f8f003b12796fcd5",
     "reason": "approved"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRk1obkJEZXlBZHdwTklFX3gwYTNQYTR0aXY5d2VkcHJaQTRPdnh5MmtuUHlJN3RfNl9CQjZqWEhkUnpJTzdjS3hjWndtblNlVTRLTUsxbDNRZ3U4WnJqamNvVy1UQXNpVDhHSElyMlcwc1gxenlFTUJYdkJ6LXZTZHpXVGkxMjZLTF8tclBURHAtMnRUenhXZnljLVhtaUhYMWs3N2tyNmNfRWNlaC11ZXFlYlBPRi1TcjhOdl9JMVJ0UHVMczdVSmU2RHpWQdIB4AFBVV95cUxPU05URm9vb2g4NEV4dG1XZEpsOFpSSlFGWUlOSnE2UVJKSVJTN0x4c0trb2FHTzhJNDlwc1FWaHdxajRLcTVZcnp1Y3Z6TE95MGtNa2N4WlBOTGVWdTZnM0w5QVJ2MWhjR3dZZTFoczUtNG1CR1ZDQVlReHlFR0R1WG9wYWVFb2cya2VlZTdZVG50VDFZRl9IS2dEU2h0RnVtTU5VWi1JNXRrc2ZxSnJVRHIwaDdiWlJTaWRSWElaMFZndUtoM0NpampyX0RyNjVabnd1aF8xRWFXWEtDYzFueQ?oc=5",
+    "timestamp": "2026-07-21T22:48:20.307212+00:00",
+    "status": "rejected",
+    "content_hash": "1392095527607e7203d0e071a70a76ea",
+    "strict_hash": "1392095527607e7203d0e071a70a76ea",
+    "fuzzy_hash": "219d24b93ed22d60c11e8dd263c46577",
+    "reason": "Новость о программе поощрения жителей Дубая за приглашение гостей напрямую связана с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, выглядит естественно и полезна для русскоязычных жителей. Однако она является дубликатом: аналогичная информация уже публиковалась ранее (например, в контексте туристических стимулов Дубая), и хеш контента совпадает с ранее проверенными материалами."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdmQ4OVl6ZEc2YUVDZ0REd1NnOVdLSW00TE5PRmswc2xNaTV4bF9IY2NJMTRnS0JXenl0QjFqa3lKSlNScTAwUnlzejlZdTV3Q0NGT3dQeUFyYS1LNU9fUFFZQ2RGeFg2VTZhVk8xRXFNd050Qzl1OVVFUkdRN1drb193RHdXSE5Sd2Z3?oc=5",
+    "timestamp": "2026-07-21T22:48:22.462977+00:00",
+    "status": "rejected",
+    "content_hash": "8de86ca966f754f40432a0c050c985b3",
+    "strict_hash": "8de86ca966f754f40432a0c050c985b3",
+    "fuzzy_hash": "d80caa86251041d3de25a1008360220f",
+    "reason": "Новость является рекламным пресс-релизом компании Luxury Car Rental Dubai, не содержит общественно значимой информации, а лишь продвигает услуги аренды Lamborghini. Это нарушает правило 3 (рекламный характер) и правило 6 (неинтересно для русскоговорящего жителя, так как не несет полезной или новостной ценности)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5iWmI5Z2ZlZ2FsVGtxYTgyV2w0VDkwSXlFTG11emlzMVloZVRIUHBFRi1sT3oxeS1idlQyeTViTGNHY2lJbGlRbTdaMk81TTYzSF9kY1hUOWtWN3BwbW1WSS1vd2tiWExpQ2V4empZQlRnYTlobkt1TGRLNk8?oc=5",
+    "timestamp": "2026-07-21T22:48:22.798890+00:00",
+    "status": "rejected",
+    "content_hash": "027653128f4d44644d1484caa41bb957",
+    "strict_hash": "027653128f4d44644d1484caa41bb957",
+    "fuzzy_hash": "ea562b73e807f27f342287e33c3fd962",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
