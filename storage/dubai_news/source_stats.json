@@ -742,5 +742,50 @@
     "strict_hash": "69809e127b4c27e33fcd2a9a79dbcc46",
     "fuzzy_hash": "3abdfeb5d586761f1b29cd524fb7f61d",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/indoor-breakfast-dubai",
+    "timestamp": "2026-07-21T04:58:10.397020+00:00",
+    "status": "rejected",
+    "content_hash": "08ec4c8f61eb2fef0e75c7cf7576bc61",
+    "strict_hash": "08ec4c8f61eb2fef0e75c7cf7576bc61",
+    "fuzzy_hash": "6de10d7cc8408a5ce9544cac7c2e7fa7",
+    "reason": "Новость представляет собой подборку ресторанов для завтрака в помещении, что является рекламно-развлекательным контентом, а не общественно значимой новостью. Отсутствует явная связь с актуальными событиями или польза для русскоязычного жителя, кроме общего гастрономического интереса, что не соответствует критериям информационного канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mMjI4UGozMjg5Wk9GYW9BMGRZWTNGcDdDQUNuTXVIYV96djFlSzZoRXMzckh5ZXhzdl9OLWtFY3NDbnBLb2JzMm5ZNXVBTDVxOGJNakROREgyWTY0LWJyRk5abW90Y1Fx?oc=5",
+    "timestamp": "2026-07-21T04:58:27.864619+00:00",
+    "status": "rejected",
+    "content_hash": "ba992ea29451e160f8562d49114d69da",
+    "strict_hash": "ba992ea29451e160f8562d49114d69da",
+    "fuzzy_hash": "85c0616f8205163db2220e963ba0a455",
+    "reason": "Cheap prefilter: слишком короткий текст (117 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkR3M1alNRSVR3d2FGbmpwaDQtNlFVREJJYzdQbmI3UkhTYzZSb1V3LUxZR3paYlp6OHU0VUJsWXBlY3A0M1BhdGJSZ0xYTzBnVlM0aXRicktkMWFPeDhr?oc=5",
+    "timestamp": "2026-07-21T04:58:31.111332+00:00",
+    "status": "rejected",
+    "content_hash": "eb38b1fe048602f2b4feafb714eb466a",
+    "strict_hash": "eb38b1fe048602f2b4feafb714eb466a",
+    "fuzzy_hash": "dc28a0e758191c3ed14baf7d19da717b",
+    "reason": "Новость представляет собой подборку ресторанов для завтрака, что является полезным контентом для русскоговорящих жителей и туристов Дубая, не содержит политики, рекламы или дубликатов среди опубликованных материалов. Однако она больше похожа на развлекательный гид, а не на оперативную новость, и может быть воспринята как рекламный материал, что нарушает правило 3."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ldEdhQklLNzJfUGxtakxGYVJKRU53VkZSSGZNXzdOLWlfM2czWWwwd2hyaDFubEtoaW84RUxOSmRuZzY3ZGpwcHFZamVLZEtIY3V3UFUybjRrMDNQVUMxNzFJbGp4YzNubGJhOTV0LWlOcDlq?oc=5",
+    "timestamp": "2026-07-21T04:58:33.262548+00:00",
+    "status": "rejected",
+    "content_hash": "8c7c8c54b669e5f5880e6dc7212f2d62",
+    "strict_hash": "8c7c8c54b669e5f5880e6dc7212f2d62",
+    "fuzzy_hash": "5989e8cc94463f958053553b984dd5b7",
+    "reason": "Новость об открытии итальянского ресторана в Дубае имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, а также не является дубликатом уже опубликованных материалов. Однако текст крайне короткий и не содержит проверяемых деталей (адрес, дата открытия, источник), что делает его похожим на анонс без общественно значимой ценности для русскоязычного жителя."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS0xPUDh4alJlamEtQU9SeWV4YnZRZjJQaU5RMU9zYk42ZmRRQkpQZjlBQ3gyWWFuQXBBQTZkb3Z6QW8yQmNkUWZtQVBPT3RySmF3cjZOazVVM1RlTnRxTzNyYzdralIyU3E4dmh0ZkUxWHUwQTFkV21VNUlPSEk3MGc0NlFacGx0OHFOSW5PZmU5YXlubUg5SHdMYUVCMmJJZ0E?oc=5",
+    "timestamp": "2026-07-21T04:58:34.174700+00:00",
+    "status": "rejected",
+    "content_hash": "3b0213f0a6842303291244857aaf307c",
+    "strict_hash": "3b0213f0a6842303291244857aaf307c",
+    "fuzzy_hash": "43255ece8a61ee75af992f613e76f16c",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
