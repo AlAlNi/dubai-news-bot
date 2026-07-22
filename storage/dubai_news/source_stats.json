@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZTA4VWtLR0pHYVpnV3p5RFdDRXZwTmlDY0o1WE5fbWJpT1l1OFI0QkRpSVFjWGx3cjRQZTYxVWdRUXNQZGt1Y003YkF6WUZNaU5GUWNPSjhRbTA2RU1hbWRxRWN0QzQyaWMzNU9pdDlhQUxUZWlqMmRWYVpaalpjQ0d3RzJMRUh4WDNncTBQSGdnS3BrOUJfY2lmaTdpTjFpQUprZXpURTctNDFXR05oWEs4RQ?oc=5",
-    "timestamp": "2026-07-20T17:00:40.919977+00:00",
-    "status": "rejected",
-    "content_hash": "c606a6feedb260b64a86d906deeff9d1",
-    "strict_hash": "c606a6feedb260b64a86d906deeff9d1",
-    "fuzzy_hash": "85e3711551d23da5bba2a13066073fca",
-    "reason": "Новость явно связана с Дубаем (авиакомпании, возвращающиеся в Дубай), но её основная тема — последствия войны между США и Ираном, что является большой политикой и военным конфликтом. Это нарушает правило №2, поэтому новость не может быть опубликована."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUTJYTzBvQk4yVUVoY3kyY1RqUXp3Q3Z6Z3JXRWs0SE5DTUQ1SXBCa1ByaWw0TmVVRWwyS0VnNmxqVU5pdWNFdGFtc3FvOFBpLWdzbjVrUzhrbWRzZ3E1T3VKM0ZpUFdlNUhMSEJYM3BkbERCOW43V1g5WVRIWVlZYWU0U0ZPeEUwZV9OX04tWlU3dl9NQmRRRTBSMUUzVUdMSW1aQlhVaDBkb1VKS2Nz?oc=5",
-    "timestamp": "2026-07-20T17:00:48.423395+00:00",
-    "status": "approved",
-    "content_hash": "87d1890a504d4cc3985e43ef9df14b28",
-    "strict_hash": "87d1890a504d4cc3985e43ef9df14b28",
-    "fuzzy_hash": "64e8e93c5baa48d431e7b5000b8866d0",
-    "reason": "approved"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kQTVtblA4NHBINjNUQzFjN21vZ2YzNDBzNDU1b0piQTJHQlVjQnVDYUhQNHVvQ2tlWHEzUnpFYlNqZFpvb2JlY1NteXhQR1lzRFQ4aEl1OFZvclN6VDdPcTdueHE4N1l3Wm5RMW5PVUdSQ0E?oc=5",
-    "timestamp": "2026-07-20T17:20:31.438619+00:00",
-    "status": "approved",
-    "content_hash": "016620f3eb7399c3aeb4e41b947619c5",
-    "strict_hash": "016620f3eb7399c3aeb4e41b947619c5",
-    "fuzzy_hash": "c925e99e4244a7b4fde33de9a548fa68",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.livemint.com/news/world/who-was-rajiv-meherish-indian-origin-founder-of-the-popular-dubai-based-restaurant-chain-raju-omlet-who-passed-away-11784526831472.html",
     "timestamp": "2026-07-20T19:12:53.673464+00:00",
     "status": "rejected",
@@ -1047,5 +1020,10 @@
     "strict_hash": "27a57f3e12d96a0ea200f805b2bc12d1",
     "fuzzy_hash": "104191d8dcbd879f854f6924e06088a2",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/sustained-grade-a-demand-stabilises-dubai-office-rents",
+    "timestamp": "2026-07-22T18:15:34.490712+00:00",
+    "status": "published"
   }
 ]
