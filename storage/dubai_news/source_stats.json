@@ -1078,5 +1078,23 @@
     "strict_hash": "ca95846f7e00186e692c708d7c57f0cf",
     "fuzzy_hash": "4a58999221dedf4ff85bb67d617dd49e",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/07/22/tmt-newswire/pr-newswire/singapore-investors-have-a-final-opportunity-to-own-at-chelsea-residences-by-damac-in-dubai/2388946",
+    "timestamp": "2026-07-22T12:21:27.739865+00:00",
+    "status": "rejected",
+    "content_hash": "38ec3bdf24086c8883587c9a2793b0bc",
+    "strict_hash": "38ec3bdf24086c8883587c9a2793b0bc",
+    "fuzzy_hash": "498ee6e4426ecfb17aa25c0dbee17e27",
+    "reason": "Новость является рекламным пресс-релизом DAMAC Properties, ориентированным на сингапурских инвесторов, без общественно значимой информации для русскоязычных жителей Дубая. Она нарушает правила 3 (рекламный характер) и 6 (отсутствие интереса для целевой аудитории)."
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/07/22/tmt-newswire/pr-newswire/chinese-investors-have-a-final-opportunity-to-own-at-chelsea-residences-by-damac-in-dubai/2388945",
+    "timestamp": "2026-07-22T12:21:30.046491+00:00",
+    "status": "rejected",
+    "content_hash": "e1b1ab61df38895cbb1d1dc8896ff8f2",
+    "strict_hash": "e1b1ab61df38895cbb1d1dc8896ff8f2",
+    "fuzzy_hash": "68abb6b77b2599e4328ad0c66be1c715",
+    "reason": "Новость является прямым пресс-релизом DAMAC Properties, ориентированным на китайских инвесторов, и не содержит общественно значимой информации для русскоязычных жителей Дубая. Текст имеет явный рекламный характер и не проходит проверку на достоверность и естественность (PRNewswire)."
   }
 ]
