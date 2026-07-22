@@ -1025,5 +1025,32 @@
     "url": "https://propertynews.ae/uae/dubai/sustained-grade-a-demand-stabilises-dubai-office-rents",
     "timestamp": "2026-07-22T18:15:34.490712+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.standard.co.uk/news/london/east-london-waterfront-regeneration-thameside-west-royal-docklands-silvertown-b1290827.html",
+    "timestamp": "2026-07-22T18:41:36.584513+00:00",
+    "status": "rejected",
+    "content_hash": "d42b0e0e74d2beaa9ad613cdd096e459",
+    "strict_hash": "d42b0e0e74d2beaa9ad613cdd096e459",
+    "fuzzy_hash": "ace82736a15cdd2a4be7872dd89dad7d",
+    "reason": "Новость о планах дубайского девелопера по застройке в Лондоне не имеет прямой связи с Дубаем, ОАЭ или регионом GCC — событие происходит в Великобритании и не представляет интереса для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.dailyexcelsior.com/air-land-and-sea-why-dubai-south-business-hub-free-zone-has-the-logistics-advantage-no-other-free-zone-can-match",
+    "timestamp": "2026-07-22T18:41:38.524005+00:00",
+    "status": "rejected",
+    "content_hash": "b2d2f44227009d1f8e588e39cd38fde6",
+    "strict_hash": "b2d2f44227009d1f8e588e39cd38fde6",
+    "fuzzy_hash": "b9b0565c67def405437666f6a5a520e2",
+    "reason": "Новость явно является рекламным или PR-материалом, восхваляющим конкретную свободную экономическую зону (Dubai South Business Hub Free Zone) без общественно значимой новостной ценности. Текст не содержит проверяемых фактов, выглядит как заказная статья и не представляет интереса для широкой аудитории русскоговорящих жителей Дубая."
+  },
+  {
+    "url": "https://www.mirror.co.uk/news/world-news/brit-mum-in-dubai-prison-37461161",
+    "timestamp": "2026-07-22T18:41:40.855081+00:00",
+    "status": "rejected",
+    "content_hash": "6b6af1a03af1a248daf6c0f1b07a4c29",
+    "strict_hash": "6b6af1a03af1a248daf6c0f1b07a4c29",
+    "fuzzy_hash": "45d312dee3f88ad9ba5211e19241815c",
+    "reason": "Новость рассказывает о британской туристке, которая описывает негативный опыт пребывания в дубайской тюрьме, что создаёт образ «тёмной стороны» Дубая и может быть воспринято как неуважение к местной правоохранительной системе и ценностям ОАЭ. Кроме того, текст имеет признаки кликбейта и не представляет практической пользы для русскоязычного жителя Дубая."
   }
 ]
