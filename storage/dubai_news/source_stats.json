@@ -1075,5 +1075,50 @@
     "strict_hash": "b2a6f55035af11e4a9096250b5dfe3be",
     "fuzzy_hash": "c900ce1699e61dbd5a9f1df3d67ee89f",
     "reason": "Новость о запуске двух пассажирских станций Etihad Rail в Абу-Даби имеет прямое отношение к ОАЭ, не содержит политики, рекламы или неуважения к ценностям, информация выглядит естественной и полезной для русскоязычных жителей, так как касается развития транспортной инфраструктуры. Однако источник (What's On) не указан в виде явного URL, что затрудняет проверку, и новость не является дубликатом уже опубликованных материалов."
+  },
+  {
+    "url": "https://www.moneycontrol.com/news/business/markets/is-india-returning-to-dubai-investors-radar-13980735.html",
+    "timestamp": "2026-07-22T23:54:33.937464+00:00",
+    "status": "rejected",
+    "content_hash": "936c69ef20efcbeb89c107652f8b855b",
+    "strict_hash": "936c69ef20efcbeb89c107652f8b855b",
+    "fuzzy_hash": "ca82256388b25b68e5efce9c232c7825",
+    "reason": "Новость об инвестициях в Индию не имеет прямой связи с Дубаем или ОАЭ, а также содержит рекламный призыв на воркшоп, что нарушает правила 1 и 3. Кроме того, текст выглядит как общий финансовый обзор, не представляющий интереса для русскоязычного жителя Дубая (правило 6)."
+  },
+  {
+    "url": "https://www.thesun.ie/tvandshowbiz/17337062/lee-andrews-dad-feed-dubai-prison-katie-price",
+    "timestamp": "2026-07-22T23:54:34.258271+00:00",
+    "status": "rejected",
+    "content_hash": "09e706b42b8ddaea96813eb8517ac419",
+    "strict_hash": "09e706b42b8ddaea96813eb8517ac419",
+    "fuzzy_hash": "63fd3defdaa307e5e2e6c217c7673feb",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.thesun.co.uk/tvandshowbiz/39836681/lee-andrews-dad-feed-dubai-prison-katie-price",
+    "timestamp": "2026-07-22T23:54:35.692471+00:00",
+    "status": "rejected",
+    "content_hash": "d5f45bfec8deeb493c8e56e930bb8363",
+    "strict_hash": "d5f45bfec8deeb493c8e56e930bb8363",
+    "fuzzy_hash": "28f3ed95c90284308102f0a0ebe84f33",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.moneycontrol.com/news/business/markets/india-is-no-longer-the-default-bet-for-dubai-s-rich-nris-13980723.html",
+    "timestamp": "2026-07-22T23:54:38.663786+00:00",
+    "status": "rejected",
+    "content_hash": "76e1eb0a264ded4141968b5d17563667",
+    "strict_hash": "76e1eb0a264ded4141968b5d17563667",
+    "fuzzy_hash": "8f10acb884b569ca695717fb836104bb",
+    "reason": "Новость не подходит: она не имеет прямой связи с Дубаем или ОАЭ (речь об индийцах в регионе GCC в целом), а также содержит признаки рекламы (упоминание AI Workshop) и не является общественно значимой для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.euronews.com/travel/2026/07/22/dubai-for-less-emirate-to-offer-700-worth-of-discounts-in-new-invite-a-friend-scheme",
+    "timestamp": "2026-07-22T23:54:45.705406+00:00",
+    "status": "approved",
+    "content_hash": "fae0bb9c4f1866365ae6eaa108191dbc",
+    "strict_hash": "fae0bb9c4f1866365ae6eaa108191dbc",
+    "fuzzy_hash": "ca21e72950aff87661ea8c87f9c909b4",
+    "reason": "approved"
   }
 ]
