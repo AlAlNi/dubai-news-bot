@@ -974,5 +974,50 @@
     "url": "https://whatson.ae/2026/07/uae-flight-updates-check-if-your-flight-is-affected",
     "timestamp": "2026-07-22T09:32:52.135729+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.europesays.com/3145443",
+    "timestamp": "2026-07-22T09:58:48.522371+00:00",
+    "status": "rejected",
+    "content_hash": "4f6d560edcb2b96526b674f4ad31c777",
+    "strict_hash": "4f6d560edcb2b96526b674f4ad31c777",
+    "fuzzy_hash": "9901a84fb67e77fb5a51a5d1a6e8efa3",
+    "reason": "Новость о запуске ежедневного рейса Emirates между Дубаем и Тель-Авивом имеет прямую связь с регионом (Дубай, ОАЭ) и не нарушает правила по политике, рекламе или ценностям. Однако дата новости — март 2022 года, что делает её устаревшей и потенциально неактуальной для текущей аудитории, а также может быть дубликатом ранее опубликованных материалов (хеш не совпадает, но тема уже освещалась). Кроме того, источник (JNS) не является официальным представителем авиакомпании или правительства ОАЭ, что снижает достоверность."
+  },
+  {
+    "url": "https://www.lbc.co.uk/article/dubai-airport-trials-ai-border-check-5Hjddy2_2",
+    "timestamp": "2026-07-22T09:58:50.625732+00:00",
+    "status": "rejected",
+    "content_hash": "956c056156eece9cff6ba3594fa41e53",
+    "strict_hash": "956c056156eece9cff6ba3594fa41e53",
+    "fuzzy_hash": "312747ca96cd7a61947e14d696bcceba",
+    "reason": "Новость о тестировании AI-контроля в аэропорту Дубая напрямую связана с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, источник (иммиграционная служба Дубая) проверяем, а информация полезна для русскоговорящих жителей и туристов. Однако это точный дубликат уже опубликованной новости \"AI border control in Dubai airport clears passengers in seconds\" — тема, факты и суть идентичны."
+  },
+  {
+    "url": "https://www.standard.co.uk/news/london/dubai-property-giant-unveils-ps2-5billion-vision-transform-east-london-waterfront-thameside-west-royal-docklands-silvertown-b1290827.html",
+    "timestamp": "2026-07-22T09:58:52.379285+00:00",
+    "status": "rejected",
+    "content_hash": "c60212005291a09498a819f6a5552cad",
+    "strict_hash": "c60212005291a09498a819f6a5552cad",
+    "fuzzy_hash": "31a594d370187a9d2bf675db0d3b570d",
+    "reason": "Новость о планах дубайской компании по застройке в Лондоне не имеет прямой связи с Дубаем, ОАЭ или регионом GCC — это международный девелоперский проект, не затрагивающий жизнь в Дубае. Кроме того, новость не представляет интереса для русскоговорящего жителя Дубая, так как не содержит полезной или актуальной информации о жизни в эмирате."
+  },
+  {
+    "url": "https://augustafreepress.com/commercial/thinking-about-starting-a-business-in-dubai-heres-what-the-freezone-option-actually-means",
+    "timestamp": "2026-07-22T09:58:54.337088+00:00",
+    "status": "rejected",
+    "content_hash": "e55ea92bc293c4d494d08383e944d11b",
+    "strict_hash": "e55ea92bc293c4d494d08383e944d11b",
+    "fuzzy_hash": "b8efd3628ec33cb20ef6bee9039575d8",
+    "reason": "Новость представляет собой общий обзор бизнес-возможностей в Дубае, но не содержит конкретной, проверяемой информации или оперативной новости. Текст выглядит как рекламно-информационная статья, а не как новостной репортаж, и не соответствует критериям полезности для русскоязычного жителя (отсутствует срочность, уникальность или практическая ценность)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdXJVQXd4azNqNHhnT0h4X0FxOFVXbW5ENjNwUmtaMEFqVUY1eVcxdlJFczFhdmotT01LMW4wbzFNX1gwMl9BN2Y1WTZnZTctcjVobE1RTEJCVUtCUXZCWm9NVHUySTRBeUhERHlDclR2VTIwLXdZMWFQMWNkWlVFQ25MVjNPbVJqbGFIQk9aS0RaWjQz?oc=5",
+    "timestamp": "2026-07-22T09:59:00.814049+00:00",
+    "status": "approved",
+    "content_hash": "8b4f13458ca1448226e181d805ca22eb",
+    "strict_hash": "8b4f13458ca1448226e181d805ca22eb",
+    "fuzzy_hash": "db6223c30c405b447ce990898f99e57c",
+    "reason": "approved"
   }
 ]
