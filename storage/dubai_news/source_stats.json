@@ -1030,5 +1030,50 @@
     "url": "https://propertynews.ae/uae/abu-dhabi/abu-dhabi-launches-dh100-billion-marsa-al-saadiyat-development-on-saadiyat-island",
     "timestamp": "2026-07-22T20:17:04.422455+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.straitstimes.com/world/middle-east/dubai-offers-discounts-to-residents-bringing-in-tourists",
+    "timestamp": "2026-07-22T20:37:54.792163+00:00",
+    "status": "rejected",
+    "content_hash": "5e6fe96e8dfb15c217435a75b2de05ac",
+    "strict_hash": "5e6fe96e8dfb15c217435a75b2de05ac",
+    "fuzzy_hash": "331262b64de6ebdd64605dff2074a570",
+    "reason": "Новость содержит явную связь с Дубаем (дисконты для резидентов за привлечение туристов), но в тексте упоминается, что инициатива введена из-за того, что «месяцы войны подорвали туристический сектор». Это прямая отсылка к политическому конфликту (война), что нарушает правило №2. Кроме того, новость выглядит как перепечатка из зарубежного СМИ (The Straits Times) с упоминанием войны, что может быть воспринято как неуважение к ценностям ОАЭ (правило №4). Источник не указан явно, а хеш контента не совпадает с опубликованными новостями, но дубликатов нет."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/nri/visit/dubai-residents-can-earn-dh3000-and-travel-rewards-by-inviting-overseas-family-friends-to-visit/articleshow/132553830.cms",
+    "timestamp": "2026-07-22T20:37:57.793653+00:00",
+    "status": "rejected",
+    "content_hash": "7f7facd926c897a8e1150bc115870472",
+    "strict_hash": "7f7facd926c897a8e1150bc115870472",
+    "fuzzy_hash": "730d171a4966a92279bb4f82d9a09a07",
+    "reason": "Новость явно связана с Дубаем и предлагает жителям практическую выгоду — возможность заработать бонусы за приглашение гостей. Однако текст выглядит как рекламный анонс туристической инициативы без указания конкретного проверяемого источника (например, ссылки на официальный сайт программы или заявление властей), что вызывает сомнения в достоверности. Кроме того, упоминание 2026 года может быть ошибкой или кликбейтом, а сам формат напоминает пресс-релиз без общественно значимой новости."
+  },
+  {
+    "url": "https://techbullion.com/ghost-rentals-accelerates-to-the-forefront-of-luxury-mobility-in-dubai",
+    "timestamp": "2026-07-22T20:37:59.907059+00:00",
+    "status": "rejected",
+    "content_hash": "0812044d006ac9036477b2423a28836d",
+    "strict_hash": "0812044d006ac9036477b2423a28836d",
+    "fuzzy_hash": "aff0acd4dec253d18ea1b8e3a5d00181",
+    "reason": "Новость явно является рекламным пресс-релизом компании Ghost Rentals, не содержит общественно значимой информации, а её заголовок и текст направлены на продвижение бизнеса, а не на информирование аудитории. Это нарушает правило №3 (рекламный характер) и правило №6 (интерес для русскоговорящего жителя Дубая — отсутствует)."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/dubais-palm-jumeirah-is-so-massive-it-remains-visible-from-space-more-than-two-decades-after-it-was-built/articleshow/132552978.cms",
+    "timestamp": "2026-07-22T20:38:00.151267+00:00",
+    "status": "error",
+    "content_hash": "c2121019a4f016cbea64ddc0530060f8",
+    "strict_hash": "c2121019a4f016cbea64ddc0530060f8",
+    "fuzzy_hash": "edf34a8e9db92e196bdb505ecdb0c91d",
+    "reason": "Технический сбой: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT1JUV2xZVzRZNWU5WnF5S3BqekplV19SYmVUbTBMblE3ZWprbnc2SlNuWVQwdno2TWpiM0tXQmRPNUV0em9tSndBUDZuQWE0ZUQyYXFHSlktc2Qtc0Z1MTNUcjhQYXl5M05vd0pUZWI0b290S210dnRsSEdMVVk5RjNFZi12S2M4SnEwdmNXNHR0TllTdVBWVHFvemJNY1nSAacBQVVfeXFMTVZKc2g5dEkwUi1zXzg0enM2Q2NELUlkX0sxUzFZMDZ4b3ZYQ3ZhSXM0MU02dXlMV19wSHJ3ZEVhc2NzVXFUVXhOMXd0OEZYRUtHMjZyQTR6dTFTa1Z2anM1bm5oQWlmS29WQ0JoeV9Gd19kV0RuSjgtN0lsQkplb19lUWxYdml2Mi00YnRyVUY1M2Yyb2pQS0lpazEzVUNVbWl4RVdtZE0?oc=5",
+    "timestamp": "2026-07-22T20:38:04.190384+00:00",
+    "status": "rejected",
+    "content_hash": "2f699646bd6994c1871fd0390c1b22b6",
+    "strict_hash": "2f699646bd6994c1871fd0390c1b22b6",
+    "fuzzy_hash": "33fe19e3f5ec755f1f453df74ee93daf",
+    "reason": "Новость является дубликатом уже опубликованного материала \"Heading to Dubai's beaches? Police issue safety warning to visitors - Gulf News\" — обе новости сообщают о предупреждении полиции Дубая по поводу безопасности вещей на пляжах, что нарушает правило №7."
   }
 ]
