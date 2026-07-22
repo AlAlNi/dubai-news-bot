@@ -1019,5 +1019,50 @@
     "strict_hash": "8b4f13458ca1448226e181d805ca22eb",
     "fuzzy_hash": "db6223c30c405b447ce990898f99e57c",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/keeta-and-empire-entertainment-bring-spider-man-brand-new-day-to-life-in-the-uae",
+    "timestamp": "2026-07-22T10:13:45.409831+00:00",
+    "status": "rejected",
+    "content_hash": "967b8848af1a620c17b17a53485f777e",
+    "strict_hash": "967b8848af1a620c17b17a53485f777e",
+    "fuzzy_hash": "61e78574ba4110d26c5dc1f0311c30cc",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/this-dubai-staycation-starts-from-dhs300-theres-more-than-one-reason-to-book",
+    "timestamp": "2026-07-22T10:13:51.275829+00:00",
+    "status": "rejected",
+    "content_hash": "3baccbdae3d03e13501319665215016a",
+    "strict_hash": "3baccbdae3d03e13501319665215016a",
+    "fuzzy_hash": "8181731b2b11c92b2c346af2e9d68c3d",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/four-seasons-resort-dubai-at-jumeirah-beach-review",
+    "timestamp": "2026-07-22T10:13:58.396247+00:00",
+    "status": "rejected",
+    "content_hash": "464c8a45bf8095c2cb1a521ab3f85d18",
+    "strict_hash": "464c8a45bf8095c2cb1a521ab3f85d18",
+    "fuzzy_hash": "5a609fee77622edabbed01f19f3fa6ac",
+    "reason": "Новость представляет собой обзор отеля и рекламный пост о дневных пропусках в Four Seasons Resort Dubai, что является коммерческим контентом без общественно значимой новости. Она не соответствует критериям полезности для русскоязычного жителя и выглядит как пресс-релиз."
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/07/22/tmt-newswire/globenewswire/luxury-car-rental-dubai-introduces-flexible-lamborghini-rental-packages-across-the-uae/2388919",
+    "timestamp": "2026-07-22T10:14:00.365683+00:00",
+    "status": "rejected",
+    "content_hash": "92b62d39f0e24a5e1ff08afdedd375b5",
+    "strict_hash": "92b62d39f0e24a5e1ff08afdedd375b5",
+    "fuzzy_hash": "cc569d1add9eecddd3df4b9f4e6f61c9",
+    "reason": "Новость явно является рекламным пресс-релизом от компании по аренде автомобилей, не содержит общественно значимой информации и не представляет интереса для русскоязычного жителя Дубая. Кроме того, текст выглядит как типичная ИИ-генерация или шаблонный релиз."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQThGaGR4T3pWVzZETzBjRGI1NUc3RjlJaDhhalk1dUJtdXFHT093eGkwWk00OVNOekRxTFc2TE1laExmMURtbHU5cno1dWdoZGJxQWVXQk5Kc3RkQlhQeGZwaDFDN0JfUXE3N1RfaURaUjZjemR1UEVyUkJZUUpQS0tQRmVIMkxCSUFIbzVxbFo1VS14WENtN0V6N1FjSXU5UzhfdjhMMzlDZk5SOERwa2N4RVM2dXM?oc=5",
+    "timestamp": "2026-07-22T10:14:08.173106+00:00",
+    "status": "approved",
+    "content_hash": "b8cb1db81f7ebe262928c61a915c189b",
+    "strict_hash": "b8cb1db81f7ebe262928c61a915c189b",
+    "fuzzy_hash": "ce45685dd9d39043951cbf5040ab7842",
+    "reason": "approved"
   }
 ]
