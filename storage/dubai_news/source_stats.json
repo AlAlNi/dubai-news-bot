@@ -1075,5 +1075,32 @@
     "strict_hash": "2f699646bd6994c1871fd0390c1b22b6",
     "fuzzy_hash": "33fe19e3f5ec755f1f453df74ee93daf",
     "reason": "Новость является дубликатом уже опубликованного материала \"Heading to Dubai's beaches? Police issue safety warning to visitors - Gulf News\" — обе новости сообщают о предупреждении полиции Дубая по поводу безопасности вещей на пляжах, что нарушает правило №7."
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/apartment-prices-on-yas-island-and-al-reem-island-surge-18-amidst-robust-abu-dhabi-market-growth",
+    "timestamp": "2026-07-22T21:56:11.501744+00:00",
+    "status": "rejected",
+    "content_hash": "f8dd9e99ce5a47b813f73f852060a655",
+    "strict_hash": "f8dd9e99ce5a47b813f73f852060a655",
+    "fuzzy_hash": "706c77c286a987f5624eebc7f9af1ceb",
+    "reason": "Новость не связана с Дубаем — речь об Абу-Даби (Яс-Айленд и Аль-Рим-Айленд), что нарушает правило №1 о явной связи с Дубаем/ОАЭ/GCC. Хотя тема рынка недвижимости может быть интересна русскоязычным жителям ОАЭ, географическая привязка к другому эмирату делает её неподходящей для канала о Дубае."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-off-plan-luxury-apartment-commands-dh166-million-amid-surging-demand",
+    "timestamp": "2026-07-22T21:56:15.703750+00:00",
+    "status": "rejected",
+    "content_hash": "669d365ff3b8237f2b87d8e9b4ae68c3",
+    "strict_hash": "669d365ff3b8237f2b87d8e9b4ae68c3",
+    "fuzzy_hash": "61108e20500435b2cdf7da11f184e09e",
+    "reason": "Новость о продаже элитной квартиры в Дубае за 166 млн дирхамов соответствует тематике канала (рынок недвижимости ОАЭ), не содержит политики, рекламы или неуважения к ценностям UAE, выглядит естественно и интересна русскоязычным жителям, интересующимся рынком. Однако при проверке на дубликаты (хеш 669d365ff3b8237f2b87d8e9b4ae68c3) и контекст опубликованных новостей — ни одна из них не является точной копией или близким повтором данной темы. Источник (вероятно, Gulf News или аналогичное СМИ) проверяем, факты подтверждаемы."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/introducing-marsa-al-saadiyat-abu-dhabis-incredible-new-dhs100-billion-megaproject",
+    "timestamp": "2026-07-22T21:56:29.256985+00:00",
+    "status": "approved",
+    "content_hash": "3fc60d3f56e4c965c1465c5a5d5e96a6",
+    "strict_hash": "3fc60d3f56e4c965c1465c5a5d5e96a6",
+    "fuzzy_hash": "e55c36812e7756540e7d887821a156fa",
+    "reason": "approved"
   }
 ]
