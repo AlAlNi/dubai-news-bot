@@ -1144,5 +1144,32 @@
     "strict_hash": "89422dff64eb4c51007a1b39243ff5bd",
     "fuzzy_hash": "a4eebce35d46aeb3515e2c0769e53ae0",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/brass-monkey-abu-dhabi-opening",
+    "timestamp": "2026-07-23T15:00:56.421178+00:00",
+    "status": "rejected",
+    "content_hash": "10ee5772bd9905806ac00defa035d52f",
+    "strict_hash": "10ee5772bd9905806ac00defa035d52f",
+    "fuzzy_hash": "7b76c5dfcbf5a778f2f022b4433cfab3",
+    "reason": "Новость об открытии Brass Monkey в Абу-Даби не имеет прямой связи с Дубаем (событие в Абу-Даби, а не в Дубае), и для русскоязычного жителя Дубая она не представляет интереса или пользы, так как речь идет о другом эмирате."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNS1dCOFJ0b2gtYkJac2xCWklNanBUbjA2enV0WU9ZcTVlQU5KNUZvV0diaEwyekxHekFqTzNQUGQ1QkQxSWd3ZEd6VXRGb3RYb1JzRWdFbndtTEtKdHg4NGRCaWJicm0zQUFXLVcxZUR6ajdUc0pLNW1IS1JvTjRBMlFobm0yT3MzMHRZSnJ5YVJOYTB3aFNHbV9mMElXZjFFZWY1QnJpNjU3UG9NaS1mSE5SbURqcE1VdjRMTXo1eHZrZWw4blBzSUVTSmJDODJ6Q3NN?oc=5",
+    "timestamp": "2026-07-23T15:01:17.022655+00:00",
+    "status": "rejected",
+    "content_hash": "853ff9d18b389775f23388fe780e129d",
+    "strict_hash": "853ff9d18b389775f23388fe780e129d",
+    "fuzzy_hash": "6f575bb030112a73b20fab46575152fd",
+    "reason": "Новость о рекордных продажах коммерческой недвижимости в Дубае напрямую связана с регионом, не содержит политики или рекламы, интересна русскоязычным жителям (инвесторы, бизнес). Однако она является дубликатом уже опубликованной новости под номером 5: \"W Capital: Dubai commercial real estate records highest-ever first-half sales, surpassing full-year total\". Тема и суть идентичны, хотя источник и год (2026 вместо 2025) могут незначительно отличаться, но это явный повтор."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNcDFIZWhYUTNxTHhvNndUaklUZS1pTFJpYWFvajNBM3BIMlN4YkhWX1ozUzlnUkhWYUZGUGU3N3FaeF9wTDVHbG1udUYwczFyT2l4dy1BdmZ4eTRvNEt2VXhHVm1reHRvZE1BNDBhWTFWZGU4a09pcGQwaVY4YjIzVEpaZldpUmctZGJvMnZQYU9pS2x2ZEh5UDFSVk1rR3JHMjZUaWJSX04zaC10V3EwRjVKUDV1WHNqMEUtWjVfZXdfRkMxY050YlU2YUMtM3dmYW9fV3gzYkxRWDVzbVNUd0sxUDBiX1VQQk9JajJpZmdfZkpBZU44Yzllb2dOR3c?oc=5",
+    "timestamp": "2026-07-23T15:01:19.704790+00:00",
+    "status": "rejected",
+    "content_hash": "e98133c241328d690f1df28af79e18c0",
+    "strict_hash": "e98133c241328d690f1df28af79e18c0",
+    "fuzzy_hash": "043a13b0de40cafef7822c8604b2a8b8",
+    "reason": "Новость представляет собой аналитический обзор рынка недвижимости Дубая от MERED, что соответствует тематике канала и интересам русскоязычных жителей, интересующихся инвестициями. Однако она очень похожа на уже опубликованные новости о рынке недвижимости (пункты 4 и 5 из контекста), что может быть расценено как дубликат по смыслу, хотя и с другим источником."
   }
 ]
