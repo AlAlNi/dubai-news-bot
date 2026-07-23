@@ -1144,5 +1144,32 @@
     "strict_hash": "d740bfcf49b4d6dd48ee802d2bf12d89",
     "fuzzy_hash": "148009674d02538760e1ad91303252be",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/10-things-to-do-in-dubai-this-weekend-july-24-to-26",
+    "timestamp": "2026-07-23T08:10:01.952068+00:00",
+    "status": "rejected",
+    "content_hash": "7944632d2135a3e23976c583d22128ef",
+    "strict_hash": "7944632d2135a3e23976c583d22128ef",
+    "fuzzy_hash": "63ed6f3aef43a0317cf63a1d10997fed",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные (бары, бранчи, ретрит), что соответствует формату «что изменится завтра» и полезно для русскоязычных жителей. Однако источник (What's On) не указан в виде явного URL, а текст выглядит как перепечатка с рекламным оттенком, что нарушает правило 3 (рекламный характер) и правило 9 (отсутствие проверяемого источника)."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/hans-zimmer-abu-dhabi-new-show-2026",
+    "timestamp": "2026-07-23T08:10:10.595457+00:00",
+    "status": "rejected",
+    "content_hash": "625f66962c7201471e0d0f100e35ce4c",
+    "strict_hash": "625f66962c7201471e0d0f100e35ce4c",
+    "fuzzy_hash": "398ab34f3f155642a8fce8eecb87dd3d",
+    "reason": "Новость о концерте Ханса Циммера в Абу-Даби имеет прямую связь с регионом (ОАЭ), не содержит политики, рекламы или неуважения к ценностям, текст выглядит естественно и может быть интересен русскоязычным жителям Дубая, так как Абу-Даби находится в соседнем эмирате. Однако это событие не является срочной или общественно значимой новостью, а скорее анонсом культурного мероприятия, что не соответствует критериям строгого новостного канала. Кроме того, источник (What's On) не является официальным, и новость может быть расценена как рекламный пресс-релиз."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOHo0RnJFN2xKbW5KYk1xQW02NEdlMzJfM3JxUzF3cEhVeU13azVJeTJhLXZYU2NEM3MxalZDdEFHMVZ4R0psQ0tIQTd6ODc1VURaaEZkNjhZdnltOHpnOGYyMGxYUDhiZWZOUDhOTEo3X1dweVdmQmZWWjRfbVd6M2pCc2JOa3Bibm1iaGx3a3NqazVfdkppMTl4R1JRR2pRZUZOLXU4bXBEZTYzOUVF?oc=5",
+    "timestamp": "2026-07-23T08:10:36.689240+00:00",
+    "status": "approved",
+    "content_hash": "acefcff6b2bc9485c575306551a98053",
+    "strict_hash": "acefcff6b2bc9485c575306551a98053",
+    "fuzzy_hash": "2357345bdef2745cc7e7acecc0388e4f",
+    "reason": "approved"
   }
 ]
