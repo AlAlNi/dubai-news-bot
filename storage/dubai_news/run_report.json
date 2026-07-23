@@ -1,90 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-07-18T06:27:18.166309+00:00",
-    "finished_at": "2026-07-18T06:27:24.767972+00:00",
-    "duration_seconds": 6.602,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 1,
-      "rejected": 1,
-      "approved": 0,
-      "deepseek_calls": 1,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 1,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 4,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-07-18",
-      "daily": {
-        "published_per_day": {
-          "value": 0,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 93.75,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.devdiscourse.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "emirateswoman.com",
-            "events": 6,
-            "reject_rate": 83.33,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 46,
-            "reject_rate": 82.61,
-            "duplicate_rate": 15.22
-          },
-          {
-            "source": "whatson.ae",
-            "events": 10,
-            "reject_rate": 80.0,
-            "duplicate_rate": 30.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-07-18T06:52:17.592050+00:00",
     "finished_at": "2026-07-18T06:53:12.318761+00:00",
     "duration_seconds": 54.727,
@@ -15852,6 +15768,90 @@
         },
         "reject_rate_after_editor": {
           "value": 82.61,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.lokmattimes.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 33.33
+          },
+          {
+            "source": "www.manilatimes.net",
+            "events": 6,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 16,
+            "reject_rate": 81.25,
+            "duplicate_rate": 12.5
+          },
+          {
+            "source": "news.google.com",
+            "events": 36,
+            "reject_rate": 72.22,
+            "duplicate_rate": 22.22
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-07-23T21:34:52.215704+00:00",
+    "finished_at": "2026-07-23T21:35:01.324889+00:00",
+    "duration_seconds": 9.109,
+    "success": false,
+    "counters": {
+      "attempts_made": 5,
+      "fetched": 2,
+      "rejected": 2,
+      "approved": 0,
+      "deepseek_calls": 2,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 2,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 5,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-07-23",
+      "daily": {
+        "published_per_day": {
+          "value": 3,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 83.33,
           "alert_if_gt": 60.0,
           "ok": false
         }
