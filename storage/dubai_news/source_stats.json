@@ -1144,5 +1144,32 @@
     "strict_hash": "f8ce027c51f8421a1cf6cc0953d81215",
     "fuzzy_hash": "15e7de929ced595539f0452d98d612a9",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/your-ufc-guide-for-this-weekend-where-to-stay-eat-and-park",
+    "timestamp": "2026-07-23T10:59:21.220217+00:00",
+    "status": "rejected",
+    "content_hash": "5b5b6e38d647801bf28b9143ee8e2201",
+    "strict_hash": "5b5b6e38d647801bf28b9143ee8e2201",
+    "fuzzy_hash": "f97f64a7d2ef604d9d87f7163e3c32e6",
+    "reason": "Новость представляет собой развлекательный гид по мероприятию UFC в Абу-Даби, что не является общественно значимой новостью для русскоязычного жителя Дубая, а скорее рекламно-информационным материалом. Кроме того, событие проходит в Абу-Даби, а не в Дубае, и текст не содержит проверяемого источника с явным URL."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/2-reasons-to-visit-grand-hyatt-dubai-if-youre-a-foodie",
+    "timestamp": "2026-07-23T10:59:27.217697+00:00",
+    "status": "rejected",
+    "content_hash": "2030f4585e6693d52a9648a275f030fe",
+    "strict_hash": "2030f4585e6693d52a9648a275f030fe",
+    "fuzzy_hash": "98c7aeff79c9f5b3c6e211b5b685f0c5",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/a-breathtaking-mountain-lodge-is-opening-in-ras-al-khaimah-later-this-year",
+    "timestamp": "2026-07-23T10:59:40.456344+00:00",
+    "status": "approved",
+    "content_hash": "d3519c6aa3f10d912ff81017ecd90815",
+    "strict_hash": "d3519c6aa3f10d912ff81017ecd90815",
+    "fuzzy_hash": "fbdf688de0edca7358c736db106118ea",
+    "reason": "approved"
   }
 ]
