@@ -1067,5 +1067,23 @@
     "strict_hash": "eaa833a1de8c5c0f5e817f20f870d8d6",
     "fuzzy_hash": "c876eed36b73f6a4acbbf0c9437191cc",
     "reason": "Новость содержит заявление официального лица ОАЭ, но основная тема — военный конфликт между Израилем и Ираном, что является большой политикой и конфликтом. Это нарушает правило №2."
+  },
+  {
+    "url": "https://www.freepressjournal.in/mumbai/mumbai-woman-booked-for-allegedly-misappropriating-1442-lakh-worth-of-valuables-sent-from-dubai",
+    "timestamp": "2026-07-23T17:54:39.067772+00:00",
+    "status": "rejected",
+    "content_hash": "6445186af57b9b8a5f773e495ab1c886",
+    "strict_hash": "6445186af57b9b8a5f773e495ab1c886",
+    "fuzzy_hash": "4126245202fae9caf73052c905f08984",
+    "reason": "Новость о краже ценностей, отправленных из Дубая, имеет слабую связь с регионом (упоминание Дубая лишь как точки отправки), но основное событие происходит в Мумбаи и не представляет интереса для русскоязычного жителя Дубая. Кроме того, это криминальная хроника из Индии, не связанная с жизнью в ОАЭ."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/education/news/he-left-an-iit-degree-and-a-corporate-job-in-dubai-to-wear-the-army-uniform-now-this-former-captain-has-joined-iim-calcutta/articleshow/132572556.cms",
+    "timestamp": "2026-07-23T17:54:40.874993+00:00",
+    "status": "rejected",
+    "content_hash": "9091cf5cce8ffe78c9c69e770fd9b1df",
+    "strict_hash": "9091cf5cce8ffe78c9c69e770fd9b1df",
+    "fuzzy_hash": "30353adda71db43584c31d1c4119e018",
+    "reason": "Эта новость не имеет никакого отношения к Дубаю, ОАЭ или региону GCC. Она рассказывает о карьерном пути индийского инженера, который уволился из компании в Дубае, чтобы служить в индийской армии, а затем поступил в индийский институт. Тема полностью нерелевантна для канала о Дубае."
   }
 ]
