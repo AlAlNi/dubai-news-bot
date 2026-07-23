@@ -1125,5 +1125,50 @@
     "strict_hash": "97c5764dce1cb29409a98002a2bd1488",
     "fuzzy_hash": "20f69e65daa5f94154f31aabdf31a5ef",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/07/22/tmt-newswire/globenewswire/luxeed-r7-dubai-media-test-drive-concludes-successfully-targeting-premium-mobility-market-in-the-middle-east/2389487",
+    "timestamp": "2026-07-23T01:47:38.217915+00:00",
+    "status": "rejected",
+    "content_hash": "dc95657752ed2aeb7ba92535273056f6",
+    "strict_hash": "dc95657752ed2aeb7ba92535273056f6",
+    "fuzzy_hash": "379837a5c2ab767ed8b43581db55336f",
+    "reason": "Новость является явным пресс-релизом о тест-драйве автомобиля LUXEED R7, организованном компанией. Она не содержит общественно значимой информации для русскоязычных жителей Дубая, а носит рекламный характер, продвигая конкретный бренд. Кроме того, текст явно сгенерирован или написан в стиле корпоративного пресс-релиза, что нарушает правило о естественности и достоверности."
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/07/22/tmt-newswire/globenewswire/luxeed-r7-global-media-test-drive-successfully-held-in-dubai-redefining-urban-premium-mobility-with-cutting-edge-intelligence/2389461",
+    "timestamp": "2026-07-23T01:47:40.904137+00:00",
+    "status": "rejected",
+    "content_hash": "8013c3d1fbfe8689ed687fb094bc4757",
+    "strict_hash": "8013c3d1fbfe8689ed687fb094bc4757",
+    "fuzzy_hash": "dda8c120a03b5095de014d93b80c43aa",
+    "reason": "Новость является явным пресс-релизом о тест-драйве автомобиля LUXEED R7, организованном компанией. Она не содержит общественно значимой информации для русскоязычных жителей Дубая, а носит рекламный характер. Кроме того, текст имеет признаки ИИ-генерации (шаблонный язык, дата в будущем — 2026 год)."
+  },
+  {
+    "url": "https://www.dailystar.co.uk/showbiz/lee-andrews-dad-freed-dubai-37463236",
+    "timestamp": "2026-07-23T01:47:42.862065+00:00",
+    "status": "rejected",
+    "content_hash": "3ec7f3b1e611cb95302d7c3f739e3b2a",
+    "strict_hash": "3ec7f3b1e611cb95302d7c3f739e3b2a",
+    "fuzzy_hash": "7556a5d6e64deff614a87314b41d4ff1",
+    "reason": "Новость касается освобождения из тюрьмы в Дубае родственника британской знаменитости, что имеет связь с регионом, но основная тема — личные юридические проблемы иностранцев, а не общественно значимое событие для русскоязычных жителей Дубая. Кроме того, текст носит характер светской хроники и не соответствует критериям полезности или информационной ценности для целевой аудитории канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQanlUbnhWaVNreGgzWEY0djhOak40Z0FBMXh6T29GSm9WVXlSS0RLUE04ZmtCU191ZXZVdXdVdWJ5NlhYcE1zZklSMzZHM2ZzZUJNekxWSXhEYTVoV2d2LXhra21ObldVMVpIaXpXbVR1azNPa0s3ZnNNS1JkOElMa1FLbUNrbG1KWmRnUFFERzJuRmJiMWc?oc=5",
+    "timestamp": "2026-07-23T01:47:43.695419+00:00",
+    "status": "rejected",
+    "content_hash": "8487deb2b2116e14c3e8b4c5f0ee9fb7",
+    "strict_hash": "8487deb2b2116e14c3e8b4c5f0ee9fb7",
+    "fuzzy_hash": "bd598a6de0977e104fb33ec8900eae1b",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQ0dfeTF5aDM3YVFNLWROV09NaHFtaVdtOWc5QTFqMGJyN2pOX2cwaU13WWdLWGQ2V2lFQ3ZxX1l0NDM0OVprVE9TamJKcHh1QjZodG42VXVuTVFnUnpSVzRGV3RpUzNsSllvSDVmdHBiRWZVSnlzVi02V21hdUFsRGZreWFpODRQcnhmLUNLNEZSS09YY01oQWlZQ3hrZFdqRkdTcXdiNTVJdnFvOHFqMFZqZFA1bmViYWVPMHhkODlyRU5ENG9OeWd2Vzh4VDdWcGlXbUNwd1oyR0dnZ2p4SldzWXFaM0VvaEEtNFBBS2JYNmswZFRkTHd3?oc=5",
+    "timestamp": "2026-07-23T01:47:52.742464+00:00",
+    "status": "approved",
+    "content_hash": "073e958bde2f6a4dd5097597125d2b88",
+    "strict_hash": "073e958bde2f6a4dd5097597125d2b88",
+    "fuzzy_hash": "d02f0875121a82993d445da2a4da4e1a",
+    "reason": "approved"
   }
 ]
