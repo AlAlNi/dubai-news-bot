@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.businesstoday.in/nri/visa/story/flying-to-dubai-doha-or-kuwait-check-airline-cancellations-rerouted-flights-travel-warnings-before-you-leave-543996-2026-07-20",
-    "timestamp": "2026-07-20T22:29:55.680315+00:00",
-    "status": "rejected",
-    "content_hash": "7fde8c0168e8e1a9865300f1f90b0b78",
-    "strict_hash": "7fde8c0168e8e1a9865300f1f90b0b78",
-    "fuzzy_hash": "b5a5a6164a4145e47c8430aaeed31ee0",
-    "reason": "Новость касается влияния военно-политического конфликта (США-Иран) на авиасообщение в регионе, что является прямой политической и конфликтной темой, а также дублирует ранее опубликованную новость №2 о влиянии напряженности на аэропорты Дубая."
-  },
-  {
-    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-abu-dhabi-uae-is-it-safe-foreign-office-advice-iran-war-b3017964.html",
-    "timestamp": "2026-07-20T23:02:30.821623+00:00",
-    "status": "rejected",
-    "content_hash": "ddc233954de5cfd2d264f23ba0105b6f",
-    "strict_hash": "ddc233954de5cfd2d264f23ba0105b6f",
-    "fuzzy_hash": "29c37143e5c4ea18ae7d2304bb1f6970",
-    "reason": "Новость касается безопасности туризма в Дубае и Абу-Даби на фоне ударов США по Ирану, что напрямую связано с регионом, но основная тема — военный конфликт и его последствия, что нарушает правило №2 (политика и конфликты). Кроме того, текст может вызвать тревогу и не соответствует ценностям стабильности ОАЭ."
-  },
-  {
     "url": "https://www.lokmattimes.com/entertainment/bigg-boss-17-fame-sana-raees-khan-buys-a-luxury-villa-in-dubai-a475",
     "timestamp": "2026-07-21T01:29:17.180067+00:00",
     "status": "rejected",
@@ -1120,5 +1102,10 @@
     "strict_hash": "fae0bb9c4f1866365ae6eaa108191dbc",
     "fuzzy_hash": "ca21e72950aff87661ea8c87f9c909b4",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.euronews.com/travel/2026/07/22/dubai-for-less-emirate-to-offer-700-worth-of-discounts-in-new-invite-a-friend-scheme",
+    "timestamp": "2026-07-23T00:08:47.991833+00:00",
+    "status": "published"
   }
 ]
