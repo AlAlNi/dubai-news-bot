@@ -1,86 +1,5 @@
 [
   {
-    "url": "https://whatson.ae/2026/07/indoor-breakfast-dubai",
-    "timestamp": "2026-07-21T04:58:10.397020+00:00",
-    "status": "rejected",
-    "content_hash": "08ec4c8f61eb2fef0e75c7cf7576bc61",
-    "strict_hash": "08ec4c8f61eb2fef0e75c7cf7576bc61",
-    "fuzzy_hash": "6de10d7cc8408a5ce9544cac7c2e7fa7",
-    "reason": "Новость представляет собой подборку ресторанов для завтрака в помещении, что является рекламно-развлекательным контентом, а не общественно значимой новостью. Отсутствует явная связь с актуальными событиями или польза для русскоязычного жителя, кроме общего гастрономического интереса, что не соответствует критериям информационного канала."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mMjI4UGozMjg5Wk9GYW9BMGRZWTNGcDdDQUNuTXVIYV96djFlSzZoRXMzckh5ZXhzdl9OLWtFY3NDbnBLb2JzMm5ZNXVBTDVxOGJNakROREgyWTY0LWJyRk5abW90Y1Fx?oc=5",
-    "timestamp": "2026-07-21T04:58:27.864619+00:00",
-    "status": "rejected",
-    "content_hash": "ba992ea29451e160f8562d49114d69da",
-    "strict_hash": "ba992ea29451e160f8562d49114d69da",
-    "fuzzy_hash": "85c0616f8205163db2220e963ba0a455",
-    "reason": "Cheap prefilter: слишком короткий текст (117 символов)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkR3M1alNRSVR3d2FGbmpwaDQtNlFVREJJYzdQbmI3UkhTYzZSb1V3LUxZR3paYlp6OHU0VUJsWXBlY3A0M1BhdGJSZ0xYTzBnVlM0aXRicktkMWFPeDhr?oc=5",
-    "timestamp": "2026-07-21T04:58:31.111332+00:00",
-    "status": "rejected",
-    "content_hash": "eb38b1fe048602f2b4feafb714eb466a",
-    "strict_hash": "eb38b1fe048602f2b4feafb714eb466a",
-    "fuzzy_hash": "dc28a0e758191c3ed14baf7d19da717b",
-    "reason": "Новость представляет собой подборку ресторанов для завтрака, что является полезным контентом для русскоговорящих жителей и туристов Дубая, не содержит политики, рекламы или дубликатов среди опубликованных материалов. Однако она больше похожа на развлекательный гид, а не на оперативную новость, и может быть воспринята как рекламный материал, что нарушает правило 3."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ldEdhQklLNzJfUGxtakxGYVJKRU53VkZSSGZNXzdOLWlfM2czWWwwd2hyaDFubEtoaW84RUxOSmRuZzY3ZGpwcHFZamVLZEtIY3V3UFUybjRrMDNQVUMxNzFJbGp4YzNubGJhOTV0LWlOcDlq?oc=5",
-    "timestamp": "2026-07-21T04:58:33.262548+00:00",
-    "status": "rejected",
-    "content_hash": "8c7c8c54b669e5f5880e6dc7212f2d62",
-    "strict_hash": "8c7c8c54b669e5f5880e6dc7212f2d62",
-    "fuzzy_hash": "5989e8cc94463f958053553b984dd5b7",
-    "reason": "Новость об открытии итальянского ресторана в Дубае имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, а также не является дубликатом уже опубликованных материалов. Однако текст крайне короткий и не содержит проверяемых деталей (адрес, дата открытия, источник), что делает его похожим на анонс без общественно значимой ценности для русскоязычного жителя."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS0xPUDh4alJlamEtQU9SeWV4YnZRZjJQaU5RMU9zYk42ZmRRQkpQZjlBQ3gyWWFuQXBBQTZkb3Z6QW8yQmNkUWZtQVBPT3RySmF3cjZOazVVM1RlTnRxTzNyYzdralIyU3E4dmh0ZkUxWHUwQTFkV21VNUlPSEk3MGc0NlFacGx0OHFOSW5PZmU5YXlubUg5SHdMYUVCMmJJZ0E?oc=5",
-    "timestamp": "2026-07-21T04:58:34.174700+00:00",
-    "status": "rejected",
-    "content_hash": "3b0213f0a6842303291244857aaf307c",
-    "strict_hash": "3b0213f0a6842303291244857aaf307c",
-    "fuzzy_hash": "43255ece8a61ee75af992f613e76f16c",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94VWxwYTJZREVqOWJsX3NsZkNuRDBjUzJrYU0ySTVXSjJWMldEcWwtek05N19RMFN6eGpCRzFQUE9FdXBJQ2F3UWJOY3J6UFhqTXJNMHFpTzljNVE2UV85Q01QWjJWa25FcmlrOTgwMkdYYkJHRDdza0VIWnJsRkU?oc=5",
-    "timestamp": "2026-07-21T07:07:29.821420+00:00",
-    "status": "approved",
-    "content_hash": "2db70b1542b55069114530c471bc3b85",
-    "strict_hash": "2db70b1542b55069114530c471bc3b85",
-    "fuzzy_hash": "b1b0583e3f1bed85f70fecdcbf658ab9",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/07/10-of-the-best-restaurants-in-dubai-that-feel-like-a-holiday",
-    "timestamp": "2026-07-21T07:30:09.859265+00:00",
-    "status": "rejected",
-    "content_hash": "320bf70676587f5fa40f4dabb1c0d98f",
-    "strict_hash": "320bf70676587f5fa40f4dabb1c0d98f",
-    "fuzzy_hash": "fea4b8131e272c5fa50dbf9bc12be1cf",
-    "reason": "Новость представляет собой подборку ресторанов, что является рекламно-развлекательным контентом, а не общественно значимой новостью. Она не несет полезной или критически важной информации для русскоговорящего жителя Дубая, а также имеет признаки кликбейта и отсутствие проверяемого источника с конкретными фактами."
-  },
-  {
-    "url": "https://www.dailystar.co.uk/showbiz/katie-prices-husband-lee-andrews-37455853",
-    "timestamp": "2026-07-21T07:30:27.047919+00:00",
-    "status": "rejected",
-    "content_hash": "a40f969099dde7d950a3582fde0bae38",
-    "strict_hash": "a40f969099dde7d950a3582fde0bae38",
-    "fuzzy_hash": "1574486ec89fa57d109c8fa388664732",
-    "reason": "Новость о муже Кэти Прайс, который якобы снова вышел из тюрьмы в Дубае, не имеет отношения к жизни русскоязычного сообщества в ОАЭ, носит характер таблоидной светской хроники и не представляет общественной ценности для подписчиков канала. Кроме того, текст выглядит как пересказ западных бульварных СМИ без проверяемого первоисточника."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/pilots-association-urges-govt-to-suspend-flights-to-uae-other-high-risk-gulf-destinations/articleshow/132523383.cms",
-    "timestamp": "2026-07-21T07:30:29.187158+00:00",
-    "status": "rejected",
-    "content_hash": "ba3117e69c87e2b2b9c413b9487b1e16",
-    "strict_hash": "ba3117e69c87e2b2b9c413b9487b1e16",
-    "fuzzy_hash": "05d8fdefa2685d9babff8524bf315130",
-    "reason": "Новость касается призыва индийских пилотов приостановить полеты в ОАЭ и другие страны Персидского залива из-за ухудшения безопасности и военной эскалации. Это напрямую связано с регионом, но основная тема — политическая напряженность и угрозы безопасности, что нарушает правило №2 (политика и конфликты). Кроме того, новость может быть воспринята как неуважение к стабильности ОАЭ (правило №4) и не представляет интереса для русскоязычного жителя Дубая, так как носит тревожный и спекулятивный характер (правило №6)."
-  },
-  {
     "url": "https://www.mirror.co.uk/3am/celebrity-news/lee-andrews-released-prison-dubai-37455947",
     "timestamp": "2026-07-21T10:01:24.759848+00:00",
     "status": "rejected",
@@ -1139,5 +1058,10 @@
     "strict_hash": "4e71aa3a2eea744fc32b73e0baf65bcb",
     "fuzzy_hash": "c399da31c2ede2eafa0ea5e4c68934e0",
     "reason": "Новость о поставке манго из Уттар-Прадеша в Дубай имеет прямую связь с регионом (Дубай как пункт назначения), не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст выглядит естественным и информативным, а также будет интересна русскоязычным жителям, интересующимся импортом продуктов. Однако она является дубликатом уже опубликованной новости \"Aam'ezing voyage: UP's mangoes make first sea journey to Dubai\" (контекст №1), так как описывает то же событие — первую морскую поставку манго из Уттар-Прадеша в Дубай."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/business/india-business/aamezing-voyage-ups-mangoes-make-first-sea-journey-to-dubai/articleshow/132563158.cms",
+    "timestamp": "2026-07-23T07:39:44.255664+00:00",
+    "status": "published"
   }
 ]
