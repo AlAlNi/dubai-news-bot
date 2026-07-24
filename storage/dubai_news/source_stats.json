@@ -1155,5 +1155,32 @@
     "strict_hash": "92822441a0e55eeee49f80689f56941a",
     "fuzzy_hash": "999a87900a8f069eb09833c2d8ec38ff",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/looking-for-summer-activities-in-dubai-heres-a-free-indoor-experience-the-kids-will-love",
+    "timestamp": "2026-07-24T12:12:00.542188+00:00",
+    "status": "rejected",
+    "content_hash": "a2076177eaeb57db6171def0ac1a3215",
+    "strict_hash": "a2076177eaeb57db6171def0ac1a3215",
+    "fuzzy_hash": "76dd5994a6492768ba8c1e1262334ca8",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQlRGS2RNR2tlekxWV256eEFKWVdnS0tEa0swWDMtZEJYeGNuX0pVRHlZay1HVTFVNmlLLVBrZVBiZnU4Nkl5VFhUVGlLY3NsNnoyWXcydDdyOHFfblNqa25YY01hMW5DTHJ0SzRjRVZLMGFUX0k1NDFtWG4wdWUtVm9VWHpEZXUwb2JkckVLandhQVl4TmJHTFA4UmlTNlkxaHc2SnpMOEk0dk53aW5KaGZFd2FaQmNpYV94dk5vclF0OG0zMlNpTUhZd1FPUTZqcWgtcVNDdXBpa2Y3ajlnVTgwa0owMzA?oc=5",
+    "timestamp": "2026-07-24T12:12:21.219191+00:00",
+    "status": "rejected",
+    "content_hash": "74e336e69de93b87431b6b11c335782c",
+    "strict_hash": "74e336e69de93b87431b6b11c335782c",
+    "fuzzy_hash": "62ff3b02bd31ef0674d8611152139932",
+    "reason": "Новость представляет собой аналитический обзор рынка недвижимости Дубая от компании MERED, что соответствует тематике канала и интересам русскоязычных жителей, интересующихся инвестициями. Однако текст крайне короткий и выглядит как анонс или заголовок без содержательной части, что вызывает сомнения в его информационной ценности и достоверности (отсутствует проверяемый источник с полным текстом). Кроме того, новость может быть воспринята как скрытая реклама девелоперской компании."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQWhMUnlCNnRmUFZiVGc2R1ZNOTQ0dXlIazgzSEdGaHlaVmVUU0d4c3FkN1AwS0Myb3lVaGw2d2ZLcEN5RGhuLUZocVE1R2dNY3BxMXJYRzlneWh6cVllTExyQnJEajROdVEtTjRzWl8wNkt1MVlJUGNFb2FFd2pYUE5fOGZqTV9VdmpmWmtzY0hHbGJZSFdXVVJyenR6NVJ2THN5N01pUmFia0dVWGtnMS1FRFLSAccBQVVfeXFMTTBRRHAxZ0tKNEx6S25DY1FEWmhLNU9UdkVPbS01alB0VGlMTGlLMHNIYVpfb2M2RW50d05FS09MRHNCSlAwdld1eEU1Mi02TDQtN1hETHpJLTFxQ3VGWllhT3RsNFZkeWpWOW0zQmI3V0lWRThlb2Rqam1RM3FrUDMwOGl6X3BQOWJTRDRXOE5yaGI2dUhXd2JkWDR5YkNmVDFLYmI1bW5TRTRkTEdmZFpRSFh3cTltRWNEdUJwUzh0b0NXazY3Yw?oc=5",
+    "timestamp": "2026-07-24T12:12:27.977812+00:00",
+    "status": "approved",
+    "content_hash": "5489b4f7bcc71786f47748ecd7ca1201",
+    "strict_hash": "5489b4f7bcc71786f47748ecd7ca1201",
+    "fuzzy_hash": "b83c67924324e3f9d0cecf8772b53b5e",
+    "reason": "approved"
   }
 ]
