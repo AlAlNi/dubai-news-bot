@@ -1201,5 +1201,41 @@
     "strict_hash": "f0d9b5f3d380db8d4f0da20bfd9d2148",
     "fuzzy_hash": "e46c06b71f1aed17dd25fa19abb7e1c5",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/15-things-to-do-for-the-perfect-self-care-day-in-dubai",
+    "timestamp": "2026-07-24T07:31:18.614021+00:00",
+    "status": "rejected",
+    "content_hash": "1bdec6491189c331cb27a2060c3076ae",
+    "strict_hash": "1bdec6491189c331cb27a2060c3076ae",
+    "fuzzy_hash": "8842162f7d34173655578252cdbab5f4",
+    "reason": "Новость представляет собой подборку развлекательных активностей для отдыха в Дубае, что не является общественно значимой новостью, а скорее рекламно-развлекательным контентом. Она не соответствует критерию полезности для русскоязычного жителя (правило 6) и выглядит как нативная реклама или пресс-релиз (правило 3)."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/07/24/hong-kong-dubai-travel-guide",
+    "timestamp": "2026-07-24T07:31:35.182692+00:00",
+    "status": "rejected",
+    "content_hash": "2d4a8c542c7831caa728485b2ec00367",
+    "strict_hash": "2d4a8c542c7831caa728485b2ec00367",
+    "fuzzy_hash": "c870fb68db9298a8ad4a9382d479581b",
+    "reason": "Новость не имеет никакого отношения к Дубаю, ОАЭ или региону GCC, а представляет собой путеводитель по Гонконгу. Это явное нарушение первого правила."
+  },
+  {
+    "url": "https://www.dailystar.co.uk/news/world-news/desperate-under-fire-dubai-offering-37469456",
+    "timestamp": "2026-07-24T07:31:50.092323+00:00",
+    "status": "rejected",
+    "content_hash": "e13c59e16f4332f402c195fdcf6551a1",
+    "strict_hash": "e13c59e16f4332f402c195fdcf6551a1",
+    "fuzzy_hash": "cda04faf743de1bd76caaaa03b5a644a",
+    "reason": "Новость имеет явную связь с Дубаем, но её тон и содержание нарушают сразу несколько правил: она основана на непроверяемом источнике (The Sun), содержит кликбейтный и провокационный заголовок, а также представляет Дубай в негативном свете, что может быть воспринято как неуважение к ценностям ОАЭ. Кроме того, информация о «снижении туристического потока из-за войны» не подтверждается официальными данными и выглядит как выдумка."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVkVwTFV6RTAzOEdNQ2xzZUFadHhFNnpYM1AtSGgyRWtxZHJzVGp0VDgyamNaYW5JTHlFN08tX2c2VE9pTWJfanVEV0VFNGJNNWl4SE1BTWlha252N0tGUFN1dTg5eGh3anNwYVh0UENHb05ET2lnclBWazFad1c1ZEFJeHHSAXZBVV95cUxQWTRuME5iaFdaR2otblJWZ3JBcE45R0plejBGVGl3TXhON2k4VUYyckZ5VzBUTlNnTGJrdW4tcmZZZDZEdmJrclRFUWNjbHhsbUd3czQ2TnRfcTB0S2QwNzNQWFdEUHFLdDFGaE40ZGhESEI0WWJR?oc=5",
+    "timestamp": "2026-07-24T07:31:51.478052+00:00",
+    "status": "rejected",
+    "content_hash": "7937aa026dd7fc36f75caa5194fe46b6",
+    "strict_hash": "7937aa026dd7fc36f75caa5194fe46b6",
+    "fuzzy_hash": "422eebe0bffb57eb4cf00dcef52352dd",
+    "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
   }
 ]
