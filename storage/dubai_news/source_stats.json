@@ -1120,5 +1120,86 @@
     "strict_hash": "4da36274a4030f5320ac0c6515030865",
     "fuzzy_hash": "e8205bb0578c0238ccaee9a6d1143141",
     "reason": "Новость о программе Dubai Invite, поощряющей резидентов приводить туристов, имеет прямую связь с Дубаем, не содержит политики или рекламы, уважает ценности ОАЭ, выглядит естественно и интересна русскоязычным жителям. Однако она является дубликатом: аналогичная информация уже публиковалась в канале (например, в контексте туристических инициатив Дубая). Хеш контента не совпадает с опубликованными, но тема и суть повторяются."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/your-guide-to-all-the-dj-gigs-in-dubai-this-year-2026",
+    "timestamp": "2026-07-24T04:59:57.282729+00:00",
+    "status": "rejected",
+    "content_hash": "6bddb9f6bb6d60dbe3665c4e64d2d3b4",
+    "strict_hash": "6bddb9f6bb6d60dbe3665c4e64d2d3b4",
+    "fuzzy_hash": "16c89c465b24d4ebd88aa80c2345e715",
+    "reason": "Новость представляет собой анонс вечеринок и выступлений диджеев в Дубае, что соответствует тематике канала, не содержит политики или рекламы, но является скорее развлекательным гидом, а не оперативной новостью. Однако она не нарушает правила, так как полезна для русскоязычных жителей, интересующихся ночной жизнью, и не является дубликатом опубликованных ранее материалов."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/12-things-to-do-in-dubai-this-weekend-july-24-to-26",
+    "timestamp": "2026-07-24T05:00:06.072573+00:00",
+    "status": "rejected",
+    "content_hash": "2c9b3fd207a80188a549913d4ff7bcfb",
+    "strict_hash": "2c9b3fd207a80188a549913d4ff7bcfb",
+    "fuzzy_hash": "c72f03c562b09908de0a49983efe452c",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные в Дубае, что соответствует тематике канала и будет полезно русскоязычным жителям. Однако она не содержит проверяемого источника (ссылка ведёт на агрегатор What's On, а не на официальный сайт мероприятия), и её формат (список активностей) не подпадает под разрешённые «страховочные» форматы (service-updates, регуляторные изменения или сводка дня из официальных источников). Кроме того, текст имеет признаки кликбейта и не является общественно значимой новостью."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObnRZaDdVUGUtdWVvNHZ4ZkQ2d2cyR0JzOGNURnF5MG41Mm9iT2xUZThNRkwxcEtVQ0NkRmcwNFV0MnBDM2Rpb0o0VVNFNjRfb3VpZ3JyN1I2RkJIT3BIbU5lYzlYMnc1d2U4anlEelFJUWQ4c3hKNF85dy03X1U2QV9CQWVjVDd6cTRrZFBUSnZOb2tEd3l6Tktfc1ZqZ192VWhHQ0FKSWdTR3ZGTG81b3pzTVBmckZaQXNCcjgxbjdvaVhwQkdySDY4OE9TeEZGS3Y4YWZ4MVpROUdYTDVlOFllckNmLTNLaHZobkFRTdIB9AFBVV95cUxQWm15cHNEcUFVTVBlaUdBNnh0YlhrVXRKbFBMeXBfcXZVUE5qV3c2cy1NOUNwTTcwamtFZXF4MklaUkswSlFwUDBFUm1BNnlMWGVrZ2c4RkJuUnpLMmhzdldQMXBaSWZ1bW5KdVFPQW80UGdTUzU1RnhoM0hvVlZHVjlsdDJsQzZNeGYwRHoxbGNqQ2ZCaXpsV3dhVDl5R2V5UUNWTEVGaUFXTVNTWEJLdnkzdV9RSHhhVFFSZDJlNldKa294dWVFUVRWOE5UU3dOWnktZUs0RVFMel9qREZwRU5UTkF6RVlvM280VFpabDd0QlZh?oc=5",
+    "timestamp": "2026-07-24T05:00:31.816358+00:00",
+    "status": "rejected",
+    "content_hash": "738a74c4407e70d5d3cfccd0741bb952",
+    "strict_hash": "738a74c4407e70d5d3cfccd0741bb952",
+    "fuzzy_hash": "84e8817283007a4459072dd9af5fb6af",
+    "reason": "Новость содержит явную отсылку к войне как причине снижения туризма, что нарушает правило №2 (политика и конфликты). Кроме того, источник «Бабель» не является официальным или проверяемым для ОАЭ, а формулировка выглядит как кликбейт с признаками ИИ-генерации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZDl6VXRIVEZ6LVdDdHJpOVhKdmt3RkpDYkx5YzFHeVdicHVldHpuX2hsMEtaNEhyUndfd1pDNVZsY3VLTUM0S3IwYnpVbDg4b3dnRU9BZHZWYnZudXJqLUdfdmQ5dHNoUmJad1pHVEQ1OWtxM212RngtTk1VUkZuQmpNblRtN2ZkdldSQ1ZLUTdxZ3BOWnc?oc=5",
+    "timestamp": "2026-07-24T05:00:36.860617+00:00",
+    "status": "rejected",
+    "content_hash": "2deedd15a92b363e72005131a5bb1ee6",
+    "strict_hash": "2deedd15a92b363e72005131a5bb1ee6",
+    "fuzzy_hash": "5b90d6b58ac94613fbf24b1bc3935435",
+    "reason": "Новость отклоняется, так как её заголовок содержит спекулятивную и непроверенную информацию о влиянии войны на туризм в Дубае, что нарушает правило 2 (политика и конфликты) и правило 5 (достоверность). Кроме того, источник (RBC-Ukraine) не является авторитетным для новостей ОАЭ, а текст слишком короткий и не содержит проверяемых фактов."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNkt6U2hxRlptWUVxMWp4VVR4RE9jTWNMUXlrY0h0d0x6MWI5NXpjbXhzWk5QWk1ST1hIdUZ2TXBMWERuakZMZ1M2ejJiMllKVlNPVENlWVVtMl9lRnlXbWlHRGFSRWVEa2s1RFp4YUh6bmVoYmcwb21GNGFoNGgzYUxHaG9VWVlHZ1pzSHJtZHNtSGNXa2tjZ1pEV2U2MmtVc2JUVU1jTXI0TGFMR3FSRU90R0ZZQ2dSZnJnQXJpRERrekZZ0gHMAUFVX3lxTFByQThQaFZsRmtqM29fREhlVGkyTzVzVERnc2xMa1d0dDIzbGlzdTNzV2tuLUpyMTIyUlYyZDFrWVRXaFJYeFJsTTZVMU5LTTFhR294em91Q1BIaVZfdUxHdEd4bFJvQndfMDZwRWZ6QmdibWhXMW1aNjdpanBYZXBWNVkyaVhVb2Zhd1FTZzVMUHB5YXZoVjFnM3QzSzNVMGMxSklibVFUcVRyLXdDejVCMTdINWU2VlFjXy1jcVFRdDlEc3V6ZnJ0aXpleg?oc=5",
+    "timestamp": "2026-07-24T05:00:39.116237+00:00",
+    "status": "rejected",
+    "content_hash": "0affcb0945a6e2eb5a5740e4e70ceb66",
+    "strict_hash": "0affcb0945a6e2eb5a5740e4e70ceb66",
+    "fuzzy_hash": "5b22d442209c3d0c8b3809e605d46780",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUmROaW1YVlBudmVmQ1JsQ0Y3WVBSZDhyUmZBRjdsVkpZbTdLcGFjcXRKTUk1OVhoeWVNLTdBcVdvY282OTZKcVBtdnVPbTBDRzc0QUlOU2RWSWI3b1V3VGZ6cUxRR1NHcEhrT3NDXzFxR0ZTZGVUNVR2Yk9ZZzJsMmVjbzJKQmhCWlZ4Q0tHRUIxVGdhM2N6TGRsdi1NdGxwRXJPZ2FJSVk0cTQ2ZHM2UHJOTG9FYWxSZG02c0hsUFk?oc=5",
+    "timestamp": "2026-07-24T05:00:41.628662+00:00",
+    "status": "rejected",
+    "content_hash": "86e58f5336dffb4db75a95ac776364ee",
+    "strict_hash": "86e58f5336dffb4db75a95ac776364ee",
+    "fuzzy_hash": "73d5c5554fd64d0cb69b66a039a4e648",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTlBDV2ZNVE9kNXBsc2plNXhGV2tYVk5PempqWFlaQkR5cWV2bmM2QWUza040aHhQVFR4bVRiSnB3QTBYR044YmFqRnJueUVDcTRCakMwckx3OXZmQ0lmS0FlUU5MZ3BVTFZUSi1IYjAxdVg0Y092V0dXeHBJbjhZVk00QzNoc2ZxZkhjRU1UcVVydlQ0al9OSnVaakw2WGZKdm9MejRwVHVubkM2MUNUaUkwOWp4ZmRQMV8yRTRYRQ?oc=5",
+    "timestamp": "2026-07-24T05:00:43.348352+00:00",
+    "status": "rejected",
+    "content_hash": "e433e827fc98a0f77d2434d50deb6e0b",
+    "strict_hash": "e433e827fc98a0f77d2434d50deb6e0b",
+    "fuzzy_hash": "b2912b4b41dae40936bb7d61a14bcb9b",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNmtxNjNDM0RYa3Y1QUlfZEdxeDNqVU1KRTRzeHdJNGk5WFFPZUg4Vy1BNmo3U1g4d3VWLVdFc2hqaVU4VjNybVJNUTlrZGh4Skp3S3N6REF4MmtubnA2NVR3Tk9ORWNtQzZ3YWRZT3N2aURJSTJ4TU1QcGNqenBnNGhFNnJTWFdTU1Z5R3BpWWZlUzFWbmVrNdIBswFBVV95cUxNVkk5OG9Ua1FzN2R2VklWekE5ZTNsX3NjWUNtQlpwSnNMZGJsS0U1aUdrcTlCcEsteVlkbVpBUXJYUjNyUmhnajdra0RHRDZTSkZyUlBMaXJSTGl6dWJub0RwTUpacW1MbzRIbTBZazlkVDE4QW5ZOEZDLWo2a0c1bFBfSGszLVU1RHp0UzI4cGtVVUJsUGYwd0R6VklfNW9BVHVnVF9hWUdUWm1hd0ZyQ2JDOA?oc=5",
+    "timestamp": "2026-07-24T05:00:45.375353+00:00",
+    "status": "rejected",
+    "content_hash": "e89d298b37008ee75d1705549fab44f4",
+    "strict_hash": "e89d298b37008ee75d1705549fab44f4",
+    "fuzzy_hash": "115b345a72924a121de2c42489541eff",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeTR5TjdlQ3lUZXEyeVp4dG0xSGtRX2NvZFVsVENBU29ZTE1oaERXc25sZEFCcDFacUJOdk9FejlFT1VUa1hiZWJILVFCclNRS1JhaHE1V1FYVWlMM1ZsbjJTOExfbV96dWlJWjF3cV9Uc0Zmd21aNmcyWmZyS2ktckVuakY2d185ekJmblVBcV9USkQ0dndQVVJRWVBUQldaSXl2NmFlakZfSXRPcmRhYVdHcWVHdFR2VEp2Z1ltSjlGRTVBcDVIag?oc=5",
+    "timestamp": "2026-07-24T05:00:47.197211+00:00",
+    "status": "rejected",
+    "content_hash": "f0d9b5f3d380db8d4f0da20bfd9d2148",
+    "strict_hash": "f0d9b5f3d380db8d4f0da20bfd9d2148",
+    "fuzzy_hash": "e46c06b71f1aed17dd25fa19abb7e1c5",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
