@@ -963,5 +963,23 @@
     "strict_hash": "e3a7fd3cc355f86588159a4e786ed93a",
     "fuzzy_hash": "fd0332b04a3e8aa1c072e9e8fc6eb107",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://markets.businessinsider.com/news/currencies/raprime-secures-cma-category-5-license-in-the-uae-opens-dubai-office-1036362480",
+    "timestamp": "2026-07-25T04:42:44.129114+00:00",
+    "status": "error",
+    "content_hash": "f7f9cd356fe56955da47488669ea831d",
+    "strict_hash": "f7f9cd356fe56955da47488669ea831d",
+    "fuzzy_hash": "57925c2c20aa11fd2fc0744a03dd20f7",
+    "reason": "DeepSeek editor HTTP ошибка 400"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1laTdZT0xaRTNBR2tSSklTaHdpa0xxMWtxNkNlNzVCN2I0SVYwWlczcV9jcXRFSElpTnBIN1VKQUt5dF9mVmRQWTlmaDdKM0w4Y1RtbGp6VG16MkczMm1HaGJNUW9QNGVINUhISVNQNHFXYU9JZnhMa1k5dw?oc=5",
+    "timestamp": "2026-07-25T04:42:45.819714+00:00",
+    "status": "rejected",
+    "content_hash": "519c155521a1eaf3ea3d535316e60fc0",
+    "strict_hash": "519c155521a1eaf3ea3d535316e60fc0",
+    "fuzzy_hash": "9880c14d8d9593c6dee776e7f92a6904",
+    "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
   }
 ]
