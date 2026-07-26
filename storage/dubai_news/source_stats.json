@@ -449,5 +449,32 @@
     "url": "https://www.thenationalnews.com/news/uae/2026/07/26/dubais-new-premium-british-school-with-rich-royal-heritage-to-pursue-culture-of-entrepreneurship",
     "timestamp": "2026-07-26T16:09:39.120730+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.hindustantimes.com/world-news/dubai-residents-seize-real-estate-cooldown-opportunity-as-middle-east-war-rages-on-101785043772871.html",
+    "timestamp": "2026-07-26T18:55:22.639469+00:00",
+    "status": "rejected",
+    "content_hash": "fd355a3607167329f5ba6cffe6ea8b46",
+    "strict_hash": "fd355a3607167329f5ba6cffe6ea8b46",
+    "fuzzy_hash": "ea505f8f23946e0276ec71472380a11b",
+    "reason": "Новость содержит упоминание \"Middle East war\" в заголовке и тексте, что является прямой отсылкой к военному конфликту, что нарушает правило №2 (политика и конфликты). Кроме того, тема войны может быть воспринята как неуважение к ценностям ОАЭ, стремящихся к стабильности и миру (правило №4). Новость следует отклонить."
+  },
+  {
+    "url": "https://www.malaymail.com/news/money/2026/07/26/buyers-market-dubai-residents-cash-in-on-real-estate-cooldown-as-prices-fall-up-to-20pc-amid-middle-east-war/229026",
+    "timestamp": "2026-07-26T18:55:24.794770+00:00",
+    "status": "rejected",
+    "content_hash": "7a102aa15d18586775fddd5df3e6df2c",
+    "strict_hash": "7a102aa15d18586775fddd5df3e6df2c",
+    "fuzzy_hash": "5775d32dcb7e0c3245ffc15aeac78a93",
+    "reason": "Новость содержит упоминание «Middle East war» в заголовке и тексте, что является прямой отсылкой к военному конфликту и большой политике. Это нарушает правило №2 (политика и конфликты), а также может быть воспринято как неуважение к стабильности региона (правило №4). Кроме того, тема падения цен на недвижимость из-за войны не соответствует ценностям ОАЭ, которые подчеркивают безопасность и привлекательность рынка. Новость следует отклонить."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRnlIWHZDQ3hCWlJGSzNXSlI2d21WRWFmX2VIckV5cGxXeWNzenVsMnVBVGV6Y2dLQ295MDhnTS1TRkVzSGdwS1J0M3kyaWxXWkNWZG9MU09iQkd6REd4LUEycUhiUkNWZkRTNnpleXZjV091MXN2NDZqRXRiVTdiWjVUN2FwTGhoWmNGcEFlZksyWDJfMVhLSThqT1c0NHNVRnRqdDh1amFHbHJQX2tnVHJGcDlMcWJSWEFkN1RJcFVYQnlJbFFnXzdJNTFHZw?oc=5",
+    "timestamp": "2026-07-26T18:55:27.806093+00:00",
+    "status": "rejected",
+    "content_hash": "7ca214e30dacdc5a7fd74b2254b1e457",
+    "strict_hash": "7ca214e30dacdc5a7fd74b2254b1e457",
+    "fuzzy_hash": "f905e5d5804c67e1ed0c897dc9713d8a",
+    "reason": "Новость дублирует уже опубликованный материал про открытие приюта для животных в Дубае (пункт 1 контекста). Отличается только источником и незначительной формулировкой, что является нарушением правила 7 (дубликаты и повторы)."
   }
 ]
