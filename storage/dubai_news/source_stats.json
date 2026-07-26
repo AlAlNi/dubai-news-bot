@@ -624,5 +624,86 @@
     "strict_hash": "987f23b9f3ab403cf45aac2253d9c08e",
     "fuzzy_hash": "e0497302ba9711bb16aabf8c549f27be",
     "reason": "DeepSeek editor HTTP ошибка 400"
+  },
+  {
+    "url": "https://www.manchestereveningnews.co.uk/news/world-news/uk-foreign-office-fresh-travel-34350656",
+    "timestamp": "2026-07-26T01:46:13.726030+00:00",
+    "status": "error",
+    "content_hash": "b8457b2eadbd905199c1dc7414d8aa96",
+    "strict_hash": "b8457b2eadbd905199c1dc7414d8aa96",
+    "fuzzy_hash": "64d7f859fe7ed2559d1850c53990e48b",
+    "reason": "DeepSeek editor HTTP ошибка 400"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT1FSZFNaSU96MkE4RjZNTXl6ZnRZVkNvQ0lDSHRnQzhUVmtsRVRyczRJcC1zazZQOFlNTEhqSU5jeHlLV3Q0NHNHQURBY05fTGluMkdRNDhIRXhCZnNxSEZMVk45TWY0TWNMSXY1WnM5LUpVV29wMk9mMXozQ0JrX1NjVnZmWEcxRkhkbmx5TnZRanFUVDRRQQ?oc=5",
+    "timestamp": "2026-07-26T01:46:16.697821+00:00",
+    "status": "error",
+    "content_hash": "480bcc5965b4939153d8633872e008d6",
+    "strict_hash": "480bcc5965b4939153d8633872e008d6",
+    "fuzzy_hash": "37e8ed3ebcade2a5c97602996cfaa828",
+    "reason": "DeepSeek editor HTTP ошибка 400"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UZHBfRGVDREx2TGFvNk1fbVZFczBhbFJHTk5zR0x0cnVxWHRWS0hxNTF2cTM2MmJPZFJaYWw3Ym83enFKTE9EVjJCX1pvemppTml2RVlJUWpYbzBzZ1dmeHo1YVpDdlhPUHhaQWhn?oc=5",
+    "timestamp": "2026-07-26T01:46:17.669535+00:00",
+    "status": "error",
+    "content_hash": "90c32b39b4b47fe7a5b0ca9fd067f921",
+    "strict_hash": "90c32b39b4b47fe7a5b0ca9fd067f921",
+    "fuzzy_hash": "dc23378380414854fd96693c52fb5a2c",
+    "reason": "DeepSeek editor HTTP ошибка 400"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQanlvQ2RZMFN0V3Z3ZnpiRjY1NG53eS1TdjNRcWE5aXZ1c3lkSGJLLW5ZeTRGRkRmeTJLQXNUMVU2OGp3S0d3dUxqVEQwenhtaEZ1RjVxblB6STlqclVsZXRNcm55NVpHMGdXS2VEWkk5UjJYNkcxaENOaGRQNHV6VHBQZDJVTUdmQlZIM2Zsc0dLbmIwU21mRXU0bEFxMFRYVFkwc2ZjNTI?oc=5",
+    "timestamp": "2026-07-26T01:46:19.234944+00:00",
+    "status": "rejected",
+    "content_hash": "4f6563e8509f764ec069b689d9cd5966",
+    "strict_hash": "4f6563e8509f764ec069b689d9cd5966",
+    "fuzzy_hash": "c536887fdb13f61259d12bf892b6e521",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWlpOb2dxQkxCODV5dG0xVkoxOVpGaVhUbjdpdmdzckI2WGl3Q3kzdVlONVlsb0F5YWJMZG95UnFxZDNxQTJsWUs1Y3QxS2cxXzZvQWxLSHJ6Tm9iWUg1TG5sakQ3NXN1X0ZRM1BOaVdjUk5fNWVJUTNWZEFJSy1STWVYXzhEY3lWTkFQMm1wMVcxVUJueTBfM0t5Y0xnUGxkQlhTZEtXQWZTM256aHo1SzQ4a2tWV0NHdjZsNWd3R1ppRGd1YkM0LTBTaHhldw?oc=5",
+    "timestamp": "2026-07-26T01:46:20.995797+00:00",
+    "status": "rejected",
+    "content_hash": "0fabece3ea652f87f6f51660d601bb31",
+    "strict_hash": "0fabece3ea652f87f6f51660d601bb31",
+    "fuzzy_hash": "81c1c279f2c72778023331f8bfa999a6",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQU3hLQVdQQWp6UlpQbG93d0ZkLU9zX3B5dFBUVzQ5SWFFNmozYzhCMV95d3RpSFVYTWpGcEo5Q010eXhFUy1TbTdsQnNxeHVkc3hZWjQzWS1fMDhwUmVkUHRNVWpSRHVXaEUyTk5TYy1paTlqSm1OQWdQQ2xqQlpDVDNmOGlpUUI1dHIzZzY5VFBrbjkyUy1KNTRRVm5KQTY0NE9fSGc3OVV3ZTIzenVKT2U5elNxclp2eDFoUmdMODJLLVhJNU9wMXpGcXpMMzBuTUg0c3pXVVJsd9IB7AFBVV95cUxPME5zdkZxUEtXNjU2bURBWUNMU0thTTIyVEZ5SVZ5dkt5cERwN3FvNEszLTNFcC0wUEdaeFFPVndUS1h2X2pxMWYwVFJMYW0zWTUyYnZadnFaTVJpOGxvbkpfTVRtbk1RNFlHWjZHQV93YnlBbzNCMXBRREd2V2xJZmFmb3h1dzB4Y2FtZ0lNRmxQbEZBMGdzaDdISU41N0pNQ0h3TVVMMGx5dWF0YXNKLTl6Z1Y2S0lMY091Q19zdS10VXljN0lody1ZWkJfYVBNZ0c3aWxEc0N2S0hzZGNfREktekpMeFQ4UVZoNg?oc=5",
+    "timestamp": "2026-07-26T01:46:22.684549+00:00",
+    "status": "rejected",
+    "content_hash": "c4f18f918329bfb2eb27cc1a43be54e3",
+    "strict_hash": "c4f18f918329bfb2eb27cc1a43be54e3",
+    "fuzzy_hash": "c8827e5d927ff9ae5df5c8b9c4e5c338",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZHIxeVcwWjNNTnVMZkN1Q1UzaDd0Z2RIdnpBbkctLVpkMXFub1VselhJcm9UV053c3k1ck5NZG5ScGkzY3cwVVppRGRQR3FSRE1iWWk3b1pHdEFyRnRWRzl6cGV2RXI0U1RFSzA1Q3pGVGFvclpSOXB3ejZPVkpSQ0JYSDhyYlFSc1dGLUt5RUNQbUluZFdRZnliemNaNWVaaGZKUGNqZllWTWpSZ3RYMkpkZE9TMVFjdV9Ob00za2l4akxzWDh1bzR4QUxBZWdkUFcxdWVXUVA?oc=5",
+    "timestamp": "2026-07-26T01:46:24.353411+00:00",
+    "status": "rejected",
+    "content_hash": "5cbe9caafd2df02d2d53dd9536312191",
+    "strict_hash": "5cbe9caafd2df02d2d53dd9536312191",
+    "fuzzy_hash": "f6da4177c776d679cb08276f9e8539a9",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeEZRcTNEZlpsa0xxY0tYNjM4b204dzZpLTJzaTZwMUdBMGNzU0c5UXBIcXFuQkhGRFZtLWtpUC1uSEtXM3VidXRRMVhCbVI0TFpuOUlCV25oQzhxSThFSXRfRXRMN01jc2NMOER5bjFXY2pTRURaQUUzYWJ1THQ5Q2RkbHBIVlk5a0hsbnhMQUxHTEhLX3ducWhOdkFxQnlxVnhVeC1icW1WZENYZTlHY1VqeWhoZUZxenEwWnU0Zm9XMVVE?oc=5",
+    "timestamp": "2026-07-26T01:46:26.158145+00:00",
+    "status": "rejected",
+    "content_hash": "e2a99137ad9dc8b5544c086051cbcf01",
+    "strict_hash": "e2a99137ad9dc8b5544c086051cbcf01",
+    "fuzzy_hash": "21b730e7507a15bae91e13182eb3c824",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjZ1dDRHYS16eVBXVl9ZMzYybU1DOEhiWEp1YjNNV2tPWkh3RVBvWEVqN19YRHBMMFpVYVlvZl9FM192LXhHc2RRWmdzeU5YN2lkbmlIUXhUOFE4WEVKd2NKb1g3T3RfamxfLW1zREJiaDQtNFdWVmpJNWpydFpWRGNNZGPSAYwBQVVfeXFMTUFmbTRnanZWMlVfNU1UUTl3ZGgxcmExUExKNTI1eElRUy0tN3RtSzZRc3N5RWlxNF92SWt5ME9uNnZZM3dZcFpHM3BNOXpCTm1CMEJFZHRhMUFGamVzM1FmSHY0eGtJNjQ1eU1qcXhDOGEwU29FN242N1pibzU3d25JZXRvYjlFSEJidHE?oc=5",
+    "timestamp": "2026-07-26T01:46:27.859424+00:00",
+    "status": "rejected",
+    "content_hash": "6970affce8b8174db90d7d2c83687649",
+    "strict_hash": "6970affce8b8174db90d7d2c83687649",
+    "fuzzy_hash": "a9d8e7ab442a1046b2f8bd37daf35a9a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
