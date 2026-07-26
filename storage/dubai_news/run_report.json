@@ -1,78 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-07-20T11:21:57.570298+00:00",
-    "finished_at": "2026-07-20T11:22:10.590895+00:00",
-    "duration_seconds": 13.021,
-    "success": true,
-    "counters": {
-      "attempts_made": 3,
-      "fetched": 2,
-      "rejected": 1,
-      "approved": 1,
-      "deepseek_calls": 3,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 2,
-      "reserve_fetches": 2,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-07-20",
-      "daily": {
-        "published_per_day": {
-          "value": 1,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 71.43,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "whatson.ae",
-            "events": 7,
-            "reject_rate": 85.71,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 26,
-            "reject_rate": 65.38,
-            "duplicate_rate": 0.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-07-20T11:34:41.390086+00:00",
     "finished_at": "2026-07-20T11:35:49.193093+00:00",
     "duration_seconds": 67.803,
@@ -16109,6 +16037,72 @@
         },
         "reject_rate_after_editor": {
           "value": 90.91,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "news.google.com",
+            "events": 21,
+            "reject_rate": 80.95,
+            "duplicate_rate": 4.76
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-07-26T12:55:36.533910+00:00",
+    "finished_at": "2026-07-26T12:56:31.431702+00:00",
+    "duration_seconds": 54.898,
+    "success": false,
+    "counters": {
+      "attempts_made": 5,
+      "fetched": 1,
+      "rejected": 1,
+      "approved": 0,
+      "deepseek_calls": 1,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 1,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 4,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-07-26",
+      "daily": {
+        "published_per_day": {
+          "value": 0,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 91.67,
           "alert_if_gt": 60.0,
           "ok": false
         }
