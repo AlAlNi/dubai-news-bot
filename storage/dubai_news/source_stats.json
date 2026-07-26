@@ -476,5 +476,14 @@
     "strict_hash": "7ca214e30dacdc5a7fd74b2254b1e457",
     "fuzzy_hash": "f905e5d5804c67e1ed0c897dc9713d8a",
     "reason": "Новость дублирует уже опубликованный материал про открытие приюта для животных в Дубае (пункт 1 контекста). Отличается только источником и незначительной формулировкой, что является нарушением правила 7 (дубликаты и повторы)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ3BYMHdZNG9YWlhzdlh3WG9YdWJUOVdFcmJDaDg1RTIwbTJMVVJ6anRQUVg0bDZvTjJoenVqcWgwRVlaalBtRTMxdmRxcWJMWGcxZkItVDdwTXNCTHFmOEJ6MTFfeHk3azA3RHVsR3o4QkNzVG51ZHUxZ1hlYUcwQTBqX1psRmVYRFN3b2tFaDRGVTJi?oc=5",
+    "timestamp": "2026-07-26T19:43:31.594289+00:00",
+    "status": "rejected",
+    "content_hash": "0cb00654254d8c28112e25413e58d272",
+    "strict_hash": "0cb00654254d8c28112e25413e58d272",
+    "fuzzy_hash": "18653e81a1cdbf8d456491623f567a5b",
+    "reason": "Новость напрямую связана с Дубаем (упоминание в заголовке), но её основная тема — международный конфликт между США и Ираном, что нарушает правило №2 (политика и конфликты). Кроме того, это может быть воспринято как чувствительная тема для ОАЭ (правило №4). Новость не является дубликатом уже опубликованных, но не подходит по содержанию."
   }
 ]
