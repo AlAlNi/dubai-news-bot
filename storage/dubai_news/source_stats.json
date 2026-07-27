@@ -472,5 +472,50 @@
     "strict_hash": "b7e18a67233bce649aafaf5e5ec3efb6",
     "fuzzy_hash": "8e250892edb861c747d41cfe82de38f5",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dubai-opens-new-animal-welfare-shelter-for-pet-adoption",
+    "timestamp": "2026-07-27T05:39:04.867134+00:00",
+    "status": "rejected",
+    "content_hash": "ff793b2191e365eff3aa22bd1a402318",
+    "strict_hash": "ff793b2191e365eff3aa22bd1a402318",
+    "fuzzy_hash": "d899f1a8883037e408851a04348218aa",
+    "reason": "Новость дублирует уже опубликованный материал под номером 3 (Dubai Municipality opens integrated pet shelter and launches digital adoption platform) — та же тема, тот же объект, только с другого источника. Публикация нецелесообразна."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/things-to-do-in-abu-dhabi-this-week-july-27-to-30",
+    "timestamp": "2026-07-27T05:39:12.258034+00:00",
+    "status": "rejected",
+    "content_hash": "9a7366a6a6352fedee80c031dcff12cb",
+    "strict_hash": "9a7366a6a6352fedee80c031dcff12cb",
+    "fuzzy_hash": "d889484f14cbcd97f9d549b45825dd66",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий в Абу-Даби, что не имеет прямой связи с Дубаем (правило 1), а также выглядит как рекламный пресс-релиз без общественно значимой информации (правило 3). Кроме того, источник (Whats On) не является официальным и не предоставляет проверяемых фактов (правило 9)."
+  },
+  {
+    "url": "https://emirateswoman.com/tiffany-co-plants-1837-mangroves-in-abu-dhabi-to-mark-world-mangrove-day",
+    "timestamp": "2026-07-27T05:39:20.476145+00:00",
+    "status": "rejected",
+    "content_hash": "b4474138c0df6dd95788f43a9b8a2f13",
+    "strict_hash": "b4474138c0df6dd95788f43a9b8a2f13",
+    "fuzzy_hash": "b71b5da328b2e92bd247e5532d69287f",
+    "reason": "Новость о посадке мангровых деревьев компанией Tiffany & Co. в Абу-Даби имеет слабую связь с регионом (Абу-Даби, а не Дубай), выглядит как пресс-релиз с рекламным подтекстом (упоминание бренда и даты), не представляет общественно значимой информации для русскоязычного жителя Дубая и не соответствует критерию проверяемого источника (ссылка ведет на блог, а не на официальный источник). Кроме того, тема экологии уже освещалась в других новостях, но этот конкретный текст не является дубликатом."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc01UMVE4dXVrcUp1aFYyMWlRVGVpVWowblhMZVFlWEtGTnNNOUZfTFpKMXo4OTlUWXUwR1hrcm1EWlVCMHR4SURnSEg0MlJVR1dmNlBtanBLeWIwTmJvd1p3UEE0WXAzVFFJbFJLdFBhVWxpSW9iMUhka1BIRjlVVkFRNEVSaThjWThHY1RsMWNfMFdBVW9IZjZNNjlMTkRxUzA4dFNfVVBSTDhYdk9JMHdkbnZUUQ?oc=5",
+    "timestamp": "2026-07-27T05:39:24.139372+00:00",
+    "status": "rejected",
+    "content_hash": "4314b59549f22be4fc70863deacfb399",
+    "strict_hash": "4314b59549f22be4fc70863deacfb399",
+    "fuzzy_hash": "4e394714007c2f2c26df199314d2dfa5",
+    "reason": "Новость об открытии нового моста в Дубае соответствует тематике канала (связь с регионом), не содержит политики, рекламы или неуважения к ценностям ОАЭ, является общественно значимой для русскоговорящих жителей (инфраструктурные улучшения). Однако она является дубликатом уже опубликованной новости №4 (Dubai opens new bridge as road project to cut travel time to 5 minutes - Khaleej Times), так как описывает то же событие — открытие моста в рамках проекта развития дорог."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY1c4SzhxRnl5Y0QxY0JrQzg4VGp4SU96Y3ZlaFNBM3BaZ2hONGthaEZfYXUtV25qS2QtVzd6N2g5YnRvejAwa2ItNkxCNktZMU55Z0hSTDU0XzdyMnJGaEpEbGFWRTd3MDRPN0g0bGNDZjdWaUNLMzlLN2NBa1lXM1hWek5rMUxJbkdXWlJPNVRSNDZqckNLYXl0b3ktSW5ONVhSRQ?oc=5",
+    "timestamp": "2026-07-27T05:39:31.308842+00:00",
+    "status": "approved",
+    "content_hash": "145095f03a05dc399bf0f5b986f70700",
+    "strict_hash": "145095f03a05dc399bf0f5b986f70700",
+    "fuzzy_hash": "94d502b85ca3b08a4c0c77ba051138a1",
+    "reason": "approved"
   }
 ]
