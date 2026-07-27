@@ -787,5 +787,23 @@
     "strict_hash": "b5338138776081cafc14de3dd5c3746c",
     "fuzzy_hash": "184f7664207021c009f0cdbe05f828b7",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX28zbUZHLUkyNm5feVc2WWFCTDFqRzl1SVFiNzBkaDM0ckFPeTA0bzV0eVIwYUJYbGxqY08wbDRGRjVRRjNEZ0VBSllJQTVFZWdXdTdaT2FSSVdhbVJ1bTFrVGJfTmpsSTNMLURsTVlUb2VUYnY0Rnl0d3A0OEFaMFg4ekNGZWlkclJhdWtR?oc=5",
+    "timestamp": "2026-07-27T15:58:27.178695+00:00",
+    "status": "rejected",
+    "content_hash": "4804115155f912ed112e1dc0ed6f8d92",
+    "strict_hash": "4804115155f912ed112e1dc0ed6f8d92",
+    "fuzzy_hash": "1abc432017a9e47fa5b5d37f22dfa336",
+    "reason": "Новость о том, что авиакомпания Beond Airlines уходит из Дубая, сосредотачиваясь на Красном море и Саудовской Аравии, имеет прямую связь с регионом (Дубай), но её основная тема — это уход/потеря авиаперевозчика для эмирата, что может быть воспринято как негативная информация, не соответствующая ценностям UAE (правило 4). Кроме того, источник (One Mile at a Time) является блогом, а не официальным или проверяемым новостным агентством, что нарушает правило 9. Новость не представляет очевидной пользы или интереса для русскоговорящего жителя Дубая (правило 6), так как речь идёт о нишевой авиакомпании, а не о массовых перевозчиках."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONm1WZDVibW5ncjdEM0dsNHZZcWVZSUV3b1BTS0xKM0RqcmVvMlRYSWtUc2QzYWQzb3J1d1poTER5M2psYzNyNm9DQjVneWJaaF9LSjkwdnZqdTBKZnBrdnp0OHgxUlBWR1ZRNnBLOHVHZXB5SU51VVp1ckhLNzZEZjFUNEVlS3NGTnIzMzZwU3g4R1lqMjhOREJjSDJ2eWNIOHNQd1pITkFBcFRsX1dQUER0QQ?oc=5",
+    "timestamp": "2026-07-27T15:58:34.775807+00:00",
+    "status": "approved",
+    "content_hash": "3dee2538a5adbf7d21c42605d2700fd3",
+    "strict_hash": "3dee2538a5adbf7d21c42605d2700fd3",
+    "fuzzy_hash": "a296c2cd7d88f1a2e212e1ecd8eeb706",
+    "reason": "approved"
   }
 ]
