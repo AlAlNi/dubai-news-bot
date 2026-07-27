@@ -959,5 +959,77 @@
     "url": "https://www.manilatimes.net/2026/07/27/tmt-newswire/pr-newswire/dmcc-signs-strategic-partnership-with-hong-kong-tinkam-capital-to-drive-industrial-investment-between-hong-kong-and-dubai/2391905",
     "timestamp": "2026-07-27T23:13:37.032564+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.newsbytesapp.com/news/india/dubai-mumbai-flight-diverted-after-smoke-detected-in-cargo/story",
+    "timestamp": "2026-07-27T23:34:03.407032+00:00",
+    "status": "rejected",
+    "content_hash": "b7515bf89748160a88dad591fb25b7ee",
+    "strict_hash": "b7515bf89748160a88dad591fb25b7ee",
+    "fuzzy_hash": "edb8489ba543a5237c8d9e4191e16206",
+    "reason": "Новость о вынужденной посадке рейса Дубай-Мумбаи из-за задымления в грузовом отсеке имеет прямую связь с Дубаем (рейс из Дубая), не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст выглядит естественным и достоверным (со ссылкой на официального представителя аэропорта). Однако это событие уже было опубликовано в контексте (новость №1: \"IndiGo flight from Mumbai to Dubai makes emergency landing\" — хотя направление указано обратное, суть та же: аварийная посадка рейса IndiGo, связанного с Дубаем). Учитывая высокую степень совпадения темы и авиакомпании, это дубликат."
+  },
+  {
+    "url": "https://www.devdiscourse.com/article/law-order/3955816-un-experts-urge-uae-to-release-detained-british-businessman",
+    "timestamp": "2026-07-27T23:34:05.503000+00:00",
+    "status": "rejected",
+    "content_hash": "ea088133c3835a19f036e2c327d22410",
+    "strict_hash": "ea088133c3835a19f036e2c327d22410",
+    "fuzzy_hash": "2228f3ab4e080df9cbdfe8d8187282f2",
+    "reason": "Новость касается ОАЭ, но её основная тема — призыв ООН к освобождению британского бизнесмена, что является политическим и конфликтным вопросом, затрагивающим репутацию страны. Это нарушает правило 2 (политика и конфликты) и правило 4 (уважение к ценностям UAE), так как может быть воспринято как критика правовой системы ОАЭ."
+  },
+  {
+    "url": "https://www.newindianexpress.com/india/2026/Jul/27/mumbai-dubai-indigo-flight-makes-emergency-landing-in-rajkot-after-smoke-detected-all-194-on-board-safe",
+    "timestamp": "2026-07-27T23:34:08.491225+00:00",
+    "status": "rejected",
+    "content_hash": "d6dab6fd411b5e2161f0ea3c2db02d47",
+    "strict_hash": "d6dab6fd411b5e2161f0ea3c2db02d47",
+    "fuzzy_hash": "a627a2a5a0230f715437a578aaf102e3",
+    "reason": "Новость дублирует уже опубликованную историю об экстренной посадке рейса IndiGo (Мумбаи-Дубай), но с противоположным направлением (Дубай-Мумбаи) и другим местом посадки (Раджкот вместо Мумбаи). Это не точная копия, а развитие той же темы, однако она не несёт новой значимой информации для русскоязычного жителя Дубая (инцидент произошёл в Индии, не в ОАЭ). Связь с регионом слабая (рейс из Дубая), но основное событие — за пределами ОАЭ."
+  },
+  {
+    "url": "https://www.lokmattimes.com/technology/indigo-flight-from-mumbai-to-dubai-makes-emergency-landing-in-rajkot-1",
+    "timestamp": "2026-07-27T23:34:10.494764+00:00",
+    "status": "rejected",
+    "content_hash": "892138ab793a79c01baf9a2a7c646e4c",
+    "strict_hash": "892138ab793a79c01baf9a2a7c646e4c",
+    "fuzzy_hash": "626484937d1721d0ad94cbdc2a7927af",
+    "reason": "Новость является дубликатом уже опубликованной новости №1 из контекста (IndiGo flight from Mumbai to Dubai makes emergency landing - Gulf News). Отличается только местом посадки (Rajkot вместо общего упоминания), но суть и событие идентичны."
+  },
+  {
+    "url": "https://www.livemint.com/news/india/mumbaidubai-indigo-flight-makes-emergency-landing-in-gujarat-after-smoke-detected-in-cargo-11785150104452.html",
+    "timestamp": "2026-07-27T23:34:12.651540+00:00",
+    "status": "rejected",
+    "content_hash": "8d0c8ece19e554d001a2f4fecbcfc149",
+    "strict_hash": "8d0c8ece19e554d001a2f4fecbcfc149",
+    "fuzzy_hash": "e59009e4510717e8653a3399f4fce39a",
+    "reason": "Новость является дубликатом уже опубликованной новости №1 (IndiGo flight from Mumbai to Dubai makes emergency landing - Gulf News). Тема та же, событие то же, разница только в источнике и незначительных деталях. Публикация нарушает правило №7."
+  },
+  {
+    "url": "https://www.freepressjournal.in/india/dubai-mumbai-indigo-flight-diverted-to-rajkot-after-mid-air-cargo-fire-warning",
+    "timestamp": "2026-07-27T23:34:14.685854+00:00",
+    "status": "rejected",
+    "content_hash": "869c41fa05c96b9b5afcafbc8d75620e",
+    "strict_hash": "869c41fa05c96b9b5afcafbc8d75620e",
+    "fuzzy_hash": "5a80ac1e86711fc57a9e309ba1175927",
+    "reason": "Новость дублирует уже опубликованную информацию об экстренной посадке рейса IndiGo Дубай-Мумбаи (пункт 1 контекста). Хотя тема соответствует региону и не нарушает другие правила, публикация повторного материала недопустима."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/rajkot/indigo-dubaimumbai-flight-makes-emergency-landing-in-rajkot-after-cargo-smoke-alert/articleshow/132659021.cms",
+    "timestamp": "2026-07-27T23:34:17.328944+00:00",
+    "status": "rejected",
+    "content_hash": "615ecafe87bf11fcb64af373a918f5ea",
+    "strict_hash": "615ecafe87bf11fcb64af373a918f5ea",
+    "fuzzy_hash": "a2fac792917f31d38826ea21b85f5dfc",
+    "reason": "Новость является дубликатом уже опубликованной новости №1 (IndiGo flight from Mumbai to Dubai makes emergency landing). Различаются только аэропорты назначения (Мумбаи vs. Дубай) и место посадки, но суть одна — экстренная посадка рейса IndiGo, связанного с Дубаем. Публикация повторной информации нарушает правило №7."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQWxCRngweW5nT2dZaXRaMnJHV3lMekNwaTc4Vmc4WUhZOW9vOF9rQjVrUmVQVTdQNVQyS3g5aTYyczZZTXV3SmZFWWR1VGhfUVJlVzlhdmlaaXl2dXJ6ek5xYnlKVFkzd1NfM1c4OXI2ejJWdW1Jc0w2TjYzUDdpbzZnV2llYVBXSjg3eGgwcVpQWlMwdkNKaDBjYkl1SktTa0lwN1VxRHpGMUstOEJJMVhpYV9CR2d1cW4taEJjY2R1amhXNWp1NE5hV2tEWXZ6anhlQTVCUWQ1T1lGVGdkSTZ5SFp3T00?oc=5",
+    "timestamp": "2026-07-27T23:34:20.532601+00:00",
+    "status": "rejected",
+    "content_hash": "b4bee1c7c42f46c200339a0aab779737",
+    "strict_hash": "b4bee1c7c42f46c200339a0aab779737",
+    "fuzzy_hash": "8eb57aaa49f6cac2d584c0413c6c6966",
+    "reason": "Новость касается дубайской нефтяной трейдинговой компании, что даёт формальную связь с регионом, однако основная тема — банкротство бывшего владельца российского НПЗ — не имеет прямого отношения к жизни в Дубае или ОАЭ, не представляет интереса для русскоязычного жителя эмирата и выглядит как узкоспециализированная деловая информация из внешнего источника."
   }
 ]
