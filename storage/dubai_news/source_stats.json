@@ -517,5 +517,32 @@
     "strict_hash": "145095f03a05dc399bf0f5b986f70700",
     "fuzzy_hash": "94d502b85ca3b08a4c0c77ba051138a1",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dubais-opens-major-new-three-lane-bridge-in-oud-metha-development-project",
+    "timestamp": "2026-07-27T09:27:43.821075+00:00",
+    "status": "rejected",
+    "content_hash": "0fc69611db21a4319134e7ea6c15a0c7",
+    "strict_hash": "0fc69611db21a4319134e7ea6c15a0c7",
+    "fuzzy_hash": "b64fc374a27c014d58fb4785313fa026",
+    "reason": "Новость о новом мосте в Дубае имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст выглядит естественно и будет интересен русскоязычным жителям. Однако она является дубликатом уже опубликованной новости №1 (Dubai announces opening of a three-lane bridge at Oud Metha) и частично повторяет новость №5 (Dubai opens new bridge as road project to cut travel time to 5 minutes)."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/uae-weather-forecast-48c-heat-hazy-skies-and-a-surprise-splash-of-rain",
+    "timestamp": "2026-07-27T09:27:49.710266+00:00",
+    "status": "rejected",
+    "content_hash": "7931e7378474800625eb5bc55984e348",
+    "strict_hash": "7931e7378474800625eb5bc55984e348",
+    "fuzzy_hash": "76ae41a20259b03e4d5a86e70d6a1fb0",
+    "reason": "Новость о погоде в ОАЭ с прогнозом до 48°C и возможностью дождя соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ценностям, информация полезна для русскоговорящих жителей Дубая (планирование дня). Однако текст выглядит как фрагмент с техническими артефактами (символы «&#8230;», ссылка на WordPress), что снижает достоверность и естественность, а источник (What's On) не указан явно в виде проверяемого URL. Кроме того, новость о погоде — типичный повторяющийся контент, который уже мог быть опубликован в похожем виде (например, п.6 контекста про отмены рейсов не дублирует, но погодные сводки часто повторяются). По правилам 5 и 9 — отклоняем."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbFg2bXFEWWEybkNnWlJ0VTM2NkZDblN1YWNkQUNvTzFfSnpoSi1jZHR2ZUdGdkZXMm8xY0d6cm1kRnl4Yklpb3hMWmZpYmhZRm1KbVVHbm9ZdE1sMGRBVkw1d2RlTlpWeEZJNVVBSmRmN1kySXd3SzBVWktSS1lDaG4yVDdNUkNHTmlNck5xdGZ6RERZSnNz?oc=5",
+    "timestamp": "2026-07-27T09:28:07.753251+00:00",
+    "status": "approved",
+    "content_hash": "5a8e5371c5954dd7189b6e050d6cc3a4",
+    "strict_hash": "5a8e5371c5954dd7189b6e050d6cc3a4",
+    "fuzzy_hash": "1a6880174e81cc5abacc7b39438a3167",
+    "reason": "approved"
   }
 ]
