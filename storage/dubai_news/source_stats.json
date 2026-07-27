@@ -841,5 +841,14 @@
     "strict_hash": "52f32934889dcd55c13ae10efc97a74a",
     "fuzzy_hash": "b46301971f54996b36c1bfaf65d6d459",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVdSWEpmVzVoU2lSQnVzb1RiV1VrbEVYaDRDZW9aczJST0cwcldpQTJyUmZqam43bWxKaUlfcU9BbnZfSnFjZUpOWGliVC1Xby1BY0Rha1dBcnJia3dtdzVLTkl4cTg1QTVQWVpFbW1CQV9yM1hzaTVDZEF5aENJa0VfVnRlRzA?oc=5",
+    "timestamp": "2026-07-27T18:04:44.798297+00:00",
+    "status": "rejected",
+    "content_hash": "354a7919fa9dee9104bc27b06ba2a281",
+    "strict_hash": "354a7919fa9dee9104bc27b06ba2a281",
+    "fuzzy_hash": "db4bfb636349bd34ce862c4d5730e4ab",
+    "reason": "Новость представляет собой типичный список-рекомендацию (топ водных парков), что является рекламно-туристическим контентом без общественно значимой новостной ценности. Она не содержит проверяемых фактов, срочных обновлений или пользы для русскоязычного жителя, а скорее напоминает нативный материал для туристического блога."
   }
 ]
