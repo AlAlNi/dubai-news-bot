@@ -1158,5 +1158,23 @@
     "strict_hash": "5a8607a33a663a1eb2c88c7df8d7e949",
     "fuzzy_hash": "6da64288b9391c85cb3e4e778b2ee5e4",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.hindustantimes.com/india-news/smoke-alert-diverts-mumbai-to-dubai-indigo-flight-to-rajkot-all-passengers-safe-101785217357849.html",
+    "timestamp": "2026-07-28T18:52:44.144184+00:00",
+    "status": "rejected",
+    "content_hash": "8b1d8c89fe6200b1cbd489b89ccb3597",
+    "strict_hash": "8b1d8c89fe6200b1cbd489b89ccb3597",
+    "fuzzy_hash": "2968f860d66e364898b79d76fa4c50e1",
+    "reason": "Новость является дубликатом уже опубликованной новости №9 («IndiGo flight from Mumbai to Dubai makes emergency landing»). Хотя заголовок и текст содержат дополнительные детали (название города Rajkot, время), суть события идентична — экстренная посадка рейса ИндиГо из Мумбаи в Дубай. По правилу №7 (дубликаты и повторы) такая новость не может быть опубликована повторно."
+  },
+  {
+    "url": "https://www.malaymail.com/news/malaysia/2026/07/28/macc-pursues-documents-from-dubai-singapore-and-indonesia-as-kwap-investment-probe-widens/229234",
+    "timestamp": "2026-07-28T18:52:46.276332+00:00",
+    "status": "rejected",
+    "content_hash": "4fc5af96d9b256c9904a678d9337c3e1",
+    "strict_hash": "4fc5af96d9b256c9904a678d9337c3e1",
+    "fuzzy_hash": "252306f53ac1a9d0d9f2a5e555390c3f",
+    "reason": "Новость касается запроса малайзийского антикоррупционного органа к Дубаю, Сингапуру и Индонезии о предоставлении документов. Связь с Дубаем есть, но тема носит политико-юридический характер, связана с иностранным расследованием, не представляет интереса для русскоязычного жителя Дубая и не является общественно значимой новостью для ОАЭ."
   }
 ]
