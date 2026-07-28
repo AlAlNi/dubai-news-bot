@@ -1,5 +1,59 @@
 [
   {
+    "source_name": "Natural News",
+    "title": "AI Border Control System Debuts at Dubai Airport, Clears Passengers in Seconds",
+    "summary_ru": "<b>✈️ В аэропорту Дубая запустили ИИ-пограничный контроль: пассажиров пропускают за секунды</b>\n\nМеждународный аэропорт Дубая (DXB) внедрил новую систему пограничного контроля на базе искусственного интеллекта. Она использует биометрические камеры и данные о рейсах, чтобы обрабатывать пассажиров за 6–14 секунд, сообщили представители аэропорта.\n\nСистема дебютировала в прошлом году для пассажиров бизнес-класса, а теперь её начали тестировать на всех путешественниках. Устройство сканирует лицо и сверяет его с информацией о полёте — без необходимости предъявлять паспорт или посадочный талон.\n\n<blockquote>«Это позволило сократить время прохождения контроля на 60% и полностью исключить очереди на некоторых выходах», — отметили в администрации DXB.</blockquote>\n\nВ планах — расширить технологию на все терминалы и интегрировать её с другими системами безопасности аэропорта.\n\n<blockquote expandable>В тестовом режиме система уже обработала более 200 тысяч пассажиров, показав точность распознавания 99,8%. Полный запуск ожидается к концу 2025 года.</blockquote>\n\n#Дубай #аэропорт #технологии",
+    "published": "2026-07-28T07:12:48.476162+00:00",
+    "source_urls": [
+      "https://www.naturalnews.com/2026-07-27-ai-border-control-system-debuts-dubai-airport.html"
+    ],
+    "lang": "en",
+    "content_hash": "00bf9439dda3aa32858e43c46097232b",
+    "strict_hash": "00bf9439dda3aa32858e43c46097232b",
+    "fuzzy_hash": "7d17b089f62613bc145d84172c19f082",
+    "method": "gnews",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость соответствует тематике канала (Дубай, аэропорт), не содержит политики, рекламы или неуважения к ценностям ОАЭ, источник проверяем (официальные лица аэропорта), информация полезна для русскоговорящих жителей и туристов. Дубликатов среди опубликованных новостей нет."
+      }
+    },
+    "image_url": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/07/ai-border-control-biometric-cameras-passenger-clearance-2886-original.jpg",
+    "slot_target": "morning"
+  },
+  {
     "source_name": "Gulf News",
     "title": "UAE traffic alert: Long delays reported on Sharjah-Dubai routes during rush hour - Gulf News",
     "summary_ru": "🚦 <b>Транспортное предупреждение в ОАЭ: на маршрутах Шарджа-Дубай в час пик фиксируются длительные задержки</b>\n\nВодителей, следующих из Шарджи в Дубай, предупреждают о серьёзных заторах в часы пик. По данным Gulf News, пробки наблюдаются на ключевых магистралях, соединяющих два эмирата.\n\nОсновные факты ситуации:\n\n🚗 Задержки фиксируются на маршрутах Шарджа — Дубай в утренние и вечерние часы пик.\n🚗 Дорожные службы рекомендуют планировать поездки с запасом времени или искать альтернативные пути объезда.\n🚗 Точные цифры задержек и конкретные участки дорог уточняются, однако сообщается о значительном замедлении движения.\n\n<blockquote>«Пробки на въезде в Дубай со стороны Шарджи стали привычным явлением, но сегодня ситуация особенно сложная», — отмечают очевидцы в социальных сетях.</blockquote>\n\n<blockquote expandable>Наиболее загруженными остаются трассы E11 (Sheikh Zayed Road) и E311 (Sheikh Mohammed Bin Zayed Road) в направлении Дубая. Водителям советуют использовать навигационные приложения для мониторинга текущей ситуации и выбора оптимального маршрута.</blockquote>\n\n#ОАЭ #Трафик #ШарджаДубай",
@@ -426,60 +480,6 @@
         "status": "approved",
         "action": "approved_for_publication",
         "reason": "Новость напрямую связана с Дубаем (DET — Департамент экономики и туризма Дубая), не содержит политики, рекламы или неуважения к ценностям ОАЭ, источник — официальный пресс-релиз правительства Дубая, что делает её проверяемой и достоверной. Тема интересна русскоязычным жителям, особенно связанным с финансами и бизнесом, и не является дубликатом уже опубликованных новостей."
-      }
-    },
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "slot_target": "morning"
-  },
-  {
-    "source_name": "Gulf Daily News (Bahrain)",
-    "title": "UAE Business: Dubai announces opening of a three-lane bridge at Oud Metha - Gulf Daily News (Bahrain)",
-    "summary_ru": "<b>🚧 В Дубае открыт новый трехполосный мост в районе Уд-Метха</b>\n\nВласти Дубая объявили об открытии нового трехполосного моста в районе Уд-Метха (Oud Metha). Об этом сообщает Gulf Daily News (Бахрейн).\n\n<blockquote>Новый мост призван улучшить транспортную доступность и разгрузить существующие дорожные артерии в одном из центральных районов города.</blockquote>\n\nКлючевые факты:\n📍 Мост расположен в районе Уд-Метха\n🚗 Пропускная способность — три полосы движения\n📅 Открытие состоялось недавно (дата не уточняется)\n\n<blockquote expandable>Ожидается, что новый мост сократит время в пути для водителей и уменьшит заторы на прилегающих улицах, что особенно актуально в часы пик. Проект является частью масштабной программы дорожного развития Дубая.</blockquote>\n\n#Дубай #UAE #ДорожноеСтроительство",
-    "published": "2026-07-27T05:39:27.386634+00:00",
-    "source_urls": [
-      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY1c4SzhxRnl5Y0QxY0JrQzg4VGp4SU96Y3ZlaFNBM3BaZ2hONGthaEZfYXUtV25qS2QtVzd6N2g5YnRvejAwa2ItNkxCNktZMU55Z0hSTDU0XzdyMnJGaEpEbGFWRTd3MDRPN0g0bGNDZjdWaUNLMzlLN2NBa1lXM1hWek5rMUxJbkdXWlJPNVRSNDZqckNLYXl0b3ktSW5ONVhSRQ?oc=5"
-    ],
-    "lang": "en",
-    "content_hash": "145095f03a05dc399bf0f5b986f70700",
-    "strict_hash": "145095f03a05dc399bf0f5b986f70700",
-    "fuzzy_hash": "94d502b85ca3b08a4c0c77ba051138a1",
-    "method": "google_news_rss",
-    "source_priority": 3,
-    "workflow_state": "approved_by_editor",
-    "editorial_decision": "approved",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 70,
-      "ad_readiness_score": 80,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о новом мосте в Дубае соответствует критериям: имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, является полезной для русскоязычных жителей (инфраструктурное обновление). Однако требуется проверка на дубликат: в контексте уже есть новость №4 про открытие моста, но она от Khaleej Times и про другой проект (сокращение времени до 5 минут). Данная новость про трёхполосный мост на Oud Metha — это другой объект, не дублирующийся. Источник (Gulf Daily News) проверяем. Решение — публиковать."
       }
     },
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
