@@ -1045,5 +1045,50 @@
     "strict_hash": "3226b2c448978982d230557b0091d5ac",
     "fuzzy_hash": "74d4571e946ad112c3a37bfc8eb0f863",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/10-things-to-do-in-dubai-this-august",
+    "timestamp": "2026-07-28T10:23:15.544099+00:00",
+    "status": "rejected",
+    "content_hash": "431a53643f1458e5421632ad0bd8328b",
+    "strict_hash": "431a53643f1458e5421632ad0bd8328b",
+    "fuzzy_hash": "fef998c42b89802163b2fc6f7530a74e",
+    "reason": "Новость представляет собой типичный афишный материал о развлечениях в Дубае на август, что соответствует тематике канала и интересам русскоязычных жителей. Однако она является точным дубликатом уже опубликованной новости под номером 7 (\"The quietest places in Dubai to sit back and read a book - whatson.ae\") — оба материала с одного и того же сайта What's On, имеют одинаковую структуру и формат \"списка дел\", что нарушает правило 7."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/supa-uzbek-culinary-house-dubai",
+    "timestamp": "2026-07-28T10:23:22.969423+00:00",
+    "status": "rejected",
+    "content_hash": "82265a1d0c7c44384ec901b54bcc8a24",
+    "strict_hash": "82265a1d0c7c44384ec901b54bcc8a24",
+    "fuzzy_hash": "19acfea694d0886398bc3632a2cf8842",
+    "reason": "Новость об открытии ресторана узбекской кухни в Дубае соответствует правилам: имеет прямую связь с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, текст естественен и интересен русскоязычным жителям. Однако это дубликат — новость уже была опубликована в канале (пункт 7), так как хеш совпадает с ранее проверенным контентом."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/dubai-cinema-is-hosting-an-early-screening-of-spider-man-brand-new-day",
+    "timestamp": "2026-07-28T10:23:28.300913+00:00",
+    "status": "rejected",
+    "content_hash": "9433b9959781d1e47aca6ce5a2031d1b",
+    "strict_hash": "9433b9959781d1e47aca6ce5a2031d1b",
+    "fuzzy_hash": "78c5f5c0f9f4581d33cab0ccb0f1e831",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObFhHemhHdjZpcmdTN0stakt0WTF1XzUxMzFZYVdja3d4ZnZGTlpzTGZ1YWtaUXdnNDN3RXNFbzdKZmZsT0FIRnh2OVo5ZFlHdV9JLURpNnlnMFpudjZUTG1DVzBhRW5OdzFleloxbWU4NEcwUXZuSmgtbmU1X2ZSWDZqSGdDV0NvWW5neE1uRnZILXRCZnRORHJCeEc5azd4eGQtT2JVa3pQaWJSdXF3WTRR?oc=5",
+    "timestamp": "2026-07-28T10:23:31.050312+00:00",
+    "status": "rejected",
+    "content_hash": "cc2b32aeeb443c1a8b8180990b771a0d",
+    "strict_hash": "cc2b32aeeb443c1a8b8180990b771a0d",
+    "fuzzy_hash": "841429297af648cc8477b804b69a13b1",
+    "reason": "Новость дублирует уже опубликованную новость №5: «Dubai Police launches home delivery service for lost and found items - Emirates 24|7». Тема и суть идентичны, различается только источник. Публикация приведёт к повтору."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUmNOTUZ6QVBvdzVRVjVOOHNUSUp6MG0zSVdvWERfd3dBZmlxTmR0RDg3dHBwZjg5ZXo0czhtNEVNZExYZ3hNOHlLZklwbEVadFBKZ29qU29aaGl5b2J4MWhiWnc4RzRkMHhZNnNaY0NEV0ZQcHpRdjlLUkJaMHVUcGdzLVV3MHg0X2xjckxUMWZyS2ZtTGwwVXFFWms3UnpCclBwSlFRSG9UeFNLUmtXeVluVW5qYmZaaHfSAdQBQVVfeXFMUGVMdkdFaGxDdjgtWDlzbTNvbE9GSGJYNUFGczdUSW9ZQ3g5c25UazlVR2dKZ2R2ckd6X3VkeEo3LUtZdW9zY3BJUXl2N0oyeDVFWnE4ZWN6dGdXbXgwLUszY3k5bWNEQXZod2NaNzlmeU1mX2M4U21OXzRKeHE5Ui1vOFBndGlPRWxZeFl0WHNfTHJ2NWY1SG1WdEtWZ19FNVgzZVlZbGhycUtVb25mRlZGOWM0dmstTHd2MElmbVhrTXBncDJPMmcteTVvUHdxWmNvQi0?oc=5",
+    "timestamp": "2026-07-28T10:23:37.894202+00:00",
+    "status": "approved",
+    "content_hash": "5e279b64f83e8ee5018787cd2e60b0b8",
+    "strict_hash": "5e279b64f83e8ee5018787cd2e60b0b8",
+    "fuzzy_hash": "1c9b666446a105b4c63919a82520c372",
+    "reason": "approved"
   }
 ]
