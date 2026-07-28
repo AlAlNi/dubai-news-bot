@@ -1167,5 +1167,23 @@
     "strict_hash": "ef77be28e4d70ecabfe675d0106e8e98",
     "fuzzy_hash": "44a99bc218d4d1092fd0bfd028907e51",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/dubai-international-financial-centres-industry-leading-h1-2026-achievements-reinforce-its-position-at-the-forefront-of-global-finance-in-the-middle-east-africa-and-south-asia-302836346.html",
+    "timestamp": "2026-07-28T21:59:38.485769+00:00",
+    "status": "rejected",
+    "content_hash": "1a211727dbca88d8dc5ca2711d228359",
+    "strict_hash": "1a211727dbca88d8dc5ca2711d228359",
+    "fuzzy_hash": "fd24984d4a357dbb5b9a8a26410a2b8d",
+    "reason": "Новость является пресс-релизом от DIFC, который носит рекламно-имиджевый характер и не содержит общественно значимой информации для русскоязычного жителя Дубая. Кроме того, текст явно сгенерирован для PR-рассылки, что нарушает правило о естественности и достоверности."
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/07/28/tmt-newswire/pr-newswire/flipster-secures-vara-full-operational-exchange-license-advancing-regulated-crypto-services-in-the-uae/2392795",
+    "timestamp": "2026-07-28T21:59:45.540392+00:00",
+    "status": "approved",
+    "content_hash": "949f5b44d683c252810d4f4f9e654c6f",
+    "strict_hash": "949f5b44d683c252810d4f4f9e654c6f",
+    "fuzzy_hash": "8d7d46b81ddd0787e072c03049585a09",
+    "reason": "approved"
   }
 ]
