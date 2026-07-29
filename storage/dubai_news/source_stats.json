@@ -1321,5 +1321,23 @@
     "strict_hash": "428929f6db3178b602e73940330cfea1",
     "fuzzy_hash": "e07ee2ae458bc8e0f2532b11c0dd4b53",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.outlookindia.com/international/travel-travails-why-is-dubai-paying-residents-to-bring-tourists",
+    "timestamp": "2026-07-29T04:46:25.719993+00:00",
+    "status": "rejected",
+    "content_hash": "01676cf6b27cc07dda98c7770b86a8a9",
+    "strict_hash": "01676cf6b27cc07dda98c7770b86a8a9",
+    "fuzzy_hash": "98ccbfb52701cb95e59ba07dcbd60bfe",
+    "reason": "Новость отклоняется, так как её основная тема — влияние конфликта между Израилем и Ираном на туристический сектор Дубая, что является политическим контекстом и нарушает правило №2. Кроме того, заголовок носит кликбейтный характер, а текст ссылается на CNN, но не содержит проверяемого URL-источника для подтверждения данных."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWhXZ2hrSnhwZU45SGRHeC1pZ1A4RDJwWEs2WnE4WG1qSFJ2SnlsMjhWY3hOODVhQ3FNcG9NY0N1cFRLWmRZX0EwV1p2c3RCbkpFSmlhdFoxUVJXMGhoUmxuT1d1ZDFycExvTGd4VXk1eWhGRENqVDNXXzlvYWt3c1phYXlRbUZhT3JfVVNkNjREbk5DVmhvX2dlY09HdUNBaG1Gb3ozaWhNUUVLVm02d3N3?oc=5",
+    "timestamp": "2026-07-29T04:46:35.436456+00:00",
+    "status": "approved",
+    "content_hash": "0ba16915d27147f67175850db2f00900",
+    "strict_hash": "0ba16915d27147f67175850db2f00900",
+    "fuzzy_hash": "5cb7a73966688b0b87cc2269c0a22640",
+    "reason": "approved"
   }
 ]
