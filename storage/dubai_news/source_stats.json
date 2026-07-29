@@ -1184,5 +1184,32 @@
     "strict_hash": "bcc3eb0bff55d192e7775a9526f6c95a",
     "fuzzy_hash": "c17cbe3d7d6ed9012a2628bd5264151b",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.hindustantimes.com/lifestyle/art-culture/step-inside-the-world-only-seven-star-hotel-in-dubai-where-every-room-is-a-two-storey-suite-burj-al-arab-101785317848389.html",
+    "timestamp": "2026-07-29T22:31:47.892572+00:00",
+    "status": "rejected",
+    "content_hash": "995680ba3832b29871d2afda66d8861c",
+    "strict_hash": "995680ba3832b29871d2afda66d8861c",
+    "fuzzy_hash": "6fc66c0e64f4a07069a32fa511f2f717",
+    "reason": "Новость представляет собой рекламно-описательный материал о «семизвёздочном» отеле в Дубае (Burj Al Arab), без общественно значимой информации, с признаками кликбейта и неполным заголовком. Текст не содержит проверяемых фактов, а лишь пересказывает общеизвестные сведения, что нарушает правила 3 (рекламный характер) и 5 (естественность/достоверность). Кроме того, новость не несёт практической пользы для русскоговорящего жителя Дубая (правило 6)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2NCRXcxRnNLbXIxc3dyTWJnSFRraDBUempzNTRJRXlUTkdCWjFLOGNwMXk4THpyQ1JjRUZJdkV4dk1PdHFPNnd1S0w1NDFXMG9vSXZ5bEpLQUE3SGh0MDBLZ1VkakNtYllvZ1NKR01ReW9VendqWGhEV3BKX01LRGVuMVI0SDR2OWlVcWg2bzR1cno1bHc?oc=5",
+    "timestamp": "2026-07-29T22:31:48.849578+00:00",
+    "status": "rejected",
+    "content_hash": "7ec4ffa57e307b8bb1caade7ea5551f1",
+    "strict_hash": "7ec4ffa57e307b8bb1caade7ea5551f1",
+    "fuzzy_hash": "c10085b27cac6e49af717f32397678ae",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS2xOR1NTS3J6RV8zSmRvdXhNeXVHemdxdFBLZ2JLa0tNVlR4OGlZYUdIX01PYnNRZGFkNFQxY2JUUzdNaW5yZXE5RFB4aTRLV3R6bXphcURvV2tzeW1rTGFTQTEtbGl1bmJMU0tGeVIzeFFLeGZrVEljT01yN05QYVhIUm5QOXBmbFNIVWRKbXVpc05lbElkRTBkZUduN0hqWjhkMjdTbnFvWjVoMHk2Y2JXMGxWSjVXSUh1ZWo2N21WbUk?oc=5",
+    "timestamp": "2026-07-29T22:31:52.944532+00:00",
+    "status": "rejected",
+    "content_hash": "2ff59ccbe148c00e259a08048f6bb9ba",
+    "strict_hash": "2ff59ccbe148c00e259a08048f6bb9ba",
+    "fuzzy_hash": "f130a236aac4b4cf52a54441aaee0e6e",
+    "reason": "Новость представляет собой рекламный или имиджевый материал от риелторской компании Allsopp & Allsopp, а не общественно значимую новость. Отсутствует проверяемый источник с конкретными фактами, а заголовок носит кликбейтный и субъективный характер."
   }
 ]
