@@ -1148,5 +1148,41 @@
     "strict_hash": "0c1368d1391c5392a489ac06d0be91da",
     "fuzzy_hash": "f40c5c6a6c5064fb92bd10cc5b9c5ce1",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/where-to-book-your-next-movie-in-dubai-based-on-the-experience-you-want",
+    "timestamp": "2026-07-29T21:47:14.815510+00:00",
+    "status": "rejected",
+    "content_hash": "686f1a10416d38c3961c787078a4edce",
+    "strict_hash": "686f1a10416d38c3961c787078a4edce",
+    "fuzzy_hash": "c9d88af5488fbd2ee6ca8cc4842bf3e0",
+    "reason": "Новость представляет собой обзор кинотеатров Дубая с рекомендациями по выбору в зависимости от ситуации. Она явно связана с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ, написана естественно и будет полезна русскоязычным жителям, ищущим досуг. Однако это не новость, а скорее развлекательный гид, который не является оперативной или общественно значимой информацией, и не подходит под формат новостного канала."
+  },
+  {
+    "url": "https://www.straitstimes.com/asia/major-gulf-fighting-restarts-as-us-and-saudi-strike-irans-allies-in-iraq",
+    "timestamp": "2026-07-29T21:47:31.374837+00:00",
+    "status": "rejected",
+    "content_hash": "9378c5ac96c370b36a5e9e16c7a2524c",
+    "strict_hash": "9378c5ac96c370b36a5e9e16c7a2524c",
+    "fuzzy_hash": "ba431518f4670d0ada8fa2a29e5c6f73",
+    "reason": "Новость явно нарушает правило №2 (политика и конфликты), так как основная тема — военные действия, авиаудары и геополитическое противостояние, что недопустимо для канала о Дубае. Также отсутствует связь с повседневной жизнью русскоязычного жителя Дубая (правило №6)."
+  },
+  {
+    "url": "https://www.straitstimes.com/world/middle-east/major-gulf-fighting-restarts-as-us-and-saudi-strike-irans-allies-in-iraq",
+    "timestamp": "2026-07-29T21:47:33.291391+00:00",
+    "status": "rejected",
+    "content_hash": "9b47e91b9b332857435d93daed557e99",
+    "strict_hash": "9b47e91b9b332857435d93daed557e99",
+    "fuzzy_hash": "53c139533aa6d3992df890c279e8328e",
+    "reason": "Новость явно нарушает правило №2 (политика и конфликты), так как основная тема — военные действия, авиаудары и геополитическое противостояние, что недопустимо для канала о Дубае. Также отсутствует связь с повседневной жизнью русскоязычного жителя региона (правило №6)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYTF1R2QtVW96TTNseWViTW94TDVFMDVSak1GbTg0V3ZFblptdUFCenp3LWYwbnJpbTE1UWU0b0dnN3JHcjNUT3BxbTktb3JwUXpfZ2NHVnc2ZjVmTGVzMHpwcXpYRlYzUFdKWXgydkhhYm5yNXZJQzN5Q0JjcTJicXN6S05TdnFDQ0Z5S2lDMWM?oc=5",
+    "timestamp": "2026-07-29T21:47:41.557687+00:00",
+    "status": "approved",
+    "content_hash": "bcc3eb0bff55d192e7775a9526f6c95a",
+    "strict_hash": "bcc3eb0bff55d192e7775a9526f6c95a",
+    "fuzzy_hash": "c17cbe3d7d6ed9012a2628bd5264151b",
+    "reason": "approved"
   }
 ]
