@@ -1276,5 +1276,68 @@
     "strict_hash": "a648316868a6ca7d7a0d0e5a845555ed",
     "fuzzy_hash": "c39eaac894d2d6b30f5313d62ee421da",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.hindustantimes.com/trending/indian-woman-shares-harsh-reality-of-finding-a-job-in-dubai-don-t-come-if-you-cannot-handle-stress-101785242514654.html",
+    "timestamp": "2026-07-29T01:28:53.674364+00:00",
+    "status": "rejected",
+    "content_hash": "a3ca00b91afd13bbe3a22e5984fd5a88",
+    "strict_hash": "a3ca00b91afd13bbe3a22e5984fd5a88",
+    "fuzzy_hash": "4e2420f048e06a296fa5d78b565f3ee8",
+    "reason": "Новость не подходит: это личный опыт индийской девушки о поиске работы в Дубае, который не является проверяемой новостью, не имеет официального источника и может быть воспринят как негативный отзыв о рынке труда ОАЭ, что нарушает правило уважения к ценностям UAE. Кроме того, текст выглядит как пересказ поста в соцсетях без общественной значимости для русскоязычных жителей."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcUhrZnctVExrcW1kMndJWWZSb2QxUm5IUGd0QmhCbGdOT25fY1dmRVc5ZF9uRlRDZDdQZ2lfcmFrY0o0YWxKMFFYZ2xwT0dGa3JreElJTW91SXJOd0tMeDJpald4T3Z1Y0J6UUlieDdNQ01QNWN3Y2cxaTR3cTFJWS1ESnZxVy14Qmk1c3ZVUTBfMWZBZlE4YnlXYkNoR242OE50OWdmeGhLd3NXb0tNUHhLVWVUYUZpVzZrZGpvTmZlejJXY29uRmhudmhEZXdFN21iU0FONERiUEswbGp0WXNuWWJZeDFPR3c?oc=5",
+    "timestamp": "2026-07-29T01:28:57.149409+00:00",
+    "status": "rejected",
+    "content_hash": "ac5c8beb35434f687798017222f7abbf",
+    "strict_hash": "ac5c8beb35434f687798017222f7abbf",
+    "fuzzy_hash": "a4c6f55412bf00eca7d6890252bfbb7e",
+    "reason": "Новость не подходит: она посвящена личным финансовым делам иностранного политика (Abdul El-Sayed), а не событиям, значимым для Дубая или ОАЭ. Текст носит характер зарубежного расследования, не имеет общественной ценности для русскоязычного жителя Дубая и не соответствует критериям проверяемого источника с явной связью с регионом."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNbDNYbEt6THRiWF9jN3JzZjU1ZnV6SHVuZEIzNkY1Vy1LMWZUemVxZzBZNXBFZHV2SG1FRnFyQ3JHQ25UZWZNRlY3RmduNlcyc09fUXUxNmxBUW1Tb3FlVlI4dGZWT2E0V1NSbEtkQk9nUnU4MWNFVVJTcm9Ddl9OdFhxX1A5UGpDdGEzdlVEd1BRa3E0QWZnUzJhcVlhNkFIR05GV0VyQzRLTE1Xci0yUlU3LV83RFU1M0U1Z1pjUW42RWlneFVtUEdjMkZCUER6dFEtNlp5bUc3RklNcEwxRlhsSEJJT1VCQ0tldDF4STZVN2p5WkdhbzB5Yw?oc=5",
+    "timestamp": "2026-07-29T01:28:59.871286+00:00",
+    "status": "rejected",
+    "content_hash": "e080716af8284e744b437694c60225c9",
+    "strict_hash": "e080716af8284e744b437694c60225c9",
+    "fuzzy_hash": "8ed06abb1a207b57011f7f0cbe059446",
+    "reason": "Новость о росте Dubai Financial Market на 7,7 млрд дирхамов имеет прямую связь с регионом (Дубай, ОАЭ) и не содержит политики, рекламы или неуважения к ценностям. Однако текст крайне короткий, выглядит как фрагмент или заголовок без проверяемого источника (URL не указан), и неясно, будет ли он полезен русскоязычному жителю Дубая без дополнительного контекста. Кроме того, среди опубликованных новостей нет явных дубликатов по этой теме."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRGVvZU14cVgzTnFUZDcxcmZva1k3VnhCWFdaV3hGUG5kOTBsX0VNNWFaR3lSMmQ0TjdWci0zVXpMcjRoN3ZhZnBaSHBaUENWOVlyZnJHRXBDXzZ1RGRLYjVhc0FOcEQ0RmlWMER3anBvUy1QUnViRmNTWDFlU0pMcm16R2s4TnpuR3djUWpWcXF0SUNxeUI4SEp5bmF6NWJVLXc?oc=5",
+    "timestamp": "2026-07-29T01:29:00.510245+00:00",
+    "status": "rejected",
+    "content_hash": "385e89a491e5509152e7deebd470b51a",
+    "strict_hash": "385e89a491e5509152e7deebd470b51a",
+    "fuzzy_hash": "d936f8222d2d7d3624c916419f0cf6af",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNl85QnR3Y2JTMm1IYlktWHdYOUx3cnp5U0cyd0N0WnFwTWlqTVV3MktXWDVycnJWS1AwT0h0VmFWOHMxYUZqTWQ5bHJOUFBDdnY5cWMwTzNWdWsyN09zd1l5N3dJcUVEdDE2YldpNnhuZ1pyWjE5VV92TkNHSnNSWHdBX1ZrNklKaGtFMVhBVVBaSS1RNVNfbTg5dk55cjB3Y0RLdXlvSmNBQ2thOGY0NF9YaVZkV1JpTWMzRUpWajcwYzVVdXJFelRtazBoZXRkT1FOU0haZXU?oc=5",
+    "timestamp": "2026-07-29T01:29:02.238613+00:00",
+    "status": "rejected",
+    "content_hash": "f11f90ed542040b6c143b916a25a38e6",
+    "strict_hash": "f11f90ed542040b6c143b916a25a38e6",
+    "fuzzy_hash": "8a9fac1d2b67ef7c7c0a7202d3388d04",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSFhLMngxZ0ZjQVdpS3djbjl0TzkteGZBZUFZeFZSbWV5Rk9RNi1zRmgyWG0ybVZPdXBBREdxWUNIT0FYT29FeHNLUzlSMFIzN1pIN0V4ZTZ6YXZ2OFJtR1ZRT3NNVFhvZkstbGpqYmdrUmMwbHBBcVZmRWd1V3ZhUmVWRmVRdVJudjdvUFNjdW9QeGhVUnhmTGVra0pmYW9oOTJWamlsSkRoVEI0Vlc2ejNFMHhueXJpekUyYVpLVWdxNlpLa3c?oc=5",
+    "timestamp": "2026-07-29T01:29:03.848117+00:00",
+    "status": "rejected",
+    "content_hash": "9d043b1805e87455de3ab87de78c43ea",
+    "strict_hash": "9d043b1805e87455de3ab87de78c43ea",
+    "fuzzy_hash": "463b10652eb22f60accdcb299b9f66e2",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNldwYnlpVjlhek1MS1MzVzFadkhsSlY0c0MzdTVjR2toakxNZFliRVhjZ2lZVmdvdWdxT0xSaFUybWh1V2xneXdIdldIZGNZVkQ0UDVhQzFlTDJfeWQ4ZllJaHhxTUZkQ2NKbGNlV1RhTXJvZWx1TXJLWGtjLVR3REZKSk5QMnhqbVNmX2pOWlMyQzZhSlNUTEVua0ZWMXQwczByVkdFcFpCZHNuMjB3S2RfY0pFVlFGZG5rREg2clJBVDBDcXo5YzhXY1Nob0RaczdN?oc=5",
+    "timestamp": "2026-07-29T01:29:05.655845+00:00",
+    "status": "rejected",
+    "content_hash": "428929f6db3178b602e73940330cfea1",
+    "strict_hash": "428929f6db3178b602e73940330cfea1",
+    "fuzzy_hash": "e07ee2ae458bc8e0f2532b11c0dd4b53",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
