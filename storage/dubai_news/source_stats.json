@@ -1303,5 +1303,50 @@
     "strict_hash": "434c06536dd6bd4d5cdd327f3665148a",
     "fuzzy_hash": "642f44cc1b55b50cda6947ec7dac6626",
     "reason": "approved"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUhySFgtQU9PekQ4aXZ4bXUyOGhpM2dlVTIwdXNJYm42VmpySzQ1elhmMjU0M1lXTFdtOUhwTkJTOXlYNXFDQWJZcllCbmNOclRwNlNkdGJuY25hWktQbHk2M1FpaFFfcmc2cXItdFRvS3pBc1FwNEJNYi1TT3ZNOGhGM3g1dmRqUXlhRE9tbmN5MUlIeUZZWXlSTlFoVW50Mk5ZNXo5V19xQmFMRjd3ZFVOTGpkdw?oc=5",
+    "timestamp": "2026-07-29T11:02:26.430763+00:00",
+    "status": "rejected",
+    "content_hash": "d079382f1ef2f354c85cf852116e1a78",
+    "strict_hash": "d079382f1ef2f354c85cf852116e1a78",
+    "fuzzy_hash": "068c4ab5c656d04b91aebb8c65db6837",
+    "reason": "Новость является дубликатом уже опубликованных материалов (пункты 4 и 7 из контекста: «Dubai Police blocks over 290 websites for promoting drugs» и «Dubai Police shuts 297 drug promotion websites in Q2 2026 anti-narcotics drive»). Отличается только источником (The Filipino Times) и незначительной разницей в цифре (297 vs 290), что не добавляет новой информации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSjlWbjAyS0ppV010T2ZqRWJ5bXFOOGZBS3E5VlgzQjhsM2FsNTNvTFNEc3prR2ItazRzTWxNU3BHQVJIc29jSGZqb3lJRkFPRXlkb3dlX3JwdnptV2pfQ1loXzBfUWlaVjdJOV9FRGI3WXZTWW9FQkRhVGZHbUNJNElubWJ2bXQ4WEx4WENEVjV2LW9HWExzUWhiZ1dURzFRV01ZdkdkODNYelYtX1BvNjY3cFBCbE1RQ3VoX09CX2wzbHFvYm9hcXFCMVh2Y2Zu0gHWAUFVX3lxTE9HdEpwb2M5U3BiREhkLUdtem4wdWFmam1vaXhWS09PSlVXTXZRaDI0ZGFNbHdjcUQ3djdOQ3NSVFFRRHdxZXdETjl1U3JXaWsyVXJJYzJOYnhwSGxaRFlsMEtaODlfRzR1S3VVYlpFZ2p2Zm42M01wX2FBVmNsM1M1MlZKcE9rYi1QckMxVENDRjZBM2I0SXdkbkp6UkRnTG1pS3c5YVhCcDF1ckxoVGFVQ2tiOU1QSTNCVHhjTlVEMDNTeGc3ZW8xQnI0NHduWm5TaGVQM1E?oc=5",
+    "timestamp": "2026-07-29T11:02:31.172002+00:00",
+    "status": "rejected",
+    "content_hash": "3b706d00e21316f51df4ccc9305dbc96",
+    "strict_hash": "3b706d00e21316f51df4ccc9305dbc96",
+    "fuzzy_hash": "c94a7a7f399d8eb5629b12c3eee2c59a",
+    "reason": "Новость о восстановлении рынка недвижимости Дубая на фоне роста запросов по «Золотым визам» соответствует тематике канала (связь с регионом есть), не содержит политики, рекламы или неуважения к ОАЭ, источник проверяемый (Moneycontrol.com). Однако тема «Золотых виз» и рынка недвижимости уже неоднократно освещалась в канале (см. контекст: новость №3 про охлаждение рынка и покупки сверхбогатых), и данная новость является вариацией на ту же тему, что может быть воспринято как повтор. Учитывая правило 7 (дубликаты и повторы), новость следует отклонить."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQOGdmR25FV1RfX05RMDdPVUp4Zl9FTVktcEljTHVRV0hDZTY4d0ctbWV3ZmFfWDltZk9Xd2d0MWVmYW0wc05RN0l1ODZGbXZwX1VJbHhqYWNTdURXbEhBRmZXcWNZU1RlLW1TdEhTRXgyQVI3Y1B0ZHl4bE9ZZzhyT1FYN19yODRLakNGSmNPM3Y1SjdGb0NWVF9RREZPXzU2OG5FLVY2QVdpb0lucmtocEttWjU4TE4wYks3UC1PVWdEZE1oNDh2N2xfVS1qQm5qOFB0UTZkWGc1SlpCdUJlN2RuOE4wQmVGTEktTXItWXItd3hpdmtXTURobWk?oc=5",
+    "timestamp": "2026-07-29T11:02:31.752530+00:00",
+    "status": "rejected",
+    "content_hash": "49b5aa6faef856002d41e70684958e16",
+    "strict_hash": "49b5aa6faef856002d41e70684958e16",
+    "fuzzy_hash": "8ef79f7eef5388226279806e524d7ba3",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVzh4cmpSck91aUR3UDBEckVQMENnWERMSXFhQlZUT1MwMV9VM0xWV2NCWjVZSERxRjFVM0ZwNlQyZXlCb0lHU3NqMkVCOU5FeHowNjloMWRCa0VYdzJmbDdCajdSLVhKWExCNFQyS21tbHRiYVd5UnZZOFUyVWU4OWpNT2gzTlZrdHNFMHMzM1dNajJuUEdyVHJzdmdMU20tZTV2dHBuWFFfSGNtbkI00gHKAUFVX3lxTE5ZN2RWWG50SmY3azNGRjJIQTNMVDlUQ19VYWhSeUtOZzZKSUxodWNuZGZUdzBKNzRjRWlJQU5weGVuU1EzRXRQVnVuVm9ndFpkQzlseFpmNVJhR0hveThyeWVFRmhqYTV0SDdoNTc4cnBHOVRHTGJXbkhYTi1pTnJRN0xFeE4yT0pnUTJnVlViRUo0ckJRenFGTWdubmdZdDJ1SklMbWFmVmtOb2JJdUJUUU9tNklvRE1lSHg0ZHVWejhwSS1lREdiemc?oc=5",
+    "timestamp": "2026-07-29T11:02:33.457865+00:00",
+    "status": "rejected",
+    "content_hash": "649afa61683d7f59b346c6edf9e8a639",
+    "strict_hash": "649afa61683d7f59b346c6edf9e8a639",
+    "fuzzy_hash": "14920412876b7e4a75a8194e092c85a5",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdHZ5RmZOUXBxa0RQU3VJdmxDOEhNMnlrdXZtbjFFdjU3N2JldlZ0VWt3Ukt0ZkZrUTh4Y29rWlltZmpzM1BhazM1akxIWVBiTlBmeHlBdm9JZ3NkT3h5YTN6TG01aXhneHloWVVXdDEyZm5jQ293VW5xUXRUYXh0V1IySXhjdXhqYTBEZzhtQkFGeWJvT1B1WGVpU2ZVbkhPQWRfQnJJODdibnNTWWVmV0VwOUVncUVURDFjMUdoVzBwT29Id2dyd3dzTk9mUl80SXZJSm9lZXFBZ3pLdnN5dVc5MUtQQms?oc=5",
+    "timestamp": "2026-07-29T11:02:35.039516+00:00",
+    "status": "rejected",
+    "content_hash": "0792c5c5e7a637227389771f7606409b",
+    "strict_hash": "0792c5c5e7a637227389771f7606409b",
+    "fuzzy_hash": "223d840bd8b23ceac2d6cba0d7375c23",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
