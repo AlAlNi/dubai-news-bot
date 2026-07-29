@@ -1313,5 +1313,23 @@
     "strict_hash": "bf236e5baf09e5f417b7c0914c19251e",
     "fuzzy_hash": "264332e9e68021b64849de4b82761a3d",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/jeddah-tower-reaches-430-metres-setting-sights-on-burj-khalifas-world-record",
+    "timestamp": "2026-07-29T17:03:11.472536+00:00",
+    "status": "rejected",
+    "content_hash": "b1b8c751511c18ac028f5fcf0ff1f2f4",
+    "strict_hash": "b1b8c751511c18ac028f5fcf0ff1f2f4",
+    "fuzzy_hash": "02778bc258ef9ce3d9216e55ec7886d1",
+    "reason": "Новость о строительстве Jeddah Tower в Саудовской Аравии не имеет прямой связи с Дубаем или ОАЭ, а лишь упоминает Burj Khalifa как рекордсмена. Это делает её нерелевантной для канала о Дубае."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/flydubai-adds-more-flights-to-popular-european-destination",
+    "timestamp": "2026-07-29T17:03:22.480002+00:00",
+    "status": "approved",
+    "content_hash": "c1a3ffce46b914b5ee2a0a94608a034a",
+    "strict_hash": "c1a3ffce46b914b5ee2a0a94608a034a",
+    "fuzzy_hash": "cb24469684b9f47d2d503796ce049c96",
+    "reason": "approved"
   }
 ]
