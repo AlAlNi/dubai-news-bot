@@ -1250,5 +1250,32 @@
     "url": "https://whatson.ae/2026/07/uae-weather-orange-alert-issued-as-rain-and-dust-sweep-across-the-uae",
     "timestamp": "2026-07-29T15:12:52.056684+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.nation.com.pk/29-Jul-2026/dubai-launches-dollar-800-incentive-scheme-lure-back-tourists-iran-strikes",
+    "timestamp": "2026-07-29T15:29:05.306018+00:00",
+    "status": "rejected",
+    "content_hash": "b1c91ec62fd45d0c7bb213074cb7a97c",
+    "strict_hash": "b1c91ec62fd45d0c7bb213074cb7a97c",
+    "fuzzy_hash": "5bc19219b09404e67ea9ba36994b3224",
+    "reason": "Новость не подходит для публикации, так как её основная тема — падение туристического потока из-за политического конфликта (удары Ирана), что нарушает правило №2 (политика и конфликты). Кроме того, заголовок и текст содержат признаки кликбейта и негативного контекста, не соответствующего ценностям ОАЭ."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/oman-proposes-gulf-backed-voluntary-fees-to-use-hormuz/articleshow/132697681.cms",
+    "timestamp": "2026-07-29T15:29:08.108082+00:00",
+    "status": "rejected",
+    "content_hash": "26e8da2301787a7cdf9f357b2bc9c40d",
+    "strict_hash": "26e8da2301787a7cdf9f357b2bc9c40d",
+    "fuzzy_hash": "0ec8fff9ef08a35d3ba0ded59bb857e2",
+    "reason": "Новость касается геополитики и международных отношений в регионе Персидского залива, что связано с ОАЭ и GCC, но основная тема — это большая политика и потенциальный конфликт вокруг Ормузского пролива, что нарушает правило №2. Кроме того, новость не представляет прямого интереса для русскоговорящего жителя Дубая в бытовом или практическом смысле."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdnA4MmFLYzdlUWk1VDJqTG1MSTRHTF9BcTFfR3VjYnlzUTRTLTIwcHFubHB2OFBKTGhLWXpXZGt4RGJ5VmdtbkJYOWRFRG1FVW54Nmd0aWQ5R0RHeDA5X2l4NkowMzR4NDhBQ2VDZkM0VWRqTU1lZUlBMGM4S3duaDFqZmtPbEtJcFdpSGt2TVZjdHlPTEw3N1lTOGpucDdPc3BSeE5xTHUtLW55MzRGZHlR0gHEAUFVX3lxTE5kMTZtVVdQYlBPS1pYX1Y5c191WmdweEp2UkRVc0pYcXpuX0xQTnFJZ3daVjVLYUtEMDlQSUl0WFFBMjhHTGVEOFltTWNuNEthTkVpTFZ3bm4waXNPajNYeWZnLXlWM1cycWRwZUFSUkFsM0dOS0FMdlQ0N1h1V2M1T1BnbUhDMnNiOW5ySEljRGkwVW1qM0RSaXJzX3NIaldaWERGWjZmNUhoOUVZWVYwSDF0TnVTYWdsbVlMd2VURl81dDc?oc=5",
+    "timestamp": "2026-07-29T15:29:14.705086+00:00",
+    "status": "approved",
+    "content_hash": "04b724daac4fde7e4dcd35e7241be9ba",
+    "strict_hash": "04b724daac4fde7e4dcd35e7241be9ba",
+    "fuzzy_hash": "437f09702eccd1b3cbfcca875878690d",
+    "reason": "approved"
   }
 ]
