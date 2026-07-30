@@ -1158,5 +1158,41 @@
     "url": "https://www.cryptobreaking.com/emirates-lets-uae-residents-pay",
     "timestamp": "2026-07-30T14:24:19.831577+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/fun-things-to-do-in-abu-dhabi-this-weekend-july-31-to-august-2",
+    "timestamp": "2026-07-30T15:01:22.264490+00:00",
+    "status": "rejected",
+    "content_hash": "1479c6c9a2dfef428eb15c709cf86c9c",
+    "strict_hash": "1479c6c9a2dfef428eb15c709cf86c9c",
+    "fuzzy_hash": "9271250a687740771d17b53e01790175",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий в Абу-Даби на конкретные даты (31 июля — 2 августа), что не имеет отношения к Дубаю и не является общественно значимой информацией для русскоязычного жителя Дубая. Кроме того, текст явно скопирован с сайта What's On и выглядит как перепечатка афиши, а не оригинальная новость."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/planning-a-trip-these-travel-hacks-can-save-you-money",
+    "timestamp": "2026-07-30T15:01:28.730136+00:00",
+    "status": "rejected",
+    "content_hash": "f8b5713b589c10b5ec79c6cda81aa7d5",
+    "strict_hash": "f8b5713b589c10b5ec79c6cda81aa7d5",
+    "fuzzy_hash": "2bc30bdcc18c390d0ddc8efc5be03e6a",
+    "reason": "Новость представляет собой общий совет по путешествиям без конкретной привязки к Дубаю или ОАЭ, а также не содержит проверяемых фактов или общественно значимой информации, что делает её нерелевантной для канала."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/heres-why-youll-want-to-spend-more-time-at-radisson-hotels-this-summer",
+    "timestamp": "2026-07-30T15:01:33.630233+00:00",
+    "status": "rejected",
+    "content_hash": "eda7b0ece683be277cb0dc30f946b1b6",
+    "strict_hash": "eda7b0ece683be277cb0dc30f946b1b6",
+    "fuzzy_hash": "ad551923c75bdb32e1c8596b2f5a0a33",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObllFRlo5dDJmS0VTMlg0Z0NFTTNnX2puZ2xoZHk5bXFCNE5IY3dsYnF3UlRNTFE2bFhNcXp6bmFqanowS3FIeEtza1gtVUVva3FMdk44b25RN2RNTWNhdzl0blFRY0ItY3BqVmtldmh0SUpoZDJ2YkxMZkhUY09VYlNFQlU5TTBka2poazRPTGVoamJZdzlRallHVXh3RGRzQTdFX3Z0bGMyYUkxUHZCd2FYNkJFc1ZhUDFB?oc=5",
+    "timestamp": "2026-07-30T15:01:40.809221+00:00",
+    "status": "approved",
+    "content_hash": "7be057bfd97c0cdc92b25792fbd88f5c",
+    "strict_hash": "7be057bfd97c0cdc92b25792fbd88f5c",
+    "fuzzy_hash": "6baf5c24b898433dd62a9cefc8e87ff2",
+    "reason": "approved"
   }
 ]
