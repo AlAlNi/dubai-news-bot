@@ -1049,5 +1049,23 @@
     "url": "https://www.thenationalnews.com/news/uae/2026/07/29/dubai-shelter-gives-visa-violators-a-helping-hand-to-return-home",
     "timestamp": "2026-07-30T03:15:21.261423+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://indianexpress.com/article/world/dubai-invite-scheme-tourism-rewards-us-iran-conflict-impact-10809335",
+    "timestamp": "2026-07-30T04:33:55.709573+00:00",
+    "status": "rejected",
+    "content_hash": "d7d6b0b87c011a941afbd71a1e1089cb",
+    "strict_hash": "d7d6b0b87c011a941afbd71a1e1089cb",
+    "fuzzy_hash": "1d8ba93c88af58d57aa98d138918d0cd",
+    "reason": "Новость содержит упоминание военных действий (ракетные обстрелы, перехваты, падение обломков), что является темой большой политики и конфликтов, а также может быть воспринято как неуважение к безопасности и стабильности ОАЭ. Кроме того, заголовок указывает на негативное влияние на туризм, что не соответствует позитивному имиджу региона."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/07/29/dubai-al-awir-centre-shelter-uae-visa-status-check",
+    "timestamp": "2026-07-30T04:34:04.182924+00:00",
+    "status": "approved",
+    "content_hash": "8c6e11dde5d65ff7cd9992e18e19d355",
+    "strict_hash": "8c6e11dde5d65ff7cd9992e18e19d355",
+    "fuzzy_hash": "acc02ea39acc1f36a4eb2e8a534f40be",
+    "reason": "approved"
   }
 ]
