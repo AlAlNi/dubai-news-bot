@@ -1135,5 +1135,32 @@
     "strict_hash": "9cfe3ccbb190f78f3b4e4ff1aa321847",
     "fuzzy_hash": "85e8b4b34822b1f7a225c99ae8a346cd",
     "reason": "Новость о замедлении рынка недвижимости Дубая имеет прямую связь с регионом и представляет интерес для русскоязычных жителей, однако содержит упоминание политического контекста (конфликт США и Ирана) и ссылается на неясный источник (AP), что нарушает правила проверяемости и политической нейтральности."
+  },
+  {
+    "url": "https://www.hindustantimes.com/india-news/india-raises-with-uae-issue-of-indians-affected-by-dubai-iranian-hospital-closure-101785408576161.html",
+    "timestamp": "2026-07-30T23:04:38.028645+00:00",
+    "status": "rejected",
+    "content_hash": "a239e3de981edbfd1e46e9e5ad9902f2",
+    "strict_hash": "a239e3de981edbfd1e46e9e5ad9902f2",
+    "fuzzy_hash": "65b8620ad219ae06aa6446b44680dd5e",
+    "reason": "Новость касается дипломатического вопроса между Индией и ОАЭ по поводу закрытия иранской больницы в Дубае, что затрагивает политический аспект и может быть воспринято как критика действий местных властей. Это нарушает правило 2 (политика и конфликты) и правило 4 (уважение к ценностям UAE), так как ставит под сомнение решение правительства Дубая. Кроме того, тема узкоспециализирована и вряд ли представляет массовый интерес для русскоязычных жителей."
+  },
+  {
+    "url": "https://markets.businessinsider.com/news/currencies/sbcfx-to-showcase-innovation-and-global-growth-strategy-at-forex-expo-dubai-2026-1036384715",
+    "timestamp": "2026-07-30T23:04:40.134563+00:00",
+    "status": "rejected",
+    "content_hash": "9f9626999d855991515096fd55a91977",
+    "strict_hash": "9f9626999d855991515096fd55a91977",
+    "fuzzy_hash": "6ef14ad59a07bb4989098c1087c9f88e",
+    "reason": "Новость является явным пресс-релизом компании SBCFX, рекламирующим её участие в выставке. В тексте отсутствует общественно значимая новость или польза для русскоязычного жителя Дубая — это чисто коммерческое объявление."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/07/30/dubai-population-surpassed-45-million-by-end-of-2025",
+    "timestamp": "2026-07-30T23:04:45.938927+00:00",
+    "status": "approved",
+    "content_hash": "86444cb4187db489d7fa8ad9afa48729",
+    "strict_hash": "86444cb4187db489d7fa8ad9afa48729",
+    "fuzzy_hash": "a7d0283807b069f8263d4a0a10be908d",
+    "reason": "approved"
   }
 ]
