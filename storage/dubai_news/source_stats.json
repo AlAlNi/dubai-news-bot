@@ -1139,5 +1139,41 @@
     "url": "https://www.businesstoday.in/india/story/your-upi-app-now-works-for-dubais-burj-khalifa-tickets-heres-what-indian-travellers-need-to-know-545978-2026-07-29",
     "timestamp": "2026-07-29T23:05:40.247767+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbctv18.com/business/aviation/can-india-become-global-aviation-hub-indigo-rahul-bhatia-explains-19956986.htm",
+    "timestamp": "2026-07-30T00:53:57.405163+00:00",
+    "status": "rejected",
+    "content_hash": "6396d3f8f7d2af9face3874fd9cbc211",
+    "strict_hash": "6396d3f8f7d2af9face3874fd9cbc211",
+    "fuzzy_hash": "55754a29185d507634f7efc0eedb0e29",
+    "reason": "Новость не связана с Дубаем или ОАЭ напрямую — она о планах Индии стать транзитным хабом, лишь упоминая Дубай как конкурента. Это не соответствует первому правилу о явной связи с регионом."
+  },
+  {
+    "url": "https://www.livemint.com/companies/casagrand-signs-two-projects-in-dubai-as-realty-market-cools-amid-west-asia-war-residential-buyers-homes-11785233717251.html",
+    "timestamp": "2026-07-30T00:54:00.157322+00:00",
+    "status": "rejected",
+    "content_hash": "1a0ee2d4acb3eb5b88d240199604d5ff",
+    "strict_hash": "1a0ee2d4acb3eb5b88d240199604d5ff",
+    "fuzzy_hash": "b1d31ce7cc9672b7de8e8278403644e3",
+    "reason": "Новость о запуске двух проектов индийской компанией Casagrand в Дубае имеет прямую связь с регионом и содержит конкретные факты о девелопменте, однако её заголовок и контекст упоминают «охлаждение рынка на фоне войны в Западной Азии», что нарушает правило 2 (политика и конфликты) и может быть воспринято как неуважение к стабильности ОАЭ (правило 4). Кроме того, новость дублирует тему рынка недвижимости, уже освещённую в пункте 7 контекста (Dubai’s luxury property market cools...), что является нарушением правила 7."
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/07/29/tmt-newswire/plentisoft/dubai-property-deals-hit-aed-252-billion-sold-media-spotlights-10-key-communities/2394021",
+    "timestamp": "2026-07-30T00:54:02.391584+00:00",
+    "status": "rejected",
+    "content_hash": "0f8c33b50cd19f34ee7fa9841c870011",
+    "strict_hash": "0f8c33b50cd19f34ee7fa9841c870011",
+    "fuzzy_hash": "7cdbf4f42946c129aee9c14754aeb702",
+    "reason": "Новость о росте рынка недвижимости Дубая до 252 млрд дирхамов в Q1 2026 с упоминанием 10 ключевых районов от SOLD Media — это явный пресс-релиз или рекламный материал, продвигающий конкретную компанию (SOLD Media) и её аналитику, без общественно значимой новостной ценности для русскоязычного жителя. Кроме того, тема дублирует уже опубликованную новость №1 (Dubai property market: 8 figures...), что нарушает правило 7."
+  },
+  {
+    "url": "https://www.cryptobreaking.com/emirates-lets-uae-residents-pay",
+    "timestamp": "2026-07-30T00:54:08.892811+00:00",
+    "status": "approved",
+    "content_hash": "d3f86cb150e0a9fcbc419ace7433d9e3",
+    "strict_hash": "d3f86cb150e0a9fcbc419ace7433d9e3",
+    "fuzzy_hash": "6a3ce018388d0459697ae608339f2d6e",
+    "reason": "approved"
   }
 ]
