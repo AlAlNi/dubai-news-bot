@@ -1185,5 +1185,32 @@
     "url": "https://whatson.ae/2026/07/uae-residents-can-now-travel-visa-free-to-montenegro",
     "timestamp": "2026-07-30T16:42:12.970637+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/the-best-nail-salons-in-dubai-for-your-next-manicure",
+    "timestamp": "2026-07-30T17:13:57.264794+00:00",
+    "status": "rejected",
+    "content_hash": "4476281306853a2a274b2547f51a1d89",
+    "strict_hash": "4476281306853a2a274b2547f51a1d89",
+    "fuzzy_hash": "7e54c0a1dfd06dda1e8f67a6ee8902a2",
+    "reason": "Новость представляет собой рекламно-развлекательный материал о лучших nail-салонах Дубая, без общественно значимой информации или пользы для русскоязычного жителя. Она нарушает правило 3 (рекламный характер) и правило 6 (отсутствие интереса/полезности для целевой аудитории)."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/10-things-to-do-in-dubai-this-weekend-july-31-to-august-2",
+    "timestamp": "2026-07-30T17:14:04.834967+00:00",
+    "status": "rejected",
+    "content_hash": "abcd89630d8dc3bdf43b699161b55b42",
+    "strict_hash": "abcd89630d8dc3bdf43b699161b55b42",
+    "fuzzy_hash": "ebf0261a07aaebab0e85f60a9895e0d8",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные в Дубае, что соответствует тематике канала и не нарушает правила. Однако она имеет признаки рекламного характера (упоминание конкретных заведений) и не содержит общественно значимой информации, а также не является service-update или регуляторным изменением."
+  },
+  {
+    "url": "https://www.japantimes.co.jp/business/2026/07/30/companies/mr-brexit-exit-mizuho-bank",
+    "timestamp": "2026-07-30T17:14:27.702170+00:00",
+    "status": "approved",
+    "content_hash": "b998bc3ec796fff26daa288fbce6cd02",
+    "strict_hash": "b998bc3ec796fff26daa288fbce6cd02",
+    "fuzzy_hash": "a0844ba0770c0382b58ce7043904f8ab",
+    "reason": "approved"
   }
 ]
