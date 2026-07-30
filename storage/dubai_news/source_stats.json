@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.naturalnews.com/2026-07-27-ai-border-control-system-debuts-dubai-airport.html",
-    "timestamp": "2026-07-28T07:12:52.826769+00:00",
-    "status": "approved",
-    "content_hash": "00bf9439dda3aa32858e43c46097232b",
-    "strict_hash": "00bf9439dda3aa32858e43c46097232b",
-    "fuzzy_hash": "7d17b089f62613bc145d84172c19f082",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/07/jimmy-carr-is-coming-back-to-dubai-with-two-live-shows",
-    "timestamp": "2026-07-28T07:33:06.696370+00:00",
-    "status": "approved",
-    "content_hash": "62d0b17bf53d65ab57d249f87d8adcab",
-    "strict_hash": "62d0b17bf53d65ab57d249f87d8adcab",
-    "fuzzy_hash": "cadf91ea54918676936a801990896c46",
-    "reason": "approved"
-  },
-  {
     "url": "https://whatson.ae/2026/07/jimmy-carr-is-coming-back-to-dubai-with-two-live-shows",
     "timestamp": "2026-07-28T09:41:28.187972+00:00",
     "status": "published"
@@ -1135,5 +1117,10 @@
     "strict_hash": "3aab0fa6f94da43909d612ed7e0c6fd8",
     "fuzzy_hash": "80b15d38b990d11dbdfad9b67aae2b15",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/camel-dairy-farm-tours-at-camelicious-dubai",
+    "timestamp": "2026-07-30T09:35:26.843575+00:00",
+    "status": "published"
   }
 ]
