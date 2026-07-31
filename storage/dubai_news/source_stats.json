@@ -996,5 +996,23 @@
     "url": "https://whatson.ae/2026/07/new-bakeries-in-dubai",
     "timestamp": "2026-07-31T08:03:36.535231+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/07/trevor-noah-to-perform-in-dubai-this-november",
+    "timestamp": "2026-07-31T08:32:12.321953+00:00",
+    "status": "rejected",
+    "content_hash": "3a0ae8317459501eb78bd850f0c47190",
+    "strict_hash": "3a0ae8317459501eb78bd850f0c47190",
+    "fuzzy_hash": "e07d76aef463f4c260d46d703c9ba7e1",
+    "reason": "**Оценка:** Новость о выступлении Тревора Ноа в Дубае напрямую связана с регионом, не содержит политики или рекламы, соответствует культурным нормам ОАЭ и будет интересна русскоязычной аудитории. Однако текст явно скопирован с сайта What's On (включая технические артефакты вроде `&#8217;` и `[&#8230;]`), что указывает на автоматический репост без редакторской обработки. Дубликатов в контексте нет, но источник не является первоисточником, а сам текст выглядит как неотредактированная выжимка."
+  },
+  {
+    "url": "https://whatson.ae/2026/07/uae-petrol-and-diesel-prices-increase-for-august-2026",
+    "timestamp": "2026-07-31T08:32:26.502799+00:00",
+    "status": "approved",
+    "content_hash": "43d9c1821981c0e90c7e38ef57a73049",
+    "strict_hash": "43d9c1821981c0e90c7e38ef57a73049",
+    "fuzzy_hash": "46a9ee3c7a7f57a7708bbd030b39f0b0",
+    "reason": "approved"
   }
 ]
