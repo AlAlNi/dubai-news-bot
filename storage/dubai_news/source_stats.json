@@ -846,5 +846,23 @@
     "strict_hash": "e494be7291c6baeeac67ac09bfa28529",
     "fuzzy_hash": "4e5c4ed0320df841529161d4b4ddd4aa",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMk9fXzFQSzdrTUxXT21wVzBiVWtYRkFvUFpkWk1zcGE4V0t5YWNKalU0RV94UktlVzVhbkR3RFloaXlGX3d1OXZfZ3NpeUtsWXQxRjdmRW9VMDJpOC1rbV9LbnRwZ18wN04ySW1lZjU2V0JCaUVwWXJySEs4UWtKWVdCa1lTRFRob3lqQU9DVUJubzA0LVctcnNsUkU4MDRBWGtpV3lENXJPOVJ3Y0FFWQ?oc=5",
+    "timestamp": "2026-08-01T14:06:28.317410+00:00",
+    "status": "rejected",
+    "content_hash": "2dbca0d4fa0340d84cf09cf4e5a51918",
+    "strict_hash": "2dbca0d4fa0340d84cf09cf4e5a51918",
+    "fuzzy_hash": "b4cf01a04dc28950d5db7f30285242eb",
+    "reason": "Новость о кризисе картеля Kinahan и прекращении «безопасной гавани» в Дубае затрагивает репутацию эмирата и связана с регионом, но основная тема — международная криминальная хроника, которая может быть воспринята как негативный контекст для ОАЭ. Текст крайне короткий, без проверяемых деталей и ссылок, что нарушает правило достоверности и источника."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYXgyZmJ2aVJobDdJTHVwbTBRTWxtNUtJZmhqeWFQS2lvNnctSHRYaXF2WTN4cnNsVmtIUUNBZFFtSk5KSEJMd0R2b0hzdTZFR3ZTMDkxWjVLMjl0X19yRmR4ZkVoeXNKVjdqLXAxODdPQzJIS1RENEQwWFFFVTZiOUUtMlVWTDNaaGVPQUlETnJPcGllanNRX3VVWnVmNEZNamF0Y0tiMktULUl6blU5NmpmN181a3hmczExTXhVUllVLVpyR3fSAdgBQVVfeXFMT3JLZFdaNlV6Qy1pdGxvLTkxODM1LW9EcWRtM0tVOG5HeGgydEp1NGJxcFpfU1Y0N2Fib25odEg2Qjdtdl9oQUdfU1JhbmVwdjBMcEwwR1hLOGpVM2RWM3EyX3VWUGtCTUpXVkpSZldkS0U2WWNxN0RGQnhlZnZfSHZsWnJlZHFGeWx2QkdNYXdmN0dTRTU1a2ZhNU5YdGl4eDVhUnEyeXI4VlB0TlJkeU15MW5WQ2txT3N0eFFtRFNEaEoySEdSMGJwV2pyRnVVQmpPUEc0enh3?oc=5",
+    "timestamp": "2026-08-01T14:06:35.756396+00:00",
+    "status": "approved",
+    "content_hash": "6f689d061ab6d943e1a93ca7b245939e",
+    "strict_hash": "6f689d061ab6d943e1a93ca7b245939e",
+    "fuzzy_hash": "a5c64b02cefe5db32f1d44159c83c51d",
+    "reason": "approved"
   }
 ]
