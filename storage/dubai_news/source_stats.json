@@ -801,5 +801,23 @@
     "strict_hash": "0b20a646c8096ab7679a4bb071e21114",
     "fuzzy_hash": "fe07b97464718085883f84f707ec773b",
     "reason": "Оценка: Новость о баскетболисте, переходящем в аренду из дубайского клуба, имеет прямую связь с Дубаем (упоминание клуба), не касается политики или рекламы, не содержит неуважения к ОАЭ и не является дубликатом опубликованных ранее материалов. Однако текст крайне короткий и не содержит проверяемых деталей (URL источника указан, но сам текст — лишь заголовок), что делает его малополезным для русскоязычной аудитории без дополнительного контекста."
+  },
+  {
+    "url": "https://www.hindustantimes.com/trending/woman-stunned-by-spotless-public-washroom-in-dubai-cleaner-than-many-homes-101785576936734.html",
+    "timestamp": "2026-08-01T22:27:00.083332+00:00",
+    "status": "rejected",
+    "content_hash": "58bf9e2cfc108e168c443de609840c66",
+    "strict_hash": "58bf9e2cfc108e168c443de609840c66",
+    "fuzzy_hash": "de4ac339a0ca36c598d624b52c17372e",
+    "reason": "Новость о чистоте общественного туалета в Дубае — это легкий позитивный контент, напрямую связанный с регионом и не содержащий политики, рекламы или неуважения. Однако тема носит развлекательный характер и не представляет практической ценности для русскоязычного жителя, а также не имеет явного проверяемого источника в предоставленном тексте."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10bTRKS2FCRkNtS0JBRGFxVkIzWkhBUVhyajZZZG5VX1BVZWNqQWdFSVB1eFlYSnU0cjd5QzhuajNZcUY3cmJkdnFJMGd6cmpBSmZRN3Y2SDN6aDBILVE?oc=5",
+    "timestamp": "2026-08-01T22:27:01.581008+00:00",
+    "status": "rejected",
+    "content_hash": "0a22630cdda76ae9b4660c3b9015c04e",
+    "strict_hash": "0a22630cdda76ae9b4660c3b9015c04e",
+    "fuzzy_hash": "1a7576b14eac3cc31f367f123135e193",
+    "reason": "Cheap prefilter: слишком короткий текст (111 символов)"
   }
 ]
