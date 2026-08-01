@@ -878,5 +878,50 @@
     "strict_hash": "54f1905d24253a961cc3456ea114e377",
     "fuzzy_hash": "1e52988d37fed89f21787003aa9fbeaf",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/brilliant-new-things-to-do-uae-this-month",
+    "timestamp": "2026-08-01T10:25:48.509025+00:00",
+    "status": "rejected",
+    "content_hash": "bc34aabbf1196432e4c8f43481c38b0a",
+    "strict_hash": "bc34aabbf1196432e4c8f43481c38b0a",
+    "fuzzy_hash": "4e8c3aeb87a8a7fdb103098d4974ffdd",
+    "reason": "Новость представляет собой анонс-подборку развлекательных мероприятий в ОАЭ на август, что соответствует региональной тематике и может быть полезно русскоязычной аудитории. Однако текст явно является перепечаткой анонса с сайта What's On (без указания конкретных фактов, дат и проверяемых источников), имеет признаки кликбейтного заголовка и не содержит общественно значимой информации, а также не проходит проверку на достоверность из-за отсутствия явного URL источника."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/stem-activities-and-summer-camps-in-dubai-and-abu-dhabi",
+    "timestamp": "2026-08-01T10:25:57.223819+00:00",
+    "status": "rejected",
+    "content_hash": "75a56eddd1e2924047032c615ea89d4b",
+    "strict_hash": "75a56eddd1e2924047032c615ea89d4b",
+    "fuzzy_hash": "b6bd1598733638647b52d310a0687126",
+    "reason": "**Оценка новости:**\nМатериал представляет собой анонс развлекательно-образовательных активностей для детей в ОАЭ, что соответствует региону, но по сути является перепечаткой контента с сайта What's On (рекламно-информационный характер). Текст не содержит жесткой новости, а лишь общий обзор STEM-занятий, что делает его слабоинтересным для оперативной ленты и похожим на вечнозеленый контент, а не на актуальное событие. Кроме того, отсутствует явный проверяемый URL источника в тексте, а сам формат напоминает пресс-релиз или статью-список, что не соответствует критериям строгого новостного канала.\n**Окончательное решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/restaurant-review-hudson-and-rye-dubai",
+    "timestamp": "2026-08-01T10:26:02.253300+00:00",
+    "status": "rejected",
+    "content_hash": "8f5a937589da89d937023cf0480eaeea",
+    "strict_hash": "8f5a937589da89d937023cf0480eaeea",
+    "fuzzy_hash": "3202a668f53e0110e4529b6ebd0ebc03",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWsyc3dHWjhzbWxHdGlYZmJaX3VGQjdHdHpIMG5ndnJEbG8zWlBBNHpJcFBKR0FDTG83MTc3a0puWklDbWl1dmlPLXZScWVEdndpOU1xdk5NYTdnajJQYWdhM1E3b3NRbGc3S2xRbVFrZE1nd0pueTFzd1UzM3gwcHhYN2RiUk1hR084bDd4SmZDV1ByaXlJanFZNkhUOEt6TldaX3h3X1FaTmxuMEozMzFpcS1CTjVKS28yUExR?oc=5",
+    "timestamp": "2026-08-01T10:26:06.191077+00:00",
+    "status": "rejected",
+    "content_hash": "48513e353430219c2827e2c47d8391c1",
+    "strict_hash": "48513e353430219c2827e2c47d8391c1",
+    "fuzzy_hash": "444753324085ac669187f403e29bff06",
+    "reason": "**Оценка новости:**\nМатериал представляет собой обзор семейного курорта в Дубае. Тема напрямую связана с регионом, не содержит политики или рекламы в чистом виде, а также может быть полезна русскоязычным жителям, планирующим отдых с детьми. Однако текст выглядит как типичный обзор-пресс-релиз с явным рекламным подтекстом, что ставит под сомнение его общественную значимость. Дубликатов среди опубликованных новостей не обнаружено."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Sb1lnMFVEREpWRGtlOFMyNzJUeFRwekxoZTlHMU4zTFV5SzhTS0RyLWFwblF4TV9uODVsYmxVaERtbUJ5WDR1ZWNCaXhOTTZWaUgtUG9vMXdYZUpsNlFNNEdwRlJTUXIyUUptNw?oc=5",
+    "timestamp": "2026-08-01T10:26:14.288610+00:00",
+    "status": "approved",
+    "content_hash": "768aadfe005058b87e3aa239558902ed",
+    "strict_hash": "768aadfe005058b87e3aa239558902ed",
+    "fuzzy_hash": "8f5c5ac3f4f18fc737217c52cdddfedf",
+    "reason": "approved"
   }
 ]
