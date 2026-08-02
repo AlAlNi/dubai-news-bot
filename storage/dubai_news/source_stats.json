@@ -709,5 +709,59 @@
     "strict_hash": "7aabd568521af790780cca21f297f6f2",
     "fuzzy_hash": "5ac12fe8a7c60603054e8c2a05625abc",
     "reason": "**Оценка новости:**\nНовость является точным дубликатом уже опубликованного материала под номером 4 в контексте («Dubai’s Public Transport, Shared Mobility and Taxis Carry 348 Million Riders in First Half of 2026»). Тема, цифры и суть совпадают, источник — тот же (Khaleej Times). Публикация повторно недопустима.\n**Решение:**"
+  },
+  {
+    "url": "https://www.indiatoday.in/india/story/raj-thackeray-vivek-oberoi-r-madhavan-dubai-jab-modi-india-2961682-2026-08-02",
+    "timestamp": "2026-08-02T21:24:19.774358+00:00",
+    "status": "rejected",
+    "content_hash": "8656cf92f0995ee80027d5a3c8ba1808",
+    "strict_hash": "8656cf92f0995ee80027d5a3c8ba1808",
+    "fuzzy_hash": "3cff09e51e5da8d8d2d4c242ec5105d5",
+    "reason": "Новость касается политических высказываний индийского политика о переезде актёров в Дубай. Основная тема — внутренняя политика Индии и конфликт, а не жизнь в ОАЭ. Связь с регионом лишь косвенная (упоминание Дубая как места жительства), что не соответствует критериям публикации."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/08/02/dubai-records-47-million-fewer-public-transport-journeys-in-first-half-of-2026",
+    "timestamp": "2026-08-02T21:24:21.729618+00:00",
+    "status": "rejected",
+    "content_hash": "e29c672cdf7871cb0cfa3d2fddc8e6cd",
+    "strict_hash": "e29c672cdf7871cb0cfa3d2fddc8e6cd",
+    "fuzzy_hash": "cc0db08d1b8156841434cf79a0728117",
+    "reason": "Оценка: Новость напрямую связана с Дубаем и общественным транспортом, основана на данных официального источника (RTA), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако она является точным дубликатом уже опубликованной новости под номером 4 в контексте (тот же период, те же цифры — 348 миллионов поездок), что нарушает правило 7."
+  },
+  {
+    "url": "https://www.rappler.com/philippines/overseas-filipinos/dubai-ofws-seek-help-track-down-scammer",
+    "timestamp": "2026-08-02T21:24:23.925520+00:00",
+    "status": "rejected",
+    "content_hash": "c4daa4574be7d0a4a6e6b35f7f077da5",
+    "strict_hash": "c4daa4574be7d0a4a6e6b35f7f077da5",
+    "fuzzy_hash": "39cbb396e05459355ad9aa2d7ffbe859",
+    "reason": "Новость о мошенничестве с участием филиппинских рабочих в Дубае имеет прямую связь с регионом и представляет практический интерес для русскоязычных жителей, которые могут столкнуться с аналогичными схемами. Тема не является политической, рекламной или неуважительной к ОАЭ, а источник (вероятно, крупное филиппинское издание) проверяем. Дубликатов в контексте нет."
+  },
+  {
+    "url": "https://www.freepressjournal.in/mumbai/if-modi-has-made-everything-so-great-why-are-you-settling-abroad-raj-thackeray-questions-vivek-oberoi-r-madhavan-over-dubai-move-at-mns-student-wing-rally",
+    "timestamp": "2026-08-02T21:24:25.953796+00:00",
+    "status": "rejected",
+    "content_hash": "9c6ef053404522b42b9b5093a0ccef78",
+    "strict_hash": "9c6ef053404522b42b9b5093a0ccef78",
+    "fuzzy_hash": "18879af60f9a3a603a49ca465940a696",
+    "reason": "Новость касается политического заявления в Индии о переезде актёров в Дубай, но основная тема — индийская внутренняя политика, а не события в ОАЭ. Связь с регионом лишь косвенная (упоминание Дубая как места жительства), что не соответствует критерию значимости для аудитории канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa1VRTGtRYkctZVBSUHp2T0RpdjJYa05wdldzWjgwUE8wMEc2ZW5BWTBZcFdYS3JNemc4b0RGMHlieUMyRWtLV1Ryd0tVOTBoV1I3aWVNM1dkeG1rbHp6UzRBT2hteDJjcjZKalBZeTJnSFF2VHRuVU5PQXMzWWFzdkcxTXBCcDlhb3RZZXBxNzhNSTIwRFFjUHBXT3FobVd3YmRzOG5rcUNXSzBwZ012dXV4d2I?oc=5",
+    "timestamp": "2026-08-02T21:24:28.500226+00:00",
+    "status": "rejected",
+    "content_hash": "4082a4dd6b627cdf3f10986185814618",
+    "strict_hash": "4082a4dd6b627cdf3f10986185814618",
+    "fuzzy_hash": "cad55b90c4b431f0d186bab7453a30a6",
+    "reason": "Оценка: Новость о том, что Бангладеш нанимает дубайскую юридическую фирму для отмены залога Беназир, не имеет прямого отношения к жизни в Дубае или ОАЭ, а также затрагивает политические и юридические процессы другой страны. Это не соответствует интересам русскоязычной аудитории канала о Дубае."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3FnZDg3eWJfS1lOV2N6eEFFS05SYkRKcy11QW9iQVhjLUtfQTZkRDU2Ylc4emFPTGx1NlRnQXZyYWo5b1dDaTU2Y2hvRzBTUnRUSW54TGhBelFpS2pwWlRGR0R4Sjc5eFN3WG16UnQ2VEtCT0xSMWhFLUdXVFpJSmpaSE5iTGxfZUtfQk5zVjNlYVNHdmpIUkVVUld6VGVxUG5yUkQ1VS0yUdIBsgFBVV95cUxNMWd5MTVxUEF4S2NFaERDWXN4UW53cTZXTFhSS2Zxemh6UlozbEYzYjNuLUg4emhXVzVkMjVkN2M5dU5MOC0wOFdQWm5NMmM2QTBhbGM4d0tkVFVvWDR2MjFQUE5wTVU4LVQxSVA4ekR3X285N3VhOXhzUmhhM2QwT1FWMVRqcDA2NVdBRFNEMXJBUk5BQzVfVEtWMDBLdExUT1pxTHUyUW55UF94ZTRza2JB?oc=5",
+    "timestamp": "2026-08-02T21:24:30.492233+00:00",
+    "status": "rejected",
+    "content_hash": "c9b15c3302802bf54ce5d0267d9f0e17",
+    "strict_hash": "c9b15c3302802bf54ce5d0267d9f0e17",
+    "fuzzy_hash": "c8fd1e1daef4f20b76d5221065a3b31d",
+    "reason": "Оценка: Новость напрямую связана с Дубаем и сообщает о запуске регулируемых услуг садоводства через Careem, что является практической информацией для жителей. Однако она является точным дубликатом уже опубликованной новости о запуске платформы садоводческих услуг с Careem (пункт 1 контекста), поэтому повторная публикация нецелесообразна."
   }
 ]
