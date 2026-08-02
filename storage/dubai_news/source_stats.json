@@ -786,5 +786,23 @@
     "strict_hash": "390580b0196e43864752652d6bbbecb0",
     "fuzzy_hash": "838adc5958dba593f806331f61b02940",
     "reason": "Новость представляет собой подборку кинотеатров в Абу-Даби, что не имеет прямой связи с Дубаем, а также носит явно рекламно-обзорный характер без общественно значимой ценности для русскоязычной аудитории Дубая. Материал не соответствует критериям информационного повода и не содержит проверяемых фактов, актуальных для жителей эмирата."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcFhhNmlDTjN5aGhXc3FhbUNkUnpiRXRld2FwUUkyZkRsR0l0T2VJY2swc29BcmhXdWdLY1pqZi12RnpGZmVlelFGcTY3RThZZ0lhekRTSFh6OXBKeFpmWldqR3FlQUNueTE5eFBxTWFWLS1BODhCMTQxRFdsd1FZSVVIVWQ2S3c1RmhQVHVrcGhYdmpXVEswT0ozclhYZmZVVFNvMkZFTGdjRW5SajJtQXNUZEk5MXZIb0x4c2tYZjk?oc=5",
+    "timestamp": "2026-08-02T16:45:26.003426+00:00",
+    "status": "rejected",
+    "content_hash": "b598b418a2598d67e37e23d90950e03e",
+    "strict_hash": "b598b418a2598d67e37e23d90950e03e",
+    "fuzzy_hash": "91d3689d57dba77498f0750212351c43",
+    "reason": "Оценка: Новость напрямую связана с Дубаем (Dubai Future Foundation), не содержит политики или рекламы, источник — официальный Government of Dubai Media Office, тема интересна русскоязычной аудитории, интересующейся инновациями в регионе. Однако данная новость уже присутствует в списке опубликованных материалов (пункт 2 контекста), что является явным дубликатом."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2b2lJbU9PTVVaVE1vLTlCVXcyZ3N3ZFlIZ1NrcmlDYllnbWZMaGJMLUtldVVNbWhvWW5SbVJZMm82RTZvOTNkeGV6dnNRamJudGd3a2xLOG1TRUVFTGpCTVowdGxGY2M?oc=5",
+    "timestamp": "2026-08-02T16:45:27.592083+00:00",
+    "status": "rejected",
+    "content_hash": "520318c0a0f9f6faa389623d9dcf0873",
+    "strict_hash": "520318c0a0f9f6faa389623d9dcf0873",
+    "fuzzy_hash": "3135d79caea50b779026e547735e92b1",
+    "reason": "Новость полностью совпадает с уже опубликованным материалом под номером 4 в списке контекста (тот же заголовок, тот же источник, тот же хеш контента). Это явный дубликат, публикация недопустима."
   }
 ]
