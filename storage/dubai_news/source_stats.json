@@ -749,5 +749,32 @@
     "strict_hash": "c9b15c3302802bf54ce5d0267d9f0e17",
     "fuzzy_hash": "c8fd1e1daef4f20b76d5221065a3b31d",
     "reason": "Оценка: Новость напрямую связана с Дубаем и сообщает о запуске регулируемых услуг садоводства через Careem, что является практической информацией для жителей. Однако она является точным дубликатом уже опубликованной новости о запуске платформы садоводческих услуг с Careem (пункт 1 контекста), поэтому повторная публикация нецелесообразна."
+  },
+  {
+    "url": "https://www.indiatvnews.com/entertainment/news/raj-thackeray-raises-questions-over-vivek-oberoi-and-r-madhavan-s-decision-to-settle-in-dubai-2026-08-02-1050147",
+    "timestamp": "2026-08-02T22:27:11.198002+00:00",
+    "status": "rejected",
+    "content_hash": "6fa2234cab83f8fd459f1ebb84422e89",
+    "strict_hash": "6fa2234cab83f8fd459f1ebb84422e89",
+    "fuzzy_hash": "3d9db84e54d3c349dee3f37b9b9f49d3",
+    "reason": "Новость касается индийского политика и актёров, переехавших в Дубай, но основная тема — внутренняя индийская политика и критика, что не имеет прямой связи с жизнью в ОАЭ и не представляет интереса для русскоязычной аудитории Дубая. Материал также содержит признаки политического контекста, не связанного с регионом."
+  },
+  {
+    "url": "https://www.livemint.com/news/india/if-you-believe-pm-modi-is-developing-india-then-why-raj-thackeray-questions-vivek-oberoi-r-madhavans-dubai-move-11785660692025.html",
+    "timestamp": "2026-08-02T22:27:13.240378+00:00",
+    "status": "rejected",
+    "content_hash": "b4b638151585ace44c4d1ec8bc99f37a",
+    "strict_hash": "b4b638151585ace44c4d1ec8bc99f37a",
+    "fuzzy_hash": "b54e74c04921b4d2d660aa1ae59c7380",
+    "reason": "Новость касается политического заявления индийского политика о переезде знаменитостей в Дубай. Основная тема — внутренняя политика Индии и критика действий конкретных лиц, что не имеет прямой связи с жизнью Дубая или ОАЭ. Упоминание Дубая здесь лишь фон для внутрииндийского политического скандала, что нарушает правила 1 и 2."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNcThXdndoUl9tR1JUV21vcUo0WFZMLUREc01FZjh6WXc1bncxbVRWWWNmamN4ZzhZa0wzWk80eV9BbUhTOEt6YlRnbklhOGd2RmljY05OY2ZhMnV1dWU4OVc0WDZOOWplYWV1VGRzNnR2Q3U3UnNaOVQ3dHFma1JxQ2JCLXRRSUtRZkNrMm0xX21LTlVGZmlxc2JuSk1qb2tUd0x3cS0xT3hOMTJuN2FlY3EwMlQtZnZGU2hjMGxiWnpsUWFVOUJJSE05TXd0RGY2LUItbzFwVWV2eGVxaWxRV0FNajgzamJjSmc5LU1IaGxNRmxvbFJPUEFXdGM?oc=5",
+    "timestamp": "2026-08-02T22:27:15.748935+00:00",
+    "status": "rejected",
+    "content_hash": "a04348e9b41dc87e2455a49cb8b216b3",
+    "strict_hash": "a04348e9b41dc87e2455a49cb8b216b3",
+    "fuzzy_hash": "fe509b3de197ede0f6cbd8fc0b09849b",
+    "reason": "Оценка: Новость напрямую связана с ОАЭ (авиакомпании Эмирейтс и flydubai), но основная тема — военная эскалация между США и Ираном, что относится к большой политике и конфликтам. Это нарушает правило №2, поэтому материал не подходит для публикации."
   }
 ]
