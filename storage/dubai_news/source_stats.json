@@ -800,5 +800,14 @@
     "strict_hash": "9d9d7c6e521910713b84342d15c2d16e",
     "fuzzy_hash": "2c0ffea0367c65c6930a2f16bb8fb70a",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ1F1ZkJsVVZ6ZGdVc2owLWlyOFhxLThycXN3LUhmVzNKd3N3bkR2NFpnS3RnTnRQTlhfampPWHJRWUdJN184YU5qeElYX21PTUhhUl8zZHRRQjFJQnFiNmpFTHMzRHVhY281QUw1clB2WEdUYmpLMExNWUR3dHBfdjltSDBhM21iSmdUV3pfcV9UUWZoVFh6akU2SzFpWld2cHNGT2hZQ2hGdkRMX2dCS3VNT3NOUdIBuwFBVV95cUxNbExnNkpPTGFuQzJtYmhZTjQ3bXRYYUJ3QUJRRkJaT0FYNTFBVHl2eG5VNWotTm1mWFRyQWpiYWJ0UEhsXzJJMlBPQ3cxT0dadUk3TTdGUEtZZW5WRk52ZzNHcUUwNFFseTFMS0k4ZFhlSVY0cUl3Q3I4QXRKLTBBV20xakIwT3VLMERTMGYwMWtNNUViZEtLZm5TaFVXMVFDcERfQkY1V0hkV1JqeFdSOEhqZUtBYTdEZ2pV?oc=5",
+    "timestamp": "2026-08-02T12:56:50.198578+00:00",
+    "status": "rejected",
+    "content_hash": "65e8b592fdb3399b45dd417555b0d2a8",
+    "strict_hash": "65e8b592fdb3399b45dd417555b0d2a8",
+    "fuzzy_hash": "fe57b68bb907ff48d26979e8a65ae5ad",
+    "reason": "Новость касается политической перепалки в Индии и упоминает Дубай лишь косвенно, как место жительства знаменитостей. Это не соответствует критериям связи с регионом и не представляет интереса для русскоязычной аудитории Дубая."
   }
 ]
