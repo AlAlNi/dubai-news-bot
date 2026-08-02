@@ -776,5 +776,32 @@
     "strict_hash": "a04348e9b41dc87e2455a49cb8b216b3",
     "fuzzy_hash": "fe509b3de197ede0f6cbd8fc0b09849b",
     "reason": "Оценка: Новость напрямую связана с ОАЭ (авиакомпании Эмирейтс и flydubai), но основная тема — военная эскалация между США и Ираном, что относится к большой политике и конфликтам. Это нарушает правило №2, поэтому материал не подходит для публикации."
+  },
+  {
+    "url": "https://www.hindustantimes.com/india-news/maharashtra-navnirman-sena-mns-raj-thackeray-vivek-oberoi-r-madhavan-dubai-pm-narendra-modi-neet-student-protest-101785661658483.html",
+    "timestamp": "2026-08-02T23:30:10.346745+00:00",
+    "status": "rejected",
+    "content_hash": "71657a3105f70e95933b83392ac79f5f",
+    "strict_hash": "71657a3105f70e95933b83392ac79f5f",
+    "fuzzy_hash": "b403f9a39d991e697ef8562569cb757f",
+    "reason": "Новость касается политического заявления индийского политика о знаменитостях, проживающих в Дубае, и не имеет прямой связи с жизнью или событиями в ОАЭ. Основной фокус — внутренняя индийская политика, что нарушает правила 1 и 2."
+  },
+  {
+    "url": "https://www.theweek.in/news/india/2026/08/02/if-modi-is-developing-india-why-live-in-dubai-raj-thackeray-questions-actors-vivek-oberoi-madhavan.html",
+    "timestamp": "2026-08-02T23:30:12.756643+00:00",
+    "status": "rejected",
+    "content_hash": "37625adbd0b2ec3155986f6ec2f8eabc",
+    "strict_hash": "37625adbd0b2ec3155986f6ec2f8eabc",
+    "fuzzy_hash": "cd441004dc8dc366c02452f90f1d6769",
+    "reason": "Оценка: Новость касается политического заявления индийского политика о переезде актёров в Дубай, что является частью индийской внутренней политики и не имеет прямого отношения к жизни в ОАЭ. Тема не представляет интереса для русскоязычной аудитории Дубая и может быть воспринята как политический контент, не связанный с регионом."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeEVual83U0lJY3RKZFIyUHpxSGVNWnpISGM2QW5WdnJRMzdjSjhGTDZ4OElWUjFpSGdjYXN5aWJmdDJVTHcyMlNVMnV1TWNwZmJTSDRiQWx5WlpFcE5KaGNIZElzaEVzbFBiSU9oRmhKRm9Ram43OVBvX1I4TFlMYVc1Z29ZNDI2eldKZXV0RWdNLUllUnZPQlhMSXRlMGg2bHF4WGw5VV9NcU1rdElNSmlBQjExNmM5VVg1TWpfRkFMZFpnVEh2Z3hIMA?oc=5",
+    "timestamp": "2026-08-02T23:30:16.077021+00:00",
+    "status": "rejected",
+    "content_hash": "cdb24cd38fa37d9e65970876dc9def58",
+    "strict_hash": "cdb24cd38fa37d9e65970876dc9def58",
+    "fuzzy_hash": "e2b7a1efd3b2a3c5eb87646c31272d3a",
+    "reason": "Оценка: Новость напрямую связана с Дубаем и общественным транспортом, но она противоречит уже опубликованному материалу (пункт 4 контекста), где сообщалось о 348 миллионах поездок за первое полугодие 2026 года. Заголовок о «47 миллионах меньше» выглядит как дубликат/перевернутая версия той же статистики, что создает риск дезинформации и повторения темы."
   }
 ]
