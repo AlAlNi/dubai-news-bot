@@ -1,55 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1laTdZT0xaRTNBR2tSSklTaHdpa0xxMWtxNkNlNzVCN2I0SVYwWlczcV9jcXRFSElpTnBIN1VKQUt5dF9mVmRQWTlmaDdKM0w4Y1RtbGp6VG16MkczMm1HaGJNUW9QNGVINUhISVNQNHFXYU9JZnhMa1k5dw?oc=5",
-    "timestamp": "2026-07-31T12:26:11.897303+00:00",
-    "status": "rejected",
-    "content_hash": "519c155521a1eaf3ea3d535316e60fc0",
-    "strict_hash": "519c155521a1eaf3ea3d535316e60fc0",
-    "fuzzy_hash": "9880c14d8d9593c6dee776e7f92a6904",
-    "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMm5oQ3dFUUljc01NRDR2WFh6ZTlTaHFESjhyenVkN296bTBzOFN1enlpc041Mmh5MERPQ0J6QjVzN1g0NzBDUTRvOHBYd1VXUl9mNmtUZm5YZXhYSEpFYmtIUEU1eUJmTTFGcnk2VUF3M3BmNFFmZ0dqczd6dlg0dy1jQTNTS0ZSMGk3U3lsLTRxaVN4SzJxMlVDTjRkbEdjQ2cwcW1XZlBZYmlrbE5CRV9LU3NSdU1INkhVRGdERWs?oc=5",
-    "timestamp": "2026-07-31T12:26:14.140382+00:00",
-    "status": "rejected",
-    "content_hash": "13add99cce22ef4100edb71b623132cd",
-    "strict_hash": "13add99cce22ef4100edb71b623132cd",
-    "fuzzy_hash": "afe6eca406715478cd824843bccb9b1a",
-    "reason": "Оценка: Новость носит явно рекламный характер (пресс-релиз) о запуске коллаборации VOX Cinemas и Dubai Economy and Tourism, без общественно значимой информации или пользы для русскоязычного жителя. Текст не содержит проверяемых фактов, кроме названия события, и выглядит как анонс, а не новость."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/10-new-stores-opening-at-mall-of-the-emirates-before-the-end-of-2026",
-    "timestamp": "2026-07-31T13:02:24.360578+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://whatson.ae/2026/07/these-exciting-new-beach-clubs-are-coming-to-dubai",
-    "timestamp": "2026-07-31T13:29:53.893947+00:00",
-    "status": "rejected",
-    "content_hash": "00fb94750ae74d8c3c3705ce6041f166",
-    "strict_hash": "00fb94750ae74d8c3c3705ce6041f166",
-    "fuzzy_hash": "fe5d5c3c9a7f21416876951fada87353",
-    "reason": "**Оценка:** Новость о новых пляжных клубах в Дубае имеет прямую связь с регионом, не касается политики или конфликтов, не является рекламой в чистом виде (скорее анонс для аудитории), не нарушает ценности ОАЭ и будет интересна русскоязычным жителям, следящим за досугом. Однако текст выглядит как перепечатка с сайта What's On без указания конкретного проверяемого источника (URL не приведен), а также содержит признаки кликбейта и обрывочный фрагмент (View this post...), что снижает достоверность. Дубликатов среди опубликованных новостей нет."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/centara-mirage-beach-resort-dubai-review-is-this-the-most-entertaining-family-resort-in-dubai",
-    "timestamp": "2026-07-31T13:30:01.690868+00:00",
-    "status": "rejected",
-    "content_hash": "43c7fb53dc07080a3a58ba1006cd97f7",
-    "strict_hash": "43c7fb53dc07080a3a58ba1006cd97f7",
-    "fuzzy_hash": "70920df9392a2184ddbae61430b2fbb4",
-    "reason": "Оценка: Новость представляет собой обзор семейного отеля в Дубае, что соответствует региональной тематике и может быть интересно русскоязычным жителям. Однако текст явно является рекламным пресс-релизом (обзор с перечислением удобств без общественно значимой информации), что нарушает правило 3."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/summer-camps-in-dubai-the-best-kids-activities-for-august-2026",
-    "timestamp": "2026-07-31T13:30:07.180143+00:00",
-    "status": "rejected",
-    "content_hash": "94ec804bfe43605a69aa3c3189923eb4",
-    "strict_hash": "94ec804bfe43605a69aa3c3189923eb4",
-    "fuzzy_hash": "2b7acf972457d232e7617bddd54a14ff",
-    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
-  },
-  {
     "url": "https://whatson.ae/2026/07/louvre-abu-dhabi-is-turning-saturdays-into-free-movie-nights-this-summer",
     "timestamp": "2026-07-31T15:53:36.115132+00:00",
     "status": "rejected",
