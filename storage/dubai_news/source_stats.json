@@ -1,46 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWnZYZVBDQmJJUU50MVNDU3hkUG1RbTBrQjBjSHRGQ3JlbkJ1UXF1am8zelF5bUZsNHVBNk5WblRGbmYwd0ZzNWF0a3ZxVWtsakFxaUJ6Qk9hdV9GUERWaThNS0RZdkZ4aDhsWVlqWllWaTh2YjRpQkMyOHVRd2trOUxOWVIwdWJrc2Y1QlZqX3BtdzJuMUg5Vl9aaUJwYUJmVHh1ZUR3?oc=5",
-    "timestamp": "2026-07-31T07:21:40.471501+00:00",
-    "status": "rejected",
-    "content_hash": "325338a82248f5846ef070806a015640",
-    "strict_hash": "325338a82248f5846ef070806a015640",
-    "fuzzy_hash": "ac94fc520a48755b72383e36ed79baee",
-    "reason": "Оценка: Новость дублирует уже опубликованный материал «Dubai Awards Sustainable Tourism Stamp To 237 Hotels For Green Hospitality Efforts» — та же тема, те же цифры (237 отелей), тот же факт. Отличается только источник (CairoScene вместо curlytales.com), что не является новым инфоповодом."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSjU1ekRRbXRPb2V2WVdqMUJhX1BvVl9Ed1FZWDRacWllcE9XdWNGb3lsbG83RUlwTWFTVVd0YVZVTmZnNkZZVlVnd2xCbEFxdV9XRmRWZFh6MkxTbjVITEhfXzkyMnRYSkI3YXFsTEJmVTdSNS0xVXVyRmpyeElodzFCOTFBX0tEZDFGSktzbml1SkxsbG95eGt2SQ?oc=5",
-    "timestamp": "2026-07-31T07:21:49.447769+00:00",
-    "status": "approved",
-    "content_hash": "3bd02bd02673f685958948107c261c6d",
-    "strict_hash": "3bd02bd02673f685958948107c261c6d",
-    "fuzzy_hash": "cf2eba7fc5f6acfa334832890c235484",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/07/new-bakeries-in-dubai",
-    "timestamp": "2026-07-31T08:03:36.535231+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://whatson.ae/2026/07/trevor-noah-to-perform-in-dubai-this-november",
-    "timestamp": "2026-07-31T08:32:12.321953+00:00",
-    "status": "rejected",
-    "content_hash": "3a0ae8317459501eb78bd850f0c47190",
-    "strict_hash": "3a0ae8317459501eb78bd850f0c47190",
-    "fuzzy_hash": "e07d76aef463f4c260d46d703c9ba7e1",
-    "reason": "**Оценка:** Новость о выступлении Тревора Ноа в Дубае напрямую связана с регионом, не содержит политики или рекламы, соответствует культурным нормам ОАЭ и будет интересна русскоязычной аудитории. Однако текст явно скопирован с сайта What's On (включая технические артефакты вроде `&#8217;` и `[&#8230;]`), что указывает на автоматический репост без редакторской обработки. Дубликатов в контексте нет, но источник не является первоисточником, а сам текст выглядит как неотредактированная выжимка."
-  },
-  {
-    "url": "https://whatson.ae/2026/07/uae-petrol-and-diesel-prices-increase-for-august-2026",
-    "timestamp": "2026-07-31T08:32:26.502799+00:00",
-    "status": "approved",
-    "content_hash": "43d9c1821981c0e90c7e38ef57a73049",
-    "strict_hash": "43d9c1821981c0e90c7e38ef57a73049",
-    "fuzzy_hash": "46a9ee3c7a7f57a7708bbd030b39f0b0",
-    "reason": "approved"
-  },
-  {
     "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/r-madhavan-revealed-why-he-relocated-to-dubai-for-son-vedant-said-all-my-taxes-are-paid-in-india-recalled-earning-a-captains-licence/articleshow/132750222.cms",
     "timestamp": "2026-07-31T10:05:08.446715+00:00",
     "status": "rejected",
@@ -769,5 +728,10 @@
     "strict_hash": "9ca26c5d47008f8dbc3a3a450a42b872",
     "fuzzy_hash": "5c50c2e641db70412b67c67b5ec40fba",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/uae-set-for-spectacular-perseids-meteor-shower-and-new-moon",
+    "timestamp": "2026-08-02T09:15:44.806046+00:00",
+    "status": "published"
   }
 ]
