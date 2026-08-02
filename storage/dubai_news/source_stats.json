@@ -759,5 +759,14 @@
     "strict_hash": "520318c0a0f9f6faa389623d9dcf0873",
     "fuzzy_hash": "3135d79caea50b779026e547735e92b1",
     "reason": "Новость полностью совпадает с уже опубликованным материалом под номером 4 в списке контекста (тот же заголовок, тот же источник, тот же хеш контента). Это явный дубликат, публикация недопустима."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbmU3XzRtanpUbkNVaEhTM29JUl9PYnZLNzEwVmFkV3dFRDdPNFhpaV9LZy1rQ21yS256SXlZMEVQRWo3UWhsazJ3cEVfbHllaHg1SG5vY1doNTdUZi1NdlFWLWVLLWRfN1JJZEJEUjdsX0dyNVFycEg4NVpfVS0xZllQSTRGMXRxNHNybDJWblMtZU9GZnfSAZ4BQVVfeXFMTjdDbTA3bnpzU205TmcyUUVSNGtCRHRCZHdHcW1iR01LSDN2Y2FhZ0FRdFNJYUpTVlV2NGNlVUpGSEg4Y1A0Wm1NekRjcEZyaU0tclduVGJ4TU54dXRVLURRc0tKbndrUG1tRUNjcXVBUVJXRTZ1NWxRSTJaMkZId25FUld5dm4zS0oxMExwSWdFeDkxUlFkdGF0X0VVV3c?oc=5",
+    "timestamp": "2026-08-02T17:53:01.361146+00:00",
+    "status": "rejected",
+    "content_hash": "7aabd568521af790780cca21f297f6f2",
+    "strict_hash": "7aabd568521af790780cca21f297f6f2",
+    "fuzzy_hash": "5ac12fe8a7c60603054e8c2a05625abc",
+    "reason": "**Оценка новости:**\nНовость является точным дубликатом уже опубликованного материала под номером 4 в контексте («Dubai’s Public Transport, Shared Mobility and Taxis Carry 348 Million Riders in First Half of 2026»). Тема, цифры и суть совпадают, источник — тот же (Khaleej Times). Публикация повторно недопустима.\n**Решение:**"
   }
 ]
