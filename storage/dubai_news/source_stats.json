@@ -833,5 +833,23 @@
     "strict_hash": "d7d516e67aa25c6a4c9292c09717f35d",
     "fuzzy_hash": "7accf70a1a86d86216b6039a60bb7185",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.bollywoodhungama.com/news/bollywood/raj-thackeray-takes-swipe-at-vivek-oberoi-r-madhavan-over-living-in-dubai-despite-praising-india-why-live-in-dubai-if-you-love-india",
+    "timestamp": "2026-08-03T17:41:18.581596+00:00",
+    "status": "rejected",
+    "content_hash": "0191482b3989f37f8fd20bd8163e9452",
+    "strict_hash": "0191482b3989f37f8fd20bd8163e9452",
+    "fuzzy_hash": "4887a68cde43c7c8a42fc0701862cbc6",
+    "reason": "Оценка: Новость касается политического заявления индийского политика о знаменитостях, проживающих в Дубае, но основная тема — внутренняя индийская политика и конфликт, а не жизнь в ОАЭ. Связь с Дубаем лишь косвенная (место проживания актеров), что не соответствует критерию значимости для русскоязычной аудитории в Дубае. Также материал может быть воспринят как политически чувствительный."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYWtBcnRLMjRBRDAwRE0xdHpmdF9ZelB2MUltb3VSM19jQUd5b2oxeFAwaDdiNzhMeEc2ODNOQy1tNHFsUHpaNlg0bHVQRXJCN1FmYkJ0NmRPU1JFQ1Z0WkZLLUdUaTJnMVNCVG1IWjRWa2NmemFkUW1rWDF6S1BZWmFxakN4ZXdqMlJKazBB?oc=5",
+    "timestamp": "2026-08-03T17:41:21.604355+00:00",
+    "status": "rejected",
+    "content_hash": "a2423cf222814443124ae406e5fe6538",
+    "strict_hash": "a2423cf222814443124ae406e5fe6538",
+    "fuzzy_hash": "88287ea6eee10c14135d9b8de34a477e",
+    "reason": "Новость носит характер официального пресс-релиза о локальном общественном мероприятии, организованном полицией Дубая. Она не содержит значимой общественно-полезной информации для русскоязычных жителей, а также не имеет подтверждающего URL источника в предоставленном тексте, что делает её непригодной для публикации."
   }
 ]
