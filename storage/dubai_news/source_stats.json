@@ -779,5 +779,41 @@
     "strict_hash": "32b86c1c13bc8492d637271302b2000b",
     "fuzzy_hash": "264e48b9016d3eae688621e75a9cdc58",
     "reason": "Новость о прогнозе дождей в ОАЭ на предстоящую неделю соответствует региональной тематике, не содержит политики или рекламы, а также представляет практический интерес для русскоязычных жителей Дубая. Однако текст выглядит как перепечатка с сайта What's On с обрезанным содержанием и без явной ссылки на первоисточник (National Center of Meteorology), что затрудняет проверку достоверности. Кроме того, в контексте уже есть новость о погоде (пункт 5), но она касается транспорта, а не прогноза — дубликатом не является."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/watch-sheikh-mohammed-spotted-dining-at-popular-london-restaurant",
+    "timestamp": "2026-08-03T12:26:25.451414+00:00",
+    "status": "rejected",
+    "content_hash": "8c7e98f9183772345888d50a8395b43d",
+    "strict_hash": "8c7e98f9183772345888d50a8395b43d",
+    "fuzzy_hash": "55756d4c75611110ed64e6c0d80a5b43",
+    "reason": "**Оценка новости:**\nНовость о том, что шейх Мохаммед посетил ресторан в Лондоне, не имеет прямой связи с Дубаем или ОАЭ (событие происходит в Великобритании), не несет практической пользы для русскоязычных жителей Дубая и выглядит как развлекательный контент без общественно значимой ценности. Кроме того, отсутствует проверяемый первоисточник с четким URL, а сам текст напоминает перепечатку с развлекательного сайта."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/kid-friendly-restaurants-in-dubai-where-little-ones-can-play-while-parents-unwind",
+    "timestamp": "2026-08-03T12:26:32.510103+00:00",
+    "status": "rejected",
+    "content_hash": "43201efa4905312f4958ae0239d8cb1f",
+    "strict_hash": "43201efa4905312f4958ae0239d8cb1f",
+    "fuzzy_hash": "151498b68958e7dd9ae34fb235a2ae3f",
+    "reason": "Эта новость представляет собой подборку ресторанов для семей с детьми в Дубае, что напрямую связано с регионом и может быть полезно русскоязычным жителям. Однако текст явно является рекламно-обзорным материалом с сайта What's On, не содержит конкретных фактов или общественно значимой информации, а также имеет признаки типичного контент-списка без проверяемых данных."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/dubai-population-over-the-years",
+    "timestamp": "2026-08-03T12:26:37.296350+00:00",
+    "status": "rejected",
+    "content_hash": "4fb1b5f9356c6d721107e33a5729c35c",
+    "strict_hash": "4fb1b5f9356c6d721107e33a5729c35c",
+    "fuzzy_hash": "051c523c25947aca1a24a9db3b24920e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYTVxeVRsaWhtbEt0UmhzU0dfa0Yyb0dVRW4xdFlNZ1lKWUNEazBkcmhQU0lWcVlpaFp2ZkI2SGxFMDFNQ1NydWlGa3FjVzF6OU8wZkFkNlpHNlhFOWIxV3VrTU50VFRxZnBmYlFOVy0yUTd5bTBSQzRzWWxSZ1huT05RUHlIMzd5Z0E?oc=5",
+    "timestamp": "2026-08-03T12:26:45.491421+00:00",
+    "status": "approved",
+    "content_hash": "67a09e587301686bbb3b54fd0631f5a9",
+    "strict_hash": "67a09e587301686bbb3b54fd0631f5a9",
+    "fuzzy_hash": "ea202b969fb17a952bf89e8897ce3e4f",
+    "reason": "approved"
   }
 ]
