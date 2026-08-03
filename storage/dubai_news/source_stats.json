@@ -803,5 +803,41 @@
     "strict_hash": "cdb24cd38fa37d9e65970876dc9def58",
     "fuzzy_hash": "e2b7a1efd3b2a3c5eb87646c31272d3a",
     "reason": "Оценка: Новость напрямую связана с Дубаем и общественным транспортом, но она противоречит уже опубликованному материалу (пункт 4 контекста), где сообщалось о 348 миллионах поездок за первое полугодие 2026 года. Заголовок о «47 миллионах меньше» выглядит как дубликат/перевернутая версия той же статистики, что создает риск дезинформации и повторения темы."
+  },
+  {
+    "url": "https://www.thesun.ie/tv/17396526/georgia-kousoulou-tommy-mallet-dubai-move",
+    "timestamp": "2026-08-03T01:09:18.471587+00:00",
+    "status": "rejected",
+    "content_hash": "43e23acaf5c39daba923496e19974587",
+    "strict_hash": "43e23acaf5c39daba923496e19974587",
+    "fuzzy_hash": "b3750d7e1b16e9982b1acddd242c2109",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.thesun.co.uk/tv/39943049/georgia-kousoulou-tommy-mallet-dubai-move",
+    "timestamp": "2026-08-03T01:09:20.131269+00:00",
+    "status": "rejected",
+    "content_hash": "b0a775040f392a5a69c603f119138dcd",
+    "strict_hash": "b0a775040f392a5a69c603f119138dcd",
+    "fuzzy_hash": "c8c2d72bd76dd4859d20f6ae8a8281a6",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/india/if-india-is-so-great-why-settle-in-dubai-raj-thackeray-targets-vivek-oberoi-r-madhavan/articleshow/132806056.cms",
+    "timestamp": "2026-08-03T01:09:23.945999+00:00",
+    "status": "rejected",
+    "content_hash": "88212f6d5c3cd137f47016a708a40849",
+    "strict_hash": "88212f6d5c3cd137f47016a708a40849",
+    "fuzzy_hash": "2e232c3808c9d200060a64fcd1c54a85",
+    "reason": "Новость касается индийского политика Раджа Тхакере и его выпадов в адрес болливудских актеров, переехавших в Дубай. Тема не имеет прямого отношения к жизни в ОАЭ, а является частью внутрииндийской политической повестки, что нарушает правила 1 и 2."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUWZpS2tnOS0yc1V4ZXJMb05DTzMtNnJBM21hWENud1ZzdEZxWnBRc2ZJSG40X1lhaTVBRlFuRDRuMFVwYUpuM0xjNmhDN1ZQOXd3dGxaQzd1aEZnR0FBTUNlMzc5RGs3X3JJbGFIdkUtcFNwM01wYlBhNEJEX2tfbXdGc01uLTE1UEJfVzVCSFNXY0JnUHBfOXY4Uk1QOGNaay1oRnlFLXdlZ2dpTVVKdmV2WGMxZi10SE0tQXFiR2wzVEFQM05j?oc=5",
+    "timestamp": "2026-08-03T01:09:33.206252+00:00",
+    "status": "approved",
+    "content_hash": "79a25afd1cd1248215a782573cfd2e15",
+    "strict_hash": "79a25afd1cd1248215a782573cfd2e15",
+    "fuzzy_hash": "3aa208110b263a49312a47060784865f",
+    "reason": "approved"
   }
 ]
