@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb0Q5ZVlXZGdFTlh0UllWUDNkak5lRlJaOUhvMXFoVHpuNUJYS0t0R1c1ZGpxMnlHVnFyWDVnMkNFRXBtTnVoNTBLSzRwUl9FRWg0TV8zMjBFYk5pMWRrU240c2YxdldqdGd5X3B1VV9wN1FQaFVxbDQwTzdyWTd2ZU9idFVqb0VMTUt2Q2xGWng1LUtXUlJzRXNQRHM2dTho?oc=5",
-    "timestamp": "2026-08-01T23:47:26.250560+00:00",
-    "status": "approved",
-    "content_hash": "5ec3442d399df685fa5400550aed46bf",
-    "strict_hash": "5ec3442d399df685fa5400550aed46bf",
-    "fuzzy_hash": "86dc6824d8420d4ec5416fecae4f6080",
-    "reason": "approved"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT05PZmRRV2ljWkctdGF5UzI0OGlLaDNVSkZjZm04ZGQ3Q19nMUUzRnNONlZnU21qVmgtY2pCQUhzNTVkTnRXQkpsWW41eXFoZG11R2tFZGVJYXpQT2VzeW8zcklSRndkczZhUWNtQnFQcXlENDlkOG1sZmpNeHVZMjBJZnBCeEo3b3RYT09LVDNWekdOV2ZFNTZFQUQ1d3RjN3YzTnNYQUJSZ0VTa18xbzVUSQ?oc=5",
-    "timestamp": "2026-08-02T01:08:52.770950+00:00",
-    "status": "rejected",
-    "content_hash": "bb5e284a3d1c6869db6c34c4dcf589af",
-    "strict_hash": "bb5e284a3d1c6869db6c34c4dcf589af",
-    "fuzzy_hash": "3337934e47360090fc8f291df499b9ff",
-    "reason": "**Оценка новости:**\nНовость крайне короткая и не содержит фактического содержания — только заголовок о продаже номерных знаков Дубая на платформе Xplate. Отсутствует проверяемый источник с подробностями, нет общественной значимости или пользы для русскоязычной аудитории. Материал выглядит как рекламный анонс без подтверждённых данных.\n**Решение:**"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM2wyNVd1QXZrcWFjUkNqejRXZEN4OU5qTTN4b1FFcnd1R1dCb1FPMDdzeFZXZkZfaG53bGZGRXFRUnVpWW1EaUJIVGNGNUZfdGZqSTNacjRDcHdvdnVSa2pzb3NCNldHNlNtckpRT0xaRXJCU1NFZ1VxRDgtMExiNFBaLVMyX2xkaHc?oc=5",
-    "timestamp": "2026-08-02T01:08:59.074762+00:00",
-    "status": "approved",
-    "content_hash": "b196d0ecf60fb15477e43dd9fd70f7ed",
-    "strict_hash": "b196d0ecf60fb15477e43dd9fd70f7ed",
-    "fuzzy_hash": "0d864fae87a8bc622d5bb8262ea4e3e7",
-    "reason": "approved"
-  },
-  {
     "url": "https://propertynews.ae/uae/dubai/burj-khalifa-unveils-advanced-facade-lighting-system-in-dubai",
     "timestamp": "2026-08-02T05:16:21.857205+00:00",
     "status": "rejected",
@@ -896,5 +869,10 @@
     "strict_hash": "f98f040a89c4acc72251399b393c1954",
     "fuzzy_hash": "7404c68202e129757ac792be13b5a90f",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.theweek.in/news/middle-east/2026/08/03/dubai-private-school-rankings-see-the-complete-list-of-top-performers.html",
+    "timestamp": "2026-08-04T03:28:38.552401+00:00",
+    "status": "published"
   }
 ]
