@@ -968,5 +968,23 @@
     "strict_hash": "cd9978c86534c617d75cf605ac1c7413",
     "fuzzy_hash": "3de139cebbf91fb9b492ee630c76c9e0",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/bakerist-is-bringing-its-famous-giant-croissants-to-abu-dhabi-soon",
+    "timestamp": "2026-08-04T11:15:00.032201+00:00",
+    "status": "rejected",
+    "content_hash": "1b0df3dd35bfa2f25791ed7b602504a9",
+    "strict_hash": "1b0df3dd35bfa2f25791ed7b602504a9",
+    "fuzzy_hash": "18e3d99def8252af9164087d553d3c1d",
+    "reason": "Оценка: Новость о расширении популярной пекарни Bakerist в Абу-Даби имеет прямое отношение к региону ОАЭ, не содержит политики, рекламы в чистом виде (это скорее локальный lifestyle-инфоповод) и будет интересна русскоязычным жителям, следящим за гастрономическими новостями. Однако текст явно является перепечаткой анонса с сайта What's On, не содержит проверяемых деталей (адрес, дата открытия) и выглядит как типичный пресс-релиз без общественно значимой ценности. Дубликатов среди опубликованных новостей нет, но по критериям 3 и 9 новость следует отклонить."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/wadi-wurayah-a-guide-to-the-uaes-first-natural-unesco-world-heritage-site",
+    "timestamp": "2026-08-04T11:15:14.120465+00:00",
+    "status": "approved",
+    "content_hash": "87597316d5e9aa58ae7b86d54d0dd0b7",
+    "strict_hash": "87597316d5e9aa58ae7b86d54d0dd0b7",
+    "fuzzy_hash": "c6c57647f16bbdbaa098ef27eaafd23f",
+    "reason": "approved"
   }
 ]
