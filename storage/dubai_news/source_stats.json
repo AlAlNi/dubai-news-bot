@@ -842,5 +842,59 @@
     "strict_hash": "ae899b06c66e0033c8a72f798abec533",
     "fuzzy_hash": "471ba79b123908c87422accc7712f702",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/08/03/uae-cyclists-raise-dh24-million-for-fight-against-cancer-in-epic-european-ride",
+    "timestamp": "2026-08-04T02:32:11.990437+00:00",
+    "status": "rejected",
+    "content_hash": "0135e5236e08581aa53fa12b60a666eb",
+    "strict_hash": "0135e5236e08581aa53fa12b60a666eb",
+    "fuzzy_hash": "ebebda930a91e96c42d3c03b17a66b6d",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObnktYkZock40S3JDOElVdGlHWkxXWDRwZVhrRzZoUUpjb0llZFRZUlVCeWctRzVDQXNtN20zUGs0YnM5UXNreVpyZWVTVDZHR0h0R3otNWdXcEVRRkJaU3RGU3RhRm5qTzNCMGZIUzRXQklCV0RvMGFGMU1KcXlDQWt3QjVCY0JQZEJOTFdfeVk5REhEVlE?oc=5",
+    "timestamp": "2026-08-04T02:32:12.810144+00:00",
+    "status": "rejected",
+    "content_hash": "60d9a8f6081fcb2a8abf3c2becd7b246",
+    "strict_hash": "60d9a8f6081fcb2a8abf3c2becd7b246",
+    "fuzzy_hash": "c532cb9f44990b88756c959e694a670a",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNUd2cW8tQmw1MFV3N09fWjNrRkZxV1FVUl9iZTlNNkpCaGJCRjdweWp2enVDQkxrd3hMX0tfSUIwYXVFMWZZUXNHbU44WFNRNDNsOTdfYVF6ZWxDeXpJdlBkTlppQ19OSDlWay1kWWhNLWxwQTVKMXk3TUZ4ejVGQ3piNm1zaGxycDZkdHNDTmoyWE5WaEE?oc=5",
+    "timestamp": "2026-08-04T02:32:14.348405+00:00",
+    "status": "rejected",
+    "content_hash": "ef76d8d3b5028638fcebe16d6294a7ae",
+    "strict_hash": "ef76d8d3b5028638fcebe16d6294a7ae",
+    "fuzzy_hash": "fb6d7ccb6a15961c9170feb982f9847e",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZNkl4Y0ZQdnpyMFk0akJPcFZnUzZpTlBQTms5TGE3LUs4enIxTlpQZkRYaXpEbWVsOFV3MDFCajFZVmd2YmdFT21JME5RSE0?oc=5",
+    "timestamp": "2026-08-04T02:32:16.874399+00:00",
+    "status": "error",
+    "content_hash": "dffbf33af82443151550780fc785682b",
+    "strict_hash": "dffbf33af82443151550780fc785682b",
+    "fuzzy_hash": "a2ee24e590e4fad880e0a5bf8a1a427d",
+    "reason": "DeepSeek editor HTTP ошибка 503"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYUQ3U3NkQ0Z4WGhyVjltbTRMOVhJUks0SFNWaFB1SXJvSHNFZVAtRjZlRXdzeEQzYml3bUFyY3NjeHA3RmlZcENRdmZBVjJral9iaXpfdXBONlRhcWJEUDlwR0o4eDlsaTlCQW96Z3pGU2dpcGg0TDF1VGpSODB3Q1VjN2RfemdQdnBvOG5XYU0tazVPaklB?oc=5",
+    "timestamp": "2026-08-04T02:32:37.577896+00:00",
+    "status": "rejected",
+    "content_hash": "a896c46a2e156269959ed161dec393d4",
+    "strict_hash": "a896c46a2e156269959ed161dec393d4",
+    "fuzzy_hash": "bbd7b3e6ad6c04dba7f9f53fb340452b",
+    "reason": "Оценка: Новость представляет собой заголовок и ссылку на статистический портал IndexBox, без какого-либо содержательного текста или проверяемых фактов. Это скорее анонс или рекламный тизер, не несущий общественно значимой информации для русскоязычного жителя Дубая, а также не имеющий явного подтверждения из первоисточника."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54X0NJWHhqUVZVcklRR0JDU0UwRHBXTWtoRktnZ3B2cW9XYUJ0NUhZSzNuT09CUlVvd29BNG5MUmxGaVhrcm1VODFYdFFKNFppc3ZZZ2s2dzRoTno1dzdOb2xZcjBCRHVxSjVoWGVtaUpxd1VtQzhtSVk1eHA?oc=5",
+    "timestamp": "2026-08-04T02:32:38.084999+00:00",
+    "status": "rejected",
+    "content_hash": "f98f040a89c4acc72251399b393c1954",
+    "strict_hash": "f98f040a89c4acc72251399b393c1954",
+    "fuzzy_hash": "7404c68202e129757ac792be13b5a90f",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
