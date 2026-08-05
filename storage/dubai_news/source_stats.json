@@ -1,140 +1,5 @@
 [
   {
-    "url": "https://www.hindustantimes.com/india-news/maharashtra-navnirman-sena-mns-raj-thackeray-vivek-oberoi-r-madhavan-dubai-pm-narendra-modi-neet-student-protest-101785661658483.html",
-    "timestamp": "2026-08-02T23:30:10.346745+00:00",
-    "status": "rejected",
-    "content_hash": "71657a3105f70e95933b83392ac79f5f",
-    "strict_hash": "71657a3105f70e95933b83392ac79f5f",
-    "fuzzy_hash": "b403f9a39d991e697ef8562569cb757f",
-    "reason": "Новость касается политического заявления индийского политика о знаменитостях, проживающих в Дубае, и не имеет прямой связи с жизнью или событиями в ОАЭ. Основной фокус — внутренняя индийская политика, что нарушает правила 1 и 2."
-  },
-  {
-    "url": "https://www.theweek.in/news/india/2026/08/02/if-modi-is-developing-india-why-live-in-dubai-raj-thackeray-questions-actors-vivek-oberoi-madhavan.html",
-    "timestamp": "2026-08-02T23:30:12.756643+00:00",
-    "status": "rejected",
-    "content_hash": "37625adbd0b2ec3155986f6ec2f8eabc",
-    "strict_hash": "37625adbd0b2ec3155986f6ec2f8eabc",
-    "fuzzy_hash": "cd441004dc8dc366c02452f90f1d6769",
-    "reason": "Оценка: Новость касается политического заявления индийского политика о переезде актёров в Дубай, что является частью индийской внутренней политики и не имеет прямого отношения к жизни в ОАЭ. Тема не представляет интереса для русскоязычной аудитории Дубая и может быть воспринята как политический контент, не связанный с регионом."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeEVual83U0lJY3RKZFIyUHpxSGVNWnpISGM2QW5WdnJRMzdjSjhGTDZ4OElWUjFpSGdjYXN5aWJmdDJVTHcyMlNVMnV1TWNwZmJTSDRiQWx5WlpFcE5KaGNIZElzaEVzbFBiSU9oRmhKRm9Ram43OVBvX1I4TFlMYVc1Z29ZNDI2eldKZXV0RWdNLUllUnZPQlhMSXRlMGg2bHF4WGw5VV9NcU1rdElNSmlBQjExNmM5VVg1TWpfRkFMZFpnVEh2Z3hIMA?oc=5",
-    "timestamp": "2026-08-02T23:30:16.077021+00:00",
-    "status": "rejected",
-    "content_hash": "cdb24cd38fa37d9e65970876dc9def58",
-    "strict_hash": "cdb24cd38fa37d9e65970876dc9def58",
-    "fuzzy_hash": "e2b7a1efd3b2a3c5eb87646c31272d3a",
-    "reason": "Оценка: Новость напрямую связана с Дубаем и общественным транспортом, но она противоречит уже опубликованному материалу (пункт 4 контекста), где сообщалось о 348 миллионах поездок за первое полугодие 2026 года. Заголовок о «47 миллионах меньше» выглядит как дубликат/перевернутая версия той же статистики, что создает риск дезинформации и повторения темы."
-  },
-  {
-    "url": "https://www.thesun.ie/tv/17396526/georgia-kousoulou-tommy-mallet-dubai-move",
-    "timestamp": "2026-08-03T01:09:18.471587+00:00",
-    "status": "rejected",
-    "content_hash": "43e23acaf5c39daba923496e19974587",
-    "strict_hash": "43e23acaf5c39daba923496e19974587",
-    "fuzzy_hash": "b3750d7e1b16e9982b1acddd242c2109",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://www.thesun.co.uk/tv/39943049/georgia-kousoulou-tommy-mallet-dubai-move",
-    "timestamp": "2026-08-03T01:09:20.131269+00:00",
-    "status": "rejected",
-    "content_hash": "b0a775040f392a5a69c603f119138dcd",
-    "strict_hash": "b0a775040f392a5a69c603f119138dcd",
-    "fuzzy_hash": "c8c2d72bd76dd4859d20f6ae8a8281a6",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/india/if-india-is-so-great-why-settle-in-dubai-raj-thackeray-targets-vivek-oberoi-r-madhavan/articleshow/132806056.cms",
-    "timestamp": "2026-08-03T01:09:23.945999+00:00",
-    "status": "rejected",
-    "content_hash": "88212f6d5c3cd137f47016a708a40849",
-    "strict_hash": "88212f6d5c3cd137f47016a708a40849",
-    "fuzzy_hash": "2e232c3808c9d200060a64fcd1c54a85",
-    "reason": "Новость касается индийского политика Раджа Тхакере и его выпадов в адрес болливудских актеров, переехавших в Дубай. Тема не имеет прямого отношения к жизни в ОАЭ, а является частью внутрииндийской политической повестки, что нарушает правила 1 и 2."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUWZpS2tnOS0yc1V4ZXJMb05DTzMtNnJBM21hWENud1ZzdEZxWnBRc2ZJSG40X1lhaTVBRlFuRDRuMFVwYUpuM0xjNmhDN1ZQOXd3dGxaQzd1aEZnR0FBTUNlMzc5RGs3X3JJbGFIdkUtcFNwM01wYlBhNEJEX2tfbXdGc01uLTE1UEJfVzVCSFNXY0JnUHBfOXY4Uk1QOGNaay1oRnlFLXdlZ2dpTVVKdmV2WGMxZi10SE0tQXFiR2wzVEFQM05j?oc=5",
-    "timestamp": "2026-08-03T01:09:33.206252+00:00",
-    "status": "approved",
-    "content_hash": "79a25afd1cd1248215a782573cfd2e15",
-    "strict_hash": "79a25afd1cd1248215a782573cfd2e15",
-    "fuzzy_hash": "3aa208110b263a49312a47060784865f",
-    "reason": "approved"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTkJUVmxQdkQ2SHhXQ0Vtd2RPYXd1Ym1BS2dsdTdiWFNvS1dvNjRiRS13TVR0VC1RYV9HLUZUWEk0QW1YWm9ibnBpNEJ5WkhQNGpkZlZXNTRmbFFkSWpKd1dsbG00NnltYVJURm9aaXJFUk9lZEN2RXZYZ3BHVEt3LUJsdWJMVHZzOGVDNG9qRHlZSEFJbWllWHVxdDFvbnQ1YkllQmUyZUhBdHpWWm1rSTdKTTNGRFpHNHZhN29IaUdVNFdyU0FKMNIB4wFBVV95cUxNRTFscVhxdXZWTWtob1hQT0VnckR2aHU1QmpfYjNGMWdDMGd1bWwxWDZMY3ZfLXpUc2JnbjZpcFE5NGFEMXJkdzNNVE1qRWpiN19ieTNmQ01zNHpGVUJCSTR0a1NwVkxqSkdGQU93ZTN3UWlsb0NXdkVaYlVGTFJ3VVlOMzZYNTBMVjE1VEJpM0hxTE5fMjQxUXVuNTRhemtqWlZiMEtLY1RwaVBpbTJiRzZYUGVHaUpxS3pKb0hiU09CVEJwOGoxWVZQSldFa2Jhbm12cG9SalJGR0NVaVlmX1JuOA?oc=5",
-    "timestamp": "2026-08-03T01:48:06.567903+00:00",
-    "status": "rejected",
-    "content_hash": "c0026477486f009d3daa4a348ecfbfb2",
-    "strict_hash": "c0026477486f009d3daa4a348ecfbfb2",
-    "fuzzy_hash": "4e4a942269c033803423797d6b443745",
-    "reason": "Оценка: Новость полностью дублирует уже опубликованный материал под заголовком «Federal Tax Authority, Dubai Police seize 3.5 million non-compliant excise goods packages - Gulf Today» (пункт 1 контекста). Текст идентичен, отличается только название источника (Emirates 24|7 вместо Gulf Today), что является явным признаком дубликата."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOXZkRTNZVTMxaU5MZjc1dUN5bkVSbVV3Mmk5WDZKdGJEUk0zcmJTSy1SbHlDNWNZLTQzVmFCWko5TE01eXI2cFo2ZlZWa25kRlJpaGpsbEdmNW8td05MM2RkaG1fNDE3cGg2VXZsSHVWTkdmTS02YkhxZjUweGJCbUV5RnhkVHQ0SWg2Y0tNUEhVaTZJRnhneVJXVGRmSWpYc01VRGVOWndCOHptT2R2cGZLYzlKa0dZZ0h1cGp2QnfSAcYBQVVfeXFMT09VeVFwNTQ3MFJEempuZnk3SjBEWkxXcW5JRFcyWFZ0WE1KenlvOE44RzRqNm1ZdVZQRVNLdWxIYmhoMl83S2RNTkljQTBvbkx1eF9UWTZqQk5ZR2VCUWlhSjlucVluRzlYZUt3NFk4ZGRWTmdoU1BqdjFSOE0xbWUwWkF5N183TjRjNW94ZXhrbF9LeGtTbjlHSUxhRENmSkV0STN3ZUpxTDZFekttdWNKQzZ6R1lYZ1h2X2N2QXJBMXF2NVFn?oc=5",
-    "timestamp": "2026-08-03T01:48:08.966500+00:00",
-    "status": "rejected",
-    "content_hash": "7a95ab4c2ae50666b0b7bb68af88a1a8",
-    "strict_hash": "7a95ab4c2ae50666b0b7bb68af88a1a8",
-    "fuzzy_hash": "ebb59041ec4e3774e324ef4801d6f8bd",
-    "reason": "Новость касается спекуляций об освобождении Беназир в Дубае, но не содержит явной связи с жизнью региона, а также затрагивает политическую тему, что противоречит правилам канала. Кроме того, отсутствует проверяемый источник и польза для русскоязычной аудитории Дубая."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMeTRwUnNtbnBPU3ZzRnVYaTJqbGxlNWpoQTdYMzRKUmVPcnpaU2gwcjhqV3lXdFJ2WXJrY3RQTWVlOUdoMm5ZUkE3UmNRWVl4WV9BV2RTMUJOcGfSAWhBVV95cUxQbHY5bFQybkZtQXpvanltaTNoWjdoUzhKYWdvWGdpRVVKbEUzMFlGTUpDOGZSS190Z241UTg0TS1kMnY4SnJiUFZSYjdGTEsyVVlCaTRUZ0RybHBhSWxGMndGNWZERWE3Zg?oc=5",
-    "timestamp": "2026-08-03T01:48:09.301871+00:00",
-    "status": "rejected",
-    "content_hash": "9829b72357bbb158c797e89ea2c5146a",
-    "strict_hash": "9829b72357bbb158c797e89ea2c5146a",
-    "fuzzy_hash": "9bc54b1c33f79c552a21036df2b506c0",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcWJWTFkzSWx4eFMyN3d4SVY4VXByb2twU2c2RjNuYUJNWmgxOTdyOU9BNnRFR1hNa0NRZ0NCOVZrYWdqeS1xUGVlcGh0Y3NWaVVHaXh1UDdDODQ2aEVkaGhLb2xhS2FqekV2MWs0eWRJZXZTdDNXNDZGazkwQm81RXlJZUNvVWxiMDM0?oc=5",
-    "timestamp": "2026-08-03T01:48:10.603436+00:00",
-    "status": "rejected",
-    "content_hash": "7c94731671c1e2b34354ae5a0db37371",
-    "strict_hash": "7c94731671c1e2b34354ae5a0db37371",
-    "fuzzy_hash": "f8b67eda37fb944dfc1a62c1375724ec",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zWFFFOFdBU1NrNllCVGVESDJzVVVtSGZvTTBfU1FfWFBWOXpEVWMtbmJvQTd2S3V6Mk10dXhVcE1CdXhuWWpHalQxeGpxNllmWWRpSUVXRQ?oc=5",
-    "timestamp": "2026-08-03T01:48:11.980485+00:00",
-    "status": "rejected",
-    "content_hash": "57ab17df0391563eef8ced23ea9c4f5b",
-    "strict_hash": "57ab17df0391563eef8ced23ea9c4f5b",
-    "fuzzy_hash": "ecdb3af89cde9e07670c87846104eb03",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4tMGNNQmxLdDlKc2QxZWdQYVV0a3BiZDVwSzU1UlV4VGlGb01UZFFBQ2wxd0xkWDVSOFhocGMxSnVtVnIxaWM0QlU3dDYzMm5FRzhVWDA4dw?oc=5",
-    "timestamp": "2026-08-03T01:48:13.282415+00:00",
-    "status": "rejected",
-    "content_hash": "4fa3e61240e8402bf1b376e14127bc24",
-    "strict_hash": "4fa3e61240e8402bf1b376e14127bc24",
-    "fuzzy_hash": "f89f0d0f4de6ce0c1d2d21ac528e32f5",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNF96VV9pblZ1bVFlakh4N3RfV09pTGR6T3hKdDFSYTBkVmFQbnV4cjBVQnZhZk90UFF3akk4eFVOcmNRYV9CU05FUmE4MXdWeGt4MHJoRnNQYm9vSlpFRXJGWXJJbmFDR19VcWRyMFhrZEx0MFpaX3JSWW5YWFl1dWsyOGZvam83amlfc08yc09xNFpHbkUwNkYtdFdodnlwNmhmMHBB?oc=5",
-    "timestamp": "2026-08-03T01:48:14.523012+00:00",
-    "status": "rejected",
-    "content_hash": "5b510de2013dfee6c150a3281104b907",
-    "strict_hash": "5b510de2013dfee6c150a3281104b907",
-    "fuzzy_hash": "e87f2bce5866b5dfafe38b5953b6e3d4",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOF9vUDk3UXlsY19FUWtOOEJ2V3Awam9fY09zeS1seXpTUUt2Y05TQlVUVjlwYlVuX2hRN3JBM095eTlqZ3pxWWx5ZWJzUzV1bGdCQ21JMzd1bjRIMGRMdHpiZWVOM1lmOVdtSXlicW4wYUNoYjMySjFTNl9OTnRvYWZycGdhODlTcU9sQUpwUEdJcnltNF9nSXpBWkpJbjF0VG1qeVJqTdIBugFBVV95cUxPMDVISGFVMTVqWFFiS0VMTmlzZzlyWXRVUl9BTjBGaWgtS21lN05BdlppYlVNQkNtYmZWaHRIczNlSWRmbXBBdG9zamlobjFhTFh6R2lYZFJ1RUtKWGZqOWpNd21LTmNxaUF1SjVIUm9UNjF6cmwxUGY2ZHFIVHBFdVJNMXcyeFp3dUZ2V1hpVmtnRmZOY29nLWNWQmxsQ0tHUzd0RjRyRUlZeW1adThtZEpPVl9KT1pFRUE?oc=5",
-    "timestamp": "2026-08-03T01:48:15.971230+00:00",
-    "status": "rejected",
-    "content_hash": "9081815d8b894445e86a0b9dfa5947f0",
-    "strict_hash": "9081815d8b894445e86a0b9dfa5947f0",
-    "fuzzy_hash": "a01201c9af99052ad20db558fa1dd56c",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
     "url": "https://www.newsx.com/entertainment/raj-thackeray-questions-vivek-oberoi-and-r-madhavans-dubai-move-heres-why-255896",
     "timestamp": "2026-08-03T05:03:27.148517+00:00",
     "status": "rejected",
@@ -978,5 +843,10 @@
     "strict_hash": "ed08ae44f3b97db0772285c81945a3a3",
     "fuzzy_hash": "7465bf80e7e731ac3eb0af0ecbd92ab6",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.businesstoday.in/latest/trends/story/till-death-do-us-part-gets-a-sci-fi-makeover-dubais-viral-robot-bu-sunaidah-announces-wedding-to-fellow-robot-moza-leaving-the-internet-amused-divided-547151-2026-08-04",
+    "timestamp": "2026-08-05T03:23:22.466431+00:00",
+    "status": "published"
   }
 ]
