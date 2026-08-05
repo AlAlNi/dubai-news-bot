@@ -885,5 +885,50 @@
     "strict_hash": "71a282f5647d4ca9f6095ac3a4b4654e",
     "fuzzy_hash": "1bc816cdec39596a8622383d59960682",
     "reason": "Новость о гольфисте, предлагающем повысить статус турниров, включая Dubai Desert Classic, имеет прямую связь с Дубаем и не содержит политики, рекламы или неуважения. Однако текст выглядит как спортивная аналитика, которая может быть интересна узкой аудитории, но не является критически важной для русскоязычных жителей, и не подтверждена явным URL источника."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/dubai-creek-lights-project-announced",
+    "timestamp": "2026-08-05T15:07:19.954742+00:00",
+    "status": "rejected",
+    "content_hash": "0f87b09c62002c38ca48d971194b61ea",
+    "strict_hash": "0f87b09c62002c38ca48d971194b61ea",
+    "fuzzy_hash": "8060ccb47a17ebff7453bf7fca142d1a",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (проект Dubai Creek Lights), не содержит политики или рекламы, а также представляет интерес для русскоязычных жителей. Однако текст выглядит как перепечатка с сайта What's On, содержит признаки кликбейта и не имеет явного проверяемого URL источника. Дубликатов среди опубликованных новостей нет.\n**Решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/the-uae-is-one-of-the-best-places-to-move-in-2026",
+    "timestamp": "2026-08-05T15:07:28.835358+00:00",
+    "status": "rejected",
+    "content_hash": "c0d0a68c386d094e3241152252ca16fe",
+    "strict_hash": "c0d0a68c386d094e3241152252ca16fe",
+    "fuzzy_hash": "d3e03314552d8386946f2ccb10fe9567",
+    "reason": "Новость носит общий рекламно-имиджевый характер о привлекательности ОАЭ для переезда, не содержит конкретных фактов, полезных для русскоязычного жителя Дубая, и выглядит как перепечатка с сайта What's On без проверяемого первоисточника. Тема не является оперативной или общественно значимой новостью, а скорее мотивационным контентом, что не соответствует формату канала."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/vantage-point-13-returns-with-striking-new-photographic-works",
+    "timestamp": "2026-08-05T15:07:34.074667+00:00",
+    "status": "rejected",
+    "content_hash": "95f012f7de74771fc51392ebbf131e21",
+    "strict_hash": "95f012f7de74771fc51392ebbf131e21",
+    "fuzzy_hash": "1d2cdb5ef45cd52186cc501c70386107",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.newindianexpress.com/india/2026/Aug/05/air-india-under-fire-after-teen-with-epilepsy-removed-from-dubai-delhi-flight-over-medical-papers",
+    "timestamp": "2026-08-05T15:07:36.589910+00:00",
+    "status": "rejected",
+    "content_hash": "852763206185cd52b22405eb68cc79ae",
+    "strict_hash": "852763206185cd52b22405eb68cc79ae",
+    "fuzzy_hash": "c0588d900e7817bc6aa7d903aa1f7c30",
+    "reason": "Оценка: Новость связана с Дубаем (инцидент на рейсе Дубай-Дели), не является политической или рекламной, не нарушает ценности ОАЭ, источник — индийские СМИ (проверяемый). Тема может быть интересна русскоязычным жителям, летающим Air India. Дубликатов в контексте нет."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONnM4cFVTMFNjc0dPLVlpbTBSNDFGY2tJZy05V19yV0RBMnl2M0NjSTBNejRlV1k5QmljU0c4LUNGVi1WRjFxUmk5amtJeEc4eFVhZEhKMHZJcC1XQVhNdnFTd0JtbVF6eGFiVURnNnRuY3p0WUVxdEMza0hWTTk1Y3lrTDdrRXJIX0lucWVDTTZSWWt3TjUzV3JZUURqWktidnR0aXJGd0xUSjMyNXltTEZEZ3gzMlpZcXpTeVlnUDhTcUE5Wi1z?oc=5",
+    "timestamp": "2026-08-05T15:07:46.237502+00:00",
+    "status": "approved",
+    "content_hash": "ff6888cb3e4f93984b0ba6052bcade15",
+    "strict_hash": "ff6888cb3e4f93984b0ba6052bcade15",
+    "fuzzy_hash": "b8327840e63fb2b1fe098fff8ef24e22",
+    "reason": "approved"
   }
 ]
