@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://techbullion.com/dubai-daily-essentials-every-residents-and-expat-should-have-figured-out-in-2026",
-    "timestamp": "2026-08-03T08:47:13.467089+00:00",
-    "status": "rejected",
-    "content_hash": "6d5f1c9ab44eeb938e0da4d06d14603a",
-    "strict_hash": "6d5f1c9ab44eeb938e0da4d06d14603a",
-    "fuzzy_hash": "6a08f7eafd3feda3e80f9d1f1016a245",
-    "reason": "Оценка: Новость представляет собой общий справочный материал для новых жителей Дубая (парковка, молитвенные часы и т.п.), без конкретного инфоповода, даты или ссылки на официальный источник. Текст выглядит как типичный SEO-контент или личный блог, а не новость, и не соответствует формату оперативного новостного канала."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX1pqUUZvbXdxb1ZHTXZMcS1Zem56MkVwSXo1eXlWV2FSRmtDNG1NYUN3bDJkZndHdlE3OHg4VlpKVnNZdFBvRDlLdmNNQm1jTmdvNWN0dm44cFlDNE9xSFF4a3BkcHhvaktxSUtfOHBpbF85WlJMeGczSS1XVFE4STM5U0xMRGloaDFTS0d5X3ZaTGpiaUE?oc=5",
-    "timestamp": "2026-08-03T08:47:14.848053+00:00",
-    "status": "rejected",
-    "content_hash": "a40dff8efcc5c4ed23a10ea873830524",
-    "strict_hash": "a40dff8efcc5c4ed23a10ea873830524",
-    "fuzzy_hash": "d829acfb7468853734938407495c6fca",
-    "reason": "Cheap prefilter: слишком короткий текст (65 символов)"
-  },
-  {
-    "url": "https://whatson.ae/2026/08/this-is-the-dubai-staycation-youll-want-to-book",
-    "timestamp": "2026-08-03T09:01:08.332847+00:00",
-    "status": "rejected",
-    "content_hash": "30c40bbcb0189490436b1926862bd596",
-    "strict_hash": "30c40bbcb0189490436b1926862bd596",
-    "fuzzy_hash": "ed8534b98c96f5252703b1c2724d3cc8",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://whatson.ae/2026/08/award-winning-dubai-restaurants-with-summer-offers-you-dont-want-to-miss",
-    "timestamp": "2026-08-03T09:01:17.669497+00:00",
-    "status": "rejected",
-    "content_hash": "79b885c4b9ab2af875623653e223ed33",
-    "strict_hash": "79b885c4b9ab2af875623653e223ed33",
-    "fuzzy_hash": "0d0573a7955b63abb4ecdd8b2af8532c",
-    "reason": "**Оценка новости:**\nМатериал представляет собой анонс летних скидок и спецпредложений в ресторанах Дубая, основанный на премии What's On. Это явный рекламно-имиджевый контент (пресс-релиз), не несущий общественно значимой информации, а также не имеющий проверяемого первоисточника в виде официального URL (только ссылка на сам сайт-агрегатор). Новость не соответствует критериям полезности для русскоязычного жителя и нарушает правило 3 (рекламный характер) и правило 9 (непроверяемый источник)."
-  },
-  {
-    "url": "https://whatson.ae/2026/08/uae-weather-four-days-of-showers-are-forecast-from-monday",
-    "timestamp": "2026-08-03T09:01:27.040427+00:00",
-    "status": "rejected",
-    "content_hash": "32b86c1c13bc8492d637271302b2000b",
-    "strict_hash": "32b86c1c13bc8492d637271302b2000b",
-    "fuzzy_hash": "264e48b9016d3eae688621e75a9cdc58",
-    "reason": "Новость о прогнозе дождей в ОАЭ на предстоящую неделю соответствует региональной тематике, не содержит политики или рекламы, а также представляет практический интерес для русскоязычных жителей Дубая. Однако текст выглядит как перепечатка с сайта What's On с обрезанным содержанием и без явной ссылки на первоисточник (National Center of Meteorology), что затрудняет проверку достоверности. Кроме того, в контексте уже есть новость о погоде (пункт 5), но она касается транспорта, а не прогноза — дубликатом не является."
-  },
-  {
     "url": "https://whatson.ae/2026/08/watch-sheikh-mohammed-spotted-dining-at-popular-london-restaurant",
     "timestamp": "2026-08-03T12:26:25.451414+00:00",
     "status": "rejected",
@@ -857,5 +812,10 @@
     "strict_hash": "84ea7c604890b3c23c0bd3d1f78d1268",
     "fuzzy_hash": "e11ae2fccb83d291b79325b45e3a1d2f",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/wynn-al-marjan-island-ras-al-khaimah-resort-to-open-in-september-2027",
+    "timestamp": "2026-08-05T09:42:07.334970+00:00",
+    "status": "published"
   }
 ]
