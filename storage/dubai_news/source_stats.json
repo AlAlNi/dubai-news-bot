@@ -1,113 +1,5 @@
 [
   {
-    "url": "https://emirateswoman.com/16-homegrown-fashion-brands-in-the-uae-to-support",
-    "timestamp": "2026-08-03T15:36:54.167214+00:00",
-    "status": "rejected",
-    "content_hash": "2c21b9b6d7c1ad935db22030f730e337",
-    "strict_hash": "2c21b9b6d7c1ad935db22030f730e337",
-    "fuzzy_hash": "dd771451842756055ca8dbddd641bca7",
-    "reason": "Оценка: Новость представляет собой подборку локальных модных брендов ОАЭ, что соответствует региональной тематике, однако текст носит явно рекламно-обзорный характер (список брендов без общественно значимой новости) и не содержит проверяемых фактов, кроме ссылки на первоисточник. Это скорее редакционный материал для глянцевого журнала, чем новость для телеграм-канала."
-  },
-  {
-    "url": "https://emirateswoman.com/5-aesthetic-hair-ateliers-in-dubai-for-the-ultimate-glow-up-2026",
-    "timestamp": "2026-08-03T15:37:03.483063+00:00",
-    "status": "rejected",
-    "content_hash": "5acfb089f19552ff3837ad41dd3ab615",
-    "strict_hash": "5acfb089f19552ff3837ad41dd3ab615",
-    "fuzzy_hash": "faa38834f94464603dda37ea6f58ea14",
-    "reason": "Оценка: Новость носит явно рекламно-имиджевый характер (список салонов красоты с эстетическим уклоном), не содержит общественно значимой информации, а также не имеет проверяемого первоисточника с конкретными фактами, помимо ссылки на сам сайт-первоисточник. Это типичный пример контента для \"глянца\", а не для новостной ленты."
-  },
-  {
-    "url": "https://www.dubaichronicle.com/2026/08/03/dubai-population-now-nears-4-74-million",
-    "timestamp": "2026-08-03T15:37:22.776791+00:00",
-    "status": "rejected",
-    "content_hash": "d6db120c8e59bd9a1d949163a6965b79",
-    "strict_hash": "d6db120c8e59bd9a1d949163a6965b79",
-    "fuzzy_hash": "97486912e9d02fd8532df2b1a3603b0d",
-    "reason": "Оценка: Новость напрямую связана с Дубаем, содержит конкретные экономические данные и демографическую статистику, что интересно русскоязычным жителям. Текст не является рекламой, не касается политики и не нарушает ценности ОАЭ, однако источник указан как \"Dubai Chronicle\" без явного URL, что затрудняет проверку фактов."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/uae-to-revamp-crude-pricing-amid-sharp-market-fluctuations/articleshow/132816398.cms",
-    "timestamp": "2026-08-03T15:37:31.989959+00:00",
-    "status": "approved",
-    "content_hash": "ad116103db0144729cee5278411054d8",
-    "strict_hash": "ad116103db0144729cee5278411054d8",
-    "fuzzy_hash": "5ce496ccdcddb359fde2a36308005cd5",
-    "reason": "approved"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRDUyWGVTSlZZV0lFZ0VUZlljRnRRX0ROczlyNFJNTXhZTnktRDF6b0N4MlAtRkJmMWFwd3ZFelJ4Z2xiOEVXTGloa1pESWwzWUpybnRWOXoxTUdDVm5Fb2lUS19EbjRtX1RYR19hMWNsU2JUdkVxNE9FVlN6Vk1JYkhUXzJWa2s1YXloNEtGbVlLU3pSV1FQRGJVdjJwQU9zd193ajJPcGxRYjhNV1hUWkM3cXc2UW1DU2tCalJ30gHQAUFVX3lxTFBBVUdJR3NCRWJLc3FTempPaFV2c09XN1VXZXlQOGViRThqMTBqUTZwRWh4MjlnaHBxX3h2cnd4U3RSbWIwUXBGMWhMX1pnUklJdng3SlI0dFdBbHFNM18tNExwOUZwYzh2dU1HMm5WRlAzdHlNWTMwbUZLS3AzM2wwc0w5UWNCMXFuVmFQcndGQS1sZ1R5d0JzWUZJQXZ3Mm1Ma3VlbWxwUEJQdXF3LUQtdDhUSHRVeE9vX0FYT0ljQzN2R3dDN1FWUy04X3p5MEw?oc=5",
-    "timestamp": "2026-08-03T16:02:16.047302+00:00",
-    "status": "error",
-    "content_hash": "7a2db12821741e2b4e08b52f059a2cee",
-    "strict_hash": "7a2db12821741e2b4e08b52f059a2cee",
-    "fuzzy_hash": "34eeae876cb94c0804bf3702e5b0bf02",
-    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNzlUc01pT2dPQ3lJRWdDbUJ5TjBHVjhWUlI2ZGxLdFd3dUxfOVpRd2IzZVJEVHpCVzVaQkhNWDY4aWZaVUpLLXVsd1NEZjJrVzc1bW9GNzZucWV5b0tHVklMVWVWUmM4c05LNkw0aFFZS3ItS3M2Q0JiNWo1YVhVQV85bTFLbmRRc0UydWlLT0JSZ9IBmgFBVV95cUxPdHc3MG1Uc0xBSkdoMzlXZ1BucmsxSjdOTVpUYjgtVmxhS1dsTC16bGxxQ1QwR2ZlaGZwNEJlVjM5NEt0dUNYQUFFWkhkVk5xMmRnZ3hUTy1PLU9zZVRCQkpfakRacWJ6YzRRSTNHM1czUGRtVWxCUTRxV0gwRG9NdXkzMG1aNkRRUEY2WTFXX2pFOXNlNUI4VUdn?oc=5",
-    "timestamp": "2026-08-03T16:02:41.884852+00:00",
-    "status": "error",
-    "content_hash": "e135ef2419db9d7a86b18d87026e6c64",
-    "strict_hash": "e135ef2419db9d7a86b18d87026e6c64",
-    "fuzzy_hash": "6ac12bac4b4d73e820015d8fbd3de6ed",
-    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPc3RiY2lyT3YtUFlDcDFYZm1VTHQ1R1hmcFl1a00zM2xUWHlTRjFUZ1R5TjdkMjh3cC1NYTRiLXFIWVQyekE5MHVNc3VRLWxLVEVVd1dYNFUtQkNZaWhudWJMbFRzRk5fNDdLWlpQOEVSaFRrQWtSWk1KazdtbFhRMXpUdlhLSmswM194ZFpKZmY5SUdLT3k2TFUteS1wY3FueFF3dVhuWnB4Y21CZ005VklGbEVhSEYxRG9xYmgtVDJxdDdkcGlXSmtrQ0cxRGhzTENVbW9R0gHoAUFVX3lxTE1ENkhPSlp0UUF6aGdPOVV0QnQyYmZyb1FwYkgzTlZ0c25jQmZ0b1l4a3Q5S0stUWRhd1hIMTA4YWFTaDR1SF9TSjZ6NFVTZVBWWVB4TzNDQjE4ZHl2S3MzVk8yVFpVay1GOUQ1bjQ0SUtNYU96NU1iUzF3UE9BNlNzckR0STlvQ05tNU1yM3VKNVJMaFZDZ1ZGb1pqOElsNkVNTHBjcFhyb0s2YVNQcy1fTkUtNmpvc1RNT2tlcjBubzI4NEhVdFVJcHNVdk9lN2gtNHdrY01LTDl3OUpIc1F1by1xRUlxblM?oc=5",
-    "timestamp": "2026-08-03T16:02:42.939018+00:00",
-    "status": "rejected",
-    "content_hash": "e698a2c1795f331589904d8f21ce4ae9",
-    "strict_hash": "e698a2c1795f331589904d8f21ce4ae9",
-    "fuzzy_hash": "dd72c49011df487fb794e4a779785f89",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ja1pxck9iZDh3U0NxR0NnRk1VYWswQVBnWXk4OHlGU3dpV0dJakx1Rml2cWRBRG93cWNFUDBRNk5zb2FxN1QwdmNOSlQzYl81dlhwX1RDanoyY3lTby1BMEdLSEQwUkN3aHZKdUM0MkIyb1k?oc=5",
-    "timestamp": "2026-08-03T16:02:43.516869+00:00",
-    "status": "rejected",
-    "content_hash": "bbcba0611ee9ee971d0706cd235bcfd2",
-    "strict_hash": "bbcba0611ee9ee971d0706cd235bcfd2",
-    "fuzzy_hash": "e7f4c543af358b5bc4e928f4c19b96a0",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb2NBWGpnSG5HZWxSbUsyQVZkb0g3T25GSDFHYkJseFpjSkZhT0FJdnlLOHIzLUtvWGkwVThyU3MtTmF1SlZQcW13TzNzUFJia2NtRTR2RGFYbmlsM3pBY1VCaEMyV3ozWnFqd3dRdGtlalV0MUgwekNQVHBGN1ZZbG84a1RQV0dwUno3M2VRNkMzQjRwZUhtTnhhX0VMVEtaTHIxbFVQYWZPRlEzaF9V0gHCAUFVX3lxTE9lX3N4RHB2YnN5amdzYTV1NzAxODZidlk0OTNCNmJoRzNpckJhdzd2MnhzQkVoU25iaUdxUGstMzdxM1Y3OEJUTm9tRGt5ZDFkYTFJYVJpcm5hcmhBR0pITzhWOS1hMEprLU5iMVVPU3FiSHp0OHo4UkhzZmRZWXB0SHRtU09fVm9HZFdPUHpJdUttejd1MUZCS09adFhVeGpfNjk5azZsMnJTcU1WZ3cxdjRTYzdhWnZrLVM1cjdQZThR?oc=5",
-    "timestamp": "2026-08-03T16:02:45.162397+00:00",
-    "status": "rejected",
-    "content_hash": "0a3980998831f4f52c37baf8922e320d",
-    "strict_hash": "0a3980998831f4f52c37baf8922e320d",
-    "fuzzy_hash": "c797b5eed67aadadfc8ab7e3772eb966",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMHhrQURCaG9weWtZRzlkMXhIN1FrODNOaHE0WnBYLWN3UFNrQzU2a2g3UUNXdHlYeXh1UzVDd2VHUE10S2xXczIzYVgtUDI3bU9YVzIzc29URm51WE95c1FZRU5acHlDdC0weTBlWHhoZXVZWnQwZEpPVkVXa2NYM1p3eUoxdVRIRHNuZ1JkTUZzaTB4QVdIcXpmWC13TlNoRDUtVtIBtwFBVV95cUxQV3NTdXNxdVZDNXhHQVNmMHJxWG9wYUVKWTI2aDI5V0N0dDZQR21Xbm1QdVRieFNKcW5fUGlscmZLVUNMZTZwQVEwOXUtVHdvYXlTcW52WVRuUl9BR1lWb1FGU21Qd0VVMC1DOWhpZU1oOWk0cHVUTUZxT3Z6RTVLNTJIMzg0UWx1eXg4azlvVHM3ekw5YzFZZWlUUXdJWWtLYm1jd0g3dHlHQ2YwSDZHa0tSVmU1OWs?oc=5",
-    "timestamp": "2026-08-03T16:02:47.105206+00:00",
-    "status": "rejected",
-    "content_hash": "d7d516e67aa25c6a4c9292c09717f35d",
-    "strict_hash": "d7d516e67aa25c6a4c9292c09717f35d",
-    "fuzzy_hash": "7accf70a1a86d86216b6039a60bb7185",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://www.bollywoodhungama.com/news/bollywood/raj-thackeray-takes-swipe-at-vivek-oberoi-r-madhavan-over-living-in-dubai-despite-praising-india-why-live-in-dubai-if-you-love-india",
-    "timestamp": "2026-08-03T17:41:18.581596+00:00",
-    "status": "rejected",
-    "content_hash": "0191482b3989f37f8fd20bd8163e9452",
-    "strict_hash": "0191482b3989f37f8fd20bd8163e9452",
-    "fuzzy_hash": "4887a68cde43c7c8a42fc0701862cbc6",
-    "reason": "Оценка: Новость касается политического заявления индийского политика о знаменитостях, проживающих в Дубае, но основная тема — внутренняя индийская политика и конфликт, а не жизнь в ОАЭ. Связь с Дубаем лишь косвенная (место проживания актеров), что не соответствует критерию значимости для русскоязычной аудитории в Дубае. Также материал может быть воспринят как политически чувствительный."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYWtBcnRLMjRBRDAwRE0xdHpmdF9ZelB2MUltb3VSM19jQUd5b2oxeFAwaDdiNzhMeEc2ODNOQy1tNHFsUHpaNlg0bHVQRXJCN1FmYkJ0NmRPU1JFQ1Z0WkZLLUdUaTJnMVNCVG1IWjRWa2NmemFkUW1rWDF6S1BZWmFxakN4ZXdqMlJKazBB?oc=5",
-    "timestamp": "2026-08-03T17:41:21.604355+00:00",
-    "status": "rejected",
-    "content_hash": "a2423cf222814443124ae406e5fe6538",
-    "strict_hash": "a2423cf222814443124ae406e5fe6538",
-    "fuzzy_hash": "88287ea6eee10c14135d9b8de34a477e",
-    "reason": "Новость носит характер официального пресс-релиза о локальном общественном мероприятии, организованном полицией Дубая. Она не содержит значимой общественно-полезной информации для русскоязычных жителей, а также не имеет подтверждающего URL источника в предоставленном тексте, что делает её непригодной для публикации."
-  },
-  {
     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/uae-to-revamp-crude-pricing-amid-sharp-market-fluctuations/articleshow/132816398.cms",
     "timestamp": "2026-08-03T17:58:57.275870+00:00",
     "status": "published"
@@ -926,5 +818,10 @@
     "strict_hash": "e2bac46c7ff86d57912f2f81e606763e",
     "fuzzy_hash": "3375390661d229c0ef9b58773399a2c8",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/uae-commercial-property-market-records-significant-growth-with-rak-retail-prices-soaring-up-to-348",
+    "timestamp": "2026-08-05T17:49:26.112384+00:00",
+    "status": "published"
   }
 ]
