@@ -823,5 +823,32 @@
     "url": "https://propertynews.ae/uae/dubai/uae-commercial-property-market-records-significant-growth-with-rak-retail-prices-soaring-up-to-348",
     "timestamp": "2026-08-05T17:49:26.112384+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.moneycontrol.com/world/seven-explosions-in-20-minutes-dubai-s-jebel-ali-industrial-zone-reportedly-targeted-by-houthis-article-13994944.html",
+    "timestamp": "2026-08-05T18:04:13.483068+00:00",
+    "status": "rejected",
+    "content_hash": "c796e59a9d82cd432f13440d0f88ccbe",
+    "strict_hash": "c796e59a9d82cd432f13440d0f88ccbe",
+    "fuzzy_hash": "8e347d5cea7742c59cb098cb67b4a5dc",
+    "reason": "Оценка: Новость касается атаки на промышленную зону Джебель-Али в Дубае, что напрямую связано с регионом, однако тема носит ярко выраженный военно-политический характер (конфликт с хуситами), что нарушает правило №2. Кроме того, информация основана на непроверяемом источнике (иранское агентство Mehr) и социальных сетях, что не соответствует требованию о проверяемости фактов."
+  },
+  {
+    "url": "https://www.dailystar.co.uk/news/world-news/dubai-boom-jebel-ali-explosion-37514772",
+    "timestamp": "2026-08-05T18:04:16.133607+00:00",
+    "status": "rejected",
+    "content_hash": "bcdf2d66062f737db9f7146b22a5ab0d",
+    "strict_hash": "bcdf2d66062f737db9f7146b22a5ab0d",
+    "fuzzy_hash": "f3fa26f61bb814d9001eb5855142ad0e",
+    "reason": "**Оценка новости:**\nНовость о взрывах и пожаре в промышленной зоне Дубая имеет прямую связь с регионом и представляет общественный интерес для жителей. Однако текст содержит признаки кликбейта («tourist hotspot», «loud bangs», «huge s...»), неясен источник и масштаб происшествия, а также отсутствует проверяемый URL для подтверждения фактов. Кроме того, тема может быть чувствительной для имиджа ОАЭ, что требует осторожности."
+  },
+  {
+    "url": "https://www.timesnownews.com/world/middle-east/explosions-in-dubai-loud-blasts-shake-jebel-ali-smoke-videos-flood-social-media-article-155292440",
+    "timestamp": "2026-08-05T18:04:18.433817+00:00",
+    "status": "rejected",
+    "content_hash": "3502d229848ce4f6406fcf74e080ad40",
+    "strict_hash": "3502d229848ce4f6406fcf74e080ad40",
+    "fuzzy_hash": "6753f7939ff7d4c53cfb849768a7be5b",
+    "reason": "Оценка: Новость о взрывах в Джебель-Али напрямую связана с Дубаем, не является политической или рекламной, но вызывает серьезные сомнения в достоверности и естественности (типичный кликбейт с «взрывами» и «дымом» без подтверждения официальных источников). Отсутствует проверяемый URL, а формат напоминает паническую сводку без ссылки на власти, что нарушает правила 5 и 9."
   }
 ]
