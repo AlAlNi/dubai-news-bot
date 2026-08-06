@@ -999,5 +999,23 @@
     "url": "https://www.thenationalnews.com/news/uae/2026/08/05/overnight-fire-in-dubai-south-caused-by-workshop-incident-authorities-confirm",
     "timestamp": "2026-08-06T15:23:41.807597+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://techbullion.com/what-it-actually-takes-to-start-a-business-in-dubai-today",
+    "timestamp": "2026-08-06T23:48:46.583309+00:00",
+    "status": "rejected",
+    "content_hash": "164589cb25ca027ddffcac78978cf5fe",
+    "strict_hash": "164589cb25ca027ddffcac78978cf5fe",
+    "fuzzy_hash": "fe60cfa0b6666cc0084e45e5eed1072d",
+    "reason": "**Оценка:** Новость представляет собой рекламно-информационный материал о запуске бизнеса в Дубае с явным упоминанием конкретной зоны (Dubai South Business Hub Free Zone), что указывает на скрытую рекламу и отсутствие общественно значимой новостной ценности. Текст не содержит проверяемых фактов, а лишь общие рассуждения, что нарушает правила 3 и 9."
+  },
+  {
+    "url": "https://www.thenationalnews.com/business/property/2026/08/06/dubais-1bn-trump-tower-moves-forward-as-key-contract-issued",
+    "timestamp": "2026-08-06T23:48:53.373337+00:00",
+    "status": "approved",
+    "content_hash": "f4954f5139b3e85b5147b00e236eb02b",
+    "strict_hash": "f4954f5139b3e85b5147b00e236eb02b",
+    "fuzzy_hash": "f56a9da6c270a2f030789cc53fb166b7",
+    "reason": "approved"
   }
 ]
