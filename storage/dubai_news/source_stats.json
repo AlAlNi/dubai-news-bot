@@ -1048,5 +1048,23 @@
     "strict_hash": "c1b556ccd6a80192db6b079c37256274",
     "fuzzy_hash": "04cee0b40f6e487500c0cd5efd125b9d",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.newsx.com/world/7-blasts-in-20-minutes-who-is-behind-dubai-attack-vidoes-show-thick-black-smoke-257122",
+    "timestamp": "2026-08-06T01:26:10.389604+00:00",
+    "status": "rejected",
+    "content_hash": "ef6f649e47e9787821aaaaddf2a07354",
+    "strict_hash": "ef6f649e47e9787821aaaaddf2a07354",
+    "fuzzy_hash": "eeca3a4998cc4048f0c222310d31bd3b",
+    "reason": "**Оценка новости:**\nНовость о взрывах в Джебель-Али имеет прямую связь с Дубаем и явно не является рекламой или политическим материалом. Однако она содержит признаки кликбейта (заголовок с «7 Blasts In 20 Minutes» и «Who Is Behind Dubai Attack?»), а также ссылается на непроверенные видео из соцсетей без указания официального источника. Кроме того, тема взрывов может быть воспринята как тревожная и потенциально неуважительная к имиджу ОАЭ, а также дублирует ранее опубликованную новость о пожаре в Dubai South (похожий инцидент, но не точная копия). Достоверность фактов не подтверждена явным URL официального источника.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPME9RVDZWWFY4MWROSk1FYUtGaG1tbnkzaEpiTzFnRUVvc3FvRFoyMFlhT3I5RTQyTjE4Z1NqeXpuWGcxcndLNGJKbGVBckFVWUtpck11MmQzUHZSU2VhNlBfT08yMEk5Z3VCbG02ejdiS242VEJNMUVDSFpNeERmbFNLRzNGb1o0R1M1NUFZNkN5NDNnTHVnMnFVVFpTN3h5cXZlNFpn0gGmAUFVX3lxTE8wT1FUNlZYVjgxZE5KTUVhS0ZobW1ueTNoSmJPMWdFRW9zcW9EWjIwWWFPcjlFNDJOMThnU2p5em5YZzFyd0s0YkpsZUFyQVVZS2lyTXUyZDNQdlJTZWE2UF9PTzIwSTlndUJsbTZ6N2JLbjZUQk0xRUNIWk14RGZsU0tHM0ZvWjRHUzU1QVk2Q3k0M2dMdWcycVVUWlM3eHlxdmU0Wmc?oc=5",
+    "timestamp": "2026-08-06T01:26:20.234098+00:00",
+    "status": "approved",
+    "content_hash": "1d5960520427a337bd9844a2a2d1aa08",
+    "strict_hash": "1d5960520427a337bd9844a2a2d1aa08",
+    "fuzzy_hash": "95e2f951be4df6f53198f1398e82ee85",
+    "reason": "approved"
   }
 ]
