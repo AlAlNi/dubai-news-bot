@@ -1061,5 +1061,32 @@
     "strict_hash": "0c498655d7763a7faa20bb72e1c85e01",
     "fuzzy_hash": "38a9c2885211c136ce608308addba499",
     "reason": "approved"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/lucknow/arrests-in-lucknow-expose-bigger-dubai-to-india-gold-smuggling-network/articleshow/132969084.cms",
+    "timestamp": "2026-08-06T08:00:27.557588+00:00",
+    "status": "rejected",
+    "content_hash": "4d8b75c4bf9e92df685f1bcb16b77773",
+    "strict_hash": "4d8b75c4bf9e92df685f1bcb16b77773",
+    "fuzzy_hash": "8d26ab5f7c882076ef7af6a7780f12f2",
+    "reason": "Новость о задержании в Индии контрабандистов, связанных с Дубаем, имеет косвенное отношение к региону, но основная тема — криминальная хроника в Индии, а не жизнь Дубая или ОАЭ. Для русскоязычного жителя Дубая эта история не представляет прямой пользы или интереса, а также не имеет проверяемого источника в тексте."
+  },
+  {
+    "url": "https://www.straitstimes.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-tankers-in-red-sea-gulf-of-aden",
+    "timestamp": "2026-08-06T08:00:31.691658+00:00",
+    "status": "rejected",
+    "content_hash": "248ebe8571e57faf14356d32d6964e29",
+    "strict_hash": "248ebe8571e57faf14356d32d6964e29",
+    "fuzzy_hash": "c66dae097074f1f540a77e8e5c7ecef2",
+    "reason": "Новость касается атак хуситов на саудовские танкеры, что относится к военному конфликту и большой политике в регионе, но не имеет прямой связи с Дубаем или ОАЭ. Тема не соответствует критериям канала, так как не является локальной, полезной или интересной для русскоговорящих жителей Дубая, а также нарушает правило об исключении политики и конфликтов."
+  },
+  {
+    "url": "https://www.straitstimes.com/asia/yemens-houthis-say-they-attacked-saudi-oil-tankers-in-red-sea-gulf-of-aden",
+    "timestamp": "2026-08-06T08:00:35.298168+00:00",
+    "status": "rejected",
+    "content_hash": "31aea761d2caff79094293a169ef0f3e",
+    "strict_hash": "31aea761d2caff79094293a169ef0f3e",
+    "fuzzy_hash": "44d05df25d84f197604263f85cf0c52c",
+    "reason": "Оценка: Новость касается атак хуситов на саудовские танкеры в Красном море и Аденском заливе, что относится к региону GCC, но основная тема — военный конфликт и большая политика, что запрещено правилом №2. Также нет прямой связи с Дубаем или ОАЭ, а текст выглядит как сухая сводка с Reuters без локальной значимости для русскоязычного жителя Дубая."
   }
 ]
