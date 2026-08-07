@@ -882,5 +882,41 @@
     "strict_hash": "4983d4419e54b09ef9f7c4143e7e9c76",
     "fuzzy_hash": "cfc2975c980417910f8b97592c601a0b",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/sports/womens-t20-asia-cup-to-begin-on-august-28-in-dubai-india-pakistan-clash-on-september-5",
+    "timestamp": "2026-08-07T05:16:33.406449+00:00",
+    "status": "rejected",
+    "content_hash": "d7b389f5db0550f84d4e406eb2bee8fb",
+    "strict_hash": "d7b389f5db0550f84d4e406eb2bee8fb",
+    "fuzzy_hash": "c242a29aa6628a22ed96d27bd782b4eb",
+    "reason": "Оценка: Новость напрямую связана с Дубаем (турнир пройдёт в городе), не содержит политики или рекламы, источник указан (ANI/Cricinfo). Однако это точный дубликат уже опубликованной новости «Women's T20 Asia Cup to begin on August 28 in Dubai; India-Pakistan clash on September 5» — совпадает тема, даты и место проведения."
+  },
+  {
+    "url": "https://www.aninews.in/news/sports/cricket/womens-t20-asia-cup-to-begin-on-august-28-in-dubai-india-pakistan-clash-on-september-520260806220635",
+    "timestamp": "2026-08-07T05:16:35.528129+00:00",
+    "status": "rejected",
+    "content_hash": "044433c86f6c9c998ad889640fa793c9",
+    "strict_hash": "044433c86f6c9c998ad889640fa793c9",
+    "fuzzy_hash": "701b54637e1fdd92f54ea04bfbf3fbbe",
+    "reason": "Оценка: Новость напрямую связана с Дубаем (место проведения турнира), не содержит политики или рекламы, источник указан (ANI/Cricinfo). Однако это точная копия уже опубликованной новости (первый пункт контекста), что является явным дубликатом."
+  },
+  {
+    "url": "https://www.livemint.com/sports/cricket-news/womens-asia-cup-2026-schedule-dubai-to-host-india-vs-pakistan-clash-in-september-check-full-fixture-time-date-11786023488329.html",
+    "timestamp": "2026-08-07T05:16:37.819211+00:00",
+    "status": "rejected",
+    "content_hash": "103da8c807b4bdea3421ae4fd9b84601",
+    "strict_hash": "103da8c807b4bdea3421ae4fd9b84601",
+    "fuzzy_hash": "82cf2f8d92400b1af5686512c54606d0",
+    "reason": "Оценка: Новость о расписании Women's Asia Cup 2026 с матчем Индия-Пакистан в Дубае напрямую связана с регионом и представляет интерес для русскоязычной аудитории, следящей за спортивными событиями. Однако это явный дубликат уже опубликованной новости (пункт 1 контекста), где указаны те же даты и место проведения."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8yVk1Gc3lSNmdXYjNIaEYtLXpXc3RKSDBteUM0M0tVaHVMQkIxQnQtalNfRDBpeTZ2MVRFQ0RIeFp1emdNV2hMUE95aVIyUGdVcFFfOFY3bjBiMWJpMkhlTk9vQS1WNkNyaWVUQ3ZXWnZ0cjhhbC1tM1pn0gGCAUFVX3lxTFBlbjQ0NTBuWmlIak1iaXJrdFlpVHF3VEF2dHB0aEY1dG1oZ1VRYjA3RjVPczRKZU4wU09uaWRuZlVlakJEdVktVEJGQnkxM3p1M3U5c0RkV0IzSW5wS1RubGRETW5ua1B5RUlUR3BsTDVFcWNoYkhHOVItV3g4cWkxbmc?oc=5",
+    "timestamp": "2026-08-07T05:16:49.151902+00:00",
+    "status": "approved",
+    "content_hash": "666df635b160de70cbbd42c2acfe6301",
+    "strict_hash": "666df635b160de70cbbd42c2acfe6301",
+    "fuzzy_hash": "db0091717e1b936345f477c5d243aa76",
+    "reason": "approved"
   }
 ]
