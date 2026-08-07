@@ -1109,5 +1109,23 @@
     "strict_hash": "1e4fdb5b46f3f42a3924d5f52b3aab75",
     "fuzzy_hash": "087a8f245bee19ca9573e782bf15a367",
     "reason": "**Оценка новости:**\nМатериал является частью серии The National \"My Dubai Salary\", где жители Дубая рассказывают о своих доходах и карьерном пути. Это соответствует интересам русскоязычной аудитории, связан с регионом, не содержит политики или рекламы, а источник (thenationalnews.com) проверяем. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://www.theweek.in/news/middle-east/2026/08/07/how-dubais-property-sector-thrived-in-early-2026-320-residential-property-sales.html",
+    "timestamp": "2026-08-07T20:08:19.310338+00:00",
+    "status": "rejected",
+    "content_hash": "199eca102894cde4d4931e0a66b6bd63",
+    "strict_hash": "199eca102894cde4d4931e0a66b6bd63",
+    "fuzzy_hash": "be12b3f32e63dd9484f9f5c4c15658a7",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (рынок недвижимости), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Тема интересна русскоязычным жителям, особенно инвесторам. Однако текст обрывается на полуслове («...»), что вызывает сомнения в полноте и проверяемости источника — нет явного URL. Признаков ИИ-генерации не видно, но незавершённость и отсутствие ссылки на первоисточник делают публикацию рискованной.\n**Решение:**"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/08/07/dubai-resident-feels-weight-lifted-from-shoulders-after-pioneering-procedure-helps-her-shed-19kg",
+    "timestamp": "2026-08-07T20:08:26.894770+00:00",
+    "status": "approved",
+    "content_hash": "73fca1bea5e351f09e53b726409f7db4",
+    "strict_hash": "73fca1bea5e351f09e53b726409f7db4",
+    "fuzzy_hash": "1b84549aff38bfe0324da05ee847a298",
+    "reason": "approved"
   }
 ]
