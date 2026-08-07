@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://www.dailyexcelsior.com/indian-expat-killed-in-gas-cylinder-blast-in-dubai-car-showroom-report",
-    "timestamp": "2026-08-05T22:06:09.556951+00:00",
-    "status": "rejected",
-    "content_hash": "d464a19b0de598db0a7569846649ab41",
-    "strict_hash": "d464a19b0de598db0a7569846649ab41",
-    "fuzzy_hash": "99388abb8c2a284a054aaf3672690049",
-    "reason": "Оценка: Новость напрямую связана с Дубаем, не касается политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Однако она является точным дубликатом уже опубликованной новости о гибели индийца из Кералы при взрыве газового баллона в Дубае (контекст №1), с тем же содержанием и деталями."
-  },
-  {
-    "url": "https://www.prnewswire.co.uk/news-releases/mystere-elevates-luxury-weddings-across-the-gcc-through-fully-in-house-cinematic-production-302843613.html",
-    "timestamp": "2026-08-05T22:06:11.737976+00:00",
-    "status": "rejected",
-    "content_hash": "03e4162372e6da377e2988e4863f8acb",
-    "strict_hash": "03e4162372e6da377e2988e4863f8acb",
-    "fuzzy_hash": "3ea519533093fa0661126f7fc75897c4",
-    "reason": "Оценка: Новость представляет собой рекламный пресс-релиз о свадебной компании, без общественно значимой информации, явной связи с новостной повесткой Дубая (кроме факта основания в Дубае) и не содержит проверяемых фактов, интересных широкой аудитории. Это явный маркетинговый материал, а не новость."
-  },
-  {
-    "url": "https://www.deccanchronicle.com/world/explosions-major-fire-reported-at-dubais-jebel-ali-port-area-1976782",
-    "timestamp": "2026-08-05T22:06:14.776639+00:00",
-    "status": "rejected",
-    "content_hash": "b97c04cd4c754f9c8bc681cd16526fbd",
-    "strict_hash": "b97c04cd4c754f9c8bc681cd16526fbd",
-    "fuzzy_hash": "9315e10c384fe1b21b009a70ae8a84d3",
-    "reason": "Оценка: Новость о взрывах и пожаре в порту Джебель-Али напрямую связана с Дубаем и имеет высокую общественную значимость для жителей, однако она ссылается на иранский государственный канал Press TV и региональные источники без конкретных проверяемых URL, что вызывает сомнения в достоверности. Кроме того, тема может быть связана с региональной политической напряженностью, что требует осторожности. Учитывая отсутствие явного подтверждения от официальных властей ОАЭ и потенциальный политический подтекст, новость не соответствует критериям публикации."
-  },
-  {
-    "url": "https://www.tribuneindia.com/news/india/indian-expat-killed-in-gas-cylinder-blast-at-dubai-car-showroom-report",
-    "timestamp": "2026-08-05T22:06:17.098677+00:00",
-    "status": "rejected",
-    "content_hash": "5cff95fdf5ec77e8a2134d31739d8e81",
-    "strict_hash": "5cff95fdf5ec77e8a2134d31739d8e81",
-    "fuzzy_hash": "f867163e963c9c308e284adc5fc9b943",
-    "reason": "Оценка: Новость напрямую связана с Дубаем (взрыв на автомойке на Sheikh Zayed Road), не является политической или рекламной, содержит конкретные факты и ссылку на отчет. Однако она является точным дубликатом уже опубликованной новости о гибели индийца из Кералы в результате взрыва газового баллона в Дубае — совпадает суть, имя, возраст и обстоятельства."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdmlXQjRjOVpxSkZYRERrdXhtRDQzdVV5OW9JcnZqLUhyODZtek1hZURTQnBqME5ZYTRtX1lXU3dYb1ZXZ0ppNU5QR3VwT2lscEJoN0oxTWNqd255N25RSjJzRjBqVi1uWjkxbGp0d1pZRVNIdy1XTzVGTE5kbnZTWmROWUcwenE4?oc=5",
-    "timestamp": "2026-08-05T22:06:24.674831+00:00",
-    "status": "approved",
-    "content_hash": "d38e42b6d361f7ee9827c9ff8dafa7ec",
-    "strict_hash": "d38e42b6d361f7ee9827c9ff8dafa7ec",
-    "fuzzy_hash": "83350c487edc00949cbf9d5478345289",
-    "reason": "approved"
-  },
-  {
     "url": "https://timesofindia.indiatimes.com/world/middle-east/indian-expat-from-kerala-killed-in-dubai-gas-cylinder-blast-colleague-recalls-moments-before-explosion/articleshow/132911177.cms",
     "timestamp": "2026-08-05T23:10:20.137115+00:00",
     "status": "published"
@@ -1042,5 +997,10 @@
     "strict_hash": "cd9b14301e42189506988bf7b8776055",
     "fuzzy_hash": "4e5e12ef4835d5dbf35c95d2c63d003a",
     "reason": "Новость касается Дубая, но основная тема — международные санкции США и обвинения в финансировании IRGC, что относится к большой политике и конфликтам. Это нарушает правило 2, поэтому материал не подходит для публикации."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/08/07/inside-the-lavish-london-hotel-where-president-sheikh-mohamed-and-dubai-ruler-met-this-week",
+    "timestamp": "2026-08-07T22:47:12.444100+00:00",
+    "status": "published"
   }
 ]
