@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/artane-partners-advises-side-kicks-on-4m-strategic-investment-from-dubai-e-commerce-group/2398324",
-    "timestamp": "2026-08-05T04:42:19.737600+00:00",
-    "status": "rejected",
-    "content_hash": "af641fbea6e7f3d59c520c90c9190212",
-    "strict_hash": "af641fbea6e7f3d59c520c90c9190212",
-    "fuzzy_hash": "e0642022ee91ab40dcf638d5928f5898",
-    "reason": "Оценка: Новость носит явно рекламно-корпоративный характер (пресс-релиз о сделке с участием инвестконсультанта), не содержит общественно значимой информации для жителей Дубая, а упоминание эмирата носит формальный характер. Текст не соответствует критериям новостного канала."
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/2026/08/04/dubai-population-rebounds-after-dropping-by-61000-at-height-of-iran-war",
-    "timestamp": "2026-08-05T04:42:21.623808+00:00",
-    "status": "rejected",
-    "content_hash": "e906a17b6c69d8f736b9c543bb76442b",
-    "strict_hash": "e906a17b6c69d8f736b9c543bb76442b",
-    "fuzzy_hash": "c492d33b0364a40033650ec0147457bb",
-    "reason": "Оценка: Новость напрямую связана с Дубаем и демографической динамикой, не содержит политики, рекламы или неуважения к ОАЭ. Однако она является практически точным дубликатом уже опубликованной новости «Dubai population rebounds above pre-war levels» (AGBI) — та же тема, те же цифры и суть."
-  },
-  {
-    "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabads-global-cargo-network-expands-with-emirates-skycargos-taipei-hyderabad-dubai-freighter-service/article71305192.ece",
-    "timestamp": "2026-08-05T04:42:23.845160+00:00",
-    "status": "rejected",
-    "content_hash": "bd7390fb0630bac234603a6552ff6179",
-    "strict_hash": "bd7390fb0630bac234603a6552ff6179",
-    "fuzzy_hash": "546220964a415e92656e5a70b6ed5d65",
-    "reason": "Новость о запуске грузового рейса Emirates SkyCargo по маршруту Тайбэй-Хайдарабад-Дубай имеет прямое отношение к Дубаю (авиакомпания базируется в ОАЭ), не содержит политики или рекламы, а также не является дубликатом опубликованных материалов. Тема интересна русскоязычной аудитории, связанной с логистикой и бизнесом в регионе, источник (Emirates SkyCargo) проверяем."
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/news/new-updates/inside-r-madhavans-rs-125-crore-property-empire-actor-owns-lavish-homes-in-mumbai-chennai-and-dubai/articleshow/132862176.cms",
-    "timestamp": "2026-08-05T04:42:26.603733+00:00",
-    "status": "rejected",
-    "content_hash": "b632e42d4f47bcecf98da6fdfd6c6827",
-    "strict_hash": "b632e42d4f47bcecf98da6fdfd6c6827",
-    "fuzzy_hash": "beef80e329e33eb87c8fca333d48e716",
-    "reason": "Оценка: Новость о недвижимости индийского актёра Р. Мадхавана в Дубае имеет лишь косвенное отношение к региону (упоминание о владении недвижимостью в Дубае), но не содержит общественно значимой информации для русскоязычных жителей ОАЭ. Текст выглядит как развлекательный материал о личной жизни знаменитости, не имеющий практической ценности для аудитории канала, и не соответствует критериям полезности и интереса для местных жителей."
-  },
-  {
-    "url": "https://whatson.ae/2026/08/family-days-out-dubais-best-bakeries-and-more-whats-on-august-2026-is-out-now",
-    "timestamp": "2026-08-05T04:54:19.998374+00:00",
-    "status": "rejected",
-    "content_hash": "479e21b2f1e9e123489fa75421d95096",
-    "strict_hash": "479e21b2f1e9e123489fa75421d95096",
-    "fuzzy_hash": "a063664596437af9c6708496553ca508",
-    "reason": "Оценка: Новость является анонсом августовского выпуска журнала What's On, по сути это рекламный пресс-релиз без общественно значимой информации. Текст не содержит конкретных фактов, полезных для русскоязычного жителя Дубая, и выглядит как типичный промо-материал."
-  },
-  {
     "url": "https://whatson.ae/2026/08/wynn-al-marjan-island-ras-al-khaimah-resort-to-open-in-september-2027",
     "timestamp": "2026-08-05T07:31:46.602126+00:00",
     "status": "approved",
@@ -918,5 +873,10 @@
     "strict_hash": "666df635b160de70cbbd42c2acfe6301",
     "fuzzy_hash": "db0091717e1b936345f477c5d243aa76",
     "reason": "approved"
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/nri/migrate/indian-consulate-in-dubai-prioritises-tatkal-passport-backlog-aims-for-zero-pendency-before-independence-day/articleshow/133002873.cms",
+    "timestamp": "2026-08-07T05:46:39.577334+00:00",
+    "status": "published"
   }
 ]
