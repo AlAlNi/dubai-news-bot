@@ -911,5 +911,32 @@
     "strict_hash": "4dc1781d35f3fea860faa4564b0d011e",
     "fuzzy_hash": "ab79476a43378dc72aa70cec49baef06",
     "reason": "Оценка: Новость о travel-блогере, летящем первым классом из Дубая в Лондон, не является значимой или полезной для русскоязычных жителей Дубая, носит развлекательно-кликбейтный характер и не имеет общественной ценности. Связь с регионом лишь формальная (точка вылета), а источник (Hindustan Times) не является профильным для локальной аудитории."
+  },
+  {
+    "url": "https://www.timesofisrael.com/us-sanctions-dubai-crypto-exchange-for-aiding-irans-revolutionary-guards",
+    "timestamp": "2026-08-08T13:26:35.281364+00:00",
+    "status": "rejected",
+    "content_hash": "e21fbd32b01f026b90e5382898341a31",
+    "strict_hash": "e21fbd32b01f026b90e5382898341a31",
+    "fuzzy_hash": "122573414c0010741ad2f20870d68068",
+    "reason": "Оценка: Новость напрямую связана с Дубаем (санкции США против местной криптобиржи), но основная тема — международные санкции и военная структура Ирана, что относится к большой политике и конфликтам. Это не соответствует правилу 2 и может быть чувствительной темой для региона."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSllidkJqMXJHeGZ0cThBNXpDMHJyTWJRdTQtT3kya2h3V3hKZWIyMWwteFo0NmwzcXctZWY1NkUydGF4ZW9FMFBqU3ByNjFGb2VoYUQtd0pkWDBjQ1JMSHZiWFBBZUlLWmtLZGRRcGRDWWZRaVhpanJ3Rm9ZcDllck03VmFfbzBkbFNkaFJEa05kek9KT1pkcTlHQ1NRVEhRazd1dDItd0xTeFd6Ync?oc=5",
+    "timestamp": "2026-08-08T13:26:38.060861+00:00",
+    "status": "rejected",
+    "content_hash": "7381d468172be2f972ff32c81ca78d80",
+    "strict_hash": "7381d468172be2f972ff32c81ca78d80",
+    "fuzzy_hash": "42669ba65c9419b3432a3b3f2e38afd2",
+    "reason": "Новость касается экстрадиции ирландского гражданина, связанной с Дубаем, но основная тема — международная полицейская операция и криминальная история, что не является локальной новостью для русскоязычного жителя Дубая. Текст крайне короткий, без проверяемых деталей и ссылок на официальные источники, что делает его малопригодным для публикации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUDlsdVFFajd1aHFOUS1VVlJ2MTNKaVl5V2NYRkExSGJCTEZGQVFQSnVVVDBIV0pMMkh5SmdzMVBnMEszbXdibFUyTGhXTG5admlVNHpDVVFZb1ZabTRhTmZ3VTdTd2hhVUxnazNldkRYNWx2SlFoQTFITFdqUlNEcG40VVR2UmtJT2dYMnNNRVZWZ3lLclhtekhYZUNieXE3VnVuT3FHWGdDN3E1YVc1MlRaTFpGOWtpeXVCVTNYN0lFY1dYUUE?oc=5",
+    "timestamp": "2026-08-08T13:26:40.009391+00:00",
+    "status": "rejected",
+    "content_hash": "3b33753a8ac6a63afec0df089bcaae57",
+    "strict_hash": "3b33753a8ac6a63afec0df089bcaae57",
+    "fuzzy_hash": "50539904d5866d96b918bde428998063",
+    "reason": "Оценка: Новость напрямую связана с Дубаем (санкции против местной криптобиржи), но основная тема — международные санкции и обвинения в связях с иранским Корпусом стражей исламской революции, что относится к большой политике и конфликтам. Это не соответствует правилу 2 и может быть чувствительной темой для региона."
   }
 ]
