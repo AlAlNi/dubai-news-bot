@@ -912,5 +912,41 @@
     "strict_hash": "7b0c9166647a4f516e69d3e89ef4f757",
     "fuzzy_hash": "3a0f0c7791d8dc39d0aad7839e275ec6",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/ai-construction-platform-preckon-announces-uae-expansion-following-launch-event-in-dubai",
+    "timestamp": "2026-08-08T02:27:51.379549+00:00",
+    "status": "rejected",
+    "content_hash": "4472b5d3d363b8a18591082aa9aae3e7",
+    "strict_hash": "4472b5d3d363b8a18591082aa9aae3e7",
+    "fuzzy_hash": "9c3fbf02a10ccf688d0ab40d3bfe7082",
+    "reason": "Оценка: Новость носит явный рекламно-пресс-релизный характер (VMPL, анонс запуска продукта), не содержит общественно значимой информации для русскоязычных жителей Дубая, а её основная ценность — продвижение коммерческой платформы. Связь с регионом формальная (место проведения мероприятия), но отсутствует новостная ценность."
+  },
+  {
+    "url": "https://www.aninews.in/news/business/ai-construction-platform-preckon-announces-uae-expansion-following-launch-event-in-dubai20260807190044",
+    "timestamp": "2026-08-08T02:27:53.611384+00:00",
+    "status": "rejected",
+    "content_hash": "a519979c1e2ee7141eb6c6efd4ddb13d",
+    "strict_hash": "a519979c1e2ee7141eb6c6efd4ddb13d",
+    "fuzzy_hash": "99651611aefda971f61ed8f7687c727a",
+    "reason": "**Оценка новости:**\nМатериал выглядит как пресс-релиз о запуске AI-платформы, где основная новость — это коммерческое расширение компании, а не общественно значимое событие для русскоязычных жителей Дубая. Отсутствует явная польза для аудитории, а текст носит рекламный характер."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/bengaluru/if-you-are-men-find-them-dubai-based-man-challenges-karnataka-police-over-25-bangladeshis/articleshow/133034527.cms",
+    "timestamp": "2026-08-08T02:27:55.751649+00:00",
+    "status": "rejected",
+    "content_hash": "90e742ccd4e241192434a94a1cc37706",
+    "strict_hash": "90e742ccd4e241192434a94a1cc37706",
+    "fuzzy_hash": "b57513b7ebecf9b0be60cdad5d38007c",
+    "reason": "Новость о вызове полиции Карнатаки человеком из Дубая не имеет прямой связи с жизнью в ОАЭ, а её основная тема — индийская региональная политика и конфликт с правоохранительными органами, что нарушает правила 1 и 2. Кроме того, текст обрывается на полуслове и не содержит проверяемого URL источника, что делает его недостоверным для публикации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcUpUblZVWjVPaXdVNUJrVWpkNWpDZ3hsb0w4Ni0yY3JOZE5jUHJMQjE2Y3VaSHRjNEFOY0pFRVA3OHBKeWVuVkJNM2ljWEZ6SWJuTWhsRE1jZTlKRmlXcWRLX2ZHOVMxRUN2Y2xsNmhWcDZUNGt1ZkFLMVF4bWpaaTFmLS1ZdFMyTDV1SHRzZXBHTmVCdExUb2N6aFpWVlE?oc=5",
+    "timestamp": "2026-08-08T02:28:03.922257+00:00",
+    "status": "approved",
+    "content_hash": "ab7fb4c0f859fcca981016a124b0399e",
+    "strict_hash": "ab7fb4c0f859fcca981016a124b0399e",
+    "fuzzy_hash": "f58b0f492de94d6f8a2ccf3dc5b83956",
+    "reason": "approved"
   }
 ]
