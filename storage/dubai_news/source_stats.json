@@ -938,5 +938,50 @@
     "strict_hash": "3b33753a8ac6a63afec0df089bcaae57",
     "fuzzy_hash": "50539904d5866d96b918bde428998063",
     "reason": "Оценка: Новость напрямую связана с Дубаем (санкции против местной криптобиржи), но основная тема — международные санкции и обвинения в связях с иранским Корпусом стражей исламской революции, что относится к большой политике и конфликтам. Это не соответствует правилу 2 и может быть чувствительной темой для региона."
+  },
+  {
+    "url": "https://www.timesnownews.com/world/us/us-news/us-sanctions-dubai-based-crypto-exchange-linked-to-irans-irgc-alleges-4-billion-evasion-article-155383577",
+    "timestamp": "2026-08-08T14:06:42.172184+00:00",
+    "status": "rejected",
+    "content_hash": "1c764edbaa0940eea778558129955400",
+    "strict_hash": "1c764edbaa0940eea778558129955400",
+    "fuzzy_hash": "b172b41e90d0b48985821b28e0869cb6",
+    "reason": "Новость касается Дубая (санкции против криптобиржи, связанной с регионом), но основная тема — международные санкции США и обвинения в связях с IRGC, что относится к большой политике и конфликтам. Это не соответствует правилу 2 и может быть чувствительной темой для ОАЭ."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRXd0Q1BtaU02LTFDOUh3ZkxveTJEWmxvSW92N0NTV3NBWEJuSjZxU1RrX1NMVVVPVi03SmlueHU2bW1Qel9hMm1kZWVHemFmRWExNExnVkVpQ0hMZldLdFN6eC1NcXptaUFjUU1wSjJtWmpmTlp0VU1tc3dZSE9uUU9rcDk2Ri1nNExIdXhPbVJiOVk1UzlDeUJicENpVGJKNDl4Z3N0a2lvNThqWk4wdTVkajlVR3UxcVFmUVpaTkdETUdyMS1VY01td3dlbDQ?oc=5",
+    "timestamp": "2026-08-08T14:06:45.349997+00:00",
+    "status": "rejected",
+    "content_hash": "4c2272574d9b31e0a4d86d10b3bc93e7",
+    "strict_hash": "4c2272574d9b31e0a4d86d10b3bc93e7",
+    "fuzzy_hash": "c26f9556ac79ddd5cd4c25a669975c66",
+    "reason": "Оценка: Новость касается экстрадиции Дэниела Кинахана в Дубай, что имеет прямую связь с ОАЭ, однако основная тема — международная криминальная политика и правовые разбирательства, что не соответствует формату новостного канала о жизни в Дубае. Кроме того, отсутствует проверяемый URL источника, а тема может быть чувствительной для имиджа региона."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFlvaktPM3pWNkNOc08tckpzNzBCa0ZFMzU0TlVZYnktdnNuZnk0ckdzUGNWYjZRamNMTWhrS19rZVFaRUp3S3QwM1VFMzRHUmRLQ09xdnpVWm5qcThDdFoxRTBiRzllYWY3OUNUUmRPdm9pQ3V2UW9KaDVhQjdsSGF5T3JkVE41MHRaODJMMGlkSWtYejZUTDBYT25DWnF3dnBmWVR1RE9mNFpZLTJVOHNR?oc=5",
+    "timestamp": "2026-08-08T14:06:47.911892+00:00",
+    "status": "rejected",
+    "content_hash": "0300ae9c8ec09e3263b60897e590b40c",
+    "strict_hash": "0300ae9c8ec09e3263b60897e590b40c",
+    "fuzzy_hash": "7259266fe0f579b9e802a977402236ef",
+    "reason": "Новость об ирландском правительственном самолёте, летящем в Дубай для экстрадиции Дэниела Кинахана, связана с Дубаем лишь косвенно (как пункт назначения), но основная тема — международная криминальная экстрадиция и политические аспекты, что не соответствует критерию «связь с регионом» для местного новостного канала. Кроме того, тема может затрагивать чувствительные вопросы правопорядка и международных отношений, что не подходит для формата канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50RnRMb0VMLUVKXzlYNENJdkJ4dk9SQlZZQUd4VTN0QUxPQVNfOWFHVlg2QVZlSmt3cnRrMW00ekFfeGVHbEdWYzVkNE1BLWhSR0ROV0lHaTZzdXFCbUU3OHBiUVhnbnlCY1JGbUgyNWpidHVwcGZlNm5R0gGCAUFVX3lxTE1fYXFqYUdBWjlHSmw5bmNCU0ItOWE0Z1hmMGxNLUotOWhaWlVWeFlPV0xKLVkybzFJa1N4cWgxR3N1dU8wY293ZUwzVDBzdzZxZnZ4NnJGSU00SENmUXFITEE0YkI3dngzTnBXZHl1cUVmaXdONTVMckdwd2hIVlU0N3c?oc=5",
+    "timestamp": "2026-08-08T14:06:48.367135+00:00",
+    "status": "rejected",
+    "content_hash": "cceeb2114de8afcd1d862fcdcc59ac6e",
+    "strict_hash": "cceeb2114de8afcd1d862fcdcc59ac6e",
+    "fuzzy_hash": "f8428b2e82554f4836e51d14d8274044",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRkZnLWJPR1RCWE5WN3JkM3NGLVVEcXpIazU3V3pmTmtNMUN2YkxuemlTWHZienctQzBKazBRdGJBNF8zME9yeXRHNzZNYWtwMHBjOXI5ZUtxS1ZXVXFPc2V2aktBdDlFVEpBRmFVZXVOMlZLcWZGS1JSUGxKXy1FYy1GWWlwcVlFcTJHdW5BOU1QMG9WdXVzUmplQXVDVlhKWFVFekZRSHJQVm1acVFCZVNrWkJMUXM?oc=5",
+    "timestamp": "2026-08-08T14:06:50.156851+00:00",
+    "status": "rejected",
+    "content_hash": "013aa1f0173da92a71a13e90c72820c1",
+    "strict_hash": "013aa1f0173da92a71a13e90c72820c1",
+    "fuzzy_hash": "3e320d557786b6ccfc30f86d3bc8e4ef",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
