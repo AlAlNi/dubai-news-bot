@@ -992,5 +992,23 @@
     "strict_hash": "0e13f4c8c0f4d837a9e3d673d8287d3a",
     "fuzzy_hash": "eb282cca92e71721613cfbd1ae0f8002",
     "reason": "Новость касается экстрадиции из Дубая, что имеет прямую связь с регионом, но основная тема — международная криминальная история и политические аспекты, что не соответствует формату канала. Текст крайне короткий, без проверяемых деталей и ссылок, выглядит как обрывок ленты новостей, а не полноценная публикация."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2tmcTVrVGVMaXRXQnBJaEFCRW9rcHVJTTJpcTI5LVdmdm5IQWdnVURIdWo5LWpKYnVPWHVpVVBOREp1NkxEQ3YzRFZfRm1qd0VMQ1VNTFA1Q2ZCR0ZkMGtRQkVCc0tSMDJpajA1eldmbDNCSm81Y3IyZzZDNWhhdGxEV2JRQ2pWdDloSUZpd2s5eUtPWFc3RTBBRWhDcE5EZi1zQllxR0dKMko2VFpUZDNQVHJOMVBJ?oc=5",
+    "timestamp": "2026-08-08T14:58:19.663385+00:00",
+    "status": "rejected",
+    "content_hash": "6b09470ade4822c1a65c4027da7249e7",
+    "strict_hash": "6b09470ade4822c1a65c4027da7249e7",
+    "fuzzy_hash": "b2f0b6f0372588e34d92703b3437d45b",
+    "reason": "Новость касается Дубая (прибытие самолёта для экстрадиции), но основная тема — международная криминальная история и политические последствия, что не соответствует формату локального новостного канала и может быть воспринято как чувствительная тема, связанная с репутацией ОАЭ. Кроме того, текст крайне короткий и не содержит проверяемых деталей, кроме заголовка."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOd3pLWDFhWUNWQUp1WG9iaW82UXEtczF4XzJEaGpCZ3hOT0d1RFI2aDdYYmJGeUhPZDJzbl9ncUFscXJBZXpCOUh2bDZqM0V6amJSZXNOblcyUTNRektqQXpmNFk1dU5fWmtINkQxVXZ2Y0V5ZnM2dklvUl9rY2stMDdhbHpsS1E0YUJjcVRERXhzeFFSMFhaU2V6d3FUSHF4MmlWSEhSWlo4VHJRMjlWNDdPN2x2SkJjWFVsRk5mdnNSQUJfcjNEa3I3UjhpbE9Q?oc=5",
+    "timestamp": "2026-08-08T14:58:28.012192+00:00",
+    "status": "approved",
+    "content_hash": "d853728af300c12d4501f42252a6dd1d",
+    "strict_hash": "d853728af300c12d4501f42252a6dd1d",
+    "fuzzy_hash": "2816922d3bb6c1f0234f4c5848999fe3",
+    "reason": "approved"
   }
 ]
