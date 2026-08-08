@@ -983,5 +983,14 @@
     "strict_hash": "013aa1f0173da92a71a13e90c72820c1",
     "fuzzy_hash": "3e320d557786b6ccfc30f86d3bc8e4ef",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQXBsZ1JWcDlBMWpVb2FXV1ptYVpoT00wRmhBMU1ZUjJMejlLcmVGOWEwR2VKY21qQ0hiUlgwWXhjZl9BQ1J1YkJYdDdETVUtQloxQ2tLdGVaTkxBNDVINnFCd2dSbkxJVWhzWUZVTVp1Nlc4ODc2WUdSX083Rm1GTTdLZTRiWDItWHFESzlySDkxVnprcnE3N1NXd203RzlsMFpaS0JYY1dzcmc?oc=5",
+    "timestamp": "2026-08-08T14:23:38.526847+00:00",
+    "status": "rejected",
+    "content_hash": "0e13f4c8c0f4d837a9e3d673d8287d3a",
+    "strict_hash": "0e13f4c8c0f4d837a9e3d673d8287d3a",
+    "fuzzy_hash": "eb282cca92e71721613cfbd1ae0f8002",
+    "reason": "Новость касается экстрадиции из Дубая, что имеет прямую связь с регионом, но основная тема — международная криминальная история и политические аспекты, что не соответствует формату канала. Текст крайне короткий, без проверяемых деталей и ссылок, выглядит как обрывок ленты новостей, а не полноценная публикация."
   }
 ]
