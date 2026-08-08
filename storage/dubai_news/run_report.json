@@ -1,78 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-08-02T17:31:14.613775+00:00",
-    "finished_at": "2026-08-02T17:31:20.748957+00:00",
-    "duration_seconds": 6.135,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 0,
-      "rejected": 0,
-      "approved": 0,
-      "deepseek_calls": 0,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 3,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-02",
-      "daily": {
-        "published_per_day": {
-          "value": 1,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 68.0,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "whatson.ae",
-            "events": 5,
-            "reject_rate": 80.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 45,
-            "reject_rate": 71.11,
-            "duplicate_rate": 13.33
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-08-02T17:52:17.765245+00:00",
     "finished_at": "2026-08-02T17:53:05.633498+00:00",
     "duration_seconds": 47.868,
@@ -18000,6 +17928,84 @@
             "events": 11,
             "reject_rate": 72.73,
             "duplicate_rate": 27.27
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-08-08T12:23:37.867858+00:00",
+    "finished_at": "2026-08-08T12:24:32.876567+00:00",
+    "duration_seconds": 55.009,
+    "success": false,
+    "counters": {
+      "attempts_made": 5,
+      "fetched": 3,
+      "rejected": 3,
+      "approved": 0,
+      "deepseek_calls": 3,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 0,
+      "google_rss_fetches": 2,
+      "reserve_fetches": 5,
+      "rss_fetches": 3,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-08-08",
+      "daily": {
+        "published_per_day": {
+          "value": 2,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 77.27,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "timesofindia.indiatimes.com",
+            "events": 5,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 45,
+            "reject_rate": 84.44,
+            "duplicate_rate": 8.89
+          },
+          {
+            "source": "whatson.ae",
+            "events": 12,
+            "reject_rate": 75.0,
+            "duplicate_rate": 33.33
           }
         ],
         "add_sources_ab_test_7d": [
