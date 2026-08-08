@@ -1002,5 +1002,14 @@
     "strict_hash": "dc966c99f9a98915f1900924bde8078b",
     "fuzzy_hash": "b42b2c5a0352a276dfd191de29d86c1d",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/the-westin-dubai-mina-seyahi-review-two-resorts-one-booking-and-a-waterpark-your-kids-wont-leave",
+    "timestamp": "2026-08-08T04:03:57.861515+00:00",
+    "status": "rejected",
+    "content_hash": "edcea3dd169f013e3ada9eaf696599e3",
+    "strict_hash": "edcea3dd169f013e3ada9eaf696599e3",
+    "fuzzy_hash": "912c18f83e233d00e5bf7740dce8e325",
+    "reason": "Этот материал — рекламный обзор отеля (The Westin Dubai Mina Seyahi), написанный в формате личного впечатления и явно направленный на продвижение курорта. Он не содержит общественно значимой новости, а является типичным пресс-релизом или спонсируемой статьей, что нарушает правило 3."
   }
 ]
