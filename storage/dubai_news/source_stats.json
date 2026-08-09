@@ -1182,5 +1182,41 @@
     "url": "https://www.hindustantimes.com/trending/indian-woman-loses-gold-bracelet-at-dubai-mall-gets-it-back-thanks-to-cleaning-staff-dubai-you-have-my-heart-101786188319623.html",
     "timestamp": "2026-08-09T02:21:14.537483+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.independent.co.uk/news/world/crime/dubai-daniel-kinahan-extradition-ireland-government-b3029753.html",
+    "timestamp": "2026-08-09T02:34:51.648405+00:00",
+    "status": "rejected",
+    "content_hash": "06440d0e00462297c7daa546647e6070",
+    "strict_hash": "06440d0e00462297c7daa546647e6070",
+    "fuzzy_hash": "b0b55fc0ef64f6106a0c4230987f754b",
+    "reason": "Новость об экстрадиции ирландского криминального авторитета из Дубая не соответствует тематике канала: это международная криминальная хроника, а не локальная новость, полезная русскоязычным жителям. Тема не связана с повседневной жизнью эмирата, не является service-update и может нести репутационные риски."
+  },
+  {
+    "url": "https://www.lmfm.ie/news/lmfm-news/government-jet-departs-for-dubai-as-operation-to-extradite-daniel-kinahan-gets-underway",
+    "timestamp": "2026-08-09T02:34:54.253442+00:00",
+    "status": "rejected",
+    "content_hash": "9f91bc4aa9a9029368a5b1a123a8e65b",
+    "strict_hash": "9f91bc4aa9a9029368a5b1a123a8e65b",
+    "fuzzy_hash": "6160541c5f2642f8bf07b72941066afe",
+    "reason": "Новость касается экстрадиции международного преступника из Дубая, что напрямую связано с ОАЭ и представляет интерес для русскоязычных жителей, следящих за криминальной хроникой региона. Однако тема связана с организованной преступностью и международной операцией, что может быть воспринято как чувствительное для имиджа ОАЭ, а также не имеет явной общественно-полезной или сервисной ценности для повседневной жизни."
+  },
+  {
+    "url": "https://www.breakingnews.ie/ireland/irish-government-jet-on-its-way-to-dubai-for-daniel-kinahan-extradition-1937670.html",
+    "timestamp": "2026-08-09T02:34:56.774458+00:00",
+    "status": "rejected",
+    "content_hash": "492e2a59f1b78cf65afd210e2b8aed5e",
+    "strict_hash": "492e2a59f1b78cf65afd210e2b8aed5e",
+    "fuzzy_hash": "ec9afee97a8a0a01dd5a20602dad0a50",
+    "reason": "Оценка: Новость касается экстрадиции в Дубай, что связано с ОАЭ, но основная тема — криминальная хроника и международная полицейская операция, что не является общественно значимой или полезной для русскоязычного жителя Дубая. Также отсутствует проверяемый URL источника, а тема может быть воспринята как чувствительная для имиджа ОАЭ."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcFZrQ0ZRaS1PMDlkMEkxU25HdElWSElpOEpFLWg2TzJ4NXJoRWZYLVR5V3RpSFVtVFBmUTNCZ3NtSU5fMGpnaU5CNEU4R09jdmRaYTh5ejFVWmZLWFNqU3BlOUVodjVEcFhVZkhKRzRKV2VEWWFUcjdKekhPNGZRMGlnQzR5NzBuS09xQg?oc=5",
+    "timestamp": "2026-08-09T02:35:01.040031+00:00",
+    "status": "rejected",
+    "content_hash": "80ee567686a9c0b02e56eb9c6c18e63d",
+    "strict_hash": "80ee567686a9c0b02e56eb9c6c18e63d",
+    "fuzzy_hash": "a246d482d31d32d630590fc3a4f3ee4d",
+    "reason": "**Оценка новости:**\nНовость о выпуске четвёртого потока программы «Sawaed Al Aman» полицией Дубая имеет прямую связь с регионом и не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст крайне короткий, без деталей и ссылки на конкретный URL источника (только домен wam.ae), что затрудняет проверку достоверности и полезности для русскоязычной аудитории. Кроме того, новость не представляет очевидного интереса для жителей Дубая (это внутреннее событие полиции, не влияющее на повседневную жизнь).\n**Решение:**"
   }
 ]
