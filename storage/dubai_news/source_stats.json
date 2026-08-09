@@ -926,5 +926,23 @@
     "strict_hash": "a300ab2c616d3f98f540efa7445e4735",
     "fuzzy_hash": "bf57933db5bff884b14bc9ba2d09f79c",
     "reason": "Новость о новом мосте на Al Qudra Road напрямую связана с Дубаем и инфраструктурой, что интересно и полезно русскоязычным жителям. Однако она является явным дубликатом уже опубликованной новости №2 (RTA Opens 700-Metre, 4-Lane Bridge at Intersection of Al Qudra Road...) и №3 (RTA opens new 260m tunnel...), так как описывает то же самое событие с теми же деталями."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/dubai-it-award-nominations-are-open-heres-everything-you-need-to-know",
+    "timestamp": "2026-08-09T19:24:25.704124+00:00",
+    "status": "rejected",
+    "content_hash": "60b56be4d0d4fdc6f93ae1da73fc2b6a",
+    "strict_hash": "60b56be4d0d4fdc6f93ae1da73fc2b6a",
+    "fuzzy_hash": "4e2f043954c6d5de86af356e938e042a",
+    "reason": "**Оценка новости:**\nНовость о запуске премии Dubai-it Award имеет прямую связь с Дубаем и может быть интересна русскоязычным жителям, следящим за местными инициативами. Однако текст выглядит как анонс/пресс-релиз без явной общественно значимой новости, а также отсутствует проверяемый URL источника (только ссылка на What's On, но без конкретной страницы). Дубликатов среди опубликованных нет.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcDRHWTFlSW5ITTQzenBxbHBCd3dEeWhyLVJteVBzaTBFZVBuRjc0a253d3pCTDFLUFBkWkg4d05rc2ZvbzRNOHVsaHdrdjVBcHhEMDQ0MmJPU19IdWwtbXNFNjNodjFKaXdEUnJPejdDNl9yS0FLazZSRm5MTVNZOW5jSWhDS211eU5lOC1YSHRZdVJKbHc?oc=5",
+    "timestamp": "2026-08-09T19:24:46.460152+00:00",
+    "status": "rejected",
+    "content_hash": "5a7597b378b457b28269514dac3ad4ce",
+    "strict_hash": "5a7597b378b457b28269514dac3ad4ce",
+    "fuzzy_hash": "4e524244a2ddba616bfd3c3ee9f9ac76",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
   }
 ]
