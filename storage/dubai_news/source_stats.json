@@ -920,5 +920,68 @@
     "strict_hash": "84730b0d71295ccfcf6826f10bfdb6ca",
     "fuzzy_hash": "649b342421200ab8308f57f5ea1ff870",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.cp24.com/news/world/2026/08/09/uae-extradites-suspected-cartel-boss-to-ireland",
+    "timestamp": "2026-08-10T00:54:29.587441+00:00",
+    "status": "rejected",
+    "content_hash": "ccc8aa1e8049de1dc502e9447901e1e8",
+    "strict_hash": "ccc8aa1e8049de1dc502e9447901e1e8",
+    "fuzzy_hash": "5c42ee52b3b4a6f3727b045f210ed8ce",
+    "reason": "Оценка: Новость является дубликатом уже опубликованного материала «UAE extradites alleged Irish crime gang boss Kinahan» — тот же субъект, та же тема экстрадиции, лишь незначительно изменен заголовок. Публикация нецелесообразна."
+  },
+  {
+    "url": "https://www.abc.net.au/news/2026-08-09/daniel-joseph-kinahan-alleged-crime-boss-extradited-to-ireland-/107014878",
+    "timestamp": "2026-08-10T00:54:32.053079+00:00",
+    "status": "rejected",
+    "content_hash": "2dbebf1123c360245eb08a3009c276d3",
+    "strict_hash": "2dbebf1123c360245eb08a3009c276d3",
+    "fuzzy_hash": "52251176d077164c347d47498ae052ad",
+    "reason": "Оценка: Новость напрямую связана с Дубаем и ОАЭ (арест и экстрадиция из эмирата), не является политическим конфликтом или рекламой, не нарушает ценности UAE, источник — государственное информационное агентство (проверяемый URL). Однако это точный дубликат уже опубликованной новости «UAE extradites alleged Irish crime gang boss Kinahan» — та же тема, те же факты, только более развёрнутый текст."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/news/new-updates/took-5-minutes-woman-compares-dubai-hospital-visit-with-6-hour-uk-wait/articleshow/133067426.cms",
+    "timestamp": "2026-08-10T00:54:36.009860+00:00",
+    "status": "rejected",
+    "content_hash": "41cd5533f24828a530ff29657a43ff6b",
+    "strict_hash": "41cd5533f24828a530ff29657a43ff6b",
+    "fuzzy_hash": "154fc176b50b75b324ae426287e388e2",
+    "reason": "**Оценка новости:**\nНовость имеет прямую связь с Дубаем (опыт посещения больницы), не касается политики или конфликтов, не является рекламой и не содержит неуважения к ОАЭ. Текст выглядит естественным, без признаков ИИ-генерации или кликбейта. Для русскоязычного жителя Дубая тема сравнения медицинского обслуживания в ОАЭ и Великобритании может быть интересна и полезна. Однако в предоставленном контексте нет явного дубликата, но источник (вероятно, Khaleej Times или Gulf News) не указан в явном виде, что затрудняет проверку достоверности по URL. Тем не менее, судя по описанию, это реальная история, а не выдумка. Правило 9 требует проверяемый источник, но в тексте он не указан — это может быть основанием для отклонения, если нет ссылки. В целом, новость подходит по содержанию, но требует подтверждения источника.\n**Решение:**"
+  },
+  {
+    "url": "https://www.independent.co.uk/news/uk/crime/daniel-kinahan-extradited-dubai-ireland-uae-b3029959.html",
+    "timestamp": "2026-08-10T00:54:38.247228+00:00",
+    "status": "rejected",
+    "content_hash": "e1c16f2caa19319958aeabf669c042c0",
+    "strict_hash": "e1c16f2caa19319958aeabf669c042c0",
+    "fuzzy_hash": "7aeb68cdf2b01d594c10fae526bc89d0",
+    "reason": "Новость напрямую связана с Дубаем (экстрадиция из эмирата), не является политикой или рекламой, не нарушает ценности ОАЭ и представляет интерес для русскоязычной аудитории, следящей за международными криминальными событиями. Однако это точный дубликат уже опубликованной новости «UAE extradites alleged Irish crime gang boss Kinahan» — та же тема, те же факты, только другой заголовок."
+  },
+  {
+    "url": "https://www.devdiscourse.com/article/law-order/3961596-from-dubai-to-dublin-the-capture-of-alleged-crime-boss-daniel-kinahan",
+    "timestamp": "2026-08-10T00:54:40.275492+00:00",
+    "status": "rejected",
+    "content_hash": "25e250be617f832c4b977ded0f48f185",
+    "strict_hash": "25e250be617f832c4b977ded0f48f185",
+    "fuzzy_hash": "1b95ad1a1fd430b929404d626ca475fd",
+    "reason": "Оценка: Новость является дубликатом уже опубликованного материала «UAE extradites alleged Irish crime gang boss Kinahan» — та же тема, те же факты, тот же источник (WAM). Несмотря на связь с Дубаем, публикация не несет новой информации для аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNXdQVjQwRWNnb2FHUTRMVjJSbHZzMENFZ01XWjBlckt1OEw3VENwZmhVMUMtM2lVR0JUTGhxaUFsOThlTGV2NUxoTzY5NUFHZ05Ga1dldXFTRmFxYVhrOEExekI4d2w1eURxRDJIRmZvM3ZyUVVDYXgtOUZtWDZkOVJxM2lNVDdCNXV1WFc3NzFTWWlxUzRSX2ZXbjJ3LW10NjJvMEtQaw?oc=5",
+    "timestamp": "2026-08-10T00:54:44.355875+00:00",
+    "status": "rejected",
+    "content_hash": "b16908da85b4470bdd0c561ef0c9e996",
+    "strict_hash": "b16908da85b4470bdd0c561ef0c9e996",
+    "fuzzy_hash": "7098bd4e187e5b61a1fc0888e3460713",
+    "reason": "Оценка: Новость о том, что индийцы в ОАЭ вкладываются в недвижимость на родине из-за опасений войны, имеет косвенную связь с регионом (через упоминание жителей ОАЭ), но основная тема — зарубежные инвестиции и геополитические риски, что не является прямой и значимой новостью для русскоязычного жителя Дубая. Текст крайне короткий, без конкретных фактов и проверяемого источника, что вызывает сомнения в его достоверности и полезности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaXZEajZ4b2lzaTFpQ1hQLUZOdXd6eklkNGFBcVZnb2tYZ0paQUFJVXBuLWQ5anNITnhHY0xHbHhha3o4WXB6bGtlSVA5R3dYN094ZExBU1VhdlpjT2hVbEdiU1hPTEpxSE03RURUUk1QZE92Y0FvNDdmWTB4QkxpVEV6NXR6empYOTNWRFZKd184TWw3OWlZVUtYZ9IBmwFBVV95cUxNaXZEajZ4b2lzaTFpQ1hQLUZOdXd6eklkNGFBcVZnb2tYZ0paQUFJVXBuLWQ5anNITnhHY0xHbHhha3o4WXB6bGtlSVA5R3dYN094ZExBU1VhdlpjT2hVbEdiU1hPTEpxSE03RURUUk1QZE92Y0FvNDdmWTB4QkxpVEV6NXR6empYOTNWRFZKd184TWw3OWlZVUtYZw?oc=5",
+    "timestamp": "2026-08-10T00:54:53.709159+00:00",
+    "status": "approved",
+    "content_hash": "6ca44b7e482053f58787563372344dfa",
+    "strict_hash": "6ca44b7e482053f58787563372344dfa",
+    "fuzzy_hash": "2836972961132ea13e89ff04a8be56d9",
+    "reason": "approved"
   }
 ]
