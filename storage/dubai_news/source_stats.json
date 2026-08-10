@@ -1,77 +1,5 @@
 [
   {
-    "url": "https://www.timesnownews.com/world/us/us-news/us-sanctions-dubai-based-crypto-exchange-linked-to-irans-irgc-alleges-4-billion-evasion-article-155383577",
-    "timestamp": "2026-08-08T14:06:42.172184+00:00",
-    "status": "rejected",
-    "content_hash": "1c764edbaa0940eea778558129955400",
-    "strict_hash": "1c764edbaa0940eea778558129955400",
-    "fuzzy_hash": "b172b41e90d0b48985821b28e0869cb6",
-    "reason": "Новость касается Дубая (санкции против криптобиржи, связанной с регионом), но основная тема — международные санкции США и обвинения в связях с IRGC, что относится к большой политике и конфликтам. Это не соответствует правилу 2 и может быть чувствительной темой для ОАЭ."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRXd0Q1BtaU02LTFDOUh3ZkxveTJEWmxvSW92N0NTV3NBWEJuSjZxU1RrX1NMVVVPVi03SmlueHU2bW1Qel9hMm1kZWVHemFmRWExNExnVkVpQ0hMZldLdFN6eC1NcXptaUFjUU1wSjJtWmpmTlp0VU1tc3dZSE9uUU9rcDk2Ri1nNExIdXhPbVJiOVk1UzlDeUJicENpVGJKNDl4Z3N0a2lvNThqWk4wdTVkajlVR3UxcVFmUVpaTkdETUdyMS1VY01td3dlbDQ?oc=5",
-    "timestamp": "2026-08-08T14:06:45.349997+00:00",
-    "status": "rejected",
-    "content_hash": "4c2272574d9b31e0a4d86d10b3bc93e7",
-    "strict_hash": "4c2272574d9b31e0a4d86d10b3bc93e7",
-    "fuzzy_hash": "c26f9556ac79ddd5cd4c25a669975c66",
-    "reason": "Оценка: Новость касается экстрадиции Дэниела Кинахана в Дубай, что имеет прямую связь с ОАЭ, однако основная тема — международная криминальная политика и правовые разбирательства, что не соответствует формату новостного канала о жизни в Дубае. Кроме того, отсутствует проверяемый URL источника, а тема может быть чувствительной для имиджа региона."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFlvaktPM3pWNkNOc08tckpzNzBCa0ZFMzU0TlVZYnktdnNuZnk0ckdzUGNWYjZRamNMTWhrS19rZVFaRUp3S3QwM1VFMzRHUmRLQ09xdnpVWm5qcThDdFoxRTBiRzllYWY3OUNUUmRPdm9pQ3V2UW9KaDVhQjdsSGF5T3JkVE41MHRaODJMMGlkSWtYejZUTDBYT25DWnF3dnBmWVR1RE9mNFpZLTJVOHNR?oc=5",
-    "timestamp": "2026-08-08T14:06:47.911892+00:00",
-    "status": "rejected",
-    "content_hash": "0300ae9c8ec09e3263b60897e590b40c",
-    "strict_hash": "0300ae9c8ec09e3263b60897e590b40c",
-    "fuzzy_hash": "7259266fe0f579b9e802a977402236ef",
-    "reason": "Новость об ирландском правительственном самолёте, летящем в Дубай для экстрадиции Дэниела Кинахана, связана с Дубаем лишь косвенно (как пункт назначения), но основная тема — международная криминальная экстрадиция и политические аспекты, что не соответствует критерию «связь с регионом» для местного новостного канала. Кроме того, тема может затрагивать чувствительные вопросы правопорядка и международных отношений, что не подходит для формата канала."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50RnRMb0VMLUVKXzlYNENJdkJ4dk9SQlZZQUd4VTN0QUxPQVNfOWFHVlg2QVZlSmt3cnRrMW00ekFfeGVHbEdWYzVkNE1BLWhSR0ROV0lHaTZzdXFCbUU3OHBiUVhnbnlCY1JGbUgyNWpidHVwcGZlNm5R0gGCAUFVX3lxTE1fYXFqYUdBWjlHSmw5bmNCU0ItOWE0Z1hmMGxNLUotOWhaWlVWeFlPV0xKLVkybzFJa1N4cWgxR3N1dU8wY293ZUwzVDBzdzZxZnZ4NnJGSU00SENmUXFITEE0YkI3dngzTnBXZHl1cUVmaXdONTVMckdwd2hIVlU0N3c?oc=5",
-    "timestamp": "2026-08-08T14:06:48.367135+00:00",
-    "status": "rejected",
-    "content_hash": "cceeb2114de8afcd1d862fcdcc59ac6e",
-    "strict_hash": "cceeb2114de8afcd1d862fcdcc59ac6e",
-    "fuzzy_hash": "f8428b2e82554f4836e51d14d8274044",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRkZnLWJPR1RCWE5WN3JkM3NGLVVEcXpIazU3V3pmTmtNMUN2YkxuemlTWHZienctQzBKazBRdGJBNF8zME9yeXRHNzZNYWtwMHBjOXI5ZUtxS1ZXVXFPc2V2aktBdDlFVEpBRmFVZXVOMlZLcWZGS1JSUGxKXy1FYy1GWWlwcVlFcTJHdW5BOU1QMG9WdXVzUmplQXVDVlhKWFVFekZRSHJQVm1acVFCZVNrWkJMUXM?oc=5",
-    "timestamp": "2026-08-08T14:06:50.156851+00:00",
-    "status": "rejected",
-    "content_hash": "013aa1f0173da92a71a13e90c72820c1",
-    "strict_hash": "013aa1f0173da92a71a13e90c72820c1",
-    "fuzzy_hash": "3e320d557786b6ccfc30f86d3bc8e4ef",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQXBsZ1JWcDlBMWpVb2FXV1ptYVpoT00wRmhBMU1ZUjJMejlLcmVGOWEwR2VKY21qQ0hiUlgwWXhjZl9BQ1J1YkJYdDdETVUtQloxQ2tLdGVaTkxBNDVINnFCd2dSbkxJVWhzWUZVTVp1Nlc4ODc2WUdSX083Rm1GTTdLZTRiWDItWHFESzlySDkxVnprcnE3N1NXd203RzlsMFpaS0JYY1dzcmc?oc=5",
-    "timestamp": "2026-08-08T14:23:38.526847+00:00",
-    "status": "rejected",
-    "content_hash": "0e13f4c8c0f4d837a9e3d673d8287d3a",
-    "strict_hash": "0e13f4c8c0f4d837a9e3d673d8287d3a",
-    "fuzzy_hash": "eb282cca92e71721613cfbd1ae0f8002",
-    "reason": "Новость касается экстрадиции из Дубая, что имеет прямую связь с регионом, но основная тема — международная криминальная история и политические аспекты, что не соответствует формату канала. Текст крайне короткий, без проверяемых деталей и ссылок, выглядит как обрывок ленты новостей, а не полноценная публикация."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2tmcTVrVGVMaXRXQnBJaEFCRW9rcHVJTTJpcTI5LVdmdm5IQWdnVURIdWo5LWpKYnVPWHVpVVBOREp1NkxEQ3YzRFZfRm1qd0VMQ1VNTFA1Q2ZCR0ZkMGtRQkVCc0tSMDJpajA1eldmbDNCSm81Y3IyZzZDNWhhdGxEV2JRQ2pWdDloSUZpd2s5eUtPWFc3RTBBRWhDcE5EZi1zQllxR0dKMko2VFpUZDNQVHJOMVBJ?oc=5",
-    "timestamp": "2026-08-08T14:58:19.663385+00:00",
-    "status": "rejected",
-    "content_hash": "6b09470ade4822c1a65c4027da7249e7",
-    "strict_hash": "6b09470ade4822c1a65c4027da7249e7",
-    "fuzzy_hash": "b2f0b6f0372588e34d92703b3437d45b",
-    "reason": "Новость касается Дубая (прибытие самолёта для экстрадиции), но основная тема — международная криминальная история и политические последствия, что не соответствует формату локального новостного канала и может быть воспринято как чувствительная тема, связанная с репутацией ОАЭ. Кроме того, текст крайне короткий и не содержит проверяемых деталей, кроме заголовка."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOd3pLWDFhWUNWQUp1WG9iaW82UXEtczF4XzJEaGpCZ3hOT0d1RFI2aDdYYmJGeUhPZDJzbl9ncUFscXJBZXpCOUh2bDZqM0V6amJSZXNOblcyUTNRektqQXpmNFk1dU5fWmtINkQxVXZ2Y0V5ZnM2dklvUl9rY2stMDdhbHpsS1E0YUJjcVRERXhzeFFSMFhaU2V6d3FUSHF4MmlWSEhSWlo4VHJRMjlWNDdPN2x2SkJjWFVsRk5mdnNSQUJfcjNEa3I3UjhpbE9Q?oc=5",
-    "timestamp": "2026-08-08T14:58:28.012192+00:00",
-    "status": "approved",
-    "content_hash": "d853728af300c12d4501f42252a6dd1d",
-    "strict_hash": "d853728af300c12d4501f42252a6dd1d",
-    "fuzzy_hash": "2816922d3bb6c1f0234f4c5848999fe3",
-    "reason": "approved"
-  },
-  {
     "url": "https://indianexpress.com/article/legal-news/4-machines-dubai-to-kerala-arrive-damaged-tailor-wins-rs-60000-10822587",
     "timestamp": "2026-08-08T15:19:29.809045+00:00",
     "status": "rejected",
@@ -1294,5 +1222,10 @@
     "strict_hash": "fb94498176c5869a75501064449114ac",
     "fuzzy_hash": "4fe31d0598ca15e865e6d14d64c30254",
     "reason": "Эта новость представляет собой рекламно-имиджевый материал (пресс-релиз) о мероприятии, организованном изданием Emirates Woman, с участием представителя бренда Technogym. В ней нет общественно значимой информации, полезной для русскоязычных жителей Дубая, а сам текст носит явный характер промо-контента без проверяемых фактов и ссылок на первоисточник."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/world/dubai-financial-services-authority-advances-competitiveness-through-proactive-regulations-agentic-ai",
+    "timestamp": "2026-08-10T15:07:54.132515+00:00",
+    "status": "published"
   }
 ]
