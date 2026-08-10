@@ -1254,5 +1254,14 @@
     "strict_hash": "a8f0dbda72af3787be3793fed1d3f37b",
     "fuzzy_hash": "1b674838b2838552b7d787569ae59b84",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://indianexpress.com/article/entertainment/bollywood/inside-ms-dhoni-neighbours-nupur-sanon-stebin-bens-sea-facing-mumbai-home-views-like-dubai-10825872",
+    "timestamp": "2026-08-10T21:31:22.785813+00:00",
+    "status": "rejected",
+    "content_hash": "39056641c82c6e0bb76c34a158e4f28d",
+    "strict_hash": "39056641c82c6e0bb76c34a158e4f28d",
+    "fuzzy_hash": "09bc9f93b12248a303b3d8174aeaa0d8",
+    "reason": "Оценка: Новость о доме индийских знаменитостей с «видом как в Дубае» не имеет прямой связи с Дубаем или ОАЭ — упоминание города используется лишь как сравнение. Тема не представляет интереса для русскоязычного жителя Дубая и не соответствует критериям региональной значимости."
   }
 ]
