@@ -938,5 +938,50 @@
     "strict_hash": "defabc09df1754b072646c58c5ddd2f4",
     "fuzzy_hash": "6b5e120d21c3b158478a8dc0186ff5ad",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.dailyrecord.co.uk/news/uk-world-news/suspected-crime-boss-daniel-kinahan-37530753",
+    "timestamp": "2026-08-10T05:05:25.007353+00:00",
+    "status": "rejected",
+    "content_hash": "e1d10d224c75bf4d9f9a354f47eef7d7",
+    "strict_hash": "e1d10d224c75bf4d9f9a354f47eef7d7",
+    "fuzzy_hash": "76bca35d3107f998e39340025f715b7f",
+    "reason": "Новость о выдаче Дэниела Кинахана из Дубая в Ирландию имеет прямую связь с регионом (арест и экстрадиция произошли в Дубае), не касается большой политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Однако тема криминального авторитета и международной экстрадиции может быть воспринята как чувствительная для имиджа эмирата, а также не представляет прямого интереса для русскоязычного жителя Дубая (отсутствует локальная польза или бытовая значимость). Кроме того, текст выглядит как перепечатка западного СМИ без явной проверяемой ссылки на официальный источник ОАЭ."
+  },
+  {
+    "url": "https://www.mirror.co.uk/news/world-news/suspected-crime-boss-daniel-kinahan-37530703",
+    "timestamp": "2026-08-10T05:05:28.137744+00:00",
+    "status": "rejected",
+    "content_hash": "efe33fbf8513bd63779105afb1a10ada",
+    "strict_hash": "efe33fbf8513bd63779105afb1a10ada",
+    "fuzzy_hash": "f15dad5d8fa2e74b958819f683ee093c",
+    "reason": "Оценка: Новость о криминальном авторитете, вылетающем из Дубая, имеет прямую связь с регионом, но основная тема — международная криминальная операция и судебное разбирательство в Ирландии, что не является значимой локальной новостью для русскоязычного жителя Дубая. Кроме того, материал выглядит как перепечатка западной криминальной хроники без проверяемого локального источника и не соответствует интересам целевой аудитории."
+  },
+  {
+    "url": "https://www.walesonline.co.uk/news/world-news/suspected-crime-boss-flown-back-34429515",
+    "timestamp": "2026-08-10T05:05:31.332162+00:00",
+    "status": "rejected",
+    "content_hash": "6de673742e823fca7f92b5c60a02326f",
+    "strict_hash": "6de673742e823fca7f92b5c60a02326f",
+    "fuzzy_hash": "ec4275d2cdb020d255fb5b2d151eac8c",
+    "reason": "Новость о выдаче Дэниела Кинахана из Дубая в Ирландию имеет прямую связь с регионом (экстрадиция из ОАЭ), не является политикой или рекламой, не нарушает ценности UAE (освещает работу правоохранительных органов), источник проверяем (по тексту — ирландские СМИ), и тема будет интересна русскоязычной аудитории как резонансный криминальный случай. Однако текст обрывается на середине, что вызывает сомнения в полноте и достоверности, а также отсутствует явный URL источника в предоставленном фрагменте. Тем не менее, по сути новость уникальна и не дублирует опубликованные."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaEJwSXpXZXJaUDVlUnI3RVM3eWN2QUxVTlhnVldmc0dlRUV3WTVNMHNYRXE5LTJmdlREQWEwUExxM05GTzVudzZfY0EwTlpuT1drOVplbnd0M3k1bGZEcjg4NVp2Z2xrVzJuTk1rLWY0SWgzenlTM1BfWHVKUnZZVW93YkYxQQ?oc=5",
+    "timestamp": "2026-08-10T05:05:33.905260+00:00",
+    "status": "rejected",
+    "content_hash": "2c0a442f9dcd880bd938ff84848253f7",
+    "strict_hash": "2c0a442f9dcd880bd938ff84848253f7",
+    "fuzzy_hash": "86acbb9da33c06fef90d4732226f3836",
+    "reason": "Оценка: Новость является точным дубликатом уже опубликованного материала «Dubai Police e-crime awareness platform surpasses 1.4 million visitors in its first year» (Emirates 24|7) — совпадает и тема, и ключевая цифра, и суть события. Согласно правилу 7, такие повторы публиковать нельзя."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2c3cTN3MmtBQVl0OUE2UXdGTVVkekVETzR3MnVaOEx2cTE1NXRxZXFfbjJIOUxnUjEwVXZqSmZYcUxUVEIxanhKUEU5R2JBSnpWcW5ibU9FNGdscFhIREdMQzQ2TzVmQ0xhUU1xMk4wN3pZR0NadFhlVVczYTVzWGs1MlJrbUtMVGFTeUt6YWxOOWlaaUJKcHdTOFgyR3V4RUZkVG5RTG4?oc=5",
+    "timestamp": "2026-08-10T05:05:41.844045+00:00",
+    "status": "approved",
+    "content_hash": "15ba9181a2489dd866215fd69672e74a",
+    "strict_hash": "15ba9181a2489dd866215fd69672e74a",
+    "fuzzy_hash": "251f081c827f5efedaa8e6fc48dacc2c",
+    "reason": "approved"
   }
 ]
