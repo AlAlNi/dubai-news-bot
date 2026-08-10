@@ -1046,5 +1046,77 @@
     "strict_hash": "f7088004428c956362c210f3808ae8be",
     "fuzzy_hash": "97f99c2f90683f5f1eb70b1005e499d1",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/best-indoor-restaurants-in-dubai",
+    "timestamp": "2026-08-10T07:08:03.831124+00:00",
+    "status": "rejected",
+    "content_hash": "30e4a765f3da80ad7341b1cd7e2576a8",
+    "strict_hash": "30e4a765f3da80ad7341b1cd7e2576a8",
+    "fuzzy_hash": "ae7116e1b132f2016a3451e518c767a9",
+    "reason": "Эта новость — подборка ресторанов с красивыми интерьерами, что является типичным контентным материалом для развлекательного издания. Она не содержит общественно значимой информации, а скорее напоминает рекламно-ознакомительный пост, который не несет практической ценности для русскоязычного жителя (отсутствует перевод, нет уникальных данных). Кроме того, подобные списки «лучших мест» часто дублируются разными изданиями, и данный материал не имеет явного проверяемого источника с уникальными фактами."
+  },
+  {
+    "url": "https://www.latimes.com/world-nation/story/2026-08-09/suspected-irish-crime-boss-lands-in-dublin-after-being-extradited-from-dubai",
+    "timestamp": "2026-08-10T07:08:22.679560+00:00",
+    "status": "rejected",
+    "content_hash": "d3bf220f9d110904eb153f9e42c9a6bf",
+    "strict_hash": "d3bf220f9d110904eb153f9e42c9a6bf",
+    "fuzzy_hash": "3fec609aa43252feddd3b30aa1652bd6",
+    "reason": "Новость об экстрадиции ирландского преступника из Дубая не имеет прямой связи с жизнью русскоязычного жителя эмирата, не несет практической пользы и относится скорее к международной криминальной хронике, чем к локальным событиям. Кроме того, тема организованной преступности и наркотрафика может быть чувствительной для цензуры ОАЭ."
+  },
+  {
+    "url": "https://www.euronews.com/my-europe/2026/08/09/suspected-irish-crime-boss-daniel-kinahan-extradited-from-dubai-to-dublin",
+    "timestamp": "2026-08-10T07:08:24.781385+00:00",
+    "status": "rejected",
+    "content_hash": "9d8180c6ad1ff376e35bac6e1589a13b",
+    "strict_hash": "9d8180c6ad1ff376e35bac6e1589a13b",
+    "fuzzy_hash": "d33ac1c1a6eaf411ac9add2415893f09",
+    "reason": "Новость об экстрадиции ирландского преступного авторитета из Дубая напрямую связана с эмиратом, но основная тема — международная криминальная деятельность и судебные процессы, что не является локальной общественно значимой новостью для русскоязычных жителей Дубая. Кроме того, материал может затрагивать репутационные аспекты ОАЭ в контексте борьбы с преступностью, что требует осторожности, но не является прямым неуважением."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSTl5YkZrcjRzZUNnVFpITEo3RjZzYTlpbE8zWTlWdE9HYUNoZW1hYmdNMWJ1bDRFSnh3Y3ZkRmJxRmpNd1hJRmdTNHM5QmQyYkZRZzVTNkJpdHpXdHRlbTczNjFIZTU1NU44NzNLa1R2NE5TaVNuSEJzTmhLZkZ5WW52aFpScURXQm1MNG5wRHlBRmpNTFMyU0tweC1hRmpmMFFQWjRHMEgxaXBDZUZkUg?oc=5",
+    "timestamp": "2026-08-10T07:08:27.038262+00:00",
+    "status": "rejected",
+    "content_hash": "7663a1f2bbdfaee051cd0ed1091cd4f6",
+    "strict_hash": "7663a1f2bbdfaee051cd0ed1091cd4f6",
+    "fuzzy_hash": "bd4e12c97796e6d2bda3f701478c9063",
+    "reason": "Оценка: Новость о запуске полицией Дубая технологической инициативы Horizon X связана с регионом и не содержит политики или рекламы, однако текст крайне короткий и не содержит проверяемых деталей или URL источника, что делает его похожим на заглушку или кликбейт без фактического содержания."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xaUIyRDVoS0pXc2N0SXpCUlJtdER5TzNYVGRXTlhOaExsR3l2NEN3bEpBUldTVWpxR1R2SG1zdG4yTFZxMU84dm5yZGZScUNMdXM3Zi1IdmtQYjlRVlAxTVZNd3Z6U3li?oc=5",
+    "timestamp": "2026-08-10T07:08:27.319113+00:00",
+    "status": "rejected",
+    "content_hash": "d4cce3974b40571fa372512968ca7ebf",
+    "strict_hash": "d4cce3974b40571fa372512968ca7ebf",
+    "fuzzy_hash": "2695fa6530981d88bdcdd990e0f255a5",
+    "reason": "Cheap prefilter: слишком короткий текст (65 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCeFlrS05rS2kwR1dJaFgtNkFNZXA5YTNqSEZ1TXZ3R2xWdVhPcmhQNGxBYVRUaUsxb29BUGFSMDNzNW84ZjgxcHdrTFlHQmY0VmtoR0ZsRjdxNy1vX0VNYzc2N2JSZ1M5TENhUHpsNA?oc=5",
+    "timestamp": "2026-08-10T07:08:30.579675+00:00",
+    "status": "rejected",
+    "content_hash": "5c3dc70f7054592fe915953ae8522b0b",
+    "strict_hash": "5c3dc70f7054592fe915953ae8522b0b",
+    "fuzzy_hash": "880deacba3b4e3a8aa146ca10e9d5eb4",
+    "reason": "Новость представляет собой короткий анонс о бесплатной проверке автомобилей летом, что может быть полезным сервисным советом для жителей Дубая. Однако текст крайне скуден, не содержит деталей, ссылок на источник или конкретных условий акции, что делает его похожим на кликбейт или незавершенную заготовку. Связь с регионом есть, но достоверность и информационная ценность не подтверждены."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU1dHVFhQdXhFMEN6TXFkY0djRW43Vzc1SEdjZUR6Z1hMSms1SnFBS3FrS0NVQVJUOUNHTUdxTG0tT1NNNl9HX0RHSS0wXzB5RUwyM0dlSFRacnlCNXdhSHFxYWFSWEIzWHREZUU5ZTRaYWYwNEZTQ0pxSFI2a21ydE45ZDMzNlFZVEt1WnVyRmNmVXQzUDlMUWR3cEVtb3M1cjZrRDA5ejFINDB2Sks4S08tQTNzOFVj?oc=5",
+    "timestamp": "2026-08-10T07:08:31.323444+00:00",
+    "status": "rejected",
+    "content_hash": "765aa1a47fb92bbed4bfeedb32c48292",
+    "strict_hash": "765aa1a47fb92bbed4bfeedb32c48292",
+    "fuzzy_hash": "afde3743eee9f3402bef9d780cca61d3",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUWNVaDg2QnJWQlNvRHdtbzlEazhtRGZlWlVsMGh3aG15MF9IZHNKRGhvc0JRTzRLMG96VG1Sdld5WXFSRVc2ZzdpZ1hYYkl5MzJ4c3R5MWc3cm9MVnhwdnI5eVNGQ21yYUFOb25xdkFpWTNhLXFzNzEtR2RwdzNsc2lEQ21aeFV4OFhsMExwSk1ZSWFBSGdybXVoZDhyaXp0a0p1d1BnRUJ0YVNGV1RtaXphNnVMN3kzV3J1TkFBem9jdmpUbG9pclNUaDh2TGZiWFJFM18wcGVEQQ?oc=5",
+    "timestamp": "2026-08-10T07:08:32.784328+00:00",
+    "status": "rejected",
+    "content_hash": "381cca01c33350e0b92331c02d828ae4",
+    "strict_hash": "381cca01c33350e0b92331c02d828ae4",
+    "fuzzy_hash": "1f9246cbf56c1938041c60eefa4e92b2",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
