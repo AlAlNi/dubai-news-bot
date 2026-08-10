@@ -1,102 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-08-05T23:29:17.419721+00:00",
-    "finished_at": "2026-08-05T23:29:37.767146+00:00",
-    "duration_seconds": 20.347,
-    "success": true,
-    "counters": {
-      "attempts_made": 4,
-      "fetched": 6,
-      "rejected": 5,
-      "approved": 1,
-      "deepseek_calls": 7,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 6,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 6,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-05",
-      "daily": {
-        "published_per_day": {
-          "value": 7,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 84.48,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "indianexpress.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "www.tribuneindia.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "news.google.com",
-            "events": 34,
-            "reject_rate": 85.29,
-            "duplicate_rate": 8.82
-          },
-          {
-            "source": "whatson.ae",
-            "events": 16,
-            "reject_rate": 75.0,
-            "duplicate_rate": 18.75
-          },
-          {
-            "source": "www.thenationalnews.com",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "economictimes.indiatimes.com",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 0.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-08-05T23:46:42.069821+00:00",
     "finished_at": "2026-08-05T23:47:24.680161+00:00",
     "duration_seconds": 42.61,
@@ -18081,6 +17985,102 @@
             "events": 5,
             "reject_rate": 80.0,
             "duplicate_rate": 60.0
+          },
+          {
+            "source": "www.hindustantimes.com",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 33.33
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-08-10T03:05:47.973660+00:00",
+    "finished_at": "2026-08-10T03:06:57.106535+00:00",
+    "duration_seconds": 69.133,
+    "success": true,
+    "counters": {
+      "attempts_made": 3,
+      "fetched": 4,
+      "rejected": 3,
+      "approved": 1,
+      "deepseek_calls": 5,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 1,
+      "google_rss_fetches": 2,
+      "reserve_fetches": 3,
+      "rss_fetches": 3,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-08-10",
+      "daily": {
+        "published_per_day": {
+          "value": 1,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 80.0,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "timesofindia.indiatimes.com",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.irishmirror.ie",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.irishtimes.com",
+            "events": 5,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 6,
+            "reject_rate": 83.33,
+            "duplicate_rate": 66.67
+          },
+          {
+            "source": "news.google.com",
+            "events": 56,
+            "reject_rate": 80.36,
+            "duplicate_rate": 23.21
           },
           {
             "source": "www.hindustantimes.com",
