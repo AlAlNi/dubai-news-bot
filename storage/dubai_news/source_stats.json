@@ -1190,5 +1190,32 @@
     "strict_hash": "dc632d7ed70e434229173c636f6c1a38",
     "fuzzy_hash": "ca8a5aaabab24db6b696b6ce5a75225d",
     "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/europe/2026/08/09/alleged-crime-boss-daniel-kinahan-appears-in-irish-court-after-extradition-from-dubai",
+    "timestamp": "2026-08-10T10:43:04.566088+00:00",
+    "status": "rejected",
+    "content_hash": "c8ff86ca357f4fe4c18e75feea2ff109",
+    "strict_hash": "c8ff86ca357f4fe4c18e75feea2ff109",
+    "fuzzy_hash": "69407335b17d9b813e272cd40dc39085",
+    "reason": "Новость о суде над Дэниелом Кинаханом в Ирландии после экстрадиции из Дубая не имеет прямой связи с жизнью русскоязычного сообщества в ОАЭ, не несет практической пользы для жителей эмирата и относится скорее к международной криминальной хронике, чем к региональным новостям. Кроме того, тема организованной преступности может быть чувствительной для имиджа ОАЭ, что противоречит правилу уважения к ценностям страны."
+  },
+  {
+    "url": "https://www.manchestereveningnews.co.uk/news/world-news/daniel-kinahan-appears-court-after-34430242",
+    "timestamp": "2026-08-10T10:43:06.962563+00:00",
+    "status": "rejected",
+    "content_hash": "4db21877cd8b1e79079bcf43aa4e7cff",
+    "strict_hash": "4db21877cd8b1e79079bcf43aa4e7cff",
+    "fuzzy_hash": "00bf4834be50a646764c640c1b3e532b",
+    "reason": "Новость о суде над Дэниелом Кинаханом после экстрадиции из Дубая имеет прямую связь с регионом (экстрадиция из ОАЭ), но основная тема — международная организованная преступность и судебный процесс в Ирландии, что не является локальной новостью для русскоязычного жителя Дубая и не соответствует критерию общественной значимости для аудитории канала. Кроме того, тема криминала может быть чувствительной для ценностей UAE, а сам материал не содержит практической пользы для местных жителей."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZmh2dVpCdlNqb2R1SGFKdHJsLU1CT3V2MWFPNktORUl3cExXQktDU2ZDNXo3d09PU1pvQkk5bDBJd3MzclN3WGtjeWJQSzYwUWhJNDZTaFZGSGJfVk1uczRFcG95R2g5TmR1TjQ5Y2FzUUw5dmE5aVJWc3hvaDZzT2Z0dVB2Y1hRVGJzZHJucXA4QTBLMXEzcVI0cmJUMXd4N2lEVVFmYVZLQ0RrNk5mMXJ1RE92alRCbjd5bldfWGNOX2FxRjJOOUZBYjJKMW9fanRRLUdoZVJaUGc?oc=5",
+    "timestamp": "2026-08-10T10:43:10.861483+00:00",
+    "status": "rejected",
+    "content_hash": "06c76d97d02bae04950a10e2a5620bb5",
+    "strict_hash": "06c76d97d02bae04950a10e2a5620bb5",
+    "fuzzy_hash": "d19a08dcadad5a6b01a029c634da2ca2",
+    "reason": "**Оценка новости:**\nНовость о запуске ипотечного бизнеса ветераном отрасли в Дубае имеет прямую связь с регионом и может быть интересна русскоязычным жителям, связанным с недвижимостью. Однако текст крайне короткий, не содержит проверяемых деталей (URL источника не указан, только название Zawya), и выглядит как анонс/пресс-релиз без общественно значимой новостной ценности. Дубликатов среди опубликованных нет, но по критериям 5, 6 и 9 материал не проходит.\n**Решение:**"
   }
 ]
