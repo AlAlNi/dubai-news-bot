@@ -1231,5 +1231,32 @@
     "strict_hash": "4f4c91d4d320dffc8a874d6afcb1c903",
     "fuzzy_hash": "1680822cefa90fd0ac75a3ed30274d01",
     "reason": "Оценка: Новость имеет явную связь с Дубаем (опыт жительницы в местной больнице), не касается политики или конфликтов, не является рекламой и не содержит неуважения к ОАЭ. Тема интересна русскоязычным жителям, так как сравнивает систему здравоохранения ОАЭ и Великобритании, что может быть полезно для понимания местного уровня медицины. Признаков ИИ-генерации или кликбейта не обнаружено, источник (вероятно, Gulf News) проверяемый. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1laTdZT0xaRTNBR2tSSklTaHdpa0xxMWtxNkNlNzVCN2I0SVYwWlczcV9jcXRFSElpTnBIN1VKQUt5dF9mVmRQWTlmaDdKM0w4Y1RtbGp6VG16MkczMm1HaGJNUW9QNGVINUhISVNQNHFXYU9JZnhMa1k5dw?oc=5",
+    "timestamp": "2026-08-11T00:00:41.639086+00:00",
+    "status": "rejected",
+    "content_hash": "418ac9a648118a3c78e5b1e7cdb447c8",
+    "strict_hash": "418ac9a648118a3c78e5b1e7cdb447c8",
+    "fuzzy_hash": "0eacf51e09e8a6f0f99a5d6729605924",
+    "reason": "Cheap prefilter: слишком короткий текст (99 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3WVhKbWtIay16MzVnb050b0xWNVNrV3BCUDhQVjROUXpObVNZRloxSGc2ZkF5YWozamUxdE1GbTlvZXpBTnV6YmJTVzFlUDBvdE1nWXFrZ05PamJva0N3RFVSdTZ5WS1oTmZGZDI4alBMWndETDJz?oc=5",
+    "timestamp": "2026-08-11T00:01:09.042161+00:00",
+    "status": "error",
+    "content_hash": "82e1b1eff1b41e7cad2d89f3fe12233d",
+    "strict_hash": "82e1b1eff1b41e7cad2d89f3fe12233d",
+    "fuzzy_hash": "3b421866ba360f819baecfd17d6b5437",
+    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRmRJcHIzOXdqQ0gxZkVnZzEwVzFEcXZMZDVkR1BfSlF2NVN3TnFBMGxfemM0YVF5VmcyZUlsMG9GUlhvd1Atb2hEWjZQWUxRSGkxTFE2UWxLcXZQRWRIZzEwTEoyVTdEa3FWeGl1Q0F0Zl9uRFhuZ01Gb0lQWGswaTBibE5EdGRTMWVHb1R1Q0dKVldoakZqVXFNem9nSU80ZmM4M1NMWms4cXhIbXIwSzhqYnM1Tjl3TkxrVHU2WQ?oc=5",
+    "timestamp": "2026-08-11T00:01:15.704778+00:00",
+    "status": "rejected",
+    "content_hash": "809c04a2f5a92363a336175100069f89",
+    "strict_hash": "809c04a2f5a92363a336175100069f89",
+    "fuzzy_hash": "e6f9b288d31c8e558baadef79756beac",
+    "reason": "Новость носит общий туристический характер и не содержит конкретной, проверяемой информации, привязанной к Дубаю или ОАЭ (нет деталей, дат, ссылок на конкретные изменения). Текст выглядит как обрывок заголовка без содержания, что делает его недостоверным и неинтересным для русскоязычного жителя, а также не проходит проверку на дубликаты и источники."
   }
 ]
