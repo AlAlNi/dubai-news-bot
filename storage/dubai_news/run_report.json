@@ -1,114 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-08-07T19:29:01.853714+00:00",
-    "finished_at": "2026-08-07T19:29:11.905216+00:00",
-    "duration_seconds": 10.052,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 1,
-      "rejected": 1,
-      "approved": 0,
-      "deepseek_calls": 1,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 1,
-      "reserve_fetches": 4,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-07",
-      "daily": {
-        "published_per_day": {
-          "value": 10,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 74.07,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.tribuneindia.com",
-            "events": 4,
-            "reject_rate": 100.0,
-            "duplicate_rate": 50.0
-          },
-          {
-            "source": "indianexpress.com",
-            "events": 4,
-            "reject_rate": 100.0,
-            "duplicate_rate": 50.0
-          },
-          {
-            "source": "www.aninews.in",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "emirateswoman.com",
-            "events": 5,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 39,
-            "reject_rate": 84.62,
-            "duplicate_rate": 10.26
-          },
-          {
-            "source": "whatson.ae",
-            "events": 13,
-            "reject_rate": 76.92,
-            "duplicate_rate": 38.46
-          },
-          {
-            "source": "www.freepressjournal.in",
-            "events": 4,
-            "reject_rate": 75.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "timesofindia.indiatimes.com",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 0.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-08-07T19:42:55.239326+00:00",
     "finished_at": "2026-08-07T19:43:35.052397+00:00",
     "duration_seconds": 39.813,
@@ -17048,6 +16940,84 @@
           "Expo City Dubai News",
           "DET Dubai (Department of Economy and Tourism)",
           "MOHRE UAE News"
+        ]
+      }
+    }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-08-11T07:19:37.739969+00:00",
+    "finished_at": "2026-08-11T07:19:37.757631+00:00",
+    "duration_seconds": 0.018,
+    "success": true,
+    "status": "no_posts",
+    "counters": {
+      "telegram_calls": 0,
+      "telegram_failures": 0,
+      "published": 0,
+      "duplicate_skips": 0,
+      "no_posts": 1
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-08-11",
+      "daily": {
+        "published_per_day": {
+          "value": 2,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 92.59,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.cp24.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 66.67
+          },
+          {
+            "source": "www.irishtimes.com",
+            "events": 6,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 20,
+            "reject_rate": 85.0,
+            "duplicate_rate": 30.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 49,
+            "reject_rate": 81.63,
+            "duplicate_rate": 28.57
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
         ]
       }
     }
