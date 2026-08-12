@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSWxPSUREVTBuMVBBVl9iUGp3LWgzYnQwQTJwYUJXUHl6alhPdHVJZGc2cnJCb09aWWRMUUVBV1ozV0VtczFFek5MZER1aFAzcHB2aXUwcEwwNXRLck44RUxORGdmbXFmdXF3OThnOUxfYUN4cDd5b3QwemJEeTRkcFpldUVDbjZHRFFDRS0wWWw0YTd2M0pGUkFUWmprbHA1d1gw?oc=5",
-    "timestamp": "2026-08-10T17:25:13.578646+00:00",
-    "status": "rejected",
-    "content_hash": "c52618b775faca01c0e7ba584d9d4483",
-    "strict_hash": "c52618b775faca01c0e7ba584d9d4483",
-    "fuzzy_hash": "7fd49e97bcce03649d4e002fdd4f51c4",
-    "reason": "**Оценка новости:**\nЗаголовок и текст крайне скудны, отсутствует конкретика и проверяемый URL источника (только домен finance.yahoo.com без прямой ссылки на статью). Тема «замедления рынка недвижимости» потенциально связана с Дубаем, но без деталей, дат и подтверждений текст выглядит как обрывок ленты, не несущий ценности для русскоязычного жителя. Признаки ИИ-генерации или кликбейта очевидны из-за пустоты содержания.\n**Решение:**"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYWw1MEd6UkdpdjI4ZlY0WjRRYU9WR0NqblphVVpJNjZrZWhIUDdibzlYekNJRUVZQm5WTHRLNHE3RlBBNlVZT3c3OUMyazdOQ1p2dTBMQUM3dU9IMUdhSG50dlZJWmxFa0pPMmtyS282OW1GTDJ5cW52U1UtOXozVFBCQnEtMVRKY0p2UGJXeWJPemRJVGF0SldZQVdaampIUlNsSjV2bw?oc=5",
-    "timestamp": "2026-08-10T17:25:15.865776+00:00",
-    "status": "rejected",
-    "content_hash": "5f284c87236e24c8548a07c085aea945",
-    "strict_hash": "5f284c87236e24c8548a07c085aea945",
-    "fuzzy_hash": "d0c8ef11a92c79ae21683ff3b19fc039",
-    "reason": "Новость о росте прибыли Emaar Development на 43% напрямую связана с Дубаем и девелоперским сектором, что интересно русскоязычным жителям, следящим за рынком недвижимости. Однако данная новость является точным дубликатом уже опубликованного материала (пункт 3 в контексте), поэтому её повторная публикация недопустима."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeXgxOG9TUHpSUmRuZllOU0Z5eE9lazRFVEY4RG1KT0U4MFBvdlpzc1pJRFdOUGxEa2kwN1ZpYnVsMWZsZ0dUcDgzQVFQbGYxVWVJZnBVdnNjQmpuanlwM3ZFeXRCbUFoM1NZQi10MTZiWjJEUlNwQkpxQU1XaXFyNW0tRGtsOE9JMVB1aDJhVDJNRV8zc0FySGxhYWdSTlRWZEoyYURtUjkteUJfY3gwVDFUa1VCN1p6d2c?oc=5",
-    "timestamp": "2026-08-10T17:43:04.292783+00:00",
-    "status": "approved",
-    "content_hash": "f1f52aedbde8f9e85c197b573834bc10",
-    "strict_hash": "f1f52aedbde8f9e85c197b573834bc10",
-    "fuzzy_hash": "41c8c304e99fc15ab0923124e3a01c1e",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.breakingnews.ie/ireland/man-accused-of-being-crime-boss-wakes-up-in-irish-prison-after-a-life-in-dubai-1938252.html",
     "timestamp": "2026-08-10T18:13:01.816692+00:00",
     "status": "rejected",
@@ -839,5 +812,10 @@
     "strict_hash": "6cc2b627dc3468f731da21d6651710d4",
     "fuzzy_hash": "4c8af1a9854fbef60821d8edda36de05",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.onmanorama.com/travel/travel-news/2026/08/12/emirates-offers-free-unlimited-date-changes-on-select-dubai-flight-tickets.html",
+    "timestamp": "2026-08-12T18:02:39.672119+00:00",
+    "status": "published"
   }
 ]
