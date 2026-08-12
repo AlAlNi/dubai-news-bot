@@ -1,46 +1,5 @@
 [
   {
-    "url": "https://www.irishmirror.ie/news/irish-news/daniel-kinahan-wakes-up-irish-37531708",
-    "timestamp": "2026-08-10T19:30:11.950282+00:00",
-    "status": "rejected",
-    "content_hash": "0d129d610d7ec3c1eae80fc85a82a78a",
-    "strict_hash": "0d129d610d7ec3c1eae80fc85a82a78a",
-    "fuzzy_hash": "181c05a6149eae55693997d92041b701",
-    "reason": "Оценка: Новость о Даниэле Кинахане, связанном с ОАЭ ирландском преступнике, не имеет прямой связи с Дубаем/ОАЭ/GCC (событие происходит в Ирландии), а также затрагивает криминальную тематику, что не соответствует ценностям и интересам русскоязычной аудитории канала о Дубае. Тема не является общественно значимой для региона и не проходит по критериям полезности."
-  },
-  {
-    "url": "https://propertynews.ae/uae/sharjah/sharjah-property-market-exceeds-dh7-billion-in-july-with-muwaileh-commercial-and-al-sajaa-industrial-leading-sales",
-    "timestamp": "2026-08-10T19:47:08.048592+00:00",
-    "status": "approved",
-    "content_hash": "301ce7342bed6149e346dc24a9e86ce2",
-    "strict_hash": "301ce7342bed6149e346dc24a9e86ce2",
-    "fuzzy_hash": "d55b9e579ade7149af12938bca841a0e",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.thebanker.com/content/fd078db2-7f55-436d-9d2e-62a0a742ad02",
-    "timestamp": "2026-08-10T20:10:35.954746+00:00",
-    "status": "rejected",
-    "content_hash": "805181b75827dece0db9a4607166b14d",
-    "strict_hash": "805181b75827dece0db9a4607166b14d",
-    "fuzzy_hash": "a5de6594bf8358d664ce3d9600b30fed",
-    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем и ОАЭ (банки, AWS, региональные последствия), не является политической агитацией или рекламой, но содержит явную ссылку на «Iran war» как причину сбоев. Это может быть воспринято как чувствительная геополитическая тема, затрагивающая ценности UAE и создающая негативный фон. Кроме того, текст ссылается на анонимный источник («A source... told The Banker»), что затрудняет проверку достоверности, а также отсутствует явный URL для подтверждения. Новость не является дубликатом, но по совокупности признаков (политический контекст, непроверяемость) её публикация рискованна."
-  },
-  {
-    "url": "https://www.nbcnews.com/world/europe/suspected-irish-crime-boss-lands-dublin-high-security-extradition-duba-rcna591662",
-    "timestamp": "2026-08-10T20:30:45.201033+00:00",
-    "status": "rejected",
-    "content_hash": "4fa8f55b6dcc3890b6ed86ff3627b1c2",
-    "strict_hash": "4fa8f55b6dcc3890b6ed86ff3627b1c2",
-    "fuzzy_hash": "962ee5aab95ad82681e714676386a4ee",
-    "reason": "Новость об экстрадиции ирландского преступника из Дубая не имеет прямой связи с жизнью русскоязычного сообщества в эмирате, не несет практической пользы для жителей и относится скорее к международной криминальной хронике, чем к локальным новостям ОАЭ. Кроме того, тема организованной преступности может быть чувствительной для имиджа региона, а сам материал выглядит как перепечатка западного агентства без локального контекста."
-  },
-  {
-    "url": "https://propertynews.ae/uae/sharjah/sharjah-property-market-exceeds-dh7-billion-in-july-with-muwaileh-commercial-and-al-sajaa-industrial-leading-sales",
-    "timestamp": "2026-08-10T20:53:44.707987+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQXF2Y0NoVkNiRkNZc2FTS2RsQ1llSHFKeHduU0NrWnNzM1AwQ0RaVUJEem94bjJDS3RIS1hvaW9jM3hUclM1dHRoZTh1eE1fb0drZjhiWlFrZlRGT3RLcExFQm9VanR0UlJjNExKWmdqbWRyLW1YY1BmNnotb2NfelE4UGkxTUo0b1B6bzFUVHJtb0Y4dWsyNDF2T1g1NmoyTkVINmV2Yi1sQjlZeUhNV3V4Y19oUjhNeURPTUxUTUcwaDMwLVh4NDIyeW9SOU5LcDV6MkhCc3pLZUlaNE01SFNoWHdNOWJncUl6TA?oc=5",
     "timestamp": "2026-08-10T21:12:10.181902+00:00",
     "status": "rejected",
@@ -849,5 +808,10 @@
     "strict_hash": "1d6e90f186da5c4f45c55531b6863ae0",
     "fuzzy_hash": "7cfa5b394f001c88ff208debde389ee1",
     "reason": "Новость напрямую связана с Дубаем (арест и экстрадиция Кинахана), не касается большой политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Однако тема международной преступности и экстрадиции может быть чувствительной для имиджа эмирата, а также отсутствует явный проверяемый URL источника в предоставленном тексте. Кроме того, новость не имеет прямой практической пользы для русскоязычного жителя Дубая, а её достоверность требует подтверждения."
+  },
+  {
+    "url": "https://www.thenationalnews.com/business/property/2026/08/12/moodys-considers-ratings-downgrade-for-dubai-based-binghatti-amid-iran-war-fallout",
+    "timestamp": "2026-08-12T20:55:50.824331+00:00",
+    "status": "published"
   }
 ]
