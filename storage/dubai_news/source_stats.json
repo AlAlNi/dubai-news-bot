@@ -1322,5 +1322,14 @@
     "strict_hash": "9a6845d35ca906d581710398fed71836",
     "fuzzy_hash": "61060f4506370c7635f21c5d24379279",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.ladbible.com/news/world-news/brooke-george-dubai-case-latest-update-901569-20260811",
+    "timestamp": "2026-08-12T01:00:41.430874+00:00",
+    "status": "error",
+    "content_hash": "891e3f4c0831c50c42685b5fe5cea25e",
+    "strict_hash": "891e3f4c0831c50c42685b5fe5cea25e",
+    "fuzzy_hash": "bd50489ab9e5483b62c0ac576204d1c3",
+    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
   }
 ]
