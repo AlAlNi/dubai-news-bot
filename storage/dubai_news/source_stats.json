@@ -936,5 +936,32 @@
     "url": "https://www.activistpost.com/dubai-based-emirates-airline-adds-bitcoin-and-crypto-payments",
     "timestamp": "2026-08-13T11:54:06.141706+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNVZNbExubk1ZeDc5MzVsQTlBelRaN2pTMmd3QzR4bVJLODhkeTFxdG05UnBPS3FKbmliNG5nV0JGSVhrY2gyTGRkZ2E5bG9uVW9Ea0VVeGlHcTdxV1VnbjVZc2FhblBnSkhRdEVtakMtSjRfc2Yxa2NndDF4Yy1JaTRZMFpvYjI2eHNxeE13bzg?oc=5",
+    "timestamp": "2026-08-13T12:09:06.168132+00:00",
+    "status": "rejected",
+    "content_hash": "630e95234ea94c464c16df5dff8e2021",
+    "strict_hash": "630e95234ea94c464c16df5dff8e2021",
+    "fuzzy_hash": "b67aed9bb43aead045c81444e6552caa",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (открытие моста RTA), не содержит политики или рекламы, источник — официальный Government of Dubai Media Office, что подтверждает достоверность. Однако она является точным дубликатом уже опубликованной новости про открытие моста в One Central (пункт 1 контекста), так как речь идет об одном и том же объекте и событии."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORGYwNnZyaGU0SGZXNmN6dEFaTjhIRlRxY1ZJYVBfS1BYY3BtNF9mank2Z2hybzFlVUlJWTI0OEVwUVUxVXNsblI2SlFQQW1LS3l4VHpaZVpwbkRkR0lIM21wMkpXVEZMQlN2SFh1STVpTEN2T0VtTVhWS3d1UGlWaTJPWjlTLWtiYWUzUHRIb1FQOFZ3X2lRaktR?oc=5",
+    "timestamp": "2026-08-13T12:09:08.345260+00:00",
+    "status": "rejected",
+    "content_hash": "543ac429ee3661589e52273c06251d86",
+    "strict_hash": "543ac429ee3661589e52273c06251d86",
+    "fuzzy_hash": "324d1bd9990b31ed6ff3cb9e71a3684d",
+    "reason": "Оценка: Новость о датах Dubai Fitness Challenge 2026 является дубликатом уже опубликованного материала (пункт 2 контекста), где указаны даты с 31 октября по 29 ноября. Информация не новая и не добавляет ценности аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MUFJscXNlWTczbWdkUXBFN0szUjA5c2JTNDNmSnRCTGJlU2tncWRianNDckxCOENrbHV4eWo0WE1WanhRNnZxVmNHUmowVHpaMmQwekRGSkFvc3BDdWRFaUU0YUl2N3VTOEhsag?oc=5",
+    "timestamp": "2026-08-13T12:09:09.615441+00:00",
+    "status": "rejected",
+    "content_hash": "1f56cf4683116367ba05920a7abf6065",
+    "strict_hash": "1f56cf4683116367ba05920a7abf6065",
+    "fuzzy_hash": "6d16ed6a2aa82dd692e57eea9cc7ab34",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
