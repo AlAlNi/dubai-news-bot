@@ -1094,5 +1094,14 @@
     "strict_hash": "85622e0e4a2415a4964954ba36bde464",
     "fuzzy_hash": "ea6b5f0194c5c81b4806e9f5b891bae1",
     "reason": "Новость касается Дубая (аэропорт выбыл из топ-5), но основная причина — конфликт с Ираном, что относится к большой политике и конфликтам. Тема не является локальной и полезной для русскоязычного жителя Дубая, а также несёт негативный контекст, связанный с региональной нестабильностью."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/nri/invest/dubai-set-to-launch-rent-now-pay-later-service-in-september-tenants-could-pay-annual-rent-over-12-months-with-no-interest/articleshow/133204256.cms",
+    "timestamp": "2026-08-13T20:29:43.683117+00:00",
+    "status": "rejected",
+    "content_hash": "480f39c94a1c5dae34cab50b45b9d413",
+    "strict_hash": "480f39c94a1c5dae34cab50b45b9d413",
+    "fuzzy_hash": "2fcadfec092c94800bfba53d5d5ab3c6",
+    "reason": "Новость напрямую связана с Дубаем и затрагивает важную для жителей тему — аренду жилья. Однако она является практически точной копией уже опубликованной новости «Dubai to launch ‘rent now, pay later’ scheme this year» (пункт 5 в контексте), что является явным дубликатом."
   }
 ]
