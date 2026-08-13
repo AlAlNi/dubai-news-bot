@@ -1,24 +1,4 @@
 {
-  "212da4dc1b5b66c2ea363f38e6f18d9d0090e2094a54fb8149e496a536c23a8e": {
-    "status": "failed",
-    "updated_at": "2026-07-13T23:03:08.077175+00:00",
-    "strict_hash": "212da4dc1b5b66c2ea363f38e6f18d9d0090e2094a54fb8149e496a536c23a8e",
-    "fuzzy_hash": "1dcbcbf0b76e63e7651d8400124afc7a3289c96d67b4f5d9d470cdcc0b255772"
-  },
-  "099e36fa3f6b4bf34eb3cf732e785729c2a8e61481a3ceb8fe2d0c67b8dd719e": {
-    "status": "sent",
-    "updated_at": "2026-07-14T00:01:00.174836+00:00",
-    "message_id": 1353,
-    "strict_hash": "099e36fa3f6b4bf34eb3cf732e785729c2a8e61481a3ceb8fe2d0c67b8dd719e",
-    "fuzzy_hash": "5ff8682966ed3c5c4fc7d61432b93749ab7ef8d979e47497b23d9ae6b7ac822f"
-  },
-  "e27f2ad98234f96bcd2ce29b49139fd65d128913ebb4dcd2884aae3a76acb6b7": {
-    "status": "sent",
-    "updated_at": "2026-07-14T03:21:01.215323+00:00",
-    "message_id": 1354,
-    "strict_hash": "e27f2ad98234f96bcd2ce29b49139fd65d128913ebb4dcd2884aae3a76acb6b7",
-    "fuzzy_hash": "4c63b62fdfda61962c1649ae9c21be5ce3624b73e4b40e191ff07a2acbb17652"
-  },
   "bcafd53e55511a17a60dbdde8c41e04c5d40bdd5ba7cd0a2e5438ad0a0938b1c": {
     "status": "sent",
     "updated_at": "2026-07-14T06:19:44.404871+00:00",
@@ -978,5 +958,12 @@
     "message_id": 1479,
     "strict_hash": "14ca2d555287fe21d4402b07f422c280985992e03a9080f6d4162e4dd107ccc8",
     "fuzzy_hash": "c9c1d63a158260ca96b96e76605f42c1dedae78aff7c9a0b8acaae181a7be559"
+  },
+  "19ce09f7dc71460da4c3ca21f27669138a814728d36d7af02b3e859a7c6f4729": {
+    "status": "sent",
+    "updated_at": "2026-08-13T04:58:53.352806+00:00",
+    "message_id": 1480,
+    "strict_hash": "19ce09f7dc71460da4c3ca21f27669138a814728d36d7af02b3e859a7c6f4729",
+    "fuzzy_hash": "473ed4e0927b3535e329e871989e4eac67c404127fe7e8b686e6aa204cd5fe0f"
   }
 }
