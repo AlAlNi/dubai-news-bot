@@ -995,5 +995,23 @@
     "strict_hash": "cb359207e7657eb8e0a7ee54dac8eadf",
     "fuzzy_hash": "bab8fcfa8a2da08fb904d1ff8de0bb2f",
     "reason": "**Оценка новости:**\nМатериал представляет собой лишь заголовок статьи Time Magazine без какого-либо содержания или контекста. Отсутствует проверяемый источник с URL, нет фактического текста новости, а также невозможно подтвердить связь с регионом и полезность для аудитории. Это не соответствует требованиям к публикации.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZRTIwVXdyS0NHM1RCME5qN1BxZ0s0bFgtVDJSV1k0Z0VUSV94endFaFNpX2VUazhIMmZoMlc2d00wajh3NDZuOC04UExOTDZoX0JNcDVhd3JqaHFIT1ZTLVNxUnRpUlpfTzZSMjZZYw?oc=5",
+    "timestamp": "2026-08-13T15:30:24.636246+00:00",
+    "status": "rejected",
+    "content_hash": "78a659fa7ac9b3c251c72d0f90f6ac25",
+    "strict_hash": "78a659fa7ac9b3c251c72d0f90f6ac25",
+    "fuzzy_hash": "738e61c22dc865e06207395f8f8fed42",
+    "reason": "Оценка: Новость является точным дубликатом уже опубликованного материала под номером 2 в контексте (Dubai Fitness Challenge returns for tenth edition...). Связь с регионом есть, но правило 7 (запрет дубликатов) нарушено."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52S0ladDBtcHI0MkpXRnU3WWllYXNqQUlSeW9LLUU0VnpmR29mM1pWa0trQW5vUDRBVmU4N3Q4cWJkM0V1YU5KcURNcldkVnRtWFRTV3E1QmhvUEVsQV9OV19iLTBGa0pnbEpxcHdCYVBESjBTMGZ2UnQteHhRSGc?oc=5",
+    "timestamp": "2026-08-13T15:30:26.621305+00:00",
+    "status": "rejected",
+    "content_hash": "543c2566aee791a2e30726ebc4997370",
+    "strict_hash": "543c2566aee791a2e30726ebc4997370",
+    "fuzzy_hash": "89d78c4d9939e4d897fd65ef09965fa0",
+    "reason": "Оценка: Новость представляет собой список wellness-студий в Дубае, что соответствует региональной тематике и может быть полезно русскоязычной аудитории. Однако текст крайне короткий и не содержит проверяемых фактов или ссылок, что вызывает сомнения в его информационной ценности и достоверности."
   }
 ]
