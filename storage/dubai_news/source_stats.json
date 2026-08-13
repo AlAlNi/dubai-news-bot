@@ -886,5 +886,23 @@
     "strict_hash": "d7e1ee70420248cc4a9a6c4f842e9b8d",
     "fuzzy_hash": "e97baf6b5fcff1e07fa15a97edc87c27",
     "reason": "Оценка: Новость о новых ресторанах в Дубае соответствует региональной тематике и может быть интересна русскоязычным жителям, но текст крайне короткий, содержит опечатку («Septmber») и не имеет проверяемого содержания, что вызывает сомнения в его достоверности и качестве."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzbFJudDhSbFVhbUk0ZWd4cklVdUxxYXBOUllsZDBUYU9NQ1ozRXBObkYwN19VVFp3T2E5aER0MF9aWmJhQzZvSlpxeHhPdTlycUVvLTFDc1hQaWNPaVVDWHhB?oc=5",
+    "timestamp": "2026-08-13T08:50:45.334276+00:00",
+    "status": "rejected",
+    "content_hash": "a619dc332d222ec24bac051618953b91",
+    "strict_hash": "a619dc332d222ec24bac051618953b91",
+    "fuzzy_hash": "16b15089d5221bad60aad2e4db9da8e6",
+    "reason": "Оценка: Новость связана с Дубаем (авиакомпании, возвращающиеся в аэропорты эмирата), не является политической или рекламной. Однако текст крайне короткий, не содержит деталей, ссылок на источник и выглядит как обрывок заголовка без содержания, что делает его недостоверным и неинтересным для аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02RW1DNE9rWFp5eXMzbzRxWUdyU2ZmX2VEQWdnQXdmY2VmWFdHM29WVmx5NkdJb0twTjczRGtvb0VNS3lrdmlITUVSMGpsTllGUWplbnlmb3lpZw?oc=5",
+    "timestamp": "2026-08-13T08:50:47.442978+00:00",
+    "status": "rejected",
+    "content_hash": "ee0afb68b4c65c38094d58700b6f4525",
+    "strict_hash": "ee0afb68b4c65c38094d58700b6f4525",
+    "fuzzy_hash": "e4e59b993ae67d1884857c708cbd8109",
+    "reason": "Оценка: Новость представляет собой подборку ресторанных предложений со скидками, что является рекламным контентом без общественно значимой новостной ценности. Отсутствует проверяемый источник с конкретными фактами, а сам формат больше похож на афишу, чем на новость."
   }
 ]
