@@ -936,5 +936,41 @@
     "strict_hash": "7a695f64995ccf295164729c04a825af",
     "fuzzy_hash": "d93eba90c5b06147c7d4cc4bb266365d",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/dubai-fitness-challenge-dates-announced-for-landmark-10th-addition",
+    "timestamp": "2026-08-13T11:38:29.503537+00:00",
+    "status": "rejected",
+    "content_hash": "1e049a74775184dd1dbfca88986ad26d",
+    "strict_hash": "1e049a74775184dd1dbfca88986ad26d",
+    "fuzzy_hash": "7833459d33181fb1aadc1ef576ee4a71",
+    "reason": "**Оценка новости:**\nНовость о Dubai Fitness Challenge 2026 дублирует уже опубликованный материал (пункт 2 контекста) — та же тема, те же даты (31 октября — 29 ноября), тот же 10-й юбилейный выпуск. Отличается только год (2026 вместо 2025), что выглядит как техническая ошибка или перепечатка старого анонса. Связь с Дубаем есть, но публикация будет повторной и введёт аудиторию в заблуждение."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/abu-dhabi-concerts-in-2026",
+    "timestamp": "2026-08-13T11:38:39.267542+00:00",
+    "status": "rejected",
+    "content_hash": "31003b2ca49da9a65225a3fdef809879",
+    "strict_hash": "31003b2ca49da9a65225a3fdef809879",
+    "fuzzy_hash": "43427e0c463e2fe8fae087a1b2e3a159",
+    "reason": "**Оценка новости:**\nНовость о концертах в Абу-Даби имеет косвенное отношение к региону (ОАЭ), но не к Дубаю напрямую, и носит явно развлекательно-анонсирующий характер без общественно значимой информации. Текст выглядит как типичный пресс-релиз или афиша, не содержит проверяемых фактов с указанием конкретных источников, а также не представляет интереса для русскоязычного жителя Дубая (фокус на Абу-Даби). Кроме того, отсутствует явная ссылка на первоисточник с URL, что нарушает правило проверяемости.\n**Решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/dinner-deals-dubai",
+    "timestamp": "2026-08-13T11:38:44.112867+00:00",
+    "status": "rejected",
+    "content_hash": "ddfd464f3f6f7dd09cc79a939da988b1",
+    "strict_hash": "ddfd464f3f6f7dd09cc79a939da988b1",
+    "fuzzy_hash": "7145ac84c0c77dc16050c7d280d0443a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://www.activistpost.com/dubai-based-emirates-airline-adds-bitcoin-and-crypto-payments",
+    "timestamp": "2026-08-13T11:38:52.582382+00:00",
+    "status": "approved",
+    "content_hash": "428bda60789f79d2de9a0f1146ed0e19",
+    "strict_hash": "428bda60789f79d2de9a0f1146ed0e19",
+    "fuzzy_hash": "b041c4d9568b0f6f0ee86cce5c954454",
+    "reason": "approved"
   }
 ]
