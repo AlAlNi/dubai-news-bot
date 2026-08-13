@@ -963,5 +963,32 @@
     "strict_hash": "1f56cf4683116367ba05920a7abf6065",
     "fuzzy_hash": "6d16ed6a2aa82dd692e57eea9cc7ab34",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/10-fun-things-to-do-in-abu-dhabi-this-weekend-august-14-to-16",
+    "timestamp": "2026-08-13T12:43:23.167558+00:00",
+    "status": "rejected",
+    "content_hash": "68b8b3f5030b1239ea3a914bf775c1af",
+    "strict_hash": "68b8b3f5030b1239ea3a914bf775c1af",
+    "fuzzy_hash": "578bfc186453a511648505ca48ef7347",
+    "reason": "Оценка: Новость представляет собой анонс развлекательных мероприятий в Абу-Даби на выходные, что не имеет прямой связи с Дубаем и не является общественно значимой информацией для русскоязычного жителя именно Дубая. Кроме того, текст выглядит как типичный афишный контент без проверяемого первоисточника и явных фактов, что не соответствует требованиям канала."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/uae-president-sheikh-mohamed-meets-residents-in-abu-dhabi",
+    "timestamp": "2026-08-13T12:43:32.085894+00:00",
+    "status": "rejected",
+    "content_hash": "d37ef8b376563830a0c2178d9fd42929",
+    "strict_hash": "d37ef8b376563830a0c2178d9fd42929",
+    "fuzzy_hash": "ef746569e388ed3102aa2adde4baca42",
+    "reason": "**Оценка новости:**\nНовость о встрече президента ОАЭ с жителями в Абу-Даби не имеет прямого отношения к Дубаю (событие происходит в Абу-Даби), а также носит характер светской хроники без общественно значимой информации для русскоязычной аудитории Дубая. Кроме того, текст выглядит как перепечатка с другого сайта без явной проверяемой ссылки на первоисточник."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/etihad-to-launch-flights-to-gothenburg-this-december",
+    "timestamp": "2026-08-13T12:43:38.814813+00:00",
+    "status": "rejected",
+    "content_hash": "e8a77fc2be414663c8088c69561b721f",
+    "strict_hash": "e8a77fc2be414663c8088c69561b721f",
+    "fuzzy_hash": "a5a79975e7c2dcc02fade7f8e5ddba85",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
   }
 ]
