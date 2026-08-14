@@ -1134,5 +1134,23 @@
     "strict_hash": "cf40b9abe10e574329e3ab929a53e369",
     "fuzzy_hash": "22b83add22c97f67961c13f88b038de9",
     "reason": "Cheap prefilter: слишком короткий текст (103 символов)"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/from-textbooks-to-experiments-dubai-student-amay-ahuja-transforms-science-education-for-2232-rural-students-in-bihar",
+    "timestamp": "2026-08-14T19:29:20.897473+00:00",
+    "status": "rejected",
+    "content_hash": "44db5e4a1dc1cfdb0ba61a3bbb7faf30",
+    "strict_hash": "44db5e4a1dc1cfdb0ba61a3bbb7faf30",
+    "fuzzy_hash": "947d5fbfd1e417db5b07956b65db49f3",
+    "reason": "**Оценка новости:**\nНовость рассказывает о студенте из Дубая, который помогает сельским школьникам в Индии (Бихар). Связь с Дубаем/ОАЭ лишь косвенная (место учёбы героя), основная тема — образовательный проект в Индии, что не соответствует интересам русскоязычной аудитории Дубая и не имеет прямого отношения к региону. Также текст выглядит как пресс-релиз с явным рекламным характером.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM0JSVm5ubHdIbWlzVkQ4S1B5NE5zQ0YzWFFFOGs5N3JHTGYtNUhXZ3RiUlZWdDdMMERfeGQ4OVRtQkdoeWN3LVlTZFEtTmNFSzNfZmJuQnljZWF2RXljVTZtRlptUWdaQl81WkdhcC1jR1NCVEgyOVJUby12bDNDcDNkWnNJTXR1emNIMtIBlAFBVV95cUxQbFBUV3dHeS1RX0Z5LU9OSHZ1bEFYVmtOZXBQMmhWN19IbEw2aUR0M2pTS2FEdW4xYlMxcG5PLVMwdlg2WkhKMmtWX0trR0tNLWpzcWRoTDZXakRSUUVuWFBzVGMtRVBlZ21BT0VfY1oycjdiR005TFpnS29HUW9KUkRjZXlsclhmYTl5RncxdDVXNGhM?oc=5",
+    "timestamp": "2026-08-14T19:29:24.535218+00:00",
+    "status": "rejected",
+    "content_hash": "472824ed2417c624daaf9f99dcc39b2f",
+    "strict_hash": "472824ed2417c624daaf9f99dcc39b2f",
+    "fuzzy_hash": "889dbe656b1b5129e210489c7c9f5ef0",
+    "reason": "**Оценка новости:**\nНовость о 17-летнем подростке из Дубая, помогающем детям в Индии изучать STEM, имеет косвенную связь с регионом (герой — житель Дубая), но основная тема — благотворительная деятельность за пределами ОАЭ. Это не является значимой локальной новостью для русскоязычного жителя Дубая, не несёт практической пользы и не соответствует критериям «service-update» или «что изменится завтра». Кроме того, текст крайне короткий и не содержит проверяемых деталей (URL источника не указан, только заголовок), что вызывает сомнения в достоверности и полноте информации.\n**Решение:**"
   }
 ]
