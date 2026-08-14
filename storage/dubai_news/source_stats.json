@@ -1140,5 +1140,23 @@
     "strict_hash": "052cd7c5cc631b553d1963f9ae5d39f2",
     "fuzzy_hash": "a9a64f1f84230620bdd6dbf84051f965",
     "reason": "Оценка: Новость является точным дубликатом уже опубликованного материала под номером 4 в контексте (RTA to Open 500-Metre Bridge on Friday, Serving Traffic from Dubai World Trade Centre onto Al Mustaqbal Street). Сюжет идентичен, различается только источник и незначительная формулировка заголовка."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/unique-wellness-events-dubai-this-month",
+    "timestamp": "2026-08-14T07:06:50.008441+00:00",
+    "status": "rejected",
+    "content_hash": "b300c6a0e64727e317faf387f2878a90",
+    "strict_hash": "b300c6a0e64727e317faf387f2878a90",
+    "fuzzy_hash": "5088780affdbba30afb062e8b9456059",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/take-a-dip-77-floors-above-dubai-at-this-record-breaking-infinity-pool",
+    "timestamp": "2026-08-14T07:06:55.938872+00:00",
+    "status": "rejected",
+    "content_hash": "3bff401be96f6eb72d4b79ceb7a17dff",
+    "strict_hash": "3bff401be96f6eb72d4b79ceb7a17dff",
+    "fuzzy_hash": "e8cefcc5257854c74cb7a8d72a25dc87",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
   }
 ]
