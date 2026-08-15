@@ -1,84 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-08-12T05:13:36.421809+00:00",
-    "finished_at": "2026-08-12T05:13:46.665871+00:00",
-    "duration_seconds": 10.244,
-    "success": true,
-    "counters": {
-      "attempts_made": 3,
-      "fetched": 1,
-      "rejected": 0,
-      "approved": 1,
-      "deepseek_calls": 2,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 1,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 1,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-12",
-      "daily": {
-        "published_per_day": {
-          "value": 0,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 88.89,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.dailystar.co.uk",
-            "events": 4,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 42,
-            "reject_rate": 83.33,
-            "duplicate_rate": 16.67
-          },
-          {
-            "source": "whatson.ae",
-            "events": 21,
-            "reject_rate": 80.95,
-            "duplicate_rate": 19.05
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-08-12T05:22:27.111384+00:00",
     "finished_at": "2026-08-12T05:23:12.893842+00:00",
     "duration_seconds": 45.782,
@@ -15834,6 +15756,78 @@
         },
         "reject_rate_after_editor": {
           "value": 78.95,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "whatson.ae",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 25.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 46,
+            "reject_rate": 76.09,
+            "duplicate_rate": 19.57
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-08-15T19:44:39.310889+00:00",
+    "finished_at": "2026-08-15T19:44:48.019317+00:00",
+    "duration_seconds": 8.708,
+    "success": true,
+    "counters": {
+      "attempts_made": 3,
+      "fetched": 1,
+      "rejected": 0,
+      "approved": 1,
+      "deepseek_calls": 2,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 1,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 1,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-08-15",
+      "daily": {
+        "published_per_day": {
+          "value": 0,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 75.0,
           "alert_if_gt": 60.0,
           "ok": false
         }
