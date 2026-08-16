@@ -545,5 +545,32 @@
     "strict_hash": "2156000bad6df68d5a9cd33745fb4cd6",
     "fuzzy_hash": "fc0e07126ffa6f2f286de4ad12c273f1",
     "reason": "approved"
+  },
+  {
+    "url": "https://propertynews.ae/business/abu-dhabis-residential-market-records-second-strongest-quarter-in-q1-2026-amid-robust-growth",
+    "timestamp": "2026-08-16T15:10:46.896972+00:00",
+    "status": "rejected",
+    "content_hash": "62aeca4b086840f14dce3d4be427e1bd",
+    "strict_hash": "62aeca4b086840f14dce3d4be427e1bd",
+    "fuzzy_hash": "addb076935cc4605c5b80348d9ae7b70",
+    "reason": "**Оценка новости:**\nНовость обрывочна и не содержит конкретных цифр, ссылок на первоисточник или проверяемых данных. Текст выглядит как обобщенный пресс-релиз или аналитическая выжимка без указания агентства, что затрудняет проверку достоверности. Кроме того, тема касается Абу-Даби, а не Дубая, что ослабляет прямую связь с целевой аудиторией канала, хотя и относится к ОАЭ в целом.\n**Решение:**"
+  },
+  {
+    "url": "https://propertynews.ae/business/aldar-properties-posts-robust-q1-profit-signals-strategic-expansion-with-new-abu-dhabi-mega-development",
+    "timestamp": "2026-08-16T15:10:51.077954+00:00",
+    "status": "rejected",
+    "content_hash": "68fd4132ff84a28a8146d3b20c965c4f",
+    "strict_hash": "68fd4132ff84a28a8146d3b20c965c4f",
+    "fuzzy_hash": "829e859c7a6d325ece2d3ed1078a82eb",
+    "reason": "**Оценка новости:**\nНовость о финансовых результатах Aldar Properties связана с ОАЭ (Абу-Даби), не содержит политики или рекламы, но не имеет прямого отношения к Дубаю (основной фокус — Абу-Даби). Текст выглядит как пересказ пресс-релиза без уникальной аналитики, а также не содержит проверяемого URL источника. Для русскоязычной аудитории Дубая новость имеет слабую практическую ценность."
+  },
+  {
+    "url": "https://propertynews.ae/business/abu-dhabi-real-estate-sector-anticipates-8400-handover-pipeline-amid-sustained-rental-growth",
+    "timestamp": "2026-08-16T15:10:52.564965+00:00",
+    "status": "rejected",
+    "content_hash": "c14d599c560c897518e2d3833e1b924f",
+    "strict_hash": "c14d599c560c897518e2d3833e1b924f",
+    "fuzzy_hash": "33fd45e7ccf1d4d16d0ecca9291e3154",
+    "reason": "Cheap prefilter: слишком частый домен в окне (propertynews.ae)"
   }
 ]
