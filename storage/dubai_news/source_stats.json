@@ -577,5 +577,32 @@
     "url": "https://propertynews.ae/business/abu-dhabi-commits-dh209-billion-to-next-generation-urban-infrastructure",
     "timestamp": "2026-08-16T16:34:29.820833+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://propertynews.ae/business/abu-dhabi-residential-sales-rebound-in-april-exceeding-3200-units",
+    "timestamp": "2026-08-16T17:11:05.757651+00:00",
+    "status": "rejected",
+    "content_hash": "5b876ec5eb3a77183fbd2f0fc4f2bfc2",
+    "strict_hash": "5b876ec5eb3a77183fbd2f0fc4f2bfc2",
+    "fuzzy_hash": "260323ec08a3c23b95b0c05c3cfd718a",
+    "reason": "**Оценка новости:**\nНовость о росте рынка недвижимости Абу-Даби соответствует региональной тематике (ОАЭ), не содержит политики или рекламы, но текст выглядит как общий обзорный пресс-релиз без конкретных цифр, ссылок на источник и явной пользы для русскоязычного жителя Дубая (фокус на Абу-Даби, а не на Дубай). Отсутствует проверяемый URL источника, а стиль изложения напоминает шаблонную аналитику, что снижает достоверность.\n**Решение:**"
+  },
+  {
+    "url": "https://propertynews.ae/business/abu-dhabi-commits-dh2-billion-to-pioneering-sustainable-city-development",
+    "timestamp": "2026-08-16T17:11:09.382322+00:00",
+    "status": "rejected",
+    "content_hash": "d9cbc4ad323765bc1d23c5371d27b34d",
+    "strict_hash": "d9cbc4ad323765bc1d23c5371d27b34d",
+    "fuzzy_hash": "37fa8768a3936a1b3d7554f6247660a7",
+    "reason": "**Оценка новости:**\nНовость связана с ОАЭ (Абу-Даби), не касается политики или конфликтов, не является рекламой и не нарушает ценности UAE. Однако текст написан в общих чертах, без конкретных деталей (название проекта, сроки, застройщик), что вызывает сомнения в достоверности и напоминает пресс-релиз без проверяемых фактов. Источник не указан, а хеш не совпадает с опубликованными новостями, но дубликатов нет. Для русскоязычной аудитории Дубая новость имеет ограниченную практическую ценность, так как не содержит конкретики.\n**Решение:**"
+  },
+  {
+    "url": "https://propertynews.ae/business/abu-dhabi-implements-temporary-rent-freeze-to-foster-economic-stability-and-attract-investment",
+    "timestamp": "2026-08-16T17:11:14.084626+00:00",
+    "status": "rejected",
+    "content_hash": "6bc7eb4ef42eb729727204dbdeacd096",
+    "strict_hash": "6bc7eb4ef42eb729727204dbdeacd096",
+    "fuzzy_hash": "4502c4e22a04324f011bfa9973f4c2f1",
+    "reason": "Cheap prefilter: слишком частый домен в окне (propertynews.ae)"
   }
 ]
