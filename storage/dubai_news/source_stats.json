@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEUDhoQVNuV1pNbTROVzYzU0M5NlhGSnVzamxYTV9pX3RTTklMTGRaNC1YYWM5c3BYYm5vbWc5d0lmU1o0bTNkRWRFNHFLZ2JpRjE5eUZ1cUxtYWxZWVNvNWN5czdQRFl5WEhIRkVR?oc=5",
-    "timestamp": "2026-08-14T06:53:25.005503+00:00",
-    "status": "rejected",
-    "content_hash": "9a4e921f9ef045fddfcd0679041e5895",
-    "strict_hash": "9a4e921f9ef045fddfcd0679041e5895",
-    "fuzzy_hash": "e8cbb05452791dac43c53ef31a9a61f9",
-    "reason": "Новость о скором открытии нового торгового центра в Дубае напрямую связана с регионом и представляет интерес для русскоговорящих жителей, так как это практическая информация о городской жизни. Текст не содержит политики, рекламы или неуважения к ценностям ОАЭ, а источник (Time Out Dubai) является проверяемым. Однако в предоставленном тексте отсутствует фактическое содержание — только заголовок и название издания, что не позволяет оценить достоверность и полноту информации, а также проверить на дубликаты (в контексте нет похожих новостей, но сам текст пустой)."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PT3ROMGY2ZkxicTRVWG1Gc0pEQkw2NzBkc0lzVjRmeDZKNWkwZ0ZjNzVWNXpRRmVKbUNQRC1fVHVXMWVaVEUtWmdYNERkODZJVzN4NVNUWkxhczU5OTJGcUU1RXI?oc=5",
-    "timestamp": "2026-08-14T06:53:25.340953+00:00",
-    "status": "rejected",
-    "content_hash": "827659b780f02c196b712d3bfb09c170",
-    "strict_hash": "827659b780f02c196b712d3bfb09c170",
-    "fuzzy_hash": "691694468c433f090e5215049d8ea1f6",
-    "reason": "Cheap prefilter: слишком короткий текст (113 символов)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY05rTFYxcGV2QjV0MGVoM1VSZEtjb0xrSDRLZzBvMWsyWXlISzdpYV9qNTQ1QzYzVjc4dzlvTzhVdzJBVndfbDRKeEhUNFlYalh1QXplYmxBeS16U0V4TnRpaHRVeGZ4ZVZEcV9DZ0RIVm9hZXJvVmh0d185QjNyY21kUjc5Qk50Ty1BQVFPdVVpajU3YmgxYWJxekdMRXNWT1pSVVo1UjVmMDRUeUFMTUoyYldqWkZqd1loSER3?oc=5",
-    "timestamp": "2026-08-14T06:53:28.882445+00:00",
-    "status": "rejected",
-    "content_hash": "052cd7c5cc631b553d1963f9ae5d39f2",
-    "strict_hash": "052cd7c5cc631b553d1963f9ae5d39f2",
-    "fuzzy_hash": "a9a64f1f84230620bdd6dbf84051f965",
-    "reason": "Оценка: Новость является точным дубликатом уже опубликованного материала под номером 4 в контексте (RTA to Open 500-Metre Bridge on Friday, Serving Traffic from Dubai World Trade Centre onto Al Mustaqbal Street). Сюжет идентичен, различается только источник и незначительная формулировка заголовка."
-  },
-  {
-    "url": "https://whatson.ae/2026/08/unique-wellness-events-dubai-this-month",
-    "timestamp": "2026-08-14T07:06:50.008441+00:00",
-    "status": "rejected",
-    "content_hash": "b300c6a0e64727e317faf387f2878a90",
-    "strict_hash": "b300c6a0e64727e317faf387f2878a90",
-    "fuzzy_hash": "5088780affdbba30afb062e8b9456059",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://whatson.ae/2026/08/take-a-dip-77-floors-above-dubai-at-this-record-breaking-infinity-pool",
-    "timestamp": "2026-08-14T07:06:55.938872+00:00",
-    "status": "rejected",
-    "content_hash": "3bff401be96f6eb72d4b79ceb7a17dff",
-    "strict_hash": "3bff401be96f6eb72d4b79ceb7a17dff",
-    "fuzzy_hash": "e8cefcc5257854c74cb7a8d72a25dc87",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
     "url": "https://coingape.com/coinbase-subsidiary-deribit-secures-broker-dealer-licence-from-dubai-vara",
     "timestamp": "2026-08-14T08:22:39.639499+00:00",
     "status": "published"
