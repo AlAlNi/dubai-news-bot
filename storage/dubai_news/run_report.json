@@ -1,89 +1,5 @@
 [
   {
-    "script": "auto_notify",
-    "started_at": "2026-08-14T11:51:29.979312+00:00",
-    "finished_at": "2026-08-14T11:51:30.001811+00:00",
-    "duration_seconds": 0.022,
-    "success": true,
-    "status": "no_posts",
-    "counters": {
-      "telegram_calls": 0,
-      "telegram_failures": 0,
-      "published": 0,
-      "duplicate_skips": 0,
-      "no_posts": 1
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-14",
-      "daily": {
-        "published_per_day": {
-          "value": 2,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 76.92,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "timesofindia.indiatimes.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "whatson.ae",
-            "events": 15,
-            "reject_rate": 86.67,
-            "duplicate_rate": 13.33
-          },
-          {
-            "source": "news.google.com",
-            "events": 64,
-            "reject_rate": 82.81,
-            "duplicate_rate": 17.19
-          },
-          {
-            "source": "economictimes.indiatimes.com",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 66.67
-          },
-          {
-            "source": "propertynews.ae",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 66.67
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
     "script": "rss_collect",
     "started_at": "2026-08-14T12:07:49.858932+00:00",
     "finished_at": "2026-08-14T12:08:03.890484+00:00",
@@ -15524,6 +15440,78 @@
       "rss_fetches": 4,
       "telegram_failures": 0,
       "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-08-17",
+      "daily": {
+        "published_per_day": {
+          "value": 2,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 81.48,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "whatson.ae",
+            "events": 15,
+            "reject_rate": 86.67,
+            "duplicate_rate": 20.0
+          },
+          {
+            "source": "propertynews.ae",
+            "events": 11,
+            "reject_rate": 81.82,
+            "duplicate_rate": 27.27
+          },
+          {
+            "source": "news.google.com",
+            "events": 27,
+            "reject_rate": 74.07,
+            "duplicate_rate": 11.11
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-08-17T11:32:55.269275+00:00",
+    "finished_at": "2026-08-17T11:32:55.284129+00:00",
+    "duration_seconds": 0.015,
+    "success": true,
+    "status": "no_posts",
+    "counters": {
+      "telegram_calls": 0,
+      "telegram_failures": 0,
+      "published": 0,
+      "duplicate_skips": 0,
+      "no_posts": 1
     },
     "newsroom_kpi": {
       "date_utc": "2026-08-17",
