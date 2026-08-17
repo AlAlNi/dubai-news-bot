@@ -1,90 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-08-14T23:47:36.330134+00:00",
-    "finished_at": "2026-08-14T23:47:43.113294+00:00",
-    "duration_seconds": 6.783,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 1,
-      "rejected": 1,
-      "approved": 0,
-      "deepseek_calls": 1,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 1,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 4,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-14",
-      "daily": {
-        "published_per_day": {
-          "value": 2,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 80.0,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "timesofindia.indiatimes.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "whatson.ae",
-            "events": 15,
-            "reject_rate": 86.67,
-            "duplicate_rate": 13.33
-          },
-          {
-            "source": "news.google.com",
-            "events": 73,
-            "reject_rate": 82.19,
-            "duplicate_rate": 16.44
-          },
-          {
-            "source": "propertynews.ae",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 66.67
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-08-15T00:36:06.425331+00:00",
     "finished_at": "2026-08-15T00:36:48.613164+00:00",
     "duration_seconds": 42.188,
@@ -15316,6 +15232,90 @@
         },
         "reject_rate_after_editor": {
           "value": 84.0,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.hindustantimes.com",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 25.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 17,
+            "reject_rate": 88.24,
+            "duplicate_rate": 23.53
+          },
+          {
+            "source": "propertynews.ae",
+            "events": 11,
+            "reject_rate": 81.82,
+            "duplicate_rate": 27.27
+          },
+          {
+            "source": "news.google.com",
+            "events": 36,
+            "reject_rate": 77.78,
+            "duplicate_rate": 19.44
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-08-17T22:50:26.461764+00:00",
+    "finished_at": "2026-08-17T22:50:36.709672+00:00",
+    "duration_seconds": 10.248,
+    "success": false,
+    "counters": {
+      "attempts_made": 5,
+      "fetched": 2,
+      "rejected": 2,
+      "approved": 0,
+      "deepseek_calls": 2,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 2,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 5,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-08-17",
+      "daily": {
+        "published_per_day": {
+          "value": 2,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 84.62,
           "alert_if_gt": 60.0,
           "ok": false
         }
