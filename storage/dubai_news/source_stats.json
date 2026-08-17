@@ -550,5 +550,32 @@
     "strict_hash": "d54cee11a34f2ab2dbc205723beaa07b",
     "fuzzy_hash": "9880c14d8d9593c6dee776e7f92a6904",
     "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/heritage-sites-to-visit-uae",
+    "timestamp": "2026-08-17T07:42:31.857745+00:00",
+    "status": "rejected",
+    "content_hash": "3096acca16e7636f8b76472b8548847e",
+    "strict_hash": "3096acca16e7636f8b76472b8548847e",
+    "fuzzy_hash": "9c3b7df7690f785a0f10f84fa916472b",
+    "reason": "**Оценка новости:**\nМатериал представляет собой туристический обзор пяти объектов наследия ОАЭ, приуроченный к длинным выходным. Тематика соответствует региону, не содержит политики или рекламы, а также будет полезна русскоязычным жителям, планирующим досуг. Однако текст выглядит как перепечатка с сайта What's On без явной ссылки на первоисточник в предоставленном фрагменте, что затрудняет проверку достоверности и оригинальности.\n**Решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/where-to-find-the-best-business-lunch-deals-in-abu-dhabi",
+    "timestamp": "2026-08-17T07:42:39.151719+00:00",
+    "status": "rejected",
+    "content_hash": "0bb6ec8970c0a3859bf768ed8f9184fb",
+    "strict_hash": "0bb6ec8970c0a3859bf768ed8f9184fb",
+    "fuzzy_hash": "fb5bceaaa50146ddd86cfae686c2b1fe",
+    "reason": "Новость представляет собой подборку ресторанных бизнес-ланчей в Абу-Даби, что не имеет прямой связи с Дубаем (правило 1), а также носит явный рекламно-обзорный характер без общественно значимой ценности (правило 3). Для русскоязычной аудитории канала о Дубае этот материал нерелевантен."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/7-things-to-do-in-abu-dhabi-this-week-august-17-to-20",
+    "timestamp": "2026-08-17T07:42:43.799403+00:00",
+    "status": "rejected",
+    "content_hash": "239961d2b06c9e02acffdfdc4f970eab",
+    "strict_hash": "239961d2b06c9e02acffdfdc4f970eab",
+    "fuzzy_hash": "d166ebdde2d1608a946c119c40ac0e43",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
   }
 ]
