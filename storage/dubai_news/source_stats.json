@@ -577,5 +577,23 @@
     "strict_hash": "5aa583ab20e0c0e3a519304fcc235f5b",
     "fuzzy_hash": "36f0abb57de18cfcb51b4f06f719bff5",
     "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yaXk2R3hMSVhHZmhCUmpueWExcktEOGQxWXh4STNMVl9xUHlDQ1dObGd0NjZ0amtiUURlLUJWY2hrSHQ1eXZaNXpiYURBQ0IyZGJHWEZpX295ZGs?oc=5",
+    "timestamp": "2026-08-17T00:36:53.582715+00:00",
+    "status": "rejected",
+    "content_hash": "ecef63eab3ebb9cf24b7e58a828ab6b0",
+    "strict_hash": "ecef63eab3ebb9cf24b7e58a828ab6b0",
+    "fuzzy_hash": "96364c83c2a74d94c41653cf0c39a375",
+    "reason": "Оценка: Новость имеет кликбейтный заголовок с признаками ИИ-генерации, содержит непроверяемые и провокационные утверждения о \"закрытии аэропортов\" и \"коллапсе туризма\", а также использует оскорбительный термин \"Sin City\" по отношению к Дубаю, что нарушает правила уважения к ценностям ОАЭ и достоверности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XVHA0NGVOaGZFd1pCVjZkemNYMjBBMUhJY1paclNRNXd6ak5tc0U0UXcwUmMyNG9zcVNObkpiWTlwcm82TFpBN0JJaDVEdE5HRjVqaEFaeS1CRzJISUtaaUowdzJuUlVEYi1keEZIYzJxTVJoQTctaXNfMGI?oc=5",
+    "timestamp": "2026-08-17T00:36:56.072906+00:00",
+    "status": "rejected",
+    "content_hash": "ccec61ecd9470238cfd70d1b805ac95a",
+    "strict_hash": "ccec61ecd9470238cfd70d1b805ac95a",
+    "fuzzy_hash": "775fceb648a9fb1041180be45fe64a0c",
+    "reason": "**Оценка новости:**\nЗаголовок носит явно кликбейтный и тревожный характер («кризис туризма»), при этом текст фактически отсутствует — только заголовок и название источника. Нет проверяемых фактов, ссылок на официальные данные или конкретных цифр. Новость выглядит как недостоверный или сгенерированный контент, не соответствующий стандартам канала.\n**Решение:**"
   }
 ]
