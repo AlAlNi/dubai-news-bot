@@ -789,5 +789,41 @@
     "strict_hash": "87bf94ee74e3345d509a45804d7d87f3",
     "fuzzy_hash": "a4dba7daef585550d2c0404bf9e35d92",
     "reason": "**Оценка новости:**\nЗаголовок выглядит кликбейтным и не содержит конкретных деталей, а сам текст — лишь повтор заголовка без проверяемых фактов или ссылок на официальные источники. Связь с ОАЭ есть, но информация не подтверждена и не имеет практической ценности для русскоязычной аудитории.\n**Решение:**"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/nakheel-commences-handover-of-892-homes-at-redeveloped-jebel-ali-village-in-dubai",
+    "timestamp": "2026-08-18T05:19:31.918111+00:00",
+    "status": "error",
+    "content_hash": "ceff9dcb70ab2e097a9192c433dfde53",
+    "strict_hash": "ceff9dcb70ab2e097a9192c433dfde53",
+    "fuzzy_hash": "470435d4cba67d6da26de42764ec752c",
+    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/uae-summer-heat-to-gradually-ease-from-august-24",
+    "timestamp": "2026-08-18T05:20:03.792899+00:00",
+    "status": "error",
+    "content_hash": "76cd4ea9144de0888704e25b61171ae6",
+    "strict_hash": "76cd4ea9144de0888704e25b61171ae6",
+    "fuzzy_hash": "8542c9137f4d65a2129ba2f464e09213",
+    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOVpCOVRPZGFSVW9MNUpVeGlSemFRMk1ab3owajFfeFJFT1FobG5rZ3ppaldnZ2tFXzZDRXF0SzNrdVdKMkR1YWlwU1RfN1lUNzBxWmM0bjJacUphemd2NF9XTGhXUU9FS2lBNURsZVdiMDAzWjdCZEttRy1yc1JTSy10Y25fNER1Mk1VUUtJd0d4Y2pKczRBeUh0TEZTRzJvTFBxYjc5M1RYSTQ1aldYMi00MEE4a2FmeVhyakxDYTg?oc=5",
+    "timestamp": "2026-08-18T05:20:44.816975+00:00",
+    "status": "error",
+    "content_hash": "9a790dc97bd73a76b7b35a6b812ae1b3",
+    "strict_hash": "9a790dc97bd73a76b7b35a6b812ae1b3",
+    "fuzzy_hash": "da06efe315dd59088db4b29e828addc2",
+    "reason": "Технический сбой: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMkM2TmtTTjFMZkN0dnd3MENObTl5R2hQdjFpSXJjMmRwMVhmMWJWekozaUlYZXdJY0gxdVUwdlpYV0xYb2NWV3I3Y0p2VUdTdVFpSjRQY1AyWGNma245OTVLWXR5aHRzeHdzcWl6QWlpWkFoWnFvbTdTajdybWo4ZHYyNGV1SmpGSEk2MFFiQ0xFUQ?oc=5",
+    "timestamp": "2026-08-18T05:20:51.158198+00:00",
+    "status": "rejected",
+    "content_hash": "41dec11974488954301a7ce503b2bdaa",
+    "strict_hash": "41dec11974488954301a7ce503b2bdaa",
+    "fuzzy_hash": "5ff4d15c5770fa85737c90aaf7893195",
+    "reason": "**Оценка новости:**\nНовость носит явно рекламно-информационный характер (пресс-релиз о курорте Al Maha), не содержит общественно значимой информации, а также не имеет проверяемого источника в тексте (только название сайта без URL). Тема узкая, интересна скорее как маркетинговый материал, чем как новость для русскоязычного жителя Дубая. Связь с регионом есть, но по критериям 3, 5, 6 и 9 материал отклоняется."
   }
 ]
