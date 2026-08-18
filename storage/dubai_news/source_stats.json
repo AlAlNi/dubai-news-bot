@@ -797,5 +797,23 @@
     "strict_hash": "c064570d6f94b3f5c4d18adc420a60ad",
     "fuzzy_hash": "1d746af16b843d93bff45051a519b684",
     "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.livemint.com/money/personal-finance/nris-dubai-life-insurance-payout-triggered-40-lakh-tax-dispute-why-itat-ruled-in-his-favour-11787034281693.html",
+    "timestamp": "2026-08-18T19:06:30.652280+00:00",
+    "status": "rejected",
+    "content_hash": "6a4a497f3559ef85e49e3421845fc842",
+    "strict_hash": "6a4a497f3559ef85e49e3421845fc842",
+    "fuzzy_hash": "2da398e8156f00f11f52750847612dae",
+    "reason": "Новость касается налогового спора индийского резидента, связанного со страховой выплатой из Дубая, что имеет косвенное отношение к региону, но основная тема — налоговая юрисдикция Индии и внутреннее разбирательство, не представляющее прямого интереса для русскоязычной аудитории Дубая. Текст выглядит как пересказ юридического кейса без явной практической пользы для местных жителей, а также не имеет явной проверяемой ссылки на первоисточник в предоставленном фрагменте."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVHpRd0lvNmV1Q1hOTWpERTNnOVJXaDN0cWxfenBtZUlpSDViTWhwYXlMMTNudFY5Zi1DdTZjSjZHdlROQUF3ejZ6MzF4dWpwYjhJSzEzZlhTcXJ4VmtzaWN5YUQxVTFWc2lqSmZLemlUVkw3SmhGTFlVd19KLXhIcG5DM1JvQ2lOQWdsQjhhWWM1WDN3dzFEWTh4c2wxWnZFcU1mTDhVcmVEM1Qxb2JLNFNfaklPdFN6MmUzWThVdk9YMnV3U2Q4TTFOM21ZS3RLNzNfd3I3WnYtVm1obTZva0E1YTZHY3NvZkNQZ2o5SzNBYmgyRmxhVnhHY9IB-wFBVV95cUxOVHpRd0lvNmV1Q1hOTWpERTNnOVJXaDN0cWxfenBtZUlpSDViTWhwYXlMMTNudFY5Zi1DdTZjSjZHdlROQUF3ejZ6MzF4dWpwYjhJSzEzZlhTcXJ4VmtzaWN5YUQxVTFWc2lqSmZLemlUVkw3SmhGTFlVd19KLXhIcG5DM1JvQ2lOQWdsQjhhWWM1WDN3dzFEWTh4c2wxWnZFcU1mTDhVcmVEM1Qxb2JLNFNfaklPdFN6MmUzWThVdk9YMnV3U2Q4TTFOM21ZS3RLNzNfd3I3WnYtVm1obTZva0E1YTZHY3NvZkNQZ2o5SzNBYmgyRmxhVnhHYw?oc=5",
+    "timestamp": "2026-08-18T19:06:39.266739+00:00",
+    "status": "approved",
+    "content_hash": "2607a23d2d675191a49f13cd813ccb36",
+    "strict_hash": "2607a23d2d675191a49f13cd813ccb36",
+    "fuzzy_hash": "980307595f13430fa30a61394c8e1bef",
+    "reason": "approved"
   }
 ]
