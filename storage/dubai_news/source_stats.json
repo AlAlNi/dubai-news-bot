@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://www.hindustantimes.com/trending/delhi-founder-recalls-rejecting-rs-36-lpa-job-offer-in-dubai-i-dont-regret-it-a-bit-101786870401238.html",
-    "timestamp": "2026-08-16T21:44:24.489498+00:00",
-    "status": "rejected",
-    "content_hash": "ae73ee22fc2507fc3763a2b2f16b2754",
-    "strict_hash": "ae73ee22fc2507fc3763a2b2f16b2754",
-    "fuzzy_hash": "b9ad7805f2b94c6ed9f22d74adbccb11",
-    "reason": "Оценка: Новость о личной истории основателя из Дели, отказавшегося от работы в Дубае, не имеет прямой связи с регионом (Дубай упоминается лишь как место отвергнутого оффера), не несёт практической пользы для русскоязычных жителей ОАЭ и выглядит как пересказ зарубежного мотивационного материала, что не соответствует формату новостного канала о Дубае."
-  },
-  {
-    "url": "https://www.dailystar.co.uk/news/latest-news/how-dubai-became-glitzy-gangsters-37543893",
-    "timestamp": "2026-08-16T21:44:26.708153+00:00",
-    "status": "rejected",
-    "content_hash": "cc50138401d224836283acce10059624",
-    "strict_hash": "cc50138401d224836283acce10059624",
-    "fuzzy_hash": "af8446508bee9dcf6cd3a1acd1c5e4f8",
-    "reason": "Оценка: Новость о криминальных авторитетах в Дубае затрагивает репутацию эмирата как безопасного города, что может быть воспринято как неуважение к ценностям ОАЭ. Кроме того, тема связана с международной преступностью и полицейскими расследованиями, что не является общественно значимой или полезной информацией для русскоязычных жителей, а также несёт риск негативного имиджа региона."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPa2FIcUpLNUYtbV96YnZMMDhZWTRENDE2MkQteWw3b3U1V1RybVZsbnVlYlF1V2VpY3ZDTnpRclhkbHVJWHRQSlBZWjJIY0hmT0hyMmlzdkhVeUwyMUZyVk1UUzFUeWUyLW5VTFVWeWpXTzV2N3hGRmQ2ODBRaHFwbks0WVg3bDIwdkcxbHp4OGNtODQ2T0E?oc=5",
-    "timestamp": "2026-08-16T22:10:09.088258+00:00",
-    "status": "rejected",
-    "content_hash": "5aa583ab20e0c0e3a519304fcc235f5b",
-    "strict_hash": "5aa583ab20e0c0e3a519304fcc235f5b",
-    "fuzzy_hash": "36f0abb57de18cfcb51b4f06f719bff5",
-    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yaXk2R3hMSVhHZmhCUmpueWExcktEOGQxWXh4STNMVl9xUHlDQ1dObGd0NjZ0amtiUURlLUJWY2hrSHQ1eXZaNXpiYURBQ0IyZGJHWEZpX295ZGs?oc=5",
     "timestamp": "2026-08-17T00:36:53.582715+00:00",
     "status": "rejected",
@@ -847,5 +820,10 @@
     "strict_hash": "c2240801096b4e086e91b65056efbc06",
     "fuzzy_hash": "5cf851f00b1d56adf33db0553a07c1f3",
     "reason": "**Оценка новости:**\nНовость касается конкретного человека (Lee Andrews) в тюрьме Дубая и вспышки заболевания в Al-Awir prison. Тема не связана напрямую с жизнью русскоязычного сообщества в Дубае, носит сенсационный и кликбейтный характер, а также затрагивает чувствительную тему условий содержания в ОАЭ, что может быть воспринято как неуважение к местным властям. Источник не указан явно, что делает проверку фактов невозможной."
+  },
+  {
+    "url": "https://www.theweek.in/news/middle-east/2026/08/18/good-news-for-indian-tenants-all-you-need-to-know-about-dubai-land-departments-flexi-rent-scheme.html",
+    "timestamp": "2026-08-18T22:32:17.533408+00:00",
+    "status": "published"
   }
 ]
