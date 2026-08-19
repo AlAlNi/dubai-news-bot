@@ -1046,5 +1046,23 @@
     "strict_hash": "2c0ffea39023d6133b25e1db3e0d993c",
     "fuzzy_hash": "e68f934c5f58c8b544e149ec830bd9c0",
     "reason": "Новость касается рынка недвижимости Дубая и интереса индийских покупателей, что напрямую связано с регионом и актуально для русскоязычных жителей, следящих за инвестициями. Текст основан на мнениях экспертов и не содержит признаков рекламы, политики или неуважения к ценностям ОАЭ, однако требует проверки на дубликаты и наличия явного источника."
+  },
+  {
+    "url": "https://www.malaymail.com/news/world/2026/08/19/uae-claims-iran-shot-two-missiles-at-gulf-shipping-suspends-ties-with-tehran/231849",
+    "timestamp": "2026-08-19T13:24:52.575890+00:00",
+    "status": "rejected",
+    "content_hash": "d9af9c87b94b6c7c8b165e6e98d669ed",
+    "strict_hash": "d9af9c87b94b6c7c8b165e6e98d669ed",
+    "fuzzy_hash": "1b8668c4970fe2fbd5c145065cc29d23",
+    "reason": "Новость касается прямого военного конфликта и обвинений между ОАЭ и Ираном, что является большой политикой и угрозой безопасности в регионе. Это нарушает правило 2 (политика и конфликты) и может быть воспринято как дестабилизирующий контент, не соответствующий ценностям UAE (правило 4)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZFZnaVpWRUNtLXlmZFI0N01KNW5yLVk1ZnZQbUtDSmktMlUzeGZYZi13OVpZT0dIeVJzdUZlSURCQmdBcGlLZFYzSHVvenhmMFRfNmUxYUlTVUhyTm1rMmI0aG1SQmFxc1QwaGpzT2NhRVJNc1NhOTdfN0I2Z0FPSExwZ3lXZw?oc=5",
+    "timestamp": "2026-08-19T13:25:01.810487+00:00",
+    "status": "approved",
+    "content_hash": "7e2f6925c2382727452958afd49d00f5",
+    "strict_hash": "7e2f6925c2382727452958afd49d00f5",
+    "fuzzy_hash": "bc0a8d3717071cafecc13ebd50399145",
+    "reason": "approved"
   }
 ]
