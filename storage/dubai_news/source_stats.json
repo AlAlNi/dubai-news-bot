@@ -1123,5 +1123,41 @@
     "url": "https://www.hindustantimes.com/trending/dubai-mom-breaks-down-daughter-s-school-fees-reveals-rs-14-lakh-annual-tuition-food-is-not-included-101787136481891.html",
     "timestamp": "2026-08-19T23:29:49.641339+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.al-monitor.com/originals/2026/08/uaes-financial-embargo-iran-after-missile-threat-puts-rivalry-back-spotlight",
+    "timestamp": "2026-08-19T23:47:01.667155+00:00",
+    "status": "rejected",
+    "content_hash": "ebf2bfb27683fa608b65bcef67206679",
+    "strict_hash": "ebf2bfb27683fa608b65bcef67206679",
+    "fuzzy_hash": "03cb0ea7412cfd6fa29f2141b35ec299",
+    "reason": "Новость касается финансовых санкций ОАЭ против Ирана на фоне военной угрозы — это прямая тема большой политики и международного конфликта, что нарушает правило №2. Также тема чувствительна для ценностей ОАЭ и может быть воспринята как вовлечение в геополитическое противостояние, что противоречит правилу №4."
+  },
+  {
+    "url": "https://www.freepressjournal.in/pune/dubai-based-man-goes-missing-after-landing-at-pune-airport",
+    "timestamp": "2026-08-19T23:47:03.498208+00:00",
+    "status": "rejected",
+    "content_hash": "1622cafbb9006ca5cac6a8de98a1e832",
+    "strict_hash": "1622cafbb9006ca5cac6a8de98a1e832",
+    "fuzzy_hash": "d08eabecb7234fe03d3895e936176980",
+    "reason": "Оценка: Новость о пропаже человека, работавшего в ОАЭ, после приземления в индийском аэропорту имеет лишь косвенную связь с Дубаем (место работы) и не представляет интереса для русскоязычного жителя эмиратов. Тема не связана с жизнью в Дубае, не является service-update и не имеет подтверждаемого источника в тексте."
+  },
+  {
+    "url": "https://www.hindustantimes.com/entertainment/tv/erica-fernandes-says-financial-stability-from-dubai-business-allowed-her-to-quit-acting-return-purely-for-passion-101787135687400.html",
+    "timestamp": "2026-08-19T23:47:05.222515+00:00",
+    "status": "rejected",
+    "content_hash": "a084fd11ab89286cc5d8a51559c3ee33",
+    "strict_hash": "a084fd11ab89286cc5d8a51559c3ee33",
+    "fuzzy_hash": "bdc00e65521fcd4f743d9c526a6cdb86",
+    "reason": "Новость о том, что актриса Erica Fernandes переехала в Дубай и открыла там бизнес, имеет прямую связь с регионом и может быть интересна русскоязычной аудитории, следящей за жизнью знаменитостей в ОАЭ. Текст не содержит политики, рекламы или неуважения к ценностям, а также не является дубликатом уже опубликованных материалов."
+  },
+  {
+    "url": "https://www.straitstimes.com/world/middle-east/uaes-financial-embargo-on-iran-after-missile-threat-puts-rivalry-back-in-spotlight",
+    "timestamp": "2026-08-19T23:47:07.379581+00:00",
+    "status": "rejected",
+    "content_hash": "7cda2a23bbb715b1cef14c44e5926708",
+    "strict_hash": "7cda2a23bbb715b1cef14c44e5926708",
+    "fuzzy_hash": "0bd20389d8f9e6b0b8c426d052777303",
+    "reason": "Новость касается финансовых санкций ОАЭ против Ирана на фоне военной угрозы — это прямая тема большой политики и международного конфликта, что нарушает правило №2. Кроме того, текст явно относится к геополитической повестке, а не к жизни русскоязычного жителя Дубая, и не соответствует формату канала."
   }
 ]
