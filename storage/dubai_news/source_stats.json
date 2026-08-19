@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yaXk2R3hMSVhHZmhCUmpueWExcktEOGQxWXh4STNMVl9xUHlDQ1dObGd0NjZ0amtiUURlLUJWY2hrSHQ1eXZaNXpiYURBQ0IyZGJHWEZpX295ZGs?oc=5",
-    "timestamp": "2026-08-17T00:36:53.582715+00:00",
-    "status": "rejected",
-    "content_hash": "ecef63eab3ebb9cf24b7e58a828ab6b0",
-    "strict_hash": "ecef63eab3ebb9cf24b7e58a828ab6b0",
-    "fuzzy_hash": "96364c83c2a74d94c41653cf0c39a375",
-    "reason": "Оценка: Новость имеет кликбейтный заголовок с признаками ИИ-генерации, содержит непроверяемые и провокационные утверждения о \"закрытии аэропортов\" и \"коллапсе туризма\", а также использует оскорбительный термин \"Sin City\" по отношению к Дубаю, что нарушает правила уважения к ценностям ОАЭ и достоверности."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XVHA0NGVOaGZFd1pCVjZkemNYMjBBMUhJY1paclNRNXd6ak5tc0U0UXcwUmMyNG9zcVNObkpiWTlwcm82TFpBN0JJaDVEdE5HRjVqaEFaeS1CRzJISUtaaUowdzJuUlVEYi1keEZIYzJxTVJoQTctaXNfMGI?oc=5",
-    "timestamp": "2026-08-17T00:36:56.072906+00:00",
-    "status": "rejected",
-    "content_hash": "ccec61ecd9470238cfd70d1b805ac95a",
-    "strict_hash": "ccec61ecd9470238cfd70d1b805ac95a",
-    "fuzzy_hash": "775fceb648a9fb1041180be45fe64a0c",
-    "reason": "**Оценка новости:**\nЗаголовок носит явно кликбейтный и тревожный характер («кризис туризма»), при этом текст фактически отсутствует — только заголовок и название источника. Нет проверяемых фактов, ссылок на официальные данные или конкретных цифр. Новость выглядит как недостоверный или сгенерированный контент, не соответствующий стандартам канала.\n**Решение:**"
-  },
-  {
     "url": "https://www.tribuneindia.com/news/haryana/karnal-murder-case-wanted-accused-deported-from-dubai-arrested-by-haryana-police",
     "timestamp": "2026-08-17T02:03:20.135815+00:00",
     "status": "rejected",
@@ -852,5 +834,10 @@
     "strict_hash": "172932bf77229bb3d1cb6f5b223e7556",
     "fuzzy_hash": "ce16424aff688506d13af08a9e4eab67",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.onmanorama.com/news/kerala/2026/08/18/chinese-cars-gain-popularity-among-malayalis-in-uae-auto-market.html",
+    "timestamp": "2026-08-19T01:45:26.480810+00:00",
+    "status": "published"
   }
 ]
