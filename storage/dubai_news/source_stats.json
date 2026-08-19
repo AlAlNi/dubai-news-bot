@@ -920,5 +920,86 @@
     "strict_hash": "19fc1bd9c8a063365fb5cb45c2d58a50",
     "fuzzy_hash": "9848eb972b334a9421b358a3a30aa398",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaGlFbU9XSUx2TGtWOVdVaFZnN2czcngxNFpaNUVaaWN5N2Y2V0JjQUV2WnExekdWSzlyWWlNVXl0aFRYRV9vNWhua2pkVzd6ck5ZQ1pEa0d2Sl9YbFN2dDM3QlB4SnFDcTFVbmlzLWpUWW1sdmtKTVJxZlN3MGZ5RGNOdUppbVlMS3dlT3V5bE9wOFZ1ZWp1NUd0VTF4dzZWRU04WmNmTGdueGlM0gGsAUFVX3lxTFBkcXJMR2txeWc0YWxfQS1UQVExdjZkZ28wUjNnNm5wQUlnUU9vNFc2ak9DVlV3RWxxWWhubXJjaFlJNGV0QVJVZGI1cmRiNzVkdEhJV0N1ZUg5Wi0wVEhDdnVSN2VacmpmUjZTZVZXT1A1S19TeUFtaTVVRE1VMnVZZU15R0lBUmtKNXhpQ2NuZHQ0UndjVXpmSVRoaE9tU0R6V012RThlNWhtRGY?oc=5",
+    "timestamp": "2026-08-19T02:11:28.848975+00:00",
+    "status": "rejected",
+    "content_hash": "c43c2b6c6465943f5ad356eced73f2e6",
+    "strict_hash": "c43c2b6c6465943f5ad356eced73f2e6",
+    "fuzzy_hash": "6e26a1754d6eb6061e7bd097090f8054",
+    "reason": "Cheap prefilter: слишком короткий текст (117 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaXzVMc1pkVjNCVkxuTFNUbHllWkFHY05VWU5nMTd3cE1TaFZVVGgtU1ZWT3BRWURvR2xXb2d2UDRwWmtxOGoxLUhCajdRS2FqR1BqcXpJWmFrYXhLTDZtTHFCTVF6Znd0QzUwWk1ycmMteFJWUEE?oc=5",
+    "timestamp": "2026-08-19T02:11:31.569492+00:00",
+    "status": "rejected",
+    "content_hash": "4763d5a886cd0afa04aef2c9e36f6b03",
+    "strict_hash": "4763d5a886cd0afa04aef2c9e36f6b03",
+    "fuzzy_hash": "38e891ef42b3f192d2e322591bb255df",
+    "reason": "Оценка: Новость касается экстренных оповещений для жителей и гостей Дубая, что напрямую связано с регионом и может быть полезно русскоязычной аудитории. Однако текст крайне короткий, не содержит конкретных фактов или инструкций, а лишь отсылает к заголовку, что делает его похожим на кликбейт или неполную сводку без проверяемого содержания."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb1pYMnJ3Q29XX1Bjb3NEVjl3ZzZ5TzNKTVk2VVBERkpzQmpfMEVJc0VlWUVlUmlvazJSM3VaMmhsd3ZBdFltT3ZBOFFoeUtxYWpBaUptS3lIOFNoVmtraUM4MU0yNVJ0YktGVlNrTjV0a201eFJ6NVpBM2loNGZrYldaYTBKVGRrRG01OWFaVWpubUtpR083OHVGVlA?oc=5",
+    "timestamp": "2026-08-19T02:11:34.102543+00:00",
+    "status": "rejected",
+    "content_hash": "4bab86a2cb6c204019d2fb50daf71ae9",
+    "strict_hash": "4bab86a2cb6c204019d2fb50daf71ae9",
+    "fuzzy_hash": "55fef686a52980adf0ca870cfa6a8fab",
+    "reason": "Новость о том, что футболист Джуд Беллингем отдыхает в Дубае, имеет прямую связь с регионом и не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст крайне короткий, не содержит проверяемых деталей (кроме заголовка и источника) и вряд ли представляет значимый интерес для русскоязычного жителя Дубая, так как это типичная светская хроника без практической пользы."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ueXhKcmkzYkFIT3NMMTBiZ0dzc1ZaMGJFazd5cEZIQUdFSHNFQ1NLcmNxU1pqaWtrenBCOUZoTnl2Q1FuTW1iLVg0QWxhSGsyVktQOGdudzlnVDlxNkNZTkVKTjFyM3FfeHc?oc=5",
+    "timestamp": "2026-08-19T02:11:34.445058+00:00",
+    "status": "rejected",
+    "content_hash": "350e8a15118eb1e0e82a21a1eaa35751",
+    "strict_hash": "350e8a15118eb1e0e82a21a1eaa35751",
+    "fuzzy_hash": "00701bb3f88a507c9c4242ec102ed9be",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeWpHTWIxTUtRM3dMYjU4WGQ0eWo1MVBzREszdUJ0alRhMzUtYlY1cVlrWDlXTlhzdG1tTmxqYVBuT184U3JiTmVQQ2pKXzUyTmVnN2pGNC1TWjNQUG5ISmpreUYwcF9BQ1N5OW44dWVLZFNEamE3UTkzTnRHY29FS1IwREhqTmVSWG54TnNIRVYtY0hLWWUwcmd3UHlYN2JJa0w2MXI3N0tJRnJQY3htZ1IzdnZYaTZUcWphY3ZyRmRsejFLMU91NUtKMmlIWWtiaTliSVFKVE84MGJUUDlRLXZmMNIB6gFBVV95cUxOeERXZFQ0dkpIOGFONEhnZGJaeWk3QlVyd1pLdkpDX0lIM0t0cHFjV2xuLVdJRWlyY0lwZmlEbllIZmhZTEVCQUlkZlEyMURXdTI4Ny1QYTBtcVctSjFBeTJ5eFVLNEUyR2FYb2hKX19iWEo3T0lSMTRSUnJ3Vl96Ri1od1hvcmhWYUhuYTBzOE5NdFMtckJtMG9BUzZrelFCbUI4a0RudGphOW1fYlhLTFlOdjlfb0ZTbVlnVVdFSFRRb2Q3MWFVT2pCc2t5VnE1cXdiS1pQUnV6Zm45a1NtNjZIejZhcEtESUE?oc=5",
+    "timestamp": "2026-08-19T02:11:35.726328+00:00",
+    "status": "rejected",
+    "content_hash": "c0f7c0fdfa50393056013ac44bf0a329",
+    "strict_hash": "c0f7c0fdfa50393056013ac44bf0a329",
+    "fuzzy_hash": "031dbb9c0b56d5336f5db348aff57d5e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSlBRbU1pOGdnRnRjVWJXbDdINW5UMktneE9SSHJKUS1jRzZUaWk0aDRISV9na1FVaVlleG8yNDVoWXpXTy1zRFUwcFhObTRWZE0tTHZRYjBSNmxuQ1cxaDBYcTQzTDZJamRrVXBiRk9WSzNHXzY2RUlON3VncG8tS25GOVpodVRTTzB1aFBfdjdDb2JsWUlwZTloRUx6ZnUtU2w2UEdzeDcyRDgtUV9rNXFXYWdweDNtUDJUSXhCcFNwczg?oc=5",
+    "timestamp": "2026-08-19T02:11:37.126748+00:00",
+    "status": "rejected",
+    "content_hash": "95014d54223fe0a2a424c4920ec65062",
+    "strict_hash": "95014d54223fe0a2a424c4920ec65062",
+    "fuzzy_hash": "3d282204ecd2501e0dbd7f43063db072",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OSXFuZkpCbmRDejE3b0pTV0s3blBiVHM3LXFYMjRIYkxNbVM3aWUyd1g3Z0trS19KUFgtQnY5RTRkczhtQUE1WEVUcDk0ZG9aaUZtbmZwbER3VUcx?oc=5",
+    "timestamp": "2026-08-19T02:11:38.425680+00:00",
+    "status": "rejected",
+    "content_hash": "f123a3a1cae3eacdb98456f354852476",
+    "strict_hash": "f123a3a1cae3eacdb98456f354852476",
+    "fuzzy_hash": "0351fb9242c3c643787cb11cb6ebf27e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUzdWakxFYmE2cnlmM25aeFhSN3N4b0wtY3NKS09sRUhYZUc2bTZ2MVU2amNwMXJJaWJpbnBuX05OU0RORS0xSVZPYVJIbGpOakxJVVg5enFCbnRCUHJ2MVFMT3J1LW5ONGFBVDZOaUV4TGR1YVJnTDk5ZDZiRW5meVI1ZGVNRUZyR1HSAY8BQVVfeXFMTmNFTndPek1FNnV3MUo3VDNkVFN0VEpsQ2IwQWhDbUlsWE1LR2JLSE1ZQnNKczZqc1hlOEl3Tjd4eWYzZXpSQ2JTQ3VCYnJMVUUwWUhFVy1yaXVMWTZoWV9RUHZ3cWppSzhtVnV1ZGZiTW15RXBFa1VFSnpnTEIzaV9kOGtJWkI5ZVVXTmtxak0?oc=5",
+    "timestamp": "2026-08-19T02:11:39.891384+00:00",
+    "status": "rejected",
+    "content_hash": "49197baf9b99b9adb69f75d55be4caba",
+    "strict_hash": "49197baf9b99b9adb69f75d55be4caba",
+    "fuzzy_hash": "e1a017f3b847eea1cbfab85afca82349",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HRks3Q0ZLWGw4LUVYNmlsb0RJMWtObHlqWkpjVkhfY0dISEhNeWxGQWh1Q3pkZE4tWFBHd21kLXlnX3hJV2lvZDJVZ0FjSjk4aG5McEdjSW1yWFQ1VFlJS2lYeVQ0VjdWTHk0?oc=5",
+    "timestamp": "2026-08-19T02:11:41.125040+00:00",
+    "status": "rejected",
+    "content_hash": "cfb88ceeb9521144432c8a740cba16e1",
+    "strict_hash": "cfb88ceeb9521144432c8a740cba16e1",
+    "fuzzy_hash": "7e745c4bb9a60359966ae466385b7cba",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
