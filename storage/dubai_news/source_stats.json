@@ -1092,5 +1092,32 @@
     "strict_hash": "6dbdfce214a26a52f68d168345b963e7",
     "fuzzy_hash": "067c4f148f34c5283ca9aa84c0a55402",
     "reason": "**Оценка новости:**\nНовость дублирует уже опубликованный материал под номером 6 («Going to the UAE? Here’s what Filipino passport holders need to know about the updated visa-on-arrival rules»). Тема идентична — обновленные правила визы по прибытии для филиппинцев, что нарушает правило 7 о дубликатах. Также отсутствует явный URL источника для проверки фактов (правило 9)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVlVRRXNBM21mMG02V2xYc0xpcHoyNkFwX3dXZ3JNTlZfWlZiOUJuQlNPUEp5a3NWNjEtS0JnRDZ0YmZaWElVNlZyVy0wNG02OVljaTlkVFI1YXV2aU1fNjZpMmlzTTB0VVI0TGJlWl9MdVMtMGtzdXJ5ZGtYaE1ScjNKM1lnZHU2azV1dEVxbEpSNUVCcHIwR09nUllhb2U1OTFjb2pn?oc=5",
+    "timestamp": "2026-08-19T09:57:53.303271+00:00",
+    "status": "rejected",
+    "content_hash": "9cc7b320197bab8150b9d57a95f6c85b",
+    "strict_hash": "9cc7b320197bab8150b9d57a95f6c85b",
+    "fuzzy_hash": "f00b4c0cb96634261ca985c4be6cc8e8",
+    "reason": "Новость касается рекомендаций по поездкам в ОАЭ на фоне ракетной угрозы со стороны Ирана — это напрямую связано с регионом и безопасностью, что важно для русскоязычных жителей Дубая. Однако тема связана с военным конфликтом и большой политикой, что запрещено правилами канала, а также может быть воспринято как чувствительная тема для ОАЭ."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNDhGTHBuQkRGZWp4OGgwTlk3V0pNRkVDd0N5aGlBbFFUSzJVV0tKRGhmSngzdWp1VW5tX01KUTdoUmdGQlRKZEJ5eFhkcHpycE9LekRqWXdWZDhTY0haRFJadEhyVV9DalRkV3JrZnhpTFIxS1BsTTNMaF9QRGo5ekViVVQwUzdmVS1WVVQ0eW1LSVFXX2hZ?oc=5",
+    "timestamp": "2026-08-19T09:57:55.381684+00:00",
+    "status": "rejected",
+    "content_hash": "f5c6663e9667c614cc92da172b32dcca",
+    "strict_hash": "f5c6663e9667c614cc92da172b32dcca",
+    "fuzzy_hash": "ffc7d65eb952033065e8426d1221d852",
+    "reason": "Оценка: Новость касается заморозки торговли между ОАЭ и Ираном на фоне ракетных ударов по морским путям в Заливе. Это прямая политическая и конфликтная тема, связанная с региональной безопасностью и большой политикой, что нарушает правило №2. Также отсутствует проверяемый URL источника в тексте."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCRjIxZGJOTDVCeTVvQ05vSnd5T2VuZUFFdm01OVhueDlVY0w0VDFiUUVWWnJvUTllam9yV1k2T21lRWZobmoxQ1lmOFBpSWZWcjJoQU9xY0hWRkotSnlTemUxaDBYdS02?oc=5",
+    "timestamp": "2026-08-19T09:57:55.738782+00:00",
+    "status": "rejected",
+    "content_hash": "b7906f823c7711c96a23763708df8bba",
+    "strict_hash": "b7906f823c7711c96a23763708df8bba",
+    "fuzzy_hash": "60182ebd746de83b800571a278b3e172",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
