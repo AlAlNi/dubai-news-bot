@@ -992,5 +992,41 @@
     "strict_hash": "cfb88ceeb9521144432c8a740cba16e1",
     "fuzzy_hash": "7e745c4bb9a60359966ae466385b7cba",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/08/18/tmt-newswire/globenewswire/digital-growth-agency-webbox-launches-in-dubai-to-serve-mena-region/2407859",
+    "timestamp": "2026-08-19T03:24:46.218834+00:00",
+    "status": "rejected",
+    "content_hash": "a464771716b98cfc6a708839ca0e8560",
+    "strict_hash": "a464771716b98cfc6a708839ca0e8560",
+    "fuzzy_hash": "6335710e4395bad85f2b14d490270c86",
+    "reason": "Оценка: Это явный пресс-релиз о запуске маркетингового агентства, не содержащий общественно значимой информации для русскоязычных жителей Дубая. Текст носит рекламный характер и не проходит проверку по критериям 3 и 6."
+  },
+  {
+    "url": "https://www.hindustantimes.com/world-news/dubai-residents-receive-missile-alert-for-first-time-in-weeks-uae-warns-citizens-us-iran-101787065203840.html",
+    "timestamp": "2026-08-19T03:24:49.092200+00:00",
+    "status": "rejected",
+    "content_hash": "b0c4d34be72acd972647bca31c6b6043",
+    "strict_hash": "b0c4d34be72acd972647bca31c6b6043",
+    "fuzzy_hash": "528f7cabcf1c39ecee450a7a5c7de939",
+    "reason": "Оценка: Новость о ракетной тревоге в Дубае напрямую связана с регионом и имеет высокую общественную значимость для жителей, однако тема военного конфликта и безопасности может нарушать правило 2 (политика и конфликты) и правило 4 (уважение к ценностям UAE), так как подобные сообщения часто содержат панические формулировки и ссылки на внешние угрозы. Кроме того, текст выглядит как перепечатка с индийского новостного портала без явной проверяемой ссылки на официальные источники ОАЭ, что ставит под сомнение достоверность."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOS1BUcEhOd1RTT1Q3UjZ0UlJyakpYNGFaUzZHSTQwR3h1bXU2WXZDQ0hETHBPRUwyOFQ3a3NST1drNVVlSi1pOGN0Mm5weEpqd3lzdjVOdEctUlJYbjdzazVfY2JHNEVNWDJCOHZhZGRmSXRuQUVNQzdKTUQwaHBTRWdMcmQxTWlFQ3NYRm1VRWlxenB5UkZrVGY5ZVdPeFRNeHhzZkQ3aktoSjBzMDBraVhSUmdOMjVKaFFoY3ZaMFB3SHlhcllUMzYtNHZCNmkxcHBDU3hTTTd6UEczMFpTbWo4bnFnSnlSU0xVWGRnMzRLWTRmQm43YUlSc3BWU3dBQks0RkhUYlBmUENXeWN5UdIBlgJBVV95cUxNdG5oaHA1R0xTNEJHTm5zMlMwQ1Q5cTBOeHppUFR2TU1RaUF3NzBTNEVkLXZHdElIM21OQ3NNYTRtTGduMGVJM0VubGdQSndxaDRncDI2Qk91U0loMzdxZWtkLUJ1THVCX2RNUTM1YU5telA2UGtfY19WWHdmQ1pyMEJTcVBPVFJFRDZqUkp0QkM0WkVNMzBwYm8tSkd5YzV0cFpNQ0pkYTN5NG9kSktmMzFCdm9SSFpURnNoQWFHZU5FS3N3bkdvYU5zYVJSRzUtX2lFRzVRZmM4YUNmNlI0Z0NyQU5qQTJiRzBZMG85SFBqNzhmZjFPc2I3ekg3cHRRVUx6d3ZkQkt4dF9pUjRDT1RyeTNIZw?oc=5",
+    "timestamp": "2026-08-19T03:24:53.008312+00:00",
+    "status": "rejected",
+    "content_hash": "e855598c47f9b3a020ee50094ac628cd",
+    "strict_hash": "e855598c47f9b3a020ee50094ac628cd",
+    "fuzzy_hash": "248c78c97be27fa1aec41de204bbdb1c",
+    "reason": "Оценка: Новость касается торговых отношений ОАЭ и Ирана, а также ракетных предупреждений в Дубае, что напрямую связано с регионом. Однако тема затрагивает военную эскалацию и большую политику, что нарушает правило 2 (политика и конфликты). Кроме того, заголовок выглядит кликбейтным и не содержит проверяемых деталей, а источник (Hindustan Times) не является профильным для оперативных новостей ОАЭ."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVjRZVmtXb2VLY0tFS3ZEQ1k1R3RsWUtENEc4Q0NsdHh2bUFRUEJxTWtxRGhscUVaOGUycC03MkcySjQwWWVIT0pobzh0cGNnSUNDNk9ScGdGeTdrN2UySGNsOGNHc3poYlM2MTJRd3l1MHNvZDNUQ2t0R3dNVVpSNjRxWUk5Z2J0SUpIZjFQNlFoQm9YSUd2Qml3Rmg3TGwwV2NPMkc4QUxQVzktY3FMR0FOemJSd1czZXpkWW0wRVVYTzg?oc=5",
+    "timestamp": "2026-08-19T03:24:59.876887+00:00",
+    "status": "approved",
+    "content_hash": "bf28d286d8a0efcab4295ca907363ba5",
+    "strict_hash": "bf28d286d8a0efcab4295ca907363ba5",
+    "fuzzy_hash": "82f88dcbcf85100029912b20b2c288e2",
+    "reason": "approved"
   }
 ]
