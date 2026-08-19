@@ -1159,5 +1159,23 @@
     "strict_hash": "090deca23132a36d299f49045303a13b",
     "fuzzy_hash": "b0c8970278ae1b036e2eef1d4434d091",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://indianexpress.com/article/cities/pune/pune-delhi-spicejet-flight-delayed-by-12-hours-over-dubai-glitch-10839175",
+    "timestamp": "2026-08-19T05:20:13.153882+00:00",
+    "status": "rejected",
+    "content_hash": "1cb60a89dcfda8219b783316a7683aef",
+    "strict_hash": "1cb60a89dcfda8219b783316a7683aef",
+    "fuzzy_hash": "bcb00ee2b9a3db7ebb3cf2b10202f96c",
+    "reason": "Новость о задержке рейса SpiceJet в Индии лишь косвенно упоминает Дубай («Dubai glitch»), но не имеет прямой связи с регионом, не представляет интереса для русскоязычных жителей ОАЭ и не содержит проверяемых деталей, относящихся к Дубаю. Это локальная индийская история, не соответствующая тематике канала."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/08/18/uae-air-defence-systems-respond-to-missile-threat",
+    "timestamp": "2026-08-19T05:20:15.484439+00:00",
+    "status": "rejected",
+    "content_hash": "72b253732ba6f1b4d2e315cc9a30ecae",
+    "strict_hash": "72b253732ba6f1b4d2e315cc9a30ecae",
+    "fuzzy_hash": "95f345fc1813b9260535ff5f22b418e1",
+    "reason": "Новость напрямую связана с Дубаем и ОАЭ (сирены и оповещения в Дубае и Шардже), не является политическим или рекламным материалом, не содержит неуважения к ценностям UAE и не похожа на дубликаты из опубликованного контекста. Однако текст обрывается на полуслове («...the situ...»), что делает его недостоверным и неполным для публикации, а также отсутствует явный URL источника для проверки фактов."
   }
 ]
