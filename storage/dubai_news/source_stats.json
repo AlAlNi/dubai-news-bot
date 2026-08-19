@@ -1087,5 +1087,23 @@
     "strict_hash": "b7906f823c7711c96a23763708df8bba",
     "fuzzy_hash": "60182ebd746de83b800571a278b3e172",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT1l0eHprQ2dpV2ptMW9WNklsQWRHVmZSOGJDdHY3a0NVNWdIeE4wWFV4b3EzbnU1elhEUWlLQ2wtQnVuelhnbGxYLWI4Z2lkUmVnY0FTRjE0Z1VadDcwMUNTYXZ0WWVjY3pLYmVVMmp0ejI2VWtjRHB5d3J4WkdBS1kwLUJnRk8xdjhvV09tRldWajBQQkYxUWhUYVg?oc=5",
+    "timestamp": "2026-08-19T11:15:34.379583+00:00",
+    "status": "rejected",
+    "content_hash": "288aac297a7faed68b2375a8470b48d6",
+    "strict_hash": "288aac297a7faed68b2375a8470b48d6",
+    "fuzzy_hash": "549098c3e5ba6f100ab4bfd884d6ee39",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (инициативы полиции Дубая), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Тема — экономическое и социальное влияние, что может быть интересно русскоязычным жителям. Однако текст крайне короткий и не содержит деталей, ссылок на конкретный отчет или URL источника, что затрудняет проверку достоверности. Признаков ИИ-генерации или кликбейта не видно, но отсутствие проверяемого источника и содержательной части делает новость неполноценной для публикации.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRVRZdjA4RndNblFqdU1WQUtQM0EzMFd0SzVCMTJ1Q3hKb0ZFNVJPT3BuS1E2NWFiRC0zanpyTDdzU3JVR0ExUmszQnNHSjBYX2RGUWFYbWRHckFvcTdmX2lqYVUtaEs2OUhva3RrcnJwdEl1bmVGRUF1QW9OVWt2OVNRdFptTjlnLWdRVG1pYm9LZkphTnN1cHFDTlozcVVkelVHVzdKT3FtZGVFdmlKV19zR1ZfTmx4V1VHZlh3?oc=5",
+    "timestamp": "2026-08-19T11:15:36.339204+00:00",
+    "status": "rejected",
+    "content_hash": "4e1f1527c043dfd06984fc90dbb79994",
+    "strict_hash": "4e1f1527c043dfd06984fc90dbb79994",
+    "fuzzy_hash": "72b902d1ab6197020d5509838df201ad",
+    "reason": "Новость касается ОАЭ, но основная тема — военный конфликт и большая политика (ракетные удары и торговые санкции), что прямо запрещено правилом №2. Кроме того, текст выглядит как обрывок заголовка без проверяемого содержания и не несет практической пользы для русскоязычного жителя Дубая."
   }
 ]
