@@ -1028,5 +1028,23 @@
     "strict_hash": "bf28d286d8a0efcab4295ca907363ba5",
     "fuzzy_hash": "82f88dcbcf85100029912b20b2c288e2",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.express.co.uk/news/world/2240322/dubai-alert-live-missile-warning-iran",
+    "timestamp": "2026-08-19T03:37:28.355839+00:00",
+    "status": "rejected",
+    "content_hash": "9ab4976346ee90ce05dc033f994b88f3",
+    "strict_hash": "9ab4976346ee90ce05dc033f994b88f3",
+    "fuzzy_hash": "7a411789e9ffba7eb9fc5ba337998bab",
+    "reason": "Новость касается Дубая и ОАЭ, но основная тема — военный конфликт с Ираном и паника, что нарушает правило 2 (политика и конфликты) и правило 4 (уважение к ценностям UAE). Текст содержит признаки кликбейта и непроверяемые детали, а также не имеет явного URL источника."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMUVJVE5CZ2RkU3Bxc0xYMkFtWV9XUDlyODhiejZqV3BoQjcxZUVoWGkwRWFyTWZocXVKb2pDWjZYMTFLYW1tckc4b1ItbGlhcGtQZEo0MV84ZFliTWdVMTRnQ2JjUUlST1VPbU1tWEF3M0NCVW1HMk5jeTNTYlJ6SUYxMHR0ZTR2bDFyajZVWXBKc09YWFNyLU5hNGpuMVl3U3ZqUkZVZTlwREHSAbABQVVfeXFMTjFDN1Z3R1otR3BwMkZOUE9KODZ0WkIyYWVGN1hGMmtkUGlsQ3R6bUdtakhETHYwMmlaUXJrd2JDT3NoLUdIZXd1YjdXbGstS1lsdWNITGVFbmFwUkxvNlhxOXVqR2QzaW1WWjJYZ2drQ0ZqbEpsZVhxelFiV2JWeTVxYjMzdF9RTm5hbWY1cElYQUhDMzBzeE1pWlY5YTJHcEExSW0wYWx2SzYxY3JZUm4?oc=5",
+    "timestamp": "2026-08-19T03:37:35.410849+00:00",
+    "status": "approved",
+    "content_hash": "0943677f7791f51ef82da9e7c90cb148",
+    "strict_hash": "0943677f7791f51ef82da9e7c90cb148",
+    "fuzzy_hash": "5d76d3a085d80611aaff02108e1d17cc",
+    "reason": "approved"
   }
 ]
