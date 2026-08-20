@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYTXRzOERVX1RDTTkyeFZQblNvUVpuU0dCbERfRU9vMDBxSHRXVXZBYk5aeDgyZVJYTUtlanl3S1BBMDRGUUROVTZFaTZXVjhlNzU1SjA1ZG1RcUVWZDE0YkFSakFjTkVEZDRZZQ?oc=5",
-    "timestamp": "2026-08-18T09:02:58.196340+00:00",
-    "status": "rejected",
-    "content_hash": "e14878b386b9546fb7db2ac671fece77",
-    "strict_hash": "e14878b386b9546fb7db2ac671fece77",
-    "fuzzy_hash": "53c48ce8ea236901f10cbfec4be035e1",
-    "reason": "Новость касается правил пребывания в ОАЭ (180-дневный визовый режим), что напрямую связано с регионом и будет полезно русскоговорящим резидентам. Тема не политическая, не рекламная и не содержит неуважения к ценностям UAE. Однако текст новости крайне короткий и не содержит фактических деталей, что делает его похожим на заголовок-кликбейт без проверяемого содержания. Источник указан (arabianbusiness.com), но сам текст не дает информации для проверки, а также отсутствует контекст, который бы отличал его от типичных справочных материалов."
-  },
-  {
     "url": "https://whatson.ae/2026/08/free-ladies-nights-in-dubai",
     "timestamp": "2026-08-18T10:17:26.321784+00:00",
     "status": "rejected",
@@ -1326,5 +1317,10 @@
     "strict_hash": "0cd1272d92731bfefef9070864157da6",
     "fuzzy_hash": "5da4237c01a2da04b835adfdba8e60ee",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/dubais-iconic-toyota-building-to-be-demolished",
+    "timestamp": "2026-08-20T09:42:43.999485+00:00",
+    "status": "published"
   }
 ]
