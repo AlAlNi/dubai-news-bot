@@ -1407,5 +1407,41 @@
     "strict_hash": "77c99f534937f335f49c3d730e9fa3f9",
     "fuzzy_hash": "d6ea7fb2d62b9dbd8f7ef477c0619bd6",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/back-to-school-deals-teachers",
+    "timestamp": "2026-08-20T12:24:36.415810+00:00",
+    "status": "rejected",
+    "content_hash": "f8ea746f4ebf61441e73b5dc88feb895",
+    "strict_hash": "f8ea746f4ebf61441e73b5dc88feb895",
+    "fuzzy_hash": "442b9daf528b5a49c2977f9dcb5e23d1",
+    "reason": "Эта новость представляет собой подборку скидок для учителей в Дубае, что является рекламно-потребительским контентом без общественно значимой ценности. Текст выглядит как типичный пресс-релиз с признаками ИИ-генерации и не содержит проверяемых фактов или ссылок на официальные источники."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/you-can-now-book-driverless-taxis-on-uber-in-dubai",
+    "timestamp": "2026-08-20T12:24:44.685863+00:00",
+    "status": "rejected",
+    "content_hash": "aef7ca524eb7a90d7596c20833388128",
+    "strict_hash": "aef7ca524eb7a90d7596c20833388128",
+    "fuzzy_hash": "e4151eb3f159db12831f37c210eeac35",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (запуск беспилотных такси Apollo Go в Uber), не содержит политики, рекламы или неуважения к ценностям ОАЭ. Тема актуальна и полезна для русскоязычных жителей, так как касается доступности автономного транспорта. Однако текст выглядит как перепечатка с сайта What's On без явной ссылки на первоисточник (URL не указан), что затрудняет проверку фактов. Дубликатов среди опубликованных новостей нет (похожая тема была в п.6, но там речь о статистике, а не о запуске в Uber).\n**Решение:**"
+  },
+  {
+    "url": "https://emirateswoman.com/podcast-studios-to-record-in-dubai-2026",
+    "timestamp": "2026-08-20T12:24:53.217194+00:00",
+    "status": "rejected",
+    "content_hash": "20a5a18213af1ed507d5ddf521edbcb1",
+    "strict_hash": "20a5a18213af1ed507d5ddf521edbcb1",
+    "fuzzy_hash": "95becc5fe4937c4e2928227db720077d",
+    "reason": "Эта новость — типичный пример контента из рубрики «лайфстайл»: список студий для записи подкастов в Дубае. Она не содержит общественно значимой информации, а по сути является рекламно-справочным материалом, который уже публиковался в аналогичных форматах (например, «6 second-hand spots to buy vintage pieces in Dubai»). Связь с регионом есть, но польза для русскоязычного жителя минимальна, а формат явно дублирует предыдущие публикации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPTU5GZnpnbXlteTNKV250bFZfaWpnZ0lrX2RZQ2laRVpOdjV4eEpxQnFzWHUwWHJNbGZ2SjB4MGFsZ25WYnItTF9GaDZfYVJMQjlPb19kbzl5a2VXanN3REkyUG0yaDdDNUQ0Q1JwVGx5Y2N2ajZ0dE04NndWSzZPdXZwMmJBTVA0b3NXSzE0aXl5TTAwSERaeGJEQlU2U0puSVE2X1hZNlFsaDdQSkNUMDN0Mm9melpPMTJtYkwzMTIxLURxNzRqTTVBRkszN3pKVDAtVTVTV1dvakZMUHZqYVhiUHBKNUtMUS13emVpZHFld0pxMkloUHgxN1dpVVY0YmJ6MEM2THVDWU9iYTRKU0pQS0tpWlhaUGVkSko3cVBJbGpMMkxHVVBibHA?oc=5",
+    "timestamp": "2026-08-20T12:25:01.102821+00:00",
+    "status": "approved",
+    "content_hash": "0c6653278e44d64bcc2b135f4ad366da",
+    "strict_hash": "0c6653278e44d64bcc2b135f4ad366da",
+    "fuzzy_hash": "e96dc7fc04d2a832a0dc458ab53f2512",
+    "reason": "approved"
   }
 ]
