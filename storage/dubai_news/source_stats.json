@@ -1515,5 +1515,32 @@
     "strict_hash": "2eb22ccf5a94b8f419bfc0163e4107c4",
     "fuzzy_hash": "bf665e4156a59a5455ee520489b44e89",
     "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (аэропорт Аль-Мактум) и носит инфраструктурно-деловой характер, без политики и рекламы. Однако текст крайне скуден — это фактически заголовок и название компании, без деталей, сроков, значимости для русскоязычных жителей. Отсутствует проверяемый URL источника, а содержание не даёт полезной информации сверх заголовка. Признаков ИИ-генерации нет, но новость выглядит как обрывок пресс-релиза, не прошедший редакторскую обработку.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNFJnYVhWQlBFUnhoZXJHWTZlSEJNZF9uamxRUVlkQmFrU3p5RV9lM3ZjOW00TGtISmxOaExkeDRLRnE0UXR3LVhndExkU2ZYMlFLLUdoWWRoS1lGd2dncWM2d1FIQk1YZHRTd3VFV0JsajFIeTY1dnNDWGFYSUNlYlV3WWdHY0N0MDUxZHFZX0M5enpWbHBpVDBGTThMRm03ME9Z?oc=5",
+    "timestamp": "2026-08-20T16:21:46.435764+00:00",
+    "status": "rejected",
+    "content_hash": "9fd365e79d695e1025137ae58066d96d",
+    "strict_hash": "9fd365e79d695e1025137ae58066d96d",
+    "fuzzy_hash": "9e5ad23ada215d8cbfc2ce6e3e41bd78",
+    "reason": "**Оценка новости:**\nНовость о назначении Тристана Томпсона глобальным послом Dubai Basketball пересекается с уже опубликованным материалом о его переходе в офис клуба в Дубае. Хотя формулировки разные, суть одна — участие игрока в развитии баскетбола в эмирате, что делает её дубликатом по смыслу. Для русскоязычной аудитории Дубая новость не несёт новой практической информации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdlF5MmtORmIzejRTdjdQNmJobWl5WE5LYnNzRlhhU0VXcjI1VHZXOERhRWxvZ0VGTW9YZmdQc2FkTmtNb1NCejFmZXBHTVJvOTZVMnp6WmZ4SHI4cldJX0xwZzRRVExEUU9rTDFZSTVleGhYbWFVUTRBTDBhdGt2OE9n?oc=5",
+    "timestamp": "2026-08-20T16:21:48.841317+00:00",
+    "status": "rejected",
+    "content_hash": "a5380b7844f82e8c2bf1d423e8ec4e01",
+    "strict_hash": "a5380b7844f82e8c2bf1d423e8ec4e01",
+    "fuzzy_hash": "eb45601a5a54676583507572de196b54",
+    "reason": "Оценка: Новость представляет собой гид по фитнес-клубам Дубая, что является типичным контентом lifestyle-издания, а не оперативной новостью. Текст не содержит общественно значимой информации, выглядит как рекламный/редакционный материал без проверяемых фактов и явного URL источника, а также не соответствует формату новостной ленты."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTURYam9uOXliTTV5UF9may04azQ0U0h4cHJ0RjdkZ0FkT0luU2tmWFFjN1RVNnkzeFBkdDlYSW94cEFtUzhiN1R2M0pMakN0cDBWZWp3c3JZdHdZb3RReF9YWW1WR3BxeEEtbGdlajJROGZFZElVRnFBUWdjdGFZSUFkY1hWdDR0bGhCa1hLVjhSb2ZPSktXM0VWRDZSZ0U4MUxYb25Ody1QN0FDbjZJ0gHCAUFVX3lxTE1OSk1yWDV3Y2ZmR05oT21ZMmdXcGtHd0xZTDJaWWV5VkRrVTl5ZDBCUzlFenEzQ3A5TThuT05IUWlGMVl3QzdhaXktaWduaEJ1TTdDTDl5blZlRU05V1ktSHprUWxlTWR5dGRtOU11dGNRYmtFMUZGWnEzZXRMdGtNOFEzYW40MXdkOXBhMFlJNjZhODIwaFhQSjdDNVhYaURGVTRibjl6QkU0X0RpaTBhWERwSFpNUkY0NnRjU3U2U2VR?oc=5",
+    "timestamp": "2026-08-20T16:21:49.789085+00:00",
+    "status": "rejected",
+    "content_hash": "63872ca4530f1461eb962dc97eaa9cb5",
+    "strict_hash": "63872ca4530f1461eb962dc97eaa9cb5",
+    "fuzzy_hash": "4e05a0ed7edbc7f03b43e51205589bcc",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
