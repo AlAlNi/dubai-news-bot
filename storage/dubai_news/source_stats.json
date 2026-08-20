@@ -1461,5 +1461,50 @@
     "strict_hash": "fac71449610d61958ea7f0de192b87a1",
     "fuzzy_hash": "2c26f2bb7da4cb20cae5c5f372b7df14",
     "reason": "Cheap prefilter: слишком короткий текст (119 символов)"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/13-restaurants-giving-away-free-food-at-al-qana-drive-thru-abu-dhabi-this-friday",
+    "timestamp": "2026-08-20T13:38:04.111313+00:00",
+    "status": "rejected",
+    "content_hash": "645fc557d3970460a2840937bbb3e7de",
+    "strict_hash": "645fc557d3970460a2840937bbb3e7de",
+    "fuzzy_hash": "c45ad68d2167f07a64ab891a4f34a505",
+    "reason": "**Оценка новости:**\nНовость о раздаче бесплатной еды в Al Qana Drive Thru в Абу-Даби не имеет прямой связи с Дубаем (событие проходит в другом эмирате), а также носит явно рекламно-развлекательный характер без общественно значимой ценности для русскоязычной аудитории Дубая. Кроме того, текст выглядит как анонс с промо-акцентом, что не соответствует редакционной политике канала."
+  },
+  {
+    "url": "https://emirateswoman.com/7-refined-emirati-jewellery-brands-that-everyone-needs-know-about",
+    "timestamp": "2026-08-20T13:38:12.791230+00:00",
+    "status": "rejected",
+    "content_hash": "a8523a0a984056e0acd00f7a9c775d29",
+    "strict_hash": "a8523a0a984056e0acd00f7a9c775d29",
+    "fuzzy_hash": "b78c8d06cf729b693eb196121fbb9480",
+    "reason": "Оценка: Новость представляет собой редакционный материал о локальных эмиратских ювелирных брендах, что соответствует региональной тематике и может быть интересно русскоязычной аудитории, интересующейся культурой и потреблением в Дубае. Однако текст носит явно рекламно-имиджевый характер (список брендов без конкретных фактов или новостного повода), что нарушает правило 3, а также не содержит проверяемых данных и ссылок на первоисточник, кроме самого сайта-агрегатора."
+  },
+  {
+    "url": "https://emirateswoman.com/your-guide-to-dubais-coolest-gyms-visit-right-now",
+    "timestamp": "2026-08-20T13:38:23.007628+00:00",
+    "status": "rejected",
+    "content_hash": "edc87c202df0054283087277cf6afa4a",
+    "strict_hash": "edc87c202df0054283087277cf6afa4a",
+    "fuzzy_hash": "6f8fd7e597d95787ee7f4b9e7da2db14",
+    "reason": "Этот материал — типичный редакционный гид по фитнес-клубам, опубликованный на сайте Emirates Woman. Он не содержит оперативной или общественно значимой информации, а по сути является перечислением заведений с рекламным оттенком. Для новостного канала такой контент не подходит, так как не отвечает критериям полезности и достоверности (нет проверяемого источника, кроме самого блога)."
+  },
+  {
+    "url": "https://www.nation.com.pk/20-Aug-2026/trump-says-situation-iran-good-uae-suspends-trade-tehran",
+    "timestamp": "2026-08-20T13:38:25.495753+00:00",
+    "status": "rejected",
+    "content_hash": "79eb70d497eab4eed9a6788ba6f70ce9",
+    "strict_hash": "79eb70d497eab4eed9a6788ba6f70ce9",
+    "fuzzy_hash": "701126c901bb4a3e3b1e15a472152a83",
+    "reason": "**Оценка новости:**\nНовость касается политической ситуации между США и Ираном, а также упоминает ОАЭ лишь в контексте приостановки торговли с Тегераном. Основная тема — большая международная политика и конфликт, что прямо нарушает правило №2. Связь с Дубаем/ОАЭ носит второстепенный характер, а сама новость не представляет практической ценности для русскоязычного жителя Дубая. Также отсутствует проверяемый URL источника."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYXdvUm8zdDh3MF9TN0phZmVlS0M0Mks1cnV2WnNJb2U5cHRlTW14VGJ5OUhzN1llYlhYZVhDd0ZtT01uZ1F1MzFUUUxPN01fRFpEZnBNRTc4dVVDRWJFdXUyXzRQNWNDTXFYbG9oYUlXMjJfdmhwcy1GcllDZ3RteTA1QmVsNDFsS2VyQXNjTTVERnJjaDZQQkJralRFTTBUUmpWY05qQTB4a3BURFdMWnp5QzZTUQ?oc=5",
+    "timestamp": "2026-08-20T13:38:27.860263+00:00",
+    "status": "rejected",
+    "content_hash": "3b0848ee50c2e86f8da1b8e50735c27b",
+    "strict_hash": "3b0848ee50c2e86f8da1b8e50735c27b",
+    "fuzzy_hash": "35a4090b3f5c96aa3c4481c8614e7062",
+    "reason": "Новость о запуске беспилотного такси Uber и Baidu в Дубае напрямую связана с регионом и представляет интерес для русскоязычных жителей, однако она является точным дубликатом уже опубликованной новости (пункт 1 контекста) — тот же факт, тот же источник (Uber Investor Relations), та же тема. Публикация повторного материала нарушает правило 7."
   }
 ]
