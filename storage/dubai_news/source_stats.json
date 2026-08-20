@@ -1380,5 +1380,32 @@
     "strict_hash": "2da4c66d5361c1ca7aca519a420f2233",
     "fuzzy_hash": "de0218c33aab90f9ea7f91cdde87a1f4",
     "reason": "Оценка: Новость представляет собой рекламно-описательный материал о косметической процедуре (корейский детокс кожи головы) без явной общественно значимой или полезной информации для русскоязычного жителя Дубая. Текст выглядит как типичный промо-материал издания Emirates Woman, не содержит проверяемых фактов или ссылок на официальные источники, а также не имеет отношения к оперативным или регуляторным изменениям."
+  },
+  {
+    "url": "https://www.nbcnews.com/world/iran/united-arab-emirates-suspends-trade-iran-coming-renewed-missile-fire-rcna593433",
+    "timestamp": "2026-08-20T11:53:04.579565+00:00",
+    "status": "rejected",
+    "content_hash": "f17170627c4dd28552420068075f9feb",
+    "strict_hash": "f17170627c4dd28552420068075f9feb",
+    "fuzzy_hash": "f7c77335ff9e709acdfaf8a4585ff445",
+    "reason": "Оценка: Новость касается ОАЭ и Дубая, но основная тема — международная политика и военный конфликт с Ираном, что нарушает правило 2 (политика и конфликты). Также текст выглядит как перепечатка западного агентства без проверяемого локального источника, что снижает достоверность для канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOVFsNW5TendyODQ2LUJxMlpBaUgtMDBuUmp0dldlRUZocjVaT1lUR2Rfa2U4dm9IZ1VIWGx1MUllaDdlblFNX0tldjl6NS12N3ExbDd4a3p1cC1jbXhsNGZ2MlJQRkpPQmhWVDZyQ1N4SDZNc3pTQ00xSVg1SzZkWTI3ZkdGalpKYjV4emJqZmNHTGdXeVgxWURkRlFjN0JIZmQ3YU9JXznSAbsBQVVfeXFMTm5pdF80SHB0bGZJeHUyUWktUGtrbTRncl9lNlVSb3R1RFc1bFNidi1wU2dVR3pWcUU5ZXkxTk5yUEw3S3VUaTlobC1RWkFiMDdzdEZxdlAwWmN6SExsMkJZdG5aZ2JlaE1pYm81VzI0TkNPaC1ValBYMjc4MklZRWs5d1RzNmZWaTNfcmpqbHlYN3NhTnB2c0tXWTRkQ01XM19Cb3Q4ZHpET1pwME9BZ1E5R1NSbjdLNm9TWQ?oc=5",
+    "timestamp": "2026-08-20T11:53:07.038426+00:00",
+    "status": "rejected",
+    "content_hash": "a99256bc8f0e9cdb210d1aa5626c0c4f",
+    "strict_hash": "a99256bc8f0e9cdb210d1aa5626c0c4f",
+    "fuzzy_hash": "3d4feabc04330fb0fa3c30a578b6b94e",
+    "reason": "**Оценка новости:**\nНовость о сносе культового здания Toyota в Дубае напрямую связана с регионом, не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако она является точным дубликатом уже опубликованной новости (пункт 1 контекста: \"Dubai's Toyota Building demolition: 70% tenants evicted...\"), что нарушает правило 7."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZUF2b3hMbk1TaHpEY1lwYzhwNFN0T0J1a1R5NllQcDhVOU45cWFWSFBwTFk3XzhGaFRGdS1yX3VmSVE5clYxRE0tVlZWejRONHMtbkp1NDNfaC1tUkcxcEMzQkcxdG5PRjdqS3h2ZVJRNEFKRnlIRnFad2hoV3c0cG0zekRWSjMxTzZiVnpJZFNZb1JWV0ZKYlNqYmFuZUtWc0dDVkJkMTZUQQ?oc=5",
+    "timestamp": "2026-08-20T11:53:15.028857+00:00",
+    "status": "approved",
+    "content_hash": "77c99f534937f335f49c3d730e9fa3f9",
+    "strict_hash": "77c99f534937f335f49c3d730e9fa3f9",
+    "fuzzy_hash": "d6ea7fb2d62b9dbd8f7ef477c0619bd6",
+    "reason": "approved"
   }
 ]
