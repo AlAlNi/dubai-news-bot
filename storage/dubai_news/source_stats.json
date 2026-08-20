@@ -1425,5 +1425,41 @@
     "strict_hash": "0c6653278e44d64bcc2b135f4ad366da",
     "fuzzy_hash": "e96dc7fc04d2a832a0dc458ab53f2512",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.livemint.com/global/trumps-plan-to-squeeze-iran-s-economy-will-live-or-die-in-dubai-11787187618066.html",
+    "timestamp": "2026-08-20T13:27:03.165761+00:00",
+    "status": "rejected",
+    "content_hash": "7644d1d4b6bb361e2a4c915b0fe8c27c",
+    "strict_hash": "7644d1d4b6bb361e2a4c915b0fe8c27c",
+    "fuzzy_hash": "cd6532961a7c465ddf6c958383d8ca80",
+    "reason": "Новость касается влияния политики США на экономику Ирана через Дубай, что затрагивает международные санкции и финансовые потоки в ОАЭ. Основная тема — большая геополитика и конфликтные отношения, что нарушает правило 2 (политика и конфликты), а также может быть чувствительно для ценностей UAE (правило 4). Связь с регионом есть, но она вторична и не несёт практической пользы для русскоязычного жителя Дубая (правило 6). Источник не указан явно, что также вызывает сомнения (правило 9)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQQ3Nkd29ZdGFOOVNoS2tpRTd1XzlvaURCZkxVakNXZTlCaXZHWWF1WWxXSHJOOFJPNG0yc0dmMjZYSGFtajVTaE50ZnlyVGR4Q2JWWFpZcHQ5WjhXbEFoSUhmMEhmWWVmWnpaNDlvdkZIOV8tb1NGN3lLaVRNamFmdUpFNXVmd1NxM2JhNEZxd205UmtvWm0tLTJCcUtRTDN6Mkh5cTRwX3U3R21oZUtzN1ZBd1ZwRGlZZm5WaDhVM3FsSlQ3MnpjQXpXX1J6NHJ3UnNUTW52OHVVVTZ4TXJiSjNEVmR0LURZdWNGclNrSW9IU1o0ekQwbFJrVkR6aEJIMElJVk15azcyWXIxVHF4UVNhYTg2ZzMwaGxtdkQ5TzJvWWpqQ2ZlTmZIRm0?oc=5",
+    "timestamp": "2026-08-20T13:27:07.081614+00:00",
+    "status": "rejected",
+    "content_hash": "45554e1a1899578f23dde93b16fb14f7",
+    "strict_hash": "45554e1a1899578f23dde93b16fb14f7",
+    "fuzzy_hash": "561397ee66135966f4894f185f21e13d",
+    "reason": "Оценка: Новость носит развлекательно-человеческий характер, связана с Дубаем, не содержит политики, рекламы или неуважения к ценностям. Однако это типичная «вирусная» история из разряда «милота», которая не несёт практической пользы для русскоязычного жителя и не имеет подтверждаемого первоисточника в виде официального URL (только агрегатор The Times of India). Связь с регионом есть, но новость не соответствует критерию полезности и проверяемости."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vbmgwYU9Mc01DRkp6SE1UblI3QjVJZFNsMmdqSlNZY1F4Z293eC1xcVZjTmNYeDNHOTJUQ1ZkSGFjTkJFSDFrcEtFNXF5S2VTeHpKX1JZRWFNRThBdW9yeDdJbWJ5MGVvaUlCSGhsLTlRcFQ1aGlzaG8zbTk?oc=5",
+    "timestamp": "2026-08-20T13:27:10.182815+00:00",
+    "status": "rejected",
+    "content_hash": "e6a5dc8bf503c9da554a2b60fa69c187",
+    "strict_hash": "e6a5dc8bf503c9da554a2b60fa69c187",
+    "fuzzy_hash": "f9a442b3600e6c791e1221c06dbd38e8",
+    "reason": "Оценка: Новость представляет собой анонс подборки скидок и предложений в закрытых помещениях Дубая на лето 2026 года. Это явный рекламно-развлекательный контент, не содержащий общественно значимой информации, а также не имеющий проверяемого источника в тексте (только заголовок и название издания). Тема не является срочной или критически важной для русскоязычных жителей, а сам текст выглядит как кликбейт без содержательной части."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CdVBUdFFGRUxrS0RvN0tJS2JRZXJnTW9xN2hadjRfNmxBRTlLel9TWGNISVJPRmxpeERDYlBfaG5KbnUzdGhnU2VwNWJhYVRocEtKOGdIUEdqSG9uSzFxQXBXbWZJUjg5Q3BnXzM3WDQyOWtPVWc?oc=5",
+    "timestamp": "2026-08-20T13:27:10.628438+00:00",
+    "status": "rejected",
+    "content_hash": "fac71449610d61958ea7f0de192b87a1",
+    "strict_hash": "fac71449610d61958ea7f0de192b87a1",
+    "fuzzy_hash": "2c26f2bb7da4cb20cae5c5f372b7df14",
+    "reason": "Cheap prefilter: слишком короткий текст (119 символов)"
   }
 ]
