@@ -1858,5 +1858,32 @@
     "strict_hash": "627dbf2b117f490737bd06a9773aa9f9",
     "fuzzy_hash": "b255b17d463ac7d87bc6ad19083daba5",
     "reason": "approved"
+  },
+  {
+    "url": "https://indianexpress.com/article/cities/mumbai/ghatkopar-woman-murder-domestic-violence-dubai-return-alone-mother-in-law-maid-10842182",
+    "timestamp": "2026-08-21T02:17:12.598141+00:00",
+    "status": "rejected",
+    "content_hash": "0079eae5e8df5455285752eca60ea4cb",
+    "strict_hash": "0079eae5e8df5455285752eca60ea4cb",
+    "fuzzy_hash": "941d6aeed731070170f0c6e1a8a71b35",
+    "reason": "Новость о женщине из Гхаткопара, убитой после возвращения из Дубая, не имеет прямой связи с жизнью в ОАЭ — Дубай упоминается лишь как точка транзита в личной семейной драме в Индии. Материал не представляет интереса для русскоязычного жителя Дубая и не соответствует критериям региональной значимости."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/tech/technology/with-9-3-billion-existing-dubai-investment-55274-jobs-new-mous-seek-to-expand-india-uae-ai-and-trade-ties/articleshow/133378555.cms",
+    "timestamp": "2026-08-21T02:17:15.255734+00:00",
+    "status": "rejected",
+    "content_hash": "b69454dfd2ac9c7aa69e980890e0f09c",
+    "strict_hash": "b69454dfd2ac9c7aa69e980890e0f09c",
+    "fuzzy_hash": "bf64928db6860c92fe53e1d52af0c762",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (Dubai Chambers) и ОАЭ, не содержит политики, рекламы или неуважения к ценностям. Тема экономического сотрудничества с Индией актуальна для русскоязычных жителей, интересующихся бизнес-средой. Однако текст является **точным дубликатом** уже опубликованной новости №1 из контекста («Dubai Chambers signs two MoUs in Bengaluru to boost agentic AI, India ties») — совпадает по сути, участникам и месту подписания.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUWhjU21rN2NTcjhiOUN5MkV6NnhCZGtmUURiOHZncEFheGIyUE1veHVDLU4tNWtPR1hEcDlyWUVyUjY2emVyazZacGdOTy1jYkZLNjRqdXhzU3lRSmk1aktiSHlCUHJpb29yZXJDcWNCaGVjVXpNOUdjUUo4Z2phcEk4al9IVW5ZQk9J?oc=5",
+    "timestamp": "2026-08-21T02:17:22.451824+00:00",
+    "status": "approved",
+    "content_hash": "fd504d50c1c554fe2e275970f44ff049",
+    "strict_hash": "fd504d50c1c554fe2e275970f44ff049",
+    "fuzzy_hash": "e5f09cee867c43e5ddb35d160decc69c",
+    "reason": "approved"
   }
 ]
