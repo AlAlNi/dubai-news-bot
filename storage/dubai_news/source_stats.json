@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://triblive.com/news/world/united-arab-emirates-suspends-trade-with-iran-after-coming-under-renewed-missile-fire",
-    "timestamp": "2026-08-19T20:54:07.668418+00:00",
-    "status": "rejected",
-    "content_hash": "c3544facae11650c59071435ea577532",
-    "strict_hash": "c3544facae11650c59071435ea577532",
-    "fuzzy_hash": "7cab2750729d9fc016a71c6b62642122",
-    "reason": "Оценка: Новость касается ОАЭ и связана с регионом, но основная тема — международная политика и военный конфликт (обстрелы, торговые санкции), что прямо нарушает правило 2. Также текст выглядит как перепечатка западного агентства с признаками кликбейта и не имеет проверяемого URL источника."
-  },
-  {
-    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-abu-dhabi-uae-is-it-safe-foreign-office-advice-iran-war-b3035423.html",
-    "timestamp": "2026-08-19T20:54:09.930350+00:00",
-    "status": "rejected",
-    "content_hash": "71790b7e8ac7ae8ee235673dc07a479e",
-    "strict_hash": "71790b7e8ac7ae8ee235673dc07a479e",
-    "fuzzy_hash": "ed100606244e8192a394ef161d879a22",
-    "reason": "Новость касается безопасности путешествий в ОАЭ после alleged ракетных ударов, что напрямую связано с регионом и крайне актуально для русскоязычных жителей и туристов. Однако тема затрагивает военный конфликт и геополитическую напряженность (правило 2), а также содержит признаки кликбейта и непроверяемых данных (правила 5 и 9), что делает её неприемлемой для публикации."
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORkVMVnRXcjZONEFQVUxYN2ZSaFpqRkJOY0ZkTDc5ZXkyTm9faUY1WE1pajZBeHM1S0FpeklTZmJTWmJmTkxmcEs0WDNSd01xelBkUXJWcFdESFZUUmFJSDRfbVhjUEtHbHRQNHlSaGNCOF81TzlHZUpZejNYUlhOMm5TWW0?oc=5",
     "timestamp": "2026-08-19T21:50:50.715188+00:00",
     "status": "rejected",
@@ -1598,5 +1580,10 @@
     "strict_hash": "3402fc0ba28adf75a88de5f5c2d1fc6d",
     "fuzzy_hash": "2ad3416cba34bb056c84769110388d29",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/08/21/hope-for-katia-sheikh-mohammed-to-fund-24m-treatment-for-jordanian-toddler-with-sma",
+    "timestamp": "2026-08-21T21:31:59.549075+00:00",
+    "status": "published"
   }
 ]
