@@ -1809,5 +1809,41 @@
     "strict_hash": "a86fe4b5006050040686b753609ab170",
     "fuzzy_hash": "ad2fc14ead248e976ea667c778c11a41",
     "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (тендер на строительство метро) и представляет интерес для русскоязычных жителей, следящих за развитием городской инфраструктуры. Тема не является политической или рекламной, а источник (calcalistech.com) — проверяемое деловое издание. Однако новость пересекается с уже опубликованным материалом о Dubai Metro Blue Line (пункт 1 контекста), что создает риск дублирования темы, хотя и с другим фокусом (тендер vs станции).\n**Решение:**"
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/08/20/tmt-newswire/globenewswire/fusion-fuel-announces-approximately-14-million-in-new-lpg-engineering-subcontracts-signed-in-dubai-uae-with-potential-annual-utility-revenue-of-up-to-10-million/2409275",
+    "timestamp": "2026-08-21T00:38:44.334351+00:00",
+    "status": "rejected",
+    "content_hash": "996703d1243500a0dd44ce8fe5f4fffa",
+    "strict_hash": "996703d1243500a0dd44ce8fe5f4fffa",
+    "fuzzy_hash": "251aa484aded19c85d79caea522634a2",
+    "reason": "**Оценка новости:**\nЭто корпоративный пресс-релиз ирландской компании Fusion Fuel о подписании инженерных субподрядов в Дубае. Текст носит явно рекламный характер, ориентирован на инвесторов и не содержит общественно значимой информации для русскоязычных жителей Дубая. Связь с регионом формальная (упоминание Дубая и Абу-Даби), но новость не представляет интереса для целевой аудитории канала.\n**Решение:**"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/dubai-chambers-signs-two-mous-in-bengaluru-to-advance-agentic-ai-collaboration-and-strengthen-trade-and-investment-ties-with-india-2-2",
+    "timestamp": "2026-08-21T00:38:44.548398+00:00",
+    "status": "rejected",
+    "content_hash": "70a257a0de5637cb895c52bcb98fca9e",
+    "strict_hash": "70a257a0de5637cb895c52bcb98fca9e",
+    "fuzzy_hash": "52e35fce49f98d61b3faf4ff03721589",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcnFHMGd2aGtSZVFOUnZMREg5Z1lpLUR4VDk1VVMyWjkxSjE1RWx6M1hMMmdPUEc4NWdESzd1VVlYZ0FzWUFtQ2RmY29EZFRWNjUxZEhmU1UwV3hlREJFRVNfaWExSGc5ZDZFVUFlV2hPY3EyaDMyUmtYV0FwOWdGWUVVNUFlM2s?oc=5",
+    "timestamp": "2026-08-21T00:38:49.337627+00:00",
+    "status": "rejected",
+    "content_hash": "ae5236bfadcce6b09a7a190ca0960c00",
+    "strict_hash": "ae5236bfadcce6b09a7a190ca0960c00",
+    "fuzzy_hash": "64a4872656a22d958a167b03d203842f",
+    "reason": "Оценка: Новость напрямую связана с Дубаем (полиция Дубая), не касается политики или конфликтов, не является рекламой и не содержит неуважения к ОАЭ. Однако текст представлен в виде короткого анонса без ссылки на первоисточник (только Yahoo Finance), что затрудняет проверку фактов, а также отсутствует явный URL для подтверждения данных исследования."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObF9KWW9vQ3MwUndZTThBU09FLWZpaUk0dnd0RWV4TUpDd1ZldHF2NnlKc3RIUy1JTFQ0LVNuRThiVWdDby1HYkl5WGFfZnRWVVlHS3BwNXkwSFlTdEVYaHo4dFdoUjNJZWttOW1ybzhIcWlZODBUa19sVUtYMm1UNElhS3dJU1RldlUxMVVVYzJzSnN1cGEwdVJqa3B6d0N3OHFQbDhxVWNJOGg4WGdBU0FBZ9IBwwFBVV95cUxOVTRZM2dhV0hMSGdzOGc4aHJ2S0x2LVVMZ1NxUjIyRFNiMm1DMkhGMnZid1Q4N3ctUlJIdFJrT0FyN2hOazhpMGNta3ZQeFVaSnBaVDgyaFVQdFZ6b0MxV0J0ZFBkVV9zUjI4ZnZJa3FzYURwUjhOMlJNdTRRNUJaNmFWMExkZ2c2VGdXM3NiMHhZdHNCanh1ek12VkNGUHQ0S3NzMHVjdEdlcTNrM196TnBUOVBlWHJqR2U4R05RT2hkWjg?oc=5",
+    "timestamp": "2026-08-21T00:38:57.879692+00:00",
+    "status": "approved",
+    "content_hash": "6a7afc387dc9432fe6c50724b94668ff",
+    "strict_hash": "6a7afc387dc9432fe6c50724b94668ff",
+    "fuzzy_hash": "61d8d5c968913d805aaec94f8568c7b5",
+    "reason": "approved"
   }
 ]
