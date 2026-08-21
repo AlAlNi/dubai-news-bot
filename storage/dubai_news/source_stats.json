@@ -1827,5 +1827,23 @@
     "strict_hash": "3de13aba7e33ad31fe9eecd866d6c1ba",
     "fuzzy_hash": "b18fcd118d5ae2055f5a13858add5713",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.yardbarker.com/nba/articles/dubai_basketball_hires_tristan_thompson_as_global_ambassador/s1_14822_44197794",
+    "timestamp": "2026-08-21T04:18:28.134309+00:00",
+    "status": "rejected",
+    "content_hash": "de6dea2232a2b9abf211ae434030f001",
+    "strict_hash": "de6dea2232a2b9abf211ae434030f001",
+    "fuzzy_hash": "5ad6a851e5e8a7cd05374dd57bfa5c50",
+    "reason": "Оценка: Новость о назначении Тристана Томпсона глобальным послом Dubai Basketball связана с Дубаем и спортом, не содержит политики или рекламы, и может быть интересна русскоязычной аудитории, следящей за спортивными событиями в регионе. Однако она является дубликатом уже опубликованной новости (пункт 7), так как ранее выходил материал о том, что Томпсон присоединился к фронт-офису Dubai Basketball."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMW04X3Y4bDFNdkdBS05rTzVWblhmSzFKeDd3Zk9hU21pYmNNZHJQYlZLbERaV0hGQlBwZk5oUmZJbUxTbTlSemJNbm1rV0syOWpTRVExS0wwN25oSXNiRU1IWDZ2SzhILUg2WnI2ZlJUQWp5Q0I3ZmhMQVBwSjVYVEdVRW1yYldUNnpXOU9hSkR4UEJ4NzNTV3RkZ0JWc0pCblBpbWpDZkdvV2550gHHAUFVX3lxTE9UUDZBNGN1RjlHa0dKQ1VOZmhzQXBnSDdRUzNSVDE0RGFiLW95REliRGcxZmFFa3dGUU1mLUNKMTN5MU9NRjlkcGRRV3ZVaHFndFhSbmtVd0pPTjJNZm1nbGRiaHFwN3V2SUZuamFVZjBKZG9DaUNiTEpxNjdwTThDa29DdFVBNTdwQWRUblVNTWhDY3RNT2tGcTBNeTVLV3pLWm9OREpfZTNzbkZxSlZxVmdFUnFma2NYakJLbDhQTVFqSFNqZFU?oc=5",
+    "timestamp": "2026-08-21T04:18:31.232653+00:00",
+    "status": "rejected",
+    "content_hash": "2ab2938f38df47bd65e6c6a494bafcf6",
+    "strict_hash": "2ab2938f38df47bd65e6c6a494bafcf6",
+    "fuzzy_hash": "3f71addbfee409cc1f4e29cc8698155a",
+    "reason": "Оценка: Новость о сносе знакового здания Toyota Building в Дубае напрямую связана с регионом, не содержит политики или рекламы, и представляет интерес для русскоязычных жителей, следящих за городскими изменениями. Однако она является дубликатом уже опубликованной новости (пункт 8 контекста: \"Dubai's Toyota Building demolition: 70% tenants evicted...\"), что нарушает правило 7."
   }
 ]
