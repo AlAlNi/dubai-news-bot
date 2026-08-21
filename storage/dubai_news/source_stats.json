@@ -1831,5 +1831,32 @@
     "strict_hash": "6a7afc387dc9432fe6c50724b94668ff",
     "fuzzy_hash": "61d8d5c968913d805aaec94f8568c7b5",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.theweek.in/news/middle-east/2026/08/20/why-is-dubai-demolishing-the-famous-toyota-building.html",
+    "timestamp": "2026-08-21T02:07:23.715620+00:00",
+    "status": "rejected",
+    "content_hash": "5a2e32720ec1d79fd2c5ede731f50ef4",
+    "strict_hash": "5a2e32720ec1d79fd2c5ede731f50ef4",
+    "fuzzy_hash": "e13af32b7489576c13fe03239883da78",
+    "reason": "Новость о сносе Toyota Building напрямую связана с Дубаем, не касается политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Однако она является точным дубликатом уже опубликованной новости под номером 7 в контексте («Dubai's Toyota Building demolition: 70% tenants evicted...»), что нарушает правило 7."
+  },
+  {
+    "url": "https://scanx.trade/stock-market-news/companies/motherson-incorporates-dubai-jv-hellmann-logistics/48780233",
+    "timestamp": "2026-08-21T02:07:26.042104+00:00",
+    "status": "rejected",
+    "content_hash": "c66328c92a7d5074a374b16d6942cf07",
+    "strict_hash": "c66328c92a7d5074a374b16d6942cf07",
+    "fuzzy_hash": "c90d055dd4f6e399fb7bde6cc63597bd",
+    "reason": "Новость о регистрации совместного предприятия Motherson и Hellmann в Дубае имеет прямую связь с регионом (регистрация в Дубае), не содержит политики или рекламы, а также представляет интерес для русскоязычных жителей, следящих за бизнес-новостями ОАЭ. Однако текст обрывается на полуслове («The company disclos...»), что вызывает сомнения в полноте и проверяемости информации, а также отсутствует явный URL источника для подтверждения фактов."
+  },
+  {
+    "url": "https://www.thehindubusinessline.com/news/dubai-chambers-signs-two-mous-in-bengaluru-to-boost-agentic-ai-india-ties/article71369634.ece",
+    "timestamp": "2026-08-21T02:07:32.307942+00:00",
+    "status": "approved",
+    "content_hash": "627dbf2b117f490737bd06a9773aa9f9",
+    "strict_hash": "627dbf2b117f490737bd06a9773aa9f9",
+    "fuzzy_hash": "b255b17d463ac7d87bc6ad19083daba5",
+    "reason": "approved"
   }
 ]
