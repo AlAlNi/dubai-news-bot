@@ -1728,5 +1728,23 @@
     "url": "https://www.thehindubusinessline.com/news/dubai-chambers-signs-two-mous-in-bengaluru-to-boost-agentic-ai-india-ties/article71369634.ece",
     "timestamp": "2026-08-21T03:10:36.186755+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.bangkokpost.com/world/3305115/whats-behind-the-uaes-decision-to-cut-iran-trade-ties",
+    "timestamp": "2026-08-21T03:29:32.232172+00:00",
+    "status": "rejected",
+    "content_hash": "51982f8db4515b0751c9604e482e07e6",
+    "strict_hash": "51982f8db4515b0751c9604e482e07e6",
+    "fuzzy_hash": "50f67f2dc249d17d39c68100a7959114",
+    "reason": "Оценка: Новость касается торговых отношений ОАЭ и Ирана, что связано с регионом, но основная тема — международная политика и экономическое давление, что нарушает правило 2 (большая политика). Также тема чувствительна для ценностей UAE (правило 4). Отклоняем."
+  },
+  {
+    "url": "https://thenextweb.com/news/uber-baidu-apollo-go-dubai-driverless",
+    "timestamp": "2026-08-21T03:29:34.267570+00:00",
+    "status": "rejected",
+    "content_hash": "268c15f85d21d760f5bb5cdecbfd6957",
+    "strict_hash": "268c15f85d21d760f5bb5cdecbfd6957",
+    "fuzzy_hash": "bf9787e0c1e2c4c08836ccb1e9a9a9c7",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (запуск беспилотных такси Apollo Go на платформе Uber), не содержит политики или рекламы, источник проверяемый (Uber Investor Relations). Однако она является практически точным дубликатом уже опубликованной новости №6 из контекста (Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai...), что нарушает правило 7."
   }
 ]
