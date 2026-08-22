@@ -1233,5 +1233,32 @@
     "strict_hash": "4f68f5242ec88970b806c665c8bb263b",
     "fuzzy_hash": "92d97626d7648602d22bdae0a952e4b1",
     "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://www.hindustantimes.com/real-estate/why-is-dubai-s-iconic-toyota-building-being-demolished-101787372447109.html",
+    "timestamp": "2026-08-22T16:50:17.076959+00:00",
+    "status": "rejected",
+    "content_hash": "027f04cf3ea633ad0f8db19fdf3b2ab8",
+    "strict_hash": "027f04cf3ea633ad0f8db19fdf3b2ab8",
+    "fuzzy_hash": "676d542f38a71af18574f1878a485156",
+    "reason": "Новость о сносе Toyota Building в Дубае напрямую связана с регионом, не содержит политики или рекламы, не нарушает ценности ОАЭ и представляет интерес для русскоязычных жителей, следящих за городскими изменениями. Однако она является точным дубликатом уже опубликованной новости №3 из контекста («Dubai’s Toyota Building nears demolition after 52 years on Sheikh Zayed Road»), что нарушает правило 7."
+  },
+  {
+    "url": "https://www.financialexpress.com/business/industry-lt-july-august-order-inflow-exceeds-rs-1-4-lakh-crore-with-mega-middle-east-offshore-and-dubai-airport-deals-4322634",
+    "timestamp": "2026-08-22T16:50:19.473982+00:00",
+    "status": "rejected",
+    "content_hash": "bfc1f7fa010f92f2d9721d346ecd713f",
+    "strict_hash": "bfc1f7fa010f92f2d9721d346ecd713f",
+    "fuzzy_hash": "56b6c77ca82804d7042a54fa2b027ce8",
+    "reason": "**Оценка новости:**\nНовость посвящена финансовым показателям индийской компании L&T, включая контракты в регионе (в т.ч. Dubai Airport). Однако основной фокус — корпоративная отчетность и сделки, а не жизнь Дубая или ОАЭ. Для русскоязычного жителя Дубая эта информация не имеет прямой практической ценности и выглядит как отраслевой пресс-релиз, а не региональная новость.\n**Решение:**"
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/dubai-office-boom-drives-commercial-real-estate-growth-transaction-value-triples-in-h1-2026/articleshow/133417249.cms",
+    "timestamp": "2026-08-22T16:50:26.987008+00:00",
+    "status": "approved",
+    "content_hash": "839cbba45e3d0853c0b8089352575bae",
+    "strict_hash": "839cbba45e3d0853c0b8089352575bae",
+    "fuzzy_hash": "a5a0c4af7a7ca8dfef94e9163bd4a0e1",
+    "reason": "approved"
   }
 ]
