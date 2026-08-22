@@ -1512,5 +1512,14 @@
     "strict_hash": "9042d5bcd6104da7a57b8569fea7e7d3",
     "fuzzy_hash": "475e2d24d19832262ced9b523937f7dc",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV3FlQnQ4aGpsTHNWOXNUSnh3bzYwZWVfcWI0LS1nWEZTZExZb3FWQWI5Z0oxdFFfektkUlNadHV2X3NRZkU4bGJfUjhtejlqMFBiQ2h6ZEVCYWZxYUM3WHJwOWRWVU9uSks0Y0xMT1prZzVyRkV0bEZUYklVS1JOaVVXRQ?oc=5",
+    "timestamp": "2026-08-22T05:17:37.381312+00:00",
+    "status": "rejected",
+    "content_hash": "ae2e0f00a1c5b89f8ca4316f97402963",
+    "strict_hash": "ae2e0f00a1c5b89f8ca4316f97402963",
+    "fuzzy_hash": "099fb891539e1b6de0113d6325474212",
+    "reason": "Новость представляет собой пересказ советов от лидеров недвижимости ОАЭ для молодых специалистов. Это скорее мотивационный/карьерный материал, нежели конкретная новость, и он не содержит проверяемых фактов или явной общественно значимой информации для русскоязычных жителей Дубая. Кроме того, отсутствует явный URL источника для проверки, а сам текст выглядит как обобщенный пересказ без конкретики."
   }
 ]
