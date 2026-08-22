@@ -1,89 +1,5 @@
 [
   {
-    "script": "auto_notify",
-    "started_at": "2026-08-19T14:41:48.882951+00:00",
-    "finished_at": "2026-08-19T14:41:48.926045+00:00",
-    "duration_seconds": 0.043,
-    "success": true,
-    "status": "no_posts",
-    "counters": {
-      "telegram_calls": 0,
-      "telegram_failures": 0,
-      "published": 0,
-      "duplicate_skips": 0,
-      "no_posts": 1
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-19",
-      "daily": {
-        "published_per_day": {
-          "value": 1,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 83.87,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "whatson.ae",
-            "events": 9,
-            "reject_rate": 100.0,
-            "duplicate_rate": 66.67
-          },
-          {
-            "source": "emirateswoman.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "www.financialexpress.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "www.hindustantimes.com",
-            "events": 5,
-            "reject_rate": 100.0,
-            "duplicate_rate": 20.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 62,
-            "reject_rate": 79.03,
-            "duplicate_rate": 9.68
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
     "script": "rss_collect",
     "started_at": "2026-08-19T15:01:32.617112+00:00",
     "finished_at": "2026-08-19T15:01:49.612232+00:00",
@@ -21621,6 +21537,108 @@
             "events": 74,
             "reject_rate": 68.92,
             "duplicate_rate": 17.57
+          },
+          {
+            "source": "scanx.trade",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
+        ]
+      }
+    }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-08-22T12:53:52.697081+00:00",
+    "finished_at": "2026-08-22T12:53:52.719180+00:00",
+    "duration_seconds": 0.022,
+    "success": true,
+    "status": "no_posts",
+    "counters": {
+      "telegram_calls": 0,
+      "telegram_failures": 0,
+      "published": 0,
+      "duplicate_skips": 0,
+      "no_posts": 1
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-08-22",
+      "daily": {
+        "published_per_day": {
+          "value": 2,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 73.53,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.aninews.in",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 66.67
+          },
+          {
+            "source": "www.manilatimes.net",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 50.0
+          },
+          {
+            "source": "www.freepressjournal.in",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 25.0
+          },
+          {
+            "source": "emirateswoman.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 4,
+            "reject_rate": 75.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.tribuneindia.com",
+            "events": 4,
+            "reject_rate": 75.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 71,
+            "reject_rate": 70.42,
+            "duplicate_rate": 16.9
           },
           {
             "source": "scanx.trade",
