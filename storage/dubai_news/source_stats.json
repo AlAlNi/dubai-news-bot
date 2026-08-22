@@ -1508,5 +1508,68 @@
     "strict_hash": "e43a222cda234522edb56cd7f79e486e",
     "fuzzy_hash": "c17875005c900ed8ff91a1165cc47582",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/the-pitaara-companys-chitthi-aayi-hain-strikes-an-emotional-chord-in-dubai",
+    "timestamp": "2026-08-22T01:57:37.154132+00:00",
+    "status": "rejected",
+    "content_hash": "921807ad500e0b8be066ac8317453f40",
+    "strict_hash": "921807ad500e0b8be066ac8317453f40",
+    "fuzzy_hash": "0ffa0f2ffbb980f949d7387f33fbb396",
+    "reason": "Оценка: Новость носит явно рекламный характер (пресс-релиз о культурном мероприятии индийской диаспоры), не содержит общественно значимой информации для русскоязычного жителя Дубая, а также не имеет проверяемого первоисточника в виде конкретного URL новостного агентства. Связь с Дубаем лишь номинальная (упоминание города как места проведения), что не соответствует критериям информационного канала."
+  },
+  {
+    "url": "https://www.aninews.in/news/business/the-pitaara-companys-chitthi-aayi-hain-strikes-an-emotional-chord-in-dubai20260821191225",
+    "timestamp": "2026-08-22T01:57:40.035716+00:00",
+    "status": "rejected",
+    "content_hash": "eb6b5032e022c3596e85f5b76381147b",
+    "strict_hash": "eb6b5032e022c3596e85f5b76381147b",
+    "fuzzy_hash": "ff3e0f82923f6428ca9b031084ac7d2f",
+    "reason": "Оценка: Новость носит явно рекламно-промоционный характер (пресс-релиз о культурном мероприятии индийской диаспоры), не содержит общественно значимой информации для русскоязычных жителей Дубая и не имеет подтверждаемого первоисточника в виде конкретного URL. Связь с регионом формальная (упоминание Дубая), но тема не представляет интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://www.euronews.com/business/2026/08/21/dubais-competitive-advantage-for-digital-business",
+    "timestamp": "2026-08-22T01:57:42.517295+00:00",
+    "status": "rejected",
+    "content_hash": "84a37318838d033e1105ee70f7b16464",
+    "strict_hash": "84a37318838d033e1105ee70f7b16464",
+    "fuzzy_hash": "69bb96d18d8320bf850559bf42bb024b",
+    "reason": "Оценка: Новость носит общий имиджево-рекламный характер о цифровой экономике Дубая, без конкретных фактов, дат или проверяемых данных. Текст выглядит как пресс-релиз или аналитическая реклама, не содержит общественно значимой информации для русскоязычного жителя, а также не имеет явного URL источника для проверки."
+  },
+  {
+    "url": "https://www.ibtimes.com/dubai-culture-isnt-oxymoron-its-why-people-are-staying-3806645",
+    "timestamp": "2026-08-22T01:57:44.629333+00:00",
+    "status": "rejected",
+    "content_hash": "2c19ed495b31504da35b3c2e55dfb1d8",
+    "strict_hash": "2c19ed495b31504da35b3c2e55dfb1d8",
+    "fuzzy_hash": "07cc74f65735f23b7ddd22f5f3b03382",
+    "reason": "Оценка: Это личное эссе-рассуждение о жизни в Дубае, а не новость. Текст не содержит конкретных фактов, событий или проверяемой информации, имеет признаки субъективного мнения и не подходит под формат новостного канала."
+  },
+  {
+    "url": "https://www.thehindu.com/life-and-style/homes-and-gardens/indian-confidence-in-dubai-has-been-validated-yet-again/article71356040.ece",
+    "timestamp": "2026-08-22T01:57:47.773636+00:00",
+    "status": "rejected",
+    "content_hash": "acb6e874596837f4e9543caf6f1bc507",
+    "strict_hash": "acb6e874596837f4e9543caf6f1bc507",
+    "fuzzy_hash": "7c0bde14f0fe366648563316eb1bbe41",
+    "reason": "**Оценка новости:**\nМатериал явно связан с Дубаем (статистика покупок недвижимости индийцами), не касается политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Однако текст выглядит как личное мнение или аналитическая колонка с признаками ИИ-генерации (обобщённые цифры, отсутствие конкретных ссылок на первоисточник), а также не содержит проверяемого URL для подтверждения фактов. Кроме того, тема «индийцы покупают недвижимость» уже многократно освещалась в контексте рынка Дубая, что делает её дубликатом по смыслу.\n**Решение:**"
+  },
+  {
+    "url": "https://www.malaymail.com/news/world/2026/08/21/why-did-uae-cut-iran-trade-and-how-exposed-is-tehrans-us21b-import-lifeline/232203",
+    "timestamp": "2026-08-22T01:57:50.349076+00:00",
+    "status": "rejected",
+    "content_hash": "b21cc49dfab687f1dd635d8ca34aac87",
+    "strict_hash": "b21cc49dfab687f1dd635d8ca34aac87",
+    "fuzzy_hash": "e594324aa2f13bfdb7d81d780ab39cbc",
+    "reason": "Новость касается торговых отношений ОАЭ и Ирана, что связано с регионом, однако основная тема — международная политика и экономическое давление, что нарушает правило 2 (большая политика). Текст также содержит признаки аналитического материала с политическим подтекстом, что не соответствует формату новостного канала о жизни в Дубае."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ2o5QTh2VlRQOFJxUl9rMG1zRl9xLWRVbHZGX280bzB0VFA4OURjTHdyVDluTjFrWTIzbDZVZEQzSXhIRFVqQnFVOElldWdYV25aREpKQ2lHMnBfRTFiX0hiV0tiMGgzbUVsOGowMVpXTzAzOUpvcF9aUDBwdU84Um1acm41cjJxemxubWc1TkJxOC1pcG9OTGVaWUVQTDJNVnExV09rak1aVUdhRzBsTUVJeWt6LTV0WnJDYzFWUllDa1N2cVHSAeABQVVfeXFMTWVTSjA2d2E0REhOY0pJdjZuVGFRVWwzQlpGMzd2RF8tQUtMaGlfSjBTZWJmVWtuQkVOdHp3dldvbTlydU5oTVVlTmRCczE0Z3VoSnc5ejRCM3RBUnNhOG84dXBTUjJrR3BlcS02bVFsV28yT293ZmpPVDlDcENsdE5rbE5OUzByYjBIcHJKMWxkd1VYX0dUc1NiQU5IaTYxNmJCYlRyeUtydW1hV1A0enAtUWM1VWJNZlVnRVplbzVhV0pGWTdDSWtwa2lRR0RfTzdDLTRMenc3NEQyc0lnSVE?oc=5",
+    "timestamp": "2026-08-22T01:57:57.761853+00:00",
+    "status": "approved",
+    "content_hash": "ff330dca1ef75e2857ec25162481718a",
+    "strict_hash": "ff330dca1ef75e2857ec25162481718a",
+    "fuzzy_hash": "4d74b474bc3e4d5e3f27782fba5791dd",
+    "reason": "approved"
   }
 ]
