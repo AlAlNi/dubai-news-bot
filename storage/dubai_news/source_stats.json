@@ -802,5 +802,23 @@
     "strict_hash": "3f81c98725acc6fc7265910487dff08f",
     "fuzzy_hash": "f4ea521f92fbfbe0f1c4ef635a522c43",
     "reason": "Новость представляет собой анонс-подборку женских брендов ОАЭ к Национальному дню эмиратской женщины, что соответствует локальному контексту и не содержит политики или рекламы в чистом виде. Однако текст явно обрезан (содержит технические артефакты вроде \"t&#8217;s\" и \"[&#8230;]\"), что указывает на неполную или некачественную подачу материала, а также отсутствует явный проверяемый URL источника в предоставленном тексте."
+  },
+  {
+    "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/engineer-returning-from-dubai-goes-missing-in-chennai-1982061",
+    "timestamp": "2026-08-25T17:55:39.909195+00:00",
+    "status": "rejected",
+    "content_hash": "98f1d45a43fdd8dc1969abcef0fcf488",
+    "strict_hash": "98f1d45a43fdd8dc1969abcef0fcf488",
+    "fuzzy_hash": "fe12cda2b96874e7404cb31546067c33",
+    "reason": "Новость не связана с Дубаем или ОАЭ (речь идет о Ченнаи и индийской политике), а также содержит признаки политической повестки, что противоречит правилам канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZDNOZk10OWJVY0RSS1ZZczFoLUU2OUlJZHRhYk5jX0FZLVR0OEhNQXQxbWpXZ05yWjNRdmE3QTBjMnFab3pMcFR3cmtzLVc4YUMyYURuVldmSy0wWVhhcXJzRTBialhvUW15TUxieVYyWktpZUlKS1ZLWVgtVGY3TEZjRGszZG00SmFhUDAwcExZbXJFRTM4WU1HQ0VOcHJuRzV0dlVpTGtFZmliMzdzOFlJclRZeTFULUVz0gHLAUFVX3lxTFB2VmVMVW5XY0E1MlVCcXNlSzNlbGxYTVVFdFktY2RXWUQ4cmtibmZsaWRwbkxiREJHZEo4UW42OXNiNmpTWXY2RlIxWGpxVzI3dTFNZEZaYm0yRFRHeERoZWQxUUx5emF6aVFQdkRUdkZxVGJwZHBOdGFPd1NVNXI3S0l3bHJyVmxsNXJ2dkdKY3lXYkdKUW4tSEJCZ2xJX3k1ekhfUzBaOWVVaU9hVVRndW5WczFRYkVpM1E3WXMzVXJ1d3R6cC1Gd25Z?oc=5",
+    "timestamp": "2026-08-25T17:55:49.208995+00:00",
+    "status": "approved",
+    "content_hash": "eb1e9d6b319bdab673f2135589d410ac",
+    "strict_hash": "eb1e9d6b319bdab673f2135589d410ac",
+    "fuzzy_hash": "28c02d14dbd4fe4397ffa0319e27454f",
+    "reason": "approved"
   }
 ]
