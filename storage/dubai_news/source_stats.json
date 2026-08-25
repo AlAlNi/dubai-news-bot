@@ -821,5 +821,41 @@
     "strict_hash": "8c77cf707952c7354d99cf10b9e99345",
     "fuzzy_hash": "cc535f721c6df1c486e7c0934538a1b9",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/dubai-roads-are-getting-busy-again-traffic-fines-you-need-to-know",
+    "timestamp": "2026-08-25T13:40:15.332688+00:00",
+    "status": "rejected",
+    "content_hash": "2a1f205e4aec281093a159b0c0c1063b",
+    "strict_hash": "2a1f205e4aec281093a159b0c0c1063b",
+    "fuzzy_hash": "f30646473bea3dba94722a93400cf5aa",
+    "reason": "Новость соответствует региону (ОАЭ), не касается политики и конфликтов, не является рекламой, а также полезна русскоговорящим жителям Дубая — содержит практическую информацию о штрафах перед началом учебного сезона. Однако текст выглядит как перепечатка с сайта What's On, обрезан и не содержит явного URL источника для проверки фактов, что нарушает правило проверяемости."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObU9oT2g1MVJaaHR0cHI4bEx1aGRHWEs0WmwxZTU4dW5XMGxjNnlsTFMyd2VUbURocWJQMlVJRWNCREtnVzVKRGV2bURUOTdMMGx5alE0Qms5dHVINEh1em83eldqS0duZDctR3JJVDQ1bE1SRnNxR3M2cVlwcWE4NUNlbw?oc=5",
+    "timestamp": "2026-08-25T13:40:30.225764+00:00",
+    "status": "rejected",
+    "content_hash": "4b20f91f9e3e1c0473ea2d436910a4b4",
+    "strict_hash": "4b20f91f9e3e1c0473ea2d436910a4b4",
+    "fuzzy_hash": "8116d426d01be3ba9c1eac397cf0a6fb",
+    "reason": "Оценка: Новость о прогнозе цен на бензин в ОАЭ на сентябрь 2026 года имеет прямую связь с регионом и потенциально интересна русскоговорящим жителям Дубая, так как затрагивает их повседневные расходы. Однако текст крайне короткий и не содержит никаких фактических данных или проверяемого источника, что делает его похожим на кликбейт без содержательной ценности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1oS0tub3dRanRzbDdBNlVyQzZlOUs5M0hQbEZucWlDMEFiZ25heDhPSjh0bkpRbEFVcjU5MUJ5ZlN6enlHS2Rzcm4xRHNNVGZEcFhxZzg5aG1qM1ltbnk4?oc=5",
+    "timestamp": "2026-08-25T13:40:32.891919+00:00",
+    "status": "rejected",
+    "content_hash": "1acf170c4f10bd8133efb95421b523a6",
+    "strict_hash": "1acf170c4f10bd8133efb95421b523a6",
+    "fuzzy_hash": "bac40bf34d6471c8a8b9d745e809bf0c",
+    "reason": "Новость представляет собой развлекательный контент о местах в Дубае, где можно встретить знаменитостей. Она соответствует региону, не содержит политики или рекламы, но является типичным «легким» контентом, который может быть интересен русскоязычной аудитории. Однако текст крайне короткий и не содержит проверяемых фактов или ссылок на источник, что делает его похожим на кликбейт без информационной ценности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS0p3N0ZCR0FSRGtjRjhlMlhWZVlna21yVUd1RUxReWVwSnJvZktiZVpKMnZ4TU9Bak1wN0c5U21zVTVubkh6akFfX2RUZDA3dTVqYlpDdGhEVUR5RmhpSlZKZ2Y5TERKLWl0eHMwbkF2Zm0yVUNkNkNrWEJoTUFvSGVueGo5bktDcTlabE5QNjFadFBIMVZwSkt1dmZ2RzdRSXNFWU41UTMzTU1iN09iQlFESHpGcUhCc1VHaWVobHU0WTg?oc=5",
+    "timestamp": "2026-08-25T13:40:33.233533+00:00",
+    "status": "rejected",
+    "content_hash": "e0351e026f00c405acd97b95332ce648",
+    "strict_hash": "e0351e026f00c405acd97b95332ce648",
+    "fuzzy_hash": "a314fa15741d444188da1a488c18f63a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
