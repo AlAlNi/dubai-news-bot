@@ -677,5 +677,32 @@
     "strict_hash": "1e0ca9cbdaa90fadd390a43cd9e95d61",
     "fuzzy_hash": "45ab5c7ed3ba3e1f6aad9ea88b612367",
     "reason": "Оценка: Новость связана с Дубаем (авиакомпании и их возвращение в город), не является политикой или рекламой, но текст крайне короткий и не содержит проверяемых фактов или URL источника. Судя по заголовку, это скорее анонс или пересказ без конкретики, что вызывает сомнения в достоверности и полезности для аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbFE3cUQ4bXliMk9Sc0xvTFZsZHc1RVJRTVU2ZFFDNUdlZU1Yc1NveG9lWmU1NkJEeEN3SGtTajI5QjVFck1PYV9PS2dyRzRzVFJ4WWRERGZxTlBRNU9kWC12Mll1aFhhVEFtbEZ1VFJ6U2d5WTFLZ0Q0RkRvN1BjTmtBNndPRkpwel9aTFRQbUlKc0dXVzlhZ2Zn?oc=5",
+    "timestamp": "2026-08-25T06:26:50.338126+00:00",
+    "status": "rejected",
+    "content_hash": "35a13816b65082e1696de33b5eec4e04",
+    "strict_hash": "35a13816b65082e1696de33b5eec4e04",
+    "fuzzy_hash": "4859951fd264fc64e8948abd536698f9",
+    "reason": "Оценка: Новость носит явно протокольный и пресс-релизный характер от правительственного офиса, не содержит конкретных цифр, дат или практической пользы для русскоязычного жителя Дубая. Это типичный отчет о мероприятии, который не представляет общественно значимого интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWW40U3poU2VEM1NWMEdJWEV6WGVlajlCM3JYWlhMaWZTZ0YwNDR2NHRuNU44Wkg4dmFPendPS3BkcGxDX2taY3d0M2t2TS1MMkowaFFMbFZ0RnpMUUpwc3lFVEhoa3Fab0ZwZFFhdTY0UzRiUFExTmM5cGJ6a3JzdGNzWUNjNXdxcG9vN1NBOUhhcVo0bHc?oc=5",
+    "timestamp": "2026-08-25T06:26:53.079181+00:00",
+    "status": "rejected",
+    "content_hash": "1e83e1c913ff495302f4e90ccd091ac4",
+    "strict_hash": "1e83e1c913ff495302f4e90ccd091ac4",
+    "fuzzy_hash": "c87a50bfca255499b62fc6ef8b0f9eee",
+    "reason": "**Оценка новости:**\nНовость о возвращении разыскиваемого преступника из Дубая имеет косвенную связь с регионом (Дубай упоминается как точка экстрадиции), но основная тема — криминальная хроника, не связанная напрямую с жизнью русскоязычных жителей ОАЭ. Текст крайне короткий, без проверяемых деталей и ссылок на официальные источники, что вызывает сомнения в достоверности. Для целевой аудитории канала (русскоязычные жители Дубая) новость не представляет практического интереса.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1uNF9jY1hVZmJNRk4tQlQ1UjNKbzk0YWpGZHFaUmNQRzVsMTR2R3gyWFFSd0VhSVNvc1lqUVZoZHZPVFlCZlBncHdmVWJ0THE1RzYtblhlSDRxNEhJbTNSbHhHSm81S0RfeXg5aE8tRQ?oc=5",
+    "timestamp": "2026-08-25T06:26:53.648819+00:00",
+    "status": "rejected",
+    "content_hash": "079ad28a323ccdcc3d09c4b6d3fe6352",
+    "strict_hash": "079ad28a323ccdcc3d09c4b6d3fe6352",
+    "fuzzy_hash": "e93f508a4fe813c0e2d177def59f655c",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
