@@ -794,5 +794,23 @@
     "strict_hash": "03535ef3e281daa043aed36f600fcc42",
     "fuzzy_hash": "e826435658610190aafde2136aafc0d4",
     "reason": "Новость представляет собой подборку студий Lagree в Дубае — это явно рекламно-справочный материал, не содержащий общественно значимой информации, а также не имеющий проверяемого источника с фактическими данными. Текст выглядит как типичный листинг для привлечения клиентов, что нарушает правило 3 (рекламный характер) и правило 9 (отсутствие подтверждаемого URL с содержательной новостью)."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/6-of-the-best-lagree-studios-in-dubai-to-check-out-right-now",
+    "timestamp": "2026-08-25T12:25:15.557862+00:00",
+    "status": "rejected",
+    "content_hash": "1aa07195df168ad22daf54d1d6174b14",
+    "strict_hash": "1aa07195df168ad22daf54d1d6174b14",
+    "fuzzy_hash": "7d85b02b247816108c9e1cbf4c7df18a",
+    "reason": "**Оценка:** Это рекламно-справочный материал о фитнес-студиях, который не содержит общественно значимой новости, а по сути является анонсом/подборкой заведений. Текст выглядит как типичный контент для развлекательного журнала, а не как новость для канала, и не несет практической ценности для русскоязычной аудитории в формате строгой новостной ленты."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1bUhIcFQ2cVROdnBEdjM4bmgwZ2dPUDlIRndpc1pQSkQ4STE3SUhqTTFBeWRhWUhoN0RWYzVIa0lKRktvNTc5ZEU5bGdyN0dpUXp1MlFvNFJnRVFTVzI2Y2hvQlJ3ZkFkcThsemV4bWtkNE9mWEdvaExQTQ?oc=5",
+    "timestamp": "2026-08-25T12:25:36.667792+00:00",
+    "status": "approved",
+    "content_hash": "41aedf5155e9e4e4dca9b96a07801e49",
+    "strict_hash": "41aedf5155e9e4e4dca9b96a07801e49",
+    "fuzzy_hash": "3776bd65efbe08517db5fbb4938cab2a",
+    "reason": "approved"
   }
 ]
