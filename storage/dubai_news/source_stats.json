@@ -964,5 +964,32 @@
     "strict_hash": "2e9b73eae3e010acc13b4ac173c11949",
     "fuzzy_hash": "4c39ad5591fc1cace39d26fc7cfc4edf",
     "reason": "Оценка: Новость о школьном транспорте в Дубае от RTA с приложениями, ценами и инструкциями — практичная и полезная информация для родителей, напрямую связана с регионом и не содержит политики или рекламы. Однако она пересекается с уже опубликованными новостями о школьном транспорте и безопасности (пункты 2 и 4), что делает её дубликатом по тематике."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc1d1eWI2c1B4TEFDTWJQY1hBZVR0WFdiVWJZaTVGQ0NGZkxpNnNsMlpIcEFfMEpUeTNqTnZNNlc1a2lMSEdpRmdtRUJXTXllTjNDemtyRndIb2xhSTVUX2Mwb1MxVVViNU5tRFhsaFZ0SURNZlpmc1BaNzhWUDFCbTZJSWVGbHMtTE5UVzZWdFVFekhFQTc4dWJKcXJ4V0JHeUFERFgzeW0ycVhLN0pjd0dNSml1NEUxUWlvc2RB?oc=5",
+    "timestamp": "2026-08-26T07:25:06.274308+00:00",
+    "status": "rejected",
+    "content_hash": "d2ca7beebd83a615542966704da1629a",
+    "strict_hash": "d2ca7beebd83a615542966704da1629a",
+    "fuzzy_hash": "b4282bd10bec9c8e0d42fcd5c45692a3",
+    "reason": "Оценка: Новость напрямую связана с Дубаем и его главным аэропортом, тема не политическая, а экономическая/операционная, источник (Bloomberg) проверяемый. Однако она является почти точным дубликатом уже опубликованной новости №1 (Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth), так как обе сообщают о падении пассажиропотока из-за конфликта с Ираном."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWFE4dGVZRElCWG1COFhOM3FtQ2gxMjhTdUMtM0VuTGZGT2NjRVQ4amIwcTRNTVVSUjNTVmhFd1YtM1I3ekMtUXpZTWNTRnZfRU0zb1Vqa1lVZFlHWkxxWE9ZSUNNMVNpODZqUlZkTGl2c0duaTI1aFZrNDZNYzM3SzNEQk1vS1Y3NS10VWVzUjFrRVd4dlJWLUkyV2VVYzA1enlhX1FuTFN5NV9Ma2RJX25NYU1DT0J4MUhjaU9RcUYzNzg4NmxrV3RwZkV0cGljQzZ5T2F5NA?oc=5",
+    "timestamp": "2026-08-26T07:25:09.090937+00:00",
+    "status": "rejected",
+    "content_hash": "cb32cd6109dc5a8cbfbde3c1ec082b86",
+    "strict_hash": "cb32cd6109dc5a8cbfbde3c1ec082b86",
+    "fuzzy_hash": "1f72970fe69261360c88689ce953186d",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (аэропорт DXB) и отражает влияние регионального конфликта на пассажиропоток — это значимая тема для местных жителей и бизнеса. Однако она дублирует уже опубликованный материал (п.1 контекста: «Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth»), где освещается тот же спад из-за войны с Ираном. Текст не содержит новых фактов, а лишь перефразирует заголовок, что нарушает правило о дубликатах.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQWhCUHIwMzktaUluZkFHVlBTY2ZlZTNzSzBzeERPeXotbDRVLS1ZZmtCb1haQWRkZHlfN20zWG1sdDh3YXgxaHdyQ1NrLWdKVUpVYzRJMW9WcEF5RkxLMm9QRXBldFJnUm9GeF92QjBhaFNvcThNSkdhMW9tN3ZqZHp3cnIxTUg2enVuY0RGajFJSmhxNUo4M0xmS2p1RWxWYWhGWlR6YTgyZDlNekFTc3AxekxGVkpUdFliSUNTejROYWM?oc=5",
+    "timestamp": "2026-08-26T07:25:10.153074+00:00",
+    "status": "rejected",
+    "content_hash": "87b648b3f47f258cbd52ebb43882f6c4",
+    "strict_hash": "87b648b3f47f258cbd52ebb43882f6c4",
+    "fuzzy_hash": "ffe619c3cee06db5dda9b88baae991df",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
