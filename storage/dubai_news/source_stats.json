@@ -1134,5 +1134,14 @@
     "strict_hash": "59bd365d0e4702f2d24a672f6c148927",
     "fuzzy_hash": "8e1ef2805d6b6a49809e055d50aa5674",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdEtsTkNXSlNJdHo1ZG9MNzJETFgyMUM1SnRKZjNkVkViWm9MdHVneFNCbEJuMUZiY3J5LXBPQlpCYjh1NFQyanhuQi1lY2FGaDBfNVNqYVFrM2REeXAtaFhwbHRBU3RlWHRIQzRLcDlMbmNJS1BXSVcxb0Rmb0U2eDhabUlCb3RKLUdlVlhMc3pmVTdGTDJOVkxtUWpWbm9zaUc2MzE0a3p5czkyVENoNnFMOFhqUFR4NWpjVUhFRVRiTXJ0dG9RMjkwNEhscWJobjVIZDJJWQ?oc=5",
+    "timestamp": "2026-08-26T16:09:24.751449+00:00",
+    "status": "rejected",
+    "content_hash": "bc910c166595b7a42d33f7558d78638d",
+    "strict_hash": "bc910c166595b7a42d33f7558d78638d",
+    "fuzzy_hash": "d344052ba28b5d805bf418c0954ffc83",
+    "reason": "Оценка: Новость о задержании пассажира, прилетевшего из Дубая, с золотом во рту, имеет косвенную связь с регионом (рейс из Дубая), но основное событие происходит в Индии и не представляет интереса для русскоязычного жителя Дубая. Тема не является значимой для местной аудитории, а также не соответствует критериям полезности или актуальности для канала о жизни в ОАЭ."
   }
 ]
