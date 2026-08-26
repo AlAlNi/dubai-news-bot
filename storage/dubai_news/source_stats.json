@@ -937,5 +937,32 @@
     "strict_hash": "a0512222806db24e386c12b77ab77d98",
     "fuzzy_hash": "8db5981a6491f589718a3eee454e91ef",
     "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (аэропорт DXB) и представляет интерес для русскоязычных жителей, так как касается статуса главного авиаузла региона. Однако текст крайне короткий, не содержит деталей, ссылок на источник и выглядит как обрывок заголовка без подтверждения фактов, что вызывает сомнения в достоверности и полноте информации.\n**Решение:**"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/temps-could-hit-49o-today-but-how-hot-can-the-uae-get",
+    "timestamp": "2026-08-26T06:28:15.128979+00:00",
+    "status": "rejected",
+    "content_hash": "66f7619d6c5937f5c7a6385633abab95",
+    "strict_hash": "66f7619d6c5937f5c7a6385633abab95",
+    "fuzzy_hash": "5fd6a2e517d652182767fb63afb01abe",
+    "reason": "**Оценка:** Новость о погоде в Дубае (до 49°C) напрямую связана с регионом, не содержит политики или рекламы, полезна для русскоязычных жителей (информирует о жаре и климатическом явлении Эль-Ниньо). Однако текст выглядит как пересказ с сайта What's On, имеет признаки лёгкого кликбейта («scorchio») и не содержит проверяемого URL первоисточника с конкретными данными. В контексте уже есть новости о погоде/полётах, но этот материал не является точным дубликатом."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPME1sTnhWa29zcGtIX2FtWDR4MjFKNHZkYkxZVXRyZUpuNFlBZXEwYWh3R2o1LXE5cllfdEFhYjRfd241c3J2ajl5NWFNRXpJUnhPTlUtZjMzcFJ5djBZdU5ySFVPY2JCa0N0V2NWYUQxMnRIREx3bmJXNjZpWXFlY2RzSG10VG5sUWFuRg?oc=5",
+    "timestamp": "2026-08-26T06:28:36.890454+00:00",
+    "status": "rejected",
+    "content_hash": "74158a0ac1fc86a681ac6449a047baa6",
+    "strict_hash": "74158a0ac1fc86a681ac6449a047baa6",
+    "fuzzy_hash": "7b10a9b75809ae7c8b6aa95afa4429d1",
+    "reason": "**Оценка новости:**\nМатериал представляет собой личную историю предпринимателя, переехавшего в Дубай, и его финансовых трудностей. Это не новость в классическом понимании, а скорее нарратив/сторителлинг без проверяемых фактов и явной общественной значимости для русскоязычной аудитории. Отсутствует ссылка на официальный источник, а тема не соответствует формату новостного канала о событиях в регионе."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR25FdWt1N21PSUJST1FKZnp5NmxVMXUzemJWZnVSMERueTlzX0ZDb21FcWdEZlJSY2VXUjZZRXJiX0J5bDN6SkdvSnY2NVJXY19Qb1ZvcXQxWGtseDc4SW5lMGJtUm1lbTBjUXZXUXFDcHUtRldBZ0dJVDAtZlpJNWFIS2RMeC1uTy1CeVBZQW01RUthOFBXYkdtSnlSSkFRMWE2MVpyX24zQUktb04wWGdhdWxaUno0QUZjNEVIRkRfLWtmMzlkS2pSWnZJTW9JbmJpUDNNTnhoQdIB9AFBVV95cUxON1ZMRG1NVk5kR1pPNUlKRUhMaGQ0T1FmTXZ6ZzAzb2VxUEtnYlJfWTc2Z3NjOFppVFhkZVNObk1sWVBIME51VS1KelNDNDYzdVZmMUtzbmlhZG1oeTVBZUF3a3BIMnlhMHlrd2o5MkoyWGZnazBENG1CaDlsZmZXR3NVNGh5czdGU1NjZzJfYXZSUkN3bVBKWVFib1BiZDZ5Qm1PUG93TFVMeUdNR01Kem9nTk5JUXZPOHdaRGNpYVNWZVB2dWhUOTBLc21GT3JOemI1cWNoNVhlVWtnU19PSWhZWlkzeGdjR1p2U1hZRWNJejVv?oc=5",
+    "timestamp": "2026-08-26T06:28:39.759002+00:00",
+    "status": "rejected",
+    "content_hash": "2e9b73eae3e010acc13b4ac173c11949",
+    "strict_hash": "2e9b73eae3e010acc13b4ac173c11949",
+    "fuzzy_hash": "4c39ad5591fc1cace39d26fc7cfc4edf",
+    "reason": "Оценка: Новость о школьном транспорте в Дубае от RTA с приложениями, ценами и инструкциями — практичная и полезная информация для родителей, напрямую связана с регионом и не содержит политики или рекламы. Однако она пересекается с уже опубликованными новостями о школьном транспорте и безопасности (пункты 2 и 4), что делает её дубликатом по тематике."
   }
 ]
