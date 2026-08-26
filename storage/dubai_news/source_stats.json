@@ -1188,5 +1188,68 @@
     "url": "https://www.thenationalnews.com/news/uae/2026/08/26/storm-hits-al-ain-and-hail-falls-in-dubai-as-unsettled-weather-affects-parts-of-uae",
     "timestamp": "2026-08-26T19:11:36.051622+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.livemint.com/news/world/usiran-war-impact-dubai-airport-sees-31-3-decline-in-passenger-traffic-in-h1-expects-strong-recovery-in-h2-11787729998031.html",
+    "timestamp": "2026-08-26T20:34:35.788333+00:00",
+    "status": "rejected",
+    "content_hash": "3cb861c94433377006aaca246cf1d75a",
+    "strict_hash": "3cb861c94433377006aaca246cf1d75a",
+    "fuzzy_hash": "767949f133e5de3f34bf74b9c411052c",
+    "reason": "Оценка: Новость напрямую связана с Дубаем (аэропорт) и содержит конкретные данные о пассажиропотоке, что интересно русскоязычным жителям. Однако заголовок и текст явно пересекаются с уже опубликованной новостью №3 («Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth»), что является дубликатом по сути и теме."
+  },
+  {
+    "url": "https://www.hindustantimes.com/world-news/dubai-airport-dxb-passenger-traffic-drops-more-than-30-per-cent-in-first-half-amid-us-iran-war-middle-east-101787730266922.html",
+    "timestamp": "2026-08-26T20:34:38.565540+00:00",
+    "status": "rejected",
+    "content_hash": "5cd99e417afa5d3000356fa1209b0818",
+    "strict_hash": "5cd99e417afa5d3000356fa1209b0818",
+    "fuzzy_hash": "fc91782481e76d1a4c423555f22c1823",
+    "reason": "Новость напрямую связана с Дубаем (аэропорт DXB), не является политической или рекламной, основана на официальных данных Dubai Airports. Однако она дублирует уже опубликованный материал под номером 3 («Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth»), где упоминается падение трафика из-за войны. Тема и цифры пересекаются, что нарушает правило 7."
+  },
+  {
+    "url": "https://www.businesstoday.in/industry/story/dubai-airport-passenger-traffic-plunges-31-in-first-half-as-iran-war-disrupts-gulf-travel-551440-2026-08-26",
+    "timestamp": "2026-08-26T20:34:41.682723+00:00",
+    "status": "rejected",
+    "content_hash": "bd835b7518d834f16a389c1ba7005819",
+    "strict_hash": "bd835b7518d834f16a389c1ba7005819",
+    "fuzzy_hash": "34459d04eed5117f7d31447a3e2fe97f",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (аэропорт) и содержит конкретные данные о пассажиропотоке, что интересно русскоязычным жителям. Однако текст явно описывает военный конфликт (война, удары, закрытие воздушного пространства) как основную причину, что нарушает правило №2 (политика и конфликты). Кроме того, новость дублирует уже опубликованный материал под заголовком «Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth» (пункт 7) — тема и суть совпадают."
+  },
+  {
+    "url": "https://www.timesnownews.com/technology-science/apple-iphone-18-pro-18-pro-max-and-iphone-ultra-expected-price-in-india-usa-dubai-japan-and-more-article-155988123",
+    "timestamp": "2026-08-26T20:34:44.226941+00:00",
+    "status": "rejected",
+    "content_hash": "30b34fa88fbe9b00c24c5ae816eb4166",
+    "strict_hash": "30b34fa88fbe9b00c24c5ae816eb4166",
+    "fuzzy_hash": "f0080357a71c251f7de6373169567aec",
+    "reason": "Новость о ценах на будущие модели iPhone в разных странах, включая Дубай, не имеет прямой связи с регионом, не несёт практической пользы для русскоязычного жителя Дубая и основана на слухах, а не на проверяемых фактах. Это типичный перепечатанный технологический анонс без общественно значимой ценности."
+  },
+  {
+    "url": "https://www.al-monitor.com/originals/2026/08/dubais-dxb-first-half-passenger-traffic-falls-more-30-iran-war-disrupts-travel",
+    "timestamp": "2026-08-26T20:34:47.051435+00:00",
+    "status": "rejected",
+    "content_hash": "8eadaeddf06e9f06183e1942ec1423a9",
+    "strict_hash": "8eadaeddf06e9f06183e1942ec1423a9",
+    "fuzzy_hash": "97fee1c00d0341247ccf0c6f142c70f0",
+    "reason": "Оценка: Новость напрямую связана с Дубаем (аэропорт DXB) и содержит конкретные данные о пассажиропотоке, что интересно русскоязычным жителям. Однако тема упоминает «Iran war» как причину спада, что относится к большой политике и конфликтам, а также дублирует уже опубликованный материал о снижении трафика и влиянии войны с Ираном (пункт 3 контекста)."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/bengaluru/dubai-returned-passenger-spits-gold-during-screening-at-bengaluru-airport/articleshow/133532690.cms",
+    "timestamp": "2026-08-26T20:34:50.143376+00:00",
+    "status": "rejected",
+    "content_hash": "373c96d4f611219f68a581b5a7ecf344",
+    "strict_hash": "373c96d4f611219f68a581b5a7ecf344",
+    "fuzzy_hash": "c5ba4b0260b1b01ab35d9004ccaf6a05",
+    "reason": "Оценка: Новость о контрабанде золота пассажиром, вернувшимся из Дубая, имеет косвенную связь с регионом (Дубай как точка вылета), но основное событие происходит в Индии и не представляет интереса для русскоязычного жителя Дубая. Тема не является общественно значимой для ОАЭ, а текст выглядит как перепечатка региональной криминальной хроники без проверяемого первоисточника в контексте Дубая."
+  },
+  {
+    "url": "https://www.hindustantimes.com/trending/man-walks-away-from-luxurious-dubai-life-to-open-a-small-shop-in-uttarakhand-bahut-bhaag-liya-life-mein-101787726850609.html",
+    "timestamp": "2026-08-26T20:34:53.181888+00:00",
+    "status": "rejected",
+    "content_hash": "d807a167fa50b81ccf651919ae9cb091",
+    "strict_hash": "d807a167fa50b81ccf651919ae9cb091",
+    "fuzzy_hash": "52ffcf617f4e4c7d27fbd9e190e844dc",
+    "reason": "Оценка: Новость о человеке, уехавшем из Дубая в Индию, не имеет прямой связи с жизнью в ОАЭ, не несет практической пользы для русскоязычных жителей эмирата и выглядит как развлекательный контент без региональной значимости. Дубликатов среди опубликованных материалов нет, но по критериям 1 и 6 новость не проходит."
   }
 ]
