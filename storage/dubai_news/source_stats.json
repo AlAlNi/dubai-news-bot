@@ -1080,5 +1080,59 @@
     "strict_hash": "3180cce00bc529e46dce2042a434f869",
     "fuzzy_hash": "869be1a4499f3aacabf436b4bba793cf",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thenationalnews.com/business/aviation/2026/08/26/dubai-wont-lose-the-crown-airport-chief-vows-it-will-remain-worlds-busiest",
+    "timestamp": "2026-08-26T15:59:09.504926+00:00",
+    "status": "rejected",
+    "content_hash": "93b566ad07f9848606a280ce577f14ee",
+    "strict_hash": "93b566ad07f9848606a280ce577f14ee",
+    "fuzzy_hash": "a4c789bcfb3fbe218cae97bd00390c48",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (аэропорт DXB), не содержит политики или конфликтов, не является рекламой, уважает ценности ОАЭ, источник указан (The National News) и проверяем. Тема интересна русскоязычным жителям, так как касается ключевого транспортного узла. Однако **это точный дубликат** уже опубликованной новости №1 из контекста (тот же заголовок и содержание). По правилу 7 — отклоняется."
+  },
+  {
+    "url": "https://techbullion.com/how-to-pick-a-kitchen-design-that-fits-your-dubai-home",
+    "timestamp": "2026-08-26T15:59:11.359392+00:00",
+    "status": "rejected",
+    "content_hash": "4015c360c615aa636d2691e33c7ecdfd",
+    "strict_hash": "4015c360c615aa636d2691e33c7ecdfd",
+    "fuzzy_hash": "2afa9af44f7cb0f5973b88a5f28e9d26",
+    "reason": "Оценка: Новость представляет собой общий совет по дизайну кухни без конкретной привязки к Дубаю, не содержит проверяемых фактов или ссылок на источники, а также выглядит как рекламный или контент-маркетинговый материал, не несущий общественно значимой информации для русскоязычных жителей."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWTRSdWxKZ2dDSktLSGI4MC1kUXhmdzkwTHh2MDNhMG9IelhxSFUzSkRtdW9ZOGJMTzFXcUtIOUhidlZVZW0zZ2VrdTBYQ19YeEpsVDV0LTRuYi1wWktnV01vSUl5RWJYaU1nekZBNHpXZDNXZlFaa2JNMjVoQVVxMHJZaW9DTGNiTnZLaGw5MUhZQndDWDJKa01UNEFaMURFRldZY3Y2M240TDNya2tGcWJB0gG3AUFVX3lxTFBLM2tjUFQ4Zm95amtKWmFheDdxdHdjb2IybzZGdjdUMS1OTGxZS3dRYUtLdFRxMnVNUUxqUXd5eTFyM1JLOHhuTFFHQ3E0bkRfMWhybDUzN01KdkExUDRoTkdTWG9RZzVEcWpqR3dPU2ZZY0FTNnFqbEFWUnRHZ3BjMk01V3Znc1lReGl3NzgzNWxvZVpNaVVPUlN1TzYwa0JQMXRXcXkzZFUzWFVzdGVaRmZKRE9jSQ?oc=5",
+    "timestamp": "2026-08-26T15:59:14.126699+00:00",
+    "status": "rejected",
+    "content_hash": "fc9e799d6a1946b52edb62b42bc49b70",
+    "strict_hash": "fc9e799d6a1946b52edb62b42bc49b70",
+    "fuzzy_hash": "c86153deed82eb08fbdcca5eb603a5f5",
+    "reason": "Оценка: Новость связана с Дубаем (аэропорт) и объясняет влияние конфликта на пассажиропоток, что соответствует правилу 1. Однако тема напрямую касается последствий большой политики/конфликта (правило 2), а также является дубликатом уже опубликованной новости №3 («Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth»), которая освещает тот же спад из-за иранского конфликта. Текст крайне короткий и не содержит проверяемых деталей, что нарушает правило 9."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRjJ4bnB6VUotbHAzcTZqZ2RleGI0ak44LXNoZV9Idkc4bmRsQWc0cF9yVzh5OHRsd3J2b3E0OTRKaUhCakl3Q0lMb0UxWk5TM2l6cllQdTRXaGRpaGY5UVNlV29PUUJEWFlycHBSVVJmUEdmcG91RVZncWdObFFtWDJMVElNbm1wUjh2ZHo4dmVUc2h3VXFR?oc=5",
+    "timestamp": "2026-08-26T15:59:16.648603+00:00",
+    "status": "rejected",
+    "content_hash": "82fbf6f73b7e306401168218d3939dc1",
+    "strict_hash": "82fbf6f73b7e306401168218d3939dc1",
+    "fuzzy_hash": "fca63f8123e2c31396ccff18f3cb0415",
+    "reason": "**Оценка новости:**\nНовость о снижении трафика в аэропорту Дубая из-за последствий иранской войны напрямую связана с регионом и важна для русскоязычных жителей, так как затрагивает авиасообщение. Однако она дублирует уже опубликованный материал под номером 3 («Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth»), который освещает ту же тему — влияние иранского конфликта на трафик аэропорта. Текст также крайне короткий и не содержит проверяемых деталей, что снижает его информационную ценность.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTRHcHJJVzNFODdqcmRwZGtSUF9PUGF6RVQ1cE1IR2JtWjk0Wk9IV2tMLUpSMWxYRk1aSG1oMWNybks1RVh2U0wtN216SXFUdFVMQndheGdoRXI5U3dqc0draXMtWFZteTFuVk5rTGwtQTU1M3JCMWEtTHRNMDROaVVXTU1vZTJvRTRwTG9sY0toVDRwX1EyRDV4Nkk1NXhiNmhGVHFPdFdUTlVqSE1sdlpOOFlPcVY3cXB2aNIBvAFBVV95cUxOdTRHcHJJVzNFODdqcmRwZGtSUF9PUGF6RVQ1cE1IR2JtWjk0Wk9IV2tMLUpSMWxYRk1aSG1oMWNybks1RVh2U0wtN216SXFUdFVMQndheGdoRXI5U3dqc0draXMtWFZteTFuVk5rTGwtQTU1M3JCMWEtTHRNMDROaVVXTU1vZTJvRTRwTG9sY0toVDRwX1EyRDV4Nkk1NXhiNmhGVHFPdFdUTlVqSE1sdlpOOFlPcVY3cXB2aA?oc=5",
+    "timestamp": "2026-08-26T15:59:17.631565+00:00",
+    "status": "rejected",
+    "content_hash": "1a2361f6b08f388a034d1c98255fd70d",
+    "strict_hash": "1a2361f6b08f388a034d1c98255fd70d",
+    "fuzzy_hash": "a86137c77df5573bdafced28c1e048bb",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUWcwRDVTMldxUVNicEZEQzlKRGhMeEF4ZFV4SmZqVm1jUVJBT3FYUzY2OUFGanZHTVVVZHEya2xjb3Z0NGZXbm52akkyZTlfWjRMeHpLZHVXRFBYeFc4aVRoMm5xS0xiM2VzazFRSG1hbjdPUElqRG1yb0JiMGpQdmZ1OEphSGo3bVhyT2E0WkFBSmhNSnhKMnRYUjBHV0s0N0M1NXVCVklCNXZfbk5aUHpkSEdlOEl60gHLAUFVX3lxTE9ZbG9XTndoVUdvdG9VdFFrVlRURUd6T0tmdUpBTkdyeUU1QnptMDh2b1VRRUtvUURpb3VBNjlYelN5SHpTLWtWZE9SUW5ScnI4YzhfWlJ1ZkYzUHJnbWU0WXFLVk5sRlBOMnZ3c1RCeHN3Q0ZSUWdyQ19CUFBlVUp5dlhaQ2gxMm9DTmxqZGUyanpMYUozbWZFTmVLYktYZ2xaU3d3WXYtWE44UlNvS1FZN0VONXNQcU5SaTk3SEVSbnNFRGZUMERXd2hV?oc=5",
+    "timestamp": "2026-08-26T15:59:19.466472+00:00",
+    "status": "rejected",
+    "content_hash": "59bd365d0e4702f2d24a672f6c148927",
+    "strict_hash": "59bd365d0e4702f2d24a672f6c148927",
+    "fuzzy_hash": "8e1ef2805d6b6a49809e055d50aa5674",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
