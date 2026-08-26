@@ -1036,5 +1036,14 @@
     "strict_hash": "2b19421ffc466f3c9ac1778b8fe7b5b8",
     "fuzzy_hash": "7f04aeb9d1a7d88d1861a0850d07c6f8",
     "reason": "Оценка: Новость представлена только заголовком без текста, что не позволяет проверить её содержание, достоверность и связь с регионом. Формат «5 изменений в городе» потенциально полезен, но отсутствие фактического материала и источника делает публикацию невозможной."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbEsycFlDR0QyX3p6R2YwTHVfUTMwaUo3Xy1XMU14Q2xjNU9hZERvYzhkQTQ1ZF95RF8waXhVdnlHX21XblJPWHRqMjVRcU5MMkM4VllGNjVmMnVPeWh5Nm1MZnVKQ0Y4eGJvb3NyMWlCRFJUbW5Sd1Z5UXZlZE1jWkJCVVdWV1ZzcG1qWXVJVk5ZWFN4WFdXSVU3ZzBfNDZQM01Kcnp5cG9tQktIdHJxaFhjdUFKQUw3QXZObTlrVU9wc1NUeWxCVWxB?oc=5",
+    "timestamp": "2026-08-26T10:23:46.431450+00:00",
+    "status": "rejected",
+    "content_hash": "0b5dcf674b43a83a09bf3c5a7205902b",
+    "strict_hash": "0b5dcf674b43a83a09bf3c5a7205902b",
+    "fuzzy_hash": "412c316885ee935d57c4b6d8383ab0b9",
+    "reason": "Новость напрямую связана с Дубаем (аэропорт DXB) и содержит конкретные данные о пассажиропотоке, что интересно русскоязычным жителям, следящим за транспортной ситуацией. Однако она является практически точным дубликатом уже опубликованной новости №1 (Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth), так как обе основаны на одном и том же событии и источнике (Reuters/Thenationalnews)."
   }
 ]
