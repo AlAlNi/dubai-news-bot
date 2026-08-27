@@ -926,5 +926,59 @@
     "strict_hash": "d21646f6b4d519005e47d1c91347d898",
     "fuzzy_hash": "4415e2354b99271964b59352f1234a33",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.euronews.com/business/2026/08/27/how-dubai-became-the-worlds-easiest-place-to-set-up-and-scale-a-business",
+    "timestamp": "2026-08-27T22:29:02.250271+00:00",
+    "status": "rejected",
+    "content_hash": "b56285a97b7d7a59bef6b9c4c233cce9",
+    "strict_hash": "b56285a97b7d7a59bef6b9c4c233cce9",
+    "fuzzy_hash": "84b2d39d2a5086422c71f0241a3b22d7",
+    "reason": "Оценка: Новость носит явно рекламно-имиджевый характер, восхваляя лёгкость ведения бизнеса в Дубае без конкретных фактов, цифр или ссылок на официальные источники. Это типичный пресс-релиз или промо-материал, не содержащий общественно значимой информации для русскоязычных жителей, а также не имеющий проверяемого URL."
+  },
+  {
+    "url": "https://indianexpress.com/article/legal-news/notice-whatsapp-valid-telangana-high-court-dubai-man-divorce-10851959",
+    "timestamp": "2026-08-27T22:29:04.314857+00:00",
+    "status": "rejected",
+    "content_hash": "64f1cc014e3fc26f6fd1296beb8e8250",
+    "strict_hash": "64f1cc014e3fc26f6fd1296beb8e8250",
+    "fuzzy_hash": "1debc9c05d4366feca9daee9512b27b6",
+    "reason": "Оценка: Новость о решении суда в Индии по разводу, связанному с резидентом Дубая, имеет лишь косвенное отношение к региону и не представляет интереса для русскоязычной аудитории Дубая. Основная тема — зарубежное судебное разбирательство, что не соответствует критериям региональной значимости и полезности."
+  },
+  {
+    "url": "https://www.hindustantimes.com/lifestyle/travel/48-hours-in-dubai-how-i-explored-the-best-of-luxury-food-art-and-adventure-without-battling-the-summer-heat-101787816670154.html",
+    "timestamp": "2026-08-27T22:29:06.476670+00:00",
+    "status": "rejected",
+    "content_hash": "f8d88259235036ab4fa18413f6571172",
+    "strict_hash": "f8d88259235036ab4fa18413f6571172",
+    "fuzzy_hash": "199248e96dc084f053129cb5512c8607",
+    "reason": "Оценка: Это личный обзорный материал о 48-часовом пребывании в Дубае, описывающий развлечения, еду и искусство в летнюю жару. Текст похож на рекламно-туристическую статью или личный блог, не содержит общественно значимой новости, а также не имеет явного проверяемого источника (URL) и выглядит как пересказ чужого опыта без новостной ценности."
+  },
+  {
+    "url": "https://www.thesun.co.uk/tv/40185911/towie-star-quits-uk-dubai-future-doubt",
+    "timestamp": "2026-08-27T22:29:06.580987+00:00",
+    "status": "rejected",
+    "content_hash": "3140cc7cf59158c74559328d33255a0b",
+    "strict_hash": "3140cc7cf59158c74559328d33255a0b",
+    "fuzzy_hash": "1bdb6b331f50b7ebd1ba169bcd14a6e2",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.lokmattimes.com/other-sports/harmanpreet-led-india-reach-dubai-for-womens-asia-cup",
+    "timestamp": "2026-08-27T22:29:09.896476+00:00",
+    "status": "rejected",
+    "content_hash": "59602ea6b60cce6de5d1111edb03d3df",
+    "strict_hash": "59602ea6b60cce6de5d1111edb03d3df",
+    "fuzzy_hash": "5ddc15894fe73e16851296338820bb2f",
+    "reason": "Оценка: Новость о прибытии женской сборной Индии по крикету в Дубай для участия в Кубке Азии имеет прямую связь с регионом (турнир пройдет в ОАЭ) и может быть интересна русскоязычным жителям, следящим за спортивными событиями. Однако текст выглядит как стандартный спортивный пресс-релиз без явной общественной значимости для повседневной жизни в Дубае, а также не содержит проверяемого URL источника в предоставленном фрагменте."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMFp6a2NjbUNodXlqb3RNLWlYWC1aajhSTmRQQl95SjNHZHVwRzRpN2c1TEdYN25nVV90RllHWTBVSktYMzg4dmJqVFZHT1NTS2I2Vm1ER1R5Y1o3TzVieGVLNW5QeVM3X3QwU0lDQ1VzS0sxeVdPV3pWc2RzakJ5cVBIR2NJVkFZNGFaY0lRQjRMaUFOdVFLa084cTctYlAySXVuUDhISXl2dVd3dmhreEdwMU4wLXJiZHJvUDdVUndXUU9sS0xmT1pJRWhZNHNaN0xsNTVuUHhHWWc?oc=5",
+    "timestamp": "2026-08-27T22:29:17.275420+00:00",
+    "status": "approved",
+    "content_hash": "5f258cff7a1ac3018ee7116e664a45b8",
+    "strict_hash": "5f258cff7a1ac3018ee7116e664a45b8",
+    "fuzzy_hash": "67c2d895ea68ef63d797f3c9a5307ae8",
+    "reason": "approved"
   }
 ]
