@@ -1025,5 +1025,104 @@
     "strict_hash": "290d7d2dc80efaefbc724e119475a985",
     "fuzzy_hash": "fd3163d343d5b8d3ae1404e687e2f0f1",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/08/10-fun-things-to-do-this-long-weekend-in-abu-dhabi-august-28-to-30",
+    "timestamp": "2026-08-27T13:18:05.290047+00:00",
+    "status": "rejected",
+    "content_hash": "c5fb409f51c07de7686f93f3a5a72432",
+    "strict_hash": "c5fb409f51c07de7686f93f3a5a72432",
+    "fuzzy_hash": "7bc50d392c4377ad235e80f442539a5f",
+    "reason": "Эта новость — подборка развлечений на длинные выходные в Абу-Даби, а не в Дубае. Хотя регион ОАЭ упоминается, для русскоязычного жителя Дубая она нерелевантна, а также выглядит как перепечатка анонса с сайта What's On без проверяемого первоисточника и явной пользы для нашей аудитории."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/freize-abu-dhabi-launches-in-november-featuring-84-galleries-from-36-countries",
+    "timestamp": "2026-08-27T13:18:12.694672+00:00",
+    "status": "rejected",
+    "content_hash": "8a0c50df901494395b5a7d6d7f3b167d",
+    "strict_hash": "8a0c50df901494395b5a7d6d7f3b167d",
+    "fuzzy_hash": "e2566c5fae07ccb7ba70323e71b0e82e",
+    "reason": "Новость о запуске Frieze Abu Dhabi в ноябре 2026 года с участием 84 галерей из 36 стран — это значимое культурное событие для региона, напрямую связанное с ОАЭ (Абу-Даби). Текст не содержит политики, рекламы или неуважения к ценностям, а также не является дубликатом уже опубликованных новостей (в контексте упоминаются только Дубай, а не Абу-Даби). Однако есть сомнения в достоверности: указан 2026 год, что выглядит как опечатка или ошибка (вероятно, имеется в виду 2025), а также отсутствует явный URL источника для проверки фактов."
+  },
+  {
+    "url": "https://whatson.ae/2026/08/murmur-aljada-review-whatson-dubai",
+    "timestamp": "2026-08-27T13:18:18.248336+00:00",
+    "status": "rejected",
+    "content_hash": "fb2e54b9076f423beb67edafb680123e",
+    "strict_hash": "fb2e54b9076f423beb67edafb680123e",
+    "fuzzy_hash": "d156439170888f63cf8189eba1fcf59f",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjk2WDAtdjhzMDZsaF82LUZfa0cwWFFmRzM1bkhQZF8zY2RXLVhUVnpucUwtMzNKRkh0N0ZyTTdQcHc1RmNxcVdLZVF0UkRrVGh3ZXgwdk9hOUZzRDl5MFdBdzlPd3c5dlVXaVJCZXF1MWFIS3ZPVHk1dGEzVmJEa2xjNktCR2xPZk9ZalhMUWEzRjF0RWU4R2Jub2RHanhRUkExOVd3OHE1QmFhRHdsVFgzQXVSTjBYQkRsemhnZUhmZGk3S2Q4cA?oc=5",
+    "timestamp": "2026-08-27T13:18:20.665493+00:00",
+    "status": "rejected",
+    "content_hash": "8152602c6beacdef4e53b0642e4b89b6",
+    "strict_hash": "8152602c6beacdef4e53b0642e4b89b6",
+    "fuzzy_hash": "16c3cf1c317b1ce4749eeab63f776e5f",
+    "reason": "Оценка: Новость сообщает о транспортных тарифах и бесплатной парковке в связи с государственным праздником в ОАЭ, что напрямую связано с регионом и полезно для русскоговорящих жителей Дубая. Однако она дублирует уже опубликованную новость о бесплатной парковке (пункт 3 контекста), что нарушает правило 7."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9zb2w2MGt2T21pMHVuQXV5enV2bm5ObmhsMEVVblM4NGF2OTdDOFp6UmRYS1hYcEJTRFpkckVYcWlsNmpQX3VHaWJnTWh1VHdncDY2U3I1UjF6aXBRRnZYUUdHaHRXcVZQYmtFY0pHZHh5Q3dzd0x2aVVybmI?oc=5",
+    "timestamp": "2026-08-27T13:18:23.029891+00:00",
+    "status": "rejected",
+    "content_hash": "c09bf60ef71f12d7d9dc68abef0b66d5",
+    "strict_hash": "c09bf60ef71f12d7d9dc68abef0b66d5",
+    "fuzzy_hash": "ae15b2ecacb49d478c40ded161d5e3ef",
+    "reason": "**Оценка новости:**\nНовость о расписании Дубайского метро в праздничные дни напрямую связана с регионом, полезна русскоязычным жителям и не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако текст крайне короткий и не содержит конкретных деталей (какие именно даты, изменения в часах работы), что делает его малополезным без дополнительной информации. Источник (Time Out Dubai) проверяемый, но сам текст выглядит как заглушка, а не полноценная новость.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN2ZqUVhIYzZESU5xb1Ewb1J1RVR3NHNDa09LTE5qT1R3V3dEZExNZmxPb2VoU2QwZ0M4R0JYalY4d0FzbUpuMHpMd0g5ZXJtOWt3d2k2QWp3OFFkMWFyZnlHalh2em5tYTBMaTZ5bzZMVlNZX29Ib0VCYmdBNVhnZF9PZHQyLXdRRDJMQ0lKMG5OZWY1ZVl2U2FwRE9feFBzMHlyWDZMWdIBugFBVV95cUxNNnlBNmE1a2hVVnd6U1duRkR4MDB2TDZDUjM4Rm5Uc2VtV3JNOFl2ZDZWM3dKazZfWllEb21FNVJZbFlnX3p0YmRJTHpTbG83ZUVCeEVFdDNBajlJVEFqUFp2WXNfRzFtUmdOeFhuMDhTUmkxakI3d19kdDg1eGZ5WVZxRFhWdjRHRWNUS2RzbmdWcS1nUGNsR3RGdHltczBQbV9FNTNveFg2UFNqV2EzRHhBZGc4ODU1WFE?oc=5",
+    "timestamp": "2026-08-27T13:18:23.240587+00:00",
+    "status": "rejected",
+    "content_hash": "2a71d7397cb284c91ba590f733886032",
+    "strict_hash": "2a71d7397cb284c91ba590f733886032",
+    "fuzzy_hash": "bcae041332edd68efdbb0221297f33b7",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONVZYR3dRS0Rpb09rbmVueVVYZFRNWVI1NzhIQllOcmRJNzZvbHZBZ1hBckJmWENzSjZLeTRwVjZhdGM0WVdnMFZzZUx2VjFKUkZRLVZzbXhCOUZvQnRCVG5Fd1UzaTl5MjM4NGpLOHZKQVBaTWgteHhaVUtpWmRqbG1MR05SZnA1bEN5WExIdkpZQnRFNlE?oc=5",
+    "timestamp": "2026-08-27T13:18:25.081158+00:00",
+    "status": "rejected",
+    "content_hash": "8e2183fe76ea11a5a9b5e3ec42c62f5d",
+    "strict_hash": "8e2183fe76ea11a5a9b5e3ec42c62f5d",
+    "fuzzy_hash": "8cd402b0ed57637e0e300e943e45b728",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0ZWdzVZM1pXY2x6UTRzU1lOd05MOVhBc1A3a25DZjBqREJaclgxZmloUXVHWS04WmVsSmtzVk50OWk4OUdHV1laOGtaOERlaWFmWTFzLUtGek1LYWJ0WnAxTFE1Vy0wMkluaW9DeDBzV2FJTnBVRU1YWHhiTUMwdXpXVDdLdXhpOXd0dg?oc=5",
+    "timestamp": "2026-08-27T13:18:26.490993+00:00",
+    "status": "rejected",
+    "content_hash": "d7da3f2c7db086b69cc60a04855a507a",
+    "strict_hash": "d7da3f2c7db086b69cc60a04855a507a",
+    "fuzzy_hash": "c2b95f7052ce9aef3767db5f4029a2aa",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORGx1V3kzZzQ3YldpLWljYV9tMDFhd29NYXg5VC15Mm5HVEpZMFhyVHJ1a3JqeExLcEhUTVVyQm1LSlpvcHE4UmNSZXQzMnRubVpPdEEyMzF2Qk12XzZESEhTcmhkeDktZ05nWi1tT2d0TkZFc2NkeTllcVpyT1RDZ0djVDZUZXpVc0lYVkRXM3VBZlMwdjNqUFgxV3VkYWVTRTN2cHg5N1FPWml3Q2pHQzFUNElJWVpmMU5yazA1UTMzYTNabDZUMUxqbmszZw?oc=5",
+    "timestamp": "2026-08-27T13:18:27.845901+00:00",
+    "status": "rejected",
+    "content_hash": "7edfdcac54b00babbd741233aed6f98e",
+    "strict_hash": "7edfdcac54b00babbd741233aed6f98e",
+    "fuzzy_hash": "225f324edbda006160fd58219d796937",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkbjB2WTVfcWpIQmw0MmxFa3lsbkNaQVh1ZnlCUHlsc2JzS3Vmc0dWdndYOHBDbHcwbm9XdFI4YVZ0UFlMQVpZWE5La0dpZmlHQnRBM2ViQUt0aE1IZjFXeVMxelNWUkVndEJrQXFNc210Y1FmSGw4X0Z0RQ?oc=5",
+    "timestamp": "2026-08-27T13:18:29.133800+00:00",
+    "status": "rejected",
+    "content_hash": "35c863c03318ba303eac47d0ac400af0",
+    "strict_hash": "35c863c03318ba303eac47d0ac400af0",
+    "fuzzy_hash": "a26d420b81f0cf80a6a9bba8a0c96e6e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRTFKOEZPR21zdmJlcE9halVTazZ1c2xfLVRHM1k1SlBSVnNlbkRRNVI4OGxNSmtwcDRuNXVoWkM0ZTdhNkEtVDRXWEJyMGhhWlU4ejN4ekZraUdCNlBVYk93S3RReS1FZ1k2XzF4MWhqdUY4R3RocmdPak9TQ0VjaWpxeTUtZEUw?oc=5",
+    "timestamp": "2026-08-27T13:18:30.459538+00:00",
+    "status": "rejected",
+    "content_hash": "d21646f6b4d519005e47d1c91347d898",
+    "strict_hash": "d21646f6b4d519005e47d1c91347d898",
+    "fuzzy_hash": "4415e2354b99271964b59352f1234a33",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
