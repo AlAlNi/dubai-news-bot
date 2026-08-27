@@ -1219,5 +1219,41 @@
     "strict_hash": "f5f3f77a8e2fc0438f8bfb809939b5b6",
     "fuzzy_hash": "6f17443db64a624e45988aa03761c013",
     "reason": "Оценка: Новость представляет собой авторскую колонку журналиста о росте числа розничных трейдеров в Дубае, что имеет косвенную связь с регионом, но текст выглядит как личный блог или аналитический обзор без конкретных проверяемых фактов и явного URL источника. Основной фокус на глобальных рынках и политике (упоминание Трампа), что не соответствует формату новостного канала о жизни в Дубае."
+  },
+  {
+    "url": "https://www.indiatoday.in/trending-news/story/man-quits-dubai-real-estate-rat-race-after-dad-death-opens-thoda-slow-cafe-in-uttarakhand-2980468-2026-08-26",
+    "timestamp": "2026-08-27T00:57:47.493120+00:00",
+    "status": "rejected",
+    "content_hash": "4248b0fd28e7a2e31d624be519b60223",
+    "strict_hash": "4248b0fd28e7a2e31d624be519b60223",
+    "fuzzy_hash": "692ab105f08c9ffb0fd08801f49c5f7b",
+    "reason": "Оценка: Новость рассказывает о человеке, уехавшем из Дубая, но основное действие происходит в Индии (Уттаракханд). Связь с регионом лишь косвенная (прошлое место работы), а сама история носит личный, человеческий характер, не представляя общественной значимости или пользы для русскоязычного жителя Дубая. Это скорее вдохновляющий фичер, нежели новость о жизни эмирата."
+  },
+  {
+    "url": "https://apnews.com/article/iran-war-dubai-airport-earnings-648e58b5f0026bc82424bbff4f621610",
+    "timestamp": "2026-08-27T00:57:50.653060+00:00",
+    "status": "rejected",
+    "content_hash": "c4afe1e8864b671025ea689042f0fef5",
+    "strict_hash": "c4afe1e8864b671025ea689042f0fef5",
+    "fuzzy_hash": "e7c3dede64fe880cdf396e4bd36e03d7",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (аэропорт DXB), не касается политики или конфликтов как основной темы (скорее экономический эффект), не является рекламой и не нарушает ценности ОАЭ. Однако она **дублирует** уже опубликованный материал под заголовком «Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth» — та же тема, тот же источник (AP/The National), тот же период и суть. Также есть пересечение с новостью о задержках рейсов. Текст выглядит естественным, но из-за явного дубликата публикация нецелесообразна."
+  },
+  {
+    "url": "https://www.clickondetroit.com/business/2026/08/26/dubai-airport-reports-sharp-drop-in-second-quarter-traffic-due-to-iran-wars-effects",
+    "timestamp": "2026-08-27T00:57:52.496444+00:00",
+    "status": "rejected",
+    "content_hash": "c01c805bd2c913f1887a182d6f1656ff",
+    "strict_hash": "c01c805bd2c913f1887a182d6f1656ff",
+    "fuzzy_hash": "ac80fcff09262455c33f23714d07d8c0",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (аэропорт DXВ) и содержит конкретные данные о пассажиропотоке, что интересно русскоязычным жителям. Однако она практически дублирует уже опубликованный материал №3 («Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth»), где упоминается тот же спад из-за войны с Ираном. Тема не политическая, но повтор информации очевиден.\n**Решение:**"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/08/26/dubai-shared-housing-rules-come-into-effect-in-bid-to-curb-dangerous-accommodation",
+    "timestamp": "2026-08-27T00:58:00.556227+00:00",
+    "status": "approved",
+    "content_hash": "b3840fea15d9f3e26521a20e2d887df0",
+    "strict_hash": "b3840fea15d9f3e26521a20e2d887df0",
+    "fuzzy_hash": "003545c60be26f553401ee091fc6f69b",
+    "reason": "approved"
   }
 ]
