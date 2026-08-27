@@ -1255,5 +1255,59 @@
     "strict_hash": "b3840fea15d9f3e26521a20e2d887df0",
     "fuzzy_hash": "003545c60be26f553401ee091fc6f69b",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-airport-flights-iran-war-b3039664.html",
+    "timestamp": "2026-08-27T02:23:35.631371+00:00",
+    "status": "rejected",
+    "content_hash": "4eb1ac992e5b51ef5f8f62d94ccf173b",
+    "strict_hash": "4eb1ac992e5b51ef5f8f62d94ccf173b",
+    "fuzzy_hash": "3f5d49006e463f5a049593555f38e6ec",
+    "reason": "Новость о падении пассажиропотока в аэропорту Дубая из-за регионального конфликта напрямую связана с Дубаем и его ключевой инфраструктурой, не является политической агитацией и не содержит рекламы. Однако она практически полностью дублирует уже опубликованную новость «Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth» (thenationalnews.com), которая освещает тот же отчет и те же данные."
+  },
+  {
+    "url": "https://www.thenationalnews.com/business/aviation/2026/08/26/dubai-airport-dxb-busiest-airport-passenger-traffic-recovery",
+    "timestamp": "2026-08-27T02:23:37.414025+00:00",
+    "status": "rejected",
+    "content_hash": "d11d898b4d27b7b3bf2fcb5e90baedd3",
+    "strict_hash": "d11d898b4d27b7b3bf2fcb5e90baedd3",
+    "fuzzy_hash": "1c6dd41e67afe7ac016678369c273824",
+    "reason": "Оценка: Новость напрямую связана с Дубаем (аэропорт DXB), не касается политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Однако она является точным дубликатом уже опубликованной новости под тем же заголовком (пункт 2 в контексте), что нарушает правило 7."
+  },
+  {
+    "url": "https://fortune.com/2026/08/26/dubai-airport-passenger-traffic-iran-war",
+    "timestamp": "2026-08-27T02:23:39.786812+00:00",
+    "status": "rejected",
+    "content_hash": "12115cc62901ae09579eedc56fdfbc19",
+    "strict_hash": "12115cc62901ae09579eedc56fdfbc19",
+    "fuzzy_hash": "18d9c31b67f1b705fb7bc578ccd9f91e",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (аэропорт), не касается политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Однако она дублирует уже опубликованный материал (п. 4 контекста: «Dubai airport expects stronger second-half recovery after Iran war dampens Q2 growth»), где та же тема — падение трафика из-за войны с Ираном — уже освещена. Текст также обрывается на полуслове, что вызывает сомнения в его полноте и достоверности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcC1tbTlVUUxFSkZGbXdqV0tuRDk2VE42QlowZEVsNXZSQTVvZmdzZVF5aGpoZm05UXlmVzQ0YUNCb1R2NmN2UndxZnhNdVNGd0lhV1hOOXVfUVR1YXNET0QxNmQ1OFY5RzRhd25fajJHNy1TR1E4Vk5hd0gyMzN5M2tlMzBSRlM0TFZZamM0ajAxWnUwd2c?oc=5",
+    "timestamp": "2026-08-27T02:23:41.237003+00:00",
+    "status": "rejected",
+    "content_hash": "8ef580174e437f2013a0700a9be9e833",
+    "strict_hash": "8ef580174e437f2013a0700a9be9e833",
+    "fuzzy_hash": "dac33804e6358726a5ed20a4e1d53f82",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ2c2X1lKclBRbW5NSzUxWWItSU1YXzJyS29zajd1NlhJdWZtNjVqR1lrcTRON2d4V202VzJuaDhYYmtOWFY4QWNoQ1JKdXBhLUJmdU4wa3RabFlLeGhiRTFtRl94VnNReHY5QTcwQnlCUEZpWkRXMlV2aHg4eTd6c1pUbDVfNWVTd29tSC1rSmNFN3hudjBsQ3Qxa3NmOGJEZXplLURrUHpiUDN3R1E3dw?oc=5",
+    "timestamp": "2026-08-27T02:23:43.648804+00:00",
+    "status": "rejected",
+    "content_hash": "4f4453b83d9a161f6c8da25f3e7d60cb",
+    "strict_hash": "4f4453b83d9a161f6c8da25f3e7d60cb",
+    "fuzzy_hash": "e4fa123f9041903fc8708376240c3a9c",
+    "reason": "Новость о мерах безопасности и дорожного движения в преддверии нового учебного года напрямую связана с Дубаем, не содержит политики или рекламы, соответствует ценностям ОАЭ и будет полезна русскоязычным жителям (особенно родителям). Однако текст крайне короткий и не содержит проверяемых деталей или ссылки на источник, что затрудняет подтверждение фактов. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN3FLQ0UxZFRDdE5vVUdTWXJGd0V3bEk0OU1XV0NtNE9UOWNsbzdOaUMtUExKelJIRnJCcTNmWm5tYUoyV2FnaHZ4Vm1RNFZtRXJOOXRiaFJ4VkVERTZMeGwyc3JRMzZEVExxTmsyZjVVcmN6bWdzempSVGhrQWRJdzhZclkzX0tmX2R2d2xjeUVPdWtSdDNpTl9HOEJtdGh4OE4zUDB2NXNWN1pBT21pUHlySkNTM19temduT2dR?oc=5",
+    "timestamp": "2026-08-27T02:23:51.167776+00:00",
+    "status": "approved",
+    "content_hash": "b8ca3eb81bec71c5eeed2e27712dc53f",
+    "strict_hash": "b8ca3eb81bec71c5eeed2e27712dc53f",
+    "fuzzy_hash": "f0e34fef22271769f874a09d46dddc36",
+    "reason": "approved"
   }
 ]
