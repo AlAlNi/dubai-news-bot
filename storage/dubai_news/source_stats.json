@@ -403,5 +403,32 @@
     "url": "https://www.thenationalnews.com/news/uae/2026/08/30/inside-dubais-harrow-school-set-for-grand-opening-for-new-academic-year",
     "timestamp": "2026-08-30T17:19:46.265080+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.timesnownews.com/travel/dubai-airport-changes-security-rules-travellers-may-no-longer-need-to-remove-laptops-liquids-from-bags-article-156011669",
+    "timestamp": "2026-08-30T17:40:54.550854+00:00",
+    "status": "rejected",
+    "content_hash": "480d3e8852ff2b1d9204197539ad61c9",
+    "strict_hash": "480d3e8852ff2b1d9204197539ad61c9",
+    "fuzzy_hash": "1df84ac60ed5f2e7c8dc98cb17a1f3ed",
+    "reason": "Новость напрямую связана с Дубаем (аэропорт), не касается политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Тема изменения правил безопасности в аэропорту практична и полезна для русскоговорящих жителей, часто летающих через Дубай. Однако текст обрывается на середине предложения («becaus...»), что указывает на неполноту данных, а также отсутствует явная ссылка на первоисточник для проверки фактов. Дубликатов среди опубликованных новостей нет, но из-за незавершённости и непроверяемости информации публикация невозможна."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/08/30/my-dubai-rent-professional-coach-pays-dh120000-for-villa-in-damac-hills-2",
+    "timestamp": "2026-08-30T17:40:56.830988+00:00",
+    "status": "rejected",
+    "content_hash": "4ce521cd4dd298908856aaed555c1c98",
+    "strict_hash": "4ce521cd4dd298908856aaed555c1c98",
+    "fuzzy_hash": "d52e0561beb1377505211ad6b0f72064",
+    "reason": "Новость представляет собой формат «My Dubai Rent» — личную историю арендатора с указанием конкретной суммы аренды и района (Damac Hills 2), что напрямую связано с Дубаем и будет интересно русскоязычным жителям, интересующимся рынком недвижимости. Текст не является рекламой, не касается политики и не содержит признаков ИИ-генерации или кликбейта, а также не дублирует опубликованные ранее материалы (они о визах и инвестициях)."
+  },
+  {
+    "url": "https://www.nation.com.pk/30-Aug-2026/dubai-police-organise-training-courses-security-guards-across-35-schools",
+    "timestamp": "2026-08-30T17:41:03.653461+00:00",
+    "status": "approved",
+    "content_hash": "5703028576ed2b3359d8e221f794245c",
+    "strict_hash": "5703028576ed2b3359d8e221f794245c",
+    "fuzzy_hash": "eae1d8419b141705c812da84769fa35e",
+    "reason": "approved"
   }
 ]
