@@ -435,5 +435,86 @@
     "url": "https://whatson.ae/2026/08/uae-petrol-and-diesel-prices-increase-for-september-2026",
     "timestamp": "2026-08-31T13:30:08.553935+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.breitbart.com/news/united-arab-emirates-says-it-has-intercepted-an-iranian-drone-over-its-territorial-waters",
+    "timestamp": "2026-08-31T14:17:09.579729+00:00",
+    "status": "rejected",
+    "content_hash": "34fd1232eeb347b99bc68499369f3df5",
+    "strict_hash": "34fd1232eeb347b99bc68499369f3df5",
+    "fuzzy_hash": "6dbce5d397ccdaf225876c5e7636cc55",
+    "reason": "Новость касается ОАЭ и связана с региональной безопасностью, но основная тема — военный инцидент с участием Ирана, что относится к большой политике и конфликтам. Это нарушает правило №2, поэтому материал не подходит для публикации в канале."
+  },
+  {
+    "url": "https://www.express.co.uk/news/world/2243960/uae-issues-warning-security-threat",
+    "timestamp": "2026-08-31T14:17:11.785674+00:00",
+    "status": "rejected",
+    "content_hash": "2f6855225b56ec7854f1ff736ed47d77",
+    "strict_hash": "2f6855225b56ec7854f1ff736ed47d77",
+    "fuzzy_hash": "ed0820450511f189872ec76ca0c8abe9",
+    "reason": "Новость касается предупреждения о повышенном уровне угрозы в Дубае/ОАЭ в связи с атакой Ирана, что напрямую связано с регионом и представляет значимый интерес для русскоязычных жителей. Однако тема относится к военному конфликту и большой политике, что запрещено правилами канала, а также содержит признаки кликбейта и неясный источник (нет явного URL)."
+  },
+  {
+    "url": "https://www.dailyexcelsior.com/uae-sends-plane-with-83-tonnes-of-relief-aid-to-flood-hit-nepal",
+    "timestamp": "2026-08-31T14:17:14.353628+00:00",
+    "status": "rejected",
+    "content_hash": "9f80d363d0227e503a8c8e7cc92d3f82",
+    "strict_hash": "9f80d363d0227e503a8c8e7cc92d3f82",
+    "fuzzy_hash": "823c3c7873c1ebfbd7761df6cbc9df88",
+    "reason": "Новость о гуманитарной помощи ОАЭ Непалу не связана с Дубаем, ОАЭ или регионом GCC напрямую (это международная помощь, а не локальное событие), не несёт практической пользы для русскоязычного жителя Дубая и не соответствует критериям «service-update» или «что изменится завтра». Тема не является политической или конфликтной, но по правилам 1 и 6 материал следует отклонить."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRGx2MzJNb29wMXYtOTZmSWtrSTY4aDVZOHk0Yjl2XzFuOW1QTXJqZThWYm9QSVY4LWRHNDEteGo3SWdFbzZkS3YxbG1YWUtwTmtqX0dqYUNhTFd0ZTZMekI2T00yUXpBVmFuMk5jY2NSVnNxa1pnZmVwODNndWs3cGNqYWFtdndDZHk2Mnl5R2p0aVJuOFRnSzNTN1VBblU?oc=5",
+    "timestamp": "2026-08-31T14:17:17.443202+00:00",
+    "status": "rejected",
+    "content_hash": "00170f50e4cf66a58d5b680b1ff0e41c",
+    "strict_hash": "00170f50e4cf66a58d5b680b1ff0e41c",
+    "fuzzy_hash": "baa353af06815a4dd0ca0f056aedbc73",
+    "reason": "Новость о визовых изменениях в ОАЭ на 2026 год потенциально полезна для русскоговорящих жителей Дубая, так как напрямую затрагивает их статус и планы. Однако текст представлен лишь заголовком без содержания, что не позволяет проверить достоверность фактов и источник (Mangalore Today — не профильное издание для ОАЭ), а также отсутствует явный URL для подтверждения информации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOUd3Vjh0VmpTLUNJcVJXTWRVQV9HQU85TG1zXzBSb3YyXzQ1MlRKZ1lCSTg5ajd2Y2J5eFU2Mml4SVhZR1l6eXlrUFZpNnd4VFplekNjQ2g0ajdqeVZjLTM1ZEdXdWYxYVhFUWVyQWhmVG9YZ013bEk1UXQtMGRCdFlZSktmRlpOeDY4eUJ5ODJ5TnNvckN2eEcwenVBUnFKdnZQbFpXb1h5UVRUNHNnRA?oc=5",
+    "timestamp": "2026-08-31T14:17:20.464219+00:00",
+    "status": "rejected",
+    "content_hash": "6029ac66eb29b0ba2d5b5439fdff519d",
+    "strict_hash": "6029ac66eb29b0ba2d5b5439fdff519d",
+    "fuzzy_hash": "9962cd3d9a28a71f301951d0c9191082",
+    "reason": "Оценка: Новость о финансовых обязательствах застройщика Binghatti напрямую связана с рынком недвижимости Дубая и представляет интерес для русскоязычных жителей, следящих за девелоперами. Однако текст крайне короткий и не содержит проверяемых фактов, кроме заголовка Bloomberg, что делает его похожим на анонс без содержательной части."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONWNpLTByQWFjYWtXYTJwc2JOLThEMTBHamhnRVNMeXkwVDI5NXRId0pQUGE2LUpIbHFOOFJxcnZ5Slc0dGZFekVTZ3Q1eWdTMEpteGV2RDRVb1JuRWlTMHNMc2I4S25VX0tlZ0Rhczg1WnlrVktfbDJ5V05Jb2xjc004TXd0eExmNDlmVEJqLURuYzdNNDF2N0ZybnUxc3EtNi02LXdqZ3JLUjVLMFpyRXVUdVoyNVkwanBKU3ZjeU5WOFV1aEVBOUNybVpMbTd3c1ZlNmhKVUxpSEdRUGZySlVod3NHZkppWVR6SmlreWNaSEVjUDJSTXJYTVLSAYICQVVfeXFMUGtCemY5N201eHlUbVRRX3VRNXd2MC1MbDlZU3dkZUxnLWIxQnJuU3ZlRDRvODVSZ2FVZ050cVNzMjE0LXhLeTJDX2NpQlhOLW5nOGFsT25DQ0ppNE91cEpOQWFHZExnRl9neEo5WjM1THpOVWxiZ2U3aDVaSFIyaXlNYnctV0xWNHVyNmQtdGp5eXQ1SFU3LWF2d1dXZnRVeG8zcXl0QUt4bWVBVUp3OEJiRGs4cmc5dWwwd20teWY3a0o4Q1hqZkRUdzgwa0tZbEg4M3dfd0JGUFBON2tsMERDc3ViSlJoVEM0MGFONThzNXRZNlpWei1tamxxM1BwdXR3?oc=5",
+    "timestamp": "2026-08-31T14:17:21.039499+00:00",
+    "status": "rejected",
+    "content_hash": "9c4905d9a41693cc2943a9ab2d83ea2b",
+    "strict_hash": "9c4905d9a41693cc2943a9ab2d83ea2b",
+    "fuzzy_hash": "9b9fdc7488b3fbbce95320f3a32213cb",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwMkdvMmVLR1BxMFcxaVR6T1I2OXJaWE1MYzZiY0dkWVdlWXlnbFBLZl9CZnQ5dGlRdWxLS01RcUdOZ3NRS0E1NUw1NjBfWnJ0VGk3ZWVQWGtieTBaVXk3OTFuSEg1WDg?oc=5",
+    "timestamp": "2026-08-31T14:17:22.748670+00:00",
+    "status": "rejected",
+    "content_hash": "1bb9f40ff91a9de03505707f0725b35f",
+    "strict_hash": "1bb9f40ff91a9de03505707f0725b35f",
+    "fuzzy_hash": "b1e7e3fb8aa874fe0abd24b43d63336b",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LajBTUnJUUW9iZ3d6ZTJTNXNoZmY0bXkzQnh3RW1vMlltN2JfRDFqRXV1V3F6dFdRZkRJRjVGZ3pGcUwyaG15YXlWMjFic0hRSVZhbVpReXhXWlc0a29aZWhyYXZYdENQdVZ5WERnMDl0emdVeGhLMEZmSFI?oc=5",
+    "timestamp": "2026-08-31T14:17:24.454474+00:00",
+    "status": "rejected",
+    "content_hash": "35ac63ac52d66b9b90eef157c984ddb6",
+    "strict_hash": "35ac63ac52d66b9b90eef157c984ddb6",
+    "fuzzy_hash": "8e05014631add162e9fdb05a23b60672",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRl9vcUI3aHpEWmdvaHJOMGYzeDdVOC0wQlRKNG1SOGxYMnZkdmJOSGFJZGlOWlVweFotWFRJODNNNUJfQlBBZHI1WVNsSjRjQ0d6RGt5Wkk5MjEwdHhHZHFEMF90Y0dPLTNnT05pOF9qSGFoTkNMdTR0N1hpT043MXJVLUNla0VmaGNQa24yRGw5UE1MOVVPS29uVW9nLVhFdVlsS25SZ29zYk5jeGQ2empoYXpqOGJ4S2x6UDMxM0J3THktV2NmTzBCUEpfMm8?oc=5",
+    "timestamp": "2026-08-31T14:17:26.145839+00:00",
+    "status": "rejected",
+    "content_hash": "57cd73fc1beb6a7fa29d7f51a451c59d",
+    "strict_hash": "57cd73fc1beb6a7fa29d7f51a451c59d",
+    "fuzzy_hash": "c822c682930e3781fbf2c72dc6e28de4",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
