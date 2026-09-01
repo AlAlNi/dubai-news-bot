@@ -966,5 +966,23 @@
     "url": "https://www.dubaichronicle.com/2026/09/01/dubais-greenfield-fdi-data-reveals-two-different-kinds-of-investor",
     "timestamp": "2026-09-01T21:42:11.828200+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-abu-dhabi-uae-is-it-safe-foreign-office-advice-iran-war-b3042519.html",
+    "timestamp": "2026-09-01T21:54:56.693489+00:00",
+    "status": "rejected",
+    "content_hash": "d7c2fc7c4ac6aef837c12995876e3a1f",
+    "strict_hash": "d7c2fc7c4ac6aef837c12995876e3a1f",
+    "fuzzy_hash": "217f78f95d6c241ea042e71a05ae21cf",
+    "reason": "Новость касается безопасности путешествий в ОАЭ после ракетных ударов Ирана, что напрямую связано с регионом и крайне актуально для русскоязычных жителей и туристов. Однако тема затрагивает военный конфликт и большую политику, что противоречит правилу 2, а также может содержать элементы, неуважительные к ценностям UAE (правило 4). Кроме того, текст выглядит как перепечатка западного СМИ без проверяемого первоисточника, что снижает достоверность."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/india/indian-consulate-in-uae-issues-warning-over-biometric-fraud-targeting-nationals/articleshow/133673195.cms",
+    "timestamp": "2026-09-01T21:55:03.215427+00:00",
+    "status": "approved",
+    "content_hash": "0c127b317f37ff9168368223c2fde6f3",
+    "strict_hash": "0c127b317f37ff9168368223c2fde6f3",
+    "fuzzy_hash": "0b4e9e3d06faf74ada6c20506df00b7e",
+    "reason": "approved"
   }
 ]
