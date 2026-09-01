@@ -736,5 +736,41 @@
     "strict_hash": "0db45d1c7561746d1ac0ee85d35dbb7e",
     "fuzzy_hash": "491af1ec102f066c0045f88de5951d3e",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/comedy-star-whitney-cummings-in-abu-dhabi",
+    "timestamp": "2026-09-01T10:43:26.391924+00:00",
+    "status": "rejected",
+    "content_hash": "cb2a52ae1971c85ce554cd4f545cdcde",
+    "strict_hash": "cb2a52ae1971c85ce554cd4f545cdcde",
+    "fuzzy_hash": "563c959cb6ce1576948411552d7ef179",
+    "reason": "Новость о выступлении Уитни Каммингс в Абу-Даби имеет прямую связь с регионом (ОАЭ), не касается политики или конфликтов, не является рекламой в чистом виде (это анонс культурного события), не нарушает ценности UAE и будет интересна русскоязычной аудитории, следящей за культурной жизнью. Однако текст явно обрезан (содержит технический артефакт \"[&#8230;]\") и взят с сайта What's On без указания конкретной даты и места, что затрудняет проверку достоверности и может указывать на неполную информацию. Тем не менее, это не дубликат опубликованных новостей, а источник (What's On) является проверяемым."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/6-new-flight-routes-from-the-uae-to-inspire-your-autumn-adventures",
+    "timestamp": "2026-09-01T10:43:33.859904+00:00",
+    "status": "rejected",
+    "content_hash": "7fb8adf77785496f0a4d2ea65cd8f4bc",
+    "strict_hash": "7fb8adf77785496f0a4d2ea65cd8f4bc",
+    "fuzzy_hash": "4fe386ea9b7ce942742755c9877e2eda",
+    "reason": "Новость представляет собой подборку новых авиамаршрутов из ОАЭ, что напрямую связано с регионом и полезно для русскоязычных жителей, планирующих путешествия. Текст не содержит политики, рекламы или неуважения к ценностям, однако выглядит как перепечатка с сайта What's On без явной ссылки на первоисточник в тексте, что затрудняет проверку фактов."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/7-of-the-best-back-to-school-deals-for-students-in-abu-dhabi",
+    "timestamp": "2026-09-01T10:43:39.113899+00:00",
+    "status": "rejected",
+    "content_hash": "4e4d159bc516927b1c63c2685290fb1e",
+    "strict_hash": "4e4d159bc516927b1c63c2685290fb1e",
+    "fuzzy_hash": "fc5661f16135c40e72962464cf261488",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOandLcU1BY083OEx0UnZRR1R4UkQyVTdENlIzeUJ3alVIZ2dfMWhrNW54OE5mT1Ffb1dST2w2MFVYbXg2dkgwRDg0aVZMNnpRbGlGODNMV1VPWTFkZ2VJZkZobFpOWjJmaC1rd2dMN3Vna3hZc0dnVzRZYzFScDFiRDdoRTFMUHdCbTlUOXp4cG5ZTmV5aXJTbHR0SzVESldKOXEtQ0NIOUdCYng1WXQtaFBsTQ?oc=5",
+    "timestamp": "2026-09-01T10:43:46.796265+00:00",
+    "status": "approved",
+    "content_hash": "39c04813f1cb136e5a4934c1c8f1c302",
+    "strict_hash": "39c04813f1cb136e5a4934c1c8f1c302",
+    "fuzzy_hash": "bcb362c292c9c7984d9ec3ed36c5e02a",
+    "reason": "approved"
   }
 ]
