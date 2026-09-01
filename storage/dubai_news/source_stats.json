@@ -1,55 +1,5 @@
 [
   {
-    "url": "https://www.nation.com.pk/30-Aug-2026/tpt-360-deliver-official-broadcast-production-dp-world-women-s-asia-cup-2026",
-    "timestamp": "2026-08-30T17:03:51.434812+00:00",
-    "status": "rejected",
-    "content_hash": "e34e8a7d8084c6e1c85ab2bad3f9fea6",
-    "strict_hash": "e34e8a7d8084c6e1c85ab2bad3f9fea6",
-    "fuzzy_hash": "fd1167efab267365e3c40063b56bb580",
-    "reason": "Оценка: Новость связана с Дубаем (компания TPT 360, базирующаяся в ОАЭ, будет производить трансляцию турнира), не содержит политики или рекламы, тема спорта интересна русскоязычной аудитории. Однако текст обрывается на полуслове («held at the...»), что вызывает сомнения в полноте и достоверности, а также отсутствует явный URL источника для проверки фактов."
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/08/30/inside-dubais-harrow-school-set-for-grand-opening-for-new-academic-year",
-    "timestamp": "2026-08-30T17:03:57.687666+00:00",
-    "status": "approved",
-    "content_hash": "b9aa675ad3ef4f3a380642fdb40006e8",
-    "strict_hash": "b9aa675ad3ef4f3a380642fdb40006e8",
-    "fuzzy_hash": "b8822a247cadb787d8fa33fb582c7cc5",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/08/30/inside-dubais-harrow-school-set-for-grand-opening-for-new-academic-year",
-    "timestamp": "2026-08-30T17:19:46.265080+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.timesnownews.com/travel/dubai-airport-changes-security-rules-travellers-may-no-longer-need-to-remove-laptops-liquids-from-bags-article-156011669",
-    "timestamp": "2026-08-30T17:40:54.550854+00:00",
-    "status": "rejected",
-    "content_hash": "480d3e8852ff2b1d9204197539ad61c9",
-    "strict_hash": "480d3e8852ff2b1d9204197539ad61c9",
-    "fuzzy_hash": "1df84ac60ed5f2e7c8dc98cb17a1f3ed",
-    "reason": "Новость напрямую связана с Дубаем (аэропорт), не касается политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Тема изменения правил безопасности в аэропорту практична и полезна для русскоговорящих жителей, часто летающих через Дубай. Однако текст обрывается на середине предложения («becaus...»), что указывает на неполноту данных, а также отсутствует явная ссылка на первоисточник для проверки фактов. Дубликатов среди опубликованных новостей нет, но из-за незавершённости и непроверяемости информации публикация невозможна."
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/08/30/my-dubai-rent-professional-coach-pays-dh120000-for-villa-in-damac-hills-2",
-    "timestamp": "2026-08-30T17:40:56.830988+00:00",
-    "status": "rejected",
-    "content_hash": "4ce521cd4dd298908856aaed555c1c98",
-    "strict_hash": "4ce521cd4dd298908856aaed555c1c98",
-    "fuzzy_hash": "d52e0561beb1377505211ad6b0f72064",
-    "reason": "Новость представляет собой формат «My Dubai Rent» — личную историю арендатора с указанием конкретной суммы аренды и района (Damac Hills 2), что напрямую связано с Дубаем и будет интересно русскоязычным жителям, интересующимся рынком недвижимости. Текст не является рекламой, не касается политики и не содержит признаков ИИ-генерации или кликбейта, а также не дублирует опубликованные ранее материалы (они о визах и инвестициях)."
-  },
-  {
-    "url": "https://www.nation.com.pk/30-Aug-2026/dubai-police-organise-training-courses-security-guards-across-35-schools",
-    "timestamp": "2026-08-30T17:41:03.653461+00:00",
-    "status": "approved",
-    "content_hash": "5703028576ed2b3359d8e221f794245c",
-    "strict_hash": "5703028576ed2b3359d8e221f794245c",
-    "fuzzy_hash": "eae1d8419b141705c812da84769fa35e",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.racingpost.com/news/international/smart-european-recruits-including-world-cup-third-meydaan-to-join-ed-crisford-in-dubai-this-winter-aNLoc6S5Zbo9",
     "timestamp": "2026-08-30T20:15:17.352381+00:00",
     "status": "approved",
@@ -903,5 +853,10 @@
     "strict_hash": "d99273cdd12853c7e1deadad60f5a712",
     "fuzzy_hash": "637deff01f08433764c7623e32519c1b",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/08/31/queen-elizabeths-school-in-dubai-becomes-first-uk-state-school-to-open-in-uae",
+    "timestamp": "2026-09-01T18:21:35.458681+00:00",
+    "status": "published"
   }
 ]
