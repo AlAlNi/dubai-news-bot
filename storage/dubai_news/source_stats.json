@@ -502,5 +502,59 @@
     "url": "https://www.onmanorama.com/news/kerala/2026/08/31/keralite-expat-dies-ajman-gas-explosion.html",
     "timestamp": "2026-09-01T04:53:35.903369+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://scanx.trade/stock-market-news/companies/rose-merc-ltd-partners-host-emirates-luxury-show-dubai/49737353",
+    "timestamp": "2026-09-01T05:28:20.893531+00:00",
+    "status": "rejected",
+    "content_hash": "8b78fcb7028947a930ba0d25123cee2a",
+    "strict_hash": "8b78fcb7028947a930ba0d25123cee2a",
+    "fuzzy_hash": "ebedebff226d87b3778d88dc6baf7642",
+    "reason": "Оценка: Новость носит явно рекламно-пресс-релизный характер (анонс мероприятия от организатора), не содержит общественно значимой информации, а также не имеет подтверждаемого первоисточника в тексте (URL не указан). Связь с Дубаем есть, но по правилам 3 и 9 материал должен быть отклонен."
+  },
+  {
+    "url": "https://wtop.com/world/2026/08/united-arab-emirates-says-it-has-intercepted-an-iranian-drone-over-its-territorial-waters",
+    "timestamp": "2026-09-01T05:28:23.040102+00:00",
+    "status": "rejected",
+    "content_hash": "9137f1b2d2198f53ee94a990d105bd17",
+    "strict_hash": "9137f1b2d2198f53ee94a990d105bd17",
+    "fuzzy_hash": "293eeefb711d6798cd78b8e42ff8d155",
+    "reason": "Оценка: Новость о перехвате иранского дрона ОАЭ имеет прямое отношение к региону, но затрагивает военно-политическую тему, что нарушает правило 2 (политика и конфликты). Кроме того, текст обрывается и содержит фрагмент о другом происшествии (паром у Кипра), что указывает на недостоверность и несоответствие заголовку."
+  },
+  {
+    "url": "https://www.livemint.com/news/india/rs-1-33-crore-interest-with-full-refund-dubai-buyer-wins-property-dispute-with-mumbai-builder-11788188813627.html",
+    "timestamp": "2026-09-01T05:28:26.148415+00:00",
+    "status": "rejected",
+    "content_hash": "835346e207a1e58b3d5a7f8fc455a19c",
+    "strict_hash": "835346e207a1e58b3d5a7f8fc455a19c",
+    "fuzzy_hash": "93a60827d77d2679e83c8ca864ff25c4",
+    "reason": "**Оценка новости:**\nНовость о выигранном судебном споре покупателя из Дубая против застройщика в Мумбаи имеет прямую связь с Дубаем (покупатель — резидент/гражданин, объект спора связан с инвестициями из ОАЭ). Тема не политическая, не рекламная, не нарушает ценности UAE. Однако текст выглядит как перепечатка из индийского СМИ (LiveMint) без явной проверяемой ссылки на первоисточник в тексте, а также отсутствует явный URL для подтверждения фактов. Для русскоязычной аудитории Дубая эта история имеет ограниченную практическую ценность (казус из индийской юрисдикции), хотя может быть интересна как кейс. Главный риск — отсутствие проверяемого источника и слабая связь с повседневной жизнью русскоязычных жителей Дубая.\n**Решение:**"
+  },
+  {
+    "url": "https://www.livemint.com/news/us-news/uae-scam-alert-dubai-consulate-warns-indians-against-fake-agents-promising-visas-jobs-emirates-ids-11788186060149.html",
+    "timestamp": "2026-09-01T05:28:28.210099+00:00",
+    "status": "rejected",
+    "content_hash": "6466074f061e7b6d9a13d162a6c12411",
+    "strict_hash": "6466074f061e7b6d9a13d162a6c12411",
+    "fuzzy_hash": "92907316615a9ab5716a0233d6868091",
+    "reason": "Новость напрямую связана с Дубаем и ОАЭ, касается безопасности индийских резидентов и рабочих — это актуальная и полезная информация для русскоязычного сообщества, не содержит политики, рекламы или неуважения к ценностям. Однако она является точным дубликатом уже опубликованной новости (пункт 1 контекста: «Indian Consulate in Dubai warns citizens in UAE about visa scam risks...»), что нарушает правило 7."
+  },
+  {
+    "url": "https://wtop.com/national/2026/08/united-arab-emirates-says-it-has-intercepted-an-iranian-drone-over-its-territorial-waters-2",
+    "timestamp": "2026-09-01T05:28:30.042437+00:00",
+    "status": "rejected",
+    "content_hash": "d2581bea18f0eef2e271a1f3d9c4250a",
+    "strict_hash": "d2581bea18f0eef2e271a1f3d9c4250a",
+    "fuzzy_hash": "c50591dcc860b70e7985b24d82f746a8",
+    "reason": "Новость касается инцидента с перехватом иранского дрона над территориальными водами ОАЭ, что напрямую связано с регионом, однако основная тема — военно-политический конфликт между США и Ираном, что нарушает правило 2 (политика и конфликты). Текст также содержит признаки кликбейта и не имеет проверяемого URL источника, что противоречит правилам 5 и 9."
+  },
+  {
+    "url": "https://www.onmanorama.com/news/kerala/2026/08/31/uae-fuel-prices-september-increase.html",
+    "timestamp": "2026-09-01T05:28:34.891304+00:00",
+    "status": "approved",
+    "content_hash": "c8d6d9881157b6392e642d6fff71963d",
+    "strict_hash": "c8d6d9881157b6392e642d6fff71963d",
+    "fuzzy_hash": "6d2a78c9465a0ddca347fb097ad9df87",
+    "reason": "approved"
   }
 ]

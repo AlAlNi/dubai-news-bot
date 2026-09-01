@@ -1,83 +1,5 @@
 [
   {
-    "script": "rss_collect",
-    "started_at": "2026-08-24T16:22:39.687334+00:00",
-    "finished_at": "2026-08-24T16:23:35.944839+00:00",
-    "duration_seconds": 56.258,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 1,
-      "rejected": 1,
-      "approved": 0,
-      "deepseek_calls": 1,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 3,
-      "rss_fetches": 3,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-24",
-      "daily": {
-        "published_per_day": {
-          "value": 2,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 84.21,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "indianexpress.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "whatson.ae",
-            "events": 12,
-            "reject_rate": 83.33,
-            "duplicate_rate": 16.67
-          },
-          {
-            "source": "news.google.com",
-            "events": 15,
-            "reject_rate": 66.67,
-            "duplicate_rate": 20.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
     "script": "auto_notify",
     "started_at": "2026-08-24T16:48:24.662463+00:00",
     "finished_at": "2026-08-24T16:48:24.673778+00:00",
@@ -15659,6 +15581,78 @@
         },
         "reject_rate_after_editor": {
           "value": 75.0,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "news.google.com",
+            "events": 18,
+            "reject_rate": 88.89,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 9,
+            "reject_rate": 77.78,
+            "duplicate_rate": 22.22
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-09-01T05:28:17.652897+00:00",
+    "finished_at": "2026-09-01T05:28:34.894329+00:00",
+    "duration_seconds": 17.241,
+    "success": true,
+    "counters": {
+      "attempts_made": 4,
+      "fetched": 6,
+      "rejected": 5,
+      "approved": 1,
+      "deepseek_calls": 7,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 6,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 6,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-09-01",
+      "daily": {
+        "published_per_day": {
+          "value": 1,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 80.0,
           "alert_if_gt": 60.0,
           "ok": false
         }
