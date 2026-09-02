@@ -926,5 +926,50 @@
     "url": "https://www.newindianexpress.com/cities/kochi/2026/Sep/01/spicejet-passengers-in-kochi-heading-to-fujairah-dubai-stranded-amid-flight-cancellations-and-delays",
     "timestamp": "2026-09-02T04:14:59.721017+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/01/business-as-usual-uae-gears-up-for-september-reset-despite-spectre-of-iran-war",
+    "timestamp": "2026-09-02T04:54:57.227005+00:00",
+    "status": "rejected",
+    "content_hash": "c38b942dbf8b2a7b5c853faaf25a24a7",
+    "strict_hash": "c38b942dbf8b2a7b5c853faaf25a24a7",
+    "fuzzy_hash": "e817bde9daadea64d9dff055f5e4f988",
+    "reason": "Новость носит общий обзорный характер о деловой активности в ОАЭ в сентябре, но в заголовке и тексте упоминается «спектр войны с Ираном», что затрагивает геополитическую напряжённость и большую политику, что противоречит правилу 2. Кроме того, отсутствует конкретная проверяемая ссылка на источник (URL), а содержание выглядит как аналитический обзор без явной привязки к конкретному событию, что снижает его новостную ценность для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://fortune.com/2026/09/01/war-knocked-dubai-airport-traffic-down-31-ceo-paul-griffiths-global-hub-ambitions",
+    "timestamp": "2026-09-02T04:54:59.653844+00:00",
+    "status": "rejected",
+    "content_hash": "e55fc98f34f882b027aee1e884362a67",
+    "strict_hash": "e55fc98f34f882b027aee1e884362a67",
+    "fuzzy_hash": "f8aa8386b07b2f86394cc1cb72f8b319",
+    "reason": "Новость напрямую связана с Дубаем (аэропорт DXB) и затрагивает последствия регионального конфликта для инфраструктуры эмирата, что соответствует правилу 1. Однако основная тема — это последствия военных действий и баллистических атак, что подпадает под правило 2 (политика и конфликты) и может быть воспринято как чувствительная тема для ОАЭ (правило 4). Кроме того, текст явно является пересказом интервью для западного издания (Fortune) и не содержит проверяемого URL источника в предоставленном фрагменте (правило 9)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYU82WlBBRGlQRnk0RmpzcXJORmhPQ19JbVhIZGFZR1owMXZWYmk2NVBPRC05d3ZfeHU3R2JtSjRDcnYzNnBkZGNsWWgySTB4bFMyLXJ3YWdBbVlkMVYwR21UMVNMcl9rNkN3V1Y1ZUVsMUNTa2V1dVNTREkwVkpQR0VHWVE0T2llNWVhdmNVUk9yODduQ1dZUTVsX19oZ29sOENlVTloUUYzN2ZWTVl4Sy1WSQ?oc=5",
+    "timestamp": "2026-09-02T04:55:03.112134+00:00",
+    "status": "rejected",
+    "content_hash": "a31f6ea7bfb19b58187d63b1be37a628",
+    "strict_hash": "a31f6ea7bfb19b58187d63b1be37a628",
+    "fuzzy_hash": "da0602c1b054840185b25dcaf892c3ec",
+    "reason": "Оценка: Новость о повышении присутствия полиции на дорогах Дубая в связи с началом учебного года напрямую связана с регионом, не содержит политики или рекламы, соответствует ценностям ОАЭ и полезна русскоязычным жителям (особенно родителям). Однако она является практически точным дубликатом уже опубликованной новости №2 (Dubai Police urge parents to leave early, avoid speeding as schools reopen), так как обе касаются одной и той же темы и источника (полиция Дубая, начало учебного года). Согласно правилу 7, такие повторы отклоняются."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUWhHWEJhU1pZRU5aWlROMGEyeFAwVlNtN3BrUDV1ZW9ZRk1lTkN6TGpuc0dnc1RBdndwSFlyX3A0UWhjaEpZR3RGdHBwU3Etei1BMUlSaTNWb3dYM3R0YnBSbHRYeWxDYmRlcWlzbi01cUpIY1JhblViRWRINERSUnpZM1Q2M2U5MFgtMGJJVGJzNzBlSkc1QTNJdWtfOTRYZWtUY3hlSEpLdWlkOHpDczJDcWZ2OTYxN3BkR2FfOXIwak5VWWFDYlBtZ1Z4RVhq0gHUAUFVX3lxTE84ZXl3eHhCTTZkVElDNmZFeGhzZENURGczWHJhNEFGYVpXRGFGdjctdlFGTlM3QWp4Y2RvR0dyMGh2b1h5dVltdi02LU1ZMUt2MGFpclJRcWxka1VKTTBCUnVPckVab09zcW5NTGlIZnpfRUYtWWhGZVN2Q2NhQjFIUmZJVXFMX0F3NGNjS3V6VDN3TjNDNG5sOFB5NXVBMG5kRDNwUVJ4bHpBZWpfRE9xN05feHlMQUxlM3NZSVAyM1hzeTRFYm9zb0doTGhNSU9vXzJz?oc=5",
+    "timestamp": "2026-09-02T04:55:05.142541+00:00",
+    "status": "rejected",
+    "content_hash": "651f247cb5814cfd2fc54a222ef486dd",
+    "strict_hash": "651f247cb5814cfd2fc54a222ef486dd",
+    "fuzzy_hash": "71cd1e54033301ab8c27c752ebfaa542",
+    "reason": "Новость касается расследования в Индии о вербовке через Instagram и посредника в Дубае, что не имеет прямого отношения к жизни в ОАЭ или русскоязычному сообществу Дубая. Тема носит политический и конфликтный характер, что противоречит правилам канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEVsWV9Ha2Z4Z29PVGdqR0ZFdHpXN2RVaUIzbDBMdHRYNkt2TXlNVFQ2OXp1Y3ZLYWlzV0pPLW4yd3hVSDQwS3F5X252VUxlaERSQ2lsdlBmc3FmOENTd0tBQk5fblNwaDdPVC1sRXVScENSd0NydFZzdlVocUoxSVRwaVRZQXFzYXpiYnR0VFZHcU9hOWljeWhfNA?oc=5",
+    "timestamp": "2026-09-02T04:55:05.733615+00:00",
+    "status": "rejected",
+    "content_hash": "83540e0061e6faf2836901c238de691c",
+    "strict_hash": "83540e0061e6faf2836901c238de691c",
+    "fuzzy_hash": "bf2d9bb6c44f24ba15bd9ee3288f1cd1",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
