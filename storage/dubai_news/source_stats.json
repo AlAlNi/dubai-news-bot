@@ -934,5 +934,32 @@
     "strict_hash": "3ea606027a79003bda2df773ce9a9fca",
     "fuzzy_hash": "e8579a4df9652130d576c3cb43546c8e",
     "reason": "approved"
+  },
+  {
+    "url": "https://wtop.com/world/2026/09/iran-fires-on-gulf-neighbors-after-us-military-strikes-iranian-military-targets",
+    "timestamp": "2026-09-02T21:55:24.406311+00:00",
+    "status": "rejected",
+    "content_hash": "013ebf16290a75b3182fd9ad0462b365",
+    "strict_hash": "013ebf16290a75b3182fd9ad0462b365",
+    "fuzzy_hash": "3ef744fe2dc674b67dd55461560f7214",
+    "reason": "Новость касается военного конфликта с участием Ирана, США и стран Персидского залива, включая упоминание Кувейта и Бахрейна. Это прямая тема большой политики и военных действий в регионе, что нарушает правило №2, а также может содержать чувствительный контекст для ОАЭ."
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/grt-capital-management-opens-dubai-office-in-difc-to-expand-into-measa-region-302867524.html",
+    "timestamp": "2026-09-02T21:55:25.753915+00:00",
+    "status": "rejected",
+    "content_hash": "11ecdb3db2e03d82bf122f4c495d1072",
+    "strict_hash": "11ecdb3db2e03d82bf122f4c495d1072",
+    "fuzzy_hash": "3a00dd4e863a62ed70332663448951b8",
+    "reason": "Оценка: Новость является пресс-релизом о расширении бизнеса компании в DIFC, что формально связано с Дубаем, но не содержит общественно значимой информации для русскоязычных жителей, а по сути является рекламным анонсом без проверяемой журналистской ценности."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/nri/latest-updates/we-are-so-so-lucky-dubai-indian-expats-recall-close-call-during-kailash-pilgrimage-amid-nepal-floods/articleshow/133702939.cms",
+    "timestamp": "2026-09-02T21:55:27.592899+00:00",
+    "status": "rejected",
+    "content_hash": "caca6947e1b6963e62fbac7bc5e79a5d",
+    "strict_hash": "caca6947e1b6963e62fbac7bc5e79a5d",
+    "fuzzy_hash": "4401b3b62807412c6b06e2c460d957d5",
+    "reason": "Оценка: Новость о паломниках из Дубая, столкнувшихся с последствиями наводнений в Непале, имеет косвенную связь с регионом (жители Дубая), но основная тема — стихийное бедствие за пределами ОАЭ, не связанное с жизнью в Дубае или ОАЭ. Это скорее человеческая история, не имеющая практической ценности или прямой региональной значимости для русскоязычной аудитории канала о Дубае. Также отсутствует явный проверяемый URL источника в предоставленном тексте."
   }
 ]
