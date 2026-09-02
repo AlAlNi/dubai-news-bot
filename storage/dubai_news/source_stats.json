@@ -971,5 +971,41 @@
     "strict_hash": "83540e0061e6faf2836901c238de691c",
     "fuzzy_hash": "bf2d9bb6c44f24ba15bd9ee3288f1cd1",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/harry-potter-abu-dhabi-hogwarts-castle-forbidden-forest-and-diagon-alley-to-be-revealed-this-september",
+    "timestamp": "2026-09-02T06:36:10.180750+00:00",
+    "status": "rejected",
+    "content_hash": "c099030a9de31a1cbfd0cd3e89e16e6e",
+    "strict_hash": "c099030a9de31a1cbfd0cd3e89e16e6e",
+    "fuzzy_hash": "be8a29bd32935b5d9a3152d144e651b2",
+    "reason": "Новость о запуске тематических зон Гарри Поттера в Warner Bros. World Abu Dhabi напрямую связана с ОАЭ, не содержит политики или рекламы, а также представляет интерес для русскоязычных жителей и туристов. Однако текст выглядит как перепечатка анонса с сайта What's On, и в нем нет явной ссылки на первоисточник с подтверждающими деталями (URL), что затрудняет проверку достоверности. Кроме того, новость не является дубликатом из предоставленного контекста, но отсутствие проверяемого источника делает её публикацию рискованной."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/hyrox-is-officially-happening-in-dubai-this-november",
+    "timestamp": "2026-09-02T06:36:16.958764+00:00",
+    "status": "rejected",
+    "content_hash": "7912e953cc7ed8613f2099d4fd86a0c6",
+    "strict_hash": "7912e953cc7ed8613f2099d4fd86a0c6",
+    "fuzzy_hash": "022aa2922616bc31f64af9c3dfb3f523",
+    "reason": "Оценка: Новость о проведении HYROX в Дубае в ноябре напрямую связана с регионом, не содержит политики или рекламы, а также представляет интерес для русскоязычных жителей, увлекающихся фитнесом и спортивными событиями. Однако текст выглядит как анонс с элементами пресс-релиза, а источник (What's On) не является официальным, что затрудняет проверку фактов по явному URL. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/09/02/falcon-auction-adihex-2026-prestige-animal-prices",
+    "timestamp": "2026-09-02T06:36:31.362978+00:00",
+    "status": "rejected",
+    "content_hash": "d186ff73dd5236874b68d8e7aa285f55",
+    "strict_hash": "d186ff73dd5236874b68d8e7aa285f55",
+    "fuzzy_hash": "3a550fbf53fbad79e0bcaf9c8ee6b2ed",
+    "reason": "**Оценка новости:**\nНовость о продаже белого сокола за 1,5 млн дирхамов на выставке в Абу-Даби имеет прямое отношение к региону (ОАЭ), не касается политики или конфликтов, не является рекламой и не содержит неуважения к ценностям страны. Тема может быть интересна русскоязычной аудитории как курьез из жизни региона. Однако текст выглядит как короткая выжимка с явной ссылкой на внешний источник (DubaiChronicle) без указания конкретного URL, что затрудняет проверку фактов. Признаков ИИ-генерации или кликбейта не обнаружено, но отсутствие проверяемого источника является критичным."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/01/toddler-arrives-in-dubai-for-24m-medical-treatment-funded-by-sheikh-mohammed-bin-rashid",
+    "timestamp": "2026-09-02T06:36:36.868625+00:00",
+    "status": "approved",
+    "content_hash": "1d43476cb0410baef01092d3b8163bfe",
+    "strict_hash": "1d43476cb0410baef01092d3b8163bfe",
+    "fuzzy_hash": "c49742148433ec4c93dcb81eefe8b53b",
+    "reason": "approved"
   }
 ]
