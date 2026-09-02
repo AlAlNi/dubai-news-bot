@@ -984,5 +984,23 @@
     "strict_hash": "9d2d769b26213a802499a24b8b41ecea",
     "fuzzy_hash": "fa171d6de6308a8932f1c704f07adc9d",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/best-places-to-thrift-shop-in-dubai",
+    "timestamp": "2026-09-02T15:33:41.860352+00:00",
+    "status": "rejected",
+    "content_hash": "511042ecebee3a0cc90cf3f73af2e774",
+    "strict_hash": "511042ecebee3a0cc90cf3f73af2e774",
+    "fuzzy_hash": "6e18714b34a2348f2c9d170b6f14a4ef",
+    "reason": "**Оценка новости:**\nЭто развлекательный список мест для секонд-хенда в Дубае, явно связан с регионом и не содержит политики или рекламы. Однако текст выглядит как типичный контент-маркетинг с признаками ИИ-генерации (кликбейт-заголовок, общие фразы), не имеет конкретной общественно значимой ценности и не содержит проверяемого источника с фактическими данными. Для русскоязычной аудитории польза сомнительна, а формат больше похож на «список для лайков», чем на новость."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMTJkMkNyY3hWR2F6b1ZtTjhxMnJxX1JmM09pQVhxRVJfSGZ6RlB6U05PcjJwZ3lpUFRVOTF5cW95cHZMQUhDUG9xdUNiNmxlODZHX0lzbEJraTg0NlR3WVY0NW52bzE1Qzk3QmswaFQ0dmxBdmFWRTZCOWwxMy1EX084ZUlkaHBuSjlTOWxaS1hab25hNmpTVml1ck9yZThtN2xfRGFR?oc=5",
+    "timestamp": "2026-09-02T15:34:08.336295+00:00",
+    "status": "rejected",
+    "content_hash": "bcc76cc62aa9b22bc40d19db7c6791f2",
+    "strict_hash": "bcc76cc62aa9b22bc40d19db7c6791f2",
+    "fuzzy_hash": "52540935943441eb6568a7a08f4cb542",
+    "reason": "Оценка: Новость о награждении полицией Дубая гражданина Саудовской Аравии за спасение утопающего имеет прямую связь с регионом и носит позитивный, общественно значимый характер, не содержа признаков рекламы или политики. Однако текст крайне короткий и не содержит ссылки на первоисточник, что затрудняет проверку достоверности, а также отсутствует явный URL для подтверждения фактов."
   }
 ]
