@@ -939,5 +939,50 @@
     "strict_hash": "d36a6092ad72b92b9c72d39519f66818",
     "fuzzy_hash": "735811cac64fe9794c44c3c421c0ccc1",
     "reason": "Оценка: Новость о патрулях полиции Шарджи у школ связана с регионом (ОАЭ), не является политической или рекламной, соответствует ценностям и полезна русскоязычным жителям (особенно родителям). Однако она очень похожа на уже опубликованную новость о Dubai Police и школах (пункт 2 контекста), что делает её дубликатом по сути, хотя и из другого эмирата."
+  },
+  {
+    "url": "https://www.newindianexpress.com/states/odisha/2026/Sep/02/cm-mohan-charan-majhi-to-take-odisha-investment-pitch-to-dubai-from-september-8-to-11",
+    "timestamp": "2026-09-02T14:37:13.754356+00:00",
+    "status": "rejected",
+    "content_hash": "fec3bbf280cc378a1d28e16fda9b2390",
+    "strict_hash": "fec3bbf280cc378a1d28e16fda9b2390",
+    "fuzzy_hash": "ef46b82e15c1269005a4fd3bb4578a9a",
+    "reason": "Новость рассказывает о визите индийского политика в Дубай с целью привлечения инвестиций в штат Одиша. Это событие не имеет прямого отношения к жизни Дубая или ОАЭ, а сам текст носит характер регионального пресс-релиза для индийской аудитории, что делает его нерелевантным для русскоязычных жителей эмирата."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX0tjRnpReWRzTVB1Zks4YzVEQy1kcTNrZU1DNWh4T1BrX2FqZFRERTlZZE5Zb3ZXUWZYVVdoUXdJV2szR0FfU3dnSHc5a2piOVMtaXVkb2hQb1hxOURqLV8xNzg2cTRxVkVGYU5vWDFQY0tEblREOXV1RmxYYU9hQXZIZ2F0SFNJVEZmRzlLSVRlNk4yaUV6VTlCc1RhLUhmb2liTWRhLVp0QkF4NWp0ZWgyVTJEUQ?oc=5",
+    "timestamp": "2026-09-02T14:37:16.322143+00:00",
+    "status": "rejected",
+    "content_hash": "6a2b719f34aebc5a9ffebdddfe6ebc8a",
+    "strict_hash": "6a2b719f34aebc5a9ffebdddfe6ebc8a",
+    "fuzzy_hash": "538206f6ef15080e03c97bf969b08185",
+    "reason": "Новость носит явно рекламный характер — это анонс скидки от Europcar, привязанный к транспортной карте nol, без общественно значимой информации. Хотя связь с Дубаем есть, текст не представляет интереса для русскоязычной аудитории как новость, а скорее является коммерческим предложением."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUmtFMW1Eb3hHXzZVZjdIZlpTYWxLWk1VNGtWLXR4RkdYSnJTS2JtUjBJd2l0RC1YZE9BNEFoM0JZdUt1SkJxUmFacUZHZnB3Um5hSjUxUUhYdjRic2VJR2FfdmRpTFEzYjBHUTdLRUs2VS1kLU9TMXktaWRfQkpFRS1BZG5DRndyR01Sdzd3aUdTZjktM09YRVM0MlVVRjR3VjVIWFRmcFI?oc=5",
+    "timestamp": "2026-09-02T14:37:19.181415+00:00",
+    "status": "rejected",
+    "content_hash": "f1ac225cea44b363bceaf4de5035eebe",
+    "strict_hash": "f1ac225cea44b363bceaf4de5035eebe",
+    "fuzzy_hash": "93756836fc864667a498d61f16e3c0e7",
+    "reason": "Оценка: Новость локальная и позитивная, связана с Дубаем (полиция Дубая чествует спасителя), не содержит политики, рекламы или неуважения. Однако текст крайне короткий и не содержит деталей, по которым можно проверить факты, а также отсутствует явный URL источника для подтверждения."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ3FVWlFtQTZXS21NYjNpamVpNHUxMjZDTjdaUVdyakZZQ3VRbUh4WDRURENRQlJCNkZLZTRuQVJaRWN3MGYwT0g4UDRRTXVyOVhIelJ4eEYzUm5lR3doQXJPeXhmbHhFTzBjenpqUmJDbVRUZy1QWi1UQk5aZ2FVZzlkYUhsbkNEazhpR1A5WFlnSDUwTUo2RWhFZXRKNHRheVBTQkJtMjYwZVluT0E?oc=5",
+    "timestamp": "2026-09-02T14:37:19.866638+00:00",
+    "status": "rejected",
+    "content_hash": "0467e9dc02961731c7edb91e63ae7064",
+    "strict_hash": "0467e9dc02961731c7edb91e63ae7064",
+    "fuzzy_hash": "7661cd824dfd8f304db82b95356bb5b1",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOc2FqSkpoR2IzTG4zS2RibXdqU3doN241WHVQTVNDcHNlalAzWHJNSFFrY1NkeEh2b3RxZUZUOENyYV9xZFMxYXZ6MmpMQi04RWJHWkhSZVpkMmNDTjIxT3llMkRMa18tOFctU3ZwaEVNbkZBNWMxTDE5WHNMYlIwUUUxRG1QdkhtU0ZmbU9iR1ZGNlc3amhhVTBrQXh1aDFOYjhDbW9iRHhINU1RaG42dWJxNjZoX2xzMzBnMVVBanlrTHlGcEMzbtIB4wFBVV95cUxNWngyZTRTR1ZfWUxNdjZHcGU4a0tGYnZvczByNTJtQkJpZnpoU1prOGg1RjU2d210aFFtcEY3a0hMazY3QWowNDM3SVp4MV81QUxkNVUwNWhxY1ZFMmVLUXZGMUZ6RFo4akRsRnl4Y015c0hCTlpnYjdUWlBIMUtTb3FmV1ZQVU5QV2E4TnByNEFQVUxldHd6dzZoeUhhRjlEMGpfQlVFcWNCOVVJWlRXamphZkNYVm85ODVwQjEwQVRwMm0zQXBVcUJjVlF3M3luSGVzS2Y3U3RtOFNyMGRxNk5fYw?oc=5",
+    "timestamp": "2026-09-02T14:37:21.524914+00:00",
+    "status": "rejected",
+    "content_hash": "9d2d769b26213a802499a24b8b41ecea",
+    "strict_hash": "9d2d769b26213a802499a24b8b41ecea",
+    "fuzzy_hash": "fa171d6de6308a8932f1c704f07adc9d",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
