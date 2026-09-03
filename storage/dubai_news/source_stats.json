@@ -951,5 +951,86 @@
     "strict_hash": "51687fb0282c92bcaa7d579e0414b5d6",
     "fuzzy_hash": "66d7eca212eef11ac0ca28d3e2916b1c",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/jadon-sancho-dubai-transfer-man-34560336",
+    "timestamp": "2026-09-03T21:30:55.354562+00:00",
+    "status": "rejected",
+    "content_hash": "0e95b02462c383d8d6257ee9392da3b1",
+    "strict_hash": "0e95b02462c383d8d6257ee9392da3b1",
+    "fuzzy_hash": "45981573fc042f6029b8a306d2b849c9",
+    "reason": "Новость о футболисте Джейдоне Санчо и его потенциальном переходе в дубайский клуб имеет косвенное отношение к региону, но не является значимой для русскоязычного жителя Дубая. Текст выглядит как спортивная спекулятивная новость без проверяемых фактов и явной ссылки на официальный источник, что не соответствует критериям канала."
+  },
+  {
+    "url": "https://www.arkansasonline.com/news/2026/sep/03/iran-fires-at-persian-gulf-neighbors",
+    "timestamp": "2026-09-03T21:30:57.665872+00:00",
+    "status": "rejected",
+    "content_hash": "5c27da78cb1189892cda9a5666b16fbe",
+    "strict_hash": "5c27da78cb1189892cda9a5666b16fbe",
+    "fuzzy_hash": "1fc1d928c0c9fb872b19546cefcdb0a3",
+    "reason": "Новость касается военного конфликта с участием Ирана и США в Персидском заливе, что относится к большой политике и военным действиям. Это прямо нарушает правило 2 (политика и конфликты), а также может содержать чувствительные темы, неуважительные к ценностям ОАЭ (правило 4). Связь с Дубаем лишь географическая (как точка отправки), но не является общественно значимой для русскоязычного жителя в разрезе местных новостей."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVndyanozbHA4a2ZSVEoxeW5waHhNXzRGcU1qSWxLOEZ0S0Fqb3dPRWpRclFsck9VVXBJTFdTNlZJQ2dHUHpTSmo2NXY3dWpselhQallWUXBuWTVhZjRYUU91VDJuWHVHVW5jeG9XdXd3WTJBUTktMGxFbEN4OTM2aVRsV3lfWUVyYWlNS0xVbHA1dUdGUzVUdklTdTJ0MUNRN0NQRUktVVd6VEFackdocGhCd3FWX19rdm95ZTNRRGJCWWhhZ3dCSXNJY9IB0AFBVV95cUxPVmxzN1c0eHhGZmxfSmt3ZjR5M2J1Y1FZZGRqRFBMQ0NoOHVMcXBtZ2ZIeG9wZWJxaGJkRXd1ako0M3dwM2F1dUUxVDlfZWlHVElqLTNFbUJJQ3h5Vnc3Wm5hLU8zUndKbDRDcWxtWTFaVVF6V2M5ZXlnSDZMZC1UY1p3Y0NkOU5YdU9JVDdpcS10MHNXanZ2eV96THc5YUowZ2lhbkFyR3VocEVyQk96OVRUQ3pwNjdYSDlDVDVCZXc1ci1fM05OUnNjMmlURnJB?oc=5",
+    "timestamp": "2026-09-03T21:31:00.108542+00:00",
+    "status": "rejected",
+    "content_hash": "fbd4b6db4baa7cb48c533890ec72452d",
+    "strict_hash": "fbd4b6db4baa7cb48c533890ec72452d",
+    "fuzzy_hash": "853d40119efddcbadb476fdf28634373",
+    "reason": "Оценка: Новость о награждении саудовского гражданина полицией Дубая за спасение утопающего имеет явную связь с регионом и не содержит политики или рекламы. Однако текст представлен в виде короткого анонса с кликбейтным заголовком (\"Here’s What Happened\") и не содержит проверяемых деталей или ссылки на первоисточник, что вызывает сомнения в достоверности и полноте информации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbWdieWNjZVNwN3NCWmNScDhZcG1xdjRTTXo4TTZSX3V6NWZCRkN4LWxKMVkxX0k4a3NRTm8xNU96dV9wTElkQ2QzNlM0MUk0MlVBQ2Q0SFJ6bXlvcDFuM1F6dHgwUTR1TnQxMW9MUm4zTE1HTDV1amJ2NUs5c3dldDlQYklXVWZ3VGlJV25MWFFfU2hMZzA4R2FOYlRWaDdMUDlDM2xqaDZ4dC1PaU1rZVlfbmVSWUwwNkNPSjBlVDluTGFhX01jeF9DTU5RLUZSY2dN?oc=5",
+    "timestamp": "2026-09-03T21:31:02.424860+00:00",
+    "status": "rejected",
+    "content_hash": "91766a8ead744ff4af682e22a3d1863f",
+    "strict_hash": "91766a8ead744ff4af682e22a3d1863f",
+    "fuzzy_hash": "c27b7fdf99e6a0c8bee997fbe2b42211",
+    "reason": "**Оценка новости:**\nНовость о дубайском полицейском, получившем патент за технологию управления и интеграции сотовых вызовов, имеет прямую связь с Дубаем, не касается политики или конфликтов, не является рекламой и не содержит неуважения к ценностям ОАЭ. Тема может быть интересна русскоязычным жителям как пример инноваций в госсекторе, однако текст крайне короткий и не содержит проверяемых деталей или ссылки на источник, что затрудняет подтверждение фактов. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb3RrU3VrbW5BVXd5SVloeHhiWUJ1aG9MRGF2eFl2VzZRUVR4N0hkeTJqc0VZRG43dGQxTHJzQ3BUU2dMMF9lTktVb19DSDFzZlRJZ2tfNkI0aFJyY1hiRWhfSkw4ejAyUzY2YTgxNUdOMTZ3Umc1OGNFOHJObXc0ZW92OU1odjBlblZBQlpENFlfT20tMER3d0RFLWpGTW1uWk9RaXVRcjNaSzNHUjJadTQxNVpQUnfSAccBQVVfeXFMUGY1REVxZ3VVMFdrZk8yQ1FoQzdvVGp6MjVhMXFTSkJMTW84eHFvSkl0aFZhOEU3SzN6QzN3QVdBMGJGRG1xUTgwbmFaUTM3OTd4VFVWaWVfOVFUcFRuVmkzaFpVUXlUazBqTm05aHRNWDNLcEE0aWxIZ3ZuampkZDZUYTNXMzNTTVpHOVoyN1VvYnNNNUg0Tm1SMW90NURrWEtfNHp1X19fWlFKcXFQN21EdFpqOVpuLUNrOEpkcjI2QzhRV2VJSQ?oc=5",
+    "timestamp": "2026-09-03T21:31:02.814266+00:00",
+    "status": "rejected",
+    "content_hash": "f27863b2c38600faacae3af6c2d631f0",
+    "strict_hash": "f27863b2c38600faacae3af6c2d631f0",
+    "fuzzy_hash": "42ed94a0032a3fab8088f99ef7464499",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNejFua0x6aXFxUEVOcENQck1XVXFkX0lzYzU2dXF2czdPYnJ6WjBOMlNCSWVXRTM1ZTExM1JCOVhRanhxNDR4X0VEOHQ2UGtMaEltSlNZc0szLTdYbGF5VkQwYzg3dTFwbGh5MXRHOExFek5YRWVxa0tKLVpYUzY1YVBHa2xzelA2WjlURzM2REFGVEpncmJwMzFBbE9DaFFQWTE5RkdKR2xpbXlCWm5oUGRycFRmSFBJb3hoUA?oc=5",
+    "timestamp": "2026-09-03T21:31:04.871860+00:00",
+    "status": "rejected",
+    "content_hash": "85ee1f6cc25983ce3802a83000784252",
+    "strict_hash": "85ee1f6cc25983ce3802a83000784252",
+    "fuzzy_hash": "16aa219b6dfa600fa0f7c4035cf22438",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNanRnc0d0REZIT3dfMF9UZVlHejVDU0wxY1luTG5SRUlMRmNwQ1pXN0Y3MjRJY19ULVN5ZGhuR3E1Wm1xbTY4VHlnN043ZWN4YnNNR3NlLU45STN5ZlQ3YXBxcWsxZTBST3IwWEQ4RS1oVVBKM3BEeHJ0aTlWTnRBaEFWWTRJSk9wZ2I0T3JrbVcyMVhhOWN3TndYaHNFR2J6eXF5OExKaw?oc=5",
+    "timestamp": "2026-09-03T21:31:06.499412+00:00",
+    "status": "rejected",
+    "content_hash": "c51f87221d7cc39feec487e8a33b99b6",
+    "strict_hash": "c51f87221d7cc39feec487e8a33b99b6",
+    "fuzzy_hash": "d2c4639e98727f7869caf88c0d477689",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaXFNNUNoZ2VmQmxNamQ3QVV6V3ROU2xNLTM4MF9QUDdGY2UzMVVwUk5CVW5nVXJBYnVHbFg0ZzRHZHRjUXlIY09fT0hIU01nNDEtWjBXY3k5Sm9PSUFNNk54eDViekdSb2JnT0FOTWRweTV3U3ZjTWRwNUFVQ0FUWVo0QjM1dGxQSEVCRVEyckxQZ3dIRjZURDQzWGhsaDY4SEtLMXpPdVhyS2t5RGfSAcgBQVVfeXFMTlFfRjdEUnM5bDhoUnprR3lEZHhxUFBKOTFwbnZkb3Q3Y1g3NnVWNkFLdmRjTm1ac3hadlFfWHZJTjRoSFJYd3Z1b0pvMks4Z1VVeFVXRUFPZGJ5Sl9WNW9VSWtVWWF1SUxlYlpwRDR6NFVlNEtwemllNDJ5aDl5OUVLUzFkR1VQOEx2VnN3Y2FVczNlRmNaYWlCemdiNGRmcHJRYTV2UlJSWGotRDh1Z2pORXA2bF82cGJZZ2NCc01Za0M2OVB0TFo?oc=5",
+    "timestamp": "2026-09-03T21:31:07.994388+00:00",
+    "status": "rejected",
+    "content_hash": "18e36f3ff2e7a50a0ff4a8edb56c3801",
+    "strict_hash": "18e36f3ff2e7a50a0ff4a8edb56c3801",
+    "fuzzy_hash": "078a0ed7f075f4af56081c3624faa094",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3lqOHprQlJlUnNsVEZic21rVmhxb2YzTEFmbGFNZmdDQmt2eU0xdU40X0cyNW1Id3JYbmNuZHNvSC1KZ2czX2RSamhwREVrTDVORHJuNEhMTFV0dGtHcU5fbHZoUlpsV2VXcFBxSUNBcWxmU2JjX2pnX01qbllTLTdGRExhamYwbXhuYlVnS3hXM05pZ0NZZzhPVXg3Nm54Sjc3eUZiTnc?oc=5",
+    "timestamp": "2026-09-03T21:31:09.683610+00:00",
+    "status": "rejected",
+    "content_hash": "c706b5e0d3b683d263e659a846700867",
+    "strict_hash": "c706b5e0d3b683d263e659a846700867",
+    "fuzzy_hash": "f7515b11f11034a9e359223d7ac426ea",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
