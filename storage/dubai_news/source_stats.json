@@ -933,5 +933,23 @@
     "strict_hash": "060af4489e9a34027f00b36bff5b281f",
     "fuzzy_hash": "08cd66a0d26ee4af020c20e9e5f03a6e",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.cryptobreaking.com/blockchain-life-2026-returns-to",
+    "timestamp": "2026-09-03T23:40:10.639087+00:00",
+    "status": "rejected",
+    "content_hash": "fbcc2b4575942347b771d43d409c5232",
+    "strict_hash": "fbcc2b4575942347b771d43d409c5232",
+    "fuzzy_hash": "1559a41bd780e838761a8e296e078a5b",
+    "reason": "**Оценка новости:**\nМатериал явно носит рекламный характер анонса крипто-конференции (Blockchain Life 2026) без общественно значимой новостной составляющей, а также содержит признаки промо-текста с призывом к участию. Связь с Дубаем есть, но формат подачи — типичный пресс-релиз, что нарушает правило №3.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNkFobzlEbW9fQ2VSeHZ2ajZfTXNlM0c4RXp6a3AyS2dwLUlOYU1vNmpBY0ZYTWpZT3Noc1E2U0x2SUFzX2pmQ0k5SHp5R3M4SnpweHZkYjQ2dE56WHk2RGltX0Q5S2VoSEd3SU1sVmRxemloenpCZTdtUHAwaHo1bTFaZlB4cGtxVHJoZkplM2gySXZIQmhFUHJ3cm5BaGtBWUNDVDhpNG8wVlZvT3I3WVZodEstSElibWlCNnRaTUFVOHMxM1pLaEw2Q3h0ang20gHrAUFVX3lxTE9wYVVJNjFPUllUUXFaTHBzZExKUk56Tk15TDNWWjI0TG5rNzdUSUNTTmNma2JJc19hSldMekNFYnFjb0M4ODMyLVZFTVVSeHJWVF85aFN1b0hzdnM0cUM0N0V1a1AtcHhhNmpqdnpoVWgycWlnQ2R6czI5bG9sSWpVUHZmRmczYVhvMU1jYWpLdXo5dDFsc3lRd3pnUm83RkhmN2VCTDdZVVlQbmxMS0FBR214WWdoUHVzODRIdERySEFQejk2QmUtY3hQM1ExTFRBc19pZ3llY3VFZ00wMU5iQUptNy1Sck1QTU0?oc=5",
+    "timestamp": "2026-09-03T23:40:17.205086+00:00",
+    "status": "approved",
+    "content_hash": "f2bc42a5567b76352e63f70b7fe10978",
+    "strict_hash": "f2bc42a5567b76352e63f70b7fe10978",
+    "fuzzy_hash": "24bfc2dbfeca6562be79129456e3c944",
+    "reason": "approved"
   }
 ]
