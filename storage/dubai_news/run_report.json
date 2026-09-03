@@ -1,83 +1,5 @@
 [
   {
-    "script": "auto_notify",
-    "started_at": "2026-08-25T07:50:44.308023+00:00",
-    "finished_at": "2026-08-25T07:50:44.324061+00:00",
-    "duration_seconds": 0.016,
-    "success": true,
-    "status": "no_posts",
-    "counters": {
-      "telegram_calls": 0,
-      "telegram_failures": 0,
-      "published": 0,
-      "duplicate_skips": 0,
-      "no_posts": 1
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-25",
-      "daily": {
-        "published_per_day": {
-          "value": 1,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 83.78,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "economictimes.indiatimes.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 66.67
-          },
-          {
-            "source": "indianexpress.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "whatson.ae",
-            "events": 15,
-            "reject_rate": 86.67,
-            "duplicate_rate": 26.67
-          },
-          {
-            "source": "news.google.com",
-            "events": 38,
-            "reject_rate": 81.58,
-            "duplicate_rate": 2.63
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
     "script": "rss_collect",
     "started_at": "2026-08-25T08:06:44.053706+00:00",
     "finished_at": "2026-08-25T08:06:49.760101+00:00",
@@ -16203,6 +16125,84 @@
             "events": 51,
             "reject_rate": 88.24,
             "duplicate_rate": 13.73
+          },
+          {
+            "source": "www.thenationalnews.com",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 33.33
+          },
+          {
+            "source": "www.dubaichronicle.com",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
+        ]
+      }
+    }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-09-03T14:22:32.998764+00:00",
+    "finished_at": "2026-09-03T14:22:34.164696+00:00",
+    "duration_seconds": 1.166,
+    "success": true,
+    "status": "published",
+    "counters": {
+      "telegram_calls": 1,
+      "telegram_failures": 0,
+      "published": 1,
+      "duplicate_skips": 0,
+      "no_posts": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-09-03",
+      "daily": {
+        "published_per_day": {
+          "value": 2,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 89.66,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "whatson.ae",
+            "events": 14,
+            "reject_rate": 92.86,
+            "duplicate_rate": 28.57
+          },
+          {
+            "source": "news.google.com",
+            "events": 46,
+            "reject_rate": 89.13,
+            "duplicate_rate": 15.22
           },
           {
             "source": "www.thenationalnews.com",
