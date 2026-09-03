@@ -893,5 +893,41 @@
     "url": "https://www.gainesville.com/story/shopping/trending/viral/2026/09/02/tiffs-treats-dubai-chocolate-cookie-restock/91582710007",
     "timestamp": "2026-09-03T14:22:33.182863+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/uae-about-to-experience-more-rain-this-week",
+    "timestamp": "2026-09-03T14:47:50.883993+00:00",
+    "status": "rejected",
+    "content_hash": "dd3e3eebfa835b8c1940a566017c7dcc",
+    "strict_hash": "dd3e3eebfa835b8c1940a566017c7dcc",
+    "fuzzy_hash": "faefc3646d9b02be98c873e32185a690",
+    "reason": "**Оценка новости:**\nНовость о возможных дождях в ОАЭ соответствует региональной тематике, не содержит политики или рекламы, а также представляет практический интерес для жителей Дубая. Однако текст выглядит как перепечатка с сайта What's On без явной ссылки на первоисточник (URL не указан), что затрудняет проверку достоверности и актуальности прогноза. Кроме того, тема погоды уже освещалась в предыдущих публикациях, но конкретных дубликатов не обнаружено."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/meet-the-k9-friends-that-deserve-all-of-your-love-dogs-adopt",
+    "timestamp": "2026-09-03T14:48:00.337014+00:00",
+    "status": "rejected",
+    "content_hash": "787a172f97f6dddc647deef3b5939475",
+    "strict_hash": "787a172f97f6dddc647deef3b5939475",
+    "fuzzy_hash": "8e7e582e42f88bb3d69291f7822a7736",
+    "reason": "Эта новость — типичный анонс с подборкой животных из приюта K9 Friends, по сути, это развлекательный контент с элементами социальной рекламы, а не оперативная или общественно значимая новость. Текст явно скопирован с сайта What's On и не содержит проверяемых фактов, кроме названия организации, что делает его похожим на пресс-релиз без новостного повода."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/adriatique-presents-x-returns-to-ushuaia-dubai-this-november",
+    "timestamp": "2026-09-03T14:48:05.306785+00:00",
+    "status": "rejected",
+    "content_hash": "ea8d8d6d904beb63ce30829ab1ea58b5",
+    "strict_hash": "ea8d8d6d904beb63ce30829ab1ea58b5",
+    "fuzzy_hash": "25b4e5bba0b0a9005f0c59dc3cf8a1e3",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVdOd3VHbTVnNm5seFBkYzlhejdwdUVLQmFKcVFhbFJrQ1hDY3B3b21qTW9SeGNITWhWVy1MeXE1ZjVRWnJkS2RFSy1PdmhwOGl1VnAxOGxmQkxVblhyX25mbmhlTlQ0eVlqQUVIZDFyWkRKQWxsWTdXeWNzRzdsaW9xMA?oc=5",
+    "timestamp": "2026-09-03T14:48:12.855785+00:00",
+    "status": "approved",
+    "content_hash": "c05da3afb17864c3fa5db4277492a00d",
+    "strict_hash": "c05da3afb17864c3fa5db4277492a00d",
+    "fuzzy_hash": "297e7dbf47a90aaa9af81416aaf50383",
+    "reason": "approved"
   }
 ]
