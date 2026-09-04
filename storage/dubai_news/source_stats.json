@@ -1001,5 +1001,23 @@
     "strict_hash": "b7957e87ae4d76355d9904320e6030ca",
     "fuzzy_hash": "299a4b3db5b3d784a8565af68b1fd93d",
     "reason": "**Оценка новости:**\nМатериал носит явный рекламно-пресс-релизный характер (GLOBE NEWSWIRE) и посвящен продвижению мероприятия AIM Congress 2026, а не конкретному событию или факту, полезному для русскоязычного жителя Дубая. Отсутствует общественно значимая новость, текст выглядит как типичный промо-анонс без проверяемых данных, что нарушает правила 3 и 6."
+  },
+  {
+    "url": "https://www.newsx.com/world/uae-flight-update-is-your-emirates-etihad-air-arabia-or-flydubai-flight-affected-full-list-of-delayed-dubai-and-abu-dhabi-arrivals-and-departures-268169",
+    "timestamp": "2026-09-04T23:32:46.477792+00:00",
+    "status": "rejected",
+    "content_hash": "61080bb2cd40f2d8e64478aa21431bde",
+    "strict_hash": "61080bb2cd40f2d8e64478aa21431bde",
+    "fuzzy_hash": "0c72666cb7cd8482d69fa05790b58d08",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем и ОАЭ (затрагивает рейсы Emirates, Etihad, Air Arabia и flydubai), что соответствует правилу №1. Однако основная тема — это последствия военного конфликта и эскалации между США и Ираном, что подпадает под правило №2 (большая политика и конфликты). Кроме того, текст явно описывает продолжающуюся нестабильность в регионе, что может быть воспринято как чувствительная тема для ОАЭ (правило №4). Несмотря на практическую пользу для путешественников (правило №6), приоритет отдается запрету на политические и конфликтные материалы.\n**Решение:**"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/04/bangladeshi-fruit-vegetable-seller-wins-apartment-dubai",
+    "timestamp": "2026-09-04T23:32:51.428100+00:00",
+    "status": "approved",
+    "content_hash": "d51701ec89ae15a15acf9b5bb15a4ef3",
+    "strict_hash": "d51701ec89ae15a15acf9b5bb15a4ef3",
+    "fuzzy_hash": "98ad01b3694f370c9cc07f11a670627b",
+    "reason": "approved"
   }
 ]
