@@ -969,5 +969,23 @@
     "strict_hash": "fdc5ee681877e991dcc66ed1adda5f25",
     "fuzzy_hash": "6a3cabeab235dda9b3df09c260fa8f43",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.livemint.com/technology/gadgets/apple-iphone-pro-max-release-date-check-india-dubai-us-launch-dates-price-colours-all-you-need-to-know-11788503031565.html",
+    "timestamp": "2026-09-04T19:46:57.567226+00:00",
+    "status": "rejected",
+    "content_hash": "490dfd8b103f1d7e55094f080c6fa277",
+    "strict_hash": "490dfd8b103f1d7e55094f080c6fa277",
+    "fuzzy_hash": "6c59ca44cafb6cdd23a76f30e417ae0d",
+    "reason": "Оценка: Новость о дате выхода iPhone 18 Pro Max не имеет прямой связи с Дубаем или ОАЭ (упоминание Дубая в заголовке — лишь часть перечисления рынков, а не региональная специфика). Текст носит общий потребительский характер и не содержит уникальной информации для русскоязычного жителя Дубая, а также не является проверяемым официальным источником по региону."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSU0wM1NuODJ2WFdobXBuSFhxYWZpcVdjVWp3b25aTnlpT2h5blpzQThnb1hRZ1hlWmsweTJudnp2VUZHLXBEeUk0dUZVM2dhZTQzQ0dFV095cTlpQS0yTGhOYmRiSkxHOG05ZUFJR1VHeXpyUzNVbVIzRHV3N3Q0aGNCNDcyUUszdDQxTUJpY0hwclFPRVRVSFRvejc5THQzb3pta2tWZjMtcERlU2hvUXZaWDlaWFpH?oc=5",
+    "timestamp": "2026-09-04T19:47:01.141971+00:00",
+    "status": "rejected",
+    "content_hash": "245c344e2bdc6e08135008a3b72f2776",
+    "strict_hash": "245c344e2bdc6e08135008a3b72f2776",
+    "fuzzy_hash": "0f65d828bfc1ba58902bb3eba72146dc",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (суд Дубая) и касается недвижимости — важной темы для местных жителей и инвесторов. Текст не содержит политики, рекламы или неуважения к ценностям ОАЭ. Однако он крайне короткий и выглядит как заголовок без развернутого содержания, что вызывает сомнения в полноте информации и её проверяемости (нет явного URL источника в тексте). Дубликатов среди опубликованных новостей нет.\n**Решение:**"
   }
 ]
