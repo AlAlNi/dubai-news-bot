@@ -886,5 +886,59 @@
     "strict_hash": "c0dc936a87d73c84a33008793e387309",
     "fuzzy_hash": "75db4f837629b99fbbe085c972a9d2a5",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.al-monitor.com/originals/2026/09/blasts-heard-near-irans-kharg-island-gulf-amid-reports-tanker-hit",
+    "timestamp": "2026-09-05T20:40:07.408713+00:00",
+    "status": "rejected",
+    "content_hash": "6db1497d6e9bf524f4f3797a2153d267",
+    "strict_hash": "6db1497d6e9bf524f4f3797a2153d267",
+    "fuzzy_hash": "85a54aabb171961ec01ac0dc3d7549de",
+    "reason": "Новость касается инцидента у иранского острова Харк в Персидском заливе, что географически связано с регионом GCC, однако основная тема — военные действия и геополитический конфликт с участием США и Ирана, что прямо нарушает правило 2 (политика и конфликты). Также отсутствует практическая польза для русскоязычного жителя Дубая, а источник Reuters не является локальным для ОАЭ."
+  },
+  {
+    "url": "https://www.straitstimes.com/world/middle-east/blasts-heard-near-irans-kharg-island-in-gulf-amid-reports-tanker-hit",
+    "timestamp": "2026-09-05T20:40:08.932629+00:00",
+    "status": "rejected",
+    "content_hash": "443bd53b132620e12077f27f4eef6691",
+    "strict_hash": "443bd53b132620e12077f27f4eef6691",
+    "fuzzy_hash": "0416f39dbabcb71ad50fca14a60ddd3d",
+    "reason": "Новость касается военной/политической тематики вблизи Ирана, что не связано напрямую с Дубаем/ОАЭ/GCC, а также относится к категории большой политики и конфликтов. Публикация такого материала не соответствует профилю канала и может нарушить правила."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/life-style/people/from-class-8-dropout-to-a-luxury-home-in-burj-khalifa-the-unconventional-journey-of-dubai-billionaire-satish-sanpal/articleshow/133793120.cms",
+    "timestamp": "2026-09-05T20:40:10.634413+00:00",
+    "status": "rejected",
+    "content_hash": "817ba1d81e6d52905727e6776ddcd9fe",
+    "strict_hash": "817ba1d81e6d52905727e6776ddcd9fe",
+    "fuzzy_hash": "7df25d6223aaea5b4970b8ec9c727d0a",
+    "reason": "Новость представляет собой мотивационную историю успеха (rags-to-riches) о дубайском миллиардере, что соответствует интересам аудитории, интересующейся жизнью в Дубае и местными знаменитостями. Текст не является рекламой, не касается политики и не нарушает ценности ОАЭ, а также не дублирует опубликованные ранее материалы."
+  },
+  {
+    "url": "https://www.lokmattimes.com/mumbai/mumbai-dubai-spicejet-flight-passenger-alleges-25000-cash-kept-for-wedding-shopping-stolen-from-checked-in-bag-a517",
+    "timestamp": "2026-09-05T20:40:12.459576+00:00",
+    "status": "rejected",
+    "content_hash": "1e1c0397cbc0c7c6e88b3e2b018130fd",
+    "strict_hash": "1e1c0397cbc0c7c6e88b3e2b018130fd",
+    "fuzzy_hash": "7e775cedec57f6da8b3ce6386f1518f3",
+    "reason": "Оценка: Новость о краже $25,000 из багажа пассажиров рейса SpiceJet в Дубае имеет косвенную связь с регионом (инцидент произошел в Дубае), но основная тема — криминальное происшествие с индийскими гражданами, не имеющее прямого отношения к жизни русскоязычного сообщества в Дубае. Текст обрывается, источник не указан явно, а новость не несет практической пользы или уникальной ценности для целевой аудитории."
+  },
+  {
+    "url": "https://www.indiatvnews.com/sports/cricket/india-vs-pakistan-women-s-asia-cup-2026-pitch-report-how-will-surface-in-dubai-play-2026-09-05-1053381",
+    "timestamp": "2026-09-05T20:40:14.709766+00:00",
+    "status": "rejected",
+    "content_hash": "e5bea6dc73d64ee189a930ed22985a99",
+    "strict_hash": "e5bea6dc73d64ee189a930ed22985a99",
+    "fuzzy_hash": "95991a46188b9bfefa4e4d150d0b5327",
+    "reason": "Новость о матче Индия — Пакистан на женском Кубке Азии в Дубае имеет прямую связь с регионом (проводится в Дубае), не касается политики или конфликтов, не является рекламой и не нарушает ценности ОАЭ. Однако текст выглядит как типичный спортивный анонс с элементами «pitch report» и прогнозами, что не является общественно значимой новостью для русскоязычного жителя Дубая, а также не содержит проверяемых фактов, которые были бы полезны аудитории (нет service-update, регуляторных изменений или официальных данных). Кроме того, это не уникальная новость, а скорее пересказ спортивной прессы, что снижает её ценность для канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdXl4NnY1dkFZUFNmSTBiODUtNVR1eXpHZ1R4R3ZHZEVtMXliREpuVlozNjBsT0JlRm5HRllzdzd3S1NrVkVTblgwbUZHMGZNUjlGeE8zUHMtVXJzbXhiZkczWUZ3enRNZWNYNzVBNFhDYm9xMkZjMEg3aFNsMWE3d0ZuSGFyY3JWSHNVZTFwWHBZMTkzY1RGMGlTclN6T3RWQ1VNeU0tMktvRmUtR2Z4ODBsUklkT2dOZm5zUFl1YjVzMUd6dnBKZHVLRmw5NXN0M01jcEc3U0dDeTVseFVZNE9B?oc=5",
+    "timestamp": "2026-09-05T20:40:17.603063+00:00",
+    "status": "rejected",
+    "content_hash": "30cba3f983f99c5d6a6e720a36a7d985",
+    "strict_hash": "30cba3f983f99c5d6a6e720a36a7d985",
+    "fuzzy_hash": "27c84a0c62dc0042bbee2cc9200ebf90",
+    "reason": "Оценка: Новость представляет собой агрегированную сводку из 10 разрозненных тем за неделю, включая упомянутые в контексте (визовые изменения для Таиланда и налоги/аренда). Это явный дубликат-компиляция уже опубликованных материалов, а не самостоятельная новость, к тому же без конкретного проверяемого содержания в тексте."
   }
 ]
