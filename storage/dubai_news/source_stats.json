@@ -1024,5 +1024,50 @@
     "strict_hash": "157774d7af33df0cf40de2b0d6634b8e",
     "fuzzy_hash": "ef6448c8f8c8089870979f3f4492b4dd",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/04/exceptional-response-dubai-tourism-scheme-closes-after-90000-residents-invite-friends-and-family-to-visit",
+    "timestamp": "2026-09-05T01:54:07.984224+00:00",
+    "status": "rejected",
+    "content_hash": "809228532bd9b14e0b62a47ac37d07aa",
+    "strict_hash": "809228532bd9b14e0b62a47ac37d07aa",
+    "fuzzy_hash": "6b1a6336b3abce0f62316aaea1045ef9",
+    "reason": "Новость напрямую связана с Дубаем, описывает завершение туристической инициативы с конкретными цифрами и сроками, не содержит политики, рекламы или неуважения к ценностям. Однако она является точным дубликатом уже опубликованной новости о закрытии регистрации после 90 000 заявок, что нарушает правило 7."
+  },
+  {
+    "url": "https://www.indiatoday.in/india/story/jaipur-businessman-kidnapping-case-karan-aswani-arrested-in-dubai-brought-to-india-2987179-2026-09-04",
+    "timestamp": "2026-09-05T01:54:09.702107+00:00",
+    "status": "rejected",
+    "content_hash": "2fc432b85627d6c6fd6c6e2f41384a3f",
+    "strict_hash": "2fc432b85627d6c6fd6c6e2f41384a3f",
+    "fuzzy_hash": "88150eb0d137b52a9ac43cfa7dddaead",
+    "reason": "Новость о задержании в Дубае подозреваемого в похищении бизнесмена из Джайпура не имеет прямой связи с жизнью в ОАЭ или интересами русскоязычных жителей Дубая — это криминальная история из Индии, где Дубай упомянут лишь как место задержания. Тема не соответствует критериям региональной значимости и полезности для аудитории канала."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/sports/cricket/womens-asia-cup/news/india-vs-pakistan-live-streaming-when-and-where-to-watch-womens-asia-cup-2026-clash-check-head-to-head-pitch-and-dubai-weather/articleshow/133762708.cms",
+    "timestamp": "2026-09-05T01:54:12.139398+00:00",
+    "status": "rejected",
+    "content_hash": "115cd7b4764761e111458ef7dffd22ed",
+    "strict_hash": "115cd7b4764761e111458ef7dffd22ed",
+    "fuzzy_hash": "27aa22e109add346f9b5170e8903f1fe",
+    "reason": "Оценка: Новость о матче женского Кубка Азии по крикету между Индией и Пакистаном, проходящем в Дубае, имеет прямую связь с регионом (место проведения) и содержит практическую информацию (трансляция, погода), что может быть интересно русскоязычным жителям, увлекающимся спортом. Однако текст выглядит как типичная спортивная анонс-статья с элементами кликбейта («live streaming», «check head-to-head»), а также не содержит явной общественно значимой новости, кроме расписания матча. Дубликатов в контексте нет, но формат больше похож на развлекательный контент, чем на строгую новость."
+  },
+  {
+    "url": "https://scanx.trade/stock-market-news/companies/novus-loyalty-concludes-egm-sept-3-gurugram-office/49984757",
+    "timestamp": "2026-09-05T01:54:13.849046+00:00",
+    "status": "rejected",
+    "content_hash": "cfefe049dbb3344efc45b044aa106c72",
+    "strict_hash": "cfefe049dbb3344efc45b044aa106c72",
+    "fuzzy_hash": "3e1f314f0b67c5720e1a193612fab6a8",
+    "reason": "Оценка: Новость о повышении уставного капитала индийской компании Novus Loyalty и одобрении дубайской дочерней структуры не имеет прямой связи с жизнью русскоязычного сообщества в Дубае, не содержит общественно значимой информации для региона и выглядит как корпоративный пресс-релиз. Отсутствует проверяемый источник, а тема не представляет интереса для целевой аудитории канала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR1MtOGFzYm1pZ0otT2NCVjBYNjVQVmpQVk9ZMGc1T2FjZW0zX3JwSUVON1VSVDRIcjZUMEZRZy1BUG9nRzJBUFRtTTFNUjk1UFA4YkRpc1ZxMU5POWZTZzVGTERHWW1YRGFNMzBXNmhiZlp1bURwelJpZkRBcUx2UUlJWFQtMjI1a09QajZB?oc=5",
+    "timestamp": "2026-09-05T01:54:20.363061+00:00",
+    "status": "approved",
+    "content_hash": "a89a4d44e3ff85ea774566d8c80c504d",
+    "strict_hash": "a89a4d44e3ff85ea774566d8c80c504d",
+    "fuzzy_hash": "e4d6b0451eb2902e4a40a4817d08d9fb",
+    "reason": "approved"
   }
 ]
