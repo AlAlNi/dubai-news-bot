@@ -760,5 +760,86 @@
     "strict_hash": "24fa8c8929a56dbb44cb5fe5f53ce95e",
     "fuzzy_hash": "3b0858b525accc6ec3da8f471de845ad",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.indiatimes.com/trending/come-to-roam-dubai-pakistan-collapse-to-historic-55-against-india-lowest-ever-t20i-total-leaves-indian-fans-laughing/articleshow/133807877.html",
+    "timestamp": "2026-09-06T05:17:04.348764+00:00",
+    "status": "rejected",
+    "content_hash": "47fbf0775f393b0fc7500d6e89cfbc7f",
+    "strict_hash": "47fbf0775f393b0fc7500d6e89cfbc7f",
+    "fuzzy_hash": "4599d3b9826d90c78f4cc824bb367922",
+    "reason": "Оценка: Новость о разгромном поражении сборной Пакистана по крикету от Индии в женском Кубке Азии не имеет прямой связи с Дубаем или ОАЭ (событие, судя по контексту, проходит не в регионе, а реакция индийских болельщиков не является локальной новостью). Тема спорта сама по себе не запрещена, но отсутствует региональная привязка и польза для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.republicworld.com/cricket/womens-asia-cup-pakistan-bundled-out-for-embarrassing-55-as-india-dominate-in-dubai-2026-09-05-136386",
+    "timestamp": "2026-09-06T05:17:06.766266+00:00",
+    "status": "rejected",
+    "content_hash": "cf723a73fbf77488133fa48da11b0a26",
+    "strict_hash": "cf723a73fbf77488133fa48da11b0a26",
+    "fuzzy_hash": "c924988cd38e43983a7335a501b070f9",
+    "reason": "Оценка: Новость о спортивном событии (женский Кубок Азии по крикету) напрямую связана с Дубаем, так как матч проходил в этом городе. Тема не является политической или рекламной, не нарушает ценности ОАЭ, текст выглядит естественным и не содержит признаков ИИ-генерации. Событие может быть интересно русскоговорящим жителям, следящим за спортом, однако для широкой аудитории крикет — нишевая тема, и новость носит скорее локально-спортивный характер, а не общественно значимый. Дубликатов не обнаружено, источник проверяемый."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOWhJeTQtTzhHR3NUbEF1WGNqeVRYaEtpcEZpcUJ4dFdYSXpwb0ppdTNNYXNacVdpemwtZGN0NDEtZHY4b2JCOFI2LVdneDBINHB0c0RrNVBNdlI2ZWlWRjYtaWNyd3FxNThEQXJpc18wQzVRai16dG5XdDloYnhtSWd3VlFnSVZxQ0NzVDlYWFVRemEtYmJsTEtVRlRXZHRzdU55Ykw4QzBTRE80?oc=5",
+    "timestamp": "2026-09-06T05:17:09.667554+00:00",
+    "status": "rejected",
+    "content_hash": "ce3defc888f5329dcb790d5502942c13",
+    "strict_hash": "ce3defc888f5329dcb790d5502942c13",
+    "fuzzy_hash": "c2d83c0639665cdd35b44e039dd3c0ad",
+    "reason": "Оценка: Новость о выигрыше квартиры в Дубае гражданином Бангладеш имеет прямую связь с регионом и носит позитивный, человеческий характер, не затрагивая политику или рекламу. Однако текст крайне скуден (фактически только заголовок), отсутствует проверяемый URL источника в теле сообщения, а также нет подтверждения, что это не дубликат ранее опубликованного материала."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaGdoMzFDd3ZPbWZyc1pqMEd1NkJuR2hnSTBTdkszczVuQnFXUXZFa0RLUDJZMF9WZTlEMTdBbFpxaVBoblJSLWRCbFoxN3RWaHA1bXJWU19nY2pqYkxlQXJtc1Mwc2VaMmo1dnNuODdQUkdCMFdrWjRRcDJldVNYQzM1OThmN2Q2TFBLcjZR?oc=5",
+    "timestamp": "2026-09-06T05:17:11.893457+00:00",
+    "status": "rejected",
+    "content_hash": "0f4604e4bb59b3d105e78414610417f0",
+    "strict_hash": "0f4604e4bb59b3d105e78414610417f0",
+    "fuzzy_hash": "d7816f44a6943921a95d7059b29d2fbd",
+    "reason": "Оценка: Новость не содержит текста, а лишь заголовок и ссылку на внешний сайт (supercarblondie.com), что делает её неполноценной и похожей на спам или кликбейт. Тема полицейских суперкаров в Дубае широко известна и многократно освещалась, что указывает на высокую вероятность дубликата, а также отсутствует проверяемый URL источника в тексте."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YVjBnRlVJVnBLMlJVbjh1eU1VamRhWjB5dEExci1STEMzbGZ1TnkxV2puRFlhWkY3d1FPVG5JOFBOZ2xNMW9CYkRFX1REWE8taGdlVWdfcHJsWld0NjFYdmFoUEdWdVRNX2dYS2lkWU81NzlxNjRpN1ZlcTh3Tjg?oc=5",
+    "timestamp": "2026-09-06T05:17:12.447633+00:00",
+    "status": "rejected",
+    "content_hash": "31a468134541ad17e10b8d34abded0bd",
+    "strict_hash": "31a468134541ad17e10b8d34abded0bd",
+    "fuzzy_hash": "1a51cd3c68f8486f742869bcdd1429af",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR3FtS0RFQ0c2aEFFZjJkYnJpSy1Wajl1T0ZuQW1wNUIxRDEzQWJ4V1psVlc5OUdNTjNvazdvRkJBTS1NZ2Zkb3h0VWk2cTlURkk2V0lLSk11bEJCM1k1N0ViQ3BpZlduaXp3YllUM1lXNnI0OFpXMU15R1RTX3dSUzFZNUpsVGNkaVhOdHJHVVRvdi1CMU83djEyanRCZ3dvN0hJ?oc=5",
+    "timestamp": "2026-09-06T05:17:14.311326+00:00",
+    "status": "rejected",
+    "content_hash": "d850ab1f4c2cc851631c8e89cd97c635",
+    "strict_hash": "d850ab1f4c2cc851631c8e89cd97c635",
+    "fuzzy_hash": "29960f35f9c66cd5ff857a853f16332c",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOW00Wkt1VDdsNkxGN2ItVk1uTXJLQzBCb01lUnZqeHFuN0NiQ1R2cU9MZnJnQ3dZOUFKSHdrZU1VeVFNVDUydWJsVmFibTBDSm5HMzhvSGc0VDlWR2dHalA0RW9MNHZEUVlLeFpLaENuWmdKRVRVQUpRZ2czYXRBeVh1MVFrUVZjNEsyYWd5ZlljUTFSckhwNVR6YkhIX3ludmtZcmpOaHVQNVFOcUdOUmlOMklWZ0dsRkwyNDRuTVlOVEpxQUg4?oc=5",
+    "timestamp": "2026-09-06T05:17:16.249334+00:00",
+    "status": "rejected",
+    "content_hash": "2204a196c718f0a99e379807b655f42d",
+    "strict_hash": "2204a196c718f0a99e379807b655f42d",
+    "fuzzy_hash": "d4e2bfb12d9ff8a712acc26d2472a1a4",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHFpTkRLNEl5N3pvLW1zWFVtYUpONHpTdGlISmZDMmdwVzBsME45SHBGclR2S3ZPZFFUbENGYlVqek5SREIzT3RMVkNTZkhFTWU4RUllY2lBR1NRQ2lBc3N1SmJCT3hEdkRBbDNya2EwclByNnozWEg2SVc5NEFzUktpLUwyazc0?oc=5",
+    "timestamp": "2026-09-06T05:17:18.120099+00:00",
+    "status": "rejected",
+    "content_hash": "3dc68c77e38bb5276555528b9b298872",
+    "strict_hash": "3dc68c77e38bb5276555528b9b298872",
+    "fuzzy_hash": "6cdf29bd05d473c8f47200adb89d7a0d",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE43dldaRnpfRUhEdkJUaDMxbzM2Uk5qV29aOHEydU1PQnJYSndVQTNyVXc3X05nalZBS0FkSnFqbEthWEFBMVA5UV94NU1kMUxtRDNacjY4dWlDREwzX2JHa3FQVW9LRUNNc24zZVgxR2ZEdGVMeFBr?oc=5",
+    "timestamp": "2026-09-06T05:17:19.885295+00:00",
+    "status": "rejected",
+    "content_hash": "68f1ea288dcb66b178cc1dd136816ce8",
+    "strict_hash": "68f1ea288dcb66b178cc1dd136816ce8",
+    "fuzzy_hash": "4e97b803029218f572fb197d8bcf8c1a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
