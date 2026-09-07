@@ -691,5 +691,41 @@
     "strict_hash": "f7997f68731d16883a190eead1080fbe",
     "fuzzy_hash": "d910ba127c1432bea2946e7cfd3966cd",
     "reason": "approved"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVE9jTDUyNHRNUmwtWjZadUhmaUtNS1VHYjdlLVMzRnZweENteXBIMEdFbmFmeTB1RTg0ZDY2VHVySFl6LVNTZmVUcmwzamFLSVhCd2F2SjJBZDNxenFBbzFYSksySG1KWDdacHN5QWgyT3VCa3ZkQ3BjS3hndzRSNjJsX1NlTlR1MUZoNC1HYWVxdw?oc=5",
+    "timestamp": "2026-09-07T00:28:29.220597+00:00",
+    "status": "rejected",
+    "content_hash": "901fdef12faa0ca1173c66da2bbfba0a",
+    "strict_hash": "901fdef12faa0ca1173c66da2bbfba0a",
+    "fuzzy_hash": "b42b29e53bc3d82b3d8fac8210cc21d9",
+    "reason": "Оценка: Новость связана с Дубаем (RTA), не является политической или рекламной, затрагивает инфраструктурные улучшения, что полезно для автомобилистов. Однако текст крайне короткий и не содержит деталей, позволяющих проверить факты, а также отсутствует явный URL источника в тексте для подтверждения."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdWxrRENZR0JWX3oxUGZPS2FQek5WcDBZM1YyRjhHRUZ2WGl3Vkx5MF9QMnBhTGhlbmpsdDAwMzd0eUs0ckkwcHMtc0F5OWRoTEhGaEg5ekVrcWs2enpVZFliNldYTG02d2QxeXRJRUZKUmRMQTRZNmhjbDdPY0w1eg?oc=5",
+    "timestamp": "2026-09-07T00:28:31.494439+00:00",
+    "status": "rejected",
+    "content_hash": "7c024832c5d27d2be30d8e6e2c07c4de",
+    "strict_hash": "7c024832c5d27d2be30d8e6e2c07c4de",
+    "fuzzy_hash": "53f5bb4165bab029274a3a802919747f",
+    "reason": "**Оценка новости:**\nНовость напрямую связана с Дубаем (RTA) и касается улучшения дорожной инфраструктуры — это практично и полезно для жителей. Тема не политическая, не рекламная, не содержит неуважения к ценностям ОАЭ. Однако текст крайне короткий и не содержит деталей, а главное — он почти полностью дублирует уже опубликованную новость №1 из контекста («Dubai RTA steps up night-time road maintenance, rehabilitation»). Это явный повтор по смыслу и теме, что нарушает правило 7.\n**Решение:**"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNGlwWU41NlRGU0pPMUNhRG1kbXVKTWt6ZC1BbFRaMGxXT0ZGT2lHQlJwNGNPT1BSc25oYWpuMml4clpOWmd4a0JTMVR2QzN5UWxTcXhCUHBwTTJlUzUybDBVdUVmR0hJRFdIVHY3dExfYURNVkdyc2hCaEY3UEktdGlpTnlrcnJXaVh3dmpoZDhvR0p5clB5QWRQV09XSVdnelAyVTR2Mk1jTERMck50ZWVXSGvSAc8BQVVfeXFMUEVwSXRNdXdad0hueWZIWEo0UWlBWkV1UUNfWEVmdVo1SjRBZ0twczRRYTZzOXNPRENnaTZqVTljRWJUQXhORkdvcEk4NnpBU3NqeTdpSjhBWkNMRUJudzl2ajZkeHViTmlWM0lUR0w2bFU5a1RIS3JzUDY3RzhQYXBMb09LeVlINGNwQ2pGWEhVbWVnV3JkbWVSR1pTVi12eGxreVgyckk3Y2E1YWRWM1NQc05pU0VPVEU3eF9tTWpXeHNvUndzYjVZcWFRSGZj?oc=5",
+    "timestamp": "2026-09-07T00:28:31.824544+00:00",
+    "status": "rejected",
+    "content_hash": "af0818fd37dc7bf01267f5f17e2d17ff",
+    "strict_hash": "af0818fd37dc7bf01267f5f17e2d17ff",
+    "fuzzy_hash": "886d11559c42de2e7c9a28337b889678",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVDF5WTg4UFM4SW80OGxCVnc2TDhHX3VUdEw4VWlqUjA3VkpqT3FPRlFIam5pNzNJRW1kZmJkRW45TVFWaXBtVlZmb2Fpa3p5eXNnaGZaQmJVYmRWUUdkZjZNOFJhU0FXVlpBcVp3OGlYV1FuSVRDTTlVOUxHanRDQ0VFdmZIRGVCLTV4UGVkQjN4Q2tCV3l1OHBEcVhDVnR6dEFCMF9GVTZDZ3gyVHF2ZXJWamVub0hXV1E?oc=5",
+    "timestamp": "2026-09-07T00:28:33.203964+00:00",
+    "status": "rejected",
+    "content_hash": "c6b8f7f94637c85316d2c0533c0508f3",
+    "strict_hash": "c6b8f7f94637c85316d2c0533c0508f3",
+    "fuzzy_hash": "0fe6150261be2d5309b73dd28db6641a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
