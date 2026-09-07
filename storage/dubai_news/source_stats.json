@@ -797,5 +797,23 @@
     "strict_hash": "3df3f59f8092ccc35fcfe338d005d0b8",
     "fuzzy_hash": "e41f2af0c6e907e7066d75a7d7c52293",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-property-market-poised-for-nice-balance-in-2027-says-emaar-founder-amid-supply-boost",
+    "timestamp": "2026-09-07T23:09:00.078645+00:00",
+    "status": "rejected",
+    "content_hash": "a71f1c47fb31e92378c4fb4490a2ace4",
+    "strict_hash": "a71f1c47fb31e92378c4fb4490a2ace4",
+    "fuzzy_hash": "6ac615f446ed0eeb2ea0e2d9c4160ccc",
+    "reason": "Новость является пересказом уже опубликованного материала (контекст №1) с тем же спикером и той же цитатой, но с добавлением деталей о мегапроекте. Тематика связана с Дубаем, не является политикой или рекламой, однако текст содержит признаки ИИ-генерации (неестественная структура, обилие цифр без ссылки на конкретный URL) и явно дублирует ранее вышедшую новость."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/harry-potter-themed-lands-aim-to-open-in-2029-at-warner-bros-world-abu-dhabi",
+    "timestamp": "2026-09-07T23:09:14.202127+00:00",
+    "status": "approved",
+    "content_hash": "40e4afc3bd3c28dac72a50e7c526185b",
+    "strict_hash": "40e4afc3bd3c28dac72a50e7c526185b",
+    "fuzzy_hash": "010d97cf935e7a8f1d4c943b3bb896d5",
+    "reason": "approved"
   }
 ]
