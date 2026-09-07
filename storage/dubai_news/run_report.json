@@ -1,89 +1,5 @@
 [
   {
-    "script": "rss_collect",
-    "started_at": "2026-08-26T10:23:06.993128+00:00",
-    "finished_at": "2026-08-26T10:23:50.026960+00:00",
-    "duration_seconds": 43.034,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 1,
-      "rejected": 1,
-      "approved": 0,
-      "deepseek_calls": 1,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 1,
-      "reserve_fetches": 4,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-26",
-      "daily": {
-        "published_per_day": {
-          "value": 0,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 87.88,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "economictimes.indiatimes.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 66.67
-          },
-          {
-            "source": "emirateswoman.com",
-            "events": 5,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "whatson.ae",
-            "events": 13,
-            "reject_rate": 92.31,
-            "duplicate_rate": 30.77
-          },
-          {
-            "source": "news.google.com",
-            "events": 74,
-            "reject_rate": 78.38,
-            "duplicate_rate": 12.16
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
     "script": "auto_notify",
     "started_at": "2026-08-26T10:42:10.292999+00:00",
     "finished_at": "2026-08-26T10:42:10.324718+00:00",
@@ -15804,6 +15720,90 @@
             "events": 3,
             "reject_rate": 66.67,
             "duplicate_rate": 33.33
+          },
+          {
+            "source": "www.timesnownews.com",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-09-07T00:11:27.840644+00:00",
+    "finished_at": "2026-09-07T00:11:39.573230+00:00",
+    "duration_seconds": 11.733,
+    "success": true,
+    "counters": {
+      "attempts_made": 3,
+      "fetched": 3,
+      "rejected": 2,
+      "approved": 1,
+      "deepseek_calls": 4,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 2,
+      "google_rss_fetches": 1,
+      "reserve_fetches": 3,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-09-07",
+      "daily": {
+        "published_per_day": {
+          "value": 0,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 66.67,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "timesofindia.indiatimes.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 66.67
+          },
+          {
+            "source": "www.thenationalnews.com",
+            "events": 4,
+            "reject_rate": 75.0,
+            "duplicate_rate": 25.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 33,
+            "reject_rate": 72.73,
+            "duplicate_rate": 12.12
           },
           {
             "source": "www.timesnownews.com",

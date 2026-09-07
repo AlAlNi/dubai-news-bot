@@ -664,5 +664,32 @@
     "strict_hash": "2e1625a6f8afc5a05076ba60b4431ef5",
     "fuzzy_hash": "2ebf01d2b925f9c9d0ad8cfc9aabe8ef",
     "reason": "Новость о поездке индийской актрисы в Дубай носит развлекательный характер и не содержит общественно значимой информации для русскоязычных жителей эмирата. Отсутствует явная польза или интерес для целевой аудитории, а также нет проверяемого источника с конкретным URL."
+  },
+  {
+    "url": "https://www.newsbytesapp.com/news/business/indian-bank-to-set-up-dubai-office-expanding-overseas-operations/story",
+    "timestamp": "2026-09-07T00:11:31.368848+00:00",
+    "status": "rejected",
+    "content_hash": "650e4524395a78ba718f0bddee30e05b",
+    "strict_hash": "650e4524395a78ba718f0bddee30e05b",
+    "fuzzy_hash": "8a21584ef1cf2b2080168eba7abcdd57",
+    "reason": "**Оценка новости:**\nНовость о планах Indian Bank открыть представительство в Дубае имеет прямую связь с регионом (финансовый сектор ОАЭ), не содержит политики, рекламы или неуважения к ценностям. Тема может быть интересна русскоязычным жителям, связанным с банковскими услугами и индийским бизнесом. Однако текст обрывается на полуслове («they intend to ope...»), что указывает на неполноту и потенциальную недостоверность (нет явного URL источника, факты не подтверждены). Это нарушает правило 9.\n**Решение:**"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/06/uae-leaders-hold-talks-with-bahrains-king-hamad-in-dubai",
+    "timestamp": "2026-09-07T00:11:32.875613+00:00",
+    "status": "rejected",
+    "content_hash": "5e498302cef2c7c936a051ef7af2fe50",
+    "strict_hash": "5e498302cef2c7c936a051ef7af2fe50",
+    "fuzzy_hash": "440a2dba06b9cecf56091a2d92a25dc6",
+    "reason": "Оценка: Новость о встрече лидеров ОАЭ и Бахрейна в Дубае носит протокольный характер и не содержит общественно значимой информации для русскоязычных жителей, а также попадает под правило о политике и конфликтах (межгосударственные отношения). Текст выглядит как сухой пресс-релиз без практической пользы для аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTVFZR3hzckVrRXdyS053NVdnQ0VSZXA1eHNGVGwxeU42bkM4bkxOMDBqb0w4ZmpNWHBtMFNZMWFrVDY1YVRyNDR3TzU5Y19GV0JsOW5KQzVqXzc2ZDhLcXFJVHp6bEo3TWhFTGNmMWlvdHNSem5qdUVoY1hFU1d1TE1Oc000RC15Zk1OY25TZHp5LWxiaUMwOGNYVVRWSEVKZExxS3A0SdIBugFBVV95cUxOcktoNjVMOHRsbDVhc3N3cHZsS01WaGpXOVBEVEJHNG54cXBLLTRWTWUtbXVYMFlMNzExQU12RGNnQ293WlFNT3NVb1A1R2VNaGJsOTdWcUx4ajFfNkRCd1ZaSU5Vb2lkb0Jjc0JzVHNXSUFkNlpZYzB5N3lNX3pjUFNic21ldDZ6UWMyR3dld0ZWazA3OUM2TXdUN1BKbXBsaklvem1vOGFrWGlrUWoxV0FfNnhqTTU5c2c?oc=5",
+    "timestamp": "2026-09-07T00:11:39.571117+00:00",
+    "status": "approved",
+    "content_hash": "f7997f68731d16883a190eead1080fbe",
+    "strict_hash": "f7997f68731d16883a190eead1080fbe",
+    "fuzzy_hash": "d910ba127c1432bea2946e7cfd3966cd",
+    "reason": "approved"
   }
 ]
