@@ -797,5 +797,113 @@
     "strict_hash": "8471a215b4e55a0b9d67a45069aaeb4d",
     "fuzzy_hash": "61ab9e55408369eba04728128602f0b7",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/uae-weather-46c-heat-is-on-the-way",
+    "timestamp": "2026-09-08T06:46:50.475187+00:00",
+    "status": "rejected",
+    "content_hash": "e72bfb343f64671d282122674ff80d6c",
+    "strict_hash": "e72bfb343f64671d282122674ff80d6c",
+    "fuzzy_hash": "9ae5cbf9f7f7a7ced32df54b0079afea",
+    "reason": "Новость о погоде в ОАЭ с прогнозом до 46°C соответствует региональной тематике, не содержит политики или рекламы, а также является полезной для русскоговорящих жителей Дубая. Однако текст выглядит как фрагмент с обрезанным концом и ссылкой на источник, что снижает его достоверность и полноту."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/onpassive-dubai-metro-station-has-a-new-name",
+    "timestamp": "2026-09-08T06:46:58.216445+00:00",
+    "status": "rejected",
+    "content_hash": "816e6110abaf8b86c84d5251cfe9e473",
+    "strict_hash": "816e6110abaf8b86c84d5251cfe9e473",
+    "fuzzy_hash": "b1f5123ed098c7cd8cb2ff8d431325d6",
+    "reason": "Новость напрямую связана с Дубаем (переименование станции метро) и не содержит политики, рекламы или неуважения к ОАЭ. Однако она является точным дубликатом уже опубликованной новости (Khaleej Times) о переименовании станции Onpassive в Garmin, что нарушает правило 7."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/10-brilliant-uae-staycation-deals-to-book-this-september",
+    "timestamp": "2026-09-08T06:47:02.933899+00:00",
+    "status": "rejected",
+    "content_hash": "13da333628ccbfb5faedd59b481d40cc",
+    "strict_hash": "13da333628ccbfb5faedd59b481d40cc",
+    "fuzzy_hash": "9482893a8a9a01a04c346ce7e8c47af9",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://www.lokmattimes.com/national/cm-mohan-yadav-pitches-mp-as-investment-destination-at-dubai-meet",
+    "timestamp": "2026-09-08T06:47:05.348725+00:00",
+    "status": "rejected",
+    "content_hash": "dec3567608a47ccb117b1a22e2935a86",
+    "strict_hash": "dec3567608a47ccb117b1a22e2935a86",
+    "fuzzy_hash": "f8f9b477c76d89a58046995d349731da",
+    "reason": "Новость рассказывает о том, как индийский главный министр штата Мадхья-Прадеш продвигает свой регион как инвестиционную площадку на конференции в Дубае. Это событие не имеет прямого отношения к жизни Дубая или ОАЭ, а скорее является региональной политической новостью Индии, которая лишь использует Дубай как площадку для питча. Для русскоязычного жителя эмирата эта информация не представляет практического интереса и не связана с местной повесткой."
+  },
+  {
+    "url": "https://www.lokmattimes.com/international/cm-mohan-yadav-pitches-mp-as-investment-destination-at-dubai-meet-2",
+    "timestamp": "2026-09-08T06:47:07.374099+00:00",
+    "status": "rejected",
+    "content_hash": "962c3112a18c3fb5f845c244c304fc4f",
+    "strict_hash": "962c3112a18c3fb5f845c244c304fc4f",
+    "fuzzy_hash": "92d00aaf4666e25495aecf1bf99f8a3f",
+    "reason": "Оценка: Новость о презентации индийского штата Мадхья-Прадеш на форуме в Дубае не имеет прямой связи с жизнью русскоязычного жителя ОАЭ, не содержит общественно значимой для региона информации и носит характер регионального политического PR-материала. Тема не соответствует интересам целевой аудитории канала."
+  },
+  {
+    "url": "https://www.lokmattimes.com/business/cm-mohan-yadav-pitches-mp-as-investment-destination-at-dubai-meet-1",
+    "timestamp": "2026-09-08T06:47:07.636206+00:00",
+    "status": "rejected",
+    "content_hash": "f5e4cd57040e7a1caf88c50a0fae45e8",
+    "strict_hash": "f5e4cd57040e7a1caf88c50a0fae45e8",
+    "fuzzy_hash": "1c49a1e37a7e8378f0f77bbbfaae651e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (www.lokmattimes.com)"
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/madhya-pradesh-uae-to-work-on-investment-projects-cm-mohan-yadav-holds-series-of-meetings-in-dubai",
+    "timestamp": "2026-09-08T06:47:11.078441+00:00",
+    "status": "rejected",
+    "content_hash": "e7d21a48840269beed39a6cf541a7364",
+    "strict_hash": "e7d21a48840269beed39a6cf541a7364",
+    "fuzzy_hash": "f7987f3ff24cfbffa42c674616f2ea11",
+    "reason": "Новость носит политико-экономический характер и освещает визит индийского чиновника с целью привлечения инвестиций, что не является общественно значимым событием для русскоязычного жителя Дубая. Тематика узкоспециализированная, не связана с повседневной жизнью эмирата и больше похожа на пресс-релиз государственных структур."
+  },
+  {
+    "url": "https://www.aninews.in/news/business/madhya-pradesh-uae-to-work-on-investment-projects-cm-mohan-yadav-holds-series-of-meetings-in-dubai20260907225539",
+    "timestamp": "2026-09-08T06:47:13.037289+00:00",
+    "status": "rejected",
+    "content_hash": "faea7d7d0dd68d70a6657e42c575d6d0",
+    "strict_hash": "faea7d7d0dd68d70a6657e42c575d6d0",
+    "fuzzy_hash": "3fffbbf2b1adaaf528d1e122e1e56261",
+    "reason": "Новость носит явный политико-экономический характер (визит главного министра штата, межправительственные соглашения) и не содержит практической или общественно значимой информации для русскоязычных жителей Дубая. Тематика относится к большой политике и межгосударственным отношениям, что противоречит правилам отбора."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOajFuc0txLVB5RFVmNnBPS19xNkxKMkN3X0JTUnhnblUwdjF3SnZTRktuc2ExMXR0OGZxbmVtTFNLX0ctcmNkcVpkWmVOZjM3SkRvdHNoSUtCN2tRNDFKdWVtZU5fZVB3aU5XQW5MZmtMUEVZRWlpWjZEOEdsc1VkOWoxWGlPcGRlam9oMTdtU2JqejJuc00xTy01b3VWSHEtdDVzZEJvbVNwZDd1TmRBQ016TE9IalRmb2FIOVdTbzI?oc=5",
+    "timestamp": "2026-09-08T06:47:15.659013+00:00",
+    "status": "rejected",
+    "content_hash": "06d8f7e0551852bf1cdefd9af5220517",
+    "strict_hash": "06d8f7e0551852bf1cdefd9af5220517",
+    "fuzzy_hash": "f81d78928f841abae7bcfa0061095965",
+    "reason": "Оценка: Новость является официальным подтверждением от Government of Dubai Media Office сделки о переименовании станции метро ONPASSIVE в Garmin, что напрямую связано с Дубаем и общественно значимо для жителей. Однако это точный дубликат уже опубликованной новости (Khaleej Times) о том же соглашении, поэтому повторная публикация нецелесообразна."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSGFrbFhKcDBTcFQ4am5TRms2VnhucnBVOVBaVktJTWdmRTJxdkNGNXZyb2ZQazlrMUE0Tmx5YVpiN25Gek00blF0NDh4N3h1bXYwNXJBc0I4SXpNTW1SZGxDWEF0VXhOd3JuUDBjeS1NYjd0eUdkLWJTcFc1TF9LZDItYlRYWEpmdkdmTTh3?oc=5",
+    "timestamp": "2026-09-08T06:47:17.676357+00:00",
+    "status": "rejected",
+    "content_hash": "19f1db67c64d719bac64d74f5d2bc331",
+    "strict_hash": "19f1db67c64d719bac64d74f5d2bc331",
+    "fuzzy_hash": "144c5738b664460ddf48f31fb7bc8cf6",
+    "reason": "Новость о переименовании станции метро ONPASSIVE в Garmin полностью совпадает с уже опубликованным материалом (Khaleej Times) по той же теме. Это явный дубликат, не несущий новой информации для аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeUpVOUNENVl4QmN1VFZ1VkdyM1A2MUl6LUtGc0xzc1pBN3RJbC1TQ0lvcWE4MjNMbDRMeklxbDJDYl94bkNLRTNmeU1VaVF2NnJsdFgwYUU3d2x5OGlpTXdfZjk3amdTdVV1bzB4bmxzNTZ4ZC1LOVFlMktGSkQ2WlR3aURwd1YxclNNQkwyVVFRcW0tUGxmMw?oc=5",
+    "timestamp": "2026-09-08T06:47:18.077533+00:00",
+    "status": "rejected",
+    "content_hash": "9b24cf7382daf1479b735bea1b6e08b9",
+    "strict_hash": "9b24cf7382daf1479b735bea1b6e08b9",
+    "fuzzy_hash": "42d9f58abcfb1b6d381543e8f4738200",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRTRETzl5ZTI2TXZlSWpHcnBnckpJLTlVc0ZBSWItaC1fNGJtcmc0N1E3bzdFR2VrYWFidklZanZkYS04RzFSdzdnMmNoQWYycUFNdU1zck56cTdiQzJLWVZibFJ2RVFINkQwVXFUWHo5RFJfNWg0Y2ZjSk1rNFRORkNsTG9JX1U1SFJkcXQyQVdwR3JGTlpMcG42ZzNJSUg3RlJiT2tLNFpaOHdmeGdrckRtdENHRDhZ?oc=5",
+    "timestamp": "2026-09-08T06:47:19.655177+00:00",
+    "status": "rejected",
+    "content_hash": "9695be27ac80c33a56bbd55d63fdb18e",
+    "strict_hash": "9695be27ac80c33a56bbd55d63fdb18e",
+    "fuzzy_hash": "c23e07799e3021502f182346930cde7f",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
