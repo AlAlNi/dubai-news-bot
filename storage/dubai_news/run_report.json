@@ -1,84 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-08-28T06:15:52.457690+00:00",
-    "finished_at": "2026-08-28T06:16:08.379712+00:00",
-    "duration_seconds": 15.922,
-    "success": true,
-    "counters": {
-      "attempts_made": 4,
-      "fetched": 4,
-      "rejected": 3,
-      "approved": 1,
-      "deepseek_calls": 5,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 4,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 4,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-08-28",
-      "daily": {
-        "published_per_day": {
-          "value": 0,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 75.0,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.hindustantimes.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "whatson.ae",
-            "events": 12,
-            "reject_rate": 100.0,
-            "duplicate_rate": 25.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 53,
-            "reject_rate": 92.45,
-            "duplicate_rate": 26.42
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-08-28T07:45:37.660190+00:00",
     "finished_at": "2026-08-28T07:46:31.100645+00:00",
     "duration_seconds": 53.44,
@@ -15942,6 +15864,108 @@
             "events": 41,
             "reject_rate": 75.61,
             "duplicate_rate": 14.63
+          },
+          {
+            "source": "propertynews.ae",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)",
+          "MOHRE UAE News"
+        ]
+      }
+    }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-09-08T21:45:51.017172+00:00",
+    "finished_at": "2026-09-08T21:45:52.996779+00:00",
+    "duration_seconds": 1.98,
+    "success": true,
+    "status": "published",
+    "counters": {
+      "telegram_calls": 1,
+      "telegram_failures": 0,
+      "published": 1,
+      "duplicate_skips": 0,
+      "no_posts": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-09-08",
+      "daily": {
+        "published_per_day": {
+          "value": 4,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 89.29,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.lokmattimes.com",
+            "events": 5,
+            "reject_rate": 100.0,
+            "duplicate_rate": 20.0
+          },
+          {
+            "source": "www.manilatimes.net",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.freepressjournal.in",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.hindustantimes.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "whatson.ae",
+            "events": 21,
+            "reject_rate": 90.48,
+            "duplicate_rate": 14.29
+          },
+          {
+            "source": "www.thenationalnews.com",
+            "events": 5,
+            "reject_rate": 80.0,
+            "duplicate_rate": 20.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 34,
+            "reject_rate": 79.41,
+            "duplicate_rate": 14.71
           },
           {
             "source": "propertynews.ae",
