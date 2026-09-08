@@ -761,5 +761,77 @@
     "strict_hash": "67b773dc8da04f88178aadb955284dba",
     "fuzzy_hash": "46887d9b00b4b3753c0397d2cb949851",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/fun-things-to-do-this-week-in-abu-dhabi-september-7-to-10",
+    "timestamp": "2026-09-08T01:56:47.045275+00:00",
+    "status": "rejected",
+    "content_hash": "32bc700f3db38e801abf2188b1d79e9c",
+    "strict_hash": "32bc700f3db38e801abf2188b1d79e9c",
+    "fuzzy_hash": "e53ecc6201d02d0adcd3186232529ac8",
+    "reason": "Оценка: Новость не связана с Дубаем (речь об Абу-Даби), носит развлекательно-афишный характер без общественно значимой информации и не содержит проверяемого первоисточника с четкими фактами. Это типичный контент-филлер, не соответствующий критериям канала."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/where-to-find-the-best-business-lunch-deals-in-abu-dhabi",
+    "timestamp": "2026-09-08T01:56:55.012613+00:00",
+    "status": "rejected",
+    "content_hash": "a171d0def028eef47fe01b69d11e16f7",
+    "strict_hash": "a171d0def028eef47fe01b69d11e16f7",
+    "fuzzy_hash": "6ce08dc3cf8def338c96b0a52206704e",
+    "reason": "Новость о бизнес-ланчах в Абу-Даби не имеет прямой связи с Дубаем (хотя и относится к ОАЭ, но фокус на другом эмирате), а также носит явно рекламно-развлекательный характер (подборка ресторанов), что не является общественно значимой новостью для русскоязычной аудитории Дубая. Кроме того, текст явно скопирован с сайта What's On и не содержит проверяемых фактов, важных для жителей именно Дубая."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/the-ripe-market-dubai-is-back-this-october",
+    "timestamp": "2026-09-08T01:57:00.935081+00:00",
+    "status": "rejected",
+    "content_hash": "0a7473160067fdd464a78c301f89332f",
+    "strict_hash": "0a7473160067fdd464a78c301f89332f",
+    "fuzzy_hash": "37161c907b06ce9c15809286e4c1a480",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/09/07/tmt-newswire/globenewswire/micropolis-robotics-brings-uae-developed-physical-ai-to-the-annual-investment-meeting-2026/2419927",
+    "timestamp": "2026-09-08T01:57:03.135158+00:00",
+    "status": "rejected",
+    "content_hash": "8d01fb6f05af91fadbe13c506ec99adc",
+    "strict_hash": "8d01fb6f05af91fadbe13c506ec99adc",
+    "fuzzy_hash": "fd27927fdf9007e7b3bac9629a9c3fb2",
+    "reason": "Оценка: Новость носит явно рекламный характер (пресс-релиз компании Micropolis Robotics), продвигает её деятельность и участие в выставке, без общественно значимой информации для русскоязычных жителей Дубая. Связь с регионом есть, но текст не представляет интереса как новость, а скорее является корпоративным PR."
+  },
+  {
+    "url": "https://www.al-monitor.com/originals/2026/09/uae-says-its-energy-exports-will-not-be-held-hostage-iran-war",
+    "timestamp": "2026-09-08T01:57:05.374906+00:00",
+    "status": "rejected",
+    "content_hash": "4e7c7640051647feef65930d085e77ef",
+    "strict_hash": "4e7c7640051647feef65930d085e77ef",
+    "fuzzy_hash": "24d9dbe0f847c3e3cf78df429078531b",
+    "reason": "Новость касается энергетической стратегии ОАЭ в контексте войны между США и Ираном, что напрямую связано с регионом, но основная тема — большая геополитика и военный конфликт, что противоречит правилу 2. Также текст основан на заявлении официального лица, но не несёт практической пользы для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.liverpoolecho.co.uk/whats-on/food-drink-news/dubai-company-spreading-across-uk-34579162",
+    "timestamp": "2026-09-08T01:57:08.199164+00:00",
+    "status": "rejected",
+    "content_hash": "50b0dc6752bf4d143c22bc652ebd1316",
+    "strict_hash": "50b0dc6752bf4d143c22bc652ebd1316",
+    "fuzzy_hash": "20c2f7f643740bd95a33099b9d2f8178",
+    "reason": "Новость о дубайском бренде ChicKing, открывающем точку в Ливерпуле, имеет прямую связь с Дубаем (компания основана там), не касается политики или конфликтов, не является рекламой в чистом виде (это скорее бизнес-новость о международной экспансии), не нарушает ценности ОАЭ и не выглядит как ИИ-генерация. Однако для русскоговорящего жителя Дубая эта новость имеет низкую практическую ценность (маловероятно, что аудитория канала поедет в Ливерпуль ради курицы), а также отсутствует явный проверяемый URL источника в предоставленном тексте. Дубликатов среди опубликованных новостей нет."
+  },
+  {
+    "url": "https://www.devdiscourse.com/article/business/3973761-dubais-musical-maestro-ratan-lal-jain-gears-up-to-launch-new-star-collaboration",
+    "timestamp": "2026-09-08T01:57:10.098296+00:00",
+    "status": "rejected",
+    "content_hash": "b69df60bccf3b80bd1b96b9af9a91382",
+    "strict_hash": "b69df60bccf3b80bd1b96b9af9a91382",
+    "fuzzy_hash": "58b7c7ac1a67a196b2d0adf2f1a7cf0f",
+    "reason": "Оценка: Новость о музыкальном продюсере и коллаборации с индийскими знаменитостями не имеет явной общественно значимой связи с Дубаем, носит характер персонального пресс-релиза и вряд ли будет интересна широкой русскоязычной аудитории. Отсутствует проверяемый URL источника."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX3NGN21RSDVvcTBqNzZhdmg2Mlg0OXZNbjJCVk9TRGJiZkQwRlNfZ2FyR2h4RXljdkJHcmtuUFBIc1NyTUxCTjFIMVdwUkM1ak8zc0VPQ2tGYUJyMmJnWVB5c0ZJelBVWk8yUUlMNXNuVll1a2l1dFltbG1zeEhzRHNFY0FNU3VYcmUwdVFTazFXZmNINDdNSHpkX1ItYTFiRlB4LXJB0gHAAUFVX3lxTE0yTVlJdnZINFlYRVAxUjI3VjlvQmxXelg2VG9EQzhFTk9lWFp6OC1FU3NmZG0tc2hHcElUc3N1UXVNdTFaMkpjYXJWbG9wUnZHUlBHUmlMdlZROXg4WXJFbG5MTjlwYktsNFU4dXd2WkFFUmxReThTckt2c1hzNHFEVmlKV2ZNVlpmOE9IOXpOVXBiMmhHTGZBdzZBTWY3aUQ5d20yUGtacEwxdmRMa3cwc3Q5d1JjRUI3UTNiV3ZtUQ?oc=5",
+    "timestamp": "2026-09-08T01:57:16.842931+00:00",
+    "status": "approved",
+    "content_hash": "fd36b432c4f7d45a2943b28f56203b43",
+    "strict_hash": "fd36b432c4f7d45a2943b28f56203b43",
+    "fuzzy_hash": "ca80bf5b85e137c9a9aff6bb54784a05",
+    "reason": "approved"
   }
 ]
