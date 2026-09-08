@@ -838,5 +838,68 @@
     "strict_hash": "535b913b75fc557666197f444de12b5b",
     "fuzzy_hash": "3b0b2afaff2f8b0a40d9bda0b65b9b83",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/35-of-the-best-happy-hour-deals-in-dubai-this-summer",
+    "timestamp": "2026-09-08T11:53:21.314591+00:00",
+    "status": "rejected",
+    "content_hash": "7ae3572c153be0eda763871297738ab8",
+    "strict_hash": "7ae3572c153be0eda763871297738ab8",
+    "fuzzy_hash": "a61ca45869141a60abbc22f3e0a2b184",
+    "reason": "Новость представляет собой подборку ресторанных акций («happy hour») по районам Дубая, что напрямую связано с регионом и может быть полезно русскоязычным жителям. Однако текст явно скопирован с сайта What's On (агрегатор развлекательных предложений), носит рекламно-справочный характер без общественно значимой новизны и не содержит проверяемого первоисточника с конкретными фактами (только анонс списка). Кроме того, подобные подборки часто дублируются в каналах, а сам формат не соответствует «страховочным» типам (service-updates, регуляторика, сводки)."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/huqqabaz-is-bringing-family-breakfasts-kids-activities-weekend-fun-this-september",
+    "timestamp": "2026-09-08T11:53:26.057776+00:00",
+    "status": "rejected",
+    "content_hash": "69895a1b4520b2b7748323293780d34f",
+    "strict_hash": "69895a1b4520b2b7748323293780d34f",
+    "fuzzy_hash": "6f4ced5031b32b50067d13b2b749918a",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/sheikh-hamdan-marks-20-years-leading-the-executive-council-of-dubai",
+    "timestamp": "2026-09-08T11:53:33.521596+00:00",
+    "status": "rejected",
+    "content_hash": "531c3e270dbfdcb30e16156068209b12",
+    "strict_hash": "531c3e270dbfdcb30e16156068209b12",
+    "fuzzy_hash": "7d20619a0500f11e58189dd2dea92629",
+    "reason": "**Оценка новости:**\nНовость о 20-летии Шейха Хамдана во главе Исполнительного совета Дубая имеет прямую связь с регионом и не содержит политики, рекламы или неуважения. Однако текст выглядит как короткий анонс с обрезанным содержанием и ссылкой на сторонний сайт (What's On), без явного URL первоисточника для проверки фактов. Для русскоязычной аудитории эта информация не несет практической пользы или новизны, а также не соответствует формату service-update или сводки. Учитывая отсутствие проверяемого источника и низкую информационную ценность, новость следует отклонить."
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/globenewswire/under-the-patronage-of-his-highness-mohammed-bin-rashid-al-maktoum-his-highness-saud-bin-saqr-inaugurates-the-aim-investment-summit-2026-in-dubai/2420064",
+    "timestamp": "2026-09-08T11:53:35.917459+00:00",
+    "status": "rejected",
+    "content_hash": "f064b7d9df4c62281f9bc775383716e8",
+    "strict_hash": "f064b7d9df4c62281f9bc775383716e8",
+    "fuzzy_hash": "06594053df45f764ae437c1c20f468e1",
+    "reason": "Оценка: Новость носит явно церемониально-протокольный характер и представляет собой пресс-релиз о торжественном открытии инвестиционного саммита под патронажем шейха Мохаммеда. Текст перегружен официальными регалиями и цитатами, не содержит конкретной общественно значимой информации или практической пользы для русскоязычного жителя, а также выглядит как формальный анонс без новостного наполнения."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/news/new-updates/what-does-30000-rent-get-you-in-dubai-indian-woman-gives-tour-of-tiny-duplex-room-with-limited-storage-and-bed-upstairs/articleshow/133894230.cms",
+    "timestamp": "2026-09-08T11:53:37.852122+00:00",
+    "status": "rejected",
+    "content_hash": "d4c7b08aed1a23dc9dd35f599364574a",
+    "strict_hash": "d4c7b08aed1a23dc9dd35f599364574a",
+    "fuzzy_hash": "d16935fd1e3ff2d49cb6cbad18f07f2b",
+    "reason": "Оценка: Новость носит развлекательно-бытовой характер и не является общественно значимой или полезной для русскоязычного жителя Дубая. Текст выглядит как пересказ вирусного видео с элементами кликбейта, без проверяемого первоисточника и явной новостной ценности."
+  },
+  {
+    "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/globenewswire/ips-2026-global-real-estate-capital-meets-dubais-thriving-development-landscape/2420057",
+    "timestamp": "2026-09-08T11:53:39.742275+00:00",
+    "status": "rejected",
+    "content_hash": "08fab26ca7cd658f59dc062e278f616e",
+    "strict_hash": "08fab26ca7cd658f59dc062e278f616e",
+    "fuzzy_hash": "704cdbd1da98a909e6cd370d38c434c4",
+    "reason": "Новость явно носит рекламно-пресс-релизный характер (GLOBE NEWSWIRE, продвижение выставки IPS 2026), не содержит общественно значимой информации, а также не имеет проверяемого первоисточника в виде конкретной редакционной статьи. Связь с Дубаем есть, но формат подачи нарушает правило №3 и №9."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLTBLVDBUT1FLZHlPME1HMVBMM3RRMGRQM2c3N1ZNOEZKTl9SS1h1MFZrVHBXN1FZeWlPYUd3ZnZMVU1HQzdobDJuZUVoLUNPOHV3ZURkYkJsNXZ4RVlXZEJJYmpuWW5HQ2N1ZzEyUnpvcW5xeGNxNHk1WjI5anNfSTlzc2JEMHdZVDVlZEppcDRBRHNGOTJUNUNjWTZGVUV2RFRhTGQ0R25CRnp5eTItSzRGdFVNVlBEckl3emhDeHdFMm1UaWhvMTJWRlTSAd8BQVVfeXFMTVlaM0FaNldjTkZkZFpyZkRWWlFORXZ0MUFYSVp3Y2I3Ty1uckxxTGxoSnpJckFGV3FnRWdZWWlBcnQ1bElJWHBXRmNpU2IwV0tuMkR6OWhlOC1yRjB0bW5BNElHbnlrd1NUSUc0NmYwMDRBQVdtS0p1eV9CS0RFSGtEMlRaSGNNYURmenRwU0NDV2hqUlh0dUJzVlAyR3dYNVZtdEdObWhLaWQwUG1nTmYyLVU2UEFwQnN6VEFJeHRNRGppaGZRcE9vU01CU3ZWN1R6dkpUcW0zNzM5SW1Xaw?oc=5",
+    "timestamp": "2026-09-08T11:53:46.577924+00:00",
+    "status": "approved",
+    "content_hash": "632c5c33b560e845b77222275013795f",
+    "strict_hash": "632c5c33b560e845b77222275013795f",
+    "fuzzy_hash": "ede4c6217dd43a5d0c71c9140181cd6b",
+    "reason": "approved"
   }
 ]
