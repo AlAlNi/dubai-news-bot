@@ -1190,5 +1190,41 @@
     "strict_hash": "df978c62d1c70bba41a601bf22044380",
     "fuzzy_hash": "68115f87facd1b1c72f534e9b81a1532",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/lebanons-graze-brgr-opens-in-abu-dhabi",
+    "timestamp": "2026-09-09T14:53:41.565644+00:00",
+    "status": "rejected",
+    "content_hash": "4591634c11c8a9b2e015af48e675c246",
+    "strict_hash": "4591634c11c8a9b2e015af48e675c246",
+    "fuzzy_hash": "24c2b29fdbeb9d8747f50078088647fe",
+    "reason": "Оценка: Новость носит рекламно-информационный характер об открытии ресторана, не содержит общественно значимой информации, а также не имеет явной связи с Дубаем (событие происходит в Абу-Даби). Текст выглядит как анонс с сайта What's On, что не соответствует критериям новостного канала о Дубае."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/abu-dhabi-festival-2026-is-bringing-hans-zimmer-ballet-stars-and-more-to-the-capital",
+    "timestamp": "2026-09-09T14:53:49.740792+00:00",
+    "status": "rejected",
+    "content_hash": "6cdef467d365c1d716b73ccf39936a83",
+    "strict_hash": "6cdef467d365c1d716b73ccf39936a83",
+    "fuzzy_hash": "03a99b5e160c3b744b187ea5ec87fdae",
+    "reason": "Новость о культурном событии в Абу-Даби (фестиваль с участием мировых звёзд) имеет прямую связь с ОАЭ, не содержит политики или рекламы, а также будет интересна русскоязычной аудитории, интересующейся культурной жизнью региона. Однако в тексте отсутствует явная ссылка на первоисточник (URL), что затрудняет проверку фактов, а сам формат напоминает анонс с сайта What's On, что может быть расценено как скрытая реклама мероприятия."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/wizz-air-to-resume-budget-flights-to-dubai-and-abu-dhabi",
+    "timestamp": "2026-09-09T14:53:55.018024+00:00",
+    "status": "rejected",
+    "content_hash": "ddf8881a856de03066e24df1be07355f",
+    "strict_hash": "ddf8881a856de03066e24df1be07355f",
+    "fuzzy_hash": "84ecda05cf5f6a451341d806d59b0cba",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUk9wU0pPUmdISm9WYjd5dlBOSTNhaGFHSmIwVWthMHkwcDY3Y1ZOMTlCQXZPeFZCV0VkaTlWLVFTcEt2clNsNEpjanJUakZYYkRGeGtza0luekF2czItWW8wZW02cmRNTVlvYjJjWHAzbnBFWHpGd3FwYmZielp1bnRnY9IBiwFBVV95cUxNc1ZYQlc5TjNzSDBzU2hKOGZnVEpzZjdnbTFiTFl2WGN5Mk9xQ1dHc2tfRDJRdUM5YVhSSnhvckZDbWVTbGxkcGVEQnBrRUpFQS1tUEFST000dzNCQ0E1Rkp0R200dG1BTEVwTl92MEdsZmwzMDBTdlFnb3Q0QVdhU2I1TEFCSU9aZDVB?oc=5",
+    "timestamp": "2026-09-09T14:54:02.793687+00:00",
+    "status": "approved",
+    "content_hash": "ba3f7a1b3ae9a8a1d44c6d90585bf0f4",
+    "strict_hash": "ba3f7a1b3ae9a8a1d44c6d90585bf0f4",
+    "fuzzy_hash": "1029628ae1b63984435e2a0ed9159c13",
+    "reason": "approved"
   }
 ]
