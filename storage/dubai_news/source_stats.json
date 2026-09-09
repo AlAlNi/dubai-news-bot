@@ -1244,5 +1244,32 @@
     "strict_hash": "8f5131bf002d4636c465f16358a25d4d",
     "fuzzy_hash": "71694c26adc266c5c6e7b089f8d0baa8",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/iphone-18-uae-launch-everything-we-know-so-far",
+    "timestamp": "2026-09-09T21:21:33.071280+00:00",
+    "status": "rejected",
+    "content_hash": "2b5e95b33d21c9b6db5fcfa23a8287d2",
+    "strict_hash": "2b5e95b33d21c9b6db5fcfa23a8287d2",
+    "fuzzy_hash": "0a40ae4c7512b0816cf781968dfd154f",
+    "reason": "Новость о запуске iPhone 18 в ОАЭ имеет прямую связь с регионом (даты и цены для UAE), не касается политики или конфликтов, не является рекламой конкретной компании (это потребительская новость), не нарушает ценности ОАЭ и будет интересна русскоговорящим жителям Дубая, следящим за технологическими новинками. Однако текст обрезан и не содержит проверяемого URL источника (указан только домен What's On), а также отсутствует полная информация о ценах и цветах, что затрудняет проверку достоверности. В контексте опубликованных новостей дубликатов не обнаружено."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/09/09/dubai-real-estate-market-ips-2026-tourism-recovery",
+    "timestamp": "2026-09-09T21:21:49.235152+00:00",
+    "status": "rejected",
+    "content_hash": "8db15b986b904e2462007709d66966e9",
+    "strict_hash": "8db15b986b904e2462007709d66966e9",
+    "fuzzy_hash": "f9a9dd0f192924bf1c177cd9223027f3",
+    "reason": "Оценка: Новость о завершении International Property Show в Дубае имеет прямую связь с регионом и затрагивает актуальную тему рынка недвижимости, но текст обрывается и выглядит как фрагмент пресс-релиза без конкретных фактов, цифр или проверяемых данных. Отсутствует явный URL источника, а общий тон носит рекламно-описательный характер без общественно значимой новизны."
+  },
+  {
+    "url": "https://www.thenationalnews.com/travel/2026/09/09/wizz-air-announces-return-to-abu-dhabi-and-dubai-with-new-routes",
+    "timestamp": "2026-09-09T21:22:07.877105+00:00",
+    "status": "approved",
+    "content_hash": "ace857d775ea168a61e29101a679fa6c",
+    "strict_hash": "ace857d775ea168a61e29101a679fa6c",
+    "fuzzy_hash": "9e82360262745b483f4c3b494ff5412e",
+    "reason": "approved"
   }
 ]
