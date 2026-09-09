@@ -1226,5 +1226,50 @@
     "strict_hash": "ba3f7a1b3ae9a8a1d44c6d90585bf0f4",
     "fuzzy_hash": "1029628ae1b63984435e2a0ed9159c13",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/in-pics-sheikh-mohammed-visits-the-natural-history-museum-abu-dhabi",
+    "timestamp": "2026-09-09T18:08:33.506997+00:00",
+    "status": "rejected",
+    "content_hash": "fef3cc1b546bf424be0982e92e21c8e2",
+    "strict_hash": "fef3cc1b546bf424be0982e92e21c8e2",
+    "fuzzy_hash": "3b869a1944c084e9529af0b0b962fe2c",
+    "reason": "Новость о визите шейха Мухаммеда в Музей естественной истории Абу-Даби имеет прямое отношение к ОАЭ, не содержит политики или рекламы и представляет интерес для русскоязычных жителей, интересующихся культурной жизнью региона. Однако текст выглядит как перепечатка с сайта What's On, обрезан на полуслове и не содержит проверяемого URL первоисточника, что затрудняет подтверждение фактов."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/love-spanish-food-heres-where-to-find-the-real-deal-in-the-uae",
+    "timestamp": "2026-09-09T18:08:39.497877+00:00",
+    "status": "rejected",
+    "content_hash": "6442149775c129255d469d7224dd10b6",
+    "strict_hash": "6442149775c129255d469d7224dd10b6",
+    "fuzzy_hash": "224d3eeadbf6b7aec6932b16ff7bcea7",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://emirateswoman.com/what-to-wear-for-your-next-business-lunch",
+    "timestamp": "2026-09-09T18:08:48.020767+00:00",
+    "status": "rejected",
+    "content_hash": "209e3e4da09c258be6733ee1e4edda8a",
+    "strict_hash": "209e3e4da09c258be6733ee1e4edda8a",
+    "fuzzy_hash": "972986032e31f461e3f193416fbedf88",
+    "reason": "Эта новость — явный модный лайфстайл-материал из раздела «что надеть», а не новость. Она не содержит общественно значимой информации, не имеет отношения к оперативным событиям в Дубае и выглядит как контент для заполнения ленты, а не как репортаж. Для русскоязычного жителя, ожидающего от канала актуальных сводок, такая публикация не представляет ценности."
+  },
+  {
+    "url": "https://www.thenationalnews.com/travel/2026/09/09/dubai-abu-dhabi-flight-delays-cancellations",
+    "timestamp": "2026-09-09T18:08:50.454595+00:00",
+    "status": "rejected",
+    "content_hash": "a132e802bd5db246ce166ae7a96db055",
+    "strict_hash": "a132e802bd5db246ce166ae7a96db055",
+    "fuzzy_hash": "2f7d6fb9efa826a21bbba7736791f231",
+    "reason": "Оценка: Новость напрямую связана с Дубаем и Абу-Даби (затронуты оба международных аэропорта), касается практических неудобств для путешественников и жителей, что делает её полезной и актуальной для русскоязычной аудитории. Тема не является политической или рекламной, а источник (вероятно, крупное СМИ) проверяем. Признаков дубликата с опубликованными новостями нет."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/09/dubai-sends-74-tonnes-of-aid-supplies-to-boost-nepal-flood-relief-effort",
+    "timestamp": "2026-09-09T18:08:56.103735+00:00",
+    "status": "approved",
+    "content_hash": "866fb425f1ee280f2c6e7e07e6851dab",
+    "strict_hash": "866fb425f1ee280f2c6e7e07e6851dab",
+    "fuzzy_hash": "bbf5eed00bd7e81570d33f63ee0e8d95",
+    "reason": "approved"
   }
 ]
