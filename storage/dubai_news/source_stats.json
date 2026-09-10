@@ -1163,5 +1163,50 @@
     "url": "https://www.thenationalnews.com/business/property/2026/09/09/dubai-holding-awards-its-largest-construction-contract-worth-dh5-billion",
     "timestamp": "2026-09-10T04:30:26.839044+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.devdiscourse.com/article/business/3974979-tragedy-strikes-seafarer-killed-in-dubai-anchor-incident",
+    "timestamp": "2026-09-10T05:04:20.370393+00:00",
+    "status": "rejected",
+    "content_hash": "9a64a7a79305bd92ba28815c653122ed",
+    "strict_hash": "9a64a7a79305bd92ba28815c653122ed",
+    "fuzzy_hash": "fae4e3f4ce2c2050f073d167770a19f9",
+    "reason": "Новость сообщает о гибели моряка на танкере у берегов Дубая, что имеет явную связь с регионом, но это трагический инцидент с человеческой жертвой, причина смерти не установлена, а источник не указан явным URL — что нарушает правила проверяемости и может не соответствовать редакционным стандартам канала."
+  },
+  {
+    "url": "https://www.outlookindia.com/national/dubai-airport-video-shared-as-delhi-airport-flooding-fir-against-63-social-media-handles",
+    "timestamp": "2026-09-10T05:04:22.118229+00:00",
+    "status": "rejected",
+    "content_hash": "70af2247ca5241cd82c48387f6604912",
+    "strict_hash": "70af2247ca5241cd82c48387f6604912",
+    "fuzzy_hash": "4bd243762f79f6266b422c2e46f76ac5",
+    "reason": "Новость касается аэропорта Дели и индийских властей, связь с Дубаем/ОАЭ отсутствует (упоминание Dubai Airport лишь в кликбейт-заголовке), плюс это нерелевантно для русскоязычной аудитории Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaG4xU0wzUVdGbFlRUnpGSnRxeGRuY1hEMHcwd0tlcTh4RWpSa0NyZXJhRGxTeFMtY2dENnFueWFIUVlCNDh2dlRuQ3pPU0V0UkhMOXR1QzZmTlFVZVlLbEVVTFlDRkJQeXEzQWN3OW12WXFkSDFSTFNJXzRzd3BLMVVwN2VVT3BLdGp6cWUxT3RaUGhndnkySnVLSzU2NjNLTUo0T2o3UC0xZFZlVmlnTkotUWxHT2dDeDd1bGs5bzRpSUxrdTQ5UE1lMA?oc=5",
+    "timestamp": "2026-09-10T05:04:24.186297+00:00",
+    "status": "rejected",
+    "content_hash": "b162471c98c48e65952ac3baa1174f7c",
+    "strict_hash": "b162471c98c48e65952ac3baa1174f7c",
+    "fuzzy_hash": "fa0b0c7e2b832402292f5b32bd2be934",
+    "reason": "Новость связана с Дубаем (открытие офиса агентства недвижимости), не касается политики, не выглядит рекламой и может быть интересна русскоязычным жителям как бизнес-новость. Однако текст представляет собой лишь заголовок и ссылку без содержательного описания, что затрудняет проверку достоверности и полезности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcHl3eEtSMkFkQnl2ajJlZkxvU0VlblVzWXJuV1VtU004U0FrbHI4WVhhQzRNSTFYaXhMQWJtaTFnYVFxNGQzaXhLUEh2UWRZZjNQeFp6emc4Y0R2VFhaeDY5V3pYTkE5WkZ2ZFFNTTNadUkzUUhrOHpMc1FvTU1Tb3hlajZlWWlFVGlBRkhHRHM3VmE2aElpNTNPZFBpajhT?oc=5",
+    "timestamp": "2026-09-10T05:04:26.073894+00:00",
+    "status": "rejected",
+    "content_hash": "8c83e21ad0fbf0c763890c444d560e04",
+    "strict_hash": "8c83e21ad0fbf0c763890c444d560e04",
+    "fuzzy_hash": "6047ccf3a02f20a1e61677f57ae8f8c9",
+    "reason": "Новость сообщает о планах Oppenheim Group открыть офис недвижимости в Дубае в декабре, что имеет явную связь с регионом и может быть интересно русскоязычным жителям, следящим за рынком недвижимости. Однако текст крайне скудный, выглядит как обрывок пресс-релиза без подтверждаемого URL источника и без общественно значимой новости, что вызывает сомнения в достоверности и ценности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQnA0U0NNN0hHdjFNekJXWjJXWUZ2QnRBWDNGTERoSmU4UU00V3ptMER2UTJnWno4ZE5vN1N2amd4a0tSUTdTdnRWVzd6YTVKUHppS2lMNEpDQ3ZMNjdfcDdpbGR0ejAzNnJPM2VqdVpNOFVDa0xabTlsSUp0cVJTbElqQTlTdlBITXhhWW1iVld3UUNvNlJucXgydXBxY2UzbGFJZ1VBQW9ZNTg?oc=5",
+    "timestamp": "2026-09-10T05:04:27.029832+00:00",
+    "status": "rejected",
+    "content_hash": "a2bc4dedd022453ccd3a42623484bff0",
+    "strict_hash": "a2bc4dedd022453ccd3a42623484bff0",
+    "fuzzy_hash": "2279d0f5ba79a69c8a1b444ad9565180",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
