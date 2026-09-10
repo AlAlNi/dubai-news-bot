@@ -1037,5 +1037,32 @@
     "strict_hash": "7a5fe29dacb8bd32fb433ff9a2e286d9",
     "fuzzy_hash": "2ac7089d4f255ca3a201c78d3c78befb",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/uae-reinforces-global-lead-in-skyscraper-construction-with-dubais-tower-boom",
+    "timestamp": "2026-09-10T19:20:06.829973+00:00",
+    "status": "rejected",
+    "content_hash": "257a81c289ef9f0851d85f5dc55b9177",
+    "strict_hash": "257a81c289ef9f0851d85f5dc55b9177",
+    "fuzzy_hash": "9d2445af4f663fc068763745509780d8",
+    "reason": "Новость связана с Дубаем и ОАЭ, не касается политики/конфликтов, не выглядит как прямая реклама, но текст обрывается на полуслове, содержит признаки ИИ-генерации и не имеет проверяемого URL источника, что нарушает правила 5 и 9."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/etihad-airways-abu-dhabi-and-red-sea",
+    "timestamp": "2026-09-10T19:20:15.646674+00:00",
+    "status": "rejected",
+    "content_hash": "5198358467f1756dde68c63cc932bb3e",
+    "strict_hash": "5198358467f1756dde68c63cc932bb3e",
+    "fuzzy_hash": "50293f9b37b90ccf61055d350859abf3",
+    "reason": "Новость связана с ОАЭ (Etihad Airways, рейсы Абу-Даби — Red Sea), но это не Дубай и не GCC-повестка для русскоязычных жителей Дубая; кроме того, текст выглядит как промо-анонс с элементами кликбейта и не содержит проверяемого URL источника."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/artbat-to-headline-ushuaia-dubai-this-november-with-upperground",
+    "timestamp": "2026-09-10T19:20:24.455468+00:00",
+    "status": "approved",
+    "content_hash": "12cf5779ba559e384f55335b2610693b",
+    "strict_hash": "12cf5779ba559e384f55335b2610693b",
+    "fuzzy_hash": "f80d521f47d18bda34294c0cb756389e",
+    "reason": "approved"
   }
 ]
