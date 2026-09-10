@@ -1190,5 +1190,41 @@
     "url": "https://www.outlookindia.com/sports/cricket/women-s-asia-cup-2026-india-vs-bangladesh-semi-final",
     "timestamp": "2026-09-10T00:03:39.045246+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.livemint.com/focus/madhya-pradesh-cm-mohan-yadav-receives-over-rs-53-000-crore-investment-proposals-on-dubai-visit-11788954081576.html",
+    "timestamp": "2026-09-10T00:26:32.601082+00:00",
+    "status": "rejected",
+    "content_hash": "d89b11016b5d7c1c52b90e59213f0590",
+    "strict_hash": "d89b11016b5d7c1c52b90e59213f0590",
+    "fuzzy_hash": "ff1d778d0b0b93ebb9059397eed1e7f1",
+    "reason": "Новость рассказывает о визите индийского политика в Дубай и инвестиционных соглашениях для индийского штата Мадхья-Прадеш. Основной фокус — экономика Индии, а не жизнь, бизнес или события в ОАЭ, что делает её нерелевантной для русскоязычной аудитории в Дубае."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQRG4wQTVOTmZuZ3RObVZoRXNQTmNneUZfMGszR2E5SXgtLXNuVHhYUXZBcGU5V2NJSEJBRGk1UEV5R29zeV96cnpYX0c0NzQ4dU5rb1lWV2RyVmNZVWJYY1ZHdmZZZXNORDcwUXNLbDBPUG9uemF5anZiRnJTOUR2aUcyaVp3Q3l4UEtaUDJOWFRXQnZJR0NLS2RwejRmMUVYY19QVlhUekdlRkFScUZtU1lJX3pNdzBhWUV0WEJkUmN5MGRMeWZEQkYyd0tYMmlVOVhLY1ZSVXNVNVRObGlUMG1XdE8yNmk4SDRXTC1WS2lMdw?oc=5",
+    "timestamp": "2026-09-10T00:26:35.600377+00:00",
+    "status": "rejected",
+    "content_hash": "6289053450bcda3efdb895e452bfa3c0",
+    "strict_hash": "6289053450bcda3efdb895e452bfa3c0",
+    "fuzzy_hash": "2371fd360b1b5777e2e67b554cdf04fe",
+    "reason": "**Оценка новости:**\nНовость носит явно рекламно-пресс-релизный характер (анонс открытия выставки с участием министра), не содержит общественно значимой информации или практической пользы для русскоязычных жителей Дубая. Отсутствует проверяемый URL источника, а сам текст является лишь заголовком без содержательной части."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1OMFdTSW9vcnFGczNTQ0paZVRQcGUyOWxYRnZfQk9Ea2RfbjdVY0hPYmRzaUROai1sbWlHamlPUVVZaHgxaW1kNzRJQzE2WHBaN3hzeG5nbzJyY3czVDFMZi13UU42NkFKcnZSckswaVlkOHhjZWc?oc=5",
+    "timestamp": "2026-09-10T00:26:37.942567+00:00",
+    "status": "rejected",
+    "content_hash": "864609f7aa4373b3e80d1305a09254fe",
+    "strict_hash": "864609f7aa4373b3e80d1305a09254fe",
+    "fuzzy_hash": "b23f8cbc54cc198fe32085be491177bf",
+    "reason": "Новость напрямую связана с Дубаем (Arabian Travel Market) и региональной безопасностью, но основная тема — война с Ираном и риски для туристов, что относится к большой политике и конфликтам. Это нарушает правило №2, а также создает тревожный фон, не соответствующий ценностям UAE (правило №4). Источник eTurboNews не является официальным и не предоставляет проверяемых данных."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tSjctTlFYSlg5NmpIYkx4eVBScllQbGJjY2ZQNHNjaW9lSW9WNndoV1duQ0RBSHFPcXhiazVReFAzcnJDNExuQ2Q4VnZTcW1ZNEFr?oc=5",
+    "timestamp": "2026-09-10T00:26:38.605874+00:00",
+    "status": "rejected",
+    "content_hash": "28110ef94e9f89807f516ecc6fc66c5a",
+    "strict_hash": "28110ef94e9f89807f516ecc6fc66c5a",
+    "fuzzy_hash": "019a3bd353915d99cf37617cf364ed13",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
