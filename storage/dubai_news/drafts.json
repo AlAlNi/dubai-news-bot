@@ -1,5 +1,59 @@
 [
   {
+    "source_name": "What's On Dubai",
+    "title": "Palm Jebel Ali’s first retail destination will open in 2027",
+    "summary_ru": "<b>🛍 На Palm Jebel Ali появится первая торговая зона: The Yard откроется в 2027 году</b>\n\nУ мегапроекта Дубая Palm Jebel Ali появится первый торгово-развлекательный объект — The Yard. Его планируют открыть в `2027` году, и он станет частью новой прибрежной общины.\n\nНа территории The Yard разместятся 26 концепций:\n\n🛍 магазины\n🛍 рестораны\n🛍 оздоровительные и велнес-пространства\n🛍 объекты здравоохранения\n\nУправлением займётся компания Dubai. Для будущих жителей и гостей Palm Jebel Ali это важный шаг: район получит собственную инфраструктуру для покупок, еды и повседневных услуг, не требуя выезда за его пределы.\n\n#Дубай #PalmJebelAli #Недвижимость",
+    "published": "2026-09-10T12:05:21.682983+00:00",
+    "source_urls": [
+      "https://whatson.ae/2026/09/the-yard-at-palm-jebel-ali/"
+    ],
+    "lang": "en",
+    "content_hash": "ceaba42cbfed624700423f0a13c39cc3",
+    "strict_hash": "ceaba42cbfed624700423f0a13c39cc3",
+    "fuzzy_hash": "5f026a4c63638a02ad255bc92b4dd820",
+    "method": "rss",
+    "source_priority": 2,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость связана с Дубаем (Palm Jebel Ali) и касается открытия первой торгово-развлекательной зоны The Yard в 2027 году, что интересно жителям и соответствует региональной повестке. Признаков политики, рекламы, неуважения к ценностям ОАЭ, кликбейта или ИИ-генерации нет; дубликатов среди опубликованного не обнаружено."
+      }
+    },
+    "image_url": "https://whatson.ae/wp-content/uploads/2026/09/the-yard-featured.jpg",
+    "slot_target": "evening"
+  },
+  {
     "source_name": "Khaleej Times",
     "title": "‘Join me for lunch’: Dubai Police recall non-emergency calls on 999, warn against them - Khaleej Times",
     "summary_ru": "🚨 <b>«Присоединяйтесь ко мне на ланч»: полиция Дубая просит не звонить на 999 по пустякам</b>\n\nДубайская полиция обратилась к жителям и гостям эмирата с напоминанием: номер экстренной помощи <code>999</code> предназначен только для реальных чрезвычайных ситуаций. Поводом стали участившиеся случаи несерьёзных обращений, включая забавный, но показательный пример — один из звонивших пригласил диспетчера на обед.\n\nВ ведомстве подчёркивают, что каждый такой вызов занимает линию и отвлекает ресурсы от тех, кто действительно нуждается в срочной помощи. Операторы вынуждены тратить время на разбор нерелевантных запросов, что может замедлить реакцию на настоящие происшествия.\n\n<blockquote>Для ситуаций, не угрожающих жизни или имуществу, полиция напоминает об альтернативных каналах связи — например, о неэкстренной линии, которая позволяет разгрузить номер 999.</blockquote>\n\nПредставители правоохранительных органов призывают граждан проявлять сознательность и оценивать степень серьёзности ситуации перед набором номера. Шутки и бытовые вопросы лучше решать через официальные приложения или справочные службы, оставляя экстренную линию свободной для настоящих вызовов.\n\n<blockquote expandable>В сообщении Khaleej Times уточняется, что подобные инциденты фиксируются регулярно, хотя точная статистика за текущий период не приводится. Полиция продолжает информационную кампанию, направленную",
@@ -52,113 +106,5 @@
     },
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "slot_target": "evening"
-  },
-  {
-    "source_name": "Gulf News",
-    "title": "UAE designates September 9 as annual Emergency Number Day to promote responsible use of 999 - Gulf News",
-    "summary_ru": "🆘 ОАЭ объявили 9 сентября ежегодным Днём номера экстренных служб\n\nВласти Объединённых Арабских Эмиратов учредили новую ежегодную дату — <b>9 сентября</b> — как официальный День номера экстренных служб. Инициатива направлена на популяризацию ответственного использования единого номера <code>999</code>.\n\nВыбор даты неслучаен: цифры <code>9.9</code> зеркально повторяют номер экстренной службы, что делает её легко запоминающейся для жителей и гостей страны.\n\n<blockquote>Основная цель кампании — сократить число необоснованных вызовов, которые перегружают диспетчерские линии и могут задержать помощь тем, кто действительно в ней нуждается.</blockquote>\n\nВ рамках нового дня будут проводиться информационные акции и обучающие мероприятия, напоминающие о том, когда следует звонить по номеру <code>999</code>, а в каких ситуациях лучше обращаться в профильные службы напрямую.\n\nОжидается, что ежегодное празднование поможет укрепить культуру правильного реагирования на чрезвычайные ситуации среди населения Эмиратов.\n\n#ОАЭ #экстренныеслужбы #безопасность",
-    "published": "2026-09-09T09:59:37.602683+00:00",
-    "source_urls": [
-      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQT19uVndtRUdaaFVBT0RJeTgzVmlpZFFJbHo2WGh3Y24wbXBqWmJHVW8ycFVJZGJUbzNjbFR1VUlqaE4wQ0RieWFLS1c1aERlZnZ4UzU5SzJhY2pMcEkteGY0LXFZLS1zWmZNZU5pal9OcWlsdTlodVduTzZmTmh0THQzQXhGbVNiR3dQWU9ZMUx3d1BNZzVTUWdGOUJVcHo2ZDBFS0xxQ0ZiQXNmb284OWZqOHgxSlItRlpCeWRCNy1MeGhSTGpRMWNZa1hPQUNfcGZ1Q2930gHoAUFVX3lxTE4zV3UxMEl0eVRNWGFiUGktNDMyaHBfaEJ0cnVQcWdJanV0VnJOdUJOMU1fQ0ljSW5OcGJub2t6VkZGaTN4aXpSc1IwSDZCVXBzeVBOdkNvVjJvYWJEU3lfTTltVEZXNGJQeXhZVXAyRnV4Q1RqVF9lemZvYUF1MURRX2FGQWZ1RGtuSzZ5RTU2Y3JhM1dMM2cwamM5czR4bkxDX2g5VGptMXlNZkJKQkFhdWRHemxtMTNXYzZaUjRpeXhxRmJQV25vOUNYcWdzcjE2WkJkN0xLbS1VOWRQTGhOektPRGxJd0c?oc=5"
-    ],
-    "lang": "en",
-    "content_hash": "ada4ab1eaedf451bfdb36c5af50d94eb",
-    "strict_hash": "ada4ab1eaedf451bfdb36c5af50d94eb",
-    "fuzzy_hash": "54a734208c1c536f628da97d8807186d",
-    "method": "google_news_rss",
-    "source_priority": 3,
-    "workflow_state": "approved_by_editor",
-    "editorial_decision": "approved",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 45,
-      "ad_readiness_score": 55,
-      "ad_ready": false,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "grow_organic_audience",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость напрямую связана с ОАЭ (объявление национального дня экстренного номера), не содержит политики или рекламы, соответствует ценностям страны и представляет практический интерес для жителей (напоминание о важности ответственного использования номера 999). Текст короткий, но источник (Gulf News) проверяемый, а в контексте нет дубликатов по данной теме."
-      }
-    },
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "slot_target": "morning"
-  },
-  {
-    "source_name": "Elite Agent",
-    "title": "Dubai property prices fall for first time in five years as market shifts gears - Elite Agent",
-    "summary_ru": "📉 <b>Цены на недвижимость в Дубае впервые за пять лет пошли вниз</b>\n\nРынок недвижимости эмирата меняет вектор: по данным портала Elite Agent, средние цены на жильё снизились впервые с 2020 года. Это знаковое событие после долгого периода рекордного роста.\n\nАналитики связывают коррекцию с увеличением объёма предложения — на рынок вышли новые проекты, что усилило конкуренцию среди девелоперов. Покупатели получили больше выбора, а продавцам теперь приходится пересматривать ценники.\n\n<blockquote>Снижение цен пока не носит обвального характера, но сигнализирует о переходе от рынка продавца к рынку покупателя, где решающее значение имеют локация и качество объекта.</blockquote>\n\nПри этом спрос со стороны иностранных инвесторов сохраняется, особенно на премиальные виллы и апартаменты с видом на море. Однако темпы роста стоимости аренды также замедлились, что указывает на общую стабилизацию.\n\nЭксперты ожидают, что в ближайшие кварталы цены продолжат плавную коррекцию, но фундаментальные показатели экономики Дубая остаются устойчивыми, что поддержит рынок от резких обвалов.\n\n#недвижимость #Дубай #рынок",
-    "published": "2026-09-09T05:01:31.827075+00:00",
-    "source_urls": [
-      "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BSm5DeWtISFd5STZpSjBrRkFsWlZtdldUc05KRGVKWWpwQVVWOXc4ZXVoOF9mRjNkaEphRjZKUEF4ajdJc2pEX2NyRmJoalVsUEQtSVRmUkxjNUVvSjR6WFY5RFdWU05BMjlBRFNmdVowQ0YzWlhRNGNJeEE3OVE?oc=5"
-    ],
-    "lang": "en",
-    "content_hash": "520391aa4bff528f7eaa0e90e64ef0a9",
-    "strict_hash": "520391aa4bff528f7eaa0e90e64ef0a9",
-    "fuzzy_hash": "82de29d1541e08c13177eb214c23a077",
-    "method": "google_news_rss",
-    "source_priority": 3,
-    "workflow_state": "approved_by_editor",
-    "editorial_decision": "approved",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 70,
-      "ad_readiness_score": 80,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Оценка: Новость о падении цен на недвижимость в Дубае впервые за пять лет напрямую связана с регионом и представляет значительный интерес для русскоязычных жителей, особенно инвесторов. Тема не является политической или рекламной, а источник (Elite Agent) указан явно, что позволяет проверить факты. Однако в контексте уже опубликованных новостей о рынке недвижимости (пункты 1 и 2) данная новость может быть воспринята как частичный дубликат по теме, но она сообщает о другом аспекте (падение цен), а не о росте или инвестициях, поэтому дубликатом не является."
-      }
-    },
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "slot_target": "morning"
   }
 ]
