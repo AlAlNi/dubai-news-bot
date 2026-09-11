@@ -925,5 +925,50 @@
     "url": "https://whatson.ae/2026/09/vox-cinemas-city-centre-meaisem",
     "timestamp": "2026-09-10T23:59:19.649544+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.thehindu.com/news/national/odisha/odisha-cm-mohan-charan-majhi-meets-uae-minister-woos-investors-in-dubai/article71451555.ece",
+    "timestamp": "2026-09-11T00:22:16.497281+00:00",
+    "status": "rejected",
+    "content_hash": "5e540b4f9c6f4f22688f3d572195355e",
+    "strict_hash": "5e540b4f9c6f4f22688f3d572195355e",
+    "fuzzy_hash": "7a81d7fe09e606d100769ee722a55e96",
+    "reason": "Новость о визите главного министра Одиши в Дубай и его встрече с министром экономики ОАЭ имеет явную связь с регионом и может быть интересна аудитории, однако она относится к политической деятельности иностранного чиновника и носит характер инвестиционного продвижения (по сути — пиар-активность), что подпадает под ограничения по политике и рекламному характеру."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/technology/tech-news/apple-iphone-18-pro-and-iphone-18-pro-max-launched-check-prices-in-us-dubai-australia-uk-singapore-canada-malaysia-and-more/articleshow/134006623.cms",
+    "timestamp": "2026-09-11T00:22:18.641665+00:00",
+    "status": "rejected",
+    "content_hash": "f5b56a22a2a9d6e2a263cf84576cbb90",
+    "strict_hash": "f5b56a22a2a9d6e2a263cf84576cbb90",
+    "fuzzy_hash": "2e56ea90262a61eeb53558c87a31e808",
+    "reason": "Новость про запуск iPhone 18 Pro и первого складного iPhone — это глобальный технологический релиз, где Дубай упомянут лишь как один из городов в списке цен, без реальной региональной привязки и без значимой ценности для жителя ОАЭ. Также это выглядит как переработанный пресс-релиз/кликбейт-заголовок без проверяемого источника и явной общественно значимой новости для региона."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/10/elon-musks-boring-company-raises-3-billion-in-uae-led-funding-round",
+    "timestamp": "2026-09-11T00:22:21.131228+00:00",
+    "status": "rejected",
+    "content_hash": "dfd50b5847d84b1678fe0a1ec7dcbd66",
+    "strict_hash": "dfd50b5847d84b1678fe0a1ec7dcbd66",
+    "fuzzy_hash": "7103ba86b86a44db20c03495c6f6b123",
+    "reason": "Новость о строительстве 150 км туннелей компанией Boring Company в ОАЭ имеет явную связь с регионом и может быть интересна русскоязычным жителям Дубая, однако текст выглядит как пересказ пресс-релиза/анонса без подтверждённого первоисточника и содержит признаки кликбейта и возможной ИИ-генерации, а также неясна проверяемость фактов по явному URL."
+  },
+  {
+    "url": "https://www.moneycontrol.com/world/little-known-uae-investor-adds-to-over-40-billion-bet-on-musk-article-14027206.html",
+    "timestamp": "2026-09-11T00:22:22.831992+00:00",
+    "status": "rejected",
+    "content_hash": "f663fa0df2466ef9cd3b137dc3c69ac5",
+    "strict_hash": "f663fa0df2466ef9cd3b137dc3c69ac5",
+    "fuzzy_hash": "a64ccd292409049b108cffddc5c7a8bd",
+    "reason": "Новость касается инвестора из ОАЭ, вложившегося в проекты Маска, что даёт связь с регионом, но текст начинается с рекламного блока вебинара и обрывается, а сам материал выглядит как перепечатка финансового сюжета без явного проверяемого источника и без прямой пользы для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.devdiscourse.com/article/business/3975379-dubai-airports-adjusts-passenger-target-projection",
+    "timestamp": "2026-09-11T00:22:26.787926+00:00",
+    "status": "approved",
+    "content_hash": "a3a8bc25514dccc17a8e53ef7573827e",
+    "strict_hash": "a3a8bc25514dccc17a8e53ef7573827e",
+    "fuzzy_hash": "61fcb346d4bd1953d98713798270df00",
+    "reason": "approved"
   }
 ]
