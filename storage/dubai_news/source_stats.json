@@ -886,5 +886,32 @@
     "strict_hash": "406907662fdff72f4a5bd194a7f06222",
     "fuzzy_hash": "5af632a80792dffee09561245f3115eb",
     "reason": "Новость представляет собой лишь заголовок и обрывок текста без содержательной информации, явной связи с конкретным событием и проверяемого источника — это выглядит как необработанный агрегаторный материал, не несущий пользы аудитории."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/heres-how-talabat-is-making-back-to-school-easier-for-uae-families",
+    "timestamp": "2026-09-11T20:27:24.439862+00:00",
+    "status": "rejected",
+    "content_hash": "582bec237133e8c0f9942e7a15a63ee3",
+    "strict_hash": "582bec237133e8c0f9942e7a15a63ee3",
+    "fuzzy_hash": "d5148c3d92f117b52c7032d72c1eabb0",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://emirateswoman.com/your-ultimate-2026-salon-guide-for-a-fresh-mani-pedi-in-dubai",
+    "timestamp": "2026-09-11T20:27:31.562579+00:00",
+    "status": "rejected",
+    "content_hash": "77e0a52c5e5c0959a4cc90457dbe7e3d",
+    "strict_hash": "77e0a52c5e5c0959a4cc90457dbe7e3d",
+    "fuzzy_hash": "f15b42d91e4cec0a849e9a1fbe190dc4",
+    "reason": "Новость представляет собой рекламный гид по салонам красоты в Дубае без общественно значимой новости, что нарушает правило 3 (рекламный характер). Кроме того, текст выглядит как кликбейт-подборка с признаками низкокачественного контента, что нарушает правило 5."
+  },
+  {
+    "url": "https://www.thewhig.com/press-releases/business-wire/mohammed-bin-rashid-al-maktoum-global-water-award-accepts-entries-until-30-september-2026",
+    "timestamp": "2026-09-11T20:27:45.956309+00:00",
+    "status": "approved",
+    "content_hash": "7d33a1e067953586659126e4c19d6fae",
+    "strict_hash": "7d33a1e067953586659126e4c19d6fae",
+    "fuzzy_hash": "7e15409924bb5d8effd5a985599c6202",
+    "reason": "approved"
   }
 ]
