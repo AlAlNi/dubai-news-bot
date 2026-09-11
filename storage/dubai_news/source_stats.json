@@ -890,5 +890,77 @@
     "strict_hash": "1a7bb076de96c18c2233206c43556ab4",
     "fuzzy_hash": "1f7ed4d15700529fa8d349ac7c034512",
     "reason": "Новость лишь сообщает о намерении Dubai tourism участвовать в Arabian Travel Market 2026, без конкретики, новых фактов или пользы для русскоязычного жителя Дубая — это фактически анонс/пресс-релиз, а не общественно значимая новость. Также текст обрывочный, без проверяемого URL источника и признаков полноценного материала."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/guide-ras-al-khaimah-day-trip",
+    "timestamp": "2026-09-11T17:59:05.814518+00:00",
+    "status": "rejected",
+    "content_hash": "66e05c0e2dbfd3b350f0ebb7f4214436",
+    "strict_hash": "66e05c0e2dbfd3b350f0ebb7f4214436",
+    "fuzzy_hash": "ccdb48c06912763a52c6210354917468",
+    "reason": "Новость представляет собой кликбейтный анонс-заглушку без конкретного содержания (обрезанный текст, рекламный формат «гайда» от What's On), слабо связана с Дубаем и не несёт проверяемой общественно значимой информации для аудитории."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/al-maktoum-international-airport-to-get-second-runway-by-end-of-2027",
+    "timestamp": "2026-09-11T17:59:13.704254+00:00",
+    "status": "rejected",
+    "content_hash": "c645e37019ae2d291c93ed45b63f8f06",
+    "strict_hash": "c645e37019ae2d291c93ed45b63f8f06",
+    "fuzzy_hash": "133e72779479f9cd6b33cc49e43ce1ab",
+    "reason": "Новость связана с Дубаем (расширение аэропорта Al Maktoum, вторая взлётная полоса к концу 2027 года), не касается политики, не выглядит рекламой и полезна для русскоязычных жителей. Однако текст обрывочный, содержит следы парсинга/скрейпинга (HTML-сущности, «The post … appeared first on What's On»), что снижает достоверность и естественность подачи."
+  },
+  {
+    "url": "https://emirateswoman.com/6-exciting-curated-plans-for-the-perfect-weekend",
+    "timestamp": "2026-09-11T17:59:21.838440+00:00",
+    "status": "rejected",
+    "content_hash": "9982ac54829a707188f75189af3faa95",
+    "strict_hash": "9982ac54829a707188f75189af3faa95",
+    "fuzzy_hash": "ebe843c1c4242a008484b2045998b178",
+    "reason": "Новость представляет собой подборку развлекательных идей для выходного дня в Дубае, что слабо связано с актуальной новостной повесткой и больше похоже на лайфстайл-материал, к тому же с признаками кликбейта и без проверяемого источника. Для новостного канала о Дубае это не является общественно значимой новостью."
+  },
+  {
+    "url": "https://www.newindianexpress.com/states/odisha/2026/Sep/11/odisha-bags-rs-8417-crore-investment-proposals-on-2nd-day-in-dubai",
+    "timestamp": "2026-09-11T17:59:23.658173+00:00",
+    "status": "rejected",
+    "content_hash": "9815597541ce700992a4c3f5d7f1e7d0",
+    "strict_hash": "9815597541ce700992a4c3f5d7f1e7d0",
+    "fuzzy_hash": "13b04d449faa0d79e38b91cad186adbd",
+    "reason": "Новость о привлечении индийским штатом Одиша инвестиций в Дубае — это деловая/экономическая активность, связанная с ОАЭ, но она не является новостью о самом Дубае или ОАЭ и не несёт пользы русскоязычному жителю Дубая; кроме того, это по сути пресс-релиз индийского региона, а не проверяемая новость о жизни эмирата."
+  },
+  {
+    "url": "https://www.aninews.in/news/national/general-news/odisha-signs-moc-with-ibpc-to-strengthen-uae8211odisha-business-partnership20260911084829",
+    "timestamp": "2026-09-11T17:59:25.534514+00:00",
+    "status": "rejected",
+    "content_hash": "e7890a6375eafb388e61aaad4c53ab76",
+    "strict_hash": "e7890a6375eafb388e61aaad4c53ab76",
+    "fuzzy_hash": "bab4fbfde5e3386c4414337535fd3804",
+    "reason": "Новость касается подписания меморандума между правительством Одиши и бизнес-советом IBPC в Дубае, что имеет явную связь с ОАЭ и может быть интересно русскоязычной деловой аудитории, однако это по сути пресс-релиз/церемония без конкретных решений, цифр или изменений для жителей Дубая, а источник — ANI с неполным текстом и без прямого URL для проверки."
+  },
+  {
+    "url": "https://www.yardbarker.com/mma/articles/khasan_magomedsharipov_faces_borics_at_pfl_dubai/s1_17349_44288732",
+    "timestamp": "2026-09-11T17:59:27.189955+00:00",
+    "status": "rejected",
+    "content_hash": "040cbba7dccc2e36ef92c1f59abc9ef0",
+    "strict_hash": "040cbba7dccc2e36ef92c1f59abc9ef0",
+    "fuzzy_hash": "4e1f14f25795e0328f1158326fb10a10",
+    "reason": "Новость о спортивном поединке PFL в Дубае имеет явную связь с регионом (Coca-Cola Arena) и не касается политики, рекламы или чувствительных тем, однако она не является дубликатом уже опубликованных материалов. При этом для русскоязычной аудитории Дубая это узкоспециализированная спортивная новость без практической пользы, а источник (Sherdog) не указан явным URL — что нарушает правило проверяемости."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNkt5Unk2SmFVeHJ3clBSUTUzU2Z0c3A2d0o0VGxfY2d2SDZRRWRSS0NDM3BHZmlCXzVHVFY5QzA2S093VWpyVVpTdVQzSmRQZUxkY0FlTERyVUh1aVg2WEJtSE9FU0p4Tms1MWk2M0wxRnl3QUNvWEk4blBpTWRhdDdGUktuWDVZZjIxaWRWSDZnaXBGOFc1QlF3MnJ4amJB?oc=5",
+    "timestamp": "2026-09-11T17:59:30.439843+00:00",
+    "status": "rejected",
+    "content_hash": "14cc8be8878077d1e13d0a272c3e7878",
+    "strict_hash": "14cc8be8878077d1e13d0a272c3e7878",
+    "fuzzy_hash": "f478bc4546458c8a3777c1c83c2b3bcf",
+    "reason": "Новость формально связана с Дубаем (туризм, ATM 2026), но по сути это пустая анонсная заглушка без содержания: нет конкретики, деталей, цифр или события — только заголовок и источник Zawya, что похоже на необработанный парсинг/кликбейт-заготовку. Также это не дубликат уже опубликованных новостей, но материал не несёт пользы и не подтверждён полноценным текстом."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd0JxcEdIRlg0d2JuZnA3M0FwazBoYjZFN1UzVmtWWFdmcFJndkZFc2t1eEh3RWZ4VURXVkNrWE5sckJSSWVJTkhQUVB0amh1cl92OXE0NzJINEF2Zk5LM1lvRGM2TUdZY0xVSmxHNHZxdkRMblhHVFYwU056cmpuNlhqcWQwYzFEemdmbVhhVThMdVQ1b2pDUEd4N05JQ2VoYU1lcFo0WjE?oc=5",
+    "timestamp": "2026-09-11T17:59:32.569979+00:00",
+    "status": "rejected",
+    "content_hash": "ae31475f180f13f0adb1100107777e30",
+    "strict_hash": "ae31475f180f13f0adb1100107777e30",
+    "fuzzy_hash": "a76e9451d10d0f73be3c19e7f1b61161",
+    "reason": "Новость представляет собой лишь заголовок и название источника без какого-либо содержательного текста — это не полноценная новость, а «заглушка»/ссылка, что делает её непригодной для публикации и не поддающейся проверке по явному URL. Кроме того, ATM 2026 — это отраслевое выставочное/промо-мероприятие, что граничит с рекламным форматом, а полезной конкретики для жителя Дубая нет."
   }
 ]
