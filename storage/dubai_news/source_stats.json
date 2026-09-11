@@ -854,5 +854,41 @@
     "strict_hash": "d3435c5746adf85648479e95165a9e02",
     "fuzzy_hash": "2bc46848e8f50837afe283d8ae13d1b2",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/abu-dhabi-introduces-new-speed-limit-on-e311",
+    "timestamp": "2026-09-11T14:40:43.083985+00:00",
+    "status": "rejected",
+    "content_hash": "478b9706303c951aefa30f0017086bda",
+    "strict_hash": "478b9706303c951aefa30f0017086bda",
+    "fuzzy_hash": "c76e645588e7e43657d3303807bd8f4a",
+    "reason": "Новость касается изменения скоростного режима на трассе E311 в Абу-Даби, что имеет явную связь с ОАЭ и полезно для русскоязычных водителей региона; тема не политическая, не рекламная, не дублирует уже опубликованные материалы и опирается на официальный источник (Abu Dhabi Mobility).\nОднако текст обрывается на полуслове («The change will [&#8230;]») и содержит следы незавершённой вставки/парсинга, что мешает проверке достоверности и полноты — это признак некачественного материала."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/7-brilliant-things-to-do-in-abu-dhabi-this-weekend-september-11-to-13",
+    "timestamp": "2026-09-11T14:40:49.336423+00:00",
+    "status": "rejected",
+    "content_hash": "42262df34a10848d62fac256105a815c",
+    "strict_hash": "42262df34a10848d62fac256105a815c",
+    "fuzzy_hash": "4af0b07e57b8504d7da0a7b507646154",
+    "reason": "Новость представляет собой анонс развлекательных мероприятий на выходные в Абу-Даби, что не связано с Дубаем и не является общественно значимой новостью для аудитории канала. Кроме того, текст выглядит как кликбейт-подборка с признаками рекламного формата и не содержит проверяемых фактов или явного источника."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/7-fun-things-to-do-in-dubai-this-weekend-september-11-to-13",
+    "timestamp": "2026-09-11T14:40:53.748654+00:00",
+    "status": "rejected",
+    "content_hash": "c94bbfab4c1ed225bc6fe148e2c6ce1b",
+    "strict_hash": "c94bbfab4c1ed225bc6fe148e2c6ce1b",
+    "fuzzy_hash": "3d3b44b290c0313b9f7eb71d41f0d413",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVjg4QmdGMmEyZFNyQjI1TlRMX1poSDRvSjlEQ3pOUHlZMWthMkNtQ05wZ2xuU3JpOTREZVNRcWRwc2tLeGNZeHJQeVVab09UbURFcnpZYUFHMHhTdVhFWEY3SnpYZkR2QTRXOUt3b2pPY093cHBwZXdGeXRZNXhQWk5JeFhMbEhTLU1QTzFscnB1TDI4djFieUxqdTNBaWJGOHpmMTR3?oc=5",
+    "timestamp": "2026-09-11T14:40:56.334032+00:00",
+    "status": "rejected",
+    "content_hash": "1a7bb076de96c18c2233206c43556ab4",
+    "strict_hash": "1a7bb076de96c18c2233206c43556ab4",
+    "fuzzy_hash": "1f7ed4d15700529fa8d349ac7c034512",
+    "reason": "Новость лишь сообщает о намерении Dubai tourism участвовать в Arabian Travel Market 2026, без конкретики, новых фактов или пользы для русскоязычного жителя Дубая — это фактически анонс/пресс-релиз, а не общественно значимая новость. Также текст обрывочный, без проверяемого URL источника и признаков полноценного материала."
   }
 ]
