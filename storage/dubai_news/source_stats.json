@@ -952,5 +952,50 @@
     "strict_hash": "fad65c0abcd2183721a58d8da88f688f",
     "fuzzy_hash": "9e113e0ba417dd2c0cd8b7c465c4e55d",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-holding-awards-dh5-billion-contract-for-new-headquarters-and-jumeirah-residences-emirates-towers",
+    "timestamp": "2026-09-11T05:23:43.383946+00:00",
+    "status": "rejected",
+    "content_hash": "f171a56d551da0500829b21fe7584742",
+    "strict_hash": "f171a56d551da0500829b21fe7584742",
+    "fuzzy_hash": "93e083daf9668be8dda30bf7503b8981",
+    "reason": "Новость напрямую связана с Дубаем (крупный девелоперский контракт Dubai Holding, новые штаб-квартира и резиденции Jumeirah), не касается политики/конфликтов, не выглядит как чистый пресс-релиз без значимости и не дублирует уже опубликованные материалы. Однако текст содержит признаки ИИ-генерации/пресс-релизного стиля и не содержит явного проверяемого URL источника, что по правилам 5 и 9 требует отклонения."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/cristiano-ronaldo-in-abu-dhabi",
+    "timestamp": "2026-09-11T05:23:50.632999+00:00",
+    "status": "rejected",
+    "content_hash": "3e820c153aaf6b80a21d633eaf859a64",
+    "strict_hash": "3e820c153aaf6b80a21d633eaf859a64",
+    "fuzzy_hash": "e35134fc9e4a809a4a6e83f072eb9cf0",
+    "reason": "Новость о возможном выступлении Криштиану Роналду в Абу-Даби связана с ОАЭ и может быть интересна русскоязычным жителям, но текст выглядит как обрывок анонса с кликбейтом и признаками неполного/недостоверного материала, без явного проверяемого источника и конкретики."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/09/10/why-e-invoicing-could-rewire-the-gcc-economy",
+    "timestamp": "2026-09-11T05:24:03.820822+00:00",
+    "status": "rejected",
+    "content_hash": "fe0053f61e8474fae7b933eb4bb81787",
+    "strict_hash": "fe0053f61e8474fae7b933eb4bb81787",
+    "fuzzy_hash": "193905d18169353aa87a0525315cae06",
+    "reason": "Новость представляет собой общий аналитический материал об экономике GCC и электронном выставлении счетов, без конкретного новостного повода, события или проверяемого источника — это похоже на колонку/промо-текст, а не на новость. Связь с Дубаем лишь косвенная (упоминание D33), достоверность фактов не подтверждается явным URL, а формат ближе к рекламно-аналитическому контенту."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaUsyZlBISUN5VmxSNFlTSTZ5cGpDcHhqcmZldmZBTkdtRzBPaDRqQlBEVEZRMjJYR3dQcm9iRTAzZ0dqTlB2MWlTV1BpSU9yazZlN29ub2lWcG9iV0NDaXJUeWljTzJZQzdvSXhQMGxvdlpvVGlPWnNPQWwxMXljM240U1hNNjVnRDVlTm5yb3dfOWh4OHdBYXhzZmtXRWZ2UlBTaTJxUENVVGxWb08wQlJJNHNwVkNCbVNXT1Zndk9ycWVnUW9CRWdCdXlPQ1loV09sTDJGdk8zbUJRNHlRM25WTVhJMjTSAecBQVVfeXFMUGlLMmZQSElDeVZsUjRZU0k2eXBqQ3B4anJmZXZmQU5HbUcwT2g0akJQRFRGUTIyWEd3UHJvYkUwM2dHak5QdjFpU1dQaUlPcms2ZTdvbm9pVnBvYldDQ2lyVHlpY08yWUM3b0l4UDBsb3Zab1RpT1pzT0FsMTF5YzNuNFNYTTY1Z0Q1ZU5ucm93XzloeDh3QWF4c2ZrV0VmdlJQU2kycVBDVVRsVm9PMEJSSTRzcFZDQm1TV09WZ3ZPcnFlZ1FvQkVnQnV5T0NZaFdPbEwyRnZPM21CUTR5UTNuVk1YSTI0?oc=5",
+    "timestamp": "2026-09-11T05:24:06.300046+00:00",
+    "status": "rejected",
+    "content_hash": "a43946edd90d4b95771fa79aa7fb3730",
+    "strict_hash": "a43946edd90d4b95771fa79aa7fb3730",
+    "fuzzy_hash": "59b57ff62faeff3c74c33e143656fdfb",
+    "reason": "Новость связана с Дубаем и Emirates, но выглядит как сырой заголовок без полноценного текста, с признаками дубликата/повтора темы авиаперевозок и туризма, а также не содержит проверяемого URL источника."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sUnRyUWNqNVZfamZaaGpXQ3cxcFNSbXo3N01raEVYZWVKV1Noblp4RVdVeHdRUzBDR3BvaDNkRzFhZHo1dzc5TlFkNW5XekZCdDROZEZSNWtndFBTNF9HVGRn?oc=5",
+    "timestamp": "2026-09-11T05:24:08.763486+00:00",
+    "status": "rejected",
+    "content_hash": "5429500f4bfd04d9a3fa21021cba0c89",
+    "strict_hash": "5429500f4bfd04d9a3fa21021cba0c89",
+    "fuzzy_hash": "79e1f8a7469837b33375a87d959f4f65",
+    "reason": "Новость касается ОАЭ (связь с регионом есть), но это лишь заголовок и ссылка на блог без подтверждаемого официального источника и без содержательного текста — фактически не новость, а кликбейт-заголовок. Также тема штрафов за просрочку визы подана как «waiver 2026», что требует официального подтверждения, которого нет."
   }
 ]
