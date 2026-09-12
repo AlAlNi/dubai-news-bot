@@ -992,5 +992,41 @@
     "strict_hash": "d7947ee020886280b40011093485363b",
     "fuzzy_hash": "d4baf8b8eea46522e7808089ca472554",
     "reason": "Cheap prefilter: слишком короткий текст (103 символов)"
+  },
+  {
+    "url": "https://cricketaddictor.com/cricket-news/wcl-2026-schedule-unveiled-india-champions-to-face-pakistan-champions-on-october-10-in-dubai-463757",
+    "timestamp": "2026-09-12T18:51:21.494836+00:00",
+    "status": "rejected",
+    "content_hash": "949a043bb92d2adad8d9b9bbf3e11ef1",
+    "strict_hash": "949a043bb92d2adad8d9b9bbf3e11ef1",
+    "fuzzy_hash": "0c946a15628041aaeacd908e25fb75e2",
+    "reason": "Новость о расписании турнира World Championship of Legends 2026 в Дубае и Шардже имеет явную связь с ОАЭ, не касается политики, не выглядит рекламой и может быть интересна русскоязычным жителям Дубая как спортивное событие. Однако указанный хеш контента совпадает с уже проверявшимся материалом, что указывает на дубликат."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/news/new-updates/iphone-sale-starts-today-in-india-check-iphone-18-pro-iphone-pro-max-price-features-specs-comparison-with-us-dubai-and-other-places/articleshow/134111105.cms",
+    "timestamp": "2026-09-12T18:51:23.176599+00:00",
+    "status": "rejected",
+    "content_hash": "d91655ea21f226083142addf2c3f107d",
+    "strict_hash": "d91655ea21f226083142addf2c3f107d",
+    "fuzzy_hash": "7348c4fac789d7c8cc17f028668eabfb",
+    "reason": "Новость посвящена ценам на iPhone 18 Pro в Индии и сравнении с США, Дубаем и другими рынками — связь с Дубаем лишь косвенная (упоминание в сравнении), основная тема не о регионе, а о старте продаж в Индии. Кроме того, материал выглядит как кликбейт/около-рекламный обзор гаджета без общественно значимой новости для жителей Дубая."
+  },
+  {
+    "url": "https://www.freepressjournal.in/mumbai/dubai-mumbai-flight-theft-15-kg-gold-195-crore-cash-and-uae-dirhams-allegedly-stolen-from-67-year-old-surat-businessman",
+    "timestamp": "2026-09-12T18:51:25.566030+00:00",
+    "status": "rejected",
+    "content_hash": "35d1fd85dadfca28a497684b6e38b133",
+    "strict_hash": "35d1fd85dadfca28a497684b6e38b133",
+    "fuzzy_hash": "0a6bceee30da357d42e6d72e9b18c0cb",
+    "reason": "Новость описывает кражу у бизнесмена из Сурата, произошедшую, судя по заголовку, в аэропорту Мумбаи (Индия), и не имеет явной связи с Дубаем/ОАЭ/GCC, кроме упоминания валюты и рейса. Это криминальная хроника из Индии, не относящаяся к региональной повестке и не полезная русскоязычным жителям Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVJQN05FWmc1ZnVLc1g5NkFtT3M0aVl1TjFUNi1mWGU1YjFxME5Jc2VaSHFNOWVtY1VRaFM2NGFSVEZnT0xYMXRuRFZ3bzNrRlRIcFJEdDJmVVJjVXNQZHJydVZyc2c0SGJJWGVCTlhmVWdsRXROWEYzZ21wZVI2aWZfVDRoTWYwZmFQN0M0ZjBuWTZ1OEo0VUNxdzBGdlFHV1BwXzBNU3NvMW53N2JoTm5SNU9jQWxPaFJPQlczcFZsTGZCSmhRVDl2TQ?oc=5",
+    "timestamp": "2026-09-12T18:51:28.472291+00:00",
+    "status": "rejected",
+    "content_hash": "71348f0982a67dccdaff235312de958d",
+    "strict_hash": "71348f0982a67dccdaff235312de958d",
+    "fuzzy_hash": "2d55b2558c8c0c67d9eb39d2a1081eea",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на счёт матча по крикету между женскими сборными Бангладеш и Индии в Дубае без какого-либо содержательного текста, полезной информации или подтверждённого источника — это не полноценная новость для канала. Кроме того, дата матча (10 сентября 2026) в будущем, что вызывает сомнения в достоверности."
   }
 ]
