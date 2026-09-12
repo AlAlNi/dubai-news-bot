@@ -925,5 +925,59 @@
     "strict_hash": "39a69cb586709386e7ef031acbe092aa",
     "fuzzy_hash": "665c9c39566076673cc89d7d221fbd62",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.al-monitor.com/originals/2026/09/gulf-oil-threatened-anew-houthis-reach-key-island-and-pipeline-shut-down",
+    "timestamp": "2026-09-12T09:30:31.449857+00:00",
+    "status": "rejected",
+    "content_hash": "8c4d888f115c257f574034603b66506c",
+    "strict_hash": "8c4d888f115c257f574034603b66506c",
+    "fuzzy_hash": "62364e572f4932e17f87eca92ace5381",
+    "reason": "Новость посвящена захвату хуситами острова Перим в Баб-эль-Мандебском проливе и перекрытию нефтепровода — это классическая большая геополитика и военный конфликт, лишь косвенно касающийся региона через упоминание Дубая в датлайне. Для канала о Дубае это нерелевантно, политически чувствительно и не несёт пользы русскоязычному жителю города."
+  },
+  {
+    "url": "https://www.thenationalnews.com/lifestyle/2026/09/11/dubai-resident-plans-epic-gcc-run-from-kuwait-to-oman",
+    "timestamp": "2026-09-12T09:30:33.127166+00:00",
+    "status": "rejected",
+    "content_hash": "7937b55966bc0b14d85c4bbeefbf894f",
+    "strict_hash": "7937b55966bc0b14d85c4bbeefbf894f",
+    "fuzzy_hash": "0274e9170665adaa71e85e21853c84d6",
+    "reason": "Новость рассказывает о жителе Дубая, который готовит длительный забег по странам GCC — это явно связано с регионом и может быть интересно русскоязычной аудитории как вдохновляющая локальная история. Признаков политики, рекламы, кликбейта или неуважения к ценностям ОАЭ нет, однако текст обрывается и не содержит проверяемого URL источника, что не позволяет подтвердить достоверность фактов."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUDEtVEw2TVR5eFNCblNMSE9rQmxnRzJCTDJZVjRDU21zWWFTSVlVV1JSUGkwRFlQMTlWaXZZN2RVR0I5TTVnMWd4eU1IYXhod0IzUHZTRHNPWGJYUW9ibG1PcVhjdzVHUmJDSm1ITkMwMTk1T1NxVjZzQ0JVRlhHMUZMaGVPUS1KVkw0R3BzbkpETW4zSlYzYUtqdUNvdE5lYThURnVYTGM2c0F2SmVIcWJMekx0a296bWxXWU92WEYzMW1XMXJiNXhn0gHcAUFVX3lxTE85WDZmSTBVOHIxMjBLX0F3OXYtZEdPcTNrUWlCWGUwYjltNG80VUkxU1N4azdfUENWZWNfNmJ4dHRlQWR0eVMtSktIM1pDSGpRZFhHbUVZZWdjOGhYV2ZBLWRHV0tyQ3ZnT01FYjZtdnlPWDBfcXVIcklLdWoyUmFnSEp0S1NDWDV3bE9NVW9sOGV0MXg3X1ItdEVQSzg1bV9obGlIclJLUklYWlZDQkVHYmxEMFlXZTN6UlNxYVhELTlRcUhmZW9YSzljMG4tX3BabnhOaFRKc0tFdGM?oc=5",
+    "timestamp": "2026-09-12T09:30:35.661859+00:00",
+    "status": "rejected",
+    "content_hash": "ca48a10ee9e76eb359c46395fa4b206a",
+    "strict_hash": "ca48a10ee9e76eb359c46395fa4b206a",
+    "fuzzy_hash": "8c365f5a3e5ad839166434bcc3875190",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на gulfnews.com без какого-либо содержательного текста, конкретики о рейсах, причинах задержек или отмен — это неполный материал, не несущий полезной информации для читателя. Кроме того, отсутствует проверяемый URL источника и подтверждаемые факты, что нарушает правило 9."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQmhKMFhsWjg0ZWdSUng2UnFtVENtZHJNTk5UUDYzdTVHeDVXTExuOEo5UmtxcmNJMzVKTWlFaDM3eG95SDI1UmEzdk4wNVNMU2RiRVhjMmJSd3l4d1BiSFdaR2dZYXR3WmJtYk5na0RUNkgzbUp2c0h2X1hmNWRPTWNHdGktT0o4?oc=5",
+    "timestamp": "2026-09-12T09:30:37.373111+00:00",
+    "status": "rejected",
+    "content_hash": "7fbbd99f6de9a59d47c183ce202acd67",
+    "strict_hash": "7fbbd99f6de9a59d47c183ce202acd67",
+    "fuzzy_hash": "c3347bdec09f638b13cabdbb600f442a",
+    "reason": "Новость касается авиасообщения Дубай—Берлин и решения Германии о правах на полёты для Emirates, что явно связано с ОАЭ и полезно русскоязычным жителям Дубая. Однако текст выглядит как почти пустая перепечатка заголовка с источником, без подтверждаемого URL и признаками кликбейта/ИИ-подачи, поэтому доверять и публиковать в таком виде нельзя."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNckZSMmNtNWFyV05VWWNyeG5hUXRUWFE3Q1NvcHE3bkdnT1h5eFJTZjd3SG1Ha3E2aHA0UnBfVGpKeFByVzVXS1RRMHk3cVZ1MUN5TzZwblM2TUZvbjdoQ1RVVWNYRC1ZZC1ONFFuTnBxT0gtM0JfSGZoMGZLU3ZoUE5vVVNFVXVUdE1qUVo4N1dja1JzRkFSazF3MGl2QkpGSjdxdmtKa0Flem8?oc=5",
+    "timestamp": "2026-09-12T09:30:37.725449+00:00",
+    "status": "rejected",
+    "content_hash": "4073ef19af0c797828f7bceb4a447766",
+    "strict_hash": "4073ef19af0c797828f7bceb4a447766",
+    "fuzzy_hash": "a9750333a33bbefeaf0a751c5140afc2",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3J6Mm1KUlVnZWlhcTMyZ1czVmpZX2hQa3hVUExabndydUlnLWRjdXBGZTNqZGtQcWROTmdJQndvLW5Zbl9fY0oyMVdwT0lCTEY1bE51dlBzTFpnYzZPQkR1U2dXeEJkX3ZNSE55Z1kwY0tqc25OallBbE53M2FBMmlERDE4RGNkR3dnTjUxT0VqM1kwRTQ2MTdrcU5wSFFERUlWYVZSYzF1MjlWNTRPVVRIQUxyZ195UHc?oc=5",
+    "timestamp": "2026-09-12T09:30:38.990760+00:00",
+    "status": "rejected",
+    "content_hash": "5433a43fde7395143d986fa6c8d0dfc7",
+    "strict_hash": "5433a43fde7395143d986fa6c8d0dfc7",
+    "fuzzy_hash": "d784d3bbbf68fd702f9b5b1a1b57cde8",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
