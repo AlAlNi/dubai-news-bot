@@ -928,5 +928,14 @@
     "strict_hash": "84ca1fcdfa7182911d6f1695ef73d341",
     "fuzzy_hash": "5b98939d06cfa1fe6c4e7e3ce045d8d8",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://scanx.trade/stock-market-news/companies/western-overseas-plans-12-city-education-fairs-dubai-hiring-drives/50755802",
+    "timestamp": "2026-09-12T23:33:17.292124+00:00",
+    "status": "rejected",
+    "content_hash": "4738229a569595f83ef8edea4af6e6c7",
+    "strict_hash": "4738229a569595f83ef8edea4af6e6c7",
+    "fuzzy_hash": "1991ac8bde385d64943501f2ed2f1c59",
+    "reason": "Новость посвящена образовательным ярмаркам и найму в Индии с упоминанием «Dubai hiring drives», но основная тема — мероприятия в Индии, а связь с Дубаем/ОАЭ слабая и неконкретная. Кроме того, текст выглядит как пресс-релиз компании без общественно значимой новости для жителей Дубая, а источник и детали не подтверждены явным URL."
   }
 ]
