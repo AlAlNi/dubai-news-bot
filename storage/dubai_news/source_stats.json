@@ -952,5 +952,23 @@
     "strict_hash": "5433a43fde7395143d986fa6c8d0dfc7",
     "fuzzy_hash": "d784d3bbbf68fd702f9b5b1a1b57cde8",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55S3Jyem1TS2JTWDRtUlIzVkpTYUZ0cHZRajBCVkhmZHJxb181QU56TFU0cGhTbWlRaktod0w2TVZqNTlndmhnSXlXcm9xTHc0aHFYNzVlSDh3alllSDM0R3piNUVCanBRZ2hZTjljX1FHRTNWazJFcQ?oc=5",
+    "timestamp": "2026-09-12T13:13:33.764422+00:00",
+    "status": "rejected",
+    "content_hash": "58f458bc17f6fd3d8c3c4c0fe1099dfa",
+    "strict_hash": "58f458bc17f6fd3d8c3c4c0fe1099dfa",
+    "fuzzy_hash": "a389d5b19b1134f2f5d71b7867ddd32f",
+    "reason": "Новость представляет собой подборку из 28 мест для наблюдения за закатом в Дубае от Time Out Dubai — это лайфстайл-материал, напрямую связанный с Дубаем и потенциально интересный русскоговорящим жителям. Однако текст состоит лишь из заголовка и ссылки на источник без какого-либо содержательного наполнения, что делает его неполноценной новостью, а формат «список мест» ближе к развлекательному контенту, чем к новостному."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbmVYcUd1QXg2b3pOcDdCSG56TXhIbE5KUkl2X082d0EyQmtsaE43d21WNXFVM3c0YWNjdTVuMDRJdnJodzJtMjdVQnluTDZITlptQVJraDdJWUU3RnNBRFlWcUJHMGpFQ1Fob0ZPWHpoUnVyMVVoYVZjenF0YmcyZDVtOGxmT0V0VnZtcFRmcnU?oc=5",
+    "timestamp": "2026-09-12T13:13:35.502064+00:00",
+    "status": "rejected",
+    "content_hash": "14ab90c1e90a6fe926fd04c1c024fe56",
+    "strict_hash": "14ab90c1e90a6fe926fd04c1c024fe56",
+    "fuzzy_hash": "5dd05e1ceba7f108b83020e8cbf0f811",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на подборку развлечений без какого-либо содержательного текста, что делает её неполноценной для публикации и похожей на кликбейт/агрегатор без проверяемых фактов. Кроме того, это типичный формат «списка выходного дня», который не является новостью и не несёт конкретной пользы без раскрытия деталей."
   }
 ]
