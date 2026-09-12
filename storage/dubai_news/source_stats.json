@@ -974,5 +974,23 @@
     "strict_hash": "55b249355316fa52ac495429e613e14f",
     "fuzzy_hash": "ca7a0a7c5fb0cd5ccdb729f7edc0fd8b",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.indiatoday.in/trending-news/story/indian-woman-in-dubai-shares-reality-check-for-those-planning-to-move-to-uae-for-work-2992896-2026-09-12",
+    "timestamp": "2026-09-12T17:21:36.778638+00:00",
+    "status": "rejected",
+    "content_hash": "0acb5b77754dcc76a1eb009fd154358f",
+    "strict_hash": "0acb5b77754dcc76a1eb009fd154358f",
+    "fuzzy_hash": "32dcc88e51cbc2e4d6e798ed8b4cab26",
+    "reason": "Новость представляет собой личный опыт блогера о стоимости жизни в Дубае — тема релевантна региону и потенциально полезна русскоязычным жителям, но материал выглядит как пересказ вирусного поста без проверяемого официального источника и с признаками кликбейт-подачи. Кроме того, ценность такой «reality check» субъективна и не подтверждается ссылкой на первоисточник, что нарушает правило проверяемости."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeWtwSFpLaDJyZi1QQmQ5c0JJWUlVYkVlc3BsZ2NoVVBlazNpM08ydGZRTXZ3LU5LNTZmUm5QS0JQUzdRUTJ3YVlLc2FRNk05bkR2Q0c3YzIzcHZsd1ZBZHB2YUlLQVBDbVJ2ekhweGJGTzJ1YzNudzY0bWlqX1JJdGwyam4xaTZqZ0dwdDJGNERSSHlJdXc?oc=5",
+    "timestamp": "2026-09-12T17:21:38.266699+00:00",
+    "status": "rejected",
+    "content_hash": "d7947ee020886280b40011093485363b",
+    "strict_hash": "d7947ee020886280b40011093485363b",
+    "fuzzy_hash": "d4baf8b8eea46522e7808089ca472554",
+    "reason": "Cheap prefilter: слишком короткий текст (103 символов)"
   }
 ]
