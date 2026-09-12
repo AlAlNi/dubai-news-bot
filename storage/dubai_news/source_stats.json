@@ -894,5 +894,86 @@
     "strict_hash": "1c97c2358ce33ee0c38066fd660dd2dd",
     "fuzzy_hash": "1c97c2358ce33ee0c38066fd660dd2dd",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://scanx.trade/stock-market-news/companies/cochin-shipyard-forms-50-50-jv-drydocks-world-dubai-kochi-facility/50480087",
+    "timestamp": "2026-09-12T04:54:44.920598+00:00",
+    "status": "rejected",
+    "content_hash": "8b77bac3613791c2d42aa5bedba08c89",
+    "strict_hash": "8b77bac3613791c2d42aa5bedba08c89",
+    "fuzzy_hash": "e4ade4ecc5df2ce507fc9c8c516731ba",
+    "reason": "Новость касается индийской компании Cochin Shipyard и её совместного предприятия с дубайской Drydocks World (DP World) для работы судоремонтного объекта в Кочи, Индия — связь с Дубаем есть, но событие происходит в Индии и слабо релевантно для русскоязычного жителя Дубая, при этом тема выглядит как корпоративный/деловой пресс-релиз без общественно значимой новости для аудитории канала."
+  },
+  {
+    "url": "https://www.cnbctv18.com/market/stocks/cochin-shipyard-share-price-signs-jv-agreement-with-dp-world-company-drydocks-world-dubai-19989672.htm",
+    "timestamp": "2026-09-12T04:54:46.415641+00:00",
+    "status": "rejected",
+    "content_hash": "cbd1109177d73d62bd0503f9c0bdca62",
+    "strict_hash": "cbd1109177d73d62bd0503f9c0bdca62",
+    "fuzzy_hash": "88d15b3344767b2011c4ad85aec04a2b",
+    "reason": "Новость касается соглашения о совместном предприятии между индийской Cochin Shipyard и дубайской Drydocks World (DP World), что даёт явную связь с Дубаем, но по сути это биржевая/корпоративная новость об индийской компании с падением акций — слабо релевантна и не особо полезна русскоязычному жителю Дубая, плюс подана в формате финансовой сводки без проверяемого URL источника."
+  },
+  {
+    "url": "https://www.thenationalnews.com/sport/2026/09/11/after-south-africa-v-new-zealand-in-usa-what-about-playing-a-major-rugby-test-in-dubai",
+    "timestamp": "2026-09-12T04:54:47.892622+00:00",
+    "status": "rejected",
+    "content_hash": "a04ad1e3444126803f029effcd150466",
+    "strict_hash": "a04ad1e3444126803f029effcd150466",
+    "fuzzy_hash": "dd8acc9a40dc661b354ee0296099df83",
+    "reason": "Новость касается возможного проведения крупного регбийного теста в Дубае и связана с регионом, но по сути это спортивно-аналитический материал о заявке на ЧМ-2035 с политическим и геополитическим контекстом, без явной проверяемой ссылки на источник и без прямой пользы для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.dinamalar.com/world-news-nri-en/gulf/news/emirates-environmental-group-launches-the-silver-jubilee-edition-of-the-25th-cycle-of-the-clean-uae-campaign/3203",
+    "timestamp": "2026-09-12T04:54:50.215841+00:00",
+    "status": "rejected",
+    "content_hash": "688ef09dfacb69603d8fd5613c405ce1",
+    "strict_hash": "688ef09dfacb69603d8fd5613c405ce1",
+    "fuzzy_hash": "4256333989d6a5b1be7807a89294d029",
+    "reason": "Новость связана с Дубаем и ОАЭ (эко-кампания EEG, пресс-конференция в Дубае), не касается политики/войн, не выглядит как откровенная реклама, соответствует ценностям ОАЭ и потенциально интересна русскоязычным жителям как локальная общественная инициатива. Однако текст похож на пресс-релиз без явного проверяемого URL источника, а также нет подтверждения, что это не дубликат/повтор уже опубликованного."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/state-promises-speed-stability-scale-to-investors-in-dubai/articleshow/134074427.cms",
+    "timestamp": "2026-09-12T04:54:51.689283+00:00",
+    "status": "rejected",
+    "content_hash": "618c352f6621fa6a191d39f010d86771",
+    "strict_hash": "618c352f6621fa6a191d39f010d86771",
+    "fuzzy_hash": "e901085c79d8d09f67933d59ac9b1820",
+    "reason": "Новость касается инвестиционной встречи индийского штата Одиша в Дубае — связь с регионом есть, но это по сути пресс-релиз/промо-материал индийского правительства без общественно значимой новости для жителей Дубая, к тому же текст обрывочный и похож на перепечатку индийского релиза."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaUNGMERmRkxPbURXd01Mc0pERWg2RnIyd1UyZWFKUHNleV92VDdEdzRqd3YtQ1lMY1cxQW1rd25fdFp4bU5ZS2pOZHhEVVptVHFmenBXUGNOdTBZRXdFeHdJdkhHV1JQVkFDcUE2dzBEN21hMkJCQjlWQ01xbXJ3Q0U0eW4zQWtEQU4tVTlSemV6S3FwOVlXR3JRVEt3Z3FFaGp2MUFLQWR4UTZMc1dlaTRwMHlrY2xpVnRYSUs3NUsyUWhyRzRCTnRJdVpPekNzeGc?oc=5",
+    "timestamp": "2026-09-12T04:54:54.521084+00:00",
+    "status": "rejected",
+    "content_hash": "eb6f57965d30cf6112d907564a468ed4",
+    "strict_hash": "eb6f57965d30cf6112d907564a468ed4",
+    "fuzzy_hash": "272cb7a17f5c5046c69dec65a19bd2cf",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на пресс-релиз Government of Dubai Media Office без содержательного текста, конкретики и проверяемых деталей — это выглядит как пустая отсылка/пресс-релиз без общественно значимой информации для аудитории. Кроме того, формат «заголовок + дублирующая его же строка» не даёт читателю никакой полезной сути."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYUFsWktMTnh6LUhLTG5CLVBVNlF0N0p3a2ZpUlR2akF0eUNqR2V4WjhjdHlaSWFXWjdyVF93dGd2RFAwQms4YWxQMV92QjZXU0VsWE1zYjVDajRDVmJWWnRBY09QM1dsVUh2VF9hSzdMalRvNjhPaXRvcEk3elhqRWFCZy1mTGUwTTFjdHNiSGxGN2Q0UnBNYXdTNnFNeUw0VGlnQjRWSWltN1NfTDhHa0h3WEs2VHFFWDVNT2dR?oc=5",
+    "timestamp": "2026-09-12T04:54:56.236048+00:00",
+    "status": "rejected",
+    "content_hash": "ac1f82904666e9895338b0e134fd79b3",
+    "strict_hash": "ac1f82904666e9895338b0e134fd79b3",
+    "fuzzy_hash": "b55c4a9ecf4ae958c0ef85ead249fce9",
+    "reason": "Новость сообщает о бое Серхио Петтиса против Йоджи Гото на турнире PFL Dubai, что имеет явную связь с регионом и может заинтересовать русскоязычных любителей MMA в Дубае. Однако текст крайне скудный, выглядит как обрывок заголовка без полноценного содержания, а источник указан лишь формально (MMA Junkie) без проверяемой ссылки."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNEtIOWVWeUMwVWRRODVFbXc0bjZJNUREdUJoMzNSOHpnSEpjTnJEdDRxNHduem4wckc1aG9pblFNV096MkZDNUZ6cWJkbUdlcUMtbjg2eHY5Y1ZmVnpKZXVaUGxvUnpvZ2Z2ek11eXBVS0FreGdzMmFIdjg4ZjNLQy1BenNheEVVTjkxanZaYkFhUy1qS05uQXRfOGt3YlFwVTJsaVZLalRON2oydEUzRHNPNUY2NTlGa0ozYnViam5OdVFWXzhLeXV0YUs2T1BwOVIwakhvcw?oc=5",
+    "timestamp": "2026-09-12T04:54:56.671898+00:00",
+    "status": "rejected",
+    "content_hash": "c9117be8380c078880c183e7abb922ea",
+    "strict_hash": "c9117be8380c078880c183e7abb922ea",
+    "fuzzy_hash": "f8fa13c870e3559cf4e4db156dcb27bb",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVmg4bzFzc2IxdzBEeXNEbnNfeDJFUTY3ZWw0eWlXSk9wb0ZqUXV0UlhsSmxwaUU2R1VuUlA0cWxYQlZSWnNKVWdDclVhRWhSV0hCTmpDM0JxbXhuUzlybUdRTHhCSFNHZmVHbG9oeE9zWUI4SnpHclhiaDFZamwyUFB3WGhxX0dlSkIzbEpiZUV4Q2V4ampN?oc=5",
+    "timestamp": "2026-09-12T04:54:58.039106+00:00",
+    "status": "rejected",
+    "content_hash": "f74add62b5ca236db9c73895722af963",
+    "strict_hash": "f74add62b5ca236db9c73895722af963",
+    "fuzzy_hash": "de2a8d75e6d859668e5b8c21b6bd53d2",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
