@@ -732,5 +732,86 @@
     "strict_hash": "31f78393285350ac1eb57e76124c6bce",
     "fuzzy_hash": "4bd0ff8f48657bdd961ea94a41dce58e",
     "reason": "Новость касается визовых возможностей для индийских специалистов искать работу в Дубае — это явно связано с ОАЭ и полезно русскоязычной аудитории, дубликатов с опубликованным материалом о пассажиропотоке Dubai Airports нет. Однако заголовок и подача ориентированы на индийскую аудиторию, а не на русскоязычных жителей Дубая, что снижает релевантность для канала."
+  },
+  {
+    "url": "https://www.ladbible.com/news/world-news/brooke-george-dubai-case-death-penalty-update-154847-20260911",
+    "timestamp": "2026-09-12T00:27:45.933658+00:00",
+    "status": "rejected",
+    "content_hash": "e4c22dfe1b5d81db40d7ca4eb00ae79f",
+    "strict_hash": "e4c22dfe1b5d81db40d7ca4eb00ae79f",
+    "fuzzy_hash": "4d0de08f3d58a5030f6ebf406d882077",
+    "reason": "Новость касается уголовного дела гражданки Великобритании в Дубае, обвиняемой в убийстве, — это не «большая политика», но сюжет с приговором к смертной казни через расстрел крайне чувствителен, может восприниматься как удар по репутации правовой системы ОАЭ и не даёт полезной или нейтральной информации русскоязычному жителю Дубая. Кроме того, тема смертной казни и обвинения в убийстве нежелательна для канала, а материал выглядит как сенсационный кликбейт без проверяемого первоисточника."
+  },
+  {
+    "url": "https://www.lokmattimes.com/other-sports/ahead-of-auction-gulf-giants-head-coach-helmot-eager-to-assess-talent-in-ilt20-development-tournament",
+    "timestamp": "2026-09-12T00:27:47.729696+00:00",
+    "status": "rejected",
+    "content_hash": "31c482c775d11da20951f37020046488",
+    "strict_hash": "31c482c775d11da20951f37020046488",
+    "fuzzy_hash": "861dbdcf03fa5d69328e160a5bdfd0d2",
+    "reason": "Новость посвящена крикетному турниру ILT20 и подготовке к аукциону, что слабо связано с повседневной жизнью русскоязычных жителей Дубая и не несёт общественно значимой информации. Кроме того, текст выглядит как спортивный пресс-релиз без проверяемого URL источника и с признаками шаблонной подачи."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/sports/ilt20-season-5-officially-launched-in-dubai-with-brett-lee-shoaib-akhtar-among-star-attractions",
+    "timestamp": "2026-09-12T00:27:49.221297+00:00",
+    "status": "rejected",
+    "content_hash": "3e483741e6aa445c5da0f965ecfbe89e",
+    "strict_hash": "3e483741e6aa445c5da0f965ecfbe89e",
+    "fuzzy_hash": "a544c561fa1389f766a702e1eece16de",
+    "reason": "Новость о запуске пятого сезона ILT20 в Дубае с участием звёзд крикета связана с регионом и может быть интересна русскоязычным жителям, однако текст выглядит как типичный пресс-релиз/анонс без общественно значимой новости, а источник (ANI) не даёт явного проверяемого URL в предоставленном фрагменте."
+  },
+  {
+    "url": "https://www.aninews.in/news/sports/cricket/ilt20-season-5-officially-launched-in-dubai-with-brett-lee-shoaib-akhtar-among-star-attractions20260911164058",
+    "timestamp": "2026-09-12T00:27:51.004567+00:00",
+    "status": "rejected",
+    "content_hash": "10d51d452d3fc565bf3726b8e9c9756d",
+    "strict_hash": "10d51d452d3fc565bf3726b8e9c9756d",
+    "fuzzy_hash": "528c0d4f98232719133b957767b21c67",
+    "reason": "Новость связана с Дубаем (запуск ILT20 в Дубае), не касается политики/войн, не выглядит рекламой, нейтральна к ценностям ОАЭ и потенциально интересна русскоязычным жителям Дубая, увлекающимся крикетом. Однако источник указан как ANI с обрывком текста и без явного проверяемого URL, а также нет подтверждения уникальности по хешу — это риск по правилам 5 и 9."
+  },
+  {
+    "url": "https://www.spokesman.com/stories/2026/sep/11/gulf-oil-threatened-anew-as-houthis-reach-key-isla",
+    "timestamp": "2026-09-12T00:27:52.622632+00:00",
+    "status": "rejected",
+    "content_hash": "957cef5aafa3152bacd0e2db117d9a54",
+    "strict_hash": "957cef5aafa3152bacd0e2db117d9a54",
+    "fuzzy_hash": "2411c270b5e9a15b513617c1b3c72787",
+    "reason": "Новость посвящена захвату хуситами острова Перим в Баб-эль-Мандебском проливе и угрозе нефтяным поставкам — это большая геополитика и военный конфликт на Ближнем Востоке, что напрямую нарушает правило №2, а также содержит кликбейтный заголовок и не имеет проверяемого URL источника."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVi12MnVyWGZlZWRTU3lHd0NIbzQ5UllRdDM1SnA3dnlNNlJwQkdOOFNWRW1Sa1VuWklKN3NZR1cwSVJWVy1YYmRzNnpPQllma25YaUkzTE5jWGxmQmFOcTQ5UDAyM204OHFfQ2xTSEdncUN3OHZSM3Rudm81OXlCaGpYbnk?oc=5",
+    "timestamp": "2026-09-12T00:27:55.982715+00:00",
+    "status": "rejected",
+    "content_hash": "81570ee78793325ac2cf62e1cb485805",
+    "strict_hash": "81570ee78793325ac2cf62e1cb485805",
+    "fuzzy_hash": "1aab67e4fca6b317c3afd0ad1b2339c2",
+    "reason": "Новость касается Дубая и инфраструктурного проекта, но её основная тема — война Ирана и её влияние, что относится к большой политике и конфликтам; кроме того, текст выглядит как перепечатка заголовка Financial Times без проверяемого URL и признаков самостоятельной проверки."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSXd5MUJkVjl6TXI3Si1TLWhZMVN3RXA5OVNLYUMzSXNMSjhkTUJ1TXk2dm1DbTFNYjE1TS1wVE1nWlBna2pzVDgzQUliWFJnY2t6N2ZIZDhFNXRWMU44SFNQVGRVVUJZTXZHV1JuRXN3QnBZT1VhUVZMR0xadXE2TXNtVGZlOXJ2eG9OWmhEMDR1N2hZeENGLWxKRzd1cHhCeDNIMjVKTENjaHlkYlVUOGoxQlBEMzlrMUlBU9IBzwFBVV95cUxPMWF6UVhVdHRMUmJzRzhzaDJOS3dfeUJoX0hQOHYxdjhHUFpJMG9yVzNNZW5MM01HbEtRQXpmdWtQMHBCQmJTWW9FZHd1NzFLak1yVFlVOXNnWWFZX0FwYWN6eWYyTUNyaTF6MDZqV1lxdEx5TU9HbkRqV1MyTjVndGZyZGd2NHBxTlRzMjdfYzJ1elNyRXZuNjh5eUVac1ZsUGE5UXFHR1VPOWFrTFd2WTkycXBWd0J6M3RSZHNnaTNJNGVULXVFTDdOb1BvYUk?oc=5",
+    "timestamp": "2026-09-12T00:27:57.936495+00:00",
+    "status": "rejected",
+    "content_hash": "c80cda824299d7ce91c4f981fa58d63d",
+    "strict_hash": "c80cda824299d7ce91c4f981fa58d63d",
+    "fuzzy_hash": "fa8736b892d71d734c177efff178826c",
+    "reason": "Новость касается безопасности аэропортов Дубая и содержит упоминания о ракетных ударах и тревогах, что напрямую связано с политикой, конфликтами и потенциально чувствительными темами для ОАЭ; кроме того, текст выглядит как кликбейт без проверяемого URL источника."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdURFemg4ZzRjM0VDWUVpTjdIMjFqc2NYenAxTHhlR3hpWmd3OFA2TlBfWk5nTXNyck5Na3BWZmdfMzJtQTdHMUN2MEIzZkk5eHRpTk5JT1kwbFVXZlZoZXpMN1JQQjBZOTJuaWxpa01YakQ3czl1d00yWEF6WE9vdGFvZ3BwMVJWMHdLZm9mNTExR0p4Zk53UnByWnRHT1BscUVUcWlWWHB0bTZmQTBDaldQTU5OMFVWZ0dVbEJ6YWo5MjA?oc=5",
+    "timestamp": "2026-09-12T00:27:58.304899+00:00",
+    "status": "rejected",
+    "content_hash": "b673bcf80df8571b80edd9ccc2a327e2",
+    "strict_hash": "b673bcf80df8571b80edd9ccc2a327e2",
+    "fuzzy_hash": "9384616bc6d27859138c650cc0e03402",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZnJrd0RTOE5IcmF5R2E3Q2w3R1RkQ3lGUzh4QW5id0VRRkdsclE5UWhLZTlMMkxhbFkwZS0wT2R6OGU0MnQ5WUhRelNPNmxzS2lIOHRMTEl2NFZ4b01adE1mYkpHeGlOZHFYMC0tbVUzdUhzZ281dVlQYVBlU3NRWC1XTE50RDNmeDlXMzQ1dHBHazUxblZnckhSLVNRMFRrQkQ3T0lWNVVRTEZMZk5jcmdmOWlEOWdJUVoydlQ1WEdWbXZaSDN0cFlVcw?oc=5",
+    "timestamp": "2026-09-12T00:27:59.771113+00:00",
+    "status": "rejected",
+    "content_hash": "18a417c47f5cbe7bcc7738da003a86dd",
+    "strict_hash": "18a417c47f5cbe7bcc7738da003a86dd",
+    "fuzzy_hash": "a0e2223a1f7c600204ac1123c1e2be2b",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
