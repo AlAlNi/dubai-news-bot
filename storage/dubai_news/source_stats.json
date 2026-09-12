@@ -975,5 +975,50 @@
     "strict_hash": "f74add62b5ca236db9c73895722af963",
     "fuzzy_hash": "de2a8d75e6d859668e5b8c21b6bd53d2",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaG44UWY1aGdySmhKNmRveW1zYjQ5VHFlME5YMy1qMVBUTDhKaHI1RmE5dDFCTWVPOG44MVBvZDJlQXM5V1RJTF9FaGRvbHoxYjV0UElobURLb250em9yNm1IVlNlREVBSm1NbW1oYWZLeTJOOC1hY09NRGttRV9ORFBWelRhUlRvQ21jRGJJazROcjI5NGhFU3ZKSVluM1hmSDNQYms0X2U5eVljY1RLVTNR?oc=5",
+    "timestamp": "2026-09-12T05:14:12.039249+00:00",
+    "status": "rejected",
+    "content_hash": "786900526034d2cc345c47d8640376f2",
+    "strict_hash": "786900526034d2cc345c47d8640376f2",
+    "fuzzy_hash": "55cfc7ea7017e35d5eb7791a51b93b54",
+    "reason": "Новость сообщает о начале строительства проекта Dubai Creek Gardens стоимостью 3 млрд дирхамов в Dubai Healthcare City — это явная и позитивная связь с Дубаем, общественно значимая городская/инфраструктурная новость без политики, рекламного или неуважительного содержания. Однако текст крайне скудный (фактически только заголовок и источник), что затрудняет проверку достоверности и деталей."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44MlNjelQtdkFtZFZfRHNObHhEUXotSk1neTA3ZzNqaExPNFJ5S0taXy1nN095SUNVbGlVVVFCa3NNLThnMEdDZ3Q4TTQyNEo2aGg1N1hlUENybWRyczFTN0cwWGJWWUdfdng4YmFndFNMTjg?oc=5",
+    "timestamp": "2026-09-12T05:14:13.930449+00:00",
+    "status": "rejected",
+    "content_hash": "6bd52ee0478dfe0c63fce14b965e3716",
+    "strict_hash": "6bd52ee0478dfe0c63fce14b965e3716",
+    "fuzzy_hash": "2d357a18d81737903f967941eb2e7e08",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на Time Out Dubai без раскрытия содержания, что не позволяет проверить конкретные факты, а формат «8 изменений» выглядит как кликбейт-подборка без явного источника и подтверждаемых деталей. Связь с Дубаем есть, но материал не соответствует требованиям проверяемости и достоверности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjZHRmQyejFxN2FIcTZibUtwVUtzaG93MkxoRlJveFRxaFhJUS1USDlqQ0ZwbWI1V1BabVotRlBhbXN5NjFwSF94ZFdPVk5XTk54ektEMHluc2hINTVHWlpkRk51RzB2X3c1SVpxNlIyQy01M2RlOFV1Y0JSbXZaRkpDcXozOEtPQ3E2U1B3?oc=5",
+    "timestamp": "2026-09-12T05:14:14.370349+00:00",
+    "status": "rejected",
+    "content_hash": "96e790e127c0e6db1d41b669ce4e6523",
+    "strict_hash": "96e790e127c0e6db1d41b669ce4e6523",
+    "fuzzy_hash": "6549267e00484c4950386c8495d22a0f",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTjN0QkFnbmV1M3hjYlVkQ0hLX2IxUG9zT0pUZTRSUTZpWWp2Z0JXQ2FLdnh3VFJwdVhsNVZEdTQxZ1NhTXU5OFhTU0Q3SldSOGlCRTFfX2MwYVkwUjdnUnl2eEQ5RWZBb0VjTUp1RTZvM1JpS29tb0dWZ0QtNmptM0dYYkxKQjVqT3JVTHZfU05GYzNmSGI1eUdmRFkzNjZvYTMwazU0MmNXVEE5Q2FpdUNIWkh2ZzZIakhaSWJtdFlfc1XSAcsBQVVfeXFMTUNCX2VwZ3pPZmVpLTZGMURsQlM0T214T3Q2cFpfRnloYzhqWXc1RWRZRDZYRTc2YjFmckJxenljSjFhYkVET09KY2hUZ09MSC1Pb1RXNS00U05OSXBzY3I3dFQ3d3c3enBiVXh5Mml3OGQycFUzYTQxTmpDV0VpdnYyZWxJX2FqOTlHN2tteWVuXzNFcXI0OE92NnNRS1llTEE4Ul92cS02WlBnRVY5ZTRTYmVuTzJDbndpVklkVGMwY21rUERSdlUzcEk?oc=5",
+    "timestamp": "2026-09-12T05:14:15.597389+00:00",
+    "status": "rejected",
+    "content_hash": "60af0491855bd62f2eb8c4f846e4be2e",
+    "strict_hash": "60af0491855bd62f2eb8c4f846e4be2e",
+    "fuzzy_hash": "526a76bcb5474666953b0305e3161fd0",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYVc5N1ZkRFhETzRvSC1KQ2k2OUJ4dFEtMmM0bTFhY2t2LTIxa052b2E4bUg4YjhQenFZUHBtNHREREYtaEg3SGtkR2wzdTI2aDdVbVh5YllhRlRzM0NQNGRBRUNINTNObUtjRTl5MzVxaGhjdGFPSHZTOFhGcjRlYzJVdzA2VHVmaXJxRXhQOUVLWGZWSzhVcE9oX1d0MkhSOC1tVUx3QjBnM0Nabndlc3BObFpJM0JuMjFKaw?oc=5",
+    "timestamp": "2026-09-12T05:14:16.844186+00:00",
+    "status": "rejected",
+    "content_hash": "39a69cb586709386e7ef031acbe092aa",
+    "strict_hash": "39a69cb586709386e7ef031acbe092aa",
+    "fuzzy_hash": "665c9c39566076673cc89d7d221fbd62",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
