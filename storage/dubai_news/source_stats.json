@@ -970,5 +970,68 @@
     "strict_hash": "590c137a36977b0d1abc5ad1e8692c28",
     "fuzzy_hash": "d30447575ccb9daf1636d2ec92a82e92",
     "reason": "Новость касается визы для соискателей работы в ОАЭ и потенциально полезна русскоязычным жителям Дубая, но текст представляет собой лишь заголовок и ссылку на Business Today без подтверждаемого URL и содержательных деталей, что не позволяет проверить достоверность и правила."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/the-best-places-to-enjoy-an-evening-walk-in-dubai",
+    "timestamp": "2026-09-12T16:36:31.497835+00:00",
+    "status": "rejected",
+    "content_hash": "0aa535ceca53a0dec2daf14ba1722447",
+    "strict_hash": "0aa535ceca53a0dec2daf14ba1722447",
+    "fuzzy_hash": "7f9448284f303e8603f737f4af65fade",
+    "reason": "Новость представляет собой подборку мест для вечерних прогулок в Дубае — тема связана с регионом и потенциально интересна русскоязычным жителям, однако текст выглядит как кликбейт-заголовок без конкретного содержания (обрезан на «[&#8230;]»), не содержит проверяемых фактов и явного URL источника, а также имеет признаки рекламно-развлекательного материала без общественно значимой новости."
+  },
+  {
+    "url": "https://emirateswoman.com/discover-iphone-duo-and-why-it-is-the-future-of-smartphones",
+    "timestamp": "2026-09-12T16:36:39.594603+00:00",
+    "status": "rejected",
+    "content_hash": "814ec8e51d3c888fe34ae52c0feb3471",
+    "strict_hash": "814ec8e51d3c888fe34ae52c0feb3471",
+    "fuzzy_hash": "fc770c1765f87e383b1e917a07df092f",
+    "reason": "Новость выглядит как рекламный материал о якобы новом складном iPhone Duo с ценой и датой старта в ОАЭ, но нет подтверждаемого официального источника, а сам продукт/событие не подтверждены. Кроме того, текст похож на промо-пресс-релиз и содержит признаки недостоверности/ИИ-генерации."
+  },
+  {
+    "url": "https://www.dubaichronicle.com/2026/09/12/dubai-fashion-week-2027-dubai-fashion-scene",
+    "timestamp": "2026-09-12T16:36:52.822778+00:00",
+    "status": "rejected",
+    "content_hash": "14d6e744ecbde2b56905d25e6fb1c0d7",
+    "strict_hash": "14d6e744ecbde2b56905d25e6fb1c0d7",
+    "fuzzy_hash": "0f1dfca7f373f718acc4e1a56fdbcd33",
+    "reason": "Новость касается модной индустрии Дубая (Dubai Fashion Week, Arab Fashion Council), что связано с регионом, но текст выглядит как обрывок анонса со ссылкой на Vogue, содержит кликбейтный заголовок «What Is Changing in Dubai Fashion», незавершённое предложение и признаки неполного/скопированного материала без проверяемого первоисточника."
+  },
+  {
+    "url": "https://www.hindustantimes.com/cities/mumbai-news/67yearold-surat-bizman-alleges-2-28-crore-cash-1-28-000-uae-dirhams-and-1-5kg-gold-stolen-during-dubai-mumbai-flight-101789154719563.html",
+    "timestamp": "2026-09-12T16:36:54.624356+00:00",
+    "status": "rejected",
+    "content_hash": "dd2599523356f1afff24354799343ea9",
+    "strict_hash": "dd2599523356f1afff24354799343ea9",
+    "fuzzy_hash": "ebf5b79c594b01c3754fad2cc0035ff6",
+    "reason": "Новость описывает кражу крупной суммы денег и золота у индийского бизнесмена во время рейса Дубай–Мумбаи, что формально связано с Дубаем лишь как точка вылета, а основное событие — криминальный инцидент за пределами ОАЭ, без общественно значимой или полезной для жителей Дубая информации. Материал выглядит как пересказ индийского криминального сюжета, не соответствует формату канала и не подтверждён явной проверяемой ссылкой на первоисточник."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxNW5PRjRiSzBrVF9LUWZQSVBMT2hzcEtZZTJrYmp0cEtSZC1DY012UmgyRm81YnVEOUd6ZTA5WGp0Rm5uaGtRWTZCM0xKWThSRDdxZ3piWjR3bGp4RUExM3Z4MmozdFFvVXNsajdaR3JaVXh3VXlINWdoa2NMUTQ?oc=5",
+    "timestamp": "2026-09-12T16:36:56.999466+00:00",
+    "status": "rejected",
+    "content_hash": "6200e134aca1187dd75f75a4912d57d9",
+    "strict_hash": "6200e134aca1187dd75f75a4912d57d9",
+    "fuzzy_hash": "ce3d2fb53f1754e34b840f31129b4c10",
+    "reason": "Новость сообщает о презентации Dubai Culture на Ars Electronica в Линце в рамках подготовки Дубая к ISEA2026 — это связано с ОАЭ, но по сути является промо-анонсом культурного мероприятия без конкретной новости или полезной для жителя информации, а текст выглядит как пресс-релиз/заголовок без содержания."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zc3dOaDhWRDNuS0J4cUgwd0loZFZ3NUsyT0M5YnlpOHBIeV84ay11U3lPSWpnbXFDNGo4R1NjT1ZBOS01RU9PdlJKOXFJa1ZkeHBiWDZoZ1lmRHk2ZnA2MWpzcnMwcW8?oc=5",
+    "timestamp": "2026-09-12T16:36:58.635755+00:00",
+    "status": "rejected",
+    "content_hash": "78638d0a61b95a42c261b39263608a2b",
+    "strict_hash": "78638d0a61b95a42c261b39263608a2b",
+    "fuzzy_hash": "272f5bcd63d0d376ec27ccc587965d99",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на Time Out Dubai без какого-либо содержательного текста: не указано, какое направление, что именно изменилось, с какого времени — проверить факты и пользу для аудитории невозможно, признаки кликбейта и неполного контента."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGNvZUV2cndYMVlfOWxwNDZOTm5iZDc4X1A0b19fNFpaZXNMN09pRHd5STRhVUEtR3pxRHJSMGY3QjBkY1VPOUxjWFRPdzk5ZWhMN2Y2TGs4ZUFQaXYtMFRaSl9pREZUODBwUDRCcTZJMDlzUkZYOHMtRVpSclNQSTJjbw?oc=5",
+    "timestamp": "2026-09-12T16:36:59.195662+00:00",
+    "status": "rejected",
+    "content_hash": "55b249355316fa52ac495429e613e14f",
+    "strict_hash": "55b249355316fa52ac495429e613e14f",
+    "fuzzy_hash": "ca7a0a7c5fb0cd5ccdb729f7edc0fd8b",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
