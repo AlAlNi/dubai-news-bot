@@ -908,5 +908,14 @@
     "strict_hash": "70e8b54b95b5ef6f02a9fff269bc449b",
     "fuzzy_hash": "1bc34066d258ec8e48f36bbbb9f4fc98",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.newsx.com/sports/ind-vs-sl-womens-asia-cup-2026-final-will-rain-play-spoilsport-at-dubai-international-stadium-check-dubai-weather-update-chances-of-rain-in-india-vs-sri-lanka-match-and-more-271298",
+    "timestamp": "2026-09-13T21:01:51.289932+00:00",
+    "status": "rejected",
+    "content_hash": "69b608bb782000bd658d173053328b4d",
+    "strict_hash": "69b608bb782000bd658d173053328b4d",
+    "fuzzy_hash": "3e76d72cd6e4c84b82ecc3f5889c2efe",
+    "reason": "Новость о погоде и возможном дожде на финале Женского Кубка Азии по крикету в Dubai International Stadium имеет явную связь с Дубаем и может быть интересна русскоязычным любителям спорта, при этом не касается политики, не выглядит рекламой и не дублирует уже опубликованные материалы. Однако это скорее спортивный анонс с погодным уклоном, чем общегородская service-новость, но формат допустим и полезен аудитории."
   }
 ]
