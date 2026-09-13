@@ -927,5 +927,41 @@
     "strict_hash": "810e9bbd783eb30ced3c6968abf9241e",
     "fuzzy_hash": "247ecd435a9487efc40b7da2fa3dfebb",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/13/my-dubai-rent-family-pays-dh150000-for-four-bedroom-villa-in-town-square",
+    "timestamp": "2026-09-13T14:37:24.827807+00:00",
+    "status": "rejected",
+    "content_hash": "fc59183716b85bff8610de36fedae7f5",
+    "strict_hash": "fc59183716b85bff8610de36fedae7f5",
+    "fuzzy_hash": "8adba577de4e56755a3939890b0c74d7",
+    "reason": "Новость представляет собой рубрику о личном опыте аренды жилья (семья платит Dh150 000 за виллу в Town Square) — это скорее lifestyle-контент, чем общественно значимая новость, и он не является дубликатом уже опубликованного материала о дорожных работах на Al Safa Street. Формально связь с Дубаем есть, политики/рекламы/неуважения нет, но ценность для широкой русскоязычной аудитории низкая и материал выглядит как пересказ читательской истории без проверяемого первоисточника-события."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcGJJWWxtOVA4MU1QS2d4Z2toVGJLZVJKNEdCeWdDUUNRdjJCVU5ncjh5M3dfU3d1QUNQZFJCa3R0T0JaNWFfUzRzc2xqMTB3ckJZQjhZX3VOQzhHVm9PbFBzSWJxb0xkdXhySVRZdmRkV2xBVjJ4RjRMWXFybWtkNjRvWlVETjN4b2d5dk1mNWxCMUxmQ3lFSmI1c01LTzFLbjdlT3ptWVpkMG91SFdiekt0ajYtM2xzOEpMTDVVX3l6S0VGcmdxQzJn?oc=5",
+    "timestamp": "2026-09-13T14:37:27.335220+00:00",
+    "status": "rejected",
+    "content_hash": "2581112bbeb84711bb1ee462107b75dd",
+    "strict_hash": "2581112bbeb84711bb1ee462107b75dd",
+    "fuzzy_hash": "4920391db6da0531500b091a2d20d09e",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на Bloomberg без какого-либо содержательного текста, а её тема («Neither War, Nor Peace») явно относится к большой политике/конфликтам, что нарушает правила 2 и 5, плюс отсутствует проверяемое изложение фактов (правило 9)."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9POS05UHJZUVRPU3Frc29JanFkdnNVdTd2TjBySzlIQXUxY1RLcERBYWNTXzBTakQ0OUppMnk2VC05bHpkckJYQlZsUDF6Q1lVOWZVMWEzTmNMbDBtZUhJYkg5TmpqbHBlRHlFVWV3?oc=5",
+    "timestamp": "2026-09-13T14:37:27.764761+00:00",
+    "status": "rejected",
+    "content_hash": "22f99cf364a4aeaf63e00a2a1b615a7b",
+    "strict_hash": "22f99cf364a4aeaf63e00a2a1b615a7b",
+    "fuzzy_hash": "188bb216a5d08283369a96771e11dffb",
+    "reason": "Cheap prefilter: слишком короткий текст (97 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTHVfVC1HZUZfWXRuSHhlSEJfc0JLNUxEQ09xUUtjQ1I2S0pyQnZ6UHc4NVpQaDUtM25MME5kZjBHa0ItcF9JM1VqcTZDbENWWnZuRm1vOTlUWEdTaUdwTG5KaU5DWjBDUU9id3Z0cHJwa2xuMjM2Ym9pUDNvTER5WFNPVnJacUZFblc2N2hXLWNMX0ZYTjdTVkxpNGVFTjItYWFtMFhDTHRmbkRjenJfYjlKd9IBswFBVV95cUxOTHVfVC1HZUZfWXRuSHhlSEJfc0JLNUxEQ09xUUtjQ1I2S0pyQnZ6UHc4NVpQaDUtM25MME5kZjBHa0ItcF9JM1VqcTZDbENWWnZuRm1vOTlUWEdTaUdwTG5KaU5DWjBDUU9id3Z0cHJwa2xuMjM2Ym9pUDNvTER5WFNPVnJacUZFblc2N2hXLWNMX0ZYTjdTVkxpNGVFTjItYWFtMFhDTHRmbkRjenJfYjlKdw?oc=5",
+    "timestamp": "2026-09-13T14:37:30.813697+00:00",
+    "status": "rejected",
+    "content_hash": "d6c42c5a9510e735207685ff643f03d0",
+    "strict_hash": "d6c42c5a9510e735207685ff643f03d0",
+    "fuzzy_hash": "6aac910e39c3cb8d31f7ab41003fe077",
+    "reason": "Новость сообщает о введении транспортной диверсии на Al Safa Street в Дубае, что явно связано с регионом и полезно жителям, однако она практически полностью дублирует уже опубликованную новость о начале диверсий на Al Safa Street в рамках проекта RTA по реконструкции дороги City Walk."
   }
 ]
