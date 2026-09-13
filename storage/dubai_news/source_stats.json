@@ -923,5 +923,14 @@
     "strict_hash": "64ba6e3207754c8161288a12523cd2a6",
     "fuzzy_hash": "690845796fd9740f691ce8d493f01922",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/ajman-department-of-tourism-culture--media-showcases-emirates-tourism-offerings-at-arabian-travel-market-2026-302876865.html",
+    "timestamp": "2026-09-13T05:10:54.953651+00:00",
+    "status": "rejected",
+    "content_hash": "8468c0a323f68a29eb03bd70930089d5",
+    "strict_hash": "8468c0a323f68a29eb03bd70930089d5",
+    "fuzzy_hash": "3454296d7c426e9d5e92ca9d966d3729",
+    "reason": "Новость касается участия туристического департамента Аджмана в выставке Arabian Travel Market 2026 в Дубае, что формально связано с регионом, однако это типичный пресс-релиз PRNewswire без общественно значимой новости и без интереса для русскоязычного жителя Дубая."
   }
 ]
