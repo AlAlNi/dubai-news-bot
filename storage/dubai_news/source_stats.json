@@ -937,5 +937,50 @@
     "strict_hash": "4738229a569595f83ef8edea4af6e6c7",
     "fuzzy_hash": "1991ac8bde385d64943501f2ed2f1c59",
     "reason": "Новость посвящена образовательным ярмаркам и найму в Индии с упоминанием «Dubai hiring drives», но основная тема — мероприятия в Индии, а связь с Дубаем/ОАЭ слабая и неконкретная. Кроме того, текст выглядит как пресс-релиз компании без общественно значимой новости для жителей Дубая, а источник и детали не подтверждены явным URL."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2ZrR28zaWFONnN6RFVkbUl3YU95cXNWMEtUSE51WTNIVnppc0VPMG5XM3p5bzFvTVNiU0V1M01ZVlpNUGR3S1hEU0pyYUxSUi0xUmFWWHZ1RnQzZXNFTTJ3Y1FVcGZKN0FUVTk5VjVUQWgzdkNzanVLRGsyX05HWUtGWjRCZjc2RmU4T2EyUUc?oc=5",
+    "timestamp": "2026-09-13T00:11:06.119098+00:00",
+    "status": "rejected",
+    "content_hash": "560d50346e0524dfcf10e6c504b59b4e",
+    "strict_hash": "560d50346e0524dfcf10e6c504b59b4e",
+    "fuzzy_hash": "61cc3e85b723ea81471642a672d48565",
+    "reason": "Новость сообщает о 5-летии работы Keolis MHI с Dubai RTA в управлении метро и трамваем, что явно связано с Дубаем и потенциально интересно жителям, но текст выглядит как обрывок заголовка без полноценного содержания и проверяемого источника. Формат похож на пресс-релиз/рекламный материал, а не на полноценную новость, и достоверность подтвердить нельзя."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQX1JUSG5PRGg3R0RsU25nTi1FUVRtS2g2RWFwT2VCSGF4eE10cEhhZGhsRl94emI4Q0lJa2RBaGRQVmNpV2pVY1JPVTBpSm9KLTVaME5La2xtSWkxekhrMnVWZFN5N3RWQ3J0RkRRNDVLNmtwZDNzUERzTjhuNkdqRmI5TFFMdGNFdk1rb25VMkpKNU82NHlnVGlyZE5raEgycDRLMmZMWUVadWZUT2l5bzBKTnNCUnlxTTMycU9rbW5Rc2RrbWJGMXZHNXZIQXNvaU1HSnFUbFkxU3fSAfYBQVVfeXFMTV9mODl3czRXc3NnYUxyVEZfYVZKeG9rQ3hYTzV6dGVfQXljSzR3ZldPZXJpU0RuQ1pINlpFUmRja1E2S19xbVRaZmozLURBYUVqdjg4N0xUT2hzMzVveHZWZ3lSOFVlRmxadXE5eURnU0dmV3lva2ZuYmNJemY3elhYbWtiYnJHMUhfMlZMRDVneDZaVTZOR19NYnN5VDZjZTFZR1NEeDRHelVMNTVPbWJJWVlERUdGWWlmZllrQTJiVnpsR0Ria25UUHBzdHhiZlVCVmFxTWlxdEZmMS00dU5HdEhCeHZialN0ZjBod3lLaFNZSjNn?oc=5",
+    "timestamp": "2026-09-13T00:11:08.430902+00:00",
+    "status": "rejected",
+    "content_hash": "dd994b5d3679a84d99efad3ac12bc166",
+    "strict_hash": "dd994b5d3679a84d99efad3ac12bc166",
+    "fuzzy_hash": "efacb49b5345b0021c1af207926530ab",
+    "reason": "Новость сообщает о 244 изъятых автомобилях в Дубае после того, как водители покинули места изъятия — это явно связано с регионом и может быть полезно русскоязычным жителям как предупреждение о последствиях нарушений. Однако текст представляет собой лишь заголовок и ссылку на источник без подтверждаемого URL и деталей, что не позволяет проверить достоверность."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVjRRUXBvRU9LSEtsd09QcmZEbm9ZUmp5bGJ4LUZaN09CUWRWb0laMERwSW1BLTFzMVFHYVlYd2c1SWc3WjBFalliX0dVS3g5cmRDT1RuVFRZYzBtU3FLdXktbEdDdlBHcVYya3dmdmFhenBCVW96ZnYtYlM3Q3VDazVrWTEzSlczM1ZvQUR0OUVrTlRVQkFwN1VTdGVYdkFOZ2lydHVQdU51bnpEejNLdTI5NA?oc=5",
+    "timestamp": "2026-09-13T00:11:09.077606+00:00",
+    "status": "rejected",
+    "content_hash": "0d8f6e7f16e9758ebdd0bfcd60d11e6e",
+    "strict_hash": "0d8f6e7f16e9758ebdd0bfcd60d11e6e",
+    "fuzzy_hash": "0749aa6e6f6f489e7f11a8bd9d9bb6f8",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObXJCajZMRHFNdnBYV3VnanFLc1RPb2RtRUlSLWNhX2tuZTZkcWRQR2l6ZVlxdlJwamZ3WkpkSklBbTRVZGJKYTA3TUFWX0Vxci1qZ0FzeWl0Zzhma21zMFdSZy1HeG90RW1oTGtqbWZNVV9oNS1YSUFWZzY1VGJsOXBqRS1EZkc4SVdVTmVnWk5GNzFoUXo3ZHlwTl9XdzVwU0M4bFJscC10Zw?oc=5",
+    "timestamp": "2026-09-13T00:11:10.918175+00:00",
+    "status": "rejected",
+    "content_hash": "87de7b72e52afac36fca40a29ca3f165",
+    "strict_hash": "87de7b72e52afac36fca40a29ca3f165",
+    "fuzzy_hash": "882973ca6561d7600887a8fc43388083",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUENfZDlJTjNPQVA4N1gtTk16UUhTVEdoazdoTmZLUVYxaWNGLUhtZG1xS3JXdE1FMlQzaW9IcDVDN2Z1b29KRmR6c1lnVXVRZE9acW9ub0RKaUM4dlAtMzc3c1Fna3h6VF9QY3JoRWpETHZPRlI1NUtjWTdLSFp1cG5iR3lRMWFJei0wMG5qdkVNLVFPdTJZNVpManRCak5qbXZ1TkV4bFN4MjRyNFRlYW12bkZvdVQ1T29KMWtnS2N1QnBNNExyS2JLY25BNG5CZUtZcHRRaU54d9IB4gFBVV95cUxNUEc5UkdqYjR0Z3hrWFZlZDdSN1NoSnpMY2hHbjk3ekVSeTZ6Q0tJa0FjVlBXREkteVFrTTdCVzJISzNrdm9QejhHcllPRWlKWnB3eW91V3hxNTA2RFJ0NGpyWG12MXpzNVM1dEhoT1VnbXRsVHNHc0NtSHUwdHE3eDItMEpSRzU4Rm9mdEJYNmpBQWp5a3pHNC1pd3lxeUpQTkFwTFc5dXlDYmNNQzZTSGpxZWRxV3h4R2plWkRTQmF5RDREaEh0Ulg2SG4xMWI1OHlOVWFfSE1nbjhjQVZuUmNR?oc=5",
+    "timestamp": "2026-09-13T00:11:12.932607+00:00",
+    "status": "rejected",
+    "content_hash": "64ba6e3207754c8161288a12523cd2a6",
+    "strict_hash": "64ba6e3207754c8161288a12523cd2a6",
+    "fuzzy_hash": "690845796fd9740f691ce8d493f01922",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
