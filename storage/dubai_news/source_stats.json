@@ -837,5 +837,95 @@
     "url": "https://propertynews.ae/uae/dubai/dubai-holding-awards-record-dh5-billion-construction-contract-for-new-hq-and-jumeirah-residences-emirates-towers",
     "timestamp": "2026-09-13T11:38:57.093678+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/dubai-healthcare-city-breaks-ground-on-dh3-billion-dubai-creek-gardens-community",
+    "timestamp": "2026-09-13T12:36:20.821042+00:00",
+    "status": "rejected",
+    "content_hash": "212b9715669f52b1b73d98aeeb455b81",
+    "strict_hash": "212b9715669f52b1b73d98aeeb455b81",
+    "fuzzy_hash": "884b74d08effdc7c77dc67ece7cae7da",
+    "reason": "Новость связана с Дубаем и касается крупного девелоперского проекта в Dubai Healthcare City, однако текст выглядит как пресс-релиз/промо-материал без общественно значимой новости, с рекламным тоном и перегруженностью деталями. Дубликатом не является, но по правилам 3 и 6 скорее не подходит для публикации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQY0w0NUNYaWxwaG9qektZQmlJZXpHRks5enFwaDdvbkd0Zk83TjVfREppalVUaFFHVFgtZWhqYmRJeDExSTV5Q0tuYmdvWFZjMXdHMHFfY2lOYjJERTBEU2NacVNKMjJRcWxvN04tc3RGZkx5V2o4ZUhMUjdSZWRZVk15Umh1VFJNUGl3OUZHNkl4Ym0yWWpDQmtJM2g3aU9lSHhNQUZnS21WZE1ub0FkN2Y4Q09fSkVGSzNRU21tY0JrMmFXVW9pNnBNMnVneG1zYnRMNU9qQU4yRVpNMjBjZWE1NHViTmd5UjFodktiUQ?oc=5",
+    "timestamp": "2026-09-13T12:36:43.790928+00:00",
+    "status": "rejected",
+    "content_hash": "d6322b79eaf977e17e78961f40bfd040",
+    "strict_hash": "d6322b79eaf977e17e78961f40bfd040",
+    "fuzzy_hash": "3321d309131f221bff85971f4bffc263",
+    "reason": "Новость представляет собой заголовок и ссылку на статью Bloomberg без какого-либо содержательного текста, при этом тема («Neither War, Nor Peace») явно отсылает к политике/конфликтам, что нарушает правила 2 и 5, а также не несёт конкретной пользы для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUkpmbGF4VnUyZUJIcUVldnQ0VkFVNU5FTDYtZ1hocFpwUUZtMnVoOHYyRnZucjRPZkZpTDJyN1F3Q3lEU094dTlNN2NZRXIxV0pub1d1OHpjUEJpczhES0c3Nl9nN2hYZS1DYVJUYmMyVVJwanc5VFJzVUxja2I3ajVpZ1NLVXlzZE91X1J1Nm8?oc=5",
+    "timestamp": "2026-09-13T12:36:45.587675+00:00",
+    "status": "rejected",
+    "content_hash": "47de8817f2109c822d223a17e7fc1b07",
+    "strict_hash": "47de8817f2109c822d223a17e7fc1b07",
+    "fuzzy_hash": "86e9f8fe787410f4e35942f5660f01c5",
+    "reason": "Новость касается экономических связей Ирана с Дубаем на фоне войны, что напрямую связано с большой политикой и конфликтами, а также может быть воспринято как чувствительная тема для ОАЭ; кроме того, заголовок выглядит как кликбейт без проверяемого URL источника."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWVlWanNBeUhPUGNSR0hseHl6dExwbXFtekMzejRVWWRsc2ZzMWNnRGRTRXh5QXh5WlJiOU0yWDY5Y0hocjZzQmN2T3JyVVB5VVZFd25maTgtU1l5WnA1aU9JaVRMUmlYY3o2cUhNZ01OVi1jSmRZUkZHYW5jc3hGNzRSQkpwWkI0RFRybUM3UlJkV3lsSXJIWnp6NTcwV1ktZlJzeEpIaFF2NmdIdzlRRl80UndaNkk0aDh5am9KRW90WkhaSktKWk5Ia2lmSnRpSmhIQWtPSQ?oc=5",
+    "timestamp": "2026-09-13T12:36:45.834190+00:00",
+    "status": "rejected",
+    "content_hash": "8fa8445bd3542506ca1989818bd159d2",
+    "strict_hash": "8fa8445bd3542506ca1989818bd159d2",
+    "fuzzy_hash": "55bad4376ba90f35d2ed20b832777463",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObkY1TlRELVRwSVBDUkhOOElBRlZTRzJTSEtNLVZjOUpNUjcyY1BKbEY1QjF6N09hTVRtdzNkbTA5TzBRSHlCcUdsR0k2Vl90ZFUxNWdMSXpVdjF0a2NSVldUZHFRNVgtdHJ4ZWkzcFFKSlIzLU5nQnhfVnpJblZYUmFlMFZEczJlRlQtdmhyVXU2OXQxeWlfSFhWLW5jNDZ3QmcxVldxX1J0TnNZYU1BbnVwVQ?oc=5",
+    "timestamp": "2026-09-13T12:36:47.267277+00:00",
+    "status": "rejected",
+    "content_hash": "8dae317fa89433b90b5475eacdf13e3f",
+    "strict_hash": "8dae317fa89433b90b5475eacdf13e3f",
+    "fuzzy_hash": "c4efe1f6e1aecbb77f4b880626fcd6d2",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGJrRXh4NnpfbWJ3b3h3VHFJTVdHNEJGTVdfN1JwcXVBM0hBUXVEMjFPX3VaZEU5MHdtQllNcVRZZGxiVnY4ckljS29IbEZ5cnppZkhlbWNIWXAyWHppdVRjWVE0dFhZdmpUU0ZFTWtncVhaVlBCWFBmcHpKYjNhN0tZb1V4czUtcm84dGlMZlhxcWVmbmFwUktVQTVPam83S0Joek5EZFjSAcMBQVVfeXFMTlpPdkZ6V1JYNVBPenpRc3VzRHpsek1uNThkcnhNSVhHMTJaSzY5OFlyM0F2RUpVa3pNWktOY0piRU1JakZDLVNWMDUzY0tvLVZHcUNab0E0TGpQM1FrUFpUQlAzS01iUzAyUENfYzZtNUsydXlUZngtUUdsTEIzZHZSUXQ3dWZkY0dNT3Z6aXkwUld3eGJ2c2lLSEFfaUoxS1pWWHQ0NkJ1dFUwaW56dktoeWVOZ3dUUnRVQ3lKQ1k5aWNN?oc=5",
+    "timestamp": "2026-09-13T12:36:49.284347+00:00",
+    "status": "rejected",
+    "content_hash": "8678484409304bc5220f31ebcd4c239d",
+    "strict_hash": "8678484409304bc5220f31ebcd4c239d",
+    "fuzzy_hash": "b0e20fa322b6bad3f114a3877525db1c",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ2ZxZHNMTnVpN1RuNm41Slk0NmV6NWlISkxzYU1zMkVQRl9NUEh3REE1RkU3cWJpUWtHdFdDR2tWZnVHTUM2eXNmaHNfMFQ2ZHlZV0hkNFhXV2VIRHpjWXh2S0ZsRmxkak53UVVLYy1MUUlId1ZRTU9Wanc1a29TWVVGY0JqbzhfUktBMm4xQ0xBTmFiUlVxa0pZWFN6Mk9BUjJB0gG2AUFVX3lxTE5LMDB1SnY1UDVtdlJwbWo2YkF3eTVVTXQzczJHT1Bqb1RIVXMxMzloUE1sdUcyRWVGVE9OcHJ4NlBydDAxUm5hM3ZjNmlITENQd3BZdG1mZTFhUVd5ZUtYalZFNDNZNEk5dnZXWHlzWFFZYXg4UjhGenJ2OUtMbmp1R0prQ2traGlKQWRrQVg2cXA3SWxwcURYdHd0OU1lOUQ0U2pRMHhpNndMVjRvY3p2ekNJWDNR?oc=5",
+    "timestamp": "2026-09-13T12:36:50.833408+00:00",
+    "status": "rejected",
+    "content_hash": "0725bc2b3ddac2d462709fc4eafdb031",
+    "strict_hash": "0725bc2b3ddac2d462709fc4eafdb031",
+    "fuzzy_hash": "30c3cd34b1af33013589d754d903b81a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ0QwMVBYTm5FZDI5MVBLbWhBX1dHRnljbUsxOHRPRkhTeHJFdlZxMlFPUVB4Wm80TjNHMHJsS2g1ZGdnZkp6ZjAyYVZyazRkemNMVkZQczFxQTlLby1QZHZlVU1ESnRwZThLR3VBRnhxRkNOdWJwV3JHbFBjbnlvN1pDSDhTNGRFS0ZHcU9sX3MzVVRfUlVTatIBswFBVV95cUxOTHVfVC1HZUZfWXRuSHhlSEJfc0JLNUxEQ09xUUtjQ1I2S0pyQnZ6UHc4NVpQaDUtM25MME5kZjBHa0ItcF9JM1VqcTZDbENWWnZuRm1vOTlUWEdTaUdwTG5KaU5DWjBDUU9id3Z0cHJwa2xuMjM2Ym9pUDNvTER5WFNPVnJacUZFblc2N2hXLWNMX0ZYTjdTVkxpNGVFTjItYWFtMFhDTHRmbkRjenJfYjlKdw?oc=5",
+    "timestamp": "2026-09-13T12:36:52.301801+00:00",
+    "status": "rejected",
+    "content_hash": "7b0178add26efb1d249febba631e56fc",
+    "strict_hash": "7b0178add26efb1d249febba631e56fc",
+    "fuzzy_hash": "52473bde566d52a8b86eb37f88bbac4d",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS25WMUtZVWhzVVJ1cjJRR0hrM0FtMEY0WUgyeHJabVJrS1BBVG1KRWpHTUNJX1BFYjA1TGJaejdmeEh5bzBPZEhWVklaRHJxTEVjbHF3V3BlbGRLMk9MUTV6QV9uMUtkTzVPODJCS044MHVtNjY5NDREbDNBTE1fRmZYdmFiR3J0VGczd3l5cmpTOUJRNWxCM21xX0FNN2hFWmMtSmdlSUN0U05ieVJV?oc=5",
+    "timestamp": "2026-09-13T12:36:53.585508+00:00",
+    "status": "rejected",
+    "content_hash": "5b2959aef1e781d4db889c9c09ec9f68",
+    "strict_hash": "5b2959aef1e781d4db889c9c09ec9f68",
+    "fuzzy_hash": "6aa574dbe8c7209ccf42292473abac33",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY3lVYUhMTW5XX3RpQWYwbnA5UFFJVko1eE5XZDNWcXA1SGxaV1o0VDJRMkE4Q1YwN2dUZ2ZlRXBDbGQtbnJvN1FNRjhNOEVibmUzUDRQSXp5VXc5a3kySmRDTTJBYWV4aUpBM1FSUVQxRUQyNUlKQk1Fb2JOZ3F6NEpOV2dBTHJCRVJF0gGTAUFVX3lxTE1wdkdSOUh3NWQySVhYdXNRczA5RjZmcVdRdnAwdHlfLU5KMTBmekJ2OHZnVTJVSDFQQ3VfOTZEWjhsQlp5bE42aGhqNVUtQnRVckNlczlKczUySVNKeHMzM1BGeGNhQ01nLV9zS2pyTHp6YUJtdXMxRE5GdnhVMG84bXR6by1uN3dQcmh5RmdWcHd2TQ?oc=5",
+    "timestamp": "2026-09-13T12:36:54.812076+00:00",
+    "status": "rejected",
+    "content_hash": "810e9bbd783eb30ced3c6968abf9241e",
+    "strict_hash": "810e9bbd783eb30ced3c6968abf9241e",
+    "fuzzy_hash": "247ecd435a9487efc40b7da2fa3dfebb",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
