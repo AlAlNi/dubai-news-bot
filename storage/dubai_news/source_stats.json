@@ -831,5 +831,23 @@
     "strict_hash": "a2b3e5141520aaa2087eaf55a9ab8b4f",
     "fuzzy_hash": "0edffc5b70b8654cf3ff239ff9d4c87f",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.livemint.com/sports/cricket-news/india-women-vs-sri-lanka-women-live-score-womens-asia-cup-2026-final-indw-vs-slw-cricket-live-scorecard-13-september-11789303935290.html",
+    "timestamp": "2026-09-14T02:14:26.565380+00:00",
+    "status": "rejected",
+    "content_hash": "44384161d2be1e0aef5d7e98862655fb",
+    "strict_hash": "44384161d2be1e0aef5d7e98862655fb",
+    "fuzzy_hash": "4fff3f8c285ad6773beadfc4d592d43b",
+    "reason": "Новость о финале женского крикета Индия–Шри-Ланка в Дубае имеет слабую связь с регионом (только место проведения) и не несёт пользы или интереса для русскоговорящего жителя Дубая, при этом выглядит как спортивный лайв-скор, а не новость канала о жизни города."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLXVVZGlQOU51N2toRi12b19kVUFza2ZIU2xOclQzX3hOeEdubjkyWlcwYU9BOGl3MGJ0M2pjUlRfR2g3OTdQbnMtTjRpT2F2aE9qeGVEQWdKSFE0RnFqVmVxOUVlUzlCOHJ5N2xUOFZfWFBqMXZoYU9pRlhBcXRrXzY1YzBrUEM3RG9lT2wwMllWYmNWY1ZkM1RWN1o2RG16X2UyVjc5MVhfaGVrOUpsRzV4STREQjVMMnNjQzZUaVRNd9IB1AFBVV95cUxQM3YxX21GQ0VnTk1aMzgxRmV1M01iVUg5NnFfVU41dFl1b3dES3lCSGE4V294bjNMR0JJVms5bC1vNHdtb0l5YksyYV9ER0JWM2pUdGdmdHI0dUJ2YURRVjRJcmR6Y0t5d2IyVmpUaGZPNnp1UkRwemNCSkFZaEhsVWU1M1Y5blVLVG5BVVNXekJ0NjViSjZvc2ViaEVMM0JYZHV4TmRlSm96MVRrQVgyT0JBdjBjU0piUjhsVHY4RC1DYlEzNnQ5TWtXUDNLOWZ2VmwwUQ?oc=5",
+    "timestamp": "2026-09-14T02:14:29.421821+00:00",
+    "status": "rejected",
+    "content_hash": "6eaa59b96503f5af7ed9fa88dab9cc40",
+    "strict_hash": "6eaa59b96503f5af7ed9fa88dab9cc40",
+    "fuzzy_hash": "e848ddcfd44e37fe0f1d0ca3812de034",
+    "reason": "Новость касается бюджета и эффективности полиции Дубая — формально связана с регионом, но по сути это сухая бюрократическая отчётность без практической пользы для русскоязычного жителя, к тому же текст представляет собой лишь заголовок и источник без раскрытия содержания, что не позволяет проверить достоверность и ценность материала."
   }
 ]
