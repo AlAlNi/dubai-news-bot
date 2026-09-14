@@ -750,5 +750,86 @@
     "strict_hash": "7826b0810d18c36f1e25ae6c06608088",
     "fuzzy_hash": "e895df77089a6d20a8968f47aeb8f4b1",
     "reason": "Новость сообщает о начале крупных транспортных перекрытий на улицах Al Safa и City Walk в Дубае, что напрямую связано с регионом и полезно жителям. Однако она практически полностью дублирует уже опубликованную новость №2 («Dubai Al Safa Street diversions begin as RTA starts major City Walk road upgrade»), а также содержит искажение названия (Al Safah вместо Al Safa) и признаки низкого качества текста."
+  },
+  {
+    "url": "https://www.nation.com.pk/13-Sep-2026/mutahir-khan-documenting-life-dubai-world",
+    "timestamp": "2026-09-14T01:23:29.787066+00:00",
+    "status": "rejected",
+    "content_hash": "147ba6566d96193b0167226d4eace930",
+    "strict_hash": "147ba6566d96193b0167226d4eace930",
+    "fuzzy_hash": "2de59d3fb624e87cf2802dd57acc63bd",
+    "reason": "Новость рассказывает о пакистанском TikTok-блогере, документирующем свою жизнь между Дубаем и другими странами, — связь с регионом слабая и не несёт общественно значимой ценности для русскоязычных жителей Дубая, а формат ближе к лайфстайл-контенту/промо персоны, чем к новости."
+  },
+  {
+    "url": "https://www.indiatvnews.com/sports/cricket/india-vs-sri-lanka-women-s-asia-cup-2026-final-pitch-report-how-will-surface-in-dubai-play-2026-09-13-1054119",
+    "timestamp": "2026-09-14T01:23:31.653366+00:00",
+    "status": "rejected",
+    "content_hash": "cf16490c49d059c7bbdabb8e7ffb421c",
+    "strict_hash": "cf16490c49d059c7bbdabb8e7ffb421c",
+    "fuzzy_hash": "ccc70025d4f874e3cf7e8190275b2e32",
+    "reason": "Новость о финале женского Кубка Азии по крикету между Индией и Шри-Ланкой в Дубае имеет явную связь с регионом (Дубай, Dubai International Cricket Stadium) и может быть интересна части русскоязычной аудитории, однако это спортивное событие с уклоном в аналитику поля (pitch report), что ближе к специализированному контенту, а не к общегородским новостям. Дубликатов среди опубликованных новостей нет, признаков ИИ-генерации или кликбейта не выявлено, тема не политическая и не рекламная."
+  },
+  {
+    "url": "https://www.newsx.com/sports/ind-w-vs-sl-w-mohsin-naqvi-to-not-attend-womens-asia-cup-2026-final-in-dubai-check-latest-update-271381",
+    "timestamp": "2026-09-14T01:23:33.340143+00:00",
+    "status": "rejected",
+    "content_hash": "67ab01bd2d8b5ed3e11a6c2792431178",
+    "strict_hash": "67ab01bd2d8b5ed3e11a6c2792431178",
+    "fuzzy_hash": "ef4af16bf27623f9addbda7fa4e44a74",
+    "reason": "Новость касается крикета (Women’s Asia Cup 2026 в Дубае), но по сути это спортивный материал с политическим оттенком вокруг персоны Мохсина Накви и без явной общественно значимой связи с Дубаем/ОАЭ; к тому же тема не соответствует формату канала о жизни в Дубае и не подтверждается явным проверяемым URL источника."
+  },
+  {
+    "url": "https://www.bangkokpost.com/world/3318943/irans-economic-ties-to-dubai-hard-to-break-despite-war",
+    "timestamp": "2026-09-14T01:23:34.876805+00:00",
+    "status": "rejected",
+    "content_hash": "6356460228b7bebe88d2e0e4f840a1a5",
+    "strict_hash": "6356460228b7bebe88d2e0e4f840a1a5",
+    "fuzzy_hash": "764e92991539d0976ae7be9957e30ad0",
+    "reason": "Новость касается экономических связей Ирана и Дубая на фоне войны, что напрямую связано с регионом, но основная тема — война и политика, а также санкции/торговые ограничения, что нарушает правила о политике и конфликтах. Кроме того, материал выглядит как аналитика международного агентства, а не локальная полезная новость для жителя Дубая."
+  },
+  {
+    "url": "https://www.thenationalnews.com/travel/2026/09/13/more-than-170-flights-delayed-in-dubai-and-abu-dhabi-on-sunday",
+    "timestamp": "2026-09-14T01:23:37.183987+00:00",
+    "status": "rejected",
+    "content_hash": "20a721eb6836cf280d93a52e707f0403",
+    "strict_hash": "20a721eb6836cf280d93a52e707f0403",
+    "fuzzy_hash": "fb6adbb772862b0e9ff89ec541eb68ac",
+    "reason": "Новость о задержке более 170 рейсов в аэропортах Дубая и Абу-Даби и отмене двух рейсов flydubai имеет явную связь с ОАЭ, не касается политики, не является рекламой и полезна русскоговорящим жителям и туристам. Однако текст обрывается на полуслове («Dubai International A...»), что не позволяет подтвердить достоверность и проверить источник по явному URL, а также нет признаков официального подтверждения — это основание для отклонения по правилу 9."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeUdaTTdDakc0b25UWGRiTHc1Q0FVbl9QTHY1OFJCYWxVU3E5V3dfNTM4c0FjU0xDTjVCLU1CX3RheG1QeVhNSGlKVXNKNEQ4YlVPS1lwWlo2aXJlMTQ2MFUxNHlaTlQ5X2xFdkNkUUR3ekZXNHc5bTgzQWtqX21zQS1KTWVjR1EyZWxNQVBzaw?oc=5",
+    "timestamp": "2026-09-14T01:23:39.747059+00:00",
+    "status": "rejected",
+    "content_hash": "0d1021095a5955c7591959845ddf7e73",
+    "strict_hash": "0d1021095a5955c7591959845ddf7e73",
+    "fuzzy_hash": "532bc2ac0e058f31ce42764c17e540f2",
+    "reason": "Новость связана с Дубаем (Dubai Police, Arabian Travel Market) и не является политикой, рекламой или неуважением к ценностям ОАЭ, однако текст представляет собой лишь заголовок и ссылку без содержательного описания, что не даёт аудитории полезной информации и не подтверждает достоверность по явному URL."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObVd0THRsRHl4QlZyMENqRXdZNF9ybjhsYnhSVE9KNlNjUTE0cV9ZMTFfbk9NZW1YOHBxYlZybk02VXN5YUVGRzh2SjdIdzZ1TGY1MUJzS1BsdG8tbjlEZTdLUktIWlh2LUxyTEZObW9UV1BwSXdUTWVnNGZ1MUJRVi1TcENwQkJBeXo5dEhuT0hiT3JrS3Vud29HeEEySWRLY3I2MkRuUmJzVGJiNjBGdDhJbTTSAc8BQVVfeXFMUFZ4Ylp5NlEtWnU2X0tLYmVFemtwQmRfODN4QVpJakRTZGZwTWxPeGpYZjJyajFmYnREcVpCdzk2MWZtUUNKUGljcUtndTU5YWM0TU96eVFsTHc0dWtlWmdzUTRXZ2NQem1HNm9vMTRfMFFpZzNLUkNyU0EtRkE3ODhDcFBrX2IxNDVRaFVDQW1EOVVRVEpGNVJGYWx2c1pLaG4xTjg5V0tnZUViODNvd1JpV2JqSXRuSjVmcmk2SzZua2RyN3I3Q2gyazUxZUJz?oc=5",
+    "timestamp": "2026-09-14T01:23:41.567265+00:00",
+    "status": "rejected",
+    "content_hash": "aff7b43ae0d498a9622760c9d54f461f",
+    "strict_hash": "aff7b43ae0d498a9622760c9d54f461f",
+    "fuzzy_hash": "a2c78aadac7155ce45d0bd224689a54e",
+    "reason": "Новость связана с Дубаем (Dubai Police, Arabian Travel Market 2026) и не касается политики, рекламы или спорных тем, однако текст представляет собой лишь заголовок и ссылку на источник без содержательного описания, что не позволяет подтвердить факты и пользу для аудитории. Дубликатом для уже опубликованных новостей не является."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1nYzhWTExZSmp1V1pLY2syYmFqVUUya1lCMUhmVTg2S2lNUGhNUTZQYll3WmRadGlGMW5IaDlwN0VfVXdfWEhHVHBOaF94cFZ5M0tBYjVZZW90RldwamJ3R21UNVp1RFpIMGlnU1NJSW8tREdSa1Z5X3RqWQ?oc=5",
+    "timestamp": "2026-09-14T01:23:42.109093+00:00",
+    "status": "rejected",
+    "content_hash": "5bcf7978abf319eb7525306087503240",
+    "strict_hash": "5bcf7978abf319eb7525306087503240",
+    "fuzzy_hash": "c07824a50cdcd19969d219b315f68108",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM29xWkZQelVBOG1WS0pSUlNneXAyaUhoVkhZZjd0NWQ1SlRmS2xPRFQ4WDRrVlhhNGF4NFNFaVp2bnpIZjFvcmNFcVV2eHpwVE5zZmI2SERZTnlKZ0thLU0yN2Y0b0JqYlV4TEFLZURtTnJpQnM3N0hieEhqVnZxNVN4QTAtVEQxeUM2NHFGZ3VVajVlYzhPMHFHQTFQUllkdnQwTkV4ZVpPaktl0gG0AUFVX3lxTE1WYi1odUJQSUZSNEZXa1hBTFpmazlMeTE2REVOVnhZTzNZN2NjVjI0aF9aYVIwRi1TcjJVVkZQRzhhcFJKcEFOMUtrNThCdmZYUnNqYURJU3RGYUQ4RGRqOWZic2tXc2NHcDBIbnRDS2JKaUIwTWlndjN6V2d4dlNCMl9VdG9VRzRZWE81dEZLT0dsMmFja2lSZjhDcm9oZEwxNndfN2RLMmtWUlVHdUhCNmNxTQ?oc=5",
+    "timestamp": "2026-09-14T01:23:43.711665+00:00",
+    "status": "rejected",
+    "content_hash": "a2b3e5141520aaa2087eaf55a9ab8b4f",
+    "strict_hash": "a2b3e5141520aaa2087eaf55a9ab8b4f",
+    "fuzzy_hash": "0edffc5b70b8654cf3ff239ff9d4c87f",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
