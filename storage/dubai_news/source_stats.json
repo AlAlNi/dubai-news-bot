@@ -723,5 +723,41 @@
     "strict_hash": "6eaa59b96503f5af7ed9fa88dab9cc40",
     "fuzzy_hash": "e848ddcfd44e37fe0f1d0ca3812de034",
     "reason": "Новость касается бюджета и эффективности полиции Дубая — формально связана с регионом, но по сути это сухая бюрократическая отчётность без практической пользы для русскоязычного жителя, к тому же текст представляет собой лишь заголовок и источник без раскрытия содержания, что не позволяет проверить достоверность и ценность материала."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/indore/barwanis-eco-friendly-ganesh-idols-to-be-set-up-in-dubai/articleshow/134218988.cms",
+    "timestamp": "2026-09-14T06:46:17.859756+00:00",
+    "status": "rejected",
+    "content_hash": "241004c50ca79bba73ef320f31de44b9",
+    "strict_hash": "241004c50ca79bba73ef320f31de44b9",
+    "fuzzy_hash": "61d34d170dad27b18d47e1706524c079",
+    "reason": "Новость о том, что эко-идолы Ганеши из индийского Баруани впервые установят в Дубае, слабо связана с повседневной жизнью русскоязычных жителей Дубая и выглядит как локальный индийский материал без проверяемого источника и явной общественной значимости для аудитории канала."
+  },
+  {
+    "url": "https://www.newsx.com/sports/womens-asia-cup-2026-shafali-varma-and-shree-charani-star-as-india-thrash-sri-lanka-by-72-runs-in-dubai-to-lift-their-8th-title-271446",
+    "timestamp": "2026-09-14T06:46:20.349097+00:00",
+    "status": "rejected",
+    "content_hash": "b1173a7a4c80763ae8b12e4c219876da",
+    "strict_hash": "b1173a7a4c80763ae8b12e4c219876da",
+    "fuzzy_hash": "6af2a910b8584ae27fe419ca7406710d",
+    "reason": "Новость о финале женского Кубка Азии по крикету в Дубае имеет явную связь с регионом (Дубай, Dubai International Stadium) и не касается политики, рекламы или чувствительных тем, однако она не является дубликатом уже опубликованных материалов. При этом это спортивное событие международного уровня, которое может быть интересно части русскоязычной аудитории Дубая, но не несёт практической пользы или широкой общественной значимости для большинства жителей."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc1ZsbzJjVzF6T3IzczhaNXpqMzRCMDNSdjVHMnhPQ0hPeU5pTnV3UFJORWpHUkl5Sml6bDFMUE1fdDFhei12N0pJSFY0dTktUk5LNlV4T093b29HdnoxREk5SGYta2Z0ZFVtdDFNVU5MMkZibjkyUHFHdDdsZG5rXw?oc=5",
+    "timestamp": "2026-09-14T06:46:22.920774+00:00",
+    "status": "rejected",
+    "content_hash": "0c2730234e7db775d33105161ca513b3",
+    "strict_hash": "0c2730234e7db775d33105161ca513b3",
+    "fuzzy_hash": "aefc415c1a5a8e23f2f619efe692d188",
+    "reason": "Новость сообщает о причинах увеличения времени в пути по Дубаю на этой неделе, что напрямую связано с регионом и полезно жителям, однако заголовок и текст крайне скудны и выглядят как кликбейт без конкретики, а тема пересекается с уже опубликованной новостью о перекрытиях на Al Safa Street / City Walk."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeDNkeHFmQk5oOFBpSzZvWEp4cG5kMGJBMUtoNm1mVDlWazFMSU5lTTVJMWdNMnRtcVVrSi00dk5TTmNEVzVnSU1KS0FRUEVIOS02UmZZZDJSSmtHTElCbGwtUUtpdE1YdmdQYkJWdURHYUw0YlNXS1Nma2lFYmFSYzYwRXVVLWNjcWpiNGZFTElOMTZDU2I2b3duWTZpMDNyeXZUbFhRaG0?oc=5",
+    "timestamp": "2026-09-14T06:46:27.635120+00:00",
+    "status": "approved",
+    "content_hash": "52e45529e0ca1f37ae504400a8bd21cc",
+    "strict_hash": "52e45529e0ca1f37ae504400a8bd21cc",
+    "fuzzy_hash": "b51a68a82dcc866543d65db15d00e26d",
+    "reason": "approved"
   }
 ]
