@@ -1,77 +1,5 @@
 [
   {
-    "script": "auto_notify",
-    "started_at": "2026-09-04T14:11:37.554203+00:00",
-    "finished_at": "2026-09-04T14:11:38.345730+00:00",
-    "duration_seconds": 0.792,
-    "success": true,
-    "status": "published",
-    "counters": {
-      "telegram_calls": 1,
-      "telegram_failures": 0,
-      "published": 1,
-      "duplicate_skips": 0,
-      "no_posts": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-09-04",
-      "daily": {
-        "published_per_day": {
-          "value": 2,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 76.47,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "news.google.com",
-            "events": 49,
-            "reject_rate": 91.84,
-            "duplicate_rate": 16.33
-          },
-          {
-            "source": "whatson.ae",
-            "events": 13,
-            "reject_rate": 84.62,
-            "duplicate_rate": 15.38
-          },
-          {
-            "source": "www.cryptobreaking.com",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 33.33
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
     "script": "rss_collect",
     "started_at": "2026-09-04T15:22:25.328281+00:00",
     "finished_at": "2026-09-04T15:23:37.981422+00:00",
@@ -17835,6 +17763,96 @@
           },
           {
             "source": "www.thenationalnews.com",
+            "events": 5,
+            "reject_rate": 80.0,
+            "duplicate_rate": 40.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-09-14T23:18:45.324797+00:00",
+    "finished_at": "2026-09-14T23:18:56.053680+00:00",
+    "duration_seconds": 10.729,
+    "success": true,
+    "counters": {
+      "attempts_made": 4,
+      "fetched": 4,
+      "rejected": 3,
+      "approved": 1,
+      "deepseek_calls": 5,
+      "deepseek_calls_max": -1,
+      "gnews_fetches": 3,
+      "google_rss_fetches": 1,
+      "reserve_fetches": 4,
+      "rss_fetches": 2,
+      "telegram_failures": 0,
+      "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-09-14",
+      "daily": {
+        "published_per_day": {
+          "value": 2,
+          "target_min": 2,
+          "ok": true
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 100.0,
+          "target_min": 95.0,
+          "ok": true
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 89.74,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.newsx.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 33.33
+          },
+          {
+            "source": "news.google.com",
+            "events": 51,
+            "reject_rate": 92.16,
+            "duplicate_rate": 3.92
+          },
+          {
+            "source": "www.thenationalnews.com",
+            "events": 6,
+            "reject_rate": 83.33,
+            "duplicate_rate": 33.33
+          },
+          {
+            "source": "whatson.ae",
+            "events": 6,
+            "reject_rate": 83.33,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "propertynews.ae",
             "events": 5,
             "reject_rate": 80.0,
             "duplicate_rate": 40.0
