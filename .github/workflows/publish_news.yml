@@ -16,13 +16,25 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: dubai-news-storage
+  cancel-in-progress: false
+
 jobs:
   publish-news:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        ref: main
+
+    - name: Configure storage commits
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
       
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -40,6 +52,7 @@ jobs:
         
     - name: Run auto-notify
       env:
+        SOURCE_VERIFIER: ${{ secrets.OPENAI_API_KEY != '' && 'openai' || 'deepseek' }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
       run: |
@@ -47,6 +60,7 @@ jobs:
         python -c "from auto_notify import handler; import json; result = handler({}, None); print(json.dumps(json.loads(result['body']), indent=2))"
         
     - name: Commit and push changes
+      if: always()
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"

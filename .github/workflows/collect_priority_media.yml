@@ -10,13 +10,25 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: dubai-news-storage
+  cancel-in-progress: false
+
 jobs:
   collect-priority-media:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        ref: main
+
+    - name: Configure storage commits
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -42,6 +54,10 @@ jobs:
 
     - name: Run priority media collector
       env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        SOURCE_VERIFIER: auto
+        OPENAI_MONTHLY_BUDGET_USD: ${{ vars.OPENAI_MONTHLY_BUDGET_USD || '3' }}
+        OPENAI_MAX_CALLS_PER_DAY: ${{ vars.OPENAI_MAX_CALLS_PER_DAY || '8' }}
         DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
         GNEWS_API_KEY_BACKUP: ${{ secrets.GNEWS_API_KEY_BACKUP }}
@@ -51,6 +67,7 @@ jobs:
         python -c "from rss_collect import handler; import json; result = handler({}, None); print(json.dumps(json.loads(result['body']), indent=2))"
 
     - name: Commit and push changes
+      if: always()
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
