@@ -22,6 +22,13 @@ class BudgetUnavailable(RuntimeError):
     pass
 
 
+def manual_daily_limit_bypass():
+    return (os.getenv("GITHUB_ACTIONS") == "true"
+            and os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch"
+            and os.getenv("GITHUB_REF") == "refs/heads/main"
+            and os.getenv("OPENAI_BYPASS_DAILY_LIMIT") == "true")
+
+
 def limits():
     try:
         monthly = Decimal(os.getenv("OPENAI_MONTHLY_BUDGET_USD", "3"))
@@ -121,6 +128,7 @@ class Budget:
         if kind not in {"verification", "search"}:
             raise BudgetUnavailable("Unknown OpenAI operation")
         monthly_limit, daily_limit = limits()
+        bypass_daily = manual_daily_limit_bypass()
         amount = SEARCH_RESERVATION_MICROUSD if kind == "search" else RESERVATION_MICROUSD
         with self.locked():
             data = self.read()
@@ -129,14 +137,15 @@ class Budget:
                 "calls": 0, "reserved_microusd": 0, "input_tokens": 0,
                 "output_tokens": 0, "estimated_microusd": 0,
             })
-            if day["calls"] >= daily_limit:
+            if not bypass_daily and day["calls"] >= daily_limit:
                 raise BudgetUnavailable("Daily OpenAI call limit reached")
             # Do not buy discovery if no budget remains to verify even one resulting post.
             headroom = RESERVATION_MICROUSD if kind == "search" else 0
             if month["reserved_microusd"] + amount + headroom > monthly_limit:
                 raise BudgetUnavailable("Monthly OpenAI budget reached")
             if kind == "search":
-                if day.get("search_calls", 0) >= search_limit():
+                daily_search_limit = search_limit()
+                if not bypass_daily and day.get("search_calls", 0) >= daily_search_limit:
                     raise BudgetUnavailable("Daily OpenAI search limit reached")
                 day["search_calls"] = day.get("search_calls", 0) + 1
             else:
