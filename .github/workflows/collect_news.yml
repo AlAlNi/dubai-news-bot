@@ -71,7 +71,7 @@ jobs:
         GNEWS_API_KEY_BACKUP: ${{ secrets.GNEWS_API_KEY_BACKUP }}
       run: |
         cd src
-        python -c "from rss_collect import handler; import json; result = handler({}, None); print(json.dumps(json.loads(result['body']), indent=2))"
+        python workflow_run.py rss_collect
         
     - name: Commit and push changes
       if: always()

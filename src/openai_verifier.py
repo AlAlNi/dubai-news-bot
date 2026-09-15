@@ -6,6 +6,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from http_client import request_with_retry
+from api_diagnostics import openai_error
 from openai_budget import (Budget, BudgetUnavailable, MODEL, INPUT_TOKEN_CEILING,
                            OUTPUT_TOKEN_CEILING, atomic_json)
 
@@ -79,7 +80,7 @@ def verify_with_openai(source, summary, prompt, parse_response, timeout, storage
             allow_redirects=False, json=payload,
         )
         if response.status_code != 200:
-            return {**base, "reason": f"OpenAI verifier HTTP {response.status_code}"}
+            return {**base, "reason": openai_error(response, key)}
         result = response.json()
         try:
             budget.record_usage(result.get("usage"))
