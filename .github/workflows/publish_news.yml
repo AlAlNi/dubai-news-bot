@@ -57,7 +57,7 @@ jobs:
         TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
       run: |
         cd src
-        python -c "from auto_notify import handler; import json; result = handler({}, None); print(json.dumps(json.loads(result['body']), indent=2))"
+        python workflow_run.py auto_notify
         
     - name: Commit and push changes
       if: always()

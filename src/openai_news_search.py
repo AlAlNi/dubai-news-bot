@@ -6,6 +6,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from http_client import request_with_retry
+from api_diagnostics import openai_error
 from openai_budget import Budget, BudgetUnavailable, MODEL, atomic_json
 from search_sources import ALLOWED_DOMAINS, allowed_url, fetch_article, url_identity
 
@@ -97,7 +98,7 @@ def search_news(storage_dir, seen_urls=(), now=None):
                 allow_redirects=False, headers={"Authorization": f"Bearer {key}"}, json=payload,
             )
             if response.status_code != 200:
-                return {**report, "status": "error", "reason": f"OpenAI search HTTP {response.status_code}"}
+                return {**report, "status": "error", "reason": openai_error(response, key)}
             result = response.json()
             usage = result.get("usage") or {}
             try:
