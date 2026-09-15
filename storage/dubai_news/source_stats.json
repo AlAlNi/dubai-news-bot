@@ -998,5 +998,86 @@
     "strict_hash": "dabf61c7938f36e435c30834312fe629",
     "fuzzy_hash": "07c35861edf3f38ddfbc6bbcdd91627c",
     "reason": "Новость касается рынка недвижимости Дубая (ипотека от 3.49% для off-plan покупателей), что явно связано с регионом и потенциально полезно русскоязычным жителям и инвесторам. Однако текст представляет собой лишь заголовок и название источника без содержательного раскрытия — это выглядит как сырой/недооформленный материал, а не полноценная новость."
+  },
+  {
+    "url": "https://www.tribuneindia.com/news/business/tcs-partners-with-dubai-gold-commodities-exchange-to-upgrade-derivatives-market-infrastructure",
+    "timestamp": "2026-09-15T20:36:48.589767+00:00",
+    "status": "rejected",
+    "content_hash": "60ae776fbed09dbc64521de1d8a32d0f",
+    "strict_hash": "60ae776fbed09dbc64521de1d8a32d0f",
+    "fuzzy_hash": "132a3689de65d5f370599ef4f97340e8",
+    "reason": "Новость касается партнёрства TCS с Dubai Gold & Commodities Exchange и модернизации биржевой инфраструктуры — связь с Дубаем есть, но это узкоспециализированная корпоративная новость из Индии, вряд ли интересная массовому русскоязычному жителю Дубая. Признаков дубликата с последними публикациями нет, политики и рекламы тоже."
+  },
+  {
+    "url": "https://www.aninews.in/news/business/tcs-partners-with-dubai-gold-amp-commodities-exchange-to-upgrade-derivatives-market-infrastructure20260915134311",
+    "timestamp": "2026-09-15T20:36:50.113704+00:00",
+    "status": "rejected",
+    "content_hash": "b7ae48a726583c97aff890117811af6d",
+    "strict_hash": "b7ae48a726583c97aff890117811af6d",
+    "fuzzy_hash": "8cc2bb154f1fb986496f8326f82ffcd6",
+    "reason": "Новость о партнёрстве TCS с Dubai Gold & Commodities Exchange — это корпоративный пресс-релиз об IT-инфраструктуре биржи, без общественно значимой новости для жителей Дубая; к тому же это фактически перепечатка индийского релиза ANI, что попадает под признаки рекламного/пресс-релизного материала."
+  },
+  {
+    "url": "https://www.outlookindia.com/national/spicejet-dubai-flights-delayed-200-passengers-protest-at-delhi-airport",
+    "timestamp": "2026-09-15T20:36:51.408394+00:00",
+    "status": "rejected",
+    "content_hash": "047bb3f22369ebc66ae76ffb9ac27cca",
+    "strict_hash": "047bb3f22369ebc66ae76ffb9ac27cca",
+    "fuzzy_hash": "4201754ee75f5d2a8fa66f9d938c3877",
+    "reason": "Новость касается задержек рейсов SpiceJet в Дубай и протеста пассажиров в аэропорту Дели — связь с ОАЭ есть, но основная тема это протест/конфликт пассажиров с авиакомпанией за пределами региона, что попадает под политику/конфликты и не является полезным service-update для жителя Дубая."
+  },
+  {
+    "url": "https://www.moneycontrol.com/news/business/companies/spicejet-s-two-dubai-flights-face-inordinate-delay-passengers-protest-at-delhi-airport-14030189.html",
+    "timestamp": "2026-09-15T20:36:52.690282+00:00",
+    "status": "rejected",
+    "content_hash": "828eb0fa1b984fe56db7496137b464f2",
+    "strict_hash": "828eb0fa1b984fe56db7496137b464f2",
+    "fuzzy_hash": "9d49b50e0a4d4185f640529537cb30c2",
+    "reason": "Новость касается задержки рейсов SpiceJet в Дубай и протеста пассажиров в аэропорту Дели — связь с ОАЭ есть, но основная тема это авиационный инцидент и протест за рубежом, что слабо релевантно и не полезно для русскоговорящего жителя Дубая, плюс содержит элемент конфликта/протеста."
+  },
+  {
+    "url": "https://www.republicworld.com/india/spicejet-passengers-stage-protests-at-delhi-airport-after-dubai-flights-delayed-beyond-24-hours-2026-09-15-137024",
+    "timestamp": "2026-09-15T20:36:54.127498+00:00",
+    "status": "rejected",
+    "content_hash": "3669bf6d1ce278a058b240e95793bc6b",
+    "strict_hash": "3669bf6d1ce278a058b240e95793bc6b",
+    "fuzzy_hash": "533e8e2fa35c064ce0b7af678db42b7b",
+    "reason": "Новость касается задержек рейсов SpiceJet в Дели и протестов пассажиров — связь с Дубаем лишь косвенная (рейсы в Дубай), основная тема — сбой авиакомпании и протесты в Индии, что не является новостью о Дубае/ОАЭ и не несёт пользы русскоговорящему жителю Дубая."
+  },
+  {
+    "url": "https://www.newindianexpress.com/cities/delhi/2026/Sep/15/passengers-protest-at-delhi-airport-as-spicejets-two-dubai-flights-face-inordinate-delay",
+    "timestamp": "2026-09-15T20:36:55.422781+00:00",
+    "status": "rejected",
+    "content_hash": "43b60599949c17d2e9af87be4f9572b8",
+    "strict_hash": "43b60599949c17d2e9af87be4f9572b8",
+    "fuzzy_hash": "9cb3ccbc71e0928157691f1abc216e88",
+    "reason": "Новость касается задержки рейсов SpiceJet в Дубай и протеста пассажиров в аэропорту Дели — это событие происходит за пределами ОАЭ и не имеет прямой связи с Дубаем/ОАЭ/GCC, а также содержит тему протеста, что нарушает правила 1 и 2."
+  },
+  {
+    "url": "https://www.hindustantimes.com/india-news/spicejet-delhi-dubai-sg-5111-sg-5105-flight-delayed-protests-igi-airport-news-101789457196804.html",
+    "timestamp": "2026-09-15T20:36:56.636428+00:00",
+    "status": "rejected",
+    "content_hash": "bdc1565be2aacb3157526e281fd95878",
+    "strict_hash": "bdc1565be2aacb3157526e281fd95878",
+    "fuzzy_hash": "6d59f8c184f598ca4dbc1490d80b83bd",
+    "reason": "Новость касается задержек рейсов SpiceJet в Дубай и упоминает протесты, что относит её к теме конфликтов/протестов и не несёт полезной или значимой информации для русскоязычных жителей Дубая; признаки дубликата отсутствуют, но по правилам 2 и 6 материал не подходит."
+  },
+  {
+    "url": "https://www.indiatoday.in/india/story/spicejet-delhi-dubai-flights-delayed-24-hours-passengers-protest-igi-airport-2994894-2026-09-15",
+    "timestamp": "2026-09-15T20:36:58.095739+00:00",
+    "status": "rejected",
+    "content_hash": "8cd683bcac5a2681592d2982a0f92a5e",
+    "strict_hash": "8cd683bcac5a2681592d2982a0f92a5e",
+    "fuzzy_hash": "6ce606b30971091cf8d74af124b6314d",
+    "reason": "Новость касается задержки рейсов SpiceJet из Дели в Дубай и протестов пассажиров — связь с Дубаем есть, но сюжет построен вокруг авиакомпании и индийского аэропорта, а не вокруг ОАЭ, и содержит конфликтный/протестный элемент. Для канала о Дубае это скорее негативная и нерелевантная для местной аудитории история, к тому же с кликбейтным заголовком."
+  },
+  {
+    "url": "https://www.newsx.com/india/passengers-waited-24-hours-at-delhi-airport-but-no-dubai-flight-took-off-angry-fliers-stage-protest-271981",
+    "timestamp": "2026-09-15T20:36:59.563747+00:00",
+    "status": "rejected",
+    "content_hash": "b253ec64b024cead696efcb4157311ac",
+    "strict_hash": "b253ec64b024cead696efcb4157311ac",
+    "fuzzy_hash": "3a122947144f65342de1af8b44be4f77",
+    "reason": "Новость описывает протест пассажиров в аэропорту Дели из-за задержек рейсов в Дубай — основная тема связана с протестом и конфликтом, что нарушает правило о политике/конфликтах, а также имеет слабую прямую связь с Дубаем (событие происходит в Индии)."
   }
 ]
