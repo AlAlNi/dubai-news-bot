@@ -8,6 +8,7 @@ import re
 import requests
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 from http_client import request_with_retry
+from source_verification import is_verified_draft
 
 # ================== НАСТРОЙКИ ==================
 
@@ -354,11 +355,6 @@ def load_drafts() -> list:
     
     if drafts:
         drafts = cleanup_old_drafts(drafts)
-        drafts = [
-            draft for draft in drafts
-            if draft.get("workflow_state", "approved_by_editor") == "approved_by_editor"
-            and draft.get("editorial_decision", "approved") == "approved"
-        ]
         
         # Сохраняем копию в /tmp
         try:
@@ -526,6 +522,9 @@ def get_next_post_payload_with_image() -> Tuple[Optional[str], Optional[str], Op
 
     # Ищем подходящий черновик
     for i, candidate in enumerate(updated_drafts):
+        if not is_verified_draft(candidate):
+            print("⏸️ Черновик ожидает проверки соответствия источнику")
+            continue
         source_urls = candidate.get("source_urls") or []
         main_url = (source_urls[0] or "").strip() if source_urls else ""
 
