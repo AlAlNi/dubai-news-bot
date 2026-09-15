@@ -115,5 +115,83 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c9c2c1ebf2"
     }
+  },
+  "5ad2450c570161762f640ec32769c32920b9428033c8701cbf80fa1cbd63209d": {
+    "saved_at": "2026-09-15T23:17:46.491190+00:00",
+    "result": {
+      "id": "chatcmpl-EOWhDEiJh2zevFWAbwbE3prOmEPHt",
+      "object": "chat.completion",
+      "created": 1789514263,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":false,\"reason\":\"The Russian post translates and paraphrases the source title and text but adds details not present in the source, such as 'продлил его' (renewed it) and 'всего за 8 минут' (in just 8 minutes) as a fact, and the phrase 'предпоследних паспортных страхов' (penultimate passport fears) which is not in the source. The source title states 'then Dubai Airport (DBX) renewed it in just 8 minutes; here’s how the little-known service works' but the text snippet does not confirm the renewal or the 8 minutes duration as fact, only the title mentions it. The Russian post also omits the explanation 'here’s how the little-known service works' and adds 'предпоследних паспортных страхов' which is not in the source. Therefore, not all claims are fully supported by the source text provided.\",\"claims\":[{\"claim\":\"Паспорт истёк перед рейсом\",\"supported\":true,\"evidence\":\"His passport had expired before his flight\"},{\"claim\":\"аэропорт Дубая (DBX) продлил его всего за 8 минут\",\"supported\":true,\"evidence\":\"then Dubai Airport (DBX) renewed it in just 8 minutes\"},{\"claim\":\"вот как работает малоизвестная услуга\",\"supported\":true,\"evidence\":\"here’s how the little-known service works\"},{\"claim\":\"Эмиратский путешественник (X)\",\"supported\":true,\"evidence\":\"Emirati Traveller (X)\"},{\"claim\":\"Представьте: вы приезжаете в аэропорт для международной поездки и обнаруживаете, что срок действия вашего паспорта только что истёк\",\"supported\":true,\"evidence\":\"Imagine reaching the airport for your international trip and releasing that your passport just expired!\"},{\"claim\":\"Это один из самых больших предпоследних паспортных страхов, способных сорвать международную поездку\",\"supported\":false,\"evidence\":\"No such phrase or claim in source\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 587,
+        "completion_tokens": 419,
+        "total_tokens": 1006,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
+  },
+  "03c4478401cca4f4dce7553445040da19e48efd91df9e8b71d028b7279772f8d": {
+    "saved_at": "2026-09-15T23:18:02.045864+00:00",
+    "result": {
+      "id": "chatcmpl-EOWhUFx8xCB8Uf1fWVpOfnFmIFZfT",
+      "object": "chat.completion",
+      "created": 1789514280,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Dubai real estate ranks 17th globally for transparency in 2026.\",\"supported\":true,\"evidence\":\"Dubai real estate ranks 17th globally for transparency in 2026\"},{\"claim\":\"Dubai real estate transparency ranking rose by 11 places in two years.\",\"supported\":true,\"evidence\":\"up 11 places in two years\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 861,
+        "completion_tokens": 93,
+        "total_tokens": 954,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
   }
 }
