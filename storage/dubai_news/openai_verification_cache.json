@@ -1,0 +1,41 @@
+{
+  "e3aa35f4796ce15d7541ed02a15dbcd1180d3cc4fc2e7b3ad36bfa97716fba2e": {
+    "saved_at": "2026-09-15T07:09:17.974081+00:00",
+    "result": {
+      "id": "chatcmpl-EOHa07zHziL5J2Gluxbz72yIL1bBI",
+      "object": "chat.completion",
+      "created": 1789456156,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":false,\"reason\":\"The source text is only the headline repeated and does not provide any factual details to verify the claims in the post.\",\"claims\":[{\"claim\":\"Dubai Holding и ADCB представили новое жилищное финансирование для покупателей на этапе строительства\",\"supported\":false,\"evidence\":\"Dubai Holding, ADCB unveil new home financing for off-plan buyers\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 583,
+        "completion_tokens": 76,
+        "total_tokens": 659,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_1ec6e9f896"
+    }
+  }
+}

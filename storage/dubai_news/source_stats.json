@@ -859,5 +859,77 @@
     "strict_hash": "a9d01f8d6bbd63179664d434ff969a8d",
     "fuzzy_hash": "4adecedf961b9bdc0ac61a6878234431",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/dubai-is-getting-4-etihad-rail-stations-heres-where-theyll-be",
+    "timestamp": "2026-09-15T07:08:41.276383+00:00",
+    "status": "rejected",
+    "content_hash": "ca7a3c880abbdd60937b6a90e30278de",
+    "strict_hash": "ca7a3c880abbdd60937b6a90e30278de",
+    "fuzzy_hash": "6ab5c13efc1c12bebce189bd2b9cf5c5",
+    "reason": "Новость связана с Дубаем и развитием транспортной инфраструктуры, однако она почти полностью дублирует уже опубликованную новость о второй станции Etihad Rail в Дубае и содержит обрывочный, неестественный текст с признаками кликбейта и незавершённой версткой."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/abu-dhabi-comedy-season-adds-two-more-comics-to-lineup",
+    "timestamp": "2026-09-15T07:08:47.814778+00:00",
+    "status": "rejected",
+    "content_hash": "d6253e5e95c67661e1e55f4b0677a8be",
+    "strict_hash": "d6253e5e95c67661e1e55f4b0677a8be",
+    "fuzzy_hash": "be53ae7a7364eeea120b4f87fdb7e980",
+    "reason": "Новость связана с ОАЭ (Абу-Даби), но не с Дубаем, не является политикой или рекламой, однако это развлекательный анонс без явной пользы для русскоязычного жителя Дубая и с признаками низкокачественного/обрывочного текста."
+  },
+  {
+    "url": "https://www.al-monitor.com/originals/2026/09/houthis-attack-saudi-arabia-gulf-iran-talks-are-postponed",
+    "timestamp": "2026-09-15T07:09:01.799201+00:00",
+    "status": "rejected",
+    "content_hash": "8cd3b6710c598b7c806e7145af9c42dd",
+    "strict_hash": "8cd3b6710c598b7c806e7145af9c42dd",
+    "fuzzy_hash": "c6683b0e45784db231823f29aeebfd93",
+    "reason": "Новость посвящена атаке хуситов на Саудовскую Аравию и переносу переговоров стран Залива с Ираном — это большая политика и военный конфликт, что прямо запрещено правилом 2, а связь с Дубаем лишь географическая метка в даталайне."
+  },
+  {
+    "url": "https://www.al-monitor.com/originals/2026/09/trump-says-iran-wants-deal-gulf-talks-delayed-houthis-strike-saudi-arabia",
+    "timestamp": "2026-09-15T07:09:03.592085+00:00",
+    "status": "rejected",
+    "content_hash": "9a677ab4d13a4deecc2891bd893fe1d1",
+    "strict_hash": "9a677ab4d13a4deecc2891bd893fe1d1",
+    "fuzzy_hash": "7725249624680242c0aa6237cfe83d32",
+    "reason": "Новость посвящена большой геополитике (заявления Трампа об Иране, удары хуситов по Саудовской Аравии, переговоры в Заливе) — это прямое нарушение правила 2, а связь с Дубаем лишь географическая (даталайн), без практической ценности для жителя. Также присутствуют признаки кликбейт-заголовка и отсутствует интерес/польза для аудитории (правила 5 и 6)."
+  },
+  {
+    "url": "https://www.cryptobreaking.com/reimagining-finance-difc-to-convene",
+    "timestamp": "2026-09-15T07:09:05.309086+00:00",
+    "status": "rejected",
+    "content_hash": "436ca301c3e237025162452a3824747e",
+    "strict_hash": "436ca301c3e237025162452a3824747e",
+    "fuzzy_hash": "322136fa1b19f6e90845df42871cef84",
+    "reason": "Новость о проведении Dubai Future Finance Week в DIFC — это по сути анонс-пресс-релиз крупного отраслевого мероприятия с явной связью с Дубаем, но без конкретной общественно значимой новости для широкой аудитории и с признаками промо-материала. Для русскоязычного жителя Дубая ценность ограничена, а формат ближе к рекламному анонсу, чем к новости."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOWZzR2ZfVzRURWlqMTE0bm13aWR1Ql9NalgxY1RwUXNwX3d5aTNHQVg0d3hhS01QWUJBQmZJTVdMMzNMaXB5ZUhuZWgzaHNlSy15UmxYOHZwWTFLRmszbGJkZUM1OW9CS2pmNmtiNlA4ejFoSDRhQXdFN0EyT1NOemp5c1lHZDRQSGJjUUg0RUhDZlFIdHc?oc=5",
+    "timestamp": "2026-09-15T07:09:06.041759+00:00",
+    "status": "rejected",
+    "content_hash": "b52336f4db24978a281a9215f7f4f6d1",
+    "strict_hash": "b52336f4db24978a281a9215f7f4f6d1",
+    "fuzzy_hash": "991d80b1899a2444fb6758c6ad315cc5",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQRndCQTRsdTBsNlJYclhwQ1pRU3FZTGF5LWRLSVVVVzl6UWMzVF9GWFFjNFgxVktrSEFXcWxGcVR4OXQtYkEtY0hQN1ZsZkhXZm9weXM2bllGWUxYOXA4VVVGNXFUd0xiNDNFajRHVDdBT0ZOZUJ4d2h2ci05SUxsT1EtTW40N0VhUnhkYkdLNldMdjBMTmw2cTlhSzlXNDNHd1JGdm8wVGsta2lUOXBSNmdGMzJzZ254czVkc0FnQ19qdkNLeGNUS0pNT2xINzhkc3ZvV1Z0cnhnSnNURWg4Vl83U1YzREVDNTFoNGhyQVpHVGoxY2NjRlk3cG1ReVdoaWM5X3RyN0RPc0JaSkliS19PVnl4UQ?oc=5",
+    "timestamp": "2026-09-15T07:09:09.943300+00:00",
+    "status": "rejected",
+    "content_hash": "95912b6e3a67a1b81920fe521cde1f82",
+    "strict_hash": "95912b6e3a67a1b81920fe521cde1f82",
+    "fuzzy_hash": "7f2d0bcb9534b17538edbf9549596d3a",
+    "reason": "Новость представляет собой корпоративный пресс-релиз о партнёрстве Dubai Holding Real Estate и ADCB по финансированию off-plan недвижимости — это рекламно-деловое объявление без общественно значимой новости, к тому же текст дублирует заголовок и выглядит как сырой пресс-релиз."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORks1NVNqdVE3dkM0a0REeE42eV9TRW1yeURfNFRzaFNNZmdmUm9yZ0R0ZmJ3N3h3UlFMQWE4dlMzdXpFSjM1QzFYYVdJWXlKa2I2NXlqbGRac21TRlBNczh3aGR1SEpuaXotZFpkX2FVXzBSNEZZbERTQnJnWW4zZWhLNDZLaW1CZXR4eENOMFJkbFhMSTBHcGxDMnBxX2RuU1l6RWJXQ09FU2J3NUlv?oc=5",
+    "timestamp": "2026-09-15T07:09:17.977656+00:00",
+    "status": "rejected",
+    "content_hash": "ca4e7dede733d2919b261ddb96d199e9",
+    "strict_hash": "ca4e7dede733d2919b261ddb96d199e9",
+    "fuzzy_hash": "5e5ae6774ddaa66763f19ad19350485d",
+    "reason": "Пересказ не подтверждён источником: The source text is only the headline repeated and does not provide any factual details to verify the claims in the post."
   }
 ]
