@@ -9,7 +9,7 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 import feedparser
 from http_client import request_with_retry
 from newsroom_kpi import compute_newsroom_kpi_snapshot
-from source_verification import source_snapshot, verify_summary
+from source_verification import source_snapshot, verify_summary, verifier_provider
 
 # ========= НАСТРОЙКИ =========
 
@@ -1799,13 +1799,29 @@ def process_news_item(
         mark_news_as_rejected(news_item, "Некачественный fallback summary")
         return None
 
-    consume_deepseek_call(deepseek_context, "source fidelity verification")
-    verification = verify_summary(source, summary_ru, DEEPSEEK_API_KEY, HTTP_TIMEOUT)
+    if verifier_provider() == "deepseek":
+        consume_deepseek_call(deepseek_context, "source fidelity verification")
+    verification = verify_summary(source, summary_ru, DEEPSEEK_API_KEY, HTTP_TIMEOUT,
+                                  storage_dir=MOUNTED_BUCKET_PATH)
+    if run_metrics is not None:
+        run_metrics["openai_calls"] = run_metrics.get("openai_calls", 0) + (
+            verification.get("api_calls", 0) if verification.get("provider") == "openai" else 0
+        )
+        run_metrics["openai_cache_hits"] = run_metrics.get("openai_cache_hits", 0) + int(
+            verification.get("provider") == "openai" and verification.get("cached", False)
+        )
     if verification["status"] != "approved":
+        if verification["status"] == "deferred":
+            print(f"⏸️ Проверка отложена: {verification['reason']}")
+            if run_metrics is not None:
+                run_metrics["verification_paused"] = True
+            return None
         if verification["status"] == "error":
             mark_news_as_technical_error(news_item, verification["reason"])
             if run_metrics is not None:
                 run_metrics["technical_errors"] = run_metrics.get("technical_errors", 0) + 1
+                if verification.get("provider") == "openai":
+                    run_metrics["verification_paused"] = True
         else:
             mark_news_as_rejected(news_item, "Пересказ не подтверждён источником: " + verification["reason"])
         return None
@@ -1857,7 +1873,7 @@ def handler(event, context):
     google_rss_fetches = 0
     reserve_fetches = 0
     rss_fetches = 0
-    run_metrics = {"technical_errors": 0}
+    run_metrics = {"technical_errors": 0, "openai_calls": 0, "openai_cache_hits": 0}
     rejected_in_session = 0
     deepseek_context = {"calls_made": 0, "max_calls": -1}
 
@@ -1961,6 +1977,8 @@ def handler(event, context):
                 )
 
                 if not processed:
+                    if run_metrics.get("verification_paused"):
+                        break
                     rejected_in_session += 1
                     print(f"🚫 Новость отклонена (всего: {rejected_in_session})")
 
@@ -1981,7 +1999,7 @@ def handler(event, context):
                 print(f"🎉 НАЙДЕНА ПОДХОДЯЩАЯ НОВОСТЬ!")
                 break
 
-            if approved_draft:
+            if approved_draft or run_metrics.get("verification_paused"):
                 break
         
         if approved_draft:
@@ -2037,6 +2055,9 @@ def handler(event, context):
                 "reserve_attempts": RESERVE_ATTEMPTS,
             }
         
+        result["openai_calls"] = run_metrics["openai_calls"]
+        result["openai_cache_hits"] = run_metrics["openai_cache_hits"]
+        result["verification_paused"] = bool(run_metrics.get("verification_paused"))
         print("\n" + "=" * 60)
         print("=== DUBAI NEWS COLLECTOR END ===")
         print("=" * 60)
@@ -2054,6 +2075,8 @@ def handler(event, context):
                 "rejected": rejected_in_session,
                 "approved": 1 if approved_draft else 0,
                 "deepseek_calls": deepseek_context["calls_made"],
+                "openai_calls": run_metrics["openai_calls"],
+                "openai_cache_hits": run_metrics["openai_cache_hits"],
                 "deepseek_calls_max": deepseek_context["max_calls"],
                 "gnews_fetches": gnews_fetches,
                 "google_rss_fetches": google_rss_fetches,

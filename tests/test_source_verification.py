@@ -122,6 +122,24 @@ class SourceVerificationTests(unittest.TestCase):
                     self.assertIsNone(result)
                 self.assertEqual(metrics.get("technical_errors", 0), int(status == "error"))
 
+    def test_openai_deferral_pauses_collection_without_rejecting_source(self):
+        item = {"title": self.source["title"], "description": self.source["text"],
+                "link": self.source["url"], "source": "RTA", "source_priority": 1}
+        with patch("rss_collect.verifier_provider", return_value="openai"), patch(
+            "rss_collect.ENABLE_CHEAP_PREFILTER", False
+        ), patch("rss_collect.is_news_allowed_by_deepseek", return_value=(True, "OK", False)), patch(
+            "rss_collect.fetch_image_for_news", return_value=None
+        ), patch("rss_collect.process_with_deepseek_simple", return_value=self.summary), patch(
+            "rss_collect.verify_summary", return_value={"status": "deferred", "reason": "Daily budget",
+                                                       "provider": "openai", "api_calls": 0}
+        ), patch("rss_collect.mark_news_as_rejected") as rejected:
+            metrics, calls = {}, {"calls_made": 0, "max_calls": -1}
+            self.assertIsNone(rss_collect.process_news_item(item, deepseek_context=calls, run_metrics=metrics))
+            self.assertEqual(calls["calls_made"], 2)
+            self.assertTrue(metrics["verification_paused"])
+            self.assertEqual(metrics["openai_calls"], 0)
+            rejected.assert_not_called()
+
 
 if __name__ == "__main__":
     unittest.main()
