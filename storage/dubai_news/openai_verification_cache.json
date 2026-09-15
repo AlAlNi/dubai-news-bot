@@ -76,5 +76,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c9c2c1ebf2"
     }
+  },
+  "178dba3b3da4700a7d80aa3bb36be073b2eb9fbfe3d90e9567327334556fda73": {
+    "saved_at": "2026-09-15T21:38:10.289802+00:00",
+    "result": {
+      "id": "chatcmpl-EOV8rAtzJexUXr9VW0JWCVS45hpc7",
+      "object": "chat.completion",
+      "created": 1789508289,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Дубай проведёт стратегические учения на вертипорте воздушного такси 16 сентября\",\"supported\":true,\"evidence\":\"Dubai to conduct strategic drill for emergencies at Aerial Taxi Vertiport on Sept 16\"},{\"claim\":\"В Дубае 16 сентября проведут стратегические учения по чрезвычайным ситуациям на вертипорте воздушного такси\",\"supported\":true,\"evidence\":\"Dubai to conduct strategic drill for emergencies at Aerial Taxi Vertiport on Sept 16\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 717,
+        "completion_tokens": 129,
+        "total_tokens": 846,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
   }
 }

@@ -1079,5 +1079,86 @@
     "strict_hash": "b253ec64b024cead696efcb4157311ac",
     "fuzzy_hash": "3a122947144f65342de1af8b44be4f77",
     "reason": "Новость описывает протест пассажиров в аэропорту Дели из-за задержек рейсов в Дубай — основная тема связана с протестом и конфликтом, что нарушает правило о политике/конфликтах, а также имеет слабую прямую связь с Дубаем (событие происходит в Индии)."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/wealth/invest/gold-rates-today-in-abu-dhabi-dubai-riyadh-doha-kuwait-city-muscat-check-24k-22k-18k-gold-rates-on-september-15-2026/gold-rates-in-dubai-and-abu-dhabi/slideshow/134257759.cms",
+    "timestamp": "2026-09-15T21:37:52.981823+00:00",
+    "status": "rejected",
+    "content_hash": "61c10e386cbc390c7e0c01a95d498c01",
+    "strict_hash": "61c10e386cbc390c7e0c01a95d498c01",
+    "fuzzy_hash": "5fe1b195948c58c09f3d9d81b366f1fd",
+    "reason": "Новость представляет собой рутинную сводку цен на золото по нескольким городам региона, включая Дубай и Абу-Даби, что даёт слабую, но формальную связь с ОАЭ; при этом это типовой ежедневный рыночный отчёт без признаков рекламы, политики или неуважения к ценностям ОАЭ. Однако ценность для русскоязычного жителя Дубая минимальна — это повторяющийся шаблонный контент, не несущий новой или практически значимой информации, и он не подпадает под разрешённые «страховочные» форматы."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/gold-rates-in-dubai-and-abu-dhabi/slideshow/134257759.cms",
+    "timestamp": "2026-09-15T21:37:54.600397+00:00",
+    "status": "rejected",
+    "content_hash": "28df775cec2bd9aa6306a98519fa7874",
+    "strict_hash": "28df775cec2bd9aa6306a98519fa7874",
+    "fuzzy_hash": "62609e97e7e5f0adaa294d859f7d00c3",
+    "reason": "Новость представляет собой рутинную сводку цен на золото по нескольким городам региона, включая Дубай и Абу-Даби, что даёт слабую, но формальную связь с ОАЭ; при этом это типовой ежедневный контент без признаков кликбейта или ИИ-генерации, однако он не несёт общественно значимой или уникальной пользы для русскоязычного жителя Дубая и не является дубликатом уже опубликованных новостей."
+  },
+  {
+    "url": "https://www.thehindu.com/news/cities/Delhi/spicejets-two-dubai-flights-face-inordinate-delay-passengers-protest-at-delhi-airport/article71467414.ece",
+    "timestamp": "2026-09-15T21:37:56.145700+00:00",
+    "status": "rejected",
+    "content_hash": "1f711ba46504b030921c14ad26cd5e71",
+    "strict_hash": "1f711ba46504b030921c14ad26cd5e71",
+    "fuzzy_hash": "01dfe3762d21844cacaa8141249a66f4",
+    "reason": "Новость касается задержки рейсов SpiceJet в Дубай и протеста пассажиров в аэропорту Дели — связь с Дубаем есть, но событие происходит в Индии, тема близка к конфликтной/протестной и не несёт полезной информации для русскоговорящих жителей Дубая."
+  },
+  {
+    "url": "https://www.livemint.com/news/india/over-200-spicejet-passengers-protest-at-delhi-airport-after-dubai-flight-gets-delayed-for-more-than-24-hours-11789462954764.html",
+    "timestamp": "2026-09-15T21:37:57.563334+00:00",
+    "status": "rejected",
+    "content_hash": "d943c610c7e6a411b9f615f50441cfef",
+    "strict_hash": "d943c610c7e6a411b9f615f50441cfef",
+    "fuzzy_hash": "f78e93f2be8898b5e3192c87c81c90c5",
+    "reason": "Новость касается задержки рейсов SpiceJet из Дели в Дубай и протеста пассажиров — связь с Дубаем есть, но основная тема это авиационный инцидент и протест пассажиров за рубежом, что не является ни полезным service-update, ни значимой новостью для русскоязычного жителя Дубая, а также содержит элементы конфликта/протеста."
+  },
+  {
+    "url": "https://www.businesstoday.in/india/story/flying-spicejet-to-dubai-24-hour-delay-leaves-passengers-stranded-protesting-at-delhi-airport-555592-2026-09-15",
+    "timestamp": "2026-09-15T21:37:58.990169+00:00",
+    "status": "rejected",
+    "content_hash": "8629957e6820de2e2d895569d3d02c60",
+    "strict_hash": "8629957e6820de2e2d895569d3d02c60",
+    "fuzzy_hash": "34713f338c03178f10857f10f33d76ad",
+    "reason": "Новость описывает задержку рейсов SpiceJet в Дубай и протесты пассажиров в аэропорту Дели — это событие происходит в Индии, слабо связано с Дубаем и касается авиаперевозчика, а не региона ОАЭ; к тому же тема протестов и хаоса не соответствует формату канала."
+  },
+  {
+    "url": "https://www.deccanchronicle.com/southern-states/karnataka/kj-george-urges-uae-kannadiga-entrepreneurs-to-invest-in-karnataka-tourism-1987570",
+    "timestamp": "2026-09-15T21:38:00.396109+00:00",
+    "status": "rejected",
+    "content_hash": "a11a3201f9c22b7c102fe92f8716057e",
+    "strict_hash": "a11a3201f9c22b7c102fe92f8716057e",
+    "fuzzy_hash": "52c464a822cdec13ddea3a8e54521ee9",
+    "reason": "Новость касается индийского министра туризма Карнатаки, призывающего предпринимателей-каннадига в ОАЭ инвестировать в туризм Индии — связь с Дубаем/ОАЭ лишь косвенная (аудитория экспатов), а основная тема — экономика и туризм другого региона, что не соответствует фокусу канала о Дубае и вряд ли интересно широкой русскоязычной аудитории."
+  },
+  {
+    "url": "https://www.indiatvnews.com/news/india/spicejet-dubai-flights-delayed-for-over-24-hours-passengers-protest-at-delhi-airport-2026-09-15-1054279",
+    "timestamp": "2026-09-15T21:38:01.657570+00:00",
+    "status": "rejected",
+    "content_hash": "e1c9c2476679599390a352d93bc6f9cb",
+    "strict_hash": "e1c9c2476679599390a352d93bc6f9cb",
+    "fuzzy_hash": "53eeb18d66b936ac3db51d863c22f475",
+    "reason": "Новость касается задержек рейсов SpiceJet в Дубай и протеста пассажиров в аэропорту Дели — связь с Дубаем есть, но основная тема связана с протестом и инцидентом в Индии, что попадает под ограничения по конфликтам/протестам и не является сервисным обновлением для жителей Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZzA2aWYtU3hZUDVURHE0ZEZidlZzX3hJb0xfUmpZMnRMRkVCb1MxeWZTSkVPRDFDZTcxRDFldDVGVGNNX0xfc19XMllFTnBGd0pEUGlYVElVMjh6azhQWDZHWmtRSDQ4OUlJM2h6STJqR3dSM0hGNFV4RGtaZldscDliZW5CSmtVSTJWLVJFUGpfbHpkQ3c?oc=5",
+    "timestamp": "2026-09-15T21:38:02.401018+00:00",
+    "status": "rejected",
+    "content_hash": "ce892e52e9de7179a6976007e0217687",
+    "strict_hash": "ce892e52e9de7179a6976007e0217687",
+    "fuzzy_hash": "c78c31d6796644c974e0d46fe5d99897",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaklGdHFrLU53a2JLbzhWMkc5eVJjUUp5QWI1MTNZR1ZuTU1WcVFVQV9PZ0FPLXBEWDUwZmQyOWxUTHpKdDBNUFp3N201UHJpWVhfX01WU0t1bGpDT0dXOVMzaGJUSFFtX0NibkFoV2NlSzFPT2tpbTdNaHBEZTZ0alFWd19Mc0Z2XzREbmRSbDVMQdIBmgFBVV95cUxNMDBwc3RZclZpYThSUW1vS0ZFbmxfZ192eHpEMzRNcFBhZlNtVWR3RFZQbEZiRkZfN1pPTlp2NlNTR0hrdTlYRkE2QVhsNE5wTkJidVJWTkhFeEc3VDBrU1NyRTF3VnJfai12NHFfQkJkQ1NtaHpZTGNwdXdmOE1zLTAyZFBTdXdpV3NsV3RvT09xaFlGcE43Ukx3?oc=5",
+    "timestamp": "2026-09-15T21:38:10.295171+00:00",
+    "status": "approved",
+    "content_hash": "20ae14404f80301b7faad8ed75c7abfc",
+    "strict_hash": "20ae14404f80301b7faad8ed75c7abfc",
+    "fuzzy_hash": "3c9c0be758237633aa62aafa623bf584",
+    "reason": "approved"
   }
 ]
