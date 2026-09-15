@@ -58,7 +58,8 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(kwargs["json"]["max_tool_calls"], 1)
         self.assertEqual(kwargs["json"]["max_output_tokens"], 1000)
         self.assertEqual(kwargs["json"]["tools"][0]["search_context_size"], "low")
-        self.assertIn("mediaoffice.ae", kwargs["json"]["tools"][0]["filters"]["allowed_domains"])
+        self.assertNotIn("filters", kwargs["json"]["tools"][0])
+        self.assertIn("mediaoffice.ae", kwargs["json"]["instructions"])
         self.assertNotIn("test-key", self.ledger.read_text())
 
     def test_identical_half_day_uses_cache_and_filters_seen_links(self):

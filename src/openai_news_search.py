@@ -54,8 +54,8 @@ def search_news(storage_dir, seen_urls=(), now=None):
     payload = {
         "model": MODEL, "store": False, "temperature": 0,
         "max_output_tokens": 1000, "max_tool_calls": 1, "parallel_tool_calls": False,
-        "tools": [{"type": "web_search", "search_context_size": "low",
-                   "filters": {"allowed_domains": list(ALLOWED_DOMAINS)}}],
+        # This pinned model rejects server-side filters; enforce domains locally.
+        "tools": [{"type": "web_search", "search_context_size": "low"}],
         "tool_choice": {"type": "web_search"},
         "include": ["web_search_call.action.sources"],
         "instructions": (
@@ -64,7 +64,8 @@ def search_news(storage_dir, seen_urls=(), now=None):
             "Dubai public services, transport, safety, economy or practical resident updates. Prioritize "
             "official Dubai sources, then regional newsrooms. Exclude ads, old articles, category pages and "
             "undated pages. Return only short titles with clickable source citations. Do not invent dates "
-            "or URLs, do not summarize articles from memory. Return no articles if none are supported."
+            "or URLs, do not summarize articles from memory. Return no articles if none are supported. "
+            "Search only these domains (use site: queries): " + ", ".join(ALLOWED_DOMAINS)
         ),
         "input": f"Find fresh Dubai news published since {(slot - timedelta(hours=48)).isoformat()}. "
                  f"Current discovery window starts {slot.isoformat()}. Prefer the latest articles.",
