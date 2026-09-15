@@ -980,5 +980,23 @@
     "strict_hash": "bf8e7db363ff06a242b112fa21f2fefe",
     "fuzzy_hash": "22519cf7a4c1b95f3bced146a39af55e",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/black-coffee-to-headline-ushuaia-dubai-2026",
+    "timestamp": "2026-09-15T13:57:30.425762+00:00",
+    "status": "rejected",
+    "content_hash": "5ba9767f4987d3e27e406b4b9538b091",
+    "strict_hash": "5ba9767f4987d3e27e406b4b9538b091",
+    "fuzzy_hash": "a72920edf95fb888a59ed2cbd8296dbe",
+    "reason": "Новость о выступлении диджея Black Coffee в Ushuaïa Dubai — это развлекательный анонс, который может быть интересен части русскоязычной аудитории Дубая, но текст выглядит как перепечатка анонса с элементами кликбейта и рекламного характера, без общественно значимой ценности."
+  },
+  {
+    "url": "https://emirateswoman.com/the-women-behind-bareface-shaping-beauty-in-the-region-for-the-past-25-years",
+    "timestamp": "2026-09-15T13:57:39.051046+00:00",
+    "status": "rejected",
+    "content_hash": "58da9e904b5d2727aee9fe54a3679705",
+    "strict_hash": "58da9e904b5d2727aee9fe54a3679705",
+    "fuzzy_hash": "136be4f92c45dd38d8473443a40d8e71",
+    "reason": "Новость рассказывает о юбилее косметического бренда Bareface в Дубае — это скорее лайфстайл/имиджевый материал с рекламным оттенком, без общественно значимой новости для широкой аудитории. Связь с регионом есть, но ценность для русскоязычного жителя Дубая низкая, а формат близок к пресс-релизу."
   }
 ]
