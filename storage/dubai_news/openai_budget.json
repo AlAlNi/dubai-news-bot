@@ -1,4 +1,17 @@
 {
   "version": 1,
-  "months": {}
+  "months": {
+    "2026-09": {
+      "reserved_microusd": 10560,
+      "days": {
+        "2026-09-15": {
+          "calls": 1,
+          "reserved_microusd": 10560,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "estimated_microusd": 0
+        }
+      }
+    }
+  }
 }
