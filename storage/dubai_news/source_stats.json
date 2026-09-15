@@ -935,5 +935,50 @@
     "strict_hash": "c5a5da19b70b9326f58e4a2927f012a3",
     "fuzzy_hash": "fb0157dd9619217384b536fb2897d212",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS0o1OWZUMnRUT0tjTEdLWkh0WURuS1NOVUpnZjBKQjFpNnRKSGJnLXpGSWRraUUxOXhPS2VONkZBRlJvZGFlcERVWkk4VnNoUkVIR3dtdGFRMHFDdG1UN3ZxVS1XX1BRczZETU1ieENSRUFJdzgtX3VKUS1hNTBxc0EzdGNSQlNVWEFKWU5zM3RpMWR5UVlxY0x6SVUtdlotM1RhNzFtVVBHOGhlM1pHRmdHOWctX0tyWGZRb0wtbDNPU2tQb19WbEI4VlNkUQ?oc=5",
+    "timestamp": "2026-09-15T13:46:34.625114+00:00",
+    "status": "rejected",
+    "content_hash": "6d81c8ea3ae2bb1f8fe46cfa3512264e",
+    "strict_hash": "6d81c8ea3ae2bb1f8fe46cfa3512264e",
+    "fuzzy_hash": "c9b4b493c803264debfed01092521c70",
+    "reason": "Новость касается партнёрства Dubai Holding Real Estate с ADCB по финансированию off-plan жилья — это явная связь с Дубаем и потенциально полезная информация для русскоязычных покупателей недвижимости. Однако текст представляет собой лишь заголовок и ссылку без содержательного раскрытия деталей, что выглядит как неполный/сырой материал, а не полноценная новость."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlR1cnJoN2IwRVNpQU9WUHFSeWxCNUU5ZDI2ZnliTTVPcHU0aTU4cFNFYkhjX2Z2RG5TOS11VTFHZXpDRThydXNnOGJfN2ZoaEdGMC1oU09YSjhrNWdzajV0M2ZqZmp0MHdBellzdklmQUVxN2FGSzhoOURZd3hjWkFMdXF2a0M0X0NjNnBKS3hieEg0VHltLTcyTV9YaU0?oc=5",
+    "timestamp": "2026-09-15T13:46:36.609694+00:00",
+    "status": "rejected",
+    "content_hash": "8b533dd76cea619832e4964bb6aae75e",
+    "strict_hash": "8b533dd76cea619832e4964bb6aae75e",
+    "fuzzy_hash": "e70996c606d2ff53fe962252dc493f51",
+    "reason": "Новость касается сделки между Dubai Holding Real Estate и ADCB по финансированию off-plan покупок — это явная связь с Дубаем и потенциально полезная информация для русскоязычных покупателей недвижимости. Однако текст представляет собой лишь заголовок и название источника без содержательного описания: нет деталей, условий, сроков, что делает материал неполноценным и похожим на пресс-релиз/анонс без общественно значимой сути."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWE9Jd0duQXhpWlhuZDNNa3lOd0N6MVU2SHZLZzNCdHVsRjgtMl9JOENhR0JpSm9PMG9nMlp0S1ZPUjFuOW9WV1FKN1dteWtIYUFyaXd2MUN6cmdxajJraVlIbjI3MFpTWHFjX1JyemN0SEotbmlfamc3RGFqZnVrNzk2LWQ5ZVJUQkZBQmhHY3RTeUk2c0NkZFhINzF6emlrMHBYSnlBYWJEMFNxamc?oc=5",
+    "timestamp": "2026-09-15T13:46:37.227254+00:00",
+    "status": "rejected",
+    "content_hash": "02194fe097e7145146b1177291fcfa4d",
+    "strict_hash": "02194fe097e7145146b1177291fcfa4d",
+    "fuzzy_hash": "fd1e81b1af24a9e431b3cb06da63d8eb",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTkNiUnhrZzJQY25ZYXBCZ0dsZTVXUG1ZX0RCNl9SMWVtTmdjQ2FsWGtra09QN3dGRkx0cEJORy1pd2dqUU8tS2VxeW4wM3BDT2Jqa3c0TTFSV3BKa0Jfb3BoY3MyLWRmZFUyc2FIOGdvZ3RRSkc2aXA5dUV3OU13QU1LN3FSdGNfVjU0VUdrLS1DdjBhbGdDbDlVSExMaUVqcWV6ZVB4TdIBrAFBVV95cUxQX3lfcVpValhSZTlFMmZ1dU9FckNJSGZpd3BiNnlPcWF3UkdyZTh1VWJoRWJrcWdwM05WMlpmWmlNbW9KZTd0dllwaFBqLURCOG8xVnF6NGlOOVZpUzRWd09zbzdsbEVCaUN5bWROOTVsZm1FTjM3SlprLUNOVmpIZXN0MUtnczFFQzZIVTF6UUdGZi1tUHA1ckQ3YWtTSmE2NHgzUjdGSzBYVlVn?oc=5",
+    "timestamp": "2026-09-15T13:46:39.054874+00:00",
+    "status": "rejected",
+    "content_hash": "08c8fed3341820a015c449727eb43db3",
+    "strict_hash": "08c8fed3341820a015c449727eb43db3",
+    "fuzzy_hash": "0f8601ea143eecccf13576aac4549931",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMTZtR2NQVEk3X2p6V19mZ2dMOThsbjcya2ctUlhGME8tMno0aXRVZVF6TDhoT3JjOW9tQTd3eTZWZ0ttZTV0OER5NWJlOGtHRGotTjh2MjRNNkRoZ2RCbjhwNFptTTA1LXM4clJxdzNjUGROUU03bEdHZWltTEZ0TEZOYjRGZ0ZVMVFKWV9oUjdiRlo5SGtUcEMwMDJ5VDF2U2FLZmRZdE5iNlJzQVV1ZkpXLUlFWlBTWXhfVEtNbXdUM3o1UzEtemdrV2hoN21ieWp5ZlJ3WERPeTR3VE1nNw?oc=5",
+    "timestamp": "2026-09-15T13:46:40.743983+00:00",
+    "status": "rejected",
+    "content_hash": "bf8e7db363ff06a242b112fa21f2fefe",
+    "strict_hash": "bf8e7db363ff06a242b112fa21f2fefe",
+    "fuzzy_hash": "22519cf7a4c1b95f3bced146a39af55e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
