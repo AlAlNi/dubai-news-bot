@@ -14,6 +14,7 @@ MODEL = "gpt-4.1-mini-2025-04-14"
 INPUT_TOKEN_CEILING = 20000
 OUTPUT_TOKEN_CEILING = 1600
 RESERVATION_MICROUSD = 10560
+SEARCH_RESERVATION_MICROUSD = 25000
 LEDGER_FILENAME = "openai_budget.json"
 
 
@@ -30,6 +31,16 @@ def limits():
         return int(monthly * 1000000), daily
     except (ValueError, ArithmeticError):
         raise BudgetUnavailable("Invalid budget config: maximum $3/month and 8 calls/day")
+
+
+def search_limit():
+    try:
+        value = int(os.getenv("OPENAI_MAX_SEARCHES_PER_DAY", "2"))
+        if not 0 <= value <= 2:
+            raise ValueError()
+        return value
+    except ValueError:
+        raise BudgetUnavailable("Invalid search limit: maximum 2 searches/day")
 
 
 def atomic_json(path, value):
@@ -76,7 +87,11 @@ class Budget:
                     for field in ("calls", "reserved_microusd", "input_tokens", "output_tokens", "estimated_microusd"):
                         if type(day.get(field)) is not int or day[field] < 0:
                             raise ValueError()
-                    if day["reserved_microusd"] != day["calls"] * RESERVATION_MICROUSD:
+                    searches = day.get("search_calls", 0)  # Existing v1 ledgers contain verification only.
+                    if type(searches) is not int or searches < 0:
+                        raise ValueError()
+                    expected = day["calls"] * RESERVATION_MICROUSD + searches * SEARCH_RESERVATION_MICROUSD
+                    if day["reserved_microusd"] != expected:
                         raise ValueError()
                 if month["reserved_microusd"] != sum(d["reserved_microusd"] for d in month["days"].values()):
                     raise ValueError()
@@ -94,7 +109,7 @@ class Budget:
             relative = self.path.resolve().relative_to(root).as_posix()
             for args in (
                 ["add", "--", relative],
-                ["commit", "--only", "-m", "Reserve OpenAI verification budget [skip ci]", "--", relative],
+                ["commit", "--only", "-m", "Reserve OpenAI budget [skip ci]", "--", relative],
                 ["push", "origin", "HEAD:main"],
             ):
                 subprocess.run(["git", "-C", str(root), *args], check=True,
@@ -102,8 +117,11 @@ class Budget:
         except (ValueError, OSError, subprocess.SubprocessError):
             raise BudgetUnavailable("Budget reservation could not be pushed; OpenAI request cancelled")
 
-    def reserve(self):
+    def reserve(self, kind="verification"):
+        if kind not in {"verification", "search"}:
+            raise BudgetUnavailable("Unknown OpenAI operation")
         monthly_limit, daily_limit = limits()
+        amount = SEARCH_RESERVATION_MICROUSD if kind == "search" else RESERVATION_MICROUSD
         with self.locked():
             data = self.read()
             month = data["months"].setdefault(self.month, {"reserved_microusd": 0, "days": {}})
@@ -113,15 +131,22 @@ class Budget:
             })
             if day["calls"] >= daily_limit:
                 raise BudgetUnavailable("Daily OpenAI call limit reached")
-            if month["reserved_microusd"] + RESERVATION_MICROUSD > monthly_limit:
+            # Do not buy discovery if no budget remains to verify even one resulting post.
+            headroom = RESERVATION_MICROUSD if kind == "search" else 0
+            if month["reserved_microusd"] + amount + headroom > monthly_limit:
                 raise BudgetUnavailable("Monthly OpenAI budget reached")
-            day["calls"] += 1
-            day["reserved_microusd"] += RESERVATION_MICROUSD
-            month["reserved_microusd"] += RESERVATION_MICROUSD
+            if kind == "search":
+                if day.get("search_calls", 0) >= search_limit():
+                    raise BudgetUnavailable("Daily OpenAI search limit reached")
+                day["search_calls"] = day.get("search_calls", 0) + 1
+            else:
+                day["calls"] += 1
+            day["reserved_microusd"] += amount
+            month["reserved_microusd"] += amount
             atomic_json(self.path, data)
             self.persist_before_spend()
 
-    def record_usage(self, usage):
+    def record_usage(self, usage, search_calls=0):
         # Reservations are NEVER refunded, including on timeout or runner crash.
         if not isinstance(usage, dict):
             return
@@ -135,4 +160,7 @@ class Budget:
             day["output_tokens"] += outgoing
             # Round UP; do not assume the cached-input discount.
             day["estimated_microusd"] += (incoming * 4 + outgoing * 16 + 9) // 10
+            # Search content is billed as 8,000 input tokens/call for this model.
+            # Conservatively add it even if a response's usage already includes it.
+            day["estimated_microusd"] += search_calls * 13200
             atomic_json(self.path, data)

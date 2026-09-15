@@ -9,7 +9,8 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 import feedparser
 from http_client import request_with_retry
 from newsroom_kpi import compute_newsroom_kpi_snapshot
-from source_verification import source_snapshot, verify_summary, verifier_provider
+from source_verification import source_snapshot, verify_summary, verifier_provider, is_verified_draft
+from openai_news_search import search_news
 
 # ========= НАСТРОЙКИ =========
 
@@ -1743,6 +1744,8 @@ def process_news_item(
         mark_news_as_rejected(news_item, "Недостаточно исходного текста для достоверного пересказа")
         return None
     source = source_snapshot(title, description, news_item.get("link", ""))
+    if news_item.get("method") == "openai_web_search":
+        source["published_at"] = news_item["published_at"]
     description = source["text"]
 
     if ENABLE_CHEAP_PREFILTER:
@@ -1828,6 +1831,8 @@ def process_news_item(
 
     draft: Dict[str, Any] = {
         "source_snapshot": source,
+        "source_published_at": news_item.get("published_at", ""),
+        "source_retrieved_at": news_item.get("source_retrieved_at", ""),
         "source_verification": verification,
         "source_name": news_item.get("source", "Unknown"),
         "title": title,
@@ -1873,7 +1878,8 @@ def handler(event, context):
     google_rss_fetches = 0
     reserve_fetches = 0
     rss_fetches = 0
-    run_metrics = {"technical_errors": 0, "openai_calls": 0, "openai_cache_hits": 0}
+    run_metrics = {"technical_errors": 0, "openai_calls": 0, "openai_cache_hits": 0,
+                   "openai_search_calls": 0, "openai_search_cache_hits": 0}
     rejected_in_session = 0
     deepseek_context = {"calls_made": 0, "max_calls": -1}
 
@@ -2001,7 +2007,38 @@ def handler(event, context):
 
             if approved_draft or run_metrics.get("verification_paused"):
                 break
-        
+
+        # Paid discovery comes last, only when the pipeline failed and the ready queue is short.
+        if (not approved_draft and not run_metrics.get("verification_paused")
+                and verifier_provider() == "openai"
+                and sum(is_verified_draft(draft) for draft in existing_drafts) < 2):
+            discovery = search_news(MOUNTED_BUCKET_PATH, seen_urls, current_utc)
+            run_metrics["openai_search_calls"] = discovery["api_calls"]
+            run_metrics["openai_calls"] += discovery["api_calls"]
+            run_metrics["openai_search_cache_hits"] = int(discovery["cached"])
+            print(f"🔎 Резервный поиск OpenAI: {discovery['status']}; {discovery.get('reason', '')}")
+            if discovery["status"] == "error":
+                run_metrics["technical_errors"] += 1
+            for news_item in discovery["items"]:
+                strict_hash, fuzzy_hash = generate_content_hashes(
+                    news_item["title"], news_item["description"], news_item["link"]
+                )
+                if strict_hash in seen_hashes or fuzzy_hash in seen_hashes:
+                    continue
+                news_item.update(content_hash=strict_hash, strict_hash=strict_hash, fuzzy_hash=fuzzy_hash)
+                fetched_count += 1
+                processed = process_news_item(news_item, existing_titles, seen_hashes,
+                                              deepseek_context, domain_window, run_metrics)
+                if processed:
+                    approved_draft = processed
+                    approved_draft["slot_target"] = sla_shortage_slot or get_slot_by_hour(current_hour)
+                    break
+                if run_metrics.get("verification_paused"):
+                    break
+                rejected_in_session += 1
+                seen_urls.add(canonicalize_url(news_item["link"]))
+                seen_hashes.update((strict_hash, fuzzy_hash))
+
         if approved_draft:
             # Добавляем в source_stats как одобренную редактором
             add_url_to_source_stats(
@@ -2057,6 +2094,8 @@ def handler(event, context):
         
         result["openai_calls"] = run_metrics["openai_calls"]
         result["openai_cache_hits"] = run_metrics["openai_cache_hits"]
+        result["openai_search_calls"] = run_metrics["openai_search_calls"]
+        result["openai_search_cache_hits"] = run_metrics["openai_search_cache_hits"]
         result["verification_paused"] = bool(run_metrics.get("verification_paused"))
         print("\n" + "=" * 60)
         print("=== DUBAI NEWS COLLECTOR END ===")
@@ -2076,6 +2115,8 @@ def handler(event, context):
                 "approved": 1 if approved_draft else 0,
                 "deepseek_calls": deepseek_context["calls_made"],
                 "openai_calls": run_metrics["openai_calls"],
+                "openai_search_calls": run_metrics["openai_search_calls"],
+                "openai_search_cache_hits": run_metrics["openai_search_cache_hits"],
                 "openai_cache_hits": run_metrics["openai_cache_hits"],
                 "deepseek_calls_max": deepseek_context["max_calls"],
                 "gnews_fetches": gnews_fetches,
