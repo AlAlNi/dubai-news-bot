@@ -998,5 +998,86 @@
     "strict_hash": "58da9e904b5d2727aee9fe54a3679705",
     "fuzzy_hash": "136be4f92c45dd38d8473443a40d8e71",
     "reason": "Новость рассказывает о юбилее косметического бренда Bareface в Дубае — это скорее лайфстайл/имиджевый материал с рекламным оттенком, без общественно значимой новости для широкой аудитории. Связь с регионом есть, но ценность для русскоязычного жителя Дубая низкая, а формат близок к пресс-релизу."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/abu-dhabi-accelerates-holiday-home-licensing-with-enhanced-digital-platform",
+    "timestamp": "2026-09-15T17:52:23.591031+00:00",
+    "status": "rejected",
+    "content_hash": "799cf21a38c0eb16649210f96714196a",
+    "strict_hash": "799cf21a38c0eb16649210f96714196a",
+    "fuzzy_hash": "654a91632e5715dbd8fe9da240de36c3",
+    "reason": "Новость касается Абу-Даби, а не Дубая, и при этом не содержит явной связи с Дубаем/ОАЭ/GCC в формате, релевантном для аудитории канала о Дубае; кроме того, текст выглядит как официально-пресс-релизный материал без срочной практической ценности для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/miral-commits-aed-12-billion-to-yas-island-expansion-in-abu-dhabi",
+    "timestamp": "2026-09-15T17:52:28.066184+00:00",
+    "status": "rejected",
+    "content_hash": "0a258d2f6846842361a5e49e52ec3fea",
+    "strict_hash": "0a258d2f6846842361a5e49e52ec3fea",
+    "fuzzy_hash": "f97dcd2e6d78f9da748db180126c0d7a",
+    "reason": "Новость связана с ОАЭ (Абу-Даби), не касается политики/конфликтов, не выглядит как откровенная реклама и может быть интересна русскоязычной аудитории региона, однако она не про Дубай и не является сервисной/регуляторной информацией для жителя Дубая, а по формату ближе к деловому пресс-релизу."
+  },
+  {
+    "url": "https://www.onmanorama.com/travel/outside-kerala/2026/09/15/international-driving-permit-dubai-airport.html",
+    "timestamp": "2026-09-15T17:52:41.894711+00:00",
+    "status": "rejected",
+    "content_hash": "9f2ba796962359b905d31ed92942e1ec",
+    "strict_hash": "9f2ba796962359b905d31ed92942e1ec",
+    "fuzzy_hash": "e1756a9fbf96a0e1f886c2588cf18326",
+    "reason": "Новость связана с Дубаем и полезна для русскоязычных жителей, но она практически полностью дублирует уже опубликованную новость №2 о пятиминутной услуге получения международных водительских прав в аэропорту Дубая."
+  },
+  {
+    "url": "https://www.newsx.com/sports/watch-video-smriti-mandhana-harmanpreet-kaur-lead-charge-as-indian-team-returns-after-womens-asia-cup-triumph-in-dubai-271897",
+    "timestamp": "2026-09-15T17:52:43.241006+00:00",
+    "status": "rejected",
+    "content_hash": "757c6070f2bc6a280226a98eaa48b5fd",
+    "strict_hash": "757c6070f2bc6a280226a98eaa48b5fd",
+    "fuzzy_hash": "1cc12586a25fc2c581651b31ac1e1f18",
+    "reason": "Новость лишь косвенно связана с Дубаем (турнир проходил там), но по сути посвящена индийской сборной по крикету и её возвращению в Дели — это не новость о Дубае/ОАЭ и не представляет интереса для русскоговорящих жителей Дубая. Дубликатом не является, но не соответствует правилам 1 и 6."
+  },
+  {
+    "url": "https://www.businesstoday.in/trending/box-office/story/hanuman-ansh-box-office-devotional-drama-eyes-rs300-crore-worldwide-late-night-shows-in-dubai-sold-out-555491-2026-09-15",
+    "timestamp": "2026-09-15T17:52:44.438523+00:00",
+    "status": "rejected",
+    "content_hash": "440a6173c6aac844a27032813488d456",
+    "strict_hash": "440a6173c6aac844a27032813488d456",
+    "fuzzy_hash": "985be4b78e860e6b3e006407f196d03b",
+    "reason": "Новость посвящена кассовым сборам индийского фильма и упоминает лишь распроданные ночные показы в Дубае — это слабая, косвенная связь с регионом без общественно значимой ценности для русскоязычных жителей Дубая, плюс материал выглядит как развлекательный/промо-контент."
+  },
+  {
+    "url": "https://www.onmanorama.com/news/kerala/2026/09/15/red-book-dubai-dealings-hawala-allegations-emerge-veena-vijayan.html",
+    "timestamp": "2026-09-15T17:52:45.674751+00:00",
+    "status": "rejected",
+    "content_hash": "dbb0238421c91e8fb506a54c2bddbde7",
+    "strict_hash": "dbb0238421c91e8fb506a54c2bddbde7",
+    "fuzzy_hash": "4f9a7ec967dc4d4f6fc6708712787ca7",
+    "reason": "Новость посвящена индийскому политическому скандалу (дело ED против лидера оппозиции Кералы и его семьи), где Дубай упоминается лишь как место предполагаемых транзакций — это большая политика и конфликт, не имеющие прямой связи с жизнью русскоязычных жителей ОАЭ."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWFN0aVZvNDNNdzk0b2xKX2ZpS0V3eEc4Q3NKeDRoU0dSOTRnRnZxa1lKdnFRT0RMZjVIek9XdmJkYWF5YmlpVHBfbEdzNjZKWENtZlVSV3drMHFjU21IZVp4dWgwelNERHBKbTd5SXM2WnJpblJtaHFJVHQtRWFoMWVBS0dPdE10dWhVWFNMcHVtWnFmdEE?oc=5",
+    "timestamp": "2026-09-15T17:52:46.377612+00:00",
+    "status": "rejected",
+    "content_hash": "c8d6237309cac81e97d907ee01df7843",
+    "strict_hash": "c8d6237309cac81e97d907ee01df7843",
+    "fuzzy_hash": "fd2dd15e3ba6e2fb8f08dc503ff3f910",
+    "reason": "Cheap prefilter: слишком короткий текст (53 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNN205eGxRcm5TVGNxZDlVajloSEpRN05KaEswdEhKR2ZaclBDOGdVWWctNlExRnNlVHVGWnNqbnUzQjJMdHd1ZmQwU28tWTNqRG9mbVpWMTl3X2FhVkFNNkp0Y01nSG93TFZRTGUzNWgzXy1lN3ZCY0x3LUJ3OFh3WGR6YUhiR1MtQS0w?oc=5",
+    "timestamp": "2026-09-15T17:52:49.621161+00:00",
+    "status": "rejected",
+    "content_hash": "adf653b1e5799a9e6566776d231c87e1",
+    "strict_hash": "adf653b1e5799a9e6566776d231c87e1",
+    "fuzzy_hash": "efb87a43d4eadabb5dbe6449b7dc2aeb",
+    "reason": "Новость связана с Дубаем (Dubai Holding Real Estate, ADCB) и касается ипотечного/финансового рынка, что потенциально полезно жителям. Однако текст представляет собой фактически один заголовок без содержательного раскрытия — это выглядит как пресс-релиз/анонс партнёрства без конкретики (условия, ставки, сроки), что снижает ценность для аудитории и граничит с рекламным форматом."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaWF3MGtCZmt1V0psTk01ZnRTekVBajRYTEoxaF9wSklnclZtR3dvZDNFN1R4MVFWb2lFS1EwRnB6RDBQTVJrNVVmZXVhaERsM19jOEt3OHpzOTRabHlVNmNqanZydHc3ekRXMERlMGZHRllXVXV5OU1IQW4zaU5iYW1QNHVqb3JfUWQtOVZoSm9Gbk1HYklPcVU5LUpNUUNYUUlOeldvT2ZDdw?oc=5",
+    "timestamp": "2026-09-15T17:52:51.495986+00:00",
+    "status": "rejected",
+    "content_hash": "6fda8d0b2be0e9e17647b371d6ffd620",
+    "strict_hash": "6fda8d0b2be0e9e17647b371d6ffd620",
+    "fuzzy_hash": "d5e6a298eeb437f74bc949d97d673bab",
+    "reason": "Новость представляет собой лишь заголовок и название источника без содержательного текста — это выглядит как неполный или технический фрагмент, а не полноценная новость для публикации. Кроме того, это по сути пресс-релиз застройщика о запуске двух жилых проектов, без общественно значимой информации, и дубликатом не является, но по правилам 3 и 5 не подходит."
   }
 ]
