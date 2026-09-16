@@ -232,5 +232,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c9c2c1ebf2"
     }
+  },
+  "7049b2ecf24bd11cf1df86b4b05f08f40cd95e66b9ab793e7550f874e5d718d9": {
+    "saved_at": "2026-09-16T13:51:00.193498+00:00",
+    "result": {
+      "id": "chatcmpl-EOkKIQQfP8GJjwVKtXgCxrIf9sZty",
+      "object": "chat.completion",
+      "created": 1789566658,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"Dubai approved a new 80 km road with 72 bridges and 17 tunnels\",\"supported\":true,\"evidence\":\"Dubai approves new 80km road with 72 bridges and 17 tunnels\"},{\"claim\":\"The first phase costs 3.5 billion dirhams\",\"supported\":true,\"evidence\":\"The Dhs3.5 billion first phase\"},{\"claim\":\"The road will connect Abu Dhabi, Dubai and Sharjah with a new 12-lane route\",\"supported\":true,\"evidence\":\"will connect Abu Dhabi, Dubai and Sharjah with a new 12-lane route\"},{\"claim\":\"The first phase of the new Fourth Corridor road is 80 kilometers long and will improve connections between Dubai and other emirates\",\"supported\":true,\"evidence\":\"Dubai has approved the first phase of its new Fourth Corridor, an 80-kilometre road that will improve connections between Dubai\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 576,
+        "completion_tokens": 208,
+        "total_tokens": 784,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
   }
 }
