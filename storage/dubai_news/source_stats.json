@@ -1160,5 +1160,86 @@
     "strict_hash": "f5abb6e86ebd6577e1a867f39792af9b",
     "fuzzy_hash": "41969072e03867d6cb9d7c3bc4c93f2b",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.cnbctv18.com/market/stocks/blue-star-share-price-says-oman-partner-seeks-annulment-of-arbitration-award-in-dubai-court-19991145.htm",
+    "timestamp": "2026-09-16T00:39:58.965072+00:00",
+    "status": "rejected",
+    "content_hash": "094ddd9af43fe6f826c00f0c9808a7ec",
+    "strict_hash": "094ddd9af43fe6f826c00f0c9808a7ec",
+    "fuzzy_hash": "f81167d223917750ef8c093c0c69f555",
+    "reason": "Новость касается судебного спора между индийской компанией и оманским партнёром в суде Дубая — связь с регионом есть, но это узкоспециальная корпоративная/юридическая тема, вряд ли интересная и полезная массовому русскоязычному жителю Дубая, к тому же похожа на финансовую сводку для инвесторов, а не на городскую новость."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX3lfcVpValhSZTlFMmZ1dU9FckNJSGZpd3BiNnlPcWF3UkdyZTh1VWJoRWJrcWdwM05WMlpmWmlNbW9KZTd0dllwaFBqLURCOG8xVnF6NGlOOVZpUzRWd09zbzdsbEVCaUN5bWROOTVsZm1FTjM3SlprLUNOVmpIZXN0MUtnczFFQzZIVTF6UUdGZi1tUHA1ckQ3YWtTSmE2NHgzUjdGSzBYVlVn0gGsAUFVX3lxTFBfeV9xWlVqWFJlOUUyZnV1T0VyQ0lIZml3cGI2eU9xYXdSR3JlOHVVYmhFYmtxZ3AzTlYyWmZaaU1tb0plN3R2WXBoUGotREI4bzFWcXo0aU45VmlTNFZ3T3NvN2xsRUJpQ3ltZE45NWxmbUVOMzdKWmstQ05Wakhlc3QxS2dzMUVDNkhVMXpRR0ZmLW1QcDVyRDdha1NKYTY0eDNSN0ZLMFhWVWc?oc=5",
+    "timestamp": "2026-09-16T00:40:00.950985+00:00",
+    "status": "rejected",
+    "content_hash": "f7d4f4a4ec5537f01856a653cb077626",
+    "strict_hash": "f7d4f4a4ec5537f01856a653cb077626",
+    "fuzzy_hash": "fa2a64de4436395137b2b1ebbb0b63dc",
+    "reason": "Новость связана с регионом (ОАЭ), не касается политики, не выглядит рекламой и может быть интересна аудитории, однако она почти полностью дублирует уже опубликованную новость о месте Дубая в глобальном индексе прозрачности недвижимости (пункт 1 контекста), отличаясь лишь добавлением Абу-Даби."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1laTdZT0xaRTNBR2tSSklTaHdpa0xxMWtxNkNlNzVCN2I0SVYwWlczcV9jcXRFSElpTnBIN1VKQUt5dF9mVmRQWTlmaDdKM0w4Y1RtbGp6VG16MkczMm1HaGJNUW9QNGVINUhISVNQNHFXYU9JZnhMa1k5dw?oc=5",
+    "timestamp": "2026-09-16T00:40:02.157652+00:00",
+    "status": "rejected",
+    "content_hash": "519c155521a1eaf3ea3d535316e60fc0",
+    "strict_hash": "519c155521a1eaf3ea3d535316e60fc0",
+    "fuzzy_hash": "9880c14d8d9593c6dee776e7f92a6904",
+    "reason": "Cheap prefilter: слишком короткий текст (107 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUTFfM000alZhWXJOMHhhY2IxblVZZ2xoU0JxSmtfNTFoMHFnWFNrb2EyYVNOWnpRX0lFQnJrcFJmWXludDFIZ2Q2WnJkLUwwUml2VTRkeGdhUjEyVG9VZlBvdmFDaFcxNTlJOFhOSUd5dWVMandQRF9qQ3ZzeUdoR3k2b2xCb3RjYm5JcXQ3VHgtR3Bnd21PQW5XaVppa29VeWhwdjd6RV91ZnNHY2hj?oc=5",
+    "timestamp": "2026-09-16T00:40:03.853850+00:00",
+    "status": "rejected",
+    "content_hash": "3124e56b41a0a33f572cf47846c2cd08",
+    "strict_hash": "3124e56b41a0a33f572cf47846c2cd08",
+    "fuzzy_hash": "351f19b94c2db721438aea8e483fec32",
+    "reason": "Новость касается ОАЭ в целом и связана с международным имиджем страны, но тема «списки предупреждений о поездках» близка к политике и не даёт конкретной полезной информации для русскоязычного жителя Дубая; текст выглядит как сырой заголовок без содержания."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa2xIeWlHamZwb2hwUmZHcjFiWUtQRWtFYlBUbXpyX0pWdmd2WXNLX3BRaDQ1bkpnNlQydGE1T3pwZndxTjNFVHR0X2tFTmNTX3NwOVE1RXYtV3RlM3VRSnJGSnUyT0xfenM2UEVRTGxjMHRBcE1aRHExQnZGTkxrdEZR?oc=5",
+    "timestamp": "2026-09-16T00:40:05.027570+00:00",
+    "status": "rejected",
+    "content_hash": "0c30cbf50a2b1a707ea2b5513a1b9f7f",
+    "strict_hash": "0c30cbf50a2b1a707ea2b5513a1b9f7f",
+    "fuzzy_hash": "ebed5d3c5b380a785f58b2a9297708d0",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbXFtc1ZSTEQ3cURZQUM2cWFNM1hwOHowWE05ZDhLVWlIVTJ5TThOTGFLSS11WWVkY3VpakllaVdsMUJ4LTN5UzJ4alZqeDhCMUZNWmVEcmNmUjJzVFBqTnBLVjlSM0tUd3JGSDcxNEF0NlpZQ3I1VmR6SXFHbmZpbVBDVldTc28?oc=5",
+    "timestamp": "2026-09-16T00:40:06.063404+00:00",
+    "status": "rejected",
+    "content_hash": "103796d522095467efed605966c80c92",
+    "strict_hash": "103796d522095467efed605966c80c92",
+    "fuzzy_hash": "4a8cc771a71f997c4ac1c4f9c0ccdda3",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUUNuM29yaDhGOHFvQWtmVUJYMUhadjZ3dzVsWC1icjFEU25QdnFseEQ4M0NEd1F5QUVUeVBGbkNhX2p0dXU0MElIWHlrQTBrRHFhRlJiREZLREFBMzZhX1NPTE9qa0REdzB0NUpPVFhsYUw1N2RJODY1THNSSUt4Z2NiRk9pa3hNUXl0UVFKNA?oc=5",
+    "timestamp": "2026-09-16T00:40:06.642306+00:00",
+    "status": "rejected",
+    "content_hash": "1a4d1089b633398de741339ffceefd6f",
+    "strict_hash": "1a4d1089b633398de741339ffceefd6f",
+    "fuzzy_hash": "478531d5f1e158557e7c0355b6d07d4e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON2RMRldXYVNaMExOUXQyelE4Q3llbi0yRFg3N1hhUk5vX0RIRWVWLWpQXzUwTVdtY0xhTGg2TG94Z3AzY1h2RjBMb1VPZGdmb2pmZ1VsRFVYSDIyNF8zcW1qaDk5b0RkOTVEc09XMmwzVWFEY0huY2R4bEhHREFhVWhmZFJ0TC15cGk5bHZ3U01pNFpIeHc0MXU3R0w?oc=5",
+    "timestamp": "2026-09-16T00:40:08.403505+00:00",
+    "status": "rejected",
+    "content_hash": "bdfd18cb720ecd2a4905f7df8c27f24e",
+    "strict_hash": "bdfd18cb720ecd2a4905f7df8c27f24e",
+    "fuzzy_hash": "ee90334d5793766335fea524c5dd955a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xclM2clplMXpZVno3NkhzcFJVcXB6clJZN3pweUF3SmhXQXV1eUdQaXlzUWx6NE1BaE1EaWg3cUdfTUtmNzNTSjZPWlVfTmtrYzNNbzBZZ0VHckhUSHFSUXVibnY2RHMxWmdCODlDU01LR3IwVmZIYjNzUmFRdWM?oc=5",
+    "timestamp": "2026-09-16T00:40:10.179097+00:00",
+    "status": "rejected",
+    "content_hash": "7b5691deb164939d46dc05ae746c9527",
+    "strict_hash": "7b5691deb164939d46dc05ae746c9527",
+    "fuzzy_hash": "dd1e53dda7c6899c43f14308d1e0d130",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
