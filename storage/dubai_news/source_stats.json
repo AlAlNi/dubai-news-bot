@@ -1,123 +1,6 @@
 [
   {
     "url": "https://www.thenationalnews.com/news/uae/2026/09/14/etihad-rails-dubai-station-almost-ready-for-september-30-opening",
-    "timestamp": "2026-09-14T14:19:46.393202+00:00",
-    "status": "approved",
-    "content_hash": "6b1e2c678252737e26dc545118e386a5",
-    "strict_hash": "6b1e2c678252737e26dc545118e386a5",
-    "fuzzy_hash": "244be36115c7f0cd9f75dba23692f5f1",
-    "reason": "approved"
-  },
-  {
-    "url": "https://whatson.ae/2026/09/dubai-is-getting-a-second-etihad-rail-station-in-meydan",
-    "timestamp": "2026-09-14T15:23:26.244773+00:00",
-    "status": "rejected",
-    "content_hash": "f71a28f108721d1fb10eef381eb55cf2",
-    "strict_hash": "f71a28f108721d1fb10eef381eb55cf2",
-    "fuzzy_hash": "4f14b19dfb70c95063c0babcd385a352",
-    "reason": "Новость связана с Дубаем и полезна жителям (развитие Etihad Rail и метро), но она почти дублирует уже опубликованную новость о станции Etihad Rail в Дубае и выглядит как пересказ/анонс без проверяемого первоисточника по явному URL."
-  },
-  {
-    "url": "https://whatson.ae/2026/09/7-dubai-restaurants-where-it-feels-like-youre-dining-in-a-garden",
-    "timestamp": "2026-09-14T15:23:33.570368+00:00",
-    "status": "rejected",
-    "content_hash": "af074dc43ecfe2e7d47004c700801587",
-    "strict_hash": "af074dc43ecfe2e7d47004c700801587",
-    "fuzzy_hash": "0921a8c34374005cbd77ffe798011606",
-    "reason": "Новость представляет собой подборку ресторанов с «садовой» атмосферой в Дубае — это лайфстайл-контент без общественно значимой новости, признаков ИИ-генерации нет, но материал выглядит как перепечатка из издания What's On и не несёт полезной/срочной информации для русскоязычного жителя. Формально связь с Дубаем есть, политики и рекламы нет, однако это типичный «списочный» кликбейт-формат, не являющийся новостью."
-  },
-  {
-    "url": "https://whatson.ae/2026/09/6-fun-things-to-do-in-abu-dhabi-this-week-september-14-to-17",
-    "timestamp": "2026-09-14T15:23:38.509716+00:00",
-    "status": "rejected",
-    "content_hash": "098924cec48ccc6a7b00dd245cfab432",
-    "strict_hash": "098924cec48ccc6a7b00dd245cfab432",
-    "fuzzy_hash": "43b3ba0fc945c31dbbcd999dfdd1e963",
-    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/14/etihad-rails-first-dubai-station-almost-ready-for-september-30-opening",
-    "timestamp": "2026-09-14T15:23:39.666051+00:00",
-    "status": "rejected",
-    "content_hash": "50f56df32d2508dc69da9bbb44bbba0a",
-    "strict_hash": "50f56df32d2508dc69da9bbb44bbba0a",
-    "fuzzy_hash": "bac8d21b7d9cbbe8de582ea949f60595",
-    "reason": "Новость связана с Дубаем и полезна для жителей (открытие первой станции Etihad Rail в Дубае), но она практически дословно повторяет уже опубликованную новость №1 из контекста («Etihad Rail's Dubai station almost ready for September 30 opening»), то есть является дубликатом."
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/14/dubais-etihad-rail-station-heralds-new-era-for-transport",
-    "timestamp": "2026-09-14T15:23:41.215787+00:00",
-    "status": "rejected",
-    "content_hash": "b37506eb79774c1718ed6f04781dc755",
-    "strict_hash": "b37506eb79774c1718ed6f04781dc755",
-    "fuzzy_hash": "09b69dbb07ea4a76fd0017d1f59ccb50",
-    "reason": "Новость связана с Дубаем и транспортной инфраструктурой, но она почти полностью дублирует уже опубликованный материал «Etihad Rail's Dubai station almost ready for September 30 opening» — тот же инфоповод, тот же объект и тот же срок открытия, лишь с добавлением экспертных комментариев. Дополнительной общественно значимой новости здесь нет."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnoxalcyMkI2ZGwyeWNESW0wcDhuX00wdWlVdGJFZjMxLXR0RnZ2SnIxYnRnc3YtQS16X0MtRjBkWmJrYktDdnJCeGlkQm9rWTFVTjVTSGF3S2txa2NlaVVPbGdUbWNwUzVIVkVscHZUaGpjRm0tVkZ2T2lNVzgyR2gtOHZxVU9PdU5WNjJYSzRhbi1laDZndFN4MUlfU2JZRWdobWI0Q2dybzJlLUp1MnBIT21oSlhPYUd6RERWYlVHeEJfUnAxTmVB0gHaAUFVX3lxTE5ySUtHQ0Z6aFUxNXd0aXkzVnZYNzdOYmdHRnMzRGhUX052cG53UGxJWjFuVHNpNkh0UXVZYzVEeFh5eEtnZGFNeDA2dldzRVB1TnQtSEpUTHNySUVmbTZjZlpQQU96dEFrUW0zbjBCOGRkS0ZaOHJmQXQxaUxSc3laLWVXRE03ZFZOQlVaYWpmaGdBZDJvM21RTEVPbm13VWQ4MEF3VHVUN3Z1T2Z3OGdBRnpiZ01JczRoelNvXy1UZExvYzVCNEhQTzE2ZWJjeGx5VVBkU1VqOU9B?oc=5",
-    "timestamp": "2026-09-14T15:23:43.684534+00:00",
-    "status": "rejected",
-    "content_hash": "69e9d397cc50ba95aa57c6e8d8d393ec",
-    "strict_hash": "69e9d397cc50ba95aa57c6e8d8d393ec",
-    "fuzzy_hash": "e39ff3a46de2e76ec69511a1d979b688",
-    "reason": "Новость касается планов RTA по созданию экспресс-линии до аэропорта Дубая и влияния на стоимость недвижимости — это явно связано с Дубаем, потенциально полезно жителям и не относится к политике, рекламе или неуважительным темам. Однако текст представляет собой лишь заголовок и ссылку на Gulf News без содержательного изложения фактов, а также нет подтверждаемого URL источника в самом материале, что не позволяет проверить достоверность."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSlhRRFRzbUhlLTE5UWtkSXB2U05ZWTZKMm1RYXZoVGJwb3hCbDJrbms2ZU1FNjJFUXhSX19hTDNycC1hSGJMbEpJWXVhV2xIc1R6Y0E5QjU2TjdlQVo3bjc0cHNQTWVsN19VMlU5QVhBTllpVjlXMldnX05BVDVnbHYxeVEyYTFYNF9pSXNCMDdqQnM3c3JxbkE0MFRVczEwVFBFTk9TVDB0NDhOTEJSNmVud0UzSnd6dng5d0Y1cw?oc=5",
-    "timestamp": "2026-09-14T15:23:45.415715+00:00",
-    "status": "rejected",
-    "content_hash": "8fe7080892b723b0174462e4cd46855b",
-    "strict_hash": "8fe7080892b723b0174462e4cd46855b",
-    "fuzzy_hash": "cb7b954ecad0e02ba0f5c78203c6394a",
-    "reason": "Новость сообщает о планах RTA Дубая привлечь подрядчиков для 30-километрового проекта First Al-Khail Road стоимостью $4.9 млрд — это явная инфраструктурная новость, напрямую связанная с Дубаем и полезная жителям. Однако текст представляет собой лишь заголовок и название источника без полноценного содержания, а также отсутствует проверяемая ссылка на первоисточник, что не позволяет подтвердить факты."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMDkzNlpPUkhzZzE5YXpjRkVVXzl1T0I4VU1pUW1IZzVtenB5VTlfcm9XWXhIVDA1VDdtb3RXZy1xNDUxWDJzdkljRmcyLU15WTNPaGlkbERyUTlheUVyYVJDdGxtY1VqenN4dDJwRkpjTWN4QVRkMDc5bTIzZ0J0N2NuSkQzNWU4U2E5a1p6aHhybGFyS1pIOEhBdktyTHZzLU1NYXRnZW5VNi1fRzJ3TEVadHcyajRzY0JDaVpIekhOZ0xGcHAwVjZPb0NtTEk?oc=5",
-    "timestamp": "2026-09-14T15:23:45.672225+00:00",
-    "status": "rejected",
-    "content_hash": "e6d0fdd5bae9c60259bf35f9b83551ae",
-    "strict_hash": "e6d0fdd5bae9c60259bf35f9b83551ae",
-    "fuzzy_hash": "f8db12ad8cc1a9dff8441b200ec136af",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNlJ6MF9CWV9OQWVDN2plcmxiSHJnMFNSQjQ1LVJXeTlnTGtYVnZnWlV0SnBiajVYWmtkTGZNTjMtb0ZSbmZVRlhLcVR6eGR1blEtMF93cHdzajNEWFRubDJ1MlpmX0xPS19CY0pOVUJQMjRVcFpwbHBxdjNmX3JxbHl6Mk9GOVB5ekt6Q3RLWkNVT0NXbjdtNFNOa9IBowFBVV95cUxOMTUyRTRHUUdidlhNRnlFZnBTbGpSRm1TNUkwb2hoZEpWTktUQ2ZBaXpCc1BoVVJXQnZUcXVRNTNIOU5zT01jLVZ2cU1seUNrdUNnUXBvSGx4RC1IT3dCU3ZhQTNmcGdUbU9TUS1LQXNLblBNZk9NbVNvTFlpQ3BPUXZNbkg0VG1tblJQNG9lVXNYR1JnZzc0RHFkVHZ5RGNkb2Nr?oc=5",
-    "timestamp": "2026-09-14T15:23:47.040263+00:00",
-    "status": "rejected",
-    "content_hash": "b9b4f332e55efbd2c95d6999725fffa4",
-    "strict_hash": "b9b4f332e55efbd2c95d6999725fffa4",
-    "fuzzy_hash": "a606b419976ac44f38733bfb02f912d9",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNempLQkd0SU94UXBlclNVQmhyaXJ6S1VPOVpJYzRfaWM5QlZUUzRWX1dvbDNTeGpaYjJDNDE4cGJ0cWtOWDR6eGY2aDhfcTBqX3Z1LW12Ym1Ma2tIMEh3NEFGQ2JLelNyRHlOeTZBLTJvOTllbUZjOFAybGtNUXFOVGpoRVpBT1k?oc=5",
-    "timestamp": "2026-09-14T15:23:48.369279+00:00",
-    "status": "rejected",
-    "content_hash": "1ef9ba8cb415681a18516434beaaf9b5",
-    "strict_hash": "1ef9ba8cb415681a18516434beaaf9b5",
-    "fuzzy_hash": "567b39f95e6d1ba3c782e5c0f72a8ed5",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1FajB3dU5wZzhYb2NSYzg5QkZRRUdHdF8zdXdCcUlYSnpYLU5FTjd2aHhxUFFEam9LbHVaRExHN2N3cGpkM1kxN2p6SjJ2NUtUX0ViQm5feUNiUE92OHZYY2xjSWg2T0dURTJFcjE4eV9zb0lRT3htcXdXWFI?oc=5",
-    "timestamp": "2026-09-14T15:23:49.822870+00:00",
-    "status": "rejected",
-    "content_hash": "bf3f92402edde642d7dc398feb8ffef9",
-    "strict_hash": "bf3f92402edde642d7dc398feb8ffef9",
-    "fuzzy_hash": "97b4b46fcd9e945aeab12232fa78a5a4",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZFFjZjFrRnV0YkFhT2prWlo3S0VCMTFzaUd6VDZIVmtjRzZOLWZjaVI0N0pqdXp3TzVjTGdJYXFyZWVBcVpGRHA5T1BsV3d6V0hzdkVVUXZzLVpPUTZ0OUtzT3lHRjlnX29nQ3N5VlR1eXFKNHc0QzVFN0NqUG1CdWR6VHY4Mk0yZm9vTXZBc0Qtc2FTazhqYmpWMVplNjZGODA3c1pNYTRhQ0RIMWFxYWo2enp5bGhaZ3RJRkpMUzNDVVV0WmtfdHFB0gHcAUFVX3lxTE8tcEdGTmw2WTF1S2ZST01YMjFaM2xDZ3BGbngwQlQ5bWRaUnNTaHlJTURDcjNMWmo2QWNIZk8tUW1KLXpNM0ZlamVFSENybVlSTjdVWEk5WG5jU0x4R0xHSnVDaHpMSVRDRE1WUVVDRW9RUk1VZVl3ZlRabUJDWjFUVW4tMXA3Y1dEeXpjQUs3N0NlZVgwbTlaS1I4ejljV0JuSDgtTThaR3hkazJNZ05jUURZb2VCTFpTMmJ1OEdGeGNzWDgxUmVBUEhleU5ldFNNbExXYkcyN3FVcS0?oc=5",
-    "timestamp": "2026-09-14T15:23:51.124522+00:00",
-    "status": "rejected",
-    "content_hash": "61e8e9c967401aad949120864aabe43d",
-    "strict_hash": "61e8e9c967401aad949120864aabe43d",
-    "fuzzy_hash": "b3783f9a055188d70cd38c2299abb3bc",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/14/etihad-rails-dubai-station-almost-ready-for-september-30-opening",
     "timestamp": "2026-09-14T18:30:47.184617+00:00",
     "status": "published"
   },
@@ -1448,5 +1331,10 @@
     "strict_hash": "42b16c8102e6f1a8892978d7dc1d9e7d",
     "fuzzy_hash": "393cd5976ed16d3cd51c866e765f0335",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/dubai-approves-new-80km-road-with-72-bridges-and-17-tunnels",
+    "timestamp": "2026-09-16T18:07:18.215024+00:00",
+    "status": "published"
   }
 ]
