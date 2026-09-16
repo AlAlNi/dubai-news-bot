@@ -1268,5 +1268,86 @@
     "strict_hash": "179c6de7d1c42246d582d2d28a8235b0",
     "fuzzy_hash": "62a18deadbc6b1c8ec1461e396b15e2d",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thesun.ie/sport/17625599/rory-mcilroy-patrick-reed-bmw-pga-championship",
+    "timestamp": "2026-09-16T17:12:45.609414+00:00",
+    "status": "rejected",
+    "content_hash": "b48956b71a7f60e8fe83916189671adc",
+    "strict_hash": "b48956b71a7f60e8fe83916189671adc",
+    "fuzzy_hash": "0bda28a74e897510fe6d6d406eb1cfd4",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.onmanorama.com/news/kerala/2026/09/16/veenas-red-book-and-currency-photos-eds-damning-evidence-in-riyas-hawala-case.html",
+    "timestamp": "2026-09-16T17:12:48.162089+00:00",
+    "status": "rejected",
+    "content_hash": "11f779fcd697c9989ca93668e6808ff6",
+    "strict_hash": "11f779fcd697c9989ca93668e6808ff6",
+    "fuzzy_hash": "3af6ba2ef29da432dc9e6c0ac44c6ffd",
+    "reason": "Новость касается расследования индийского Управления по борьбе с экономическими преступлениями (ED) и хавала-канала, связанного с Дубаем, однако основная тема — политическое/уголовное разбирательство в Индии, без прямой общественно значимой связи с жизнью русскоязычных жителей Дубая. Кроме того, это не соответствует формату канала о Дубае и может быть воспринято как политически чувствительный материал."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/16/etihad-rail-station-in-abu-dhabi-to-connect-directly-to-airport",
+    "timestamp": "2026-09-16T17:12:49.674904+00:00",
+    "status": "rejected",
+    "content_hash": "fdb60ae6ec7ee6556e43ee3e6c4e3f44",
+    "strict_hash": "fdb60ae6ec7ee6556e43ee3e6c4e3f44",
+    "fuzzy_hash": "1dd3f182f1c34aa1dd4558724d3a10a5",
+    "reason": "Новость касается Абу-Даби, а не Дубая, и не имеет явной связи с Дубаем/аудиторией канала; кроме того, это транспортный проект в другом эмирате, что снижает релевантность для русскоязычных жителей Дубая."
+  },
+  {
+    "url": "https://www.zerohedge.com/geopolitical/syrian-protests-spread-aleppo-raqqa-while-jolani-enjoys-red-carpet-treatment-dubai",
+    "timestamp": "2026-09-16T17:12:51.009920+00:00",
+    "status": "rejected",
+    "content_hash": "9aa011a3fbea87b76ebb93465cf1fa54",
+    "strict_hash": "9aa011a3fbea87b76ebb93465cf1fa54",
+    "fuzzy_hash": "a0509386b09e11c51c045e656146c5f8",
+    "reason": "Новость посвящена протестам и политическому конфликту в Сирии, лишь косвенно упоминает Дубай через медиа-событие и содержит политически заряженные формулировки — это нарушает правила о политике/конфликтах и не соответствует фокусу канала о Дубае."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/city/delhi/overnight-wait-protest-at-delhi-airport-as-spicejet-dubai-flights-delayed-by-30-and-19-hours/articleshow/134276084.cms",
+    "timestamp": "2026-09-16T17:12:52.582824+00:00",
+    "status": "rejected",
+    "content_hash": "fa4e469469ba378243a28983ccdd124b",
+    "strict_hash": "fa4e469469ba378243a28983ccdd124b",
+    "fuzzy_hash": "a79eddc00a8858425486dd5826fe015c",
+    "reason": "Новость касается задержек рейсов SpiceJet в Дубай и протеста пассажиров в аэропорту Дели — это событие связано с ОАЭ лишь косвенно (как пункт назначения), а основная тема — инцидент с авиакомпанией и протест в Индии, что попадает под политику/конфликты и не является полезным сервис-апдейтом для жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa3JJa3g5SUVKV3B1VzMxaVJabElvbWJ0a2xHeF92QTdrc0ZpMWdOVWhDdTFQLUc2d3l6VWVqU29oM3FPR2ZPQVlSWG45WHBaYndzV0tfUDBtbS1vVnd4eTBtbW40ZTNFZXg5aHhDc1pmZ0xkN0R5OGRqcDZfWV9TTFctQXB0S3cxWnhnWVdpUy02X3BoSlcwaGREX3d6RkxsdzlJRnBfNTBUZ0JZQ3ZIdFVhalFUS0hVY2dJWE1paF9sUXUtZTg0ODZUWXVCLXdnMTJibEJWMnJPQkZwbXU2WElFRQ?oc=5",
+    "timestamp": "2026-09-16T17:12:54.474914+00:00",
+    "status": "rejected",
+    "content_hash": "864aa6abb47a2e54426e2b093ca1bf5b",
+    "strict_hash": "864aa6abb47a2e54426e2b093ca1bf5b",
+    "fuzzy_hash": "5f6ba6e1511d5e40831a22823f4c4b7f",
+    "reason": "Новость связана с Дубаем (Dubai Future Foundation, Sandbox Dubai) и касается развития proptech-сектора, что полезно и интересно русскоязычной аудитории. Однако текст представляет собой лишь заголовок и название источника без содержательного описания — по сути это пресс-релизный анонс без конкретики, что затрудняет оценку общественной значимости и достоверности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbEw1dHExNy1CQVVadnA4WFVZLU5pbmlxUlZqTVEzejZyUVZnNTBqekVHRlhNMzJ3NGVDWlVrekdJN3lNYXNwXzZkdzJWZGdGQUY2bTJHazlvVmNoNWVuOG0wRXAyOTY5TUdSUGlySGQ5R09rNy1MZU1uak1OaXBfbVFGTjZWcUxZbUItcW1vQ1NjNW1SUjg2d0RNTTFjY3V4TkN4eVgyeHczZ1o0eEtfTHJvMEx6dFFYckFBbTRyaXRqQmNMOXlDRnR3?oc=5",
+    "timestamp": "2026-09-16T17:12:56.519832+00:00",
+    "status": "rejected",
+    "content_hash": "1382908fd2b4c0bd93c61420f9232842",
+    "strict_hash": "1382908fd2b4c0bd93c61420f9232842",
+    "fuzzy_hash": "5672f0fc1f831f040a57f2cdebf5d9c8",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на внешний источник без содержательного текста, при этом тема — участие Грузии в туристической выставке ATM Dubai — не является значимой новостью для русскоязычных жителей Дубая и не несёт полезной или срочной информации."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ObHJwa3VZdUlTZUJaNGdkQlNOS0tyUy1KV3BzYWVNSFBfbV82SG5qZW1LbmpGdGZla0l5ZjV1bF9vRDRpYkRWVWtxVUN4VTMxNHV1cE9yQU91anRTb0gwaDZRMA?oc=5",
+    "timestamp": "2026-09-16T17:12:56.794591+00:00",
+    "status": "rejected",
+    "content_hash": "06b6c682a548efc3e19172d4f11ae292",
+    "strict_hash": "06b6c682a548efc3e19172d4f11ae292",
+    "fuzzy_hash": "e58792abf2a45e26232e4f3141976ad2",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbVNxSkJMQUloZDg4dlhnR1NHSzVMN0xuSjZUMjhuNDZxT1d0SnRfLWprN2NXV1VfRE5ZSjFtT2RYRzFMb3NHUVR2NzhuVjdlam80bDd0SjNiTXhRUk5qaEUtclUxd0sxM1Jta3daRnBUcUtSTVlFRG9TU1JlUFMyTlpLQ19xWENxTjFGcGhJZlBKU3NFUi0yaXh6ZEdfZ2tmSG9YWG9kSk1hSXVjdzFmLXdhZ19uMUZoM3VkdDlIVTBNUWc?oc=5",
+    "timestamp": "2026-09-16T17:12:57.990541+00:00",
+    "status": "rejected",
+    "content_hash": "d27c71d8dac24ab987f020d36042d581",
+    "strict_hash": "d27c71d8dac24ab987f020d36042d581",
+    "fuzzy_hash": "228e34a933f6f9bd445274bed19d52a9",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
