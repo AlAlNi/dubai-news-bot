@@ -1,90 +1,6 @@
 [
   {
     "script": "rss_collect",
-    "started_at": "2026-09-05T18:49:27.654943+00:00",
-    "finished_at": "2026-09-05T18:49:56.573113+00:00",
-    "duration_seconds": 28.918,
-    "success": true,
-    "counters": {
-      "attempts_made": 2,
-      "fetched": 1,
-      "rejected": 0,
-      "approved": 1,
-      "deepseek_calls": 2,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 0,
-      "google_rss_fetches": 0,
-      "reserve_fetches": 0,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-09-05",
-      "daily": {
-        "published_per_day": {
-          "value": 4,
-          "target_min": 2,
-          "ok": true
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 66.67,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.lokmattimes.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 43,
-            "reject_rate": 93.02,
-            "duplicate_rate": 18.6
-          },
-          {
-            "source": "whatson.ae",
-            "events": 6,
-            "reject_rate": 83.33,
-            "duplicate_rate": 16.67
-          },
-          {
-            "source": "www.cryptobreaking.com",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 33.33
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
-    "script": "rss_collect",
     "started_at": "2026-09-05T20:40:04.792870+00:00",
     "finished_at": "2026-09-05T20:40:17.935991+00:00",
     "duration_seconds": 13.143,
@@ -18211,6 +18127,96 @@
             "events": 60,
             "reject_rate": 93.33,
             "duplicate_rate": 3.33
+          },
+          {
+            "source": "whatson.ae",
+            "events": 12,
+            "reject_rate": 91.67,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.thenationalnews.com",
+            "events": 6,
+            "reject_rate": 66.67,
+            "duplicate_rate": 16.67
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-09-16T01:18:21.664788+00:00",
+    "finished_at": "2026-09-16T01:18:21.672416+00:00",
+    "duration_seconds": 0.008,
+    "success": true,
+    "status": "no_posts",
+    "counters": {
+      "telegram_calls": 0,
+      "telegram_failures": 0,
+      "published": 0,
+      "duplicate_skips": 0,
+      "no_posts": 1
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-09-16",
+      "daily": {
+        "published_per_day": {
+          "value": 0,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 100.0,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "www.newsx.com",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 50.0
+          },
+          {
+            "source": "timesofindia.indiatimes.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "www.al-monitor.com",
+            "events": 3,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          },
+          {
+            "source": "news.google.com",
+            "events": 58,
+            "reject_rate": 93.1,
+            "duplicate_rate": 3.45
           },
           {
             "source": "whatson.ae",
