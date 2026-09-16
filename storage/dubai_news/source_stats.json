@@ -1241,5 +1241,23 @@
     "strict_hash": "59b5a8c8bfb15d23b3acf79d0b374ae5",
     "fuzzy_hash": "2a464dccc82c099299d5fa3df40e0156",
     "reason": "Новость формально связана с ОАЭ (Sharjah Tourism на выставке Arabian Travel Market в Дубае), но по сути это пресс-релиз/имиджевое сообщение без общественно значимой новости, без конкретики и без пользы для русскоязычного жителя Дубая; к тому же заголовок и текст дублируют друг друга и выглядят как сырой пресс-релиз."
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/nri/latest-updates/air-india-partners-with-flydubai-to-expand-global-connectivity/articleshow/134283730.cms",
+    "timestamp": "2026-09-16T23:09:38.529084+00:00",
+    "status": "rejected",
+    "content_hash": "b2b0474453ff6848f14143b183de33c2",
+    "strict_hash": "b2b0474453ff6848f14143b183de33c2",
+    "fuzzy_hash": "410e422771a7123b56557a3e339de720",
+    "reason": "Новость связана с Дубаем (flydubai, хаб в Дубае) и касается расширения авиасообщения, что полезно для русскоязычных жителей, но текст выглядит как пресс-релиз/анонс партнёрства без общественно значимой новости и с признаками кликбейта/обрыва («Alongside a new Uzbe...»), что снижает достоверность."
+  },
+  {
+    "url": "https://www.thenationalnews.com/travel/2026/09/16/worlds-50-best-hotels-2026-atlantis-the-royal-jumeirah-marsa-al-arab",
+    "timestamp": "2026-09-16T23:09:46.737128+00:00",
+    "status": "approved",
+    "content_hash": "15001e0f9f840a99852118cd1b22762d",
+    "strict_hash": "15001e0f9f840a99852118cd1b22762d",
+    "fuzzy_hash": "0d1c22ba2d269d2598b5476a33604711",
+    "reason": "approved"
   }
 ]

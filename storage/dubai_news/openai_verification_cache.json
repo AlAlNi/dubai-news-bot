@@ -310,5 +310,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c9c2c1ebf2"
     }
+  },
+  "8770f94089f07864122d0f59a4a5a4e6c582945965b2cc54584180bf087f2422": {
+    "saved_at": "2026-09-16T23:09:46.732918+00:00",
+    "result": {
+      "id": "chatcmpl-EOt33xqUk5NItIDzgKcHQ6wD4O3ir",
+      "object": "chat.completion",
+      "created": 1789600185,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"Two Dubai hotels have made it to the top 15 of the World's 50 Best Hotels ranking.\",\"supported\":true,\"evidence\":\"Two Dubai hotels have made it to the top 15 of the World's 50 Best Hotels ranking\"},{\"claim\":\"Atlantis The Royal climbed to fourth place from sixth last year.\",\"supported\":true,\"evidence\":\"Atlantis The Royal climbing to fourth place from sixth last year\"},{\"claim\":\"The Palm Jumeirah resort was once again named the Best Hotel in the Middle East.\",\"supported\":true,\"evidence\":\"The Palm Jumeirah resort was once again named the Best Hotel in the Middle East\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 532,
+        "completion_tokens": 155,
+        "total_tokens": 687,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
   }
 }
