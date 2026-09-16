@@ -1246,5 +1246,41 @@
     "strict_hash": "75d9a20be8a90a19e2966ef29ce99fff",
     "fuzzy_hash": "32c8200dc79030139287bec410b4c2c7",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://economictimes.indiatimes.com/news/international/business/uae-is-back-in-business-after-war-lull-indian-concerts-navratri-programmes-and-corporate-meets-return-as-dubais-calendar-fills-up-ticket-sales-jump-65/articleshow/134272268.cms",
+    "timestamp": "2026-09-16T11:57:17.954121+00:00",
+    "status": "rejected",
+    "content_hash": "b910cdc8267bd942c5de8239f449cc05",
+    "strict_hash": "b910cdc8267bd942c5de8239f449cc05",
+    "fuzzy_hash": "1083c1a2935f419bc65a2c436572c35c",
+    "reason": "Новость касается восстановления событийной индустрии в ОАЭ после спада, вызванного войной, что напрямую отсылает к военной/политической тематике и не является локальной дубайской новостью с полезной для жителя ценностью. Кроме того, заголовок содержит кликбейтный элемент «UAE is back in business after war lull», а тема не соответствует формату канала о Дубае."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSHQtT1BoUE1KcHU5eEc2UDE5SWs1ZW1EWEFNNVRuT3V4NkNpTUtQV3J1WHUxeUpnYV9qeHJvYjY1R2NVWmVjQ0FCMnplNTlMaUU4aDNXcEdfMjBIVzJOMjItMXhDQ2t4NzVWRjQ4bk5MRGxaUEhrZGFBOU80ZUpnWWpybl81Nm1reE9mRVZaRjNnaDBZM0xFNW53cm5Wd2pnVlJFaG0tNlBnVXJzUXRaTEJB?oc=5",
+    "timestamp": "2026-09-16T11:57:20.293131+00:00",
+    "status": "rejected",
+    "content_hash": "8afd330550e002aeff52e2372e7a2e13",
+    "strict_hash": "8afd330550e002aeff52e2372e7a2e13",
+    "fuzzy_hash": "992d4ebf067627afd1661042c3d5265b",
+    "reason": "Новость представляет собой аналитический/промо-материал о «регенеративной недвижимости» без конкретного новостного повода, события или официальных данных — это похоже на колонку-мнение или маркетинговый контент, а не на новость. Связь с Дубаем/ОАЭ есть лишь косвенная (тема развития ОАЭ), при этом отсутствует полезная для жителя конкретика, а формат близок к рекламному."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRURGZ2puWjFFTy14b2NlaXoyN29zU0hfU3oxdEJOV3JOc3VIYko3N3lmSUpXdkZKY25Ga0Nmc0lfVTdSNE55RzRFVGNXRVlrb2p4N2RoRDBsZ3JUa2hSMjZ3QThvWFozdnJuRFUyZU1tZy1tS1NkYnB3azRJYk5xaUpNbEFHa1BZbVZaMDFhY2dTZEExa2lrM1F5Wjdaa25JcFBBTS1BcDdlc2c?oc=5",
+    "timestamp": "2026-09-16T11:57:22.060041+00:00",
+    "status": "rejected",
+    "content_hash": "7b3249b4064974377985cd9faa6aca30",
+    "strict_hash": "7b3249b4064974377985cd9faa6aca30",
+    "fuzzy_hash": "4370386f886511366683453300c3601c",
+    "reason": "Новость о завершении первого жилого проекта DHG Properties в JVC связана с Дубаем и может быть интересна аудитории, но текст выглядит как короткий пресс-релиз без общественно значимой новости и без деталей. Дубликатом среди последних опубликованных новостей не является."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xRTFVbndvUXpLZ2pTUnJvTGNpSDJNbDNNZTNLMWpQX2JzTXc2UzA1eTEtcnctLXA2R1pvSU5wZm9rME5mSTlLaTdfYnRMTDhpQW9N?oc=5",
+    "timestamp": "2026-09-16T11:57:22.979380+00:00",
+    "status": "rejected",
+    "content_hash": "e351eb37a245b441f594ab10a9921bc6",
+    "strict_hash": "e351eb37a245b441f594ab10a9921bc6",
+    "fuzzy_hash": "26f15cebf0c3008f038e8f23ef048a73",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
