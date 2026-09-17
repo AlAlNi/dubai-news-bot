@@ -1121,5 +1121,59 @@
     "strict_hash": "d406904c9c9fd43a3f5a1c3a0081c426",
     "fuzzy_hash": "96d76a3d1165e9ac0231dd4bc2521b46",
     "reason": "Новость представляет собой подборку развлечений на выходные в Дубае, что полезно для русскоязычных жителей, но текст выглядит как кликбейт-анонс без конкретики и с признаками низкокачественного агрегированного контента."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/dubai-international-film-festival-to-return-in-december-2027",
+    "timestamp": "2026-09-17T17:50:27.294769+00:00",
+    "status": "rejected",
+    "content_hash": "94f5ef1bede51f3ceafbf56dcfd1d6f8",
+    "strict_hash": "94f5ef1bede51f3ceafbf56dcfd1d6f8",
+    "fuzzy_hash": "0290647a31da0c51315d3ee3b835a078",
+    "reason": "Новость о возвращении Dubai International Film Festival в декабре 2027 года явно связана с Дубаем, не касается политики, не выглядит рекламой и может быть интересна русскоязычным жителям как культурное событие; дубликатов среди последних публикаций нет. Однако текст обрывается на полуслове («Mona […]»), содержит HTML-мусор и признаки необработанного парсинга, что снижает качество и достоверность подачи."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/sheikh-zayed-grand-mosque-issues-entry-fee-for-visitors",
+    "timestamp": "2026-09-17T17:50:34.236432+00:00",
+    "status": "rejected",
+    "content_hash": "2c41e69441cadb8695406b4e39267ec2",
+    "strict_hash": "2c41e69441cadb8695406b4e39267ec2",
+    "fuzzy_hash": "f045583662cbc5dcc1ab122703559c4d",
+    "reason": "Новость связана с ОАЭ (мечеть шейха Зайда в Абу-Даби), но это не Дубай и не GCC-повестка для русскоязычных жителей Дубая; кроме того, текст выглядит как обрывок с кликбейтным заголовком и признаками неполного/сгенерированного контента, а дата «с 1 сентября 2026» вызывает сомнения в достоверности."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/10-vibey-dubai-restaurants-with-music-for-your-next-night-out",
+    "timestamp": "2026-09-17T17:50:42.649578+00:00",
+    "status": "rejected",
+    "content_hash": "738a27b05daec031ae13128b2a6ef183",
+    "strict_hash": "738a27b05daec031ae13128b2a6ef183",
+    "fuzzy_hash": "fc6b32bec669854b1115ba090a0ce732",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYlpyXzZLV3FYazFnNHpFczVWRUdZaFlHVXE0X3l5ajhzcTM3YWk1RHZSQm5XTG8ycjVCTWRGbEk4akJWNnUzMkN5aGxoZTlPZy1kSnBJQjN6NlU4Zk5KS3pNUkpXaE8tM05QOUsxb1Y3N1AxcTlwLUQ4SkpPRW5lemE4dlU2Q0ZMY29xWEsxXzU4dWljc3hXbHh4VHpUdw?oc=5",
+    "timestamp": "2026-09-17T17:50:45.072701+00:00",
+    "status": "rejected",
+    "content_hash": "5d9d38f0ad575987508dc1b15fa81338",
+    "strict_hash": "5d9d38f0ad575987508dc1b15fa81338",
+    "fuzzy_hash": "9371b4f85a1101fc62df565519fc57b6",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на внешний источник без какого-либо содержательного текста — это не полноценный материал для публикации, а также выглядит как нативная реклама отраслевого мероприятия (ATM — Arabian Travel Market) без общественно значимой новости. Кроме того, тема туризма/выставок частично пересекается с уже опубликованной новостью о туристических курсах в Дубае, а сам текст не несёт полезной информации для читателя."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSjVWMHhKZ1h6bm05V1NrNEhpX3ZaRDk3ZVc2Y2ZOaDgzWFJ3di14ZUpUVTljOUMwVE9tY2g3Nm5zSVUzSExlLVk3SjhFRDZSSkVnVWEtTkQxNVE1a3N0eWpFRzRCMi1Ld3BHTVBjd2hmNDNBSzJuQ2hUeFJQWk84cmZYMkRFMXpIR3FCeUFVd1p6eFRKbmFWVFFsZ0lxanhNMktqSU05b2N4UzZqWGZJSzhwa1pFUF9rdXVZbEd4aF91TnNMalp3btIB2wFBVV95cUxPc28xYms3SWJRTVpPWVBxNEZRQjNsc1U4UDZkbmNsM2FKdldPYXRPRnVSLUJHYmd6LUJra01iVmhGVC1PaENwOVFsNjZBRkF0aDlxUWJSYkFQN0M3UWE0by02ellVSmRyMThRWWtmQ19MdVV1eWNyQ3ZIZy1XV2tuUTZBdTRoUnBFeTRiaWxzUXM4ZXpwMnhRbmpZTWxrcGh3SGFRelVMY1V1cnFIVjd6VHh6clFyNEc2Q0g2bE5BMWNHbEJSRmt5OWpOWEQ3TFNubWROOF9na2hDZmM?oc=5",
+    "timestamp": "2026-09-17T17:50:46.704695+00:00",
+    "status": "rejected",
+    "content_hash": "55334a06aababad4595cbf18740c9e42",
+    "strict_hash": "55334a06aababad4595cbf18740c9e42",
+    "fuzzy_hash": "9acb30320416882454e2657b40738f32",
+    "reason": "Новость представляет собой лишь заголовок и ссылку на обзорную статью о выставке ATM 2026 без какого-либо содержательного текста, конкретики или полезной для читателя информации — это неполный материал, похожий на кликбейт-заголовок. Кроме того, тема частично пересекается с уже опубликованной новостью о туристическом секторе Дубая, а сам текст не несёт самостоятельной новостной ценности."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTjdKVXl0Q3NETmtQak1UVHdGVjNnUkRxank5QmxBXzlyRHVrdl9IYm5ENzhDWTNVLTl0QW92SGVCaDhmVzlVOXM1VDdEaVRoNjZIUVNfS2JjQkp0UVM4S1RtZHVHc090TEVwNnh1UkduN1RQSFZSdzhoX3VDcmRBdjc2VzVzUE9lVWNBZ1VhUmZyRk4tUE93aWJaaGdVNU5yTEQxYVJDdw?oc=5",
+    "timestamp": "2026-09-17T17:50:47.089178+00:00",
+    "status": "rejected",
+    "content_hash": "6eb281d0a6d2c5e1487c169b93b1225f",
+    "strict_hash": "6eb281d0a6d2c5e1487c169b93b1225f",
+    "fuzzy_hash": "cd567a6aa96e4df49587d4b9c262ea85",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
