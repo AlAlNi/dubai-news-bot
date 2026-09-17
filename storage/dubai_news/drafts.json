@@ -1,6 +1,101 @@
 [
   {
     "source_snapshot": {
+      "title": "Mamadi Diakite has won NCAA, G League and NBA championships - now he wants to make Dubai his home",
+      "text": "The life of a professional basketball player can be a nomadic one and perhaps no one understands that more than Dubai Basketball’s summer recruit Mamadi Diakite.\nThe Guinea native left home at 15 to study and play basketball in the United States and ... [8244 chars]",
+      "url": "https://www.thenationalnews.com/sport/2026/09/17/mamadi-diakite-has-won-ncaa-g-league-and-nba-championships-now-he-wants-to-make-dubai-his-home/"
+    },
+    "source_published_at": "2026-09-17T10:00:00Z",
+    "source_retrieved_at": "",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source title and text.",
+      "claims": [
+        {
+          "claim": "Мамади Диаките выиграл титулы NCAA, G League и НБА",
+          "supported": true,
+          "evidence": "Mamadi Diakite has won NCAA, G League and NBA championships"
+        },
+        {
+          "claim": "теперь он хочет обосноваться в Дубае",
+          "supported": true,
+          "evidence": "now he wants to make Dubai his home"
+        },
+        {
+          "claim": "Мамади Диаките, летнее приобретение Dubai Basketball",
+          "supported": true,
+          "evidence": "Dubai Basketball’s summer recruit Mamadi Diakite"
+        },
+        {
+          "claim": "Уроженец Гвинеи уехал из дома в 15 лет, чтобы учиться и играть в баскетбол в США",
+          "supported": true,
+          "evidence": "The Guinea native left home at 15 to study and play basketball in the United States"
+        }
+      ],
+      "source_hash": "37a64fd62dc5f67862003d2735b8c689da4acb3bea1f484a3e5a9679493479e0",
+      "summary_hash": "3faf807128004141fd94ff672bd31474c808cb760413099a1cf2f67914510305",
+      "checked_at": "2026-09-17T23:14:39.067324+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "The National",
+    "title": "Mamadi Diakite has won NCAA, G League and NBA championships - now he wants to make Dubai his home",
+    "summary_ru": "<b>Мамади Диаките выиграл титулы NCAA, G League и НБА — теперь он хочет обосноваться в Дубае</b>\n\nМамади Диаките, летнее приобретение Dubai Basketball, по данным источника, выиграл чемпионства NCAA, G League и НБА. Уроженец Гвинеи уехал из дома в 15 лет, чтобы учиться и играть в баскетбол в США.",
+    "published": "2026-09-17T23:14:33.332014+00:00",
+    "source_urls": [
+      "https://www.thenationalnews.com/sport/2026/09/17/mamadi-diakite-has-won-ncaa-g-league-and-nba-championships-now-he-wants-to-make-dubai-his-home/"
+    ],
+    "lang": "en",
+    "content_hash": "693b62b67f50b7df8efff55a377e396f",
+    "strict_hash": "693b62b67f50b7df8efff55a377e396f",
+    "fuzzy_hash": "0eb7ba9c3a781987277e562f3226cdc4",
+    "method": "gnews",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость связана с Дубаем через местный баскетбольный клуб и его игрока, не касается политики, не выглядит рекламой и может быть интересна русскоязычным любителям спорта в ОАЭ; дубликатов среди последних публикаций нет."
+      }
+    },
+    "image_url": "https://www.thenationalnews.com/resizer/v2/6KQRUBRGCZGHZJZD2FN2V4ZUEE.jpg?auth=381304cd5a875fa2f1d01bb556df33b008485c6f97813ccea5d0d35291b7a324&smart=true&width=1200&height=630",
+    "slot_target": "evening"
+  },
+  {
+    "source_snapshot": {
       "title": "Radhika Das to make UAE debut with immersive concert in Dubai",
       "text": "International devotional music artist, author and podcaster Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026. Based in London, Das has spent the past 15 years ... [1300 chars]",
       "url": "https://timesofindia.indiatimes.com/life-style/spotlight/radhika-das-to-make-uae-debut-with-immersive-concert-in-dubai/articleshow/134306204.cms"

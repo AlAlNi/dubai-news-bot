@@ -583,5 +583,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c9c2c1ebf2"
     }
+  },
+  "3b32c391bcab6417359bbc463d5dce5cc5d575b15de8e9661f8a5551b7f4faa6": {
+    "saved_at": "2026-09-17T23:14:39.067339+00:00",
+    "result": {
+      "id": "chatcmpl-EPFbJ2iVyZhYVcbGsj7CEBVwO6jnD",
+      "object": "chat.completion",
+      "created": 1789686877,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Мамади Диаките выиграл титулы NCAA, G League и НБА\",\"supported\":true,\"evidence\":\"Mamadi Diakite has won NCAA, G League and NBA championships\"},{\"claim\":\"теперь он хочет обосноваться в Дубае\",\"supported\":true,\"evidence\":\"now he wants to make Dubai his home\"},{\"claim\":\"Мамади Диаките, летнее приобретение Dubai Basketball\",\"supported\":true,\"evidence\":\"Dubai Basketball’s summer recruit Mamadi Diakite\"},{\"claim\":\"Уроженец Гвинеи уехал из дома в 15 лет, чтобы учиться и играть в баскетбол в США\",\"supported\":true,\"evidence\":\"The Guinea native left home at 15 to study and play basketball in the United States\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 543,
+        "completion_tokens": 190,
+        "total_tokens": 733,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
   }
 }
