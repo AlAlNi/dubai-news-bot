@@ -1,77 +1,5 @@
 [
   {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/14/dubai-to-get-second-etihad-rail-station-as-rta-puts-public-transport-centre-stage",
-    "timestamp": "2026-09-15T01:43:49.703456+00:00",
-    "status": "approved",
-    "content_hash": "ca6442ed7c35f62d5ef833e12b4771df",
-    "strict_hash": "ca6442ed7c35f62d5ef833e12b4771df",
-    "fuzzy_hash": "2515a0a63ab7b95e68a4b2ff7f2ff29d",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.indiatimes.com/trending/trophy-chor-trophy-chor-chants-return-in-dubai-after-india-women-refuse-to-accept-asia-cup-trophy-from-mohsin-naqvi/articleshow/134240639.html",
-    "timestamp": "2026-09-15T02:20:37.487922+00:00",
-    "status": "rejected",
-    "content_hash": "003f92efa879fd3d8a085278c4f17693",
-    "strict_hash": "003f92efa879fd3d8a085278c4f17693",
-    "fuzzy_hash": "7f0c5863d93a02c8b9b416ef9fec6a2b",
-    "reason": "Новость касается крикета (женский Кубок Азии), конфликта вокруг отказа сборной Индии принимать трофей от пакистанского чиновника — это политизированный спортивный сюжет без прямой связи с Дубаем/ОАЭ, с признаками кликбейта и дублирования скандирований."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaU5aaS1CeVM2Ql84S1lWTXNvRzRVY3ZrRFZUX0V0OWQ0RUpZZklxSU1jRHZOcDloWVEyVUNLR1BiWXRVTGYwemVqeDFGUkFlXzh2UERFWjl0enp3aF9PVzdwaVJJWlhpWXhDeFR3TnhWMndBX3I2Mk9VMDctRjlGNzV5cVg?oc=5",
-    "timestamp": "2026-09-15T02:20:40.123498+00:00",
-    "status": "rejected",
-    "content_hash": "b50af45d78e3180f9044c0fd2892ed15",
-    "strict_hash": "b50af45d78e3180f9044c0fd2892ed15",
-    "fuzzy_hash": "1a28c223ae2127a2b153638db59410a8",
-    "reason": "Новость касается влияния ближневосточного конфликта на рынок недвижимости Дубая, что является большой политикой/войной и не соответствует формату канала. Кроме того, текст представляет собой лишь заголовок со ссылкой на Financial Times без содержательной информации, что не даёт аудитории полезной ценности."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxON1FYeGQ4dUduTy1nbjE2bThRUmNiM2Y4OTBia05fdXFSbXpJTnBvT3Y1U19FWkk2OEM3d0dKenBIdzR5dHpKX0czQ0hVNDJ1VVN3TWZOeFNqc1JENnpQWDZVdkNsNG5uSkN4VFVURTk5MjZ0cDYtTDJYSmZGU1RFdTVUUGMzWDU5ZktqSlF3UXlQOTdsSWxXQlZLbF9RWklYOF9lcFRQaDZXeUhidDBjMVRYRFdNRjlMX2NnLTRtaERDREFjV1FIenhZdGNycmQ5SjZUNWo3NXM?oc=5",
-    "timestamp": "2026-09-15T02:20:41.972511+00:00",
-    "status": "rejected",
-    "content_hash": "75e90f995fb909acb4cedbe071726dc9",
-    "strict_hash": "75e90f995fb909acb4cedbe071726dc9",
-    "fuzzy_hash": "7b7356d73b2136bb98b62555ef69fdb6",
-    "reason": "Новость представляет собой корпоративный пресс-релиз о признании застройщика OCTA Properties со стороны DLD и RERA на выставке IPS 2026 — это рекламный материал без общественно значимой новости, к тому же дублирует уже опубликованные темы о недвижимости Дубая и не несёт пользы русскоязычному жителю."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYUZOanl5QUM1Q29nUXY3cUU2bTBVZC1kQlRudzluSDAzdkIxdFB1RUthZERUYmNIYVRsaUQ3YmhINXp2bm9sLXV2UUVuU2RVWFpleEROMHZ4V3paRV9aRWZ6TXlzVlFvZVo1Nzl4a1RxVldFX3JmTmpkRzZHZUthYm5B?oc=5",
-    "timestamp": "2026-09-15T02:20:42.313761+00:00",
-    "status": "rejected",
-    "content_hash": "f4079a180b2461ab8db29c0d19fa3c43",
-    "strict_hash": "f4079a180b2461ab8db29c0d19fa3c43",
-    "fuzzy_hash": "5732e85d327843a8b45f7efbeb18a4a3",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaTZBeEcxNkw4M1o1MTNmSm5oU3lZUFJJcEZ2LWo4SEc5cUY2MHRuQ0dCSFl6eHJjRmd0QlNiUnBfM1p6RkRWNnQ3b0l6S2hqOUhsQ1ZDVmZWOXlaOGNhdHdSdkI0dENRZ09ET0Q3ZUt1SUZiYi1xaWRhckozcjVKUUk1ZTNBN3lQU2toa2JTeW5TNHJrSk5rb3hHV0Y4aEdfSDA4X0t1WnRfdU0?oc=5",
-    "timestamp": "2026-09-15T02:20:43.602282+00:00",
-    "status": "rejected",
-    "content_hash": "2c9ed9ae3788f8082d7160876465c8e5",
-    "strict_hash": "2c9ed9ae3788f8082d7160876465c8e5",
-    "fuzzy_hash": "eb4c05e000ea752b6834008c89aff8f1",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb016aTZ0WkhfOUhWeFhIV1lhY3NodVFrdmNpS203S21GTmxzd1piNzBhOS1uSXlDem54NDdOU0xEODVvVldNNjFrNnBBd1dkSWtkQ0R4cFpOM3pWY2NnQVlkVUFkOXUwc3U3ZF9RSGNKTGlMSFBnbkFyY0ZCTmVtUldpT3A5TGxlQzh2dk4xUjZIbXdySXJacE12NlpIMFQyY1JlRGhHYkZCMnNrMXo1MHFaNjM3d3htbGhUVE5lU2RIUQ?oc=5",
-    "timestamp": "2026-09-15T02:20:45.143000+00:00",
-    "status": "rejected",
-    "content_hash": "96be6a515a2a9cb93aec660f25e58145",
-    "strict_hash": "96be6a515a2a9cb93aec660f25e58145",
-    "fuzzy_hash": "f10bd8b76a916649744018bd5084ac3d",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYWVuSlE3RmJSSUJzRGxfc3NXVHlaRm1OSThHbm5oTzhwVlZtY1hfcmlYaWxjX1RhRzZmbHBDRmp5cHFYVEFMYVZCZFNwZ05wcmdTdWNSbkRXMUhfbHpBS0tQLUh6VGYzWnY4NmVNSURiVm9aekFJX3lBNXE0R01iY1JobUp5dHhXeGZ2MUF1NGRKcENqM2pWYk5adjdKSVN5Q3Rpd3VTYkFVa2p3c3R3SEdYcFF5QjlYRWNn?oc=5",
-    "timestamp": "2026-09-15T02:20:46.702244+00:00",
-    "status": "rejected",
-    "content_hash": "a9d01f8d6bbd63179664d434ff969a8d",
-    "strict_hash": "a9d01f8d6bbd63179664d434ff969a8d",
-    "fuzzy_hash": "4adecedf961b9bdc0ac61a6878234431",
-    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
-  },
-  {
     "url": "https://whatson.ae/2026/09/dubai-is-getting-4-etihad-rail-stations-heres-where-theyll-be",
     "timestamp": "2026-09-15T07:08:41.276383+00:00",
     "status": "rejected",
@@ -1282,5 +1210,10 @@
     "strict_hash": "e7be778b8af1eff0dc3365975159dece",
     "fuzzy_hash": "3eec176247e4e95b83aba2ecef3b75f2",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/16/dubai-approves-new-12-lane-80km-highway-project-linking-sharjah-and-abu-dhabi",
+    "timestamp": "2026-09-17T05:59:52.554176+00:00",
+    "status": "published"
   }
 ]
