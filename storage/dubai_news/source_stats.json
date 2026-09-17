@@ -1246,5 +1246,41 @@
     "strict_hash": "5335184d8267c58e101a0a4a90294469",
     "fuzzy_hash": "9d3aabd0717ecd6f44988e5c5f650ac0",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.freepressjournal.in/sports/i-was-in-dubai-for-a-show-mandakini-recalls-controversy-over-photograph-with-dawood-ibrahim-in-sharjah-stadium",
+    "timestamp": "2026-09-17T02:17:51.921827+00:00",
+    "status": "rejected",
+    "content_hash": "cf56fef3f786778a8f546af1af52e5a4",
+    "strict_hash": "cf56fef3f786778a8f546af1af52e5a4",
+    "fuzzy_hash": "9d76a549253a3374592ed5658adb5a3c",
+    "reason": "Новость — это интервью индийской актрисы о старом скандале с криминальным авторитетом, связь с Дубаем лишь косвенная (упоминание стадиона в Шардже), тема не имеет отношения к жизни русскоязычных жителей ОАЭ и не несёт полезной информации."
+  },
+  {
+    "url": "https://www.freepressjournal.in/viral/emirati-passenger-gets-passport-renewed-in-just-8-minutes-at-dubai-international-airport-travellers-video-goes-viral",
+    "timestamp": "2026-09-17T02:17:53.794675+00:00",
+    "status": "rejected",
+    "content_hash": "755a95942893feaaab8b3a2fb7879b8a",
+    "strict_hash": "755a95942893feaaab8b3a2fb7879b8a",
+    "fuzzy_hash": "2232c8ee5a3849e898ab84409ca6767e",
+    "reason": "Новость связана с Дубаем (аэропорт DXB), не касается политики, не выглядит рекламой и потенциально интересна русскоязычным жителям как позитивный сервис-кейс. Однако заголовок и подача имеют лёгкий кликбейт-оттенок («8 минут», «видео завирусилось»), а сам сюжет — скорее курьёз/вирусный случай, чем значимая городская новость; дубликатов среди опубликованного нет."
+  },
+  {
+    "url": "https://www.independent.co.uk/travel/news-and-advice/dubai-abu-dhabi-uae-is-it-safe-foreign-office-advice-iran-war-b3051038.html",
+    "timestamp": "2026-09-17T02:17:55.413131+00:00",
+    "status": "rejected",
+    "content_hash": "2770f52b80e4b9e95432d9d9ffad4781",
+    "strict_hash": "2770f52b80e4b9e95432d9d9ffad4781",
+    "fuzzy_hash": "51ae94ce43602e6224fa319b6df48771",
+    "reason": "Новость касается безопасности поездок в Дубай и Абу-Даби на фоне военных ударов между Саудовской Аравией и хуситами — это явная связь с регионом, но основная тема относится к войне и конфликтам, что запрещено правилом 2. Кроме того, материал дублирует уже растиражированную в СМИ тему и не даёт конкретной полезной информации для жителя Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc0g3SUdzWVhtVXFDZUllU0VvX1g3czg0d3YzUGJTUkw2MlE0X1dPT1MtbGFLMDJBbkQ0S1IzcUlPTGprb1p1VlotaFhIai1fYVhnNXoycW9PRWlGaWNkd2cxR0dpUWhJWXdUM1VnSktPY2c1SFZIQlRoRUtnNGdWY1Y1elE4MURBd3BsNHBCN2VNUWZfVHY1TE1iNFE4Wmg4TUVlRlBpWW9ER3lKb3JpZGZyei1vUUJKOFRLVmV6Sko?oc=5",
+    "timestamp": "2026-09-17T02:18:02.489169+00:00",
+    "status": "approved",
+    "content_hash": "e7be778b8af1eff0dc3365975159dece",
+    "strict_hash": "e7be778b8af1eff0dc3365975159dece",
+    "fuzzy_hash": "3eec176247e4e95b83aba2ecef3b75f2",
+    "reason": "approved"
   }
 ]
