@@ -1287,5 +1287,32 @@
     "strict_hash": "30ab20b28f93a9c42fa74045722ebfb0",
     "fuzzy_hash": "4e8978df42760f86374ce890fc11cf20",
     "reason": "Cheap prefilter: слишком короткий текст (111 символов)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/etihad-airways-abu-dhabi-stopover-programme-expands-to-al-ain-region",
+    "timestamp": "2026-09-17T08:07:47.658370+00:00",
+    "status": "rejected",
+    "content_hash": "ffeb02c8a735ce3d4f1b1a22e7fb7e2a",
+    "strict_hash": "ffeb02c8a735ce3d4f1b1a22e7fb7e2a",
+    "fuzzy_hash": "9311cb73963d6eef4507dff9f263ca1f",
+    "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/uae-interest-rates-rise-what-it-means-for-your-mortgage-loans-and-savings",
+    "timestamp": "2026-09-17T08:07:55.647889+00:00",
+    "status": "rejected",
+    "content_hash": "a4f203ac3a89fae9a009efcac5b5ad8a",
+    "strict_hash": "a4f203ac3a89fae9a009efcac5b5ad8a",
+    "fuzzy_hash": "e859ee3fefb8da5c735cb73aca542e37",
+    "reason": "Новость касается изменения базовой ставки ЦБ ОАЭ и напрямую влияет на финансы жителей Дубая (ипотека, кредиты, вклады), что полезно и релевантно аудитории. Однако текст выглядит как обрывок статьи с кликбейт-заголовком и следом RSS-ленты («What happens next will look […]», «The post … appeared first on What's On»), что указывает на необработанный/недостоверный формат."
+  },
+  {
+    "url": "https://emirateswoman.com/9-dubais-most-serene-summer-night-swim-spots",
+    "timestamp": "2026-09-17T08:08:10.018576+00:00",
+    "status": "approved",
+    "content_hash": "900364d4f57d73c5ac4213bdcd7d2aca",
+    "strict_hash": "900364d4f57d73c5ac4213bdcd7d2aca",
+    "fuzzy_hash": "288bd7e991ef4ca7ca3b96e801fd03e7",
+    "reason": "approved"
   }
 ]

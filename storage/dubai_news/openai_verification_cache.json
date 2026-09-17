@@ -427,5 +427,83 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c9c2c1ebf2"
     }
+  },
+  "27d78214a3abba7182eb307dad786292397d21fa9c72482b3ab534de91784cf0": {
+    "saved_at": "2026-09-17T08:07:47.653558+00:00",
+    "result": {
+      "id": "chatcmpl-EP1RhTRZnaLICasN9oOB9FDyl8bpU",
+      "object": "chat.completion",
+      "created": 1789632465,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Etihad Airways предлагает бесплатное проживание в отеле в регионе Аль-Айн\",\"supported\":true,\"evidence\":\"Etihad Airways can now also redeem a complimentary hotel stay in the Al Ain Region.\"},{\"claim\":\"Гости, следующие транзитом через международный аэропорт Заид в Абу-Даби, теперь могут также получить бесплатное проживание в отеле в регионе Аль-Айн\",\"supported\":true,\"evidence\":\"Guests connecting through Abu Dhabi’s Zayed International Airport with Etihad Airways can now also redeem a complimentary hotel stay in the Al Ain Region.\"},{\"claim\":\"Программа бесплатной остановки расширена и теперь включает регион Аль-Айн\",\"supported\":true,\"evidence\":\"Etihad Airways is giving travellers another reason to extend their stay in the capital with its free stopover programme now including the Al Ain Region.\"},{\"claim\":\"Расширенная программа запущена в партнёрстве\",\"supported\":true,\"evidence\":\"The expanded programme, launched in partnership\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 548,
+        "completion_tokens": 227,
+        "total_tokens": 775,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
+  },
+  "9a511456e3478ffc6aee07c7f5b3a6e3f2396eae50106dd1bd5e40a1a9fc8ea5": {
+    "saved_at": "2026-09-17T08:08:10.013337+00:00",
+    "result": {
+      "id": "chatcmpl-EP1S48nl2rBx7xdYsFLhvCOfY7LTw",
+      "object": "chat.completion",
+      "created": 1789632488,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Night swims are suitable for cooling off after work or starting the weekend.\",\"supported\":true,\"evidence\":\"Ideal for cooling off after work or starting your weekend\"},{\"claim\":\"Night swims offer views of the skyline and sea, cool waters, and laid-back glamour characteristic of the emirate's warmer months.\",\"supported\":true,\"evidence\":\"night swims offer spectacular skyline and sea views, cool waters, and the laid-back glamour that defines the emirate’s warmer months\"},{\"claim\":\"Dubai does not limit outdoor pools to winter and is always a step ahead in activities like night swimming.\",\"supported\":true,\"evidence\":\"Without limiting outdoor pools to winter, Dubai is always a step ahead when it comes to enjoying outdoor activities such as a night swim\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 534,
+        "completion_tokens": 174,
+        "total_tokens": 708,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
   }
 }
