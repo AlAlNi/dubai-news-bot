@@ -1215,5 +1215,77 @@
     "url": "https://www.thenationalnews.com/news/uae/2026/09/16/dubai-approves-new-12-lane-80km-highway-project-linking-sharjah-and-abu-dhabi",
     "timestamp": "2026-09-17T05:59:52.554176+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.rte.ie/sport/golf/2026/0916/1591814-fitzpatrick-not-comfortable-over-dp-world-tour-finale",
+    "timestamp": "2026-09-17T07:55:07.335049+00:00",
+    "status": "rejected",
+    "content_hash": "7940308eed6c81913922a8df13b01dbf",
+    "strict_hash": "7940308eed6c81913922a8df13b01dbf",
+    "fuzzy_hash": "b58d5422d0b6944c75e2c39c969723b7",
+    "reason": "Новость касается отказа спортсмена ехать в Дубай на турнир DP World Tour Championship, что связано с регионом, но подаёт Дубай в негативном/проблемном контексте и не несёт полезной или общественно значимой информации для русскоязычных жителей.\nПризнаков ИИ-генерации нет, дубликатов среди последних публикаций нет, но материал слабо соответствует редакционной политике канала."
+  },
+  {
+    "url": "https://www.independent.co.uk/sport/golf/matt-fitzpatrick-shane-lowry-dubai-rory-mcilroy-united-arab-emirates-b3051411.html",
+    "timestamp": "2026-09-17T07:55:09.269252+00:00",
+    "status": "rejected",
+    "content_hash": "3cf4493db6b4cd582ae11179662bdd3b",
+    "strict_hash": "3cf4493db6b4cd582ae11179662bdd3b",
+    "fuzzy_hash": "c07cc5f62c91c87609d49b05fa5279e5",
+    "reason": "Новость касается отказа гольфиста Мэтта Фицпатрика ехать в Дубай на DP World Tour Championship, что слабо связано с регионом и не несёт пользы русскоязычным жителям Дубая.\nПричина отклонения: нет общественно значимой ценности для аудитории канала, тема — личное решение спортсмена, а не городская/сервисная новость."
+  },
+  {
+    "url": "https://www.irishtimes.com/sport/golf/2026/09/16/matt-fitzpatrick-casts-doubt-on-dubai-title-defence-over-fears-of-ongoing-conflict",
+    "timestamp": "2026-09-17T07:55:10.833565+00:00",
+    "status": "rejected",
+    "content_hash": "aa0c1cbc639b0e413493a367c4f2d353",
+    "strict_hash": "aa0c1cbc639b0e413493a367c4f2d353",
+    "fuzzy_hash": "dd4f67a54fe31d1cdcd22e1c0fe085d6",
+    "reason": "Новость касается сомнений гольфиста по поводу участия в турнирах в Абу-Даби и Дубае из-за конфликта на Ближнем Востоке — это прямая привязка к региону, но основная тема связана с конфликтом/политической нестабильностью, что нарушает правило 2."
+  },
+  {
+    "url": "https://www.essentiallysports.com/golf-news-matt-fitzpatrick-admits-hes-not-that-comfortable-with-dp-world-tour-playoffs-amid-middle-east-conflict",
+    "timestamp": "2026-09-17T07:55:12.483802+00:00",
+    "status": "rejected",
+    "content_hash": "e7c18d140cb08a0fb4aa3fa17042e9d4",
+    "strict_hash": "e7c18d140cb08a0fb4aa3fa17042e9d4",
+    "fuzzy_hash": "5539d357102bcf16d97fdd50fa49a4b5",
+    "reason": "Новость касается гольфа и DP World Tour Championship в Дубае, но её основная тема — конфликт на Ближнем Востоке и политическая напряжённость, что нарушает правило о политике и конфликтах; кроме того, она не является сервисной или общественно значимой для русскоязычных жителей Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAweV9uRG5GX2RtNzZwaWpQRklac2RodkNudGNtcGlaZWxmV3gzRmhSVGlLNUg0cS1oUDdldkFYM3J1SXIxUm1NNzVKSFZyRU93WGZtVWc0YUswY2VsOE5zZ21seUNIV3g3QlNTVl96QXdfOUdHOXdyQW9aWkY?oc=5",
+    "timestamp": "2026-09-17T07:55:13.461786+00:00",
+    "status": "error",
+    "content_hash": "e5fa406160054294435f44dc161ff1a0",
+    "strict_hash": "e5fa406160054294435f44dc161ff1a0",
+    "fuzzy_hash": "64d81b1ea53c97d5cea0bdffca89c035",
+    "reason": "Технический сбой: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZGhmWndVeUxETklQelNla3BGNzI4b2RXa1l0d3lsU0ZPdlJuQ1dqVmdYUzFlVVVwOEdyNU1SdG9fUXkwaWdMNkVTX1lLRFZGWUpneFJISUVmLXFYRjhzX0JySXk2OTJkZElKU0xhd2plOC1MSlJVM0VJVkFKNjlzb1JMUms2LWlCNEZyYUFtVy0yY0V2ZzVrU0l6VHRzYzg2OVBNT2xCTW9xRnFiN0hQOG5EOEV6M0llRzV4cG1jLWxBWVlZMkxoZS1QSF95YW1GWktPWHlXZDdNZWNu0gHvAUFVX3lxTE9ZcXk4bHlYN1ZtTFFZWEZtdUFOWkZjZWJZN1BzMHlBTlZXRUZ3M184cDN2SG5zWmVib1liQnE3b1pzOXBucEdMUDlYY1R1SVFFUXBxM204VmhSUU9yN3FUWWh4cllSWGlOcGxFb3EtT0VKXy1GM3ExSWtydUFwV0NLeVhfOHV4RkNxU3lETF9RQ3RSa2NYUGdUUkZ0aTdzZ2c5VXlxN0pmczgtNWNqTWVQa19GZ1N2eURpaUxhbDZnS1VYVE01eGU1SGs3eldGWnotSFpHMnVFWkRQR0Z1cnhrRThjWGp3QzZ4MXQyQmtR?oc=5",
+    "timestamp": "2026-09-17T07:55:16.925712+00:00",
+    "status": "rejected",
+    "content_hash": "bfe3fa7a1132573f482e32f7f03ede98",
+    "strict_hash": "bfe3fa7a1132573f482e32f7f03ede98",
+    "fuzzy_hash": "e5bde50bc51574368e1b070bda0b104b",
+    "reason": "Новость касается прогноза главы dnata по восстановлению туристического спроса в Дубае и роста грузоперевозок — это явная связь с регионом и потенциально интересно русскоязычным жителям. Однако текст представляет собой лишь заголовок и ссылку на источник без содержательного раскрытия, что похоже на неполный/сырой материал, а не готовую новость."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOS10MlBQeEpKU3FyVm1oYnc4SUFxTFJGT0tKUzh1eWpOaTk4M04yUUROWmxsQnh4ZVNqWW9vNEs0b3hNdmZyTlZFUVpYQmZsY0p1T1dpTGZnWk5KNUsxQTJoeVl3WE5UNzRCbUFqZ1ozM3I1LXVhODFDWVNyRmkzYVdfdEhWNGlDaDRvWjAtdzM?oc=5",
+    "timestamp": "2026-09-17T07:55:17.868277+00:00",
+    "status": "rejected",
+    "content_hash": "98c19f77442572b166675b271f04a607",
+    "strict_hash": "98c19f77442572b166675b271f04a607",
+    "fuzzy_hash": "237f4238baa00e8e228cb19acd2c0dcd",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NcVAyQWdxSlA3Tk0yTzlVQ1hhckotQVNRNUdpd0pPVENHWG81b05mZy1rdmJ5bS1DalU5YnZYSXFnZWkzYmdsa3l5NlFSNGJXalY2R1pjLTNmWUk5WWlMZ2hTY1Nta0tlRFE?oc=5",
+    "timestamp": "2026-09-17T07:55:19.454135+00:00",
+    "status": "rejected",
+    "content_hash": "30ab20b28f93a9c42fa74045722ebfb0",
+    "strict_hash": "30ab20b28f93a9c42fa74045722ebfb0",
+    "fuzzy_hash": "4e8978df42760f86374ce890fc11cf20",
+    "reason": "Cheap prefilter: слишком короткий текст (111 символов)"
   }
 ]
