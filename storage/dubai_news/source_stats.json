@@ -1175,5 +1175,14 @@
     "strict_hash": "6eb281d0a6d2c5e1487c169b93b1225f",
     "fuzzy_hash": "cd567a6aa96e4df49587d4b9c262ea85",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://theprint.in/india/an-nbfc-317-transactions-rs-12-84-cr-gone-delhi-police-uncovers-cyber-scam-with-china-dubai-links/3045108",
+    "timestamp": "2026-09-17T18:25:48.642461+00:00",
+    "status": "rejected",
+    "content_hash": "3bff0e7e0533152f758e7f2c5e72a3a7",
+    "strict_hash": "3bff0e7e0533152f758e7f2c5e72a3a7",
+    "fuzzy_hash": "f96aca8268b3ac0218c94cd2b9ad9e4f",
+    "reason": "Новость описывает криминальную схему с участием Дубая лишь как одного из звеньев международной цепочки, при этом основная тема — расследование полиции Дели, что не имеет прямой связи с ОАЭ и не представляет интереса для русскоязычных жителей Дубая."
   }
 ]
