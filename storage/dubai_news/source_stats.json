@@ -1157,5 +1157,32 @@
     "strict_hash": "7fb5d3c75344b67aaf2aa50347034336",
     "fuzzy_hash": "9f769f31e785e733bf5b1ef399004d1a",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/bavarian-garden-pop-up-fairmont-the-palm",
+    "timestamp": "2026-09-17T13:54:41.513460+00:00",
+    "status": "rejected",
+    "content_hash": "4392a10a7224ca118e9c0172921a3327",
+    "strict_hash": "4392a10a7224ca118e9c0172921a3327",
+    "fuzzy_hash": "71bf9f743388ab8b673d92ecf26fb141",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/a-three-day-music-festival-is-coming-to-fujairahs-beachside",
+    "timestamp": "2026-09-17T13:54:47.389611+00:00",
+    "status": "rejected",
+    "content_hash": "bf4a2a0bc4ba4de1350d569ed4303e35",
+    "strict_hash": "bf4a2a0bc4ba4de1350d569ed4303e35",
+    "fuzzy_hash": "c5219eb1a74c46c0ee356226f544fb58",
+    "reason": "Новость о музыкальном фестивале в Фуджейре имеет слабую связь с Дубаем (другой эмират), а текст выглядит как кликбейт-анонс с обрывками фраз и признаками низкокачественного/сгенерированного контента без полезной для аудитории информации."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/things-to-do-in-dubai-this-weekend-sept-18-to-20",
+    "timestamp": "2026-09-17T13:54:52.857297+00:00",
+    "status": "rejected",
+    "content_hash": "d406904c9c9fd43a3f5a1c3a0081c426",
+    "strict_hash": "d406904c9c9fd43a3f5a1c3a0081c426",
+    "fuzzy_hash": "96d76a3d1165e9ac0231dd4bc2521b46",
+    "reason": "Новость представляет собой подборку развлечений на выходные в Дубае, что полезно для русскоязычных жителей, но текст выглядит как кликбейт-анонс без конкретики и с признаками низкокачественного агрегированного контента."
   }
 ]
