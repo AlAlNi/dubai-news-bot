@@ -1085,5 +1085,32 @@
     "strict_hash": "3bff0e7e0533152f758e7f2c5e72a3a7",
     "fuzzy_hash": "f96aca8268b3ac0218c94cd2b9ad9e4f",
     "reason": "Новость описывает криминальную схему с участием Дубая лишь как одного из звеньев международной цепочки, при этом основная тема — расследование полиции Дели, что не имеет прямой связи с ОАЭ и не представляет интереса для русскоязычных жителей Дубая."
+  },
+  {
+    "url": "https://propertynews.ae/uae/sharjah/sharjah-executive-council-advances-new-law-to-regulate-lost-and-abandoned-property",
+    "timestamp": "2026-09-17T20:43:01.239891+00:00",
+    "status": "rejected",
+    "content_hash": "309ad8a0b8143a4b84e83bdd0a2da09c",
+    "strict_hash": "309ad8a0b8143a4b84e83bdd0a2da09c",
+    "fuzzy_hash": "80d5ba2742017ddf4b6c73ff8bbf4db8",
+    "reason": "Новость касается Шарджи, а не Дубая, и не имеет явной связи с Дубаем/ОАЭ/GCC в контексте интересов русскоязычной аудитории Дубая; кроме того, это скорее рутинный законодательный процесс без прямой практической пользы для читателей канала."
+  },
+  {
+    "url": "https://propertynews.ae/uae/abu-dhabi/aldar-and-mubadala-joint-venture-acquires-masdar-city-square-for-dh918-million-boosting-abu-dhabi-portfolio-to-dh4-7-billion",
+    "timestamp": "2026-09-17T20:43:04.462622+00:00",
+    "status": "rejected",
+    "content_hash": "bcd3a65cac21c2f16637c446fe87abf7",
+    "strict_hash": "bcd3a65cac21c2f16637c446fe87abf7",
+    "fuzzy_hash": "c28736ecd37840f535c3bc4b9e8ff553",
+    "reason": "Новость посвящена крупной сделке с недвижимостью в Абу-Даби (Masdar City), а не в Дубае, и не имеет явной связи с Дубаем/ОАЭ-повесткой для русскоязычной аудитории Дубая; кроме того, это скорее корпоративный пресс-релиз, чем общественно значимая новость."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/british-airways-to-resume-flights-to-dubai-in-november",
+    "timestamp": "2026-09-17T20:43:16.177648+00:00",
+    "status": "approved",
+    "content_hash": "c1f6e4f444fe6c3f852c42701f3533a1",
+    "strict_hash": "c1f6e4f444fe6c3f852c42701f3533a1",
+    "fuzzy_hash": "2118b06fe0563bb8a28fd62d7e988c3c",
+    "reason": "approved"
   }
 ]
