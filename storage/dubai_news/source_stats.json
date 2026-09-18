@@ -911,5 +911,50 @@
     "strict_hash": "cf3ef66d2cd74df971d27960994afff3",
     "fuzzy_hash": "7511974855291881f812756391eebb97",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/18/hundreds-join-iphone-18-frenzy-as-new-models-go-on-sale-in-dubai-mall",
+    "timestamp": "2026-09-18T19:52:14.909569+00:00",
+    "status": "rejected",
+    "content_hash": "3f9097f498a3f57e3b5ff7343b5282e3",
+    "strict_hash": "3f9097f498a3f57e3b5ff7343b5282e3",
+    "fuzzy_hash": "1d6dea2579b3b9314a02eb05bea75c64",
+    "reason": "Новость связана с Дубаем (запуск продаж iPhone в Dubai Mall), не касается политики, не выглядит рекламой и потенциально интересна русскоязычным жителям как городское событие. Однако текст содержит сомнительные детали (iPhone 18, «Duo folding mobile», цена и цитаты), что вызывает признаки недостоверности/ИИ-генерации, а также риск кликбейта."
+  },
+  {
+    "url": "https://www.euronews.com/travel/2026/09/18/premiumisation-industry-recovery-and-ai-whats-trending-in-travel-at-atm-dubai-2026",
+    "timestamp": "2026-09-18T19:52:16.336181+00:00",
+    "status": "rejected",
+    "content_hash": "f9f0cff39892951c1e00af31c1e0d3db",
+    "strict_hash": "f9f0cff39892951c1e00af31c1e0d3db",
+    "fuzzy_hash": "de23d3c8f102626fe56b937a8d24c99a",
+    "reason": "Новость про тренды туризма на ATM Dubai 2026 связана с Дубаем и может быть интересна аудитории, но текст начинается с темы регионального конфликта и геополитики, что нарушает правило об отказе от политики и конфликтов как основной темы."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNXzZCYWsySWFtdWR0elZ5MWRjWjEwV19qUG9oTmt4WndSbnFGbHpOV21SampYUXMxMEtpSElsdFVSa1BsSWg0Z00tVlE1Zl83R0JDTzFwSWs0WDBxN2QtOTBlSTB6T19YdFYzSHJHVGI5dExZcDlQblJ4Z3NjV0dqWkhnenFoVno2bzJpT3ZKOFJqQU94aXc?oc=5",
+    "timestamp": "2026-09-18T19:52:17.925411+00:00",
+    "status": "rejected",
+    "content_hash": "3f297726dbe0a4a6de6705ba025dc06d",
+    "strict_hash": "3f297726dbe0a4a6de6705ba025dc06d",
+    "fuzzy_hash": "1c29ea01da6f7c3a665b834e96b459f7",
+    "reason": "Cheap prefilter: слишком короткий текст (115 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNGh1UE9WeW9GTk00bE95blVhbmF5TE03S1hkZElCbFhJQnAtQTdxYlRWUmhjMGtEYm80UUVkbEt0QlF2T0xITVNNcTVTMDBQbnlkZzlEV2RVSGtCcTRrUm03RVZ4R3g0NFpwZVl0UzZVV0w2QXpoWXJCTW5GMmZRTkp6eDVzZlpmRUV5R21B0gGWAUFVX3lxTE5WenBlN0VTNEk5ZDhMZk1lYllVM2pPSkQybldmMGFXdnBJSjRSLVY5OU0xRDZnaU1NX18xbFpQdFhfRnlyWkxnWGhfdXpTdnlqVVgzTDZmbkdMMWVrSVhQTjZKMEx4RG13SUVpRVpfdjdJVDU1bUEyZENsSkhzRjhwM1RXSmp4a1lGcUdSZ2M2cWJjU1lHQQ?oc=5",
+    "timestamp": "2026-09-18T19:52:20.566395+00:00",
+    "status": "rejected",
+    "content_hash": "9950aac44ea2af6363f211f803803a05",
+    "strict_hash": "9950aac44ea2af6363f211f803803a05",
+    "fuzzy_hash": "59f3882e090677c7739633215cf9772d",
+    "reason": "Некачественный fallback summary"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcmtfVmNES29oSVM5VVliVU5GUjRBWXhvOWdqcUIyUmh3djhJT3RwQ2FHeGxqTTRzYTd4QVVvWWt3T1hucnJpbnhHOXZ2VVRWTjhrclVMRU9mRzNaaTViRzQwVnl3WHV4bkpwTXRTRHhDaDhILWdmNHo3MXVmM1B3TUpvODQ0STBhdmVSTUFUbDEzWkl6alU4?oc=5",
+    "timestamp": "2026-09-18T19:52:28.344626+00:00",
+    "status": "approved",
+    "content_hash": "f6d975859e489769d1f6d4b4a404fc2a",
+    "strict_hash": "f6d975859e489769d1f6d4b4a404fc2a",
+    "fuzzy_hash": "dda0724b3617c0ad685856983f82c8db",
+    "reason": "approved"
   }
 ]
