@@ -817,5 +817,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c9c2c1ebf2"
     }
+  },
+  "c4341a4419fa8e8185a908c149ccf952c60c819d94fd200e6c098db28ee74af5": {
+    "saved_at": "2026-09-18T19:17:44.580168+00:00",
+    "result": {
+      "id": "chatcmpl-EPYNaRLu05vi0eXVW12p3iR6wdqLs",
+      "object": "chat.completion",
+      "created": 1789759062,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Форт Аль-Фахиди, старейшее здание Дубая, готовится к повторному открытию с новым музеем.\",\"supported\":true,\"evidence\":\"Dubai’s oldest building, Al Fahidi Fort, set to reopen with new museum\"},{\"claim\":\"При упоминании Дубая многие представляют мегаполис с сияющими небоскрёбами, огромными торговыми центрами, островами в форме пальм и одними из лучших в мире брендов роскошных отелей и гостеприимства.\",\"supported\":true,\"evidence\":\"Think of Dubai and many people will imagine a metropolis of gleaming skyscrapers, mega shopping malls, palm-shaped islands and some of the world’s top luxury hotel and hospitality brands.\"},{\"claim\":\"В стороне от этой роскоши и гламура, которые часто доминируют, находится форт Аль-Фахиди.\",\"supported\":true,\"evidence\":\"But away from all the glitz and glamour, which often dominate ...\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 631,
+        "completion_tokens": 232,
+        "total_tokens": 863,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
   }
 }
