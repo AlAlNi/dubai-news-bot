@@ -1028,5 +1028,32 @@
     "strict_hash": "fb2e97528337d4bc1486e8f6320c022f",
     "fuzzy_hash": "5f988569702ee929d3d659cbf20899ef",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/9-spots-to-visit-for-negroni-week-in-abu-dhabi",
+    "timestamp": "2026-09-18T16:47:27.366468+00:00",
+    "status": "rejected",
+    "content_hash": "3768672fd69d8381092a776cccdfdf5f",
+    "strict_hash": "3768672fd69d8381092a776cccdfdf5f",
+    "fuzzy_hash": "c99fc752a1956d04c27770977b0c909a",
+    "reason": "Новость про бары и рестораны в Абу-Даби на Negroni Week — это событие в другом эмирате, не в Дубае, и подано как подборка заведений с отсылкой к поп-культуре, что ближе к развлекательно-рекламному формату без значимой для дубайской аудитории пользы."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/your-guide-to-all-the-dj-gigs-in-dubai-this-year-2026",
+    "timestamp": "2026-09-18T16:47:32.698587+00:00",
+    "status": "rejected",
+    "content_hash": "51c5a1ed89917383ae7b35a004a7e547",
+    "strict_hash": "51c5a1ed89917383ae7b35a004a7e547",
+    "fuzzy_hash": "58e9036fbb4aedfc8e0db65cb260da07",
+    "reason": "Новость представляет собой анонс-подборку DJ-мероприятий в Дубае, что слабо связано с конкретной новостью и больше похоже на развлекательный гид/рекламный материал без общественно значимого инфоповода. Текст обрывочный, с признаками кликбейта и шаблонной подачи, а также не содержит конкретики (даты, имена, места), полезной русскоязычному жителю."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/saadiyat-grove-to-open-in-q4-and-unveils-shops-and-restaurants",
+    "timestamp": "2026-09-18T16:47:37.175627+00:00",
+    "status": "rejected",
+    "content_hash": "55d87152abfd258db68c0b557d31dce4",
+    "strict_hash": "55d87152abfd258db68c0b557d31dce4",
+    "fuzzy_hash": "6f117e4c65edb0a7f1d5bcd0ed5cca86",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
   }
 ]
