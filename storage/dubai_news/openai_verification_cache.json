@@ -739,5 +739,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c9c2c1ebf2"
     }
+  },
+  "96ce10fe45e6872d50232cadfa6c4e15a940e01f9c9cba78b03ebfef03c46afa": {
+    "saved_at": "2026-09-18T12:27:40.992029+00:00",
+    "result": {
+      "id": "chatcmpl-EPRykAT7AWxMHEt6rMXFXRZ0T7enU",
+      "object": "chat.completion",
+      "created": 1789734458,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Абу-Даби представили книгу о Уилфреде Тесигере в Аравии\",\"supported\":true,\"evidence\":\"Wilfred Thesiger in Arabia launched in Abu Dhabi\"},{\"claim\":\"спустя восемьдесят лет после первого пересечения Пустой четверти новая книга возвращается к путешествиям Уилфреда Тесигера по Аравии через фотографии, истории и личные свидетельства\",\"supported\":true,\"evidence\":\"Eighty years after his first crossing of the Empty Quarter, a new book revisits Wilfred Thesiger’s journeys through Arabia in photographs, stories and personal accounts\"},{\"claim\":\"Задолго до известных сегодня горизонтов и городов Тесигер пересекал одни из самых отдалённых ландшафтов Аравии с камерой в руках\",\"supported\":true,\"evidence\":\"Long before the skylines and cities we know today, Wilfred Thesiger was crossing some of Arabia’s most remote landscapes with a camera in hand\"},{\"claim\":\"Его фотографии запечатлели жизнь пустыни, бедуинов\",\"supported\":true,\"evidence\":\"His photographs captured desert life, Bedouin\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 602,
+        "completion_tokens": 274,
+        "total_tokens": 876,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
   }
 }
