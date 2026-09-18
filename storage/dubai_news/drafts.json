@@ -1,6 +1,96 @@
 [
   {
     "source_snapshot": {
+      "title": "Dubai's 80km fourth highway explained: Journey time cut by 60%, key road upgrades - Khaleej Times",
+      "text": "Dubai's 80km fourth highway explained: Journey time cut by 60%, key road upgrades &nbsp;&nbsp; Khaleej Times",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR3B3djJEX3BaVmxvNjlsem16VVJvSGxVenZXS1M5endxSGQxNUhpajBOTXNTb0tWVml2MXZlWWstRTlCNDJTekV5aU5FYUZrMG5kQ3VONWZyRmtjTXZCbzd4SGJwVS10aUUxX3F2QV9KQzVDaGtfbnY4TFJXOUhGQ3ktWWhkTU4zVm5VTHB2eXZEdTBwVDlsbWozdGNCT0hCOUdhbnVvV1HSAbABQVVfeXFMUHVoZkN0RTU3OEFCTVJoUW9fTDZMRHJuY1dyWk1zTWU4cnNLZVZBaDktUnJrdkVKVlJRVEFSTzZWbXRuY0dkQldORzFRRDI0X0swVklvZ0dCckFRa2s5aHViQXk5QWFYUEVmS3l6LWNmd2FMQi1pUFFBNDE1ZDk4UURUWjQwbWQ1ZEpTNUdPaU9kblZheF96akZFT3ZJYnFKVWhnN0xqazU1X2Itb3hCRE0?oc=5"
+    },
+    "source_published_at": "Thu, 17 Sep 2026 02:00:00 GMT",
+    "source_retrieved_at": "",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims are directly supported by the source title and text.",
+      "claims": [
+        {
+          "claim": "Четвёртая автомагистраль Дубая протяжённостью 80 км",
+          "supported": true,
+          "evidence": "Dubai's 80km fourth highway explained"
+        },
+        {
+          "claim": "время в пути сокращено на 60%",
+          "supported": true,
+          "evidence": "Journey time cut by 60%"
+        },
+        {
+          "claim": "ключевые дорожные улучшения",
+          "supported": true,
+          "evidence": "key road upgrades"
+        }
+      ],
+      "source_hash": "05807383417c1bb29f4cfd67fb925c62a60c45a5dffbaf035189a429b41853b5",
+      "summary_hash": "168003f45cf52c841425213202929d3c417e30a1e2c7dd8122073e31e793b9df",
+      "checked_at": "2026-09-18T11:38:09.203986+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "Khaleej Times",
+    "title": "Dubai's 80km fourth highway explained: Journey time cut by 60%, key road upgrades - Khaleej Times",
+    "summary_ru": "<b>Четвёртая автомагистраль Дубая протяжённостью 80 км: время в пути сокращено на 60%, ключевые дорожные улучшения</b>",
+    "published": "2026-09-18T11:38:03.922772+00:00",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR3B3djJEX3BaVmxvNjlsem16VVJvSGxVenZXS1M5endxSGQxNUhpajBOTXNTb0tWVml2MXZlWWstRTlCNDJTekV5aU5FYUZrMG5kQ3VONWZyRmtjTXZCbzd4SGJwVS10aUUxX3F2QV9KQzVDaGtfbnY4TFJXOUhGQ3ktWWhkTU4zVm5VTHB2eXZEdTBwVDlsbWozdGNCT0hCOUdhbnVvV1HSAbABQVVfeXFMUHVoZkN0RTU3OEFCTVJoUW9fTDZMRHJuY1dyWk1zTWU4cnNLZVZBaDktUnJrdkVKVlJRVEFSTzZWbXRuY0dkQldORzFRRDI0X0swVklvZ0dCckFRa2s5aHViQXk5QWFYUEVmS3l6LWNmd2FMQi1pUFFBNDE1ZDk4UURUWjQwbWQ1ZEpTNUdPaU9kblZheF96akZFT3ZJYnFKVWhnN0xqazU1X2Itb3hCRE0?oc=5"
+    ],
+    "lang": "en",
+    "content_hash": "e528b58485b0a325dfe41272949cd227",
+    "strict_hash": "e528b58485b0a325dfe41272949cd227",
+    "fuzzy_hash": "27a85946f05315e92e3eb19a4f6dd1e4",
+    "method": "google_news_rss",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 80,
+      "ad_readiness_score": 90,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость касается масштабного дорожного проекта в Дубае (четвёртая магистраль, 80 км, сокращение времени в пути на 60%) — это явная связь с регионом, полезная и актуальная для русскоязычных жителей информация, не политика, не реклама и не дубликат уже опубликованных материалов."
+      }
+    },
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "slot_target": "morning"
+  },
+  {
+    "source_snapshot": {
       "title": "Radhika Das to make UAE debut with immersive concert in Dubai",
       "text": "International devotional music artist, author and podcaster Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026. Based in London, Das has spent the past 15 years ... [1300 chars]",
       "url": "https://timesofindia.indiatimes.com/life-style/spotlight/radhika-das-to-make-uae-debut-with-immersive-concert-in-dubai/articleshow/134306204.cms"
