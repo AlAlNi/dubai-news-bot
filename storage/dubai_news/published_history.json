@@ -5970,5 +5970,113 @@
     "language": "",
     "top_image": "",
     "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Radhika Das to make UAE debut with immersive concert in Dubai",
+      "text": "International devotional music artist, author and podcaster Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026. Based in London, Das has spent the past 15 years ... [1300 chars]",
+      "url": "https://timesofindia.indiatimes.com/life-style/spotlight/radhika-das-to-make-uae-debut-with-immersive-concert-in-dubai/articleshow/134306204.cms"
+    },
+    "source_published_at": "2026-09-17T08:26:00Z",
+    "source_retrieved_at": "",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source title and text.",
+      "claims": [
+        {
+          "claim": "Radhika Das впервые выступит в ОАЭ с концертом в Дубае",
+          "supported": true,
+          "evidence": "Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026."
+        },
+        {
+          "claim": "Международный исполнитель духовной музыки, автор и подкастер Radhika Das впервые выступит в ОАЭ с концертом Lightfall",
+          "supported": true,
+          "evidence": "International devotional music artist, author and podcaster Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026."
+        },
+        {
+          "claim": "Концерт запланирован на 20 сентября 2026 года на Coca-Cola Arena в Дубае",
+          "supported": true,
+          "evidence": "Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026."
+        },
+        {
+          "claim": "Das базируется в Лондоне и за последние 15 лет...",
+          "supported": true,
+          "evidence": "Based in London, Das has spent the past 15 years ..."
+        }
+      ],
+      "source_hash": "2661969f7b67af0743ea9b119d34bd49e5f49436cc0c97bb7ea099cc8a70b32c",
+      "summary_hash": "b9505990423f2154401878a0f4d3da63782f39a02de44db8f6070d230f09f210",
+      "checked_at": "2026-09-17T21:36:52.323295+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "Times of India",
+    "title": "Radhika Das to make UAE debut with immersive concert in Dubai",
+    "summary_ru": "<b>Radhika Das впервые выступит в ОАЭ с концертом в Дубае</b>\n\nМеждународный исполнитель духовной музыки, автор и подкастер Radhika Das впервые выступит в ОАЭ с концертом Lightfall. Концерт запланирован на 20 сентября 2026 года на Coca-Cola Arena в Дубае. Das базируется в Лондоне и за последние 15 лет...",
+    "published": "2026-09-17T21:36:45.915118+00:00",
+    "source_urls": [
+      "https://timesofindia.indiatimes.com/life-style/spotlight/radhika-das-to-make-uae-debut-with-immersive-concert-in-dubai/articleshow/134306204.cms"
+    ],
+    "lang": "en",
+    "content_hash": "ab8ae2156faae0812be26fe72a0a20c6",
+    "strict_hash": "ab8ae2156faae0812be26fe72a0a20c6",
+    "fuzzy_hash": "14273fe015593882e613044abe2e0e0e",
+    "method": "gnews",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость связана с Дубаем (концерт в Coca-Cola Arena), не касается политики, не выглядит рекламой в чистом виде и может быть интересна русскоязычным жителям как анонс культурного события. Дубликатов среди последних публикаций нет."
+      }
+    },
+    "image_url": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-09-18T18:17:43.670645+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1592
+    },
+    "published_at": "2026-09-18T18:17:43.674808+00:00",
+    "source_url": "https://timesofindia.indiatimes.com/life-style/spotlight/radhika-das-to-make-uae-debut-with-immersive-concert-in-dubai/articleshow/134306204.cms",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
   }
 ]
