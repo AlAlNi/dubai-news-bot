@@ -5862,5 +5862,113 @@
     "language": "",
     "top_image": "",
     "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Wilfred Thesiger in Arabia launched in Abu Dhabi",
+      "text": "Eighty years after his first crossing of the Empty Quarter, a new book revisits Wilfred Thesiger’s journeys through Arabia in photographs, stories and personal accounts Long before the skylines and cities we know today, Wilfred Thesiger was crossing some of Arabia’s most remote landscapes with a camera in hand. His photographs captured desert life, Bedouin [&#8230;] The post Wilfred Thesiger in Arabia launched in Abu Dhabi appeared first on What&#039;s On .",
+      "url": "https://whatson.ae/2026/09/wilfred-thesiger-in-arabia-launched-in-abu-dhabi/"
+    },
+    "source_published_at": "",
+    "source_retrieved_at": "",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "В Абу-Даби представили книгу о Уилфреде Тесигере в Аравии",
+          "supported": true,
+          "evidence": "Wilfred Thesiger in Arabia launched in Abu Dhabi"
+        },
+        {
+          "claim": "спустя восемьдесят лет после первого пересечения Пустой четверти новая книга возвращается к путешествиям Уилфреда Тесигера по Аравии через фотографии, истории и личные свидетельства",
+          "supported": true,
+          "evidence": "Eighty years after his first crossing of the Empty Quarter, a new book revisits Wilfred Thesiger’s journeys through Arabia in photographs, stories and personal accounts"
+        },
+        {
+          "claim": "Задолго до известных сегодня горизонтов и городов Тесигер пересекал одни из самых отдалённых ландшафтов Аравии с камерой в руках",
+          "supported": true,
+          "evidence": "Long before the skylines and cities we know today, Wilfred Thesiger was crossing some of Arabia’s most remote landscapes with a camera in hand"
+        },
+        {
+          "claim": "Его фотографии запечатлели жизнь пустыни, бедуинов",
+          "supported": true,
+          "evidence": "His photographs captured desert life, Bedouin"
+        }
+      ],
+      "source_hash": "d2a81e0d2bb751fd00583fc2798fa1f37b3116dda597b388713e939d4ab1922b",
+      "summary_hash": "3cdb15cdcf5b13b0f2601454ac4458a0fad73443bd7404d4aecc1bf102a272d9",
+      "checked_at": "2026-09-18T12:27:40.992014+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "What's On Dubai",
+    "title": "Wilfred Thesiger in Arabia launched in Abu Dhabi",
+    "summary_ru": "<b>В Абу-Даби представили книгу о Уилфреде Тесигере в Аравии</b> <code>What&#039;s On</code> сообщает: спустя восемьдесят лет после первого пересечения Пустой четверти новая книга возвращается к путешествиям Уилфреда Тесигера по Аравии через фотографии, истории и личные свидетельства. Задолго до известных сегодня горизонтов и городов Тесигер пересекал одни из самых отдалённых ландшафтов Аравии с камерой в руках. Его фотографии запечатлели жизнь пустыни, бедуинов [&#8230;]",
+    "published": "2026-09-18T12:27:33.000659+00:00",
+    "source_urls": [
+      "https://whatson.ae/2026/09/wilfred-thesiger-in-arabia-launched-in-abu-dhabi/"
+    ],
+    "lang": "en",
+    "content_hash": "4f77bcd3cdb80bc2008ac4334356bec5",
+    "strict_hash": "4f77bcd3cdb80bc2008ac4334356bec5",
+    "fuzzy_hash": "826a82f40c83da31c5ed62f2429c9874",
+    "method": "rss",
+    "source_priority": 2,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о книге, посвящённой путешествиям Уилфреда Тесигера по Аравии, связана с регионом (Абу-Даби, ОАЭ), не касается политики, не выглядит рекламой и может быть интересна аудитории, интересующейся культурой и историей региона. Признаков ИИ-генерации или кликбейта нет, дубликатов среди опубликованных новостей не обнаружено."
+      }
+    },
+    "image_url": "https://whatson.ae/wp-content/uploads/2026/09/MixCollage-18-Sep-2026-02-03-PM-399.jpg",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-09-18T14:20:34.150381+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1591
+    },
+    "published_at": "2026-09-18T14:20:34.155680+00:00",
+    "source_url": "https://whatson.ae/2026/09/wilfred-thesiger-in-arabia-launched-in-abu-dhabi",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
   }
 ]
