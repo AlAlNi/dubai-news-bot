@@ -919,5 +919,32 @@
     "url": "https://www.thenationalnews.com/sport/2026/09/17/mamadi-diakite-has-won-ncaa-g-league-and-nba-championships-now-he-wants-to-make-dubai-his-home",
     "timestamp": "2026-09-17T23:29:32.247190+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.euronews.com/2026/09/17/day-two-in-dubai-the-region-makes-its-case-for-telling-its-own-story",
+    "timestamp": "2026-09-18T00:37:59.005594+00:00",
+    "status": "rejected",
+    "content_hash": "8480f802afca14ca7d800454f664356f",
+    "strict_hash": "8480f802afca14ca7d800454f664356f",
+    "fuzzy_hash": "b75d69589a83e96568de9552c8badbf9",
+    "reason": "Новость описывает второй день Arab Media Summit с участием министров ОАЭ, Азербайджана и Грузии, что связано с регионом, но тема «национального нарратива» и медиаполитики граничит с большой политикой и не несёт практической пользы русскоязычному жителю Дубая. Формат похож на аналитический/политический репортаж, а не на новость с ясной общественной ценностью для аудитории канала."
+  },
+  {
+    "url": "https://www.mirror.co.uk/news/uk-news/nurse-faked-cancer-shaved-head-37672925",
+    "timestamp": "2026-09-18T00:38:00.668362+00:00",
+    "status": "rejected",
+    "content_hash": "2b2a3c891508a411a437484732036f57",
+    "strict_hash": "2b2a3c891508a411a437484732036f57",
+    "fuzzy_hash": "927e3d521f2030d7979754e8da743fcd",
+    "reason": "Новость рассказывает о медсестре из Великобритании, которая симулировала рак ради поездки в Дубай — связь с регионом лишь косвенная (упоминание отпуска), основная тема — криминал и обман за рубежом, что не является локальной новостью ОАЭ и не несёт пользы русскоязычным жителям Дубая."
+  },
+  {
+    "url": "https://variety.com/2026/film/festivals/dubai-film-festival-revived-2027-1236865324",
+    "timestamp": "2026-09-18T00:38:08.175486+00:00",
+    "status": "approved",
+    "content_hash": "01edf945398efd8fbf646bc42623587a",
+    "strict_hash": "01edf945398efd8fbf646bc42623587a",
+    "fuzzy_hash": "c6792ecb2520bacace586f0160f63b39",
+    "reason": "approved"
   }
 ]

@@ -1,6 +1,101 @@
 [
   {
     "source_snapshot": {
+      "title": "Dubai Film Festival to Be Revived in 2027",
+      "text": "Ten years after being abruptly shuttered, the Dubai International Film Festival is being revived with a new edition set to kick off on Dec. 8, 2027.\nThe announcement — which was reported by local media and confirmed by Dubai sources — was made on Thu... [1339 chars]",
+      "url": "https://variety.com/2026/film/festivals/dubai-film-festival-revived-2027-1236865324/"
+    },
+    "source_published_at": "2026-09-17T11:33:37Z",
+    "source_retrieved_at": "",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source title and text.",
+      "claims": [
+        {
+          "claim": "Дубайский кинофестиваль возобновят в 2027 году",
+          "supported": true,
+          "evidence": "Dubai Film Festival to Be Revived in 2027"
+        },
+        {
+          "claim": "Спустя десять лет после внезапного закрытия Дубайский международный кинофестиваль возобновляют",
+          "supported": true,
+          "evidence": "Ten years after being abruptly shuttered, the Dubai International Film Festival is being revived"
+        },
+        {
+          "claim": "Новый выпуск должен стартовать 8 декабря 2027 года",
+          "supported": true,
+          "evidence": "a new edition set to kick off on Dec. 8, 2027"
+        },
+        {
+          "claim": "Объявление, о котором сообщили местные СМИ и подтвердили источники в Дубае, было сделано в четверг",
+          "supported": true,
+          "evidence": "The announcement — which was reported by local media and confirmed by Dubai sources — was made on Thu"
+        }
+      ],
+      "source_hash": "64e899e784aa1b230974046b6882f96f87a1ae6ccad821bd830e7191d047cfa9",
+      "summary_hash": "f0dc90b61ab661023f9f35ba1c4796211453fbdd19f8385bb550f95a8a8d97ab",
+      "checked_at": "2026-09-18T00:38:08.170765+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "Variety",
+    "title": "Dubai Film Festival to Be Revived in 2027",
+    "summary_ru": "<b>Дубайский кинофестиваль возобновят в 2027 году</b>\n\nСпустя десять лет после внезапного закрытия Дубайский международный кинофестиваль возобновляют: новый выпуск должен стартовать 8 декабря 2027 года. Объявление, о котором сообщили местные СМИ и подтвердили источники в Дубае, было сделано в четверг.",
+    "published": "2026-09-18T00:38:02.102967+00:00",
+    "source_urls": [
+      "https://variety.com/2026/film/festivals/dubai-film-festival-revived-2027-1236865324/"
+    ],
+    "lang": "en",
+    "content_hash": "01edf945398efd8fbf646bc42623587a",
+    "strict_hash": "01edf945398efd8fbf646bc42623587a",
+    "fuzzy_hash": "c6792ecb2520bacace586f0160f63b39",
+    "method": "gnews",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о возрождении Dubai International Film Festival в 2027 году имеет явную связь с Дубаем, не относится к политике/конфликтам, не выглядит как реклама и интересна русскоязычной аудитории; дубликатов среди последних публикаций нет."
+      }
+    },
+    "image_url": "https://variety.com/wp-content/uploads/2026/09/DubaiFF.jpg?w=1000&h=563&crop=1",
+    "slot_target": "morning"
+  },
+  {
+    "source_snapshot": {
       "title": "Radhika Das to make UAE debut with immersive concert in Dubai",
       "text": "International devotional music artist, author and podcaster Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026. Based in London, Das has spent the past 15 years ... [1300 chars]",
       "url": "https://timesofindia.indiatimes.com/life-style/spotlight/radhika-das-to-make-uae-debut-with-immersive-concert-in-dubai/articleshow/134306204.cms"

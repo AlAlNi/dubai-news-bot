@@ -622,5 +622,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c9c2c1ebf2"
     }
+  },
+  "9ef83b2de5f1f50c065919e2e51c98f0ed5f7005272b053cc22aae00958d3946": {
+    "saved_at": "2026-09-18T00:38:08.170777+00:00",
+    "result": {
+      "id": "chatcmpl-EPGu6xVsx68nRTjwFEmluBUo7uXsw",
+      "object": "chat.completion",
+      "created": 1789691886,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Дубайский кинофестиваль возобновят в 2027 году\",\"supported\":true,\"evidence\":\"Dubai Film Festival to Be Revived in 2027\"},{\"claim\":\"Спустя десять лет после внезапного закрытия Дубайский международный кинофестиваль возобновляют\",\"supported\":true,\"evidence\":\"Ten years after being abruptly shuttered, the Dubai International Film Festival is being revived\"},{\"claim\":\"Новый выпуск должен стартовать 8 декабря 2027 года\",\"supported\":true,\"evidence\":\"a new edition set to kick off on Dec. 8, 2027\"},{\"claim\":\"Объявление, о котором сообщили местные СМИ и подтвердили источники в Дубае, было сделано в четверг\",\"supported\":true,\"evidence\":\"The announcement — which was reported by local media and confirmed by Dubai sources — was made on Thu\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 502,
+        "completion_tokens": 211,
+        "total_tokens": 713,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c9c2c1ebf2"
+    }
   }
 }
