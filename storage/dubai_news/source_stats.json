@@ -946,5 +946,86 @@
     "strict_hash": "01edf945398efd8fbf646bc42623587a",
     "fuzzy_hash": "c6792ecb2520bacace586f0160f63b39",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.aninews.in/news/entertainment/hollywood/dubai-international-film-festival-revived-for-december-2027-edition20260917190524",
+    "timestamp": "2026-09-18T02:03:39.907311+00:00",
+    "status": "rejected",
+    "content_hash": "e9cd02150beaf6903e0d2258d4312e60",
+    "strict_hash": "e9cd02150beaf6903e0d2258d4312e60",
+    "fuzzy_hash": "f342b6777e8bd673636e8536892f2856",
+    "reason": "Новость сообщает о возрождении Дубайского международного кинофестиваля с проведением в декабре 2027 года — это явно связано с Дубаем, не относится к политике, не является рекламой и интересно русскоязычной аудитории. Однако она практически полностью дублирует уже опубликованную новость «Dubai Film Festival to Be Revived in 2027» (тот же факт, тот же фестиваль, тот же год)."
+  },
+  {
+    "url": "https://www.liverpoolecho.co.uk/news/uk-world-news/nurse-struck-after-fake-cancer-34632120",
+    "timestamp": "2026-09-18T02:03:41.426756+00:00",
+    "status": "rejected",
+    "content_hash": "7bdf0070fab53ade84ff8aef229af38f",
+    "strict_hash": "7bdf0070fab53ade84ff8aef229af38f",
+    "fuzzy_hash": "7e1b7c58ce2c895a63521c9a27abb818",
+    "reason": "Новость рассказывает о медсестре из Шотландии, которая мошенническим путём похитила деньги и тратила их на поездки в Дубай; связь с регионом лишь косвенная (упоминание трат на поездки), основная тема — криминал и мошенничество за рубежом, что не соответствует фокусу канала о Дубае и вряд ли интересно русскоязычным жителям эмирата."
+  },
+  {
+    "url": "https://variety.com/2026/film/news/dubai-film-festival-revived-2027-1236865324",
+    "timestamp": "2026-09-18T02:03:42.722176+00:00",
+    "status": "rejected",
+    "content_hash": "0d352febd7782b00f25e2847654e9e9f",
+    "strict_hash": "0d352febd7782b00f25e2847654e9e9f",
+    "fuzzy_hash": "e033d23a15fa4e08a37e7fb832892f46",
+    "reason": "Новость полностью совпадает с уже опубликованным материалом «Dubai Film Festival to Be Revived in 2027» (дубликат по заголовку и содержанию), поэтому публиковать её повторно нельзя."
+  },
+  {
+    "url": "https://variety.com/2026/film/global/dubai-film-festival-revived-2027-1236865324",
+    "timestamp": "2026-09-18T02:03:44.214069+00:00",
+    "status": "rejected",
+    "content_hash": "92786e7bf93199ad5a8f1c733df3459e",
+    "strict_hash": "92786e7bf93199ad5a8f1c733df3459e",
+    "fuzzy_hash": "fd769cf1a9f112fcad6424913156c33a",
+    "reason": "Новость полностью совпадает с уже опубликованной (пункт 1 списка: «Dubai Film Festival to Be Revived in 2027»), то есть является дубликатом, поэтому публиковать её повторно нельзя."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbjBWZ19CbE1fQW5DTV9mX2hzWDVPcmk4VWo2MURVNXEtTTZZbXZPSzRISUJ4TV91UnVLS1Q0dHpwR0hNbU5XS05DOVhfWWtZMWJRYmJVMXlLcUhvXzNON0k4bUY2N2xwcDZyUVZOYm9LQlpJU1BLcDRHRzBUM1Y3VGRqUUtXQzFJM2RWNDBjSm43Nm1adjhFdC1qYUM?oc=5",
+    "timestamp": "2026-09-18T02:03:47.097501+00:00",
+    "status": "rejected",
+    "content_hash": "5991edcbbbbe879b8c93f18efeb8ee2e",
+    "strict_hash": "5991edcbbbbe879b8c93f18efeb8ee2e",
+    "fuzzy_hash": "39eed42db88c5e8bdb430d95000edb33",
+    "reason": "Новость сообщает о возрождении Dubai Film Festival в 2027 году, что явно связано с Дубаем и интересно русскоязычной аудитории. Однако она полностью дублирует уже опубликованную новость «Dubai Film Festival to Be Revived in 2027» из списка последних публикаций."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUFdMb3ZGYXRaZzg2cUhDQWNCellnU0doN1d2NTBqOVd1Sy1WdFE3VDFXcWt0WjNxS04wRHdVZWNxWjc1RUhwS0hENzJkMWhGYndWUnNjTXMzMnFXMHVvSnJ6SFhQMXFLN1VxNmRkcWFxY19ETUlPTm1jYWdvQkNHR0RVWHBNR0NTMDNhdERsZl9xRGNPNXVvZVdyYw?oc=5",
+    "timestamp": "2026-09-18T02:03:48.719636+00:00",
+    "status": "rejected",
+    "content_hash": "09e2fa30cc8374c31c578122ccbcf7ac",
+    "strict_hash": "09e2fa30cc8374c31c578122ccbcf7ac",
+    "fuzzy_hash": "172f28defc37566779abf51e50bd2d08",
+    "reason": "Новость о проекте «Fourth Corridor» в Дубае имеет явную связь с регионом и касается инфраструктурного развития, что потенциально интересно жителям. Однако текст крайне скудный, выглядит как обрывок заголовка с источником «Yahoo» и не содержит сути новости, что не позволяет оценить достоверность и пользу."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbF8tRnBWVFI0bEhodXU1QXN4M2F3b2wwMEd0TDZ2UVVFM3NaZDQ0R2M2dFVEOFJpSXBXTWk4OXBKUU40elJSMDVFRjNxZ2ZDaDhKUU5WZnY1dk9hQmpvdjBUYlVtWmIzeF9CQS04b3B1eTRPRWdnVm9ONE1fVlJxam1kZHhPS29WeWItMWV4ZGZ1NEpHVXlMc3VDMXZ2empya21TYnJPWXoxTkdkT1JNcQ?oc=5",
+    "timestamp": "2026-09-18T02:03:49.262697+00:00",
+    "status": "rejected",
+    "content_hash": "8d69e0d6b685311727a89ea1ded8f9bd",
+    "strict_hash": "8d69e0d6b685311727a89ea1ded8f9bd",
+    "fuzzy_hash": "761cdfff88a104ad59b90ce05257e8d1",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWWl4T2I3dnRKZ19XcUdJYzJrcDM0RnhNMTdyNUFpdXlCX2x4S0dpeFlSR0ExM0F5NU5wRnJ5Q0pUSXhNTlJ4NEkzTFZYbVJPSWdkRmVBbFlXbXQ2RlJsaDRBYjZnMWFwTmJwMjZmOG05ZHB5Z2hqY3N3Y2R4bDYxQmtTWTJmUXFaNVE?oc=5",
+    "timestamp": "2026-09-18T02:03:50.917165+00:00",
+    "status": "rejected",
+    "content_hash": "87c827c7a98420973686622e64568ba2",
+    "strict_hash": "87c827c7a98420973686622e64568ba2",
+    "fuzzy_hash": "31110dbf761bda982a6659f301d90cd9",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUd3cjNmSGRPMU9SQWNJeDdacnlRSmp0R29IRUlGZGZ6NlRxc0s5SjUyTEgtLWEtLXpGU1U3cjQyX3hlZml5R1JnMnhwOXFoLUpsZjhsa0VlenAwVVYzZFowNXE2enZDcl9NNGR0MVM1UFJpa0NZSFdiaHJ5WmRUTHRxNXlQbjZORFh0ZEtuTEE4Ym5CZFpUd09tT1E1b1EwTUNsQjJBeTRIVWl4Y29ucTFZS2s?oc=5",
+    "timestamp": "2026-09-18T02:03:52.811074+00:00",
+    "status": "rejected",
+    "content_hash": "e489136edd37139ace444a204d278a75",
+    "strict_hash": "e489136edd37139ace444a204d278a75",
+    "fuzzy_hash": "fd6431d39774fe3f6f01701f5eff95c9",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
