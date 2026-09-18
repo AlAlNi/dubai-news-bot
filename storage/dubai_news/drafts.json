@@ -1,6 +1,96 @@
 [
   {
     "source_snapshot": {
+      "title": "Dubai cyber chief urges public to be vigilant over AI-powered deepfake threat",
+      "text": "People can no longer rely on poor spelling or suspicious-looking messages to identify fraud, cyber experts have warned.\nDeepfakes, phishing and voice cloning are among the threats becoming more sophisticated as criminals use AI to gather information ... [4660 chars]",
+      "url": "https://www.thenationalnews.com/news/uae/2026/09/17/dubai-cyber-chief-urges-public-to-be-vigilant-over-ai-powered-deepfake-threat/"
+    },
+    "source_published_at": "2026-09-17T15:23:30Z",
+    "source_retrieved_at": "",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source title and text.",
+      "claims": [
+        {
+          "claim": "Глава кибербезопасности Дубая призвал общественность к бдительности из-за угрозы дипфейков на базе ИИ",
+          "supported": true,
+          "evidence": "Dubai cyber chief urges public to be vigilant over AI-powered deepfake threat"
+        },
+        {
+          "claim": "Киберэксперты предупредили, что люди больше не могут полагаться на плохую орфографию или подозрительные сообщения для выявления мошенничества",
+          "supported": true,
+          "evidence": "People can no longer rely on poor spelling or suspicious-looking messages to identify fraud, cyber experts have warned."
+        },
+        {
+          "claim": "Дипфейки, фишинг и клонирование голоса входят в число угроз, становящихся более изощрёнными, поскольку преступники используют ИИ для сбора информации",
+          "supported": true,
+          "evidence": "Deepfakes, phishing and voice cloning are among the threats becoming more sophisticated as criminals use AI to gather information"
+        }
+      ],
+      "source_hash": "04e675954cf53c57693d5d64c3bfb4b791539d7c853cc421682a27bb08023304",
+      "summary_hash": "c5cb0bb30afcb51a8b6341ef2149f59a6416cc6ff95fa62302dc0d3076e400ef",
+      "checked_at": "2026-09-18T06:21:38.806877+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "The National",
+    "title": "Dubai cyber chief urges public to be vigilant over AI-powered deepfake threat",
+    "summary_ru": "<b>Глава кибербезопасности Дубая призвал общественность к бдительности из-за угрозы дипфейков на базе ИИ</b>\n\nКиберэксперты предупредили, что люди больше не могут полагаться на плохую орфографию или подозрительные сообщения для выявления мошенничества. Дипфейки, фишинг и клонирование голоса входят в число угроз, становящихся более изощрёнными, поскольку преступники используют ИИ для сбора информации.",
+    "published": "2026-09-18T06:21:32.446982+00:00",
+    "source_urls": [
+      "https://www.thenationalnews.com/news/uae/2026/09/17/dubai-cyber-chief-urges-public-to-be-vigilant-over-ai-powered-deepfake-threat/"
+    ],
+    "lang": "en",
+    "content_hash": "4faf27ab6f5e162ceb0a7bdc2f800b86",
+    "strict_hash": "4faf27ab6f5e162ceb0a7bdc2f800b86",
+    "fuzzy_hash": "58a3835428ea84e117374d86005426ef",
+    "method": "gnews",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость связана с Дубаем (заявление кибер-главы эмирата), имеет общественно полезный характер — предупреждение о мошенничестве с использованием ИИ, актуальна для жителей и не является политикой, рекламой или дубликатом. Текст выглядит как реальный новостной материал, без признаков кликбейта или ИИ-генерации."
+      }
+    },
+    "image_url": "https://www.thenationalnews.com/resizer/v2/AE24IYQJPJEWBBL2VR4BS4S4V4.jpg?auth=6b0f4ef865d3eea15a9272b363c7b37da6e87b2e5a655c2da48374c8b92e909c&smart=true&width=1200&height=630",
+    "slot_target": "morning"
+  },
+  {
+    "source_snapshot": {
       "title": "Radhika Das to make UAE debut with immersive concert in Dubai",
       "text": "International devotional music artist, author and podcaster Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026. Based in London, Das has spent the past 15 years ... [1300 chars]",
       "url": "https://timesofindia.indiatimes.com/life-style/spotlight/radhika-das-to-make-uae-debut-with-immersive-concert-in-dubai/articleshow/134306204.cms"
@@ -183,85 +273,5 @@
     },
     "image_url": "https://whatson.ae/wp-content/uploads/2024/12/BA-Featured.jpg",
     "slot_target": "evening"
-  },
-  {
-    "source_snapshot": {
-      "title": "Dubai launches two new sustainability courses for tourism, hospitality sector - Travel & Tourism News Middle East",
-      "text": "Dubai launches two new sustainability courses for tourism, hospitality sector &nbsp;&nbsp; Travel & Tourism News Middle East",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc0g3SUdzWVhtVXFDZUllU0VvX1g3czg0d3YzUGJTUkw2MlE0X1dPT1MtbGFLMDJBbkQ0S1IzcUlPTGprb1p1VlotaFhIai1fYVhnNXoycW9PRWlGaWNkd2cxR0dpUWhJWXdUM1VnSktPY2c1SFZIQlRoRUtnNGdWY1Y1elE4MURBd3BsNHBCN2VNUWZfVHY1TE1iNFE4Wmg4TUVlRlBpWW9ER3lKb3JpZGZyei1vUUJKOFRLVmV6Sko?oc=5"
-    },
-    "source_published_at": "Wed, 16 Sep 2026 11:05:29 GMT",
-    "source_retrieved_at": "",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All claims are directly supported by the source title and text.",
-      "claims": [
-        {
-          "claim": "Dubai launches two new sustainability courses for tourism and hospitality sector",
-          "supported": true,
-          "evidence": "Dubai launches two new sustainability courses for tourism, hospitality sector"
-        }
-      ],
-      "source_hash": "96a98d6fc3a28d43985d346f9f49fcf4274a3c8b841b7d44ebe59d60d00d24e9",
-      "summary_hash": "1a58ed309bb9bcf6b8374db51f39b02446d977a849067639645708b2f8ac07f2",
-      "checked_at": "2026-09-17T02:18:02.485041+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "Travel & Tourism News Middle East",
-    "title": "Dubai launches two new sustainability courses for tourism, hospitality sector - Travel & Tourism News Middle East",
-    "summary_ru": "<b>Дубай запускает два новых курса по устойчивому развитию для туризма и гостиничного сектора</b>\n\nДубай запустил два новых курса по устойчивому развитию для туризма и гостиничного сектора. Источник: Travel &amp; Tourism News Middle East.",
-    "published": "2026-09-17T02:17:57.758000+00:00",
-    "source_urls": [
-      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc0g3SUdzWVhtVXFDZUllU0VvX1g3czg0d3YzUGJTUkw2MlE0X1dPT1MtbGFLMDJBbkQ0S1IzcUlPTGprb1p1VlotaFhIai1fYVhnNXoycW9PRWlGaWNkd2cxR0dpUWhJWXdUM1VnSktPY2c1SFZIQlRoRUtnNGdWY1Y1elE4MURBd3BsNHBCN2VNUWZfVHY1TE1iNFE4Wmg4TUVlRlBpWW9ER3lKb3JpZGZyei1vUUJKOFRLVmV6Sko?oc=5"
-    ],
-    "lang": "en",
-    "content_hash": "e7be778b8af1eff0dc3365975159dece",
-    "strict_hash": "e7be778b8af1eff0dc3365975159dece",
-    "fuzzy_hash": "3eec176247e4e95b83aba2ecef3b75f2",
-    "method": "google_news_rss",
-    "source_priority": 3,
-    "workflow_state": "approved_by_editor",
-    "editorial_decision": "approved",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 70,
-      "ad_readiness_score": 80,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость связана с Дубаем и касается запуска образовательных курсов по устойчивому развитию для туристического и гостиничного сектора — это полезная и нейтральная тема без политики, рекламы и кликбейта, не дублирует ранее опубликованные материалы."
-      }
-    },
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "slot_target": "morning"
   }
 ]

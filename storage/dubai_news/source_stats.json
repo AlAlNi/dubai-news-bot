@@ -870,5 +870,77 @@
     "url": "https://variety.com/2026/film/festivals/dubai-film-festival-revived-2027-1236865324",
     "timestamp": "2026-09-18T04:28:26.790478+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://coingape.com/xrp-sparks-major-red-flag-for-dubai-investor-i-would-never-invest-in-ripple",
+    "timestamp": "2026-09-18T06:21:19.717494+00:00",
+    "status": "rejected",
+    "content_hash": "90b7af494d3275de5e3362118344f31a",
+    "strict_hash": "90b7af494d3275de5e3362118344f31a",
+    "fuzzy_hash": "5a55ba82263ee5cdd09f85920931bc32",
+    "reason": "Новость касается криптовалютного мнения частного инвестора из Дубая и не содержит общественно значимой или полезной для русскоязычных жителей информации, а также выглядит как кликбейт с сомнительной ценностью."
+  },
+  {
+    "url": "https://www.yardbarker.com/golf/articles/wouldnt_mind_making_him_wait_patrick_reed_fires_rory_mcilroy_warning_in_race_to_dubai_showdown/s1_17730_44315530",
+    "timestamp": "2026-09-18T06:21:21.333060+00:00",
+    "status": "rejected",
+    "content_hash": "48e92ef7c29769e2ce7ab3f80bf89f9e",
+    "strict_hash": "48e92ef7c29769e2ce7ab3f80bf89f9e",
+    "fuzzy_hash": "ef1f16a085d91f167bdd7513f1180e23",
+    "reason": "Новость про гольф-турнир Race to Dubai и соперничество Макилроя с Ридом имеет слабую связь с Дубаем (лишь название турнира) и не несёт практической пользы русскоязычному жителю, при этом выглядит как кликбейтный спортивный материал без общественно значимой ценности."
+  },
+  {
+    "url": "https://www.republicworld.com/initiatives/savaya-travels-goes-global-opens-new-offices-in-dubai-milan-auckland-tokyo-bali-and-launches-savaya-gold-reserve-its-global-vip-concierge-desk-2026-09-17-137178",
+    "timestamp": "2026-09-18T06:21:23.082618+00:00",
+    "status": "rejected",
+    "content_hash": "9689860f57b7b8f7c47498dd9160c0ba",
+    "strict_hash": "9689860f57b7b8f7c47498dd9160c0ba",
+    "fuzzy_hash": "f360bb3e8551c3d5ff4281beace87833",
+    "reason": "Новость выглядит как рекламный материал о расширении частной тревел-компании и запуске VIP-консьерж-сервиса, без общественно значимой новости для жителей Дубая; к тому же текст явно не самостоятельная новость, а фрагмент обзора/промо с признаками пресс-релиза."
+  },
+  {
+    "url": "https://www.essentiallysports.com/golf-news-wouldnt-mind-making-him-wait-patrick-reed-fires-rory-mcilroy-warning-in-race-to-dubai-showdown",
+    "timestamp": "2026-09-18T06:21:25.054169+00:00",
+    "status": "rejected",
+    "content_hash": "86fc0cc94b067d87cfb1777a0933f0bb",
+    "strict_hash": "86fc0cc94b067d87cfb1777a0933f0bb",
+    "fuzzy_hash": "3d1d20e87593ec94e25536d6581aaa9e",
+    "reason": "Новость про гольф-турнир Race to Dubai и соперничество Макилроя с Ридом имеет слабую связь с Дубаем (лишь название серии), не несёт пользы или интереса русскоязычным жителям и выглядит как кликбейтный спортивный материал без общественно значимой ценности."
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/sports/international-sports/roger-federer-luxury-homes-inside-the-tennis-legends-multimillion-dollar-mansion-in-switzerland-dubai-penthouse-alpine-chalet-and-sprawling-lake-zurich-estate-project/articleshow/134310180.cms",
+    "timestamp": "2026-09-18T06:21:27.153450+00:00",
+    "status": "rejected",
+    "content_hash": "7c5f4ed1a948068d1d272d1038447c80",
+    "strict_hash": "7c5f4ed1a948068d1d272d1038447c80",
+    "fuzzy_hash": "a2b327609c73700c926889ca77f03cde",
+    "reason": "Новость лишь косвенно связана с Дубаем (упоминание пентхауса), но по сути это лайфстайл-материал о недвижимости Роджера Федерера в Швейцарии — слабая связь с регионом, низкая практическая ценность для русскоязычного жителя Дубая и признаки кликбейтного «списка домов знаменитости»."
+  },
+  {
+    "url": "https://www.euronews.com/2026/09/17/uae-presidential-adviser-gargash-says-trust-with-iran-will-take-years-to-rebuild",
+    "timestamp": "2026-09-18T06:21:28.975758+00:00",
+    "status": "rejected",
+    "content_hash": "9316ede10df49d6a4a017bc54d6db25f",
+    "strict_hash": "9316ede10df49d6a4a017bc54d6db25f",
+    "fuzzy_hash": "a7320fc3d4fb3f858c64ae434ac404fb",
+    "reason": "Новость касается заявления высокопоставленного дипломатического советника ОАЭ о восстановлении доверия с Ираном, что напрямую связано с большой политикой и международными отношениями — это тема, которую по правилу 2 следует отклонять, тем более что она не является сервисной или практически полезной для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.yardbarker.com/golf/articles/rory_mcilroy_makes_feelings_clear_on_race_to_dubai_battle_with_patrick_reed_at_bmw_pga_championship/s1_17664_44315199",
+    "timestamp": "2026-09-18T06:21:30.677649+00:00",
+    "status": "rejected",
+    "content_hash": "191133c16fb63ac51cd7fb3e2f8241d8",
+    "strict_hash": "191133c16fb63ac51cd7fb3e2f8241d8",
+    "fuzzy_hash": "017c6c1f4f2e49b6e4084a53c46eeaa4",
+    "reason": "Новость про гольф (Rory McIlroy и Race to Dubai) имеет слабую связь с Дубаем — лишь через название турнира, при этом не несёт практической пользы русскоязычному жителю и не является локальной новостью ОАЭ. Дубликатом не является, но по критериям интереса и связи с регионом не подходит."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/17/dubai-cyber-chief-urges-public-to-be-vigilant-over-ai-powered-deepfake-threat",
+    "timestamp": "2026-09-18T06:21:38.811772+00:00",
+    "status": "approved",
+    "content_hash": "4faf27ab6f5e162ceb0a7bdc2f800b86",
+    "strict_hash": "4faf27ab6f5e162ceb0a7bdc2f800b86",
+    "fuzzy_hash": "58a3835428ea84e117374d86005426ef",
+    "reason": "approved"
   }
 ]
