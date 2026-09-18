@@ -942,5 +942,113 @@
     "strict_hash": "4faf27ab6f5e162ceb0a7bdc2f800b86",
     "fuzzy_hash": "58a3835428ea84e117374d86005426ef",
     "reason": "approved"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/7-fun-things-to-do-in-abu-dhabi-this-weekend-september-18-to-20",
+    "timestamp": "2026-09-18T07:42:50.314967+00:00",
+    "status": "rejected",
+    "content_hash": "2f0a380c1295e777cad13bc74d28af89",
+    "strict_hash": "2f0a380c1295e777cad13bc74d28af89",
+    "fuzzy_hash": "15ffd6eb85805b98e283e9b25095f96b",
+    "reason": "Новость про развлечения в Абу-Даби слабо связана с Дубаем и не несёт значимой пользы для русскоязычной аудитории Дубая, к тому же выглядит как кликбейт-подборка с обрывком текста и рекламным уклоном."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/the-whats-on-lock-in-returns-to-intercontinental-abu-dhabi",
+    "timestamp": "2026-09-18T07:42:57.436619+00:00",
+    "status": "rejected",
+    "content_hash": "ee8b04ca03816429216ffb987ca7f81c",
+    "strict_hash": "ee8b04ca03816429216ffb987ca7f81c",
+    "fuzzy_hash": "b66d4048576bb1ae7c662a69aaf7ff69",
+    "reason": "Новость про staycation-пакет в InterContinental Abu Dhabi — это фактически рекламный анонс отеля/издания, без общественно значимой новости, и к тому же не связано с Дубаем (Абу-Даби). Также текст выглядит как промо-пресс-релиз с обрывками и элементами кликбейта."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/emirates-and-flydubai-gear-up-for-move-to-al-maktoum-international-airport",
+    "timestamp": "2026-09-18T07:43:06.461100+00:00",
+    "status": "rejected",
+    "content_hash": "6589750bd7946e24e97aa9abda3ff14f",
+    "strict_hash": "6589750bd7946e24e97aa9abda3ff14f",
+    "fuzzy_hash": "508d402fd6fc1821c399e99bcedbee2e",
+    "reason": "Cheap prefilter: слишком частый домен в окне (whatson.ae)"
+  },
+  {
+    "url": "https://deadline.com/2026/09/dubai-film-festival-return-saudi-red-sea-film-uncertain-1237106423",
+    "timestamp": "2026-09-18T07:43:08.537125+00:00",
+    "status": "rejected",
+    "content_hash": "bbab005ce1f1d7c79805bb5aadcba4d6",
+    "strict_hash": "bbab005ce1f1d7c79805bb5aadcba4d6",
+    "fuzzy_hash": "9fd8da35b831400a24ce98eb5b48a41c",
+    "reason": "Новость о возрождении Дубайского международного кинофестиваля (DIFF) после 10-летнего перерыва имеет явную связь с Дубаем и может быть интересна русскоязычной аудитории как культурное событие. Однако текст обрывается на середине (3896 символов, но предоставлен фрагмент), что не позволяет полностью оценить достоверность и отсутствие кликбейта; при этом тема не относится к политике, рекламе или неуважению к ценностям ОАЭ, а дубликатов среди последних публикаций нет."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGVDT2xoS0F1UnVyRG9GMV9VSVBPOF95cW1ETnA2ajhhelZOb2xaNDNlcVlYZGwyV21BUW1aMW5ScXBOUnd2eEVjakIxM0FsTW5kZ29TVGE4YmpXUTVFMks4NGhyMFFrTE1XTHBKUXNpcU03WXJObUVvWUZqNEdKWXdPZXZCbk9vNzNZMHpVVlV4bjliVXMyM3JOS0c3UzM1U0Y0X3pIazFMbnJqRU1lUw?oc=5",
+    "timestamp": "2026-09-18T07:43:11.964996+00:00",
+    "status": "rejected",
+    "content_hash": "993b0b65fa841c5e368988a6a2aa02b6",
+    "strict_hash": "993b0b65fa841c5e368988a6a2aa02b6",
+    "fuzzy_hash": "c019110177de7fd6c189e6695c2563dc",
+    "reason": "Новость касается судебного решения в Дубае, но по сути это криминально-юридический сюжет о бизнесмене, связанном с незавершённым делом в Великобритании — тема пограничная с политикой/конфликтом и не имеет явной полезности для русскоязычного жителя Дубая. Кроме того, текст выглядит как сырой заголовок без содержательной новости, что усиливает риск кликбейта и низкой ценности для аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGdDX2cxbmxMYi1pSTB5bjdZUWc0SVFaLXNxYkRLZ2xSd0NzaFJPMlFPRENTVUlaMkk4SDdGd1hJZmVNY3RaRTN1cl9PazJjYkRGZzljQnU4Z1hlSHZoQ0VaYUU1LVhFMlRzTzlVNTdfQ0d4Y25IRjhOeEhzaVpTUEltelJUbDM3WmJBckNYb2ZVTEZPcEhSb040NU83eW11MEl2d1cwandfemlsTl9DVkdiVlY5N1g2?oc=5",
+    "timestamp": "2026-09-18T07:43:14.130236+00:00",
+    "status": "rejected",
+    "content_hash": "e2f281bf7bac18dd6fe7a036f84d32f0",
+    "strict_hash": "e2f281bf7bac18dd6fe7a036f84d32f0",
+    "fuzzy_hash": "3585f3a2fdf6380bb8ec1fb19c64f0a3",
+    "reason": "Новость о переходе Томаса Уолкапа в баскетбольный клуб «Дубай» и его целях выиграть Евролигу — это спортивная тема с явной связью с регионом (Дубай), не политика, не реклама, не дубликат. Однако текст крайне скудный (фактически только заголовок и ссылка на источник), что затрудняет оценку достоверности и полезности для аудитории."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSkstemxCel9Ma2FLQlNLWFRidldJdjdmX3lfbTNEa0I2XzFZVHBDUDNQR3hWMElfVVpJeHgxS2psMnBpdGVPQ3A1SGh6ODAxVUVHdU9mVmFwTnNCYXRjNHh4MDRpVHFFRllwVzB6M2xZN1Fscm53SE80TVBSU3lWamg0Q0dLVzRjYVZwTlB3Wk56UQ?oc=5",
+    "timestamp": "2026-09-18T07:43:14.694598+00:00",
+    "status": "rejected",
+    "content_hash": "41ac699452e82ce21befcff3d12a3427",
+    "strict_hash": "41ac699452e82ce21befcff3d12a3427",
+    "fuzzy_hash": "67d1ed1b45feeadb6bd490d8d9563df2",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQWc0bG1ZMm8wd2RQNDhkUzdTM3BuQlpfV0t0M1hER0RDMTlpRVNwc1ppX2t1SDBacC11bURqVVd1dVNWcy01NVh0UHB5MFNVeGZzd1pUWjB0aFRpVjhsOXNncjRpek1qWUtyM2dNMkp1a1Rqd0JFM21RX0NXbkZYR1ozS2h0YUtudlVDZlhhUWxzdw?oc=5",
+    "timestamp": "2026-09-18T07:43:16.316759+00:00",
+    "status": "rejected",
+    "content_hash": "8fe6b6b0658ec459d51f743da0f27090",
+    "strict_hash": "8fe6b6b0658ec459d51f743da0f27090",
+    "fuzzy_hash": "28a08efe19e475f0a8b0dbf68dbbee5a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVTVCc3BQQ1pKLXhCZkZieWI0X1ZUakVMNkVoV0FxTnI1U0lrTEtZN1MzcHhvSE1yU2hrT0ltNUg1R1NRcFBkcmlPaC1jcGNuTVNSVl9SZ1lEYlpjMDZtbE93a3lyWVpOOHpxVklYNHhaNklPd1pBVWF6cUpVTnJ3QzBFVUxrM2FFT0E4dEEwYkhMbVh2Vnd6bWdtX2FzWHY0OVdHbg?oc=5",
+    "timestamp": "2026-09-18T07:43:17.896315+00:00",
+    "status": "rejected",
+    "content_hash": "8936aa790f53ce2dde0dc03d0771864a",
+    "strict_hash": "8936aa790f53ce2dde0dc03d0771864a",
+    "fuzzy_hash": "b4cf8ab5a4496489ef28374024572423",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWVVIRTNIVkZaUUhiVmlUSWtoSGFFTjR1M2toNlZscnZUZ2p0QU9sSjFIdTFQdFBHQWZ5SFRfRVIzbGxFYjhLVlhjMzlZSHY5X0dZRXFoSDk4VU1jZ1d6VmlFUE1EanhvY0xVSEdpQkJXa1E5OFUzZS1mcEpyWmdlTzNUVkJwY0VBVktTUVlkeXVRUnBEWWlBc1htTE1OVjNwLUViSmtfNkVMZWJ3QXBDZXJreURPcmM?oc=5",
+    "timestamp": "2026-09-18T07:43:19.682600+00:00",
+    "status": "rejected",
+    "content_hash": "b8a1334c754f19c38bfa0ac28fc2fff6",
+    "strict_hash": "b8a1334c754f19c38bfa0ac28fc2fff6",
+    "fuzzy_hash": "d4b2d2375e4b087141379413e8934a75",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kWk9hSlFwTThZa2F5Um55VVBYY3VMTFZRZ3V5UUpHcWkyS0JxVmFGY2dNUS1KUDdXVGJYUEFQWUVmY19uX0pnYXZnT1ItcG5LcktFRGpHN3RJVHZrcmFsZnozVGtiMlpnSThabHJkN01xdDhaWEE?oc=5",
+    "timestamp": "2026-09-18T07:43:21.432589+00:00",
+    "status": "rejected",
+    "content_hash": "cd6fae801553821df7c741df743f862d",
+    "strict_hash": "cd6fae801553821df7c741df743f862d",
+    "fuzzy_hash": "a22473f8758fa485367591194066d68a",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNDRoRENmQmNRc1dDMkJ4clpNNHpwZ0Q0aVNmUGF5X1l2X2VYdFhKWTI2ZnBhd1ZOb25mam1uZngxWGdkWjJnQmdyTmNTdjZZWU1OV29aYmpROV9mbDNuLU5oSnFkTjZhY190bHZOVlVPemN1WWF5LXBNTzBCVzBFejBfdVRFMzF1M0szclp5Qm43dUhPT2c2NlZIMUE1YWo4VXVYWGNVMXJTM2Q1cDFOZV84cEQ3TklfSUt3V09iOE9sZmpM?oc=5",
+    "timestamp": "2026-09-18T07:43:23.121836+00:00",
+    "status": "rejected",
+    "content_hash": "79efe64706fb90d89cfd7dc18ed87177",
+    "strict_hash": "79efe64706fb90d89cfd7dc18ed87177",
+    "fuzzy_hash": "3ffce38781a4564978ff7cc2a16ed171",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
