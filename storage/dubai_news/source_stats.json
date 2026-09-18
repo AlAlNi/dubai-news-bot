@@ -889,5 +889,68 @@
     "url": "https://www.euronews.com/travel/2026/09/18/before-the-skyscrapers-dubais-oldest-building-al-fahidi-fort-set-to-reopen-with-new-museum",
     "timestamp": "2026-09-18T21:34:57.964567+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/10-places-to-sip-your-way-through-negroni-week-in-dubai",
+    "timestamp": "2026-09-18T22:02:41.580222+00:00",
+    "status": "rejected",
+    "content_hash": "3095227fcf57beb9ff9420a8b3eceeb9",
+    "strict_hash": "3095227fcf57beb9ff9420a8b3eceeb9",
+    "fuzzy_hash": "43974294ff49dcb0ba542b72990ab7d1",
+    "reason": "Новость представляет собой подборку баров для участия в Negroni Week в Дубае — это развлекательный/гастрономический контент с явной связью с регионом, без политики, без признаков ИИ-генерации и без дублирования уже опубликованных материалов. Однако текст выглядит как типичная афиша-подборка от издания What's On с элементами промо заведений, что ближе к рекламно-развлекательному формату, чем к общественно значимой новости."
+  },
+  {
+    "url": "https://whatson.ae/2026/09/good-news-dubai-parks-and-resorts-is-reopening-in-october",
+    "timestamp": "2026-09-18T22:02:47.671284+00:00",
+    "status": "rejected",
+    "content_hash": "9eb193a9e58b920ad6f7816b19191af7",
+    "strict_hash": "9eb193a9e58b920ad6f7816b19191af7",
+    "fuzzy_hash": "d69aca175795972da6b1a9d546e0d98f",
+    "reason": "Новость связана с Дубаем и полезна для жителей (открытие парка развлечений), не касается политики, не выглядит рекламным пресс-релизом и не дублирует уже опубликованные материалы. Однако текст содержит признаки небрежной генерации/парсинга (HTML-сущности, обрыв «with […]», шаблонная концовка «The post … appeared first on …»), что снижает достоверность и качество подачи."
+  },
+  {
+    "url": "https://emirateswoman.com/7-fabulous-activities-to-do-this-weekend-in-uae",
+    "timestamp": "2026-09-18T22:02:55.523497+00:00",
+    "status": "rejected",
+    "content_hash": "72f56452905c604e41f161431544291e",
+    "strict_hash": "72f56452905c604e41f161431544291e",
+    "fuzzy_hash": "99d38ec86e413897fdaaea354c41a82c",
+    "reason": "Новость представляет собой общий лайфстайл-список выходных активностей по ОАЭ без конкретной привязки к Дубаю и без общественно значимой информации, к тому же выглядит как кликбейт-подборка от глянцевого издания. Для русскоязычного жителя Дубая это не новость и не полезный service-update, а развлекательный контент с рекламным оттенком."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTGZXUktUTzBOZ2hIbkRFQUVCZFRaMHFDa21xTWdxOXloZEQ4YmVDSFQtNjZaUzFFMzc3V0NTVGltWXpja0wwMUxyOVRkTWVpYzA5V2FHekVISGdCMEc4UHlxZUFlM2VBc0hXb1V0bVFlOXBYaVlGd0ZnOFhaYU56MnFNNEFBazYycFVFNnhxQ3loWWptdWxCOXl1Vy03eUs3OGFXcnFWYnBrOVFFejNIWjV3?oc=5",
+    "timestamp": "2026-09-18T22:03:03.943560+00:00",
+    "status": "rejected",
+    "content_hash": "2e3ee84ac6f0a2ef841180c65a9a7fd1",
+    "strict_hash": "2e3ee84ac6f0a2ef841180c65a9a7fd1",
+    "fuzzy_hash": "de8c9069735af94710bf6026c5137867",
+    "reason": "Пересказ не подтверждён источником: The source text is only a headline repeated twice without details; the post repeats the headline as a fact without additional context or confirmation."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWNrYk9WSzlNTG5mQS16TzFtNV92WUIzTWtmbGVlcmFPWXJyVE9rc2JOczdGS0J3ZjNkdFZXMElaWTBscmlHdnJmdUFhTnVra0VKVWQ4X2RUcTZaMzV4R1VKaDUwMzBBVkJNajVBRmxHdXJTbGlsQ2dzZ3NBNmkyRXVPUU5yc2xMVmZyUU4tdGhPQlVWRjhOYllidlUtNWtFY3l4SXAzUTExS25oS1BzOFIyWk5MVUdJ?oc=5",
+    "timestamp": "2026-09-18T22:03:05.630261+00:00",
+    "status": "rejected",
+    "content_hash": "d997dc92beecc33c796c55f256dbf789",
+    "strict_hash": "d997dc92beecc33c796c55f256dbf789",
+    "fuzzy_hash": "74008506b3e0821c603870ed55eaae1e",
+    "reason": "Новость о баскетбольном матче Real Madrid против Dubai в рамках EuroLeague SuperCup — это спортивное событие с участием дубайской команды, что даёт связь с регионом, но текст представляет собой лишь заголовок без содержательного описания, что делает его малополезным для аудитории и похоже на неполный/автоматически скопированный материал."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWjQzSHVrOUtOVWNYZjk5a2lGSlU3T19IeXFTTTU0TUV6VWhjckhZV01xUHJqTDE1b2treEN3REMwZm0yWlNsRlJUM1RnTk5WbzV2YUR5V3gwSVVpQVNZRFVmRTFrdTJOeDU5dlMyLXMwWktnUUZ0bW0yUTR2b1F1eDZMY2x6cGVfY3MyaWdtYzQxek0zcXc?oc=5",
+    "timestamp": "2026-09-18T22:03:06.194995+00:00",
+    "status": "rejected",
+    "content_hash": "ac99b69f401b8c874493dbd3798cba83",
+    "strict_hash": "ac99b69f401b8c874493dbd3798cba83",
+    "fuzzy_hash": "e427fd67adf2d2c846def65ec0adc2e2",
+    "reason": "Cheap prefilter: слишком короткий текст (115 символов)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQazlFanVKWTAtenJtRlg0Wk5EOVRDck5qbGZDXzZsVVVzNEtORWpORnJKR3p0cDktNENYYXFnb0RIa0Q3cmdsdmVIYndSWExOVG1uVDhQMEU1YWZaNVozU2dZNVhiaWd1S0o4NU1lR3Y1YkVtSGxLVkY2eHdxUTVpX1VKMjUyMHFtQmQ0WXQwejZNYWh2Wnp3c0F2ODFBeXhYc0hya3dfUDRWMXRFY2RkRGNQckRwNndJOF9IOVRvRjM3Zw?oc=5",
+    "timestamp": "2026-09-18T22:03:07.954411+00:00",
+    "status": "rejected",
+    "content_hash": "722caf15e70ccf9199b427a2632cb9a2",
+    "strict_hash": "722caf15e70ccf9199b427a2632cb9a2",
+    "fuzzy_hash": "24b5666ec1bc34fe3d62d2bf2239a4d1",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
