@@ -88,7 +88,8 @@ class SourceVerificationTests(unittest.TestCase):
             image.assert_not_called()
 
     def test_short_factual_russian_post_is_not_padded(self):
-        self.assertEqual(rss_collect.ensure_summary_quality(self.summary, "", ""), self.summary)
+        self.assertEqual(rss_collect.ensure_summary_quality(self.summary, "", ""),
+                         self.summary.replace("</b>\n", "</b>\n\n"))
 
     def test_editor_requires_explicit_approval(self):
         response = self.response()
