@@ -52,7 +52,7 @@ jobs:
         
     - name: Run auto-notify
       env:
-        SOURCE_VERIFIER: ${{ secrets.OPENAI_API_KEY != '' && 'openai' || 'deepseek' }}
+        SOURCE_VERIFIER: openai
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
       run: |

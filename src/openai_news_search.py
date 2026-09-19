@@ -7,7 +7,7 @@ from pathlib import Path
 
 from http_client import request_with_retry
 from api_diagnostics import openai_error
-from openai_budget import Budget, BudgetUnavailable, MODEL, atomic_json
+from openai_budget import Budget, BudgetUnavailable, ASTRA_MODEL, ASTRA_OUTPUT_TOKENS, atomic_json
 from search_sources import ALLOWED_DOMAINS, allowed_url, fetch_article, url_identity
 
 
@@ -46,16 +46,19 @@ def search_news(storage_dir, seen_urls=(), now=None):
     now = now or datetime.now(timezone.utc)
     report = {"status": "disabled", "items": [], "api_calls": 0, "cached": False}
     key = os.getenv("OPENAI_API_KEY", "").strip()
-    if not key or os.getenv("OPENAI_NEWS_SEARCH_ENABLED", "true").strip().lower() != "true":
+    if os.getenv("OPENAI_NEWS_SEARCH_ENABLED", "true").strip().lower() != "true":
         return report
-    # Stable half-day query/cache key prevents repeated paid searches every hour,
+    if not key:
+        return {**report, "status": "error", "reason": "OPENAI_API_KEY is required for Astra discovery"}
+    # Stable daily query/cache key prevents repeated paid searches every hour,
     # including when the first search produced no suitable links.
-    slot = now.replace(hour=0 if now.hour < 12 else 12, minute=0, second=0, microsecond=0)
+    slot = now.astimezone(timezone(timedelta(hours=4))).replace(hour=0, minute=0, second=0, microsecond=0)
     payload = {
-        "model": MODEL, "store": False, "temperature": 0,
-        "max_output_tokens": 1000, "max_tool_calls": 1, "parallel_tool_calls": False,
-        # This pinned model rejects server-side filters; enforce domains locally.
-        "tools": [{"type": "web_search", "search_context_size": "low"}],
+        "model": ASTRA_MODEL, "store": False, "service_tier": "default",
+        "reasoning": {"effort": "low"},
+        "max_output_tokens": ASTRA_OUTPUT_TOKENS, "max_tool_calls": 1, "parallel_tool_calls": False,
+        "tools": [{"type": "web_search", "search_context_size": "low",
+                   "return_token_budget": "default", "filters": {"allowed_domains": list(ALLOWED_DOMAINS)}}],
         "tool_choice": {"type": "web_search"},
         "include": ["web_search_call.action.sources"],
         "instructions": (
@@ -73,7 +76,7 @@ def search_news(storage_dir, seen_urls=(), now=None):
     serialized = json.dumps(payload, ensure_ascii=False, sort_keys=True)
     if len(serialized.encode("utf-8")) + 1024 > 8000:
         return {**report, "status": "deferred", "reason": "Search prompt exceeds cost ceiling"}
-    cache_key = hashlib.sha256(("discovery-v1:" + serialized).encode("utf-8")).hexdigest()
+    cache_key = hashlib.sha256(("astra-discovery-v1:" + serialized).encode("utf-8")).hexdigest()
     cache_path = Path(storage_dir) / "openai_search_cache.json"
     try:
         cache = json.loads(cache_path.read_text(encoding="utf-8"))
@@ -88,26 +91,25 @@ def search_news(storage_dir, seen_urls=(), now=None):
     else:
         budget = Budget(storage_dir, now)
         try:
-            budget.reserve(kind="search")
+            reservation_id = budget.reserve(kind="astra_search")
         except (BudgetUnavailable, OSError) as exc:
             reason = str(exc) if isinstance(exc, BudgetUnavailable) else "Cannot save search reservation"
             return {**report, "status": "deferred", "reason": reason}
         report["api_calls"] = 1
         try:
             response = request_with_retry(
-                "POST", "https://api.openai.com/v1/responses", timeout=45, max_attempts=1,
+                "POST", "https://api.openai.com/v1/responses", timeout=120, max_attempts=1,
                 allow_redirects=False, headers={"Authorization": f"Bearer {key}"}, json=payload,
             )
             if response.status_code != 200:
                 return {**report, "status": "error", "reason": openai_error(response, key)}
             result = response.json()
-            usage = result.get("usage") or {}
+            urls = discovered_urls(result)
             try:
-                budget.record_usage({"prompt_tokens": usage.get("input_tokens"),
-                                     "completion_tokens": usage.get("output_tokens")}, search_calls=1)
+                if not budget.settle_astra(reservation_id, result):
+                    print("Astra receipt unavailable or invalid; full reservation retained")
             except (BudgetUnavailable, OSError, KeyError, TypeError):
                 print("Search usage details unavailable; full reservation retained")
-            urls = discovered_urls(result)
             cache[cache_key] = {"urls": urls, "saved_at": now.isoformat()}
             try:
                 atomic_json(cache_path, dict(list(cache.items())[-8:]))
