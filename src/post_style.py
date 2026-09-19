@@ -1,6 +1,6 @@
 """Telegram presentation applied before source-fidelity verification."""
 import re
-from html import escape
+from html import escape, unescape
 from html.parser import HTMLParser
 
 
@@ -50,3 +50,34 @@ def format_summary(text):
 
 def headline_only(text):
     return bool(re.fullmatch(r"<b>[^<]+</b>", text.strip(), re.S))
+
+
+def incomplete_excerpt(text):
+    plain = unescape(re.sub(r"<[^>]*>", " ", text))
+    return bool(re.search(r"\[\s*(?:\+?\d+\s+chars|\.{3}|…)\s*\]|(?:\.{3}|…)\s*$", plain, re.I))
+
+
+def clean_editorial_text(text):
+    """Remove exact repeats and editorial scaffolding, never infer missing facts."""
+    text = re.sub(r"Об этом (?:сообщается|говорится) в материале под заголовком\s+«[^»]*»\.?", "", text)
+    text = re.sub(r"(?:В исходном тексте|В исходнике|В статье) (?:отмечается|указывается|говорится),? что\s+", "", text)
+    text = re.sub(r"При этом указывается,? что\s+", "", text)
+    # Keep named attribution (e.g. 'По данным RTA') and uncertainty intact.
+    def signature(value):
+        return re.sub(r"[\W_]+", " ", unescape(re.sub(r"<[^>]*>", "", value)).lower()).strip()
+    heading = re.match(r"^(<b>.*?</b>)\s*(.*)$", text, re.S)
+    if not heading:
+        return text
+    title, body = heading.groups()
+    seen = {signature(title)}
+    paragraphs = []
+    for paragraph in re.split(r"\n\s*\n", body):
+        kept = []
+        for sentence in re.split(r"(?<=[.!?])\s+(?=[А-ЯЁA-Z])", paragraph.strip()):
+            key = signature(sentence)
+            if key and key not in seen:
+                kept.append(sentence)
+                seen.add(key)
+        if kept:
+            paragraphs.append(" ".join(kept))
+    return "\n\n".join([title, *paragraphs])
