@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://economictimes.indiatimes.com/nri/latest-updates/air-india-partners-with-flydubai-to-expand-global-connectivity/articleshow/134283730.cms",
-    "timestamp": "2026-09-16T23:09:38.529084+00:00",
-    "status": "rejected",
-    "content_hash": "b2b0474453ff6848f14143b183de33c2",
-    "strict_hash": "b2b0474453ff6848f14143b183de33c2",
-    "fuzzy_hash": "410e422771a7123b56557a3e339de720",
-    "reason": "Новость связана с Дубаем (flydubai, хаб в Дубае) и касается расширения авиасообщения, что полезно для русскоязычных жителей, но текст выглядит как пресс-релиз/анонс партнёрства без общественно значимой новости и с признаками кликбейта/обрыва («Alongside a new Uzbe...»), что снижает достоверность."
-  },
-  {
-    "url": "https://www.thenationalnews.com/travel/2026/09/16/worlds-50-best-hotels-2026-atlantis-the-royal-jumeirah-marsa-al-arab",
-    "timestamp": "2026-09-16T23:09:46.737128+00:00",
-    "status": "approved",
-    "content_hash": "15001e0f9f840a99852118cd1b22762d",
-    "strict_hash": "15001e0f9f840a99852118cd1b22762d",
-    "fuzzy_hash": "0d1c22ba2d269d2598b5476a33604711",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.yardbarker.com/soccer/articles/richarlison_emerges_as_target_for_uae_pro_league_side_in_potential_tottenham_exit_route/s1_17451_44309672",
-    "timestamp": "2026-09-16T23:22:32.524532+00:00",
-    "status": "rejected",
-    "content_hash": "eee04cb821cabac3d115b56186061a89",
-    "strict_hash": "eee04cb821cabac3d115b56186061a89",
-    "fuzzy_hash": "804029b7f69db7958eb26dc1997d2130",
-    "reason": "Новость о возможном переходе Ришарлисона в дубайский клуб Shabab Al-Ahli имеет явную связь с регионом и может быть интересна русскоязычным болельщикам в Дубае, не касается политики, не выглядит рекламой и не дублирует уже опубликованные материалы. Однако текст содержит признаки кликбейта и незавершённости (обрыв на «as a ...»), а также опирается на слухи о трансфере без официального подтверждения, что снижает достоверность."
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2l2dnk3ekliejFLaWg0ZFRvMDFCQXJfUjZxUElkWW5GRFdPb0h2VVNIWWpidk9GOEE1VnNxbDlueWI0Zi1rVjBBdUhXUmVpaFZ6SHdXNURaMGR1TlRfb1c4WDgwYjhhQWtQLVBlaFNlaXR4M3lnZWNGQ0I2eXBLODZnSG90bDItVW9fT01nazNTQTcyRWRsQTBWRkh2X04zeWR6Zi1EYW1zUTFvWmc?oc=5",
-    "timestamp": "2026-09-16T23:22:35.082672+00:00",
-    "status": "rejected",
-    "content_hash": "66bd7bddebecaa23022419e8bf2d7dd3",
-    "strict_hash": "66bd7bddebecaa23022419e8bf2d7dd3",
-    "fuzzy_hash": "f263665d37b687dac7a1f52583c2f7a7",
-    "reason": "Новость лишь формально связана с Дубаем (участие в выставке Arabian Travel Market), но по сути посвящена продвижению туризма Курдистана и не несёт значимой ценности для русскоговорящего жителя Дубая; текст обрывочный, похож на заголовок без содержания и не является полноценной новостью."
-  },
-  {
     "url": "https://www.thenationalnews.com/travel/2026/09/16/worlds-50-best-hotels-2026-atlantis-the-royal-jumeirah-marsa-al-arab",
     "timestamp": "2026-09-17T00:21:14.767283+00:00",
     "status": "published"
@@ -952,5 +916,10 @@
     "strict_hash": "722caf15e70ccf9199b427a2632cb9a2",
     "fuzzy_hash": "24b5666ec1bc34fe3d62d2bf2239a4d1",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://whatson.ae/2026/09/british-airways-to-resume-flights-to-dubai-in-november",
+    "timestamp": "2026-09-19T00:08:19.857447+00:00",
+    "status": "published"
   }
 ]

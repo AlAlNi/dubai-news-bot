@@ -6181,5 +6181,108 @@
     "language": "",
     "top_image": "",
     "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "British Airways to resume flights to Dubai in November",
+      "text": "The airline will introduce a daily service from London Heathrow to Dubai British Airways is set to resume flights to Dubai from Tuesday November 3, the airline has announced. Initially, British Airways will operate one daily flight between London Heathrow and Dubai, with the service increasing to twice per day from next year. At the [&#8230;] The post British Airways to resume flights to Dubai in November appeared first on What&#039;s On .",
+      "url": "https://whatson.ae/2026/09/british-airways-to-resume-flights-to-dubai-in-november/"
+    },
+    "source_published_at": "",
+    "source_retrieved_at": "",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "British Airways will resume flights to Dubai on Tuesday, November 3.",
+          "supported": true,
+          "evidence": "British Airways is set to resume flights to Dubai from Tuesday November 3"
+        },
+        {
+          "claim": "Initially, British Airways will operate one daily flight between London Heathrow and Dubai.",
+          "supported": true,
+          "evidence": "Initially, British Airways will operate one daily flight between London Heathrow and Dubai"
+        },
+        {
+          "claim": "The service will increase to twice per day from next year.",
+          "supported": true,
+          "evidence": "with the service increasing to twice per day from next year"
+        }
+      ],
+      "source_hash": "8529c7ab0f2a5402e939f27052e4857ccb8640e25af4341d078412525a5ed984",
+      "summary_hash": "873619e20a49c2aa9e4031a8c7d4fa95c5e4b5078cf96d0a96505b0a92282055",
+      "checked_at": "2026-09-17T20:43:16.171694+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "What's On Dubai",
+    "title": "British Airways to resume flights to Dubai in November",
+    "summary_ru": "<b>British Airways возобновит рейсы в Дубай в ноябре</b>\n\nАвиакомпания British Airways объявила, что возобновит рейсы в Дубай со вторника 3 ноября. Сначала будет выполняться один ежедневный рейс между Лондоном Хитроу и Дубаем, а со следующего года обслуживание увеличится до двух раз в день.",
+    "published": "2026-09-17T20:43:11.156173+00:00",
+    "source_urls": [
+      "https://whatson.ae/2026/09/british-airways-to-resume-flights-to-dubai-in-november/"
+    ],
+    "lang": "en",
+    "content_hash": "5a473a2de70c0a05cafcc4065127fe6a",
+    "strict_hash": "5a473a2de70c0a05cafcc4065127fe6a",
+    "fuzzy_hash": "83e61d10025049f8d1f2e11909c63e9a",
+    "method": "rss",
+    "source_priority": 2,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о возобновлении рейсов British Airways в Дубай напрямую связана с регионом, полезна для русскоязычных жителей и не является дубликатом уже опубликованной новости о курсах по устойчивому развитию. Текст выглядит как обычная новостная заметка без признаков ИИ-генерации, кликбейта или рекламы."
+      }
+    },
+    "image_url": "https://whatson.ae/wp-content/uploads/2024/12/BA-Featured.jpg",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-09-19T00:08:20.877698+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1594
+    },
+    "published_at": "2026-09-19T00:08:20.882448+00:00",
+    "source_url": "https://whatson.ae/2026/09/british-airways-to-resume-flights-to-dubai-in-november",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
   }
 ]
