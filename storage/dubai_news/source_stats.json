@@ -1051,5 +1051,14 @@
     "strict_hash": "7866904acc975dcf68162f347e84f9fd",
     "fuzzy_hash": "859b07fcef8677ccd12b123d059b579c",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://www.thenationalnews.com/travel/2026/09/18/address-downtown-dubai-mall-review",
+    "timestamp": "2026-09-19T06:19:11.896508+00:00",
+    "status": "rejected",
+    "content_hash": "bf5a5740314ca2397689230c8de580f4",
+    "strict_hash": "bf5a5740314ca2397689230c8de580f4",
+    "fuzzy_hash": "2d790428e870bc1b158d6f97544eb172",
+    "reason": "Новость представляет собой субъективный обзор-рекламу отеля Address Downtown без общественно значимой новости, что нарушает правило 3 (рекламный характер), а также не несёт пользы для аудитории как новостной материал (правило 6)."
   }
 ]
