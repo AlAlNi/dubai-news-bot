@@ -1020,5 +1020,32 @@
     "strict_hash": "c77945b8cd7047510c6fcae88e654a15",
     "fuzzy_hash": "3154d13a8e82b81f7c0fcb5a67ff58fc",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNDM4NGxwN3dwbGpMYk43QXRFWlNtdHMwOWltMHkta1NVSGIyU1NTMHVtRDRNeVM0UFB5RVZURm81M1R4MkpGb3hTZnBkMHVlVnRfRlh3M185cUg2MWRqUE9zazQ0cWlTOGlONEo4Ny00SXJjUHJNMUtDYmJHWXNYV0xIRDFqcVV5a2pHVjZQMA?oc=5",
+    "timestamp": "2026-09-19T01:24:39.125577+00:00",
+    "status": "rejected",
+    "content_hash": "d4377f8b7e7645016a3eeedf37ade54f",
+    "strict_hash": "d4377f8b7e7645016a3eeedf37ade54f",
+    "fuzzy_hash": "1cb7c99972a1e6dbe847a9077db307aa",
+    "reason": "Новость про ажиотаж вокруг iPhone 18 в ОАЭ имеет слабую связь с Дубаем (упоминаются только ОАЭ в целом), выглядит как перепечатка кликбейтного заголовка без содержательного текста и не несёт пользы русскоязычному жителю Дубая."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZWNJWXdOTXJmem5CSkl3Y2l3VWI3dzhJVUpDRlhMV2trT3hGcTlzNTFrNnowbWZzNUwya3RReGg2QlR4SFpYcElGZTA0Wk14WFQ5TnkwLWkyMnNOT1d4TzVjWGJmT01jSGMxejVjdFo3dnRwUUp6aS11Z0dWcFp1RDBBWnBaM3ZPazFBWXF0dWxxeWVsV2duZDM1TUdITXAxV2hwSzlvY05mT1ZzZlU0RTRhWlVPU3U2VGdRY2tJR25ta3VVMmFtY3FrWm51SzBVOHhfNXIxTHBiZE9GVVlhV25XN2I1R0k4YVdr0gH-AUFVX3lxTE9PMkxFc3JoNE0xQnJOcEJuSzA3MEJZcHFLbHZ1Wms5WVdjMmU4eFlqRGNWRkhWQ1hwM0V4SGNwUGlwVnJaTlc4cWIzUlZLMkdxMlpCMTEySk0taXZEWjRBYWU0OE9FTUZQcEprbkZjUnViUkJjdi0yMDIxTjdDdkZlQURDczFocTdIcXpCOFdOT2QyT1lBTF9ObzZ3eF9PVTRBSVZ4emlhOWhSTko3RDlPd0JXZlY5N2JCT09DU0NMeGtYbjFobnp5QWRsNWNPTDVwOGdRN1BRMm1TRERQblZhMWgwc2FsWUNPcm8xY2lOUE5zcTQxbHM4UE1FNUd3?oc=5",
+    "timestamp": "2026-09-19T01:24:40.780858+00:00",
+    "status": "rejected",
+    "content_hash": "48ac8b7a7924ac0bfa0b02588e73b84a",
+    "strict_hash": "48ac8b7a7924ac0bfa0b02588e73b84a",
+    "fuzzy_hash": "935b81a3e17af1a2fd1e177684f17340",
+    "reason": "Новость касается изменений в расписаниях международных авиакомпаний (British Airways, Lufthansa, Air France) и их возвращения в ОАЭ — это явно связано с регионом и полезно русскоговорящим жителям Дубая, которые пользуются этими рейсами. Однако предоставленный текст — это лишь заголовок и название источника без какого-либо содержания, что не позволяет оценить достоверность, отсутствие кликбейта и ИИ-генерации; публиковать пустую заготовку нельзя."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNEhhWG5wOXNnYlY1SzFHcFFBbjZSZTVyNHdSVGtYRTFtN2VwUGJ3S3JkaGlfMjhIZm9DczdzUGpjVUhLamppR3FHRFlHeXRXZUxMWTViZkFja0lPOUtrdE5PV0EzUG1sOFNqR2dxdy1OdGt2R1JOVVZPcEpVaTZILVNQZVF3SHJzYXpRVHlhcTRTcWxi?oc=5",
+    "timestamp": "2026-09-19T01:24:41.545935+00:00",
+    "status": "rejected",
+    "content_hash": "a9ad813b6a32ae64fceec83045c17b3d",
+    "strict_hash": "a9ad813b6a32ae64fceec83045c17b3d",
+    "fuzzy_hash": "5cfafba1b1bc78a5205b1c0e99bb2b19",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
