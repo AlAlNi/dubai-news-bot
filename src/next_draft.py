@@ -545,8 +545,8 @@ def get_next_post_payload_with_image() -> Tuple[Optional[str], Optional[str], Op
 
         candidate_image_url = (candidate.get("image_url") or "").strip()
         if candidate_image_url and not is_valid_image_url(candidate_image_url):
-            print(f"⏭️ Пропускаем: изображение невалидно")
-            continue
+            print("⚠️ Изображение недоступно: отправляем проверенный текст без картинки")
+            candidate = {**candidate, "image_url": ""}
 
         # Нашли подходящий черновик
         draft = candidate
@@ -579,7 +579,7 @@ def get_next_post_payload_with_image() -> Tuple[Optional[str], Optional[str], Op
 
     text = format_draft_for_telegram(draft)
 
-    # В цикле выше проверили: если изображение есть, то оно валидно.
+    # Invalid images were cleared; verified text can still be published.
     image_url = (draft.get("image_url") or "").strip()
     if image_url:
         print(f"✅ Используем валидное изображение: {image_url}")
