@@ -22,6 +22,19 @@ def article_html(date="2026-09-15T08:00:00Z", **fields):
 
 
 class ArticleTests(unittest.TestCase):
+    def test_main_entity_url_variant_and_added_publishers(self):
+        result = parse_article(article_html(url=None, mainEntityOfPage={'@type': 'WebPage', 'url': URL}), URL, NOW)
+        self.assertEqual(result['description'], BODY)
+        for host in ['whatson.ae', 'www.euronews.com', 'timesofindia.indiatimes.com']:
+            self.assertTrue(allowed_url('https://' + host + '/news'))
+        self.assertFalse(allowed_url('https://whatson.ae.evil.example/news'))
+
+    def test_whatson_article_text_excludes_surrounding_page(self):
+        html = (article_html(articleBody='') + '<article><p>Menu and unrelated headline</p>'
+                '<div class="article-text"><p>' + BODY + '</p><aside>Related story</aside></div>'
+                '<div>Sign up for our newsletter</div></article>')
+        self.assertEqual(parse_article(html, URL, NOW)['description'], BODY)
+
     def test_extracts_actual_article_date_and_text(self):
         result = parse_article(article_html(), URL, NOW)
         self.assertEqual(result["description"], BODY)

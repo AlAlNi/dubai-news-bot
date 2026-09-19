@@ -14,6 +14,7 @@ ALLOWED_DOMAINS = (
     "mediaoffice.ae", "rta.ae", "dubaipolice.gov.ae", "dewa.gov.ae",
     "dubaiairports.ae", "emirates.com", "gulfnews.com", "khaleejtimes.com",
     "thenationalnews.com", "arabianbusiness.com", "gulfbusiness.com",
+    "whatson.ae", "euronews.com", "timesofindia.indiatimes.com",
 )
 MAX_PAGE_BYTES = 2_000_000
 UAE_TIMEZONE = timezone(timedelta(hours=4))
@@ -49,6 +50,7 @@ class ArticleHTML(HTMLParser):
         self.meta, self.jsonld, self.body, self.heading = {}, [], [], []
         self.stack, self.script = [], None
         self.relative_date, self.date_level = [], None
+        self.article_text, self.article_text_level = [], None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -58,6 +60,8 @@ class ArticleHTML(HTMLParser):
         parent_skip = self.stack[-1][1] if self.stack else False
         parent_body = self.stack[-1][2] if self.stack else False
         css = (attrs.get("class") or "").lower()
+        if "article-text" in css.split() and self.article_text_level is None:
+            self.article_text_level = len(self.stack) + 1
         skip = parent_skip or tag in {"script", "style", "nav", "aside", "header", "footer"}
         skip = skip or any(word in css for word in ("related", "advert", "newsletter", "social-share", "also-read"))
         article = parent_body or tag == "article" or attrs.get("itemprop") == "articleBody"
@@ -86,6 +90,8 @@ class ArticleHTML(HTMLParser):
                 break
         if self.date_level is not None and len(self.stack) < self.date_level:
             self.date_level = None
+        if self.article_text_level is not None and len(self.stack) < self.article_text_level:
+            self.article_text_level = None
 
     def handle_data(self, data):
         if self.script is not None:
@@ -94,6 +100,8 @@ class ArticleHTML(HTMLParser):
             return
         if self.date_level is not None:
             self.relative_date.append(data)
+        if self.article_text_level is not None:
+            self.article_text.append(data)
         if any(tag == "h1" for tag, _, _ in self.stack):
             self.heading.append(data)
         if self.stack[-1][2]:
@@ -156,7 +164,7 @@ def parse_article(html, url, now=None):
     for node in nodes:
         reference = node.get("url") or node.get("mainEntityOfPage")
         if isinstance(reference, dict):
-            reference = reference.get("@id")
+            reference = reference.get("@id") or reference.get("url")
         if isinstance(reference, str) and url_identity(urljoin(url, reference)) == url_identity(url):
             matching.append(node)
     if len(matching) == 1:
@@ -183,7 +191,7 @@ def parse_article(html, url, now=None):
     if published is None or not now - timedelta(hours=48) <= published <= now + timedelta(minutes=5):
         return None
     title = node.get("headline") or parser.meta.get("og:title") or " ".join(parser.heading)
-    body = node.get("articleBody") or " ".join(parser.body)
+    body = node.get("articleBody") or " ".join(parser.article_text or parser.body)
     if not isinstance(title, str) or not isinstance(body, str):
         return None
     title, body = clean_text(title), clean_text(body)
