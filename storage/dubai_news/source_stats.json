@@ -1047,5 +1047,59 @@
     "strict_hash": "a9ad813b6a32ae64fceec83045c17b3d",
     "fuzzy_hash": "5cfafba1b1bc78a5205b1c0e99bb2b19",
     "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://propertynews.ae/uae/dubai/abu-dhabi-expands-holiday-home-eligibility-and-enhances-transparency",
+    "timestamp": "2026-09-19T05:15:49.875210+00:00",
+    "status": "rejected",
+    "content_hash": "d87ee64e83e35a70fb345c1afdd675f7",
+    "strict_hash": "d87ee64e83e35a70fb345c1afdd675f7",
+    "fuzzy_hash": "cfe9eabecd361cbd04dcafecad00c5ef",
+    "reason": "Новость касается Абу-Даби, а не Дубая, и при этом является регуляторным пресс-релизом без прямой связи с Дубаем/ОАЭ в целом как основной темой канала; к тому же текст выглядит как пересказ официального релиза и не содержит срочной или уникальной ценности для русскоязычного жителя Дубая."
+  },
+  {
+    "url": "https://www.thesun.co.uk/tvandshowbiz/40421306/dane-bowers-agony-emergency-dubai-operation-health-update",
+    "timestamp": "2026-09-19T05:16:08.024708+00:00",
+    "status": "rejected",
+    "content_hash": "a058604e38de89f4a63df61118df8548",
+    "strict_hash": "a058604e38de89f4a63df61118df8548",
+    "fuzzy_hash": "9292b577861d19ebd1ac41144f52744c",
+    "reason": "Новость о здоровье британского музыканта после операции в Дубае — это светская/личная история без общественно значимой ценности для русскоязычных жителей Дубая, к тому же основана на материале таблоидного характера."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWV9iNFB4eHFpUTcxcUxwX3E0WTlyckMyRWdSa1U3Nzlxd0xycnZkcDc4Z2F4UGRmbERMUnJxbC1ySVU5RnJWS2E4Y28ySC1kekItaUFHUEh0dm5rbmM5WGRtS2xUMFRVamRRY2NRNHI1SE1GTTNXcFZjOFY5MThTay12RjRHQk9EUVJBUVEtS2pfaEVoanFkcFl2OUZmbGhESmc?oc=5",
+    "timestamp": "2026-09-19T05:16:10.294162+00:00",
+    "status": "rejected",
+    "content_hash": "347da967ce0a5c06cc7195d1c503a44b",
+    "strict_hash": "347da967ce0a5c06cc7195d1c503a44b",
+    "fuzzy_hash": "38457fae514de6403569f951530b5c43",
+    "reason": "Новость связана с Дубаем и касается запуска программы для эмиратских журналистов, что соответствует региональной повестке и не содержит политики, рекламы или неуважительных тем. Однако текст выглядит как краткий пресс-релиз без деталей и, вероятно, не представляет большого интереса для русскоязычных жителей Дубая; дубликатов среди последних публикаций нет."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR3JLejJOU2YzV0RDdEJjZVgzTENVZWQ5anRJSWU0Q3NxS3pUUWRfZXBfbmpTNG1iRy1xVFVpdHcxb2E2bTRaZHl0aWt0c3BRZDFoNndYV0dhN3RKT3hYZEwwQk9POGhOb2pXdldzSHdma0owcEJCQ3hBVGN6QWRvU2lfaUY2OVFWaWhacDFyTkJJMTUxanMyaXZBOVJuWjRPajR0V3p4bWlsenB2S3RJal9oR2RUSkk5M2fSAb8BQVVfeXFMTUlncGczX016SnlHYmZ1UlQ1SkhMYU82UHMyQjc5Ym53N2gzcHhUMHduN21STWhYNUhxT2FSOXY2WWNvVE13NmVWSnRLbW9ERS1RVXBFTEMzUDRQOURGOWZDOS1tV3JOYWJ4Y3JMNFBJN2NSQWc4YndyMFozcmN4bEhBVFUwR2ZJMTRtZlNRNXFaanpNVmtLbUd2OFlxQU1yMlo4NWpVT2xoSjYxY3hRWXozMUVCQ19WLVVBM3JOdnc?oc=5",
+    "timestamp": "2026-09-19T05:16:11.987652+00:00",
+    "status": "rejected",
+    "content_hash": "4fea4a0bae8181092965c2967888a823",
+    "strict_hash": "4fea4a0bae8181092965c2967888a823",
+    "fuzzy_hash": "dc876383c96a89f0c9fe494c9ae276be",
+    "reason": "Новость касается гостиничного рынка Дубая (заполняемость и тарифы), что явно связано с регионом и потенциально интересно русскоязычным жителям, но текст представляет собой лишь заголовок и название источника без содержательного наполнения — это выглядит как неполный/технический фрагмент, а не полноценная новость."
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVDZLdWxmc1p5REtkTzV1UWVGcXRuNzFGbjY0YU5RSTVNaExMSHVHMDFWc24tWUYwcHVIQmJmam1PRDRkTGhvUFRnU2hXNnk0cXdMMnJrLWhrLUNGUmpicGhDQ2gtdlFTaUktbnRTYzZ1Y1VBaDJrSFR4RE1CYnNWeEZ0cFdfa1F3RVlSNlMya3ZXbGs5a0NRdVUyZUEyWktYQ3FrYWZlenlzeHE1MDBBM3pCa9IBuwFBVV95cUxQeTY2ZnVOMUVpb0ZaWmFWVWdySjdXS3hST1MwRW9tUnAyZnNqYUU4TXZ6U3JGWmJDUFdxck04eGs5VjZLOGUtOGtXNjRFWWhMSG01UzFQa2IwMHlDYWNaTHotdWJmd1VWYWVCMzh6WE1WbmN2OGFSYS1OaEZyME1OTzJGLU1ITDA5ODZoaWNwN19vSEJRVm5WWVF2QlRDVlhTNlN3TFVkVy1vODRPU3V3ZjQ3anBOQmUxUzVJ?oc=5",
+    "timestamp": "2026-09-19T05:16:12.963192+00:00",
+    "status": "rejected",
+    "content_hash": "286f13d9a1de14c0c41cd978f94a56b7",
+    "strict_hash": "286f13d9a1de14c0c41cd978f94a56b7",
+    "fuzzy_hash": "c913cff215ce59049b4feac22b2b9700",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeDhJZ3duaTV4eVZiX1gyNGRxUzFfZjIxT2tKUHU3QmppNUNHc2U5TjhXdlVtczZaNzNlVlR6T1VRRjFRNmFYWnhzZHdFcHhqTnVlQ1VxclgwMllQLUIyZUV6WnlONkN4T011TDJ4R1FuNW9ZM05kb0NOcjNyWnZaY1NjVUFKblU4QXluWWhHSURaZUEtZGZNOWNSMnNRUlJMeEFySUFjal9jTUFWb1E?oc=5",
+    "timestamp": "2026-09-19T05:16:14.667113+00:00",
+    "status": "rejected",
+    "content_hash": "7866904acc975dcf68162f347e84f9fd",
+    "strict_hash": "7866904acc975dcf68162f347e84f9fd",
+    "fuzzy_hash": "859b07fcef8677ccd12b123d059b579c",
+    "reason": "Cheap prefilter: слишком частый домен в окне (news.google.com)"
   }
 ]
