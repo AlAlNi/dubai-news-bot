@@ -9,7 +9,7 @@ from datetime import datetime, timedelta, timezone
 from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
-from openai_budget import Budget, BudgetUnavailable, RESERVATION_MICROUSD, SEARCH_RESERVATION_MICROUSD
+from openai_budget import Budget, BudgetUnavailable, RESERVATION_MICROUSD, SEARCH_RESERVATION_MICROUSD, ASTRA_RESERVATION_MICROUSD
 from openai_news_search import discovered_urls, search_news
 import rss_collect
 
@@ -19,7 +19,7 @@ URL = "https://www.khaleejtimes.com/uae/dubai-bus-update"
 
 def search_response(urls=None):
     urls = [URL] if urls is None else urls
-    return {"status": "completed", "usage": {"input_tokens": 500, "output_tokens": 100}, "output": [
+    return {"status": "completed", "model": "gpt-6-astra", "usage": {"input_tokens": 500, "output_tokens": 100}, "output": [
         {"type": "web_search_call", "status": "completed", "action": {
             "type": "search", "sources": [{"type": "url", "url": url} for url in urls]}},
         {"type": "message", "content": [{"type": "output_text", "text": "INVENTED NEWS: 999 free buses",
@@ -56,18 +56,21 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(kwargs["max_attempts"], 1)
         self.assertFalse(kwargs["allow_redirects"])
         self.assertEqual(kwargs["json"]["max_tool_calls"], 1)
-        self.assertEqual(kwargs["json"]["max_output_tokens"], 1000)
+        self.assertEqual(kwargs["json"]["max_output_tokens"], 2000)
         self.assertEqual(kwargs["json"]["tools"][0]["search_context_size"], "low")
-        self.assertNotIn("filters", kwargs["json"]["tools"][0])
+        self.assertIn("mediaoffice.ae", kwargs["json"]["tools"][0]["filters"]["allowed_domains"])
+        self.assertEqual(kwargs["json"]["model"], "gpt-6-astra")
+        self.assertNotIn("temperature", kwargs["json"])
+        self.assertEqual(kwargs["json"]["reasoning"], {"effort": "low"})
         self.assertIn("mediaoffice.ae", kwargs["json"]["instructions"])
         self.assertNotIn("test-key", self.ledger.read_text())
 
-    def test_identical_half_day_uses_cache_and_filters_seen_links(self):
+    def test_identical_dubai_day_uses_cache_and_filters_seen_links(self):
         with patch("openai_news_search.request_with_retry", return_value=self.response) as request, patch(
             "openai_news_search.fetch_article", return_value=self.article
         ) as fetch:
             first = search_news(self.temp.name, now=NOW)
-            second = search_news(self.temp.name, seen_urls={URL}, now=NOW + timedelta(hours=1))
+            second = search_news(self.temp.name, seen_urls={URL}, now=NOW + timedelta(hours=7))
         self.assertFalse(first["cached"])
         self.assertTrue(second["cached"])
         self.assertEqual(second["items"], [])
@@ -81,17 +84,28 @@ class SearchTests(unittest.TestCase):
             self.assertTrue(search_news(self.temp.name, now=NOW)["cached"])
         request.assert_called_once()
 
+    def test_new_dubai_day_searches_again_and_revalidates_articles(self):
+        with patch("openai_news_search.request_with_retry", return_value=self.response) as request, patch(
+            "openai_news_search.fetch_article", return_value=self.article
+        ) as fetch:
+            search_news(self.temp.name, now=NOW)
+            result = search_news(self.temp.name, now=NOW + timedelta(days=1))
+        self.assertFalse(result["cached"])
+        self.assertEqual(request.call_count, 2)
+        self.assertEqual(fetch.call_count, 2)
+
     def test_searches_and_verification_share_existing_ledger_without_reset(self):
-        Budget(self.temp.name, NOW).reserve()  # Previous verifier-only schema.
+        Budget(self.temp.name, NOW).reserve()
+        Budget(self.temp.name, NOW).reserve(kind="search")  # Legacy mini discovery.
         with patch("openai_news_search.request_with_retry", return_value=self.response), patch(
             "openai_news_search.fetch_article", return_value=None
         ):
             search_news(self.temp.name, now=NOW)
             search_news(self.temp.name, now=NOW + timedelta(hours=4))
         month = json.loads(self.ledger.read_text())["months"]["2026-09"]
-        self.assertEqual(month["reserved_microusd"], RESERVATION_MICROUSD + 2 * SEARCH_RESERVATION_MICROUSD)
+        self.assertEqual(month["reserved_microusd"], RESERVATION_MICROUSD + SEARCH_RESERVATION_MICROUSD + 21250)
         self.assertEqual(month["days"]["2026-09-15"]["calls"], 1)
-        self.assertEqual(month["days"]["2026-09-15"]["search_calls"], 2)
+        self.assertEqual(month["days"]["2026-09-15"]["search_calls"], 1)
         with self.assertRaisesRegex(BudgetUnavailable, "search limit"):
             Budget(self.temp.name, NOW).reserve(kind="search")
         Budget(self.temp.name, NOW).reserve()  # Search cap does not disable verification.
@@ -109,14 +123,14 @@ class SearchTests(unittest.TestCase):
             self.assertEqual(search_news(self.temp.name, now=NOW)["status"], "error")
             request.assert_called_once()
         day = json.loads(self.ledger.read_text())["months"]["2026-09"]["days"]["2026-09-15"]
-        self.assertEqual(day["search_calls"], 1)
-        self.assertEqual(day["reserved_microusd"], SEARCH_RESERVATION_MICROUSD)
+        self.assertEqual(len(day["astra_requests"]), 1)
+        self.assertEqual(day["reserved_microusd"], ASTRA_RESERVATION_MICROUSD)
 
     def test_invalid_search_limits_disabled_search_and_absent_key(self):
         for config, status in [({"OPENAI_MAX_SEARCHES_PER_DAY": "3"}, "deferred"),
                                ({"OPENAI_MAX_SEARCHES_PER_DAY": "0"}, "deferred"),
                                ({"OPENAI_NEWS_SEARCH_ENABLED": "false"}, "disabled"),
-                               ({"OPENAI_API_KEY": ""}, "disabled")]:
+                               ({"OPENAI_API_KEY": ""}, "error")]:
             with self.subTest(config=config), patch.dict(os.environ, config), patch(
                 "openai_news_search.request_with_retry"
             ) as request:
@@ -137,7 +151,7 @@ class SearchTests(unittest.TestCase):
             "https://khaleejtimes.com.evil.example/fake", "http://127.0.0.1/"])), [URL])
 
 
-class ReserveIntegrationTests(unittest.TestCase):
+class AstraIntegrationTests(unittest.TestCase):
     def run_collector(self, rss_item=None, ready_drafts=None):
         article = {"title": "RTA bus routes in Dubai", "description": "Actual dated source article.", "link": URL}
         draft = {"title": article["title"], "source_urls": [URL], "method": "openai_web_search"}
@@ -152,19 +166,23 @@ class ReserveIntegrationTests(unittest.TestCase):
                 stack.enter_context(patch("rss_collect." + name, return_value=value))
             search = stack.enter_context(patch("rss_collect.search_news", return_value={
                 "status": "ok", "items": [article], "api_calls": 1, "cached": False}))
+            rss = stack.enter_context(patch("rss_collect.try_rss_feeds", side_effect=AssertionError("RSS must not run")))
+            reserve = stack.enter_context(patch("rss_collect.try_reserve_aggregators", side_effect=AssertionError("GNews must not run")))
             result = json.loads(rss_collect.handler({}, None)["body"])
+            rss.assert_not_called()
+            reserve.assert_not_called()
             return result, search.call_count
 
-    def test_search_is_last_resort_and_result_uses_normal_processing(self):
+    def test_astra_is_primary_and_result_uses_normal_processing(self):
         result, count = self.run_collector()
         self.assertTrue(result["new_draft"])
         self.assertEqual(count, 1)
         self.assertEqual(result["openai_search_calls"], 1)
 
-    def test_rss_success_does_not_trigger_search(self):
+    def test_even_available_rss_does_not_replace_astra(self):
         result, count = self.run_collector(rss_item={"title": "RSS news"})
         self.assertTrue(result["new_draft"])
-        self.assertEqual(count, 0)
+        self.assertEqual(count, 1)
 
     def test_two_ready_drafts_do_not_trigger_paid_search(self):
         result, count = self.run_collector(ready_drafts=[{}, {}])

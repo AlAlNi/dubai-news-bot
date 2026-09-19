@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from unittest.mock import patch
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
-from openai_budget import Budget, BudgetUnavailable, RESERVATION_MICROUSD, limits
+from openai_budget import Budget, BudgetUnavailable, RESERVATION_MICROUSD, ASTRA_RESERVATION_MICROUSD, limits
 
 
 class OpenAIBudgetTests(unittest.TestCase):
@@ -50,6 +50,36 @@ class OpenAIBudgetTests(unittest.TestCase):
         month = json.loads(self.path.read_text())["months"]["2026-09"]
         self.assertEqual(month["reserved_microusd"], RESERVATION_MICROUSD)
         self.assertEqual(month["days"]["2026-09-15"]["estimated_microusd"], 1200)
+
+    def test_astra_receipt_settles_exact_reservation_once(self):
+        budget = self.budget()
+        reservation = budget.reserve("astra_search")
+        budget.reserve()  # Existing verifier accounting must survive settlement.
+        receipt = {"status": "completed", "model": "gpt-6-astra",
+                   "usage": {"input_tokens": 1000, "output_tokens": 100}}
+        self.assertTrue(budget.settle_astra(reservation, receipt))
+        self.assertFalse(budget.settle_astra(reservation, receipt))
+        self.assertEqual(budget.read()["months"]["2026-09"]["reserved_microusd"],
+                         RESERVATION_MICROUSD + 27500)
+
+    def test_astra_unknown_cost_and_invalid_receipts_keep_full_reservation(self):
+        budget = self.budget()
+        reservation = budget.reserve("astra_search")
+        receipt = {"status": "completed", "model": "gpt-6-astra",
+                   "usage": {"input_tokens": 1000, "output_tokens": 100}}
+        for invalid in [{}, {**receipt, "model": "other"}, {**receipt, "status": "incomplete"},
+                        {**receipt, "service_tier": "priority"}, {**receipt, "usage": {}},
+                        {**receipt, "usage": {"input_tokens": True, "output_tokens": 100}}]:
+            self.assertFalse(budget.settle_astra(reservation, invalid))
+        self.assertEqual(budget.read()["months"]["2026-09"]["reserved_microusd"], ASTRA_RESERVATION_MICROUSD)
+        with self.assertRaisesRegex(BudgetUnavailable, "Monthly"):
+            self.budget(day=16).reserve("astra_search")
+
+    def test_astra_headroom_required_before_request_even_after_settlement(self):
+        with patch.dict(os.environ, {"OPENAI_MONTHLY_BUDGET_USD": "2"}):
+            with self.assertRaisesRegex(BudgetUnavailable, "Monthly"):
+                self.budget().reserve("astra_search")
+        self.assertEqual(self.budget().read()["months"], {})
 
     def test_no_reset_when_missing_corrupt_or_wrong_schema(self):
         for text in [None, "broken", "[]", '{"version":1,"months":{"2026-09":{}}}']:

@@ -12,10 +12,6 @@ on:
         description: 'Обойти дневной лимит OpenAI (бюджет $3/месяц сохраняется)'
         type: boolean
         default: false
-      force_collect:
-        description: 'Принудительный сбор всех источников'
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -65,15 +61,13 @@ jobs:
     - name: Run news collector
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        SOURCE_VERIFIER: auto
+        SOURCE_VERIFIER: openai
         OPENAI_BYPASS_DAILY_LIMIT: ${{ github.event_name == 'workflow_dispatch' && inputs.bypass_daily_limit && 'true' || 'false' }}
         OPENAI_NEWS_SEARCH_ENABLED: ${{ vars.OPENAI_NEWS_SEARCH_ENABLED || 'true' }}
-        OPENAI_MAX_SEARCHES_PER_DAY: ${{ vars.OPENAI_MAX_SEARCHES_PER_DAY || '2' }}
+        OPENAI_MAX_SEARCHES_PER_DAY: ${{ vars.OPENAI_MAX_SEARCHES_PER_DAY || '1' }}
         OPENAI_MONTHLY_BUDGET_USD: ${{ vars.OPENAI_MONTHLY_BUDGET_USD || '3' }}
         OPENAI_MAX_CALLS_PER_DAY: ${{ vars.OPENAI_MAX_CALLS_PER_DAY || '8' }}
         DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
-        GNEWS_API_KEY_BACKUP: ${{ secrets.GNEWS_API_KEY_BACKUP }}
       run: |
         cd src
         python workflow_run.py rss_collect

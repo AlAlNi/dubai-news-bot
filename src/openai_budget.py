@@ -2,6 +2,7 @@
 import json
 import os
 import subprocess
+import uuid
 from contextlib import contextmanager
 from datetime import datetime, timezone
 from decimal import Decimal
@@ -15,6 +16,12 @@ INPUT_TOKEN_CEILING = 20000
 OUTPUT_TOKEN_CEILING = 1600
 RESERVATION_MICROUSD = 10560
 SEARCH_RESERVATION_MICROUSD = 25000
+# Astra: one web-search call, <=8K prompt, <=2K output, 128K search context.
+# Includes prompt replay and the higher cache-write input rate ($12.50/M).
+# Reserve before sending; settle only from a complete, validated API receipt.
+ASTRA_MODEL = "gpt-6-astra"
+ASTRA_OUTPUT_TOKENS = 2000
+ASTRA_RESERVATION_MICROUSD = 2000000
 LEDGER_FILENAME = "openai_budget.json"
 
 
@@ -42,7 +49,7 @@ def limits():
 
 def search_limit():
     try:
-        value = int(os.getenv("OPENAI_MAX_SEARCHES_PER_DAY", "2"))
+        value = int(os.getenv("OPENAI_MAX_SEARCHES_PER_DAY", "1"))
         if not 0 <= value <= 2:
             raise ValueError()
         return value
@@ -98,6 +105,16 @@ class Budget:
                     if type(searches) is not int or searches < 0:
                         raise ValueError()
                     expected = day["calls"] * RESERVATION_MICROUSD + searches * SEARCH_RESERVATION_MICROUSD
+                    requests = day.get("astra_requests", {})
+                    if not isinstance(requests, dict):
+                        raise ValueError()
+                    for request in requests.values():
+                        if not isinstance(request, dict):
+                            raise ValueError()
+                        cost = request.get("charged_microusd")
+                        if cost is not None and (type(cost) is not int or cost < 10000):
+                            raise ValueError()
+                        expected += ASTRA_RESERVATION_MICROUSD if cost is None else cost
                     if day["reserved_microusd"] != expected:
                         raise ValueError()
                 if month["reserved_microusd"] != sum(d["reserved_microusd"] for d in month["days"].values()):
@@ -125,11 +142,14 @@ class Budget:
             raise BudgetUnavailable("Budget reservation could not be pushed; OpenAI request cancelled")
 
     def reserve(self, kind="verification"):
-        if kind not in {"verification", "search"}:
+        if kind not in {"verification", "search", "astra_search"}:
             raise BudgetUnavailable("Unknown OpenAI operation")
         monthly_limit, daily_limit = limits()
         bypass_daily = manual_daily_limit_bypass()
-        amount = SEARCH_RESERVATION_MICROUSD if kind == "search" else RESERVATION_MICROUSD
+        amount = {"search": SEARCH_RESERVATION_MICROUSD,
+                  "astra_search": ASTRA_RESERVATION_MICROUSD,
+                  "verification": RESERVATION_MICROUSD}[kind]
+        reservation_id = None
         with self.locked():
             data = self.read()
             month = data["months"].setdefault(self.month, {"reserved_microusd": 0, "days": {}})
@@ -140,20 +160,60 @@ class Budget:
             if not bypass_daily and day["calls"] >= daily_limit:
                 raise BudgetUnavailable("Daily OpenAI call limit reached")
             # Do not buy discovery if no budget remains to verify even one resulting post.
-            headroom = RESERVATION_MICROUSD if kind == "search" else 0
+            headroom = RESERVATION_MICROUSD if kind != "verification" else 0
             if month["reserved_microusd"] + amount + headroom > monthly_limit:
                 raise BudgetUnavailable("Monthly OpenAI budget reached")
-            if kind == "search":
+            if kind != "verification":
                 daily_search_limit = search_limit()
-                if not bypass_daily and day.get("search_calls", 0) >= daily_search_limit:
+                search_count = day.get("search_calls", 0) + len(day.get("astra_requests", {}))
+                if not bypass_daily and search_count >= daily_search_limit:
                     raise BudgetUnavailable("Daily OpenAI search limit reached")
-                day["search_calls"] = day.get("search_calls", 0) + 1
+                if kind == "astra_search":
+                    reservation_id = uuid.uuid4().hex
+                    day.setdefault("astra_requests", {})[reservation_id] = {"charged_microusd": None}
+                else:
+                    day["search_calls"] = day.get("search_calls", 0) + 1
             else:
                 day["calls"] += 1
             day["reserved_microusd"] += amount
             month["reserved_microusd"] += amount
             atomic_json(self.path, data)
             self.persist_before_spend()
+        return reservation_id
+
+    def settle_astra(self, reservation_id, response):
+        """Settle once; absent/invalid receipts and interrupted requests keep the reserve."""
+        if (not isinstance(response, dict) or response.get("status") != "completed"
+                or response.get("model") != ASTRA_MODEL
+                or response.get("service_tier", "default") != "default"):
+            return False
+        usage = response.get("usage")
+        if not isinstance(usage, dict):
+            return False
+        incoming, outgoing = usage.get("input_tokens"), usage.get("output_tokens")
+        if (type(incoming) is not int or type(outgoing) is not int
+                or incoming <= 0 or outgoing < 0
+                or outgoing > ASTRA_OUTPUT_TOKENS or incoming > 150000):
+            return False
+        # Includes reasoning tokens in output. Never assume cached-input discounts;
+        # use cache-write rate for ALL input tokens. One hosted search costs $0.01.
+        cost = (incoming * 25 + 1) // 2 + outgoing * 50 + 10000
+        with self.locked():
+            data = self.read()
+            month = data["months"][self.month]
+            day = month["days"][self.day]
+            request = day.get("astra_requests", {}).get(reservation_id)
+            if request is None or request["charged_microusd"] is not None:
+                return False
+            request["charged_microusd"] = cost
+            delta = cost - ASTRA_RESERVATION_MICROUSD
+            month["reserved_microusd"] += delta
+            day["reserved_microusd"] += delta
+            day["input_tokens"] += incoming
+            day["output_tokens"] += outgoing
+            day["estimated_microusd"] += cost
+            atomic_json(self.path, data)
+        return True
 
     def record_usage(self, usage, search_calls=0):
         # Reservations are NEVER refunded, including on timeout or runner crash.

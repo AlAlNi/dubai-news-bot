@@ -1926,110 +1926,18 @@ def handler(event, context):
         print(f"📝 Заголовков для проверки: {len(existing_titles)}")
         
         approved_draft = None
-        max_attempts = 2 + RESERVE_ATTEMPTS
         domain_window: Dict[str, int] = {}
-
-        print(
-            f"⚙️ DeepSeek cost control: feature_flag={ENABLE_CHEAP_PREFILTER}, "
-            f"budget=disabled, domain_repeat_limit={PREFILTER_MAX_DOMAIN_REPEATS_PER_RUN}"
-        )
-        
-        for attempt in range(1, max_attempts + 1):
-            print(f"\n{'='*50}")
-            print(f"🔄 ПОПЫТКА #{attempt}/{max_attempts}")
-            print('='*50)
-
-            for candidate_attempt in range(1, CANDIDATES_PER_STRATEGY + 1):
-                if CANDIDATES_PER_STRATEGY > 1:
-                    print(
-                        f"🔎 Кандидат #{candidate_attempt}/{CANDIDATES_PER_STRATEGY} "
-                        f"в текущей стратегии"
-                    )
-
-                news_item = None
-
-                if attempt == 1:
-                    print("🎯 Стратегия: RSS priority=1")
-                    rss_fetches += 1
-                    news_item = try_rss_feeds(
-                        existing_drafts,
-                        seen_urls,
-                        seen_hashes,
-                        allowed_priorities={1},
-                    )
-                elif attempt == 2:
-                    print("🎯 Стратегия: RSS priority=2")
-                    rss_fetches += 1
-                    news_item = try_rss_feeds(
-                        existing_drafts,
-                        seen_urls,
-                        seen_hashes,
-                        allowed_priorities={2},
-                    )
-                else:
-                    print("🎯 Стратегия: Reserve aggregators (soft relevance)")
-                    reserve_fetches += 1
-                    news_item = try_reserve_aggregators(
-                        existing_drafts,
-                        seen_urls,
-                        seen_hashes,
-                        relaxed_relevance=True,
-                    )
-                    if news_item and news_item.get("method") == "gnews":
-                        gnews_fetches += 1
-                    elif news_item and news_item.get("method") == "google_news_rss":
-                        google_rss_fetches += 1
-
-                if not news_item:
-                    print(f"⚠️ Не найдено новостей (попытка #{attempt})")
-                    break
-
-                fetched_count += 1
-
-                processed = process_news_item(
-                    news_item,
-                    existing_titles,
-                    seen_hashes,
-                    deepseek_context=deepseek_context,
-                    domain_window=domain_window,
-                    run_metrics=run_metrics,
-                )
-
-                if not processed:
-                    if run_metrics.get("verification_paused"):
-                        break
-                    rejected_in_session += 1
-                    print(f"🚫 Новость отклонена (всего: {rejected_in_session})")
-
-                    link = news_item.get("link", "")
-                    strict_hash = news_item.get("strict_hash", news_item.get("content_hash", ""))
-                    fuzzy_hash = news_item.get("fuzzy_hash", "")
-                    if link:
-                        seen_urls.add(canonicalize_url(link))
-                    if strict_hash:
-                        seen_hashes.add(strict_hash)
-                    if fuzzy_hash:
-                        seen_hashes.add(fuzzy_hash)
-                    continue
-
-                approved_draft = processed
-                slot_target = sla_shortage_slot or get_slot_by_hour(current_hour)
-                approved_draft["slot_target"] = slot_target
-                print(f"🎉 НАЙДЕНА ПОДХОДЯЩАЯ НОВОСТЬ!")
-                break
-
-            if approved_draft or run_metrics.get("verification_paused"):
-                break
-
-        # Paid discovery comes last, only when the pipeline failed and the ready queue is short.
-        if (not approved_draft and not run_metrics.get("verification_paused")
-                and verifier_provider() == "openai"
-                and sum(is_verified_draft(draft) for draft in existing_drafts) < 2):
+        discovery = {"status": "skipped", "reason": "Ready queue already contains two verified posts"}
+        if verifier_provider() != "openai":
+            raise RuntimeError("Astra collector requires SOURCE_VERIFIER=openai and OPENAI_API_KEY")
+        # Astra is the only discovery path. RSS/GNews helpers remain for legacy imports.
+        if sum(is_verified_draft(draft) for draft in existing_drafts) < 2:
+            attempt = 1
             discovery = search_news(MOUNTED_BUCKET_PATH, seen_urls, current_utc)
             run_metrics["openai_search_calls"] = discovery["api_calls"]
             run_metrics["openai_calls"] += discovery["api_calls"]
             run_metrics["openai_search_cache_hits"] = int(discovery["cached"])
-            print(f"🔎 Резервный поиск OpenAI: {discovery['status']}; {discovery.get('reason', '')}")
+            print(f"🔎 Поиск Astra: {discovery['status']}; {discovery.get('reason', '')}")
             if discovery["status"] == "error":
                 run_metrics["technical_errors"] += 1
             for news_item in discovery["items"]:
@@ -2094,8 +2002,9 @@ def handler(event, context):
                 "success": False,
                 "total_drafts": len(existing_drafts),
                 "new_draft": False,
-                "message": f"Не найдено новостей после {max_attempts} попыток",
-                "attempts_made": max_attempts,
+                "message": "Новых проверенных новостей нет",
+                "reason": discovery.get("reason") or "No eligible article passed extraction and verification",
+                "attempts_made": attempt,
                 "rejected_in_session": rejected_in_session,
                 "technical_errors": run_metrics["technical_errors"],
                 "deepseek_calls_made": deepseek_context["calls_made"],
@@ -2105,6 +2014,7 @@ def handler(event, context):
                 "reserve_attempts": RESERVE_ATTEMPTS,
             }
         
+        result["discovery_status"] = discovery["status"]
         result["openai_calls"] = run_metrics["openai_calls"]
         result["openai_cache_hits"] = run_metrics["openai_cache_hits"]
         result["openai_search_calls"] = run_metrics["openai_search_calls"]
