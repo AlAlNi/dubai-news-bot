@@ -117,12 +117,18 @@ def search_news(storage_dir, seen_urls=(), now=None):
                 print("Search cache unavailable; daily/monthly budget still applies")
         except Exception as exc:
             return {**report, "status": "error", "reason": f"OpenAI search error: {type(exc).__name__}"}
+    report["source_rejections"] = []
+    report["discovered_urls"] = len(urls)
     seen = {url_identity(url) for url in seen_urls}
     for url in urls[:5]:
         if not allowed_url(url) or url_identity(url) in seen:
             continue
-        article = fetch_article(url, now)
+        article = fetch_article(url, now, diagnostics=report["source_rejections"])
         if article and url_identity(article["link"]) not in seen:
             seen.add(url_identity(article["link"]))
             report["items"].append(article)
+    for rejection in report["source_rejections"]:
+        print(f"Article rejected: {rejection['reason']} — {rejection['url']}")
+    if not report["items"]:
+        report["reason"] = "No readable fresh articles: " + json.dumps(report["source_rejections"], ensure_ascii=False)
     return {**report, "status": "ok"}

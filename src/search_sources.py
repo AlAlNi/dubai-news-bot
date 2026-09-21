@@ -155,7 +155,11 @@ def mediaoffice_date(parser, url, now):
         return None
 
 
-def parse_article(html, url, now=None):
+def parse_article(html, url, now=None, diagnostics=None):
+    def reject(reason):
+        if diagnostics is not None:
+            diagnostics.append({"url": url, "reason": reason})
+        return None
     now = now or datetime.now(timezone.utc)
     parser = ArticleHTML()
     parser.feed(html)
@@ -174,34 +178,36 @@ def parse_article(html, url, now=None):
         specific = [n for n in matching if n.get("@type") == "NewsArticle"]
         dates = {publication_date(n.get("datePublished")) for n in matching}
         if len(specific) != 1 or len(dates) != 1 or None in dates:
-            return None
+            return reject("conflicting_article_metadata")
         node = specific[0]
     elif len(nodes) == 1 and not (nodes[0].get("url") or nodes[0].get("mainEntityOfPage")):
         node = nodes[0]
     elif nodes:
-        return None  # Ambiguous/mismatched structured article; do not mix its date with another story.
+        return reject("article_url_mismatch")
     elif parser.meta.get("og:type") == "article":
         node = {}
     elif mediaoffice_date(parser, url, now):
         node = {"datePublished": mediaoffice_date(parser, url, now), "headline": " ".join(parser.heading)}
     else:
-        return None
+        return reject("not_an_article")
     raw_date = node.get("datePublished") or parser.meta.get("article:published_time") or parser.meta.get("datepublished")
     published = publication_date(raw_date)
-    if published is None or not now - timedelta(hours=48) <= published <= now + timedelta(minutes=5):
-        return None
+    if published is None:
+        return reject("missing_publication_date")
+    if not now - timedelta(hours=48) <= published <= now + timedelta(minutes=5):
+        return reject("outside_48h_window")
     title = node.get("headline") or parser.meta.get("og:title") or " ".join(parser.heading)
     body = node.get("articleBody") or " ".join(parser.article_text or parser.body)
     if not isinstance(title, str) or not isinstance(body, str):
-        return None
+        return reject("invalid_article_text")
     title, body = clean_text(title), clean_text(body)
     if len(title) < 10 or len(body) < 200:
-        return None
+        return reject("article_text_too_short")
     # Avoid returning a broken final sentence when limiting a long article.
     if len(body) > 12000:
         end = max(body.rfind(". ", 6000, 12000), body.rfind("! ", 6000, 12000), body.rfind("? ", 6000, 12000))
         if end == -1:
-            return None
+            return reject("no_sentence_boundary")
         body = body[:end + 1]
     return {
         "title": title, "description": body, "link": url,
@@ -211,10 +217,14 @@ def parse_article(html, url, now=None):
     }
 
 
-def fetch_article(url, now=None):
+def fetch_article(url, now=None, diagnostics=None):
+    def reject(reason):
+        if diagnostics is not None:
+            diagnostics.append({"url": url, "reason": reason})
+        return None
     for _ in range(4):
         if not allowed_url(url):
-            return None
+            return reject("disallowed_url")
         try:
             response = request_with_retry(
                 "GET", url, timeout=15, max_attempts=1, allow_redirects=False, stream=True,
@@ -224,22 +234,24 @@ def fetch_article(url, now=None):
                 if response.status_code in {301, 302, 303, 307, 308}:
                     location = response.headers.get("Location")
                     if not location:
-                        return None
+                        return reject("redirect_without_location")
                     url = urljoin(url, location)
                     continue
-                if response.status_code != 200 or "text/html" not in response.headers.get("Content-Type", "").lower():
-                    return None
+                if response.status_code != 200:
+                    return reject(f"http_{response.status_code}")
+                if "text/html" not in response.headers.get("Content-Type", "").lower():
+                    return reject("not_html")
                 chunks, total = [], 0
                 for chunk in response.iter_content(chunk_size=8192):
                     total += len(chunk)
                     if total > MAX_PAGE_BYTES:
-                        return None
+                        return reject("page_too_large")
                     chunks.append(chunk)
                 raw = b"".join(chunks)
                 encoding = response.encoding if response.encoding and response.encoding.lower() != "iso-8859-1" else "utf-8"
-                return parse_article(raw.decode(encoding, errors="replace"), url, now)
+                return parse_article(raw.decode(encoding, errors="replace"), url, now, diagnostics)
             finally:
                 response.close()
-        except Exception:
-            return None
-    return None
+        except Exception as exc:
+            return reject("fetch_error_" + type(exc).__name__)
+    return reject("too_many_redirects")
