@@ -22,6 +22,25 @@ def article_html(date="2026-09-15T08:00:00Z", **fields):
 
 
 class ArticleTests(unittest.TestCase):
+    def test_publisher_fractional_seconds_work_on_python_310(self):
+        for fraction, expected in [("6", "600000"), ("61", "610000"), ("6107", "610700"),
+                                   ("610789123", "610789")]:
+            result = parse_article(article_html("2026-09-15T08:00:00." + fraction + "Z"), URL, NOW)
+            self.assertEqual(result["published_at"], "2026-09-15T08:00:00." + expected + "+00:00")
+
+    def test_rejections_explain_http_and_article_failures(self):
+        diagnostics = []
+        response = Mock(status_code=403, headers={"Content-Type": "text/html"})
+        with patch("search_sources.request_with_retry", return_value=response):
+            self.assertIsNone(fetch_article(URL, NOW, diagnostics))
+        self.assertEqual(diagnostics, [{"url": URL, "reason": "http_403"}])
+        for html, reason in [(article_html("2026-09-01"), "outside_48h_window"),
+                             ("<html>Archive</html>", "not_an_article"),
+                             (article_html(articleBody="Short"), "article_text_too_short")]:
+            diagnostics = []
+            self.assertIsNone(parse_article(html, URL, NOW, diagnostics))
+            self.assertEqual(diagnostics[0]["reason"], reason)
+
     def test_main_entity_url_variant_and_added_publishers(self):
         result = parse_article(article_html(url=None, mainEntityOfPage={'@type': 'WebPage', 'url': URL}), URL, NOW)
         self.assertEqual(result['description'], BODY)
