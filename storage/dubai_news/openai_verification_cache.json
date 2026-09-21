@@ -973,5 +973,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_9795f2200f"
     }
+  },
+  "76e21239124a5e7201c888e7e6c4cb1af67e6536212c5462bad0c0e54736bf65": {
+    "saved_at": "2026-09-21T17:21:11.014419+00:00",
+    "result": {
+      "id": "chatcmpl-EQbzLh3zZMJnTYyB1j9ANk57Ruwhy",
+      "object": "chat.completion",
+      "created": 1790011263,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai completed the Oud Metha Road expansion project.\",\"supported\":true,\"evidence\":\"Dubai on Sunday announced the completion of a major road expansion drive\"},{\"claim\":\"The Oud Metha Road and Al Asayel Street project included construction of four key junctions, four bridges, two tunnels, and 14 additional kilometers of road.\",\"supported\":true,\"evidence\":\"The Oud Metha Road and Al Asayel Street project included the construction of four key junctions, four bridges, two tunnels and an additional 14 kilometres of road\"},{\"claim\":\"The Roads and Transport Authority said Oud Metha Road's capacity will increase from 10,400 to 15,600 vehicles per hour and average journey times will reduce from 20 minutes to 5 minutes.\",\"supported\":true,\"evidence\":\"Dubai's Roads and Transport Authority said the scheme would increase Oud Metha Road's capacity from 10,400 vehicles to 15,600 vehicles per hour and would seek to reduce average journey times from 20 minutes to only five minutes.\"},{\"claim\":\"The project is expected to serve 420,000 residents by 2030.\",\"supported\":true,\"evidence\":\"The Oud Metha and Al Asayel Street scheme - which is expected to serve 420,000 residents in the area by 2030\"},{\"claim\":\"The project is part of the Sheikh Rashid Corridor Development Project.\",\"supported\":true,\"evidence\":\"The Oud Metha and Al Asayel Street scheme ... is part of the wider Sheikh Rashid Corridor Development Project\"},{\"claim\":\"Mattar Al Tayer said the project supports Zabeel, Al Jaddaf, Oud Metha, Umm Hurair, Latifa Hospital, and Al Wasl Club.\",\"supported\":true,\"evidence\":\"The project supports several service, residential and development areas, most notably Zabeel, Al Jaddaf, Oud Metha and Umm Hurair, as well as Latifa Hospital and Al Wasl Club.\"},{\"claim\":\"Dubai's population reached 4.74 million by the end of June.\",\"supported\":true,\"evidence\":\"The emirate's population reached 4.74 million by the end of June\"},{\"claim\":\"Dubai approved a new 80km motorway connecting Dubai to Sharjah and Abu Dhabi.\",\"supported\":true,\"evidence\":\"This week, Dubai approved a new 80km motorway connecting the emirate to Sharjah and Abu Dhabi\"},{\"claim\":\"The first phase will cost Dh3.5 billion, cut travel times by up to 60%, and run from Al Shanouf Road to Dubai-Al Ain Road.\",\"supported\":true,\"evidence\":\"The first phase, which will cost Dh3.5 billion, is expected to cut travel times by up to 60 per cent ... This stretch will run from Al Shanouf Road to Dubai-Al Ain Road.\"},{\"claim\":\"The 12-lane road will accommodate up to 24,000 vehicles per hour in both directions and serve more than 3.1 million people.\",\"supported\":true,\"evidence\":\"The 12-lane road will accommodate up to 24,000 vehicles per hour in both directions and is expected to serve more than 3.1 million people.\"},{\"claim\":\"The motorway will include 72 bridges, 17 tunnels, and 45 stormwater drainage culverts.\",\"supported\":true,\"evidence\":\"The motorway will include 72 bridges, 17 tunnels and 45 stormwater drainage culverts\"},{\"claim\":\"Phase two will extend from Dubai-Al Ain Road to Al Faya Road in Abu Dhabi.\",\"supported\":true,\"evidence\":\"Phase two will extend from Dubai-Al Ain Road to Al Faya Road in Abu Dhabi.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1388,
+        "completion_tokens": 769,
+        "total_tokens": 2157,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
   }
 }
