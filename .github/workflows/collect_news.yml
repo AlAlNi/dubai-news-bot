@@ -64,7 +64,7 @@ jobs:
         SOURCE_VERIFIER: openai
         OPENAI_BYPASS_DAILY_LIMIT: ${{ github.event_name == 'workflow_dispatch' && inputs.bypass_daily_limit && 'true' || 'false' }}
         OPENAI_NEWS_SEARCH_ENABLED: ${{ vars.OPENAI_NEWS_SEARCH_ENABLED || 'true' }}
-        OPENAI_MAX_SEARCHES_PER_DAY: ${{ vars.OPENAI_MAX_SEARCHES_PER_DAY || '1' }}
+        OPENAI_MAX_SEARCHES_PER_DAY: ${{ vars.OPENAI_MAX_SEARCHES_PER_DAY || '2' }}
         OPENAI_MONTHLY_BUDGET_USD: ${{ vars.OPENAI_MONTHLY_BUDGET_USD || '3' }}
         OPENAI_MAX_CALLS_PER_DAY: ${{ vars.OPENAI_MAX_CALLS_PER_DAY || '8' }}
         DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}

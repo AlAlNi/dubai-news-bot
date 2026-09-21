@@ -2015,6 +2015,8 @@ def handler(event, context):
             }
         
         result["discovery_status"] = discovery["status"]
+        result["replacement_search"] = bool(discovery.get("replacement_search"))
+        result["discovered_urls"] = discovery.get("discovered_urls", 0)
         result["openai_calls"] = run_metrics["openai_calls"]
         result["openai_cache_hits"] = run_metrics["openai_cache_hits"]
         result["openai_search_calls"] = run_metrics["openai_search_calls"]

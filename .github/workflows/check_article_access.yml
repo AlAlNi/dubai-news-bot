@@ -30,7 +30,9 @@ jobs:
           from search_sources import fetch_article
           cache = json.loads(Path('storage/dubai_news/openai_search_cache.json').read_text())
           latest = max(cache.values(), key=lambda entry: entry['saved_at'])
-          for url in latest['urls']:
+          print(json.dumps({'cached_search_status': latest.get('status', 'ok'),
+                            'reason': latest.get('reason', '')}))
+          for url in latest.get('urls', []):
               diagnostics = []
               article = fetch_article(url, datetime.now(timezone.utc), diagnostics=diagnostics)
               print(json.dumps({'url': url, 'accepted': bool(article), 'diagnostics': diagnostics,
