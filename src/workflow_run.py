@@ -16,7 +16,8 @@ def report_result(result):
         with open(summary, "a", encoding="utf-8") as stream:
             stream.write(f"## Bot result: {outcome}\n\n")
             for name in ("new_draft", "published", "reason", "technical_errors", "discovery_status",
-                         "openai_search_calls", "openai_search_cache_hits", "verification_paused"):
+                         "openai_search_calls", "openai_search_cache_hits", "replacement_search",
+                         "discovered_urls", "verification_paused"):
                 if name in body:
                     stream.write(f"- {name}: {body[name]}\n")
     if outcome == "NO POST":

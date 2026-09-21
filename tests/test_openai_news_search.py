@@ -82,7 +82,61 @@ class SearchTests(unittest.TestCase):
         with patch("openai_news_search.request_with_retry", return_value=self.response) as request:
             self.assertEqual(search_news(self.temp.name, now=NOW)["items"], [])
             self.assertTrue(search_news(self.temp.name, now=NOW)["cached"])
+        self.assertEqual(request.call_count, 2)  # Initial and one replacement; both cached.
+
+    def test_replacement_receives_rejections_and_stops_after_success(self):
+        replacement_url = "https://www.mediaoffice.ae/en/news/new-dubai-story"
+        replacement_response = Mock(status_code=200)
+        replacement_response.json.return_value = search_response([replacement_url])
+        article = {**self.article, "link": replacement_url}
+        def extract(url, now, diagnostics=None):
+            if url == URL:
+                diagnostics.append({"url": url, "reason": "outside_48h_window"})
+                return None
+            return article
+        with patch("openai_news_search.request_with_retry", side_effect=[self.response, replacement_response]) as request, patch(
+            "openai_news_search.fetch_article", side_effect=extract
+        ):
+            first = search_news(self.temp.name, now=NOW)
+            second = search_news(self.temp.name, now=NOW + timedelta(hours=1))
+        self.assertEqual(first["items"], [article])
+        self.assertEqual(first["api_calls"], 2)
+        self.assertEqual(second["items"], [article])
+        self.assertEqual(second["api_calls"], 0)
+        self.assertEqual(request.call_count, 2)
+        feedback = request.call_args_list[1].kwargs["json"]["input"]
+        self.assertIn("outside_48h_window", feedback)
+        self.assertIn(URL, feedback)
+
+    def test_one_search_setting_prevents_paid_replacement(self):
+        self.response.json.return_value = search_response([])
+        with patch.dict(os.environ, {"OPENAI_MAX_SEARCHES_PER_DAY": "1"}), patch(
+            "openai_news_search.request_with_retry", return_value=self.response
+        ) as request:
+            result = search_news(self.temp.name, now=NOW)
+        self.assertEqual(result["status"], "deferred")
+        self.assertIn("Daily", result["reason"])
         request.assert_called_once()
+
+    def test_monthly_headroom_still_blocks_replacement(self):
+        self.response.json.return_value = search_response([])
+        with patch.dict(os.environ, {"OPENAI_MONTHLY_BUDGET_USD": "2.02"}), patch(
+            "openai_news_search.request_with_retry", return_value=self.response
+        ) as request:
+            result = search_news(self.temp.name, now=NOW)
+        self.assertEqual(result["status"], "deferred")
+        self.assertIn("Monthly", result["reason"])
+        request.assert_called_once()
+
+    def test_failed_replacement_is_not_repeated_hourly(self):
+        self.response.json.return_value = search_response([])
+        with patch("openai_news_search.request_with_retry", side_effect=[self.response, TimeoutError]) as request:
+            first = search_news(self.temp.name, now=NOW)
+            second = search_news(self.temp.name, now=NOW + timedelta(hours=1))
+        self.assertEqual(first["status"], "error")
+        self.assertEqual(second["status"], "error")
+        self.assertEqual(second["api_calls"], 0)
+        self.assertEqual(request.call_count, 2)
 
     def test_new_dubai_day_searches_again_and_revalidates_articles(self):
         with patch("openai_news_search.request_with_retry", return_value=self.response) as request, patch(

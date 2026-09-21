@@ -49,7 +49,7 @@ def limits():
 
 def search_limit():
     try:
-        value = int(os.getenv("OPENAI_MAX_SEARCHES_PER_DAY", "1"))
+        value = int(os.getenv("OPENAI_MAX_SEARCHES_PER_DAY", "2"))
         if not 0 <= value <= 2:
             raise ValueError()
         return value
