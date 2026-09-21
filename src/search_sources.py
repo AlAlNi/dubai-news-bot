@@ -127,7 +127,12 @@ def publication_date(value):
         return None
     try:
         try:
-            parsed = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+            # Python 3.10 accepts only 3/6 fractional digits; publishers also
+            # emit .6, .61 or nanoseconds. Normalize without inventing a date.
+            normalized = value.strip().replace("Z", "+00:00")
+            normalized = re.sub(r"(T\d{2}:\d{2}:\d{2})[.,](\d+)(?=[+-]|$)",
+                                lambda m: m[1] + "." + m[2][:6].ljust(6, "0"), normalized)
+            parsed = datetime.fromisoformat(normalized)
         except ValueError:
             parsed = parsedate_to_datetime(value)
         return (parsed.replace(tzinfo=UAE_TIMEZONE) if parsed.tzinfo is None else parsed).astimezone(timezone.utc)
