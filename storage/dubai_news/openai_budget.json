@@ -2,7 +2,7 @@
   "version": 1,
   "months": {
     "2026-09": {
-      "reserved_microusd": 2705501,
+      "reserved_microusd": 886839,
       "days": {
         "2026-09-15": {
           "calls": 5,
@@ -59,13 +59,13 @@
         },
         "2026-09-21": {
           "calls": 0,
-          "reserved_microusd": 2000000,
-          "input_tokens": 0,
-          "output_tokens": 0,
-          "estimated_microusd": 0,
+          "reserved_microusd": 181338,
+          "input_tokens": 12975,
+          "output_tokens": 183,
+          "estimated_microusd": 181338,
           "astra_requests": {
             "e1f4ec4e13ea40329829f8b9a79597b4": {
-              "charged_microusd": null
+              "charged_microusd": 181338
             }
           }
         }
