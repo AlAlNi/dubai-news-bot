@@ -90,6 +90,19 @@ def discovery_input(now, replacement=False):
     )
 
 
+def manual_search_refresh_id():
+    """Refresh each search slot once per explicitly opted-in manual attempt."""
+    run_id = os.getenv("GITHUB_RUN_ID", "")
+    attempt = os.getenv("GITHUB_RUN_ATTEMPT", "")
+    if (os.getenv("GITHUB_ACTIONS") == "true"
+            and os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch"
+            and os.getenv("GITHUB_REF") == "refs/heads/main"
+            and os.getenv("OPENAI_REFRESH_SEARCH") == "true"
+            and run_id.isdigit() and attempt.isdigit()):
+        return f"{run_id}:{attempt}"
+    return None
+
+
 def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
     now = now or datetime.now(timezone.utc)
     report = {"status": "disabled", "items": [], "api_calls": 0, "cached": False}
@@ -151,6 +164,10 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
     except (OSError, ValueError):
         cache = {}
     cached = cache.get(cache_key)
+    refresh_id = manual_search_refresh_id()
+    if refresh_id and (not isinstance(cached, dict) or cached.get("refresh_id") != refresh_id):
+        cached = None
+        print("Manual fresh search requested; daily/monthly budget checks still apply")
     if isinstance(cached, dict) and cached.get("status") == "error":
         return {**report, "status": "error", "cached": True,
                 "reason": cached.get("reason", "Previous search failed; retry next day")}
@@ -165,7 +182,8 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
             reason = str(exc) if isinstance(exc, BudgetUnavailable) else "Cannot save search reservation"
             return {**report, "status": "deferred", "reason": reason}
         def failed(reason):
-            cache[cache_key] = {"status": "error", "reason": reason, "saved_at": now.isoformat()}
+            cache[cache_key] = {"status": "error", "reason": reason, "saved_at": now.isoformat(),
+                                "refresh_id": refresh_id}
             try:
                 atomic_json(cache_path, dict(list(cache.items())[-8:]))
             except OSError:
@@ -188,7 +206,7 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
                                      "completion_tokens": usage.get("output_tokens")}, search_calls=1)
             except (BudgetUnavailable, OSError, KeyError, TypeError):
                 print("Search usage details unavailable; full reservation retained")
-            cache[cache_key] = {"urls": urls, "saved_at": now.isoformat()}
+            cache[cache_key] = {"urls": urls, "saved_at": now.isoformat(), "refresh_id": refresh_id}
             try:
                 atomic_json(cache_path, dict(list(cache.items())[-8:]))
             except OSError:

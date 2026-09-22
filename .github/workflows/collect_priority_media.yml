@@ -1,9 +1,13 @@
 name: Dubai Priority Media Collector
 
 on:
-  # Legacy manual entry point; uses the same Astra collector and daily cache.
+  # Legacy manual entry point; uses the same collector and daily cache.
   workflow_dispatch:
     inputs:
+      refresh_search:
+        description: 'Искать заново, игнорируя кеш (платный поиск в пределах бюджета)'
+        type: boolean
+        default: false
       bypass_daily_limit:
         description: 'Обойти дневной лимит OpenAI (бюджет $3/месяц сохраняется)'
         type: boolean
@@ -58,6 +62,7 @@ jobs:
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         SOURCE_VERIFIER: openai
+        OPENAI_REFRESH_SEARCH: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_search && 'true' || 'false' }}
         OPENAI_BYPASS_DAILY_LIMIT: ${{ github.event_name == 'workflow_dispatch' && inputs.bypass_daily_limit && 'true' || 'false' }}
         OPENAI_NEWS_SEARCH_ENABLED: ${{ vars.OPENAI_NEWS_SEARCH_ENABLED || 'true' }}
         OPENAI_MAX_SEARCHES_PER_DAY: ${{ vars.OPENAI_MAX_SEARCHES_PER_DAY || '2' }}
