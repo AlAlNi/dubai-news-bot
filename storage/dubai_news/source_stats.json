@@ -80,5 +80,50 @@
     "url": "https://www.thenationalnews.com/news/uae/2026/09/22/funeral-prayers-to-be-held-for-sheikh-ahmed-in-dubai-on-tuesday",
     "timestamp": "2026-09-22T14:39:36.541827+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://gulfnews.com/lifestyle/dubai-brunches-you-must-not-miss-1.500683727",
+    "timestamp": "2026-09-22T15:13:45.309516+00:00",
+    "status": "rejected",
+    "content_hash": "fe25a7e255354654445821e06f882ce4",
+    "strict_hash": "fe25a7e255354654445821e06f882ce4",
+    "fuzzy_hash": "750bb09e221b112d792e96508717c42d",
+    "reason": "Новость представляет собой подборку бранчей в Дубае с ценами и расписанием — это скорее рекламно-развлекательный гид по заведениям, без общественно значимой новости, к тому же текст выглядит как перепечатка промо-материала с призывом скачать приложение Gulf News. Для русскоязычного жителя Дубая польза минимальна и дублирует типовые афишные подборки, а признаки кликбейта и рекламного характера присутствуют."
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/flying-from-uae-flight-delays-cancellations-and-international-schedule-updates-1.500683793",
+    "timestamp": "2026-09-22T15:13:46.721989+00:00",
+    "status": "rejected",
+    "content_hash": "26996c17c719f14dacfc8630f6ec1ee4",
+    "strict_hash": "26996c17c719f14dacfc8630f6ec1ee4",
+    "fuzzy_hash": "cb5c33fb0c0267e3d41fe0d7a396230e",
+    "reason": "Новость связана с ОАЭ и полезна для русскоязычных жителей Дубая (рейсы из Дубая, Абу-Даби, Шарджи, отмены и задержки), но текст выглядит как компиляция из внешних сюжетов с признаками дублирования блоков, кликбейтным заголовком и рекламным призывом скачать приложение, а также содержит политически чувствительный сюжет о санкциях против Ирана."
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai-miracle-garden-season-15-opening-date-announced-heres-when-the-attraction-will-reopen-1.500682598",
+    "timestamp": "2026-09-22T15:13:46.723069+00:00",
+    "status": "rejected",
+    "content_hash": "28c82c307e04a1ac1964af0564a03340",
+    "strict_hash": "28c82c307e04a1ac1964af0564a03340",
+    "fuzzy_hash": "9d231998bc2a76c0c1e88532b73d26bd",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/indian-pm-modi-offers-condolences-on-death-of-sheikh-ahmed-bin-rashid-al-maktoum-1.500682479",
+    "timestamp": "2026-09-22T15:13:46.723918+00:00",
+    "status": "rejected",
+    "content_hash": "a7ebe3af38507d906969a53ac64af90b",
+    "strict_hash": "a7ebe3af38507d906969a53ac64af90b",
+    "fuzzy_hash": "90a51a73749f85dd1df403cf70acfbe7",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/22/sheikh-mohammed-performs-funeral-prayer-for-sheikh-ahmed-in-dubai",
+    "timestamp": "2026-09-22T15:13:48.224634+00:00",
+    "status": "rejected",
+    "content_hash": "15550d25182b4e3a7ca412d731f0dd5e",
+    "strict_hash": "15550d25182b4e3a7ca412d731f0dd5e",
+    "fuzzy_hash": "a98fa7391c5e1c914e0f1afcec39af31",
+    "reason": "Новость о кончине шейха Ахмеда бин Рашида и соболезнованиях в Дубае — трагическое, но значимое для региона событие, связанное с правящей семьёй и общественной жизнью эмирата, без политики, рекламы или неуважительных тем. Материал уважителен, достоверен по тону и полезен русскоязычной аудитории как официальная новость, хотя требует проверки на дубликат по хешу."
   }
 ]
