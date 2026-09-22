@@ -10,7 +10,7 @@ from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
 from openai_budget import Budget, BudgetUnavailable, RESERVATION_MICROUSD, SEARCH_RESERVATION_MICROUSD, ASTRA_RESERVATION_MICROUSD
-from openai_news_search import discovered_urls, search_news, discovery_input
+from openai_news_search import discovered_urls, search_news, discovery_input, manual_search_refresh_id
 import rss_collect
 
 NOW = datetime(2026, 9, 15, 10, tzinfo=timezone.utc)
@@ -28,6 +28,60 @@ def search_response(urls=None):
 
 
 class SearchTests(unittest.TestCase):
+    def manual_env(self):
+        return {"GITHUB_ACTIONS": "true", "GITHUB_EVENT_NAME": "workflow_dispatch",
+                "GITHUB_REF": "refs/heads/main", "GITHUB_RUN_ID": "123",
+                "GITHUB_RUN_ATTEMPT": "1", "OPENAI_REFRESH_SEARCH": "true"}
+
+    def test_refresh_is_manual_main_opt_in_only(self):
+        with patch.dict(os.environ, self.manual_env()):
+            self.assertEqual(manual_search_refresh_id(), '123:1')
+            for override in ({'GITHUB_EVENT_NAME': 'schedule'}, {'GITHUB_EVENT_NAME': 'push'},
+                             {'GITHUB_REF': 'refs/heads/test'}, {'OPENAI_REFRESH_SEARCH': 'false'},
+                             {'GITHUB_RUN_ID': ''}, {'GITHUB_RUN_ATTEMPT': ''}, {'GITHUB_ACTIONS': 'false'}):
+                with self.subTest(override=override), patch.dict(os.environ, override):
+                    self.assertIsNone(manual_search_refresh_id())
+
+    def test_refresh_once_per_attempt_then_schedule_reuses_updated_cache(self):
+        with patch('openai_news_search.request_with_retry', return_value=self.response) as request, patch(
+            'openai_news_search.fetch_article', return_value=self.article
+        ), patch.object(Budget, 'persist_before_spend'):
+            search_news(self.temp.name, now=NOW)
+            with patch.dict(os.environ, self.manual_env()):
+                self.assertFalse(search_news(self.temp.name, now=NOW)['cached'])
+                self.assertTrue(search_news(self.temp.name, now=NOW)['cached'])
+                self.assertEqual(request.call_count, 2)
+                with patch.dict(os.environ, {'GITHUB_RUN_ATTEMPT': '2'}):
+                    result = search_news(self.temp.name, now=NOW)
+                    self.assertEqual(result['status'], 'deferred')  # Refresh alone cannot bypass daily cap.
+                    self.assertEqual(request.call_count, 2)
+                with patch.dict(os.environ, {'GITHUB_EVENT_NAME': 'schedule'}):
+                    self.assertTrue(search_news(self.temp.name, now=NOW)['cached'])
+            self.assertEqual(request.call_count, 2)
+
+    def test_refresh_and_daily_bypass_still_obey_monthly_cap(self):
+        with patch('openai_news_search.request_with_retry', return_value=self.response) as request, patch(
+            'openai_news_search.fetch_article', return_value=self.article
+        ), patch.object(Budget, 'persist_before_spend'):
+            search_news(self.temp.name, now=NOW)
+            with patch.dict(os.environ, {**self.manual_env(), 'OPENAI_BYPASS_DAILY_LIMIT': 'true',
+                                        'OPENAI_MONTHLY_BUDGET_USD': '0.04'}):
+                result = search_news(self.temp.name, now=NOW)
+                self.assertEqual(result['status'], 'deferred')
+                self.assertIn('Monthly', result['reason'])
+            self.assertEqual(request.call_count, 1)
+
+    def test_refreshed_error_is_cached_within_attempt(self):
+        with patch('openai_news_search.request_with_retry', return_value=self.response) as request, patch(
+            'openai_news_search.fetch_article', return_value=self.article
+        ), patch.object(Budget, 'persist_before_spend'):
+            search_news(self.temp.name, now=NOW)
+            self.response.status_code = 500
+            with patch.dict(os.environ, self.manual_env()):
+                self.assertEqual(search_news(self.temp.name, now=NOW)['status'], 'error')
+                self.assertTrue(search_news(self.temp.name, now=NOW)['cached'])
+            self.assertEqual(request.call_count, 2)
+
     def test_queries_use_dubai_dates_across_year_boundary_and_distinct_topics(self):
         now = datetime(2026, 12, 31, 22, tzinfo=timezone.utc)
         primary = discovery_input(now)
