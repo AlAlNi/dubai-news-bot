@@ -1051,5 +1051,83 @@
       "service_tier": "default",
       "system_fingerprint": "fp_9795f2200f"
     }
+  },
+  "52260c88becf1b17c6cced85b839c38203f4a7caf80166de2909eb2cead091b4": {
+    "saved_at": "2026-09-22T19:21:46.739257+00:00",
+    "result": {
+      "id": "chatcmpl-ER0LT2A8tZCXGMpAXIO9kZhSCvfxr",
+      "object": "chat.completion",
+      "created": 1790104891,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Sheikh Ahmed bin Rashid was laid to rest on Tuesday afternoon at the Umm Hurair cemetery in Dubai after funeral prayers at Zabeel Grand Mosque.\",\"supported\":true,\"evidence\":\"Sheikh Ahmed bin Rashid was laid to rest on Tuesday afternoon at the Umm Hurair cemetery in Dubai, following funeral prayers at Zabeel Grand Mosque.\"},{\"claim\":\"The funeral procession was led by Sheikh Hamdan bin Mohammed, Crown Prince of Dubai, Deputy Prime Minister and Minister of Defence.\",\"supported\":true,\"evidence\":\"The funeral procession was led by Sheikh Hamdan bin Mohammed, Crown Prince of Dubai, Deputy Prime Minister and Minister of Defence.\"},{\"claim\":\"Also at the front of the procession were Sheikh Maktoum bin Mohammed, First Deputy Ruler of Dubai, Deputy Prime Minister and Minister of Finance, and Sheikh Ahmed bin Mohammed, Second Deputy Ruler of Dubai.\",\"supported\":true,\"evidence\":\"Also at the front of the procession were Sheikh Maktoum bin Mohammed, First Deputy Ruler of Dubai, Deputy Prime Minister and Minister of Finance, and Sheikh Ahmed bin Mohammed, Second Deputy Ruler of Dubai.\"},{\"claim\":\"Condolences for Sheikh Ahmed, who died on Monday, will be received at the Zabeel Majlis for three days.\",\"supported\":true,\"evidence\":\"Condolences for Sheikh Ahmed, who died on Monday, will be received at the Zabeel Majlis for three days.\"},{\"claim\":\"President Sheikh Mohamed offered his condolences on Tuesday.\",\"supported\":true,\"evidence\":\"President Sheikh Mohamed offered his condolences on Tuesday.\"},{\"claim\":\"Sheikh Mohammed bin Rashid, Vice President and Ruler of Dubai, performed the funeral prayer for his brother at Zabeel Grand Mosque, accompanied by Sheikh Hamdan and Sheikh Maktoum.\",\"supported\":true,\"evidence\":\"Sheikh Mohammed bin Rashid, Vice President and Ruler of Dubai, earlier performed the funeral prayer for his brother at Zabeel Grand Mosque. He was accompanied by Sheikh Hamdan and Sheikh Maktoum.\"},{\"claim\":\"The period of condolences began at 4pm on Tuesday and will continue on Wednesday and Thursday mornings from 10am until dhuhr prayer, and in the evening after asr prayer until maghrib prayer.\",\"supported\":true,\"evidence\":\"The period of condolences began at 4pm on Tuesday and will continue on Wednesday and Thursday mornings from 10am until dhuhr prayer, and in the evening after asr prayer until the time of maghrib prayer.\"},{\"claim\":\"Ten days of mourning in Dubai were declared.\",\"supported\":true,\"evidence\":\"Ten days of mourning in Dubai were declared.\"},{\"claim\":\"Sheikh Mohammed said Sheikh Ahmed had made long-standing contributions to the development of the UAE since its founding.\",\"supported\":true,\"evidence\":\"President Sheikh Mohamed said Sheikh Ahmed had made “long-standing contributions to the development of the UAE since its founding”.\"},{\"claim\":\"Sheikh Mohammed posted a heartfelt message on X saying 'You are absent from our eyes, but not from our prayers and hearts.'\",\"supported\":true,\"evidence\":\"“You are absent from our eyes, but not from our prayers and hearts,” said Sheikh Mohammed in a heartfelt message posted on X.\"},{\"claim\":\"Leaders across the Gulf and the wider world, including Bahrain's King Hamad, Sultan Haitham of Oman and Indian Prime Minister Narendra Modi, offered best wishes to Sheikh Mohammed.\",\"supported\":true,\"evidence\":\"Best wishes were also offered to Sheikh Mohammed by leaders across the Gulf and the wider world, including Bahrain's King Hamad, Sultan Haitham of Oman and Indian Prime Minister Narendra Modi.\"},{\"claim\":\"Sheikh Ahmed was deputy chairman of Dubai Police and group chairman of ARM Holding, a UAE private investment firm.\",\"supported\":true,\"evidence\":\"Sheikh Ahmed was deputy chairman of Dubai Police and group chairman of ARM Holding, a UAE private investment firm.\"},{\"claim\":\"He was a dedicated champion of sport in the Emirates, established the Jebel Ali Racecourse in 1990, and helped guide Al Wasl Sports Club to major success over several decades as president.\",\"supported\":true,\"evidence\":\"He was also a dedicated champion of sport in the Emirates, established the Jebel Ali Racecourse in 1990, and helped to guide Al Wasl Sports Club to major success over several decades as president.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1509,
+        "completion_tokens": 911,
+        "total_tokens": 2420,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
+  },
+  "5081c1836eebc135175f31b6c9244ff715864e9160df9175aa1e171399bb21fa": {
+    "saved_at": "2026-09-22T19:22:07.028327+00:00",
+    "result": {
+      "id": "chatcmpl-ER0LquP7azF2xVJLCgjhrFEkQfLfU",
+      "object": "chat.completion",
+      "created": 1790104914,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the Russian post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"Etihad Rail tickets to and from Dubai are on sale before the route's launch on September 30.\",\"supported\":true,\"evidence\":\"Etihad Rail tickets to and from Dubai are on sale before the route's keenly awaited launch on September 30.\"},{\"claim\":\"Comfort fares are priced at Dh39 and premium fares are Dh109.\",\"supported\":true,\"evidence\":\"Comfort fares are priced at Dh39 and premium fares are Dh109.\"},{\"claim\":\"The first journey leaves Dubai Al Yalayis station at 6:14am and arrives in Abu Dhabi at 7:18am.\",\"supported\":true,\"evidence\":\"The first journey leaves the new Dubai Al Yalayis station at 6.14am and arrives in Abu Dhabi at 7.18am.\"},{\"claim\":\"Tickets can be purchased via Etihad Rail's website and mobile application.\",\"supported\":true,\"evidence\":\"Tickets can be purchased via Etihad Rail's website and mobile application.\"},{\"claim\":\"On the first day, five trains will make the round-trip journey from Dubai to Abu Dhabi.\",\"supported\":true,\"evidence\":\"On the first day of passenger operations, five trains will make the round-trip journey from Dubai to Abu Dhabi.\"},{\"claim\":\"The last train from Abu Dhabi will arrive in Dubai at 18:47, and the last train from Dubai will arrive in Abu Dhabi at 19:18.\",\"supported\":true,\"evidence\":\"The last train from Abu Dhabi will arrive in Dubai at 18:47, while the last train from Dubai will arrive in Abu Dhabi at 19:18.\"},{\"claim\":\"One train will leave from Dubai for Fujairah; ticket costs Dh39 and takes one hour and 10 minutes.\",\"supported\":true,\"evidence\":\"One train will leave from Dubai for Fujairah. A ticket for that service will also cost Dh39 and take one hour and 10 minutes.\"},{\"claim\":\"Dubai Al Yalayis Station will host WHSmith, Shot cafe, Starbucks, Thrifty Car Rental and Lulu.\",\"supported\":true,\"evidence\":\"The website shows that the building will host a WHSmith, Shot cafe, Starbucks, Thrifty Car Rental and a Lulu.\"},{\"claim\":\"Dubai Al Yalayis Station is next to Jumeirah Golf Estates in Me’aisem First, opposite Jumeirah Golf Estates Metro Station.\",\"supported\":true,\"evidence\":\"Dubai Al Yalayis Station is next to Jumeirah Golf Estates in Me’aisem First, directly opposite the Jumeirah Golf Estates Metro Station.\"},{\"claim\":\"It is connected to the city by the E311, E44 and D57 roads.\",\"supported\":true,\"evidence\":\"It is connected to the city by the E311, E44 and D57 roads.\"},{\"claim\":\"The new station has direct access to Dubai Metro Red Line via a 400m-long elevated pedestrian walkway.\",\"supported\":true,\"evidence\":\"The new station has direct access to the existing Dubai Metro Red Line via a 400m-long elevated pedestrian walkway.\"},{\"claim\":\"When the Gold Line opens in 2032, the stop will become an interchange between the two lines.\",\"supported\":true,\"evidence\":\"When the Gold Line opens in 2032, the stop will become an interchange between the two lines.\"},{\"claim\":\"Al Dhaid Station in Sharjah is slated to open on September 30, with no pricing or timing details announced.\",\"supported\":true,\"evidence\":\"Al Dhaid Station in Sharjah is also slated to open on September 30, however no details on pricing or timings have been announced.\"},{\"claim\":\"The opening will bring the network to four active stations; Al Dhafra stations will open before end of year; Sharjah University City Station will open March 30, 2027.\",\"supported\":true,\"evidence\":\"The opening will bring the network to four active stations, with Al Dhafra stations to open before the end of the year and Sharjah University City Station welcoming passengers on March 30 2027.\"},{\"claim\":\"The opening of the first 10 stations is just the beginning of the national rail network, per Etihad Rail representatives at a June media briefing.\",\"supported\":true,\"evidence\":\"The opening of the first 10 stations is just the beginning of the national rail network, Etihad Rail representatives said at a media briefing in June ahead of the launch of the first route.\"},{\"claim\":\"Construction has started on a high-speed rail line from Dubai to Abu Dhabi, opening in 2030, transporting passengers at speeds up to 350kph.\",\"supported\":true,\"evidence\":\"The rail operator has started construction on the high-speed rail line from Dubai to Abu Dhabi, which will open in 2030 and transport passengers at speeds of up to 350kph.\"},{\"claim\":\"The fully electrified line will run from Al Jaddaf in Dubai to Abu Dhabi, with stops at Al Maktoum International Airport (DWC), Zayed International Airport (AUH), Yas Island, Saadiyat Island and Reem Island.\",\"supported\":true,\"evidence\":\"The fully electrified line will run from Al Jaddaf in Dubai to Abu Dhabi, with stops at Al Maktoum International Airport (DWC), Zayed International Airport (AUH), Yas Island, Saadiyat Island and Reem Island.\"},{\"claim\":\"This will cut journey time between the two cities from about an hour to 30 minutes.\",\"supported\":true,\"evidence\":\"This will further cut the journey time between the two cities, from the current train journey time of around an hour, to just 30 minutes.\"},{\"claim\":\"Another Dubai passenger station is also in the works.\",\"supported\":true,\"evidence\":\"Another Dubai passenger station is also in the works.\"},{\"claim\":\"Passenger rail services are expected to serve up to 21 million passengers annually through a high-capacity network with high frequency of services.\",\"supported\":true,\"evidence\":\"Passenger rail services are expected to serve up to 21 million passengers annually through a high-capacity network with a high frequency of services, meeting the growing demand for daily mobility.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1703,
+        "completion_tokens": 1280,
+        "total_tokens": 2983,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
   }
 }

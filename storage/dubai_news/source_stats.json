@@ -125,5 +125,50 @@
     "strict_hash": "15550d25182b4e3a7ca412d731f0dd5e",
     "fuzzy_hash": "a98fa7391c5e1c914e0f1afcec39af31",
     "reason": "Новость о кончине шейха Ахмеда бин Рашида и соболезнованиях в Дубае — трагическое, но значимое для региона событие, связанное с правящей семьёй и общественной жизнью эмирата, без политики, рекламы или неуважительных тем. Материал уважителен, достоверен по тону и полезен русскоязычной аудитории как официальная новость, хотя требует проверки на дубликат по хешу."
+  },
+  {
+    "url": "https://gulfnews.com/business/aviation/36-weekly-european-flights-to-return-to-dubai-from-october-1.500684163",
+    "timestamp": "2026-09-22T19:21:23.209051+00:00",
+    "status": "rejected",
+    "content_hash": "aadd983c86f2feae180f16492016da03",
+    "strict_hash": "aadd983c86f2feae180f16492016da03",
+    "fuzzy_hash": "5bea9ebdb00da9c413758fd9ab53dd4f",
+    "reason": "Новость сообщает о возвращении до 36 еженедельных рейсов между Дубаем и европейскими городами с октября, что полезно для русскоязычных жителей Дубая как практичная информация о транспорте. Однако текст содержит явный рекламный призыв скачать приложение Gulf News и выглядит как фрагмент чужой статьи с обрывками заголовков, что нарушает правила о рекламе и естественности подачи."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/22/sheikh-ahmed-bin-rashid-laid-to-rest-at-umm-hurair-cemetery-in-dubai",
+    "timestamp": "2026-09-22T19:21:46.742841+00:00",
+    "status": "rejected",
+    "content_hash": "f6e8d7478eb76faf7062635793c7a199",
+    "strict_hash": "f6e8d7478eb76faf7062635793c7a199",
+    "fuzzy_hash": "d2b324ead621567835b4214a9b301a54",
+    "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/22/tickets-go-on-sale-for-landmark-dubai-abu-dhabi-etihad-rail-service-for-dh39",
+    "timestamp": "2026-09-22T19:22:07.032329+00:00",
+    "status": "rejected",
+    "content_hash": "e46a820064ce8a2c9f57452e4fa2f342",
+    "strict_hash": "e46a820064ce8a2c9f57452e4fa2f342",
+    "fuzzy_hash": "0a6db5c67e61d7809c04bfbcdd44d3e4",
+    "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/21/dubai-sheikh-ahmed-bin-rashid-uae-mourning-period",
+    "timestamp": "2026-09-22T19:22:07.033204+00:00",
+    "status": "rejected",
+    "content_hash": "5c1a3c634e8e0b544011239d0e25e3cb",
+    "strict_hash": "5c1a3c634e8e0b544011239d0e25e3cb",
+    "fuzzy_hash": "587d7fde5933f361126f73468a9d447c",
+    "reason": "Cheap prefilter: слишком частый домен в окне (www.thenationalnews.com)"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/21/dubais-parking-provider-is-in-operation-at-rashid-hospital-as-part-of-expansion-into-healthcare-sector",
+    "timestamp": "2026-09-22T19:22:07.033964+00:00",
+    "status": "rejected",
+    "content_hash": "808ea4403db4db0b13176c806560d2e1",
+    "strict_hash": "808ea4403db4db0b13176c806560d2e1",
+    "fuzzy_hash": "20d0ac7d7f1a307872f4250505cabff6",
+    "reason": "Cheap prefilter: слишком частый домен в окне (www.thenationalnews.com)"
   }
 ]
