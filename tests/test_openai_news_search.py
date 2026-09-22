@@ -96,6 +96,9 @@ class SearchTests(unittest.TestCase):
         self.assertNotEqual(primary, replacement)
 
     def setUp(self):
+        fallback = patch('openai_news_search.latest_articles', return_value={'items': [], 'checked': 0, 'rejections': []})
+        self.fallback = fallback.start()
+        self.addCleanup(fallback.stop)
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.env = patch.dict(os.environ, {"OPENAI_API_KEY": "test-key", "GITHUB_ACTIONS": "false",
