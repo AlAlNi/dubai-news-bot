@@ -30,5 +30,50 @@
     "url": "https://gulfnews.com/uae/transport/etihad-rail-dubai-abu-dhabi-tickets-on-sale-1.500683415",
     "timestamp": "2026-09-22T08:56:40.392151+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://gulfnews.com/business/retail/dubai-fountain-shows-suspended-during-mourning-period-1.500683393",
+    "timestamp": "2026-09-22T10:31:40.115857+00:00",
+    "status": "rejected",
+    "content_hash": "9ecfc60e9227b73a55c8e6292a010d6f",
+    "strict_hash": "9ecfc60e9227b73a55c8e6292a010d6f",
+    "fuzzy_hash": "87650c5c87c53225e5c312a469208cf3",
+    "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/global-village-vip-packs-your-guide-to-prices-perks-and-a-dh31000-surprise-1.500682907",
+    "timestamp": "2026-09-22T10:31:41.748644+00:00",
+    "status": "rejected",
+    "content_hash": "558928ad6f0267c0cca3ce3ee5b523b0",
+    "strict_hash": "558928ad6f0267c0cca3ce3ee5b523b0",
+    "fuzzy_hash": "2b0eacc24ece950fc55e6c187d025706",
+    "reason": "Новость полезна для русскоязычных жителей Дубая: это практичная информация о ценах, составе и датах продаж VIP-пакетов Global Village, без политики и явной рекламы. Однако текст содержит рекламную вставку про приложение Gulf News и обрывается на середине, что снижает качество публикации."
+  },
+  {
+    "url": "https://gulfnews.com/uae/crime/dubai-regulator-warns-of-ai-scam-using-fake-box-of-cash-and-gold-1.500682761",
+    "timestamp": "2026-09-22T10:31:41.749705+00:00",
+    "status": "rejected",
+    "content_hash": "1958a0b8efa05220fcb833962913012d",
+    "strict_hash": "1958a0b8efa05220fcb833962913012d",
+    "fuzzy_hash": "8e1777b5c83b77b35322a955f5acb8f2",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://gulfnews.com/uae/transport/uae-evening-traffic-heavy-congestion-hits-abu-dhabi-dubai-sharjah-and-ajman-1.500682645",
+    "timestamp": "2026-09-22T10:31:41.750444+00:00",
+    "status": "rejected",
+    "content_hash": "80382dc99203fe3d1fdf9a6db25257e9",
+    "strict_hash": "80382dc99203fe3d1fdf9a6db25257e9",
+    "fuzzy_hash": "c73fb78419d079ededb91f8b8009921b",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/22/funeral-prayers-to-be-held-for-sheikh-ahmed-in-dubai-on-tuesday",
+    "timestamp": "2026-09-22T10:31:55.703406+00:00",
+    "status": "approved",
+    "content_hash": "88058ad9f9c7de09b63b59b720afbf52",
+    "strict_hash": "88058ad9f9c7de09b63b59b720afbf52",
+    "fuzzy_hash": "73b0f05b074379fcbf3bda29821a71dd",
+    "reason": "approved"
   }
 ]

@@ -973,5 +973,83 @@
       "service_tier": "default",
       "system_fingerprint": "fp_9795f2200f"
     }
+  },
+  "0c15eafc691e4218b264553a1bce427f1e018aa3ca253dea50390d6b3f500edd": {
+    "saved_at": "2026-09-22T10:31:40.109913+00:00",
+    "result": {
+      "id": "chatcmpl-EQs4dieNLqE3edKDEJ9M5w09lkDdU",
+      "object": "chat.completion",
+      "created": 1790073095,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Fountain shows suspended during 10-day mourning period.\",\"supported\":true,\"evidence\":\"Dubai Fountain performances have been suspended during the 10-day mourning period\"},{\"claim\":\"Mourning period announced after death of Sheikh Ahmed bin Rashid Al Maktoum, younger brother of Sheikh Mohammed bin Rashid Al Maktoum.\",\"supported\":true,\"evidence\":\"The mourning period was announced after Sheikh Ahmed bin Rashid Al Maktoum, the younger brother of His Highness Sheikh Mohammed bin Rashid Al Maktoum... died on Monday morning.\"},{\"claim\":\"Sheikh Mohammed wrote: 'May Allah have mercy on Sheikh Ahmed bin Rashid Al Maktoum. May Allah have mercy on you, my brother. You are now with our Lord, the Most Generous, the Almighty.'\",\"supported\":true,\"evidence\":\"“May Allah have mercy on Sheikh Ahmed bin Rashid Al Maktoum. May Allah have mercy on you, my brother. You are now with our Lord, the Most Generous, the Almighty,” Sheikh Mohammed wrote.\"},{\"claim\":\"Dubai Fountain returned on October 1, 2025 after five-month closure for renovation and upgrades.\",\"supported\":true,\"evidence\":\"The latest suspension comes after the Dubai Fountain returned on October 1, 2025 following a five-month closure for renovation and upgrades.\"},{\"claim\":\"Thousands of spectators gathered for its return when the attraction resumed choreographed displays of water, music and light.\",\"supported\":true,\"evidence\":\"Thousands of spectators gathered for its return, when the attraction resumed its choreographed displays of water, music and light following the refurbishment programme.\"},{\"claim\":\"Dubai Parks and Resorts temporarily closed; Global Village cancels Eid Al Fitr fireworks and remains closed until further notice; Global Village, Ain Dubai and Dubai Parks and Resorts remain closed.\",\"supported\":true,\"evidence\":\"Dubai Parks and Resorts announces temporary closure.Dubai's Global Village cancels Eid Al Fitr fireworks, remains closed until further notice.Global Village, Ain Dubai and Dubai Parks and Resorts to remain closed.\"},{\"claim\":\"Before suspension, afternoon performances were scheduled at 1 pm and 1:30 pm Saturday to Thursday, 2 pm and 2:30 pm on Friday.\",\"supported\":true,\"evidence\":\"Before the latest suspension, afternoon performances were scheduled at 1 pm and 1.30 pm from Saturday to Thursday, with Friday shows at 2 pm and 2.30 pm.\"},{\"claim\":\"Evening performances were scheduled every 30 minutes between 6 pm and 11 pm.\",\"supported\":true,\"evidence\":\"Evening performances were scheduled every 30 minutes between 6 pm and 11 pm.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1049,
+        "completion_tokens": 567,
+        "total_tokens": 1616,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
+  },
+  "79d20b367cfb2a4c5f9cd0b233c99769230b25785dc812ec1941c5a3a885cae8": {
+    "saved_at": "2026-09-22T10:31:55.699603+00:00",
+    "result": {
+      "id": "chatcmpl-EQs4qEOniRn8trhMkS2dcP0zITJ98",
+      "object": "chat.completion",
+      "created": 1790073108,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Funeral prayers for Sheikh Ahmed bin Rashid will be held in Dubai on Tuesday.\",\"supported\":true,\"evidence\":\"Funeral prayers for Sheikh Ahmed bin Rashid will be held in Dubai on Tuesday\"},{\"claim\":\"Mourners will gather at Zabeel Grand Mosque from 1pm.\",\"supported\":true,\"evidence\":\"Mourners will gather at Zabeel Grand Mosque from 1pm\"},{\"claim\":\"Condolences to be received at the Zabeel Majlis for three days.\",\"supported\":true,\"evidence\":\"with condolences to be received at the Zabeel Majlis for three days\"},{\"claim\":\"The period of condolences will begin at 4pm on Tuesday and continue until maghrib prayer, and on Wednesday and Thursday mornings from 10am until dhuhr prayer, and in the evening after asr prayer until the time of maghrib prayer.\",\"supported\":true,\"evidence\":\"The period of condolences will begin at 4pm on Tuesday and continue until maghrib prayer, and on Wednesday and Thursday mornings from 10am until dhuhr prayer, and in the evening after asr prayer until the time of maghrib prayer\"},{\"claim\":\"Sheikh Ahmed, the brother of Sheikh Mohammed bin Rashid, Vice President and Ruler of Dubai, died on Monday.\",\"supported\":true,\"evidence\":\"Sheikh Ahmed , the brother of Sheikh Mohammed bin Rashid, Vice President and Ruler of Dubai, died on Monday\"},{\"claim\":\"Ten days of mourning in Dubai were declared.\",\"supported\":true,\"evidence\":\"Ten days of mourning in Dubai were declared\"},{\"claim\":\"Sheikh Mohammed wrote on social media: “You are absent from our eyes, but not from our prayers and hearts.\\\"\",\"supported\":true,\"evidence\":\"“You are absent from our eyes, but not from our prayers and hearts,\\\" said Sheikh Mohammed in a heartfelt message posted on social media platform X\"},{\"claim\":\"President Sheikh Mohamed said Sheikh Ahmed made \\\"long-standing contributions to the development of the UAE since its founding\\\".\",\"supported\":true,\"evidence\":\"President Sheikh Mohamed said Sheikh Ahmed made \\\"long-standing contributions to the development of the UAE since its founding\\\"\"},{\"claim\":\"Sheikh Mohamed wrote: “May God rest his soul in eternal peace and mercy, and grant his loved ones comfort during this difficult time.”\",\"supported\":true,\"evidence\":\"“May God rest his soul in eternal peace and mercy, and grant his loved ones comfort during this difficult time,” Sheikh Mohamed wrote on social media\"},{\"claim\":\"Leaders across the Gulf and the wider world, including Bahrain's King Hamad, Sultan Haitham of Oman, and Indian Prime Minister Narendra Modi, offered best wishes to Sheikh Mohammed.\",\"supported\":true,\"evidence\":\"Best wishes were also offered to Sheikh Mohammed by leaders across the Gulf and the wider world, including Bahrain's King Hamad and Sultan Haitham of Oman and Indian Prime Minister Narendra Modi\"},{\"claim\":\"Sheikh Ahmed was Deputy Chairman of Dubai Police and group chairman of ARM Holding, a UAE private investment firm.\",\"supported\":true,\"evidence\":\"Sheikh Ahmed was Deputy Chairman of Dubai Police and was group chairman of ARM Holding, a UAE private investment firm\"},{\"claim\":\"He was a dedicated champion of sport in the Emirates, established the historic Jebel Ali Racecourse in 1990, and helped guide Al Wasl Sports Club to major success over several decades as president.\",\"supported\":true,\"evidence\":\"He was also a dedicated champion of sport in the Emirates, established the historic Jebel Ali Racecourse in 1990 and helped guide Al Wasl Sports Club to major success over several decades as president\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1212,
+        "completion_tokens": 765,
+        "total_tokens": 1977,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
   }
 }
