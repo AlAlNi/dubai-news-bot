@@ -2,7 +2,7 @@
   "version": 1,
   "months": {
     "2026-09": {
-      "reserved_microusd": 1103212,
+      "reserved_microusd": 1128212,
       "days": {
         "2026-09-15": {
           "calls": 5,
@@ -74,11 +74,11 @@
         },
         "2026-09-22": {
           "calls": 0,
-          "reserved_microusd": 25000,
+          "reserved_microusd": 50000,
           "input_tokens": 8823,
           "output_tokens": 559,
           "estimated_microusd": 17624,
-          "search_calls": 1
+          "search_calls": 2
         }
       }
     }
