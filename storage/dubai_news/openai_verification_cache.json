@@ -1,82 +1,4 @@
 {
-  "e3aa35f4796ce15d7541ed02a15dbcd1180d3cc4fc2e7b3ad36bfa97716fba2e": {
-    "saved_at": "2026-09-15T07:09:17.974081+00:00",
-    "result": {
-      "id": "chatcmpl-EOHa07zHziL5J2Gluxbz72yIL1bBI",
-      "object": "chat.completion",
-      "created": 1789456156,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":false,\"reason\":\"The source text is only the headline repeated and does not provide any factual details to verify the claims in the post.\",\"claims\":[{\"claim\":\"Dubai Holding и ADCB представили новое жилищное финансирование для покупателей на этапе строительства\",\"supported\":false,\"evidence\":\"Dubai Holding, ADCB unveil new home financing for off-plan buyers\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 583,
-        "completion_tokens": 76,
-        "total_tokens": 659,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_1ec6e9f896"
-    }
-  },
-  "b03a0d726ab8f839b3ce6cb5f894b02b06f5a88464dd128a1579b03050cb7875": {
-    "saved_at": "2026-09-15T07:57:30.845904+00:00",
-    "result": {
-      "id": "chatcmpl-EOIKf2Xkw0Ar3ASvffSCRc8j2kCbH",
-      "object": "chat.completion",
-      "created": 1789459049,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":false,\"reason\":\"The source text is only a headline and does not provide any factual details to verify the claims in the post.\",\"claims\":[{\"claim\":\"More than 2100 Emiratis joined real estate jobs in Dubai Land Department programme\",\"supported\":false,\"evidence\":\"More than 2,100 Emiratis join real estate jobs in Dubai Land Department programme  Khaleej Times\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 727,
-        "completion_tokens": 82,
-        "total_tokens": 809,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
   "178dba3b3da4700a7d80aa3bb36be073b2eb9fbfe3d90e9567327334556fda73": {
     "saved_at": "2026-09-15T21:38:10.289802+00:00",
     "result": {
@@ -998,6 +920,45 @@
         "prompt_tokens": 1388,
         "completion_tokens": 769,
         "total_tokens": 2157,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
+  },
+  "84e7097d2bc84ff604e7addd75d602d9559d55e73f602562f5673808179fb2cc": {
+    "saved_at": "2026-09-22T08:51:13.996117+00:00",
+    "result": {
+      "id": "chatcmpl-EQqVRPNaBrmpfAFHcjt5mjPm0TYGl",
+      "object": "chat.completion",
+      "created": 1790067069,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Etihad Rail tickets for journeys between Dubai and Abu Dhabi are now on sale on the official website eithadrail.ae.\",\"supported\":true,\"evidence\":\"Etihad Rail tickets for journeys between Dubai and Abu Dhabi are now on sale on the official website - eithadrail.ae\"},{\"claim\":\"The service is due to begin on September 30, when Dubai Al Yalayis Station in Jumeirah Golf Estates officially opens.\",\"supported\":true,\"evidence\":\"The service is due to begin on September 30, when Dubai Al Yalayis Station in Jumeirah Golf Estates officially opens\"},{\"claim\":\"The fare from Dubai to Abu Dhabi starts at Dh39 one way for Comfort Class, while Premium Class fares start from Dh109.\",\"supported\":true,\"evidence\":\"The fare from Dubai to Abu Dhabi starts at Dh39 one way for Comfort Class, while Premium Class fares start from Dh109\"},{\"claim\":\"The Dubai-Abu Dhabi tickets are cheaper than fares on the Abu Dhabi-Fujairah route, which start at Dh55 for Comfort Class.\",\"supported\":true,\"evidence\":\"The Dubai-Abu Dhabi tickets are cheaper than fares on the Abu Dhabi-Fujairah route, which start at Dh55 for Comfort Class\"},{\"claim\":\"The Dubai station will provide a direct rail connection to Etihad Rail’s Mohammed Bin Zayed City station in Abu Dhabi, with the journey expected to take around 57 minutes.\",\"supported\":true,\"evidence\":\"The Dubai station will provide a direct rail connection to Etihad Rail’s Mohammed Bin Zayed City station in Abu Dhabi, with the journey expected to take around 57 minutes\"},{\"claim\":\"The UAE’s passenger rail service began operations in June on the Abu Dhabi-Fujairah route.\",\"supported\":true,\"evidence\":\"The UAE’s passenger rail service began operations in June on the Abu Dhabi-Fujairah route\"},{\"claim\":\"Etihad Rail said more than 70,000 tickets had been sold during the early phase, with passengers booking an average of 12 days ahead.\",\"supported\":true,\"evidence\":\"Etihad Rail said more than 70,000 tickets had been sold during the early phase, with passengers booking an average of 12 days ahead\"},{\"claim\":\"Dubai’s new station is located close to Jumeirah Golf Estates Metro Station, providing a connection between the national rail network and Dubai Metro.\",\"supported\":true,\"evidence\":\"Dubai’s new station is located close to Jumeirah Golf Estates Metro Station, providing a connection between the national rail network and Dubai Metro\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1110,
+        "completion_tokens": 540,
+        "total_tokens": 1650,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
