@@ -1929,15 +1929,15 @@ def handler(event, context):
         domain_window: Dict[str, int] = {}
         discovery = {"status": "skipped", "reason": "Ready queue already contains two verified posts"}
         if verifier_provider() != "openai":
-            raise RuntimeError("Astra collector requires SOURCE_VERIFIER=openai and OPENAI_API_KEY")
-        # Astra is the only discovery path. RSS/GNews helpers remain for legacy imports.
+            raise RuntimeError("News collector requires SOURCE_VERIFIER=openai and OPENAI_API_KEY")
+        # GPT-4.1 mini is the only discovery path. RSS/GNews helpers remain for legacy imports.
         if sum(is_verified_draft(draft) for draft in existing_drafts) < 2:
             attempt = 1
             discovery = search_news(MOUNTED_BUCKET_PATH, seen_urls, current_utc)
             run_metrics["openai_search_calls"] = discovery["api_calls"]
             run_metrics["openai_calls"] += discovery["api_calls"]
             run_metrics["openai_search_cache_hits"] = int(discovery["cached"])
-            print(f"🔎 Поиск Astra: {discovery['status']}; {discovery.get('reason', '')}")
+            print(f"🔎 Поиск GPT-4.1 mini: {discovery['status']}; {discovery.get('reason', '')}")
             if discovery["status"] == "error":
                 run_metrics["technical_errors"] += 1
             for news_item in discovery["items"]:

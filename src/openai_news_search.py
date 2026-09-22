@@ -4,11 +4,28 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from http_client import request_with_retry
 from api_diagnostics import openai_error
-from openai_budget import Budget, BudgetUnavailable, ASTRA_MODEL, ASTRA_OUTPUT_TOKENS, atomic_json
+from openai_budget import Budget, BudgetUnavailable, MODEL, atomic_json
 from search_sources import ALLOWED_DOMAINS, allowed_url, fetch_article, url_identity
+
+
+# Gulf Business denied all production downloads (HTTP 403). Do not buy links
+# we cannot read. Other source extraction paths retain the full allowlist.
+SEARCH_DOMAINS = tuple(d for d in ALLOWED_DOMAINS if d != "gulfbusiness.com")
+
+
+def discovery_domain(url):
+    if not allowed_url(url):
+        return None
+    parsed = urlsplit(url)
+    path = parsed.path.lower().strip("/")
+    if path.endswith(".pdf") or set(path.split("/")) & {"tags", "tag", "archive", "category", "categories", "newsfeed"}:
+        return None
+    host = (parsed.hostname or "").lower()
+    return next((d for d in SEARCH_DOMAINS if host == d or host.endswith("." + d)), None)
 
 
 def discovered_urls(response):
@@ -33,11 +50,15 @@ def discovered_urls(response):
                     urls.append(annotation.get("url"))
     urls.extend(source.get("url") for source in calls[0]["action"].get("sources", [])
                 if isinstance(source, dict))
-    unique, seen = [], set()
+    unique, seen, per_domain = [], set(), {}
     for url in urls:
         if not isinstance(url, str) or not allowed_url(url) or url_identity(url) in seen:
             continue
+        domain = discovery_domain(url)
+        if domain is None or per_domain.get(domain, 0) >= 2:
+            continue
         seen.add(url_identity(url))
+        per_domain[domain] = per_domain.get(domain, 0) + 1
         unique.append(url)
     return unique[:5]
 
@@ -49,16 +70,17 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
     if os.getenv("OPENAI_NEWS_SEARCH_ENABLED", "true").strip().lower() != "true":
         return report
     if not key:
-        return {**report, "status": "error", "reason": "OPENAI_API_KEY is required for Astra discovery"}
+        return {**report, "status": "error", "reason": "OPENAI_API_KEY is required for GPT-4.1 mini discovery"}
     # Stable daily query/cache key prevents repeated paid searches every hour,
     # including when the first search produced no suitable links.
     slot = now.astimezone(timezone(timedelta(hours=4))).replace(hour=0, minute=0, second=0, microsecond=0)
     payload = {
-        "model": ASTRA_MODEL, "store": False, "service_tier": "default",
-        "reasoning": {"effort": "low"},
-        "max_output_tokens": ASTRA_OUTPUT_TOKENS, "max_tool_calls": 1, "parallel_tool_calls": False,
-        "tools": [{"type": "web_search", "search_context_size": "low",
-                   "return_token_budget": "default", "filters": {"allowed_domains": list(ALLOWED_DOMAINS)}}],
+        "model": MODEL, "store": False, "service_tier": "default",
+        "temperature": 0,
+        "max_output_tokens": 1000, "max_tool_calls": 1, "parallel_tool_calls": False,
+        # This pinned mini model previously rejected server-side filters.
+        # Constrain domains in the prompt AND validate returned sources locally.
+        "tools": [{"type": "web_search", "search_context_size": "low"}],
         "tool_choice": {"type": "web_search"},
         "include": ["web_search_call.action.sources"],
         "instructions": (
@@ -68,7 +90,9 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
             "official Dubai sources, then regional newsrooms. Exclude ads, old articles, category pages and "
             "undated pages. Return only short titles with clickable source citations. Do not invent dates "
             "or URLs, do not summarize articles from memory. Return no articles if none are supported. "
-            "Search only these domains (use site: queries): " + ", ".join(ALLOWED_DOMAINS)
+            "Use at least three publishers if available, at most two articles per publisher. "
+            "Do not use gulfbusiness.com, PDFs, archives or tag pages. "
+            "Search only these domains (use site: queries): " + ", ".join(SEARCH_DOMAINS)
         ),
         "input": f"Find fresh Dubai news published since {(slot - timedelta(hours=48)).isoformat()}. "
                  f"Current discovery window starts {slot.isoformat()}. Prefer the latest articles.",
@@ -76,8 +100,8 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
     serialized = json.dumps(payload, ensure_ascii=False, sort_keys=True)
     if len(serialized.encode("utf-8")) + 1024 > 8000:
         return {**report, "status": "deferred", "reason": "Search prompt exceeds cost ceiling"}
-    cache_key = hashlib.sha256(("astra-discovery-v1:" + serialized).encode("utf-8")).hexdigest()
-    # Keep the old daily cache key, but a new request must use the actual 48-hour
+    cache_key = hashlib.sha256(("mini-discovery-v2:" + serialized).encode("utf-8")).hexdigest()
+    # Use a stable daily cache key, but a new request must use the actual 48-hour
     # cutoff, not midnight minus 48 hours (which could admit much older results).
     payload["input"] = f"Find fresh Dubai news published since {(now - timedelta(hours=48)).isoformat()}. " \
                        f"Current time is {now.isoformat()}. Prefer the latest dated article pages."
@@ -110,7 +134,7 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
     else:
         budget = Budget(storage_dir, now)
         try:
-            reservation_id = budget.reserve(kind="astra_search")
+            budget.reserve(kind="search")
         except (BudgetUnavailable, OSError) as exc:
             reason = str(exc) if isinstance(exc, BudgetUnavailable) else "Cannot save search reservation"
             return {**report, "status": "deferred", "reason": reason}
@@ -125,7 +149,7 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
         report["api_calls"] = 1
         try:
             response = request_with_retry(
-                "POST", "https://api.openai.com/v1/responses", timeout=120, max_attempts=1,
+                "POST", "https://api.openai.com/v1/responses", timeout=60, max_attempts=1,
                 allow_redirects=False, headers={"Authorization": f"Bearer {key}"}, json=payload,
             )
             if response.status_code != 200:
@@ -133,8 +157,9 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
             result = response.json()
             urls = discovered_urls(result)
             try:
-                if not budget.settle_astra(reservation_id, result):
-                    print("Astra receipt unavailable or invalid; full reservation retained")
+                usage = result.get("usage") or {}
+                budget.record_usage({"prompt_tokens": usage.get("input_tokens"),
+                                     "completion_tokens": usage.get("output_tokens")}, search_calls=1)
             except (BudgetUnavailable, OSError, KeyError, TypeError):
                 print("Search usage details unavailable; full reservation retained")
             cache[cache_key] = {"urls": urls, "saved_at": now.isoformat()}
