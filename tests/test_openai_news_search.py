@@ -119,6 +119,17 @@ class SearchTests(unittest.TestCase):
         self.assertIn("Daily", result["reason"])
         request.assert_called_once()
 
+    def test_editorial_rejection_can_use_remaining_replacement(self):
+        with patch("openai_news_search.request_with_retry", return_value=self.response) as request, patch(
+            "openai_news_search.fetch_article", return_value=self.article
+        ):
+            search_news(self.temp.name, now=NOW)
+            result = search_news(self.temp.name, seen_urls={URL}, now=NOW,
+                                editorial_rejections=[{"url": URL, "reason": "editorial_or_quality_rejection"}])
+        self.assertTrue(result["replacement_search"])
+        self.assertEqual(request.call_count, 2)
+        self.assertIn("editorial_or_quality_rejection", request.call_args.kwargs["json"]["input"])
+
     def test_monthly_headroom_still_blocks_replacement(self):
         self.response.json.return_value = search_response([])
         with patch.dict(os.environ, {"OPENAI_MONTHLY_BUDGET_USD": "0.04"}), patch(
@@ -228,7 +239,7 @@ class SearchTests(unittest.TestCase):
 
 
 class DiscoveryIntegrationTests(unittest.TestCase):
-    def run_collector(self, rss_item=None, ready_drafts=None):
+    def run_collector(self, rss_item=None, ready_drafts=None, reject_first=False):
         article = {"title": "RTA bus routes in Dubai", "description": "Actual dated source article.", "link": URL}
         draft = {"title": article["title"], "source_urls": [URL], "method": "openai_web_search"}
         with ExitStack() as stack:
@@ -242,6 +253,14 @@ class DiscoveryIntegrationTests(unittest.TestCase):
                 stack.enter_context(patch("rss_collect." + name, return_value=value))
             search = stack.enter_context(patch("rss_collect.search_news", return_value={
                 "status": "ok", "items": [article], "api_calls": 1, "cached": False}))
+            if reject_first:
+                stack.enter_context(patch("rss_collect.process_news_item", side_effect=[None, draft]))
+                replacement = {**article, "title": "Dubai announces new metro service", "link": URL + "-replacement"}
+                search.side_effect = [
+                    {"status": "ok", "items": [article], "api_calls": 1, "cached": False},
+                    {"status": "ok", "items": [replacement], "api_calls": 1, "cached": True,
+                     "replacement_search": True},
+                ]
             rss = stack.enter_context(patch("rss_collect.try_rss_feeds", side_effect=AssertionError("RSS must not run")))
             reserve = stack.enter_context(patch("rss_collect.try_reserve_aggregators", side_effect=AssertionError("GNews must not run")))
             result = json.loads(rss_collect.handler({}, None)["body"])
@@ -264,6 +283,12 @@ class DiscoveryIntegrationTests(unittest.TestCase):
         result, count = self.run_collector(ready_drafts=[{}, {}])
         self.assertFalse(result["new_draft"])
         self.assertEqual(count, 0)
+
+    def test_editorial_rejection_gets_one_more_batch_and_combined_cost_counts(self):
+        result, count = self.run_collector(reject_first=True)
+        self.assertTrue(result["new_draft"])
+        self.assertEqual(count, 2)
+        self.assertEqual(result["openai_search_calls"], 2)
 
 
 if __name__ == "__main__":
