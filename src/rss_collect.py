@@ -1932,33 +1932,40 @@ def handler(event, context):
             raise RuntimeError("News collector requires SOURCE_VERIFIER=openai and OPENAI_API_KEY")
         # GPT-4.1 mini is the only discovery path. RSS/GNews helpers remain for legacy imports.
         if sum(is_verified_draft(draft) for draft in existing_drafts) < 2:
-            attempt = 1
-            discovery = search_news(MOUNTED_BUCKET_PATH, seen_urls, current_utc)
-            run_metrics["openai_search_calls"] = discovery["api_calls"]
-            run_metrics["openai_calls"] += discovery["api_calls"]
-            run_metrics["openai_search_cache_hits"] = int(discovery["cached"])
-            print(f"🔎 Поиск GPT-4.1 mini: {discovery['status']}; {discovery.get('reason', '')}")
-            if discovery["status"] == "error":
-                run_metrics["technical_errors"] += 1
-            for news_item in discovery["items"]:
-                strict_hash, fuzzy_hash = generate_content_hashes(
-                    news_item["title"], news_item["description"], news_item["link"]
-                )
-                if strict_hash in seen_hashes or fuzzy_hash in seen_hashes:
-                    continue
-                news_item.update(content_hash=strict_hash, strict_hash=strict_hash, fuzzy_hash=fuzzy_hash)
-                fetched_count += 1
-                processed = process_news_item(news_item, existing_titles, seen_hashes,
-                                              deepseek_context, domain_window, run_metrics)
-                if processed:
-                    approved_draft = processed
-                    approved_draft["slot_target"] = sla_shortage_slot or get_slot_by_hour(current_hour)
+            editorial_rejections = []
+            for attempt in range(1, 3):
+                discovery = search_news(MOUNTED_BUCKET_PATH, seen_urls, current_utc,
+                                        editorial_rejections=editorial_rejections)
+                run_metrics["openai_search_calls"] += discovery["api_calls"]
+                run_metrics["openai_calls"] += discovery["api_calls"]
+                run_metrics["openai_search_cache_hits"] += int(discovery["cached"])
+                print(f"🔎 Поиск GPT-4.1 mini: {discovery['status']}; {discovery.get('reason', '')}")
+                if discovery["status"] == "error":
+                    run_metrics["technical_errors"] += 1
+                for news_item in discovery["items"]:
+                    strict_hash, fuzzy_hash = generate_content_hashes(
+                        news_item["title"], news_item["description"], news_item["link"]
+                    )
+                    if strict_hash in seen_hashes or fuzzy_hash in seen_hashes:
+                        continue
+                    news_item.update(content_hash=strict_hash, strict_hash=strict_hash, fuzzy_hash=fuzzy_hash)
+                    fetched_count += 1
+                    processed = process_news_item(news_item, existing_titles, seen_hashes,
+                                                  deepseek_context, domain_window, run_metrics)
+                    if processed:
+                        approved_draft = processed
+                        approved_draft["slot_target"] = sla_shortage_slot or get_slot_by_hour(current_hour)
+                        break
+                    if run_metrics.get("verification_paused"):
+                        break
+                    editorial_rejections.append({"url": news_item["link"], "reason": "editorial_or_quality_rejection"})
+                    rejected_in_session += 1
+                    seen_urls.add(canonicalize_url(news_item["link"]))
+                    seen_hashes.update((strict_hash, fuzzy_hash))
+                if (approved_draft or run_metrics.get("verification_paused")
+                        or run_metrics["technical_errors"] or discovery["status"] != "ok"
+                        or not discovery["items"] or discovery.get("replacement_search")):
                     break
-                if run_metrics.get("verification_paused"):
-                    break
-                rejected_in_session += 1
-                seen_urls.add(canonicalize_url(news_item["link"]))
-                seen_hashes.update((strict_hash, fuzzy_hash))
 
         if approved_draft:
             # Добавляем в source_stats как одобренную редактором

@@ -190,7 +190,7 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
     return {**report, "status": "ok"}
 
 
-def search_news(storage_dir, seen_urls=(), now=None):
+def search_news(storage_dir, seen_urls=(), now=None, editorial_rejections=()):
     """At most two searches: a daily batch and one feedback-guided replacement."""
     now = now or datetime.now(timezone.utc)
     seen_urls = tuple(seen_urls)
@@ -200,9 +200,10 @@ def search_news(storage_dir, seen_urls=(), now=None):
     rejections = first.get("source_rejections", [])
     # A successfully consumed batch is not a failed search. Do not buy replacements
     # just because the user published every article from the cached batch.
-    if rejections and all(r["reason"] == "already_processed" for r in rejections):
+    if rejections and not editorial_rejections and all(r["reason"] == "already_processed" for r in rejections):
         return first
-    feedback = [{"url": r["url"][:500], "reason": r["reason"][:80]} for r in rejections[:5]]
+    combined = list(editorial_rejections) + rejections
+    feedback = [{"url": r["url"][:500], "reason": r["reason"][:80]} for r in combined[:5]]
     if not feedback:
         feedback = [{"url": "", "reason": "no_usable_source_links"}]
     excluded = seen_urls + tuple(r["url"] for r in rejections)
