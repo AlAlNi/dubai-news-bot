@@ -17,6 +17,7 @@ def report_result(result):
             stream.write(f"## Bot result: {outcome}\n\n")
             for name in ("new_draft", "published", "reason", "technical_errors", "discovery_status",
                          "openai_search_calls", "openai_search_cache_hits", "replacement_search",
+                         "publisher_fallback", "publisher_articles_checked",
                          "discovered_urls", "verification_paused"):
                 if name in body:
                     stream.write(f"- {name}: {body[name]}\n")

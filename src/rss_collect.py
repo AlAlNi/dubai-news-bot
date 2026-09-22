@@ -1741,7 +1741,7 @@ def process_news_item(
         return None
     
     # RSS excerpts may contain only a headline. Prefer the dated publisher article.
-    if news_item.get("method") != "openai_web_search" and allowed_url(news_item.get("link", "")):
+    if news_item.get("method") not in {"openai_web_search", "publisher_latest"} and allowed_url(news_item.get("link", "")):
         article = fetch_article(news_item["link"])
         if article and (len(article["description"]) > len(description) or incomplete_excerpt(description)):
             news_item = dict(news_item, description=article["description"],
@@ -1757,7 +1757,7 @@ def process_news_item(
         mark_news_as_rejected(news_item, "Недостаточно исходного текста для достоверного пересказа")
         return None
     source = source_snapshot(title, description, news_item.get("link", ""))
-    if news_item.get("method") == "openai_web_search":
+    if news_item.get("method") in {"openai_web_search", "publisher_latest"}:
         source["published_at"] = news_item["published_at"]
     description = source["text"]
 
@@ -2023,6 +2023,8 @@ def handler(event, context):
         
         result["discovery_status"] = discovery["status"]
         result["replacement_search"] = bool(discovery.get("replacement_search"))
+        result["publisher_fallback"] = bool(discovery.get("publisher_fallback"))
+        result["publisher_articles_checked"] = discovery.get("publisher_articles_checked", 0)
         result["discovered_urls"] = discovery.get("discovered_urls", 0)
         result["openai_calls"] = run_metrics["openai_calls"]
         result["openai_cache_hits"] = run_metrics["openai_cache_hits"]

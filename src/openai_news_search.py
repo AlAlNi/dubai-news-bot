@@ -10,6 +10,7 @@ from http_client import request_with_retry
 from api_diagnostics import openai_error
 from openai_budget import Budget, BudgetUnavailable, MODEL, atomic_json
 from search_sources import ALLOWED_DOMAINS, allowed_url, fetch_article, url_identity
+from publisher_discovery import latest_articles
 
 
 # Gulf Business denied all production downloads (HTTP 403). Do not buy links
@@ -234,6 +235,19 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
     return {**report, "status": "ok"}
 
 
+def publisher_fallback(report, seen_urls, now):
+    if report['status'] != 'ok' or report['items']:
+        return report
+    fallback = latest_articles(seen_urls, now)
+    report['publisher_fallback'] = True
+    report['publisher_articles_checked'] = fallback['checked']
+    report['items'] = fallback['items']
+    report['source_rejections'] = report.get('source_rejections', []) + fallback['rejections']
+    report['reason'] = ('Fresh articles from publisher sections' if report['items'] else
+                        'Search and publisher sections yielded no readable fresh articles')
+    return report
+
+
 def search_news(storage_dir, seen_urls=(), now=None, editorial_rejections=()):
     """At most two searches: a daily batch and one feedback-guided replacement."""
     now = now or datetime.now(timezone.utc)
@@ -245,7 +259,7 @@ def search_news(storage_dir, seen_urls=(), now=None, editorial_rejections=()):
     # A successfully consumed batch is not a failed search. Do not buy replacements
     # just because the user published every article from the cached batch.
     if rejections and not editorial_rejections and all(r["reason"] == "already_processed" for r in rejections):
-        return first
+        return publisher_fallback(first, seen_urls, now)
     combined = list(editorial_rejections) + rejections
     feedback = [{"url": r["url"][:500], "reason": r["reason"][:80]} for r in combined[:5]]
     if not feedback:
@@ -257,4 +271,4 @@ def search_news(storage_dir, seen_urls=(), now=None, editorial_rejections=()):
     second["replacement_search"] = True
     second["source_rejections"] = rejections + second.get("source_rejections", [])
     second["discovered_urls"] = first.get("discovered_urls", 0) + second.get("discovered_urls", 0)
-    return second
+    return publisher_fallback(second, seen_urls, now)
