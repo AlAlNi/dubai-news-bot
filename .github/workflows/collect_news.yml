@@ -1,6 +1,10 @@
 name: Dubai News Collector
 
 on:
+  # Validate deployed discovery changes through the normal budget-limited pipeline.
+  push:
+    branches: [main]
+    paths: ['src/openai_news_search.py']
   # Расписание - каждый час
   schedule:
     - cron: '0 * * * *'

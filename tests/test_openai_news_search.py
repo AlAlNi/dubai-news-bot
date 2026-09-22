@@ -19,7 +19,7 @@ URL = "https://www.khaleejtimes.com/uae/dubai-bus-update"
 
 def search_response(urls=None):
     urls = [URL] if urls is None else urls
-    return {"status": "completed", "model": "gpt-6-astra", "usage": {"input_tokens": 500, "output_tokens": 100}, "output": [
+    return {"status": "completed", "model": "gpt-4.1-mini-2025-04-14", "usage": {"input_tokens": 500, "output_tokens": 100}, "output": [
         {"type": "web_search_call", "status": "completed", "action": {
             "type": "search", "sources": [{"type": "url", "url": url} for url in urls]}},
         {"type": "message", "content": [{"type": "output_text", "text": "INVENTED NEWS: 999 free buses",
@@ -56,12 +56,13 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(kwargs["max_attempts"], 1)
         self.assertFalse(kwargs["allow_redirects"])
         self.assertEqual(kwargs["json"]["max_tool_calls"], 1)
-        self.assertEqual(kwargs["json"]["max_output_tokens"], 2000)
+        self.assertEqual(kwargs["json"]["max_output_tokens"], 1000)
         self.assertEqual(kwargs["json"]["tools"][0]["search_context_size"], "low")
-        self.assertIn("mediaoffice.ae", kwargs["json"]["tools"][0]["filters"]["allowed_domains"])
-        self.assertEqual(kwargs["json"]["model"], "gpt-6-astra")
-        self.assertNotIn("temperature", kwargs["json"])
-        self.assertEqual(kwargs["json"]["reasoning"], {"effort": "low"})
+        self.assertNotIn("filters", kwargs["json"]["tools"][0])
+        self.assertNotIn("return_token_budget", kwargs["json"]["tools"][0])
+        self.assertEqual(kwargs["json"]["model"], "gpt-4.1-mini-2025-04-14")
+        self.assertEqual(kwargs["json"]["temperature"], 0)
+        self.assertNotIn("reasoning", kwargs["json"])
         self.assertIn("mediaoffice.ae", kwargs["json"]["instructions"])
         self.assertNotIn("test-key", self.ledger.read_text())
 
@@ -120,7 +121,7 @@ class SearchTests(unittest.TestCase):
 
     def test_monthly_headroom_still_blocks_replacement(self):
         self.response.json.return_value = search_response([])
-        with patch.dict(os.environ, {"OPENAI_MONTHLY_BUDGET_USD": "2.02"}), patch(
+        with patch.dict(os.environ, {"OPENAI_MONTHLY_BUDGET_USD": "0.04"}), patch(
             "openai_news_search.request_with_retry", return_value=self.response
         ) as request:
             result = search_news(self.temp.name, now=NOW)
@@ -157,9 +158,9 @@ class SearchTests(unittest.TestCase):
             search_news(self.temp.name, now=NOW)
             search_news(self.temp.name, now=NOW + timedelta(hours=4))
         month = json.loads(self.ledger.read_text())["months"]["2026-09"]
-        self.assertEqual(month["reserved_microusd"], RESERVATION_MICROUSD + SEARCH_RESERVATION_MICROUSD + 21250)
+        self.assertEqual(month["reserved_microusd"], RESERVATION_MICROUSD + 2 * SEARCH_RESERVATION_MICROUSD)
         self.assertEqual(month["days"]["2026-09-15"]["calls"], 1)
-        self.assertEqual(month["days"]["2026-09-15"]["search_calls"], 1)
+        self.assertEqual(month["days"]["2026-09-15"]["search_calls"], 2)
         with self.assertRaisesRegex(BudgetUnavailable, "search limit"):
             Budget(self.temp.name, NOW).reserve(kind="search")
         Budget(self.temp.name, NOW).reserve()  # Search cap does not disable verification.
@@ -177,8 +178,8 @@ class SearchTests(unittest.TestCase):
             self.assertEqual(search_news(self.temp.name, now=NOW)["status"], "error")
             request.assert_called_once()
         day = json.loads(self.ledger.read_text())["months"]["2026-09"]["days"]["2026-09-15"]
-        self.assertEqual(len(day["astra_requests"]), 1)
-        self.assertEqual(day["reserved_microusd"], ASTRA_RESERVATION_MICROUSD)
+        self.assertEqual(day["search_calls"], 1)
+        self.assertEqual(day["reserved_microusd"], SEARCH_RESERVATION_MICROUSD)
 
     def test_invalid_search_limits_disabled_search_and_absent_key(self):
         for config, status in [({"OPENAI_MAX_SEARCHES_PER_DAY": "3"}, "deferred"),
@@ -204,8 +205,29 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(discovered_urls(search_response([URL, "https://example.com/fake",
             "https://khaleejtimes.com.evil.example/fake", "http://127.0.0.1/"])), [URL])
 
+    def test_blocked_publisher_listing_and_single_domain_do_not_fill_batch(self):
+        urls = ["https://gulfbusiness.com/en/news/story", "https://www.thenationalnews.com/tags/transport/",
+                "https://rta.ae/report.pdf", URL, URL + "-2", URL + "-3",
+                "https://mediaoffice.ae/en/news/dubai-story", "https://gulfnews.com/uae/dubai-story"]
+        self.assertEqual(discovered_urls(search_response(urls)), [URL, URL + "-2", urls[-2], urls[-1]])
 
-class AstraIntegrationTests(unittest.TestCase):
+    def test_mini_can_search_with_existing_astra_spend_without_reset(self):
+        prior = Budget(self.temp.name, NOW - timedelta(days=1))
+        reservation = prior.reserve("astra_search")
+        prior.settle_astra(reservation, {"model": "gpt-6-astra", "status": "completed",
+                           "usage": {"input_tokens": 80000, "output_tokens": 1000}})
+        before = json.loads(self.ledger.read_text())["months"]["2026-09"]["reserved_microusd"]
+        self.assertGreater(before, 1000000)  # Less than $2 remains: Astra cannot reserve again.
+        with patch("openai_news_search.request_with_retry", return_value=self.response), patch(
+            "openai_news_search.fetch_article", return_value=self.article
+        ):
+            self.assertEqual(search_news(self.temp.name, now=NOW)["items"], [self.article])
+        after = Budget(self.temp.name, NOW).read()["months"]["2026-09"]
+        self.assertEqual(after["reserved_microusd"], before + SEARCH_RESERVATION_MICROUSD)
+        self.assertIn(reservation, after["days"]["2026-09-14"]["astra_requests"])
+
+
+class DiscoveryIntegrationTests(unittest.TestCase):
     def run_collector(self, rss_item=None, ready_drafts=None):
         article = {"title": "RTA bus routes in Dubai", "description": "Actual dated source article.", "link": URL}
         draft = {"title": article["title"], "source_urls": [URL], "method": "openai_web_search"}
@@ -227,13 +249,13 @@ class AstraIntegrationTests(unittest.TestCase):
             reserve.assert_not_called()
             return result, search.call_count
 
-    def test_astra_is_primary_and_result_uses_normal_processing(self):
+    def test_mini_is_primary_and_result_uses_normal_processing(self):
         result, count = self.run_collector()
         self.assertTrue(result["new_draft"])
         self.assertEqual(count, 1)
         self.assertEqual(result["openai_search_calls"], 1)
 
-    def test_even_available_rss_does_not_replace_astra(self):
+    def test_even_available_rss_does_not_replace_mini(self):
         result, count = self.run_collector(rss_item={"title": "RSS news"})
         self.assertTrue(result["new_draft"])
         self.assertEqual(count, 1)
