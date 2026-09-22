@@ -10,7 +10,7 @@ from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
 from openai_budget import Budget, BudgetUnavailable, RESERVATION_MICROUSD, SEARCH_RESERVATION_MICROUSD, ASTRA_RESERVATION_MICROUSD
-from openai_news_search import discovered_urls, search_news
+from openai_news_search import discovered_urls, search_news, discovery_input
 import rss_collect
 
 NOW = datetime(2026, 9, 15, 10, tzinfo=timezone.utc)
@@ -28,6 +28,19 @@ def search_response(urls=None):
 
 
 class SearchTests(unittest.TestCase):
+    def test_queries_use_dubai_dates_across_year_boundary_and_distinct_topics(self):
+        now = datetime(2026, 12, 31, 22, tzinfo=timezone.utc)
+        primary = discovery_input(now)
+        replacement = discovery_input(now, replacement=True)
+        for prompt in (primary, replacement):
+            self.assertIn('01 January 2027', prompt)
+            self.assertIn('2026-12-30T02:00:00+04:00', prompt)
+            self.assertIn('after:2026-12-29 before:2027-01-02', prompt)
+            self.assertIn('Crawl dates and event dates are not publication dates', prompt)
+        self.assertIn('site:gulfnews.com', primary)
+        self.assertIn('site:thenationalnews.com', replacement)
+        self.assertNotEqual(primary, replacement)
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
@@ -64,6 +77,8 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(kwargs["json"]["temperature"], 0)
         self.assertNotIn("reasoning", kwargs["json"])
         self.assertIn("mediaoffice.ae", kwargs["json"]["instructions"])
+        self.assertIn('Use this query in the single web search:', kwargs['json']['input'])
+        self.assertIn('after:2026-09-12 before:2026-09-16', kwargs['json']['input'])
         self.assertNotIn("test-key", self.ledger.read_text())
 
     def test_identical_dubai_day_uses_cache_and_filters_seen_links(self):
