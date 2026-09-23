@@ -1012,5 +1012,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_9795f2200f"
     }
+  },
+  "7d5cda5b5efeda8f10cf0fb154dfc3d5f0c23527ab5b590cffcc80f544a9c4d9": {
+    "saved_at": "2026-09-23T12:25:29.597537+00:00",
+    "result": {
+      "id": "chatcmpl-ERGKG33PSnuzXUItmrqLG8isNTReG",
+      "object": "chat.completion",
+      "created": 1790166320,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Legoland Dubai Resort начинает новый сезон 7 октября.\",\"supported\":true,\"evidence\":\"Legoland Dubai Resort starts its new season on 7 October\"},{\"claim\":\"В этот же день стартуют новое звукосветовое шоу в Miniland и празднование Хэллоуина.\",\"supported\":true,\"evidence\":\"with a brand-new sound-and-light show at Miniland and Halloween celebrations beginning the same day\"},{\"claim\":\"Время начала совпадает с октябрьскими школьными каникулами.\",\"supported\":true,\"evidence\":\"The timing lines up with the October school break\"},{\"claim\":\"Курорт ориентируется на семьи с детьми от двух до 12 лет под темой «Connecting Through Play».\",\"supported\":true,\"evidence\":\"the resort is pitching the season at families with children aged two to 12, under the theme \\\"Connecting Through Play\\\"\"},{\"claim\":\"Курорт расположен на шоссе Шейха Зайда напротив Palm Jebel Ali.\",\"supported\":true,\"evidence\":\"Legoland Dubai Resort, Sheikh Zayed Road, opposite Palm Jebel Ali\"},{\"claim\":\"Цена билета — 295 дирхамов онлайн, 330 дирхамов у входа.\",\"supported\":true,\"evidence\":\"Price: Dh295 online, Dh330 at the gate\"},{\"claim\":\"Активности включены в дневной билет; еда, напитки и покупки оплачиваются отдельно.\",\"supported\":true,\"evidence\":\"Activities are included in the day ticket; food, drinks and retail cost extra\"},{\"claim\":\"Главное новшество — звукосветовое шоу в Miniland, крытой зоне с кондиционированием, построенной из 20 млн деталей Lego.\",\"supported\":true,\"evidence\":\"a sound-and-light show at Miniland, the indoor, air-conditioned area built from 20 million Lego bricks\"},{\"claim\":\"Там находится 17-метровый Lego-Бурдж-Халифа — самая высокая модель Miniland в мире, а также воссозданные виды Дубая и достопримечательности региона и других мест.\",\"supported\":true,\"evidence\":\"Miniland is home to a 17-metre Lego Burj Khalifa, the tallest Miniland model anywhere in the world, alongside recreations of Dubai's skyline and landmarks from around the region and beyond\"},{\"claim\":\"Шоу будет проходить ежедневно с момента открытия сезона.\",\"supported\":true,\"evidence\":\"The new show ... will run daily from the season launch\"},{\"claim\":\"Хэллоуин в Legoland Dubai Resort также начинается 7 октября и продлится до 2 ноября.\",\"supported\":true,\"evidence\":\"Halloween at Legoland Dubai Resort also begins on 7 October ... It runs until 2 November\"},{\"claim\":\"Дополнительные детали обещают объявить позже.\",\"supported\":true,\"evidence\":\"Further details are due to be announced\"},{\"claim\":\"В аквапарке Legoland Water Park на старте доступные аттракционы ориентированы на детей примерно до семи лет, включая Duplo Splash Safari, Lazy River и Joker Soaker.\",\"supported\":true,\"evidence\":\"At launch, the attractions available lean towards younger children, roughly seven and under, including the Duplo Splash Safari, the Lazy River and the Joker Soaker\"},{\"claim\":\"На последние месяцы 2026 года запланированы несколько дополнений, даты пока не подтверждены: переосмысленный Factory Experience, интерактивная Master Model Builder Academy, а в аквапарке — The Wave, интерактивная водная площадка для младших детей.\",\"supported\":true,\"evidence\":\"Several additions are planned for the final months of 2026, with dates still to be confirmed. A reimagined Factory Experience and an interactive Master Model Builder Academy are both in the works. The water park will get The Wave, an interactive splash pad aimed at younger children\"},{\"claim\":\"В Legoland Hotel обновляют номера в стиле Lego Friends.\",\"supported\":true,\"evidence\":\"Over at Legoland Hotel, the Lego Friends-themed rooms are being upgraded\"},{\"claim\":\"Генеральный менеджер Legoland Dubai Resort Тим Харрисон-Джонс заявил, что команда готовилась месяцами.\",\"supported\":true,\"evidence\":\"Tim Harrison-Jones, general manager of Legoland Dubai Resort, said the team had been preparing for months\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1432,
+        "completion_tokens": 915,
+        "total_tokens": 2347,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
   }
 }
