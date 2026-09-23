@@ -1,160 +1,4 @@
 {
-  "178dba3b3da4700a7d80aa3bb36be073b2eb9fbfe3d90e9567327334556fda73": {
-    "saved_at": "2026-09-15T21:38:10.289802+00:00",
-    "result": {
-      "id": "chatcmpl-EOV8rAtzJexUXr9VW0JWCVS45hpc7",
-      "object": "chat.completion",
-      "created": 1789508289,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Дубай проведёт стратегические учения на вертипорте воздушного такси 16 сентября\",\"supported\":true,\"evidence\":\"Dubai to conduct strategic drill for emergencies at Aerial Taxi Vertiport on Sept 16\"},{\"claim\":\"В Дубае 16 сентября проведут стратегические учения по чрезвычайным ситуациям на вертипорте воздушного такси\",\"supported\":true,\"evidence\":\"Dubai to conduct strategic drill for emergencies at Aerial Taxi Vertiport on Sept 16\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 717,
-        "completion_tokens": 129,
-        "total_tokens": 846,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "5ad2450c570161762f640ec32769c32920b9428033c8701cbf80fa1cbd63209d": {
-    "saved_at": "2026-09-15T23:17:46.491190+00:00",
-    "result": {
-      "id": "chatcmpl-EOWhDEiJh2zevFWAbwbE3prOmEPHt",
-      "object": "chat.completion",
-      "created": 1789514263,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":false,\"reason\":\"The Russian post translates and paraphrases the source title and text but adds details not present in the source, such as 'продлил его' (renewed it) and 'всего за 8 минут' (in just 8 minutes) as a fact, and the phrase 'предпоследних паспортных страхов' (penultimate passport fears) which is not in the source. The source title states 'then Dubai Airport (DBX) renewed it in just 8 minutes; here’s how the little-known service works' but the text snippet does not confirm the renewal or the 8 minutes duration as fact, only the title mentions it. The Russian post also omits the explanation 'here’s how the little-known service works' and adds 'предпоследних паспортных страхов' which is not in the source. Therefore, not all claims are fully supported by the source text provided.\",\"claims\":[{\"claim\":\"Паспорт истёк перед рейсом\",\"supported\":true,\"evidence\":\"His passport had expired before his flight\"},{\"claim\":\"аэропорт Дубая (DBX) продлил его всего за 8 минут\",\"supported\":true,\"evidence\":\"then Dubai Airport (DBX) renewed it in just 8 minutes\"},{\"claim\":\"вот как работает малоизвестная услуга\",\"supported\":true,\"evidence\":\"here’s how the little-known service works\"},{\"claim\":\"Эмиратский путешественник (X)\",\"supported\":true,\"evidence\":\"Emirati Traveller (X)\"},{\"claim\":\"Представьте: вы приезжаете в аэропорт для международной поездки и обнаруживаете, что срок действия вашего паспорта только что истёк\",\"supported\":true,\"evidence\":\"Imagine reaching the airport for your international trip and releasing that your passport just expired!\"},{\"claim\":\"Это один из самых больших предпоследних паспортных страхов, способных сорвать международную поездку\",\"supported\":false,\"evidence\":\"No such phrase or claim in source\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 587,
-        "completion_tokens": 419,
-        "total_tokens": 1006,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "03c4478401cca4f4dce7553445040da19e48efd91df9e8b71d028b7279772f8d": {
-    "saved_at": "2026-09-15T23:18:02.045864+00:00",
-    "result": {
-      "id": "chatcmpl-EOWhUFx8xCB8Uf1fWVpOfnFmIFZfT",
-      "object": "chat.completion",
-      "created": 1789514280,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Dubai real estate ranks 17th globally for transparency in 2026.\",\"supported\":true,\"evidence\":\"Dubai real estate ranks 17th globally for transparency in 2026\"},{\"claim\":\"Dubai real estate transparency ranking rose by 11 places in two years.\",\"supported\":true,\"evidence\":\"up 11 places in two years\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 861,
-        "completion_tokens": 93,
-        "total_tokens": 954,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "1f07ac0b7314c7ec80e842d115d88de8033106b39b3b69c2fb98c36723821bb3": {
-    "saved_at": "2026-09-16T06:27:36.265886+00:00",
-    "result": {
-      "id": "chatcmpl-EOdPDEOu0fk0mHJf1txwAUUDFgDPC",
-      "object": "chat.completion",
-      "created": 1789540055,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"Гражданин ОАЭ обнаружил, что паспорт истекает за день до поездки\",\"supported\":true,\"evidence\":\"An Emirati traveller facing a last-minute passport problem before an international trip\"},{\"claim\":\"В Дубае вопрос решили за 8 минут\",\"supported\":true,\"evidence\":\"a new passport in just eight minutes\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 526,
-        "completion_tokens": 98,
-        "total_tokens": 624,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
   "7049b2ecf24bd11cf1df86b4b05f08f40cd95e66b9ab793e7550f874e5d718d9": {
     "saved_at": "2026-09-16T13:51:00.193498+00:00",
     "result": {
@@ -1115,6 +959,45 @@
         "prompt_tokens": 1703,
         "completion_tokens": 1280,
         "total_tokens": 2983,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
+  },
+  "5280374f7de22c1648ed56e0b697beb0657071e8f93e6cf08e0a86121f45dc4f": {
+    "saved_at": "2026-09-23T06:55:22.938244+00:00",
+    "result": {
+      "id": "chatcmpl-ERBAsIVZaLISXaXbl8Q1KnNjOAiVO",
+      "object": "chat.completion",
+      "created": 1790146518,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае водители сталкиваются с серьёзными замедлениями в районе Международного аэропорта Дубая: движение затруднено на Al Garhoud Road и рядом со штаб-квартирой Emirates Group.\",\"supported\":true,\"evidence\":\"motorists are experiencing significant slowdowns around Dubai International Airport, with traffic backing up along Al Garhoud Road and near the Emirates Group Headquarters\"},{\"claim\":\"Сильные пробки отмечаются в промышленном районе Ras Al Khor, Dubai Festival City и на участке, связывающем Al Rashidiya с City Centre Mirdif и Etihad Mall.\",\"supported\":true,\"evidence\":\"The Ras Al Khor Industrial Area, Dubai Festival City, and the stretch linking Al Rashidiya to City Centre Mirdif and Etihad Mall are all showing heavy congestion\"},{\"claim\":\"Затруднено движение и в сторону Al Warqa, Al Mizhar и Nad Al Sheba.\",\"supported\":true,\"evidence\":\"drivers heading towards Al Warqa, Al Mizhar and Nad Al Sheba are also being held up\"},{\"claim\":\"Западнее пробки накапливаются на Sheikh Zayed Road рядом с Al Barsha First и Jumeirah Village Circle, красные и янтарные участки появляются на E11 и E311 при движении через Dubai Sports City в сторону Al Furjan и Arabian Ranches.\",\"supported\":true,\"evidence\":\"traffic is building along Sheikh Zayed Road near Al Barsha First and Jumeirah Village Circle, with red and amber sections appearing on the E11 and E311 as commuters move through Dubai Sports City and towards Al Furjan and Arabian Ranches\"},{\"claim\":\"В Шардже движение почти стоит на Al Ittihad Street и Al Wahda Street, плотные красные участки образуются рядом с Sahara Centre, Al Nahda и промышленным районом Al Qusais.\",\"supported\":true,\"evidence\":\"In Sharjah, traffic is crawling along Al Ittihad Street and Al Wahda Street, with heavy red patches building up near Sahara Centre, Al Nahda, and the Al Qusais Industrial Area\"},{\"claim\":\"Машины скапливаются в промышленных зонах 2, 3, 6, 10, 15 и 17, а также вокруг Университета Шарджи, Muwaileh Commercial, City Centre Al Zahia и Safari Mall Sharjah.\",\"supported\":true,\"evidence\":\"Vehicles are backing up through Industrial Areas 2, 3, 6, 10, 15 and 17, as well as around the University of Sharjah, Muwaileh Commercial, City Centre Al Zahia and Safari Mall Sharjah\"},{\"claim\":\"Коридор, соединяющий Al Mamzar Beach Park и Al Khan на набережной, также показывает медленное движение, которое переходит в Deira и Abu Hail на стороне Дубая.\",\"supported\":true,\"evidence\":\"The corridor connecting Al Mamzar Beach Park and Al Khan on the Corniche is also seeing slow-moving traffic, spilling over into Deira and Abu Hail on the Dubai side\"},{\"claim\":\"Власти советуют водителям закладывать дополнительное время на поездку утром, соблюдать безопасную дистанцию и следить за переменными ограничениями скорости на электронных дорожных знаках.\",\"supported\":true,\"evidence\":\"Authorities are advising motorists to factor in extra travel time this morning, maintain safe following distances, and remain alert to variable speed limits displayed on electronic road signs\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1144,
+        "completion_tokens": 749,
+        "total_tokens": 1893,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
