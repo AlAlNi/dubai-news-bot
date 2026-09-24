@@ -297,5 +297,32 @@
     "strict_hash": "8e3c6f3bb390c0c5ffd7cc834747ef6e",
     "fuzzy_hash": "d2b6b345cd89eb4dcb27f98d57fc6553",
     "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
+  },
+  {
+    "url": "https://gulfnews.com/business/aviation/air-india-flydubai-tie-up-opens-52-more-destinations-via-dubai-1.500686930",
+    "timestamp": "2026-09-24T17:46:21.490950+00:00",
+    "status": "rejected",
+    "content_hash": "18d7e04afb1d9ba260df4d1c57253f3f",
+    "strict_hash": "18d7e04afb1d9ba260df4d1c57253f3f",
+    "fuzzy_hash": "1040587e259ca229ea8a549c62df8a93",
+    "reason": "Новость связана с Дубаем (flydubai, хаб в Дубае) и полезна для русскоязычных жителей, но текст выглядит как переработанный пресс-релиз/агрегация без явной общественно значимой ценности и с признаками кликбейт-набора заголовков."
+  },
+  {
+    "url": "https://gulfnews.com/uae/indian-expat-businesswoman-in-dubai-held-at-kerala-airport-over-alleged-visa-fraud-1.500686716",
+    "timestamp": "2026-09-24T17:46:22.936769+00:00",
+    "status": "rejected",
+    "content_hash": "8a09a58a774b652dcfaaae806af149c9",
+    "strict_hash": "8a09a58a774b652dcfaaae806af149c9",
+    "fuzzy_hash": "76d17b21c7016accdd20247fb60850d2",
+    "reason": "Новость касается жительницы Дубая и связана с ОАЭ, но её основная тема — уголовное дело, арест и обвинения в мошенничестве с визами, что не является полезной или уместной для новостного канала о Дубае и может восприниматься как криминальная/негативная история без общественно значимой ценности для аудитории."
+  },
+  {
+    "url": "https://gulfnews.com/sport/nba-legend-tristan-thompson-on-new-role-at-dubai-basketball-1.500686541",
+    "timestamp": "2026-09-24T17:46:22.938746+00:00",
+    "status": "rejected",
+    "content_hash": "af8996717303a2de9255d31620609f47",
+    "strict_hash": "af8996717303a2de9255d31620609f47",
+    "fuzzy_hash": "18457e1afcf27e7a3e4ca38044bdb847",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
   }
 ]
