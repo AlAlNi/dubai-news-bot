@@ -4,10 +4,31 @@ import unittest
 from unittest.mock import patch
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "src"))
-from post_style import format_summary, headline_only, clean_editorial_text, incomplete_excerpt
+from post_style import format_summary, headline_only, clean_editorial_text, incomplete_excerpt, compact_summary
 
 
 class PostStyleTests(unittest.TestCase):
+    def test_telegram_quote_and_italic_survive_cleaning_without_attributes(self):
+        text = '<b>Новости</b>\n\n<blockquote class="bad">«Открытие <b>запланировано</b>» — RTA.</blockquote>\n\n<i>Срок может измениться.</i>'
+        result = format_summary(clean_editorial_text(format_summary(text)))
+        self.assertIn('<blockquote>«Открытие <b>запланировано</b>» — RTA.</blockquote>', result)
+        self.assertIn('<i>Срок может измениться.</i>', result)
+        self.assertNotIn('class=', result)
+
+    def test_compact_preserves_whole_quote_and_never_splits_html(self):
+        lead = '<b>Новости</b>\n\nОткрытие запланировано, срок не подтверждён.'
+        quote = '<blockquote>«Мы готовимся.\n\nДата пока неизвестна», — RTA.</blockquote>'
+        result = compact_summary(lead + '\n\n' + quote + '\n\n' + 'Подробности. ' * 100, 130)
+        self.assertIn('срок не подтверждён', result)
+        self.assertIn('<blockquote>', result)
+        self.assertTrue(result.endswith('</blockquote>'))
+        self.assertNotIn('Подробности', result)
+
+    def test_oversized_first_paragraph_cannot_become_heading_only_post(self):
+        import rss_collect
+        result = rss_collect.ensure_summary_quality('<b>Новости Дубая</b>\n\n' + 'длинный текст ' * 100 + '.', '', '')
+        self.assertTrue(rss_collect.is_fallback_summary(result))
+
     def test_repeats_and_scaffolding_removed_but_attribution_preserved(self):
         text = ('<b>В Дубае открыли музей</b>\n\nВ Дубае открыли музей. '
                 'По данным RTA, движение начнётся в ноябре.\n\n'
