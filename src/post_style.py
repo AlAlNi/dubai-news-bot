@@ -11,7 +11,7 @@ class PostHTML(HTMLParser):
         self.stack = []
 
     def handle_starttag(self, tag, attrs):
-        if tag in {"b", "code"}:
+        if tag in {"b", "i", "code", "blockquote"}:
             self.parts.append(f"<{tag}>")
             self.stack.append(tag)
         elif tag in {"br", "p", "div", "li"}:
@@ -50,6 +50,24 @@ def format_summary(text):
 
 def headline_only(text):
     return bool(re.fullmatch(r"<b>[^<]+</b>", text.strip(), re.S))
+
+
+def compact_summary(text, limit=900):
+    """Keep complete paragraphs before fact verification; never slice HTML or a quote."""
+    def visible(value):
+        return len(unescape(re.sub(r'<[^>]*>', '', value)))
+    if visible(text) <= limit:
+        return text
+    # Blank lines inside a quote are not paragraph boundaries.
+    text = re.sub(r'<blockquote>.*?</blockquote>',
+                  lambda m: re.sub(r'\n\s*\n', '\n', m.group()), text, flags=re.S)
+    kept = []
+    for paragraph in re.split(r'\n\s*\n', text):
+        candidate = '\n\n'.join([*kept, paragraph])
+        if visible(candidate) > limit:
+            break
+        kept.append(paragraph)
+    return '\n\n'.join(kept)
 
 
 def incomplete_excerpt(text):
