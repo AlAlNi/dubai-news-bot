@@ -1,121 +1,4 @@
 {
-  "9836f282249065892a03db1015a0acb17843e1fe3de6a659396e16de35ddbaba": {
-    "saved_at": "2026-09-16T20:20:43.040953+00:00",
-    "result": {
-      "id": "chatcmpl-EOqPS5K3WG0ZA8tsDEHtH6iWoctDr",
-      "object": "chat.completion",
-      "created": 1789590042,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Potential Dubai property buyers expect prices to fall.\",\"supported\":true,\"evidence\":\"Prospective Dubai property buyers expect prices to fall\"},{\"claim\":\"71% of potential buyers still plan to purchase.\",\"supported\":true,\"evidence\":\"71% still plan to purchase\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 561,
-        "completion_tokens": 80,
-        "total_tokens": 641,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "8770f94089f07864122d0f59a4a5a4e6c582945965b2cc54584180bf087f2422": {
-    "saved_at": "2026-09-16T23:09:46.732918+00:00",
-    "result": {
-      "id": "chatcmpl-EOt33xqUk5NItIDzgKcHQ6wD4O3ir",
-      "object": "chat.completion",
-      "created": 1789600185,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"Two Dubai hotels have made it to the top 15 of the World's 50 Best Hotels ranking.\",\"supported\":true,\"evidence\":\"Two Dubai hotels have made it to the top 15 of the World's 50 Best Hotels ranking\"},{\"claim\":\"Atlantis The Royal climbed to fourth place from sixth last year.\",\"supported\":true,\"evidence\":\"Atlantis The Royal climbing to fourth place from sixth last year\"},{\"claim\":\"The Palm Jumeirah resort was once again named the Best Hotel in the Middle East.\",\"supported\":true,\"evidence\":\"The Palm Jumeirah resort was once again named the Best Hotel in the Middle East\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 532,
-        "completion_tokens": 155,
-        "total_tokens": 687,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "94dbc068e0c102c6aec4eeaab71da07af94608c31725f8e4a5a7f7531289f0a2": {
-    "saved_at": "2026-09-17T01:36:41.825906+00:00",
-    "result": {
-      "id": "chatcmpl-EOvLE4NDaM65UhUvmQrchejMnBrVP",
-      "object": "chat.completion",
-      "created": 1789609000,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Dubai approved a new 12-lane motorway 80 km long linking Sharjah and Abu Dhabi\",\"supported\":true,\"evidence\":\"Dubai has approved a new 80km motorway connecting the emirate to Sharjah and Abu Dhabi\"},{\"claim\":\"The first phase will cost Dh3.5 billion\",\"supported\":true,\"evidence\":\"The first phase, which will cost Dh3.5 billion\"},{\"claim\":\"The motorway is expected to cut travel times by up to 60 per cent\",\"supported\":true,\"evidence\":\"is expected to cut travel times by up to 60 per cent\"},{\"claim\":\"The motorway will strengthen connections\",\"supported\":true,\"evidence\":\"and strengthen connecti...\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 556,
-        "completion_tokens": 168,
-        "total_tokens": 724,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
   "a45651f9341c40ca06cfbca3a8814f8a80f9678a1451074f3a5f0e495e699e49": {
     "saved_at": "2026-09-17T02:18:02.485059+00:00",
     "result": {
@@ -1050,6 +933,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_dc7caa3f28"
+    }
+  },
+  "1f49e0cd1ee16e7bb49f4c5161f75891da7d61460a597237c45d79b895edbebb": {
+    "saved_at": "2026-09-24T02:05:51.355111+00:00",
+    "result": {
+      "id": "chatcmpl-ERT8Ci737LtzvVlWxlXOSHd85x7ms",
+      "object": "chat.completion",
+      "created": 1790215544,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Shop worker in Abu Dhabi won $1 million in Dubai Duty Free Millennium Millionaire draw on Wednesday.\",\"supported\":true,\"evidence\":\"A shop worker in Abu Dhabi ... won $1 million (Dh3.67 million) in the Dubai Duty Free Millennium Millionaire draw on Wednesday.\"},{\"claim\":\"His name is Saravanan Malairaj, 36 years old.\",\"supported\":true,\"evidence\":\"Saravanan Malairaj, 36, said the windfall...\"},{\"claim\":\"He left Chennai 17 years ago to support his family.\",\"supported\":true,\"evidence\":\"A shop worker in Abu Dhabi , who left Chennai 17 years ago to support his family...\"},{\"claim\":\"He has twins, a boy and a girl aged four.\",\"supported\":true,\"evidence\":\"...help him secure a better future for his twins, a boy and a girl aged four...\"},{\"claim\":\"Dubai Duty Free informed him of his win at 12:15 pm.\",\"supported\":true,\"evidence\":\"Dubai Duty Free informed him of his win at 12.15pm...\"},{\"claim\":\"He had not informed his family in India before speaking to The National due to nervousness and disbelief.\",\"supported\":true,\"evidence\":\"...but out of nervousness and disbelief, he had not informed his family in India before speaking to The National.\"},{\"claim\":\"Life had been difficult in Chennai and he sold family land to help pay for his sister's marriage before leaving India in 2009.\",\"supported\":true,\"evidence\":\"The jackpot winner said life had been difficult in Chennai and that he sold family land to help pay for his sister's marriage before leaving India in 2009...\"},{\"claim\":\"He currently earns Dh8,000 a month working at a shop selling construction equipment.\",\"supported\":true,\"evidence\":\"He currently earns Dh8,000 a month working at the shop selling construction equipment.\"},{\"claim\":\"He plans to invest the prize money in his children's education, hopes to return to India eventually, and wants to own a shop in Tamil Nadu.\",\"supported\":true,\"evidence\":\"Mr Malairaj plans to invest the prize money in his children's education. He hopes to return to India eventually... He also aims to own a shop in Tamil Nadu, India.\"},{\"claim\":\"Bhanu Sobhani, 40, Dubai resident and textile factory owner, also won $1 million in the same draw.\",\"supported\":true,\"evidence\":\"Bhanu Sobhani, 40, a Dubai resident, and textile factory owner, won in Series 557...\"},{\"claim\":\"Sobhani bought the ticket just before traveling to Poland for business.\",\"supported\":true,\"evidence\":\"...with a ticket bought just before travelling to Poland for business.\"},{\"claim\":\"Sobhani has lived in Dubai for 10 years and participated in Dubai Duty Free's promotion since 2021.\",\"supported\":true,\"evidence\":\"A Dubai resident for 10 years, Mr Sobhani has regularly participated in Dubai Duty Free's promotion since 2021.\"},{\"claim\":\"Sobhani is father of two and plans to invest part of winnings in property and donate a portion to charity.\",\"supported\":true,\"evidence\":\"The father of two said... He plans to invest part of his winnings in property and donate a portion to charity.\"},{\"claim\":\"Malairaj and Sobhani are the 283rd and 284th Indian citizens to win $1 million in the Millennium Millionaire promotion since 1999.\",\"supported\":true,\"evidence\":\"Mr Malairaj and Mr Sobhani are the 283rd and 284th Indian citizens to win $1 million in the Millennium Millionaire promotion since it began in 1999...\"},{\"claim\":\"Shailesh Kumar won a Range Rover SE P360 in the latest draw.\",\"supported\":true,\"evidence\":\"Shailesh Kumar also won big in the latest draw, landing a Range Rover SE P360.\"},{\"claim\":\"Kumar, 47, Dubai resident since 2012, has participated in the promotion for eight years, works as insurance manager, and called the car his dream car.\",\"supported\":true,\"evidence\":\"A Dubai resident since 2012, Mr Kumar, 47, has been participating in Dubai Duty Free's promotion for eight years... The father of two works as an insurance manager. “This is my dream car...”\"},{\"claim\":\"Sajjad Siddiqui, 47, Indian based in Riyadh, won a BMW R12 GS motorbike.\",\"supported\":true,\"evidence\":\"Sajjad Siddiqui, 47, an Indian based in Riyadh, won a BMW R12 GS motorbike.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1623,
+        "completion_tokens": 980,
+        "total_tokens": 2603,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_33e21cda63"
     }
   }
 }
