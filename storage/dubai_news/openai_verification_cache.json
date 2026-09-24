@@ -1,121 +1,4 @@
 {
-  "a45651f9341c40ca06cfbca3a8814f8a80f9678a1451074f3a5f0e495e699e49": {
-    "saved_at": "2026-09-17T02:18:02.485059+00:00",
-    "result": {
-      "id": "chatcmpl-EOvzF88EyxE91Z9oEqz1nXttVmnTc",
-      "object": "chat.completion",
-      "created": 1789611481,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Dubai launches two new sustainability courses for tourism and hospitality sector\",\"supported\":true,\"evidence\":\"Dubai launches two new sustainability courses for tourism, hospitality sector\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 609,
-        "completion_tokens": 56,
-        "total_tokens": 665,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "27d78214a3abba7182eb307dad786292397d21fa9c72482b3ab534de91784cf0": {
-    "saved_at": "2026-09-17T08:07:47.653558+00:00",
-    "result": {
-      "id": "chatcmpl-EP1RhTRZnaLICasN9oOB9FDyl8bpU",
-      "object": "chat.completion",
-      "created": 1789632465,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Etihad Airways предлагает бесплатное проживание в отеле в регионе Аль-Айн\",\"supported\":true,\"evidence\":\"Etihad Airways can now also redeem a complimentary hotel stay in the Al Ain Region.\"},{\"claim\":\"Гости, следующие транзитом через международный аэропорт Заид в Абу-Даби, теперь могут также получить бесплатное проживание в отеле в регионе Аль-Айн\",\"supported\":true,\"evidence\":\"Guests connecting through Abu Dhabi’s Zayed International Airport with Etihad Airways can now also redeem a complimentary hotel stay in the Al Ain Region.\"},{\"claim\":\"Программа бесплатной остановки расширена и теперь включает регион Аль-Айн\",\"supported\":true,\"evidence\":\"Etihad Airways is giving travellers another reason to extend their stay in the capital with its free stopover programme now including the Al Ain Region.\"},{\"claim\":\"Расширенная программа запущена в партнёрстве\",\"supported\":true,\"evidence\":\"The expanded programme, launched in partnership\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 548,
-        "completion_tokens": 227,
-        "total_tokens": 775,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "9a511456e3478ffc6aee07c7f5b3a6e3f2396eae50106dd1bd5e40a1a9fc8ea5": {
-    "saved_at": "2026-09-17T08:08:10.013337+00:00",
-    "result": {
-      "id": "chatcmpl-EP1S48nl2rBx7xdYsFLhvCOfY7LTw",
-      "object": "chat.completion",
-      "created": 1789632488,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Night swims are suitable for cooling off after work or starting the weekend.\",\"supported\":true,\"evidence\":\"Ideal for cooling off after work or starting your weekend\"},{\"claim\":\"Night swims offer views of the skyline and sea, cool waters, and laid-back glamour characteristic of the emirate's warmer months.\",\"supported\":true,\"evidence\":\"night swims offer spectacular skyline and sea views, cool waters, and the laid-back glamour that defines the emirate’s warmer months\"},{\"claim\":\"Dubai does not limit outdoor pools to winter and is always a step ahead in activities like night swimming.\",\"supported\":true,\"evidence\":\"Without limiting outdoor pools to winter, Dubai is always a step ahead when it comes to enjoying outdoor activities such as a night swim\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 534,
-        "completion_tokens": 174,
-        "total_tokens": 708,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
   "9fe38a5889e452ef905a73cf761bd0e6bbcdfb9cab02790f0c77a153334166ac": {
     "saved_at": "2026-09-17T20:43:16.171709+00:00",
     "result": {
@@ -959,6 +842,84 @@
         "prompt_tokens": 1623,
         "completion_tokens": 980,
         "total_tokens": 2603,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_33e21cda63"
+    }
+  },
+  "eafee7599d1a8699ada00ed8f16a74341da520d2442902de9e372357b2c02bb6": {
+    "saved_at": "2026-09-24T13:00:27.135843+00:00",
+    "result": {
+      "id": "chatcmpl-ERdLfvm7RHaoK0rJZij93qf5T5Etz",
+      "object": "chat.completion",
+      "created": 1790254819,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"До 30 сентября в Дубае действует официальный период траура, рекомендуется уточнять детали у устроителей мероприятий.\",\"supported\":true,\"evidence\":\"Dubai is observing an official mourning period until Wednesday 30 September, so it is worth checking with organisers before heading out this week.\"},{\"claim\":\"В пятницу открывается первый в Дубае фестиваль корейской культуры K-Fest, который продлится 10 дней под темой «Discover Korea in Dubai».\",\"supported\":true,\"evidence\":\"K-Fest runs for 10 days across the city under the theme \\\"Discover Korea in Dubai\\\"\"},{\"claim\":\"В Festival Bay в 19:30 стартует шоу IMAGINE, а с 20:00 — бесплатный концерт с участием Квон Ынби (экс-IZ*ONE) и бойз-бэнда ONEUS.\",\"supported\":true,\"evidence\":\"Friday opens at Festival Bay with the IMAGINE Show at 7.30pm, followed by a concert from 8pm headlined by Kwon Eunbi, formerly of IZ*ONE, and boy band ONEUS\"},{\"claim\":\"В субботу в Festival Bay с 20:00 выступят корейские танцоры AIKI и Choi Young-jun.\",\"supported\":true,\"evidence\":\"Saturday brings a second free show at the same venue from 8pm, with Korean dancers AIKI and Choi Young-jun.\"},{\"claim\":\"26 сентября, суббота: рынок ARTE, The Maker's Market в Times Square Center, 10:00–19:00, вход свободный.\",\"supported\":true,\"evidence\":\"ARTE takes over Times Square Center with local artisans... When: Saturday 26 September, 10am to 7pm... Price: Free entry\"},{\"claim\":\"27 сентября, воскресенье: The Ripe Market, 10:00–19:00, вход свободный.\",\"supported\":true,\"evidence\":\"The Ripe Market arrives... When: Sunday 27 September, 10am to 7pm Price: Free entry\"},{\"claim\":\"Распродажа косметики Apotheca в Crowne Plaza Dubai Jumeirah: 24 сентября 14:00–19:00, с 25 по 27 сентября 10:00–19:00, цены от Dh5.\",\"supported\":true,\"evidence\":\"Apotheca's beauty warehouse sale... It opens today with a shorter afternoon session, then runs full days from Friday through Sunday. Prices start at Dh5. When: Thursday 24 September, 2pm to 7pm; Friday 25 to Sunday 27 September, 10am to 7pm Where: Crowne Plaza Dubai Jumeirah\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2234,
+        "completion_tokens": 585,
+        "total_tokens": 2819,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_33e21cda63"
+    }
+  },
+  "74e27c62e682eeb2b862de3b944b9b5006fbf8a44bd7f336694616cf94679da9": {
+    "saved_at": "2026-09-24T13:00:41.629864+00:00",
+    "result": {
+      "id": "chatcmpl-ERdLu3VHPxa7EKsP3EUNRPLxdM4hA",
+      "object": "chat.completion",
+      "created": 1790254834,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"In Dubai, 272 villas and townhouses will be built in Nad Al Sheba Gardens.\",\"supported\":true,\"evidence\":\"Meraas... has awarded a contract to GCC Contracting to build 272 villas and town houses at Nad Al Sheba Gardens.\"},{\"claim\":\"Developer Meraas, part of Dubai Holding Real Estate, awarded GCC Contracting a contract to build 272 villas and townhouses in Nad Al Sheba Gardens.\",\"supported\":true,\"evidence\":\"Property developer Meraas, part of Dubai Holding Real Estate, has awarded a contract to GCC Contracting to build 272 villas and town houses at Nad Al Sheba Gardens.\"},{\"claim\":\"The project in the gated community includes 130 villas with four to seven bedrooms and 142 three-bedroom townhouses, as well as pool houses, utilities, and infrastructure works.\",\"supported\":true,\"evidence\":\"The development in the gated community comprises 130 villas, ranging from four to seven bedrooms, and 142 three-bedroom town houses, alongside pool houses, essential utilities and infrastructure works.\"},{\"claim\":\"Construction is already underway, and the luxury project is expected to be completed by June 2028.\",\"supported\":true,\"evidence\":\"Construction is already under way and the luxury residential scheme is expected to be completed by June 2028.\"},{\"claim\":\"The contract for Phase 7 is valued at almost Dh1 billion.\",\"supported\":true,\"evidence\":\"The award of the Phase 7 contract for Nad Al Sheba Gardens, valued at almost Dh1 billion,\"},{\"claim\":\"Khalid Al Malik, CEO of Dubai Holding Real Estate, said the awarding of the Phase 7 contract reflects continued demand for premium master-planned residential communities in Dubai.\",\"supported\":true,\"evidence\":\"“The award of the Phase 7 contract for Nad Al Sheba Gardens, valued at almost Dh1 billion, reflects the continued demand for premium master-planned residential communities in Dubai,” said Khalid Al Malik, chief executive of Dubai Holding Real Estate.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1246,
+        "completion_tokens": 436,
+        "total_tokens": 1682,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
