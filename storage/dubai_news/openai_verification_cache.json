@@ -1,43 +1,4 @@
 {
-  "7f0fb0fb0a0854c4d0b085498b396b0c2f8b220fd13d8b8c421cc4b73ff3cac4": {
-    "saved_at": "2026-09-18T16:38:03.906491+00:00",
-    "result": {
-      "id": "chatcmpl-EPVt4EQqDYMS2nT7l3YKKI7RU7Hk9",
-      "object": "chat.completion",
-      "created": 1789749482,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":false,\"reason\":\"The source title and text are identical and do not provide any factual details beyond the headline; the post repeats the headline but adds no new information. The source text is insufficient to verify the claim about the Saudi dynasty's family office moving to Dubai or the increase in London exits.\",\"claims\":[{\"claim\":\"The Saudi dynasty's family office is moving to Dubai.\",\"supported\":false,\"evidence\":\"Dubai Gains Saudi Dynasty’s Family Office as London Exits Grow\"},{\"claim\":\"There is a growth in the number of exits from London.\",\"supported\":false,\"evidence\":\"Dubai Gains Saudi Dynasty’s Family Office as London Exits Grow\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 612,
-        "completion_tokens": 133,
-        "total_tokens": 745,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
   "c4341a4419fa8e8185a908c149ccf952c60c819d94fd200e6c098db28ee74af5": {
     "saved_at": "2026-09-18T19:17:44.580168+00:00",
     "result": {
@@ -764,6 +725,45 @@
         "prompt_tokens": 1289,
         "completion_tokens": 339,
         "total_tokens": 1628,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
+  },
+  "3f071e839797ec87eb8fbb840c689767b5f94f92b404b73cd839d25e120cd121": {
+    "saved_at": "2026-09-25T19:01:13.065612+00:00",
+    "result": {
+      "id": "chatcmpl-ES5SPZzTcAZ01cljnDmxJkKiTgM7i",
+      "object": "chat.completion",
+      "created": 1790362869,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Police seized 17 tankers and charged 18 suspects for illegal dumping of hazardous waste.\",\"supported\":true,\"evidence\":\"Dubai Police has taken legal action against 18 suspects and confiscated 17 tankers after they were caught dumping sewage, petrochemical waste and other harmful materials outside approved disposal sites\"},{\"claim\":\"The suspects were caught dumping sewage, petrochemical waste and other harmful materials outside approved disposal sites across the emirate.\",\"supported\":true,\"evidence\":\"dumping sewage, petrochemical waste and other harmful materials outside approved disposal sites across the emirate\"},{\"claim\":\"The cases were uncovered in the first six months of 2026 by the Environmental Crimes Section of Dubai Police's Economic Crimes Department.\",\"supported\":true,\"evidence\":\"The cases were uncovered in the first six months of 2026 by the Environmental Crimes Section of Dubai Police's Economic Crimes Department\"},{\"claim\":\"The Environmental Crimes Section is part of the General Department of Criminal Investigation.\",\"supported\":true,\"evidence\":\"Environmental Crimes Section of Dubai Police's Economic Crimes Department, part of the General Department of Criminal Investigation\"},{\"claim\":\"The operation was carried out jointly with Dubai Municipality and the Dubai Environment and Climate Change Authority.\",\"supported\":true,\"evidence\":\"The operation was carried out jointly with Dubai Municipality and the Dubai Environment and Climate Change Authority\"},{\"claim\":\"Investigators found the suspects breached rules governing hazardous material disposal.\",\"supported\":true,\"evidence\":\"Investigators traced the suspects after finding they had breached the rules governing how hazardous materials must be disposed of\"},{\"claim\":\"Legal proceedings were launched against all 18 suspects and all tankers used were seized.\",\"supported\":true,\"evidence\":\"Legal proceedings were launched against all 18, and every tanker used in the violations was seized\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 895,
+        "completion_tokens": 377,
+        "total_tokens": 1272,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0

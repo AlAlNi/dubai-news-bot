@@ -171,5 +171,23 @@
     "url": "https://gulfnews.com/uae/dubai/dubai-police-trains-476-school-bus-staff-to-protect-students-1.500687718",
     "timestamp": "2026-09-25T18:28:17.455472+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://gulfnews.com/uae/expat-mother-dies-during-twin-childbirth-in-dubai-1.500687637",
+    "timestamp": "2026-09-25T19:01:01.700003+00:00",
+    "status": "rejected",
+    "content_hash": "cdebf87bc5448dbf42db6461b3c0fca3",
+    "strict_hash": "cdebf87bc5448dbf42db6461b3c0fca3",
+    "fuzzy_hash": "76d981f8753137464ef253acaa73148b",
+    "reason": "Новость касается трагической смерти египтянки в Дубае при родах двойни, что имеет явную связь с регионом, но подача содержит кликбейт-элементы, рекламную вставку про приложение Gulf News и нерелевантные ссылки на другие трагедии, а также неясную дату похорон (2026 год), что вызывает сомнения в достоверности и естественности текста."
+  },
+  {
+    "url": "https://gulfnews.com/uae/government/dubai-police-seize-17-tankers-charge-18-suspects-over-illegal-dumping-of-hazardous-waste-1.500687525",
+    "timestamp": "2026-09-25T19:01:13.069595+00:00",
+    "status": "approved",
+    "content_hash": "b46dd822dada97f601aba19559bd5c59",
+    "strict_hash": "b46dd822dada97f601aba19559bd5c59",
+    "fuzzy_hash": "d1bb5aca68b598be8251386382bb0f55",
+    "reason": "approved"
   }
 ]
