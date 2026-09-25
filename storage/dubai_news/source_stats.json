@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://gulfnews.com/uae/transport/dubai-sharjah-traffic-heavy-congestion-on-sheikh-zayed-road-e11-e311-and-al-ittihad-street-this-morning-1.500684560",
-    "timestamp": "2026-09-23T11:22:32.533686+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://gulfnews.com/lifestyle/a-new-miniland-show-and-halloween-legoland-dubais-season-starts-october-7-1.500684990",
-    "timestamp": "2026-09-23T12:25:29.602010+00:00",
-    "status": "rejected",
-    "content_hash": "1bf6a442b673b67c98bfb708d81800f3",
-    "strict_hash": "1bf6a442b673b67c98bfb708d81800f3",
-    "fuzzy_hash": "d00221edf48367d930aefaffc2ebb093",
-    "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
-  },
-  {
-    "url": "https://gulfnews.com/living-in-uae/transport/etihad-rail-dubai-abu-dhabi-al-yalayis-station-1.500684826",
-    "timestamp": "2026-09-23T12:25:30.904879+00:00",
-    "status": "rejected",
-    "content_hash": "04f3650eab3d70a78b501f45759298f0",
-    "strict_hash": "04f3650eab3d70a78b501f45759298f0",
-    "fuzzy_hash": "fba3642948ec832ab1ab07d6a855ad43",
-    "reason": "Новость напрямую связана с Дубаем и запуском пассажирского сообщения Etihad Rail Dubai–Abu Dhabi, содержит полезные детали о станции Al Yalayis, метро, парковке и дорогах, что важно для русскоязычных жителей. Однако текст выглядит как пересказ материала Gulf News с рекламным призывом скачать приложение и обрывается на полуслове, что снижает достоверность и качество."
-  },
-  {
-    "url": "https://gulfnews.com/living-in-uae/transport/dubai-driving-licence-renewal-process-fees-requirements-1.500683930",
-    "timestamp": "2026-09-23T12:25:30.906745+00:00",
-    "status": "rejected",
-    "content_hash": "8f606d783f8ff278315fc63fafd8db3b",
-    "strict_hash": "8f606d783f8ff278315fc63fafd8db3b",
-    "fuzzy_hash": "61cc9480a4d7cf7101b2690c591be80e",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
     "url": "https://gulfnews.com/uae/dubai/uae-heat-dubai-police-helps-120-workers-stay-safe-in-the-sun-1.500685281",
     "timestamp": "2026-09-23T17:33:22.215201+00:00",
     "status": "approved",
@@ -184,5 +152,10 @@
     "strict_hash": "5edd4b5193b99749eae5340c5d271be1",
     "fuzzy_hash": "16ef5da8f05d558ab07162a2f72e49a1",
     "reason": "approved"
+  },
+  {
+    "url": "https://gulfnews.com/sport/dubai-basketball-stun-real-madrid-in-78-77-thriller-1.500687178",
+    "timestamp": "2026-09-25T13:36:37.497942+00:00",
+    "status": "published"
   }
 ]
