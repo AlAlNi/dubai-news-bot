@@ -1,160 +1,4 @@
 {
-  "9fe38a5889e452ef905a73cf761bd0e6bbcdfb9cab02790f0c77a153334166ac": {
-    "saved_at": "2026-09-17T20:43:16.171709+00:00",
-    "result": {
-      "id": "chatcmpl-EPDEp2qBZcf4kSfAlrkhvItggenPd",
-      "object": "chat.completion",
-      "created": 1789677795,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"British Airways will resume flights to Dubai on Tuesday, November 3.\",\"supported\":true,\"evidence\":\"British Airways is set to resume flights to Dubai from Tuesday November 3\"},{\"claim\":\"Initially, British Airways will operate one daily flight between London Heathrow and Dubai.\",\"supported\":true,\"evidence\":\"Initially, British Airways will operate one daily flight between London Heathrow and Dubai\"},{\"claim\":\"The service will increase to twice per day from next year.\",\"supported\":true,\"evidence\":\"with the service increasing to twice per day from next year\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 525,
-        "completion_tokens": 134,
-        "total_tokens": 659,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "895d63d6df782d1ba42c1f21f4776dd44cd245ead1104e454bb79f4e2c8131b7": {
-    "saved_at": "2026-09-17T21:36:52.323309+00:00",
-    "result": {
-      "id": "chatcmpl-EPE4gJ1713yJGjzrk6ftuedKOqSVe",
-      "object": "chat.completion",
-      "created": 1789681010,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Radhika Das впервые выступит в ОАЭ с концертом в Дубае\",\"supported\":true,\"evidence\":\"Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026.\"},{\"claim\":\"Международный исполнитель духовной музыки, автор и подкастер Radhika Das впервые выступит в ОАЭ с концертом Lightfall\",\"supported\":true,\"evidence\":\"International devotional music artist, author and podcaster Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026.\"},{\"claim\":\"Концерт запланирован на 20 сентября 2026 года на Coca-Cola Arena в Дубае\",\"supported\":true,\"evidence\":\"Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026.\"},{\"claim\":\"Das базируется в Лондоне и за последние 15 лет...\",\"supported\":true,\"evidence\":\"Based in London, Das has spent the past 15 years ...\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 528,
-        "completion_tokens": 273,
-        "total_tokens": 801,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "3b32c391bcab6417359bbc463d5dce5cc5d575b15de8e9661f8a5551b7f4faa6": {
-    "saved_at": "2026-09-17T23:14:39.067339+00:00",
-    "result": {
-      "id": "chatcmpl-EPFbJ2iVyZhYVcbGsj7CEBVwO6jnD",
-      "object": "chat.completion",
-      "created": 1789686877,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Мамади Диаките выиграл титулы NCAA, G League и НБА\",\"supported\":true,\"evidence\":\"Mamadi Diakite has won NCAA, G League and NBA championships\"},{\"claim\":\"теперь он хочет обосноваться в Дубае\",\"supported\":true,\"evidence\":\"now he wants to make Dubai his home\"},{\"claim\":\"Мамади Диаките, летнее приобретение Dubai Basketball\",\"supported\":true,\"evidence\":\"Dubai Basketball’s summer recruit Mamadi Diakite\"},{\"claim\":\"Уроженец Гвинеи уехал из дома в 15 лет, чтобы учиться и играть в баскетбол в США\",\"supported\":true,\"evidence\":\"The Guinea native left home at 15 to study and play basketball in the United States\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 543,
-        "completion_tokens": 190,
-        "total_tokens": 733,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "9ef83b2de5f1f50c065919e2e51c98f0ed5f7005272b053cc22aae00958d3946": {
-    "saved_at": "2026-09-18T00:38:08.170777+00:00",
-    "result": {
-      "id": "chatcmpl-EPGu6xVsx68nRTjwFEmluBUo7uXsw",
-      "object": "chat.completion",
-      "created": 1789691886,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Дубайский кинофестиваль возобновят в 2027 году\",\"supported\":true,\"evidence\":\"Dubai Film Festival to Be Revived in 2027\"},{\"claim\":\"Спустя десять лет после внезапного закрытия Дубайский международный кинофестиваль возобновляют\",\"supported\":true,\"evidence\":\"Ten years after being abruptly shuttered, the Dubai International Film Festival is being revived\"},{\"claim\":\"Новый выпуск должен стартовать 8 декабря 2027 года\",\"supported\":true,\"evidence\":\"a new edition set to kick off on Dec. 8, 2027\"},{\"claim\":\"Объявление, о котором сообщили местные СМИ и подтвердили источники в Дубае, было сделано в четверг\",\"supported\":true,\"evidence\":\"The announcement — which was reported by local media and confirmed by Dubai sources — was made on Thu\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 502,
-        "completion_tokens": 211,
-        "total_tokens": 713,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
   "b8ac42620528bd80b9c187e5df663562840b2749fda888891176ead4bb4842b6": {
     "saved_at": "2026-09-18T06:21:38.806894+00:00",
     "result": {
@@ -933,6 +777,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_33e21cda63"
+    }
+  },
+  "53e09a6769ad6b34bcb715d34a1cc4c2a27117d10bc4f4bdfbefa5ffd9abcf4d": {
+    "saved_at": "2026-09-25T02:22:50.371041+00:00",
+    "result": {
+      "id": "chatcmpl-ERpsEbfoxfYoTL9sjT7w2rFgg3gSP",
+      "object": "chat.completion",
+      "created": 1790302966,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai remains one of the few major housing markets where buying a home is relatively attractive compared with renting despite elevated property bubble risks.\",\"supported\":true,\"evidence\":\"Dubai remains one of the few major housing markets where buying a home is relatively attractive compared with renting , despite elevated property bubble risks\"},{\"claim\":\"Dubai's score in the UBS Global Real Estate Bubble Index rose to 1.16 from 1.09 last year, placing it fourth among 23 cities surveyed.\",\"supported\":true,\"evidence\":\"its score in the UBS Global Real Estate Bubble Index rose to 1.16 from 1.09 last year, placing it fourth among 23 cities surveyed\"},{\"claim\":\"Dubai is in the elevated-risk category alongside Miami, Seoul, Geneva and Lisbon.\",\"supported\":true,\"evidence\":\"It ranks alongside Miami, Seoul, Geneva and Lisbon in the elevated-risk category\"},{\"claim\":\"Zurich and Tokyo were the only cities assessed as being at high risk.\",\"supported\":true,\"evidence\":\"Zurich and Tokyo were the only cities assessed as being at high risk\"},{\"claim\":\"The risk has eased since the start of the Iran conflict as the property boom loses momentum.\",\"supported\":true,\"evidence\":\"UBS said the risk has eased since the start of the Iran conflict, as the property boom loses momentum\"},{\"claim\":\"Inflation-adjusted home prices rose just 0.4 per cent annually in the second quarter, while real rents fell 4 per cent.\",\"supported\":true,\"evidence\":\"Inflation-adjusted home prices rose just 0.4 per cent annually in the second quarter, while real rents fell 4 per cent\"},{\"claim\":\"The UBS Global Real Estate Bubble Index gauges the risk of a property bubble based on criteria including decoupling of prices from incomes and rents, and imbalances such as excessive lending and construction activity.\",\"supported\":true,\"evidence\":\"The UBS Global Real Estate Bubble Index gauges the risk of a property bubble based on certain criteria, including decoupling of prices from incomes and rents, as well as imbalances in the real economy, such as excessive lending and construction activity\"},{\"claim\":\"The index does not predict whether or when a correction will occur.\",\"supported\":true,\"evidence\":\"The index does not predict whether or when a correction will occur\"},{\"claim\":\"Existing tenants are likely to take advantage of the pause in price growth and, in some cases, of price concessions when purchasing a home, according to UBS.\",\"supported\":true,\"evidence\":\"“Existing tenants are likely to take advantage of the pause in price growth and, in some cases, of price concessions when purchasing a home,” UBS said\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1426,
+        "completion_tokens": 559,
+        "total_tokens": 1985,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
     }
   }
 }
