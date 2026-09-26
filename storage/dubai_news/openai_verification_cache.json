@@ -817,5 +817,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_9795f2200f"
     }
+  },
+  "037989de6b528942bed9c3338d8bf054ecbb1e9f523f353e7dfd2e098d135cb9": {
+    "saved_at": "2026-09-26T15:23:22.544717+00:00",
+    "result": {
+      "id": "chatcmpl-ESOXBpDiBbRa9hGrWYB4WW698JYWt",
+      "object": "chat.completion",
+      "created": 1790436201,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Полиция Дубая предупреждает о пробке на Al Khail Road\",\"supported\":true,\"evidence\":\"There's a traffic jam on Al Khail Road headed towards Abu Dhabi, said Dubai Police on X (formerly Twitter).\"},{\"claim\":\"Полиция Дубая сообщила в X (ранее Twitter) о заторе на Al Khail Road в направлении Абу-Даби.\",\"supported\":true,\"evidence\":\"There's a traffic jam on Al Khail Road headed towards Abu Dhabi, said Dubai Police on X (formerly Twitter).\"},{\"claim\":\"Ведомство призвало водителей и всех участников дорожного движения быть особенно осторожными.\",\"supported\":true,\"evidence\":\"It urged all drivers and road users to be extra cautious.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 550,
+        "completion_tokens": 178,
+        "total_tokens": 728,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
   }
 }

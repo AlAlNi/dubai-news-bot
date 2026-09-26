@@ -1,1 +1,93 @@
-[]
+[
+  {
+    "source_snapshot": {
+      "title": "Dubai Police warn of traffic on Al Khail Road",
+      "text": "If you are headed to Abu Dhabi this evening, you may spend a little extra time on the road, warn authorities. There's a traffic jam on Al Khail Road headed towards Abu Dhabi, said Dubai Police on X (formerly Twitter). It urged all drivers and road users to be extra cautious.",
+      "url": "https://gulfnews.com/uae/dubai/dubai-police-warn-of-traffic-on-al-khail-road-1.500688958",
+      "published_at": "2026-09-26T14:37:15+00:00"
+    },
+    "source_published_at": "2026-09-26T14:37:15+00:00",
+    "source_retrieved_at": "2026-09-26T15:23:11.083831+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "Полиция Дубая предупреждает о пробке на Al Khail Road",
+          "supported": true,
+          "evidence": "There's a traffic jam on Al Khail Road headed towards Abu Dhabi, said Dubai Police on X (formerly Twitter)."
+        },
+        {
+          "claim": "Полиция Дубая сообщила в X (ранее Twitter) о заторе на Al Khail Road в направлении Абу-Даби.",
+          "supported": true,
+          "evidence": "There's a traffic jam on Al Khail Road headed towards Abu Dhabi, said Dubai Police on X (formerly Twitter)."
+        },
+        {
+          "claim": "Ведомство призвало водителей и всех участников дорожного движения быть особенно осторожными.",
+          "supported": true,
+          "evidence": "It urged all drivers and road users to be extra cautious."
+        }
+      ],
+      "source_hash": "88dca0acc682ad3bc6117d8df64a46d67c7bf897a989504933a804812056bdda",
+      "summary_hash": "255de001a132ceb7a24bb6178803ec0595f3b68d244c2c9fe7ce6fb2442dbec0",
+      "checked_at": "2026-09-26T15:23:22.544699+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "gulfnews.com",
+    "title": "Dubai Police warn of traffic on Al Khail Road",
+    "summary_ru": "<b>Полиция Дубая предупреждает о пробке на Al Khail Road</b>\n\nПолиция Дубая сообщила в X (ранее Twitter) о заторе на Al Khail Road в направлении Абу-Даби.\n\nВедомство призвало водителей и всех участников дорожного движения быть особенно осторожными.",
+    "published": "2026-09-26T15:23:16.798832+00:00",
+    "source_urls": [
+      "https://gulfnews.com/uae/dubai/dubai-police-warn-of-traffic-on-al-khail-road-1.500688958"
+    ],
+    "lang": "en",
+    "content_hash": "727c2bee354a8fc52be456041fd312be",
+    "strict_hash": "727c2bee354a8fc52be456041fd312be",
+    "fuzzy_hash": "4170c8ac22881422ae95e2af7728798d",
+    "method": "publisher_latest",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость сообщает о предупреждении полиции Дубая по пробке на Al Khail Road в сторону Абу-Даби — это полезный и актуальный service-update для жителей, связанный с регионом и не нарушающий правил. Признаков ИИ-генерации, кликбейта, рекламы или дубликата (по хешу) не видно."
+      }
+    },
+    "image_url": "https://media.assettype.com/gulfnews%2F2026-09-26%2Ffh95nsb9%2Ftraffic-accident.png?rect=34%2C0%2C737%2C387&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+    "slot_target": "evening"
+  }
+]
