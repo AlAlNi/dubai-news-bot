@@ -700,5 +700,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_dc7caa3f28"
     }
+  },
+  "2025a550e8d231e97d1d5cd20bda937fef2e911d9c3e1974fa266b5bbbcea5d3": {
+    "saved_at": "2026-09-26T06:05:49.568942+00:00",
+    "result": {
+      "id": "chatcmpl-ESFpZcboSJ8XjogdCjUaEhobzd3kC",
+      "object": "chat.completion",
+      "created": 1790402745,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"The photograph shows Dubai Creek in the 1980s from the Deira side.\",\"supported\":true,\"evidence\":\"Another aerial shot from Mr Parry's collection shows the mouth of Dubai Creek with the Hyatt Regency hotel standing in isolation on the Deira side.\"},{\"claim\":\"Sheraton Dubai Creek can be seen at the top left by the water.\",\"supported\":true,\"evidence\":\"They show how Deira at this point was quite built up with hotels such as Sheraton Dubai Creek and the InterContinental (now Radisson Blu) in operation\"},{\"claim\":\"InterContinental is now Radisson Blu.\",\"supported\":true,\"evidence\":\"They show how Deira at this point was quite built up with hotels such as Sheraton Dubai Creek and the InterContinental (now Radisson Blu) in operation\"},{\"claim\":\"In those years the city was much smaller and life was largely centered around the Creek.\",\"supported\":true,\"evidence\":\"The city during this time was much smaller. Life revolved around the Creek.\"},{\"claim\":\"Dhows and abras were moving about the water.\",\"supported\":true,\"evidence\":\"Several vibrant images of Dubai Creek portray how central it was to life there, with dhows and abras fussing about the water.\"},{\"claim\":\"In Deira there were already large hotels operating.\",\"supported\":true,\"evidence\":\"They show how Deira at this point was quite built up with hotels such as Sheraton Dubai Creek and the InterContinental (now Radisson Blu) in operation\"},{\"claim\":\"The post is an archival photo from The National's collection about Dubai in the 1980s.\",\"supported\":true,\"evidence\":\"<i>Архивный снимок из подборки The National о Дубае 1980-х.</i>\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1799,
+        "completion_tokens": 390,
+        "total_tokens": 2189,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_dc7caa3f28"
+    }
   }
 }
