@@ -114,8 +114,7 @@ def send_post(text, source_url):
     payload = {'chat_id': channel, 'parse_mode': 'HTML',
                'text': text + '\n\n<a href="' + html.escape(source_url, quote=True)
                        + '">Источник и снимок — The National</a>\n\n#ДубайРаньше',
-               'link_preview_options': {'is_disabled': False, 'url': source_url,
-                                        'prefer_large_media': True, 'show_above_text': True}}
+               'link_preview_options': {'is_disabled': True}}
     try:
         response = requests.post(f'https://api.telegram.org/bot{token}/sendMessage',
                                  json=payload, timeout=30, allow_redirects=False)

@@ -1,0 +1,42 @@
+name: Replace first archive post
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['config/retro_creek_replacement.json']
+permissions:
+  contents: write
+concurrency:
+  group: dubai-news-storage
+  cancel-in-progress: false
+jobs:
+  replace:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r src/requirements.txt
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Verify and send exact Creek photograph
+        env:
+          SOURCE_VERIFIER: openai
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MONTHLY_BUDGET_USD: '3'
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: python src/retro_replace.py
+      - if: always()
+        run: |
+          git add storage/dubai_news/
+          if ! git diff --cached --quiet; then
+            git commit -m "Save archive replacement data [skip ci]"
+            git push origin HEAD:main
+          fi
