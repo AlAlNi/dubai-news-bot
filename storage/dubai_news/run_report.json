@@ -1,95 +1,5 @@
 [
   {
-    "script": "rss_collect",
-    "started_at": "2026-09-13T14:37:20.615443+00:00",
-    "finished_at": "2026-09-13T14:37:33.008257+00:00",
-    "duration_seconds": 12.393,
-    "success": false,
-    "counters": {
-      "attempts_made": 5,
-      "fetched": 4,
-      "rejected": 4,
-      "approved": 0,
-      "deepseek_calls": 3,
-      "deepseek_calls_max": -1,
-      "gnews_fetches": 1,
-      "google_rss_fetches": 3,
-      "reserve_fetches": 6,
-      "rss_fetches": 2,
-      "telegram_failures": 0,
-      "technical_errors": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-09-13",
-      "daily": {
-        "published_per_day": {
-          "value": 1,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 100.0,
-          "target_min": 95.0,
-          "ok": true
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 91.67,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.thenationalnews.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 33.33
-          },
-          {
-            "source": "whatson.ae",
-            "events": 7,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "emirateswoman.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 65,
-            "reject_rate": 98.46,
-            "duplicate_rate": 3.08
-          },
-          {
-            "source": "propertynews.ae",
-            "events": 3,
-            "reject_rate": 66.67,
-            "duplicate_rate": 33.33
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)",
-          "MOHRE UAE News"
-        ]
-      }
-    }
-  },
-  {
     "script": "auto_notify",
     "started_at": "2026-09-13T16:06:54.824057+00:00",
     "finished_at": "2026-09-13T16:06:54.832848+00:00",
@@ -17956,6 +17866,72 @@
       "rss_fetches": 0,
       "telegram_failures": 0,
       "technical_errors": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-09-26",
+      "daily": {
+        "published_per_day": {
+          "value": 0,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 100.0,
+          "alert_if_gt": 60.0,
+          "ok": false
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "gulfnews.com",
+            "events": 17,
+            "reject_rate": 82.35,
+            "duplicate_rate": 5.88
+          },
+          {
+            "source": "www.thenationalnews.com",
+            "events": 3,
+            "reject_rate": 66.67,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "auto_notify",
+    "started_at": "2026-09-26T01:26:04.019469+00:00",
+    "finished_at": "2026-09-26T01:26:04.019734+00:00",
+    "duration_seconds": 0.0,
+    "success": true,
+    "status": "no_posts",
+    "counters": {
+      "telegram_calls": 0,
+      "telegram_failures": 0,
+      "published": 0,
+      "duplicate_skips": 0,
+      "no_posts": 1
     },
     "newsroom_kpi": {
       "date_utc": "2026-09-26",
