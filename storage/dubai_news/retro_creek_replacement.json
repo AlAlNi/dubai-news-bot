@@ -1,5 +1,5 @@
 {
-  "status": "verifying",
+  "status": "sending",
   "replaces_message_id": 1605,
   "user_confirmed_deletion": true,
   "image_url": "https://www.thenationalnews.com/resizer/v2/UZRWNJOPNZBU5CBJLX6IPBVOFA.jpeg?auth=426c7b96d28e9183f098d2defc4c29eb71f0c90937f2c64a14916843de3feceb&smart=true&width=1200&height=630",
@@ -70,5 +70,34 @@
       "api_calls": 1,
       "cached": false
     }
+  },
+  "verification": {
+    "version": 1,
+    "status": "approved",
+    "reason": "All claims in the post are directly supported by the source text.",
+    "claims": [
+      {
+        "claim": "The photograph shows Dubai Creek in the 1980s from the Deira side.",
+        "supported": true,
+        "evidence": "Dubai Creek in the 1980s from the Deira side."
+      },
+      {
+        "claim": "Sheraton Dubai Creek can be seen at the top left by the water.",
+        "supported": true,
+        "evidence": "Sheraton Dubai Creek can be seen at the top left by the water"
+      },
+      {
+        "claim": "The Intercontinental (now Radisson Blu) can be seen on the left.",
+        "supported": true,
+        "evidence": "the Intercontinental (now Radisson Blu) can be seen on the left."
+      }
+    ],
+    "source_hash": "7e288c84c0c4b1849ba4c5cb3fcb7d53416aea4b58cf55488c68e37d608f35e5",
+    "summary_hash": "62ee44bde7b11ca7fc534fec4768da7635cca8c281cc5cfa5f0e23ab4c85ac3e",
+    "checked_at": "2026-09-26T06:08:41.310021+00:00",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "provider": "openai",
+    "api_calls": 1,
+    "cached": false
   }
 }
