@@ -37,21 +37,28 @@ def send_photo(item):
 
 
 def run(config=CONFIG, path=STATE):
+    item = json.loads(config.read_text(encoding='utf-8'))
+    previous = None
     if path.exists():
         state = json.loads(path.read_text(encoding='utf-8'))
-        return {'status': 'already_attempted', 'previous_status': state['status']}
+        if state['status'] == 'verification_rejected' and state.get('revision', 1) == 1 and item.get('revision') == 2:
+            previous = state
+        else:
+            return {'status': 'already_attempted', 'previous_status': state['status']}
     if os.getenv('GITHUB_ACTIONS') == 'true' and os.getenv('GITHUB_REF') != 'refs/heads/main':
         raise RuntimeError('Replacement runs only on main')
     if os.getenv('SOURCE_VERIFIER') != 'openai':
         raise RuntimeError('OpenAI verification is required')
     if not os.getenv('TELEGRAM_BOT_TOKEN') or not os.getenv('TELEGRAM_CHANNEL_ID'):
         raise RuntimeError('Missing Telegram credentials')
-    item = json.loads(config.read_text(encoding='utf-8'))
     if not valid_post(item['post_html']):
         raise RuntimeError('Invalid replacement post')
-    source = load_evidence(item, include_article=True)
+    source = load_evidence(item, include_article=False)
     state = {'status': 'verifying', 'replaces_message_id': 1605, 'user_confirmed_deletion': True,
              'image_url': item['image_url'], 'source_snapshot': source, 'post_html': item['post_html']}
+    state['revision'] = item.get('revision', 1)
+    if previous:
+        state['previous_attempt'] = previous
     persist(path, state)
     verification = verify_summary(source, item['post_html'], os.getenv('DEEPSEEK_API_KEY'), storage_dir=path.parent)
     state['verification'] = verification

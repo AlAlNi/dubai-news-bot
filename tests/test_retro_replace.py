@@ -33,3 +33,15 @@ class ReplacementTests(unittest.TestCase):
         with patch.dict(os.environ, {'TELEGRAM_BOT_TOKEN': 'secret', 'TELEGRAM_CHANNEL_ID': 'channel'}), patch('retro_publish.requests.post', return_value=response) as post:
             send_post('text', 'https://example.com/article')
         self.assertEqual(post.call_args.kwargs['json']['link_preview_options'], {'is_disabled': True})
+
+    def test_corrected_caption_retries_only_rejected_first_revision(self):
+        with tempfile.TemporaryDirectory() as d, patch.dict(os.environ, {'GITHUB_ACTIONS': 'false', 'SOURCE_VERIFIER': 'openai', 'TELEGRAM_BOT_TOKEN': 'secret', 'TELEGRAM_CHANNEL_ID': 'channel'}), patch('retro_replace.load_evidence', return_value={'text': 'caption'}) as evidence, patch('retro_replace.verify_summary', return_value={'status': 'rejected'}), patch('retro_replace.send_photo') as send:
+            path = Path(d)/'state.json'
+            path.write_text(json.dumps({'status': 'verification_rejected', 'revision': 1}), encoding='utf-8')
+            self.assertEqual(run(path=path)['status'], 'verification_rejected')
+            self.assertEqual(run(path=path)['status'], 'already_attempted')
+            saved = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(saved['previous_attempt']['revision'], 1)
+            self.assertEqual(saved['revision'], 2)
+            self.assertFalse(evidence.call_args.kwargs['include_article'])
+            send.assert_not_called()
