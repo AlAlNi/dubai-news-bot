@@ -1,50 +1,5 @@
 [
   {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/23/abu-dhabi-storekeeper-1-million-dubai-duty-free-winner-indian-businessman",
-    "timestamp": "2026-09-24T02:05:51.359203+00:00",
-    "status": "rejected",
-    "content_hash": "945dfc91e3e1c29cf9568e5dd354c69f",
-    "strict_hash": "945dfc91e3e1c29cf9568e5dd354c69f",
-    "fuzzy_hash": "55f12acb38d4db88cbba2d6bc732d795",
-    "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
-  },
-  {
-    "url": "https://gulfnews.com/uae/people/we-just-want-him-home-six-year-old-dubai-boy-seeks-help-to-be-reunited-with-his-mother-1.500686082",
-    "timestamp": "2026-09-24T07:55:10.791222+00:00",
-    "status": "rejected",
-    "content_hash": "4a23d8953772a12dc2ece34d7e3464f8",
-    "strict_hash": "4a23d8953772a12dc2ece34d7e3464f8",
-    "fuzzy_hash": "c6023bb52369790bec1c2c67856cad1c",
-    "reason": "Новость рассказывает о шестилетнем мальчике в Дубае, разлучённом с матерью из-за проблем с документами, — это гуманитарная история с явной связью с регионом, но она подана как эмоциональный призыв о помощи и содержит кликбейтный заголовок, что не соответствует формату канала."
-  },
-  {
-    "url": "https://gulfnews.com/entertainment/katy-perry-to-headline-new-years-eve-gala-in-dubai-1.500685957",
-    "timestamp": "2026-09-24T07:55:12.130484+00:00",
-    "status": "rejected",
-    "content_hash": "abe4a726a73c7b34f536cf761a08f790",
-    "strict_hash": "abe4a726a73c7b34f536cf761a08f790",
-    "fuzzy_hash": "f16062d55b4a05513e34eb79aaf7a5e2",
-    "reason": "Новость связана с Дубаем и может быть интересна русскоязычным жителям как светское/развлекательное событие, но текст выглядит как промо-анонс платного новогоднего гала-ужина с ценами и деталями мероприятия, без общественно значимой новости. Также есть признаки неаккуратности/возможной ИИ-обработки: указан «countdown to 2027» при новогоднем событии 31 декабря, что снижает достоверность."
-  },
-  {
-    "url": "https://gulfnews.com/uae/transport/etihad-rail-dubai-abu-dhabi-commuters-new-train-1.500685889",
-    "timestamp": "2026-09-24T07:55:12.132068+00:00",
-    "status": "rejected",
-    "content_hash": "818ce38c296e663c38eb0436da05840e",
-    "strict_hash": "818ce38c296e663c38eb0436da05840e",
-    "fuzzy_hash": "5f992557b83f212ec242cd0ed34c72d2",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
-    "url": "https://gulfnews.com/uae/transport/dubai-sharjah-traffic-heavy-congestion-hits-major-routes-1.500685909",
-    "timestamp": "2026-09-24T07:55:12.132853+00:00",
-    "status": "rejected",
-    "content_hash": "f7516ba4180e74f138f11205daf6c82a",
-    "strict_hash": "f7516ba4180e74f138f11205daf6c82a",
-    "fuzzy_hash": "48a03eb08fcffb91d164fbeb57efccba",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
     "url": "https://gulfnews.com/business/markets/dubai-customs-extends-customs-duty-suspension-by-60-days-to-ease-trade-costs-1.500686518",
     "timestamp": "2026-09-24T13:00:11.116338+00:00",
     "status": "rejected",
@@ -279,5 +234,10 @@
     "strict_hash": "8ce24396df17b455249ee06c6d803ab2",
     "fuzzy_hash": "ed14bcbe74530d6501298fe65854709f",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-records-2395-construction-and-occupancy-breaches-after-more-than-16000-inspections",
+    "timestamp": "2026-09-26T12:58:12.606525+00:00",
+    "status": "published"
   }
 ]
