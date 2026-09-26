@@ -1,160 +1,4 @@
 {
-  "c4341a4419fa8e8185a908c149ccf952c60c819d94fd200e6c098db28ee74af5": {
-    "saved_at": "2026-09-18T19:17:44.580168+00:00",
-    "result": {
-      "id": "chatcmpl-EPYNaRLu05vi0eXVW12p3iR6wdqLs",
-      "object": "chat.completion",
-      "created": 1789759062,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"Форт Аль-Фахиди, старейшее здание Дубая, готовится к повторному открытию с новым музеем.\",\"supported\":true,\"evidence\":\"Dubai’s oldest building, Al Fahidi Fort, set to reopen with new museum\"},{\"claim\":\"При упоминании Дубая многие представляют мегаполис с сияющими небоскрёбами, огромными торговыми центрами, островами в форме пальм и одними из лучших в мире брендов роскошных отелей и гостеприимства.\",\"supported\":true,\"evidence\":\"Think of Dubai and many people will imagine a metropolis of gleaming skyscrapers, mega shopping malls, palm-shaped islands and some of the world’s top luxury hotel and hospitality brands.\"},{\"claim\":\"В стороне от этой роскоши и гламура, которые часто доминируют, находится форт Аль-Фахиди.\",\"supported\":true,\"evidence\":\"But away from all the glitz and glamour, which often dominate ...\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 631,
-        "completion_tokens": 232,
-        "total_tokens": 863,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "e48053d3191bdfdd67a90ac57bcf29bbbcbdaa9471727df57afbacfa7c4e5a07": {
-    "saved_at": "2026-09-18T19:52:28.339468+00:00",
-    "result": {
-      "id": "chatcmpl-EPYvDn1HhPrHvlE1xpb1CJI2VxRoN",
-      "object": "chat.completion",
-      "created": 1789761147,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims are directly supported by the source title and text.\",\"claims\":[{\"claim\":\"The second Dubai Mallathon concluded.\",\"supported\":true,\"evidence\":\"Dubai Mallathon concludes second edition\"},{\"claim\":\"The event had a record turnout of more than 160,000 participants.\",\"supported\":true,\"evidence\":\"record turnout of more than 160,000 participants\"},{\"claim\":\"This information was reported by the Government of Dubai Media Office.\",\"supported\":true,\"evidence\":\"Government of Dubai Media Office\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 575,
-        "completion_tokens": 108,
-        "total_tokens": 683,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_1ec6e9f896"
-    }
-  },
-  "4f708f6956dc618c1fe47788156b70b4220c91aa21f9f2223a93cfdd641e4a03": {
-    "saved_at": "2026-09-18T22:03:03.938641+00:00",
-    "result": {
-      "id": "chatcmpl-EPaxahrMh1Ygx0sTTbtADD1rlcIYc",
-      "object": "chat.completion",
-      "created": 1789768982,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":false,\"reason\":\"The source text is only a headline repeated twice without details; the post repeats the headline as a fact without additional context or confirmation.\",\"claims\":[{\"claim\":\"Патрули полиции на электросамокатах в Дубае вернули украденные Dh190 000 за минуты\",\"supported\":false,\"evidence\":\"E-scooter police patrols in Dubai recover stolen Dh190,000 in minutes   thenationalnews.com\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 596,
-        "completion_tokens": 96,
-        "total_tokens": 692,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c9c2c1ebf2"
-    }
-  },
-  "460a473fc048f303d26c08ae9a8e477f57302382d91f2d59ec2af0a661d81ef9": {
-    "saved_at": "2026-09-19T00:46:47.169805+00:00",
-    "result": {
-      "id": "chatcmpl-EPdW1R9EdvcZV48fTrvy1X4Uk3Lu5",
-      "object": "chat.completion",
-      "created": 1789778805,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":false,\"reason\":\"The post mixes Russian and English and truncates the source text, leading to incomplete and partially unsupported claims.\",\"claims\":[{\"claim\":\"Старейшее здание Дубая вновь откроется для публики как новый музей\",\"supported\":true,\"evidence\":\"Dubai’s oldest building is set to reopen to the public after five years of closure during a major restoration project.\"},{\"claim\":\"Старейшее здание Дубая готовится вновь открыться для публики после пяти лет закрытия, в течение которых проводился масштабный реставрационный проект\",\"supported\":true,\"evidence\":\"Dubai’s oldest building is set to reopen to the public after five years of closure during a major restoration project.\"},{\"claim\":\"Форт Аль-Фахиди — старейшее существующее здание города near the banks of Dubai Creek — был построен в 1787 году\",\"supported\":true,\"evidence\":\"Al Fahidi Fort, the city’s oldest existing building near the banks of Dubai Creek, was built in 1787\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 521,
-        "completion_tokens": 217,
-        "total_tokens": 738,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
   "76e21239124a5e7201c888e7e6c4cb1af67e6536212c5462bad0c0e54736bf65": {
     "saved_at": "2026-09-21T17:21:11.014419+00:00",
     "result": {
@@ -777,6 +621,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_9795f2200f"
+    }
+  },
+  "90b066a00ec118591c6365bd2be4459a35a81f1c502ddf82a7371a6581e6682f": {
+    "saved_at": "2026-09-26T05:45:30.289695+00:00",
+    "result": {
+      "id": "chatcmpl-ESFVv0EEzV7SIUhy0zO8GE8hyiBld",
+      "object": "chat.completion",
+      "created": 1790401527,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"The post shows a photograph of Dubai's Sheikh Zayed Road in the 1980s.\",\"supported\":true,\"evidence\":\"An aerial shot of the Sheikh Zayed Road in Dubai in the 1980s.\"},{\"claim\":\"Today it is hard to imagine Sheikh Zayed Road without skyscrapers.\",\"supported\":true,\"evidence\":\"Today an aerial shot of Sheikh Zayed Road from the same vantage point looks very different... new neighbourhoods, hotels and skyscrapers, including the world’s tallest, Burj Khalifa, tower over Sheikh Zayed Road.\"},{\"claim\":\"In the archival photo, around the World Trade Centre complex there are large areas of desert, and the highway looks much more modest.\",\"supported\":true,\"evidence\":\"The Trade Centre apartments dominate the image, with tracts of desert surrounding it... The World Trade Centre apartments dominate the image, with tracts of desert surrounding it.\"},{\"claim\":\"The photograph was taken from a Cessna training plane piloted by Richard Parry.\",\"supported\":true,\"evidence\":\"The image was taken from a Cessna training plane piloted by Richard Parry.\"},{\"claim\":\"Richard Parry gave flying lessons in his spare time and observed how the city was changing.\",\"supported\":true,\"evidence\":\"Mr Parry... gave flying lessons in his spare time. This allowed him to visually record the city and country from the skies.\"},{\"claim\":\"Quote from Parry: 'On the left, once you got past the World Trade Centre, there were these big open areas that were just sand.'\",\"supported\":true,\"evidence\":\"\\\"And then on the left, once you got past the World Trade Centre, there were these big open areas that were just sand.\\\"\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1785,
+        "completion_tokens": 379,
+        "total_tokens": 2164,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_dc7caa3f28"
     }
   }
 }
