@@ -30,7 +30,10 @@ REVIEW_PROMPT = (
     "source means reject. Return JSON with supported (boolean), reason (string), and claims (array). "
     "List ALL factual claims separately, including unsupported ones. Each entry has claim (string), "
     "supported (boolean), evidence (an exact contiguous quote from source title or text). "
-    "Approve only if every claim is directly supported; no assertions may be omitted from review."
+    "Approve only if every claim is directly supported; no assertions may be omitted from review. "
+    "Copy evidence character-for-character from one continuous source passage. Never add ellipses, "
+    "fix punctuation, translate evidence, or concatenate separate passages. Split compound claims "
+    "into individual entries when they require different passages."
 )
 
 

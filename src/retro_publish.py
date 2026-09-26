@@ -66,7 +66,7 @@ def load_evidence(item, include_article=False):
     if include_article:
         article = ArticleHTML()
         article.feed(page)
-        body = clean_text(' '.join(article.body))
+        body = re.sub(r'\s+([,.!?;:])', r'\1', clean_text(' '.join(article.body)))
         if len(body) < 200 or len(body) > 10000:
             raise ValueError('archive_article_text_unavailable')
         text += '\nArticle describing this photograph:\n' + body
@@ -145,11 +145,19 @@ def run(storage=STORAGE, launch=LAUNCH, now=None):
     slot = f'{year}-W{week:02d}'
     path = storage / 'retro_publications.json'
     state = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'version': 1, 'slots': {}}
-    if slot in state['slots']:
-        return {'status': 'already_attempted', 'previous_status': state['slots'][slot]['status']}
-    used = {entry['image_identity'] for entry in state['slots'].values() if entry.get('image_identity')}
     seed = json.loads(launch.read_text(encoding='utf-8'))
-    seed_unused = image_identity(seed['image_url']) not in used
+    previous = state['slots'].get(slot)
+    # One reviewed config correction may retry a rejected FIRST post, never a send.
+    retry_first = bool(previous and os.getenv('GITHUB_EVENT_NAME') == 'push'
+                       and previous['status'] == 'verification_rejected'
+                       and previous.get('seed_revision', 1) == 1 and seed.get('revision') == 2
+                       and previous.get('image_identity') == image_identity(seed['image_url']))
+    if previous and not retry_first:
+        return {'status': 'already_attempted', 'previous_status': previous['status']}
+    used = {entry['image_identity'] for entry in state['slots'].values() if entry.get('image_identity')}
+    if retry_first:
+        used.discard(image_identity(seed['image_url']))
+    seed_unused = retry_first or image_identity(seed['image_url']) not in used
     # A push of the one-time launch config can only publish the initial agreed post.
     if os.getenv('GITHUB_EVENT_NAME') == 'push' and not seed_unused:
         return {'status': 'first_post_already_attempted'}
@@ -176,6 +184,10 @@ def run(storage=STORAGE, launch=LAUNCH, now=None):
         return {'status': 'no_verified_photo', 'rejected': len(rejections)}
     record = {'status': 'preparing', 'at': now.isoformat(), 'image_identity': image_identity(item['image_url']),
               'source_url': item['source_url'], 'source_snapshot': source}
+    if seed_unused:
+        record['seed_revision'] = seed.get('revision', 1)
+    if retry_first:
+        record['previous_attempt'] = previous
     state['slots'][slot] = record
     persist(path, state)  # Limit DeepSeek to one attempt per week, even after crashes.
     try:

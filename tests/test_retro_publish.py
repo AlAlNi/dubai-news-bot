@@ -86,3 +86,19 @@ class RetroPublishTests(unittest.TestCase):
             result = run(self.storage, ROOT/'config/retro_first_post.json', NOW)
         self.assertEqual(result['previous_status'], 'send_unknown')
         sender.assert_called_once()
+
+    def test_first_post_revision_retries_rejection_once_and_preserves_record(self):
+        state = {'version': 1, 'slots': {'2026-W39': {
+            'status': 'verification_rejected', 'image_identity': image_identity(self.seed['image_url']),
+            'verification': {'status': 'rejected'}}}}
+        path = self.storage/'retro_publications.json'
+        path.write_text(json.dumps(state))
+        with patch.dict(os.environ, {'GITHUB_EVENT_NAME': 'push'}), patch('retro_publish.load_evidence', return_value=SOURCE), patch(
+            'retro_publish.verify_summary', return_value={'status': 'approved'}
+        ), patch('retro_publish.send_post', return_value={'status': 'published', 'message_id': 321}) as sender:
+            self.assertEqual(run(self.storage, ROOT/'config/retro_first_post.json', NOW)['status'], 'published')
+            self.assertEqual(run(self.storage, ROOT/'config/retro_first_post.json', NOW)['status'], 'already_attempted')
+        sender.assert_called_once()
+        saved = json.loads(path.read_text())['slots']['2026-W39']
+        self.assertEqual(saved['previous_attempt']['status'], 'verification_rejected')
+        self.assertEqual(saved['seed_revision'], 2)
