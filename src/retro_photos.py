@@ -70,13 +70,13 @@ def collect(path=STATE, now=None):
     if not key:
         raise RuntimeError('SERPER_API_KEY is missing')
     if os.getenv('GITHUB_ACTIONS') == 'true' and (
-        os.getenv('GITHUB_EVENT_NAME') != 'workflow_dispatch' or os.getenv('GITHUB_REF') != 'refs/heads/main'
+        os.getenv('GITHUB_EVENT_NAME') not in {'workflow_dispatch', 'schedule'} or os.getenv('GITHUB_REF') != 'refs/heads/main'
     ):
-        raise RuntimeError('Retro search requires manual launch on main')
+        raise RuntimeError('Retro search requires manual or scheduled launch on main')
     now = now or datetime.now(timezone.utc)
     year, week, _ = now.isocalendar()
     slot = f'{year}-W{week:02d}'
-    query = QUERIES[(week - 1) % len(QUERIES)]
+    query = QUERIES[(week - 1) % len(QUERIES)] + ' site:thenationalnews.com'
     state = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {
         'version': 1, 'searches': {}, 'seen': [], 'candidates': []}
     if slot in state['searches']:
