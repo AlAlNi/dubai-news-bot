@@ -1,0 +1,35 @@
+name: Find retro Dubai photos
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dubai-news-storage
+  cancel-in-progress: false
+jobs:
+  discover:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install requests==2.31.0
+      - name: Configure storage commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Search images (one request per UTC week)
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: python src/retro_photos.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: retro-photo-gallery
+          path: retro-photos.html
+          if-no-files-found: error
+          retention-days: 30
