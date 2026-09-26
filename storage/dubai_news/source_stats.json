@@ -198,5 +198,41 @@
     "strict_hash": "89499ce48435c7f946706830778b035e",
     "fuzzy_hash": "b5705ee7b5aceb1eba0b36a2f9473dc5",
     "reason": "Новость связана с Дубаем и ОАЭ, но её основная тема — масштабная гуманитарная акция для Газы на фоне войны и политического конфликта, что подпадает под ограничение по политике/конфликтам; кроме того, текст выглядит как пресс-релиз с рекламным призывом скачать приложение Gulf News."
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/global-village-season-31-vip-packs-go-on-sale-today-prices-benefits-and-dh31000-surprise-1.500688470",
+    "timestamp": "2026-09-26T06:48:40.611500+00:00",
+    "status": "rejected",
+    "content_hash": "76e2d40d2cb75bf7928c68d58ce9756d",
+    "strict_hash": "76e2d40d2cb75bf7928c68d58ce9756d",
+    "fuzzy_hash": "7806f37c751cebe1da6d6224d7a7ce24",
+    "reason": "Новость о старте продаж VIP-пакетов Global Village Season 31 связана с Дубаем, полезна для русскоязычных жителей и не содержит политики, рекламного пресс-релизного уклона или неуважительных тем. Однако текст выглядит как перепечатка/промо-материал с элементами кликбейта («Dh31,000 surprise») и вставкой рекламы приложения Gulf News, что снижает редакционную пригодность."
+  },
+  {
+    "url": "https://gulfnews.com/business/aviation/uae-flights-status-update-emirates-etihad-air-arabia-flydubai-delays-and-cancellations-iran-flights-suspended-1.500688448",
+    "timestamp": "2026-09-26T06:48:41.838625+00:00",
+    "status": "rejected",
+    "content_hash": "7f5b49f8f6874f5e6122716141d1647b",
+    "strict_hash": "7f5b49f8f6874f5e6122716141d1647b",
+    "fuzzy_hash": "884ac0ebd0200a1fed0573be3d689ec3",
+    "reason": "Новость связана с ОАЭ и полезна для русскоязычных жителей Дубая (статусы рейсов, задержки, отмены), но она подана как тревожный дайджест с элементами кликбейта и ссылкой на приложение, а также затрагивает чувствительный политико-региональный контекст (Иран, «regional tensions», ограничения США), что противоречит правилам 2, 3 и 5."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-launches-drive-to-send-10-million-meals-to-gaza-in-honour-of-sheikh-ahmed-bin-rashid",
+    "timestamp": "2026-09-26T06:48:42.951439+00:00",
+    "status": "rejected",
+    "content_hash": "d4dc563fb7aa15323033e912388a9348",
+    "strict_hash": "d4dc563fb7aa15323033e912388a9348",
+    "fuzzy_hash": "0c5e1a8c8e6da6b92d66cbe8ee44444e",
+    "reason": "Новость связана с Дубаем и ОАЭ, но её основная тема — гуманитарная помощь Газе на фоне войны, что относится к большому политическому/военному конфликту и не соответствует правилу 2. Кроме того, текст выглядит как чувствительный политизированный материал с признаками неполного/обрывочного текста, что повышает риск отклонения."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-police-take-action-against-18-suspects-accused-of-dumping-harmful-waste",
+    "timestamp": "2026-09-26T06:48:44.207938+00:00",
+    "status": "rejected",
+    "content_hash": "bb94ae7b4fcefa4dc4a6e674325472f2",
+    "strict_hash": "bb94ae7b4fcefa4dc4a6e674325472f2",
+    "fuzzy_hash": "9bf419aa5c117fe819b877a9f3ed297a",
+    "reason": "Новость связана с Дубаем и касается действий полиции против незаконного сброса опасных отходов, что полезно и актуально для жителей, но текст выглядит как пересказ статьи The National с признаками незавершённости и возможной ИИ‑обработки, а также содержит дату «первая половина 2026 года», что снижает достоверность."
   }
 ]
