@@ -1,5 +1,5 @@
 {
-  "status": "sending",
+  "status": "published",
   "replaces_message_id": 1605,
   "user_confirmed_deletion": true,
   "image_url": "https://www.thenationalnews.com/resizer/v2/UZRWNJOPNZBU5CBJLX6IPBVOFA.jpeg?auth=426c7b96d28e9183f098d2defc4c29eb71f0c90937f2c64a14916843de3feceb&smart=true&width=1200&height=630",
@@ -99,5 +99,8 @@
     "provider": "openai",
     "api_calls": 1,
     "cached": false
-  }
+  },
+  "message_id": 1606,
+  "channel_username": "rudubainews",
+  "photo_file_id": "AgACAgQAAyEGAATkwmv7AAIGRmq3YWoM8XYXrOVUrv15j5Yk0dSgAAIpDmsbxIEFULXSqfRgS4JaAQADAgADeQADPQQ"
 }
