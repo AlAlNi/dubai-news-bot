@@ -778,5 +778,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_dc7caa3f28"
     }
+  },
+  "2ccfa87c3ed267c8e285a24f5f1fcaf78a1c52d5e056a9d60e6824eb16de2ada": {
+    "saved_at": "2026-09-26T11:56:04.553990+00:00",
+    "result": {
+      "id": "chatcmpl-ESLIWVZCqUrHWhcgpiu2aHItFkrCf",
+      "object": "chat.completion",
+      "created": 1790423760,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Municipality has recorded 2,395 breaches related to building use, occupancy and unauthorised construction after more than 16,000 inspections in residential areas since early 2026.\",\"supported\":true,\"evidence\":\"Dubai Municipality has recorded 2,395 breaches related to building use, occupancy and unauthorised construction after more than 16,000 inspections in residential areas since early 2026.\"},{\"claim\":\"Of the breaches identified, 451 have been fully rectified and 1,478 are undergoing corrective measures.\",\"supported\":true,\"evidence\":\"Of the breaches identified, 451 have been fully rectified and 1,478 are undergoing corrective measures.\"},{\"claim\":\"The Municipality has taken strict action in 466 cases.\",\"supported\":true,\"evidence\":\"The Municipality has taken strict action in 466 cases and continues to monitor outstanding breaches to ensure timely resolution.\"},{\"claim\":\"The Municipality made more than 800 visits across Al Warqa residential areas.\",\"supported\":true,\"evidence\":\"The Municipality made more than 800 visits across Al Warqa residential areas as part of its continuing monitoring of construction activities and building use.\"},{\"claim\":\"The most prominent breaches included bachelor accommodation in areas where it is not permitted, multiple families occupying a single residential unit, and construction works or alterations carried out without the required permits.\",\"supported\":true,\"evidence\":\"The most prominent breaches included bachelor accommodation in areas where it is not permitted, multiple families occupying a single residential unit, and construction works or alterations carried out without the required permits.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 337,
+        "total_tokens": 1343,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
   }
 }

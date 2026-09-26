@@ -1,1 +1,103 @@
-[]
+[
+  {
+    "source_snapshot": {
+      "title": "Dubai records 2,395 construction and occupancy breaches after more than 16,000 inspections",
+      "text": "Dubai Municipality has recorded 2,395 breaches related to building use, occupancy and unauthorised construction after more than 16,000 inspections in residential areas since early 2026. Of the breaches identified, 451 have been fully rectified and 1,478 are undergoing corrective measures. The Municipality has taken strict action in 466 cases and continues to monitor outstanding breaches to ensure timely resolution. The Municipality made more than 800 visits across Al Warqa residential areas as part of its continuing monitoring of construction activities and building use. The most prominent breaches included bachelor accommodation in areas where it is not permitted, multiple families occupying a single residential unit, and construction works or alterations carried out without the required permits. These inspections are part of the Municipality’s daily monitoring programme which is designed to identify breaches early, ensure prompt corrective action, and strengthen compliance among property owners and occupants. The programme also addresses practices that may affect residents’ safety, building integrity and the quality of the residential environment. “These efforts support Dubai’s continued development as a safe, well-regulated and sustainable urban environment that enhances quality of life for residents,\" said Eng Maryam Al Muhairi, chief executive of the Building Regulation and Permits Agency at Dubai Municipality. The authority reminded building owners to comply with approved uses for residential buildings and villas. Owners must not rent to bachelors or multiple families where such occupancy is prohibited. Owners must also obtain necessary permits and approvals before any construction or alterations. This includes activities such as non-structural wall demolition, installing a kitchen window or serving hatch, relocating internal partitions, converting a closed kitchen into an open one, and other internal layout modifications. These measures support structural safety, regulate the use of residential properties and help limit practices that may affect the character and quality of residential neighbourhoods. Dubai Municipality urged community members to report non-compliant practices through official channels. Public reporting supports inspections and enables faster responses, contributing to safer, well-regulated residential areas across the emirate.",
+      "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-records-2395-construction-and-occupancy-breaches-after-more-than-16000-inspections/",
+      "published_at": "2026-09-25T13:20:37.593000+00:00"
+    },
+    "source_published_at": "2026-09-25T13:20:37.593000+00:00",
+    "source_retrieved_at": "2026-09-26T11:55:48.115038+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "Dubai Municipality has recorded 2,395 breaches related to building use, occupancy and unauthorised construction after more than 16,000 inspections in residential areas since early 2026.",
+          "supported": true,
+          "evidence": "Dubai Municipality has recorded 2,395 breaches related to building use, occupancy and unauthorised construction after more than 16,000 inspections in residential areas since early 2026."
+        },
+        {
+          "claim": "Of the breaches identified, 451 have been fully rectified and 1,478 are undergoing corrective measures.",
+          "supported": true,
+          "evidence": "Of the breaches identified, 451 have been fully rectified and 1,478 are undergoing corrective measures."
+        },
+        {
+          "claim": "The Municipality has taken strict action in 466 cases.",
+          "supported": true,
+          "evidence": "The Municipality has taken strict action in 466 cases and continues to monitor outstanding breaches to ensure timely resolution."
+        },
+        {
+          "claim": "The Municipality made more than 800 visits across Al Warqa residential areas.",
+          "supported": true,
+          "evidence": "The Municipality made more than 800 visits across Al Warqa residential areas as part of its continuing monitoring of construction activities and building use."
+        },
+        {
+          "claim": "The most prominent breaches included bachelor accommodation in areas where it is not permitted, multiple families occupying a single residential unit, and construction works or alterations carried out without the required permits.",
+          "supported": true,
+          "evidence": "The most prominent breaches included bachelor accommodation in areas where it is not permitted, multiple families occupying a single residential unit, and construction works or alterations carried out without the required permits."
+        }
+      ],
+      "source_hash": "7d301fbfc3f015c64db1f53f7089388587622920e8a80b40027cd22b33330ecc",
+      "summary_hash": "77f45267ef1e8ecf42896d8044d9d35f8216de2db15c2425f58d8dc80a120fd4",
+      "checked_at": "2026-09-26T11:56:04.553976+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "thenationalnews.com",
+    "title": "Dubai records 2,395 construction and occupancy breaches after more than 16,000 inspections",
+    "summary_ru": "<b>Дубай: 2 395 нарушений после более 16 000 проверок</b>\n\nМуниципалитет Дубая с начала 2026 года выявил 2 395 нарушений, связанных с использованием зданий, заселением и несанкционированным строительством, после более чем 16 000 проверок в жилых районах. Из них 451 нарушение полностью устранено, 1 478 находятся в процессе исправления, в 466 случаях приняты строгие меры.\n\nВ районе Al Warqa проведено более 800 посещений. Среди наиболее заметных нарушений — проживание холостяков там, где это не разрешено, заселение одной жилой единицы несколькими семьями и строительные работы или перепланировки без необходимых разрешений.",
+    "published": "2026-09-26T11:55:55.739833+00:00",
+    "source_urls": [
+      "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-records-2395-construction-and-occupancy-breaches-after-more-than-16000-inspections/"
+    ],
+    "lang": "en",
+    "content_hash": "8ce24396df17b455249ee06c6d803ab2",
+    "strict_hash": "8ce24396df17b455249ee06c6d803ab2",
+    "fuzzy_hash": "ed14bcbe74530d6501298fe65854709f",
+    "method": "publisher_latest",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "tomorrow_changes"
+    },
+    "content_format": "tomorrow_changes",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость напрямую связана с Дубаем, касается контроля за использованием жилья и стройками, что полезно и актуально для русскоязычных жителей (аренда, соседство, штрафы, правила проживания). Признаков политики, рекламы, кликбейта или ИИ-генерации нет, тема уважительна к ценностям ОАЭ и имеет практическую ценность."
+      }
+    },
+    "image_url": "https://www.thenationalnews.com/resizer/v2/XTTS7XFAS7S5YFVP4NFGNE26K4.jpg?auth=dc25e0e05415d9edb57cbedbb34d18b52e87a2d74f3bf2d22e377661dbb61ddd&amp;smart=true&amp;width=1200&amp;height=630",
+    "slot_target": "evening"
+  }
+]

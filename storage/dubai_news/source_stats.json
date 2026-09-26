@@ -234,5 +234,50 @@
     "strict_hash": "bb94ae7b4fcefa4dc4a6e674325472f2",
     "fuzzy_hash": "9bf419aa5c117fe819b877a9f3ed297a",
     "reason": "Новость связана с Дубаем и касается действий полиции против незаконного сброса опасных отходов, что полезно и актуально для жителей, но текст выглядит как пересказ статьи The National с признаками незавершённости и возможной ИИ‑обработки, а также содержит дату «первая половина 2026 года», что снижает достоверность."
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/dubai-is-a-key-hub-for-growth-expansion-of-chinese-business-community-chinese-business-leaders-1.500688668",
+    "timestamp": "2026-09-26T11:55:52.986565+00:00",
+    "status": "rejected",
+    "content_hash": "65a4bcd507ffd3517b99d8c8a3cd77f3",
+    "strict_hash": "65a4bcd507ffd3517b99d8c8a3cd77f3",
+    "fuzzy_hash": "2365951064fed467736f64f0d8ffba90",
+    "reason": "Новость связана с Дубаем и ОАЭ, но по сути является пресс-релизом/промо-материалом о бизнес-форуме Dubai Chambers с цитатами участников и рекламной вставкой про приложение Gulf News, без самостоятельной общественно значимой новости для русскоязычных жителей Дубая."
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubais-population-boom-more-than-four-in-five-residents-are-aged-between-20-and-59-1.500688538",
+    "timestamp": "2026-09-26T11:55:54.480742+00:00",
+    "status": "rejected",
+    "content_hash": "fd4f11a325ece3639e14b91520fc6554",
+    "strict_hash": "fd4f11a325ece3639e14b91520fc6554",
+    "fuzzy_hash": "c81b23d3af9ca561eef8602c463ab100",
+    "reason": "Новость связана с Дубаем и содержит статистику населения, но текст выглядит как пересказ статьи Gulf News с рекламной вставкой про приложение и обрывом в конце, что снижает достоверность и естественность. Для русскоязычного жителя Дубая это скорее справочная демография, чем полезный или срочный инфоповод, а признаки дубликата/повтора и слабая редакционная ценность требуют отклонения."
+  },
+  {
+    "url": "https://gulfnews.com/uae/transport/dubai-to-introduce-truck-movement-restrictions-from-october-1-with-emirates-road-exempt-1.500688610",
+    "timestamp": "2026-09-26T11:55:54.482502+00:00",
+    "status": "rejected",
+    "content_hash": "3be9f3fb3337ed30e0dd993ea997d3e1",
+    "strict_hash": "3be9f3fb3337ed30e0dd993ea997d3e1",
+    "fuzzy_hash": "ed267abf20c7881f36ba7e61fd08c49c",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/want-to-join-dubai-police-meet-the-recruitment-team-at-ruya-careers-uae-2026-1.500688556",
+    "timestamp": "2026-09-26T11:55:54.484036+00:00",
+    "status": "rejected",
+    "content_hash": "ba3a4a0000a527a4d5a73127c979bca2",
+    "strict_hash": "ba3a4a0000a527a4d5a73127c979bca2",
+    "fuzzy_hash": "930dcdf798ae9d14c5ea27b8c7af5845",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-records-2395-construction-and-occupancy-breaches-after-more-than-16000-inspections",
+    "timestamp": "2026-09-26T11:56:04.557720+00:00",
+    "status": "approved",
+    "content_hash": "8ce24396df17b455249ee06c6d803ab2",
+    "strict_hash": "8ce24396df17b455249ee06c6d803ab2",
+    "fuzzy_hash": "ed14bcbe74530d6501298fe65854709f",
+    "reason": "approved"
   }
 ]
