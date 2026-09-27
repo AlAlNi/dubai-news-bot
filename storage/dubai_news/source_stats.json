@@ -226,5 +226,50 @@
     "strict_hash": "f5ed1e6d5660ca296aaf2f1f02373a3d",
     "fuzzy_hash": "d77a02365449eb2a1b57e7ad42604f6c",
     "reason": "Новость связана с Дубаем и ОАЭ, но её основная тема — гуманитарная помощь Газе на фоне войны, что относится к большому политическому/военному контексту и может быть воспринято как чувствительная тема; кроме того, текст выглядит как пресс-релиз с рекламным призывом скачать приложение и содержит признаки небрежной/неестественной подачи."
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/dubai-traffic-alert-accident-on-sheikh-mohammed-bin-zayed-road-causes-delays-1.500689330",
+    "timestamp": "2026-09-27T05:57:52.837075+00:00",
+    "status": "rejected",
+    "content_hash": "64d1f3c59207c970d4f6e455d8c01f75",
+    "strict_hash": "64d1f3c59207c970d4f6e455d8c01f75",
+    "fuzzy_hash": "721e265a5c2bd0e907f5c8e92bb464f3",
+    "reason": "Новость полезна для русскоязычных водителей Дубая как оперативное предупреждение о пробке, но текст содержит явный рекламный призыв скачать приложение Gulf News и выглядит как фрагмент с дублирующими заголовками, что нарушает правила о рекламе и качестве."
+  },
+  {
+    "url": "https://gulfnews.com/business/aviation/uae-flight-update-emirates-etihad-flydubai-and-air-arabia-delays-and-cancellations-iran-routes-halted-ebola-curbs-lifted-1.500689298",
+    "timestamp": "2026-09-27T05:57:54.237194+00:00",
+    "status": "rejected",
+    "content_hash": "4d720c40ef630586fabe63c7d10d3b20",
+    "strict_hash": "4d720c40ef630586fabe63c7d10d3b20",
+    "fuzzy_hash": "c5dba525b45fa5badc0ebbaf0503a51d",
+    "reason": "Новость касается сбоев рейсов в аэропортах Дубая и ОАЭ, но значительная часть текста посвящена политике и конфликтам (санкции США против Ирана, заявления Трампа, переговоры по Ормузскому проливу), что нарушает правило о большой политике; также присутствует рекламный призыв скачать приложение Gulf News и признаки кликбейта/ИИ-генерации."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/27/my-dubai-rent-family-pays-dh250000-for-four-bedroom-villa-in-umm-suqeim",
+    "timestamp": "2026-09-27T05:57:55.456530+00:00",
+    "status": "rejected",
+    "content_hash": "3085ae81d939127b68e5a157d51f6ca9",
+    "strict_hash": "3085ae81d939127b68e5a157d51f6ca9",
+    "fuzzy_hash": "c970c49bca84c669ea259d1cef950898",
+    "reason": "Новость представляет собой пересказ личного опыта аренды виллы в Дубае (рубрика My Dubai Rent) без общественно значимой новости, признаков ИИ-генерации или кликбейта, но по сути является контент-маркетингом издания и не несёт полезной/новостной ценности для аудитории канала."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/knowledge-can-help-middle-east-prepare-for-uncertainty-says-ceo-of-dubai-based-foundation",
+    "timestamp": "2026-09-27T05:57:56.479046+00:00",
+    "status": "rejected",
+    "content_hash": "21bee7fbb7b655efc50380259ef65659",
+    "strict_hash": "21bee7fbb7b655efc50380259ef65659",
+    "fuzzy_hash": "53ec072aa888db2fd6c0c743f46b96e7",
+    "reason": "Новость связана с Дубаем (фонд MBRF, саммит в Дубае), но её основная тема — глобальная политика и конфликты на Ближнем Востоке в контексте UNGA, что нарушает правило 2; кроме того, материал выглядит как пресс-релиз/выступление без конкретной общественно значимой новости для жителя Дубая."
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-dementia-4get-me-not-senior-support",
+    "timestamp": "2026-09-27T05:57:56.481271+00:00",
+    "status": "rejected",
+    "content_hash": "cd22de7a787e6ccd582eb2a22505630a",
+    "strict_hash": "cd22de7a787e6ccd582eb2a22505630a",
+    "fuzzy_hash": "d050be2ef9cf3dd929a1337d6e8dbddc",
+    "reason": "Cheap prefilter: слишком частый домен в окне (www.thenationalnews.com)"
   }
 ]
