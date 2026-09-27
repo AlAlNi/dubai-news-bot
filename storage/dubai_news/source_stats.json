@@ -271,5 +271,41 @@
     "strict_hash": "cd22de7a787e6ccd582eb2a22505630a",
     "fuzzy_hash": "d050be2ef9cf3dd929a1337d6e8dbddc",
     "reason": "Cheap prefilter: слишком частый домен в окне (www.thenationalnews.com)"
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/flydubai-cancels-dubai-catania-flights-as-mount-etna-ash-disrupts-airport-1.500689580",
+    "timestamp": "2026-09-27T11:18:14.678384+00:00",
+    "status": "rejected",
+    "content_hash": "ae977c85b4f15eb50deaabaaf14e7eb4",
+    "strict_hash": "ae977c85b4f15eb50deaabaaf14e7eb4",
+    "fuzzy_hash": "9766cacbbedb16331543e8227ab4909c",
+    "reason": "Новость связана с Дубаем (отмена рейсов flydubai Дубай–Катания из-за пепла Этны) и полезна русскоязычным жителям как service-update, однако текст выглядит как фрагмент чужой статьи с обрывками заголовков, рекламой приложения Gulf News и явными признаками небрежной компиляции/ИИ-склейки, что нарушает правила 5 и 8."
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/uae-traffic-alert-accident-reported-on-dubai-road-causes-delays-1.500689486",
+    "timestamp": "2026-09-27T11:18:16.249418+00:00",
+    "status": "rejected",
+    "content_hash": "f4439733c4bc5f003fb76b69a733659b",
+    "strict_hash": "f4439733c4bc5f003fb76b69a733659b",
+    "fuzzy_hash": "0b6d4e39bd8434e3b179ab21f26acdcd",
+    "reason": "Новость сообщает о ДТП на Expo Road в Дубае с предупреждением полиции о заторах — это локальный сервисный апдейт, полезный для автомобилистов, без политики, рекламы и признаков ИИ-генерации. Однако текст содержит явный рекламный призыв скачать приложение Gulf News и выглядит как фрагмент чужого материала с несколькими перекрёстными заголовками, что снижает качество и достоверность подачи."
+  },
+  {
+    "url": "https://gulfnews.com/uae/crime/dubai-police-issue-10-tips-to-avoid-vehicle-insurance-scams-1.500689424",
+    "timestamp": "2026-09-27T11:18:16.251051+00:00",
+    "status": "rejected",
+    "content_hash": "c01db507764fc8840c3f97dcaa359a6a",
+    "strict_hash": "c01db507764fc8840c3f97dcaa359a6a",
+    "fuzzy_hash": "db5b6f018c060225867c35ea379f08c7",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/how-dubai-is-preparing-its-roads-for-a-driverless-future-1.500689416",
+    "timestamp": "2026-09-27T11:18:16.252949+00:00",
+    "status": "rejected",
+    "content_hash": "d0f63bfeac58f7947bfbecf1e3a704e5",
+    "strict_hash": "d0f63bfeac58f7947bfbecf1e3a704e5",
+    "fuzzy_hash": "a6064349a747e077bd9753d9be24f211",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
   }
 ]
