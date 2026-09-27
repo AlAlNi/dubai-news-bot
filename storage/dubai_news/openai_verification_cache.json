@@ -856,5 +856,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_9795f2200f"
     }
+  },
+  "5df166e57f40d24dc69b455b1c3b8772c5539122c24d8f9e9a20ee0d7aa8702a": {
+    "saved_at": "2026-09-27T15:58:01.403064+00:00",
+    "result": {
+      "id": "chatcmpl-ESlYEJ0BL423doRkTUQQodNqpD9cm",
+      "object": "chat.completion",
+      "created": 1790524678,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum approved the Dubai Longevity Authority (DLA) strategy on Sunday.\",\"supported\":true,\"evidence\":\"Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum, Crown Prince of Dubai, Deputy Prime Minister, Minister of Defence and Chairman of The Executive Council of Dubai, on Sunday approved the Dubai Longevity Authority’s (DLA) strategy\"},{\"claim\":\"The strategy aims to contribute more than Dh35 billion to the emirate’s economy over the next decade.\",\"supported\":true,\"evidence\":\"The strategy targets annual growth of around 31 per cent and aims to contribute more than Dh35 billion to Dubai’s economy over the next decade.\"},{\"claim\":\"The strategy aims to achieve annual growth of around 31%.\",\"supported\":true,\"evidence\":\"The strategy targets annual growth of around 31 per cent and aims to contribute more than Dh35 billion to Dubai’s economy over the next decade.\"},{\"claim\":\"The DLA was established by Sheikh Mohammed bin Rashid Al Maktoum under Law No. 17 of 2026 in June.\",\"supported\":true,\"evidence\":\"The DLA was established by His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai, under Law No. 17 of 2026 in June.\"},{\"claim\":\"The DLA’s mandate covers the entire longevity sector value chain, from research and development and clinical trials to manufacturing, delivery and patient clinics.\",\"supported\":true,\"evidence\":\"The DLA’s mandate covers the entire longevity sector value chain, from research and development and clinical trials to manufacturing, delivery and patient clinics.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1154,
+        "completion_tokens": 373,
+        "total_tokens": 1527,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
   }
 }
