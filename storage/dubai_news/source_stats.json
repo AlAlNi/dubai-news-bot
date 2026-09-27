@@ -1,87 +1,5 @@
 [
   {
-    "url": "https://gulfnews.com/business/aviation/air-india-flydubai-tie-up-opens-52-more-destinations-via-dubai-1.500686930",
-    "timestamp": "2026-09-24T17:46:21.490950+00:00",
-    "status": "rejected",
-    "content_hash": "18d7e04afb1d9ba260df4d1c57253f3f",
-    "strict_hash": "18d7e04afb1d9ba260df4d1c57253f3f",
-    "fuzzy_hash": "1040587e259ca229ea8a549c62df8a93",
-    "reason": "Новость связана с Дубаем (flydubai, хаб в Дубае) и полезна для русскоязычных жителей, но текст выглядит как переработанный пресс-релиз/агрегация без явной общественно значимой ценности и с признаками кликбейт-набора заголовков."
-  },
-  {
-    "url": "https://gulfnews.com/uae/indian-expat-businesswoman-in-dubai-held-at-kerala-airport-over-alleged-visa-fraud-1.500686716",
-    "timestamp": "2026-09-24T17:46:22.936769+00:00",
-    "status": "rejected",
-    "content_hash": "8a09a58a774b652dcfaaae806af149c9",
-    "strict_hash": "8a09a58a774b652dcfaaae806af149c9",
-    "fuzzy_hash": "76d17b21c7016accdd20247fb60850d2",
-    "reason": "Новость касается жительницы Дубая и связана с ОАЭ, но её основная тема — уголовное дело, арест и обвинения в мошенничестве с визами, что не является полезной или уместной для новостного канала о Дубае и может восприниматься как криминальная/негативная история без общественно значимой ценности для аудитории."
-  },
-  {
-    "url": "https://gulfnews.com/sport/nba-legend-tristan-thompson-on-new-role-at-dubai-basketball-1.500686541",
-    "timestamp": "2026-09-24T17:46:22.938746+00:00",
-    "status": "rejected",
-    "content_hash": "af8996717303a2de9255d31620609f47",
-    "strict_hash": "af8996717303a2de9255d31620609f47",
-    "fuzzy_hash": "18457e1afcf27e7a3e4ca38044bdb847",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
-    "url": "https://www.thenationalnews.com/business/property/2026/09/24/buy-dubai-property-bubble-strong-rents-demand-ubs-report",
-    "timestamp": "2026-09-25T02:22:50.374999+00:00",
-    "status": "approved",
-    "content_hash": "03666d07e4c55a49ee1cf2bf912f68ce",
-    "strict_hash": "03666d07e4c55a49ee1cf2bf912f68ce",
-    "fuzzy_hash": "93a39488762850473f95d01e7a7e56c5",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.thenationalnews.com/business/property/2026/09/24/buy-dubai-property-bubble-strong-rents-demand-ubs-report",
-    "timestamp": "2026-09-25T07:37:32.433077+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://gulfnews.com/business/aviation/uae-flights-status-update-emirates-etihad-air-arabia-flydubai-delays-cancellations-as-regional-tensions-keep-travel-fluid-1.500687315",
-    "timestamp": "2026-09-25T08:18:33.801346+00:00",
-    "status": "rejected",
-    "content_hash": "6dc0cc8bf7b8c9d7b28dfe28348ba0ce",
-    "strict_hash": "6dc0cc8bf7b8c9d7b28dfe28348ba0ce",
-    "fuzzy_hash": "2c767855c565c1279e659acce4e933d1",
-    "reason": "Новость касается сбоев рейсов в аэропортах Дубая и Абу-Даби, что полезно для русскоязычных жителей, но её основная тема — региональная политика, конфликт вокруг Ормузского пролива и санкции против иранских авиакомпаний, что нарушает правило об отказе от большой политики и конфликтов. Также текст содержит признаки кликбейта/ИИ-генерации и обрывается на полуслове, что делает его непригодным для публикации."
-  },
-  {
-    "url": "https://gulfnews.com/sport/dubai-basketball-stun-real-madrid-in-78-77-thriller-1.500687178",
-    "timestamp": "2026-09-25T08:18:44.491705+00:00",
-    "status": "approved",
-    "content_hash": "5edd4b5193b99749eae5340c5d271be1",
-    "strict_hash": "5edd4b5193b99749eae5340c5d271be1",
-    "fuzzy_hash": "16ef5da8f05d558ab07162a2f72e49a1",
-    "reason": "approved"
-  },
-  {
-    "url": "https://gulfnews.com/sport/dubai-basketball-stun-real-madrid-in-78-77-thriller-1.500687178",
-    "timestamp": "2026-09-25T13:36:37.497942+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai-municipality-uncovers-2395-building-violations-after-more-than-16000-inspections-1.500687829",
-    "timestamp": "2026-09-25T14:16:52.680026+00:00",
-    "status": "rejected",
-    "content_hash": "e20bbf917d27851c3575d0e0dd875c0b",
-    "strict_hash": "e20bbf917d27851c3575d0e0dd875c0b",
-    "fuzzy_hash": "4005954ba8c78f2d1d9c6db6bc253c3c",
-    "reason": "Новость связана с Дубаем и касается проверок Dubai Municipality, нарушений застройки и правил проживания, что полезно и актуально для русскоязычных жителей. Однако текст выглядит как фрагмент/перепечатка материала Gulf News с рекламным призывом скачать приложение и обрывками похожих заголовков, что указывает на низкое качество и возможный дубликат."
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai/dubai-police-trains-476-school-bus-staff-to-protect-students-1.500687718",
-    "timestamp": "2026-09-25T14:17:03.729435+00:00",
-    "status": "approved",
-    "content_hash": "275ba3db36c68ebd36d86ea30c4f4549",
-    "strict_hash": "275ba3db36c68ebd36d86ea30c4f4549",
-    "fuzzy_hash": "5e1e01c8a928c3d8bbdf098fb57001bf",
-    "reason": "approved"
-  },
-  {
     "url": "https://gulfnews.com/uae/dubai/dubai-police-trains-476-school-bus-staff-to-protect-students-1.500687718",
     "timestamp": "2026-09-25T18:28:17.455472+00:00",
     "status": "published"
@@ -316,5 +234,10 @@
     "strict_hash": "a6f9de82ee2d2a79b86374b9f7b25bb5",
     "fuzzy_hash": "a13405417895964f335acfdd556c5ce5",
     "reason": "approved"
+  },
+  {
+    "url": "https://gulfnews.com/business/economy/sheikh-hamdan-approves-dubai-longevity-strategy-targeting-dh35-billion-economic-boost-1.500689676",
+    "timestamp": "2026-09-27T18:15:29.767588+00:00",
+    "status": "published"
   }
 ]
