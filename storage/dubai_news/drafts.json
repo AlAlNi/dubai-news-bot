@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "source_snapshot": {
+      "title": "China Securities opens Dubai office to connect Chinese and Middle East investors",
+      "text": "Dubai: China Securities has established a regional office in Dubai International Financial Centre, giving the Beijing-headquartered investment bank a base to serve clients and investors across the Middle East..Sign up for our daily business newsletter, Cheques & Balances..The publicly listed securities firm has received a licence from the DIFC Authority and has also been authorised by the Dubai Financial Services Authority..Get updated faster and for FREE: Download the Gulf News app now - simply click here..The Dubai office will support China Securities’ work with clients, investors and financial institutions across the region while strengthening links between Chinese, UAE and international capital markets.Dubai base for regional expansionChina Securities operates across equity and debt capital markets, investment banking, asset management and institutional services.Its presence in DIFC gives the group a regional base for its international expansion and its engagement with investors across the Middle East.The move follows sustained engagement between DIFC and China Securities, with the financial centre working with the bank on opportunities available through Dubai and the wider regional market..DIFC hits 8,000+ companies, $240 billion banking assets for Dubai hub.Emirates NBD Securities opens GCC markets to UAE investors.First Abu Dhabi Bank aims to triple China business by 2026.China Construction Bank lists $600 million green bond on Nasdaq Dubai.Chinese financial presence growsChina Securities becomes the latest Chinese investment bank to establish a presence in DIFC, joining a group that includes Agricultural Bank of China, Bank of China, Bank of Communications, China Construction Bank, China International Capital Corporation, China Merchants Bank International and Industrial and Commercial Bank of China.China’s five largest banks together account for more than 30% of total assets in DIFC’s Banking and Capital Markets sector.",
+      "url": "https://gulfnews.com/business/markets/china-securities-opens-dubai-office-to-connect-chinese-and-middle-east-investors-1.500690304",
+      "published_at": "2026-09-28T07:10:51+00:00"
+    },
+    "source_published_at": "2026-09-28T07:10:51+00:00",
+    "source_retrieved_at": "2026-09-28T07:53:47.510636+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "China Securities учредила региональный офис в Дубайском международном финансовом центре (DIFC).",
+          "supported": true,
+          "evidence": "China Securities has established a regional office in Dubai International Financial Centre"
+        },
+        {
+          "claim": "Публичная брокерская компания со штаб-квартирой в Пекине получила лицензию DIFC Authority и разрешение Управления финансовых услуг Дубая.",
+          "supported": true,
+          "evidence": "The publicly listed securities firm has received a licence from the DIFC Authority and has also been authorised by the Dubai Financial Services Authority."
+        },
+        {
+          "claim": "Офис будет поддерживать работу China Securities с клиентами, инвесторами и финансовыми институтами региона, а также укреплять связи между китайскими, эмиратскими и международными рынками капитала.",
+          "supported": true,
+          "evidence": "The Dubai office will support China Securities’ work with clients, investors and financial institutions across the region while strengthening links between Chinese, UAE and international capital markets."
+        },
+        {
+          "claim": "Компания работает на рынках акционерного и долгового капитала, в инвестиционно-банковской сфере, управлении активами и институциональных услугах.",
+          "supported": true,
+          "evidence": "China Securities operates across equity and debt capital markets, investment banking, asset management and institutional services."
+        }
+      ],
+      "source_hash": "bfc1c3cc1369f17a11b4f7b355bda04783f83dc77aec520123ab5f94d6ecfe62",
+      "summary_hash": "b1422ae094596bddc7ca2e78ad6a23ac97e62a01698abf4d76e141dbe48aef97",
+      "checked_at": "2026-09-28T07:54:03.610174+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "gulfnews.com",
+    "title": "China Securities opens Dubai office to connect Chinese and Middle East investors",
+    "summary_ru": "<b>China Securities открывает офис в Дубае для связи китайских и ближневосточных инвесторов</b>\n\nChina Securities учредила региональный офис в Дубайском международном финансовом центре (DIFC). Публичная брокерская компания со штаб-квартирой в Пекине получила лицензию DIFC Authority и разрешение Управления финансовых услуг Дубая.\n\nОфис будет поддерживать работу China Securities с клиентами, инвесторами и финансовыми институтами региона, а также укреплять связи между китайскими, эмиратскими и международными рынками капитала. Компания работает на рынках акционерного и долгового капитала, в инвестиционно-банковской сфере, управлении активами и институциональных услугах.",
+    "published": "2026-09-28T07:53:56.244182+00:00",
+    "source_urls": [
+      "https://gulfnews.com/business/markets/china-securities-opens-dubai-office-to-connect-chinese-and-middle-east-investors-1.500690304"
+    ],
+    "lang": "en",
+    "content_hash": "764ecf440997dacf8462df17e2c1f566",
+    "strict_hash": "764ecf440997dacf8462df17e2c1f566",
+    "fuzzy_hash": "8e1a5055658950fedf9d64f9e11abbaa",
+    "method": "publisher_latest",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 65,
+      "ad_readiness_score": 75,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость имеет явную связь с Дубаем (открытие офиса China Securities в DIFC), не касается политики/конфликтов, не выглядит как реклама, нейтральна и полезна для русскоязычной аудитории как деловой/финансовый факт. Признаков ИИ-генерации и кликбейта нет, дубликатов по хешу не обнаружено."
+      }
+    },
+    "image_url": "https://media.assettype.com/gulfnews%2F2026-09-28%2Fd1nuvf7a%2F87b75c72-4051-492b-ade5-1faf6411ca05.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+    "slot_target": "evening"
+  }
+]
