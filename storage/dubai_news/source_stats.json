@@ -1,91 +1,5 @@
 [
   {
-    "url": "https://gulfnews.com/uae/dubai/global-village-season-31-vip-packs-go-on-sale-today-prices-benefits-and-dh31000-surprise-1.500688470",
-    "timestamp": "2026-09-26T06:48:40.611500+00:00",
-    "status": "rejected",
-    "content_hash": "76e2d40d2cb75bf7928c68d58ce9756d",
-    "strict_hash": "76e2d40d2cb75bf7928c68d58ce9756d",
-    "fuzzy_hash": "7806f37c751cebe1da6d6224d7a7ce24",
-    "reason": "Новость о старте продаж VIP-пакетов Global Village Season 31 связана с Дубаем, полезна для русскоязычных жителей и не содержит политики, рекламного пресс-релизного уклона или неуважительных тем. Однако текст выглядит как перепечатка/промо-материал с элементами кликбейта («Dh31,000 surprise») и вставкой рекламы приложения Gulf News, что снижает редакционную пригодность."
-  },
-  {
-    "url": "https://gulfnews.com/business/aviation/uae-flights-status-update-emirates-etihad-air-arabia-flydubai-delays-and-cancellations-iran-flights-suspended-1.500688448",
-    "timestamp": "2026-09-26T06:48:41.838625+00:00",
-    "status": "rejected",
-    "content_hash": "7f5b49f8f6874f5e6122716141d1647b",
-    "strict_hash": "7f5b49f8f6874f5e6122716141d1647b",
-    "fuzzy_hash": "884ac0ebd0200a1fed0573be3d689ec3",
-    "reason": "Новость связана с ОАЭ и полезна для русскоязычных жителей Дубая (статусы рейсов, задержки, отмены), но она подана как тревожный дайджест с элементами кликбейта и ссылкой на приложение, а также затрагивает чувствительный политико-региональный контекст (Иран, «regional tensions», ограничения США), что противоречит правилам 2, 3 и 5."
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-launches-drive-to-send-10-million-meals-to-gaza-in-honour-of-sheikh-ahmed-bin-rashid",
-    "timestamp": "2026-09-26T06:48:42.951439+00:00",
-    "status": "rejected",
-    "content_hash": "d4dc563fb7aa15323033e912388a9348",
-    "strict_hash": "d4dc563fb7aa15323033e912388a9348",
-    "fuzzy_hash": "0c5e1a8c8e6da6b92d66cbe8ee44444e",
-    "reason": "Новость связана с Дубаем и ОАЭ, но её основная тема — гуманитарная помощь Газе на фоне войны, что относится к большому политическому/военному конфликту и не соответствует правилу 2. Кроме того, текст выглядит как чувствительный политизированный материал с признаками неполного/обрывочного текста, что повышает риск отклонения."
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-police-take-action-against-18-suspects-accused-of-dumping-harmful-waste",
-    "timestamp": "2026-09-26T06:48:44.207938+00:00",
-    "status": "rejected",
-    "content_hash": "bb94ae7b4fcefa4dc4a6e674325472f2",
-    "strict_hash": "bb94ae7b4fcefa4dc4a6e674325472f2",
-    "fuzzy_hash": "9bf419aa5c117fe819b877a9f3ed297a",
-    "reason": "Новость связана с Дубаем и касается действий полиции против незаконного сброса опасных отходов, что полезно и актуально для жителей, но текст выглядит как пересказ статьи The National с признаками незавершённости и возможной ИИ‑обработки, а также содержит дату «первая половина 2026 года», что снижает достоверность."
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai/dubai-is-a-key-hub-for-growth-expansion-of-chinese-business-community-chinese-business-leaders-1.500688668",
-    "timestamp": "2026-09-26T11:55:52.986565+00:00",
-    "status": "rejected",
-    "content_hash": "65a4bcd507ffd3517b99d8c8a3cd77f3",
-    "strict_hash": "65a4bcd507ffd3517b99d8c8a3cd77f3",
-    "fuzzy_hash": "2365951064fed467736f64f0d8ffba90",
-    "reason": "Новость связана с Дубаем и ОАЭ, но по сути является пресс-релизом/промо-материалом о бизнес-форуме Dubai Chambers с цитатами участников и рекламной вставкой про приложение Gulf News, без самостоятельной общественно значимой новости для русскоязычных жителей Дубая."
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubais-population-boom-more-than-four-in-five-residents-are-aged-between-20-and-59-1.500688538",
-    "timestamp": "2026-09-26T11:55:54.480742+00:00",
-    "status": "rejected",
-    "content_hash": "fd4f11a325ece3639e14b91520fc6554",
-    "strict_hash": "fd4f11a325ece3639e14b91520fc6554",
-    "fuzzy_hash": "c81b23d3af9ca561eef8602c463ab100",
-    "reason": "Новость связана с Дубаем и содержит статистику населения, но текст выглядит как пересказ статьи Gulf News с рекламной вставкой про приложение и обрывом в конце, что снижает достоверность и естественность. Для русскоязычного жителя Дубая это скорее справочная демография, чем полезный или срочный инфоповод, а признаки дубликата/повтора и слабая редакционная ценность требуют отклонения."
-  },
-  {
-    "url": "https://gulfnews.com/uae/transport/dubai-to-introduce-truck-movement-restrictions-from-october-1-with-emirates-road-exempt-1.500688610",
-    "timestamp": "2026-09-26T11:55:54.482502+00:00",
-    "status": "rejected",
-    "content_hash": "3be9f3fb3337ed30e0dd993ea997d3e1",
-    "strict_hash": "3be9f3fb3337ed30e0dd993ea997d3e1",
-    "fuzzy_hash": "ed267abf20c7881f36ba7e61fd08c49c",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai/want-to-join-dubai-police-meet-the-recruitment-team-at-ruya-careers-uae-2026-1.500688556",
-    "timestamp": "2026-09-26T11:55:54.484036+00:00",
-    "status": "rejected",
-    "content_hash": "ba3a4a0000a527a4d5a73127c979bca2",
-    "strict_hash": "ba3a4a0000a527a4d5a73127c979bca2",
-    "fuzzy_hash": "930dcdf798ae9d14c5ea27b8c7af5845",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-records-2395-construction-and-occupancy-breaches-after-more-than-16000-inspections",
-    "timestamp": "2026-09-26T11:56:04.557720+00:00",
-    "status": "approved",
-    "content_hash": "8ce24396df17b455249ee06c6d803ab2",
-    "strict_hash": "8ce24396df17b455249ee06c6d803ab2",
-    "fuzzy_hash": "ed14bcbe74530d6501298fe65854709f",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-records-2395-construction-and-occupancy-breaches-after-more-than-16000-inspections",
-    "timestamp": "2026-09-26T12:58:12.606525+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://gulfnews.com/uae/dubai/dubai-police-warn-of-traffic-on-al-khail-road-1.500688958",
     "timestamp": "2026-09-26T15:23:22.550536+00:00",
     "status": "approved",
@@ -225,5 +139,10 @@
     "strict_hash": "764ecf440997dacf8462df17e2c1f566",
     "fuzzy_hash": "8e1a5055658950fedf9d64f9e11abbaa",
     "reason": "approved"
+  },
+  {
+    "url": "https://gulfnews.com/business/markets/china-securities-opens-dubai-office-to-connect-chinese-and-middle-east-investors-1.500690304",
+    "timestamp": "2026-09-28T15:16:42.729135+00:00",
+    "status": "published"
   }
 ]
