@@ -43,5 +43,23 @@
     "strict_hash": "389957f90d482823bb10373c908fe6cc",
     "fuzzy_hash": "c4241bad71d7c7fadd16fe0c159dd7a0",
     "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://www.mediaoffice.ae/en/news/2026/september/28-09/uae-president-takes-etihad-rail-to-dubai-hamdan-and-theyab-open-station",
+    "timestamp": "2026-09-29T09:10:27.372691+00:00",
+    "status": "rejected",
+    "content_hash": "3600fd6636bcb16e629f5b71b14b9089",
+    "strict_hash": "3600fd6636bcb16e629f5b71b14b9089",
+    "fuzzy_hash": "c40a94235e478f78348042fb7f7846b1",
+    "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
+  },
+  {
+    "url": "https://gulfnews.com/uae/crime/dubai-police-arrest-22-member-begging-gang-after-police-eye-tip-off-1.500690734",
+    "timestamp": "2026-09-29T09:10:37.237594+00:00",
+    "status": "rejected",
+    "content_hash": "24e057c0c8f09faabbf7978a2b5bc15f",
+    "strict_hash": "24e057c0c8f09faabbf7978a2b5bc15f",
+    "fuzzy_hash": "1b10b0f599436edf1acfafebbc0d2c86",
+    "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
   }
 ]

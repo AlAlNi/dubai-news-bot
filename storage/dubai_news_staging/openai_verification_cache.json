@@ -76,5 +76,83 @@
       "service_tier": "default",
       "system_fingerprint": "fp_9795f2200f"
     }
+  },
+  "8ad4bf46a82000e220bfa5d8903fd85c23b295675101f21f474e21bfdb3ac17e": {
+    "saved_at": "2026-09-29T09:10:27.370332+00:00",
+    "result": {
+      "id": "chatcmpl-ETO8thr4sgJLxqE5FnmITxQwbgU4Z",
+      "object": "chat.completion",
+      "created": 1790673023,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В ОАЭ открыт пассажирский железнодорожный вокзал Etihad Rail в Дубае\",\"supported\":true,\"evidence\":\"today inaugurated Etihad Rail’s Dubai Station.\"},{\"claim\":\"В присутствии президента ОАЭ шейха Мохаммеда бин Зайеда Аль Нахайяна и других высокопоставленных лиц состоялось открытие станции Etihad Rail в Дубае\",\"supported\":true,\"evidence\":\"In the presence of President His Highness Sheikh Mohamed bin Zayed Al Nahyan; ... and a number of senior officials.\"},{\"claim\":\"Открытие станции ознаменовало запуск национальной пассажирской железнодорожной сети\",\"supported\":true,\"evidence\":\"The inauguration marked the official launch of the UAE’s national passenger rail network\"},{\"claim\":\"С 30 сентября 2026 года начнутся пассажирские перевозки между Абу-Даби, Дубаем и Фуджейрой\",\"supported\":true,\"evidence\":\"commencement of services between Abu Dhabi, Dubai and Fujairah on 30 September 2026.\"},{\"claim\":\"Станция в Дубае связана с метро через пешеходный мост\",\"supported\":true,\"evidence\":\"Etihad Rail’s Dubai Station is connected to Jumeirah Golf Estates Metro Station via a dedicated pedestrian bridge\"},{\"claim\":\"Станция интегрирована с системой оплаты Nol, что обеспечивает удобство пересадки и единый билет для разных видов транспорта\",\"supported\":true,\"evidence\":\"Integration with Dubai’s Nol system also enables passengers to book Etihad Rail journeys and public transport services through a single QR code, which can be used across train, Metro, Tram and bus services.\"},{\"claim\":\"Билеты доступны в приложении Etihad Rail и на станциях\",\"supported\":true,\"evidence\":\"Tickets are now available through the Etihad Rail mobile application, website and ticket vending machines at stations\"},{\"claim\":\"Цены стартуют от 39 дирхамов за класс Comfort\",\"supported\":true,\"evidence\":\"fares starting from AED39 for Comfort Class\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1595,
+        "completion_tokens": 453,
+        "total_tokens": 2048,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
+  },
+  "83490d3cacdda1c4d274df8ca7dc9aa58c784d6c21df8f1c497d36c11ce99055": {
+    "saved_at": "2026-09-29T09:10:37.235433+00:00",
+    "result": {
+      "id": "chatcmpl-ETO94q2HH6CkvQTT2oOZhKErb0sJU",
+      "object": "chat.completion",
+      "created": 1790673034,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"В Дубае задержана банда из 22 попрошаек, останавливавших водителей\",\"supported\":true,\"evidence\":\"A 22-member begging gang has been arrested after Dubai Police received a tip-off about individuals stopping motorists on major roads and asking for money\"},{\"claim\":\"Полиция Дубая арестовала 22 человека, которые на крупных дорогах останавливали водителей, прося деньги якобы на проезд\",\"supported\":true,\"evidence\":\"A 22-member begging gang has been arrested after Dubai Police received a tip-off about individuals stopping motorists on major roads and asking for money, claiming they needed fares to travel.\"},{\"claim\":\"Информация поступила через сервис «Police Eye» в приложении полиции\",\"supported\":true,\"evidence\":\"The report, submitted through the ‘Police Eye’ service on the Dubai Police app, helped authorities track the suspects\"},{\"claim\":\"Злоумышленники действовали организованно в нескольких районах, включая улицу Аль-Хор, мост Бу Кадра и дорогу Дубай-Аль-Айн\",\"supported\":true,\"evidence\":\"The gang members were found begging at several busy areas, including Al Khor Street, Ras Al Khor, the Bu Kadra Bridge area and the Dubai-Al Ain Road bridge.\"},{\"claim\":\"Полиция предупреждает, что остановка на оживлённых трассах опасна и призывает не поддаваться на подобные уловки\",\"supported\":true,\"evidence\":\"Dubai Police also warned that begging on main roads is not only illegal but can create serious safety risks for both beggars and motorists... Police urged motorists not to respond to such tactics and not to stop in locations where doing so could endanger themselves or others.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1111,
+        "completion_tokens": 392,
+        "total_tokens": 1503,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
   }
 }
