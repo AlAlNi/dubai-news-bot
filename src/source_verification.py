@@ -40,7 +40,7 @@ REVIEW_PROMPT = (
 def verifier_provider():
     provider = os.getenv("SOURCE_VERIFIER", "auto").strip().lower()
     if provider == "auto":
-        return "openai" if os.getenv("OPENAI_API_KEY", "").strip() else "deepseek"
+        return "openai"
     return provider
 
 
@@ -77,7 +77,7 @@ def _validate_completion(payload, source, summary, model, provider):
         return {**report, "reason": f"Verifier error: {type(exc).__name__}"}
 
 
-def verify_summary(source, summary, api_key, timeout=30, storage_dir=None):
+def verify_summary(source, summary, api_key=None, timeout=30, storage_dir=None):
     provider = verifier_provider()
     report = {"version": 1, "status": "error", "provider": provider, "api_calls": 0}
     if not source.get("text") or source["text"] == source.get("title") or not summary.strip():
@@ -87,28 +87,7 @@ def verify_summary(source, summary, api_key, timeout=30, storage_dir=None):
         if storage_dir is None:
             storage_dir = Path(__file__).resolve().parents[1] / "storage" / "dubai_news"
         return verify_with_openai(source, summary, REVIEW_PROMPT, _validate_completion, timeout, storage_dir)
-    if provider != "deepseek":
-        return {**report, "reason": "Unknown SOURCE_VERIFIER"}
-    if not api_key:
-        return {**report, "reason": "Missing DEEPSEEK_API_KEY"}
-    try:
-        response = request_with_retry(
-            "POST", "https://api.deepseek.com/v1/chat/completions",
-            headers={"Authorization": f"Bearer {api_key}"}, timeout=timeout,
-            json={
-                "model": "deepseek-chat", "temperature": 0.0, "max_tokens": 2400,
-                "response_format": {"type": "json_object"},
-                "messages": [
-                    {"role": "system", "content": REVIEW_PROMPT},
-                    {"role": "user", "content": json.dumps({"source": source, "post": summary}, ensure_ascii=False)},
-                ],
-            },
-        )
-        if response.status_code != 200:
-            return {**report, "reason": f"Verifier HTTP {response.status_code}"}
-        return _validate_completion(response.json(), source, summary, "deepseek-chat", "deepseek")
-    except Exception as exc:
-        return {**report, "reason": f"Verifier error: {type(exc).__name__}"}
+    return {**report, "reason": "Only SOURCE_VERIFIER=openai is supported"}
 
 
 def is_verified_draft(draft):
@@ -116,7 +95,7 @@ def is_verified_draft(draft):
     source = draft.get("source_snapshot")
     return bool(
         isinstance(report, dict) and isinstance(source, dict)
-        and report.get("provider", "deepseek") == verifier_provider()
+        and report.get("provider") == verifier_provider()
         and report.get("version") == 1 and report.get("status") == "approved"
         and draft.get("workflow_state") == "approved_by_editor"
         and draft.get("editorial_decision") == "approved"
