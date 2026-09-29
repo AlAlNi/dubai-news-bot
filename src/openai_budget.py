@@ -69,6 +69,9 @@ def atomic_json(path, value):
 
 class Budget:
     def __init__(self, storage_dir, now=None):
+        # Staging uses isolated drafts, but the same durable account-wide ledger.
+        if os.getenv("BOT_ENVIRONMENT") == "staging":
+            storage_dir = Path(__file__).resolve().parents[1] / "storage" / "dubai_news"
         self.path = Path(storage_dir) / LEDGER_FILENAME
         self.now = now or datetime.now(timezone.utc)
         self.month = self.now.strftime("%Y-%m")
