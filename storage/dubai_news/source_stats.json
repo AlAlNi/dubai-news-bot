@@ -144,5 +144,50 @@
     "strict_hash": "65d804189fe8da7249d072d006d7468a",
     "fuzzy_hash": "ded97d4eb111cb85756bceda2ad978c9",
     "reason": "DeepSeek editor HTTP ошибка 402"
+  },
+  {
+    "url": "https://gulfnews.com/business/tourism/emirates-gives-dubai-travellers-dh535-in-free-attraction-passes-this-winter-1.500691859",
+    "timestamp": "2026-09-29T09:13:43.155327+00:00",
+    "status": "error",
+    "content_hash": "200d37b61b07315b42c71d26d78fc377",
+    "strict_hash": "200d37b61b07315b42c71d26d78fc377",
+    "fuzzy_hash": "0adaeb37cb98d130e35c845ffd850248",
+    "reason": "DeepSeek editor HTTP ошибка 402"
+  },
+  {
+    "url": "https://gulfnews.com/uae/transport/etihad-rail-passenger-train-completes-abu-dhabi-dubai-journey-1.500691485",
+    "timestamp": "2026-09-29T09:13:43.873469+00:00",
+    "status": "error",
+    "content_hash": "e950eb3c16b618cf15c3b116714ce752",
+    "strict_hash": "e950eb3c16b618cf15c3b116714ce752",
+    "fuzzy_hash": "09506016b8622c24cf7a9e2ec820518b",
+    "reason": "DeepSeek editor HTTP ошибка 402"
+  },
+  {
+    "url": "https://gulfnews.com/business/aviation/air-canada-delays-dubai-flights-to-next-year-which-airlines-return-in-2026-and-2027-1.500691671",
+    "timestamp": "2026-09-29T09:13:43.874633+00:00",
+    "status": "rejected",
+    "content_hash": "cf06fef6948018d529efacf01273d37c",
+    "strict_hash": "cf06fef6948018d529efacf01273d37c",
+    "fuzzy_hash": "f2857611302388ec133e745329cf82bd",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://gulfnews.com/business/aviation/uae-flights-today-emirates-etihad-air-arabia-flydubai-delays-cancellations-air-canada-extends-dubai-suspension-1.500691653",
+    "timestamp": "2026-09-29T09:13:43.875982+00:00",
+    "status": "rejected",
+    "content_hash": "f8d72165945a7c132755e3ac985ab359",
+    "strict_hash": "f8d72165945a7c132755e3ac985ab359",
+    "fuzzy_hash": "fc989e4fbc3018820838c7f4e2396a97",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://www.thenationalnews.com/news/uae/2026/09/27/dubai-to-ban-lorries-from-sheikh-zayed-road-during-peak-hours-from-october-1",
+    "timestamp": "2026-09-29T09:13:44.623167+00:00",
+    "status": "error",
+    "content_hash": "eb5fad4e76fb38887c0af4c55f80e1a8",
+    "strict_hash": "eb5fad4e76fb38887c0af4c55f80e1a8",
+    "fuzzy_hash": "9207486788e9c8c393509ec8cb61b0c2",
+    "reason": "DeepSeek editor HTTP ошибка 402"
   }
 ]
