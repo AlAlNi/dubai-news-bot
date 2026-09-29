@@ -47,12 +47,21 @@ class DigestImportTests(unittest.TestCase):
                 self.assertEqual(result["status"], "ok")
                 paid.assert_not_called()
 
-    def test_duplicates_and_unapproved_hosts_not_fetched(self):
-        self.save({"mode": "digest", "urls": [URL, URL + "?utm_source=chatgpt", "https://t.me/channel", "https://www.reuters.com/world/test"]})
+    def test_duplicates_and_unsafe_urls_not_fetched(self):
+        self.save({"mode": "digest", "urls": [URL, URL + "?utm_source=chatgpt", "https://127.0.0.1/private", "file:///etc/passwd"]})
         with patch("news_discovery.fetch_article") as fetch:
             result = self.run_digest(seen_urls=[URL])
             fetch.assert_not_called()
             self.assertEqual(len(result["source_rejections"]), 4)
+
+    def test_reuters_reaches_article_loader_without_paid_search(self):
+        url = "https://www.reuters.com/world/dubai-transport"
+        self.save({"mode": "digest", "urls": [url]})
+        with patch("news_discovery.fetch_article", return_value=None) as fetch, patch(
+                "openai_news_search.search_news") as paid:
+            self.run_digest()
+            self.assertEqual(fetch.call_args.args[0], url)
+            paid.assert_not_called()
 
     def test_invalid_config_cannot_buy_search(self):
         for value in [{"mode": "typo"}, {"mode": "digest", "urls": [4]},

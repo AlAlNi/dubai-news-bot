@@ -91,8 +91,8 @@ class SearchTests(unittest.TestCase):
             self.assertIn('2026-12-30T02:00:00+04:00', prompt)
             self.assertIn('after:2026-12-29 before:2027-01-02', prompt)
             self.assertIn('Crawl dates and event dates are not publication dates', prompt)
-        self.assertIn('site:gulfnews.com', primary)
-        self.assertIn('site:thenationalnews.com', replacement)
+        self.assertNotIn('site:', primary)
+        self.assertNotIn('site:', replacement)
         self.assertNotEqual(primary, replacement)
 
     def setUp(self):
@@ -133,7 +133,7 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(kwargs["json"]["model"], "gpt-4.1-mini-2025-04-14")
         self.assertEqual(kwargs["json"]["temperature"], 0)
         self.assertNotIn("reasoning", kwargs["json"])
-        self.assertIn("mediaoffice.ae", kwargs["json"]["instructions"])
+        self.assertNotIn("Search only these domains", kwargs["json"]["instructions"])
         self.assertIn('Use this query in the single web search:', kwargs['json']['input'])
         self.assertIn('after:2026-09-12 before:2026-09-16', kwargs['json']['input'])
         self.assertNotIn("test-key", self.ledger.read_text())
@@ -284,15 +284,15 @@ class SearchTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             discovered_urls(result)
 
-    def test_only_allowlisted_citations_and_sources_used(self):
+    def test_public_citations_and_sources_used_without_publisher_list(self):
         self.assertEqual(discovered_urls(search_response([URL, "https://example.com/fake",
-            "https://khaleejtimes.com.evil.example/fake", "http://127.0.0.1/"])), [URL])
+            "https://khaleejtimes.com.evil.example/fake", "http://127.0.0.1/"])), [URL, "https://example.com/fake"])
 
-    def test_blocked_publisher_listing_and_single_domain_do_not_fill_batch(self):
+    def test_listings_and_single_domain_do_not_fill_batch(self):
         urls = ["https://gulfbusiness.com/en/news/story", "https://www.thenationalnews.com/tags/transport/",
                 "https://rta.ae/report.pdf", URL, URL + "-2", URL + "-3",
                 "https://mediaoffice.ae/en/news/dubai-story", "https://gulfnews.com/uae/dubai-story"]
-        self.assertEqual(discovered_urls(search_response(urls)), [URL, URL + "-2", urls[-2], urls[-1]])
+        self.assertEqual(discovered_urls(search_response(urls)), [urls[0], URL, URL + "-2", urls[-2], urls[-1]])
 
     def test_mini_can_search_with_existing_astra_spend_without_reset(self):
         prior = Budget(self.temp.name, NOW - timedelta(days=1))

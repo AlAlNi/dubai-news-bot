@@ -22,6 +22,12 @@ def article_html(date="2026-09-15T08:00:00Z", **fields):
 
 
 class ArticleTests(unittest.TestCase):
+    def setUp(self):
+        resolver = patch("search_sources.socket.getaddrinfo",
+                         return_value=[(2, 1, 6, "", ("93.184.216.34", 443))])
+        resolver.start()
+        self.addCleanup(resolver.stop)
+
     def test_publisher_fractional_seconds_work_on_python_310(self):
         for fraction, expected in [("6", "600000"), ("61", "610000"), ("6107", "610700"),
                                    ("610789123", "610789")]:
@@ -83,20 +89,52 @@ class ArticleTests(unittest.TestCase):
         self.assertEqual(result["description"], BODY)
         self.assertNotIn("999", result["description"])
 
-    def test_allowlist_blocks_credentials_wrong_scheme_ports_and_lookalikes(self):
+    def test_url_validation_blocks_credentials_wrong_scheme_ports_and_private_ips(self):
         self.assertTrue(allowed_url(URL))
-        for url in ["http://www.khaleejtimes.com/news", "https://khaleejtimes.com.evil.com/news",
+        for url in ["http://www.khaleejtimes.com/news", "https://localhost/news",
                     "https://user:pass@khaleejtimes.com/news", "https://khaleejtimes.com:8080/news",
                     "https://127.0.0.1/", "file:///etc/passwd"]:
             with self.subTest(url=url):
                 self.assertFalse(allowed_url(url))
 
-    def test_off_domain_redirect_not_followed(self):
-        response = Mock(status_code=302, headers={"Location": "https://example.com/redirect"})
+    def test_private_redirect_not_followed(self):
+        response = Mock(status_code=302, headers={"Location": "https://169.254.169.254/latest/meta-data"})
         with patch("search_sources.request_with_retry", return_value=response) as request:
             self.assertIsNone(fetch_article(URL, NOW))
             request.assert_called_once()
         response.close.assert_called_once()
+
+    def test_new_publisher_is_read_and_cross_publisher_redirect_works(self):
+        target = "https://www.reuters.com/world/dubai-transport"
+        redirect = Mock(status_code=302, headers={"Location": target})
+        page = Mock(status_code=200, headers={"Content-Type": "text/html"}, encoding="utf-8")
+        page.iter_content.return_value = [article_html(url=target).encode()]
+        with patch("search_sources.request_with_retry", side_effect=[redirect, page]) as request:
+            self.assertEqual(fetch_article(URL, NOW)["link"], target)
+            self.assertEqual(request.call_count, 2)
+        self.assertTrue(allowed_url(target))
+
+    def test_private_mixed_or_failed_dns_never_requested(self):
+        for addresses in [[(2, 1, 6, "", ("10.0.0.1", 443))],
+                          [(2, 1, 6, "", ("93.184.216.34", 443)),
+                           (2, 1, 6, "", ("127.0.0.1", 443))], []]:
+            with patch("search_sources.socket.getaddrinfo", return_value=addresses), patch(
+                    "search_sources.request_with_retry") as request:
+                self.assertIsNone(fetch_article("https://new-newsroom.com/story", NOW))
+                request.assert_not_called()
+        with patch("search_sources.socket.getaddrinfo", side_effect=OSError), patch(
+                "search_sources.request_with_retry") as request:
+            self.assertIsNone(fetch_article(URL, NOW))
+            request.assert_not_called()
+
+    def test_redirect_dns_is_checked_again(self):
+        response = Mock(status_code=302, headers={"Location": "https://private-newsroom.com/story"})
+        with patch("search_sources.socket.getaddrinfo", side_effect=[
+                [(2, 1, 6, "", ("93.184.216.34", 443))],
+                [(2, 1, 6, "", ("192.168.1.1", 443))]]), patch(
+                "search_sources.request_with_retry", return_value=response) as request:
+            self.assertIsNone(fetch_article(URL, NOW))
+            request.assert_called_once()
 
     def test_unavailable_and_oversized_pages_skipped(self):
         for status, content in [(403, b"blocked"), (200, b"x" * (MAX_PAGE_BYTES + 1))]:
