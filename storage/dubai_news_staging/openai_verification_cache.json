@@ -1,0 +1,80 @@
+{
+  "3fa2452d788a3cf7a4e2180348d0998a1d39093013a4c54589cba278e2dac33a": {
+    "saved_at": "2026-09-29T06:17:29.226374+00:00",
+    "result": {
+      "id": "chatcmpl-ETLRUMuPAg04ePR3yqLlLoJ6844TR",
+      "object": "chat.completion",
+      "created": 1790662644,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Air Canada отложила возобновление рейсов в Дубай до марта 2027 года\",\"supported\":true,\"evidence\":\"Air Canada has extended the cancellation of its flights to and from Dubai until the end of March 2027\"},{\"claim\":\"Канадская авиакомпания Air Canada объявила о продлении отмены рейсов в и из Дубая до конца марта 2027 года из-за ситуации на Ближнем Востоке\",\"supported\":true,\"evidence\":\"Air Canada said in its latest travel update on September 24 that flights to and from Dubai International Airport (DXB) would remain cancelled until the end of March 2027 because of the situation in the Middle East.\"},{\"claim\":\"Ранее рейсы были приостановлены с 2 марта 2026 года и неоднократно продлевались\",\"supported\":true,\"evidence\":\"The Canadian national carrier originally suspended flights to and from Dubai on March 2, following the US-Iran war outbreak. The airline subsequently extended the suspension several times.\"},{\"claim\":\"Ряд других авиакомпаний планируют возобновить полёты в ОАЭ в конце 2026 года, включая Lufthansa, Philippine Airlines, British Airways и Air France\",\"supported\":true,\"evidence\":\"Air Astana, Philippine Airlines, Lufthansa, SWISS, Wizz Air, Singapore Airlines, Eurowings, British Airways, Austrian Airlines and Air France have announced return dates for Dubai or Abu Dhabi services between October and December 2026\"},{\"claim\":\"Некоторые перевозчики, такие как Cathay Pacific и Virgin Atlantic, намерены вернуться в регион только в 2027 году\",\"supported\":true,\"evidence\":\"Cathay Pacific, United Airlines, Luxair, Finnair and Virgin Atlantic are among carriers whose Dubai return plans extend into 2027.\"},{\"claim\":\"Air Astana, Philippine Airlines, Lufthansa и другие начнут рейсы в период с октября по декабрь 2026 года\",\"supported\":true,\"evidence\":\"Air Astana: Almaty and Astana flights to Dubai from October 1–2. Philippine Airlines: Non-stop Manila-Dubai flights from October 2. Lufthansa: Dubai-Frankfurt and Dubai-Munich services from October 25. SWISS: Dubai-Zurich flights from October 27. Wizz Air: Dubai services from October 24–25, with Abu Dhabi services expected around late October. Singapore Airlines: SQ494/SQ495 Dubai services scheduled to resume on October 24. Eurowings: Dubai services from Berlin and Stuttgart from November 1, followed by Cologne/Bonn from November 3. British Airways: Dubai services from November 3. Austrian Airlines: Dubai-Vienna services from December 12. Air France: Dubai services are scheduled to resume on October 13.\"},{\"claim\":\"Cathay Pacific, Luxair, United Airlines, Finnair и Virgin Atlantic планируют возобновление в 2027 году\",\"supported\":true,\"evidence\":\"Cathay Pacific: Return planned for January 2027. Luxair: Dubai service relaunch pushed back to February 6, 2027, at the earliest. United Airlines: Planned return in March 2027 with its Newark-Dubai service. Finnair: Helsinki-Dubai service cancelled for the entire 2026/27 winter season, through March 27, 2027. Virgin Atlantic: Direct London Heathrow-Dubai service expected to return for the winter 2027 season.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1413,
+        "completion_tokens": 747,
+        "total_tokens": 2160,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
+  },
+  "2c38cb65e29b9e08531cec6ff49a30913d4dce7d086035399fa81847f4c52c5d": {
+    "saved_at": "2026-09-29T06:17:40.065826+00:00",
+    "result": {
+      "id": "chatcmpl-ETLRgknTZlnRjTWWYnKMU8gSoOfGc",
+      "object": "chat.completion",
+      "created": 1790662656,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":false,\"reason\":\"The post's date for the official launch (30 September 2026) contradicts the source's date (launch on Wednesday, September 30, with the article published in 2026, but the source text states the launch is imminent, implying 2023). The source mentions the journey takes around 57 minutes or one hour and four minutes, not exactly one hour. The post omits details about ticket classes and other specifics. The post's claims about the launch date and journey duration are not fully supported or are inconsistent with the source.\",\"claims\":[{\"claim\":\"Пассажирский поезд Etihad Rail завершил первый рейс между Абу-Даби и Дубаем\",\"supported\":true,\"evidence\":\"After an hour-long journey, the Etihad Rail passenger train has arrived at Al Yalayis Station in Dubai.\"},{\"claim\":\"Поезд Etihad Rail прибыл на станцию Аль Ялайис в Дубае после часового путешествия из Абу-Даби\",\"supported\":true,\"evidence\":\"After an hour-long journey, the Etihad Rail passenger train has arrived at Al Yalayis Station in Dubai.\"},{\"claim\":\"Станция расположена в районе Jumeirah Golf Estates и связана с метро Дубая через пешеходный мост, что облегчает пересадки\",\"supported\":true,\"evidence\":\"Etihad Rail’s Al Yalayis Station is just a five-minute walk from Jumeirah Golf Estates Metro Station via a dedicated pedestrian footbridge, connecting passengers to Dubai Metro’s Red Line.\"},{\"claim\":\"Стоимость билетов начинается от 39 дирхамов при онлайн-бронировании\",\"supported\":true,\"evidence\":\"A standard Comfort Class ticket costs Dh39 when booked online, compared to Dh60 when purchased at the station through a ticket vending machine.\"},{\"claim\":\"Доступен проездной nol One-Day Pass от 22 дирхамов для неограниченных поездок на метро, трамвае и автобусах Дубая\",\"supported\":true,\"evidence\":\"Etihad Rail passengers travelling to Dubai can now add a nol One-Day Pass to their train booking, with prices starting from Dh22.The pass offers unlimited eligible travel on Dubai Metro, Tram and RTA buses for the day, making onward journeys easier.\"},{\"claim\":\"Официальный запуск пассажирских услуг запланирован на 30 сентября 2026 года\",\"supported\":false,\"evidence\":\"The countdown comes as Etihad Rail prepares for its official launch on Wednesday, September 30, marking a major milestone in the UAE’s passenger rail journey.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1649,
+        "completion_tokens": 533,
+        "total_tokens": 2182,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
+    }
+  }
+}

@@ -7,5 +7,41 @@
     "strict_hash": "1633198ed4e5592d071424fac03b21c9",
     "fuzzy_hash": "76f4c591727141c19969eb41a8a4278a",
     "reason": "DeepSeek editor HTTP ошибка 402"
+  },
+  {
+    "url": "https://gulfnews.com/business/aviation/air-canada-delays-dubai-flights-to-next-year-which-airlines-return-in-2026-and-2027-1.500691671",
+    "timestamp": "2026-09-29T06:17:29.228302+00:00",
+    "status": "rejected",
+    "content_hash": "cf06fef6948018d529efacf01273d37c",
+    "strict_hash": "cf06fef6948018d529efacf01273d37c",
+    "fuzzy_hash": "f2857611302388ec133e745329cf82bd",
+    "reason": "Пересказ не подтверждён источником: Missing or invalid source evidence"
+  },
+  {
+    "url": "https://gulfnews.com/uae/transport/etihad-rail-passenger-train-completes-abu-dhabi-dubai-journey-1.500691485",
+    "timestamp": "2026-09-29T06:17:40.067890+00:00",
+    "status": "rejected",
+    "content_hash": "6320d1d295e881553b68afb8af2382b7",
+    "strict_hash": "6320d1d295e881553b68afb8af2382b7",
+    "fuzzy_hash": "da3eb98710f0885cf507b90974d28cb2",
+    "reason": "Пересказ не подтверждён источником: The post's date for the official launch (30 September 2026) contradicts the source's date (launch on Wednesday, September 30, with the article published in 2026, but the source text states the launch is imminent, implying 2023). The source mentions the journey takes around 57 minutes or one hour and four minutes, not exactly one hour. The post omits details about ticket classes and other specifics. The post's claims about the launch date and journey duration are not fully supported or are inconsistent with the source."
+  },
+  {
+    "url": "https://gulfnews.com/business/aviation/uae-flights-today-emirates-etihad-air-arabia-flydubai-delays-cancellations-air-canada-extends-dubai-suspension-1.500691653",
+    "timestamp": "2026-09-29T06:17:40.069282+00:00",
+    "status": "rejected",
+    "content_hash": "f8d72165945a7c132755e3ac985ab359",
+    "strict_hash": "f8d72165945a7c132755e3ac985ab359",
+    "fuzzy_hash": "fc989e4fbc3018820838c7f4e2396a97",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
+  },
+  {
+    "url": "https://gulfnews.com/business/retail/dubai-community-malls-must-offer-more-than-convenience-says-shamal-ceo-1.500690393",
+    "timestamp": "2026-09-29T06:17:40.070352+00:00",
+    "status": "rejected",
+    "content_hash": "389957f90d482823bb10373c908fe6cc",
+    "strict_hash": "389957f90d482823bb10373c908fe6cc",
+    "fuzzy_hash": "c4241bad71d7c7fadd16fe0c159dd7a0",
+    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
   }
 ]
