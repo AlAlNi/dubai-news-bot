@@ -133,7 +133,7 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(kwargs["json"]["model"], "gpt-4.1-mini-2025-04-14")
         self.assertEqual(kwargs["json"]["temperature"], 0)
         self.assertNotIn("reasoning", kwargs["json"])
-        self.assertIn("mediaoffice.ae", kwargs["json"]["instructions"])
+        self.assertNotIn("Search only these domains", kwargs["json"]["instructions"])
         self.assertIn('Use this query in the single web search:', kwargs['json']['input'])
         self.assertIn('after:2026-09-12 before:2026-09-16', kwargs['json']['input'])
         self.assertNotIn("test-key", self.ledger.read_text())
