@@ -761,6 +761,11 @@ def build_seen_links(existing_drafts: List[Dict[str, Any]]) -> tuple[set, set]:
     # Загружаем статистику источников
     stats = load_source_stats()
     for item in stats:
+        # Retry only legacy quote-format failures with the new passage reviewer.
+        # Any new verdict replaces this record; published/semantic rejections stay seen.
+        if (item.get("status") == "rejected" and item.get("reason") ==
+                "Пересказ не подтверждён источником: Missing or invalid source evidence"):
+            continue
         url = item.get("url")
         if url:
             seen_urls.add(canonicalize_url(url))
@@ -1652,6 +1657,8 @@ def process_news_item(
             verification.get("provider") == "openai" and verification.get("cached", False)
         )
     if verification["status"] != "approved":
+        if run_metrics is not None:
+            run_metrics["last_verification_reason"] = verification["reason"]
         if verification["status"] == "deferred":
             print(f"⏸️ Проверка отложена: {verification['reason']}")
             if run_metrics is not None:
@@ -1835,7 +1842,7 @@ def handler(event, context):
                 "total_drafts": len(existing_drafts),
                 "new_draft": False,
                 "message": "Новых проверенных новостей нет",
-                "reason": run_metrics.get("pause_reason") or discovery.get("reason") or "No eligible article passed extraction and verification",
+                "reason": run_metrics.get("pause_reason") or run_metrics.get("last_verification_reason") or discovery.get("reason") or "No eligible article passed extraction and verification",
                 "attempts_made": attempt,
                 "rejected_in_session": rejected_in_session,
                 "technical_errors": run_metrics["technical_errors"],

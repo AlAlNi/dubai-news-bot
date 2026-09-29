@@ -29,11 +29,13 @@ REVIEW_PROMPT = (
     "and allegations must not become established facts. Missing context or ambiguous/truncated "
     "source means reject. Return JSON with supported (boolean), reason (string), and claims (array). "
     "List ALL factual claims separately, including unsupported ones. Each entry has claim (string), "
-    "supported (boolean), evidence (an exact contiguous quote from source title or text). "
+    "supported (boolean), evidence (an array of integer passage IDs from the supplied source). "
     "Approve only if every claim is directly supported; no assertions may be omitted from review. "
-    "Copy evidence character-for-character from one continuous source passage. Never add ellipses, "
-    "fix punctuation, translate evidence, or concatenate separate passages. Split compound claims "
-    "into individual entries when they require different passages."
+    "Select all passage IDs needed to support each claim; never write or reconstruct quotes. "
+    "Split compound claims where possible. Reject a claim if its location, date, scope or event "
+    "status differs from its passages. Announced development is not a completed facility; "
+    "future capacity is not current usage. Do not infer a different year from memory. "
+    "Omitting irrelevant source details is allowed if it does not change the claims made."
 )
 
 
@@ -42,6 +44,25 @@ def verifier_provider():
     if provider == "auto":
         return "openai"
     return provider
+
+
+def source_passages(source):
+    """Stable IDs for exact source passages; model never needs to copy quotes."""
+    parts = [source.get("title", "").strip()]
+    parts.extend(re.split(r"(?<=[.!?])\s+|\n+", source.get("text", "").strip()))
+    return [{"id": index, "text": text} for index, text in
+            enumerate(part for part in parts if part)]
+
+
+def valid_evidence(evidence, source):
+    if isinstance(evidence, list):
+        ids = {passage["id"] for passage in source_passages(source)}
+        return bool(evidence) and all(type(value) is int and value in ids for value in evidence)
+    # Legacy reports: never accept stitched or fabricated quotes.
+    if not isinstance(evidence, str) or len(evidence.strip()) < 8:
+        return False
+    normalize = lambda text: re.sub(r"\s+", " ", text).strip()
+    return any(normalize(evidence) in normalize(source[key]) for key in ("title", "text"))
 
 
 def _validate_completion(payload, source, summary, model, provider):
@@ -57,20 +78,18 @@ def _validate_completion(payload, source, summary, model, provider):
                 or not isinstance(result.get("reason"), str) or not isinstance(result.get("claims"), list)):
             return {**report, "reason": "Invalid verifier schema"}
         claims = result["claims"]
-        normalize = lambda text: re.sub(r"\s+", " ", text).strip()
-        originals = [normalize(source["title"]), normalize(source["text"])]
         evidence_valid = bool(claims) and all(
             isinstance(claim, dict) and claim.get("supported") is True
             and isinstance(claim.get("claim"), str) and claim["claim"].strip()
-            and isinstance(claim.get("evidence"), str) and len(claim["evidence"].strip()) >= 8
-            and any(normalize(claim["evidence"]) in original for original in originals)
+            and valid_evidence(claim.get("evidence"), source)
             for claim in claims
         )
         approved = result["supported"] is True and evidence_valid
         return {
             "version": 1, "status": "approved" if approved else "rejected",
-            "reason": result["reason"] if approved or not result["supported"] else "Missing or invalid source evidence",
-            "claims": claims, "source_hash": fingerprint(source), "summary_hash": fingerprint(summary),
+            "reason": result["reason"] if approved or not result["supported"] else "Invalid source passage references",
+            "claims": claims, "evidence_passages": source_passages(source),
+            "source_hash": fingerprint(source), "summary_hash": fingerprint(summary),
             "checked_at": datetime.now(timezone.utc).isoformat(), "model": model, "provider": provider,
         }
     except Exception as exc:

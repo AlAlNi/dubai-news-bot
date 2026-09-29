@@ -18,7 +18,7 @@ SCHEMA = {
         "claims": {"type": "array", "items": {
             "type": "object", "additionalProperties": False,
             "properties": {"claim": {"type": "string"}, "supported": {"type": "boolean"},
-                           "evidence": {"type": "string"}},
+                           "evidence": {"type": "array", "items": {"type": "integer"}}},
             "required": ["claim", "supported", "evidence"],
         }},
     },
@@ -42,6 +42,9 @@ def verify_with_openai(source, summary, prompt, parse_response, timeout, storage
     key = os.getenv("OPENAI_API_KEY", "").strip()
     if not key:
         return {**base, "reason": "Missing OPENAI_API_KEY"}
+    from source_verification import source_passages
+    review_source = {key: value for key, value in source.items() if key not in {"title", "text"}}
+    review_source["passages"] = source_passages(source)
     payload = {
         "model": MODEL, "temperature": 0, "store": False,
         "max_completion_tokens": OUTPUT_TOKEN_CEILING,
@@ -50,8 +53,8 @@ def verify_with_openai(source, summary, prompt, parse_response, timeout, storage
         }},
         "messages": [
             {"role": "system", "content": prompt + " Keep reasons, claim paraphrases and evidence concise. "
-             "Use the shortest sufficient exact quote. If output space is insufficient to review all claims, reject."},
-            {"role": "user", "content": json.dumps({"source": source, "post": summary}, ensure_ascii=False)},
+             "Evidence must contain passage IDs, never quotes. If output space is insufficient to review all claims, reject."},
+            {"role": "user", "content": json.dumps({"source": review_source, "post": summary}, ensure_ascii=False)},
         ],
     }
     serialized = json.dumps(payload, ensure_ascii=False, sort_keys=True)
@@ -59,7 +62,7 @@ def verify_with_openai(source, summary, prompt, parse_response, timeout, storage
     # Do not silently truncate the source to save money: an oversized post waits instead.
     if len(serialized.encode("utf-8")) + 1024 > INPUT_TOKEN_CEILING:
         return {**base, "status": "deferred", "reason": "OpenAI request exceeds input cost ceiling"}
-    cache_key = hashlib.sha256(("review-v2:" + serialized).encode("utf-8")).hexdigest()
+    cache_key = hashlib.sha256(("review-v3-passages:" + serialized).encode("utf-8")).hexdigest()
     cache_path = Path(storage_dir) / "openai_verification_cache.json"
     cache = cache_read(cache_path)
     if cache_key in cache:
