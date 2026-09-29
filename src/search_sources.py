@@ -1,5 +1,7 @@
-"""Read dated article text from a small set of news publishers, never from AI prose."""
+"""Read dated public articles; publisher identity is not an editorial gate."""
 import json
+import ipaddress
+import socket
 import re
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -10,24 +12,36 @@ from urllib.parse import urljoin, urlsplit, urlunsplit
 from http_client import request_with_retry
 
 
-ALLOWED_DOMAINS = (
-    "mediaoffice.ae", "rta.ae", "dubaipolice.gov.ae", "dewa.gov.ae",
-    "dubaiairports.ae", "emirates.com", "gulfnews.com", "khaleejtimes.com",
-    "thenationalnews.com", "arabianbusiness.com", "gulfbusiness.com",
-    "whatson.ae", "euronews.com", "timesofindia.indiatimes.com",
-)
 MAX_PAGE_BYTES = 2_000_000
 UAE_TIMEZONE = timezone(timedelta(hours=4))
 
 
 def allowed_url(url):
+    """Accept public HTTPS URL syntax without a publisher allowlist."""
     try:
         parsed = urlsplit(url)
-        host = (parsed.hostname or "").lower()
-        return (parsed.scheme == "https" and not parsed.username and not parsed.password
-                and parsed.port in (None, 443)
-                and any(host == domain or host.endswith("." + domain) for domain in ALLOWED_DOMAINS))
+        host = (parsed.hostname or "").lower().rstrip(".")
+        if (parsed.scheme != "https" or parsed.username is not None
+                or parsed.password is not None or parsed.port not in (None, 443)
+                or not host or any(c.isspace() or ord(c) < 32 for c in url)
+                or "\\" in url):
+            return False
+        try:
+            return ipaddress.ip_address(host).is_global
+        except ValueError:
+            return ("." in host and not host.endswith(
+                (".localhost", ".local", ".internal", ".test", ".example", ".invalid")))
     except (TypeError, ValueError):
+        return False
+
+
+def public_destination(url):
+    """Reject private/link-local DNS answers, including on every redirect."""
+    try:
+        addresses = socket.getaddrinfo(urlsplit(url).hostname, 443, type=socket.SOCK_STREAM)
+        return bool(addresses) and all(
+            ipaddress.ip_address(row[4][0]).is_global for row in addresses)
+    except (OSError, ValueError, TypeError):
         return False
 
 
@@ -230,6 +244,8 @@ def fetch_article(url, now=None, diagnostics=None):
     for _ in range(4):
         if not allowed_url(url):
             return reject("disallowed_url")
+        if not public_destination(url):
+            return reject("non_public_destination")
         try:
             response = request_with_retry(
                 "GET", url, timeout=15, max_attempts=1, allow_redirects=False, stream=True,

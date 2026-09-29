@@ -9,13 +9,10 @@ from urllib.parse import urlsplit
 from http_client import request_with_retry
 from api_diagnostics import openai_error
 from openai_budget import Budget, BudgetUnavailable, MODEL, atomic_json
-from search_sources import ALLOWED_DOMAINS, allowed_url, fetch_article, url_identity
+from search_sources import allowed_url, fetch_article, url_identity
 from publisher_discovery import latest_articles
 
 
-# Gulf Business denied all production downloads (HTTP 403). Do not buy links
-# we cannot read. Other source extraction paths retain the full allowlist.
-SEARCH_DOMAINS = tuple(d for d in ALLOWED_DOMAINS if d != "gulfbusiness.com")
 
 
 def discovery_domain(url):
@@ -26,7 +23,7 @@ def discovery_domain(url):
     if path.endswith(".pdf") or set(path.split("/")) & {"tags", "tag", "archive", "category", "categories", "newsfeed"}:
         return None
     host = (parsed.hostname or "").lower()
-    return next((d for d in SEARCH_DOMAINS if host == d or host.endswith("." + d)), None)
+    return host.removeprefix("www.")
 
 
 def discovered_urls(response):
@@ -73,11 +70,9 @@ def discovery_input(now, replacement=False):
     before = (local + timedelta(days=1)).date().isoformat()
     if replacement:
         topics = '(housing OR business OR safety OR residents)'
-        sites = '(site:thenationalnews.com OR site:whatson.ae OR site:mediaoffice.ae)'
     else:
         topics = '(transport OR RTA OR services OR residents)'
-        sites = '(site:gulfnews.com OR site:khaleejtimes.com)'
-    query = f'Dubai {topics} after:{after} before:{before} {sites}'
+    query = f'Dubai {topics} after:{after} before:{before}'
     return (
         f'Current Dubai time: {local.isoformat()}. Accept publication dates only between '
         f'{cutoff.isoformat()} and {local.isoformat()}. '
@@ -120,7 +115,7 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
         "temperature": 0,
         "max_output_tokens": 1000, "max_tool_calls": 1, "parallel_tool_calls": False,
         # This pinned mini model previously rejected server-side filters.
-        # Constrain domains in the prompt AND validate returned sources locally.
+        # Publisher choice is open; validate URLs and downloaded source articles.
         "tools": [{"type": "web_search", "search_context_size": "low"}],
         "tool_choice": {"type": "web_search"},
         "include": ["web_search_call.action.sources"],
@@ -132,8 +127,8 @@ def _search_once(storage_dir, seen_urls=(), now=None, feedback=None):
             "undated pages. Return only short titles with clickable source citations. Do not invent dates "
             "or URLs, do not summarize articles from memory. Return no articles if none are supported. "
             "Use at least three publishers if available, at most two articles per publisher. "
-            "Do not use gulfbusiness.com, PDFs, archives or tag pages. "
-            "Search only these domains (use site: queries): " + ", ".join(SEARCH_DOMAINS)
+            "Do not use PDFs, archives or tag pages. "
+            "Exclude politics, diplomacy, war, religious conflicts, scandals and sensational crime."
         ),
         "input": f"Find fresh Dubai news published since {(slot - timedelta(hours=48)).isoformat()}. "
                  f"Current discovery window starts {slot.isoformat()}. Prefer the latest articles.",
