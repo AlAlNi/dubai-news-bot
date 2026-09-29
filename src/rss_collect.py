@@ -10,7 +10,7 @@ import feedparser
 from http_client import request_with_retry
 from newsroom_kpi import compute_newsroom_kpi_snapshot
 from source_verification import source_snapshot, verify_summary, verifier_provider, is_verified_draft
-from openai_news_search import search_news
+from news_discovery import search_news
 from search_sources import fetch_article, allowed_url
 from post_style import format_summary, headline_only, clean_editorial_text, incomplete_excerpt, compact_summary
 
@@ -1565,7 +1565,7 @@ def process_news_item(
         return None
     
     # RSS excerpts may contain only a headline. Prefer the dated publisher article.
-    if news_item.get("method") not in {"openai_web_search", "publisher_latest"} and allowed_url(news_item.get("link", "")):
+    if news_item.get("method") not in {"openai_web_search", "publisher_latest", "digest_import"} and allowed_url(news_item.get("link", "")):
         article = fetch_article(news_item["link"])
         if article and (len(article["description"]) > len(description) or incomplete_excerpt(description)):
             news_item = dict(news_item, description=article["description"],
@@ -1581,7 +1581,7 @@ def process_news_item(
         mark_news_as_rejected(news_item, "Недостаточно исходного текста для достоверного пересказа")
         return None
     source = source_snapshot(title, description, news_item.get("link", ""))
-    if news_item.get("method") in {"openai_web_search", "publisher_latest"}:
+    if news_item.get("method") in {"openai_web_search", "publisher_latest", "digest_import"}:
         source["published_at"] = news_item["published_at"]
     description = source["text"]
 
@@ -1755,7 +1755,7 @@ def handler(event, context):
         discovery = {"status": "skipped", "reason": "Ready queue already contains two verified posts"}
         if verifier_provider() != "openai":
             raise RuntimeError("News collector requires SOURCE_VERIFIER=openai and OPENAI_API_KEY")
-        # GPT-4.1 mini is the only discovery path. RSS/GNews helpers remain for legacy imports.
+        # Discovery is selected by config: imported links or paid search.
         if sum(is_verified_draft(draft) for draft in existing_drafts) < 2:
             editorial_rejections = []
             for attempt in range(1, 3):
@@ -1764,7 +1764,7 @@ def handler(event, context):
                 run_metrics["openai_search_calls"] += discovery["api_calls"]
                 run_metrics["openai_calls"] += discovery["api_calls"]
                 run_metrics["openai_search_cache_hits"] += int(discovery["cached"])
-                print(f"🔎 Поиск GPT-4.1 mini: {discovery['status']}; {discovery.get('reason', '')}")
+                print(f"🔎 Источники новостей: {discovery['status']}; {discovery.get('reason', '')}")
                 if discovery["status"] == "error":
                     run_metrics["technical_errors"] += 1
                 for news_item in discovery["items"]:
@@ -1789,7 +1789,7 @@ def handler(event, context):
                     seen_hashes.update((strict_hash, fuzzy_hash))
                 if (approved_draft or run_metrics.get("verification_paused")
                         or run_metrics["technical_errors"] or discovery["status"] != "ok"
-                        or not discovery["items"] or discovery.get("replacement_search")):
+                        or not discovery["items"] or discovery.get("replacement_search") or discovery.get("mode") == "digest"):
                     break
 
         if approved_draft:
