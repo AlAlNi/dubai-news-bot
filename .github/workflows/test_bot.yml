@@ -4,7 +4,8 @@ on:
     paths:
       - 'src/**'
       - 'tests/**'
-      - '.github/workflows/test_bot.yml'
+      - 'scripts/**'
+      - '.github/workflows/**'
 permissions:
   contents: read
 jobs:

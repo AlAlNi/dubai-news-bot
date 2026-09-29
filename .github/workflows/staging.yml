@@ -1,0 +1,72 @@
+name: Test bot in private channel
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: 'Что проверить в приватном канале'
+        type: choice
+        options: [check_connection, collect_and_publish, collect, publish, retro]
+        default: check_connection
+      refresh_search:
+        description: 'Обновить поиск (в общем бюджете $3)'
+        type: boolean
+        default: false
+      bypass_daily_limit:
+        description: 'Обойти дневной лимит; месячный бюджет сохраняется'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+# Production and staging share the same durable OpenAI budget.
+concurrency:
+  group: dubai-news-storage
+  cancel-in-progress: false
+jobs:
+  staging:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Load develop code, retain main state and staging entry point
+        run: |
+          git fetch origin develop
+          echo "### Staging code: $(git rev-parse FETCH_HEAD)" >> "$GITHUB_STEP_SUMMARY"
+          git restore --source=FETCH_HEAD --worktree -- src tests config
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r src/requirements.txt pytest pytest-subtests
+      - name: Test develop code
+        run: python -m pytest tests -q
+      - name: Run in test channel
+        env:
+          BOT_ENVIRONMENT: staging
+          SOURCE_VERIFIER: openai
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TEST_TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TEST_TELEGRAM_CHANNEL_ID }}
+          PRODUCTION_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          OPENAI_MONTHLY_BUDGET_USD: '3'
+          OPENAI_MAX_SEARCHES_PER_DAY: '2'
+          OPENAI_MAX_CALLS_PER_DAY: '8'
+          OPENAI_REFRESH_SEARCH: ${{ inputs.refresh_search && 'true' || 'false' }}
+          OPENAI_BYPASS_DAILY_LIMIT: ${{ inputs.bypass_daily_limit && 'true' || 'false' }}
+          STAGING_OPERATION: ${{ inputs.operation }}
+        run: python scripts/run_staging.py "$STAGING_OPERATION"
+      - name: Save staging state and shared budget
+        if: always()
+        run: |
+          python scripts/run_staging.py scrub
+          mkdir -p storage/dubai_news_staging
+          git add -- storage/dubai_news_staging/ storage/dubai_news/openai_budget.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save staging state and shared budget [skip ci]"
+            git push origin HEAD:main
+          fi
