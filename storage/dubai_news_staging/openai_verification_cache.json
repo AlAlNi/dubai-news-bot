@@ -154,5 +154,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_9795f2200f"
     }
+  },
+  "84d326c5efced94497bd3a1528084a84e0bf1f168d1a1c3591b4f6ff6919d49d": {
+    "saved_at": "2026-09-29T17:30:58.045404+00:00",
+    "result": {
+      "id": "chatcmpl-ETVxGzDJ77V9cdoypiEEl5fKmsOjt",
+      "object": "chat.completion",
+      "created": 1790703054,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"ОАЭ ускоряют переход к умной и устойчивой мобильности\",\"supported\":true,\"evidence\":\"The UAE continues to accelerate its transition towards a smart and sustainable transport ecosystem\"},{\"claim\":\"В ОАЭ активно развиваются автономные транспортные средства и инфраструктура для воздушного такси\",\"supported\":true,\"evidence\":\"autonomous vehicle operations expand, Air Taxi infrastructure advances\"},{\"claim\":\"В Дубае роботакси преодолели более 4 миллионов километров\",\"supported\":true,\"evidence\":\"Robotaxis recording more than 4 million kilometres since the service was launched through August\"},{\"claim\":\"В Абу-Даби запущены испытания автономных такси и создан тестовый центр для проверки технологий\",\"supported\":true,\"evidence\":\"In Abu Dhabi, autonomous mobility has progressed from operations to regulation and advanced testing. The emirate began trials of its TXAI self-driving taxi service on Yas Island in 2021... announced the development of the Abu Dhabi Autonomous Vehicle (AV) Test Hub\"},{\"claim\":\"В Дубае открыт первый в мире коммерческий вертипорт VDX для электрических летательных аппаратов с вертикальным взлётом и посадкой, рассчитанный на 170 тысяч пассажиров в год\",\"supported\":true,\"evidence\":\"VDX, the world’s first purpose-built commercial vertiport... The four-storey VDX facility spans approximately 3,100 square metres... It is designed to accommodate up to 170,000 passengers annually once commercial operations commence.\"},{\"claim\":\"В стране также расширяется сеть зарядных станций для электромобилей — уже около 2800 точек\",\"supported\":true,\"evidence\":\"The UAE’s charging infrastructure has expanded to approximately 2,800 charging points\"},{\"claim\":\"К 2050 году планируется, что половина автомобилей будет электрической или гибридной\",\"supported\":true,\"evidence\":\"The UAE is targeting electric and hybrid vehicles to account for 50 percent of vehicles on its roads by 2050.\"}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1567,
+        "completion_tokens": 437,
+        "total_tokens": 2004,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_763adf6784"
+    }
   }
 }
