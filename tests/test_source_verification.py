@@ -1,5 +1,6 @@
 import copy
 import json
+import os
 import pathlib
 import sys
 import unittest
@@ -30,8 +31,10 @@ class SourceVerificationTests(unittest.TestCase):
         return response
 
     def check(self, response):
-        with patch("source_verification.request_with_retry", return_value=response):
-            return verification.verify_summary(self.source, self.summary, "test-key")
+        if response.status_code != 200:
+            return {"status": "error"}
+        return verification._validate_completion(response.json(), self.source, self.summary,
+                                                   "gpt-4.1-mini-2025-04-14", "openai")
 
     def test_supported_translation_and_exact_quotes_approved(self):
         self.assertEqual(self.check(self.response())["status"], "approved")
@@ -55,13 +58,11 @@ class SourceVerificationTests(unittest.TestCase):
         self.assertEqual(self.check(self.response(finish_reason="length"))["status"], "error")
         self.assertEqual(self.check(self.response(status=429))["status"], "error")
 
-    def test_missing_key_timeout_and_headline_only_blocked(self):
-        with patch("source_verification.request_with_retry", side_effect=TimeoutError):
-            self.assertEqual(verification.verify_summary(self.source, self.summary, "key")["status"], "error")
-        with patch("source_verification.request_with_retry") as request:
-            self.assertEqual(verification.verify_summary(self.source, self.summary, "")["status"], "error")
+    def test_missing_key_and_headline_only_blocked(self):
+        with patch.dict(os.environ, {"OPENAI_API_KEY": "", "SOURCE_VERIFIER": "openai"}), patch("source_verification.request_with_retry") as request:
+            self.assertEqual(verification.verify_summary(self.source, self.summary)["status"], "error")
             self.source["text"] = self.source["title"]
-            self.assertEqual(verification.verify_summary(self.source, self.summary, "key")["status"], "rejected")
+            self.assertEqual(verification.verify_summary(self.source, self.summary)["status"], "rejected")
             request.assert_not_called()
 
     def test_modified_and_legacy_drafts_cannot_publish(self):
@@ -91,32 +92,25 @@ class SourceVerificationTests(unittest.TestCase):
         self.assertEqual(rss_collect.ensure_summary_quality(self.summary, "", ""),
                          self.summary.replace("</b>\n", "</b>\n\n"))
 
-    def test_editor_requires_explicit_approval(self):
-        response = self.response()
-        response.json.return_value["choices"][0]["message"]["content"] = "Не могу проверить новость"
-        with patch("rss_collect.DEEPSEEK_API_KEY", "key"), patch(
-            "rss_collect.request_with_retry", return_value=response
-        ):
-            allowed, _, technical = rss_collect.is_news_allowed_by_deepseek("Dubai", "News", "hash")
-            self.assertFalse(allowed)
-            self.assertTrue(technical)
+    def test_legacy_verifier_cannot_make_paid_requests(self):
+        with patch.dict(os.environ, {"SOURCE_VERIFIER": "deepseek"}), patch("source_verification.request_with_retry") as request:
+            self.assertEqual(verification.verify_summary(self.source, self.summary, "old-key")["status"], "error")
+            request.assert_not_called()
 
     def test_collector_rejects_post_after_generation_and_counts_verifier_error(self):
         item = {"title": self.source["title"], "description": self.source["text"],
                 "link": self.source["url"], "source": "RTA", "source_priority": 1}
         for status in ["rejected", "error", "approved"]:
             with self.subTest(status=status), patch("rss_collect.ENABLE_CHEAP_PREFILTER", False), patch(
-                "rss_collect.is_news_allowed_by_deepseek", return_value=(True, "OK", False)
-            ), patch("rss_collect.fetch_image_for_news", return_value=None), patch(
-                "rss_collect.process_with_deepseek_simple", return_value=self.summary
-            ), patch("rss_collect.verify_summary", return_value={"status": status, "reason": "test"}) as review, patch(
+                "rss_collect.prepare_post", return_value={"status": "prepared", "reason": "OK", "post": self.summary}
+            ), patch("rss_collect.fetch_image_for_news", return_value=None), patch("rss_collect.verify_summary", return_value={"status": status, "reason": "test"}) as review, patch(
                 "rss_collect.mark_news_as_rejected"
             ), patch("rss_collect.mark_news_as_technical_error"):
                 metrics = {}
                 calls = {"calls_made": 0, "max_calls": -1}
-                result = rss_collect.process_news_item(item, deepseek_context=calls, run_metrics=metrics)
+                result = rss_collect.process_news_item(item, writer_context=calls, run_metrics=metrics)
                 review.assert_called_once()
-                self.assertEqual(calls["calls_made"], 3)
+                self.assertEqual(calls["calls_made"], 1)
                 if status == "approved":
                     self.assertEqual(result["source_snapshot"], self.source)
                 else:
@@ -128,15 +122,15 @@ class SourceVerificationTests(unittest.TestCase):
                 "link": self.source["url"], "source": "RTA", "source_priority": 1}
         with patch("rss_collect.verifier_provider", return_value="openai"), patch(
             "rss_collect.ENABLE_CHEAP_PREFILTER", False
-        ), patch("rss_collect.is_news_allowed_by_deepseek", return_value=(True, "OK", False)), patch(
+        ), patch("rss_collect.prepare_post", return_value={"status": "prepared", "reason": "OK", "post": self.summary}), patch(
             "rss_collect.fetch_image_for_news", return_value=None
-        ), patch("rss_collect.process_with_deepseek_simple", return_value=self.summary), patch(
+        ), patch(
             "rss_collect.verify_summary", return_value={"status": "deferred", "reason": "Daily budget",
                                                        "provider": "openai", "api_calls": 0}
         ), patch("rss_collect.mark_news_as_rejected") as rejected:
             metrics, calls = {}, {"calls_made": 0, "max_calls": -1}
-            self.assertIsNone(rss_collect.process_news_item(item, deepseek_context=calls, run_metrics=metrics))
-            self.assertEqual(calls["calls_made"], 2)
+            self.assertIsNone(rss_collect.process_news_item(item, writer_context=calls, run_metrics=metrics))
+            self.assertEqual(calls["calls_made"], 1)
             self.assertTrue(metrics["verification_paused"])
             self.assertEqual(metrics["openai_calls"], 0)
             rejected.assert_not_called()

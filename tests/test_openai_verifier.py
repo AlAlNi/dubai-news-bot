@@ -26,7 +26,7 @@ class OpenAIVerifierTests(unittest.TestCase):
                                                    "https://example.com/news")
         self.summary = "<b>Дубай</b> RTA планирует добавить 10 автобусов."
         self.review = {"supported": True, "reason": "Supported", "claims": [{
-            "claim": self.summary, "supported": True, "evidence": self.source["text"],
+            "claim": self.summary, "supported": True, "evidence": [1],
         }]}
         self.response = Mock(status_code=200)
         self.response.json.return_value = {"choices": [{"finish_reason": "stop", "message": {
@@ -55,6 +55,9 @@ class OpenAIVerifierTests(unittest.TestCase):
         self.assertFalse(args["json"]["store"])
         self.assertEqual(args["json"]["max_completion_tokens"], OUTPUT_TOKEN_CEILING)
         self.assertTrue(args["json"]["response_format"]["json_schema"]["strict"])
+        source_payload = json.loads(args["json"]["messages"][1]["content"])["source"]
+        self.assertEqual(source_payload["passages"], verification.source_passages(self.source))
+        self.assertNotIn("text", source_payload)
         deepseek.assert_not_called()
         self.assertNotIn("test-openai-key", self.path.read_text())
 

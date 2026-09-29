@@ -29,19 +29,40 @@ REVIEW_PROMPT = (
     "and allegations must not become established facts. Missing context or ambiguous/truncated "
     "source means reject. Return JSON with supported (boolean), reason (string), and claims (array). "
     "List ALL factual claims separately, including unsupported ones. Each entry has claim (string), "
-    "supported (boolean), evidence (an exact contiguous quote from source title or text). "
+    "supported (boolean), evidence (an array of integer passage IDs from the supplied source). "
     "Approve only if every claim is directly supported; no assertions may be omitted from review. "
-    "Copy evidence character-for-character from one continuous source passage. Never add ellipses, "
-    "fix punctuation, translate evidence, or concatenate separate passages. Split compound claims "
-    "into individual entries when they require different passages."
+    "Select all passage IDs needed to support each claim; never write or reconstruct quotes. "
+    "Split compound claims where possible. Reject a claim if its location, date, scope or event "
+    "status differs from its passages. Announced development is not a completed facility; "
+    "future capacity is not current usage. Do not infer a different year from memory. "
+    "Omitting irrelevant source details is allowed if it does not change the claims made."
 )
 
 
 def verifier_provider():
     provider = os.getenv("SOURCE_VERIFIER", "auto").strip().lower()
     if provider == "auto":
-        return "openai" if os.getenv("OPENAI_API_KEY", "").strip() else "deepseek"
+        return "openai"
     return provider
+
+
+def source_passages(source):
+    """Stable IDs for exact source passages; model never needs to copy quotes."""
+    parts = [source.get("title", "").strip()]
+    parts.extend(re.split(r"(?<=[.!?])\s+|\n+", source.get("text", "").strip()))
+    return [{"id": index, "text": text} for index, text in
+            enumerate(part for part in parts if part)]
+
+
+def valid_evidence(evidence, source):
+    if isinstance(evidence, list):
+        ids = {passage["id"] for passage in source_passages(source)}
+        return bool(evidence) and all(type(value) is int and value in ids for value in evidence)
+    # Legacy reports: never accept stitched or fabricated quotes.
+    if not isinstance(evidence, str) or len(evidence.strip()) < 8:
+        return False
+    normalize = lambda text: re.sub(r"\s+", " ", text).strip()
+    return any(normalize(evidence) in normalize(source[key]) for key in ("title", "text"))
 
 
 def _validate_completion(payload, source, summary, model, provider):
@@ -57,27 +78,25 @@ def _validate_completion(payload, source, summary, model, provider):
                 or not isinstance(result.get("reason"), str) or not isinstance(result.get("claims"), list)):
             return {**report, "reason": "Invalid verifier schema"}
         claims = result["claims"]
-        normalize = lambda text: re.sub(r"\s+", " ", text).strip()
-        originals = [normalize(source["title"]), normalize(source["text"])]
         evidence_valid = bool(claims) and all(
             isinstance(claim, dict) and claim.get("supported") is True
             and isinstance(claim.get("claim"), str) and claim["claim"].strip()
-            and isinstance(claim.get("evidence"), str) and len(claim["evidence"].strip()) >= 8
-            and any(normalize(claim["evidence"]) in original for original in originals)
+            and valid_evidence(claim.get("evidence"), source)
             for claim in claims
         )
         approved = result["supported"] is True and evidence_valid
         return {
             "version": 1, "status": "approved" if approved else "rejected",
-            "reason": result["reason"] if approved or not result["supported"] else "Missing or invalid source evidence",
-            "claims": claims, "source_hash": fingerprint(source), "summary_hash": fingerprint(summary),
+            "reason": result["reason"] if approved or not result["supported"] else "Invalid source passage references",
+            "claims": claims, "evidence_passages": source_passages(source),
+            "source_hash": fingerprint(source), "summary_hash": fingerprint(summary),
             "checked_at": datetime.now(timezone.utc).isoformat(), "model": model, "provider": provider,
         }
     except Exception as exc:
         return {**report, "reason": f"Verifier error: {type(exc).__name__}"}
 
 
-def verify_summary(source, summary, api_key, timeout=30, storage_dir=None):
+def verify_summary(source, summary, api_key=None, timeout=30, storage_dir=None):
     provider = verifier_provider()
     report = {"version": 1, "status": "error", "provider": provider, "api_calls": 0}
     if not source.get("text") or source["text"] == source.get("title") or not summary.strip():
@@ -87,28 +106,7 @@ def verify_summary(source, summary, api_key, timeout=30, storage_dir=None):
         if storage_dir is None:
             storage_dir = Path(__file__).resolve().parents[1] / "storage" / "dubai_news"
         return verify_with_openai(source, summary, REVIEW_PROMPT, _validate_completion, timeout, storage_dir)
-    if provider != "deepseek":
-        return {**report, "reason": "Unknown SOURCE_VERIFIER"}
-    if not api_key:
-        return {**report, "reason": "Missing DEEPSEEK_API_KEY"}
-    try:
-        response = request_with_retry(
-            "POST", "https://api.deepseek.com/v1/chat/completions",
-            headers={"Authorization": f"Bearer {api_key}"}, timeout=timeout,
-            json={
-                "model": "deepseek-chat", "temperature": 0.0, "max_tokens": 2400,
-                "response_format": {"type": "json_object"},
-                "messages": [
-                    {"role": "system", "content": REVIEW_PROMPT},
-                    {"role": "user", "content": json.dumps({"source": source, "post": summary}, ensure_ascii=False)},
-                ],
-            },
-        )
-        if response.status_code != 200:
-            return {**report, "reason": f"Verifier HTTP {response.status_code}"}
-        return _validate_completion(response.json(), source, summary, "deepseek-chat", "deepseek")
-    except Exception as exc:
-        return {**report, "reason": f"Verifier error: {type(exc).__name__}"}
+    return {**report, "reason": "Only SOURCE_VERIFIER=openai is supported"}
 
 
 def is_verified_draft(draft):
@@ -116,7 +114,7 @@ def is_verified_draft(draft):
     source = draft.get("source_snapshot")
     return bool(
         isinstance(report, dict) and isinstance(source, dict)
-        and report.get("provider", "deepseek") == verifier_provider()
+        and report.get("provider") == verifier_provider()
         and report.get("version") == 1 and report.get("status") == "approved"
         and draft.get("workflow_state") == "approved_by_editor"
         and draft.get("editorial_decision") == "approved"

@@ -145,13 +145,14 @@ class Budget:
             raise BudgetUnavailable("Budget reservation could not be pushed; OpenAI request cancelled")
 
     def reserve(self, kind="verification"):
-        if kind not in {"verification", "search", "astra_search"}:
+        if kind not in {"verification", "generation", "search", "astra_search"}:
             raise BudgetUnavailable("Unknown OpenAI operation")
         monthly_limit, daily_limit = limits()
         bypass_daily = manual_daily_limit_bypass()
         amount = {"search": SEARCH_RESERVATION_MICROUSD,
                   "astra_search": ASTRA_RESERVATION_MICROUSD,
-                  "verification": RESERVATION_MICROUSD}[kind]
+                  "verification": RESERVATION_MICROUSD,
+                  "generation": RESERVATION_MICROUSD}[kind]
         reservation_id = None
         with self.locked():
             data = self.read()
@@ -160,13 +161,14 @@ class Budget:
                 "calls": 0, "reserved_microusd": 0, "input_tokens": 0,
                 "output_tokens": 0, "estimated_microusd": 0,
             })
-            if not bypass_daily and day["calls"] >= daily_limit:
+            required_calls = 2 if kind == "generation" else 1
+            if not bypass_daily and day["calls"] + required_calls > daily_limit:
                 raise BudgetUnavailable("Daily OpenAI call limit reached")
             # Do not buy discovery if no budget remains to verify even one resulting post.
-            headroom = RESERVATION_MICROUSD if kind != "verification" else 0
+            headroom = RESERVATION_MICROUSD * {"verification": 0, "generation": 1, "search": 2, "astra_search": 2}[kind]
             if month["reserved_microusd"] + amount + headroom > monthly_limit:
                 raise BudgetUnavailable("Monthly OpenAI budget reached")
-            if kind != "verification":
+            if kind in {"search", "astra_search"}:
                 daily_search_limit = search_limit()
                 search_count = day.get("search_calls", 0) + len(day.get("astra_requests", {}))
                 if not bypass_daily and search_count >= daily_search_limit:

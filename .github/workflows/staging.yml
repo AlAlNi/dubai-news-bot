@@ -51,7 +51,6 @@ jobs:
           TELEGRAM_CHANNEL_ID: ${{ secrets.TEST_TELEGRAM_CHANNEL_ID }}
           PRODUCTION_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           OPENAI_MONTHLY_BUDGET_USD: '3'
           OPENAI_MAX_SEARCHES_PER_DAY: '2'

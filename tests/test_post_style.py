@@ -57,7 +57,7 @@ class PostStyleTests(unittest.TestCase):
                 'link': 'https://www.euronews.com/travel/dubai', 'method': 'gnews'}
         with patch('rss_collect.fetch_article', return_value=None), patch(
             'rss_collect.mark_news_as_rejected'
-        ) as reject, patch('rss_collect.is_news_allowed_by_deepseek') as editor:
+        ) as reject, patch('rss_collect.prepare_post') as editor:
             self.assertIsNone(rss_collect.process_news_item(item))
         reject.assert_called_once()
         editor.assert_not_called()
@@ -91,9 +91,9 @@ class PostStyleTests(unittest.TestCase):
                    "source_retrieved_at": "2026-09-18T10:00:00Z", "published_at": "2026-09-18T09:00:00Z"}
         with patch('rss_collect.fetch_article', return_value=article), patch(
             'rss_collect.ENABLE_CHEAP_PREFILTER', False
-        ), patch('rss_collect.is_news_allowed_by_deepseek', return_value=(False, 'skip', False)) as editor, patch(
+        ), patch('rss_collect.prepare_post', return_value={'status': 'rejected', 'reason': 'skip'}) as editor, patch(
             'rss_collect.mark_news_as_rejected'
         ):
             rss_collect.process_news_item(item)
-        self.assertEqual(editor.call_args.args[1], article['description'].strip())
+        self.assertEqual(editor.call_args.args[0]['text'], article['description'].strip())
         self.assertEqual(item['description'], 'Short excerpt')
