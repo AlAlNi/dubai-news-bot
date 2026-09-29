@@ -204,7 +204,7 @@ class SearchTests(unittest.TestCase):
 
     def test_monthly_headroom_still_blocks_replacement(self):
         self.response.json.return_value = search_response([])
-        with patch.dict(os.environ, {"OPENAI_MONTHLY_BUDGET_USD": "0.04"}), patch(
+        with patch.dict(os.environ, {"OPENAI_MONTHLY_BUDGET_USD": "0.055"}), patch(
             "openai_news_search.request_with_retry", return_value=self.response
         ) as request:
             result = search_news(self.temp.name, now=NOW)
