@@ -60,7 +60,7 @@ def run(config=CONFIG, path=STATE):
     if previous:
         state['previous_attempt'] = previous
     persist(path, state)
-    verification = verify_summary(source, item['post_html'], os.getenv('DEEPSEEK_API_KEY'), storage_dir=path.parent)
+    verification = verify_summary(source, item['post_html'], storage_dir=path.parent)
     state['verification'] = verification
     if verification['status'] != 'approved':
         state['status'] = 'verification_' + verification['status']
