@@ -31,21 +31,90 @@ class PostHTML(HTMLParser):
         self.parts.append(escape(data, quote=False))
 
 
-def format_summary(text):
-    text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text, flags=re.S)
+def _clean_html(text):
     parser = PostHTML()
     parser.feed(text)
     parser.close()
-    text = "".join(parser.parts) + "".join(f"</{tag}>" for tag in reversed(parser.stack))
-    text = re.sub(r"\n{3,}", "\n\n", text).strip()
-    headline = re.match(r"^<b>(.*?)</b>\s*(.*)$", text, re.S)
-    if headline:
-        title, body = headline.groups()
-        return f"<b>{title.strip()}</b>" + ("\n\n" + body.strip() if body.strip() else "")
-    lines = text.split("\n", 1)
-    if len(lines) == 2 and len(lines[0]) <= 200:
-        return f"<b>{lines[0]}</b>\n\n{lines[1].strip()}"
-    return text
+    return "".join(parser.parts) + "".join(f"</{tag}>" for tag in reversed(parser.stack))
+
+
+def format_summary(text):
+    text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text, flags=re.S)
+    text = re.sub(r"\n{3,}", "\n\n", _clean_html(text)).strip()
+    first, separator, rest = text.partition("\n")
+    # Detect a heading only inside the first line. Never nest <b> around an
+    # emoji followed by a bold heading, nor consume body paragraphs as title.
+    heading = re.fullmatch(r"<b>(.*?)</b>\s*(.*)", first, re.S)
+    if heading and heading[2].strip():
+        first, rest = heading[1], heading[2].strip() + ("\n" + rest if rest else "")
+        separator = "\n"
+    title = re.sub(r"<[^>]*>", "", first).strip()
+    if len(title) > 200 or (not separator and not first.startswith("<b>")):
+        return text
+    body = _clean_html(rest).strip()  # drops orphan closings left by malformed wrappers
+    count = 0
+
+    def selective_bold(match):
+        nonlocal count
+        value = match[1]
+        plain = unescape(re.sub(r"<[^>]*>", "", value)).strip()
+        if ("\n" in value or len(plain) > 60 or len(plain.split()) > 8
+                or plain.endswith((".", "!", "?")) or count >= 2):
+            return value
+        count += 1
+        return "<b>" + value + "</b>"
+
+    body = re.sub(r"<b>(.*?)</b>", selective_bold, body, flags=re.S)
+    return "<b>" + title + "</b>" + ("\n\n" + body if body else "")
+
+
+_LEADING_EMOJI = re.compile(r"^(?:[\U0001F000-\U0001FAFF\u2600-\u27BF\uFE0F\u200D]\s*)+")
+_TOPIC_EMOJI = (
+    (r"\bбанк\w*|\bплат[её]ж\w*|\bфинанс\w*", "🏦"),
+    (r"\bавиа\w*|\bаэропорт\w*|\bрейс\w*", "✈️"),
+    (r"\bметро\b|\bпоезд\w*|\bжелезнодорож\w*", "🚇"),
+    (r"\bавтобус\w*|\bмаршрут\w*", "🚌"),
+    (r"\bмузе\w*|\bвыставк\w*|\bтеатр\w*|\bфестивал\w*", "🎭"),
+    (r"\bшкол\w*|\bобразован\w*|\bуниверситет\w*", "🎓"),
+    (r"\bмедицин\w*|\bбольниц\w*|\bклиник\w*", "🏥"),
+    (r"\bнедвижим\w*|\bжиль\w*|\bаренд\w*", "🏠"),
+)
+_BODY_EMOJI = (
+    (r"\bтестов\w*|\bиспытан\w*|\bsandbox\b", "🧪"),
+    (r"\bтрансгранич\w*|\bвалют\w*", "💱"),
+    (r"\bплат[её]ж\w*|\bоплат\w*|\bрасч[её]т\w*", "💳"),
+    (r"\bтехнолог\w*|\bцифров\w*", "💻"),
+    (r"\bстоимост\w*|\bцен[ауы]\b|\bтариф\w*", "💰"),
+    (r"\bсентябр\w*|\bоктябр\w*|\bноябр\w*|\bдекабр\w*|\bянвар\w*|"
+     r"\bфеврал\w*|\bмарт[ае]?\b|\bапрел\w*|\bма[йяе]\b|\bию[нл][ьяе]\b|"
+     r"\bавгуст\w*", "📅"),
+    *_TOPIC_EMOJI,
+)
+
+
+def contextual_emoji(text):
+    """Decorate only recognizable topics; never edit words or direct quotations."""
+    text = format_summary(text)
+    paragraphs = re.split(r"\n\n(?!(?:(?!<blockquote>).)*</blockquote>)", text, flags=re.S)
+    used = set()
+    for index, paragraph in enumerate(paragraphs):
+        if "<blockquote>" in paragraph or not paragraph.strip():
+            continue
+        plain = unescape(re.sub(r"<[^>]*>", "", paragraph))
+        rules = _TOPIC_EMOJI if index == 0 else _BODY_EMOJI
+        emoji = next((symbol for pattern, symbol in rules
+                      if symbol not in used and re.search(pattern, plain, re.I)), None)
+        if emoji is None:
+            continue
+        if index == 0:
+            title = re.sub(r"<[^>]*>", "", paragraph)
+            paragraphs[index] = "<b>" + emoji + " " + _LEADING_EMOJI.sub("", title) + "</b>"
+        else:
+            paragraphs[index] = emoji + " " + _LEADING_EMOJI.sub("", paragraph)
+        used.add(emoji)
+        if len(used) >= 4:
+            break
+    return "\n\n".join(paragraphs)
 
 
 def headline_only(text):

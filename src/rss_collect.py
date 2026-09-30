@@ -12,7 +12,7 @@ from newsroom_kpi import compute_newsroom_kpi_snapshot
 from source_verification import source_snapshot, verify_summary, verifier_provider, is_verified_draft
 from news_discovery import search_news
 from search_sources import fetch_article, allowed_url
-from post_style import format_summary, headline_only, clean_editorial_text, incomplete_excerpt, compact_summary
+from post_style import contextual_emoji, format_summary, headline_only, clean_editorial_text, incomplete_excerpt, compact_summary
 
 # ========= НАСТРОЙКИ =========
 
@@ -1411,7 +1411,7 @@ def sanitize_telegram_markdown_artifacts(text: str) -> str:
     return cleaned.strip()
 
 def ensure_summary_quality(summary: str, title: str, description: str) -> str:
-    text = compact_summary(format_summary(clean_editorial_text(format_summary(summary))))
+    text = compact_summary(contextual_emoji(format_summary(clean_editorial_text(format_summary(summary)))))
     lowered = text.lower()
     generic_markers = (
         "новость о дубае",
