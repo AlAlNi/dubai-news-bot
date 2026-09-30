@@ -206,7 +206,7 @@ def _mark_dedupe_status(
     registry[dedupe_key] = payload
     _save_dedupe_registry(registry)
 
-def send_telegram_message(text: str, image_url: str = None, retry_without_image: bool = True):
+def send_telegram_message(text: str, image_url: str = None, retry_without_image: bool = True, disable_link_preview: bool = False):
     """
     Отправляет сообщение в Telegram.
     Если с фото возникает ошибка, автоматически пробует отправить без фото.
@@ -225,6 +225,8 @@ def send_telegram_message(text: str, image_url: str = None, retry_without_image:
         print(f"📸 Отправка с фото: {image_url}")
     else:
         payload["text"] = text
+        if disable_link_preview:
+            payload["link_preview_options"] = {"is_disabled": True}
         print("📝 Отправка без фото")
 
     print(f"📨 Отправляем в Telegram...")
@@ -250,7 +252,8 @@ def send_telegram_message(text: str, image_url: str = None, retry_without_image:
             # Если фото отклонено Telegram, пробуем отправить пост без фото.
             if image_url and retry_without_image and resp.status_code == 400:
                 print("🔄 Фото отклонено Telegram, пробуем отправить без фото...")
-                return send_telegram_message(text, image_url=None, retry_without_image=False)
+                return send_telegram_message(text, image_url=None, retry_without_image=False,
+                                             disable_link_preview=True)
             
             return {
                 "success": False,
@@ -402,7 +405,8 @@ def handler(event, context):
 
         # Отправляем в Telegram с автоматической обработкой ошибок фото
         run_counters["telegram_calls"] += 1
-        result = send_telegram_message(text, image_url)
+        result = send_telegram_message(text, image_url,
+                                       disable_link_preview=bool(selected_draft.get("_suppress_link_preview")))
         
         if result["success"]:
             run_counters["published"] += 1

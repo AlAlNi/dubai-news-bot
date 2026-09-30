@@ -107,44 +107,8 @@ def is_valid_image_url(url: str) -> bool:
         print("⚠️ URL изображения в списке блокировки, публикуем пост без картинки")
         return False
     
-    # Проверка расширения файла (быстрая предварительная проверка)
-    image_extensions = ('.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.jfif')
-    url_lower = url.lower()
-    
-    # Если URL заканчивается на известное расширение изображения
-    if any(url_lower.endswith(ext) for ext in image_extensions):
-        print(f"✓ URL имеет корректное расширение изображения")
-        return True
-    
-    # Если расширение не указано, делаем HEAD-запрос для проверки Content-Type
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (compatible; TelegramBot/1.0)'
-        }
-        response = request_with_retry(
-            "HEAD",
-            url,
-            allow_redirects=True,
-            timeout=5,
-            headers=headers,
-        )
-        content_type = response.headers.get('content-type', '').lower()
-        
-        # Проверяем, что это изображение
-        if content_type.startswith('image/'):
-            print(f"✓ URL ведет на изображение (Content-Type: {content_type})")
-            return True
-        else:
-            print(f"✗ URL ведет на {content_type}, а не на изображение")
-            return False
-            
-    except requests.exceptions.Timeout:
-        print(f"⚠️ Таймаут при проверке URL изображения: {url}")
-        # В случае таймаута лучше пропустить изображение, чем задерживать публикацию
-        return False
-    except Exception as e:
-        print(f"⚠️ Ошибка при проверке URL изображения {url}: {e}")
-        return False
+    from image_filter import acceptable_image
+    return acceptable_image(url)
 
 # ================== РАБОТА С ФАЙЛАМИ ==================
 
@@ -546,7 +510,7 @@ def get_next_post_payload_with_image() -> Tuple[Optional[str], Optional[str], Op
         candidate_image_url = (candidate.get("image_url") or "").strip()
         if candidate_image_url and not is_valid_image_url(candidate_image_url):
             print("⚠️ Изображение недоступно: отправляем проверенный текст без картинки")
-            candidate = {**candidate, "image_url": ""}
+            candidate = {**candidate, "image_url": "", "_suppress_link_preview": True}
 
         # Нашли подходящий черновик
         draft = candidate
