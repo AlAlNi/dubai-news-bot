@@ -687,5 +687,169 @@
     "language": "",
     "top_image": "",
     "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "MBRSC announces integration of RTx payload on Rashid Rover 2",
+      "text": "DUBAI, 29th September, 2026 (WAM) -- The Mohammed Bin Rashid Space Centre (MBRSC) today announced the completion of the integration of RTx, a ground-penetrating radar transmitter, onto the Rashid Rover 2, marking another important step in the Emirates Lunar Mission’s preparations for its journey to the far side of the Moon.The Rashid Rover 2 is currently undergoing payload integration and mission-readiness activities ahead of its expected launch onboard Firefly Aerospace’s Blue Ghost Mission 2.Once on the lunar surface, the rover will study the Moon’s terrain, surface composition and thermal properties.It will also examine how different materials interact with the lunar environment, study plasma activity near the surface, and collect data to support the design of future lunar missions.Dr. Hamad AlMarzooqi, Project Manager, Emirates Lunar Mission, MBRSC said, “The integration of RTx payload is yet another milestone in preparing Rashid Rover 2 to the far side of the Moon. The new payload expands the mission’s scientific value, by enabling us to gain new insights into the Moon’s formation, history and mineral composition. As we continue towards mission-readiness, our focus remains on ensuring that Rashid Rover 2 is equipped to deliver unique data that will support future lunar exploration.”RTx is a collaboration between NASA, Brookhaven National Laboratory, Heliospace Corp. and Southwest Research Institute.MBRSC and NASA are also discussing opportunities to use RTx as part of a future Moon Base collaboration. It will enable the rover to support advanced subsurface studies on the Moon by transmitting signals that can probe up to 100 metres below the lunar surface.These signals will be received by the LuSEE-Night radioastronomy spectrometer on the lander, helping scientists better understand the Moon’s meteorite-bombardment history and the presence of iron-titanium minerals in the subsurface.The Emirates Lunar Mission is funded by the ICT Fund of the Telecommunications and Digital Government Regulatory Authority, which aims to support research and development in the ICT sector in the UAE.",
+      "url": "https://www.wam.ae/en/article/c2holk0-mbrsc-announces-integration-rtx-payload-rashid",
+      "published_at": "2026-09-29T11:41:41+00:00"
+    },
+    "source_published_at": "2026-09-29T11:41:41+00:00",
+    "source_retrieved_at": "2026-09-30T14:22:51.214821+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "MBRSC integrated the RTx radar on the Rashid Rover 2 lunar rover.",
+          "supported": true,
+          "evidence": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "claim": "The integration of RTx is an important step in preparing the Emirates Lunar Mission for launch to the far side of the Moon.",
+          "supported": true,
+          "evidence": [
+            1,
+            2
+          ]
+        },
+        {
+          "claim": "The rover will study the terrain, composition, and thermal properties of the lunar surface.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "The rover will help understand the Moon's formation history and mineralogy.",
+          "supported": true,
+          "evidence": [
+            3
+          ]
+        },
+        {
+          "claim": "RTx can probe up to 100 meters below the lunar surface by transmitting signals.",
+          "supported": true,
+          "evidence": [
+            6
+          ]
+        },
+        {
+          "claim": "Signals from RTx will be analyzed by the LuSEE-Night spectrometer on the lander.",
+          "supported": true,
+          "evidence": [
+            6
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "MBRSC announces integration of RTx payload on Rashid Rover 2"
+        },
+        {
+          "id": 1,
+          "text": "DUBAI, 29th September, 2026 (WAM) -- The Mohammed Bin Rashid Space Centre (MBRSC) today announced the completion of the integration of RTx, a ground-penetrating radar transmitter, onto the Rashid Rover 2, marking another important step in the Emirates Lunar Mission’s preparations for its journey to the far side of the Moon.The Rashid Rover 2 is currently undergoing payload integration and mission-readiness activities ahead of its expected launch onboard Firefly Aerospace’s Blue Ghost Mission 2.Once on the lunar surface, the rover will study the Moon’s terrain, surface composition and thermal properties.It will also examine how different materials interact with the lunar environment, study plasma activity near the surface, and collect data to support the design of future lunar missions.Dr."
+        },
+        {
+          "id": 2,
+          "text": "Hamad AlMarzooqi, Project Manager, Emirates Lunar Mission, MBRSC said, “The integration of RTx payload is yet another milestone in preparing Rashid Rover 2 to the far side of the Moon."
+        },
+        {
+          "id": 3,
+          "text": "The new payload expands the mission’s scientific value, by enabling us to gain new insights into the Moon’s formation, history and mineral composition."
+        },
+        {
+          "id": 4,
+          "text": "As we continue towards mission-readiness, our focus remains on ensuring that Rashid Rover 2 is equipped to deliver unique data that will support future lunar exploration.”RTx is a collaboration between NASA, Brookhaven National Laboratory, Heliospace Corp."
+        },
+        {
+          "id": 5,
+          "text": "and Southwest Research Institute.MBRSC and NASA are also discussing opportunities to use RTx as part of a future Moon Base collaboration."
+        },
+        {
+          "id": 6,
+          "text": "It will enable the rover to support advanced subsurface studies on the Moon by transmitting signals that can probe up to 100 metres below the lunar surface.These signals will be received by the LuSEE-Night radioastronomy spectrometer on the lander, helping scientists better understand the Moon’s meteorite-bombardment history and the presence of iron-titanium minerals in the subsurface.The Emirates Lunar Mission is funded by the ICT Fund of the Telecommunications and Digital Government Regulatory Authority, which aims to support research and development in the ICT sector in the UAE."
+        }
+      ],
+      "source_hash": "f494571ab96725fb7614a0b1d04c5f0f07d8a33d4759679099ffe9527d6fc965",
+      "summary_hash": "f7a88e03fb44020859e094c1436cb8176c4c8be9a4f38106f0a8212f7477ec45",
+      "checked_at": "2026-09-30T14:23:13.860790+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "wam.ae",
+    "title": "MBRSC announces integration of RTx payload on Rashid Rover 2",
+    "summary_ru": "<b>🚀 MBRSC интегрировал радар RTx на лунный ровер Rashid Rover 2</b>\n\nВ Дубае объявили о завершении интеграции радара RTx, способного проникать под поверхность, на лунный ровер Rashid Rover 2. Это важный этап подготовки миссии Emirates Lunar Mission к запуску на дальнюю сторону Луны.\n\nРовер изучит рельеф, состав и тепловые свойства лунной поверхности, а также поможет понять историю формирования Луны и минералогию. RTx позволит исследовать до 100 метров под поверхностью, передавая сигналы для анализа с помощью спектрометра LuSEE-Night на посадочном модуле.",
+    "published": "2026-09-30T14:23:03.387685+00:00",
+    "source_urls": [
+      "https://www.wam.ae/en/article/c2holk0-mbrsc-announces-integration-rtx-payload-rashid"
+    ],
+    "lang": "en",
+    "content_hash": "d10925d01cd0e2a108f4e6b78f514bd2",
+    "strict_hash": "d10925d01cd0e2a108f4e6b78f514bd2",
+    "fuzzy_hash": "e7ae7e0fe3830b043fa5c0d40518c148",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о подготовке лунного ровера Rashid Rover 2 с новым научным оборудованием соответствует тематике космоса и науки, что интересно аудитории, следящей за достижениями ОАЭ в космической сфере."
+      }
+    },
+    "image_url": "",
+    "slot_target": "evening",
+    "_suppress_link_preview": true,
+    "publication": {
+      "published_at": "2026-09-30T14:23:16.138008+00:00",
+      "message_id": 72
+    },
+    "published_at": "2026-09-30T14:23:16.138766+00:00",
+    "source_url": "https://www.wam.ae/en/article/c2holk0-mbrsc-announces-integration-rtx-payload-rashid",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
   }
 ]
