@@ -1,109 +1,5 @@
 [
   {
-    "url": "https://gulfnews.com/uae/dubai/dubai-traffic-alert-accident-on-sheikh-mohammed-bin-zayed-road-causes-delays-1.500689330",
-    "timestamp": "2026-09-27T05:57:52.837075+00:00",
-    "status": "rejected",
-    "content_hash": "64d1f3c59207c970d4f6e455d8c01f75",
-    "strict_hash": "64d1f3c59207c970d4f6e455d8c01f75",
-    "fuzzy_hash": "721e265a5c2bd0e907f5c8e92bb464f3",
-    "reason": "Новость полезна для русскоязычных водителей Дубая как оперативное предупреждение о пробке, но текст содержит явный рекламный призыв скачать приложение Gulf News и выглядит как фрагмент с дублирующими заголовками, что нарушает правила о рекламе и качестве."
-  },
-  {
-    "url": "https://gulfnews.com/business/aviation/uae-flight-update-emirates-etihad-flydubai-and-air-arabia-delays-and-cancellations-iran-routes-halted-ebola-curbs-lifted-1.500689298",
-    "timestamp": "2026-09-27T05:57:54.237194+00:00",
-    "status": "rejected",
-    "content_hash": "4d720c40ef630586fabe63c7d10d3b20",
-    "strict_hash": "4d720c40ef630586fabe63c7d10d3b20",
-    "fuzzy_hash": "c5dba525b45fa5badc0ebbaf0503a51d",
-    "reason": "Новость касается сбоев рейсов в аэропортах Дубая и ОАЭ, но значительная часть текста посвящена политике и конфликтам (санкции США против Ирана, заявления Трампа, переговоры по Ормузскому проливу), что нарушает правило о большой политике; также присутствует рекламный призыв скачать приложение Gulf News и признаки кликбейта/ИИ-генерации."
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/27/my-dubai-rent-family-pays-dh250000-for-four-bedroom-villa-in-umm-suqeim",
-    "timestamp": "2026-09-27T05:57:55.456530+00:00",
-    "status": "rejected",
-    "content_hash": "3085ae81d939127b68e5a157d51f6ca9",
-    "strict_hash": "3085ae81d939127b68e5a157d51f6ca9",
-    "fuzzy_hash": "c970c49bca84c669ea259d1cef950898",
-    "reason": "Новость представляет собой пересказ личного опыта аренды виллы в Дубае (рубрика My Dubai Rent) без общественно значимой новости, признаков ИИ-генерации или кликбейта, но по сути является контент-маркетингом издания и не несёт полезной/новостной ценности для аудитории канала."
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/knowledge-can-help-middle-east-prepare-for-uncertainty-says-ceo-of-dubai-based-foundation",
-    "timestamp": "2026-09-27T05:57:56.479046+00:00",
-    "status": "rejected",
-    "content_hash": "21bee7fbb7b655efc50380259ef65659",
-    "strict_hash": "21bee7fbb7b655efc50380259ef65659",
-    "fuzzy_hash": "53ec072aa888db2fd6c0c743f46b96e7",
-    "reason": "Новость связана с Дубаем (фонд MBRF, саммит в Дубае), но её основная тема — глобальная политика и конфликты на Ближнем Востоке в контексте UNGA, что нарушает правило 2; кроме того, материал выглядит как пресс-релиз/выступление без конкретной общественно значимой новости для жителя Дубая."
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/25/dubai-dementia-4get-me-not-senior-support",
-    "timestamp": "2026-09-27T05:57:56.481271+00:00",
-    "status": "rejected",
-    "content_hash": "cd22de7a787e6ccd582eb2a22505630a",
-    "strict_hash": "cd22de7a787e6ccd582eb2a22505630a",
-    "fuzzy_hash": "d050be2ef9cf3dd929a1337d6e8dbddc",
-    "reason": "Cheap prefilter: слишком частый домен в окне (www.thenationalnews.com)"
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai/flydubai-cancels-dubai-catania-flights-as-mount-etna-ash-disrupts-airport-1.500689580",
-    "timestamp": "2026-09-27T11:18:14.678384+00:00",
-    "status": "rejected",
-    "content_hash": "ae977c85b4f15eb50deaabaaf14e7eb4",
-    "strict_hash": "ae977c85b4f15eb50deaabaaf14e7eb4",
-    "fuzzy_hash": "9766cacbbedb16331543e8227ab4909c",
-    "reason": "Новость связана с Дубаем (отмена рейсов flydubai Дубай–Катания из-за пепла Этны) и полезна русскоязычным жителям как service-update, однако текст выглядит как фрагмент чужой статьи с обрывками заголовков, рекламой приложения Gulf News и явными признаками небрежной компиляции/ИИ-склейки, что нарушает правила 5 и 8."
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai/uae-traffic-alert-accident-reported-on-dubai-road-causes-delays-1.500689486",
-    "timestamp": "2026-09-27T11:18:16.249418+00:00",
-    "status": "rejected",
-    "content_hash": "f4439733c4bc5f003fb76b69a733659b",
-    "strict_hash": "f4439733c4bc5f003fb76b69a733659b",
-    "fuzzy_hash": "0b6d4e39bd8434e3b179ab21f26acdcd",
-    "reason": "Новость сообщает о ДТП на Expo Road в Дубае с предупреждением полиции о заторах — это локальный сервисный апдейт, полезный для автомобилистов, без политики, рекламы и признаков ИИ-генерации. Однако текст содержит явный рекламный призыв скачать приложение Gulf News и выглядит как фрагмент чужого материала с несколькими перекрёстными заголовками, что снижает качество и достоверность подачи."
-  },
-  {
-    "url": "https://gulfnews.com/uae/crime/dubai-police-issue-10-tips-to-avoid-vehicle-insurance-scams-1.500689424",
-    "timestamp": "2026-09-27T11:18:16.251051+00:00",
-    "status": "rejected",
-    "content_hash": "c01db507764fc8840c3f97dcaa359a6a",
-    "strict_hash": "c01db507764fc8840c3f97dcaa359a6a",
-    "fuzzy_hash": "db5b6f018c060225867c35ea379f08c7",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai/how-dubai-is-preparing-its-roads-for-a-driverless-future-1.500689416",
-    "timestamp": "2026-09-27T11:18:16.252949+00:00",
-    "status": "rejected",
-    "content_hash": "d0f63bfeac58f7947bfbecf1e3a704e5",
-    "strict_hash": "d0f63bfeac58f7947bfbecf1e3a704e5",
-    "fuzzy_hash": "a6064349a747e077bd9753d9be24f211",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
-    "url": "https://gulfnews.com/business/economy/sheikh-hamdan-approves-dubai-longevity-strategy-targeting-dh35-billion-economic-boost-1.500689676",
-    "timestamp": "2026-09-27T15:58:01.406605+00:00",
-    "status": "approved",
-    "content_hash": "a6f9de82ee2d2a79b86374b9f7b25bb5",
-    "strict_hash": "a6f9de82ee2d2a79b86374b9f7b25bb5",
-    "fuzzy_hash": "a13405417895964f335acfdd556c5ce5",
-    "reason": "approved"
-  },
-  {
-    "url": "https://gulfnews.com/business/economy/sheikh-hamdan-approves-dubai-longevity-strategy-targeting-dh35-billion-economic-boost-1.500689676",
-    "timestamp": "2026-09-27T18:15:29.767588+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/27/sheikh-hamdan-says-dubai-longevity-drive-can-improve-health-and-deliver-dh35bn-economic-boost",
-    "timestamp": "2026-09-28T01:17:13.861719+00:00",
-    "status": "approved",
-    "content_hash": "3a33bf0fcffed21590e3a06aeeb9bdec",
-    "strict_hash": "3a33bf0fcffed21590e3a06aeeb9bdec",
-    "fuzzy_hash": "8cedfe4a84c00de0c2bfadb3e54e44d6",
-    "reason": "approved"
-  },
-  {
     "url": "https://www.thenationalnews.com/news/uae/2026/09/27/sheikh-hamdan-says-dubai-longevity-drive-can-improve-health-and-deliver-dh35bn-economic-boost",
     "timestamp": "2026-09-28T06:38:11.336882+00:00",
     "status": "published"
@@ -243,5 +139,10 @@
     "strict_hash": "299a33e33fcee34b0735006ce79c79ee",
     "fuzzy_hash": "fc7f086472266d677bfd433f263e0c8a",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.wam.ae/en/article/c2holwg-hamdan-bin-mohammed-meets-with-president-tunnel",
+    "timestamp": "2026-09-30T06:34:45.272251+00:00",
+    "status": "published"
   }
 ]
