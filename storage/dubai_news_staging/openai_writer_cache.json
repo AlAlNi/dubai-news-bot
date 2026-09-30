@@ -48,5 +48,15 @@
       "api_calls": 1,
       "cached": false
     }
+  },
+  "bf7e9bb5203e776e6161a31c9ca8fe513aad3b0fbca045d448875775c273e640": {
+    "saved_at": "2026-09-30T08:29:32.534745+00:00",
+    "result": {
+      "status": "deferred",
+      "reason": "Previous writer attempt incomplete; no automatic retry",
+      "post": "",
+      "api_calls": 0,
+      "cached": false
+    }
   }
 }
