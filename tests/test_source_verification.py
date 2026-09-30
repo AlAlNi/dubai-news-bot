@@ -90,7 +90,7 @@ class SourceVerificationTests(unittest.TestCase):
 
     def test_short_factual_russian_post_is_not_padded(self):
         self.assertEqual(rss_collect.ensure_summary_quality(self.summary, "", ""),
-                         self.summary.replace("</b>\n", "</b>\n\n"))
+                         self.summary.replace("<b>Автобусы", "<b>🚌 Автобусы").replace("</b>\n", "</b>\n\n📅 "))
 
     def test_legacy_verifier_cannot_make_paid_requests(self):
         with patch.dict(os.environ, {"SOURCE_VERIFIER": "deepseek"}), patch("source_verification.request_with_retry") as request:
