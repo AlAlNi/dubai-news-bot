@@ -310,5 +310,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_dc7caa3f28"
     }
+  },
+  "89ef689c94c2b22c909df729ab702f61a6ee18c6c8d3b020af659ede6f53227c": {
+    "saved_at": "2026-09-30T08:49:02.301994+00:00",
+    "result": {
+      "id": "chatcmpl-ETkHkDOXiNUVTosH2hzFAtUE11dk6",
+      "object": "chat.completion",
+      "created": 1790758140,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The UAE Federal Tax Authority has set deadlines for implementing the electronic invoicing system in 2027.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Federal Tax Authority urged companies to accelerate joining the e-invoicing system and comply with deadlines.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Companies with revenues of 50 million AED or more must appoint an accredited service provider by 30 October 2026 and implement the system by 1 January 2027.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Companies with revenues below 50 million AED must appoint a provider by 31 March 2027 and implement the system by 1 July 2027.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Preparation includes selecting a provider, signing contracts, and technical integration through the EmaraTax platform.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1000,
+        "completion_tokens": 211,
+        "total_tokens": 1211,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_dc7caa3f28"
+    }
   }
 }
