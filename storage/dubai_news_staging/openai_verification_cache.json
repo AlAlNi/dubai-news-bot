@@ -271,5 +271,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_dc7caa3f28"
     }
+  },
+  "2e26366dd5b32f792ff50af88ee144aca3be182b9f41be8942152ceb3ad918c2": {
+    "saved_at": "2026-09-30T08:41:15.985305+00:00",
+    "result": {
+      "id": "chatcmpl-ETkAE6ItKkb5OVoQi2dth4926mCHq",
+      "object": "chat.completion",
+      "created": 1790757674,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Commercial Bank of Dubai became the first bank outside Europe to join the Commercial Bank Money Token (CBMT) initiative.\",\"supported\":true,\"evidence\":[0,1,13,17]},{\"claim\":\"The CBMT initiative is aimed at developing tokenised commercial bank money for corporate clients.\",\"supported\":true,\"evidence\":[3,5]},{\"claim\":\"Joining CBMT will allow faster and more transparent cross-border settlements between Europe and the Gulf.\",\"supported\":true,\"evidence\":[2,10,15]},{\"claim\":\"CBD will work in the CBMT Sandbox test environment exploring corporate payments, trade settlements, and capital optimization.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"The CBMT initiative is supported by leading European banks and uses distributed ledger technology while maintaining the reliability and regulation of traditional bank deposits.\",\"supported\":true,\"evidence\":[3,4,5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1942,
+        "completion_tokens": 205,
+        "total_tokens": 2147,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_dc7caa3f28"
+    }
   }
 }
