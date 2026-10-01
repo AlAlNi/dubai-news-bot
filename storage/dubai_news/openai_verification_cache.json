@@ -1,160 +1,4 @@
 {
-  "5280374f7de22c1648ed56e0b697beb0657071e8f93e6cf08e0a86121f45dc4f": {
-    "saved_at": "2026-09-23T06:55:22.938244+00:00",
-    "result": {
-      "id": "chatcmpl-ERBAsIVZaLISXaXbl8Q1KnNjOAiVO",
-      "object": "chat.completion",
-      "created": 1790146518,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае водители сталкиваются с серьёзными замедлениями в районе Международного аэропорта Дубая: движение затруднено на Al Garhoud Road и рядом со штаб-квартирой Emirates Group.\",\"supported\":true,\"evidence\":\"motorists are experiencing significant slowdowns around Dubai International Airport, with traffic backing up along Al Garhoud Road and near the Emirates Group Headquarters\"},{\"claim\":\"Сильные пробки отмечаются в промышленном районе Ras Al Khor, Dubai Festival City и на участке, связывающем Al Rashidiya с City Centre Mirdif и Etihad Mall.\",\"supported\":true,\"evidence\":\"The Ras Al Khor Industrial Area, Dubai Festival City, and the stretch linking Al Rashidiya to City Centre Mirdif and Etihad Mall are all showing heavy congestion\"},{\"claim\":\"Затруднено движение и в сторону Al Warqa, Al Mizhar и Nad Al Sheba.\",\"supported\":true,\"evidence\":\"drivers heading towards Al Warqa, Al Mizhar and Nad Al Sheba are also being held up\"},{\"claim\":\"Западнее пробки накапливаются на Sheikh Zayed Road рядом с Al Barsha First и Jumeirah Village Circle, красные и янтарные участки появляются на E11 и E311 при движении через Dubai Sports City в сторону Al Furjan и Arabian Ranches.\",\"supported\":true,\"evidence\":\"traffic is building along Sheikh Zayed Road near Al Barsha First and Jumeirah Village Circle, with red and amber sections appearing on the E11 and E311 as commuters move through Dubai Sports City and towards Al Furjan and Arabian Ranches\"},{\"claim\":\"В Шардже движение почти стоит на Al Ittihad Street и Al Wahda Street, плотные красные участки образуются рядом с Sahara Centre, Al Nahda и промышленным районом Al Qusais.\",\"supported\":true,\"evidence\":\"In Sharjah, traffic is crawling along Al Ittihad Street and Al Wahda Street, with heavy red patches building up near Sahara Centre, Al Nahda, and the Al Qusais Industrial Area\"},{\"claim\":\"Машины скапливаются в промышленных зонах 2, 3, 6, 10, 15 и 17, а также вокруг Университета Шарджи, Muwaileh Commercial, City Centre Al Zahia и Safari Mall Sharjah.\",\"supported\":true,\"evidence\":\"Vehicles are backing up through Industrial Areas 2, 3, 6, 10, 15 and 17, as well as around the University of Sharjah, Muwaileh Commercial, City Centre Al Zahia and Safari Mall Sharjah\"},{\"claim\":\"Коридор, соединяющий Al Mamzar Beach Park и Al Khan на набережной, также показывает медленное движение, которое переходит в Deira и Abu Hail на стороне Дубая.\",\"supported\":true,\"evidence\":\"The corridor connecting Al Mamzar Beach Park and Al Khan on the Corniche is also seeing slow-moving traffic, spilling over into Deira and Abu Hail on the Dubai side\"},{\"claim\":\"Власти советуют водителям закладывать дополнительное время на поездку утром, соблюдать безопасную дистанцию и следить за переменными ограничениями скорости на электронных дорожных знаках.\",\"supported\":true,\"evidence\":\"Authorities are advising motorists to factor in extra travel time this morning, maintain safe following distances, and remain alert to variable speed limits displayed on electronic road signs\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1144,
-        "completion_tokens": 749,
-        "total_tokens": 1893,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
-  "7d5cda5b5efeda8f10cf0fb154dfc3d5f0c23527ab5b590cffcc80f544a9c4d9": {
-    "saved_at": "2026-09-23T12:25:29.597537+00:00",
-    "result": {
-      "id": "chatcmpl-ERGKG33PSnuzXUItmrqLG8isNTReG",
-      "object": "chat.completion",
-      "created": 1790166320,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Legoland Dubai Resort начинает новый сезон 7 октября.\",\"supported\":true,\"evidence\":\"Legoland Dubai Resort starts its new season on 7 October\"},{\"claim\":\"В этот же день стартуют новое звукосветовое шоу в Miniland и празднование Хэллоуина.\",\"supported\":true,\"evidence\":\"with a brand-new sound-and-light show at Miniland and Halloween celebrations beginning the same day\"},{\"claim\":\"Время начала совпадает с октябрьскими школьными каникулами.\",\"supported\":true,\"evidence\":\"The timing lines up with the October school break\"},{\"claim\":\"Курорт ориентируется на семьи с детьми от двух до 12 лет под темой «Connecting Through Play».\",\"supported\":true,\"evidence\":\"the resort is pitching the season at families with children aged two to 12, under the theme \\\"Connecting Through Play\\\"\"},{\"claim\":\"Курорт расположен на шоссе Шейха Зайда напротив Palm Jebel Ali.\",\"supported\":true,\"evidence\":\"Legoland Dubai Resort, Sheikh Zayed Road, opposite Palm Jebel Ali\"},{\"claim\":\"Цена билета — 295 дирхамов онлайн, 330 дирхамов у входа.\",\"supported\":true,\"evidence\":\"Price: Dh295 online, Dh330 at the gate\"},{\"claim\":\"Активности включены в дневной билет; еда, напитки и покупки оплачиваются отдельно.\",\"supported\":true,\"evidence\":\"Activities are included in the day ticket; food, drinks and retail cost extra\"},{\"claim\":\"Главное новшество — звукосветовое шоу в Miniland, крытой зоне с кондиционированием, построенной из 20 млн деталей Lego.\",\"supported\":true,\"evidence\":\"a sound-and-light show at Miniland, the indoor, air-conditioned area built from 20 million Lego bricks\"},{\"claim\":\"Там находится 17-метровый Lego-Бурдж-Халифа — самая высокая модель Miniland в мире, а также воссозданные виды Дубая и достопримечательности региона и других мест.\",\"supported\":true,\"evidence\":\"Miniland is home to a 17-metre Lego Burj Khalifa, the tallest Miniland model anywhere in the world, alongside recreations of Dubai's skyline and landmarks from around the region and beyond\"},{\"claim\":\"Шоу будет проходить ежедневно с момента открытия сезона.\",\"supported\":true,\"evidence\":\"The new show ... will run daily from the season launch\"},{\"claim\":\"Хэллоуин в Legoland Dubai Resort также начинается 7 октября и продлится до 2 ноября.\",\"supported\":true,\"evidence\":\"Halloween at Legoland Dubai Resort also begins on 7 October ... It runs until 2 November\"},{\"claim\":\"Дополнительные детали обещают объявить позже.\",\"supported\":true,\"evidence\":\"Further details are due to be announced\"},{\"claim\":\"В аквапарке Legoland Water Park на старте доступные аттракционы ориентированы на детей примерно до семи лет, включая Duplo Splash Safari, Lazy River и Joker Soaker.\",\"supported\":true,\"evidence\":\"At launch, the attractions available lean towards younger children, roughly seven and under, including the Duplo Splash Safari, the Lazy River and the Joker Soaker\"},{\"claim\":\"На последние месяцы 2026 года запланированы несколько дополнений, даты пока не подтверждены: переосмысленный Factory Experience, интерактивная Master Model Builder Academy, а в аквапарке — The Wave, интерактивная водная площадка для младших детей.\",\"supported\":true,\"evidence\":\"Several additions are planned for the final months of 2026, with dates still to be confirmed. A reimagined Factory Experience and an interactive Master Model Builder Academy are both in the works. The water park will get The Wave, an interactive splash pad aimed at younger children\"},{\"claim\":\"В Legoland Hotel обновляют номера в стиле Lego Friends.\",\"supported\":true,\"evidence\":\"Over at Legoland Hotel, the Lego Friends-themed rooms are being upgraded\"},{\"claim\":\"Генеральный менеджер Legoland Dubai Resort Тим Харрисон-Джонс заявил, что команда готовилась месяцами.\",\"supported\":true,\"evidence\":\"Tim Harrison-Jones, general manager of Legoland Dubai Resort, said the team had been preparing for months\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1432,
-        "completion_tokens": 915,
-        "total_tokens": 2347,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
-  "bd3955c3b04a01529283849e587c98eb9582ce33baf45f34fb8e5ee3d068c993": {
-    "saved_at": "2026-09-23T17:33:22.210751+00:00",
-    "result": {
-      "id": "chatcmpl-ERL8CYm942CW8zVhDeZbrAcLovaIc",
-      "object": "chat.completion",
-      "created": 1790184792,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Police reached 120 workers through a 'Sun Protection' initiative.\",\"supported\":true,\"evidence\":\"Dubai Police has reached 120 workers through a “Sun Protection” initiative\"},{\"claim\":\"The initiative aimed at preventing heat stress and other health risks linked to prolonged exposure to direct sunlight.\",\"supported\":true,\"evidence\":\"aimed at preventing heat stress and other health risks linked to prolonged exposure to direct sunlight\"},{\"claim\":\"The campaign focused on simple precautions workers can follow while carrying out outdoor duties, including staying hydrated, taking regular rest breaks and using appropriate protection from the sun.\",\"supported\":true,\"evidence\":\"The community campaign focused on simple precautions workers can follow while carrying out outdoor duties, including staying hydrated, taking regular rest breaks and using appropriate protection from the sun.\"},{\"claim\":\"The initiative was organized by the General Department of Correctional and Punitive Institutions in cooperation with the Positive Spirit Council.\",\"supported\":true,\"evidence\":\"Organised by the General Department of Correctional and Punitive Institutions in cooperation with the Positive Spirit Council\"},{\"claim\":\"Awareness sessions and workshops highlighted the risks associated with prolonged exposure to heat and provided workers with practical advice to reduce those risks.\",\"supported\":true,\"evidence\":\"Awareness sessions and workshops highlighted the risks associated with prolonged exposure to heat and provided workers with practical advice to reduce those risks.\"},{\"claim\":\"Workers were advised to avoid direct sun exposure whenever possible, take appropriate rest periods and drink sufficient water and other fluids to prevent dehydration.\",\"supported\":true,\"evidence\":\"Workers were advised to avoid direct sun exposure whenever possible, take appropriate rest periods and drink sufficient water and other fluids to prevent dehydration.\"},{\"claim\":\"Workers were encouraged to use suitable protective measures while working outdoors.\",\"supported\":true,\"evidence\":\"They were also encouraged to use suitable protective measures while working outdoors.\"},{\"claim\":\"Colonel Hamad Rashid Al Marri said the initiative reflects Dubai Police’s humanitarian approach and its commitment to turning social responsibility into practical programmes benefiting different sections of the community.\",\"supported\":true,\"evidence\":\"Colonel Hamad Rashid Al Marri, Deputy Director of the General Department of Correctional and Punitive Institutions, said the initiative reflects Dubai Police’s humanitarian approach and its commitment to turning social responsibility into practical programmes benefiting different sections of the community.\"},{\"claim\":\"The initiative aims to increase awareness of proper preventive practices and enable workers to protect themselves from heat stress and direct exposure to sunlight, particularly during periods of high temperatures.\",\"supported\":true,\"evidence\":\"The initiative aims to increase awareness of proper preventive practices and enable workers to take the necessary steps to protect themselves from heat stress and direct exposure to sunlight, particularly during periods of high temperatures\"},{\"claim\":\"Protecting workers’ health and safety is an important part of creating a safe and supportive workplace.\",\"supported\":true,\"evidence\":\"He stressed that protecting workers’ health and safety is an important part of creating a safe and supportive workplace\"},{\"claim\":\"Fatima Bohjair said the initiative is part of a broader series of community programmes organised with Dubai Police departments, police stations and partners.\",\"supported\":true,\"evidence\":\"Fatima Bohjair, Chairperson of the Positive Spirit Council and Head of the Cultural Diversity Section at the General Department of Community Happiness, said the initiative is part of a broader series of community programmes organised with Dubai Police departments, police stations and partners.\"},{\"claim\":\"The programmes aim to reach different sections of society through simple, practical awareness messages tailored to their work and needs.\",\"supported\":true,\"evidence\":\"The programmes aim to reach different sections of society through simple, practical awareness messages tailored to their work and needs.\"},{\"claim\":\"Protecting workers from sun exposure requires more than information; preventive measures need to become sustainable daily habits.\",\"supported\":true,\"evidence\":\"Bohjair said protecting workers from sun exposure requires more than information, with preventive measures needing to become sustainable daily habits\"},{\"claim\":\"At the conclusion of the initiative, Dubai Police distributed umbrellas and hydration supplies to the workers.\",\"supported\":true,\"evidence\":\"At the conclusion of the initiative, Dubai Police distributed umbrellas and hydration supplies to the workers\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1431,
-        "completion_tokens": 856,
-        "total_tokens": 2287,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_dc7caa3f28"
-    }
-  },
-  "1f49e0cd1ee16e7bb49f4c5161f75891da7d61460a597237c45d79b895edbebb": {
-    "saved_at": "2026-09-24T02:05:51.355111+00:00",
-    "result": {
-      "id": "chatcmpl-ERT8Ci737LtzvVlWxlXOSHd85x7ms",
-      "object": "chat.completion",
-      "created": 1790215544,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Shop worker in Abu Dhabi won $1 million in Dubai Duty Free Millennium Millionaire draw on Wednesday.\",\"supported\":true,\"evidence\":\"A shop worker in Abu Dhabi ... won $1 million (Dh3.67 million) in the Dubai Duty Free Millennium Millionaire draw on Wednesday.\"},{\"claim\":\"His name is Saravanan Malairaj, 36 years old.\",\"supported\":true,\"evidence\":\"Saravanan Malairaj, 36, said the windfall...\"},{\"claim\":\"He left Chennai 17 years ago to support his family.\",\"supported\":true,\"evidence\":\"A shop worker in Abu Dhabi , who left Chennai 17 years ago to support his family...\"},{\"claim\":\"He has twins, a boy and a girl aged four.\",\"supported\":true,\"evidence\":\"...help him secure a better future for his twins, a boy and a girl aged four...\"},{\"claim\":\"Dubai Duty Free informed him of his win at 12:15 pm.\",\"supported\":true,\"evidence\":\"Dubai Duty Free informed him of his win at 12.15pm...\"},{\"claim\":\"He had not informed his family in India before speaking to The National due to nervousness and disbelief.\",\"supported\":true,\"evidence\":\"...but out of nervousness and disbelief, he had not informed his family in India before speaking to The National.\"},{\"claim\":\"Life had been difficult in Chennai and he sold family land to help pay for his sister's marriage before leaving India in 2009.\",\"supported\":true,\"evidence\":\"The jackpot winner said life had been difficult in Chennai and that he sold family land to help pay for his sister's marriage before leaving India in 2009...\"},{\"claim\":\"He currently earns Dh8,000 a month working at a shop selling construction equipment.\",\"supported\":true,\"evidence\":\"He currently earns Dh8,000 a month working at the shop selling construction equipment.\"},{\"claim\":\"He plans to invest the prize money in his children's education, hopes to return to India eventually, and wants to own a shop in Tamil Nadu.\",\"supported\":true,\"evidence\":\"Mr Malairaj plans to invest the prize money in his children's education. He hopes to return to India eventually... He also aims to own a shop in Tamil Nadu, India.\"},{\"claim\":\"Bhanu Sobhani, 40, Dubai resident and textile factory owner, also won $1 million in the same draw.\",\"supported\":true,\"evidence\":\"Bhanu Sobhani, 40, a Dubai resident, and textile factory owner, won in Series 557...\"},{\"claim\":\"Sobhani bought the ticket just before traveling to Poland for business.\",\"supported\":true,\"evidence\":\"...with a ticket bought just before travelling to Poland for business.\"},{\"claim\":\"Sobhani has lived in Dubai for 10 years and participated in Dubai Duty Free's promotion since 2021.\",\"supported\":true,\"evidence\":\"A Dubai resident for 10 years, Mr Sobhani has regularly participated in Dubai Duty Free's promotion since 2021.\"},{\"claim\":\"Sobhani is father of two and plans to invest part of winnings in property and donate a portion to charity.\",\"supported\":true,\"evidence\":\"The father of two said... He plans to invest part of his winnings in property and donate a portion to charity.\"},{\"claim\":\"Malairaj and Sobhani are the 283rd and 284th Indian citizens to win $1 million in the Millennium Millionaire promotion since 1999.\",\"supported\":true,\"evidence\":\"Mr Malairaj and Mr Sobhani are the 283rd and 284th Indian citizens to win $1 million in the Millennium Millionaire promotion since it began in 1999...\"},{\"claim\":\"Shailesh Kumar won a Range Rover SE P360 in the latest draw.\",\"supported\":true,\"evidence\":\"Shailesh Kumar also won big in the latest draw, landing a Range Rover SE P360.\"},{\"claim\":\"Kumar, 47, Dubai resident since 2012, has participated in the promotion for eight years, works as insurance manager, and called the car his dream car.\",\"supported\":true,\"evidence\":\"A Dubai resident since 2012, Mr Kumar, 47, has been participating in Dubai Duty Free's promotion for eight years... The father of two works as an insurance manager. “This is my dream car...”\"},{\"claim\":\"Sajjad Siddiqui, 47, Indian based in Riyadh, won a BMW R12 GS motorbike.\",\"supported\":true,\"evidence\":\"Sajjad Siddiqui, 47, an Indian based in Riyadh, won a BMW R12 GS motorbike.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1623,
-        "completion_tokens": 980,
-        "total_tokens": 2603,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_33e21cda63"
-    }
-  },
   "eafee7599d1a8699ada00ed8f16a74341da520d2442902de9e372357b2c02bb6": {
     "saved_at": "2026-09-24T13:00:27.135843+00:00",
     "result": {
@@ -816,6 +660,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_dc7caa3f28"
+    }
+  },
+  "3484186b355489330951100c2a1d74b425179d8d39c26ad39263c05a5536e0a9": {
+    "saved_at": "2026-10-01T07:10:11.622410+00:00",
+    "result": {
+      "id": "chatcmpl-EU5DdJKDzbN6GGAJ2xYf2w2c0HuW7",
+      "object": "chat.completion",
+      "created": 1790838609,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Amazon и Ghitha Holding подписали меморандум о сотрудничестве для развития проекта сезонных свежих продуктов в ОАЭ.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Инициатива позволит напрямую связать фермерские хозяйства с цепочкой поставок Amazon, обеспечивая доставку свежих местных продуктов к дверям покупателей через Amazon Now.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"В рамках проекта планируется создание современного упаковочного и распределительного центра в Food Tech Valley в Дубае.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Также будет расширен ассортимент местных брендов Ghitha Holding на платформе Amazon Now.\",\"supported\":true,\"evidence\":[2,8,9]},{\"claim\":\"Инициатива поддержит местных фермеров и устойчивое производство продуктов в ОАЭ.\",\"supported\":true,\"evidence\":[2,3,4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1296,
+        "completion_tokens": 222,
+        "total_tokens": 1518,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_9795f2200f"
     }
   }
 }
