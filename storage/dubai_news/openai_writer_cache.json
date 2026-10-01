@@ -8,5 +8,15 @@
       "api_calls": 1,
       "cached": false
     }
+  },
+  "0a96c8e4973fb3246f3eeaad76efccdb4f749f3d9738b1fcf8d22aeb95cea5a1": {
+    "saved_at": "2026-10-01T01:40:00.748538+00:00",
+    "result": {
+      "status": "deferred",
+      "reason": "Previous writer attempt incomplete; no automatic retry",
+      "post": "",
+      "api_calls": 0,
+      "cached": false
+    }
   }
 }
