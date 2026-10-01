@@ -1,89 +1,5 @@
 [
   {
-    "script": "auto_notify",
-    "started_at": "2026-09-16T07:35:13.276412+00:00",
-    "finished_at": "2026-09-16T07:35:13.965999+00:00",
-    "duration_seconds": 0.69,
-    "success": true,
-    "status": "published",
-    "counters": {
-      "telegram_calls": 1,
-      "telegram_failures": 0,
-      "published": 1,
-      "duplicate_skips": 0,
-      "no_posts": 0
-    },
-    "newsroom_kpi": {
-      "date_utc": "2026-09-16",
-      "daily": {
-        "published_per_day": {
-          "value": 1,
-          "target_min": 2,
-          "ok": false
-        },
-        "slot_fill_rate_morning": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "slot_fill_rate_evening": {
-          "value": 0.0,
-          "target_min": 95.0,
-          "ok": false
-        },
-        "source_share_official": {
-          "value": 0.0,
-          "target_min": 35.0,
-          "ok": false
-        },
-        "reject_rate_after_editor": {
-          "value": 94.74,
-          "alert_if_gt": 60.0,
-          "ok": false
-        }
-      },
-      "weekly_actions": {
-        "disable_weak_sources": [
-          {
-            "source": "www.al-monitor.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "timesofindia.indiatimes.com",
-            "events": 3,
-            "reject_rate": 100.0,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "news.google.com",
-            "events": 58,
-            "reject_rate": 94.83,
-            "duplicate_rate": 1.72
-          },
-          {
-            "source": "whatson.ae",
-            "events": 12,
-            "reject_rate": 91.67,
-            "duplicate_rate": 0.0
-          },
-          {
-            "source": "www.thenationalnews.com",
-            "events": 5,
-            "reject_rate": 60.0,
-            "duplicate_rate": 20.0
-          }
-        ],
-        "add_sources_ab_test_7d": [
-          "Dubai Municipality News",
-          "Expo City Dubai News",
-          "DET Dubai (Department of Economy and Tourism)"
-        ]
-      }
-    }
-  },
-  {
     "script": "rss_collect",
     "started_at": "2026-09-16T08:01:02.541629+00:00",
     "finished_at": "2026-09-16T08:01:53.145952+00:00",
@@ -16878,6 +16794,76 @@
       "published": 1,
       "duplicate_skips": 0,
       "no_posts": 0
+    },
+    "newsroom_kpi": {
+      "date_utc": "2026-10-01",
+      "daily": {
+        "published_per_day": {
+          "value": 1,
+          "target_min": 2,
+          "ok": false
+        },
+        "slot_fill_rate_morning": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "slot_fill_rate_evening": {
+          "value": 0.0,
+          "target_min": 95.0,
+          "ok": false
+        },
+        "source_share_official": {
+          "value": 0.0,
+          "target_min": 35.0,
+          "ok": false
+        },
+        "reject_rate_after_editor": {
+          "value": 0.0,
+          "alert_if_gt": 60.0,
+          "ok": true
+        }
+      },
+      "weekly_actions": {
+        "disable_weak_sources": [
+          {
+            "source": "gulfnews.com",
+            "events": 4,
+            "reject_rate": 100.0,
+            "duplicate_rate": 0.0
+          }
+        ],
+        "add_sources_ab_test_7d": [
+          "Dubai Municipality News",
+          "Expo City Dubai News",
+          "DET Dubai (Department of Economy and Tourism)"
+        ]
+      }
+    }
+  },
+  {
+    "script": "rss_collect",
+    "started_at": "2026-10-01T07:57:56.405645+00:00",
+    "finished_at": "2026-10-01T07:58:20.866058+00:00",
+    "duration_seconds": 24.46,
+    "success": true,
+    "counters": {
+      "attempts_made": 1,
+      "fetched": 1,
+      "rejected": 0,
+      "approved": 1,
+      "writer_calls": 1,
+      "openai_calls": 2,
+      "openai_search_calls": 0,
+      "openai_search_cache_hits": 0,
+      "openai_cache_hits": 0,
+      "writer_calls_max": 2,
+      "gnews_fetches": 0,
+      "google_rss_fetches": 0,
+      "reserve_fetches": 0,
+      "rss_fetches": 0,
+      "telegram_failures": 0,
+      "technical_errors": 0
     },
     "newsroom_kpi": {
       "date_utc": "2026-10-01",
