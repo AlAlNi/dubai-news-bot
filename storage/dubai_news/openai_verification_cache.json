@@ -1,121 +1,4 @@
 {
-  "eafee7599d1a8699ada00ed8f16a74341da520d2442902de9e372357b2c02bb6": {
-    "saved_at": "2026-09-24T13:00:27.135843+00:00",
-    "result": {
-      "id": "chatcmpl-ERdLfvm7RHaoK0rJZij93qf5T5Etz",
-      "object": "chat.completion",
-      "created": 1790254819,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"До 30 сентября в Дубае действует официальный период траура, рекомендуется уточнять детали у устроителей мероприятий.\",\"supported\":true,\"evidence\":\"Dubai is observing an official mourning period until Wednesday 30 September, so it is worth checking with organisers before heading out this week.\"},{\"claim\":\"В пятницу открывается первый в Дубае фестиваль корейской культуры K-Fest, который продлится 10 дней под темой «Discover Korea in Dubai».\",\"supported\":true,\"evidence\":\"K-Fest runs for 10 days across the city under the theme \\\"Discover Korea in Dubai\\\"\"},{\"claim\":\"В Festival Bay в 19:30 стартует шоу IMAGINE, а с 20:00 — бесплатный концерт с участием Квон Ынби (экс-IZ*ONE) и бойз-бэнда ONEUS.\",\"supported\":true,\"evidence\":\"Friday opens at Festival Bay with the IMAGINE Show at 7.30pm, followed by a concert from 8pm headlined by Kwon Eunbi, formerly of IZ*ONE, and boy band ONEUS\"},{\"claim\":\"В субботу в Festival Bay с 20:00 выступят корейские танцоры AIKI и Choi Young-jun.\",\"supported\":true,\"evidence\":\"Saturday brings a second free show at the same venue from 8pm, with Korean dancers AIKI and Choi Young-jun.\"},{\"claim\":\"26 сентября, суббота: рынок ARTE, The Maker's Market в Times Square Center, 10:00–19:00, вход свободный.\",\"supported\":true,\"evidence\":\"ARTE takes over Times Square Center with local artisans... When: Saturday 26 September, 10am to 7pm... Price: Free entry\"},{\"claim\":\"27 сентября, воскресенье: The Ripe Market, 10:00–19:00, вход свободный.\",\"supported\":true,\"evidence\":\"The Ripe Market arrives... When: Sunday 27 September, 10am to 7pm Price: Free entry\"},{\"claim\":\"Распродажа косметики Apotheca в Crowne Plaza Dubai Jumeirah: 24 сентября 14:00–19:00, с 25 по 27 сентября 10:00–19:00, цены от Dh5.\",\"supported\":true,\"evidence\":\"Apotheca's beauty warehouse sale... It opens today with a shorter afternoon session, then runs full days from Friday through Sunday. Prices start at Dh5. When: Thursday 24 September, 2pm to 7pm; Friday 25 to Sunday 27 September, 10am to 7pm Where: Crowne Plaza Dubai Jumeirah\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2234,
-        "completion_tokens": 585,
-        "total_tokens": 2819,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_33e21cda63"
-    }
-  },
-  "74e27c62e682eeb2b862de3b944b9b5006fbf8a44bd7f336694616cf94679da9": {
-    "saved_at": "2026-09-24T13:00:41.629864+00:00",
-    "result": {
-      "id": "chatcmpl-ERdLu3VHPxa7EKsP3EUNRPLxdM4hA",
-      "object": "chat.completion",
-      "created": 1790254834,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"In Dubai, 272 villas and townhouses will be built in Nad Al Sheba Gardens.\",\"supported\":true,\"evidence\":\"Meraas... has awarded a contract to GCC Contracting to build 272 villas and town houses at Nad Al Sheba Gardens.\"},{\"claim\":\"Developer Meraas, part of Dubai Holding Real Estate, awarded GCC Contracting a contract to build 272 villas and townhouses in Nad Al Sheba Gardens.\",\"supported\":true,\"evidence\":\"Property developer Meraas, part of Dubai Holding Real Estate, has awarded a contract to GCC Contracting to build 272 villas and town houses at Nad Al Sheba Gardens.\"},{\"claim\":\"The project in the gated community includes 130 villas with four to seven bedrooms and 142 three-bedroom townhouses, as well as pool houses, utilities, and infrastructure works.\",\"supported\":true,\"evidence\":\"The development in the gated community comprises 130 villas, ranging from four to seven bedrooms, and 142 three-bedroom town houses, alongside pool houses, essential utilities and infrastructure works.\"},{\"claim\":\"Construction is already underway, and the luxury project is expected to be completed by June 2028.\",\"supported\":true,\"evidence\":\"Construction is already under way and the luxury residential scheme is expected to be completed by June 2028.\"},{\"claim\":\"The contract for Phase 7 is valued at almost Dh1 billion.\",\"supported\":true,\"evidence\":\"The award of the Phase 7 contract for Nad Al Sheba Gardens, valued at almost Dh1 billion,\"},{\"claim\":\"Khalid Al Malik, CEO of Dubai Holding Real Estate, said the awarding of the Phase 7 contract reflects continued demand for premium master-planned residential communities in Dubai.\",\"supported\":true,\"evidence\":\"“The award of the Phase 7 contract for Nad Al Sheba Gardens, valued at almost Dh1 billion, reflects the continued demand for premium master-planned residential communities in Dubai,” said Khalid Al Malik, chief executive of Dubai Holding Real Estate.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1246,
-        "completion_tokens": 436,
-        "total_tokens": 1682,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_33e21cda63"
-    }
-  },
-  "53e09a6769ad6b34bcb715d34a1cc4c2a27117d10bc4f4bdfbefa5ffd9abcf4d": {
-    "saved_at": "2026-09-25T02:22:50.371041+00:00",
-    "result": {
-      "id": "chatcmpl-ERpsEbfoxfYoTL9sjT7w2rFgg3gSP",
-      "object": "chat.completion",
-      "created": 1790302966,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai remains one of the few major housing markets where buying a home is relatively attractive compared with renting despite elevated property bubble risks.\",\"supported\":true,\"evidence\":\"Dubai remains one of the few major housing markets where buying a home is relatively attractive compared with renting , despite elevated property bubble risks\"},{\"claim\":\"Dubai's score in the UBS Global Real Estate Bubble Index rose to 1.16 from 1.09 last year, placing it fourth among 23 cities surveyed.\",\"supported\":true,\"evidence\":\"its score in the UBS Global Real Estate Bubble Index rose to 1.16 from 1.09 last year, placing it fourth among 23 cities surveyed\"},{\"claim\":\"Dubai is in the elevated-risk category alongside Miami, Seoul, Geneva and Lisbon.\",\"supported\":true,\"evidence\":\"It ranks alongside Miami, Seoul, Geneva and Lisbon in the elevated-risk category\"},{\"claim\":\"Zurich and Tokyo were the only cities assessed as being at high risk.\",\"supported\":true,\"evidence\":\"Zurich and Tokyo were the only cities assessed as being at high risk\"},{\"claim\":\"The risk has eased since the start of the Iran conflict as the property boom loses momentum.\",\"supported\":true,\"evidence\":\"UBS said the risk has eased since the start of the Iran conflict, as the property boom loses momentum\"},{\"claim\":\"Inflation-adjusted home prices rose just 0.4 per cent annually in the second quarter, while real rents fell 4 per cent.\",\"supported\":true,\"evidence\":\"Inflation-adjusted home prices rose just 0.4 per cent annually in the second quarter, while real rents fell 4 per cent\"},{\"claim\":\"The UBS Global Real Estate Bubble Index gauges the risk of a property bubble based on criteria including decoupling of prices from incomes and rents, and imbalances such as excessive lending and construction activity.\",\"supported\":true,\"evidence\":\"The UBS Global Real Estate Bubble Index gauges the risk of a property bubble based on certain criteria, including decoupling of prices from incomes and rents, as well as imbalances in the real economy, such as excessive lending and construction activity\"},{\"claim\":\"The index does not predict whether or when a correction will occur.\",\"supported\":true,\"evidence\":\"The index does not predict whether or when a correction will occur\"},{\"claim\":\"Existing tenants are likely to take advantage of the pause in price growth and, in some cases, of price concessions when purchasing a home, according to UBS.\",\"supported\":true,\"evidence\":\"“Existing tenants are likely to take advantage of the pause in price growth and, in some cases, of price concessions when purchasing a home,” UBS said\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1426,
-        "completion_tokens": 559,
-        "total_tokens": 1985,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
   "7d4b867c47c71fbff5e762bc916e47136ea0f81385d964fab33628cd295dfee0": {
     "saved_at": "2026-09-25T08:18:44.487976+00:00",
     "result": {
@@ -725,6 +608,45 @@
         "prompt_tokens": 1603,
         "completion_tokens": 210,
         "total_tokens": 1813,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_dc7caa3f28"
+    }
+  },
+  "f5aeffd778a34b5d78ca6e81d26be6d4bb0c3e638c21eefaefd941ac5464509f": {
+    "saved_at": "2026-10-02T06:24:48.628762+00:00",
+    "result": {
+      "id": "chatcmpl-EUQzGiPNRulFpwDJSxVK8g39YWzbH",
+      "object": "chat.completion",
+      "created": 1790922286,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text passages.\",\"claims\":[{\"claim\":\"Emirates launched the first flight from Dubai to Helsinki.\",\"supported\":true,\"evidence\":[0,2]},{\"claim\":\"Emirates began the first direct air connection between Dubai and Helsinki.\",\"supported\":true,\"evidence\":[0,2,4]},{\"claim\":\"This route is the only year-round direct link between the UAE and Finland.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Flight EK167 departed on 1 October 2026.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"The flight used a modern Airbus A350 aircraft.\",\"supported\":true,\"evidence\":[11]},{\"claim\":\"The flight had a near-full passenger and cargo load.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The aircraft accommodates 298 passengers in three classes.\",\"supported\":true,\"evidence\":[11,12]},{\"claim\":\"The flight offers dishes with Finnish flavors including salmon and venison.\",\"supported\":true,\"evidence\":[13]},{\"claim\":\"The new route provides convenient connections via Dubai to more than 140 destinations worldwide.\",\"supported\":true,\"evidence\":[5,14]},{\"claim\":\"The route opens up to 16 tonnes of cargo capacity per flight to strengthen trade ties between Finland and the UAE.\",\"supported\":true,\"evidence\":[15,16]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1594,
+        "completion_tokens": 295,
+        "total_tokens": 1889,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
