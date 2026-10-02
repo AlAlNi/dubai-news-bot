@@ -510,7 +510,7 @@ def get_next_post_payload_with_image() -> Tuple[Optional[str], Optional[str], Op
         candidate_image_url = (candidate.get("image_url") or "").strip()
         if candidate_image_url and not is_valid_image_url(candidate_image_url):
             print("⚠️ Изображение недоступно: отправляем проверенный текст без картинки")
-            candidate = {**candidate, "image_url": "", "_suppress_link_preview": True}
+            candidate = {**candidate, "image_url": ""}
 
         # Нашли подходящий черновик
         draft = candidate
