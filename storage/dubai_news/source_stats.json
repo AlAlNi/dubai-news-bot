@@ -1,109 +1,5 @@
 [
   {
-    "url": "https://gulfnews.com/business/tourism/emirates-gives-dubai-travellers-dh535-in-free-attraction-passes-this-winter-1.500691859",
-    "timestamp": "2026-09-29T09:13:43.155327+00:00",
-    "status": "error",
-    "content_hash": "200d37b61b07315b42c71d26d78fc377",
-    "strict_hash": "200d37b61b07315b42c71d26d78fc377",
-    "fuzzy_hash": "0adaeb37cb98d130e35c845ffd850248",
-    "reason": "DeepSeek editor HTTP ошибка 402"
-  },
-  {
-    "url": "https://gulfnews.com/uae/transport/etihad-rail-passenger-train-completes-abu-dhabi-dubai-journey-1.500691485",
-    "timestamp": "2026-09-29T09:13:43.873469+00:00",
-    "status": "error",
-    "content_hash": "e950eb3c16b618cf15c3b116714ce752",
-    "strict_hash": "e950eb3c16b618cf15c3b116714ce752",
-    "fuzzy_hash": "09506016b8622c24cf7a9e2ec820518b",
-    "reason": "DeepSeek editor HTTP ошибка 402"
-  },
-  {
-    "url": "https://gulfnews.com/business/aviation/air-canada-delays-dubai-flights-to-next-year-which-airlines-return-in-2026-and-2027-1.500691671",
-    "timestamp": "2026-09-29T09:13:43.874633+00:00",
-    "status": "rejected",
-    "content_hash": "cf06fef6948018d529efacf01273d37c",
-    "strict_hash": "cf06fef6948018d529efacf01273d37c",
-    "fuzzy_hash": "f2857611302388ec133e745329cf82bd",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
-    "url": "https://gulfnews.com/business/aviation/uae-flights-today-emirates-etihad-air-arabia-flydubai-delays-cancellations-air-canada-extends-dubai-suspension-1.500691653",
-    "timestamp": "2026-09-29T09:13:43.875982+00:00",
-    "status": "rejected",
-    "content_hash": "f8d72165945a7c132755e3ac985ab359",
-    "strict_hash": "f8d72165945a7c132755e3ac985ab359",
-    "fuzzy_hash": "fc989e4fbc3018820838c7f4e2396a97",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/27/dubai-to-ban-lorries-from-sheikh-zayed-road-during-peak-hours-from-october-1",
-    "timestamp": "2026-09-29T09:13:44.623167+00:00",
-    "status": "error",
-    "content_hash": "eb5fad4e76fb38887c0af4c55f80e1a8",
-    "strict_hash": "eb5fad4e76fb38887c0af4c55f80e1a8",
-    "fuzzy_hash": "9207486788e9c8c393509ec8cb61b0c2",
-    "reason": "DeepSeek editor HTTP ошибка 402"
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai/heavy-traffic-on-e11-and-e311-dubaisharjah-routes-1.500692445",
-    "timestamp": "2026-09-29T16:12:24.171451+00:00",
-    "status": "error",
-    "content_hash": "4d3f03453f735566b213d08bb28ed4f7",
-    "strict_hash": "4d3f03453f735566b213d08bb28ed4f7",
-    "fuzzy_hash": "805454b1c12296aac380e7fd04ede055",
-    "reason": "DeepSeek editor HTTP ошибка 402"
-  },
-  {
-    "url": "https://gulfnews.com/uae/now-dubai-residents-can-apply-for-dewa-electricity-and-water-supply-activation-in-just-two-minutes-1.500692256",
-    "timestamp": "2026-09-29T16:12:24.890220+00:00",
-    "status": "error",
-    "content_hash": "1f14c4673569f6be48bc65ff578ff8fb",
-    "strict_hash": "1f14c4673569f6be48bc65ff578ff8fb",
-    "fuzzy_hash": "48b3b0f665bde4e34bfeb38a8af2e011",
-    "reason": "DeepSeek editor HTTP ошибка 402"
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai/dubai-driving-tests-get-smarter-with-ai-powered-system-1.500692280",
-    "timestamp": "2026-09-29T16:12:24.891949+00:00",
-    "status": "rejected",
-    "content_hash": "a12690c5e035981ddb77dbeabde99bf1",
-    "strict_hash": "a12690c5e035981ddb77dbeabde99bf1",
-    "fuzzy_hash": "9158af932f877b9e47ac2b259c4fc7f2",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
-    "url": "https://gulfnews.com/business/aviation/dubai-will-keep-getting-better-says-emirates-in-new-viral-video-1.500692257",
-    "timestamp": "2026-09-29T16:12:24.893272+00:00",
-    "status": "rejected",
-    "content_hash": "1482dda271074788b4253aaad33fea35",
-    "strict_hash": "1482dda271074788b4253aaad33fea35",
-    "fuzzy_hash": "424d3c341f187f0a343f6dfa6b8b24d3",
-    "reason": "Cheap prefilter: слишком частый домен в окне (gulfnews.com)"
-  },
-  {
-    "url": "https://www.thenationalnews.com/news/uae/2026/09/29/first-look-inside-dubais-new-etihad-rail-station-on-track-to-transform-public-transport",
-    "timestamp": "2026-09-29T16:12:25.584624+00:00",
-    "status": "error",
-    "content_hash": "db0b7b69458bfd0f7d7011b30972b526",
-    "strict_hash": "db0b7b69458bfd0f7d7011b30972b526",
-    "fuzzy_hash": "c1539fc551cb09b7c12f93ecbdcb7dfc",
-    "reason": "DeepSeek editor HTTP ошибка 402"
-  },
-  {
-    "url": "https://www.wam.ae/en/article/c2holwg-hamdan-bin-mohammed-meets-with-president-tunnel",
-    "timestamp": "2026-09-30T06:07:55.901050+00:00",
-    "status": "approved",
-    "content_hash": "299a33e33fcee34b0735006ce79c79ee",
-    "strict_hash": "299a33e33fcee34b0735006ce79c79ee",
-    "fuzzy_hash": "fc7f086472266d677bfd433f263e0c8a",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.wam.ae/en/article/c2holwg-hamdan-bin-mohammed-meets-with-president-tunnel",
-    "timestamp": "2026-09-30T06:34:45.272251+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.wam.ae/en/article/c2ia191-amazon-ghitha-holding-announce-strategic",
     "timestamp": "2026-10-01T07:10:11.625480+00:00",
     "status": "approved",
@@ -148,5 +44,10 @@
     "strict_hash": "7165d420f8b6dfa216d87e4655da4849",
     "fuzzy_hash": "3155fe44092bf440e30930b39b08be58",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.wam.ae/en/article/c2ivh6t-dubai-gold-designers-business-group-unveils",
+    "timestamp": "2026-10-02T07:49:10.170772+00:00",
+    "status": "published"
   }
 ]
