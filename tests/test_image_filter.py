@@ -70,14 +70,18 @@ class ImageFilterTests(TestCase):
                 "image_filter.request_with_retry", side_effect=TimeoutError):
             self.assertFalse(acceptable_image("https://example.com/photo.jpg"))
 
-    def test_text_only_publication_disables_link_preview(self):
-        response = Mock(status_code=200)
-        response.json.return_value = {"ok": True, "result": {"message_id": 1}}
-        with patch("auto_notify.request_with_retry", return_value=response) as request:
-            result = auto_notify.send_telegram_message("Verified text", None, disable_link_preview=True)
+    def test_photo_rejection_falls_back_to_text_with_preview(self):
+        rejected = Mock(status_code=400, text="Bad Request: failed to get image")
+        accepted = Mock(status_code=200)
+        accepted.json.return_value = {"ok": True, "result": {"message_id": 1}}
+        with patch("auto_notify.request_with_retry", side_effect=[rejected, accepted]) as request:
+            result = auto_notify.send_telegram_message("Verified text", "https://example.com/photo.jpg")
         self.assertTrue(result["success"])
-        self.assertEqual(request.call_args.kwargs["json"]["link_preview_options"],
-                         {"is_disabled": True})
+        self.assertFalse(result["with_image"])
+        self.assertEqual(request.call_count, 2)
+        self.assertTrue(request.call_args.args[1].endswith("/sendMessage"))
+        self.assertNotIn("link_preview_options", request.call_args.kwargs["json"])
+        self.assertNotIn("disable_web_page_preview", request.call_args.kwargs["json"])
 
     def test_normal_text_post_keeps_link_preview(self):
         response = Mock(status_code=200)
