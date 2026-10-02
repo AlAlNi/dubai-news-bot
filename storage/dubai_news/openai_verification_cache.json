@@ -1,43 +1,4 @@
 {
-  "202b37004648bd2bdb110cf999940e8073a38e643b8008c9a2976d5b65c4ed2c": {
-    "saved_at": "2026-09-25T14:17:03.725724+00:00",
-    "result": {
-      "id": "chatcmpl-ES11QHKbjeQLszbF1poljf8wQnIEJ",
-      "object": "chat.completion",
-      "created": 1790345820,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Police trained 476 school bus staff.\",\"supported\":true,\"evidence\":\"Dubai Police has trained 476 school bus drivers and supervisors\"},{\"claim\":\"The training was a series of road safety workshops.\",\"supported\":true,\"evidence\":\"in a series of road safety workshops aimed at strengthening student protection\"},{\"claim\":\"The program was organized by the traffic education department of the General Department of Traffic at Dubai Police.\",\"supported\":true,\"evidence\":\"The awareness programme, organised by the traffic education department at Dubai Police’s General Department of Traffic\"},{\"claim\":\"The training was held at Swiss International School in Al Jaddaf.\",\"supported\":true,\"evidence\":\"was held at Swiss International School in Al Jaddaf\"},{\"claim\":\"The training was for employees of Maverick Bus Transport.\",\"supported\":true,\"evidence\":\"for employees of Maverick Bus Transport\"},{\"claim\":\"Brigadier Juma Salem bin Suwaidan is the Director of the General Department of Traffic at Dubai Police.\",\"supported\":true,\"evidence\":\"Brigadier Juma Salem bin Suwaidan, Director of the General Department of Traffic at Dubai Police\"},{\"claim\":\"The training covered 289 drivers and 187 supervisors.\",\"supported\":true,\"evidence\":\"the initiative reached 289 school bus drivers and 187 supervisors\"},{\"claim\":\"The workshops focused on student safety, duties of drivers and supervisors, and practical measures to reduce road risks.\",\"supported\":true,\"evidence\":\"The workshops focused on student safety, the duties of drivers and supervisors, and practical measures to reduce road risks and traffic accidents\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1289,
-        "completion_tokens": 339,
-        "total_tokens": 1628,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
   "3f071e839797ec87eb8fbb840c689767b5f94f92b404b73cd839d25e120cd121": {
     "saved_at": "2026-09-25T19:01:13.065612+00:00",
     "result": {
@@ -699,6 +660,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_ac16c29503"
+    }
+  },
+  "dafe77b9d374ae77c7fff304316f6f3f09213dc178f647eb851848f3feae9819": {
+    "saved_at": "2026-10-02T18:47:13.440802+00:00",
+    "result": {
+      "id": "chatcmpl-EUcZjq63yhWOGs7MlIILzTMr5hvJp",
+      "object": "chat.completion",
+      "created": 1790966831,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"WGES 2026 will discuss governance to accelerate the green transition.\",\"supported\":true,\"evidence\":[0,3,4]},{\"claim\":\"The 12th World Green Economy Summit (WGES) will be held on 21 and 22 October 2026 in Dubai.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The summit will focus on policies, regulation, and governance to accelerate the global transition to a green economy.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The event is organized by the Dubai Supreme Council of Energy, DEWA, and the World Green Economy Organization.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The main themes of the summit are energy technology, business strategies, water and food security, and finance.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Special attention will be given to artificial intelligence and governance issues.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Participants will discuss the influence of policy on markets, the development of carbon markets, and the role of international climate agreements.\",\"supported\":true,\"evidence\":[4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1457,
+        "completion_tokens": 254,
+        "total_tokens": 1711,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c7861a3729"
     }
   }
 }
