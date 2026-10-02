@@ -41,3 +41,39 @@ class RenderingRegressionTests(TestCase):
     def test_unknown_topic_not_given_invented_emoji(self):
         raw = "<b>Новая инициатива</b>\n\nПодробности станут известны позже."
         self.assertEqual(contextual_emoji(raw), raw)
+
+    def test_airline_route_does_not_add_bus_emoji(self):
+        raw = ("<b>Emirates запустила первый рейс из Дубая в Хельсинки</b>\n\n"
+               "Самолёт вмещает 298 пассажиров. Новый маршрут обеспечивает "
+               "стыковки через Дубай к более чем 140 направлениям.")
+        result = contextual_emoji(raw)
+        self.assertTrue(result.startswith("<b>✈️ "))
+        self.assertNotIn("🚌", result)
+        self.assertTrue(result.endswith(raw.split("\n\n")[1]))
+        self.assertEqual(contextual_emoji(result), result)
+
+    def test_cultural_trip_does_not_add_metro_emoji(self):
+        raw = ("<b>Dubai Culture завершает визит в Австрию</b>\n\n"
+               "В рамках поездки обсуждались проекты культурного сектора "
+               "и управление музеями и библиотеками.")
+        result = contextual_emoji(raw)
+        self.assertNotIn("🚇", result)
+        self.assertIn("🎭", result)
+        self.assertTrue(result.endswith(raw.split("\n\n")[1]))
+        self.assertEqual(contextual_emoji(result), result)
+
+    def test_real_transport_terms_keep_their_emoji(self):
+        for word in ("метро", "поезд", "поезда", "поезду", "поездом", "поезде",
+                     "поезды", "поездов", "поездам", "поездами", "поездах",
+                     "железнодорожный маршрут"):
+            with self.subTest(word=word):
+                self.assertTrue(contextual_emoji(f"<b>Новый {word}</b>").startswith("<b>🚇 "))
+        for word in ("автобус", "автобусы", "автобусный маршрут"):
+            with self.subTest(word=word):
+                self.assertTrue(contextual_emoji(f"<b>Новый {word}</b>").startswith("<b>🚌 "))
+
+    def test_ambiguous_route_and_trip_remain_undecorated(self):
+        for word in ("маршрут", "поездка", "поездки", "поездкой"):
+            with self.subTest(word=word):
+                raw = f"<b>Новая {word}</b>\n\nПодробности позже."
+                self.assertEqual(contextual_emoji(raw), raw)
