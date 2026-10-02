@@ -661,5 +661,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_dc7caa3f28"
     }
+  },
+  "fbbacd0f6a53bbe29bed45f74273aa14b8dcf1f90028208b0e409fcf83a3c39d": {
+    "saved_at": "2026-10-02T07:48:49.757025+00:00",
+    "result": {
+      "id": "chatcmpl-EUSIZ0TRrp2cDUI6KPBL2ewAjyLlm",
+      "object": "chat.completion",
+      "created": 1790927327,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Gold Designers Business Group operates under the umbrella of Dubai Chamber of Commerce.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Dubai Gold Designers Business Group unveiled a strategy to expand international market access and increase visibility of Dubai-based jewellery designers.\",\"supported\":true,\"evidence\":[0,1,2,3]},{\"claim\":\"The strategy includes participation in exhibitions, trade events, and creation of international partnerships.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The strategy includes educational programs, business development, and international representation.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The strategy includes launching a three-year program for sustainable promotion of Dubai-based brands abroad.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The goal is to support commercial growth and strengthen Dubai's position as a center of creativity and entrepreneurship in the jewellery industry.\",\"supported\":true,\"evidence\":[1,3]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1442,
+        "completion_tokens": 219,
+        "total_tokens": 1661,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_dc7caa3f28"
+    }
   }
 }
