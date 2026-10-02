@@ -146,7 +146,7 @@
       }
     },
     "2026-10": {
-      "reserved_microusd": 52800,
+      "reserved_microusd": 63360,
       "days": {
         "2026-10-01": {
           "calls": 5,
@@ -154,6 +154,13 @@
           "input_tokens": 6778,
           "output_tokens": 830,
           "estimated_microusd": 4041
+        },
+        "2026-10-02": {
+          "calls": 1,
+          "reserved_microusd": 10560,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "estimated_microusd": 0
         }
       }
     }
