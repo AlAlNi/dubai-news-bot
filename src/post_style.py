@@ -89,13 +89,58 @@ _BODY_EMOJI = (
     (r"\bсентябр\w*|\bоктябр\w*|\bноябр\w*|\bдекабр\w*|\bянвар\w*|"
      r"\bфеврал\w*|\bмарт[ае]?\b|\bапрел\w*|\bма[йяе]\b|\bию[нл][ьяе]\b|"
      r"\bавгуст\w*", "📅"),
+    (r"\b(?:груз(?:а|у|ом|е|ы|ов|ам|ами|ах)?|грузов\w*|"
+     r"грузоперевоз\w*|грузопод[ъь][её]м\w*)\b", "📦"),
     *_TOPIC_EMOJI,
 )
 
 
+_FACT_DETAIL = re.compile(
+    r"\b\d{1,2}\s+(?:января|февраля|марта|апреля|мая|июня|июля|августа|"
+    r"сентября|октября|ноября|декабря)(?:\s+\d{4}\s+года)?\b|"
+    r"\b(?:(?:до|от|около|почти|более|менее|не\s+более|не\s+менее)\s+)?"
+    r"\d+(?:[.,]\d+)?(?:\s+(?:тыс\.|млн|млрд))?\s+"
+    r"(?:тонн\w*|дирхам\w*|доллар\w*|AED|USD)\b", re.I)
+
+
+def emphasize_details(text):
+    """Highlight at most two existing short facts; never decorate quotes or tags."""
+    title, separator, body = text.partition("\n\n")
+    if not separator:
+        return text
+    remaining = max(0, 2 - len(re.findall(r"<b>", body)))
+    stack = []
+    pieces = []
+
+    def highlight(match):
+        nonlocal remaining
+        value = match.group()
+        start = match.string.rfind("\n\n", 0, match.start()) + 2
+        if start == 1:
+            start = 0
+        end = match.string.find("\n\n", match.end())
+        paragraph = match.string[start:end if end >= 0 else len(match.string)]
+        if not remaining or len(value) > 60 or paragraph.strip() == value:
+            return value
+        remaining -= 1
+        return "<b>" + value + "</b>"
+
+    for token in re.split(r"(<[^>]*>)", body):
+        if token.startswith("<"):
+            if token.startswith("</"):
+                if stack:
+                    stack.pop()
+            else:
+                stack.append(token)
+            pieces.append(token)
+        else:
+            pieces.append(_FACT_DETAIL.sub(highlight, token) if not stack else token)
+    return title + separator + "".join(pieces)
+
+
 def contextual_emoji(text):
     """Decorate only recognizable topics; never edit words or direct quotations."""
-    text = format_summary(text)
+    text = emphasize_details(format_summary(text))
     paragraphs = re.split(r"\n\n(?!(?:(?!<blockquote>).)*</blockquote>)", text, flags=re.S)
     used = set()
     for index, paragraph in enumerate(paragraphs):

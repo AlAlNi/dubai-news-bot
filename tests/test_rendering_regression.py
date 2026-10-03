@@ -3,10 +3,43 @@ import sys
 from pathlib import Path
 from unittest import TestCase
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-from post_style import format_summary, contextual_emoji, clean_editorial_text
+from post_style import format_summary, contextual_emoji, clean_editorial_text, emphasize_details
 
 
 class RenderingRegressionTests(TestCase):
+    def test_short_date_and_qualified_quantity_are_highlighted_without_word_changes(self):
+        raw = ('<b>✈️ Emirates открыла рейс</b>\n\n'
+               'Рейс отправился 1 октября 2026 года.\n\n'
+               'SkyCargo предлагает до 16 тонн грузоподъёмности.')
+        result = contextual_emoji(raw)
+        self.assertIn('<b>1 октября 2026 года</b>', result)
+        self.assertIn('<b>до 16 тонн</b>', result)
+        self.assertIn('\n\n📦 SkyCargo', result)
+        self.assertEqual(contextual_emoji(result), result)
+        self.assertEqual(re.sub(r'<[^>]+>|[✈️📅📦]', '', result),
+                         re.sub(r'<[^>]+>|[✈️📅📦]', '', raw).replace('\n\n', '\n\n '))
+
+    def test_emphasis_is_limited_and_preserves_existing_editor_choices(self):
+        raw = '<b>Новость</b>\n\n<b>Линц</b> и <b>Вена</b>. Дата 1 октября, до 16 тонн.'
+        self.assertEqual(emphasize_details(raw), raw)
+        raw = '<b>Новость</b>\n\n1 октября, до 16 тонн, 20 дирхамов.'
+        result = emphasize_details(raw)
+        self.assertEqual(result.count('<b>'), 3)
+        self.assertNotIn('<b>20 дирхамов</b>', result)
+        raw = '<b>Срок</b>\n\n1 октября\n\nДо 16 тонн'
+        self.assertEqual(emphasize_details(raw), raw)
+
+    def test_quotes_code_italics_and_escaped_html_are_not_rewritten(self):
+        quote = '<blockquote>«До 16 тонн 1 октября» — Emirates.</blockquote>'
+        raw = '<b>Новость</b>\n\n' + quote + '\n\n<i>1 октября</i> <code>20 дирхамов</code> A &amp; B &lt; C.'
+        self.assertEqual(emphasize_details(raw), raw)
+        self.assertIn(quote, contextual_emoji(raw))
+        self.assertNotIn('<blockquote>', contextual_emoji('<b>Новость</b>\n\nРейс отправился 1 октября.'))
+
+    def test_georgia_is_not_mistaken_for_cargo(self):
+        raw = '<b>Культурный визит</b>\n\nДелегация посетила Грузию и встретилась с грузинскими художниками.'
+        self.assertEqual(contextual_emoji(raw), raw)
+
     def test_emoji_outside_bold_heading_never_bolds_body_on_repeated_formatting(self):
         raw = "🚇 <b>Коммерческий банк Дубая присоединился к CBMT</b>\n\nПервый абзац новости.\n\nВторой абзац новости."
         expected = "<b>🚇 Коммерческий банк Дубая присоединился к CBMT</b>\n\nПервый абзац новости.\n\nВторой абзац новости."
