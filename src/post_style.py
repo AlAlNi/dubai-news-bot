@@ -68,99 +68,19 @@ def format_summary(text):
     return "<b>" + title + "</b>" + ("\n\n" + body if body else "")
 
 
-_LEADING_EMOJI = re.compile(r"^(?:[\U0001F000-\U0001FAFF\u2600-\u27BF\uFE0F\u200D]\s*)+")
-_TOPIC_EMOJI = (
-    (r"\bбанк\w*|\bплат[её]ж\w*|\bфинанс\w*", "🏦"),
-    (r"\bавиа\w*|\bаэропорт\w*|\bрейс\w*", "✈️"),
-    # A trip (поездка) is not a train, and a route need not be a bus route.
-    (r"\bметро\b|\bпоезд(?:а|у|ом|е|ы|ов|ам|ами|ах)?\b|\bжелезнодорож\w*", "🚇"),
-    (r"\bавтобус\w*", "🚌"),
-    (r"\bмузе\w*|\bвыставк\w*|\bтеатр\w*|\bфестивал\w*", "🎭"),
-    (r"\bшкол\w*|\bобразован\w*|\bуниверситет\w*", "🎓"),
-    (r"\bмедицин\w*|\bбольниц\w*|\bклиник\w*", "🏥"),
-    (r"\bнедвижим\w*|\bжиль\w*|\bаренд\w*", "🏠"),
-)
-_BODY_EMOJI = (
-    (r"\bтестов\w*|\bиспытан\w*|\bsandbox\b", "🧪"),
-    (r"\bтрансгранич\w*|\bвалют\w*", "💱"),
-    (r"\bплат[её]ж\w*|\bоплат\w*|\bрасч[её]т\w*", "💳"),
-    (r"\bтехнолог\w*|\bцифров\w*", "💻"),
-    (r"\bстоимост\w*|\bцен[ауы]\b|\bтариф\w*", "💰"),
-    (r"\bсентябр\w*|\bоктябр\w*|\bноябр\w*|\bдекабр\w*|\bянвар\w*|"
-     r"\bфеврал\w*|\bмарт[ае]?\b|\bапрел\w*|\bма[йяе]\b|\bию[нл][ьяе]\b|"
-     r"\bавгуст\w*", "📅"),
-    (r"\b(?:груз(?:а|у|ом|е|ы|ов|ам|ами|ах)?|грузов\w*|"
-     r"грузоперевоз\w*|грузопод[ъь][её]м\w*)\b", "📦"),
-    *_TOPIC_EMOJI,
-)
+_EMOJI_CHAR = re.compile(r"[\U0001F000-\U0001FAFF\u2600-\u27BF\uFE0F\u200D]")
 
 
-_FACT_DETAIL = re.compile(
-    r"\b\d{1,2}\s+(?:января|февраля|марта|апреля|мая|июня|июля|августа|"
-    r"сентября|октября|ноября|декабря)(?:\s+\d{4}\s+года)?\b|"
-    r"\b(?:(?:до|от|около|почти|более|менее|не\s+более|не\s+менее)\s+)?"
-    r"\d+(?:[.,]\d+)?(?:\s+(?:тыс\.|млн|млрд))?\s+"
-    r"(?:тонн\w*|дирхам\w*|доллар\w*|AED|USD)\b", re.I)
-
-
-def emphasize_details(text):
-    """Highlight at most two existing short facts; never decorate quotes or tags."""
+def plain_news_summary(text):
+    """Keep only the headline bold; news decoration belongs to the AI stage."""
+    text = format_summary(text)
     title, separator, body = text.partition("\n\n")
-    if not separator:
-        return text
-    remaining = max(0, 2 - len(re.findall(r"<b>", body)))
-    stack = []
-    pieces = []
-
-    def highlight(match):
-        nonlocal remaining
-        value = match.group()
-        start = match.string.rfind("\n\n", 0, match.start()) + 2
-        if start == 1:
-            start = 0
-        end = match.string.find("\n\n", match.end())
-        paragraph = match.string[start:end if end >= 0 else len(match.string)]
-        if not remaining or len(value) > 60 or paragraph.strip() == value:
-            return value
-        remaining -= 1
-        return "<b>" + value + "</b>"
-
-    for token in re.split(r"(<[^>]*>)", body):
-        if token.startswith("<"):
-            if token.startswith("</"):
-                if stack:
-                    stack.pop()
-            else:
-                stack.append(token)
-            pieces.append(token)
-        else:
-            pieces.append(_FACT_DETAIL.sub(highlight, token) if not stack else token)
-    return title + separator + "".join(pieces)
-
-
-def contextual_emoji(text):
-    """Decorate only recognizable topics; never edit words or direct quotations."""
-    text = emphasize_details(format_summary(text))
-    paragraphs = re.split(r"\n\n(?!(?:(?!<blockquote>).)*</blockquote>)", text, flags=re.S)
-    used = set()
-    for index, paragraph in enumerate(paragraphs):
-        if "<blockquote>" in paragraph or not paragraph.strip():
-            continue
-        plain = unescape(re.sub(r"<[^>]*>", "", paragraph))
-        rules = _TOPIC_EMOJI if index == 0 else _BODY_EMOJI
-        emoji = next((symbol for pattern, symbol in rules
-                      if symbol not in used and re.search(pattern, plain, re.I)), None)
-        if emoji is None:
-            continue
-        if index == 0:
-            title = re.sub(r"<[^>]*>", "", paragraph)
-            paragraphs[index] = "<b>" + emoji + " " + _LEADING_EMOJI.sub("", title) + "</b>"
-        else:
-            paragraphs[index] = emoji + " " + _LEADING_EMOJI.sub("", paragraph)
-        used.add(emoji)
-        if len(used) >= 4:
-            break
-    return "\n\n".join(paragraphs)
+    title = re.sub(r"<[^>]*>", "", title)
+    title = _EMOJI_CHAR.sub("", title).strip()
+    body = re.sub(r"</?(?:b|i|code|blockquote)>", "", body)
+    body = _EMOJI_CHAR.sub("", body)
+    body = "\n".join(line.strip() for line in body.split("\n"))
+    return "<b>" + title + "</b>" + (separator + body if separator else "")
 
 
 def headline_only(text):

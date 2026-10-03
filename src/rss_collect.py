@@ -12,7 +12,8 @@ from newsroom_kpi import compute_newsroom_kpi_snapshot
 from source_verification import source_snapshot, verify_summary, verifier_provider, is_verified_draft
 from news_discovery import search_news
 from search_sources import fetch_article, allowed_url
-from post_style import contextual_emoji, format_summary, headline_only, clean_editorial_text, incomplete_excerpt, compact_summary
+from post_style import plain_news_summary, format_summary, headline_only, clean_editorial_text, incomplete_excerpt, compact_summary
+from openai_emoji import decorate_summary
 
 # ========= НАСТРОЙКИ =========
 
@@ -1411,7 +1412,7 @@ def sanitize_telegram_markdown_artifacts(text: str) -> str:
     return cleaned.strip()
 
 def ensure_summary_quality(summary: str, title: str, description: str) -> str:
-    text = compact_summary(contextual_emoji(format_summary(clean_editorial_text(format_summary(summary)))))
+    text = compact_summary(plain_news_summary(clean_editorial_text(format_summary(summary))))
     lowered = text.lower()
     generic_markers = (
         "новость о дубае",
@@ -1647,6 +1648,11 @@ def process_news_item(
         mark_news_as_rejected(news_item, "Некачественный fallback summary")
         return None
 
+    decoration = decorate_summary(summary_ru, MOUNTED_BUCKET_PATH)
+    summary_ru = decoration["post"]
+    if run_metrics is not None:
+        run_metrics["openai_calls"] = run_metrics.get("openai_calls", 0) + decoration["api_calls"]
+        run_metrics["openai_cache_hits"] = run_metrics.get("openai_cache_hits", 0) + int(decoration["cached"])
     verification = verify_summary(source, summary_ru, timeout=HTTP_TIMEOUT,
                                   storage_dir=MOUNTED_BUCKET_PATH)
     if run_metrics is not None:

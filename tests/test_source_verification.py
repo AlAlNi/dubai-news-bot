@@ -90,7 +90,32 @@ class SourceVerificationTests(unittest.TestCase):
 
     def test_short_factual_russian_post_is_not_padded(self):
         self.assertEqual(rss_collect.ensure_summary_quality(self.summary, "", ""),
-                         self.summary.replace("<b>Автобусы", "<b>🚌 Автобусы").replace("</b>\n", "</b>\n\n📅 "))
+                         self.summary.replace("</b>\n", "</b>\n\n"))
+
+    def test_emoji_step_runs_before_final_verifier(self):
+        item = {"title": self.source["title"], "description": self.source["text"],
+                "link": self.source["url"], "source": "RTA", "source_priority": 1}
+        decorated = "<b>Decorated headline</b>\n\nUnchanged body."
+        events = []
+        def decorate(text, storage):
+            events.append("emoji")
+            return {"post": decorated, "api_calls": 1, "cached": False}
+        def verify(source, text, *args, **kwargs):
+            events.append("verify")
+            self.assertEqual(text, decorated)
+            return {"status": "approved", "reason": "test", "api_calls": 1, "provider": "openai"}
+        with patch("rss_collect.ENABLE_CHEAP_PREFILTER", False), patch(
+            "rss_collect.prepare_post", return_value={"status": "prepared", "reason": "test", "post": self.summary}
+        ), patch("rss_collect.fetch_article", return_value=None), patch(
+            "rss_collect.fetch_image_for_news", return_value=None
+        ), patch("rss_collect.decorate_summary", side_effect=decorate), patch(
+            "rss_collect.verify_summary", side_effect=verify
+        ):
+            metrics = {}
+            result = rss_collect.process_news_item(item, writer_context={"calls_made": 0, "max_calls": -1}, run_metrics=metrics)
+        self.assertEqual(events, ["emoji", "verify"])
+        self.assertEqual(result["summary_ru"], decorated)
+        self.assertEqual(metrics["openai_calls"], 2)
 
     def test_legacy_verifier_cannot_make_paid_requests(self):
         with patch.dict(os.environ, {"SOURCE_VERIFIER": "deepseek"}), patch("source_verification.request_with_retry") as request:
