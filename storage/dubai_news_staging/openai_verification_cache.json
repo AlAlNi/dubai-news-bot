@@ -427,5 +427,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_ac16c29503"
     }
+  },
+  "d4a3d6144a8fd283fe79306dcf3266391ba52c556286a8c7b7ef66110cabd8d9": {
+    "saved_at": "2026-10-03T04:21:46.478449+00:00",
+    "result": {
+      "id": "chatcmpl-EUlXl825kcU3vrqMHxjWBegw514yH",
+      "object": "chat.completion",
+      "created": 1791001305,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Municipality launched the third edition of the Food Systems Excellence Programme (DM Food Elite).\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The programme recognises restaurants and food establishments demonstrating high standards in food safety, nutrition, sustainability, and innovation.\",\"supported\":true,\"evidence\":[1,2,4,5]},{\"claim\":\"A new category for food manufacturing has been added this year.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The programme includes four categories: standalone restaurants, restaurants in hotels, quick service restaurants and cafeterias, and food manufacturing.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Winners will be announced at the 20th Dubai International Food Safety Conference in November 2026 at Dubai World Trade Centre.\",\"supported\":true,\"evidence\":[6,7]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1368,
+        "completion_tokens": 196,
+        "total_tokens": 1564,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07f0137997"
+    }
   }
 }
