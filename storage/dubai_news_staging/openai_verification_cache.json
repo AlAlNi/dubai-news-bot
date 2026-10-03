@@ -388,5 +388,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_dc7caa3f28"
     }
+  },
+  "0af159239c3a643ca59ac54e2522146ed0df55e006ce0cf88518e695c6b5ebaf": {
+    "saved_at": "2026-10-03T00:04:15.687174+00:00",
+    "result": {
+      "id": "chatcmpl-EUhWXhhvSVYZaomb5sOF8rD3yx2ea",
+      "object": "chat.completion",
+      "created": 1790985853,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Emirates launched its first flight from Dubai to Helsinki.\",\"supported\":true,\"evidence\":[0,2]},{\"claim\":\"The flight EK167 departed on 1 October 2026.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"The flight was operated on an Airbus A350.\",\"supported\":true,\"evidence\":[11]},{\"claim\":\"The flight EK167 departed with a near-full passenger and cargo load.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The new route provides year-round direct service between the UAE and Finland.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The route connects Helsinki with nearly 140 points worldwide through Dubai, including Australia, Africa, and Asia.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Emirates SkyCargo offers up to 16 tonnes of bellyhold cargo capacity on each Helsinki flight.\",\"supported\":true,\"evidence\":[15]},{\"claim\":\"The cargo service supports trade development between Finland and the UAE.\",\"supported\":true,\"evidence\":[15,16]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1568,
+        "completion_tokens": 243,
+        "total_tokens": 1811,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_ac16c29503"
+    }
   }
 }
