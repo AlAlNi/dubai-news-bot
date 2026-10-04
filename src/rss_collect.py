@@ -1648,6 +1648,7 @@ def process_news_item(
         mark_news_as_rejected(news_item, "Некачественный fallback summary")
         return None
 
+    summary_before_emoji = summary_ru
     decoration = decorate_summary(summary_ru, MOUNTED_BUCKET_PATH)
     summary_ru = decoration["post"]
     if run_metrics is not None:
@@ -1685,6 +1686,17 @@ def process_news_item(
         "source_published_at": news_item.get("published_at", ""),
         "source_retrieved_at": news_item.get("source_retrieved_at", ""),
         "source_verification": verification,
+        "emoji_decoration": {
+            "version": 1,
+            "status": decoration.get("status", "unknown"),
+            "reason_code": decoration.get("reason_code", ""),
+            "api_calls": decoration["api_calls"],
+            "cached": decoration["cached"],
+            "decoration_count": decoration.get("decoration_count", 0),
+            "diagnostics": decoration.get("diagnostics", {}),
+            "input_sha256": hashlib.sha256(summary_before_emoji.encode("utf-8")).hexdigest(),
+            "output_sha256": hashlib.sha256(summary_ru.encode("utf-8")).hexdigest(),
+        },
         "source_name": news_item.get("source", "Unknown"),
         "title": title,
         "summary_ru": summary_ru,

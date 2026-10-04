@@ -6,7 +6,7 @@ from pathlib import Path
 from unittest import TestCase
 from unittest.mock import Mock, patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
-from openai_emoji import apply_decorations, decorate_summary
+from openai_emoji import apply_decorations, decorate_summary, EmojiResponseError
 from openai_budget import Budget, BudgetUnavailable, MODEL
 from post_style import plain_news_summary
 
@@ -68,6 +68,7 @@ class EmojiTests(TestCase):
             second = decorate_summary(TEXT, self.temp.name)
         self.assertEqual(first['post'], TEXT)
         self.assertEqual(first['status'], 'fallback')
+        self.assertEqual(first['reason_code'], 'request_error')
         self.assertTrue(second['cached'])
         request.assert_called_once()
 
@@ -84,6 +85,7 @@ class EmojiTests(TestCase):
             result = decorate_summary(TEXT, self.temp.name)
         self.assertEqual(result['post'], TEXT)
         self.assertEqual(result['status'], 'fallback')
+        self.assertEqual(result['reason_code'], 'response_close_error')
 
     def test_crash_pending_cache_prevents_retry(self):
         with patch('openai_emoji.request_with_retry', side_effect=KeyboardInterrupt), self.assertRaises(KeyboardInterrupt):
@@ -93,6 +95,7 @@ class EmojiTests(TestCase):
         request.assert_not_called()
         self.assertTrue(result['cached'])
         self.assertEqual(result['post'], TEXT)
+        self.assertEqual(result['reason_code'], 'previous_attempt_incomplete')
 
     def test_html_escapes_and_link_bytes_unchanged(self):
         text = '<b>A &amp; B</b>\n\nAmount &lt; 20.\n\n<a href="https://example.com?q=1&amp;x=2">Source</a>'
@@ -134,3 +137,94 @@ class EmojiTests(TestCase):
             result = decorate_summary('<b>Title</b>\n\n' + 'x' * 10000, self.temp.name)
         request.assert_not_called()
         self.assertEqual(result['api_calls'], 0)
+
+    def test_specific_rejection_codes_without_weakening_validation(self):
+        examples = [
+            ({'decorations': [], 'post': 'injection'}, 'unexpected_response_fields'),
+            ({'decorations': 'invalid'}, 'invalid_decoration_count'),
+            ({'decorations': [{'paragraph': 0, 'emoji': '✈️', 'text': 'injection'}]}, 'invalid_decoration_fields'),
+            ({'decorations': [{'paragraph': True, 'emoji': '✈️'}]}, 'invalid_paragraph_id'),
+            ({'decorations': [{'paragraph': 99, 'emoji': '✈️'}]}, 'invalid_paragraph_id'),
+            ({'decorations': [{'paragraph': 0, 'emoji': 'not-allowed'}]}, 'unsupported_emoji'),
+            ({'decorations': [{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 0, 'emoji': '📅'}]}, 'duplicate_paragraph'),
+            ({'decorations': [{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 1, 'emoji': '✈️'}]}, 'duplicate_emoji'),
+        ]
+        for value, code in examples:
+            with self.subTest(code=code), self.assertRaises(EmojiResponseError) as raised:
+                apply_decorations(TEXT, value)
+            self.assertEqual(raised.exception.code, code)
+
+    def test_rejected_decisions_retained_and_cache_preserves_reason(self):
+        duplicate = {'decorations': [{'paragraph': 0, 'emoji': '🏦'}, {'paragraph': 1, 'emoji': '🏦'}]}
+        with patch('openai_emoji.request_with_retry', return_value=self.response(duplicate)) as request:
+            first = decorate_summary(TEXT, self.temp.name)
+            second = decorate_summary(TEXT, self.temp.name)
+        self.assertEqual(first['post'], TEXT)
+        self.assertEqual(first['reason_code'], 'duplicate_emoji')
+        self.assertEqual(second['reason_code'], 'duplicate_emoji')
+        self.assertEqual(first['diagnostics']['http_status'], 200)
+        self.assertEqual(first['diagnostics']['finish_reason'], 'stop')
+        self.assertEqual(first['diagnostics']['decisions'], duplicate['decorations'])
+        self.assertTrue(second['cached'])
+        request.assert_called_once()
+
+    def test_completion_failures_have_distinct_safe_codes(self):
+        examples = [
+            ({}, 'invalid_completion_choices'),
+            ({'choices': [{}]}, 'incomplete_completion'),
+            ({'choices': [{'finish_reason': 'length'}]}, 'incomplete_completion'),
+            ({'choices': [{'finish_reason': 'stop', 'message': None}]}, 'invalid_completion_message'),
+            ({'choices': [{'finish_reason': 'stop', 'message': {'refusal': 'fake-test-key'}}]}, 'refused_completion'),
+            ({'choices': [{'finish_reason': 'stop', 'message': {'content': None}}]}, 'invalid_completion_content'),
+            ({'choices': [{'finish_reason': 'stop', 'message': {'content': 'fake-test-key'}}]}, 'decoration_json_error'),
+            ([], 'invalid_provider_response'),
+        ]
+        for body, code in examples:
+            with self.subTest(code=code), tempfile.TemporaryDirectory() as storage:
+                Path(storage, 'openai_budget.json').write_text('{"version":1,"months":{}}')
+                response = self.response()
+                response.json.return_value = body
+                with patch('openai_emoji.request_with_retry', return_value=response):
+                    result = decorate_summary(TEXT, storage)
+                self.assertEqual(result['post'], TEXT)
+                self.assertEqual(result['reason_code'], code)
+                self.assertNotIn('fake-test-key', json.dumps(result))
+                self.assertNotIn('fake-test-key', Path(storage, 'openai_emoji_cache.json').read_text())
+
+    def test_http_error_reason_is_safe(self):
+        response = self.response()
+        response.status_code = 429
+        with patch('openai_emoji.request_with_retry', return_value=response):
+            result = decorate_summary(TEXT, self.temp.name)
+        self.assertEqual(result['reason_code'], 'http_error')
+        self.assertEqual(result['diagnostics']['http_status'], 429)
+        response.json.assert_not_called()
+
+    def test_no_raw_model_text_in_invalid_decision_diagnostics(self):
+        value = {'decorations': [{'paragraph': 'fake-test-key', 'emoji': 'fake-test-key', 'post': 'fake-test-key'}]}
+        with patch('openai_emoji.request_with_retry', return_value=self.response(value)):
+            result = decorate_summary(TEXT, self.temp.name)
+        self.assertEqual(result['reason_code'], 'invalid_decoration_fields')
+        self.assertEqual(result['diagnostics']['decisions'], [{'paragraph': None, 'emoji': None}])
+        self.assertNotIn('fake-test-key', json.dumps(result))
+        self.assertNotIn('fake-test-key', Path(self.temp.name, 'openai_emoji_cache.json').read_text())
+
+    def test_legacy_fallback_stays_unknown_and_is_not_retried(self):
+        with patch('openai_emoji.request_with_retry', side_effect=TimeoutError):
+            decorate_summary(TEXT, self.temp.name)
+        path = Path(self.temp.name, 'openai_emoji_cache.json')
+        cache = json.loads(path.read_text())
+        for entry in cache.values():
+            entry['result'] = {'status': 'fallback'}
+        path.write_text(json.dumps(cache))
+        with patch('openai_emoji.request_with_retry') as request:
+            result = decorate_summary(TEXT, self.temp.name)
+        request.assert_not_called()
+        self.assertEqual(result['reason_code'], 'legacy_cached_fallback_unknown')
+
+    def test_full_success_retains_count_and_safe_choices(self):
+        with patch('openai_emoji.request_with_retry', return_value=self.response()):
+            result = decorate_summary(TEXT, self.temp.name)
+        self.assertEqual(result['decoration_count'], 2)
+        self.assertEqual(result['diagnostics']['decisions'], VALUE['decorations'])
+        self.assertEqual(result['diagnostics']['phase'], 'complete')

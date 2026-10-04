@@ -99,7 +99,9 @@ class SourceVerificationTests(unittest.TestCase):
         events = []
         def decorate(text, storage):
             events.append("emoji")
-            return {"post": decorated, "api_calls": 1, "cached": False}
+            return {"post": decorated, "api_calls": 1, "cached": False,
+                    "status": "decorated", "reason_code": "", "decoration_count": 1,
+                    "diagnostics": {"http_status": 200}}
         def verify(source, text, *args, **kwargs):
             events.append("verify")
             self.assertEqual(text, decorated)
@@ -116,6 +118,11 @@ class SourceVerificationTests(unittest.TestCase):
         self.assertEqual(events, ["emoji", "verify"])
         self.assertEqual(result["summary_ru"], decorated)
         self.assertEqual(metrics["openai_calls"], 2)
+        self.assertEqual(result["emoji_decoration"]["status"], "decorated")
+        self.assertEqual(result["emoji_decoration"]["decoration_count"], 1)
+        self.assertEqual(result["emoji_decoration"]["diagnostics"]["http_status"], 200)
+        self.assertNotEqual(result["emoji_decoration"]["input_sha256"],
+                            result["emoji_decoration"]["output_sha256"])
 
     def test_legacy_verifier_cannot_make_paid_requests(self):
         with patch.dict(os.environ, {"SOURCE_VERIFIER": "deepseek"}), patch("source_verification.request_with_retry") as request:
