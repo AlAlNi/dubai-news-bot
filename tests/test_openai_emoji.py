@@ -40,7 +40,7 @@ class EmojiTests(TestCase):
         self.assertEqual(plain_news_summary(TEXT), TEXT)
 
     def test_malicious_or_invalid_placements_rejected(self):
-        values = [{'decorations': [], 'post': 'changed'}, {'decorations': [{'paragraph': True, 'emoji': '✈️'}]}, {'decorations': [{'paragraph': 99, 'emoji': '✈️'}]}, {'decorations': [{'paragraph': 0, 'emoji': 'evil'}]}, {'decorations': [{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 1, 'emoji': '✈️'}]}]
+        values = [{'decorations': [], 'post': 'changed'}, {'decorations': [{'paragraph': True, 'emoji': '✈️'}]}, {'decorations': [{'paragraph': 99, 'emoji': '✈️'}]}, {'decorations': [{'paragraph': 0, 'emoji': 'evil'}]}]
         for value in values:
             with self.subTest(value=value), self.assertRaises(ValueError):
                 apply_decorations(TEXT, value)
@@ -147,7 +147,6 @@ class EmojiTests(TestCase):
             ({'decorations': [{'paragraph': 99, 'emoji': '✈️'}]}, 'invalid_paragraph_id'),
             ({'decorations': [{'paragraph': 0, 'emoji': 'not-allowed'}]}, 'unsupported_emoji'),
             ({'decorations': [{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 0, 'emoji': '📅'}]}, 'duplicate_paragraph'),
-            ({'decorations': [{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 1, 'emoji': '✈️'}]}, 'duplicate_emoji'),
         ]
         for value, code in examples:
             with self.subTest(code=code), self.assertRaises(EmojiResponseError) as raised:
@@ -155,13 +154,13 @@ class EmojiTests(TestCase):
             self.assertEqual(raised.exception.code, code)
 
     def test_rejected_decisions_retained_and_cache_preserves_reason(self):
-        duplicate = {'decorations': [{'paragraph': 0, 'emoji': '🏦'}, {'paragraph': 1, 'emoji': '🏦'}]}
+        duplicate = {'decorations': [{'paragraph': 0, 'emoji': '🏦'}, {'paragraph': 0, 'emoji': '🏦'}]}
         with patch('openai_emoji.request_with_retry', return_value=self.response(duplicate)) as request:
             first = decorate_summary(TEXT, self.temp.name)
             second = decorate_summary(TEXT, self.temp.name)
         self.assertEqual(first['post'], TEXT)
-        self.assertEqual(first['reason_code'], 'duplicate_emoji')
-        self.assertEqual(second['reason_code'], 'duplicate_emoji')
+        self.assertEqual(first['reason_code'], 'duplicate_paragraph')
+        self.assertEqual(second['reason_code'], 'duplicate_paragraph')
         self.assertEqual(first['diagnostics']['http_status'], 200)
         self.assertEqual(first['diagnostics']['finish_reason'], 'stop')
         self.assertEqual(first['diagnostics']['decisions'], duplicate['decorations'])
@@ -228,3 +227,61 @@ class EmojiTests(TestCase):
         self.assertEqual(result['decoration_count'], 2)
         self.assertEqual(result['diagnostics']['decisions'], VALUE['decorations'])
         self.assertEqual(result['diagnostics']['phase'], 'complete')
+
+    def test_saved_library_response_keeps_first_calendar_and_culture(self):
+        fixture = json.loads((Path(__file__).parent / 'fixtures' / 'emoji_library_response.json').read_text(encoding='utf-8'))
+        before, response = fixture['writer_text'], fixture['response']
+        after = apply_decorations(before, response)
+        paragraphs = before.split('\n\n')
+        self.assertEqual(after, '<b>📅 ' + paragraphs[0][3:] + '\n\n' + paragraphs[1] + '\n\n🎭 ' + paragraphs[2])
+        self.assertEqual(after.replace('📅 ', '', 1).replace('🎭 ', '', 1), before)
+        with patch('openai_emoji.request_with_retry', return_value=self.response(response)) as request:
+            first = decorate_summary(before, self.temp.name)
+            second = decorate_summary(before, self.temp.name)
+        self.assertEqual(first['status'], 'decorated')
+        self.assertEqual(first['post'], after)
+        self.assertEqual(first['decoration_count'], 2)
+        self.assertEqual(first['omitted_duplicate_emoji'], 1)
+        self.assertEqual(first['diagnostics']['decisions'], response['decorations'])
+        self.assertEqual(second['post'], after)
+        self.assertEqual(second['decoration_count'], 2)
+        self.assertEqual(second['omitted_duplicate_emoji'], 1)
+        self.assertTrue(second['cached'])
+        self.assertEqual(second['api_calls'], 0)
+        request.assert_called_once()
+
+    def test_first_occurrence_means_response_order(self):
+        choices = {'decorations': [{'paragraph': 2, 'emoji': '📅'}, {'paragraph': 0, 'emoji': '📅'}]}
+        parts = TEXT.split('\n\n')
+        self.assertEqual(apply_decorations(TEXT, choices), '\n\n'.join([parts[0], parts[1], '📅 ' + parts[2]]))
+
+    def test_all_repeats_keep_just_one_insertion(self):
+        choices = {'decorations': [{'paragraph': i, 'emoji': '✈️'} for i in range(3)]}
+        self.assertEqual(apply_decorations(TEXT, choices), '<b>✈️ ' + TEXT[3:])
+
+    def test_duplicate_symbols_never_hide_invalid_placements(self):
+        invalid = [
+            ([{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 99, 'emoji': '✈️'}], 'invalid_paragraph_id'),
+            ([{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': True, 'emoji': '✈️'}], 'invalid_paragraph_id'),
+            ([{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 0, 'emoji': '✈️'}], 'duplicate_paragraph'),
+            ([{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 1, 'emoji': '✈️'}, {'paragraph': 1, 'emoji': '📅'}], 'duplicate_paragraph'),
+            ([{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 1, 'emoji': '✈️', 'post': 'injection'}], 'invalid_decoration_fields'),
+            ([{'paragraph': 0, 'emoji': '✈️'}] * 4, 'invalid_decoration_count'),
+        ]
+        for choices, code in invalid:
+            with self.subTest(code=code), self.assertRaises(EmojiResponseError) as raised:
+                apply_decorations(TEXT, {'decorations': choices})
+            self.assertEqual(raised.exception.code, code)
+        with self.assertRaises(EmojiResponseError) as raised:
+            apply_decorations('<b>Title</b>\n\n<blockquote>Quote</blockquote>',
+                              {'decorations': [{'paragraph': 0, 'emoji': '✈️'}, {'paragraph': 1, 'emoji': '✈️'}]})
+        self.assertEqual(raised.exception.code, 'protected_paragraph')
+
+    def test_skipped_duplicates_do_not_change_links_escapes_or_newlines(self):
+        before = '<b>A &amp; B</b>\n\nStart &lt; 20.\n\n<a href="https://example.com?q=1&amp;x=2">Source</a>'
+        choices = {'decorations': [{'paragraph': 0, 'emoji': '📅'}, {'paragraph': 1, 'emoji': '📅'}]}
+        after = apply_decorations(before, choices)
+        self.assertEqual(after.replace('📅 ', '', 1), before)
+
+    def test_empty_decisions_remain_valid(self):
+        self.assertEqual(apply_decorations(TEXT, {'decorations': []}), TEXT)

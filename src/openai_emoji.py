@@ -88,8 +88,11 @@ def apply_decorations(text, value):
             raise EmojiResponseError("duplicate_paragraph")
         if not isinstance(symbol, str) or symbol not in PALETTE:
             raise EmojiResponseError("unsupported_emoji")
+        # Validate every placement first, including skipped repeats. Paragraph
+        # collisions and invalid IDs must not be hidden by emoji deduplication.
+        positions.add(index)
         if symbol in used:
-            raise EmojiResponseError("duplicate_emoji")
+            continue
         prefix = symbol + " "
         paragraph = paragraphs[index]
         if index == 0 and paragraph.startswith("<b>") and paragraph.endswith("</b>"):
@@ -99,7 +102,6 @@ def apply_decorations(text, value):
             paragraphs[index] = prefix + paragraph
             prefixes[index] = (0, prefix)
         used.add(symbol)
-        positions.add(index)
     decorated = "\n\n".join(paragraphs)
     restored = paragraphs.copy()
     for index, (offset, prefix) in prefixes.items():
@@ -115,7 +117,8 @@ def apply_decorations(text, value):
 
 def decorate_summary(text, storage_dir):
     base = {"post": text, "status": "fallback", "reason": "", "reason_code": "",
-            "diagnostics": {}, "decoration_count": 0, "api_calls": 0, "cached": False}
+            "diagnostics": {}, "decoration_count": 0, "omitted_duplicate_emoji": 0,
+            "api_calls": 0, "cached": False}
     eligible = eligible_paragraphs(text)
     if not eligible:
         return {**base, "reason": "No eligible paragraphs", "reason_code": "no_eligible_paragraphs"}
@@ -137,7 +140,9 @@ def decorate_summary(text, storage_dir):
         try:
             post = apply_decorations(text, cached["value"])
             return {**base, "post": post, "status": "decorated", "cached": True,
-                    "decoration_count": len(cached["value"]["decorations"]),
+                    "decoration_count": len({c["emoji"] for c in cached["value"]["decorations"]}),
+                    "omitted_duplicate_emoji": len(cached["value"]["decorations"]) -
+                        len({c["emoji"] for c in cached["value"]["decorations"]}),
                     "diagnostics": cached.get("diagnostics", {})}
         except (KeyError, ValueError, TypeError):
             return {**base, "reason": "Cached fallback; no automatic retry", "cached": True,
@@ -192,8 +197,12 @@ def decorate_summary(text, storage_dir):
             diagnostics["phase"] = "decoration_json"
             value = json.loads(choice["message"]["content"])
             diagnostics.update(phase="decoration_validation", decisions=diagnostic_decisions(value))
-            report.update(post=apply_decorations(text, value), status="decorated",
-                          decoration_count=len(value["decorations"]))
+            post = apply_decorations(text, value)
+            count = len({c["emoji"] for c in value["decorations"]})
+            omitted = len(value["decorations"]) - count
+            report.update(post=post, status="decorated", decoration_count=count,
+                          omitted_duplicate_emoji=omitted)
+            diagnostics["omitted_duplicate_emoji"] = omitted
             diagnostics["phase"] = "complete"
             cache[cache_key]["result"] = {"value": value, "diagnostics": diagnostics}
         finally:
@@ -204,7 +213,7 @@ def decorate_summary(text, storage_dir):
                 raise EmojiResponseError("response_close_error") from None
     except Exception as exc:
         code = exc.code if isinstance(exc, EmojiResponseError) else diagnostics["phase"] + "_error"
-        report.update(post=text, status="fallback", decoration_count=0,
+        report.update(post=text, status="fallback", decoration_count=0, omitted_duplicate_emoji=0,
                       reason="Emoji fallback: " + code, reason_code=code)
         cache[cache_key]["result"] = {"status": "fallback", "reason_code": code,
                                      "diagnostics": diagnostics}

@@ -1693,6 +1693,7 @@ def process_news_item(
             "api_calls": decoration["api_calls"],
             "cached": decoration["cached"],
             "decoration_count": decoration.get("decoration_count", 0),
+            "omitted_duplicate_emoji": decoration.get("omitted_duplicate_emoji", 0),
             "diagnostics": decoration.get("diagnostics", {}),
             "input_sha256": hashlib.sha256(summary_before_emoji.encode("utf-8")).hexdigest(),
             "output_sha256": hashlib.sha256(summary_ru.encode("utf-8")).hexdigest(),
