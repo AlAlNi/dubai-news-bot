@@ -505,5 +505,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_07f0137997"
     }
+  },
+  "d6f1f561f42db8238f53ac970ac8e34b97b74e19e3b75b31b7000a307192f201": {
+    "saved_at": "2026-10-04T03:38:53.518668+00:00",
+    "result": {
+      "id": "chatcmpl-EV7LnSDd1W04z1Nq2WBTPE3SpwjYj",
+      "object": "chat.completion",
+      "created": 1791085131,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"Все утверждения в посте точно соответствуют информации из источника.\",\"claims\":[{\"claim\":\"В октябре библиотека Мухаммеда бин Рашида в Дубае организует серию культурных и познавательных мероприятий, включая темы перевода, андалузских рукописей, эмиратской литературы и музыки.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Программа начнется с сессии, посвященной аудиовизуальному переводу в честь Всемирного дня перевода.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Запланирована сессия «Андалузские рукописи: их присутствие в современном мире и цивилизационное значение».\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Вечером выступит хор «Арабский хор».\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Впервые библиотека примет участие в восьмом издании выставки «Экспо для людей с ограниченными возможностями 2026» в Дубайском торговом центре с 19 по 21 октября.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Библиотека представит свои услуги и инициативы для поддержки людей с особыми потребностями.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 934,
+        "completion_tokens": 291,
+        "total_tokens": 1225,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07f0137997"
+    }
   }
 }

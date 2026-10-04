@@ -8,8 +8,27 @@
   "a9e2422a12f1595dc7af08645707fce28e381f82fd99727be973832bb3926df1": {
     "saved_at": "2026-10-04T03:38:48.544917+00:00",
     "result": {
-      "status": "pending",
-      "reason_code": "previous_attempt_incomplete"
+      "status": "fallback",
+      "reason_code": "duplicate_emoji",
+      "diagnostics": {
+        "phase": "decoration_validation",
+        "http_status": 200,
+        "finish_reason": "stop",
+        "decisions": [
+          {
+            "paragraph": 0,
+            "emoji": "📅"
+          },
+          {
+            "paragraph": 1,
+            "emoji": "📅"
+          },
+          {
+            "paragraph": 2,
+            "emoji": "🎭"
+          }
+        ]
+      }
     }
   }
 }
