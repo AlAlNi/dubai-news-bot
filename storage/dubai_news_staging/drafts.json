@@ -1,74 +1,164 @@
 [
   {
     "source_snapshot": {
-      "title": "مكتبة محمد بن راشد تنظم برنامجا ثقافيا متنوعا خلال أكتوبر",
-      "text": "دبي في 2 أكتوبر/ وام/ تنظم مكتبة محمد بن راشد، خلال شهر أكتوبر الجاري، سلسلة من الفعاليات الثقافية والمعرفية التي تجمع بين الترجمة والمخطوطات الأندلسية والأدب الإماراتي والموسيقى.وتستهل المكتبة برنامجها بجلسة حول الترجمة السمعية البصرية، بمناسبة اليوم العالمي للترجمة، تتناول دورها في نقل التجربة الفنية والحفاظ على السياق الثقافي للأعمال.وتستضيف جلسة بعنوان “المخطوطات الأندلسية: حضورها في عالمنا المعاصر ودلالاتها الحضارية” تليها أمسية لفرقة كورال العرب .وتشارك المكتبة للمرة الأولى في الدورة الثامنة من معرض “إكسبو أصحاب الهمم 2026”، الذي يقام في مركز دبي التجاري العالمي من 19 إلى 21 أكتوبر، لاستعراض خدماتها ومبادراتها الداعمة لأصحاب الهمم وإتاحة المعرفة للجميع.",
-      "url": "https://www.wam.ae/ar/article/c2jgol1-مكتبة-محمد-بن-راشد-تنظم-برنامجا-ثقافيا-متنوعا-خلال",
-      "published_at": "2026-10-02T10:59:49+00:00"
+      "title": "Dubai's Parkonic introduces paid parking at Al Zahra Hospital",
+      "text": "A paid parking system has been introduced at Al Zahra Hospital Dubai for visitors and patients and will become fully operational on October 15. Private company Parkonic is managing the new smart system, which requires patients to validate their vehicles before leaving the hospital. Parking rules will vary depending on the type of visit. Outpatients will receive up to four hours of free parking, while patients visiting the emergency department will get up to six hours of free parking. Patients admitted to the hospital can park free of charge for the duration of their stay. Parkonic will charge Dh10 per hour for any additional parking time, while visitors and vehicles without the required validation will be charged Dh50 per hour, according to information published by Al Zahra Hospital. The charges will be automatically deducted from the Salik account linked to the vehicle. From October 15, patients must validate their parking before leaving the hospital. For outpatient appointments, patients will receive a text message with a validation link after checking in. The link will be valid for up to four hours. The introduction of the system at Al Zahra Hospital comes as smart and paid parking management expands across Dubai's healthcare sector. Parkin and Dubai Health introduced paid parking at Rashid Hospital on September 21. At Rashid Hospital, patients continue to receive free parking for the duration of their visit, including those attending emergency care, consultations, laboratory appointments, walk-in services and continuing treatment. Visitors can receive up to three hours of free parking per day after providing the relevant patient details at hospital reception. Two people accompanying patients admitted to the hospital can receive free parking for up to 24 hours, with extensions available where required. People of Determination, senior citizens and pregnant women will continue to receive free valet parking at Dubai Health facilities after eligibility is verified. A 30-minute daily grace period is also available for pickups and drop-offs, while standard parking charges apply to motorists who are not visiting Dubai Health facilities. Authorities said that the smart parking system is intended to reduce congestion, improve the use of available parking spaces and make arrival at healthcare facilities more convenient.",
+      "url": "https://www.thenationalnews.com/news/uae/2026/10/04/dubais-parkonic-introduces-paid-parking-at-al-zahra-hospital/",
+      "published_at": "2026-10-04T03:00:00+00:00"
     },
-    "source_published_at": "2026-10-02T10:59:49+00:00",
-    "source_retrieved_at": "2026-10-04T03:38:39.567683+00:00",
+    "source_published_at": "2026-10-04T03:00:00+00:00",
+    "source_retrieved_at": "2026-10-05T04:44:25.982458+00:00",
     "source_verification": {
       "version": 1,
       "status": "approved",
-      "reason": "Все утверждения в посте точно соответствуют информации из источника.",
+      "reason": "All factual claims in the post are directly supported by the source text.",
       "claims": [
         {
-          "claim": "В октябре библиотека Мухаммеда бин Рашида в Дубае организует серию культурных и познавательных мероприятий, включая темы перевода, андалузских рукописей, эмиратской литературы и музыки.",
+          "claim": "A paid parking system will start operating at Al Zahra Hospital in Dubai from October 15 for visitors and patients.",
           "supported": true,
           "evidence": [
             1
           ]
         },
         {
-          "claim": "Программа начнется с сессии, посвященной аудиовизуальному переводу в честь Всемирного дня перевода.",
+          "claim": "The system is managed by the private company Parkonic, which requires vehicle validation before leaving the hospital.",
           "supported": true,
           "evidence": [
-            1
+            2,
+            8
           ]
         },
         {
-          "claim": "Запланирована сессия «Андалузские рукописи: их присутствие в современном мире и цивилизационное значение».",
+          "claim": "Outpatients can park free for up to four hours.",
           "supported": true,
           "evidence": [
-            1
+            4
           ]
         },
         {
-          "claim": "Вечером выступит хор «Арабский хор».",
+          "claim": "Visitors to the emergency department can park free for up to six hours.",
           "supported": true,
           "evidence": [
-            1
+            4
           ]
         },
         {
-          "claim": "Впервые библиотека примет участие в восьмом издании выставки «Экспо для людей с ограниченными возможностями 2026» в Дубайском торговом центре с 19 по 21 октября.",
+          "claim": "Patients admitted to the hospital can park free for the entire duration of their stay.",
           "supported": true,
           "evidence": [
-            1
+            5
           ]
         },
         {
-          "claim": "Библиотека представит свои услуги и инициативы для поддержки людей с особыми потребностями.",
+          "claim": "Additional parking time is charged at 10 dirhams per hour.",
           "supported": true,
           "evidence": [
-            1
+            6
+          ]
+        },
+        {
+          "claim": "Vehicles without required validation are charged 50 dirhams per hour.",
+          "supported": true,
+          "evidence": [
+            6
+          ]
+        },
+        {
+          "claim": "Payment will be automatically deducted from the Salik account linked to the vehicle.",
+          "supported": true,
+          "evidence": [
+            7
+          ]
+        },
+        {
+          "claim": "The new system aims to reduce parking congestion and improve convenience for visitors to Dubai healthcare facilities.",
+          "supported": true,
+          "evidence": [
+            18
           ]
         }
       ],
       "evidence_passages": [
         {
           "id": 0,
-          "text": "مكتبة محمد بن راشد تنظم برنامجا ثقافيا متنوعا خلال أكتوبر"
+          "text": "Dubai's Parkonic introduces paid parking at Al Zahra Hospital"
         },
         {
           "id": 1,
-          "text": "دبي في 2 أكتوبر/ وام/ تنظم مكتبة محمد بن راشد، خلال شهر أكتوبر الجاري، سلسلة من الفعاليات الثقافية والمعرفية التي تجمع بين الترجمة والمخطوطات الأندلسية والأدب الإماراتي والموسيقى.وتستهل المكتبة برنامجها بجلسة حول الترجمة السمعية البصرية، بمناسبة اليوم العالمي للترجمة، تتناول دورها في نقل التجربة الفنية والحفاظ على السياق الثقافي للأعمال.وتستضيف جلسة بعنوان “المخطوطات الأندلسية: حضورها في عالمنا المعاصر ودلالاتها الحضارية” تليها أمسية لفرقة كورال العرب .وتشارك المكتبة للمرة الأولى في الدورة الثامنة من معرض “إكسبو أصحاب الهمم 2026”، الذي يقام في مركز دبي التجاري العالمي من 19 إلى 21 أكتوبر، لاستعراض خدماتها ومبادراتها الداعمة لأصحاب الهمم وإتاحة المعرفة للجميع."
+          "text": "A paid parking system has been introduced at Al Zahra Hospital Dubai for visitors and patients and will become fully operational on October 15."
+        },
+        {
+          "id": 2,
+          "text": "Private company Parkonic is managing the new smart system, which requires patients to validate their vehicles before leaving the hospital."
+        },
+        {
+          "id": 3,
+          "text": "Parking rules will vary depending on the type of visit."
+        },
+        {
+          "id": 4,
+          "text": "Outpatients will receive up to four hours of free parking, while patients visiting the emergency department will get up to six hours of free parking."
+        },
+        {
+          "id": 5,
+          "text": "Patients admitted to the hospital can park free of charge for the duration of their stay."
+        },
+        {
+          "id": 6,
+          "text": "Parkonic will charge Dh10 per hour for any additional parking time, while visitors and vehicles without the required validation will be charged Dh50 per hour, according to information published by Al Zahra Hospital."
+        },
+        {
+          "id": 7,
+          "text": "The charges will be automatically deducted from the Salik account linked to the vehicle."
+        },
+        {
+          "id": 8,
+          "text": "From October 15, patients must validate their parking before leaving the hospital."
+        },
+        {
+          "id": 9,
+          "text": "For outpatient appointments, patients will receive a text message with a validation link after checking in."
+        },
+        {
+          "id": 10,
+          "text": "The link will be valid for up to four hours."
+        },
+        {
+          "id": 11,
+          "text": "The introduction of the system at Al Zahra Hospital comes as smart and paid parking management expands across Dubai's healthcare sector."
+        },
+        {
+          "id": 12,
+          "text": "Parkin and Dubai Health introduced paid parking at Rashid Hospital on September 21."
+        },
+        {
+          "id": 13,
+          "text": "At Rashid Hospital, patients continue to receive free parking for the duration of their visit, including those attending emergency care, consultations, laboratory appointments, walk-in services and continuing treatment."
+        },
+        {
+          "id": 14,
+          "text": "Visitors can receive up to three hours of free parking per day after providing the relevant patient details at hospital reception."
+        },
+        {
+          "id": 15,
+          "text": "Two people accompanying patients admitted to the hospital can receive free parking for up to 24 hours, with extensions available where required."
+        },
+        {
+          "id": 16,
+          "text": "People of Determination, senior citizens and pregnant women will continue to receive free valet parking at Dubai Health facilities after eligibility is verified."
+        },
+        {
+          "id": 17,
+          "text": "A 30-minute daily grace period is also available for pickups and drop-offs, while standard parking charges apply to motorists who are not visiting Dubai Health facilities."
+        },
+        {
+          "id": 18,
+          "text": "Authorities said that the smart parking system is intended to reduce congestion, improve the use of available parking spaces and make arrival at healthcare facilities more convenient."
         }
       ],
-      "source_hash": "58cbee7f9e6b61cdcc4f6979cb85f7f5aaa2b390630064f749bbd7b00adfa7f0",
-      "summary_hash": "2eb4280c5508cf81b8df95883d1f6d6a558d9260c1553ee98b9d3d51ea54d6fc",
-      "checked_at": "2026-10-04T03:38:53.518652+00:00",
+      "source_hash": "d91c9723629f0a372a8b2f941263864f6821bd7b7ce1306cfd5f9dfd6d6cc2f2",
+      "summary_hash": "b40fd14568d66f006b22b2c4f8aad1787ed23843afbc710fb3fe7a32b2f098f6",
+      "checked_at": "2026-10-05T04:44:39.454037+00:00",
       "model": "gpt-4.1-mini-2025-04-14",
       "provider": "openai",
       "api_calls": 1,
@@ -76,44 +166,46 @@
     },
     "emoji_decoration": {
       "version": 1,
-      "status": "fallback",
-      "reason_code": "duplicate_emoji",
+      "status": "decorated",
+      "reason_code": "",
       "api_calls": 1,
       "cached": false,
-      "decoration_count": 0,
+      "decoration_count": 3,
+      "omitted_duplicate_emoji": 0,
       "diagnostics": {
-        "phase": "decoration_validation",
+        "phase": "complete",
         "http_status": 200,
         "finish_reason": "stop",
         "decisions": [
           {
             "paragraph": 0,
-            "emoji": "📅"
+            "emoji": "🏥"
           },
           {
             "paragraph": 1,
-            "emoji": "📅"
+            "emoji": "🚇"
           },
           {
-            "paragraph": 2,
-            "emoji": "🎭"
+            "paragraph": 3,
+            "emoji": "💳"
           }
-        ]
+        ],
+        "omitted_duplicate_emoji": 0
       },
-      "input_sha256": "71827880ae16c8d4afafc5f940219c27c43e77bcea78e934226f19b00f62612d",
-      "output_sha256": "71827880ae16c8d4afafc5f940219c27c43e77bcea78e934226f19b00f62612d"
+      "input_sha256": "9ff868dbae7f0df8c94ee9ac1f7fb2dde6ffe45b9c07a30216e78ef6ee926bbc",
+      "output_sha256": "8fc7399a55ccd34e0053492469f8d30950cc07b8436f2e9aeaddb6512feebdb0"
     },
-    "source_name": "wam.ae",
-    "title": "مكتبة محمد بن راشد تنظم برنامجا ثقافيا متنوعا خلال أكتوبر",
-    "summary_ru": "<b>Культурная программа в библиотеке Мухаммеда бин Рашида в октябре</b>\n\nВ октябре библиотека Мухаммеда бин Рашида в Дубае организует серию культурных и познавательных мероприятий, включая темы перевода, андалузских рукописей, эмиратской литературы и музыки. Программа начнется с сессии, посвященной аудиовизуальному переводу в честь Всемирного дня перевода.\n\nТакже запланирована сессия «Андалузские рукописи: их присутствие в современном мире и цивилизационное значение», а вечером выступит хор «Арабский хор». Впервые библиотека примет участие в восьмом издании выставки «Экспо для людей с ограниченными возможностями 2026» в Дубайском торговом центре с 19 по 21 октября, представив свои услуги и инициативы для поддержки людей с особыми потребностями.",
-    "published": "2026-10-04T03:38:46.589139+00:00",
+    "source_name": "thenationalnews.com",
+    "title": "Dubai's Parkonic introduces paid parking at Al Zahra Hospital",
+    "summary_ru": "<b>🏥 В больнице Al Zahra в Дубае вводят платную парковку</b>\n\n🚇 С 15 октября в больнице Al Zahra в Дубае начнет работать новая система платной парковки для посетителей и пациентов. Управлять системой будет частная компания Parkonic, которая требует подтверждения автомобиля перед выездом из больницы.\n\nПациенты амбулаторного приема смогут бесплатно парковаться до четырех часов, посетители отделения неотложной помощи — до шести часов, а пациенты, госпитализированные в больницу, смогут парковаться бесплатно на весь срок пребывания. За дополнительное время парковки взимается плата в размере 10 дирхамов в час, а за отсутствие подтверждения — 50 дирхамов в час.\n\n💳 Оплата будет автоматически списываться с привязанного к автомобилю счета Salik. Новая система направлена на снижение загруженности парковок и повышение удобства для посетителей медицинских учреждений в Дубае.",
+    "published": "2026-10-05T04:44:31.795629+00:00",
     "source_urls": [
-      "https://www.wam.ae/ar/article/c2jgol1-مكتبة-محمد-بن-راشد-تنظم-برنامجا-ثقافيا-متنوعا-خلال"
+      "https://www.thenationalnews.com/news/uae/2026/10/04/dubais-parkonic-introduces-paid-parking-at-al-zahra-hospital/"
     ],
     "lang": "en",
-    "content_hash": "79d6a040941c3e6f2296ea60817f98d9",
-    "strict_hash": "79d6a040941c3e6f2296ea60817f98d9",
-    "fuzzy_hash": "79d6a040941c3e6f2296ea60817f98d9",
+    "content_hash": "d4bfd69195c26383a595bf81c5de6809",
+    "strict_hash": "d4bfd69195c26383a595bf81c5de6809",
+    "fuzzy_hash": "7cbbde96255aa2878c17f04ec79be7ef",
     "method": "digest_import",
     "source_priority": 3,
     "workflow_state": "approved_by_editor",
@@ -134,8 +226,8 @@
       }
     },
     "editorial_metrics": {
-      "quality_score": 75,
-      "ad_readiness_score": 85,
+      "quality_score": 90,
+      "ad_readiness_score": 100,
       "ad_ready": true,
       "ad_min_quality_score": 75,
       "monetization_stage": "ready_for_direct_ads",
@@ -150,10 +242,10 @@
       "editor": {
         "status": "approved",
         "action": "approved_for_publication",
-        "reason": "Новость о культурной программе библиотеки в Дубае соответствует тематике и содержит общественно значимую информацию."
+        "reason": "Новость о введении платной парковки в больнице Al Zahra в Дубае соответствует тематике транспорта и услуг."
       }
     },
-    "image_url": "https://www.wam.ae/assets/images/logo/logo.png",
+    "image_url": "https://www.thenationalnews.com/resizer/v2/HUZVBHG5WCQATON4P5V5LJF5RQ.jpg?auth=90f9825588d3f86e278c99010b4c43e473e32799367c9b0dcef2ce2cf4ebb57a&amp;focal=3029%2C1994&amp;width=1200&amp;height=630",
     "slot_target": "morning"
   }
 ]
