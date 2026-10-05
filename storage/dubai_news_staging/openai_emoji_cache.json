@@ -75,8 +75,42 @@
   "3103191165e798ac31066aa28ae7a7a40a58c3d91cb6927d4953050bdb2c0bba": {
     "saved_at": "2026-10-05T04:56:31.457019+00:00",
     "result": {
-      "status": "pending",
-      "reason_code": "previous_attempt_incomplete"
+      "value": {
+        "decorations": [
+          {
+            "paragraph": 0,
+            "emoji": "🚇"
+          },
+          {
+            "paragraph": 1,
+            "emoji": "🚇"
+          },
+          {
+            "paragraph": 2,
+            "emoji": "🚇"
+          }
+        ]
+      },
+      "diagnostics": {
+        "phase": "complete",
+        "http_status": 200,
+        "finish_reason": "stop",
+        "decisions": [
+          {
+            "paragraph": 0,
+            "emoji": "🚇"
+          },
+          {
+            "paragraph": 1,
+            "emoji": "🚇"
+          },
+          {
+            "paragraph": 2,
+            "emoji": "🚇"
+          }
+        ],
+        "omitted_duplicate_emoji": 2
+      }
     }
   }
 }
