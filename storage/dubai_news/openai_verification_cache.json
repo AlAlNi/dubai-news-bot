@@ -1,82 +1,4 @@
 {
-  "5df166e57f40d24dc69b455b1c3b8772c5539122c24d8f9e9a20ee0d7aa8702a": {
-    "saved_at": "2026-09-27T15:58:01.403064+00:00",
-    "result": {
-      "id": "chatcmpl-ESlYEJ0BL423doRkTUQQodNqpD9cm",
-      "object": "chat.completion",
-      "created": 1790524678,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum approved the Dubai Longevity Authority (DLA) strategy on Sunday.\",\"supported\":true,\"evidence\":\"Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum, Crown Prince of Dubai, Deputy Prime Minister, Minister of Defence and Chairman of The Executive Council of Dubai, on Sunday approved the Dubai Longevity Authority’s (DLA) strategy\"},{\"claim\":\"The strategy aims to contribute more than Dh35 billion to the emirate’s economy over the next decade.\",\"supported\":true,\"evidence\":\"The strategy targets annual growth of around 31 per cent and aims to contribute more than Dh35 billion to Dubai’s economy over the next decade.\"},{\"claim\":\"The strategy aims to achieve annual growth of around 31%.\",\"supported\":true,\"evidence\":\"The strategy targets annual growth of around 31 per cent and aims to contribute more than Dh35 billion to Dubai’s economy over the next decade.\"},{\"claim\":\"The DLA was established by Sheikh Mohammed bin Rashid Al Maktoum under Law No. 17 of 2026 in June.\",\"supported\":true,\"evidence\":\"The DLA was established by His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai, under Law No. 17 of 2026 in June.\"},{\"claim\":\"The DLA’s mandate covers the entire longevity sector value chain, from research and development and clinical trials to manufacturing, delivery and patient clinics.\",\"supported\":true,\"evidence\":\"The DLA’s mandate covers the entire longevity sector value chain, from research and development and clinical trials to manufacturing, delivery and patient clinics.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1154,
-        "completion_tokens": 373,
-        "total_tokens": 1527,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
-  "4ae181f8f851ba336730c6c03d805f299c3c624dcec0c7904790ebe9125a12b1": {
-    "saved_at": "2026-09-28T01:17:13.854766+00:00",
-    "result": {
-      "id": "chatcmpl-ESuHOQduRTpZnC70TBAzhmfKCE1Bx",
-      "object": "chat.completion",
-      "created": 1790558230,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Шейх Хамдан одобрил стратегию Dubai Longevity Authority\",\"supported\":true,\"evidence\":\"Sheikh Hamdan unveiled the vision for the future after chairing the first meeting of the Dubai Longevity Authority, during which he approved its strategy and budget.\"},{\"claim\":\"Шейх Хамдан бин Мухаммед, наследный принц Дубая, заместитель премьер-министра и министр обороны, в воскресенье представил планы эмирата стать «глобальным центром здорового долголетия» и обеспечить многомиллиардный прирост экономики.\",\"supported\":true,\"evidence\":\"Sheikh Hamdan bin Mohammed , Crown Prince of Dubai, Deputy Prime Minister and Minister of Defence, on Sunday set out the emirate's plans to be a “global centre for healthy longevity” – and help deliver a multibillion-dirham boost to the economy.\"},{\"claim\":\"Он председательствовал на первом заседании Dubai Longevity Authority, где утвердил её стратегию и бюджет.\",\"supported\":true,\"evidence\":\"Sheikh Hamdan unveiled the vision for the future after chairing the first meeting of the Dubai Longevity Authority, during which he approved its strategy and budget.\"},{\"claim\":\"По словам шейха Хамдана, стратегия нацелена на ежегодный рост около 31% и призвана принести экономике Дубая более 35 млрд дирхамов ($9,53 млрд) за следующее десятилетие.\",\"supported\":true,\"evidence\":\"“The strategy targets annual growth of around 31 per cent and aims to contribute more than Dh35 billion ($9.53 billion) to Dubai’s economy over the next decade.”\"},{\"claim\":\"Орган, запущенный в июне, будет курировать усилия по продлению здоровой жизни без хронических заболеваний и когнитивного снижения.\",\"supported\":true,\"evidence\":\"The authority was launched in June to oversee efforts to help people live longer , healthier lives, free of chronic disease and cognitive decline.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1138,
-        "completion_tokens": 444,
-        "total_tokens": 1582,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
   "e13b1a5ffa60b7c69bf485d3eb37c1c48d317048bd744422943c3ebe1787e669": {
     "saved_at": "2026-09-28T07:54:03.610188+00:00",
     "result": {
@@ -530,6 +452,45 @@
         "prompt_tokens": 1483,
         "completion_tokens": 278,
         "total_tokens": 1761,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07f0137997"
+    }
+  },
+  "ac0f10e5d85a3afb0c155035b201ed086071f66f4b610f6187488059e0987c14": {
+    "saved_at": "2026-10-05T01:22:59.401097+00:00",
+    "result": {
+      "id": "chatcmpl-EVRhpR7yCWd86r4nrFLxGPg5Tyl4F",
+      "object": "chat.completion",
+      "created": 1791163377,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"A paid parking system will start operating at Al Zahra Hospital in Dubai from October 15.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The paid parking system is for visitors and patients.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The system is managed by the company Parkonic.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Parkonic requires parking validation before leaving the hospital.\",\"supported\":true,\"evidence\":[2,8]},{\"claim\":\"Outpatients receive up to four hours of free parking.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Visitors to the emergency department receive up to six hours of free parking.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Additional parking time is charged at 10 dirhams per hour.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Vehicles without required validation are charged 50 dirhams per hour.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Payment is automatically deducted from the Salik account linked to the vehicle.\",\"supported\":true,\"evidence\":[7]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1263,
+        "completion_tokens": 250,
+        "total_tokens": 1513,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
