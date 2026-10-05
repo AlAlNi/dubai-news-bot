@@ -15,6 +15,13 @@ SCHEMA = {
     "type": "object", "additionalProperties": False,
     "properties": {
         "supported": {"type": "boolean"}, "reason": {"type": "string"},
+        "emoji_verdicts": {"type": "array", "items": {
+            "type": "object", "additionalProperties": False,
+            "properties": {"paragraph": {"type": "integer", "minimum": 0},
+                           "emoji": {"type": "string"}, "supported": {"type": "boolean"},
+                           "reason": {"type": "string"}},
+            "required": ["paragraph", "emoji", "supported", "reason"],
+        }},
         "claims": {"type": "array", "items": {
             "type": "object", "additionalProperties": False,
             "properties": {"claim": {"type": "string"}, "supported": {"type": "boolean"},
@@ -22,7 +29,7 @@ SCHEMA = {
             "required": ["claim", "supported", "evidence"],
         }},
     },
-    "required": ["supported", "reason", "claims"],
+    "required": ["supported", "reason", "claims", "emoji_verdicts"],
 }
 
 
@@ -43,6 +50,7 @@ def verify_with_openai(source, summary, prompt, parse_response, timeout, storage
     if not key:
         return {**base, "reason": "Missing OPENAI_API_KEY"}
     from source_verification import source_passages
+    from emoji_review import inserted_emoji
     review_source = {key: value for key, value in source.items() if key not in {"title", "text"}}
     review_source["passages"] = source_passages(source)
     payload = {
@@ -54,7 +62,7 @@ def verify_with_openai(source, summary, prompt, parse_response, timeout, storage
         "messages": [
             {"role": "system", "content": prompt + " Keep reasons, claim paraphrases and evidence concise. "
              "Evidence must contain passage IDs, never quotes. If output space is insufficient to review all claims, reject."},
-            {"role": "user", "content": json.dumps({"source": review_source, "post": summary}, ensure_ascii=False)},
+            {"role": "user", "content": json.dumps({"source": review_source, "post": summary, "emoji_insertions": inserted_emoji(summary)}, ensure_ascii=False)},
         ],
     }
     serialized = json.dumps(payload, ensure_ascii=False, sort_keys=True)
@@ -62,7 +70,7 @@ def verify_with_openai(source, summary, prompt, parse_response, timeout, storage
     # Do not silently truncate the source to save money: an oversized post waits instead.
     if len(serialized.encode("utf-8")) + 1024 > INPUT_TOKEN_CEILING:
         return {**base, "status": "deferred", "reason": "OpenAI request exceeds input cost ceiling"}
-    cache_key = hashlib.sha256(("review-v3-passages:" + serialized).encode("utf-8")).hexdigest()
+    cache_key = hashlib.sha256(("review-v4-emoji:" + serialized).encode("utf-8")).hexdigest()
     cache_path = Path(storage_dir) / "openai_verification_cache.json"
     cache = cache_read(cache_path)
     if cache_key in cache:

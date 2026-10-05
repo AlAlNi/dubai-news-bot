@@ -18,7 +18,7 @@ class SourceVerificationTests(unittest.TestCase):
             "Dubai bus plans", "RTA plans to add 10 buses in Dubai in December.", "https://example.com/news"
         )
         self.summary = "<b>Автобусы в Дубае</b>\nRTA планирует добавить 10 автобусов в декабре."
-        self.review = {"supported": True, "reason": "Supported by source", "claims": [
+        self.review = {"emoji_verdicts": [], "supported": True, "reason": "Supported by source", "claims": [
             {"claim": "RTA планирует добавить 10 автобусов в Дубае в декабре.",
              "supported": True, "evidence": self.source["text"]}
         ]}
@@ -52,7 +52,7 @@ class SourceVerificationTests(unittest.TestCase):
 
     def test_malformed_empty_and_truncated_verdicts_fail_closed(self):
         for review in [{}, [], {"supported": "true", "reason": "OK", "claims": []},
-                       {"supported": True, "reason": "OK", "claims": []}]:
+                       {"emoji_verdicts": [], "supported": True, "reason": "OK", "claims": []}]:
             with self.subTest(review=review):
                 self.assertNotEqual(self.check(self.response(review))["status"], "approved")
         self.assertEqual(self.check(self.response(finish_reason="length"))["status"], "error")

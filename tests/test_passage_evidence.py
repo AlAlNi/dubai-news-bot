@@ -17,7 +17,7 @@ class PassageEvidenceTests(TestCase):
         }
 
     def check(self, evidence, supported=True):
-        result = {"supported": supported, "reason": "review result", "claims": [
+        result = {"emoji_verdicts": [], "supported": supported, "reason": "review result", "claims": [
             {"claim": "A facility is planned with capacity of 170,000 a year.",
              "supported": supported, "evidence": evidence}]}
         payload = {"choices": [{"finish_reason": "stop", "message": {"content": json.dumps(result)}}]}

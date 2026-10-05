@@ -25,7 +25,7 @@ class OpenAIVerifierTests(unittest.TestCase):
         self.source = verification.source_snapshot("Dubai buses", "RTA plans to add 10 buses in Dubai.",
                                                    "https://example.com/news")
         self.summary = "<b>Дубай</b> RTA планирует добавить 10 автобусов."
-        self.review = {"supported": True, "reason": "Supported", "claims": [{
+        self.review = {"emoji_verdicts": [], "supported": True, "reason": "Supported", "claims": [{
             "claim": self.summary, "supported": True, "evidence": [1],
         }]}
         self.response = Mock(status_code=200)
@@ -35,6 +35,24 @@ class OpenAIVerifierTests(unittest.TestCase):
 
     def verify(self):
         return verification.verify_summary(self.source, self.summary, "deepseek-key", storage_dir=self.temp.name)
+
+    def test_exact_emoji_review_uses_existing_single_request_and_cache(self):
+        self.summary = "<b>🚌 Dubai buses</b>\n\nRTA plans 10 buses."
+        self.review["emoji_verdicts"] = [{"paragraph": 0, "emoji": "🚌",
+                                         "supported": True, "reason": "Buses explicitly mentioned"}]
+        self.response.json.return_value["choices"][0]["message"]["content"] = json.dumps(self.review)
+        with patch("openai_verifier.request_with_retry", return_value=self.response) as request:
+            first, cached = self.verify(), self.verify()
+        self.assertEqual(first["status"], "approved")
+        self.assertEqual(cached["status"], "approved")
+        request.assert_called_once()
+        payload = request.call_args.kwargs["json"]
+        data = json.loads(payload["messages"][1]["content"])
+        self.assertEqual(data["post"], self.summary)
+        self.assertEqual(data["emoji_insertions"], [{"paragraph": 0, "emoji": "🚌"}])
+        self.assertIn("emoji_verdicts", payload["response_format"]["json_schema"]["schema"]["required"])
+        self.assertEqual(payload["max_completion_tokens"], OUTPUT_TOKEN_CEILING)
+        self.assertEqual(self.calls(), 1)
 
     def calls(self):
         return sum(day["calls"] for month in json.loads(self.path.read_text())["months"].values()

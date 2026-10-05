@@ -10,6 +10,7 @@ import re
 from datetime import datetime, timezone
 
 from http_client import request_with_retry
+from emoji_review import valid_emoji_verdicts
 
 
 def fingerprint(value):
@@ -35,7 +36,15 @@ REVIEW_PROMPT = (
     "Split compound claims where possible. Reject a claim if its location, date, scope or event "
     "status differs from its passages. Announced development is not a completed facility; "
     "future capacity is not current usage. Do not infer a different year from memory. "
-    "Omitting irrelevant source details is allowed if it does not change the claims made."
+    "Omitting irrelevant source details is allowed if it does not change the claims made. "
+    "Also return emoji_verdicts: exactly one entry for every supplied emoji insertion, "
+    "with its exact paragraph and emoji, supported (boolean), and a nonempty reason. "
+    "Paragraph IDs are zero-based positions in the post split on double newlines. "
+    "Judge each symbol against the explicit subject of its paragraph and the source. "
+    "Metro and bus require that specific transport mode, not merely RTA, mobility, "
+    "cars, parking, roads, Salik or electric vehicles. Reject related-topic substitutions. "
+    "Use an empty array when there are no insertions. Approve only if every insertion "
+    "is semantically appropriate. Review the exact supplied post; never rewrite it."
 )
 
 
@@ -84,10 +93,12 @@ def _validate_completion(payload, source, summary, model, provider):
             and valid_evidence(claim.get("evidence"), source)
             for claim in claims
         )
-        approved = result["supported"] is True and evidence_valid
+        emoji_valid = valid_emoji_verdicts(summary, result.get("emoji_verdicts"))
+        approved = result["supported"] is True and evidence_valid and emoji_valid
         return {
             "version": 1, "status": "approved" if approved else "rejected",
-            "reason": result["reason"] if approved or not result["supported"] else "Invalid source passage references",
+            "reason": result["reason"] if approved or not result["supported"] else ("Invalid source passage references" if not evidence_valid else "Unsupported or incomplete emoji review"),
+            "emoji_review_version": 1, "emoji_verdicts": result.get("emoji_verdicts"),
             "claims": claims, "evidence_passages": source_passages(source),
             "source_hash": fingerprint(source), "summary_hash": fingerprint(summary),
             "checked_at": datetime.now(timezone.utc).isoformat(), "model": model, "provider": provider,
@@ -116,6 +127,8 @@ def is_verified_draft(draft):
         isinstance(report, dict) and isinstance(source, dict)
         and report.get("provider") == verifier_provider()
         and report.get("version") == 1 and report.get("status") == "approved"
+        and report.get("emoji_review_version") == 1
+        and valid_emoji_verdicts(draft.get("summary_ru", ""), report.get("emoji_verdicts"))
         and draft.get("workflow_state") == "approved_by_editor"
         and draft.get("editorial_decision") == "approved"
         and source.get("url") and draft.get("source_urls") == [source["url"]]
