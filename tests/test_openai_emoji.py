@@ -285,3 +285,21 @@ class EmojiTests(TestCase):
 
     def test_empty_decisions_remain_valid(self):
         self.assertEqual(apply_decorations(TEXT, {'decorations': []}), TEXT)
+        with patch('openai_emoji.request_with_retry', return_value=self.response({'decorations': []})) as request:
+            result = decorate_summary(TEXT, self.temp.name)
+        self.assertEqual(result['post'], TEXT)
+        self.assertEqual(result['status'], 'decorated')
+        self.assertEqual(result['decoration_count'], 0)
+        # Contract coverage only: this does not test live model judgment.
+        payload = request.call_args.kwargs['json']
+        self.assertEqual([m['role'] for m in payload['messages']], ['system', 'user'])
+        policy = payload['messages'][0]['content']
+        self.assertIn('explicit subject or detail in that paragraph', policy)
+        self.assertIn('Parking, cars, roads, vehicle validation and Salik do not imply metro', policy)
+        self.assertIn('Omit uncertain insertions', policy)
+        self.assertIn('There is no target emoji count', policy)
+        self.assertEqual(json.loads(payload['messages'][1]['content'])['paragraphs'][0]['text'], TEXT.split('\n\n')[0])
+        schema = payload['response_format']['json_schema']['schema']
+        self.assertEqual(schema['required'], ['decorations'])
+        self.assertFalse(schema['additionalProperties'])
+        self.assertNotIn('post', schema['properties'])
