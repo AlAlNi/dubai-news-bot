@@ -1,160 +1,4 @@
 {
-  "3fa2452d788a3cf7a4e2180348d0998a1d39093013a4c54589cba278e2dac33a": {
-    "saved_at": "2026-09-29T06:17:29.226374+00:00",
-    "result": {
-      "id": "chatcmpl-ETLRUMuPAg04ePR3yqLlLoJ6844TR",
-      "object": "chat.completion",
-      "created": 1790662644,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Air Canada отложила возобновление рейсов в Дубай до марта 2027 года\",\"supported\":true,\"evidence\":\"Air Canada has extended the cancellation of its flights to and from Dubai until the end of March 2027\"},{\"claim\":\"Канадская авиакомпания Air Canada объявила о продлении отмены рейсов в и из Дубая до конца марта 2027 года из-за ситуации на Ближнем Востоке\",\"supported\":true,\"evidence\":\"Air Canada said in its latest travel update on September 24 that flights to and from Dubai International Airport (DXB) would remain cancelled until the end of March 2027 because of the situation in the Middle East.\"},{\"claim\":\"Ранее рейсы были приостановлены с 2 марта 2026 года и неоднократно продлевались\",\"supported\":true,\"evidence\":\"The Canadian national carrier originally suspended flights to and from Dubai on March 2, following the US-Iran war outbreak. The airline subsequently extended the suspension several times.\"},{\"claim\":\"Ряд других авиакомпаний планируют возобновить полёты в ОАЭ в конце 2026 года, включая Lufthansa, Philippine Airlines, British Airways и Air France\",\"supported\":true,\"evidence\":\"Air Astana, Philippine Airlines, Lufthansa, SWISS, Wizz Air, Singapore Airlines, Eurowings, British Airways, Austrian Airlines and Air France have announced return dates for Dubai or Abu Dhabi services between October and December 2026\"},{\"claim\":\"Некоторые перевозчики, такие как Cathay Pacific и Virgin Atlantic, намерены вернуться в регион только в 2027 году\",\"supported\":true,\"evidence\":\"Cathay Pacific, United Airlines, Luxair, Finnair and Virgin Atlantic are among carriers whose Dubai return plans extend into 2027.\"},{\"claim\":\"Air Astana, Philippine Airlines, Lufthansa и другие начнут рейсы в период с октября по декабрь 2026 года\",\"supported\":true,\"evidence\":\"Air Astana: Almaty and Astana flights to Dubai from October 1–2. Philippine Airlines: Non-stop Manila-Dubai flights from October 2. Lufthansa: Dubai-Frankfurt and Dubai-Munich services from October 25. SWISS: Dubai-Zurich flights from October 27. Wizz Air: Dubai services from October 24–25, with Abu Dhabi services expected around late October. Singapore Airlines: SQ494/SQ495 Dubai services scheduled to resume on October 24. Eurowings: Dubai services from Berlin and Stuttgart from November 1, followed by Cologne/Bonn from November 3. British Airways: Dubai services from November 3. Austrian Airlines: Dubai-Vienna services from December 12. Air France: Dubai services are scheduled to resume on October 13.\"},{\"claim\":\"Cathay Pacific, Luxair, United Airlines, Finnair и Virgin Atlantic планируют возобновление в 2027 году\",\"supported\":true,\"evidence\":\"Cathay Pacific: Return planned for January 2027. Luxair: Dubai service relaunch pushed back to February 6, 2027, at the earliest. United Airlines: Planned return in March 2027 with its Newark-Dubai service. Finnair: Helsinki-Dubai service cancelled for the entire 2026/27 winter season, through March 27, 2027. Virgin Atlantic: Direct London Heathrow-Dubai service expected to return for the winter 2027 season.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1413,
-        "completion_tokens": 747,
-        "total_tokens": 2160,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
-  "2c38cb65e29b9e08531cec6ff49a30913d4dce7d086035399fa81847f4c52c5d": {
-    "saved_at": "2026-09-29T06:17:40.065826+00:00",
-    "result": {
-      "id": "chatcmpl-ETLRgknTZlnRjTWWYnKMU8gSoOfGc",
-      "object": "chat.completion",
-      "created": 1790662656,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":false,\"reason\":\"The post's date for the official launch (30 September 2026) contradicts the source's date (launch on Wednesday, September 30, with the article published in 2026, but the source text states the launch is imminent, implying 2023). The source mentions the journey takes around 57 minutes or one hour and four minutes, not exactly one hour. The post omits details about ticket classes and other specifics. The post's claims about the launch date and journey duration are not fully supported or are inconsistent with the source.\",\"claims\":[{\"claim\":\"Пассажирский поезд Etihad Rail завершил первый рейс между Абу-Даби и Дубаем\",\"supported\":true,\"evidence\":\"After an hour-long journey, the Etihad Rail passenger train has arrived at Al Yalayis Station in Dubai.\"},{\"claim\":\"Поезд Etihad Rail прибыл на станцию Аль Ялайис в Дубае после часового путешествия из Абу-Даби\",\"supported\":true,\"evidence\":\"After an hour-long journey, the Etihad Rail passenger train has arrived at Al Yalayis Station in Dubai.\"},{\"claim\":\"Станция расположена в районе Jumeirah Golf Estates и связана с метро Дубая через пешеходный мост, что облегчает пересадки\",\"supported\":true,\"evidence\":\"Etihad Rail’s Al Yalayis Station is just a five-minute walk from Jumeirah Golf Estates Metro Station via a dedicated pedestrian footbridge, connecting passengers to Dubai Metro’s Red Line.\"},{\"claim\":\"Стоимость билетов начинается от 39 дирхамов при онлайн-бронировании\",\"supported\":true,\"evidence\":\"A standard Comfort Class ticket costs Dh39 when booked online, compared to Dh60 when purchased at the station through a ticket vending machine.\"},{\"claim\":\"Доступен проездной nol One-Day Pass от 22 дирхамов для неограниченных поездок на метро, трамвае и автобусах Дубая\",\"supported\":true,\"evidence\":\"Etihad Rail passengers travelling to Dubai can now add a nol One-Day Pass to their train booking, with prices starting from Dh22.The pass offers unlimited eligible travel on Dubai Metro, Tram and RTA buses for the day, making onward journeys easier.\"},{\"claim\":\"Официальный запуск пассажирских услуг запланирован на 30 сентября 2026 года\",\"supported\":false,\"evidence\":\"The countdown comes as Etihad Rail prepares for its official launch on Wednesday, September 30, marking a major milestone in the UAE’s passenger rail journey.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1649,
-        "completion_tokens": 533,
-        "total_tokens": 2182,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
-  "8ad4bf46a82000e220bfa5d8903fd85c23b295675101f21f474e21bfdb3ac17e": {
-    "saved_at": "2026-09-29T09:10:27.370332+00:00",
-    "result": {
-      "id": "chatcmpl-ETO8thr4sgJLxqE5FnmITxQwbgU4Z",
-      "object": "chat.completion",
-      "created": 1790673023,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В ОАЭ открыт пассажирский железнодорожный вокзал Etihad Rail в Дубае\",\"supported\":true,\"evidence\":\"today inaugurated Etihad Rail’s Dubai Station.\"},{\"claim\":\"В присутствии президента ОАЭ шейха Мохаммеда бин Зайеда Аль Нахайяна и других высокопоставленных лиц состоялось открытие станции Etihad Rail в Дубае\",\"supported\":true,\"evidence\":\"In the presence of President His Highness Sheikh Mohamed bin Zayed Al Nahyan; ... and a number of senior officials.\"},{\"claim\":\"Открытие станции ознаменовало запуск национальной пассажирской железнодорожной сети\",\"supported\":true,\"evidence\":\"The inauguration marked the official launch of the UAE’s national passenger rail network\"},{\"claim\":\"С 30 сентября 2026 года начнутся пассажирские перевозки между Абу-Даби, Дубаем и Фуджейрой\",\"supported\":true,\"evidence\":\"commencement of services between Abu Dhabi, Dubai and Fujairah on 30 September 2026.\"},{\"claim\":\"Станция в Дубае связана с метро через пешеходный мост\",\"supported\":true,\"evidence\":\"Etihad Rail’s Dubai Station is connected to Jumeirah Golf Estates Metro Station via a dedicated pedestrian bridge\"},{\"claim\":\"Станция интегрирована с системой оплаты Nol, что обеспечивает удобство пересадки и единый билет для разных видов транспорта\",\"supported\":true,\"evidence\":\"Integration with Dubai’s Nol system also enables passengers to book Etihad Rail journeys and public transport services through a single QR code, which can be used across train, Metro, Tram and bus services.\"},{\"claim\":\"Билеты доступны в приложении Etihad Rail и на станциях\",\"supported\":true,\"evidence\":\"Tickets are now available through the Etihad Rail mobile application, website and ticket vending machines at stations\"},{\"claim\":\"Цены стартуют от 39 дирхамов за класс Comfort\",\"supported\":true,\"evidence\":\"fares starting from AED39 for Comfort Class\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1595,
-        "completion_tokens": 453,
-        "total_tokens": 2048,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
-  "83490d3cacdda1c4d274df8ca7dc9aa58c784d6c21df8f1c497d36c11ce99055": {
-    "saved_at": "2026-09-29T09:10:37.235433+00:00",
-    "result": {
-      "id": "chatcmpl-ETO94q2HH6CkvQTT2oOZhKErb0sJU",
-      "object": "chat.completion",
-      "created": 1790673034,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text and title.\",\"claims\":[{\"claim\":\"В Дубае задержана банда из 22 попрошаек, останавливавших водителей\",\"supported\":true,\"evidence\":\"A 22-member begging gang has been arrested after Dubai Police received a tip-off about individuals stopping motorists on major roads and asking for money\"},{\"claim\":\"Полиция Дубая арестовала 22 человека, которые на крупных дорогах останавливали водителей, прося деньги якобы на проезд\",\"supported\":true,\"evidence\":\"A 22-member begging gang has been arrested after Dubai Police received a tip-off about individuals stopping motorists on major roads and asking for money, claiming they needed fares to travel.\"},{\"claim\":\"Информация поступила через сервис «Police Eye» в приложении полиции\",\"supported\":true,\"evidence\":\"The report, submitted through the ‘Police Eye’ service on the Dubai Police app, helped authorities track the suspects\"},{\"claim\":\"Злоумышленники действовали организованно в нескольких районах, включая улицу Аль-Хор, мост Бу Кадра и дорогу Дубай-Аль-Айн\",\"supported\":true,\"evidence\":\"The gang members were found begging at several busy areas, including Al Khor Street, Ras Al Khor, the Bu Kadra Bridge area and the Dubai-Al Ain Road bridge.\"},{\"claim\":\"Полиция предупреждает, что остановка на оживлённых трассах опасна и призывает не поддаваться на подобные уловки\",\"supported\":true,\"evidence\":\"Dubai Police also warned that begging on main roads is not only illegal but can create serious safety risks for both beggars and motorists... Police urged motorists not to respond to such tactics and not to stop in locations where doing so could endanger themselves or others.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1111,
-        "completion_tokens": 392,
-        "total_tokens": 1503,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
   "84d326c5efced94497bd3a1528084a84e0bf1f168d1a1c3591b4f6ff6919d49d": {
     "saved_at": "2026-09-29T17:30:58.045404+00:00",
     "result": {
@@ -621,6 +465,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_07f0137997"
+    }
+  },
+  "fcf5a72b71e28bae89346328d829d2c27290c1741220ad2b2c8d7dc8170633cb": {
+    "saved_at": "2026-10-06T15:15:16.728869+00:00",
+    "result": {
+      "id": "chatcmpl-EW1AnUnJToSZFS1FR5SJ9N9opvBkN",
+      "object": "chat.completion",
+      "created": 1791299713,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":false,\"reason\":\"The post contains multiple factual inaccuracies and date inconsistencies compared to the source. The source states the Golden Visa scheme was launched on October 5, 2024, but the post claims it started on October 5, 2026. The source specifies the scheme is for educators in private early-childhood centres, schools, and higher-education institutions, not 'детских садов' (kindergartens) specifically. The post's headline and claims about the program's purpose and application numbers are mostly supported, but the date error and slight scope mismatch cause rejection.\",\"emoji_verdicts\":[{\"paragraph\":1,\"emoji\":\"🎓\",\"supported\":true,\"reason\":\"The emoji relates to education and is appropriate for the paragraph about educators and the Golden Visa program.\"}],\"claims\":[{\"claim\":\"В Дубае стартовала программа выдачи Золотой визы для высококвалифицированных педагогов частных детских садов, школ и вузов.\",\"supported\":false,\"evidence\":[1,2,3]},{\"claim\":\"Инициатива, запущенная 5 октября 2026 года в День учителя, направлена на поощрение выдающихся достижений и вкладов в образование.\",\"supported\":false,\"evidence\":[0,3]},{\"claim\":\"За время действия программы подано более 835 заявок.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Кандидаты проходят комплексную оценку по академическим заслугам, достижениям и отзывам учеников и родителей.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Программа входит в стратегию Education 33, направленную на привлечение и удержание талантливых педагогов в эмирате.\",\"supported\":true,\"evidence\":[5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1200,
+        "completion_tokens": 370,
+        "total_tokens": 1570,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c7861a3729"
     }
   }
 }
