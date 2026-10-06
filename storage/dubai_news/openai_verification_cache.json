@@ -1,82 +1,4 @@
 {
-  "e13b1a5ffa60b7c69bf485d3eb37c1c48d317048bd744422943c3ebe1787e669": {
-    "saved_at": "2026-09-28T07:54:03.610188+00:00",
-    "result": {
-      "id": "chatcmpl-ET0TRXEfeya4b1czYGH4IMD32bbN3",
-      "object": "chat.completion",
-      "created": 1790582041,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"China Securities учредила региональный офис в Дубайском международном финансовом центре (DIFC).\",\"supported\":true,\"evidence\":\"China Securities has established a regional office in Dubai International Financial Centre\"},{\"claim\":\"Публичная брокерская компания со штаб-квартирой в Пекине получила лицензию DIFC Authority и разрешение Управления финансовых услуг Дубая.\",\"supported\":true,\"evidence\":\"The publicly listed securities firm has received a licence from the DIFC Authority and has also been authorised by the Dubai Financial Services Authority.\"},{\"claim\":\"Офис будет поддерживать работу China Securities с клиентами, инвесторами и финансовыми институтами региона, а также укреплять связи между китайскими, эмиратскими и международными рынками капитала.\",\"supported\":true,\"evidence\":\"The Dubai office will support China Securities’ work with clients, investors and financial institutions across the region while strengthening links between Chinese, UAE and international capital markets.\"},{\"claim\":\"Компания работает на рынках акционерного и долгового капитала, в инвестиционно-банковской сфере, управлении активами и институциональных услугах.\",\"supported\":true,\"evidence\":\"China Securities operates across equity and debt capital markets, investment banking, asset management and institutional services.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 933,
-        "completion_tokens": 290,
-        "total_tokens": 1223,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_33e21cda63"
-    }
-  },
-  "47dda00463688bbcfe3119ebd034cc1d6cd593e23e5cd3ade56ed48c60c02c3f": {
-    "saved_at": "2026-09-28T16:13:12.680667+00:00",
-    "result": {
-      "id": "chatcmpl-ET8GPvaGDY4G3eMFmujSsbLdcSZQr",
-      "object": "chat.completion",
-      "created": 1790611985,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В понедельник шейх Хамдан бин Мухаммед бин Рашид Аль Мактум и шейх Тияб бин Мухаммед бин Заид Аль Нахайян открыли станцию Etihad Rail в Дубае и объявили о запуске национальной пассажирской железнодорожной сети.\",\"supported\":true,\"evidence\":\"Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum, Crown Prince of Dubai, Deputy Prime Minister and Minister of Defence, and Sheikh Theyab bin Mohamed bin Zayed Al Nahyan, Deputy Chairman of the Presidential Court for Development and Fallen Heroes’ Affairs and Chairman of Etihad Rail, inaugurated the Etihad Rail station in Dubai on Monday, announcing the official launch of the national passenger rail network\"},{\"claim\":\"Президент ОАЭ шейх Мухаммед бин Заид Аль Нахайян присутствовал и проехал на поезде Etihad Rail из Абу-Даби в Дубай.\",\"supported\":true,\"evidence\":\"President His Highness Sheikh Mohamed bin Zayed Al Nahyan was present, traveling aboard an Etihad Rail train from Abu Dhabi to Dubai on a journey ahead of the official launch of the service on the national passenger rail network.\"},{\"claim\":\"Движение между Абу-Даби, Дубаем и Фуджейрой начнётся 30 сентября 2026 года.\",\"supported\":true,\"evidence\":\"The inauguration comes ahead of the start of services between Abu Dhabi, Dubai and Fujairah on 30 September 2026.\"},{\"claim\":\"Билеты доступны через приложение Etihad Rail, сайт и автоматы на станциях; тарифы — от 39 дирхамов в классе Comfort и от 109 дирхамов в Premium.\",\"supported\":true,\"evidence\":\"Tickets are available through the Etihad Rail app, website and ticket machines at stations, with fares starting at Dh39 for Comfort Class and Dh109 for Premium Class.\"},{\"claim\":\"Станция связана с метро Jumeirah Golf Estates пешеходным мостом.\",\"supported\":true,\"evidence\":\"The Dubai Etihad Rail station is connected to Jumeirah Golf Estates Metro Station by a dedicated pedestrian bridge, allowing passengers to transfer directly between Etihad Rail and Dubai Metro.\"},{\"claim\":\"Интеграция с системой Nol позволит бронировать поездку Etihad Rail и общественный транспорт Дубая по единому QR-коду для поезда, метро, трамвая и автобуса.\",\"supported\":true,\"evidence\":\"Integration with the Nol system will also allow passengers to book an Etihad Rail journey and Dubai public transport services using a single QR code that can be used for train, Metro, tram and bus journeys.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1803,
-        "completion_tokens": 590,
-        "total_tokens": 2393,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_33e21cda63"
-    }
-  },
   "adfad8cbb8386532e4e6f1ac2681be495d11c329748297aad636d356d553476d": {
     "saved_at": "2026-09-30T06:07:55.897796+00:00",
     "result": {
@@ -504,6 +426,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_07f0137997"
+    }
+  },
+  "7b1a88c5f0bbbbb93245317b304a6a8c12f6f7bbb09d93fc8bd8cfbffff168bb": {
+    "saved_at": "2026-10-06T02:42:10.822025+00:00",
+    "result": {
+      "id": "chatcmpl-EVpQ0xk2aKRl6OgyXWEEZbGqqe8MR",
+      "object": "chat.completion",
+      "created": 1791254528,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Dubai International Electric Vehicle Exhibition and Conference 2026 (EV World 2026) will be held from 10 to 12 November 2026 at Dubai World Trade Centre.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The event is the inaugural edition of the Dubai International Electric Vehicle Exhibition and Conference.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The event is organized by the Roads and Transport Authority (RTA).\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The event will attract more than 300 companies and 10,000 specialists.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"The exhibition will be a platform for exchanging expertise and showcasing the latest technologies in electric vehicles, hydrogen engines, charging infrastructure, and autonomous systems.\",\"supported\":true,\"evidence\":[4,6,8]},{\"claim\":\"RTA continues to implement the 'Zero-Emissions Public Transportation in Dubai 2050' strategy.\",\"supported\":true,\"evidence\":[4,8,12]},{\"claim\":\"RTA is expanding the fleet of environmentally friendly taxis and buses and developing infrastructure for electric vehicles.\",\"supported\":true,\"evidence\":[8,9,10,11]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2436,
+        "completion_tokens": 276,
+        "total_tokens": 2712,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c7861a3729"
     }
   }
 }
