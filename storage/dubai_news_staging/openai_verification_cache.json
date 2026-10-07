@@ -1,121 +1,4 @@
 {
-  "84d326c5efced94497bd3a1528084a84e0bf1f168d1a1c3591b4f6ff6919d49d": {
-    "saved_at": "2026-09-29T17:30:58.045404+00:00",
-    "result": {
-      "id": "chatcmpl-ETVxGzDJ77V9cdoypiEEl5fKmsOjt",
-      "object": "chat.completion",
-      "created": 1790703054,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"ОАЭ ускоряют переход к умной и устойчивой мобильности\",\"supported\":true,\"evidence\":\"The UAE continues to accelerate its transition towards a smart and sustainable transport ecosystem\"},{\"claim\":\"В ОАЭ активно развиваются автономные транспортные средства и инфраструктура для воздушного такси\",\"supported\":true,\"evidence\":\"autonomous vehicle operations expand, Air Taxi infrastructure advances\"},{\"claim\":\"В Дубае роботакси преодолели более 4 миллионов километров\",\"supported\":true,\"evidence\":\"Robotaxis recording more than 4 million kilometres since the service was launched through August\"},{\"claim\":\"В Абу-Даби запущены испытания автономных такси и создан тестовый центр для проверки технологий\",\"supported\":true,\"evidence\":\"In Abu Dhabi, autonomous mobility has progressed from operations to regulation and advanced testing. The emirate began trials of its TXAI self-driving taxi service on Yas Island in 2021... announced the development of the Abu Dhabi Autonomous Vehicle (AV) Test Hub\"},{\"claim\":\"В Дубае открыт первый в мире коммерческий вертипорт VDX для электрических летательных аппаратов с вертикальным взлётом и посадкой, рассчитанный на 170 тысяч пассажиров в год\",\"supported\":true,\"evidence\":\"VDX, the world’s first purpose-built commercial vertiport... The four-storey VDX facility spans approximately 3,100 square metres... It is designed to accommodate up to 170,000 passengers annually once commercial operations commence.\"},{\"claim\":\"В стране также расширяется сеть зарядных станций для электромобилей — уже около 2800 точек\",\"supported\":true,\"evidence\":\"The UAE’s charging infrastructure has expanded to approximately 2,800 charging points\"},{\"claim\":\"К 2050 году планируется, что половина автомобилей будет электрической или гибридной\",\"supported\":true,\"evidence\":\"The UAE is targeting electric and hybrid vehicles to account for 50 percent of vehicles on its roads by 2050.\"}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1567,
-        "completion_tokens": 437,
-        "total_tokens": 2004,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_763adf6784"
-    }
-  },
-  "780285b635dd21269a8b5b79f8b4dcc27d71de13ba4305b96750e577ef2dd255": {
-    "saved_at": "2026-09-29T17:54:55.392519+00:00",
-    "result": {
-      "id": "chatcmpl-ETWKTDglO5OMxiqhk3kfEJ0zT3mdm",
-      "object": "chat.completion",
-      "created": 1790704493,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В ОАЭ активно развиваются автономные транспортные средства и инфраструктура для воздушного такси.\",\"supported\":true,\"evidence\":[1,2,3,4,5,6,7,8,9]},{\"claim\":\"В Дубае роботакси преодолели более 4 миллионов километров.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"В Абу-Даби запущены испытания автономных такси и создан тестовый центр для проверки технологий.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"В Дубае открыт первый в мире коммерческий вертипорт VDX для электрических летательных аппаратов с вертикальным взлётом и посадкой, рассчитанный на 170 тысяч пассажиров в год.\",\"supported\":true,\"evidence\":[7,8,9]},{\"claim\":\"В стране также расширяется сеть зарядных станций для электромобилей — уже около 2800 точек.\",\"supported\":true,\"evidence\":[10,11]},{\"claim\":\"К 2050 году планируется, что половина автомобилей будет электрической или гибридной.\",\"supported\":true,\"evidence\":[11]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1746,
-        "completion_tokens": 269,
-        "total_tokens": 2015,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_763adf6784"
-    }
-  },
-  "495ac624fb5607f835f09fa8a629435a610c45da71ad63ff90b0dabe7c2d7f62": {
-    "saved_at": "2026-09-30T08:29:45.422126+00:00",
-    "result": {
-      "id": "chatcmpl-ETjz5patAqgC16QXWeiGVcSEI5ig6",
-      "object": "chat.completion",
-      "created": 1790756983,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае прошло совещание с участием шейха Хамдана бин Мохаммеда и президента американской компании The Boring Company, специализирующейся на тоннелях и инфраструктуре.\",\"supported\":true,\"evidence\":[0,2,3,4]},{\"claim\":\"Обсуждался прогресс в реализации проекта пассажирского транспортного тоннеля Dubai Loop.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"С момента подписания соглашения в феврале ведутся подготовительные работы, включая сборку тоннелепроходческого комплекса и изготовление бетонных сегментов для тоннеля.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"Dubai Loop предусматривает использование электромобилей для подземного транспорта, что повысит мобильность и улучшит транспортную связь в городе.\",\"supported\":true,\"evidence\":[5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1008,
-        "completion_tokens": 211,
-        "total_tokens": 1219,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_dc7caa3f28"
-    }
-  },
   "2e26366dd5b32f792ff50af88ee144aca3be182b9f41be8942152ceb3ad918c2": {
     "saved_at": "2026-09-30T08:41:15.985305+00:00",
     "result": {
@@ -504,6 +387,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_c7861a3729"
+    }
+  },
+  "4650054d254060e86ede6b1c048a8c941cd5463e6c63b02a39af338825a4198f": {
+    "saved_at": "2026-10-07T08:34:13.258509+00:00",
+    "result": {
+      "id": "chatcmpl-EWHODV0eBI2XKTbqFEL8XFqvD33go",
+      "object": "chat.completion",
+      "created": 1791362049,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":false,\"reason\":\"The post claims that Dubai Ride 2026 is the largest city cycling event, held on November 1 on the 14-lane Sheikh Zayed Road, free participation, with 4km and 12km routes for all ages and fitness levels, part of the Dubai Fitness Challenge celebrating its 10th anniversary from October 31 to November 29, starting from five points including Museum of the Future and Coca-Cola Arena, participants receive free T-shirts, and must bring their own bike and helmet. The source supports all these claims except the post's headline emoji (metro emoji) is inappropriate as the event is a cycling ride, not metro-related. Therefore, the factual claims are supported, but the emoji is not appropriate, leading to rejection.\",\"emoji_verdicts\":[{\"paragraph\":0,\"emoji\":\"🚇\",\"supported\":false,\"reason\":\"The metro emoji is inappropriate for a cycling event; the source describes a cycling ride, not metro transport.\"}],\"claims\":[{\"claim\":\"Registration is open for Dubai Ride 2026, the city's biggest community cycling event.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Dubai Ride 2026 will be held on November 1 on the 14-lane Sheikh Zayed Road.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Participation is free.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"There are 4km and 12km routes available for all ages and fitness levels.\",\"supported\":true,\"evidence\":[3,9]},{\"claim\":\"Dubai Ride is part of the Dubai Fitness Challenge, which is celebrating its 10th anniversary from October 31 to November 29.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"The ride starts from five points including Museum of the Future and Coca-Cola Arena.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"Participants will receive free T-shirts.\",\"supported\":true,\"evidence\":[12]},{\"claim\":\"Participants must bring their own bike and helmet.\",\"supported\":true,\"evidence\":[24]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1769,
+        "completion_tokens": 425,
+        "total_tokens": 2194,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_3de8ea34d5"
     }
   }
 }
