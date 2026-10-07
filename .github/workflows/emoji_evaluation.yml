@@ -1,0 +1,44 @@
+name: Isolated emoji evaluation
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dubai-news-storage
+  cancel-in-progress: false
+jobs:
+  evaluate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Load isolated experiment and clean main budget checkout
+        run: |
+          git fetch origin main experiment/emoji-subject-selection
+          echo "Experiment SHA: $(git rev-parse origin/experiment/emoji-subject-selection)" >> "$GITHUB_STEP_SUMMARY"
+          git restore --source=origin/experiment/emoji-subject-selection --worktree -- src tests scripts/evaluate_emoji_subjects.py scripts/emoji_evaluation_budget.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git worktree add --detach "$RUNNER_TEMP/emoji-eval-main" origin/main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r src/requirements.txt pytest pytest-subtests
+      - name: Offline contract tests before spending
+        run: python -m pytest tests -q
+      - name: Evaluate exactly one saved cycling text
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MAX_CALLS_PER_DAY: '8'
+          OPENAI_MONTHLY_BUDGET_USD: '3'
+          OPENAI_BYPASS_DAILY_LIMIT: 'false'
+          BOT_ENVIRONMENT: emoji_evaluation
+        run: python scripts/evaluate_emoji_subjects.py --live --case cycling --state-checkout "$RUNNER_TEMP/emoji-eval-main" > "$RUNNER_TEMP/emoji-evaluation-result.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: emoji-evaluation-result
+          path: ${{ runner.temp }}/emoji-evaluation-result.json
+          retention-days: 7

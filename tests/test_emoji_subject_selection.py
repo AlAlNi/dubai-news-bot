@@ -59,3 +59,8 @@ class SubjectSelectionTests(TestCase):
             os.environ["OPENAI_BYPASS_DAILY_LIMIT"] = "false"
             os.environ["GITHUB_ACTIONS"] = "true"
             self.assertFalse(live_context_allowed())
+            os.environ["GITHUB_EVENT_NAME"] = "workflow_dispatch"
+            os.environ["GITHUB_REF"] = "refs/heads/main"
+            self.assertTrue(live_context_allowed())
+            os.environ["GITHUB_EVENT_NAME"] = "push"
+            self.assertFalse(live_context_allowed())

@@ -10,8 +10,12 @@ LEDGER = "storage/dubai_news/openai_budget.json"
 
 class EvaluationBudget(Budget):
     def __init__(self, state_checkout):
-        if os.getenv("GITHUB_ACTIONS") == "true" or os.getenv("BOT_ENVIRONMENT") == "staging":
-            raise BudgetUnavailable("Local evaluation requires a dedicated local main checkout")
+        if os.getenv("GITHUB_ACTIONS") == "true" and (
+                os.getenv("GITHUB_EVENT_NAME") != "workflow_dispatch"
+                or os.getenv("GITHUB_REF") != "refs/heads/main"):
+            raise BudgetUnavailable("Actions evaluation requires manual main context")
+        if os.getenv("BOT_ENVIRONMENT") == "staging":
+            raise BudgetUnavailable("Evaluation must use its dedicated main state checkout")
         self.checkout = Path(state_checkout).resolve()
         super().__init__(self.checkout / "storage/dubai_news")
         if self.git("status", "--porcelain").strip():

@@ -27,7 +27,9 @@ def evaluate_mock(case):
 
 
 def live_context_allowed():
-    return (os.getenv("GITHUB_ACTIONS") != "true"
+    return ((os.getenv("GITHUB_ACTIONS") != "true" or (
+                os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch"
+                and os.getenv("GITHUB_REF") == "refs/heads/main"))
             and os.getenv("BOT_ENVIRONMENT") != "staging"
             and os.getenv("OPENAI_BYPASS_DAILY_LIMIT", "false").lower() != "true"
             and bool(os.getenv("OPENAI_API_KEY", "").strip()))

@@ -161,11 +161,13 @@ def decorate_summary(text, storage_dir):
 
 def evaluate_summary(text, storage_dir, budget_factory):
     """Non-publishing one-call evaluation; shared durable budget supplied by runner."""
-    result = _decorate_summary(text, storage_dir, budget_factory, "emoji_evaluation")
+    result = _decorate_summary(text, storage_dir, budget_factory, "emoji_evaluation",
+                               lambda path, cache: atomic_json(path, dict(list(cache.items())[-500:])))
     return {**result, "publication_approved": False, "evaluation_only": True}
 
 
-def _decorate_summary(text, storage_dir, budget_factory, reservation_kind):
+def _decorate_summary(text, storage_dir, budget_factory, reservation_kind, save_pending=None):
+    save_pending = save_pending or persist_cache
     base = {"post": text, "status": "fallback", "reason": "", "reason_code": "",
             "diagnostics": {}, "decoration_count": 0, "omitted_duplicate_emoji": 0,
             "api_calls": 0, "cached": False}
@@ -207,7 +209,7 @@ def _decorate_summary(text, storage_dir, budget_factory, reservation_kind):
         budget.reserve(reservation_kind)
         cache[cache_key] = {"saved_at": datetime.now(timezone.utc).isoformat(),
                             "result": {"status": "pending", "reason_code": "previous_attempt_incomplete"}}
-        persist_cache(path, cache)
+        save_pending(path, cache)
     except (BudgetUnavailable, OSError, ValueError, subprocess.SubprocessError):
         return {**base, "reason": "Emoji budget or durable reservation unavailable",
                 "reason_code": "budget_or_persistence_unavailable"}
