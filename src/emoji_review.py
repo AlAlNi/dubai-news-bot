@@ -1,5 +1,6 @@
 """Exact identities of emoji prefixes inserted before the final review."""
 PALETTE = ("✈️", "🚇", "🚌", "🚗", "🅿️", "🍽️", "🎭", "🏦", "🏠", "🎓", "🏥", "📅", "📦", "💳", "💱", "💻", "💰", "🧪")
+PALETTE += ("🚲", "⚡", "🔋", "🔌", "🏃", "🏅", "🎨", "📚", "🌳", "🌧️", "☀️", "🛒", "🏗️", "📱", "⚖️", "♿")
 
 
 def inserted_emoji(summary):

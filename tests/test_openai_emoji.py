@@ -22,7 +22,14 @@ class EmojiTests(TestCase):
         env.start()
         self.addCleanup(env.stop)
 
-    def response(self, value=VALUE):
+    def response(self, value=VALUE, text=TEXT):
+        import copy, re
+        from html import unescape
+        value = copy.deepcopy(value)
+        for item in value.get("decorations", []):
+            if isinstance(item, dict):
+                index = item.get("paragraph")
+                item["subject"] = unescape(re.sub(r"<[^>]*>", "", text.split("\n\n")[index]))[:30] if type(index) is int and 0 <= index < len(text.split("\n\n")) else "subject"
         response = Mock(status_code=200)
         response.json.return_value = {'choices': [{'finish_reason': 'stop', 'message': {'content': json.dumps(value)}}], 'usage': {'prompt_tokens': 100, 'completion_tokens': 20}}
         return response
@@ -61,6 +68,28 @@ class EmojiTests(TestCase):
         request.assert_called_once()
         self.assertEqual(request.call_args.kwargs['json']['model'], MODEL)
         self.assertEqual(request.call_args.kwargs['max_attempts'], 1)
+
+    def test_subject_abstention_counts_no_insertions_and_is_cached(self):
+        value = {'decorations': [{'paragraph': 0, 'subject': 'Emirates', 'emoji': None}]}
+        with patch('openai_emoji.request_with_retry', return_value=self.response(value)) as request:
+            first = decorate_summary(TEXT, self.temp.name)
+            second = decorate_summary(TEXT, self.temp.name)
+        request.assert_called_once()
+        self.assertEqual(first['post'], TEXT)
+        self.assertEqual(first['status'], 'decorated')
+        self.assertEqual(first['decoration_count'], 0)
+        self.assertEqual(first['omitted_duplicate_emoji'], 0)
+        self.assertEqual(first['subject_selections'][0]['emoji'], None)
+        self.assertEqual(second['post'], TEXT)
+        self.assertEqual(second['api_calls'], 0)
+
+    def test_api_requires_subject_even_when_legacy_placement_is_valid(self):
+        response = self.response()
+        response.json.return_value['choices'][0]['message']['content'] = json.dumps(VALUE)
+        with patch('openai_emoji.request_with_retry', return_value=response):
+            result = decorate_summary(TEXT, self.temp.name)
+        self.assertEqual(result['post'], TEXT)
+        self.assertEqual(result['reason_code'], 'invalid_decoration_fields')
 
     def test_network_failure_keeps_original_and_does_not_retry(self):
         with patch('openai_emoji.request_with_retry', side_effect=TimeoutError('offline')) as request:
@@ -235,7 +264,7 @@ class EmojiTests(TestCase):
         paragraphs = before.split('\n\n')
         self.assertEqual(after, '<b>📅 ' + paragraphs[0][3:] + '\n\n' + paragraphs[1] + '\n\n🎭 ' + paragraphs[2])
         self.assertEqual(after.replace('📅 ', '', 1).replace('🎭 ', '', 1), before)
-        with patch('openai_emoji.request_with_retry', return_value=self.response(response)) as request:
+        with patch('openai_emoji.request_with_retry', return_value=self.response(response, before)) as request:
             first = decorate_summary(before, self.temp.name)
             second = decorate_summary(before, self.temp.name)
         self.assertEqual(first['status'], 'decorated')
