@@ -1,6 +1,13 @@
 name: Isolated emoji evaluation
 on:
   workflow_dispatch:
+    inputs:
+      case:
+        description: Saved text for one isolated emoji evaluation
+        type: choice
+        required: true
+        default: cycling
+        options: [cycling, parking, electric_vehicle, education]
 permissions:
   contents: write
 concurrency:
@@ -29,14 +36,15 @@ jobs:
       - run: pip install -r src/requirements.txt pytest pytest-subtests
       - name: Offline contract tests before spending
         run: python -m pytest tests -q
-      - name: Evaluate exactly one saved cycling text
+      - name: Evaluate exactly one selected saved text
         env:
+          EVALUATION_CASE: ${{ inputs.case }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MAX_CALLS_PER_DAY: '8'
           OPENAI_MONTHLY_BUDGET_USD: '3'
           OPENAI_BYPASS_DAILY_LIMIT: 'false'
           BOT_ENVIRONMENT: emoji_evaluation
-        run: python scripts/evaluate_emoji_subjects.py --live --case cycling --state-checkout "$RUNNER_TEMP/emoji-eval-main" > "$RUNNER_TEMP/emoji-evaluation-result.json"
+        run: python scripts/evaluate_emoji_subjects.py --live --case "$EVALUATION_CASE" --state-checkout "$RUNNER_TEMP/emoji-eval-main" > "$RUNNER_TEMP/emoji-evaluation-result.json"
       - uses: actions/upload-artifact@v4
         with:
           name: emoji-evaluation-result
