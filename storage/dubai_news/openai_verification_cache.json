@@ -1,43 +1,4 @@
 {
-  "adfad8cbb8386532e4e6f1ac2681be495d11c329748297aad636d356d553476d": {
-    "saved_at": "2026-09-30T06:07:55.897796+00:00",
-    "result": {
-      "id": "chatcmpl-EThlp7wZiEZrlDNvJsjvIRv9D8194",
-      "object": "chat.completion",
-      "created": 1790748473,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Наследный принц Дубая шейх Хамдан бин Мохаммед встретился с президентом американской компании The Boring Company Стивом Дэвисом для обсуждения прогресса в проекте подземного пассажирского транспорта Dubai Loop.\",\"supported\":true,\"evidence\":[0,2,4]},{\"claim\":\"Встреча прошла в офисе шейха в Дубае с участием министров и руководителей транспортной сферы.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"Проект Dubai Loop предусматривает создание подземной транспортной системы с использованием электромобилей, направленной на улучшение мобильности и связности в городе.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"С февраля ведутся подготовительные работы, включая сборку тоннелепроходческого комплекса и изготовление бетонных сегментов для тоннелей.\",\"supported\":true,\"evidence\":[4,5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1021,
-        "completion_tokens": 231,
-        "total_tokens": 1252,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_dc7caa3f28"
-    }
-  },
   "3484186b355489330951100c2a1d74b425179d8d39c26ad39263c05a5536e0a9": {
     "saved_at": "2026-10-01T07:10:11.622410+00:00",
     "result": {
@@ -543,6 +504,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_07f0137997"
+    }
+  },
+  "36aaabe4ed6288689b3f2ac7cacfd2863dcf6b6191edc2830a3cb6688366b2a4": {
+    "saved_at": "2026-10-07T07:53:03.516758+00:00",
+    "result": {
+      "id": "chatcmpl-EWGkPNg0zbxMwXpUGWlYnu84SJKSQ",
+      "object": "chat.completion",
+      "created": 1791359581,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"DIB и Expo City Dubai запускают финансирование жилья на этапе строительства\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"DIB, крупнейший исламский банк ОАЭ, заключил стратегическое партнерство с Expo City Dubai для предоставления финансирования на покупку недвижимости в строящихся объектах\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Программа позволяет финансировать до 50% стоимости жилья после 35% завершения строительства и оплаты покупателем половины цены\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Финансирование доступно на срок до 25 лет для граждан и резидентов ОАЭ без требования перевода зарплаты\",\"supported\":true,\"evidence\":[5,6]},{\"claim\":\"Клиенты платят только прибыль в период строительства, а полные ежемесячные платежи начинаются при передаче ключей или через 24 месяца после получения финансирования\",\"supported\":true,\"evidence\":[4,8]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1260,
+        "completion_tokens": 236,
+        "total_tokens": 1496,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_3de8ea34d5"
     }
   }
 }
