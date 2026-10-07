@@ -12,6 +12,11 @@ from openai_budget import Budget, BudgetUnavailable, MODEL, INPUT_TOKEN_CEILING,
 from openai_verifier import cache_read
 
 NEWS_PROMPT = (
+    "The source published_at is article-publication metadata for freshness only, not an event date. "
+    "Preserve historical launch and event dates explicitly stated in source text, even when their "
+    "year differs from published_at. Never replace an event year with the publication year or "
+    "present an existing programme as a new launch. If an event date is unstated, do not infer it "
+    "from publication metadata. "
     "Напиши точный русский новостной текст ТОЛЬКО по исходнику. Не добавляй знания, советы, "
     "объяснения важности или последствия. Сохрани имена, места, числа, единицы, даты, "
     "атрибуцию, отрицания и степень уверенности. Планы не превращай в свершившиеся события. "

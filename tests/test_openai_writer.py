@@ -51,6 +51,40 @@ class WriterTests(unittest.TestCase):
             self.assertEqual(prepare_post(self.source, self.path)["status"], "deferred")
             req.assert_not_called()
 
+    def test_historical_year_and_publication_metadata_stay_separate(self):
+        import hashlib
+        import openai_writer
+        fixture = json.loads((Path(__file__).parent / "fixtures/writer_historical_year.json").read_text(encoding="utf-8"))
+        with patch("openai_writer.request_with_retry", return_value=self.response) as request:
+            prepare_post(fixture["source"], self.path)
+        payload = request.call_args.kwargs["json"]
+        source = json.loads(payload["messages"][1]["content"])["source"]
+        self.assertEqual(source, fixture["source"])
+        self.assertIn("October 5, 2024", source["text"])
+        self.assertTrue(source["published_at"].startswith("2026-10-05"))
+        instruction = payload["messages"][0]["content"]
+        self.assertIn("freshness only, not an event date", instruction)
+        self.assertIn("existing programme as a new launch", instruction)
+        old = json.loads(json.dumps(payload))
+        old["messages"][0]["content"] = instruction.replace(openai_writer.NEWS_PROMPT.split("Напиши", 1)[0], "", 1)
+        key = lambda value: hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+        self.assertNotEqual(key(payload), key(old))
+
+    def test_saved_wrong_year_rejected_corrected_year_approved_offline(self):
+        from source_verification import _validate_completion
+        fixture = json.loads((Path(__file__).parent / "fixtures/writer_historical_year.json").read_text(encoding="utf-8"))
+        review = fixture["bad_review"]
+        def validate(post):
+            raw = {"choices": [{"finish_reason": "stop", "message": {"content": json.dumps(review)}}]}
+            return _validate_completion(raw, fixture["source"], post, "offline", "openai")
+        self.assertEqual(validate(fixture["bad_post"])["status"], "rejected")
+        # Mocked reviewer: verifies the contract, not real model performance.
+        post = fixture["bad_post"].replace("2026 года", "2024 года").replace("стартовала", "действует")
+        review.update(supported=True, reason="Historical date preserved", emoji_verdicts=[])
+        for claim in review["claims"]:
+            claim.update(supported=True, claim=claim["claim"].replace("2026 года", "2024 года"))
+        self.assertEqual(validate(post)["status"], "approved")
+
     def test_timeout_is_not_retried_on_next_run(self):
         with patch("openai_writer.request_with_retry", side_effect=TimeoutError) as req:
             self.assertEqual(prepare_post(self.source, self.path)["status"], "error")
