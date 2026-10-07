@@ -145,7 +145,7 @@ class Budget:
             raise BudgetUnavailable("Budget reservation could not be pushed; OpenAI request cancelled")
 
     def reserve(self, kind="verification"):
-        if kind not in {"verification", "generation", "emoji", "search", "astra_search"}:
+        if kind not in {"verification", "generation", "emoji", "emoji_evaluation", "search", "astra_search"}:
             raise BudgetUnavailable("Unknown OpenAI operation")
         monthly_limit, daily_limit = limits()
         bypass_daily = manual_daily_limit_bypass()
@@ -153,6 +153,7 @@ class Budget:
                   "astra_search": ASTRA_RESERVATION_MICROUSD,
                   "verification": RESERVATION_MICROUSD,
                   "emoji": RESERVATION_MICROUSD,
+                  "emoji_evaluation": RESERVATION_MICROUSD,
                   "generation": RESERVATION_MICROUSD}[kind]
         reservation_id = None
         with self.locked():
@@ -163,10 +164,10 @@ class Budget:
                 "output_tokens": 0, "estimated_microusd": 0,
             })
             required_calls = 2 if kind in {"generation", "emoji"} else 1
-            if not bypass_daily and day["calls"] + required_calls > daily_limit:
+            if (kind == "emoji_evaluation" or not bypass_daily) and day["calls"] + required_calls > daily_limit:
                 raise BudgetUnavailable("Daily OpenAI call limit reached")
             # Do not buy discovery if no budget remains to verify even one resulting post.
-            headroom = RESERVATION_MICROUSD * {"verification": 0, "generation": 1, "emoji": 1, "search": 2, "astra_search": 2}[kind]
+            headroom = RESERVATION_MICROUSD * {"verification": 0, "generation": 1, "emoji": 1, "emoji_evaluation": 0, "search": 2, "astra_search": 2}[kind]
             if month["reserved_microusd"] + amount + headroom > monthly_limit:
                 raise BudgetUnavailable("Monthly OpenAI budget reached")
             if kind in {"search", "astra_search"}:

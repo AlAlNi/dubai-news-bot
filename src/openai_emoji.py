@@ -156,6 +156,16 @@ def apply_decorations(text, value):
 
 
 def decorate_summary(text, storage_dir):
+    return _decorate_summary(text, storage_dir, Budget, "emoji")
+
+
+def evaluate_summary(text, storage_dir, budget_factory):
+    """Non-publishing one-call evaluation; shared durable budget supplied by runner."""
+    result = _decorate_summary(text, storage_dir, budget_factory, "emoji_evaluation")
+    return {**result, "publication_approved": False, "evaluation_only": True}
+
+
+def _decorate_summary(text, storage_dir, budget_factory, reservation_kind):
     base = {"post": text, "status": "fallback", "reason": "", "reason_code": "",
             "diagnostics": {}, "decoration_count": 0, "omitted_duplicate_emoji": 0,
             "api_calls": 0, "cached": False}
@@ -191,10 +201,10 @@ def decorate_summary(text, storage_dir):
                     "diagnostics": cached.get("diagnostics", {})}
     if not os.getenv("OPENAI_API_KEY", "").strip():
         return {**base, "reason": "Missing OpenAI key", "reason_code": "missing_api_key"}
-    budget = Budget(storage_dir)
+    budget = budget_factory(storage_dir)
     try:
         # Leave one call and its monthly reservation for the mandatory verifier.
-        budget.reserve("emoji")
+        budget.reserve(reservation_kind)
         cache[cache_key] = {"saved_at": datetime.now(timezone.utc).isoformat(),
                             "result": {"status": "pending", "reason_code": "previous_attempt_incomplete"}}
         persist_cache(path, cache)

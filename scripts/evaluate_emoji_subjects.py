@@ -1,7 +1,7 @@
 """Emoji-only evaluation, never a publication approval.
 
 Default: offline mocked corpus validation. Future separately authorized live use:
---live --case cycling, only inside a manual main staging Actions checkout.
+--live --case cycling --state-checkout PATH, after separate authorization.
 It calls the existing budgeted emoji stage once; no writer, verifier or sender.
 The result requires human semantic evaluation and cannot authorize publication.
 """
@@ -27,28 +27,31 @@ def evaluate_mock(case):
 
 
 def live_context_allowed():
-    return all(os.getenv(key) == expected for key, expected in {
-        "GITHUB_ACTIONS": "true", "GITHUB_EVENT_NAME": "workflow_dispatch",
-        "GITHUB_REF": "refs/heads/main", "BOT_ENVIRONMENT": "staging",
-    }.items()) and os.getenv("OPENAI_BYPASS_DAILY_LIMIT", "false").lower() != "true"
+    return (os.getenv("GITHUB_ACTIONS") != "true"
+            and os.getenv("BOT_ENVIRONMENT") != "staging"
+            and os.getenv("OPENAI_BYPASS_DAILY_LIMIT", "false").lower() != "true"
+            and bool(os.getenv("OPENAI_API_KEY", "").strip()))
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--live", action="store_true")
+    parser.add_argument("--state-checkout", type=Path)
     parser.add_argument("--case", choices=["parking", "electric_vehicle", "cycling", "education"])
     args = parser.parse_args()
     cases = json.loads((ROOT / "tests/fixtures/emoji_subject_corpus.json").read_text(encoding="utf-8"))
     cases = [case for case in cases if not args.case or case["id"] == args.case]
     if args.live:
-        if not args.case or not live_context_allowed():
-            parser.error("Live evaluation requires one case and manual main staging context; obtain separate approval first")
-        # Existing stage retains one verification slot, shared ledger, durable
-        # reservation and no automatic retry. Evaluation never invokes verification.
-        from openai_emoji import decorate_summary
-        storage = ROOT / "storage/dubai_news_staging_emoji_eval"
+        if not args.case or not args.state_checkout or not live_context_allowed():
+            parser.error("Live evaluation requires one case, main state checkout and local OPENAI_API_KEY; obtain separate approval first")
+        if os.getenv("OPENAI_BYPASS_DAILY_LIMIT", "false").lower() == "true":
+            parser.error("Evaluation does not allow budget bypass")
+        from openai_emoji import evaluate_summary
+        from emoji_evaluation_budget import EvaluationBudget
+        budget = EvaluationBudget(args.state_checkout)
+        storage = args.state_checkout.resolve().parent / "emoji-evaluation-cache"
         storage.mkdir(parents=True, exist_ok=True)
-        report = decorate_summary(cases[0]["text"], storage)
+        report = evaluate_summary(cases[0]["text"], storage, lambda _: budget)
         output = [{"case": args.case, "evaluation": "live_emoji_only_requires_human_review",
                    "publication_approved": False, "result": report}]
     else:

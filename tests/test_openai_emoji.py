@@ -83,6 +83,25 @@ class EmojiTests(TestCase):
         self.assertEqual(second['post'], TEXT)
         self.assertEqual(second['api_calls'], 0)
 
+    def test_evaluation_one_call_never_invokes_writer_verifier_or_sender(self):
+        from openai_emoji import evaluate_summary
+        budget = Budget(self.temp.name)
+        for _ in range(7):
+            budget.reserve()
+        with patch('openai_emoji.request_with_retry', return_value=self.response()) as request, patch(
+            'openai_writer.prepare_post') as writer, patch('source_verification.verify_summary') as verifier:
+            result = evaluate_summary(TEXT, self.temp.name, lambda _: budget)
+            cached = evaluate_summary(TEXT, self.temp.name, lambda _: budget)
+        request.assert_called_once()
+        writer.assert_not_called()
+        verifier.assert_not_called()
+        self.assertTrue(result['evaluation_only'])
+        self.assertFalse(result['publication_approved'])
+        self.assertEqual(result['api_calls'], 1)
+        self.assertEqual(cached['api_calls'], 0)
+        day = next(iter(next(iter(budget.read()['months'].values()))['days'].values()))
+        self.assertEqual(day['calls'], 8)
+
     def test_api_requires_subject_even_when_legacy_placement_is_valid(self):
         response = self.response()
         response.json.return_value['choices'][0]['message']['content'] = json.dumps(VALUE)

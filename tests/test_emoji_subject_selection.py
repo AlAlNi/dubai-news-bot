@@ -49,12 +49,13 @@ class SubjectSelectionTests(TestCase):
         self.assertFalse(valid_emoji_verdicts(post, [{"paragraph": 0, "emoji": "🚇", "supported": False,
                                                     "reason": "Cycling is not metro"}]))
 
-    def test_live_evaluation_requires_manual_staging_and_no_bypass(self):
+    def test_live_evaluation_requires_local_key_and_no_actions_or_bypass(self):
         with patch.dict(os.environ, {}, clear=True):
             self.assertFalse(live_context_allowed())
-        env = {"GITHUB_ACTIONS": "true", "GITHUB_EVENT_NAME": "workflow_dispatch",
-               "GITHUB_REF": "refs/heads/main", "BOT_ENVIRONMENT": "staging"}
-        with patch.dict(os.environ, env, clear=True):
+        with patch.dict(os.environ, {"OPENAI_API_KEY": "offline-test-key"}, clear=True):
             self.assertTrue(live_context_allowed())
             os.environ["OPENAI_BYPASS_DAILY_LIMIT"] = "true"
+            self.assertFalse(live_context_allowed())
+            os.environ["OPENAI_BYPASS_DAILY_LIMIT"] = "false"
+            os.environ["GITHUB_ACTIONS"] = "true"
             self.assertFalse(live_context_allowed())

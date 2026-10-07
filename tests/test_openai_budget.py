@@ -35,6 +35,33 @@ class OpenAIBudgetTests(unittest.TestCase):
         state = json.loads(self.path.read_text())
         self.assertEqual(state["months"]["2026-09"]["reserved_microusd"], 9 * RESERVATION_MICROUSD)
 
+    def test_isolated_evaluation_uses_last_slot_without_weakening_normal_guards(self):
+        for _ in range(7):
+            self.budget().reserve()
+        for kind in ["generation", "emoji"]:
+            with self.assertRaisesRegex(BudgetUnavailable, "Daily"):
+                self.budget().reserve(kind)
+        self.budget().reserve("emoji_evaluation")
+        day = self.budget().read()["months"]["2026-09"]["days"]["2026-09-15"]
+        self.assertEqual(day["calls"], 8)
+        self.assertEqual(day["reserved_microusd"], 8 * RESERVATION_MICROUSD)
+        with patch("openai_budget.manual_daily_limit_bypass", return_value=True):
+            with self.assertRaisesRegex(BudgetUnavailable, "Daily"):
+                self.budget().reserve("emoji_evaluation")
+
+    def test_isolated_evaluation_monthly_limit_and_normal_headroom(self):
+        with patch.dict(os.environ, {"OPENAI_MONTHLY_BUDGET_USD": "0.01056"}):
+            with self.assertRaisesRegex(BudgetUnavailable, "Monthly"):
+                self.budget().reserve("emoji")
+            self.budget().reserve("emoji_evaluation")
+            with self.assertRaisesRegex(BudgetUnavailable, "Monthly"):
+                self.budget(day=16).reserve("emoji_evaluation")
+
+    def test_isolated_evaluation_must_persist_before_spend(self):
+        with patch.object(Budget, "persist_before_spend", side_effect=BudgetUnavailable("persist failed")):
+            with self.assertRaisesRegex(BudgetUnavailable, "persist failed"):
+                self.budget().reserve("emoji_evaluation")
+
     def test_monthly_limit_and_month_rollover(self):
         with patch.dict(os.environ, {"OPENAI_MONTHLY_BUDGET_USD": "0.02"}):
             self.budget().reserve()
