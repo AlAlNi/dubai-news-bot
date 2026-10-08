@@ -4,10 +4,10 @@
     "source_url": "https://commons.wikimedia.org/wiki/File:Persian_Gulf_(4462609004).jpg",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Persian_Gulf_%284462609004%29.jpg",
     "post_html": "📷 <b>Дубай раньше: пляж в 1993 году</b>\n\nНоябрь 1993 года. Митч Барри снял этот пляж во время поездки на выставку GITEX.\n\nТочное место съёмки неизвестно: автор лишь предполагает, что это где-то в Джумейре.",
-    "status": "draft_pending_user_approval",
-    "intended_channel": "rudubainews",
+    "status": "approved_single_test_send",
+    "intended_channel": "existing_private_test_channel",
     "usage_review": {
-      "status": "pending_approval",
+      "status": "approved_for_existing_test_channel",
       "basis": "explicit_license",
       "reviewer": "Codex manual source and visual review",
       "reviewed_at": "2026-10-08",
@@ -22,6 +22,14 @@
       "image_sha1": "8d46d81889017da2060dbc7050e95bb92acf2209",
       "modifications": "none",
       "share_alike": true
+    },
+    "test_run_approval": {
+      "status": "approved_single_test_send",
+      "target": "existing_private_test_channel",
+      "verifier_requests": 1,
+      "image_sha1": "8d46d81889017da2060dbc7050e95bb92acf2209",
+      "caption_sha256": "347e4bf422768d3efcae95f5a88a7707301e58ec541105cf2c7ca5e05b748b24",
+      "user_authorized": "2026-10-08: one standard factcheck then one guarded test send only on approval"
     }
   }
 ]

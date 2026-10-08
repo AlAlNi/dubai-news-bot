@@ -92,7 +92,7 @@ class CommonsTests(unittest.TestCase):
     def test_caption_contains_title_author_card_license_and_no_national_label(self):
         caption = photo_payload(self.item,self.channel)['caption']
         for value in ['Mitch Barrie', 'Persian Gulf', self.item['source_url'],
-                      'https://creativecommons.org/licenses/by-sa/2.0/', 'Без изменений.', 'CC BY-SA 2.0']:
+                      'https://creativecommons.org/licenses/by-sa/2.0/', 'Фото без изменений.', 'CC BY-SA 2.0']:
             self.assertIn(value,caption)
         self.assertNotIn('The National',caption)
         self.assertIn('лишь предполагает',caption)
@@ -110,7 +110,7 @@ class CommonsTests(unittest.TestCase):
         item = json.loads((ROOT/'config/retro_beach_draft.json').read_text(encoding='utf-8'))[0]
         self.assertFalse(usage_allowed(item,self.channel))
         with self.assertRaises(ValueError): photo_payload(item,self.channel)
-        self.assertIn('Карточка Wikimedia Commons',caption_html(item))
+        self.assertIn('Wikimedia Commons',caption_html(item))
 
     def test_commons_stage_keeps_verifier_and_send_guard(self):
         with tempfile.TemporaryDirectory() as temp:

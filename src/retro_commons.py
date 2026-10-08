@@ -68,6 +68,8 @@ def validate_metadata(item, data):
             + '\nAuthor: ' + review['author']
             + '\nOriginal author description: ' + review['metadata']['ImageDescription']
             + '\nLicense: ' + review['metadata']['LicenseShortName']
+            + '\nLicense URL: ' + review['metadata']['LicenseUrl']
+            + '\nImage handling: the original JPEG was reviewed visually and matched the Commons SHA-1; no edits were made.'
             + '\nProvenance: ' + review['provenance_note'])
     return source_snapshot('Historical photograph of Dubai', text, review['source_url'])
 

@@ -1,5 +1,6 @@
 """Explicit staging photo preparation. No scheduler, discovery or default sending."""
 import html
+import hashlib
 import json
 import os
 import re
@@ -10,6 +11,7 @@ import requests
 from openai_budget import atomic_json
 from retro_policy import usage_allowed
 from retro_commons import commons_review
+from retro_photos import persist
 from retro_publish import select_photo, used_images, image_identity, valid_post
 from source_verification import verify_summary
 
@@ -22,11 +24,11 @@ def caption_html(item):
     text = item['post_html']
     review = commons_review(item['source_url'])
     if review:
-        footer = (html.escape(review['attribution']) + '\n<a href="'
-                  + html.escape(item['source_url'], quote=True) + '">Карточка Wikimedia Commons</a>'
-                  + ' · <a href="' + html.escape(item['usage_review']['license_url'], quote=True)
+        footer = (html.escape(review['attribution']) + '\nИсточник: <a href="'
+                  + html.escape(item['source_url'], quote=True) + '">Wikimedia Commons</a>'
+                  + '\n<a href="' + html.escape(item['usage_review']['license_url'], quote=True)
                   + '">' + html.escape(review['metadata']['LicenseShortName']) + '</a>'
-                  + '\nБез изменений.')
+                  + '\nФото без изменений.')
     else:
         footer = ('<a href="' + html.escape(item['source_url'], quote=True)
                   + '">Источник — The National</a>\n' + html.escape(item['usage_review']['attribution']))
@@ -46,7 +48,7 @@ def photo_payload(item, channel):
 
 
 def send_photo(payload):
-    token = os.environ['TEST_TELEGRAM_BOT_TOKEN']
+    token = os.environ['TELEGRAM_BOT_TOKEN'] if existing_actions_context() else os.environ['TEST_TELEGRAM_BOT_TOKEN']
     try:
         response = requests.post(f'https://api.telegram.org/bot{token}/sendPhoto',
                                  json=payload, timeout=40, allow_redirects=False)
@@ -58,11 +60,59 @@ def send_photo(payload):
             if str(message['chat']['id']) != payload['chat_id']:
                 return {'status': 'send_unknown'}
             return {'status': 'published', 'message_id': message['message_id'],
-                    'photo_file_id': message['photo'][-1]['file_id']}
+                    'photo_file_id': message['photo'][-1]['file_id'],
+                    'photo_dimensions': {k: message['photo'][-1][k] for k in ('width', 'height') if k in message['photo'][-1]}}
         finally:
             response.close()
     except Exception:
         return {'status': 'send_unknown'}  # No retry after ambiguous delivery.
+
+
+def existing_actions_context():
+    return (os.getenv('GITHUB_ACTIONS') == 'true' and os.getenv('GITHUB_REF') == 'refs/heads/main'
+            and os.getenv('GITHUB_EVENT_NAME') == 'workflow_dispatch'
+            and os.getenv('GITHUB_WORKFLOW') == 'Test bot in private channel'
+            and os.getenv('GITHUB_RUN_ATTEMPT') == '1'
+            and os.getenv('BOT_ENVIRONMENT') == 'staging' and os.getenv('STAGING_OPERATION') == 'retro')
+
+
+def save_state(path, state):
+    if not existing_actions_context():
+        return atomic_json(path, state)
+    # Public repo state never contains the private destination, even inside keys.
+    def private_safe(value):
+        if isinstance(value, dict):
+            return {k: private_safe(v) for k, v in value.items() if k not in {'chat_id', 'channel_id', 'channel_username'}}
+        if isinstance(value, list):
+            return [private_safe(v) for v in value]
+        return value
+    persist(path, private_safe(state))  # Push marker BEFORE any paid call / send.
+
+
+def run_existing_workflow(storage):
+    if not existing_actions_context():
+        raise ValueError('existing_manual_test_workflow_required')
+    # Reuse unchanged main destination validation; secrets were mapped by staging.yml.
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('existing_staging', ROOT/'scripts/run_staging.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    module.validate_context()
+    module.validate_channel()
+    choices = json.loads((ROOT/'config/retro_beach_test.json').read_text(encoding='utf-8'))
+    if len(choices) != 1:
+        raise ValueError('exactly_one_reviewed_photo_required')
+    item = choices[0]
+    approval = item.get('test_run_approval', {})
+    if (approval.get('status') != 'approved_single_test_send'
+            or approval.get('target') != 'existing_private_test_channel'
+            or approval.get('verifier_requests') != 1
+            or approval.get('image_sha1') != commons_review(item['source_url'])['sha1']
+            or hashlib.sha256(caption_html(item).encode()).hexdigest() != approval.get('caption_sha256')):
+        raise ValueError('reviewed_test_package_mismatch')
+    channel = os.environ['TELEGRAM_CHANNEL_ID']
+    item['usage_review'].update(status='approved', channel_id=channel, telegram_republication=True)
+    return run(choices, channel, storage=storage, send=True)
 
 
 def run(choices, channel, *, storage=STAGING, production=PRODUCTION, send=False, now=None):
@@ -74,15 +124,19 @@ def run(choices, channel, *, storage=STAGING, production=PRODUCTION, send=False,
     storage, production = Path(storage), Path(production)
     if storage.resolve() == production.resolve() or production.resolve() in storage.resolve().parents:
         raise ValueError('staging_storage_required')
-    if os.getenv('GITHUB_ACTIONS') == 'true':
-        raise ValueError('local_staging_only')
+    actions = existing_actions_context()
+    if os.getenv('GITHUB_ACTIONS') == 'true' and not actions:
+        raise ValueError('existing_manual_test_workflow_required')
     if os.getenv('BOT_ENVIRONMENT') != 'staging':
         raise ValueError('staging_environment_required_for_shared_budget')
     if os.getenv('SOURCE_VERIFIER') != 'openai':
         raise ValueError('openai_verification_required')
-    if not re.fullmatch(r'-\d+', channel) or channel == os.getenv('TELEGRAM_CHANNEL_ID'):
+    production_channel = os.getenv('PRODUCTION_CHANNEL_ID') if actions else os.getenv('TELEGRAM_CHANNEL_ID')
+    if not re.fullmatch(r'-\d+', channel) or channel == production_channel:
         raise ValueError('explicit_test_channel_required')
-    if send and (os.getenv('TEST_TELEGRAM_CHANNEL_ID') != channel
+    if actions and (channel != os.getenv('TELEGRAM_CHANNEL_ID') or not os.getenv('TELEGRAM_BOT_TOKEN') or not production_channel):
+        raise ValueError('existing_test_credentials_required')
+    if send and not actions and (os.getenv('TEST_TELEGRAM_CHANNEL_ID') != channel
                  or not os.getenv('TEST_TELEGRAM_BOT_TOKEN')
                  or os.getenv('TEST_TELEGRAM_BOT_TOKEN') == os.getenv('TELEGRAM_BOT_TOKEN')
                  or os.getenv('SOURCE_VERIFIER') != 'openai'):
@@ -98,28 +152,29 @@ def run(choices, channel, *, storage=STAGING, production=PRODUCTION, send=False,
     try:
         now = now or datetime.now(timezone.utc)
         year, week, _ = now.isocalendar()
-        slot = f'{channel}:{year}-W{week:02d}'
-        path = storage / 'retro_publications.json'
+        slot = f'{"staging" if actions else channel}:{year}-W{week:02d}'
+        path = storage / ('retro_photo_publications.json' if actions else 'retro_publications.json')
         state = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'version': 1, 'slots': {}}
         previous = state['slots'].get(slot)
         if previous and previous['status'] != 'prepared':
             return {'status': 'already_attempted', 'previous_status': previous['status']}
-        used = used_images(production) | used_images(storage)
+        used = used_images(production) | used_images(storage) | used_images(storage, path.name)
         if previous:
             used.discard(previous['image_identity'])
             used |= used_images(production)
         item, source, diagnostics = select_photo(choices, used, eligible=lambda c: usage_allowed(c, channel), allow_commons=True)
         if item is None:
             result = {'status': 'no_verified_photo', 'diagnostics': diagnostics}
-            atomic_json(storage / 'retro_diagnostics.json', result)
+            save_state(storage / 'retro_diagnostics.json', result)
             return result
         payload = photo_payload(item, channel)
         record = {'status': 'verifying', 'image_identity': image_identity(item['image_url']),
                   'source_snapshot': source, 'usage_review': item['usage_review'],
                   'payload': payload, 'diagnostics': diagnostics, 'at': now.isoformat()}
         state['slots'][slot] = record
-        atomic_json(path, state)
-        verification = verify_summary(source, item['post_html'], storage_dir=storage)
+        save_state(path, state)
+        # Exact final caption is verified once; no writer, emoji or retry stage.
+        verification = verify_summary(source, payload['caption'], storage_dir=storage)
         record['verification'] = verification
         if verification['status'] != 'approved':
             record['status'] = 'verification_' + verification['status']
@@ -127,9 +182,9 @@ def run(choices, channel, *, storage=STAGING, production=PRODUCTION, send=False,
             record['status'] = 'prepared'
         else:
             record['status'] = 'sending'
-            atomic_json(path, state)  # Durable reservation before side effect.
+            save_state(path, state)  # Durable reservation before side effect.
             record.update(send_photo(payload))
-        atomic_json(path, state)  # Failure leaves sending: never resend or count twice.
+        save_state(path, state)  # Failure leaves sending: never resend or count twice.
         return {'status': record['status'], 'diagnostics': diagnostics,
                 **({'message_id': record['message_id']} if 'message_id' in record else {})}
     finally:

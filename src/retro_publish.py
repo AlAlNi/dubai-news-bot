@@ -120,8 +120,8 @@ def send_post(text, source_url):
         return {'status': 'send_unknown'}
 
 
-def used_images(storage):
-    path = storage / 'retro_publications.json'
+def used_images(storage, filename='retro_publications.json'):
+    path = storage / filename
     state = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'slots': {}}
     used = {e['image_identity'] for e in state['slots'].values() if e.get('image_identity')}
     replacement = storage / 'retro_creek_replacement.json'
@@ -174,6 +174,10 @@ def select_photo(choices, used, include_article=False, eligible=None, allow_comm
 
 
 def run(storage=STORAGE, launch=LAUNCH, now=None):
+    if (os.getenv('BOT_ENVIRONMENT') == 'staging' and os.getenv('GITHUB_ACTIONS') == 'true'
+            and os.getenv('STAGING_OPERATION') == 'retro'):
+        from retro_stage import run_existing_workflow
+        return run_existing_workflow(storage)
     if os.getenv('GITHUB_ACTIONS') == 'true' and os.getenv('GITHUB_REF') != 'refs/heads/main':
         raise RuntimeError('Publication is allowed only on main')
     if not os.getenv('TELEGRAM_BOT_TOKEN') or not os.getenv('TELEGRAM_CHANNEL_ID'):
