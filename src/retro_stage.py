@@ -9,6 +9,7 @@ from pathlib import Path
 import requests
 from openai_budget import atomic_json
 from retro_policy import usage_allowed
+from retro_commons import commons_review
 from retro_publish import select_photo, used_images, image_identity, valid_post
 from source_verification import verify_summary
 
@@ -17,13 +18,26 @@ PRODUCTION = ROOT / 'storage/dubai_news'
 STAGING = ROOT / 'storage/dubai_news_staging/retro'
 
 
-def photo_payload(item, channel):
+def caption_html(item):
     text = item['post_html']
-    if not valid_post(text) or not usage_allowed(item, channel):
+    review = commons_review(item['source_url'])
+    if review:
+        footer = (html.escape(review['attribution']) + '\n<a href="'
+                  + html.escape(item['source_url'], quote=True) + '">Карточка Wikimedia Commons</a>'
+                  + ' · <a href="' + html.escape(item['usage_review']['license_url'], quote=True)
+                  + '">' + html.escape(review['metadata']['LicenseShortName']) + '</a>'
+                  + '\nБез изменений.')
+    else:
+        footer = ('<a href="' + html.escape(item['source_url'], quote=True)
+                  + '">Источник — The National</a>\n' + html.escape(item['usage_review']['attribution']))
+    caption = text + '\n\n' + footer + '\n#ДубайРаньше'
+    return caption
+
+
+def photo_payload(item, channel):
+    if not valid_post(item['post_html']) or not usage_allowed(item, channel):
         raise ValueError('invalid_post_or_usage_review')
-    caption = (text + '\n\n<a href="' + html.escape(item['source_url'], quote=True)
-               + '">Источник — The National</a>\n'
-               + html.escape(item['usage_review']['attribution']) + '\n#ДубайРаньше')
+    caption = caption_html(item)
     plain = html.unescape(re.sub('<[^>]*>', '', caption))
     # Telegram counts UTF-16 units after entity parsing. Reject, never truncate facts.
     if len(plain.encode('utf-16-le')) // 2 > 1024:
@@ -94,7 +108,7 @@ def run(choices, channel, *, storage=STAGING, production=PRODUCTION, send=False,
         if previous:
             used.discard(previous['image_identity'])
             used |= used_images(production)
-        item, source, diagnostics = select_photo(choices, used, eligible=lambda c: usage_allowed(c, channel))
+        item, source, diagnostics = select_photo(choices, used, eligible=lambda c: usage_allowed(c, channel), allow_commons=True)
         if item is None:
             result = {'status': 'no_verified_photo', 'diagnostics': diagnostics}
             atomic_json(storage / 'retro_diagnostics.json', result)

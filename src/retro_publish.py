@@ -20,6 +20,10 @@ LAUNCH = Path('config/retro_first_post.json')
 
 
 def image_identity(url):
+    from retro_commons import commons_image_identity
+    pinned = commons_image_identity(url)
+    if pinned:
+        return pinned
     p = urlsplit(url)
     return p.hostname.lower() + p.path
 
@@ -38,8 +42,11 @@ class PhotoCaptions(HTMLParser):
             self.photos[image_identity(url)] = clean_text(caption)
 
 
-def load_evidence(item, include_article=False):
+def load_evidence(item, include_article=False, allow_commons=False):
     url = item['source_url']
+    if allow_commons and urlsplit(url).hostname == 'commons.wikimedia.org':
+        from retro_commons import load_commons_evidence
+        return load_commons_evidence(item)
     if not source_allowed(url) or not public_url(item.get('image_url')):
         raise ValueError('unsupported_archive_source')
     response = requests.get(url, timeout=20, allow_redirects=False, stream=True,
@@ -125,7 +132,7 @@ def used_images(storage):
     return used
 
 
-def select_photo(choices, used, include_article=False, eligible=None):
+def select_photo(choices, used, include_article=False, eligible=None, allow_commons=False):
     diagnostics = []
     attempts = 0
     selected = source = None
@@ -135,7 +142,7 @@ def select_photo(choices, used, include_article=False, eligible=None):
             reason = 'invalid_image_url'
         elif image_identity(candidate['image_url']) in used:
             reason = 'already_used'
-        elif not source_allowed(candidate.get('source_url')):
+        elif not source_allowed(candidate.get('source_url'), allow_commons=allow_commons):
             reason = 'unsupported_archive_source'
         elif eligible and not eligible(candidate):
             reason = 'usage_not_approved'
@@ -146,14 +153,18 @@ def select_photo(choices, used, include_article=False, eligible=None):
         else:
             attempts += 1
             try:
-                source = load_evidence(candidate, include_article=include_article)
+                if allow_commons and urlsplit(candidate['source_url']).hostname == 'commons.wikimedia.org':
+                    source = load_evidence(candidate, allow_commons=True)
+                else:
+                    source = load_evidence(candidate, include_article=include_article)
                 selected = candidate
                 reason = 'selected'
             except Exception as exc:
                 # Only known codes, never exception text / credentials.
                 reason = str(exc) if isinstance(exc, ValueError) and str(exc) in {
                     'archive_unavailable', 'archive_too_large', 'archive_article_text_unavailable',
-                    'photo_date_or_location_not_confirmed', 'unsupported_archive_source'} else 'evidence_error'
+                    'photo_date_or_location_not_confirmed', 'unsupported_archive_source',
+                    'commons_manual_review_required', 'commons_metadata_changed'} else 'evidence_error'
         diagnostics.append({'id': candidate.get('id'), 'reason': reason})
     counts = {}
     for entry in diagnostics:
