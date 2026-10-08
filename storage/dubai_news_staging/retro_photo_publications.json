@@ -2,7 +2,7 @@
   "version": 1,
   "slots": {
     "staging:2026-W41": {
-      "status": "verifying",
+      "status": "sending",
       "image_identity": "commons-sha1:8d46d81889017da2060dbc7050e95bb92acf2209",
       "source_snapshot": {
         "title": "Historical photograph of Dubai",
@@ -43,7 +43,121 @@
           }
         ]
       },
-      "at": "2026-10-08T13:28:40.626627+00:00"
+      "at": "2026-10-08T13:28:40.626627+00:00",
+      "verification": {
+        "version": 1,
+        "status": "approved",
+        "reason": "All factual claims in the post are directly supported by the source passages.",
+        "emoji_review_version": 1,
+        "emoji_verdicts": [],
+        "claims": [
+          {
+            "claim": "The photo shows a beach in Dubai in 1993.",
+            "supported": true,
+            "evidence": [
+              0,
+              2,
+              4,
+              12,
+              13
+            ]
+          },
+          {
+            "claim": "The photo was taken by Mitch Barrie during a trip to the GITEX exhibition.",
+            "supported": true,
+            "evidence": [
+              4,
+              6,
+              11,
+              12
+            ]
+          },
+          {
+            "claim": "The exact location of the photo is unknown; the author only suggests it might be somewhere in Jumeira.",
+            "supported": true,
+            "evidence": [
+              5,
+              7,
+              12
+            ]
+          },
+          {
+            "claim": "The photo is titled 'Persian Gulf' and is sourced from Wikimedia Commons under CC BY-SA 2.0 license.",
+            "supported": true,
+            "evidence": [
+              1,
+              8,
+              9,
+              11
+            ]
+          }
+        ],
+        "evidence_passages": [
+          {
+            "id": 0,
+            "text": "Historical photograph of Dubai"
+          },
+          {
+            "id": 1,
+            "text": "Selected photograph: File:Persian Gulf (4462609004).jpg"
+          },
+          {
+            "id": 2,
+            "text": "Capture date recorded on Commons: 1993-11-01 00:00"
+          },
+          {
+            "id": 3,
+            "text": "Author: Mitch Barrie"
+          },
+          {
+            "id": 4,
+            "text": "Original author description: View of the beach at Dubai where I did some body surfing during the midday break from the GiTex tech fair."
+          },
+          {
+            "id": 5,
+            "text": "Unfortunately, I don't know where this is."
+          },
+          {
+            "id": 6,
+            "text": "It's outside the home of the German women we had working with us in the Systronics stand at the show."
+          },
+          {
+            "id": 7,
+            "text": "I'm guessing it's in Jumeira somewhere."
+          },
+          {
+            "id": 8,
+            "text": "License: CC BY-SA 2.0"
+          },
+          {
+            "id": 9,
+            "text": "License URL: https://creativecommons.org/licenses/by-sa/2.0"
+          },
+          {
+            "id": 10,
+            "text": "Image handling: the original JPEG was reviewed visually and matched the Commons SHA-1; no edits were made."
+          },
+          {
+            "id": 11,
+            "text": "Provenance: Commons transferred this Flickr photo by simonov (Mitch Barrie); FlickreviewR 2 confirmed CC BY-SA 2.0 on 21 February 2018."
+          },
+          {
+            "id": 12,
+            "text": "The original Flickr page opened during this review and confirms November 1993, Dubai beach and uncertainty about Jumeira."
+          },
+          {
+            "id": 13,
+            "text": "Commons records 1 November 1993; exact day is not independently confirmed by the displayed Flickr page."
+          }
+        ],
+        "source_hash": "44d490f08e59ef5ad57f98dd76b9b7dfc079f6a7f3f3a85df5103a95f59ebd3c",
+        "summary_hash": "5aec6664b19b903150582358031ebc556ad4148556a3e1950747e901caa45180",
+        "checked_at": "2026-10-08T13:28:46.269373+00:00",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "provider": "openai",
+        "api_calls": 1,
+        "cached": false
+      }
     }
   }
 }
