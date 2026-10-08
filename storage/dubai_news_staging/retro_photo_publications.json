@@ -2,7 +2,7 @@
   "version": 1,
   "slots": {
     "staging:2026-W41": {
-      "status": "sending",
+      "status": "published",
       "image_identity": "commons-sha1:8d46d81889017da2060dbc7050e95bb92acf2209",
       "source_snapshot": {
         "title": "Historical photograph of Dubai",
@@ -157,6 +157,12 @@
         "provider": "openai",
         "api_calls": 1,
         "cached": false
+      },
+      "message_id": 76,
+      "photo_file_id": "AgACAgQAAyEGAATliroxAANMaseakHB7ie-yhN0u9Bw6OLo5xusAAg0PaxskM0RSDbrIppygiSUBAAMCAAN4AAM9BA",
+      "photo_dimensions": {
+        "width": 640,
+        "height": 338
       }
     }
   }
