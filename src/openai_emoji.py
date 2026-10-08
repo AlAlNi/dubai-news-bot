@@ -43,9 +43,10 @@ SCHEMA = {"type": "object", "additionalProperties": False,
 
 
 class EmojiResponseError(ValueError):
-    """A stable local code, never an API error message or response text."""
-    def __init__(self, code):
+    """A stable local code with optional bounded subject rejection evidence."""
+    def __init__(self, code, subject_rejection=None):
         self.code = code
+        self.subject_rejection = subject_rejection
         super().__init__(code)
 
 
@@ -94,9 +95,25 @@ def subject_decorations(text, value):
             raise EmojiResponseError("duplicate_paragraph")
         positions.add(index)
         visible = unescape(re.sub(r"<[^>]*>", "", eligible[index]))
-        if (not isinstance(subject, str) or not subject.strip() or len(subject) > 80
-                or subject != subject.strip() or subject not in visible):
-            raise EmojiResponseError("unsupported_subject_excerpt")
+        # Keep the original rejection order and exact substring requirement.
+        # Only bounded evidence from this field is retained, never the raw response.
+        condition = None
+        if not isinstance(subject, str):
+            condition = "non_string"
+        elif not subject.strip():
+            condition = "empty_or_whitespace"
+        elif len(subject) > 80:
+            condition = "over_80_characters"
+        elif subject != subject.strip():
+            condition = "surrounding_whitespace"
+        elif subject not in visible:
+            condition = "not_exact_substring"
+        if condition is not None:
+            raise EmojiResponseError("unsupported_subject_excerpt", {
+                "paragraph": index,
+                "subject_excerpt": subject[:80] if isinstance(subject, str) else None,
+                "condition": condition,
+            })
         symbol = item["emoji"]
         if symbol is not None:
             if not isinstance(symbol, str) or symbol not in PALETTE:
@@ -268,6 +285,8 @@ def _decorate_summary(text, storage_dir, budget_factory, reservation_kind, save_
                 raise EmojiResponseError("response_close_error") from None
     except Exception as exc:
         code = exc.code if isinstance(exc, EmojiResponseError) else diagnostics["phase"] + "_error"
+        if isinstance(exc, EmojiResponseError) and exc.subject_rejection is not None:
+            diagnostics["subject_rejection"] = exc.subject_rejection
         report.update(post=text, status="fallback", decoration_count=0, omitted_duplicate_emoji=0,
                       reason="Emoji fallback: " + code, reason_code=code)
         cache[cache_key]["result"] = {"status": "fallback", "reason_code": code,
