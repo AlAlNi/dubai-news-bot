@@ -35,6 +35,7 @@ def public_url(value):
 
 
 def candidates(rows, seen):
+    from retro_policy import source_allowed
     found = []
     for row in rows[:30]:
         if not isinstance(row, dict):
@@ -50,7 +51,9 @@ def candidates(rows, seen):
         seen.add(identity)
         found.append({'id': identity, 'title': str(row.get('title') or 'Фото')[:300],
                       'image_url': image, 'source_url': source,
-                      'status': 'needs_review', 'year': None, 'license': None})
+                      'status': 'needs_review', 'year': None, 'license': None,
+                      'publication_eligibility': 'needs_review' if source_allowed(source)
+                      else 'unsupported_archive_source'})
         if len(found) == 10:
             break
     return found
@@ -101,7 +104,9 @@ def collect(path=STATE, now=None):
             response.close()
         state['seen'] = sorted(seen)
         state['candidates'].extend(new)
-        state['searches'][slot].update(status='completed', added=len(new))
+        state['searches'][slot].update(status='completed', added=len(new),
+            eligible_source=sum(x['publication_eligibility'] == 'needs_review' for x in new),
+            unsupported_source=sum(x['publication_eligibility'] == 'unsupported_archive_source' for x in new))
     except Exception as exc:
         # Never store API response bodies or exception text that could contain credentials.
         state['searches'][slot].update(status='error', error_type=type(exc).__name__)
