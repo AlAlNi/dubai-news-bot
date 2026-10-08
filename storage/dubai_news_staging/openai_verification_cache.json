@@ -1,121 +1,4 @@
 {
-  "2e26366dd5b32f792ff50af88ee144aca3be182b9f41be8942152ceb3ad918c2": {
-    "saved_at": "2026-09-30T08:41:15.985305+00:00",
-    "result": {
-      "id": "chatcmpl-ETkAE6ItKkb5OVoQi2dth4926mCHq",
-      "object": "chat.completion",
-      "created": 1790757674,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Commercial Bank of Dubai became the first bank outside Europe to join the Commercial Bank Money Token (CBMT) initiative.\",\"supported\":true,\"evidence\":[0,1,13,17]},{\"claim\":\"The CBMT initiative is aimed at developing tokenised commercial bank money for corporate clients.\",\"supported\":true,\"evidence\":[3,5]},{\"claim\":\"Joining CBMT will allow faster and more transparent cross-border settlements between Europe and the Gulf.\",\"supported\":true,\"evidence\":[2,10,15]},{\"claim\":\"CBD will work in the CBMT Sandbox test environment exploring corporate payments, trade settlements, and capital optimization.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"The CBMT initiative is supported by leading European banks and uses distributed ledger technology while maintaining the reliability and regulation of traditional bank deposits.\",\"supported\":true,\"evidence\":[3,4,5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1942,
-        "completion_tokens": 205,
-        "total_tokens": 2147,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_dc7caa3f28"
-    }
-  },
-  "89ef689c94c2b22c909df729ab702f61a6ee18c6c8d3b020af659ede6f53227c": {
-    "saved_at": "2026-09-30T08:49:02.301994+00:00",
-    "result": {
-      "id": "chatcmpl-ETkHkDOXiNUVTosH2hzFAtUE11dk6",
-      "object": "chat.completion",
-      "created": 1790758140,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The UAE Federal Tax Authority has set deadlines for implementing the electronic invoicing system in 2027.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Federal Tax Authority urged companies to accelerate joining the e-invoicing system and comply with deadlines.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Companies with revenues of 50 million AED or more must appoint an accredited service provider by 30 October 2026 and implement the system by 1 January 2027.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Companies with revenues below 50 million AED must appoint a provider by 31 March 2027 and implement the system by 1 July 2027.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Preparation includes selecting a provider, signing contracts, and technical integration through the EmaraTax platform.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1000,
-        "completion_tokens": 211,
-        "total_tokens": 1211,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_dc7caa3f28"
-    }
-  },
-  "82d8ed12b820c9993b71de11e46bad636bd04a7032bda61a94ebf3332967378b": {
-    "saved_at": "2026-09-30T14:23:13.860805+00:00",
-    "result": {
-      "id": "chatcmpl-ETpV99o4nWsAOLciyNLp0v1oWfCSI",
-      "object": "chat.completion",
-      "created": 1790778191,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"MBRSC integrated the RTx radar on the Rashid Rover 2 lunar rover.\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"The integration of RTx is an important step in preparing the Emirates Lunar Mission for launch to the far side of the Moon.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The rover will study the terrain, composition, and thermal properties of the lunar surface.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The rover will help understand the Moon's formation history and mineralogy.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"RTx can probe up to 100 meters below the lunar surface by transmitting signals.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Signals from RTx will be analyzed by the LuSEE-Night spectrometer on the lander.\",\"supported\":true,\"evidence\":[6]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1122,
-        "completion_tokens": 212,
-        "total_tokens": 1334,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_dc7caa3f28"
-    }
-  },
   "0af159239c3a643ca59ac54e2522146ed0df55e006ce0cf88518e695c6b5ebaf": {
     "saved_at": "2026-10-03T00:04:15.687174+00:00",
     "result": {
@@ -426,6 +309,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_3de8ea34d5"
+    }
+  },
+  "56444329f8e727bb6a86af2ae2d576da2fd69893a6dd642d1c0127ed73530d24": {
+    "saved_at": "2026-10-08T13:28:46.269388+00:00",
+    "result": {
+      "id": "chatcmpl-EWiSqFhFKk6Yz9ZAU292ol3xfu3l7",
+      "object": "chat.completion",
+      "created": 1791466124,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"emoji_verdicts\":[],\"claims\":[{\"claim\":\"The photo shows a beach in Dubai in 1993.\",\"supported\":true,\"evidence\":[0,2,4,12,13]},{\"claim\":\"The photo was taken by Mitch Barrie during a trip to the GITEX exhibition.\",\"supported\":true,\"evidence\":[4,6,11,12]},{\"claim\":\"The exact location of the photo is unknown; the author only suggests it might be somewhere in Jumeira.\",\"supported\":true,\"evidence\":[5,7,12]},{\"claim\":\"The photo is titled 'Persian Gulf' and is sourced from Wikimedia Commons under CC BY-SA 2.0 license.\",\"supported\":true,\"evidence\":[1,8,9,11]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1158,
+        "completion_tokens": 179,
+        "total_tokens": 1337,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_6e0170489c"
     }
   }
 }
