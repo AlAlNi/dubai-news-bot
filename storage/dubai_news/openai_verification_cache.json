@@ -1,43 +1,4 @@
 {
-  "f5aeffd778a34b5d78ca6e81d26be6d4bb0c3e638c21eefaefd941ac5464509f": {
-    "saved_at": "2026-10-02T06:24:48.628762+00:00",
-    "result": {
-      "id": "chatcmpl-EUQzGiPNRulFpwDJSxVK8g39YWzbH",
-      "object": "chat.completion",
-      "created": 1790922286,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text passages.\",\"claims\":[{\"claim\":\"Emirates launched the first flight from Dubai to Helsinki.\",\"supported\":true,\"evidence\":[0,2]},{\"claim\":\"Emirates began the first direct air connection between Dubai and Helsinki.\",\"supported\":true,\"evidence\":[0,2,4]},{\"claim\":\"This route is the only year-round direct link between the UAE and Finland.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Flight EK167 departed on 1 October 2026.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"The flight used a modern Airbus A350 aircraft.\",\"supported\":true,\"evidence\":[11]},{\"claim\":\"The flight had a near-full passenger and cargo load.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The aircraft accommodates 298 passengers in three classes.\",\"supported\":true,\"evidence\":[11,12]},{\"claim\":\"The flight offers dishes with Finnish flavors including salmon and venison.\",\"supported\":true,\"evidence\":[13]},{\"claim\":\"The new route provides convenient connections via Dubai to more than 140 destinations worldwide.\",\"supported\":true,\"evidence\":[5,14]},{\"claim\":\"The route opens up to 16 tonnes of cargo capacity per flight to strengthen trade ties between Finland and the UAE.\",\"supported\":true,\"evidence\":[15,16]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1594,
-        "completion_tokens": 295,
-        "total_tokens": 1889,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_dc7caa3f28"
-    }
-  },
   "fbbacd0f6a53bbe29bed45f74273aa14b8dcf1f90028208b0e409fcf83a3c39d": {
     "saved_at": "2026-10-02T07:48:49.757025+00:00",
     "result": {
@@ -530,6 +491,45 @@
         "prompt_tokens": 1453,
         "completion_tokens": 229,
         "total_tokens": 1682,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c231e31fe1"
+    }
+  },
+  "3a1b72767218ff3141d9cffff4b471762eec75636d25b6c6c503e91d13a215ae": {
+    "saved_at": "2026-10-09T06:56:10.955658+00:00",
+    "result": {
+      "id": "chatcmpl-EWyoScUPj11bMvtO2lbRcYbFqroab",
+      "object": "chat.completion",
+      "created": 1791528968,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The 15th season of Dubai Miracle Garden has started in Dubai.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Dubai Miracle Garden is the world's largest natural flower garden.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The 15th season is under the theme 'Fifteen Years, Blooming Together'.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The season will last until 31 May 2027.\",\"supported\":true,\"evidence\":[1,7]},{\"claim\":\"The season will feature more than 200 million flowers across 72,000 square metres.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Each week will have a new theme reflecting the national and cultural calendar of the UAE.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"The weekly themes include events dedicated to Pink October, United Nations Day, UAE Flag Day, and Diwali.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The program includes live music, family activities, and sports events as part of the Dubai Fitness Challenge.\",\"supported\":true,\"evidence\":[4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1275,
+        "completion_tokens": 260,
+        "total_tokens": 1535,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
