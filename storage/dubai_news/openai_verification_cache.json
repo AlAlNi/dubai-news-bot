@@ -1,82 +1,4 @@
 {
-  "fbbacd0f6a53bbe29bed45f74273aa14b8dcf1f90028208b0e409fcf83a3c39d": {
-    "saved_at": "2026-10-02T07:48:49.757025+00:00",
-    "result": {
-      "id": "chatcmpl-EUSIZ0TRrp2cDUI6KPBL2ewAjyLlm",
-      "object": "chat.completion",
-      "created": 1790927327,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Gold Designers Business Group operates under the umbrella of Dubai Chamber of Commerce.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Dubai Gold Designers Business Group unveiled a strategy to expand international market access and increase visibility of Dubai-based jewellery designers.\",\"supported\":true,\"evidence\":[0,1,2,3]},{\"claim\":\"The strategy includes participation in exhibitions, trade events, and creation of international partnerships.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The strategy includes educational programs, business development, and international representation.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The strategy includes launching a three-year program for sustainable promotion of Dubai-based brands abroad.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The goal is to support commercial growth and strengthen Dubai's position as a center of creativity and entrepreneurship in the jewellery industry.\",\"supported\":true,\"evidence\":[1,3]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1442,
-        "completion_tokens": 219,
-        "total_tokens": 1661,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_dc7caa3f28"
-    }
-  },
-  "55cf5651538248ac4c5471b0f0c8a2f9b26536cbd44bc2fbb7c8e8fc989c8b5e": {
-    "saved_at": "2026-10-02T13:19:37.186806+00:00",
-    "result": {
-      "id": "chatcmpl-EUXShUir7jXntSrJvbBiZXeN7OimE",
-      "object": "chat.completion",
-      "created": 1790947175,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Culture concludes visit to Austria focused on culture and technology.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Dubai Culture delegation was led by Hala Badri and visited Linz and Vienna for knowledge exchange and international collaboration in culture, arts, and technology.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The visit included participation in the Ars Electronica Festival and exploration of digital arts.\",\"supported\":true,\"evidence\":[7,8,9]},{\"claim\":\"Projects discussed included the development of Dubai's cultural sector and preparations for the 31st International Symposium on Electronic/Emerging Art (ISEA2026 Dubai).\",\"supported\":true,\"evidence\":[9,10]},{\"claim\":\"In Vienna, the delegation studied museum and library management and the development of creative initiatives.\",\"supported\":true,\"evidence\":[11,12]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1450,
-        "completion_tokens": 205,
-        "total_tokens": 1655,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_ac16c29503"
-    }
-  },
   "dafe77b9d374ae77c7fff304316f6f3f09213dc178f647eb851848f3feae9819": {
     "saved_at": "2026-10-02T18:47:13.440802+00:00",
     "result": {
@@ -543,6 +465,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_c231e31fe1"
+    }
+  },
+  "d925cea5b08c227acd26ce81c8669408d0cd6b6bb59a65a8d34360449ce438d3": {
+    "saved_at": "2026-10-09T14:00:21.856293+00:00",
+    "result": {
+      "id": "chatcmpl-EX5QxInRrCTD3RSL6SvsFHzLSfRj6",
+      "object": "chat.completion",
+      "created": 1791554419,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Municipality launched the initiative ‘A Generation for a Greater Tomorrow’.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The initiative takes place from 7 to 11 October at City Centre Mirdif.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The initiative offers an interactive experience introducing children to municipal work and the importance of city services for everyday life.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"The program includes educational stations on agriculture, safety, communications, digital games, and laboratory experiments.\",\"supported\":true,\"evidence\":[4,5,6]},{\"claim\":\"The initiative supports the UAE’s Year of the Family by encouraging joint participation of children and parents.\",\"supported\":true,\"evidence\":[3]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1212,
+        "completion_tokens": 183,
+        "total_tokens": 1395,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_1479fe217d"
     }
   }
 }
