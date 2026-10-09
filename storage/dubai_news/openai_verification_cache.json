@@ -1,82 +1,4 @@
 {
-  "3484186b355489330951100c2a1d74b425179d8d39c26ad39263c05a5536e0a9": {
-    "saved_at": "2026-10-01T07:10:11.622410+00:00",
-    "result": {
-      "id": "chatcmpl-EU5DdJKDzbN6GGAJ2xYf2w2c0HuW7",
-      "object": "chat.completion",
-      "created": 1790838609,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Amazon и Ghitha Holding подписали меморандум о сотрудничестве для развития проекта сезонных свежих продуктов в ОАЭ.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Инициатива позволит напрямую связать фермерские хозяйства с цепочкой поставок Amazon, обеспечивая доставку свежих местных продуктов к дверям покупателей через Amazon Now.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"В рамках проекта планируется создание современного упаковочного и распределительного центра в Food Tech Valley в Дубае.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Также будет расширен ассортимент местных брендов Ghitha Holding на платформе Amazon Now.\",\"supported\":true,\"evidence\":[2,8,9]},{\"claim\":\"Инициатива поддержит местных фермеров и устойчивое производство продуктов в ОАЭ.\",\"supported\":true,\"evidence\":[2,3,4]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1296,
-        "completion_tokens": 222,
-        "total_tokens": 1518,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_9795f2200f"
-    }
-  },
-  "f0335df95baedc8a588e9730960cfe6910047c005d36526a23e4135d561ff6a5": {
-    "saved_at": "2026-10-01T07:58:20.836231+00:00",
-    "result": {
-      "id": "chatcmpl-EU5yFZrD14aXRJWPB623ET5EMUY3c",
-      "object": "chat.completion",
-      "created": 1790841499,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The UAE launched the campaign 'UAE is Safe With Your Digital Awareness'.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Ministry of Interior, Dubai Police, and Dubai Electronic Security Centre launched the campaign.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The campaign is timed to coincide with Cybersecurity Awareness Month in October.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The campaign aims to raise awareness of cybercrimes and data protection methods.\",\"supported\":true,\"evidence\":[2,5,6,7,8]},{\"claim\":\"The campaign includes informational events and workshops to prevent fraud and misuse of artificial intelligence in crimes.\",\"supported\":true,\"evidence\":[5,6,16,17]},{\"claim\":\"Special attention is given to protecting children and adolescents who spend a lot of time on electronic devices.\",\"supported\":true,\"evidence\":[11]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1603,
-        "completion_tokens": 210,
-        "total_tokens": 1813,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_dc7caa3f28"
-    }
-  },
   "f5aeffd778a34b5d78ca6e81d26be6d4bb0c3e638c21eefaefd941ac5464509f": {
     "saved_at": "2026-10-02T06:24:48.628762+00:00",
     "result": {
@@ -582,6 +504,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_6e0170489c"
+    }
+  },
+  "c77d95ca643dc8b6f7b551f6c74f4040c5b5b1064824ff497306dd952ebcbdd6": {
+    "saved_at": "2026-10-09T00:48:23.070294+00:00",
+    "result": {
+      "id": "chatcmpl-EWt4WgNeA2qLFAYKhSinOXHJxLEKZ",
+      "object": "chat.completion",
+      "created": 1791506900,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, a project has started to implement a unified visual identity and enhanced addressing system covering 186 areas.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"The initiative includes installation of new area identification signs, street name signs, and house number plates reflecting geographic features of each area.\",\"supported\":true,\"evidence\":[2,6]},{\"claim\":\"The first phase will start in the fourth quarter of 2026 and cover more than 2000 signs in five areas including Za’abeel and Nad Al Sheba.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"The colors of the signs are chosen according to the character of the areas, for example, blue for coastal zones and gold for desert areas.\",\"supported\":true,\"evidence\":[5,6]},{\"claim\":\"In the future, the system will expand to bus stops and digital applications with QR codes for the convenience of residents and visitors.\",\"supported\":true,\"evidence\":[7,8]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1453,
+        "completion_tokens": 229,
+        "total_tokens": 1682,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c231e31fe1"
     }
   }
 }
