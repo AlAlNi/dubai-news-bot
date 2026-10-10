@@ -1,43 +1,4 @@
 {
-  "0f8d75e804412d4ef4ba2f24139389e47c1c7359150b69d45bd6622537c9590f": {
-    "saved_at": "2026-10-03T01:32:32.608436+00:00",
-    "result": {
-      "id": "chatcmpl-EUitzGRhK0gByOAAJ0mx9qKRyBnxW",
-      "object": "chat.completion",
-      "created": 1790991151,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Экономист BlackRock Эхсан Хоман отметил, что фундаментальные факторы, поддерживающие привлекательность ОАЭ для мировых инвесторов, остаются стабильными.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Экономика демонстрирует устойчивость.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Важную роль продолжают играть секторы торговли, туризма и транспорта.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"В ближайшие 3-5 лет в стране ожидается рост новых секторов, особенно в области искусственного интеллекта.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Развивается инфраструктура для ИИ, включая производство чипов и компонентов для дата-центров.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Это отражает стратегию ОАЭ по ускорению технологической трансформации.\",\"supported\":true,\"evidence\":[2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 966,
-        "completion_tokens": 228,
-        "total_tokens": 1194,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_07f0137997"
-    }
-  },
   "3797304656716b20cb3821ef2e8429f426fd6cbaf7fa301fadc42d9f8677fc35": {
     "saved_at": "2026-10-03T07:15:09.579095+00:00",
     "result": {
@@ -491,6 +452,45 @@
         "prompt_tokens": 2139,
         "completion_tokens": 260,
         "total_tokens": 2399,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c231e31fe1"
+    }
+  },
+  "cdc5adecded5a42ccf041839dcba67abfff5226eae4fb94b1092436860057605": {
+    "saved_at": "2026-10-10T03:13:08.952664+00:00",
+    "result": {
+      "id": "chatcmpl-EXHoAzU6QETmbVyfczrpqQg3Qil8Y",
+      "object": "chat.completion",
+      "created": 1791601986,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Власти здравоохранения Дубая приняли 49 студентов в 11-й набор программы Tibb wa Uloom, направленной на поддержку эмиратских студентов в области медицины и смежных наук.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Программа охватывает выпускников школ и студентов вузов, желающих изучать медицинские специальности.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"С момента запуска в 2016 году в программе приняли участие 618 студентов, из которых 297 уже выпустились.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Женщины составляют 84,8% участников.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Около 60% студентов обучаются медицине.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Программа включает новые направления, такие как общественное здравоохранение, чтобы соответствовать приоритетам сектора.\",\"supported\":true,\"evidence\":[3,4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1261,
+        "completion_tokens": 240,
+        "total_tokens": 1501,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
