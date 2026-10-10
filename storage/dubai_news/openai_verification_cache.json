@@ -1,43 +1,4 @@
 {
-  "3797304656716b20cb3821ef2e8429f426fd6cbaf7fa301fadc42d9f8677fc35": {
-    "saved_at": "2026-10-03T07:15:09.579095+00:00",
-    "result": {
-      "id": "chatcmpl-EUoFYDbkEh7sL29mQa4UdJMoxe3LF",
-      "object": "chat.completion",
-      "created": 1791011708,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"GOTECH 2026 concluded in Dubai.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"GOTECH 2026 was an international conference and exhibition.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"GOTECH 2026 gathered more than 2600 participants from 70 countries and 1206 companies.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The event focused on innovation, artificial intelligence, and sustainability in the oil and gas industry.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The three-day program discussed key topics including digital transformation, operational optimization, and environmental safety.\",\"supported\":true,\"evidence\":[1,3,4]},{\"claim\":\"A special educational program was organized for students from the UAE.\",\"supported\":true,\"evidence\":[5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1267,
-        "completion_tokens": 200,
-        "total_tokens": 1467,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_07f0137997"
-    }
-  },
   "3300fdeb5ae46bb8bb3fe54652a3f0d39a2ad3fdc424527595b0763cd6793735": {
     "saved_at": "2026-10-04T02:13:29.824046+00:00",
     "result": {
@@ -491,6 +452,45 @@
         "prompt_tokens": 1261,
         "completion_tokens": 240,
         "total_tokens": 1501,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c231e31fe1"
+    }
+  },
+  "a9ad8468f2059f33ee43e6358eea6ef42494ec5a0be775023383fef4527f6720": {
+    "saved_at": "2026-10-10T10:13:08.613411+00:00",
+    "result": {
+      "id": "chatcmpl-EXOMcmoji8fQeuAkJJW29r1mEjiqj",
+      "object": "chat.completion",
+      "created": 1791627186,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"ISEA2026 will be held in Dubai from 6 to 15 November 2026.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"It is the 31st International Symposium on Electronic/Emerging Art.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The theme is ‘ELYAH: Constellating Place, Data and Identity’.\",\"supported\":true,\"evidence\":[1,14]},{\"claim\":\"The event will be held in a hybrid format with exhibitions, performances, and an online program.\",\"supported\":true,\"evidence\":[3,4,7,8]},{\"claim\":\"The program covers more than 20 venues across the city.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"The program includes over 140 academic papers, 40 artist talks, 15 workshops, and special tracks including digital calligraphy and eco-tech.\",\"supported\":true,\"evidence\":[6,7,9,14,17]},{\"claim\":\"The symposium supports the development of digital art and strengthens Dubai's international cultural status.\",\"supported\":true,\"evidence\":[2,3,10,11,13]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1641,
+        "completion_tokens": 260,
+        "total_tokens": 1901,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
