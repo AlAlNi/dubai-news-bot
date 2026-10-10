@@ -505,5 +505,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c231e31fe1"
     }
+  },
+  "fa5c7757d771b4eb2744436d7ee0f2b60a669c8805e175493f05ec447830990e": {
+    "saved_at": "2026-10-10T15:59:32.725833+00:00",
+    "result": {
+      "id": "chatcmpl-EXTlrKRWW4kWPrUVYp7QLRCDyrlzm",
+      "object": "chat.completion",
+      "created": 1791647971,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Международный космический центр имени Мохаммеда бин Рашида (MBRSC) и Управление ООН по вопросам космоса (UNOOSA) объявили о начале приёма заявок на участие в третьем этапе инициативы Payload Hosting Initiative (PHI-3).\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Программа предоставляет возможность испытать инновационные космические технологии на платформе 12U CubeSat.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"Заявки принимаются до 6 апреля 2027 года.\",\"supported\":true,\"evidence\":[12]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1384,
+        "completion_tokens": 163,
+        "total_tokens": 1547,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c231e31fe1"
+    }
   }
 }
