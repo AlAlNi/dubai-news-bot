@@ -544,5 +544,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c231e31fe1"
     }
+  },
+  "416aa0fed61c32c7b0ab64667df794715b485ec9b7133308d8ddf8fc0cf74ed6": {
+    "saved_at": "2026-10-10T19:49:58.592759+00:00",
+    "result": {
+      "id": "chatcmpl-EXXMrHTb9WFbbL4wndL3EMmoeBypZ",
+      "object": "chat.completion",
+      "created": 1791661797,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Cashless Strategy, launched in October 2024, reached 90.1% cashless transactions, exceeding the 90% target for 2026.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The Digital Enablement Index for the government sector reached 100%.\",\"supported\":true,\"evidence\":[3,15]},{\"claim\":\"The community happiness index reached 90.1%.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Cashless payment initiatives contributed more than AED 8 billion to Dubai's economy.\",\"supported\":true,\"evidence\":[7]},{\"claim\":\"The strategy is based on partnerships among government entities, financial institutions, and technology companies, supporting digital economy development and enhancing Dubai's competitiveness as a global business and tourism hub.\",\"supported\":true,\"evidence\":[6,11,12,13]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1768,
+        "completion_tokens": 202,
+        "total_tokens": 1970,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c231e31fe1"
+    }
   }
 }
