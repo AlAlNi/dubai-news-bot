@@ -12,7 +12,7 @@ from unittest.mock import Mock, patch
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src'))
 import retro_weekly as weekly
-from retro_photo import caption_html, photo_payload, send_photo, validate_destination
+from retro_photo import caption_html, photo_payload, send_photo, validate_destination, download_approved_photo
 from retro_publish import image_identity, run, select_photo
 from retro_policy import source_allowed, usage_allowed, discovery_eligibility
 from retro_commons import commons_review, validate_metadata, load_commons_evidence
@@ -35,7 +35,8 @@ def fixture():
         'target_username':'rudubainews','telegram_republication':True,'channel_id':None}
     item['publication_review']={'status':'approved','reviewer':'offline fixture','reviewed_at':'2026-10-11',
         'target_username':'rudubainews','visual_checked':True,'image_identity':image_identity(item['image_url']),
-        'caption_sha256':hashlib.sha256(caption_html(item).encode()).hexdigest()}
+        'caption_sha256':hashlib.sha256(caption_html(item).encode()).hexdigest(),
+        'image_sha256':hashlib.sha256(b'offline photo').hexdigest()}
     return item
 
 
@@ -65,7 +66,8 @@ class WeeklyTests(unittest.TestCase):
             patch('retro_weekly.validate_destination',return_value=CHANNEL),
             patch('retro_publish.load_evidence',return_value=self.source),
             patch('retro_weekly.verify_summary',return_value=verification or {'status':'approved'}),
-            patch('retro_weekly.send_photo',side_effect=sender or (lambda *a:{'status':'published','message_id':123}))]
+            patch('retro_weekly.send_photo',side_effect=sender or (lambda *a:{'status':'published','message_id':123})),
+            patch('retro_weekly.download_approved_photo',return_value=b'offline photo')]
         mocks=[p.start() for p in patches]
         for p in patches:self.addCleanup(p.stop)
         return mocks
@@ -89,10 +91,10 @@ class WeeklyTests(unittest.TestCase):
         legacy.assert_not_called()
 
     def test_full_caption_verified_once_and_remote_marker_precedes_send(self):
-        def send(payload,token):
+        def send(payload,token,image_bytes):
             self.assertEqual(self.record()['status'],'sending')
             self.assertEqual(payload['chat_id'],CHANNEL)
-            self.assertEqual(payload['photo'],self.item['image_url'])
+            self.assertEqual(image_bytes,b'offline photo')
             return {'status':'published','message_id':123}
         mocks=self.context(sender=send)
         self.assertEqual(self.call()['status'],'published')
@@ -166,7 +168,7 @@ class WeeklyTests(unittest.TestCase):
 
     def test_transport_never_retries_timeout_and_masks_secrets(self):
         with patch('retro_photo.requests.post',side_effect=TimeoutError('secret')) as post:
-            self.assertEqual(send_photo({'chat_id':CHANNEL},'secret'),{'status':'send_unknown'})
+            self.assertEqual(send_photo({'chat_id':CHANNEL},'secret',b'fixture'),{'status':'send_unknown'})
         post.assert_called_once()
 
     def test_destination_must_match_public_production_channel(self):
@@ -208,11 +210,12 @@ class WeeklyTests(unittest.TestCase):
             'photo':[{'file_id':'fixture','width':640,'height':338}]}}
         payload={'chat_id':CHANNEL,'photo':'https://images.example.com/fixture.jpg','caption':'fixture'}
         with patch('retro_photo.requests.post',return_value=response) as post:
-            result=send_photo(payload,'fixture-secret')
+            result=send_photo(payload,'fixture-secret',b'fixture')
         self.assertEqual(result['status'],'published')
         self.assertEqual(result['photo_dimensions'],{'width':640,'height':338})
         self.assertTrue(post.call_args.args[0].endswith('/sendPhoto'))
-        self.assertEqual(post.call_args.kwargs['json'],payload)
+        self.assertEqual(post.call_args.kwargs['files']['photo'][1],b'fixture')
+        self.assertNotIn('photo',post.call_args.kwargs['data'])
         response.close.assert_called_once()
 
     def test_commons_license_author_date_hash_and_attribution_fail_closed(self):
@@ -235,3 +238,41 @@ class WeeklyTests(unittest.TestCase):
         result=self.call(False)
         self.assertEqual(result['diagnostics']['candidates'],32)
         self.assertEqual(result['diagnostics']['ready_for_recheck'],1)
+
+    def test_malformed_rows_do_not_hide_valid_candidate(self):
+        missing=copy.deepcopy(self.item);missing.pop('post_html')
+        null=copy.deepcopy(self.item);null['post_html']=None
+        bad=copy.deepcopy(self.item);bad['image_url']=123
+        self.save_queue([missing,null,bad,self.item])
+        result=self.call(False)
+        self.assertEqual(result['diagnostics']['candidates'],4)
+        self.assertEqual(result['diagnostics']['ready_for_recheck'],1)
+
+    def test_image_byte_mismatch_blocks_verification_and_send(self):
+        mocks=self.context()
+        with patch('retro_weekly.download_approved_photo',side_effect=ValueError('approved_image_bytes_changed')):
+            self.assertEqual(self.call()['reason'],'approved_image_bytes_changed')
+        mocks[4].assert_not_called();mocks[5].assert_not_called()
+        response=Mock(status_code=200)
+        response.iter_content.return_value=[b'changed']
+        with patch('retro_photo.requests.get',return_value=response):
+            with self.assertRaisesRegex(ValueError,'approved_image_bytes_changed'):
+                download_approved_photo(self.item)
+        response.close.assert_called_once()
+
+    def test_download_returns_exact_approved_bytes_without_redirects(self):
+        response=Mock(status_code=200)
+        response.iter_content.return_value=[b'offline ',b'photo']
+        with patch('retro_photo.requests.get',return_value=response) as get:
+            self.assertEqual(download_approved_photo(self.item),b'offline photo')
+        self.assertFalse(get.call_args.kwargs['allow_redirects'])
+
+    def test_failed_sending_marker_prevents_send_and_blocks_retry(self):
+        mocks=self.context()
+        def persist(path,state):
+            if state['slots']['2026-W42']['status']=='sending':raise OSError('push')
+            atomic_json(path,state)
+        with patch('retro_weekly.persist',side_effect=persist):
+            with self.assertRaises(OSError):self.call()
+        self.assertEqual(self.call()['previous_status'],'verifying')
+        mocks[4].assert_called_once();mocks[5].assert_not_called()

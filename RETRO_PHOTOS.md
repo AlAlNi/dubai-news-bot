@@ -42,3 +42,12 @@ Secret `SERPER_API_KEY` используется только в Actions → **F
 Перед платным запросом недельный резерв отправляется в main. Ошибка API или
 таймаут сохраняет использованную попытку до следующей недели; проверьте ключ
 и баланс Serper. Журнал поиска не нужно удалять для повторного запуска.
+
+
+For a manually approved National weekly candidate, include
+`publication_review.image_sha256` (64 lowercase hexadecimal characters) calculated
+from the exact original file inspected during the visual/rights review. Commons uses
+the pinned SHA-256 in the card-specific registry. At execution, a bounded download
+(no redirects, maximum 10 MiB) must match this hash before the verifier can be called.
+Telegram receives those verified bytes as a file upload, not the mutable source URL.
+A mismatch is reported as `approved_image_bytes_changed`; no verification or send occurs.

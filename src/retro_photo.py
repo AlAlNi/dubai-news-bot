@@ -1,4 +1,5 @@
 """Photo payload and no-retry transport, shared source/rights policy."""
+import hashlib
 import html
 import re
 
@@ -35,6 +36,40 @@ def photo_payload(item, channel):
     return {'chat_id': channel, 'photo': item['image_url'], 'caption': caption, 'parse_mode': 'HTML'}
 
 
+def approved_image_hash(item):
+    review = commons_review(item.get('source_url'))
+    digest = review['sha256'] if review else item.get('publication_review', {}).get('image_sha256')
+    if not isinstance(digest, str) or not re.fullmatch('[0-9a-f]{64}', digest):
+        raise ValueError('approved_image_hash_required')
+    return digest
+
+
+def download_approved_photo(item):
+    """Bounded original download; the exact approved bytes are uploaded, never a URL."""
+    digest = approved_image_hash(item)
+    try:
+        response = requests.get(item['image_url'], stream=True, timeout=30, allow_redirects=False)
+        try:
+            if response.status_code != 200:
+                raise ValueError('image_download_failed')
+            chunks, size = [], 0
+            for chunk in response.iter_content(chunk_size=65536):
+                size += len(chunk)
+                if size > 10 * 1024 * 1024:
+                    raise ValueError('image_download_too_large')
+                chunks.append(chunk)
+            content = b''.join(chunks)
+            if not content or hashlib.sha256(content).hexdigest() != digest:
+                raise ValueError('approved_image_bytes_changed')
+            return content
+        finally:
+            response.close()
+    except ValueError:
+        raise
+    except Exception:
+        raise ValueError('image_download_failed') from None
+
+
 def validate_destination(token, configured_channel, expected_username):
     if expected_username != 'rudubainews':
         raise ValueError('publication_target_not_approved')
@@ -54,10 +89,12 @@ def validate_destination(token, configured_channel, expected_username):
         raise ValueError('production_destination_not_confirmed') from None
 
 
-def send_photo(payload, token):
+def send_photo(payload, token, image_bytes):
     try:
         response = requests.post(f'https://api.telegram.org/bot{token}/sendPhoto',
-                                 json=payload, timeout=40, allow_redirects=False)
+                                 data={k: v for k, v in payload.items() if k != 'photo'},
+                                 files={'photo': ('approved-original.jpg', image_bytes, 'application/octet-stream')},
+                                 timeout=40, allow_redirects=False)
         try:
             data = response.json()
             if response.status_code != 200 or data.get('ok') is not True:

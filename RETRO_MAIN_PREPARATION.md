@@ -83,3 +83,22 @@ Production state, бюджеты, обычные новости, расписа�
 запуск. До такого решения нет push, main merge, Actions, платных вызовов или Telegram.
 Если разрешить только перенос механики с пустой очередью, рубрика будет корректно
 пропускать выпуск, а не публиковать неподтверждённое или повторное фото.
+
+
+## Independent review follow-up (2026-10-11)
+
+The independent read-only review found and the local follow-up fixes two defects:
+remote-URL sending did not pin the actual image bytes, and malformed queue captions
+could abort inventory. The weekly path now downloads at most 10 MiB without redirects,
+checks SHA-256 before paid verification, and uploads those exact bytes as multipart.
+Commons uses the manually reviewed registry hash; National candidates must additionally
+supply `publication_review.image_sha256` from the visually reviewed original. This hash
+pins the complete file, including its reviewed dimensions; no image transformations occur.
+Malformed rows receive individual diagnostics without hiding remaining candidates.
+An explicit regression checks failure of the durable `sending` marker prevents sending
+and leaves the prior `verifying` attempt blocked on rerun.
+
+Validation: full offline suite 202 tests + 68 subtests passed. Network connections
+were blocked; six pre-existing attempts from four unrelated news tests were denied.
+The reviewed publication queue remains empty. No deployment or fresh-photo selection
+was performed, and the old private-channel image remains excluded by history.

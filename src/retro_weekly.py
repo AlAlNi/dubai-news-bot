@@ -8,7 +8,7 @@ from pathlib import Path
 
 from retro_photos import persist, public_url
 from retro_policy import source_allowed, usage_allowed
-from retro_photo import caption_html, photo_payload, validate_destination, send_photo
+from retro_photo import caption_html, photo_payload, validate_destination, send_photo, approved_image_hash, download_approved_photo
 from retro_publish import image_identity, used_images, select_photo
 from source_verification import verify_summary
 
@@ -42,7 +42,8 @@ def candidate_reason(item, used):
         return 'usage_not_approved'
     try:
         payload = photo_payload(checked, 'reviewed_public_target:rudubainews')
-    except ValueError:
+        approved_image_hash(checked)
+    except (ValueError, KeyError, TypeError):
         return 'invalid_caption_or_rights'
     if hashlib.sha256(payload['caption'].encode()).hexdigest() != review.get('caption_sha256'):
         return 'approved_caption_changed'
@@ -59,7 +60,10 @@ def queue_inventory(queue, storage, staging):
         if not isinstance(item, dict):
             reason, item = 'invalid_candidate', {'id': None}
         else:
-            reason = candidate_reason(item, used)
+            try:
+                reason = candidate_reason(item, used)
+            except (ValueError, KeyError, TypeError, AttributeError):
+                reason = 'invalid_candidate'
         diagnostics.append({'id': item.get('id'), 'reason': reason})
         if reason == 'pending_live_evidence_recheck':
             ready.append(item)
@@ -118,6 +122,10 @@ def run_weekly(*, storage=STORAGE, queue=QUEUE, staging=STAGING, now=None, execu
         if item is None:
             return {'status': 'no_verified_photo', 'reason': 'live_evidence_recheck_failed',
                     'diagnostics': diagnostics, 'evidence_diagnostics': evidence}
+        try:
+            image_bytes = download_approved_photo(item)
+        except ValueError as error:
+            return {'status': 'no_verified_photo', 'reason': str(error), 'diagnostics': diagnostics}
         payload = photo_payload(item, confirmed_channel)
         record = {'status': 'verifying', 'at': now.isoformat(), 'image_identity': image_identity(item['image_url']),
                   'source_snapshot': source, 'target_username': 'rudubainews',
@@ -134,7 +142,7 @@ def run_weekly(*, storage=STORAGE, queue=QUEUE, staging=STAGING, now=None, execu
             return {'status': record['status'], 'reason': verification.get('reason')}
         record['status'] = 'sending'
         persist(path, state)  # Durable no-resend marker before Telegram.
-        result = send_photo(payload, token)
+        result = send_photo(payload, token, image_bytes)
         record.update(result)
         persist(path, state)
         return result
