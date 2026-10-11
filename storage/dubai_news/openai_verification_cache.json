@@ -1,43 +1,4 @@
 {
-  "3300fdeb5ae46bb8bb3fe54652a3f0d39a2ad3fdc424527595b0763cd6793735": {
-    "saved_at": "2026-10-04T02:13:29.824046+00:00",
-    "result": {
-      "id": "chatcmpl-EV61A18f5HWz2qZ4ootOwsZFU08KA",
-      "object": "chat.completion",
-      "created": 1791080008,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text passages.\",\"claims\":[{\"claim\":\"Microsoft presented the Digital Defence Report 2026 during Cyber Security month.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The report notes the rise of threats and the importance of artificial intelligence in data protection.\",\"supported\":true,\"evidence\":[1,8,9,10]},{\"claim\":\"The UAE ranked 6th globally in the number of cyberattacks in the first half of 2026.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The UAE ranked 2nd in the Middle East and Africa region for cyberattacks in the first half of 2026.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Microsoft, the UAE Cyber Security Council, and Core42 plan to implement the AI solution MDASH for government entities in the UAE.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"MDASH will help identify vulnerabilities faster and respond to threats while considering sovereignty and privacy requirements.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Yazan Khasawneh, Director of Cyber Security at Microsoft UAE, stated that cybersecurity must be integrated into AI adoption and identity management from the start.\",\"supported\":true,\"evidence\":[4,5,6,7]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1483,
-        "completion_tokens": 278,
-        "total_tokens": 1761,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_07f0137997"
-    }
-  },
   "ac0f10e5d85a3afb0c155035b201ed086071f66f4b610f6187488059e0987c14": {
     "saved_at": "2026-10-05T01:22:59.401097+00:00",
     "result": {
@@ -569,6 +530,45 @@
         "prompt_tokens": 1768,
         "completion_tokens": 202,
         "total_tokens": 1970,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c231e31fe1"
+    }
+  },
+  "f69320c765a0c62a641aaa1cff2663afd1de4bfc9ff3e259d07b8385054e5fd7": {
+    "saved_at": "2026-10-11T02:46:01.952070+00:00",
+    "result": {
+      "id": "chatcmpl-EXdrUIkgTrbYp44EE6uR8ApDK7Lch",
+      "object": "chat.completion",
+      "created": 1791686760,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Rental Disputes Centre in Dubai settled 2,350 cases in the first nine months of 2026.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The total value of the settled cases was AED 401 million.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The average resolution time per case was six days.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Conciliation procedures allow landlords and tenants to reach agreements without litigation, reducing social and economic costs.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Settlement agreements are approved by a supervising judge, giving them legal enforceability.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 913,
+        "completion_tokens": 169,
+        "total_tokens": 1082,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
