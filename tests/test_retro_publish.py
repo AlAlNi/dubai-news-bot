@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
-from retro_publish import PhotoCaptions, image_identity, load_evidence, run, send_post, valid_post
+from retro_publish import PhotoCaptions, image_identity, load_evidence, legacy_run as run, send_post, valid_post
 
 ROOT = Path(__file__).resolve().parents[1]
 NOW = datetime(2026, 9, 26, 9, tzinfo=timezone.utc)

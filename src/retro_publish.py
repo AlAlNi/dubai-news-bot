@@ -11,6 +11,7 @@ from urllib.parse import urlsplit
 import requests
 from post_style import format_summary, headline_only
 from retro_photos import collect, persist, public_url
+from retro_policy import source_allowed
 from search_sources import ArticleHTML, clean_text
 from source_verification import source_snapshot, verify_summary
 
@@ -19,6 +20,10 @@ LAUNCH = Path('config/retro_first_post.json')
 
 
 def image_identity(url):
+    from retro_commons import commons_image_identity
+    pinned = commons_image_identity(url)
+    if pinned:
+        return pinned
     p = urlsplit(url)
     return p.hostname.lower() + p.path
 
@@ -37,10 +42,12 @@ class PhotoCaptions(HTMLParser):
             self.photos[image_identity(url)] = clean_text(caption)
 
 
-def load_evidence(item, include_article=False):
+def load_evidence(item, include_article=False, allow_commons=False):
     url = item['source_url']
-    if (not public_url(url) or urlsplit(url).hostname not in {'www.thenationalnews.com', 'thenationalnews.com'}
-            or not urlsplit(url).path.startswith('/news/uae/')):
+    if allow_commons and urlsplit(url).hostname == 'commons.wikimedia.org':
+        from retro_commons import load_commons_evidence
+        return load_commons_evidence(item)
+    if not source_allowed(url) or not public_url(item.get('image_url')):
         raise ValueError('unsupported_archive_source')
     response = requests.get(url, timeout=20, allow_redirects=False, stream=True,
                             headers={'User-Agent': 'DubaiNewsBot/1.0'})
@@ -113,7 +120,61 @@ def send_post(text, source_url):
         return {'status': 'send_unknown'}
 
 
-def run(storage=STORAGE, launch=LAUNCH, now=None):
+def used_images(storage, filename='retro_publications.json'):
+    path = storage / filename
+    state = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'slots': {}}
+    used = {e['image_identity'] for e in state['slots'].values() if e.get('image_identity')}
+    replacement = storage / 'retro_creek_replacement.json'
+    if replacement.exists():
+        entry = json.loads(replacement.read_text(encoding='utf-8'))
+        if entry.get('image_url'):
+            used.add(image_identity(entry['image_url']))
+    return used
+
+
+def select_photo(choices, used, include_article=False, eligible=None, allow_commons=False):
+    diagnostics = []
+    attempts = 0
+    selected = source = None
+    for candidate in choices:
+        reason = None
+        if not public_url(candidate.get('image_url')):
+            reason = 'invalid_image_url'
+        elif image_identity(candidate['image_url']) in used:
+            reason = 'already_used'
+        elif not source_allowed(candidate.get('source_url'), allow_commons=allow_commons):
+            reason = 'unsupported_archive_source'
+        elif eligible and not eligible(candidate):
+            reason = 'usage_not_approved'
+        elif selected is not None:
+            reason = 'not_selected'
+        elif attempts >= 3:
+            reason = 'evidence_attempt_limit'
+        else:
+            attempts += 1
+            try:
+                if allow_commons and urlsplit(candidate['source_url']).hostname == 'commons.wikimedia.org':
+                    source = load_evidence(candidate, allow_commons=True)
+                else:
+                    source = load_evidence(candidate, include_article=include_article)
+                selected = candidate
+                reason = 'selected'
+            except Exception as exc:
+                # Only known codes, never exception text / credentials.
+                reason = str(exc) if isinstance(exc, ValueError) and str(exc) in {
+                    'archive_unavailable', 'archive_too_large', 'archive_article_text_unavailable',
+                    'photo_date_or_location_not_confirmed', 'unsupported_archive_source',
+                    'commons_manual_review_required', 'commons_metadata_changed'} else 'evidence_error'
+        diagnostics.append({'id': candidate.get('id'), 'reason': reason})
+    counts = {}
+    for entry in diagnostics:
+        counts[entry['reason']] = counts.get(entry['reason'], 0) + 1
+    return selected, source, {'candidates': len(choices), 'evidence_attempts': attempts,
+                             'counts': counts, 'items': diagnostics}
+
+
+def legacy_run(storage=STORAGE, launch=LAUNCH, now=None):
+    """Historical text-post compatibility; never called by the weekly entry point."""
     if os.getenv('GITHUB_ACTIONS') == 'true' and os.getenv('GITHUB_REF') != 'refs/heads/main':
         raise RuntimeError('Publication is allowed only on main')
     if not os.getenv('TELEGRAM_BOT_TOKEN') or not os.getenv('TELEGRAM_CHANNEL_ID'):
@@ -134,7 +195,7 @@ def run(storage=STORAGE, launch=LAUNCH, now=None):
                        and previous.get('image_identity') == image_identity(seed['image_url']))
     if previous and not retry_first:
         return {'status': 'already_attempted', 'previous_status': previous['status']}
-    used = {entry['image_identity'] for entry in state['slots'].values() if entry.get('image_identity')}
+    used = used_images(storage)
     if retry_first:
         used.discard(image_identity(seed['image_url']))
     seed_unused = retry_first or image_identity(seed['image_url']) not in used
@@ -146,24 +207,12 @@ def run(storage=STORAGE, launch=LAUNCH, now=None):
     else:
         photos, _ = collect(storage / 'retro_photos.json', now)
         choices = list(reversed(photos['candidates']))
-    item, source, rejections = None, None, []
-    for candidate in choices[:30]:
-        if image_identity(candidate['image_url']) in used:
-            continue
-        if urlsplit(candidate['source_url']).hostname not in {'www.thenationalnews.com', 'thenationalnews.com'}:
-            continue
-        if len(rejections) >= 3:
-            break
-        try:
-            source = load_evidence(candidate, include_article=seed_unused)
-            item = candidate
-            break
-        except Exception:
-            rejections.append(candidate['id'])
+    item, source, diagnostics = select_photo(choices, used, include_article=seed_unused)
     if item is None:
-        return {'status': 'no_verified_photo', 'rejected': len(rejections)}
+        return {'status': 'no_verified_photo', 'rejected': diagnostics['evidence_attempts'],
+                'diagnostics': diagnostics}
     record = {'status': 'preparing', 'at': now.isoformat(), 'image_identity': image_identity(item['image_url']),
-              'source_url': item['source_url'], 'source_snapshot': source}
+              'source_url': item['source_url'], 'source_snapshot': source, 'diagnostics': diagnostics}
     if seed_unused:
         record['seed_revision'] = seed.get('revision', 1)
     if retry_first:
@@ -193,8 +242,14 @@ def run(storage=STORAGE, launch=LAUNCH, now=None):
     return result
 
 
+def run(storage=STORAGE, launch=LAUNCH, now=None, *, queue=None, execute=False):
+    from retro_weekly import run_weekly, QUEUE
+    return run_weekly(storage=storage, queue=QUEUE if queue is None else queue,
+                      now=now, execute=execute)
+
+
 if __name__ == '__main__':
-    result = run()
+    result = run(execute=os.getenv('GITHUB_ACTIONS') == 'true')
     report = json.dumps(result, ensure_ascii=False)
     print(report)
     if os.getenv('GITHUB_STEP_SUMMARY'):
