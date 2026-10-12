@@ -739,5 +739,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c231e31fe1"
     }
+  },
+  "a5d86f17bbf58a8e5d14b249e32ffa5c2c07a403512f4e2dbd59b4a26203db1e": {
+    "saved_at": "2026-10-12T16:16:40.339197+00:00",
+    "result": {
+      "id": "chatcmpl-EYCzW3Hse4xfOEi0hO9ZD4B75TAs2",
+      "object": "chat.completion",
+      "created": 1791821798,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai doubled the Oraseya Capital fund to AED 1 billion.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Oraseya Capital is managed by Dubai Integrated Economic Zones Authority.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The fund was increased from AED 500 million to AED 1 billion to support companies in AI, fintech, and future technologies.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The maximum investment per company increased from 3 million to 6 million USD.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The increase in investment size will allow support for more mature projects and expand investments internationally.\",\"supported\":true,\"evidence\":[5,6,7]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1813,
+        "completion_tokens": 178,
+        "total_tokens": 1991,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_3de8ea34d5"
+    }
   }
 }
