@@ -700,5 +700,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_c231e31fe1"
     }
+  },
+  "620bef2750aa6a0a1f255f49c6f14701f15017890dc6d8c9f0c471d7f4504dc0": {
+    "saved_at": "2026-10-12T00:05:12.712232+00:00",
+    "result": {
+      "id": "chatcmpl-EXxpPuonQuX2Yo3Q2sitTJtEyhtjS",
+      "object": "chat.completion",
+      "created": 1791763511,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Police received international recognition from the Project Management Institute (PMI) for excellence in planning and delivering projects.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The recognition was announced during the PMI Global Summit Series in Seoul.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The recognition highlights the effectiveness of Dubai Police's project management system based on planning, resource management, and performance evaluation.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Dubai Police initiatives and projects aim to achieve strategic goals with measurable impact.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Major General Sheikh Mohammad Abdullah Rashid Al Mualla stated that the recognition confirms the maturity of institutional practices and professionalism of personnel.\",\"supported\":true,\"evidence\":[2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 932,
+        "completion_tokens": 187,
+        "total_tokens": 1119,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_c231e31fe1"
+    }
   }
 }
