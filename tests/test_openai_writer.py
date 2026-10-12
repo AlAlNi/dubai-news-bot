@@ -46,6 +46,40 @@ class WriterTests(unittest.TestCase):
             self.assertEqual(cached["api_calls"], 0)
             req.assert_called_once()
 
+    def test_short_post_preserves_conditions_through_telegram_formatting(self):
+        from rss_collect import ensure_summary_quality
+        source = {"title": "Dubai bus trial", "text": "RTA plans a Dubai bus trial from 3 November. "
+                  "The fare is AED 5; only registered passengers may travel.",
+                  "url": "https://example.com/bus-trial"}
+        post = ("<b>🚌 В Дубае планируют тестовый автобусный маршрут</b>\n\n"
+                "RTA планирует начать тестовые поездки <b>3 ноября</b>.\n\n"
+                "Проезд стоит 5 дирхамов; ездить смогут только зарегистрированные пассажиры.")
+        self.response.json.return_value["choices"][0]["message"]["content"] = json.dumps(
+            {"publish": True, "reason": "Транспорт", "post": post})
+        with patch("openai_writer.request_with_retry", return_value=self.response) as req:
+            result = prepare_post(source, self.path)
+            formatted = ensure_summary_quality(result["post"], source["title"], source["text"])
+        self.assertEqual(result["status"], "prepared")
+        self.assertEqual(result["api_calls"], 1)
+        req.assert_called_once()
+        self.assertIn("планирует", formatted)
+        self.assertIn("<b>3 ноября</b>", formatted)
+        self.assertIn("5 дирхамов", formatted)
+        self.assertIn("только зарегистрированные пассажиры", formatted)
+        self.assertEqual(source["url"], "https://example.com/bus-trial")
+
+    def test_changed_prompt_does_not_reuse_old_writer_cache(self):
+        with patch("openai_writer.request_with_retry", return_value=self.response) as req:
+            with patch("openai_writer.NEWS_PROMPT", "Previous news style"):
+                previous = prepare_post(self.source, self.path)
+            current = prepare_post(self.source, self.path)
+            cached = prepare_post(self.source, self.path)
+        self.assertFalse(previous["cached"])
+        self.assertFalse(current["cached"])
+        self.assertTrue(cached["cached"])
+        self.assertEqual(req.call_count, 2)
+        self.assertEqual(cached["api_calls"], 0)
+
     def test_failed_reservation_sends_nothing(self):
         with patch("openai_writer.persist_cache", side_effect=OSError), patch("openai_writer.request_with_retry") as req:
             self.assertEqual(prepare_post(self.source, self.path)["status"], "deferred")
