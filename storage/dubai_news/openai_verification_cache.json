@@ -1012,5 +1012,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_6e0170489c"
     }
+  },
+  "8a52778de5669035e4dbef36ce19c67f30982a99a42e272473eca5a269229531": {
+    "saved_at": "2026-10-15T20:40:08.503533+00:00",
+    "result": {
+      "id": "chatcmpl-EZMX8zfY9ycfqgg6uBsxSJ58niuoO",
+      "object": "chat.completion",
+      "created": 1792096806,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Louvre Abu Dhabi opened an exhibition titled 'Spices and Wonders: Sailing the Indian Ocean'.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The exhibition runs until February 14, 2027.\",\"supported\":true,\"evidence\":[4,35]},{\"claim\":\"The exhibition includes about 240 items from 24 collections.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The exhibition reveals trade and cultural connections in the Indian Ocean region from antiquity to the 17th century.\",\"supported\":true,\"evidence\":[5,33]},{\"claim\":\"Special attention is given to the role of the Arabian Gulf in maritime routes and goods exchange, including pearls, jewelry, and spices.\",\"supported\":true,\"evidence\":[8,11,12,13,25]},{\"claim\":\"The exhibition features models of historic ships and navigational instruments.\",\"supported\":true,\"evidence\":[7,19,21]},{\"claim\":\"After the Abu Dhabi showing, the exhibition will travel to Paris.\",\"supported\":true,\"evidence\":[36]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2050,
+        "completion_tokens": 241,
+        "total_tokens": 2291,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_6e0170489c"
+    }
   }
 }
