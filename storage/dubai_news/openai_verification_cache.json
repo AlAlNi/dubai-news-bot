@@ -1,43 +1,4 @@
 {
-  "734f88b62762615084257a0cad29f07ad4005d81c6cde096328701b7d3167cba": {
-    "saved_at": "2026-10-08T00:32:51.936411+00:00",
-    "result": {
-      "id": "chatcmpl-EWWLxxpxGVuerCZ6KOIQLMKYVNGap",
-      "object": "chat.completion",
-      "created": 1791419569,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai and World Cities Culture Forum announced the launch of Global Fellowship.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Global Fellowship program will bring together 20 professionals from different cities, including five representatives from Dubai organizations.\",\"supported\":true,\"evidence\":[2,4,22]},{\"claim\":\"The program aims to develop skills in cultural policy and urban leadership.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Participants will study, exchange experience, and develop projects for their cities over six months.\",\"supported\":true,\"evidence\":[2,5,17,18]},{\"claim\":\"From November 2026 to March 2027, online masterclasses will be held.\",\"supported\":true,\"evidence\":[16,17]},{\"claim\":\"In spring 2027, a five-day residency will take place in Dubai.\",\"supported\":true,\"evidence\":[19,20]},{\"claim\":\"The program is aimed at strengthening the role of culture in sustainable urban development and improving quality of life.\",\"supported\":true,\"evidence\":[9,10,21]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2205,
-        "completion_tokens": 247,
-        "total_tokens": 2452,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_6e0170489c"
-    }
-  },
   "c77d95ca643dc8b6f7b551f6c74f4040c5b5b1064824ff497306dd952ebcbdd6": {
     "saved_at": "2026-10-09T00:48:23.070294+00:00",
     "result": {
@@ -920,6 +881,45 @@
         "prompt_tokens": 1644,
         "completion_tokens": 192,
         "total_tokens": 1836,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_6e0170489c"
+    }
+  },
+  "2b4ae2aab127620fd9f94bfd33be03cc2c17399e814bfe6a0176d753b7a6d349": {
+    "saved_at": "2026-10-15T06:40:26.935716+00:00",
+    "result": {
+      "id": "chatcmpl-EZ9QXeOpn05A9mmi1FAdBuOjwIzND",
+      "object": "chat.completion",
+      "created": 1792046425,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, a pedestrian bridge between Etihad Rail and the Metro will open.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"From October 15, Etihad Rail passengers will be able to directly transfer to Jumeirah Golf Estates Metro Station via a new pedestrian bridge about 400 meters long.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The bridge will connect Al Yalayis Etihad Rail station with the Dubai Metro Red Line.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"This will improve transport accessibility by allowing passengers to walk between the two stations instead of using taxis or buses.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Passengers can also purchase a nol day pass for unlimited travel on Metro, tram, and buses during its validity.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1134,
+        "completion_tokens": 197,
+        "total_tokens": 1331,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
