@@ -10817,5 +10817,203 @@
     "language": "",
     "top_image": "",
     "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "UAE orders recall of face mask batch over possible contamination",
+      "text": "The UAE has ordered a recall of a batch of face masks because of concerns about possible contamination of the material used in its manufacture. The Emirates Drug Establishment issued the recall for Nin 160 FMB-NML Facemask C G blue, batch number 20251015. It is described as blue in colour and three-ply in structure. The Dubai Health Authority also issued a circular on Monday instructing healthcare centres to comply with the recall. Officials said Ningbo ETDZ Holdings Ltd in China manufactured the masks, and Globemed Care LLC distributed them in the UAE. The drug regulator said the recall was ordered after a quality complaint. Inspections identified foreign material or contamination in units from the affected batch. Healthcare professionals, hospitals and clinics and pharmacies must immediately stop selling, supplying, distributing or using the affected batch. They must identify and quarantine all available stock, then arrange for its return to the local supplier or distributor, Globemed Care LLC. They must also maintain records of quantities identified, quarantined, and returned. Residents who purchased the affected product should stop using any packs with batch number 20251015 and return them to the point of purchase or supplier. Healthcare providers must report any product quality complaints or adverse incidents related to the masks through EDE-approved reporting channels. Globemed Care LLC has also been ordered to retrieve all distributed quantities from the UAE market. It must also provide the regulator with details of quantities imported, distributed, returned, and remaining in stock, as well as a complete UAE distribution list. The regulator also urged people to report any quality concerns or adverse incidents involving the product directly to the authority.",
+      "url": "https://www.thenationalnews.com/news/uae/2026/10/14/uae-orders-recall-of-face-mask-batch-over-possible-contamination/",
+      "published_at": "2026-10-14T08:14:53.999000+00:00"
+    },
+    "source_published_at": "2026-10-14T08:14:53.999000+00:00",
+    "source_retrieved_at": "2026-10-15T17:27:57.841378+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "In the UAE, a batch of medical masks was recalled due to possible contamination of the material.",
+          "supported": true,
+          "evidence": [
+            0,
+            1,
+            6,
+            7
+          ]
+        },
+        {
+          "claim": "Batch number 20251015 of Nin 160 FMB-NML Facemask C G, blue in color and three-ply in structure, is banned from sale and use.",
+          "supported": true,
+          "evidence": [
+            2,
+            3,
+            8
+          ]
+        },
+        {
+          "claim": "The manufacturer is Ningbo ETDZ Holdings Ltd (China), and the distributor is Globemed Care LLC.",
+          "supported": true,
+          "evidence": [
+            5
+          ]
+        },
+        {
+          "claim": "Medical institutions must withdraw and return the masks, and residents must stop using and return the product to the place of purchase.",
+          "supported": true,
+          "evidence": [
+            8,
+            9,
+            11
+          ]
+        },
+        {
+          "claim": "The regulator requests reporting any quality issues through official channels.",
+          "supported": true,
+          "evidence": [
+            12,
+            15
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "UAE orders recall of face mask batch over possible contamination"
+        },
+        {
+          "id": 1,
+          "text": "The UAE has ordered a recall of a batch of face masks because of concerns about possible contamination of the material used in its manufacture."
+        },
+        {
+          "id": 2,
+          "text": "The Emirates Drug Establishment issued the recall for Nin 160 FMB-NML Facemask C G blue, batch number 20251015."
+        },
+        {
+          "id": 3,
+          "text": "It is described as blue in colour and three-ply in structure."
+        },
+        {
+          "id": 4,
+          "text": "The Dubai Health Authority also issued a circular on Monday instructing healthcare centres to comply with the recall."
+        },
+        {
+          "id": 5,
+          "text": "Officials said Ningbo ETDZ Holdings Ltd in China manufactured the masks, and Globemed Care LLC distributed them in the UAE."
+        },
+        {
+          "id": 6,
+          "text": "The drug regulator said the recall was ordered after a quality complaint."
+        },
+        {
+          "id": 7,
+          "text": "Inspections identified foreign material or contamination in units from the affected batch."
+        },
+        {
+          "id": 8,
+          "text": "Healthcare professionals, hospitals and clinics and pharmacies must immediately stop selling, supplying, distributing or using the affected batch."
+        },
+        {
+          "id": 9,
+          "text": "They must identify and quarantine all available stock, then arrange for its return to the local supplier or distributor, Globemed Care LLC."
+        },
+        {
+          "id": 10,
+          "text": "They must also maintain records of quantities identified, quarantined, and returned."
+        },
+        {
+          "id": 11,
+          "text": "Residents who purchased the affected product should stop using any packs with batch number 20251015 and return them to the point of purchase or supplier."
+        },
+        {
+          "id": 12,
+          "text": "Healthcare providers must report any product quality complaints or adverse incidents related to the masks through EDE-approved reporting channels."
+        },
+        {
+          "id": 13,
+          "text": "Globemed Care LLC has also been ordered to retrieve all distributed quantities from the UAE market."
+        },
+        {
+          "id": 14,
+          "text": "It must also provide the regulator with details of quantities imported, distributed, returned, and remaining in stock, as well as a complete UAE distribution list."
+        },
+        {
+          "id": 15,
+          "text": "The regulator also urged people to report any quality concerns or adverse incidents involving the product directly to the authority."
+        }
+      ],
+      "source_hash": "f24843c50eac2bf0a486b9cf72e19b090c74ff9f9910bf3f024e30a0176d138a",
+      "summary_hash": "415facb9d3101d419bffa86a01eb19aac351c66cb474ae85956732b9d99af10f",
+      "checked_at": "2026-10-15T17:28:10.837300+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "thenationalnews.com",
+    "title": "UAE orders recall of face mask batch over possible contamination",
+    "summary_ru": "<b>🏥 В ОАЭ отозвали партию медицинских масок из-за возможного загрязнения материала.</b>\n\n<b>Партия 20251015</b> масок Nin 160 FMB-NML Facemask C G синего цвета и трёхслойной структуры запрещена к продаже и использованию. Производитель — Ningbo ETDZ Holdings Ltd (Китай), дистрибьютор — Globemed Care LLC.\n\nМедучреждения должны изъять и вернуть маски, а жители — прекратить использование и вернуть товар в место покупки. Регулятор просит сообщать о любых проблемах с качеством через официальные каналы.",
+    "published": "2026-10-15T17:28:07.065366+00:00",
+    "source_urls": [
+      "https://www.thenationalnews.com/news/uae/2026/10/14/uae-orders-recall-of-face-mask-batch-over-possible-contamination/"
+    ],
+    "lang": "en",
+    "content_hash": "2c21ea4edbc4ac90a374535c845db8f2",
+    "strict_hash": "2c21ea4edbc4ac90a374535c845db8f2",
+    "fuzzy_hash": "fd838edc91a6595673fb68b92aa5dd05",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о отзыве партии медицинских масок в ОАЭ из-за возможного загрязнения материала соответствует тематике общественного здоровья и безопасности."
+      }
+    },
+    "image_url": "",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-10-15T17:28:35.049191+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1658
+    },
+    "published_at": "2026-10-15T17:28:35.055178+00:00",
+    "source_url": "https://www.thenationalnews.com/news/uae/2026/10/14/uae-orders-recall-of-face-mask-batch-over-possible-contamination",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
   }
 ]
