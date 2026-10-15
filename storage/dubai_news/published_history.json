@@ -10689,5 +10689,133 @@
     "language": "",
     "top_image": "",
     "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "RTA completes conversion of Al Satwa Roundabout into signalised intersection",
+      "text": "DUBAI, 14th October, 2026 (WAM) -- Dubai’s Roads and Transport Authority (RTA) has completed converting Al Satwa Roundabout into a signalised intersection, alongside associated road and infrastructure enhancements, reducing waiting times and traffic queues by up to 60 percent during peak hours.The project, which also included road and infrastructure improvements, aims to ease congestion, improve traffic flow and enhance safety for motorists and pedestrians.The intersection serves traffic travelling along 2nd December Street towards the Trade Centre and Al Satwa in both directions, improving connectivity between major roads and internal streets.Located at a key junction, the intersection serves Al Satwa and neighbouring areas, including the Trade Centre, Al Bada’a, Al Jafiliya, Al Hudaiba and Jumeirah, while providing easier access to Sheikh Zayed Road and surrounding major routes.",
+      "url": "https://www.wam.ae/en/article/c2qm3jr-rta-completes-conversion-satwa-roundabout-into",
+      "published_at": "2026-10-14T10:31:19+00:00"
+    },
+    "source_published_at": "2026-10-14T10:31:19+00:00",
+    "source_retrieved_at": "2026-10-15T12:15:11.006740+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "In Dubai, the Al Satwa roundabout was converted into a signalised intersection.",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "The conversion reduced waiting times and traffic queues by up to 60% during peak hours.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "The intersection improves traffic flow along 2nd December Street in both directions.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "The intersection provides better connectivity between major roads and internal streets of Al Satwa, Trade Centre, Al Bada’a, and Jumeirah districts.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "RTA completes conversion of Al Satwa Roundabout into signalised intersection"
+        },
+        {
+          "id": 1,
+          "text": "DUBAI, 14th October, 2026 (WAM) -- Dubai’s Roads and Transport Authority (RTA) has completed converting Al Satwa Roundabout into a signalised intersection, alongside associated road and infrastructure enhancements, reducing waiting times and traffic queues by up to 60 percent during peak hours.The project, which also included road and infrastructure improvements, aims to ease congestion, improve traffic flow and enhance safety for motorists and pedestrians.The intersection serves traffic travelling along 2nd December Street towards the Trade Centre and Al Satwa in both directions, improving connectivity between major roads and internal streets.Located at a key junction, the intersection serves Al Satwa and neighbouring areas, including the Trade Centre, Al Bada’a, Al Jafiliya, Al Hudaiba and Jumeirah, while providing easier access to Sheikh Zayed Road and surrounding major routes."
+        }
+      ],
+      "source_hash": "edef76d8966b26fcbb5669e4e56e6a305cb43db56529a2da35f50aa32f5a721c",
+      "summary_hash": "4dd1410829fad7eb78231b1a631449745b62c0ef05bc267282cfe8ed4c7b2eb3",
+      "checked_at": "2026-10-15T12:15:24.869840+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "wam.ae",
+    "title": "RTA completes conversion of Al Satwa Roundabout into signalised intersection",
+    "summary_ru": "<b>🚇 В Дубае преобразовали кольцо Аль-Сатва в регулируемый перекрёсток</b>\n\nВ Дубае завершили преобразование кольца Аль-Сатва в регулируемый светофорами перекрёсток. Это снизило время ожидания и длину пробок до 60% в часы пик.\n\n📅 Перекрёсток улучшает движение по улице 2 декабря в обе стороны и обеспечивает лучшую связь между крупными дорогами и внутренними улицами районов Аль-Сатва, Трейд Центр, Аль-Бадаа и Джумейра.",
+    "published": "2026-10-15T12:15:20.832126+00:00",
+    "source_urls": [
+      "https://www.wam.ae/en/article/c2qm3jr-rta-completes-conversion-satwa-roundabout-into"
+    ],
+    "lang": "en",
+    "content_hash": "4aefa5f8f2214f7cc71acf5313991f82",
+    "strict_hash": "4aefa5f8f2214f7cc71acf5313991f82",
+    "fuzzy_hash": "596e9fc2640106dd6a0a84609247696b",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о завершении преобразования транспортного узла в Дубае с улучшением дорожной инфраструктуры и снижением пробок."
+      }
+    },
+    "image_url": "",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-10-15T12:15:47.375887+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1657
+    },
+    "published_at": "2026-10-15T12:15:47.381421+00:00",
+    "source_url": "https://www.wam.ae/en/article/c2qm3jr-rta-completes-conversion-satwa-roundabout-into",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
   }
 ]
