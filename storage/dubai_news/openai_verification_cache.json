@@ -1,43 +1,4 @@
 {
-  "d925cea5b08c227acd26ce81c8669408d0cd6b6bb59a65a8d34360449ce438d3": {
-    "saved_at": "2026-10-09T14:00:21.856293+00:00",
-    "result": {
-      "id": "chatcmpl-EX5QxInRrCTD3RSL6SvsFHzLSfRj6",
-      "object": "chat.completion",
-      "created": 1791554419,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Municipality launched the initiative ‘A Generation for a Greater Tomorrow’.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The initiative takes place from 7 to 11 October at City Centre Mirdif.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The initiative offers an interactive experience introducing children to municipal work and the importance of city services for everyday life.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"The program includes educational stations on agriculture, safety, communications, digital games, and laboratory experiments.\",\"supported\":true,\"evidence\":[4,5,6]},{\"claim\":\"The initiative supports the UAE’s Year of the Family by encouraging joint participation of children and parents.\",\"supported\":true,\"evidence\":[3]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1212,
-        "completion_tokens": 183,
-        "total_tokens": 1395,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_1479fe217d"
-    }
-  },
   "758cf23d8c84ed6cf68b0d763b312cc95bdcf823fad8b99f5cc84707894aa9b1": {
     "saved_at": "2026-10-09T19:19:22.545494+00:00",
     "result": {
@@ -1050,6 +1011,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_6e0170489c"
+    }
+  },
+  "13a28d64ccb43db73bd305782c91a5386498522123c6c0c5967d89dc69dc299d": {
+    "saved_at": "2026-10-16T17:02:51.028950+00:00",
+    "result": {
+      "id": "chatcmpl-EZfcPjJgsNa496GmvnFBBUKQ61pwe",
+      "object": "chat.completion",
+      "created": 1792170169,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Employers must report a domestic worker's absence within five days if the worker stops reporting for duty without a valid reason and their whereabouts are unknown.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The report must be submitted through the official MoHRE website or mobile app.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"For private-sector employees, the absence report applies after more than seven consecutive days.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"A customer service number 600590000 is available for consultations.\",\"supported\":true,\"evidence\":[2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 959,
+        "completion_tokens": 146,
+        "total_tokens": 1105,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_87a37040a3"
     }
   }
 }
