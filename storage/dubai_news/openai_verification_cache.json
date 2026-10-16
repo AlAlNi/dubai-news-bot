@@ -1,43 +1,4 @@
 {
-  "758cf23d8c84ed6cf68b0d763b312cc95bdcf823fad8b99f5cc84707894aa9b1": {
-    "saved_at": "2026-10-09T19:19:22.545494+00:00",
-    "result": {
-      "id": "chatcmpl-EXAPfLGJBdJxEEeVzglGc46o4lesK",
-      "object": "chat.completion",
-      "created": 1791573559,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text passages.\",\"claims\":[{\"claim\":\"В Дубае прошло заседание Высшего комитета по развитию экономического и финансового секторов, на котором обсудили последние показатели и стратегические направления развития.\",\"supported\":true,\"evidence\":[2,11,14]},{\"claim\":\"Эмират занял первое место в мире по FinTech.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Эмират улучшил позиции в профессиональных услугах и репутации на мировом финансовом рынке.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Число лицензированных провайдеров виртуальных активов достигло 52.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Объем торгов виртуальными активами составил около AED7,43 трлн за год.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Рынок акций Дубая демонстрирует рост с капитализацией почти AED993,1 млрд.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Рынок акций привлек более 55 тысяч новых инвесторов.\",\"supported\":true,\"evidence\":[7]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2139,
-        "completion_tokens": 260,
-        "total_tokens": 2399,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c231e31fe1"
-    }
-  },
   "cdc5adecded5a42ccf041839dcba67abfff5226eae4fb94b1092436860057605": {
     "saved_at": "2026-10-10T03:13:08.952664+00:00",
     "result": {
@@ -1037,6 +998,45 @@
         "prompt_tokens": 959,
         "completion_tokens": 146,
         "total_tokens": 1105,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_87a37040a3"
+    }
+  },
+  "4e7e03829cb6fc19f0a14d530824d1fce7cab04fd6e98c5c09799654988a8e61": {
+    "saved_at": "2026-10-16T20:13:06.952766+00:00",
+    "result": {
+      "id": "chatcmpl-EZiaXQ52zVBsnPOKyOyjwGF6wMbww",
+      "object": "chat.completion",
+      "created": 1792181585,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Abu Dhabi, a platform for communication with the police in sign language was launched.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Abu Dhabi Police, together with Zayed Authority for People of Determination, introduced the Sign Language Voice platform for deaf and hard-of-hearing people.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The platform provides direct visual communication with a certified sign language interpreter, which speeds up and simplifies communication with the police.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"The platform will be implemented in all police stations in the emirate, promoting equal access to services and improving service quality.\",\"supported\":true,\"evidence\":[5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1684,
+        "completion_tokens": 173,
+        "total_tokens": 1857,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
