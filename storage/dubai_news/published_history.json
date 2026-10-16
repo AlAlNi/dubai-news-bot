@@ -1,104 +1,6 @@
 [
   {
     "source_snapshot": {
-      "title": "UAE man realises passport will expire day before trip. Dubai had an 8-minute fix",
-      "text": "An Emirati traveller facing a last-minute passport problem before an international trip got an unusually quick solution at Dubai International Airport -- a new passport in just eight minutes.\nThe man realised shortly before his scheduled journey that... [3597 chars]",
-      "url": "https://www.indiatoday.in/trending-news/story/dubai-airport-passport-renewal-emirati-man-gets-new-passport-in-eight-minutes-2995414-2026-09-15"
-    },
-    "source_published_at": "2026-09-15T17:01:56Z",
-    "source_retrieved_at": "",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All claims in the post are directly supported by the source text and title.",
-      "claims": [
-        {
-          "claim": "Гражданин ОАЭ обнаружил, что паспорт истекает за день до поездки",
-          "supported": true,
-          "evidence": "An Emirati traveller facing a last-minute passport problem before an international trip"
-        },
-        {
-          "claim": "В Дубае вопрос решили за 8 минут",
-          "supported": true,
-          "evidence": "a new passport in just eight minutes"
-        }
-      ],
-      "source_hash": "9954db54106e4df77561f53ad95629141ef35fe2eced33f11f78ced0cbced122",
-      "summary_hash": "4d789ebe0f0ac08ade5b9709341dbbcc38190616d41167fbddb5f50562e3c1e1",
-      "checked_at": "2026-09-16T06:27:36.265862+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "India Today",
-    "title": "UAE man realises passport will expire day before trip. Dubai had an 8-minute fix",
-    "summary_ru": "<b>Гражданин ОАЭ обнаружил, что паспорт истекает за день до поездки; в Дубае вопрос решили за 8 минут</b>\n\nГражданин ОАЭ, столкнувшийся с проблемой с паспортом в последний момент перед международной поездкой, получил необычно быстрое решение в Международном аэропорту Дубая — новый паспорт всего за восемь минут. Мужчина обнаружил незадолго до запланированной поездки, что...",
-    "published": "2026-09-16T06:27:30.704753+00:00",
-    "source_urls": [
-      "https://www.indiatoday.in/trending-news/story/dubai-airport-passport-renewal-emirati-man-gets-new-passport-in-eight-minutes-2995414-2026-09-15"
-    ],
-    "lang": "en",
-    "content_hash": "3f588fffc07ebf803bb6c45c903062d5",
-    "strict_hash": "3f588fffc07ebf803bb6c45c903062d5",
-    "fuzzy_hash": "db0dfdb2d8a1eac050ad8621b1977eee",
-    "method": "gnews",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 90,
-      "ad_readiness_score": 100,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость имеет явную связь с Дубаем (аэропорт DXB, услуга для путешественников), не касается политики, не выглядит рекламой и полезна/интересна русскоязычным жителям как позитивный сервис-кейс; дубликатов среди последних публикаций нет."
-      }
-    },
-    "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/uae-passport-150530306-16x9_0.jpg?VersionId=OmyaAJ40ZnrFGmOyuJYAjWj7GEBMTQtK",
-    "slot_target": "morning",
-    "publication": {
-      "published_at": "2026-09-16T07:35:13.951977+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1583
-    },
-    "published_at": "2026-09-16T07:35:13.957050+00:00",
-    "source_url": "https://www.indiatoday.in/trending-news/story/dubai-airport-passport-renewal-emirati-man-gets-new-passport-in-eight-minutes-2995414-2026-09-15",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
       "title": "Dubai approves new 80km road with 72 bridges and 17 tunnels",
       "text": "The Dhs3.5 billion first phase will connect Abu Dhabi, Dubai and Sharjah with a new 12-lane route A major new road project is coming to Dubai that could make getting between the emirates much quicker. Dubai has approved the first phase of its new Fourth Corridor, an 80-kilometre road that will improve connections between Dubai, [&#8230;] The post Dubai approves new 80km road with 72 bridges and 17 tunnels appeared first on What&#039;s On .",
       "url": "https://whatson.ae/2026/09/dubai-approves-new-80km-road-with-72-bridges-and-17-tunnels/"
@@ -11305,6 +11207,272 @@
     },
     "published_at": "2026-10-15T20:40:35.380325+00:00",
     "source_url": "https://www.thenationalnews.com/arts-culture/2026/10/14/louvre-abu-dhabi-explores-1000-years-of-indian-ocean-history",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Dubai's shared housing rules will lead to better quality of life for those on low incomes, says official",
+      "text": "Dubai's crackdown on overcrowded and illegally sub-let apartments will result in a better life for residents on low incomes, a senior official from the emirate's municipality has said. The Dubai Municipality's shared housing guide sets standards for building design, occupancy, health and safety, shared amenities and approved locations. It gives landlords until September 1, 2027, to comply with the new requirements across 43 designated areas of the emirate. Nasser Al Shaibani, structural control section manager at Dubai Municipality, said most tenants living in shared accommodation previously did not have any contracts \"or any legal backbone to their residential status”. “With this law, tenants can have a one or two-month contract, which gives them the flexibility to change, to go and come back while having legal support,\" he said. “This will have a big impact on Dubai, as we'll see people moving to better housing and a better quality of life.” The new regulations address unregulated residential practices , prevent rooms from being subdivided, and protect the privacy and rights of owners and occupants. The new law requires buildings to be designated as either individual or family-shared housing. “Each building should be designated only for individuals or only for families; you cannot mix both permits within one building,” Mr Al Shaibani said. “Within this year, we are giving the building owners time to get the necessary approval from Dubai Municipality, Dubai Land Authority, Civil Defence and Rera. “During this time, Dubai Municipality will keep on monitoring those buildings. We will continue visiting and we will do the inspections. This period does not exempt them from unpermitted building modification.\" The municipality has received six applications for shared-housing permits so far. Three of them have been approved through the Build in Dubai platform. Apartment blocks designated for shared accommodation are close to public transport and workplaces to reduce commuter traffic and encourage people to walk or cycle. A 2025 Dubai workforce report by Edenred UAE found that 60 per cent of workers earned less than Dh5,000 ($1,361) a month, creating strong demand for affordable housing. While the new regulations aim to improve housing standards, industry operators caution that higher costs could make it harder to provide affordable accommodation for all. Rayan Hanna, founder and chief executive of Next House, an affordable housing platform in Dubai specialising in short-term rentals, backed the regulations but said the sector still faces challenges. “Although subdividing apartments into smaller rooms, commonly known as partitions, and operating shared rooms in residential units was prohibited, this type of accommodation has existed across Dubai for years,” Mr Hanna told The National . “A clearer legal framework for shared housing creates opportunities for experienced operators, property owners and institutional investors. “I also believe we will see stronger enforcement against illegally subdivided and overcrowded apartments in premium residential areas, with shared housing gradually moving towards designated locations.” Next House caters to professionals visiting Dubai who are looking for short to medium-term rental agreements. Under the new standards, shared accommodation must include kitchens, sanitary facilities and designated areas for dining, recreation, laundry and clothes drying. Bedrooms must be at least five square metres per person. There must be at least one toilet for every four occupants and one shower for every six people. Kitchen space must provide at least one square metre per person, and buildings must provide bicycle parking for at least 10 per cent of residents. Landlords found in breach of the regulations can be fined up to Dh500,000 ($136,147) for a first offence, with repeat offenders facing a maximum penalty of Dh1 million. Mr Hanna, who has amended his business model to comply with the latest rules, said affordability remained the biggest challenge for many people moving to Dubai for work. He said operators may need to generate about Dh2,000 to Dh3,000 per rentable room per month to make the model financially attractive for investors and property owners. “Many people relying on bed spaces simply cannot afford more than Dh700–Dh900 a month,” he said. “The new regulations introduce minimum space requirements, which are important improvements, but they also increase operating and development costs. “The real challenge is finding the balance between making housing safe and compliant, and making it attractive for investors. I don't think these regulations alone will solve Dubai's affordable housing problem, but they're certainly a step in the right direction.” Dubai is one of the world's fastest-growing cities , with its population of about 4.8 million forecast to increase to six million by 2040. The city's infrastructure is expanding alongside its population, with extensions to public transport networks and existing communities.",
+      "url": "https://www.thenationalnews.com/news/uae/2026/10/15/dubai-shared-housing-rules-affordable-accommodation/",
+      "published_at": "2026-10-15T02:00:01+00:00"
+    },
+    "source_published_at": "2026-10-15T02:00:01+00:00",
+    "source_retrieved_at": "2026-10-16T07:38:00.515605+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "Власти Дубая установили стандарты для совместного проживания, включая требования к дизайну зданий, санитарным нормам и безопасности.",
+          "supported": true,
+          "evidence": [
+            2,
+            6,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "claim": "Владельцам жилья дали срок до 1 сентября 2027 года для приведения объектов в соответствие.",
+          "supported": true,
+          "evidence": [
+            3
+          ]
+        },
+        {
+          "claim": "Правила запрещают смешивать жильё для семей и отдельных лиц в одном здании.",
+          "supported": true,
+          "evidence": [
+            7,
+            8
+          ]
+        },
+        {
+          "claim": "Правила предусматривают минимальные размеры комнат и санитарных помещений.",
+          "supported": true,
+          "evidence": [
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "claim": "Нарушителям грозят штрафы до 1 млн дирхамов.",
+          "supported": true,
+          "evidence": [
+            25
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Dubai's shared housing rules will lead to better quality of life for those on low incomes, says official"
+        },
+        {
+          "id": 1,
+          "text": "Dubai's crackdown on overcrowded and illegally sub-let apartments will result in a better life for residents on low incomes, a senior official from the emirate's municipality has said."
+        },
+        {
+          "id": 2,
+          "text": "The Dubai Municipality's shared housing guide sets standards for building design, occupancy, health and safety, shared amenities and approved locations."
+        },
+        {
+          "id": 3,
+          "text": "It gives landlords until September 1, 2027, to comply with the new requirements across 43 designated areas of the emirate."
+        },
+        {
+          "id": 4,
+          "text": "Nasser Al Shaibani, structural control section manager at Dubai Municipality, said most tenants living in shared accommodation previously did not have any contracts \"or any legal backbone to their residential status”."
+        },
+        {
+          "id": 5,
+          "text": "“With this law, tenants can have a one or two-month contract, which gives them the flexibility to change, to go and come back while having legal support,\" he said."
+        },
+        {
+          "id": 6,
+          "text": "“This will have a big impact on Dubai, as we'll see people moving to better housing and a better quality of life.” The new regulations address unregulated residential practices , prevent rooms from being subdivided, and protect the privacy and rights of owners and occupants."
+        },
+        {
+          "id": 7,
+          "text": "The new law requires buildings to be designated as either individual or family-shared housing."
+        },
+        {
+          "id": 8,
+          "text": "“Each building should be designated only for individuals or only for families; you cannot mix both permits within one building,” Mr Al Shaibani said."
+        },
+        {
+          "id": 9,
+          "text": "“Within this year, we are giving the building owners time to get the necessary approval from Dubai Municipality, Dubai Land Authority, Civil Defence and Rera."
+        },
+        {
+          "id": 10,
+          "text": "“During this time, Dubai Municipality will keep on monitoring those buildings."
+        },
+        {
+          "id": 11,
+          "text": "We will continue visiting and we will do the inspections."
+        },
+        {
+          "id": 12,
+          "text": "This period does not exempt them from unpermitted building modification.\" The municipality has received six applications for shared-housing permits so far."
+        },
+        {
+          "id": 13,
+          "text": "Three of them have been approved through the Build in Dubai platform."
+        },
+        {
+          "id": 14,
+          "text": "Apartment blocks designated for shared accommodation are close to public transport and workplaces to reduce commuter traffic and encourage people to walk or cycle."
+        },
+        {
+          "id": 15,
+          "text": "A 2025 Dubai workforce report by Edenred UAE found that 60 per cent of workers earned less than Dh5,000 ($1,361) a month, creating strong demand for affordable housing."
+        },
+        {
+          "id": 16,
+          "text": "While the new regulations aim to improve housing standards, industry operators caution that higher costs could make it harder to provide affordable accommodation for all."
+        },
+        {
+          "id": 17,
+          "text": "Rayan Hanna, founder and chief executive of Next House, an affordable housing platform in Dubai specialising in short-term rentals, backed the regulations but said the sector still faces challenges."
+        },
+        {
+          "id": 18,
+          "text": "“Although subdividing apartments into smaller rooms, commonly known as partitions, and operating shared rooms in residential units was prohibited, this type of accommodation has existed across Dubai for years,” Mr Hanna told The National ."
+        },
+        {
+          "id": 19,
+          "text": "“A clearer legal framework for shared housing creates opportunities for experienced operators, property owners and institutional investors."
+        },
+        {
+          "id": 20,
+          "text": "“I also believe we will see stronger enforcement against illegally subdivided and overcrowded apartments in premium residential areas, with shared housing gradually moving towards designated locations.” Next House caters to professionals visiting Dubai who are looking for short to medium-term rental agreements."
+        },
+        {
+          "id": 21,
+          "text": "Under the new standards, shared accommodation must include kitchens, sanitary facilities and designated areas for dining, recreation, laundry and clothes drying."
+        },
+        {
+          "id": 22,
+          "text": "Bedrooms must be at least five square metres per person."
+        },
+        {
+          "id": 23,
+          "text": "There must be at least one toilet for every four occupants and one shower for every six people."
+        },
+        {
+          "id": 24,
+          "text": "Kitchen space must provide at least one square metre per person, and buildings must provide bicycle parking for at least 10 per cent of residents."
+        },
+        {
+          "id": 25,
+          "text": "Landlords found in breach of the regulations can be fined up to Dh500,000 ($136,147) for a first offence, with repeat offenders facing a maximum penalty of Dh1 million."
+        },
+        {
+          "id": 26,
+          "text": "Mr Hanna, who has amended his business model to comply with the latest rules, said affordability remained the biggest challenge for many people moving to Dubai for work."
+        },
+        {
+          "id": 27,
+          "text": "He said operators may need to generate about Dh2,000 to Dh3,000 per rentable room per month to make the model financially attractive for investors and property owners."
+        },
+        {
+          "id": 28,
+          "text": "“Many people relying on bed spaces simply cannot afford more than Dh700–Dh900 a month,” he said."
+        },
+        {
+          "id": 29,
+          "text": "“The new regulations introduce minimum space requirements, which are important improvements, but they also increase operating and development costs."
+        },
+        {
+          "id": 30,
+          "text": "“The real challenge is finding the balance between making housing safe and compliant, and making it attractive for investors."
+        },
+        {
+          "id": 31,
+          "text": "I don't think these regulations alone will solve Dubai's affordable housing problem, but they're certainly a step in the right direction.” Dubai is one of the world's fastest-growing cities , with its population of about 4.8 million forecast to increase to six million by 2040."
+        },
+        {
+          "id": 32,
+          "text": "The city's infrastructure is expanding alongside its population, with extensions to public transport networks and existing communities."
+        }
+      ],
+      "source_hash": "412102a6aee41cd39af72255b073b039a8e26d69de05ca95d91591eea5b24007",
+      "summary_hash": "039afb3b86de2ebdb8ee874d4d8ee9cc0ff841e585c5dc1af3af8191977cd56a",
+      "checked_at": "2026-10-16T07:38:15.506628+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "thenationalnews.com",
+    "title": "Dubai's shared housing rules will lead to better quality of life for those on low incomes, says official",
+    "summary_ru": "<b>🚇 В Дубае введут новые правила совместного проживания</b>\n\n📅 Власти Дубая установили стандарты для совместного проживания, включая требования к дизайну зданий, санитарным нормам и безопасности. Владельцам жилья дали срок до <b>1 сентября 2027 года</b> для приведения объектов в соответствие.\n\n🏠 Правила запрещают смешивать жильё для семей и отдельных лиц в одном здании и предусматривают минимальные размеры комнат и санитарных помещений. Нарушителям грозят штрафы до 1 млн дирхамов.",
+    "published": "2026-10-16T07:38:12.154884+00:00",
+    "source_urls": [
+      "https://www.thenationalnews.com/news/uae/2026/10/15/dubai-shared-housing-rules-affordable-accommodation/"
+    ],
+    "lang": "en",
+    "content_hash": "3340807edd69f5d5d43659762252a3a0",
+    "strict_hash": "3340807edd69f5d5d43659762252a3a0",
+    "fuzzy_hash": "772a34f00ac0d757efc48b238c5713d7",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о новых правилах совместного проживания в Дубае, которые влияют на качество жизни и стандарты жилья."
+      }
+    },
+    "image_url": "",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-10-16T07:38:36.711261+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1660
+    },
+    "published_at": "2026-10-16T07:38:36.717160+00:00",
+    "source_url": "https://www.thenationalnews.com/news/uae/2026/10/15/dubai-shared-housing-rules-affordable-accommodation",
     "summary": "",
     "summary_en": "",
     "source_names": [],
