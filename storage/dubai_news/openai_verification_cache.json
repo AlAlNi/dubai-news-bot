@@ -1090,5 +1090,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_d94716f877"
     }
+  },
+  "1b2403b55a2ee1f70a0c1ca5c468e227060a054b5fdbaf66905b1af9b73d017b": {
+    "saved_at": "2026-10-17T14:36:28.909517+00:00",
+    "result": {
+      "id": "chatcmpl-EZzoJYgmiiBExsQgtnzX5enQ3kQWg",
+      "object": "chat.completion",
+      "created": 1792247787,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"С 16 октября 2026 года аэропорт Зайед в Абу-Даби начал выполнять ежедневные рейсы в Берлин на самолёте Airbus A320neo.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Это первый прямой регулярный рейс между столицами ОАЭ и Германии на маршруте Condor.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Партнёрство Condor с Etihad Airways расширяет возможности пересадки для пассажиров из Берлина и Абу-Даби, обеспечивая доступ к сети направлений обеих авиакомпаний.\",\"supported\":true,\"evidence\":[2,7,8]},{\"claim\":\"Новый маршрут поддерживает развитие туризма и деловых связей между двумя городами.\",\"supported\":true,\"evidence\":[2,3]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1261,
+        "completion_tokens": 199,
+        "total_tokens": 1460,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
   }
 }
