@@ -1051,5 +1051,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_87a37040a3"
     }
+  },
+  "f5a8299ca2f90cdee07e7730a41638a179f25bb5c96bc37b80dd52ba93e2eb8d": {
+    "saved_at": "2026-10-17T02:00:49.531284+00:00",
+    "result": {
+      "id": "chatcmpl-EZo12beabGl9C5IZS3NSzEeSdQV85",
+      "object": "chat.completion",
+      "created": 1792202448,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Aldar приобрела девять жилых зданий в Шардже за 1,1 млрд дирхамов\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Компания Aldar заключила соглашение с Arada на покупку трёх жилых блоков с более чем 1100 квартирами в районе Aljada в Шардже\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Сделка стала первым инвестиционным проектом Aldar в эмирате\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Активы будут переданы в четвёртом квартале 2029 года\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Aljada — крупный жилой комплекс площадью 2,2 млн кв. м с планируемыми 25 000 жилых единиц и развитой инфраструктурой\",\"supported\":true,\"evidence\":[5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1155,
+        "completion_tokens": 224,
+        "total_tokens": 1379,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
   }
 }
