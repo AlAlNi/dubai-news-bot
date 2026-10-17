@@ -1,43 +1,4 @@
 {
-  "a9ad8468f2059f33ee43e6358eea6ef42494ec5a0be775023383fef4527f6720": {
-    "saved_at": "2026-10-10T10:13:08.613411+00:00",
-    "result": {
-      "id": "chatcmpl-EXOMcmoji8fQeuAkJJW29r1mEjiqj",
-      "object": "chat.completion",
-      "created": 1791627186,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"ISEA2026 will be held in Dubai from 6 to 15 November 2026.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"It is the 31st International Symposium on Electronic/Emerging Art.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The theme is ‘ELYAH: Constellating Place, Data and Identity’.\",\"supported\":true,\"evidence\":[1,14]},{\"claim\":\"The event will be held in a hybrid format with exhibitions, performances, and an online program.\",\"supported\":true,\"evidence\":[3,4,7,8]},{\"claim\":\"The program covers more than 20 venues across the city.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"The program includes over 140 academic papers, 40 artist talks, 15 workshops, and special tracks including digital calligraphy and eco-tech.\",\"supported\":true,\"evidence\":[6,7,9,14,17]},{\"claim\":\"The symposium supports the development of digital art and strengthens Dubai's international cultural status.\",\"supported\":true,\"evidence\":[2,3,10,11,13]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1641,
-        "completion_tokens": 260,
-        "total_tokens": 1901,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c231e31fe1"
-    }
-  },
   "fa5c7757d771b4eb2744436d7ee0f2b60a669c8805e175493f05ec447830990e": {
     "saved_at": "2026-10-10T15:59:32.725833+00:00",
     "result": {
@@ -1076,6 +1037,45 @@
         "prompt_tokens": 1172,
         "completion_tokens": 181,
         "total_tokens": 1353,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "98da2d9180d1f5a246be8ca7b4de188be6bd15c17979c333d769f83c26d0a385": {
+    "saved_at": "2026-10-17T11:49:24.422027+00:00",
+    "result": {
+      "id": "chatcmpl-EZxCcjPFEvxB0rVWUfy79pvZB0t38",
+      "object": "chat.completion",
+      "created": 1792237762,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Фонд Хамдана бин Рашида Аль Мактум объявил о старте шестого сезона конкурса Future Science Challenge для арабских школьников 10-17 лет.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Тема сезона — «Будущее дорог и мобильности» с акцентом на ИИ, Интернет вещей и умные системы.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Регистрация команд открыта до 24 октября 2026 года.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Проекты принимаются с 18 февраля по 17 марта 2027 года.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Итоги подведут 29 апреля 2027 года.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"В рамках конкурса пройдут три обучающих вебинара для участников и наставников.\",\"supported\":true,\"evidence\":[4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1237,
+        "completion_tokens": 226,
+        "total_tokens": 1463,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
