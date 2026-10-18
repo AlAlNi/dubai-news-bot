@@ -1,43 +1,4 @@
 {
-  "f69320c765a0c62a641aaa1cff2663afd1de4bfc9ff3e259d07b8385054e5fd7": {
-    "saved_at": "2026-10-11T02:46:01.952070+00:00",
-    "result": {
-      "id": "chatcmpl-EXdrUIkgTrbYp44EE6uR8ApDK7Lch",
-      "object": "chat.completion",
-      "created": 1791686760,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Rental Disputes Centre in Dubai settled 2,350 cases in the first nine months of 2026.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The total value of the settled cases was AED 401 million.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The average resolution time per case was six days.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Conciliation procedures allow landlords and tenants to reach agreements without litigation, reducing social and economic costs.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Settlement agreements are approved by a supervising judge, giving them legal enforceability.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 913,
-        "completion_tokens": 169,
-        "total_tokens": 1082,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c231e31fe1"
-    }
-  },
   "e42580f4b677b243e23c77da189db99453c260ea8d904c0b25ed8300cdb7ace3": {
     "saved_at": "2026-10-11T09:27:11.864073+00:00",
     "result": {
@@ -1076,6 +1037,45 @@
         "prompt_tokens": 1135,
         "completion_tokens": 222,
         "total_tokens": 1357,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "d7df567d4827f0f24542bc05accff19d3e6380a41e9b0b2228575d4c4397643d": {
+    "saved_at": "2026-10-18T07:02:47.997239+00:00",
+    "result": {
+      "id": "chatcmpl-EaFCo00dzJNVG0uRLy5EI1hHR2e6i",
+      "object": "chat.completion",
+      "created": 1792306966,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai authorities allowed Emirati homeowners to expand villas, build second homes for relatives, and add residential annexes.\",\"supported\":true,\"evidence\":[1,2,5,6,7]},{\"claim\":\"New rules allow reducing setbacks to 1.5 meters.\",\"supported\":true,\"evidence\":[1,2,3]},{\"claim\":\"New rules allow building a second floor covering the entire area of the first floor.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"To build a second villa on the same plot, residents must be over 18 years old.\",\"supported\":true,\"evidence\":[1,5,6]},{\"claim\":\"Consent from neighbors is required when reducing setbacks.\",\"supported\":true,\"evidence\":[1,2,10]},{\"claim\":\"There are restrictions on the height and location of annexes.\",\"supported\":true,\"evidence\":[2,7,8,9]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1747,
+        "completion_tokens": 214,
+        "total_tokens": 1961,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
