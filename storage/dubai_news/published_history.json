@@ -1,114 +1,6 @@
 [
   {
     "source_snapshot": {
-      "title": "Wilfred Thesiger in Arabia launched in Abu Dhabi",
-      "text": "Eighty years after his first crossing of the Empty Quarter, a new book revisits Wilfred Thesiger’s journeys through Arabia in photographs, stories and personal accounts Long before the skylines and cities we know today, Wilfred Thesiger was crossing some of Arabia’s most remote landscapes with a camera in hand. His photographs captured desert life, Bedouin [&#8230;] The post Wilfred Thesiger in Arabia launched in Abu Dhabi appeared first on What&#039;s On .",
-      "url": "https://whatson.ae/2026/09/wilfred-thesiger-in-arabia-launched-in-abu-dhabi/"
-    },
-    "source_published_at": "",
-    "source_retrieved_at": "",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All claims in the post are directly supported by the source text.",
-      "claims": [
-        {
-          "claim": "В Абу-Даби представили книгу о Уилфреде Тесигере в Аравии",
-          "supported": true,
-          "evidence": "Wilfred Thesiger in Arabia launched in Abu Dhabi"
-        },
-        {
-          "claim": "спустя восемьдесят лет после первого пересечения Пустой четверти новая книга возвращается к путешествиям Уилфреда Тесигера по Аравии через фотографии, истории и личные свидетельства",
-          "supported": true,
-          "evidence": "Eighty years after his first crossing of the Empty Quarter, a new book revisits Wilfred Thesiger’s journeys through Arabia in photographs, stories and personal accounts"
-        },
-        {
-          "claim": "Задолго до известных сегодня горизонтов и городов Тесигер пересекал одни из самых отдалённых ландшафтов Аравии с камерой в руках",
-          "supported": true,
-          "evidence": "Long before the skylines and cities we know today, Wilfred Thesiger was crossing some of Arabia’s most remote landscapes with a camera in hand"
-        },
-        {
-          "claim": "Его фотографии запечатлели жизнь пустыни, бедуинов",
-          "supported": true,
-          "evidence": "His photographs captured desert life, Bedouin"
-        }
-      ],
-      "source_hash": "d2a81e0d2bb751fd00583fc2798fa1f37b3116dda597b388713e939d4ab1922b",
-      "summary_hash": "3cdb15cdcf5b13b0f2601454ac4458a0fad73443bd7404d4aecc1bf102a272d9",
-      "checked_at": "2026-09-18T12:27:40.992014+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "What's On Dubai",
-    "title": "Wilfred Thesiger in Arabia launched in Abu Dhabi",
-    "summary_ru": "<b>В Абу-Даби представили книгу о Уилфреде Тесигере в Аравии</b> <code>What&#039;s On</code> сообщает: спустя восемьдесят лет после первого пересечения Пустой четверти новая книга возвращается к путешествиям Уилфреда Тесигера по Аравии через фотографии, истории и личные свидетельства. Задолго до известных сегодня горизонтов и городов Тесигер пересекал одни из самых отдалённых ландшафтов Аравии с камерой в руках. Его фотографии запечатлели жизнь пустыни, бедуинов [&#8230;]",
-    "published": "2026-09-18T12:27:33.000659+00:00",
-    "source_urls": [
-      "https://whatson.ae/2026/09/wilfred-thesiger-in-arabia-launched-in-abu-dhabi/"
-    ],
-    "lang": "en",
-    "content_hash": "4f77bcd3cdb80bc2008ac4334356bec5",
-    "strict_hash": "4f77bcd3cdb80bc2008ac4334356bec5",
-    "fuzzy_hash": "826a82f40c83da31c5ed62f2429c9874",
-    "method": "rss",
-    "source_priority": 2,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 90,
-      "ad_readiness_score": 100,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о книге, посвящённой путешествиям Уилфреда Тесигера по Аравии, связана с регионом (Абу-Даби, ОАЭ), не касается политики, не выглядит рекламой и может быть интересна аудитории, интересующейся культурой и историей региона. Признаков ИИ-генерации или кликбейта нет, дубликатов среди опубликованных новостей не обнаружено."
-      }
-    },
-    "image_url": "https://whatson.ae/wp-content/uploads/2026/09/MixCollage-18-Sep-2026-02-03-PM-399.jpg",
-    "slot_target": "evening",
-    "publication": {
-      "published_at": "2026-09-18T14:20:34.150381+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1591
-    },
-    "published_at": "2026-09-18T14:20:34.155680+00:00",
-    "source_url": "https://whatson.ae/2026/09/wilfred-thesiger-in-arabia-launched-in-abu-dhabi",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
       "title": "Radhika Das to make UAE debut with immersive concert in Dubai",
       "text": "International devotional music artist, author and podcaster Radhika Das is set to make his UAE debut with Lightfall, a concert scheduled to take place at Dubai’s Coca-Cola Arena on September 20, 2026. Based in London, Das has spent the past 15 years ... [1300 chars]",
       "url": "https://timesofindia.indiatimes.com/life-style/spotlight/radhika-das-to-make-uae-debut-with-immersive-concert-in-dubai/articleshow/134306204.cms"
@@ -12376,6 +12268,205 @@
     },
     "published_at": "2026-10-18T12:15:20.976887+00:00",
     "source_url": "https://www.wam.ae/en/article/c2seefx-dubai-culture-opens-registration-for-isea2026",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Najah 2026 to have its largest footprint to date as it expands to Al Ain for first",
+      "text": "ABU DHABI, 17th October, 2026 (WAM) -- Najah, the Middle East’s premier higher education fair, is set to open its 20th edition in Abu Dhabi, marking a major milestone in a journey spanning two decades. This year, Najah will have its largest footprint to date as it expands to Al Ain for the first time; a step that reflects its established position as the UAE’s leading higher education event for the past 20 years.The milestone comes at an important time for higher education in the UAE. The sector is growing rapidly, but it is also being reshaped by advances in technology and changing labour-market needs.With demand rising and study choices becoming broader and more varied, Najah 2026 gives students, parents, teachers and counsellors direct access to university admissions teams, scholarship opportunities, academic programme information and practical guidance on studying in the UAE and abroad.With the strategic support of the Ministry of Higher Education and Scientific Research, the Najah 2026 series begins with Najah Abu Dhabi from 18–21 October at ADNEC Centre Abu Dhabi, followed by Najah Dubai from 25–27 October at Dubai World Trade Centre. The inaugural Najah Al Ain will take place on 2 & 3 November at ADNEC Centre Al Ain.As Najah marks two decades, this year’s event will bring together more than 100 universities from over 20 countries, giving students the opportunity to speak directly with admissions representatives and explore undergraduate and postgraduate programmes, scholarships and international study pathways.Najah Abu Dhabi has also been extended to four days in 2026, with a series of enhancements designed specifically to make access easier for school groups and enhance their experience throughout the visit.Dima Al Sadi, Portfolio Manager, Najah Expo, said: “The 20th edition of Najah is an important milestone for us as organisers, but the real significance lies in what those 20 years have meant. Over the years, the event has been a platform for thousands of conversations that have helped students and families make more informed decisions about their future.”She added: “We are seeing a fundamental shift in higher education, and the choices facing students are becoming more complex by the day. Selecting an institution is only part of the decision. Students are also weighing the skills that will prepare them for the future, emerging career opportunities and the global pathways their qualifications can open up. Najah gives them a unique setting to engage directly with leading experts and international education institutions, and to gain the clarity they need to make choices that best suit their educational journey.”The inaugural Najah Al Ain will take place on 2 & 3 November at ADNEC Centre Al Ain, bringing together more than 50 local and international universities. It will give students and parents the opportunity to explore the latest higher education opportunities in the UAE and overseas in person, while accessing trusted guidance on admissions, scholarships and study options.The event will host higher education institutions from more than 10 countries, including the UAE, the United States, Canada, Australia, the United Kingdom, Germany, Spain, Hungary and Malaysia.Al Sadi concluded: “Launching Najah Al Ain is a natural next step in Najah’s growth. The city has a strong student and school community, and bringing universities directly to them makes educational opportunities easier to access. We want students to explore their options, speak to the right people and leave with a clearer sense of what comes next.”",
+      "url": "https://www.wam.ae/en/article/c2seeof-najah-2026-have-its-largest-footprint-date-expands",
+      "published_at": "2026-10-17T14:15:37+00:00"
+    },
+    "source_published_at": "2026-10-17T14:15:37+00:00",
+    "source_retrieved_at": "2026-10-18T16:11:48.340641+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "Najah 2026 expands and will be held for the first time in Al Ain.",
+          "supported": true,
+          "evidence": [
+            0,
+            2,
+            8
+          ]
+        },
+        {
+          "claim": "Najah is the largest higher education fair in the Middle East and will celebrate its 20th anniversary in 2026.",
+          "supported": true,
+          "evidence": [
+            1,
+            2
+          ]
+        },
+        {
+          "claim": "Najah Al Ain will take place on 2 and 3 November at ADNEC Centre Al Ain.",
+          "supported": true,
+          "evidence": [
+            8
+          ]
+        },
+        {
+          "claim": "Najah Abu Dhabi will be held from 18 to 21 October.",
+          "supported": true,
+          "evidence": [
+            3,
+            4
+          ]
+        },
+        {
+          "claim": "Najah Dubai will be held from 25 to 27 October.",
+          "supported": true,
+          "evidence": [
+            3
+          ]
+        },
+        {
+          "claim": "The event will gather more than 100 universities from 20 countries.",
+          "supported": true,
+          "evidence": [
+            4
+          ]
+        },
+        {
+          "claim": "Najah Al Ain will bring together more than 50 local and international universities.",
+          "supported": true,
+          "evidence": [
+            8
+          ]
+        },
+        {
+          "claim": "Universities from the USA, Canada, UK, Germany and other countries will participate in Najah Al Ain.",
+          "supported": true,
+          "evidence": [
+            9
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Najah 2026 to have its largest footprint to date as it expands to Al Ain for first"
+        },
+        {
+          "id": 1,
+          "text": "ABU DHABI, 17th October, 2026 (WAM) -- Najah, the Middle East’s premier higher education fair, is set to open its 20th edition in Abu Dhabi, marking a major milestone in a journey spanning two decades."
+        },
+        {
+          "id": 2,
+          "text": "This year, Najah will have its largest footprint to date as it expands to Al Ain for the first time; a step that reflects its established position as the UAE’s leading higher education event for the past 20 years.The milestone comes at an important time for higher education in the UAE."
+        },
+        {
+          "id": 3,
+          "text": "The sector is growing rapidly, but it is also being reshaped by advances in technology and changing labour-market needs.With demand rising and study choices becoming broader and more varied, Najah 2026 gives students, parents, teachers and counsellors direct access to university admissions teams, scholarship opportunities, academic programme information and practical guidance on studying in the UAE and abroad.With the strategic support of the Ministry of Higher Education and Scientific Research, the Najah 2026 series begins with Najah Abu Dhabi from 18–21 October at ADNEC Centre Abu Dhabi, followed by Najah Dubai from 25–27 October at Dubai World Trade Centre."
+        },
+        {
+          "id": 4,
+          "text": "The inaugural Najah Al Ain will take place on 2 & 3 November at ADNEC Centre Al Ain.As Najah marks two decades, this year’s event will bring together more than 100 universities from over 20 countries, giving students the opportunity to speak directly with admissions representatives and explore undergraduate and postgraduate programmes, scholarships and international study pathways.Najah Abu Dhabi has also been extended to four days in 2026, with a series of enhancements designed specifically to make access easier for school groups and enhance their experience throughout the visit.Dima Al Sadi, Portfolio Manager, Najah Expo, said: “The 20th edition of Najah is an important milestone for us as organisers, but the real significance lies in what those 20 years have meant."
+        },
+        {
+          "id": 5,
+          "text": "Over the years, the event has been a platform for thousands of conversations that have helped students and families make more informed decisions about their future.”She added: “We are seeing a fundamental shift in higher education, and the choices facing students are becoming more complex by the day."
+        },
+        {
+          "id": 6,
+          "text": "Selecting an institution is only part of the decision."
+        },
+        {
+          "id": 7,
+          "text": "Students are also weighing the skills that will prepare them for the future, emerging career opportunities and the global pathways their qualifications can open up."
+        },
+        {
+          "id": 8,
+          "text": "Najah gives them a unique setting to engage directly with leading experts and international education institutions, and to gain the clarity they need to make choices that best suit their educational journey.”The inaugural Najah Al Ain will take place on 2 & 3 November at ADNEC Centre Al Ain, bringing together more than 50 local and international universities."
+        },
+        {
+          "id": 9,
+          "text": "It will give students and parents the opportunity to explore the latest higher education opportunities in the UAE and overseas in person, while accessing trusted guidance on admissions, scholarships and study options.The event will host higher education institutions from more than 10 countries, including the UAE, the United States, Canada, Australia, the United Kingdom, Germany, Spain, Hungary and Malaysia.Al Sadi concluded: “Launching Najah Al Ain is a natural next step in Najah’s growth."
+        },
+        {
+          "id": 10,
+          "text": "The city has a strong student and school community, and bringing universities directly to them makes educational opportunities easier to access."
+        },
+        {
+          "id": 11,
+          "text": "We want students to explore their options, speak to the right people and leave with a clearer sense of what comes next.”"
+        }
+      ],
+      "source_hash": "23cf2164a7042e0c47beb6e65fbf3ad04a73b83a246b646c58ae3c3907d07d89",
+      "summary_hash": "d850e9c4ed515e4008077480619a2b14ae5cf4eda2c17589d6f2e778154b87d2",
+      "checked_at": "2026-10-18T16:12:04.908278+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "wam.ae",
+    "title": "Najah 2026 to have its largest footprint to date as it expands to Al Ain for first",
+    "summary_ru": "<b>🎓 Najah 2026 расширяется и впервые пройдет в Аль-Айне</b>\n\n📅 В 2026 году Najah, крупнейшая выставка высшего образования на Ближнем Востоке, отметит 20-летие и расширит свою географию, впервые проведя мероприятие в Аль-Айне 2 и 3 ноября в ADNEC Centre Al Ain.\n\n🎭 Najah Abu Dhabi пройдет с 18 по 21 октября, а Najah Dubai — с 25 по 27 октября. В этом году выставка соберет более 100 университетов из 20 стран, предоставляя студентам возможность напрямую общаться с представителями вузов и узнавать о программах и стипендиях.\n\n🎓 Najah Al Ain объединит свыше 50 местных и международных университетов, включая учебные заведения из США, Канады, Великобритании, Германии и других стран.",
+    "published": "2026-10-18T16:12:00.500323+00:00",
+    "source_urls": [
+      "https://www.wam.ae/en/article/c2seeof-najah-2026-have-its-largest-footprint-date-expands"
+    ],
+    "lang": "en",
+    "content_hash": "a985e7588e66f8f4586b40d68abba45b",
+    "strict_hash": "a985e7588e66f8f4586b40d68abba45b",
+    "fuzzy_hash": "7cbbb83388eca6f04650cb4258b97ce2",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о расширении крупнейшей образовательной выставки Najah в ОАЭ и открытии нового мероприятия в Аль-Айне соответствует тематике образования и общественных услуг."
+      }
+    },
+    "image_url": "",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-10-18T16:12:24.759637+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1671
+    },
+    "published_at": "2026-10-18T16:12:24.766171+00:00",
+    "source_url": "https://www.wam.ae/en/article/c2seeof-najah-2026-have-its-largest-footprint-date-expands",
     "summary": "",
     "summary_en": "",
     "source_names": [],
