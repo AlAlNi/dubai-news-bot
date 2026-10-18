@@ -1,43 +1,4 @@
 {
-  "75530378ffc0d3b72eaffcb4e45ea97b471338d419c7084ce5b1bb2371c1cb9f": {
-    "saved_at": "2026-10-11T16:02:17.739104+00:00",
-    "result": {
-      "id": "chatcmpl-EXqI4qsk7Bk5acwP4Q1WcxCZ0HoDe",
-      "object": "chat.completion",
-      "created": 1791734536,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"The 28th WETEX exhibition will be held from 20 to 22 October 2026 at Dubai World Trade Centre.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"WETEX 2026 is organized by DEWA under the patronage of Sheikh Ahmed bin Saeed Al Maktoum.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Special focus will be on health and safety at the workplace using artificial intelligence and new technologies.\",\"supported\":true,\"evidence\":[3,5]},{\"claim\":\"The Health and Safety Hub will host a conference with global experts discussing innovations in occupational health, risk management, and quality of life improvement.\",\"supported\":true,\"evidence\":[3,4,5]},{\"claim\":\"Conference topics include AI ethics, digital employee wellbeing, and the use of robots for safety.\",\"supported\":true,\"evidence\":[5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1117,
-        "completion_tokens": 208,
-        "total_tokens": 1325,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c231e31fe1"
-    }
-  },
   "0ede5e558ba20ad2d3d78a605b36331b38c5e72f802a8ba35371c3b5f4a06dd7": {
     "saved_at": "2026-10-11T20:40:59.331945+00:00",
     "result": {
@@ -1076,6 +1037,45 @@
         "prompt_tokens": 1462,
         "completion_tokens": 245,
         "total_tokens": 1707,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "a381d16e14674876cb5b9d68a11b366f6850713075cb270872e70ae1df52e3ff": {
+    "saved_at": "2026-10-18T16:12:04.908296+00:00",
+    "result": {
+      "id": "chatcmpl-EaNmNlG1Eo3QCZWBXEc2zys4VVO27",
+      "object": "chat.completion",
+      "created": 1792339923,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Najah 2026 expands and will be held for the first time in Al Ain.\",\"supported\":true,\"evidence\":[0,2,8]},{\"claim\":\"Najah is the largest higher education fair in the Middle East and will celebrate its 20th anniversary in 2026.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Najah Al Ain will take place on 2 and 3 November at ADNEC Centre Al Ain.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"Najah Abu Dhabi will be held from 18 to 21 October.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"Najah Dubai will be held from 25 to 27 October.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The event will gather more than 100 universities from 20 countries.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Najah Al Ain will bring together more than 50 local and international universities.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"Universities from the USA, Canada, UK, Germany and other countries will participate in Najah Al Ain.\",\"supported\":true,\"evidence\":[9]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1500,
+        "completion_tokens": 274,
+        "total_tokens": 1774,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
