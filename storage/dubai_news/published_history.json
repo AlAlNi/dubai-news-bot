@@ -1,114 +1,6 @@
 [
   {
     "source_snapshot": {
-      "title": "Dubai Film Festival to Be Revived in 2027",
-      "text": "Ten years after being abruptly shuttered, the Dubai International Film Festival is being revived with a new edition set to kick off on Dec. 8, 2027.\nThe announcement — which was reported by local media and confirmed by Dubai sources — was made on Thu... [1339 chars]",
-      "url": "https://variety.com/2026/film/festivals/dubai-film-festival-revived-2027-1236865324/"
-    },
-    "source_published_at": "2026-09-17T11:33:37Z",
-    "source_retrieved_at": "",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All claims in the post are directly supported by the source title and text.",
-      "claims": [
-        {
-          "claim": "Дубайский кинофестиваль возобновят в 2027 году",
-          "supported": true,
-          "evidence": "Dubai Film Festival to Be Revived in 2027"
-        },
-        {
-          "claim": "Спустя десять лет после внезапного закрытия Дубайский международный кинофестиваль возобновляют",
-          "supported": true,
-          "evidence": "Ten years after being abruptly shuttered, the Dubai International Film Festival is being revived"
-        },
-        {
-          "claim": "Новый выпуск должен стартовать 8 декабря 2027 года",
-          "supported": true,
-          "evidence": "a new edition set to kick off on Dec. 8, 2027"
-        },
-        {
-          "claim": "Объявление, о котором сообщили местные СМИ и подтвердили источники в Дубае, было сделано в четверг",
-          "supported": true,
-          "evidence": "The announcement — which was reported by local media and confirmed by Dubai sources — was made on Thu"
-        }
-      ],
-      "source_hash": "64e899e784aa1b230974046b6882f96f87a1ae6ccad821bd830e7191d047cfa9",
-      "summary_hash": "f0dc90b61ab661023f9f35ba1c4796211453fbdd19f8385bb550f95a8a8d97ab",
-      "checked_at": "2026-09-18T00:38:08.170765+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "Variety",
-    "title": "Dubai Film Festival to Be Revived in 2027",
-    "summary_ru": "<b>Дубайский кинофестиваль возобновят в 2027 году</b>\n\nСпустя десять лет после внезапного закрытия Дубайский международный кинофестиваль возобновляют: новый выпуск должен стартовать 8 декабря 2027 года. Объявление, о котором сообщили местные СМИ и подтвердили источники в Дубае, было сделано в четверг.",
-    "published": "2026-09-18T00:38:02.102967+00:00",
-    "source_urls": [
-      "https://variety.com/2026/film/festivals/dubai-film-festival-revived-2027-1236865324/"
-    ],
-    "lang": "en",
-    "content_hash": "d65e2334adf3659fb7cf1508af2aa76b",
-    "strict_hash": "d65e2334adf3659fb7cf1508af2aa76b",
-    "fuzzy_hash": "f5a46d0699f4034f746a063278cc733d",
-    "method": "gnews",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 90,
-      "ad_readiness_score": 100,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о возрождении Dubai International Film Festival в 2027 году имеет явную связь с Дубаем, не относится к политике/конфликтам, не выглядит как реклама и интересна русскоязычной аудитории; дубликатов среди последних публикаций нет."
-      }
-    },
-    "image_url": "https://variety.com/wp-content/uploads/2026/09/DubaiFF.jpg?w=1000&h=563&crop=1",
-    "slot_target": "morning",
-    "publication": {
-      "published_at": "2026-09-18T04:28:27.185950+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1589
-    },
-    "published_at": "2026-09-18T04:28:27.190995+00:00",
-    "source_url": "https://variety.com/2026/film/festivals/dubai-film-festival-revived-2027-1236865324",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
       "title": "Dubai cyber chief urges public to be vigilant over AI-powered deepfake threat",
       "text": "People can no longer rely on poor spelling or suspicious-looking messages to identify fraud, cyber experts have warned.\nDeepfakes, phishing and voice cloning are among the threats becoming more sophisticated as criminals use AI to gather information ... [4660 chars]",
       "url": "https://www.thenationalnews.com/news/uae/2026/09/17/dubai-cyber-chief-urges-public-to-be-vigilant-over-ai-powered-deepfake-threat/"
@@ -12206,6 +12098,201 @@
     },
     "published_at": "2026-10-18T02:00:38.609221+00:00",
     "source_url": "https://www.wam.ae/en/article/c2rszbk-dct-abu-dhabi-unveils-participating-artists",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Dubai eases villa construction rules for Emiratis, allows second family homes",
+      "text": "Dubai: Dubai Municipality has introduced new regulations allowing Emirati homeowners greater flexibility to expand their villas, build second homes for family members and add residential annexes, under an initiative designed to ease housing pressures and support family stability.The changes, introduced under the Home First initiative, include allowing homeowners to reduce building setbacks to 1.5 metres, construct a second floor covering the full area of the first floor and build a separate villa for family use..Get updated faster and for FREE: Download the Gulf News app now - simply click here..However, the municipality has set conditions governing the changes, including a minimum age of 18 for beneficiaries of a second villa and written consent from neighbours where construction removes the required setback along a shared boundary, Emarat Al Youm reported. The regulations also set limits on the height, size and location of family accommodation and service annexes, while prohibiting the construction of certain structures before the main villa is completed.The municipality said the initiative is intended to provide flexible housing options for Emirati families, reduce living costs and meet changing accommodation needs while strengthening family stability and community cohesion.Greater flexibility for villa extensionsUnder the revised planning and construction requirements, Emirati homeowners may reduce setbacks to 1.5 metres on all sides of their properties without additional conditions.The municipality has also permitted setbacks to be eliminated along boundaries adjoining neighbouring properties or access lanes, provided that all habitable spaces receive adequate lighting in accordance with the Dubai Building Code.Windows must not face the neighbouring property or access lane, and homeowners must obtain signed approval from the neighbour if the setback along their shared boundary is removed..Renting a bedspace in Dubai? How to check if your building is approved under new rules. The revised rules also allow a second floor to cover 100 per cent of the first-floor area without additional restrictions. Homeowners may continue to add stairwell enclosures and lift rooms.Second villas permitted for family membersThe municipality has established three conditions for constructing a second villa on the same plot for private family use.Applications must be intended to accommodate first-degree relatives or meet social needs. Homeowners must also sign an undertaking confirming that the additional villa will be used exclusively for private family purposes.The beneficiary of the second villa must be at least 18 years old when the application is submitted.Subject to the application, homeowners may also provide the second villa with its own boundary wall, entrance and utility meter.The changes are intended to help families provide separate accommodation for relatives while making better use of existing residential plots..5 major UAE rule changes announced in October: What residents need to know. New provisions for family annexesThe municipality has also eased restrictions on residential family annexes, allowing construction without setbacks along neighbouring properties and access lanes, subject to a maximum height of eight metres.Where the main villa has not yet been built, applicants must submit a preliminary master plan covering the entire plot, showing the proposed locations of the family annex, main villa and service annex.Plans for family accommodation must include at least two bedrooms, a living room and associated facilities.Windows facing neighbouring properties or access lanes are prohibited. Where a family annex or service annex faces the street, its architectural design must be consistent with the surrounding appearance.Strict conditions for service annexesThe revised regulations allow service annexes of up to two storeys, ground and first floor, with a maximum height of eight metres.Setback requirements vary depending on the number of floors and the annex's position relative to the main villa and neighbouring properties..Dubai's shared housing law takes effect, fines of up to Dh1 million for repeat violations. For a single-storey service annex, the municipality allows construction without a setback from the neighbouring property.A two-storey service annex may also be built without a setback from the neighbour, but a minimum distance of 1.5 metres must then be maintained between the annex and the main villa.If the setback from the neighbouring property is retained, a two-storey annex may be built without a separation gap from the main villa.Alternatively, homeowners may retain a 1.5-metre setback along the neighbouring property and access lane while eliminating the separation between the annex and the villa. Neighbour approval is required where the setback between the service annex and the neighbouring property is removed.The municipality has prohibited the construction of a service annex before the main residential villa.It has also ruled out two-storey service annexes where the main villa consists of a ground floor only.Service annexes must retain a linear or elongated design. Where an annex faces the street, its architectural appearance must complement the main villa and its surroundings, and its frontage must not exceed 30 per cent of the property's street-facing boundary.Windows facing neighbouring properties are prohibited where the annex is built directly against the shared boundary..Dubai approves 44 areas for shared housing buildings and villas, some revealed.Dubai bans mixing families and individuals in shared housing units.Dubai reveals areas where shared housing will be allowed and restricted: Check if yours is on the list.Dubai shared housing law: Who can rent, sublet and face fines of up to Dh1 million",
+      "url": "https://gulfnews.com/uae/dubai-eases-villa-construction-rules-for-emiratis-allows-second-family-homes-1.500713942",
+      "published_at": "2026-10-17T07:16:59+00:00"
+    },
+    "source_published_at": "2026-10-17T07:16:59+00:00",
+    "source_retrieved_at": "2026-10-18T07:02:34.263364+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "Dubai authorities allowed Emirati homeowners to expand villas, build second homes for relatives, and add residential annexes.",
+          "supported": true,
+          "evidence": [
+            1,
+            2,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "claim": "New rules allow reducing setbacks to 1.5 meters.",
+          "supported": true,
+          "evidence": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "claim": "New rules allow building a second floor covering the entire area of the first floor.",
+          "supported": true,
+          "evidence": [
+            1,
+            4
+          ]
+        },
+        {
+          "claim": "To build a second villa on the same plot, residents must be over 18 years old.",
+          "supported": true,
+          "evidence": [
+            1,
+            5,
+            6
+          ]
+        },
+        {
+          "claim": "Consent from neighbors is required when reducing setbacks.",
+          "supported": true,
+          "evidence": [
+            1,
+            2,
+            10
+          ]
+        },
+        {
+          "claim": "There are restrictions on the height and location of annexes.",
+          "supported": true,
+          "evidence": [
+            2,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Dubai eases villa construction rules for Emiratis, allows second family homes"
+        },
+        {
+          "id": 1,
+          "text": "Dubai: Dubai Municipality has introduced new regulations allowing Emirati homeowners greater flexibility to expand their villas, build second homes for family members and add residential annexes, under an initiative designed to ease housing pressures and support family stability.The changes, introduced under the Home First initiative, include allowing homeowners to reduce building setbacks to 1.5 metres, construct a second floor covering the full area of the first floor and build a separate villa for family use..Get updated faster and for FREE: Download the Gulf News app now - simply click here..However, the municipality has set conditions governing the changes, including a minimum age of 18 for beneficiaries of a second villa and written consent from neighbours where construction removes the required setback along a shared boundary, Emarat Al Youm reported."
+        },
+        {
+          "id": 2,
+          "text": "The regulations also set limits on the height, size and location of family accommodation and service annexes, while prohibiting the construction of certain structures before the main villa is completed.The municipality said the initiative is intended to provide flexible housing options for Emirati families, reduce living costs and meet changing accommodation needs while strengthening family stability and community cohesion.Greater flexibility for villa extensionsUnder the revised planning and construction requirements, Emirati homeowners may reduce setbacks to 1.5 metres on all sides of their properties without additional conditions.The municipality has also permitted setbacks to be eliminated along boundaries adjoining neighbouring properties or access lanes, provided that all habitable spaces receive adequate lighting in accordance with the Dubai Building Code.Windows must not face the neighbouring property or access lane, and homeowners must obtain signed approval from the neighbour if the setback along their shared boundary is removed..Renting a bedspace in Dubai?"
+        },
+        {
+          "id": 3,
+          "text": "How to check if your building is approved under new rules."
+        },
+        {
+          "id": 4,
+          "text": "The revised rules also allow a second floor to cover 100 per cent of the first-floor area without additional restrictions."
+        },
+        {
+          "id": 5,
+          "text": "Homeowners may continue to add stairwell enclosures and lift rooms.Second villas permitted for family membersThe municipality has established three conditions for constructing a second villa on the same plot for private family use.Applications must be intended to accommodate first-degree relatives or meet social needs."
+        },
+        {
+          "id": 6,
+          "text": "Homeowners must also sign an undertaking confirming that the additional villa will be used exclusively for private family purposes.The beneficiary of the second villa must be at least 18 years old when the application is submitted.Subject to the application, homeowners may also provide the second villa with its own boundary wall, entrance and utility meter.The changes are intended to help families provide separate accommodation for relatives while making better use of existing residential plots..5 major UAE rule changes announced in October: What residents need to know."
+        },
+        {
+          "id": 7,
+          "text": "New provisions for family annexesThe municipality has also eased restrictions on residential family annexes, allowing construction without setbacks along neighbouring properties and access lanes, subject to a maximum height of eight metres.Where the main villa has not yet been built, applicants must submit a preliminary master plan covering the entire plot, showing the proposed locations of the family annex, main villa and service annex.Plans for family accommodation must include at least two bedrooms, a living room and associated facilities.Windows facing neighbouring properties or access lanes are prohibited."
+        },
+        {
+          "id": 8,
+          "text": "Where a family annex or service annex faces the street, its architectural design must be consistent with the surrounding appearance.Strict conditions for service annexesThe revised regulations allow service annexes of up to two storeys, ground and first floor, with a maximum height of eight metres.Setback requirements vary depending on the number of floors and the annex's position relative to the main villa and neighbouring properties..Dubai's shared housing law takes effect, fines of up to Dh1 million for repeat violations."
+        },
+        {
+          "id": 9,
+          "text": "For a single-storey service annex, the municipality allows construction without a setback from the neighbouring property.A two-storey service annex may also be built without a setback from the neighbour, but a minimum distance of 1.5 metres must then be maintained between the annex and the main villa.If the setback from the neighbouring property is retained, a two-storey annex may be built without a separation gap from the main villa.Alternatively, homeowners may retain a 1.5-metre setback along the neighbouring property and access lane while eliminating the separation between the annex and the villa."
+        },
+        {
+          "id": 10,
+          "text": "Neighbour approval is required where the setback between the service annex and the neighbouring property is removed.The municipality has prohibited the construction of a service annex before the main residential villa.It has also ruled out two-storey service annexes where the main villa consists of a ground floor only.Service annexes must retain a linear or elongated design."
+        },
+        {
+          "id": 11,
+          "text": "Where an annex faces the street, its architectural appearance must complement the main villa and its surroundings, and its frontage must not exceed 30 per cent of the property's street-facing boundary.Windows facing neighbouring properties are prohibited where the annex is built directly against the shared boundary..Dubai approves 44 areas for shared housing buildings and villas, some revealed.Dubai bans mixing families and individuals in shared housing units.Dubai reveals areas where shared housing will be allowed and restricted: Check if yours is on the list.Dubai shared housing law: Who can rent, sublet and face fines of up to Dh1 million"
+        }
+      ],
+      "source_hash": "fc67adcb027f9b8126da726fc867a2a83c289d7335f7a055ae7eee48dceef970",
+      "summary_hash": "fcd446e5327466cc30f7018238ce325384a7776254fea3b8a311f50b45ae8ddb",
+      "checked_at": "2026-10-18T07:02:47.997224+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "gulfnews.com",
+    "title": "Dubai eases villa construction rules for Emiratis, allows second family homes",
+    "summary_ru": "<b>🏙 Дубай упростил правила строительства вилл для эмиратцев</b>\n\nВласти Дубая разрешили эмиратским домовладельцам расширять виллы, строить вторые дома для родственников и добавлять жилые пристройки. Новые правила позволяют уменьшить отступы до 1,5 метра и строить второй этаж на всю площадь первого.\n\n🏠 Для строительства второй виллы на одном участке нужно, чтобы жильцы были старше 18 лет и получили согласие соседей при уменьшении отступов. Также установлены ограничения по высоте и расположению пристроек.",
+    "published": "2026-10-18T07:02:44.722203+00:00",
+    "source_urls": [
+      "https://gulfnews.com/uae/dubai-eases-villa-construction-rules-for-emiratis-allows-second-family-homes-1.500713942"
+    ],
+    "lang": "en",
+    "content_hash": "9d83b937ae5d2e31215cf320bef49cce",
+    "strict_hash": "9d83b937ae5d2e31215cf320bef49cce",
+    "fuzzy_hash": "7794b0a20fe673860977ee3599debfa9",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 75,
+      "ad_readiness_score": 85,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о смягчении правил строительства вилл для эмиратцев в Дубае соответствует тематике города и жилья."
+      }
+    },
+    "image_url": "https://media.assettype.com/gulfnews%2F2026-10-17%2F2pwxrpuz%2FDM?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+    "slot_target": "morning",
+    "publication": {
+      "published_at": "2026-10-18T07:03:08.550023+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1669
+    },
+    "published_at": "2026-10-18T07:03:08.557739+00:00",
+    "source_url": "https://gulfnews.com/uae/dubai-eases-villa-construction-rules-for-emiratis-allows-second-family-homes-1.500713942",
     "summary": "",
     "summary_en": "",
     "source_names": [],
