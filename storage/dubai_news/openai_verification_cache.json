@@ -1051,5 +1051,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_d94716f877"
     }
+  },
+  "1b94e460d5bcd354f0956247c54e7c14697bbd9b4eb7323d7f042c2bebe0c5f6": {
+    "saved_at": "2026-10-19T05:27:22.493202+00:00",
+    "result": {
+      "id": "chatcmpl-EaaC11qbVVMZk4t1b36kkH7S8mFos",
+      "object": "chat.completion",
+      "created": 1792387641,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"AccessAbilities Expo 2026 will open in Dubai tomorrow.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The exhibition will be held from October 19 to 21 at Dubai World Trade Centre.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"More than 240 exhibitors from 50 countries will participate.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Around 18,000 visitors from 70 countries are expected.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The exhibition will showcase technologies for people with physical, visual, hearing, and intellectual disabilities, as well as autism spectrum disorder.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Innovative solutions will be presented for the first time in the Middle East, Africa, and South Asia.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 753,
+        "completion_tokens": 199,
+        "total_tokens": 952,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
   }
 }

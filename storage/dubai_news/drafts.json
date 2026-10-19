@@ -1,1 +1,131 @@
-[]
+[
+  {
+    "source_snapshot": {
+      "title": "AccessAbilities Expo 2026 to open in Dubai tomorrow",
+      "text": "DUBAI, 18th October, 2026 (WAM) -- The eighth edition of AccessAbilities Expo 2026 will open tomorrow at the Dubai World Trade Centre and run for three days.This year's exhibition will bring together more than 240 exhibitors from 50 countries and is expected to attract around 18,000 visitors from 70 countries over three days.The exhibition will showcase assistive technologies covering a wide range of physical, visual, hearing and intellectual disabilities, as well as autism spectrum disorder.Participants will present advanced products and the latest technological solutions, including several innovations being introduced for the first time in the Middle East, Africa and South Asia.",
+      "url": "https://www.wam.ae/en/article/c2szuik-accessabilities-expo-2026-open-dubai-tomorrow",
+      "published_at": "2026-10-18T17:22:02+00:00"
+    },
+    "source_published_at": "2026-10-18T17:22:02+00:00",
+    "source_retrieved_at": "2026-10-19T05:26:59.069902+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "AccessAbilities Expo 2026 will open in Dubai tomorrow.",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "The exhibition will be held from October 19 to 21 at Dubai World Trade Centre.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "More than 240 exhibitors from 50 countries will participate.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "Around 18,000 visitors from 70 countries are expected.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "The exhibition will showcase technologies for people with physical, visual, hearing, and intellectual disabilities, as well as autism spectrum disorder.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "Innovative solutions will be presented for the first time in the Middle East, Africa, and South Asia.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "AccessAbilities Expo 2026 to open in Dubai tomorrow"
+        },
+        {
+          "id": 1,
+          "text": "DUBAI, 18th October, 2026 (WAM) -- The eighth edition of AccessAbilities Expo 2026 will open tomorrow at the Dubai World Trade Centre and run for three days.This year's exhibition will bring together more than 240 exhibitors from 50 countries and is expected to attract around 18,000 visitors from 70 countries over three days.The exhibition will showcase assistive technologies covering a wide range of physical, visual, hearing and intellectual disabilities, as well as autism spectrum disorder.Participants will present advanced products and the latest technological solutions, including several innovations being introduced for the first time in the Middle East, Africa and South Asia."
+        }
+      ],
+      "source_hash": "b03d0a312d306f5cc52fc55875c2b08157e6e7a0afbf671551fbfbbda679346b",
+      "summary_hash": "36b4296e08ca42763debbb2b3dcbcd35f903c330343d281823fca4b06e2b3e60",
+      "checked_at": "2026-10-19T05:27:22.493187+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "wam.ae",
+    "title": "AccessAbilities Expo 2026 to open in Dubai tomorrow",
+    "summary_ru": "<b>🚇 AccessAbilities Expo 2026 откроется в Дубае завтра</b>\n\n📅 Выставка пройдет с 19 по 21 октября в Dubai World Trade Centre. В ней примут участие более 240 экспонентов из 50 стран, ожидается около 18 000 посетителей из 70 стран.\n\n💻 На выставке представят технологии для людей с физическими, зрительными, слуховыми и интеллектуальными нарушениями, а также с расстройствами аутистического спектра. Будут показаны инновационные решения, впервые представленные в регионе Ближнего Востока, Африки и Южной Азии.",
+    "published": "2026-10-19T05:27:07.554041+00:00",
+    "source_urls": [
+      "https://www.wam.ae/en/article/c2szuik-accessabilities-expo-2026-open-dubai-tomorrow"
+    ],
+    "lang": "en",
+    "content_hash": "d8e693435f2db2212bca55d6d56a1ba3",
+    "strict_hash": "d8e693435f2db2212bca55d6d56a1ba3",
+    "fuzzy_hash": "2358c7591fd344f407851b11d56ff394",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "tomorrow_changes"
+    },
+    "content_format": "tomorrow_changes",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о предстоящей выставке технологий для людей с ограниченными возможностями в Дубае соответствует тематике транспорта, услуг и городской жизни."
+      }
+    },
+    "image_url": "https://www.wam.ae/assets/images/logo/logo.png",
+    "slot_target": "morning"
+  }
+]
