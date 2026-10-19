@@ -1,82 +1,4 @@
 {
-  "0ede5e558ba20ad2d3d78a605b36331b38c5e72f802a8ba35371c3b5f4a06dd7": {
-    "saved_at": "2026-10-11T20:40:59.331945+00:00",
-    "result": {
-      "id": "chatcmpl-EXudlhENYE7hyT9ha3Pd445BBsggk",
-      "object": "chat.completion",
-      "created": 1791751257,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Ripe Market reopened in Dubai Police Academy Park in Umm Suqeim.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The reopening marks 15 years of bringing local businesses and communities together.\",\"supported\":true,\"evidence\":[1,18,19,20]},{\"claim\":\"Visitors can find stalls with clothing, jewelry, organic products, and handmade items.\",\"supported\":true,\"evidence\":[3,4,5,6]},{\"claim\":\"The market offers various family entertainment activities.\",\"supported\":true,\"evidence\":[15,16,17]},{\"claim\":\"The program includes workshops, children's attractions, live music performances, and shows.\",\"supported\":true,\"evidence\":[15,16,17,18]},{\"claim\":\"The market features sports and wellness activities.\",\"supported\":true,\"evidence\":[18]},{\"claim\":\"Dubai Police organize demonstrations and activities for children at the market.\",\"supported\":true,\"evidence\":[17]},{\"claim\":\"The market operates on weekends from 9:00 to 21:00 until May 2 of the following year.\",\"supported\":true,\"evidence\":[1,20]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2646,
-        "completion_tokens": 257,
-        "total_tokens": 2903,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c231e31fe1"
-    }
-  },
-  "620bef2750aa6a0a1f255f49c6f14701f15017890dc6d8c9f0c471d7f4504dc0": {
-    "saved_at": "2026-10-12T00:05:12.712232+00:00",
-    "result": {
-      "id": "chatcmpl-EXxpPuonQuX2Yo3Q2sitTJtEyhtjS",
-      "object": "chat.completion",
-      "created": 1791763511,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Police received international recognition from the Project Management Institute (PMI) for excellence in planning and delivering projects.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The recognition was announced during the PMI Global Summit Series in Seoul.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The recognition highlights the effectiveness of Dubai Police's project management system based on planning, resource management, and performance evaluation.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Dubai Police initiatives and projects aim to achieve strategic goals with measurable impact.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Major General Sheikh Mohammad Abdullah Rashid Al Mualla stated that the recognition confirms the maturity of institutional practices and professionalism of personnel.\",\"supported\":true,\"evidence\":[2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 932,
-        "completion_tokens": 187,
-        "total_tokens": 1119,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c231e31fe1"
-    }
-  },
   "23ee04dfa3e1619b0c28f0d1fcade3110c2844d61126fef40befd11b91586fa3": {
     "saved_at": "2026-10-12T06:43:47.044390+00:00",
     "result": {
@@ -1076,6 +998,45 @@
         "prompt_tokens": 1500,
         "completion_tokens": 274,
         "total_tokens": 1774,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "1419185610d393c49668ae1cd9e52daed008bc2ea619032a9e0b9537bb19a0e6": {
+    "saved_at": "2026-10-19T00:35:12.682753+00:00",
+    "result": {
+      "id": "chatcmpl-EaVdHSeRoOrHF5oIGBe0Pog9yBDsx",
+      "object": "chat.completion",
+      "created": 1792370111,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Компания SWS Board Technology получила Dubai-it Award в области экономики.\",\"supported\":true,\"evidence\":[0,2,4,12]},{\"claim\":\"Компания производит почти половину мировых кайтбордов и вейкбордов.\",\"supported\":true,\"evidence\":[5,10]},{\"claim\":\"Компания производит треть сноубордов.\",\"supported\":true,\"evidence\":[5,10]},{\"claim\":\"Годовая мощность производства более 450 000 досок.\",\"supported\":true,\"evidence\":[5,10]},{\"claim\":\"Производство расположено в Дубае.\",\"supported\":true,\"evidence\":[2,4,10,11]},{\"claim\":\"Продукция экспортируется на международные рынки.\",\"supported\":true,\"evidence\":[6,10,11]},{\"claim\":\"Продукция участвует в крупнейших соревнованиях, включая Зимние Олимпийские игры.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"Компания внедряет технологии переработки досок, повторно используя около 95% материалов.\",\"supported\":true,\"evidence\":[11]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1584,
+        "completion_tokens": 263,
+        "total_tokens": 1847,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
