@@ -1,28 +1,5 @@
 [
   {
-    "url": "https://gulfnews.com/uae/dubai/dubai-introduces-new-guidelines-for-outdoor-ads-across-the-emirate-1.500714177",
-    "timestamp": "2026-10-18T12:14:41.987360+00:00",
-    "status": "rejected",
-    "content_hash": "d7352402e77c0966b7486cd15a331333",
-    "strict_hash": "d7352402e77c0966b7486cd15a331333",
-    "fuzzy_hash": "f9db881fa1ec14e9751994c474f2af97",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://www.wam.ae/en/article/c2seefx-dubai-culture-opens-registration-for-isea2026",
-    "timestamp": "2026-10-18T12:14:58.325716+00:00",
-    "status": "approved",
-    "content_hash": "de7168ea29bb4010bd81476ad37da95a",
-    "strict_hash": "de7168ea29bb4010bd81476ad37da95a",
-    "fuzzy_hash": "9162021a1dd407f4513f76e332285eaa",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.wam.ae/en/article/c2seefx-dubai-culture-opens-registration-for-isea2026",
-    "timestamp": "2026-10-18T12:15:20.329363+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.wam.ae/en/article/c2seeof-najah-2026-have-its-largest-footprint-date-expands",
     "timestamp": "2026-10-18T16:12:04.911072+00:00",
     "status": "approved",
@@ -142,5 +119,10 @@
     "strict_hash": "c4deddd053f566cd8ba7ccf0dc1e11aa",
     "fuzzy_hash": "c35b4306e4292b117acd3d6f78bf8809",
     "reason": "approved"
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai-municipality-introduces-smart-navigation-system-with-audio-for-visually-impaired-people-1.500716269",
+    "timestamp": "2026-10-20T15:26:58.402225+00:00",
+    "status": "published"
   }
 ]
