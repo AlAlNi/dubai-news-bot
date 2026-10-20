@@ -1,43 +1,4 @@
 {
-  "81f29fc47a6acc8ab581e7025d2375f69ab5cea8afa48783c378e275bb2bbb29": {
-    "saved_at": "2026-10-13T12:18:09.077469+00:00",
-    "result": {
-      "id": "chatcmpl-EYVkFG3X5zUjiLRmw8mMcKmCbPp35",
-      "object": "chat.completion",
-      "created": 1791893887,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"AquaIndex plans to launch a water token in the UAE.\",\"supported\":true,\"evidence\":[0,1,8]},{\"claim\":\"AquaIndex announced plans to create a regional water token for the UAE as part of global expansion.\",\"supported\":true,\"evidence\":[0,1,8]},{\"claim\":\"The platform for managing and trading water resources based on real-world asset tokenisation will launch in Q4 2026.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The tokens will be backed by physical water reserves from a regulated aquifer in the USA.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Water delivery is possible through existing infrastructure.\",\"supported\":true,\"evidence\":[5,7]},{\"claim\":\"Partnership with DMCC will help develop digital infrastructure and the water resource market in Dubai.\",\"supported\":true,\"evidence\":[1,2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1351,
-        "completion_tokens": 209,
-        "total_tokens": 1560,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_6e0170489c"
-    }
-  },
   "0d87cdd63016383a75a2caea8be08e2d576978d270fe519aee48a256142258fd": {
     "saved_at": "2026-10-13T19:37:45.186317+00:00",
     "result": {
@@ -1115,6 +1076,45 @@
         "prompt_tokens": 1469,
         "completion_tokens": 268,
         "total_tokens": 1737,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "c6d19ef7eb89cb1778b7c81246bc17b858842f80112b1d937af32826187cc994": {
+    "saved_at": "2026-10-20T15:26:33.493954+00:00",
+    "result": {
+      "id": "chatcmpl-Eb61QGW1c0arI4gOfBcp8Er9S1BYk",
+      "object": "chat.completion",
+      "created": 1792509992,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Municipality introduced NaviLens, a smart navigation system with audio for visually impaired people.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"NaviLens supports more than 35 languages and uses colored markers detected by smartphone cameras.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Dubai is developing accessible beaches with equipment for people with disabilities.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"Dubai has sensory rooms in parks and on beaches.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"Dubai Municipality signed an agreement with the Emirates Down Syndrome Association to improve inclusivity.\",\"supported\":true,\"evidence\":[7]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1789,
+        "completion_tokens": 163,
+        "total_tokens": 1952,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
