@@ -1,43 +1,4 @@
 {
-  "aee4a11550f5b01e4c3375cc18416be9527d15368afd397a11d9db2faa9b75e2": {
-    "saved_at": "2026-10-14T14:09:21.049463+00:00",
-    "result": {
-      "id": "chatcmpl-EYtxPCucG3qQUJw7m7l04BvVVdkxQ",
-      "object": "chat.completion",
-      "created": 1791986959,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the first nine months of 2026, 2,350 rental disputes were resolved in Dubai.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The total value of these disputes was 401 million dirhams.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The average time to resolve disputes was six days.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The reconciliation process is conducted through the Rental Disputes Centre.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Parties negotiate with the support of specialists at the centre.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The agreement is approved by a judge and becomes legally binding.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1181,
-        "completion_tokens": 178,
-        "total_tokens": 1359,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_6e0170489c"
-    }
-  },
   "3facf8c65652263cf9f24dfef5162f0f3b913f6d5704b37b7d320f0b737a4ce4": {
     "saved_at": "2026-10-14T19:01:53.310108+00:00",
     "result": {
@@ -1167,6 +1128,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_f520c192d2"
+    }
+  },
+  "d23336eeb09f1b13d20f35b4c9ec79774ef200de8731b1926d23817bfa3007dc": {
+    "saved_at": "2026-10-21T17:45:00.574492+00:00",
+    "result": {
+      "id": "chatcmpl-EbUexpHlVlyD2dwc4hgS7DVGcfzoA",
+      "object": "chat.completion",
+      "created": 1792604699,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Al Ain, paid parking will be introduced from October 26.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Paid parking will be implemented in three sectors of the city, including the city centre and Al Mutarad district.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The paid parking will cover 1455 parking spaces.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Paid parking spaces include designated spots for People of Determination (people with disabilities).\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Payment for parking can be made through the Darb and TAMM applications.\",\"supported\":true,\"evidence\":[2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 945,
+        "completion_tokens": 165,
+        "total_tokens": 1110,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_57f7a0b570"
     }
   }
 }
