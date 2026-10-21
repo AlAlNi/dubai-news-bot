@@ -1,43 +1,4 @@
 {
-  "0d87cdd63016383a75a2caea8be08e2d576978d270fe519aee48a256142258fd": {
-    "saved_at": "2026-10-13T19:37:45.186317+00:00",
-    "result": {
-      "id": "chatcmpl-EYcbfbxHFxStk8wNrckTzehljo89y",
-      "object": "chat.completion",
-      "created": 1791920263,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, submissions opened for the AI Film Award 2027 with a $1 million prize.\",\"supported\":true,\"evidence\":[0,1,7]},{\"claim\":\"Submissions started on 12 October for the second AI Film Award 2027 contest.\",\"supported\":true,\"evidence\":[1,6]},{\"claim\":\"The contest will be held as part of the 1 Billion Followers Summit in Dubai from 8 to 10 January 2027.\",\"supported\":true,\"evidence\":[1,7]},{\"claim\":\"The contest offers a $1 million prize for films created with AI on humanitarian, social, and environmental issues.\",\"supported\":true,\"evidence\":[1,2,3]},{\"claim\":\"Submissions are accepted until 20 November 2026.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"The winner will be announced at the summit in January.\",\"supported\":true,\"evidence\":[1,7]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1425,
-        "completion_tokens": 220,
-        "total_tokens": 1645,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_c231e31fe1"
-    }
-  },
   "1ea4fd114eb578d89246e14134a2954f4000fe5584d59c04f1f392d7bd040d8b": {
     "saved_at": "2026-10-14T08:08:31.417479+00:00",
     "result": {
@@ -1115,6 +1076,45 @@
         "prompt_tokens": 1789,
         "completion_tokens": 163,
         "total_tokens": 1952,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "23e2aa04d8b9a47492843e1ec234df3b17397b9e18b5df3dedbf278360079236": {
+    "saved_at": "2026-10-21T01:06:28.084848+00:00",
+    "result": {
+      "id": "chatcmpl-EbF4d52uW8bkpxA2DEhvUoU11CYjV",
+      "object": "chat.completion",
+      "created": 1792544787,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Bungee jumping attraction opens at Yas Bay Waterfront on Yas Island on November 1, 2026.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The bungee jump platform is 50 meters high and overlooks Yas Bay Waterfront.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Experienced instructors ensure safety for guests aged 16 and above with weight between 40 and 105 kg.\",\"supported\":true,\"evidence\":[7,8]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1148,
+        "completion_tokens": 120,
+        "total_tokens": 1268,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
