@@ -1,43 +1,4 @@
 {
-  "925a960f947e00436a1721ee70465bb0008553bd586722c684dc45c269ed727a": {
-    "saved_at": "2026-10-15T12:15:24.869857+00:00",
-    "result": {
-      "id": "chatcmpl-EZEehLIgdQ6ACYnZndMMEYNsEZPnG",
-      "object": "chat.completion",
-      "created": 1792066523,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, the Al Satwa roundabout was converted into a signalised intersection.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The conversion reduced waiting times and traffic queues by up to 60% during peak hours.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The intersection improves traffic flow along 2nd December Street in both directions.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The intersection provides better connectivity between major roads and internal streets of Al Satwa, Trade Centre, Al Bada’a, and Jumeirah districts.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 794,
-        "completion_tokens": 153,
-        "total_tokens": 947,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_6e0170489c"
-    }
-  },
   "07383bf692f1fbf194a9ca2db7b69fbd18f0137e858de6ae0218955efbcd2b6d": {
     "saved_at": "2026-10-15T17:28:10.837315+00:00",
     "result": {
@@ -1128,6 +1089,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "61e7d47c8fa3de43aa7dbd64aeae7554f1fdaf055af27cbe183f296db51dd4ab": {
+    "saved_at": "2026-10-22T14:12:14.673027+00:00",
+    "result": {
+      "id": "chatcmpl-EbnobtWNS54OgJvfOgMJfW6qVWhpp",
+      "object": "chat.completion",
+      "created": 1792678333,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В ОАЭ планируют построить новую автомагистраль E-911 длиной 68 км\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"Министерство энергетики и инфраструктуры объявило тендер на проектирование дороги, которая свяжет границу Дубая и Шарджи с Рас-эль-Хаймой\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Автомагистраль будет иметь от 12 до 16 полос движения\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Автомагистраль включит 8-километровую соединительную дорогу с трассой Emirates Road (E-611) в Умм-эль-Кувейне\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Сроки строительства и стоимость пока не раскрыты\",\"supported\":true,\"evidence\":[2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1161,
+        "completion_tokens": 217,
+        "total_tokens": 1378,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
     }
   }
 }
