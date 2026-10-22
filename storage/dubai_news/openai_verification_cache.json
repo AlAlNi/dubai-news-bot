@@ -1,82 +1,4 @@
 {
-  "3facf8c65652263cf9f24dfef5162f0f3b913f6d5704b37b7d320f0b737a4ce4": {
-    "saved_at": "2026-10-14T19:01:53.310108+00:00",
-    "result": {
-      "id": "chatcmpl-EYyWVPBDhNpzoKQz1UxsYBrAKFmli",
-      "object": "chat.completion",
-      "created": 1792004511,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Власти Дубая запустили новую инициативу для стандартизации правил якорной стоянки и использования рекреационных буев в водах эмирата.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Это направлено на повышение безопасности навигации и поддержку устойчивого развития морского отдыха.\",\"supported\":true,\"evidence\":[2,3,4,7]},{\"claim\":\"DMA выпустила циркуляр №35 2026 года с новыми руководящими принципами, которые обеспечат единые стандарты для владельцев судов, операторов и марин.\",\"supported\":true,\"evidence\":[4,5,6]},{\"claim\":\"Внедрение правил будет контролироваться для соблюдения требований безопасности и охраны морской среды.\",\"supported\":true,\"evidence\":[8,9,11]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1291,
-        "completion_tokens": 204,
-        "total_tokens": 1495,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_6e0170489c"
-    }
-  },
-  "50f418ea92eee0258ef6ad9324789fc4ef9cd88b802185c1fb9a4752e770d124": {
-    "saved_at": "2026-10-14T22:48:39.236315+00:00",
-    "result": {
-      "id": "chatcmpl-EZ23xy7JBOObr4iBTz2J6Q9vBPY39",
-      "object": "chat.completion",
-      "created": 1792018117,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The 45th International Book Festival in Sharjah will be held from November 4 to 15 at Expo Centre Sharjah.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The festival will gather 2,673 publishers from 124 countries.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The program includes 1,500 events, including meetings with 106 writers and artists from 25 countries, as well as theatrical productions and workshops.\",\"supported\":true,\"evidence\":[2,3,4]},{\"claim\":\"Oman will be the guest of the festival with 15 cultural sessions and 20 artistic performances.\",\"supported\":true,\"evidence\":[2,5]},{\"claim\":\"Interactive zones and educational activities are prepared for children.\",\"supported\":true,\"evidence\":[2,3]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1644,
-        "completion_tokens": 192,
-        "total_tokens": 1836,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_6e0170489c"
-    }
-  },
   "2b4ae2aab127620fd9f94bfd33be03cc2c17399e814bfe6a0176d753b7a6d349": {
     "saved_at": "2026-10-15T06:40:26.935716+00:00",
     "result": {
@@ -1167,6 +1089,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_57f7a0b570"
+    }
+  },
+  "758902c88f0a15dd626c05eb6c5992c0f8d8d6549a60f6046dc0e9a93a13f82a": {
+    "saved_at": "2026-10-22T02:21:02.504835+00:00",
+    "result": {
+      "id": "chatcmpl-EbciKgDwpNGwlEKmXFW4ejW8HZE2f",
+      "object": "chat.completion",
+      "created": 1792635660,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В районе Аль Ярмук в Шардже создали выделенные места для парковки мотоциклов.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"В районе Аль Ярмук создали 4160 платных парковочных мест.\",\"supported\":true,\"evidence\":[1,2,3,10]},{\"claim\":\"Проект включает обновление 53 дорог.\",\"supported\":true,\"evidence\":[1,3,10]},{\"claim\":\"Проект включает новые зоны отдыха.\",\"supported\":true,\"evidence\":[1,2,5,6,10]},{\"claim\":\"Работы завершены за 7,5 месяцев, что раньше запланированного срока.\",\"supported\":true,\"evidence\":[1,7,8,10]},{\"claim\":\"Установлены 227 энергоэффективных фонарей.\",\"supported\":true,\"evidence\":[2,7,10]},{\"claim\":\"Установлена система видеонаблюдения для безопасности.\",\"supported\":true,\"evidence\":[2,7,10]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2319,
+        "completion_tokens": 245,
+        "total_tokens": 2564,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
     }
   }
 }
