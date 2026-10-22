@@ -1,43 +1,4 @@
 {
-  "2b4ae2aab127620fd9f94bfd33be03cc2c17399e814bfe6a0176d753b7a6d349": {
-    "saved_at": "2026-10-15T06:40:26.935716+00:00",
-    "result": {
-      "id": "chatcmpl-EZ9QXeOpn05A9mmi1FAdBuOjwIzND",
-      "object": "chat.completion",
-      "created": 1792046425,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, a pedestrian bridge between Etihad Rail and the Metro will open.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"From October 15, Etihad Rail passengers will be able to directly transfer to Jumeirah Golf Estates Metro Station via a new pedestrian bridge about 400 meters long.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The bridge will connect Al Yalayis Etihad Rail station with the Dubai Metro Red Line.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"This will improve transport accessibility by allowing passengers to walk between the two stations instead of using taxis or buses.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Passengers can also purchase a nol day pass for unlimited travel on Metro, tram, and buses during its validity.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1134,
-        "completion_tokens": 197,
-        "total_tokens": 1331,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_6e0170489c"
-    }
-  },
   "925a960f947e00436a1721ee70465bb0008553bd586722c684dc45c269ed727a": {
     "saved_at": "2026-10-15T12:15:24.869857+00:00",
     "result": {
@@ -1115,6 +1076,45 @@
         "prompt_tokens": 2319,
         "completion_tokens": 245,
         "total_tokens": 2564,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "c7e6497af20d6c7b5244dd6dc8b6207f8a75b65e56851da85730875f5e5b6b96": {
+    "saved_at": "2026-10-22T08:04:52.606844+00:00",
+    "result": {
+      "id": "chatcmpl-Ebi5442vfEaXF4Er4t9v4yqKmwxsi",
+      "object": "chat.completion",
+      "created": 1792656290,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"From November 1, speed limits will change on five roads in Dubai.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"On Al Mustaqbal Street and Latifa bint Hamdan Street, speed limits will increase from 60 to 70 km/h.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"On Al Asayel Street, speed limit will increase to 80 km/h.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"On Al Rebat Street, speed limit will decrease from 100 to 90 km/h.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"On Sheikh Sabah Al Ahmad Al Jaber Al Sabah Street, speed limit will decrease from 80 to 70 km/h.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The changes were approved by the Roads and Transport Authority and Dubai Police as part of the traffic safety strategy.\",\"supported\":true,\"evidence\":[1,2,5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 948,
+        "completion_tokens": 225,
+        "total_tokens": 1173,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
