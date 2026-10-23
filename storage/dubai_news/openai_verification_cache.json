@@ -1,82 +1,4 @@
 {
-  "507b7836ddd15d3727e468217dacc5bd5dc1162e3f3bbf2facf0380a8058d70f": {
-    "saved_at": "2026-10-16T12:49:11.493128+00:00",
-    "result": {
-      "id": "chatcmpl-EZbev3RXtXvvDkOlUfUCSh88bJNiE",
-      "object": "chat.completion",
-      "created": 1792154949,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Совет директоров Dubai Health рассмотрел прогресс строительства Hamdan Bin Rashid Cancer Hospital.\",\"supported\":true,\"evidence\":[0,3,6]},{\"claim\":\"Совет директоров Dubai Health рассмотрел прогресс нового Diabetes Center, который откроется в начале 2027 года.\",\"supported\":true,\"evidence\":[0,3,6,7]},{\"claim\":\"Больница будет соответствовать международным стандартам и ориентирована на пациентов и их семьи.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Подписано соглашение между Dubai Health и Mohammed Bin Rashid Housing Establishment для упрощения доступа сотрудников здравоохранения к жилищным услугам и поддержки молодых специалистов.\",\"supported\":true,\"evidence\":[14,15,16,17]},{\"claim\":\"Шейх Мансур бин Мохаммед бин Рашид Аль Мактум сказал: «Мы стремимся создать интегрированную систему здравоохранения, объединяющую клиническую помощь, образование и исследования».\",\"supported\":true,\"evidence\":[10]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1787,
-        "completion_tokens": 248,
-        "total_tokens": 2035,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_6e0170489c"
-    }
-  },
-  "13a28d64ccb43db73bd305782c91a5386498522123c6c0c5967d89dc69dc299d": {
-    "saved_at": "2026-10-16T17:02:51.028950+00:00",
-    "result": {
-      "id": "chatcmpl-EZfcPjJgsNa496GmvnFBBUKQ61pwe",
-      "object": "chat.completion",
-      "created": 1792170169,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Employers must report a domestic worker's absence within five days if the worker stops reporting for duty without a valid reason and their whereabouts are unknown.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The report must be submitted through the official MoHRE website or mobile app.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"For private-sector employees, the absence report applies after more than seven consecutive days.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"A customer service number 600590000 is available for consultations.\",\"supported\":true,\"evidence\":[2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 959,
-        "completion_tokens": 146,
-        "total_tokens": 1105,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_87a37040a3"
-    }
-  },
   "4e7e03829cb6fc19f0a14d530824d1fce7cab04fd6e98c5c09799654988a8e61": {
     "saved_at": "2026-10-16T20:13:06.952766+00:00",
     "result": {
@@ -1154,6 +1076,45 @@
         "prompt_tokens": 1152,
         "completion_tokens": 245,
         "total_tokens": 1397,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "cf6f922e85be1d31a8b47a449d849f68238b871b9159f0f6b12bacf089b8786f": {
+    "saved_at": "2026-10-23T17:34:25.524695+00:00",
+    "result": {
+      "id": "chatcmpl-EcDRmhN6LXOz5FjisBD7B8cuzdihP",
+      "object": "chat.completion",
+      "created": 1792776862,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Министерство проводит профилактические осмотры и обслуживание систем ливневой канализации, насосных станций и водопропускных труб.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"В работе задействованы 17 насосных станций и 800 водопропускных сооружений.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Внедрена круглосуточная система мониторинга дамб и вади с камерами и датчиками уровня воды, а также механизм раннего предупреждения о наводнениях.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"Это помогает оперативно реагировать на скопление воды и обеспечивать безопасность на дорогах.\",\"supported\":true,\"evidence\":[1,4,5]},{\"claim\":\"Министерство координирует действия с федеральными и местными органами для эффективного управления в случае различных погодных условий.\",\"supported\":true,\"evidence\":[3,4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1366,
+        "completion_tokens": 234,
+        "total_tokens": 1600,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
