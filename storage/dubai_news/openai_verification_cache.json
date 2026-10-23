@@ -1,43 +1,4 @@
 {
-  "c585b1fd001870fda4c6be171c4e2f1e2d24c7d61d5cb45d9c9d433e0afcae59": {
-    "saved_at": "2026-10-16T07:38:15.506641+00:00",
-    "result": {
-      "id": "chatcmpl-EZWo1Vu1ZaWJHpRcDUih6dkZXEZXF",
-      "object": "chat.completion",
-      "created": 1792136293,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Власти Дубая установили стандарты для совместного проживания, включая требования к дизайну зданий, санитарным нормам и безопасности.\",\"supported\":true,\"evidence\":[2,6,21,22,23,24]},{\"claim\":\"Владельцам жилья дали срок до 1 сентября 2027 года для приведения объектов в соответствие.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Правила запрещают смешивать жильё для семей и отдельных лиц в одном здании.\",\"supported\":true,\"evidence\":[7,8]},{\"claim\":\"Правила предусматривают минимальные размеры комнат и санитарных помещений.\",\"supported\":true,\"evidence\":[21,22,23]},{\"claim\":\"Нарушителям грозят штрафы до 1 млн дирхамов.\",\"supported\":true,\"evidence\":[25]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1889,
-        "completion_tokens": 201,
-        "total_tokens": 2090,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_6e0170489c"
-    }
-  },
   "507b7836ddd15d3727e468217dacc5bd5dc1162e3f3bbf2facf0380a8058d70f": {
     "saved_at": "2026-10-16T12:49:11.493128+00:00",
     "result": {
@@ -1154,6 +1115,45 @@
         "prompt_tokens": 899,
         "completion_tokens": 149,
         "total_tokens": 1048,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "4246219d6f5e8714eeb1bd03feae315494463edcc4e975489bad792f28031d1a": {
+    "saved_at": "2026-10-23T12:15:20.988952+00:00",
+    "result": {
+      "id": "chatcmpl-Ec8T1VJlcTMzkvFVOk5AijKnw04hF",
+      "object": "chat.completion",
+      "created": 1792757719,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"RTA обновила виртуального помощника Mahboub с ИИ\",\"supported\":true,\"evidence\":[0,3,5]},{\"claim\":\"В Дубае Roads and Transport Authority улучшила виртуального помощника Mahboub, добавив технологии искусственного интеллекта для упрощения обслуживания клиентов\",\"supported\":true,\"evidence\":[2,3,5]},{\"claim\":\"Теперь Mahboub может координировать и выполнять комплексные процедуры, например оплату штрафов и продление регистрации автомобиля, в одном диалоге\",\"supported\":true,\"evidence\":[5,6,7,9]},{\"claim\":\"Система поддерживает арабский и английский языки\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"Использует цифровую идентификацию UAE PASS и платформу Dubai Sadad для оплаты\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"Обновление направлено на сокращение времени и усилий при получении транспортных услуг\",\"supported\":true,\"evidence\":[11,12]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1152,
+        "completion_tokens": 245,
+        "total_tokens": 1397,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
