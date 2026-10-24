@@ -117,7 +117,7 @@
       "channel_username": "rudubainews"
     },
     "2026-W43": {
-      "status": "sending",
+      "status": "published",
       "at": "2026-10-24T13:53:08.375447+00:00",
       "image_identity": "commons-sha1:0d2c075e3c70b86638eaa1adf17c173ed8f03f61",
       "source_snapshot": {
@@ -280,6 +280,12 @@
         "provider": "openai",
         "api_calls": 1,
         "cached": false
+      },
+      "message_id": 1695,
+      "photo_file_id": "AgACAgIAAyEGAATkwmv7AAIGn2rcuE1LC7cyc3UxlYAx7o7SwBJyAAJtGmsbisLhSlS-Pmn30MwYAQADAgADdwADPQQ",
+      "photo_dimensions": {
+        "width": 1354,
+        "height": 918
       }
     }
   }
