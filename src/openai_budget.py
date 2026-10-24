@@ -23,6 +23,9 @@ ASTRA_MODEL = "gpt-6-astra"
 ASTRA_OUTPUT_TOKENS = 2000
 ASTRA_RESERVATION_MICROUSD = 2000000
 LEDGER_FILENAME = "openai_budget.json"
+# Explicit, self-expiring production trial; budget days and this window are UTC.
+OCTOBER_TRIAL_START = datetime(2026, 10, 24, tzinfo=timezone.utc)
+OCTOBER_TRIAL_END = datetime(2026, 11, 1, tzinfo=timezone.utc)
 
 
 class BudgetUnavailable(RuntimeError):
@@ -36,15 +39,30 @@ def manual_daily_limit_bypass():
             and os.getenv("OPENAI_BYPASS_DAILY_LIMIT") == "true")
 
 
-def limits():
+def limits(now=None):
     try:
         monthly = Decimal(os.getenv("OPENAI_MONTHLY_BUDGET_USD", "3"))
         daily = int(os.getenv("OPENAI_MAX_CALLS_PER_DAY", "8"))
         if not monthly.is_finite() or not 0 <= monthly <= 3 or not 0 <= daily <= 8:
             raise ValueError()
+        profile = os.getenv("OPENAI_CALL_LIMIT_PROFILE", "standard")
+        if profile not in {"standard", "october-2026"}:
+            raise ValueError()
+        current = now or datetime.now(timezone.utc)
+        if current.tzinfo is None or current.utcoffset() is None:
+            raise ValueError()
+        current = current.astimezone(timezone.utc)
+        # Preserve deliberate lower limits (including zero). The explicit production
+        # profile raises only the normal baseline, never the monthly spending cap.
+        if (profile == "october-2026" and daily == 8
+                and OCTOBER_TRIAL_START <= current < OCTOBER_TRIAL_END):
+            daily = 12
         return int(monthly * 1000000), daily
     except (ValueError, ArithmeticError):
-        raise BudgetUnavailable("Invalid budget config: maximum $3/month and 8 calls/day")
+        raise BudgetUnavailable(
+            "Invalid budget config: maximum $3/month, baseline 0–8 calls/day, "
+            "known profile and timezone-aware time required"
+        )
 
 
 def search_limit():
@@ -147,7 +165,7 @@ class Budget:
     def reserve(self, kind="verification"):
         if kind not in {"verification", "generation", "search", "astra_search"}:
             raise BudgetUnavailable("Unknown OpenAI operation")
-        monthly_limit, daily_limit = limits()
+        monthly_limit, daily_limit = limits(self.now)
         bypass_daily = manual_daily_limit_bypass()
         amount = {"search": SEARCH_RESERVATION_MICROUSD,
                   "astra_search": ASTRA_RESERVATION_MICROUSD,
