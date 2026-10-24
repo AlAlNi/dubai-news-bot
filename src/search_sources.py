@@ -78,8 +78,13 @@ class ArticleHTML(HTMLParser):
             self.article_text_level = len(self.stack) + 1
         skip = parent_skip or tag in {"script", "style", "nav", "aside", "header", "footer"}
         skip = skip or any(word in css for word in ("related", "advert", "newsletter", "social-share", "also-read"))
+        # Khaleej Times embeds recommendations, channel promotion and author bios
+        # inside its article container. Never include them as source evidence.
+        skip = skip or bool(set(css.split()) & {
+            "rendered_board_widget", "recommend-wrap-mobile-lb", "whatsapp-style", "follow-wrap",
+        })
         article = parent_body or tag == "article" or attrs.get("itemprop") == "articleBody"
-        article = article or bool(set(css.split()) & {"article-body", "story-body", "story-content", "article-content", "news-detail-left"})
+        article = article or bool(set(css.split()) & {"article-body", "story-body", "story-content", "article-content", "news-detail-left", "article-center-wrap-nf"})
         if "banner-i-rel" in css.split():
             self.date_level = len(self.stack) + 1
         if tag == "script" and attrs.get("type") == "application/ld+json":
@@ -276,3 +281,4 @@ def fetch_article(url, now=None, diagnostics=None):
         except Exception as exc:
             return reject("fetch_error_" + type(exc).__name__)
     return reject("too_many_redirects")
+
