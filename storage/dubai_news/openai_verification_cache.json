@@ -1,82 +1,4 @@
 {
-  "4e7e03829cb6fc19f0a14d530824d1fce7cab04fd6e98c5c09799654988a8e61": {
-    "saved_at": "2026-10-16T20:13:06.952766+00:00",
-    "result": {
-      "id": "chatcmpl-EZiaXQ52zVBsnPOKyOyjwGF6wMbww",
-      "object": "chat.completion",
-      "created": 1792181585,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Abu Dhabi, a platform for communication with the police in sign language was launched.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Abu Dhabi Police, together with Zayed Authority for People of Determination, introduced the Sign Language Voice platform for deaf and hard-of-hearing people.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The platform provides direct visual communication with a certified sign language interpreter, which speeds up and simplifies communication with the police.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"The platform will be implemented in all police stations in the emirate, promoting equal access to services and improving service quality.\",\"supported\":true,\"evidence\":[5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1684,
-        "completion_tokens": 173,
-        "total_tokens": 1857,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_87a37040a3"
-    }
-  },
-  "f5a8299ca2f90cdee07e7730a41638a179f25bb5c96bc37b80dd52ba93e2eb8d": {
-    "saved_at": "2026-10-17T02:00:49.531284+00:00",
-    "result": {
-      "id": "chatcmpl-EZo12beabGl9C5IZS3NSzEeSdQV85",
-      "object": "chat.completion",
-      "created": 1792202448,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Aldar приобрела девять жилых зданий в Шардже за 1,1 млрд дирхамов\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Компания Aldar заключила соглашение с Arada на покупку трёх жилых блоков с более чем 1100 квартирами в районе Aljada в Шардже\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Сделка стала первым инвестиционным проектом Aldar в эмирате\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Активы будут переданы в четвёртом квартале 2029 года\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Aljada — крупный жилой комплекс площадью 2,2 млн кв. м с планируемыми 25 000 жилых единиц и развитой инфраструктурой\",\"supported\":true,\"evidence\":[5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1155,
-        "completion_tokens": 224,
-        "total_tokens": 1379,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "7187bb27468c30619c6211d2c5f0b4afde741e3c6c1f6050045ee06db348aed6": {
     "saved_at": "2026-10-17T07:16:33.575918+00:00",
     "result": {
@@ -1115,6 +1037,45 @@
         "prompt_tokens": 1366,
         "completion_tokens": 234,
         "total_tokens": 1600,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "4ed7deb3276935283851761cb264b61655b1776f0c090a57d8b4fbd6c7d457e3": {
+    "saved_at": "2026-10-24T02:23:52.016402+00:00",
+    "result": {
+      "id": "chatcmpl-EcLiBbkxBzyKC4kN37gMhZ5SF9a17",
+      "object": "chat.completion",
+      "created": 1792808631,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the UAE, private sector employees who have worked for at least one year are entitled to end-of-service gratuity calculated based on their basic salary and length of service.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Employers must pay all due amounts within 14 days after the end of the employment contract.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The maximum gratuity amount cannot exceed two years' wages.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The Ministry of Labour offers a voluntary savings scheme that allows investing end-of-service gratuity to increase employees' financial security.\",\"supported\":true,\"evidence\":[2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1136,
+        "completion_tokens": 162,
+        "total_tokens": 1298,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
