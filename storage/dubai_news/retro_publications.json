@@ -117,7 +117,7 @@
       "channel_username": "rudubainews"
     },
     "2026-W43": {
-      "status": "verifying",
+      "status": "sending",
       "at": "2026-10-24T13:53:08.375447+00:00",
       "image_identity": "commons-sha1:0d2c075e3c70b86638eaa1adf17c173ed8f03f61",
       "source_snapshot": {
@@ -179,6 +179,107 @@
             "reason": "selected"
           }
         ]
+      },
+      "verification": {
+        "version": 1,
+        "status": "approved",
+        "reason": "All factual claims in the post are directly supported by the source metadata and description.",
+        "claims": [
+          {
+            "claim": "The photo shows Dubai airport in 1965.",
+            "supported": true,
+            "evidence": [
+              0,
+              2
+            ]
+          },
+          {
+            "claim": "The aircraft is a De Havilland Comet of Middle East Airlines at Dubai airport.",
+            "supported": true,
+            "evidence": [
+              4
+            ]
+          },
+          {
+            "claim": "The photo was taken by Patche99z and is from Wikimedia Commons.",
+            "supported": true,
+            "evidence": [
+              3,
+              8,
+              1
+            ]
+          },
+          {
+            "claim": "The photo is licensed under CC BY-SA 3.0 and is unaltered.",
+            "supported": true,
+            "evidence": [
+              5,
+              6,
+              7
+            ]
+          }
+        ],
+        "evidence_passages": [
+          {
+            "id": 0,
+            "text": "Historical photograph of Dubai"
+          },
+          {
+            "id": 1,
+            "text": "Selected photograph: File:1965 Dubai Airport first Comet.jpg"
+          },
+          {
+            "id": 2,
+            "text": "Capture date recorded on Commons: 1965-05-15"
+          },
+          {
+            "id": 3,
+            "text": "Author: Patche99z"
+          },
+          {
+            "id": 4,
+            "text": "Original author description: The first jet aircraft to land on the new runway at Dubai Airport in 1965 was a Comet from Middle East Airlines."
+          },
+          {
+            "id": 5,
+            "text": "License: CC BY-SA 3.0"
+          },
+          {
+            "id": 6,
+            "text": "License URL: https://creativecommons.org/licenses/by-sa/3.0"
+          },
+          {
+            "id": 7,
+            "text": "Image handling: the original JPEG was reviewed visually and matched the Commons SHA-1; no edits were made."
+          },
+          {
+            "id": 8,
+            "text": "Provenance: Own photograph by Patche99z, author-uploaded scan on 25 June 2011."
+          },
+          {
+            "id": 9,
+            "text": "Exact API metadata and original hashes supplied from completed source research; card revision 747573198."
+          },
+          {
+            "id": 10,
+            "text": "Selected license CC BY-SA 3.0 Unported, not public domain."
+          },
+          {
+            "id": 11,
+            "text": "Caption intentionally states only 1965 and does not claim a first jet arrival or runway history."
+          },
+          {
+            "id": 12,
+            "text": "User approved automatic scheduled publication on 14 October 2026."
+          }
+        ],
+        "source_hash": "7ae12ebbecd4050a2660a940368a447a2214d8e468c3910eb863b019ebbad4fc",
+        "summary_hash": "78eeaa13503871a5de6c98031675c640409439f72b3df4c90202470f0979d17d",
+        "checked_at": "2026-10-24T13:53:15.574216+00:00",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "provider": "openai",
+        "api_calls": 1,
+        "cached": false
       }
     }
   }
