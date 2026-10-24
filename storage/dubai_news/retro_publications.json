@@ -115,6 +115,71 @@
       },
       "message_id": 1605,
       "channel_username": "rudubainews"
+    },
+    "2026-W43": {
+      "status": "verifying",
+      "at": "2026-10-24T13:53:08.375447+00:00",
+      "image_identity": "commons-sha1:0d2c075e3c70b86638eaa1adf17c173ed8f03f61",
+      "source_snapshot": {
+        "title": "Historical photograph of Dubai",
+        "text": "Selected photograph: File:1965 Dubai Airport first Comet.jpg\nCapture date recorded on Commons: 1965-05-15\nAuthor: Patche99z\nOriginal author description: The first jet aircraft to land on the new runway at Dubai Airport in 1965 was a Comet from Middle East Airlines.\nLicense: CC BY-SA 3.0\nLicense URL: https://creativecommons.org/licenses/by-sa/3.0\nImage handling: the original JPEG was reviewed visually and matched the Commons SHA-1; no edits were made.\nProvenance: Own photograph by Patche99z, author-uploaded scan on 25 June 2011. Exact API metadata and original hashes supplied from completed source research; card revision 747573198. Selected license CC BY-SA 3.0 Unported, not public domain. Caption intentionally states only 1965 and does not claim a first jet arrival or runway history. User approved automatic scheduled publication on 14 October 2026.",
+        "url": "https://commons.wikimedia.org/wiki/File:1965_Dubai_Airport_first_Comet.jpg"
+      },
+      "target_username": "rudubainews",
+      "caption_html": "📷 <b>Дубай раньше: аэропорт в 1965 году</b>\n\nDe Havilland Comet авиакомпании Middle East Airlines в аэропорту Дубая.\n\nФото: Patche99z / Wikimedia Commons.\nИсточник: <a href=\"https://commons.wikimedia.org/wiki/File:1965_Dubai_Airport_first_Comet.jpg\">Wikimedia Commons</a>\n<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>\nФото без изменений.\n#ДубайРаньше",
+      "publication_review": {
+        "status": "approved",
+        "reviewer": "User authorization 14 October 2026; shortened caption approved",
+        "reviewed_at": "2026-10-14",
+        "target_username": "rudubainews",
+        "visual_checked": true,
+        "image_identity": "commons-sha1:0d2c075e3c70b86638eaa1adf17c173ed8f03f61",
+        "image_sha256": "979a31d319e3ae35c775be1d5d31f84672967c590dffba5e76a92fb3e3865657",
+        "caption_sha256": "6095f70efc188b21eb083b348466a566577fe80644c9e729f9046d1155ca0007"
+      },
+      "usage_review": {
+        "status": "approved",
+        "basis": "explicit_license",
+        "reviewer": "User-approved manual Commons review",
+        "reviewed_at": "2026-10-14",
+        "evidence": "https://commons.wikimedia.org/w/index.php?title=File:1965_Dubai_Airport_first_Comet.jpg&oldid=747573198",
+        "rights_holder": "Patche99z",
+        "attribution": "Фото: Patche99z / Wikimedia Commons.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:1965_Dubai_Airport_first_Comet.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/1965_Dubai_Airport_first_Comet.jpg",
+        "target_username": "rudubainews",
+        "telegram_republication": true,
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "image_sha1": "0d2c075e3c70b86638eaa1adf17c173ed8f03f61",
+        "modifications": "none",
+        "share_alike": true
+      },
+      "diagnostics": {
+        "candidates": 1,
+        "ready_for_recheck": 1,
+        "counts": {
+          "pending_live_evidence_recheck": 1
+        },
+        "items": [
+          {
+            "id": "dubai-airport-comet-1965-patche99z",
+            "reason": "pending_live_evidence_recheck"
+          }
+        ]
+      },
+      "evidence_diagnostics": {
+        "candidates": 1,
+        "evidence_attempts": 1,
+        "counts": {
+          "selected": 1
+        },
+        "items": [
+          {
+            "id": "dubai-airport-comet-1965-patche99z",
+            "reason": "selected"
+          }
+        ]
+      }
     }
   }
 }
