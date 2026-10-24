@@ -1,12 +1,17 @@
 """Photo payload and no-retry transport, shared source/rights policy."""
 import hashlib
 import html
+import logging
 import re
 
 import requests
 from retro_commons import commons_review
 from retro_policy import usage_allowed
 from retro_publish import valid_post
+
+
+PHOTO_USER_AGENT = 'DubaiNewsBot/1.0 (+https://github.com/AlAlNi/dubai-news-bot)'
+logger = logging.getLogger(__name__)
 
 
 def caption_html(item):
@@ -48,9 +53,13 @@ def download_approved_photo(item):
     """Bounded original download; the exact approved bytes are uploaded, never a URL."""
     digest = approved_image_hash(item)
     try:
-        response = requests.get(item['image_url'], stream=True, timeout=30, allow_redirects=False)
+        response = requests.get(
+            item['image_url'], headers={'User-Agent': PHOTO_USER_AGENT},
+            stream=True, timeout=30, allow_redirects=False)
         try:
             if response.status_code != 200:
+                # Keep the stable error code; do not log URLs, headers or response bodies.
+                logger.warning('Retro photo download rejected: HTTP %s', response.status_code)
                 raise ValueError('image_download_failed')
             chunks, size = [], 0
             for chunk in response.iter_content(chunk_size=65536):
@@ -66,7 +75,8 @@ def download_approved_photo(item):
             response.close()
     except ValueError:
         raise
-    except Exception:
+    except Exception as exc:
+        logger.warning('Retro photo download failed: %s', type(exc).__name__)
         raise ValueError('image_download_failed') from None
 
 
@@ -109,3 +119,4 @@ def send_photo(payload, token, image_bytes):
             response.close()
     except Exception:
         return {'status': 'send_unknown'}
+
