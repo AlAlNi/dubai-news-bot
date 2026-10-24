@@ -1,43 +1,4 @@
 {
-  "1b2403b55a2ee1f70a0c1ca5c468e227060a054b5fdbaf66905b1af9b73d017b": {
-    "saved_at": "2026-10-17T14:36:28.909517+00:00",
-    "result": {
-      "id": "chatcmpl-EZzoJYgmiiBExsQgtnzX5enQ3kQWg",
-      "object": "chat.completion",
-      "created": 1792247787,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"С 16 октября 2026 года аэропорт Зайед в Абу-Даби начал выполнять ежедневные рейсы в Берлин на самолёте Airbus A320neo.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Это первый прямой регулярный рейс между столицами ОАЭ и Германии на маршруте Condor.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Партнёрство Condor с Etihad Airways расширяет возможности пересадки для пассажиров из Берлина и Абу-Даби, обеспечивая доступ к сети направлений обеих авиакомпаний.\",\"supported\":true,\"evidence\":[2,7,8]},{\"claim\":\"Новый маршрут поддерживает развитие туризма и деловых связей между двумя городами.\",\"supported\":true,\"evidence\":[2,3]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1261,
-        "completion_tokens": 199,
-        "total_tokens": 1460,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "98a9ee1e9942d7b11ef63c56c43452778f4978e1c7139366e77c6c04f0f8de4c": {
     "saved_at": "2026-10-18T02:00:18.751244+00:00",
     "result": {
@@ -1115,6 +1076,45 @@
         "prompt_tokens": 895,
         "completion_tokens": 145,
         "total_tokens": 1040,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "2b11c38aac2aa5c2b583c626af99e0ef41305cee1e92de685f01755ff918d049": {
+    "saved_at": "2026-10-24T16:19:59.193561+00:00",
+    "result": {
+      "id": "chatcmpl-EcYlJJP0T1wWkI39guAXvrlGJqOqW",
+      "object": "chat.completion",
+      "created": 1792858797,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the Russian post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае штраф за переход дороги в неположенном месте составит 400 дирхам\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"Полиция Дубая предупреждает пешеходов о штрафе в размере 400 дирхам за нарушение правил перехода дорог по статье 89 Федерального закона о дорожном движении\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Нарушение включает переход на красный свет или в непредназначенных местах\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Бригадир Маджид Султан Аль Суваиди призвал использовать только обозначенные переходы и соблюдать сигналы светофора\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Власти запустили кампанию по повышению безопасности пешеходов\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Власти призывают водителей снижать скорость и уступать дорогу\",\"supported\":true,\"evidence\":[7]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 891,
+        "completion_tokens": 248,
+        "total_tokens": 1139,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
