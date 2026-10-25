@@ -1,43 +1,4 @@
 {
-  "fbec5e536d5b6b83c401784beec65c2b4b99893b044fdc964e915de039d2ec9a": {
-    "saved_at": "2026-10-18T12:14:58.322111+00:00",
-    "result": {
-      "id": "chatcmpl-EaK4uIaNFaKUyZ3QosGELv3Mb9rsj",
-      "object": "chat.completion",
-      "created": 1792325696,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Registration is open for ISEA2026 in Dubai.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The 31st International Symposium on Electronic/Emerging Art (ISEA2026) will take place in Dubai from 6 to 15 November 2026.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The theme of ISEA2026 is 'ELYAH: Constellating Place, Data and Identity'.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The event will bring together artists, researchers, and innovators from around the world to discuss the intersection of art, science, and technology.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Registration for the artistic programme is free.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Access to the online academic programme requires a paid ticket with a student discount available.\",\"supported\":true,\"evidence\":[3,5]},{\"claim\":\"Details and registration are available at isea2026.eventshub.ai.\",\"supported\":true,\"evidence\":[6]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1462,
-        "completion_tokens": 245,
-        "total_tokens": 1707,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "a381d16e14674876cb5b9d68a11b366f6850713075cb270872e70ae1df52e3ff": {
     "saved_at": "2026-10-18T16:12:04.908296+00:00",
     "result": {
@@ -1193,6 +1154,45 @@
         "prompt_tokens": 721,
         "completion_tokens": 154,
         "total_tokens": 875,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "37f35afc4da0f5c4ae44dace609e77c9f219759d26473231fd70c3102603a805": {
+    "saved_at": "2026-10-25T14:39:47.845845+00:00",
+    "result": {
+      "id": "chatcmpl-EctfuKwAbCFcqaVZYQcjf1bEqzVd9",
+      "object": "chat.completion",
+      "created": 1792939186,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The second edition of the Public Art Abu Dhabi Biennial is taking place.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The second edition opened in Al Ain.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The Biennial is organized by the Department of Culture and Tourism – Abu Dhabi.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The exhibition is under the theme 'Home: A Glossary for a Communal Sense of Place'.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The exhibition in Al Ain will last until 15 February 2027.\",\"supported\":true,\"evidence\":[3,19]},{\"claim\":\"Four new works are presented in Al Ain.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The works are located in Al Qattara Oasis and Al Towayya Roundabout.\",\"supported\":true,\"evidence\":[2,9]},{\"claim\":\"Artists from different countries reinterpret traditional and natural elements of the region through contemporary art.\",\"supported\":true,\"evidence\":[5,7,8,9]},{\"claim\":\"The Biennial will continue in Abu Dhabi from 15 November 2026 with new projects and a public program.\",\"supported\":true,\"evidence\":[3,17,19]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1859,
+        "completion_tokens": 291,
+        "total_tokens": 2150,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
