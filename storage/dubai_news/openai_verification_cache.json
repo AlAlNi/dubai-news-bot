@@ -1,43 +1,4 @@
 {
-  "d7df567d4827f0f24542bc05accff19d3e6380a41e9b0b2228575d4c4397643d": {
-    "saved_at": "2026-10-18T07:02:47.997239+00:00",
-    "result": {
-      "id": "chatcmpl-EaFCo00dzJNVG0uRLy5EI1hHR2e6i",
-      "object": "chat.completion",
-      "created": 1792306966,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai authorities allowed Emirati homeowners to expand villas, build second homes for relatives, and add residential annexes.\",\"supported\":true,\"evidence\":[1,2,5,6,7]},{\"claim\":\"New rules allow reducing setbacks to 1.5 meters.\",\"supported\":true,\"evidence\":[1,2,3]},{\"claim\":\"New rules allow building a second floor covering the entire area of the first floor.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"To build a second villa on the same plot, residents must be over 18 years old.\",\"supported\":true,\"evidence\":[1,5,6]},{\"claim\":\"Consent from neighbors is required when reducing setbacks.\",\"supported\":true,\"evidence\":[1,2,10]},{\"claim\":\"There are restrictions on the height and location of annexes.\",\"supported\":true,\"evidence\":[2,7,8,9]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1747,
-        "completion_tokens": 214,
-        "total_tokens": 1961,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "fbec5e536d5b6b83c401784beec65c2b4b99893b044fdc964e915de039d2ec9a": {
     "saved_at": "2026-10-18T12:14:58.322111+00:00",
     "result": {
@@ -1193,6 +1154,45 @@
         "prompt_tokens": 972,
         "completion_tokens": 220,
         "total_tokens": 1192,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "2ee87b96e3c9e1716d56a39f35ee2fc00d2ffe4c2601e1882897361b00016379": {
+    "saved_at": "2026-10-25T10:20:37.587300+00:00",
+    "result": {
+      "id": "chatcmpl-Ecpd6xqLXEfYx9LH4uwqF8UUKy6pN",
+      "object": "chat.completion",
+      "created": 1792923636,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"In Khor Fakkan, boats are being relocated from three berths.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Khor Fakkan Municipality announced the evacuation of boats from the first three berths on the boat landing side of Khor Fakkan Marina.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Boat owners must move their boats to Al Lulu'iyah Marina by October 28.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"After October 28, the municipality will take measures against those who do not comply.\",\"supported\":true,\"evidence\":[3]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 721,
+        "completion_tokens": 154,
+        "total_tokens": 875,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
