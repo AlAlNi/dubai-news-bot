@@ -1,43 +1,4 @@
 {
-  "98a9ee1e9942d7b11ef63c56c43452778f4978e1c7139366e77c6c04f0f8de4c": {
-    "saved_at": "2026-10-18T02:00:18.751244+00:00",
-    "result": {
-      "id": "chatcmpl-EaAU50msCiBWwdtj2qdYdqbQ6sj0D",
-      "object": "chat.completion",
-      "created": 1792288817,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The second Public Art Abu Dhabi Biennial starts in Abu Dhabi.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Biennial opens on 23 October 2026 in Al Ain and on 15 November 2026 in Abu Dhabi.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The Biennial is led by Artistic Director Elvira Dyangani Ose.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The theme of the exhibition is 'Home: A Glossary for a Communal Sense of Place', viewing 'home' as an evolving collective experience.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"21 artists from the UAE and other countries participate in the event.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The artworks will be presented in public and cultural locations including Mina Zayed, Saadiyat, and Al Ain.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1135,
-        "completion_tokens": 222,
-        "total_tokens": 1357,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "d7df567d4827f0f24542bc05accff19d3e6380a41e9b0b2228575d4c4397643d": {
     "saved_at": "2026-10-18T07:02:47.997239+00:00",
     "result": {
@@ -1193,6 +1154,45 @@
         "prompt_tokens": 1122,
         "completion_tokens": 240,
         "total_tokens": 1362,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "421dc89dc39663f77755f7b4d793a7d3f7ae8293ad63096b572df3b97181b9f5": {
+    "saved_at": "2026-10-25T05:28:35.330212+00:00",
+    "result": {
+      "id": "chatcmpl-Ecl4U49jckcXoDoi53Ny4aWv5TUmT",
+      "object": "chat.completion",
+      "created": 1792906114,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"Ras Al Khaimah closed all its beaches until further notice.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The reason for the closure was not disclosed.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Authorities urge the public to comply with guidelines for safety.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Similar measures were taken in other emirates: Al Hamriya Beach in Sharjah was temporarily closed due to an oil slick.\",\"supported\":true,\"evidence\":[5,6]},{\"claim\":\"Beaches in Umm Al Quwain were closed after an oil spill.\",\"supported\":true,\"evidence\":[7,8]},{\"claim\":\"The Ministry of Climate Change and Environment confirmed that the fuel-like smell poses no health risk.\",\"supported\":true,\"evidence\":[7,9]},{\"claim\":\"Cleanup and containment work is underway to address the pollution.\",\"supported\":true,\"evidence\":[10]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 972,
+        "completion_tokens": 220,
+        "total_tokens": 1192,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
