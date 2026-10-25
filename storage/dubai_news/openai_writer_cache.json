@@ -292,6 +292,16 @@
   "4e46b8fa13c4821549503ce60e5d52c4a649b1526802d66f1e06182f5c0dd8d7": {
     "saved_at": "2026-10-25T05:28:25.168934+00:00",
     "result": {
+      "status": "rejected",
+      "reason": "Материал не содержит новостей о транспорте, жилье, услугах, туризме, культуре, бизнесе или общественной безопасности в ОАЭ. Это медицинское предупреждение без конкретных событий в регионе.",
+      "post": "",
+      "api_calls": 1,
+      "cached": false
+    }
+  },
+  "5e077182789f3262233acda1ed8aa87b658e20e5bb30e1a48d421bd9801caa61": {
+    "saved_at": "2026-10-25T05:28:29.131822+00:00",
+    "result": {
       "status": "deferred",
       "reason": "Previous writer attempt incomplete; no automatic retry",
       "post": "",
