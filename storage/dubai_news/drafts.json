@@ -1,1 +1,143 @@
-[]
+[
+  {
+    "source_snapshot": {
+      "title": "Dubai to close some E611 lanes, Al Maktoum airport tunnel amid autonomous taxi testing",
+      "text": "Dubai's transport authority announced the closures of a major road and tunnel on Sunday, October 25, amid autonomous taxi companies' testing operations. Three lanes of the Emirates Road (E611), opposite Al Maktoum International Airport, are set to be closed during the highway testing, the RTA revealed in its statement. Additionally, the entire Al Maktoum International Airport Tunnel will also be closed in both directions. The closures are set to take place from October 26 to 31, between 9am and 4pm. Motorists have been urged to plan their journeys in advance and follow directional signs to ensure smooth travel. Earlier this month, a senior UAE official said the country would have more than 10,000 autonomous taxis and delivery vans operating next year, with orders already placed for the vehicles as the country prepares to sharply scale up driverless transport. Both Abu Dhabi and Dubai have already begun commercial autonomous taxi operations. Abu Dhabi expanded Level 4 autonomous taxi services on Yas Island earlier this year, while Dubai launched commercial autonomous taxi services in areas including Umm Suqeim and Jumeirah. Abu Dhabi had previously become the first city in the Middle East and North Africa to begin commercial operations of fully driverless Level 4 vehicles, according to Abu Dhabi Mobility.",
+      "url": "https://www.khaleejtimes.com/uae/transport/dubai-to-close-some-e611-lanes-al-maktoum-airport-tunnel-amid-autonomous-taxi-testing",
+      "published_at": "2026-10-25T15:18:57+00:00"
+    },
+    "source_published_at": "2026-10-25T15:18:57+00:00",
+    "source_retrieved_at": "2026-10-26T17:50:27.106405+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "From October 26 to 31, between 9:00 and 16:00, three lanes on Emirates Road (E611) opposite Al Maktoum Airport will be closed.",
+          "supported": true,
+          "evidence": [
+            2,
+            4
+          ]
+        },
+        {
+          "claim": "The entire Al Maktoum Airport tunnel will be closed in both directions during this period.",
+          "supported": true,
+          "evidence": [
+            3,
+            4
+          ]
+        },
+        {
+          "claim": "Drivers are asked to plan their routes in advance and follow signs for smooth travel during autonomous taxi testing.",
+          "supported": true,
+          "evidence": [
+            5
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Dubai to close some E611 lanes, Al Maktoum airport tunnel amid autonomous taxi testing"
+        },
+        {
+          "id": 1,
+          "text": "Dubai's transport authority announced the closures of a major road and tunnel on Sunday, October 25, amid autonomous taxi companies' testing operations."
+        },
+        {
+          "id": 2,
+          "text": "Three lanes of the Emirates Road (E611), opposite Al Maktoum International Airport, are set to be closed during the highway testing, the RTA revealed in its statement."
+        },
+        {
+          "id": 3,
+          "text": "Additionally, the entire Al Maktoum International Airport Tunnel will also be closed in both directions."
+        },
+        {
+          "id": 4,
+          "text": "The closures are set to take place from October 26 to 31, between 9am and 4pm."
+        },
+        {
+          "id": 5,
+          "text": "Motorists have been urged to plan their journeys in advance and follow directional signs to ensure smooth travel."
+        },
+        {
+          "id": 6,
+          "text": "Earlier this month, a senior UAE official said the country would have more than 10,000 autonomous taxis and delivery vans operating next year, with orders already placed for the vehicles as the country prepares to sharply scale up driverless transport."
+        },
+        {
+          "id": 7,
+          "text": "Both Abu Dhabi and Dubai have already begun commercial autonomous taxi operations."
+        },
+        {
+          "id": 8,
+          "text": "Abu Dhabi expanded Level 4 autonomous taxi services on Yas Island earlier this year, while Dubai launched commercial autonomous taxi services in areas including Umm Suqeim and Jumeirah."
+        },
+        {
+          "id": 9,
+          "text": "Abu Dhabi had previously become the first city in the Middle East and North Africa to begin commercial operations of fully driverless Level 4 vehicles, according to Abu Dhabi Mobility."
+        }
+      ],
+      "source_hash": "f6c8e0ae8dfad7a38ec91358f7b1f1eaa535e41b87ffa13ff91905d897c18bc9",
+      "summary_hash": "1799006ca0a8d0e5f26ad99d9650aa4bd5c4f5cb7bf8240019fe82bfabe2c60a",
+      "checked_at": "2026-10-26T17:50:42.811415+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "khaleejtimes.com",
+    "title": "Dubai to close some E611 lanes, Al Maktoum airport tunnel amid autonomous taxi testing",
+    "summary_ru": "<b>🚇 Временное закрытие дорог в Дубае из-за тестирования автономных такси</b>\n\n📅 С 26 по 31 октября с 9:00 до 16:00 будут закрыты три полосы на шоссе Emirates Road (E611) напротив аэропорта Аль-Мактум и полностью туннель аэропорта в обе стороны.\n\n🧪 Водителей просят планировать маршруты заранее и следовать указателям для удобства передвижения во время тестов автономных такси.",
+    "published": "2026-10-26T17:50:38.099233+00:00",
+    "source_urls": [
+      "https://www.khaleejtimes.com/uae/transport/dubai-to-close-some-e611-lanes-al-maktoum-airport-tunnel-amid-autonomous-taxi-testing"
+    ],
+    "lang": "en",
+    "content_hash": "c1e60210efafdcf68a20361e595d9c4c",
+    "strict_hash": "c1e60210efafdcf68a20361e595d9c4c",
+    "fuzzy_hash": "2f15dad50b4c970046af18af5977f951",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о временном закрытии дорог в Дубае из-за тестирования автономных такси соответствует тематике транспорта и городской инфраструктуры."
+      }
+    },
+    "image_url": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-10-25/slzrag3f/road.avif?width=1200&amp;height=630&amp;q=60&amp;format=auto&amp;ogImage=true&amp;mode=crop&amp;rect=48,0,504,336",
+    "slot_target": "evening"
+  }
+]
