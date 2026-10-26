@@ -1,43 +1,4 @@
 {
-  "1b94e460d5bcd354f0956247c54e7c14697bbd9b4eb7323d7f042c2bebe0c5f6": {
-    "saved_at": "2026-10-19T05:27:22.493202+00:00",
-    "result": {
-      "id": "chatcmpl-EaaC11qbVVMZk4t1b36kkH7S8mFos",
-      "object": "chat.completion",
-      "created": 1792387641,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"AccessAbilities Expo 2026 will open in Dubai tomorrow.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The exhibition will be held from October 19 to 21 at Dubai World Trade Centre.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"More than 240 exhibitors from 50 countries will participate.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Around 18,000 visitors from 70 countries are expected.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The exhibition will showcase technologies for people with physical, visual, hearing, and intellectual disabilities, as well as autism spectrum disorder.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Innovative solutions will be presented for the first time in the Middle East, Africa, and South Asia.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 753,
-        "completion_tokens": 199,
-        "total_tokens": 952,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "716f8895cf2847dc8730ceb5d68c13c6eb3df6ea50c514d9e2bde54b53682ebc": {
     "saved_at": "2026-10-19T11:29:53.613050+00:00",
     "result": {
@@ -1193,6 +1154,45 @@
         "prompt_tokens": 1433,
         "completion_tokens": 235,
         "total_tokens": 1668,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "d46b5709cbd9f46ec61cee1554547b9c2193bab0021a47ea955c51557b21011c": {
+    "saved_at": "2026-10-26T05:34:01.462708+00:00",
+    "result": {
+      "id": "chatcmpl-Ed7dHyd9EZxQieYGUGwjZRTmPTBIN",
+      "object": "chat.completion",
+      "created": 1792992839,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"On October 25, 2026, RTA will open the final bridge of the World Trade Centre Roundabout Development Project in Dubai.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The final bridge is 1000 meters long.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The bridge will improve traffic flow from Al Majlis Street to 2nd December Street.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The bridge accommodates approximately 3000 vehicles per hour.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The bridge will reduce journey time from six minutes to one minute on the route from Al Majlis Street to 2nd December Street.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The project cost exceeds 696 million dirhams.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The project includes five bridges with a combined length of 5000 meters.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The project will reduce average delay at the intersection from 12 minutes to 90 seconds.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The project will benefit more than 500,000 residents and visitors.\",\"supported\":true,\"evidence\":[3]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1087,
+        "completion_tokens": 286,
+        "total_tokens": 1373,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
