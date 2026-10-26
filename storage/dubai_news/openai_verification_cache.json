@@ -1,43 +1,4 @@
 {
-  "9d84481a238613163d74d37574504de3454872dafa0abe4e211a07fe7862a9bb": {
-    "saved_at": "2026-10-19T17:55:03.838099+00:00",
-    "result": {
-      "id": "chatcmpl-EalrZX0ZfE0vHFle2Xf7jk6hw4cXp",
-      "object": "chat.completion",
-      "created": 1792432501,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Schools in the UAE reopen on Monday, October 19, after the mid-term break.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Thousands of students will return to classrooms after the first half of the academic semester.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The mid-term break lasted from October 12 and ended according to the Ministry of Education calendar.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Return dates may differ in private schools with other curricula.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The next major break is the winter holiday from December 14, 2026 to January 3, 2027.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Schools will focus on assessing knowledge and supporting students who need help.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1611,
-        "completion_tokens": 200,
-        "total_tokens": 1811,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "4316f5558ded041669affb5b1b7f65eeedb11c328ffa34023e899ffc9e336ba6": {
     "saved_at": "2026-10-20T00:47:31.126897+00:00",
     "result": {
@@ -1232,6 +1193,45 @@
         "prompt_tokens": 962,
         "completion_tokens": 140,
         "total_tokens": 1102,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "48696bed5b716e5a435c056e03c6e7ef7af42f67dcd711b1fba2f5b93d13335b": {
+    "saved_at": "2026-10-26T22:03:14.751122+00:00",
+    "result": {
+      "id": "chatcmpl-EdN4bSUndd9wfjOQVjx0zQf6MK0et",
+      "object": "chat.completion",
+      "created": 1793052193,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai police received the JETOUR G700 SUV for desert patrolling.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Dubai police started using the new JETOUR G700 patrol vehicle with 904 horsepower to enhance tourist safety in desert areas.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The vehicle has four-wheel drive and can respond quickly to calls in challenging conditions.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The vehicle was unveiled at Al Marmoom Oasis and is designed to operate on sandy tracks, important for the winter tourist season.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Colonel Mohammad Abdulrahman noted that the vehicle will help improve operational efficiency and visitor support.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 186,
+        "total_tokens": 1302,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
