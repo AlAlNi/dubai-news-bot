@@ -1,43 +1,4 @@
 {
-  "1419185610d393c49668ae1cd9e52daed008bc2ea619032a9e0b9537bb19a0e6": {
-    "saved_at": "2026-10-19T00:35:12.682753+00:00",
-    "result": {
-      "id": "chatcmpl-EaVdHSeRoOrHF5oIGBe0Pog9yBDsx",
-      "object": "chat.completion",
-      "created": 1792370111,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Компания SWS Board Technology получила Dubai-it Award в области экономики.\",\"supported\":true,\"evidence\":[0,2,4,12]},{\"claim\":\"Компания производит почти половину мировых кайтбордов и вейкбордов.\",\"supported\":true,\"evidence\":[5,10]},{\"claim\":\"Компания производит треть сноубордов.\",\"supported\":true,\"evidence\":[5,10]},{\"claim\":\"Годовая мощность производства более 450 000 досок.\",\"supported\":true,\"evidence\":[5,10]},{\"claim\":\"Производство расположено в Дубае.\",\"supported\":true,\"evidence\":[2,4,10,11]},{\"claim\":\"Продукция экспортируется на международные рынки.\",\"supported\":true,\"evidence\":[6,10,11]},{\"claim\":\"Продукция участвует в крупнейших соревнованиях, включая Зимние Олимпийские игры.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"Компания внедряет технологии переработки досок, повторно используя около 95% материалов.\",\"supported\":true,\"evidence\":[11]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1584,
-        "completion_tokens": 263,
-        "total_tokens": 1847,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "1b94e460d5bcd354f0956247c54e7c14697bbd9b4eb7323d7f042c2bebe0c5f6": {
     "saved_at": "2026-10-19T05:27:22.493202+00:00",
     "result": {
@@ -1193,6 +1154,45 @@
         "prompt_tokens": 1476,
         "completion_tokens": 278,
         "total_tokens": 1754,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "9ac75811bdcf9001c5fd97118b646786ce2b239f7586e3f872e018c532aa5463": {
+    "saved_at": "2026-10-26T00:50:27.197700+00:00",
+    "result": {
+      "id": "chatcmpl-Ed3CrNJ5ckmBAz2u7UTeYH3nidDQq",
+      "object": "chat.completion",
+      "created": 1792975825,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The winners of the Arab Reading Challenge will be announced on October 29.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The closing ceremony will be held at the Dubai World Trade Centre on October 29.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"More than 40 million students from 60 countries are participating in the competition.\",\"supported\":true,\"evidence\":[6,9]},{\"claim\":\"The competition includes 74 thousand participants in the People of Determination category.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"The total prize fund is 11 million dirhams.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"The main prize is 500 thousand dirhams.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"The best school will receive one million dirhams.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"The organizer is the Mohammed bin Rashid Al Maktoum initiative.\",\"supported\":true,\"evidence\":[6,9]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1433,
+        "completion_tokens": 235,
+        "total_tokens": 1668,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
