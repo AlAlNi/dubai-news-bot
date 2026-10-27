@@ -1246,5 +1246,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_07e815c12d"
     }
+  },
+  "8fe2b7df444d497d6c15634b9766e3af807e71c3a7ec49f758e4dee8f150d254": {
+    "saved_at": "2026-10-27T22:44:42.567085+00:00",
+    "result": {
+      "id": "chatcmpl-EdkCGWkXqCpVvq0TTuc5PjgJFAAVj",
+      "object": "chat.completion",
+      "created": 1793141080,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Emirates Dubai 7s adds HSBC SVNS 3 with 28 teams.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The tournament will take place from November 27 to 29 in Dubai.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"It is the world's biggest international rugby sevens tournament.\",\"supported\":true,\"evidence\":[1,5]},{\"claim\":\"There will be 28 men's and women's teams competing and 70 matches played.\",\"supported\":true,\"evidence\":[1,5]},{\"claim\":\"Top teams include New Zealand, South Africa, Australia, and others.\",\"supported\":true,\"evidence\":[1,3,4]},{\"claim\":\"HSBC SVNS 3 provides teams the opportunity to progress towards Olympic qualification.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Tickets for the event are already on sale.\",\"supported\":true,\"evidence\":[1,7]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2230,
+        "completion_tokens": 221,
+        "total_tokens": 2451,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07e815c12d"
+    }
   }
 }
