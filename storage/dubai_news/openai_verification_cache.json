@@ -1,43 +1,4 @@
 {
-  "6dc8663e0afeb168d02f065d31a4dcd9236e817f96990d3585dff9300fd34d18": {
-    "saved_at": "2026-10-20T05:30:38.486830+00:00",
-    "result": {
-      "id": "chatcmpl-EawijJu8WWfUHJoX7Sk001D6B0HGN",
-      "object": "chat.completion",
-      "created": 1792474237,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"From October 20 to 27, the exit from Maliha Road to Emirates Road towards Dubai will be temporarily closed.\",\"supported\":true,\"evidence\":[1,2,3]},{\"claim\":\"The closure is from midnight to 4am due to infrastructure works on the Etihad Rail national railway.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Etihad Rail began passenger services on September 29, connecting stations in Dubai and Abu Dhabi.\",\"supported\":true,\"evidence\":[5,6]},{\"claim\":\"A new air-conditioned pedestrian bridge opened between Jumeirah Golf Estates Metro Station and Al Yalayis Station for passenger convenience.\",\"supported\":true,\"evidence\":[7]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1109,
-        "completion_tokens": 167,
-        "total_tokens": 1276,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "5f76969de50274f3b25f82010397e68f10c0e7732da060d2e19eafbf1c6d2a95": {
     "saved_at": "2026-10-20T10:35:39.331321+00:00",
     "result": {
@@ -1232,6 +1193,45 @@
         "prompt_tokens": 1343,
         "completion_tokens": 192,
         "total_tokens": 1535,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "655efaca978278922fbf6cee36ca972bd01ce14709e2aa7b964fc75b1e661303": {
+    "saved_at": "2026-10-27T06:59:43.981078+00:00",
+    "result": {
+      "id": "chatcmpl-EdVRmR662d6ksT5xeFyWNnFzHJLXl",
+      "object": "chat.completion",
+      "created": 1793084382,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The winter camping season in Al Ruwayyah started on 1 November 2026 and runs until 30 April 2027.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The camping capacity has increased to 600 camps, which is 120% more than previous seasons.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"For the first time, caravan plots and fully equipped camps for daily rental are available.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"New options for UAE residents include double-sized plots up to 800 square meters.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"There are designated zones for winter events.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Support is provided for small businesses in food and entertainment sectors.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"Registration is available through wintercamp.dm.gov.ae and the DubaiNow app.\",\"supported\":true,\"evidence\":[9]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1565,
+        "completion_tokens": 228,
+        "total_tokens": 1793,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
