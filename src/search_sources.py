@@ -179,7 +179,7 @@ def mediaoffice_date(parser, url, now):
         return None
 
 
-def parse_article(html, url, now=None, diagnostics=None):
+def parse_article(html, url, now=None, diagnostics=None, *, max_age_hours=48, require_full=False):
     def reject(reason):
         if diagnostics is not None:
             diagnostics.append({"url": url, "reason": reason})
@@ -218,7 +218,7 @@ def parse_article(html, url, now=None, diagnostics=None):
     published = publication_date(raw_date)
     if published is None:
         return reject("missing_publication_date")
-    if not now - timedelta(hours=48) <= published <= now + timedelta(minutes=5):
+    if not now - timedelta(hours=max_age_hours) <= published <= now + timedelta(minutes=5):
         return reject("outside_48h_window")
     title = node.get("headline") or parser.meta.get("og:title") or " ".join(parser.heading)
     body = node.get("articleBody") or " ".join(parser.article_text or parser.body)
@@ -228,6 +228,8 @@ def parse_article(html, url, now=None, diagnostics=None):
     if len(title) < 10 or len(body) < 200:
         return reject("article_text_too_short")
     # Avoid returning a broken final sentence when limiting a long article.
+    if len(body) > 12000 and require_full:
+        return reject("article_too_long_for_full_review")
     if len(body) > 12000:
         end = max(body.rfind(". ", 6000, 12000), body.rfind("! ", 6000, 12000), body.rfind("? ", 6000, 12000))
         if end == -1:
@@ -241,13 +243,13 @@ def parse_article(html, url, now=None, diagnostics=None):
     }
 
 
-def fetch_article(url, now=None, diagnostics=None):
+def fetch_article(url, now=None, diagnostics=None, *, max_age_hours=48, require_full=False, url_policy=None):
     def reject(reason):
         if diagnostics is not None:
             diagnostics.append({"url": url, "reason": reason})
         return None
     for _ in range(4):
-        if not allowed_url(url):
+        if not allowed_url(url) or (url_policy is not None and not url_policy(url)):
             return reject("disallowed_url")
         if not public_destination(url):
             return reject("non_public_destination")
@@ -275,10 +277,12 @@ def fetch_article(url, now=None, diagnostics=None):
                     chunks.append(chunk)
                 raw = b"".join(chunks)
                 encoding = response.encoding if response.encoding and response.encoding.lower() != "iso-8859-1" else "utf-8"
-                return parse_article(raw.decode(encoding, errors="replace"), url, now, diagnostics)
+                return parse_article(raw.decode(encoding, errors="replace"), url, now, diagnostics,
+                                     max_age_hours=max_age_hours, require_full=require_full)
             finally:
                 response.close()
         except Exception as exc:
             return reject("fetch_error_" + type(exc).__name__)
     return reject("too_many_redirects")
+
 

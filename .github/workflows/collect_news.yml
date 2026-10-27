@@ -81,6 +81,7 @@ jobs:
         OPENAI_CALL_LIMIT_PROFILE: 'october-2026'
       run: |
         cd src
+        python monthly_changes.py prepare
         python workflow_run.py rss_collect
         
     - name: Commit and push changes
@@ -91,3 +92,4 @@ jobs:
         git add storage/dubai_news/
         git diff --quiet && git diff --staged --quiet || git commit -m "Update news data [skip ci]"
         git push
+
