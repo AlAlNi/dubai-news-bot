@@ -1,37 +1,5 @@
 [
   {
-    "url": "https://www.wam.ae/en/article/c2wkfqw-dubai-police-warn-jobseekers-against-fake-part",
-    "timestamp": "2026-10-25T05:28:24.123453+00:00",
-    "status": "rejected",
-    "content_hash": "6c1ef8558eea5d3b401f2b63ee501e10",
-    "strict_hash": "6c1ef8558eea5d3b401f2b63ee501e10",
-    "fuzzy_hash": "8d4adf12cfe6a4a530cbf31c61c6e9f5",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://www.khaleejtimes.com/lifestyle/health/uae-doctors-warn-exosome-skin-hair-treatment-trend",
-    "timestamp": "2026-10-25T05:28:28.160052+00:00",
-    "status": "rejected",
-    "content_hash": "943b1aff3875891d665aa20fbf91fdd8",
-    "strict_hash": "943b1aff3875891d665aa20fbf91fdd8",
-    "fuzzy_hash": "3abec05d4ccc9a2276eb80b3f62dbcdc",
-    "reason": "Материал не содержит новостей о транспорте, жилье, услугах, туризме, культуре, бизнесе или общественной безопасности в ОАЭ. Это медицинское предупреждение без конкретных событий в регионе."
-  },
-  {
-    "url": "https://www.khaleejtimes.com/travel/uae-attractions/ras-al-khaimah-closes-all-beaches-until-further-notice",
-    "timestamp": "2026-10-25T05:28:35.332758+00:00",
-    "status": "approved",
-    "content_hash": "901310c8b350273af54fafaebab8b337",
-    "strict_hash": "901310c8b350273af54fafaebab8b337",
-    "fuzzy_hash": "7441747d658f8eb0d6302d2274d65ca8",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.khaleejtimes.com/travel/uae-attractions/ras-al-khaimah-closes-all-beaches-until-further-notice",
-    "timestamp": "2026-10-25T05:28:56.082862+00:00",
-    "status": "published"
-  },
-  {
     "url": "https://www.khaleejtimes.com/uae/khor-fakkan-municipality-relocation-of-boats-three-berths",
     "timestamp": "2026-10-25T10:20:37.591145+00:00",
     "status": "approved",
@@ -165,5 +133,10 @@
     "strict_hash": "10b90dc516f0e53f73c7f8f0bced3b87",
     "fuzzy_hash": "d6ddb9b32bcb5d01f8102a854c79d296",
     "reason": "approved"
+  },
+  {
+    "url": "https://www.wam.ae/en/article/c2xrb7p-dubai-municipality-launches-refreshed-ruwayyah",
+    "timestamp": "2026-10-27T07:00:06.022396+00:00",
+    "status": "published"
   }
 ]
