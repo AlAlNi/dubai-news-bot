@@ -312,6 +312,16 @@
   "67a65c02beb01cc4490e86fe8e30942e07e06561e7adb2aa150d3e5a594b5339": {
     "saved_at": "2026-10-27T18:35:22.024345+00:00",
     "result": {
+      "status": "rejected",
+      "reason": "Новость не относится к теме Дубая, ОАЭ или стран Персидского залива, а касается технических проблем iPhone, что не соответствует редакционной политике канала.",
+      "post": "",
+      "api_calls": 1,
+      "cached": false
+    }
+  },
+  "5acc539510d29aeb149f14d72830aa2f58987571b031dcbb3c481c09f5d69eca": {
+    "saved_at": "2026-10-27T18:35:26.994783+00:00",
+    "result": {
       "status": "deferred",
       "reason": "Previous writer attempt incomplete; no automatic retry",
       "post": "",
