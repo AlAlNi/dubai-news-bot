@@ -1,43 +1,4 @@
 {
-  "4316f5558ded041669affb5b1b7f65eeedb11c328ffa34023e899ffc9e336ba6": {
-    "saved_at": "2026-10-20T00:47:31.126897+00:00",
-    "result": {
-      "id": "chatcmpl-EasIkFdw3e50WPuSoHmip5vMXhmgA",
-      "object": "chat.completion",
-      "created": 1792457250,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Туннель Мина в Абу-Даби сократил время в пути на 40%\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"С момента открытия в 2023 году туннель Мина в Абу-Даби снизил количество ДТП на 23%\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Туннель Мина в Абу-Даби сократил загрязнение воздуха на 37%\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"К 2050 году проект сэкономит 34 миллиона часов в пути\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Проект улучшает безопасность и экологию в эмирате\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 843,
-        "completion_tokens": 188,
-        "total_tokens": 1031,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "6dc8663e0afeb168d02f065d31a4dcd9236e817f96990d3585dff9300fd34d18": {
     "saved_at": "2026-10-20T05:30:38.486830+00:00",
     "result": {
@@ -1232,6 +1193,45 @@
         "prompt_tokens": 1116,
         "completion_tokens": 186,
         "total_tokens": 1302,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "d1cfc01d978b21622bb50599bac9c54f6a1c43aeef87e5b0d082b8c6fd5c7794": {
+    "saved_at": "2026-10-27T01:41:40.036296+00:00",
+    "result": {
+      "id": "chatcmpl-EdQTyRCBokjyr5GP85Y1NRXGdsk3s",
+      "object": "chat.completion",
+      "created": 1793065298,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From October 25, 2026, after the closure of four Indian consular centres in the UAE, passport documents can be collected at new locations.\",\"supported\":true,\"evidence\":[0,1,2,3]},{\"claim\":\"Residents awaiting passports must go to UW Mall in Bur Dubai or the Al Danah Centre in Abu Dhabi.\",\"supported\":true,\"evidence\":[7,8]},{\"claim\":\"The other 12 centres continue to operate from 8:00 to 18:00.\",\"supported\":true,\"evidence\":[4,10,11,14]},{\"claim\":\"Urgent cases are accepted without appointments.\",\"supported\":true,\"evidence\":[13]},{\"claim\":\"Appointments can be booked on the portal consularsevainuae.com.\",\"supported\":true,\"evidence\":[16]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1343,
+        "completion_tokens": 192,
+        "total_tokens": 1535,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
