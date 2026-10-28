@@ -1,43 +1,4 @@
 {
-  "a738f4ffd904d1b24692652b0332b6e4066e0c3cbc8293b5f1882cd43ba0d85c": {
-    "saved_at": "2026-10-21T12:32:34.194443+00:00",
-    "result": {
-      "id": "chatcmpl-EbPmaDsbb8V8Js9XMTedkiYHRWCvQ",
-      "object": "chat.completion",
-      "created": 1792585952,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From November 1, 2026, the UAE bans the use of ciprofloxacin in veterinary medicine for pets and farm animals.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The ban covers nine veterinary products, including imported and local ones.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The decision is made to combat antimicrobial resistance and preserve the effectiveness of antibiotics for human treatment.\",\"supported\":true,\"evidence\":[1,2,3]},{\"claim\":\"Companies must stop manufacturing, importing, and selling these products and withdraw remaining stocks from the market.\",\"supported\":true,\"evidence\":[6]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1357,
-        "completion_tokens": 155,
-        "total_tokens": 1512,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_f520c192d2"
-    }
-  },
   "d23336eeb09f1b13d20f35b4c9ec79774ef200de8731b1926d23817bfa3007dc": {
     "saved_at": "2026-10-21T17:45:00.574492+00:00",
     "result": {
@@ -1271,6 +1232,45 @@
         "prompt_tokens": 1370,
         "completion_tokens": 195,
         "total_tokens": 1565,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07e815c12d"
+    }
+  },
+  "79ef292bd3bb63655258d72d502f8144f34f13c234ab28010aaaa7fa997fbe1c": {
+    "saved_at": "2026-10-28T14:40:12.019582+00:00",
+    "result": {
+      "id": "chatcmpl-Edz6vE5GIyG3AXgkez0KnadIzyuZs",
+      "object": "chat.completion",
+      "created": 1793198409,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае одобрили План развития городских центров с бюджетом более 2 млрд дирхамов до 2040 года.\",\"supported\":true,\"evidence\":[5,11,12]},{\"claim\":\"План охватывает 6 основных и 42 вспомогательных центров.\",\"supported\":true,\"evidence\":[11,12,13]},{\"claim\":\"План направлен на повышение качества жизни и эффективности инфраструктуры.\",\"supported\":true,\"evidence\":[12,13]},{\"claim\":\"Утверждена Политика устойчивого планирования населения, связывающая рост населения с экономическим и городским развитием.\",\"supported\":true,\"evidence\":[7,13,14]},{\"claim\":\"Введена цифровая система авторизации для упрощения государственных услуг с использованием цифровой идентификации UAE PASS.\",\"supported\":true,\"evidence\":[9,16,17,18]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1876,
+        "completion_tokens": 216,
+        "total_tokens": 2092,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
