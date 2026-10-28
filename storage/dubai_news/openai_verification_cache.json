@@ -1,43 +1,4 @@
 {
-  "d23336eeb09f1b13d20f35b4c9ec79774ef200de8731b1926d23817bfa3007dc": {
-    "saved_at": "2026-10-21T17:45:00.574492+00:00",
-    "result": {
-      "id": "chatcmpl-EbUexpHlVlyD2dwc4hgS7DVGcfzoA",
-      "object": "chat.completion",
-      "created": 1792604699,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Al Ain, paid parking will be introduced from October 26.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Paid parking will be implemented in three sectors of the city, including the city centre and Al Mutarad district.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The paid parking will cover 1455 parking spaces.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Paid parking spaces include designated spots for People of Determination (people with disabilities).\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Payment for parking can be made through the Darb and TAMM applications.\",\"supported\":true,\"evidence\":[2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 945,
-        "completion_tokens": 165,
-        "total_tokens": 1110,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_57f7a0b570"
-    }
-  },
   "758902c88f0a15dd626c05eb6c5992c0f8d8d6549a60f6046dc0e9a93a13f82a": {
     "saved_at": "2026-10-22T02:21:02.504835+00:00",
     "result": {
@@ -1271,6 +1232,45 @@
         "prompt_tokens": 1876,
         "completion_tokens": 216,
         "total_tokens": 2092,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07e815c12d"
+    }
+  },
+  "e7729adfe44989698f31e4e884e976c1813aa22c90b7efa9fedc63fa44a65ce4": {
+    "saved_at": "2026-10-28T19:58:39.780837+00:00",
+    "result": {
+      "id": "chatcmpl-Ee4585Wqwvgv8N6TH3G56PhIlY2WI",
+      "object": "chat.completion",
+      "created": 1793217518,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, 2027, new practical driving test rules will take effect in the UAE.\",\"supported\":true,\"evidence\":[1,2,20]},{\"claim\":\"To pass the test, a minimum score of 75% is required.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Dangerous mistakes can lead to automatic failure even if the overall score is high.\",\"supported\":true,\"evidence\":[1,3,8]},{\"claim\":\"Examples of dangerous mistakes include losing control of the car, hitting a kerb, ignoring traffic signs, and dangerous gear changes.\",\"supported\":true,\"evidence\":[9]},{\"claim\":\"If the examiner intervenes to prevent an accident, the candidate can fail automatically.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"The rules apply to all candidates taking tests from January 1, 2027, regardless of when they started training.\",\"supported\":true,\"evidence\":[19,20]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1382,
+        "completion_tokens": 225,
+        "total_tokens": 1607,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
