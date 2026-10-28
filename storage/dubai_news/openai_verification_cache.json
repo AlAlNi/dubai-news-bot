@@ -1,43 +1,4 @@
 {
-  "23e2aa04d8b9a47492843e1ec234df3b17397b9e18b5df3dedbf278360079236": {
-    "saved_at": "2026-10-21T01:06:28.084848+00:00",
-    "result": {
-      "id": "chatcmpl-EbF4d52uW8bkpxA2DEhvUoU11CYjV",
-      "object": "chat.completion",
-      "created": 1792544787,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Bungee jumping attraction opens at Yas Bay Waterfront on Yas Island on November 1, 2026.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The bungee jump platform is 50 meters high and overlooks Yas Bay Waterfront.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Experienced instructors ensure safety for guests aged 16 and above with weight between 40 and 105 kg.\",\"supported\":true,\"evidence\":[7,8]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1148,
-        "completion_tokens": 120,
-        "total_tokens": 1268,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "5b6dc95b8da9bd75ffc23abbe98252b78848d75ffa893c68dea3858ddcc49df5": {
     "saved_at": "2026-10-21T06:44:45.023461+00:00",
     "result": {
@@ -1271,6 +1232,45 @@
         "prompt_tokens": 2230,
         "completion_tokens": 221,
         "total_tokens": 2451,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07e815c12d"
+    }
+  },
+  "80037afd9df3cb6af6473e96bc7f65bff28b1147550b54452ed90bf38110ec5d": {
+    "saved_at": "2026-10-28T01:54:35.001011+00:00",
+    "result": {
+      "id": "chatcmpl-EdnA1cxRaCSlAa0kg4gYSXAOBs88I",
+      "object": "chat.completion",
+      "created": 1793152473,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Najah Dubai 2026 exhibition opened in Dubai.\",\"supported\":true,\"evidence\":[0,2,3]},{\"claim\":\"The exhibition will run until 27 October.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The exhibition is held at Za’abeel Hall 5, Dubai World Trade Centre.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The event gathered more than 100 universities from 20 countries, including UAE, USA, Canada, and the UK.\",\"supported\":true,\"evidence\":[2,4]},{\"claim\":\"Visitors can get information about study programs, admission requirements, scholarships, and career prospects.\",\"supported\":true,\"evidence\":[4,5,6,7]},{\"claim\":\"The exhibition features more than 30 seminars with experts on education and career planning.\",\"supported\":true,\"evidence\":[5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1401,
+        "completion_tokens": 204,
+        "total_tokens": 1605,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
