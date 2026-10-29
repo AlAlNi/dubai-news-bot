@@ -1,43 +1,4 @@
 {
-  "2bda8da433d4a9a4799bfc656f2830e814bb74278ea5159d8d4ac6b05dc72d05": {
-    "saved_at": "2026-10-22T18:57:02.888351+00:00",
-    "result": {
-      "id": "chatcmpl-EbsGD2zIYTjbEZHOg3XP86dL8mEwR",
-      "object": "chat.completion",
-      "created": 1792695421,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Dubai Rental Disputes Center warned tenants about the importance of reading rental contracts carefully.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The center urged residents and business owners to carefully review all clauses of rental contracts, especially those related to payments, guarantees, renewal, and eviction.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Many disputes arise due to undocumented agreements and incomplete understanding of terms.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"The center reminded about the necessity of registering contracts through the Ejari system to protect the rights of both parties.\",\"supported\":true,\"evidence\":[3]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1206,
-        "completion_tokens": 158,
-        "total_tokens": 1364,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "339e8a2ccb03c4c8e50e3e3f8d20439d7729c5f9b9bf32e4e01fcc72f3cb50c1": {
     "saved_at": "2026-10-23T01:04:18.241073+00:00",
     "result": {
@@ -1323,6 +1284,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_b64959fd61"
+    }
+  },
+  "17b883654c76650b00125337a5dce07394c9cf9ba8bbf9409b793150341c6adc": {
+    "saved_at": "2026-10-29T22:11:14.268891+00:00",
+    "result": {
+      "id": "chatcmpl-EeSczpIzOmmJmUVtADZKglCUUQ9VF",
+      "object": "chat.completion",
+      "created": 1793311873,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Future Foundation through Sandbox Dubai launched AI Sandbox to help companies overcome regulatory barriers and deploy AI solutions in practice.\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"The project involves startups, technology companies, and government entities including Dubai Centre for Artificial Intelligence.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Participants receive support in technical, policy, commercial issues, and regulatory requirements.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Applications are open until 18 December 2026.\",\"supported\":true,\"evidence\":[12]},{\"claim\":\"The initiative aims to accelerate AI commercialization and adapt regulatory frameworks to new technologies.\",\"supported\":true,\"evidence\":[1,6,7,8]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1566,
+        "completion_tokens": 175,
+        "total_tokens": 1741,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_57f7a0b570"
     }
   }
 }
