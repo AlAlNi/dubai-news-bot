@@ -1,43 +1,4 @@
 {
-  "c7e6497af20d6c7b5244dd6dc8b6207f8a75b65e56851da85730875f5e5b6b96": {
-    "saved_at": "2026-10-22T08:04:52.606844+00:00",
-    "result": {
-      "id": "chatcmpl-Ebi5442vfEaXF4Er4t9v4yqKmwxsi",
-      "object": "chat.completion",
-      "created": 1792656290,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"From November 1, speed limits will change on five roads in Dubai.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"On Al Mustaqbal Street and Latifa bint Hamdan Street, speed limits will increase from 60 to 70 km/h.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"On Al Asayel Street, speed limit will increase to 80 km/h.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"On Al Rebat Street, speed limit will decrease from 100 to 90 km/h.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"On Sheikh Sabah Al Ahmad Al Jaber Al Sabah Street, speed limit will decrease from 80 to 70 km/h.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The changes were approved by the Roads and Transport Authority and Dubai Police as part of the traffic safety strategy.\",\"supported\":true,\"evidence\":[1,2,5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 948,
-        "completion_tokens": 225,
-        "total_tokens": 1173,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "61e7d47c8fa3de43aa7dbd64aeae7554f1fdaf055af27cbe183f296db51dd4ab": {
     "saved_at": "2026-10-22T14:12:14.673027+00:00",
     "result": {
@@ -1323,6 +1284,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_07e815c12d"
+    }
+  },
+  "7356be85eaba8d50c423b244363eea039ad278663a480d8b059dcdb84514adfa": {
+    "saved_at": "2026-10-29T10:33:03.511890+00:00",
+    "result": {
+      "id": "chatcmpl-EeHjJ3XENvPIkYiwxlHeLzasPkr8f",
+      "object": "chat.completion",
+      "created": 1793269981,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Sharjah temporarily closed all its beaches due to an oil spill.\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"The closure was done to prevent pollution and ensure safety.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"Al Hamriyah Beach was closed earlier on October 23.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Similar measures were taken in Umm Al Quwain and Ras Al Khaimah, where all beaches are closed until assessments and protective measures are completed.\",\"supported\":true,\"evidence\":[10,11]},{\"claim\":\"Fishermen temporarily do not go to sea.\",\"supported\":true,\"evidence\":[14]},{\"claim\":\"Fresh supplies continue to arrive at Umm Al Quwain fish market from Oman.\",\"supported\":true,\"evidence\":[12,13]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1211,
+        "completion_tokens": 198,
+        "total_tokens": 1409,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_afd659f87a"
     }
   }
 }
