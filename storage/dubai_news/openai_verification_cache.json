@@ -1,43 +1,4 @@
 {
-  "61e7d47c8fa3de43aa7dbd64aeae7554f1fdaf055af27cbe183f296db51dd4ab": {
-    "saved_at": "2026-10-22T14:12:14.673027+00:00",
-    "result": {
-      "id": "chatcmpl-EbnobtWNS54OgJvfOgMJfW6qVWhpp",
-      "object": "chat.completion",
-      "created": 1792678333,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В ОАЭ планируют построить новую автомагистраль E-911 длиной 68 км\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"Министерство энергетики и инфраструктуры объявило тендер на проектирование дороги, которая свяжет границу Дубая и Шарджи с Рас-эль-Хаймой\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Автомагистраль будет иметь от 12 до 16 полос движения\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Автомагистраль включит 8-километровую соединительную дорогу с трассой Emirates Road (E-611) в Умм-эль-Кувейне\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Сроки строительства и стоимость пока не раскрыты\",\"supported\":true,\"evidence\":[2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1161,
-        "completion_tokens": 217,
-        "total_tokens": 1378,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "2bda8da433d4a9a4799bfc656f2830e814bb74278ea5159d8d4ac6b05dc72d05": {
     "saved_at": "2026-10-22T18:57:02.888351+00:00",
     "result": {
@@ -1323,6 +1284,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_afd659f87a"
+    }
+  },
+  "e25d8c8bfca4f1a902c51dc8cd5b2199ed6d416d6dba7ce9d993b138206857f4": {
+    "saved_at": "2026-10-29T17:11:14.382298+00:00",
+    "result": {
+      "id": "chatcmpl-EeNwechReJOqj8RcGbsJapNc4v0oV",
+      "object": "chat.completion",
+      "created": 1793293872,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The UAE launched an upgraded Wage Protection System (WPS) that enables employers to manage salary payments digitally without paperwork or visiting banks.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The system was developed with the participation of the Central Bank of the UAE and Al Etihad Payments.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The upgraded system enables real-time data exchange and is connected to 17 financial institutions including major banks and exchange centers.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The WPS covers more than 99% of private-sector workers with average monthly wage transfers of about AED 37 billion.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The upgraded platform accelerates salary processing, increases transparency, and supports financial inclusion aligned with the We the UAE 2031 strategy.\",\"supported\":true,\"evidence\":[1,2,3] }]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1519,
+        "completion_tokens": 209,
+        "total_tokens": 1728,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_b64959fd61"
     }
   }
 }
