@@ -1,43 +1,4 @@
 {
-  "758902c88f0a15dd626c05eb6c5992c0f8d8d6549a60f6046dc0e9a93a13f82a": {
-    "saved_at": "2026-10-22T02:21:02.504835+00:00",
-    "result": {
-      "id": "chatcmpl-EbciKgDwpNGwlEKmXFW4ejW8HZE2f",
-      "object": "chat.completion",
-      "created": 1792635660,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В районе Аль Ярмук в Шардже создали выделенные места для парковки мотоциклов.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"В районе Аль Ярмук создали 4160 платных парковочных мест.\",\"supported\":true,\"evidence\":[1,2,3,10]},{\"claim\":\"Проект включает обновление 53 дорог.\",\"supported\":true,\"evidence\":[1,3,10]},{\"claim\":\"Проект включает новые зоны отдыха.\",\"supported\":true,\"evidence\":[1,2,5,6,10]},{\"claim\":\"Работы завершены за 7,5 месяцев, что раньше запланированного срока.\",\"supported\":true,\"evidence\":[1,7,8,10]},{\"claim\":\"Установлены 227 энергоэффективных фонарей.\",\"supported\":true,\"evidence\":[2,7,10]},{\"claim\":\"Установлена система видеонаблюдения для безопасности.\",\"supported\":true,\"evidence\":[2,7,10]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2319,
-        "completion_tokens": 245,
-        "total_tokens": 2564,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "c7e6497af20d6c7b5244dd6dc8b6207f8a75b65e56851da85730875f5e5b6b96": {
     "saved_at": "2026-10-22T08:04:52.606844+00:00",
     "result": {
@@ -1310,6 +1271,45 @@
         "prompt_tokens": 1009,
         "completion_tokens": 140,
         "total_tokens": 1149,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07e815c12d"
+    }
+  },
+  "596725fd7b75de02fa2dd92e873eb368f45bd59789c5072714fb1e785fd1c65b": {
+    "saved_at": "2026-10-29T03:22:30.660105+00:00",
+    "result": {
+      "id": "chatcmpl-EeB0fqD0wBx0BHDkRZVF7bUJPjPNr",
+      "object": "chat.completion",
+      "created": 1793244149,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Абу-Даби планируют открыть мостовой комплекс на острове Рамхан во втором квартале 2027 года.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Проект включает семь мостов, три туннеля и дорожную сеть, соединяющую острова Рамхан и Джубайл с шоссе Шейха Халифы (E12).\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Общая площадь строительства превысит 166 000 кв. м.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Стоимость составит около 872 млн дирхамов.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"В проекте предусмотрены энергосберегающие LED-светильники.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"В проекте предусмотрена переработка 90% строительных отходов.\",\"supported\":true,\"evidence\":[5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1023,
+        "completion_tokens": 227,
+        "total_tokens": 1250,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
