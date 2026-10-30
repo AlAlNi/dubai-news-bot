@@ -1,82 +1,4 @@
 {
-  "339e8a2ccb03c4c8e50e3e3f8d20439d7729c5f9b9bf32e4e01fcc72f3cb50c1": {
-    "saved_at": "2026-10-23T01:04:18.241073+00:00",
-    "result": {
-      "id": "chatcmpl-EbxzdAkIyZzsn8hcGMIV3d8lMAhnl",
-      "object": "chat.completion",
-      "created": 1792717457,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"UAEV signed an agreement with Dubai World Trade Centre to develop EV charging infrastructure at DWTC and Dubai Exhibition Centre parking areas.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The first phase will cover four locations in one of Dubai's busiest business districts.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The project aims to provide convenience for visitors to exhibitions, conferences, and commercial operators.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"The agreement supports the UAE's transition to sustainable mobility and expansion of the public EV charging network.\",\"supported\":true,\"evidence\":[4,6,7]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1124,
-        "completion_tokens": 156,
-        "total_tokens": 1280,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
-  "06413ed17886b7452ecee64d23b27c3097057f7257ada9aa632cabc3823767b3": {
-    "saved_at": "2026-10-23T06:41:41.881037+00:00",
-    "result": {
-      "id": "chatcmpl-Ec3G8WfScP5jBnCyVzVhfBuoFrmSL",
-      "object": "chat.completion",
-      "created": 1792737700,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Umm Al Quwain, all beaches and coastal areas are temporarily closed due to an oil spill from a tanker.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The Ministry of Climate Change and Environment has begun containment and cleanup efforts and is conducting assessments to evaluate damage to the marine environment.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The closure will last until all necessary safety and environmental protection measures are completed.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Residents are advised to follow official updates and avoid fishing in affected areas.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 899,
-        "completion_tokens": 149,
-        "total_tokens": 1048,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "4246219d6f5e8714eeb1bd03feae315494463edcc4e975489bad792f28031d1a": {
     "saved_at": "2026-10-23T12:15:20.988952+00:00",
     "result": {
@@ -1323,6 +1245,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_57f7a0b570"
+    }
+  },
+  "d5d149e215c0abc3b4410e595505558aacd7e6e8da34ff045af235b0a12d3926": {
+    "saved_at": "2026-10-30T09:15:30.878749+00:00",
+    "result": {
+      "id": "chatcmpl-EeczpF9rLXaE3JLhRslJr6vNvqDEA",
+      "object": "chat.completion",
+      "created": 1793351729,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Construction has started on two pedestrian bridges on Palm Jumeirah in Dubai.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The first bridge near Shoreline is planned to be completed by June 2027.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The second bridge near Golden Mile is planned to be completed by October 2027.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The combined capacity of the two bridges will be 2700 pedestrians per hour, exceeding current demand and allowing for future growth.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The project is a joint effort by RTA and Dubai Holding Community Management.\",\"supported\":true,\"evidence\":[2,4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 976,
+        "completion_tokens": 177,
+        "total_tokens": 1153,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07e815c12d"
     }
   }
 }
