@@ -110,5 +110,23 @@
     "url": "https://www.wam.ae/en/article/c2zjm4o-rta-commences-construction-two-pedestrian-bridges",
     "timestamp": "2026-10-30T09:15:58.844253+00:00",
     "status": "published"
+  },
+  {
+    "url": "https://www.wam.ae/en/article/c2zjlsl-etihad-credit-bureau-launches-credit-score-with",
+    "timestamp": "2026-10-30T16:21:35.202189+00:00",
+    "status": "rejected",
+    "content_hash": "cda1af1532672852f531e908cb2e9c22",
+    "strict_hash": "cda1af1532672852f531e908cb2e9c22",
+    "fuzzy_hash": "ef27917d372d0d7a608485e10bd9d180",
+    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
+  },
+  {
+    "url": "https://www.wam.ae/en/article/c2zjlpl-sheikh-zayed-festival-opens-tomorrow-wathba",
+    "timestamp": "2026-10-30T16:21:54.016248+00:00",
+    "status": "approved",
+    "content_hash": "a98cc02673c90718f8a4bf56b8589f58",
+    "strict_hash": "a98cc02673c90718f8a4bf56b8589f58",
+    "fuzzy_hash": "efc2782ec48c7587e32806a8dfe2671a",
+    "reason": "approved"
   }
 ]
