@@ -75,10 +75,10 @@ jobs:
         OPENAI_NEWS_SEARCH_ENABLED: ${{ vars.OPENAI_NEWS_SEARCH_ENABLED || 'true' }}
         OPENAI_MAX_SEARCHES_PER_DAY: ${{ vars.OPENAI_MAX_SEARCHES_PER_DAY || '2' }}
         OPENAI_MONTHLY_BUDGET_USD: ${{ vars.OPENAI_MONTHLY_BUDGET_USD || '3' }}
-        # Explicit approved trial: 12 calls Oct 24–31 UTC, automatically 8 from Nov 1.
-        # Pin the baseline so repository variables cannot silently change the trial.
+        # Approved permanent 12/day profile; the shared $3 monthly cap is unchanged.
+        # Pin the baseline; lower limits remain available in other workflows.
         OPENAI_MAX_CALLS_PER_DAY: '8'
-        OPENAI_CALL_LIMIT_PROFILE: 'october-2026'
+        OPENAI_CALL_LIMIT_PROFILE: 'steady-12'
       run: |
         cd src
         python workflow_run.py rss_collect
@@ -91,3 +91,4 @@ jobs:
         git add storage/dubai_news/
         git diff --quiet && git diff --staged --quiet || git commit -m "Update news data [skip ci]"
         git push
+

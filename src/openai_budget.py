@@ -46,7 +46,7 @@ def limits(now=None):
         if not monthly.is_finite() or not 0 <= monthly <= 3 or not 0 <= daily <= 8:
             raise ValueError()
         profile = os.getenv("OPENAI_CALL_LIMIT_PROFILE", "standard")
-        if profile not in {"standard", "october-2026"}:
+        if profile not in {"standard", "october-2026", "steady-12"}:
             raise ValueError()
         current = now or datetime.now(timezone.utc)
         if current.tzinfo is None or current.utcoffset() is None:
@@ -54,8 +54,8 @@ def limits(now=None):
         current = current.astimezone(timezone.utc)
         # Preserve deliberate lower limits (including zero). The explicit production
         # profile raises only the normal baseline, never the monthly spending cap.
-        if (profile == "october-2026" and daily == 8
-                and OCTOBER_TRIAL_START <= current < OCTOBER_TRIAL_END):
+        if daily == 8 and (profile == "steady-12" or (
+                profile == "october-2026" and OCTOBER_TRIAL_START <= current < OCTOBER_TRIAL_END)):
             daily = 12
         return int(monthly * 1000000), daily
     except (ValueError, ArithmeticError):
@@ -256,3 +256,4 @@ class Budget:
             # Conservatively add it even if a response's usage already includes it.
             day["estimated_microusd"] += search_calls * 13200
             atomic_json(self.path, data)
+
