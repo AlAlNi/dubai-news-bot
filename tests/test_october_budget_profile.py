@@ -128,7 +128,7 @@ class OctoberBudgetProfileTests(unittest.TestCase):
         for name in ['collect_news.yml', 'collect_priority_media.yml']:
             content = (ROOT / '.github' / 'workflows' / name).read_text()
             self.assertIn("OPENAI_MAX_CALLS_PER_DAY: '8'", content)
-            self.assertIn("OPENAI_CALL_LIMIT_PROFILE: 'october-2026'", content)
+            self.assertIn("OPENAI_CALL_LIMIT_PROFILE: 'steady-12'", content)
             self.assertNotIn('vars.OPENAI_MAX_CALLS_PER_DAY', content)
             self.assertIn("OPENAI_MONTHLY_BUDGET_USD: ${{ vars.OPENAI_MONTHLY_BUDGET_USD || '3' }}", content)
             self.assertIn('SOURCE_VERIFIER: openai', content)
@@ -136,3 +136,4 @@ class OctoberBudgetProfileTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
