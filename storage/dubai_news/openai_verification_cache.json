@@ -1,82 +1,4 @@
 {
-  "cf6f922e85be1d31a8b47a449d849f68238b871b9159f0f6b12bacf089b8786f": {
-    "saved_at": "2026-10-23T17:34:25.524695+00:00",
-    "result": {
-      "id": "chatcmpl-EcDRmhN6LXOz5FjisBD7B8cuzdihP",
-      "object": "chat.completion",
-      "created": 1792776862,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Министерство проводит профилактические осмотры и обслуживание систем ливневой канализации, насосных станций и водопропускных труб.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"В работе задействованы 17 насосных станций и 800 водопропускных сооружений.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Внедрена круглосуточная система мониторинга дамб и вади с камерами и датчиками уровня воды, а также механизм раннего предупреждения о наводнениях.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"Это помогает оперативно реагировать на скопление воды и обеспечивать безопасность на дорогах.\",\"supported\":true,\"evidence\":[1,4,5]},{\"claim\":\"Министерство координирует действия с федеральными и местными органами для эффективного управления в случае различных погодных условий.\",\"supported\":true,\"evidence\":[3,4]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1366,
-        "completion_tokens": 234,
-        "total_tokens": 1600,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
-  "4ed7deb3276935283851761cb264b61655b1776f0c090a57d8b4fbd6c7d457e3": {
-    "saved_at": "2026-10-24T02:23:52.016402+00:00",
-    "result": {
-      "id": "chatcmpl-EcLiBbkxBzyKC4kN37gMhZ5SF9a17",
-      "object": "chat.completion",
-      "created": 1792808631,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the UAE, private sector employees who have worked for at least one year are entitled to end-of-service gratuity calculated based on their basic salary and length of service.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Employers must pay all due amounts within 14 days after the end of the employment contract.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The maximum gratuity amount cannot exceed two years' wages.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The Ministry of Labour offers a voluntary savings scheme that allows investing end-of-service gratuity to increase employees' financial security.\",\"supported\":true,\"evidence\":[2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1136,
-        "completion_tokens": 162,
-        "total_tokens": 1298,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "2dc7f376eb2ab2398271037623ef43e272406305b73f4b7946e531ae4573da6f": {
     "saved_at": "2026-10-24T07:42:34.639240+00:00",
     "result": {
@@ -1284,6 +1206,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_57f7a0b570"
+    }
+  },
+  "fb743239ca5effe6767db85c5fb15b4f18697f9b4ae2477dad3e7bc9f72930ab": {
+    "saved_at": "2026-10-31T07:41:49.897342+00:00",
+    "result": {
+      "id": "chatcmpl-Eey0iJ2WOwxDZ5b0VE2fq6Nikz3ps",
+      "object": "chat.completion",
+      "created": 1793432508,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From October 30 to November 1, Dubai, Abu Dhabi, and Sharjah will have road closures, lane restrictions, and new speed limits.\",\"supported\":true,\"evidence\":[1,13,20]},{\"claim\":\"On November 1 in Dubai, Salik toll rates will change with variable charges: 6 dirhams during peak hours, 4 dirhams during off-peak hours, and free at night.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Dubai Metro will operate from 3 am on November 1 to accommodate Dubai Ride 2026 participants.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Special parking locations for Dubai Ride 2026 are at Dubai World Trade Centre, Dubai Mall, and Zabeel.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Speed limits will change on several Dubai roads on November 1.\",\"supported\":true,\"evidence\":[7,8]},{\"claim\":\"Emirates Road will have overnight closures until November 15 due to railway construction.\",\"supported\":true,\"evidence\":[9,10]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2774,
+        "completion_tokens": 251,
+        "total_tokens": 3025,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07e815c12d"
     }
   }
 }
