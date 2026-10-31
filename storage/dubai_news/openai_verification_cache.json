@@ -1,121 +1,4 @@
 {
-  "2dc7f376eb2ab2398271037623ef43e272406305b73f4b7946e531ae4573da6f": {
-    "saved_at": "2026-10-24T07:42:34.639240+00:00",
-    "result": {
-      "id": "chatcmpl-EcQgbQdAQZlUeidonxDQykhcaRass",
-      "object": "chat.completion",
-      "created": 1792827753,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Google.org выделил $2,4 млн на обучение молодежи в странах Ближнего Востока и Северной Африки цифровой безопасности и онлайн-гражданственности по программе Abtal Al Internet.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"В Дубае открылась интерактивная площадка Google Abtal Al Internet Pop-Up Playground, где семьи могут познакомиться с программой и функциями родительского контроля на YouTube Kids и Teen.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Власти ОАЭ подчеркивают важность цифровой грамотности для защиты детей от онлайн-рисков и развития ответственного использования технологий.\",\"supported\":true,\"evidence\":[2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1763,
-        "completion_tokens": 175,
-        "total_tokens": 1938,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
-  "4c7eeaf44124626e957615e0eac83a18229628824b880a3d678527f9f3b3b2cf": {
-    "saved_at": "2026-10-24T12:19:12.810294+00:00",
-    "result": {
-      "id": "chatcmpl-EcV0JqdHnZJtQ4xyPSxhO3nKlvpYm",
-      "object": "chat.completion",
-      "created": 1792844351,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Dubai Future Solutions summit will present 100 innovative projects.\",\"supported\":true,\"evidence\":[0,6]},{\"claim\":\"The summit will take place from 18 to 21 November 2026 in Dubai as part of Dubai Future Week.\",\"supported\":true,\"evidence\":[1,5]},{\"claim\":\"The exhibition will feature 100 projects from universities in more than 120 countries.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Participating universities include Harvard, MIT, and Oxford.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"The event will be held at Emirates Towers and the Museum of the Future.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Projects include solutions in healthcare, energy, ecology, and urban development.\",\"supported\":true,\"evidence\":[8,9,14,15,17,18]},{\"claim\":\"Organizers support developers through a venture program and industry collaboration.\",\"supported\":true,\"evidence\":[19,20]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2164,
-        "completion_tokens": 228,
-        "total_tokens": 2392,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
-  "ee56898f1fa83f74d07278b8c7c9ea25eeea803dcb9cc3e234984321274a21f6": {
-    "saved_at": "2026-10-24T13:53:15.574233+00:00",
-    "result": {
-      "id": "chatcmpl-EcWTKSv2OSWOeG3igRC3O4SiTuhhz",
-      "object": "chat.completion",
-      "created": 1792849994,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source metadata and description.\",\"claims\":[{\"claim\":\"The photo shows Dubai airport in 1965.\",\"supported\":true,\"evidence\":[0,2]},{\"claim\":\"The aircraft is a De Havilland Comet of Middle East Airlines at Dubai airport.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The photo was taken by Patche99z and is from Wikimedia Commons.\",\"supported\":true,\"evidence\":[3,8,1]},{\"claim\":\"The photo is licensed under CC BY-SA 3.0 and is unaltered.\",\"supported\":true,\"evidence\":[5,6,7]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 895,
-        "completion_tokens": 145,
-        "total_tokens": 1040,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "2b11c38aac2aa5c2b583c626af99e0ef41305cee1e92de685f01755ff918d049": {
     "saved_at": "2026-10-24T16:19:59.193561+00:00",
     "result": {
@@ -1245,6 +1128,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_07e815c12d"
+    }
+  },
+  "084599348cd39d11fa401f63c5a55a5dd25741b12e38071285177d2c9db32e82": {
+    "saved_at": "2026-10-31T13:59:58.474560+00:00",
+    "result": {
+      "id": "chatcmpl-Ef3ueTHT34o0gj3RvKPut3MN5DBhh",
+      "object": "chat.completion",
+      "created": 1793455196,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Registration for the sixth season of the Farmers’ Market in Dubai is open.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Farmers’ Market will run from 28 November 2026 to 31 January 2027 at Quranic Park in Al Khawaneej.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The market will operate on weekends.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The market will feature 52 Emirati farmers and local entrepreneurs.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"For the first time, there will be 10 spaces for children under the \\\"Young Farmers and Entrepreneurs\\\" initiative, allowing them to sell products and develop skills in agriculture and business.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1071,
+        "completion_tokens": 188,
+        "total_tokens": 1259,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d7134fbeff"
     }
   }
 }
