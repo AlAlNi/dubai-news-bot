@@ -1,43 +1,4 @@
 {
-  "2b11c38aac2aa5c2b583c626af99e0ef41305cee1e92de685f01755ff918d049": {
-    "saved_at": "2026-10-24T16:19:59.193561+00:00",
-    "result": {
-      "id": "chatcmpl-EcYlJJP0T1wWkI39guAXvrlGJqOqW",
-      "object": "chat.completion",
-      "created": 1792858797,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the Russian post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае штраф за переход дороги в неположенном месте составит 400 дирхам\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"Полиция Дубая предупреждает пешеходов о штрафе в размере 400 дирхам за нарушение правил перехода дорог по статье 89 Федерального закона о дорожном движении\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Нарушение включает переход на красный свет или в непредназначенных местах\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Бригадир Маджид Султан Аль Суваиди призвал использовать только обозначенные переходы и соблюдать сигналы светофора\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Власти запустили кампанию по повышению безопасности пешеходов\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Власти призывают водителей снижать скорость и уступать дорогу\",\"supported\":true,\"evidence\":[7]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 891,
-        "completion_tokens": 248,
-        "total_tokens": 1139,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "078697ec8ecebe6f48a933d5d27a6d6926307b657de4ee6d2d5d30dfd32471b8": {
     "saved_at": "2026-10-24T19:08:14.938917+00:00",
     "result": {
@@ -1154,6 +1115,45 @@
         "prompt_tokens": 1071,
         "completion_tokens": 188,
         "total_tokens": 1259,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d7134fbeff"
+    }
+  },
+  "e4dc8c81dcf362e5e1cd984f9cc815e211184b7ceb3974d61916fb1341edcc54": {
+    "saved_at": "2026-10-31T18:16:03.281062+00:00",
+    "result": {
+      "id": "chatcmpl-Ef7uTibdwoG1D3iOOidvlO7r2YulP",
+      "object": "chat.completion",
+      "created": 1793470561,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"ROX announced the delivery of the first batch of 100 vehicles made in the UAE and marked with 'Made in the Emirates'.\",\"supported\":true,\"evidence\":[1,12]},{\"claim\":\"The vehicles were produced at the factory in Khalifa Economic Zones Abu Dhabi.\",\"supported\":true,\"evidence\":[2,14]},{\"claim\":\"The project is supported by the Ministry of Industry and Advanced Technology of the UAE and the Abu Dhabi Investment Office.\",\"supported\":true,\"evidence\":[1,3,7,14]},{\"claim\":\"This is part of the country's strategy to develop industry and localize production.\",\"supported\":true,\"evidence\":[1,3,5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1926,
+        "completion_tokens": 165,
+        "total_tokens": 2091,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
