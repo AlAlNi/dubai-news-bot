@@ -1,121 +1,4 @@
 {
-  "078697ec8ecebe6f48a933d5d27a6d6926307b657de4ee6d2d5d30dfd32471b8": {
-    "saved_at": "2026-10-24T19:08:14.938917+00:00",
-    "result": {
-      "id": "chatcmpl-EcbO9yiNkmDF2FReh6LiWlA8LIY2h",
-      "object": "chat.completion",
-      "created": 1792868893,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the Russian post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Embassy of Pakistan in Abu Dhabi and the Consulate General of Pakistan in Dubai started processing e-Passport applications from October 23, 2026.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"All new passport applications are accepted only as e-Passports.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Pakistani nationals with valid Machine Readable Passports can continue to use them until expiry.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"Applicants are advised to apply for renewal only if their passport validity is less than six months.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The cost of a standard renewal starts at 145 dirhams for a 36-page passport valid for 5 years.\",\"supported\":true,\"evidence\":[12]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1253,
-        "completion_tokens": 197,
-        "total_tokens": 1450,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
-  "6aabb03d95bee4f582f1d12216a8535bbecf8839eee42c787ebaf5f7714a6f04": {
-    "saved_at": "2026-10-25T00:39:37.349821+00:00",
-    "result": {
-      "id": "chatcmpl-EcgYpbUvhSaUJrcUInW8ueUIS07o3",
-      "object": "chat.completion",
-      "created": 1792888775,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"Отель St. Regis Dubai, The Palm откроется 1 ноября 2026\",\"supported\":true,\"evidence\":[0,2]},{\"claim\":\"Отель St. Regis Dubai, The Palm возобновит работу после шести месяцев ремонта\",\"supported\":true,\"evidence\":[0,5]},{\"claim\":\"Закрытие началось в апреле 2026 года, когда были приостановлены услуги в номерах, спа и других ключевых зонах\",\"supported\":true,\"evidence\":[5,6,7]},{\"claim\":\"В обновленном отеле откроется заново бар St. Regis с живой музыкой четыре вечера в неделю\",\"supported\":true,\"evidence\":[10,13]},{\"claim\":\"Вернется спа\",\"supported\":true,\"evidence\":[15]},{\"claim\":\"Вернутся рестораны с разнообразной кухней, включая турецкую и концепции с мишленовскими шефами\",\"supported\":true,\"evidence\":[15,17]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1122,
-        "completion_tokens": 240,
-        "total_tokens": 1362,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
-  "421dc89dc39663f77755f7b4d793a7d3f7ae8293ad63096b572df3b97181b9f5": {
-    "saved_at": "2026-10-25T05:28:35.330212+00:00",
-    "result": {
-      "id": "chatcmpl-Ecl4U49jckcXoDoi53Ny4aWv5TUmT",
-      "object": "chat.completion",
-      "created": 1792906114,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"Ras Al Khaimah closed all its beaches until further notice.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The reason for the closure was not disclosed.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Authorities urge the public to comply with guidelines for safety.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Similar measures were taken in other emirates: Al Hamriya Beach in Sharjah was temporarily closed due to an oil slick.\",\"supported\":true,\"evidence\":[5,6]},{\"claim\":\"Beaches in Umm Al Quwain were closed after an oil spill.\",\"supported\":true,\"evidence\":[7,8]},{\"claim\":\"The Ministry of Climate Change and Environment confirmed that the fuel-like smell poses no health risk.\",\"supported\":true,\"evidence\":[7,9]},{\"claim\":\"Cleanup and containment work is underway to address the pollution.\",\"supported\":true,\"evidence\":[10]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 972,
-        "completion_tokens": 220,
-        "total_tokens": 1192,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "2ee87b96e3c9e1716d56a39f35ee2fc00d2ffe4c2601e1882897361b00016379": {
     "saved_at": "2026-10-25T10:20:37.587300+00:00",
     "result": {
@@ -1154,6 +1037,45 @@
         "prompt_tokens": 1926,
         "completion_tokens": 165,
         "total_tokens": 2091,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d7134fbeff"
+    }
+  },
+  "3a04652de3b8f0a796e10c379b79fad25e9a1eb0ab624b9e5297f2456ad17480": {
+    "saved_at": "2026-11-01T08:21:11.731968+00:00",
+    "result": {
+      "id": "chatcmpl-EfL6MRXFFByj0Q0uGN3dul9x5ZxA1",
+      "object": "chat.completion",
+      "created": 1793521270,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the UAE, new fuel prices for November 2026 were approved.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The price of petrol fell by 5.6% compared to October 2026.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The price of diesel fell by 1.04% compared to October 2026.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The new prices are: Super 98 - 4.16 AED per litre.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The new prices are: Special 95 - 4.04 AED per litre.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The new prices are: E-Plus 91 - 3.97 AED per litre.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The new price for diesel is 4.75 AED per litre.\",\"supported\":true,\"evidence\":[3]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 798,
+        "completion_tokens": 228,
+        "total_tokens": 1026,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
