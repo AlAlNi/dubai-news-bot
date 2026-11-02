@@ -1,51 +1,5 @@
 [
   {
-    "url": "https://www.wam.ae/en/article/c2zjm4o-rta-commences-construction-two-pedestrian-bridges",
-    "timestamp": "2026-10-30T09:15:30.882960+00:00",
-    "status": "approved",
-    "content_hash": "f2af7cd0804754274a48c65f9fea823c",
-    "strict_hash": "f2af7cd0804754274a48c65f9fea823c",
-    "fuzzy_hash": "5bf1e18db9abd8d44d5c9edb8ccbae5e",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.wam.ae/en/article/c2zjm4o-rta-commences-construction-two-pedestrian-bridges",
-    "timestamp": "2026-10-30T09:15:58.844253+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://www.wam.ae/en/article/c2zjlsl-etihad-credit-bureau-launches-credit-score-with",
-    "timestamp": "2026-10-30T16:21:35.202189+00:00",
-    "status": "rejected",
-    "content_hash": "cda1af1532672852f531e908cb2e9c22",
-    "strict_hash": "cda1af1532672852f531e908cb2e9c22",
-    "fuzzy_hash": "ef27917d372d0d7a608485e10bd9d180",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
-    "url": "https://www.wam.ae/en/article/c2zjlpl-sheikh-zayed-festival-opens-tomorrow-wathba",
-    "timestamp": "2026-10-30T16:21:54.016248+00:00",
-    "status": "approved",
-    "content_hash": "a98cc02673c90718f8a4bf56b8589f58",
-    "strict_hash": "a98cc02673c90718f8a4bf56b8589f58",
-    "fuzzy_hash": "efc2782ec48c7587e32806a8dfe2671a",
-    "reason": "approved"
-  },
-  {
-    "url": "https://www.wam.ae/en/article/c2zjlpl-sheikh-zayed-festival-opens-tomorrow-wathba",
-    "timestamp": "2026-10-30T16:22:23.085591+00:00",
-    "status": "published"
-  },
-  {
-    "url": "https://gulfnews.com/uae/dubai-ride-on-november-1-how-to-register-collect-your-bib-and-plan-your-morning-1.500727899",
-    "timestamp": "2026-10-30T21:13:18.965062+00:00",
-    "status": "rejected",
-    "content_hash": "872340ec8d7de68c559954311118b5fc",
-    "strict_hash": "872340ec8d7de68c559954311118b5fc",
-    "fuzzy_hash": "cc65da1655c636797cdbb4977fd31d21",
-    "reason": "Cheap prefilter: распознан рекламный/PR паттерн"
-  },
-  {
     "url": "https://gulfnews.com/uae/transport/uae-weekend-traffic-road-closures-parking-updates-salik-rates-metro-timings-and-new-speed-limits-1.500730222",
     "timestamp": "2026-10-31T07:41:49.901034+00:00",
     "status": "approved",
@@ -118,5 +72,10 @@
     "strict_hash": "16dd1d5d9193582a6b46fe2706b24c50",
     "fuzzy_hash": "eb7e1a3f5c52af5069444062453f87cf",
     "reason": "approved"
+  },
+  {
+    "url": "https://gulfnews.com/uae/dubai/thousands-pedal-into-action-as-dubai-ride-takes-over-sheikh-zayed-road-1.500731318",
+    "timestamp": "2026-11-02T03:14:50.479006+00:00",
+    "status": "published"
   }
 ]
