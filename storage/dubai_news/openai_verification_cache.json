@@ -1,121 +1,4 @@
 {
-  "48696bed5b716e5a435c056e03c6e7ef7af42f67dcd711b1fba2f5b93d13335b": {
-    "saved_at": "2026-10-26T22:03:14.751122+00:00",
-    "result": {
-      "id": "chatcmpl-EdN4bSUndd9wfjOQVjx0zQf6MK0et",
-      "object": "chat.completion",
-      "created": 1793052193,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai police received the JETOUR G700 SUV for desert patrolling.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Dubai police started using the new JETOUR G700 patrol vehicle with 904 horsepower to enhance tourist safety in desert areas.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The vehicle has four-wheel drive and can respond quickly to calls in challenging conditions.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The vehicle was unveiled at Al Marmoom Oasis and is designed to operate on sandy tracks, important for the winter tourist season.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Colonel Mohammad Abdulrahman noted that the vehicle will help improve operational efficiency and visitor support.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1116,
-        "completion_tokens": 186,
-        "total_tokens": 1302,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
-  "d1cfc01d978b21622bb50599bac9c54f6a1c43aeef87e5b0d082b8c6fd5c7794": {
-    "saved_at": "2026-10-27T01:41:40.036296+00:00",
-    "result": {
-      "id": "chatcmpl-EdQTyRCBokjyr5GP85Y1NRXGdsk3s",
-      "object": "chat.completion",
-      "created": 1793065298,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From October 25, 2026, after the closure of four Indian consular centres in the UAE, passport documents can be collected at new locations.\",\"supported\":true,\"evidence\":[0,1,2,3]},{\"claim\":\"Residents awaiting passports must go to UW Mall in Bur Dubai or the Al Danah Centre in Abu Dhabi.\",\"supported\":true,\"evidence\":[7,8]},{\"claim\":\"The other 12 centres continue to operate from 8:00 to 18:00.\",\"supported\":true,\"evidence\":[4,10,11,14]},{\"claim\":\"Urgent cases are accepted without appointments.\",\"supported\":true,\"evidence\":[13]},{\"claim\":\"Appointments can be booked on the portal consularsevainuae.com.\",\"supported\":true,\"evidence\":[16]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1343,
-        "completion_tokens": 192,
-        "total_tokens": 1535,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
-  "655efaca978278922fbf6cee36ca972bd01ce14709e2aa7b964fc75b1e661303": {
-    "saved_at": "2026-10-27T06:59:43.981078+00:00",
-    "result": {
-      "id": "chatcmpl-EdVRmR662d6ksT5xeFyWNnFzHJLXl",
-      "object": "chat.completion",
-      "created": 1793084382,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The winter camping season in Al Ruwayyah started on 1 November 2026 and runs until 30 April 2027.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The camping capacity has increased to 600 camps, which is 120% more than previous seasons.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"For the first time, caravan plots and fully equipped camps for daily rental are available.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"New options for UAE residents include double-sized plots up to 800 square meters.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"There are designated zones for winter events.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Support is provided for small businesses in food and entertainment sectors.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"Registration is available through wintercamp.dm.gov.ae and the DubaiNow app.\",\"supported\":true,\"evidence\":[9]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1565,
-        "completion_tokens": 228,
-        "total_tokens": 1793,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "0d8912e0e5f15263014aa1891b80379441a21e0f0d686062c705911c6ff99cb2": {
     "saved_at": "2026-10-27T13:00:29.424801+00:00",
     "result": {
@@ -920,6 +803,45 @@
         "prompt_tokens": 2211,
         "completion_tokens": 254,
         "total_tokens": 2465,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d7134fbeff"
+    }
+  },
+  "a7b03feca3ed4630a73e9ebe975a9264095d60b5eb4d6c794e057229d6255eea": {
+    "saved_at": "2026-11-03T10:16:00.095157+00:00",
+    "result": {
+      "id": "chatcmpl-Eg5qY1coxnVXxkysYxo2z5545KpkL",
+      "object": "chat.completion",
+      "created": 1793700958,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Власти Дубая представят первую интегрированную систему мониторинга для мотоциклов доставки.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Она будет собирать данные о скорости, резком торможении и маршрутах.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Система помогает компаниям улучшать управление и безопасность.\",\"supported\":true,\"evidence\":[2,5]},{\"claim\":\"Установка устройств и подключение к платформе будет добровольным до середины 2027 года.\",\"supported\":true,\"evidence\":[6,7]},{\"claim\":\"Затем установка устройств и подключение к платформе станет обязательным.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"Система разработана для повышения качества услуг и безопасности на дорогах.\",\"supported\":true,\"evidence\":[5,11]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1347,
+        "completion_tokens": 205,
+        "total_tokens": 1552,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
