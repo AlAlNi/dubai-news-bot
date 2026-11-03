@@ -1,43 +1,4 @@
 {
-  "0d8912e0e5f15263014aa1891b80379441a21e0f0d686062c705911c6ff99cb2": {
-    "saved_at": "2026-10-27T13:00:29.424801+00:00",
-    "result": {
-      "id": "chatcmpl-Edb4smDJdw6rnL1tHEqIxaGOoUUVK",
-      "object": "chat.completion",
-      "created": 1793106026,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Музей будущего в Дубае планирует повторное открытие в первом квартале 2027 года с полностью обновлённым внутренним опытом.\",\"supported\":true,\"evidence\":[1,2,11,12]},{\"claim\":\"Все текущие выставки будут заменены новыми, которые позволят посетителям активнее участвовать в изучении науки и технологий.\",\"supported\":true,\"evidence\":[2,4,5,6,7]},{\"claim\":\"Музей впервые открылся 22 февраля 2022 года.\",\"supported\":true,\"evidence\":[12]},{\"claim\":\"Новый формат будет включать лаборатории и интерактивные пространства, а также новую команду сотрудников, отобранных по качествам любознательности и воображения.\",\"supported\":true,\"evidence\":[2,7,8,9,10]},{\"claim\":\"Цель музея — не предсказывать будущее, а исследовать возможности и стимулировать вопросы о том, как технологии повлияют на общество.\",\"supported\":true,\"evidence\":[21,22,23,24]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2103,
-        "completion_tokens": 258,
-        "total_tokens": 2361,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "776c279f216f1d06ca8b49ddc0df4623db5c1a98d71a8cd38132cef6886f8113": {
     "saved_at": "2026-10-27T18:35:36.304697+00:00",
     "result": {
@@ -855,6 +816,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_d7134fbeff"
+    }
+  },
+  "105cd5f4626eb2e34694d28258b5b4d61205b6d4f98643b3d9f684e1b207a2d3": {
+    "saved_at": "2026-11-03T18:09:39.924836+00:00",
+    "result": {
+      "id": "chatcmpl-EgDEwyOyl7gWWOGaPfAnfIvz6iyLd",
+      "object": "chat.completion",
+      "created": 1793729378,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае запустили улучшенный сервис Ejari в приложении DubaiNow\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Департамент земельных ресурсов Дубая представил обновлённый сервис Ejari, который позволяет создавать, регистрировать, продлевать и отменять договоры аренды через единый цифровой процесс\",\"supported\":true,\"evidence\":[1,2,3]},{\"claim\":\"Пользователи могут сразу получить сертификат Ejari после одобрения договора\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Пользователи могут оплатить депозит DEWA для подключения электроэнергии и воды в том же приложении\",\"supported\":true,\"evidence\":[3,9,10]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1522,
+        "completion_tokens": 184,
+        "total_tokens": 1706,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
     }
   }
 }
