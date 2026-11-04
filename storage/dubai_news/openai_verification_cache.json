@@ -1,43 +1,4 @@
 {
-  "9c90926230991e20c8179c4876f315db93fa91a55657b6bb0c0f9d56a28f3c7e": {
-    "saved_at": "2026-10-28T07:42:15.809842+00:00",
-    "result": {
-      "id": "chatcmpl-EdsaURLC9QT9WJUQjyWxt8aUuNOKD",
-      "object": "chat.completion",
-      "created": 1793173334,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Etihad Rail and Citymapper have launched an integration to simplify journey planning in the UAE.\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"The integration allows planning trips using rail, metro, bus, and other transport modes via the Citymapper app.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"Passenger services of Etihad Rail started on 30 September in Abu Dhabi, Dubai, Al Dhaid, and Fujairah.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Users can now easily combine different transport modes for convenient travel across the country.\",\"supported\":true,\"evidence\":[2,4]},{\"claim\":\"The partnership aims to improve accessibility and convenience of public transport in the UAE and reduce journey planning complexity.\",\"supported\":true,\"evidence\":[4,7]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1370,
-        "completion_tokens": 195,
-        "total_tokens": 1565,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_07e815c12d"
-    }
-  },
   "79ef292bd3bb63655258d72d502f8144f34f13c234ab28010aaaa7fa997fbe1c": {
     "saved_at": "2026-10-28T14:40:12.019582+00:00",
     "result": {
@@ -803,6 +764,45 @@
         "prompt_tokens": 1363,
         "completion_tokens": 215,
         "total_tokens": 1578,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_d94716f877"
+    }
+  },
+  "d6b731d74c58735fe77ce73f61b16dc97b4dc025ffbb9e12f3300ba479d86bcf": {
+    "saved_at": "2026-11-04T11:42:54.995068+00:00",
+    "result": {
+      "id": "chatcmpl-EgTgDktBxSMa0OgH3QUZ0xMcIFo76",
+      "object": "chat.completion",
+      "created": 1793792573,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the UAE, doctors responsible for emergency medical assistance and drivers of certain essential services can exceed speed limits outside built-up areas by up to 40 km/h.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The new decision also allows the use of road shoulders and designated bus lanes during traffic congestion.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Drivers must comply with traffic rules, not run red lights, and observe speed limits near schools and hospitals.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Drivers must complete special training to obtain permission to use road priority.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Drivers must notify relevant authorities when using road priority.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1353,
+        "completion_tokens": 180,
+        "total_tokens": 1533,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
