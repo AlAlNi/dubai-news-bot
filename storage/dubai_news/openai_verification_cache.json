@@ -1,43 +1,4 @@
 {
-  "e25d8c8bfca4f1a902c51dc8cd5b2199ed6d416d6dba7ce9d993b138206857f4": {
-    "saved_at": "2026-10-29T17:11:14.382298+00:00",
-    "result": {
-      "id": "chatcmpl-EeNwechReJOqj8RcGbsJapNc4v0oV",
-      "object": "chat.completion",
-      "created": 1793293872,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The UAE launched an upgraded Wage Protection System (WPS) that enables employers to manage salary payments digitally without paperwork or visiting banks.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The system was developed with the participation of the Central Bank of the UAE and Al Etihad Payments.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The upgraded system enables real-time data exchange and is connected to 17 financial institutions including major banks and exchange centers.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The WPS covers more than 99% of private-sector workers with average monthly wage transfers of about AED 37 billion.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The upgraded platform accelerates salary processing, increases transparency, and supports financial inclusion aligned with the We the UAE 2031 strategy.\",\"supported\":true,\"evidence\":[1,2,3] }]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1519,
-        "completion_tokens": 209,
-        "total_tokens": 1728,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_b64959fd61"
-    }
-  },
   "17b883654c76650b00125337a5dce07394c9cf9ba8bbf9409b793150341c6adc": {
     "saved_at": "2026-10-29T22:11:14.268891+00:00",
     "result": {
@@ -777,6 +738,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_57f7a0b570"
+    }
+  },
+  "f538e62b8e9c670a9790e316f3ed63d9c7e629025b52632d48eba23c49eb1cc0": {
+    "saved_at": "2026-11-05T21:40:25.529668+00:00",
+    "result": {
+      "id": "chatcmpl-EgzTzEdmsexbpUH2pnwhptoAYyaaI",
+      "object": "chat.completion",
+      "created": 1793914823,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"In Ajman, paid parking will be introduced from November 7.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"From November 7, 2026, paid parking will start on three streets: Sheikh Zayed, Al Salam, and Al Hajin.\",\"supported\":true,\"evidence\":[1,2,4]},{\"claim\":\"This decision aims to regulate the public parking system and improve traffic flow in the emirate.\",\"supported\":true,\"evidence\":[3,5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 826,
+        "completion_tokens": 128,
+        "total_tokens": 954,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
     }
   }
 }
