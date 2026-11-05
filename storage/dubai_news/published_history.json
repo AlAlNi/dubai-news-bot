@@ -19751,5 +19751,145 @@
     "language": "",
     "top_image": "",
     "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Ajman introduces paid parking on three streets from November 7",
+      "text": "Ajman: The Ajman Municipality and Planning Department announced that public parking will be subject to fees on three streets in the emirate, starting Saturday, November 7, 2026. These streets include Sheikh Zayed Street, Al Salam Street, and Al Hajin Street. The initiative is part of its efforts to regulate the public parking system and enhance the efficiency of its use, which will contribute to facilitating traffic flow and improving the quality of life in the emirate. The department explained, through its digital platforms, that the application of fees will include public parking on Sheikh Zayed Street, Al Salam Street, and Al Hajin Street, starting from the specified date, and published explanatory maps of the areas covered by the decision, to identify the locations of parking spaces subject to fees. It added that the decision comes within the framework of the department’s efforts to develop the public parking system, regulate its use, enhance traffic flow, and improve the quality of services provided to the public.",
+      "url": "https://www.emirates247.com/uae/ajman-introduces-paid-parking-on-three-streets-from-november-7/7462",
+      "published_at": "2026-11-04T22:02:00+00:00"
+    },
+    "source_published_at": "2026-11-04T22:02:00+00:00",
+    "source_retrieved_at": "2026-11-05T21:40:14.412791+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source passages.",
+      "claims": [
+        {
+          "claim": "In Ajman, paid parking will be introduced from November 7.",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "From November 7, 2026, paid parking will start on three streets: Sheikh Zayed, Al Salam, and Al Hajin.",
+          "supported": true,
+          "evidence": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "claim": "This decision aims to regulate the public parking system and improve traffic flow in the emirate.",
+          "supported": true,
+          "evidence": [
+            3,
+            5
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Ajman introduces paid parking on three streets from November 7"
+        },
+        {
+          "id": 1,
+          "text": "Ajman: The Ajman Municipality and Planning Department announced that public parking will be subject to fees on three streets in the emirate, starting Saturday, November 7, 2026."
+        },
+        {
+          "id": 2,
+          "text": "These streets include Sheikh Zayed Street, Al Salam Street, and Al Hajin Street."
+        },
+        {
+          "id": 3,
+          "text": "The initiative is part of its efforts to regulate the public parking system and enhance the efficiency of its use, which will contribute to facilitating traffic flow and improving the quality of life in the emirate."
+        },
+        {
+          "id": 4,
+          "text": "The department explained, through its digital platforms, that the application of fees will include public parking on Sheikh Zayed Street, Al Salam Street, and Al Hajin Street, starting from the specified date, and published explanatory maps of the areas covered by the decision, to identify the locations of parking spaces subject to fees."
+        },
+        {
+          "id": 5,
+          "text": "It added that the decision comes within the framework of the department’s efforts to develop the public parking system, regulate its use, enhance traffic flow, and improve the quality of services provided to the public."
+        }
+      ],
+      "source_hash": "a0da63f0088b25ec7a57a370488dc182302c05481067579eb2534a77f5a86863",
+      "summary_hash": "0f6f379ea74618c7cef19f0bd42e8bb9cc43894b16c1b157b2743a3dcb8849d6",
+      "checked_at": "2026-11-05T21:40:25.529652+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "emirates247.com",
+    "title": "Ajman introduces paid parking on three streets from November 7",
+    "summary_ru": "<b>🚗 В Аджмане с 7 ноября вводят платную парковку</b>\n\n📅 С 7 ноября 2026 года в Аджмане начнёт действовать платная парковка на трёх улицах: Шейха Зайеда, Аль Салам и Аль Хаджин.\n\nЭто решение направлено на регулирование системы общественной парковки и улучшение дорожного движения в эмирате.",
+    "published": "2026-11-05T21:40:22.325754+00:00",
+    "source_urls": [
+      "https://www.emirates247.com/uae/ajman-introduces-paid-parking-on-three-streets-from-november-7/7462"
+    ],
+    "lang": "en",
+    "content_hash": "3eefea2e4b7ee1ecc0f2441973a16cf8",
+    "strict_hash": "3eefea2e4b7ee1ecc0f2441973a16cf8",
+    "fuzzy_hash": "aee498009f93fd71da14fea9d0c60eea",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 85,
+      "ad_readiness_score": 95,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о введении платной парковки в Аджмане на трёх улицах с конкретной датой и деталями важна для жителей и гостей эмирата."
+      }
+    },
+    "image_url": "https://api.emirates247.com/emirates247/uploads/images/2026/11/04/11686.webp",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-11-05T21:40:54.073030+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1740
+    },
+    "published_at": "2026-11-05T21:40:54.090847+00:00",
+    "source_url": "https://www.emirates247.com/uae/ajman-introduces-paid-parking-on-three-streets-from-november-7/7462",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
   }
 ]
