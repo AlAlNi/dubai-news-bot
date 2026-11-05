@@ -1,43 +1,4 @@
 {
-  "596725fd7b75de02fa2dd92e873eb368f45bd59789c5072714fb1e785fd1c65b": {
-    "saved_at": "2026-10-29T03:22:30.660105+00:00",
-    "result": {
-      "id": "chatcmpl-EeB0fqD0wBx0BHDkRZVF7bUJPjPNr",
-      "object": "chat.completion",
-      "created": 1793244149,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Абу-Даби планируют открыть мостовой комплекс на острове Рамхан во втором квартале 2027 года.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Проект включает семь мостов, три туннеля и дорожную сеть, соединяющую острова Рамхан и Джубайл с шоссе Шейха Халифы (E12).\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Общая площадь строительства превысит 166 000 кв. м.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Стоимость составит около 872 млн дирхамов.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"В проекте предусмотрены энергосберегающие LED-светильники.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"В проекте предусмотрена переработка 90% строительных отходов.\",\"supported\":true,\"evidence\":[5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1023,
-        "completion_tokens": 227,
-        "total_tokens": 1250,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_07e815c12d"
-    }
-  },
   "7356be85eaba8d50c423b244363eea039ad278663a480d8b059dcdb84514adfa": {
     "saved_at": "2026-10-29T10:33:03.511890+00:00",
     "result": {
@@ -764,6 +725,45 @@
         "prompt_tokens": 1120,
         "completion_tokens": 194,
         "total_tokens": 1314,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_57f7a0b570"
+    }
+  },
+  "925a51cb9a9ac0ca31a119e7d3539adb4330ef74ad2b0c2caa5984ade7225a17": {
+    "saved_at": "2026-11-05T07:30:47.425622+00:00",
+    "result": {
+      "id": "chatcmpl-EgmDlE2vvSM15NBz1Y4EzAV3HmhIw",
+      "object": "chat.completion",
+      "created": 1793863845,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, 2027, the UAE will introduce two-year car registration.\",\"supported\":true,\"evidence\":[0,1,6]},{\"claim\":\"Owners of light vehicles can apply for two-year registration instead of annual renewal if their vehicle meets three conditions.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"The vehicle must be new at first registration.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The vehicle must be no older than six years.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The vehicle must be owned by an individual (not a company or legal entity).\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"New rules prohibit registration of right-hand-drive vehicles for road use in the UAE.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Registration may be cancelled if the vehicle has serious damage or does not meet safety requirements.\",\"supported\":true,\"evidence\":[5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1580,
+        "completion_tokens": 222,
+        "total_tokens": 1802,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
