@@ -1,43 +1,4 @@
 {
-  "17b883654c76650b00125337a5dce07394c9cf9ba8bbf9409b793150341c6adc": {
-    "saved_at": "2026-10-29T22:11:14.268891+00:00",
-    "result": {
-      "id": "chatcmpl-EeSczpIzOmmJmUVtADZKglCUUQ9VF",
-      "object": "chat.completion",
-      "created": 1793311873,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Future Foundation through Sandbox Dubai launched AI Sandbox to help companies overcome regulatory barriers and deploy AI solutions in practice.\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"The project involves startups, technology companies, and government entities including Dubai Centre for Artificial Intelligence.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Participants receive support in technical, policy, commercial issues, and regulatory requirements.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Applications are open until 18 December 2026.\",\"supported\":true,\"evidence\":[12]},{\"claim\":\"The initiative aims to accelerate AI commercialization and adapt regulatory frameworks to new technologies.\",\"supported\":true,\"evidence\":[1,6,7,8]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1566,
-        "completion_tokens": 175,
-        "total_tokens": 1741,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_57f7a0b570"
-    }
-  },
   "d5d149e215c0abc3b4410e595505558aacd7e6e8da34ff045af235b0a12d3926": {
     "saved_at": "2026-10-30T09:15:30.878749+00:00",
     "result": {
@@ -764,6 +725,84 @@
         "prompt_tokens": 826,
         "completion_tokens": 128,
         "total_tokens": 954,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "b5fec433a0b180cf9d1264f1340aa69f09144e437cf48bfbcffdf40088eb09c0": {
+    "saved_at": "2026-11-06T01:53:56.371389+00:00",
+    "result": {
+      "id": "chatcmpl-Eh3RKJBCOGMdalKwRrbqIdmKHgtaj",
+      "object": "chat.completion",
+      "created": 1793930034,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае появится новая карта оплаты nol–Jaywan.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"С ноября 2026 года начнётся пилотный запуск новой карты nol–Jaywan для оплаты общественного транспорта, такси и парковок в Дубае.\",\"supported\":true,\"evidence\":[1,2,7]},{\"claim\":\"Карта объединит существующую систему nol с национальной схемой платежей Jaywan.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Карта расширяет возможности цифровых платежей и предлагает более 120 скидок и акций.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Карту можно будет активировать и использовать через смартфоны на Android и iOS.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Карту можно применять для оплаты услуг в общественном и частном транспорте по всей ОАЭ.\",\"supported\":true,\"evidence\":[2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1516,
+        "completion_tokens": 231,
+        "total_tokens": 1747,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "2f79686140be683c44b20f90cbb99ab4c8babc20d6539851c0072f373e5ef4a8": {
+    "saved_at": "2026-11-06T01:54:03.406259+00:00",
+    "result": {
+      "id": "chatcmpl-Eh3RS3IKAyHB4apc6LZk0sdoymyeZ",
+      "object": "chat.completion",
+      "created": 1793930042,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Al Dhaid Bridge in Sharjah will open on November 15.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Al Dhaid Bridge is 320 meters long.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The bridge will improve transport communication and connectivity between key routes in the emirate's central region.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The project includes four lifts, balconies, and viewing platforms overlooking Al Dhaid Lake, combining transport function with architectural and recreational elements.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1010,
+        "completion_tokens": 145,
+        "total_tokens": 1155,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
