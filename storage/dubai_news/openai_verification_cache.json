@@ -1,82 +1,4 @@
 {
-  "d5d149e215c0abc3b4410e595505558aacd7e6e8da34ff045af235b0a12d3926": {
-    "saved_at": "2026-10-30T09:15:30.878749+00:00",
-    "result": {
-      "id": "chatcmpl-EeczpF9rLXaE3JLhRslJr6vNvqDEA",
-      "object": "chat.completion",
-      "created": 1793351729,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Construction has started on two pedestrian bridges on Palm Jumeirah in Dubai.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The first bridge near Shoreline is planned to be completed by June 2027.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The second bridge near Golden Mile is planned to be completed by October 2027.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The combined capacity of the two bridges will be 2700 pedestrians per hour, exceeding current demand and allowing for future growth.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The project is a joint effort by RTA and Dubai Holding Community Management.\",\"supported\":true,\"evidence\":[2,4]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 976,
-        "completion_tokens": 177,
-        "total_tokens": 1153,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_07e815c12d"
-    }
-  },
-  "cfb3389b3763d63c138aa32c5a1765466a4e940be5e7275e9186e6407cae5794": {
-    "saved_at": "2026-10-30T16:21:54.012081+00:00",
-    "result": {
-      "id": "chatcmpl-EejeSNx4V45sv3dHxEP16hdJrr0bS",
-      "object": "chat.completion",
-      "created": 1793377312,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Фестиваль шейха Зайеда стартует 30 октября в Аль-Ватбе\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"В Абу-Даби откроется новый сезон фестиваля шейха Зайеда, который продлится 135 дней\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Фестиваль предложит культурные, спортивные и развлекательные мероприятия с участием арабских и международных артистов\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"В программе — концерты, традиционные выступления, лазерные шоу, рынок, а также павильоны с национальными культурами и гастрономией\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"Фестиваль работает ежедневно с 16:00 до полуночи, по выходным — до 1:00\",\"supported\":true,\"evidence\":[6]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1754,
-        "completion_tokens": 223,
-        "total_tokens": 1977,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_57f7a0b570"
-    }
-  },
   "fb743239ca5effe6767db85c5fb15b4f18697f9b4ae2477dad3e7bc9f72930ab": {
     "saved_at": "2026-10-31T07:41:49.897342+00:00",
     "result": {
@@ -842,6 +764,45 @@
         "prompt_tokens": 1702,
         "completion_tokens": 190,
         "total_tokens": 1892,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "caac7acb886cc690ef9579da0a4581af80cd9c7007674e07924ee77b30124d4d": {
+    "saved_at": "2026-11-06T16:27:39.253155+00:00",
+    "result": {
+      "id": "chatcmpl-EhH4qOEXCndqY0alpaAk7Xth0gPh5",
+      "object": "chat.completion",
+      "created": 1793982456,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The UAE Ministry of Health and Prevention announced an improved system for sick leave certificate attestation in healthcare facilities in Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Now healthcare facilities, not patients, submit attestation applications, reducing bureaucracy.\",\"supported\":true,\"evidence\":[1,2,3]},{\"claim\":\"There is an automatic link between attestation and approval of sick leaves that speeds up the process for employees of the federal and local governments of these emirates.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"The application process for leave for patient companions has also been simplified.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"The Ministry links these changes to the UAE Government’s Zero Bureaucracy program and aims to improve the quality and speed of government services.\",\"supported\":true,\"evidence\":[5,6,8]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1399,
+        "completion_tokens": 225,
+        "total_tokens": 1624,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
