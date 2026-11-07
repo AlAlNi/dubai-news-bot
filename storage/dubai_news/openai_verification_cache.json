@@ -1,43 +1,4 @@
 {
-  "084599348cd39d11fa401f63c5a55a5dd25741b12e38071285177d2c9db32e82": {
-    "saved_at": "2026-10-31T13:59:58.474560+00:00",
-    "result": {
-      "id": "chatcmpl-Ef3ueTHT34o0gj3RvKPut3MN5DBhh",
-      "object": "chat.completion",
-      "created": 1793455196,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Registration for the sixth season of the Farmers’ Market in Dubai is open.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Farmers’ Market will run from 28 November 2026 to 31 January 2027 at Quranic Park in Al Khawaneej.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The market will operate on weekends.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The market will feature 52 Emirati farmers and local entrepreneurs.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"For the first time, there will be 10 spaces for children under the \\\"Young Farmers and Entrepreneurs\\\" initiative, allowing them to sell products and develop skills in agriculture and business.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1071,
-        "completion_tokens": 188,
-        "total_tokens": 1259,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d7134fbeff"
-    }
-  },
   "e4dc8c81dcf362e5e1cd984f9cc815e211184b7ceb3974d61916fb1341edcc54": {
     "saved_at": "2026-10-31T18:16:03.281062+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1122,
         "completion_tokens": 209,
         "total_tokens": 1331,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "03f5342f38f209e6aab0242685966120aca0889c59562b9e2df95c5ec7d524b9": {
+    "saved_at": "2026-11-07T14:37:41.503405+00:00",
+    "result": {
+      "id": "chatcmpl-Ehbq0ZKl4flz8whT3C1O4zpDQd0nL",
+      "object": "chat.completion",
+      "created": 1794062260,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, new traffic rules come into effect allowing suspension, cancellation, or non-renewal of driving licenses in 12 cases including health problems.\",\"supported\":true,\"evidence\":[1,3,4,5,6]},{\"claim\":\"Health authorities are obligated to provide data on drivers with diseases affecting driving safety.\",\"supported\":true,\"evidence\":[2,7]},{\"claim\":\"Drivers with licenses expired for more than 10 years must pass theoretical and practical exams to renew.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"Vision requirements have been introduced for different driver categories, including acceptance of eye exam results from abroad.\",\"supported\":true,\"evidence\":[12,13,14]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1553,
+        "completion_tokens": 171,
+        "total_tokens": 1724,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
