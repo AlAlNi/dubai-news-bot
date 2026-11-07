@@ -1,43 +1,4 @@
 {
-  "fb743239ca5effe6767db85c5fb15b4f18697f9b4ae2477dad3e7bc9f72930ab": {
-    "saved_at": "2026-10-31T07:41:49.897342+00:00",
-    "result": {
-      "id": "chatcmpl-Eey0iJ2WOwxDZ5b0VE2fq6Nikz3ps",
-      "object": "chat.completion",
-      "created": 1793432508,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From October 30 to November 1, Dubai, Abu Dhabi, and Sharjah will have road closures, lane restrictions, and new speed limits.\",\"supported\":true,\"evidence\":[1,13,20]},{\"claim\":\"On November 1 in Dubai, Salik toll rates will change with variable charges: 6 dirhams during peak hours, 4 dirhams during off-peak hours, and free at night.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Dubai Metro will operate from 3 am on November 1 to accommodate Dubai Ride 2026 participants.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Special parking locations for Dubai Ride 2026 are at Dubai World Trade Centre, Dubai Mall, and Zabeel.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Speed limits will change on several Dubai roads on November 1.\",\"supported\":true,\"evidence\":[7,8]},{\"claim\":\"Emirates Road will have overnight closures until November 15 due to railway construction.\",\"supported\":true,\"evidence\":[9,10]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2774,
-        "completion_tokens": 251,
-        "total_tokens": 3025,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_07e815c12d"
-    }
-  },
   "084599348cd39d11fa401f63c5a55a5dd25741b12e38071285177d2c9db32e82": {
     "saved_at": "2026-10-31T13:59:58.474560+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 817,
         "completion_tokens": 162,
         "total_tokens": 979,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "ca0faec067d2fec9f96891f8fb84f027718f815b070f7fc4f1c8bb4cbe9698a3": {
+    "saved_at": "2026-11-07T07:57:47.911875+00:00",
+    "result": {
+      "id": "chatcmpl-EhVb01ZkdhijxavT9VO3tzi5bsBRD",
+      "object": "chat.completion",
+      "created": 1794038266,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, 2027, new rules for couriers are introduced in the UAE.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"Couriers are prohibited from carrying orders in backpacks.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"Couriers are prohibited from carrying passengers on motorcycles licensed for delivery.\",\"supported\":true,\"evidence\":[2,4]},{\"claim\":\"Drivers must use approved equipment for transporting orders.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"Drivers must wear a uniform.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Drivers must have professional permits.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Drivers must not transport prohibited materials.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Drivers must comply with additional requirements imposed by authorities.\",\"supported\":true,\"evidence\":[4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1122,
+        "completion_tokens": 209,
+        "total_tokens": 1331,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
