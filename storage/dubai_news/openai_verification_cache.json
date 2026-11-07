@@ -1,43 +1,4 @@
 {
-  "e4dc8c81dcf362e5e1cd984f9cc815e211184b7ceb3974d61916fb1341edcc54": {
-    "saved_at": "2026-10-31T18:16:03.281062+00:00",
-    "result": {
-      "id": "chatcmpl-Ef7uTibdwoG1D3iOOidvlO7r2YulP",
-      "object": "chat.completion",
-      "created": 1793470561,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"ROX announced the delivery of the first batch of 100 vehicles made in the UAE and marked with 'Made in the Emirates'.\",\"supported\":true,\"evidence\":[1,12]},{\"claim\":\"The vehicles were produced at the factory in Khalifa Economic Zones Abu Dhabi.\",\"supported\":true,\"evidence\":[2,14]},{\"claim\":\"The project is supported by the Ministry of Industry and Advanced Technology of the UAE and the Abu Dhabi Investment Office.\",\"supported\":true,\"evidence\":[1,3,7,14]},{\"claim\":\"This is part of the country's strategy to develop industry and localize production.\",\"supported\":true,\"evidence\":[1,3,5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1926,
-        "completion_tokens": 165,
-        "total_tokens": 2091,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d7134fbeff"
-    }
-  },
   "3a04652de3b8f0a796e10c379b79fad25e9a1eb0ab624b9e5297f2456ad17480": {
     "saved_at": "2026-11-01T08:21:11.731968+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1553,
         "completion_tokens": 171,
         "total_tokens": 1724,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "771418df3b5da5e973e0c8722f9d47827a353bf5876d690a5683e870d059f394": {
+    "saved_at": "2026-11-07T19:10:39.237889+00:00",
+    "result": {
+      "id": "chatcmpl-Ehg69kVQ8EHSM8EKPhmB8ZLUNgVXe",
+      "object": "chat.completion",
+      "created": 1794078637,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, Roads and Transport Authority (RTA) introduced four new fourth-generation traditional abras.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The abras correspond to the latest technical standards.\",\"supported\":true,\"evidence\":[1,3,5]},{\"claim\":\"Each abra accommodates 24 passengers.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Each abra is equipped with modern systems, including digital screens with real-time information.\",\"supported\":true,\"evidence\":[5,6]},{\"claim\":\"This marine transport expansion aims to improve comfort, safety, and accessibility of transportation.\",\"supported\":true,\"evidence\":[2,3,4,5]},{\"claim\":\"The expansion also aims to integrate marine transport with other transport modes in the emirate.\",\"supported\":true,\"evidence\":[1,2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 196,
+        "total_tokens": 1426,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
