@@ -1,43 +1,4 @@
 {
-  "09f741d236e1dfc895182a88fb1ffe7364c76fcf8f276391ec0892ad209c6dde": {
-    "saved_at": "2026-11-02T03:14:25.490969+00:00",
-    "result": {
-      "id": "chatcmpl-Efcn2yIoCvPw7vSMgrNVwWMHnyIPb",
-      "object": "chat.completion",
-      "created": 1793589264,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Ride 2026 is underway with thousands of cyclists on the streets.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Sheikh Zayed Road is temporarily closed to cars for the event.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The routes include a 12 km ride along Sheikh Zayed Road and a 4 km family loop through Downtown Dubai.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Participants pass landmarks including the Museum of the Future, Dubai Water Canal, Burj Khalifa, and Dubai Opera.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Authorities closed three major roads from 3:00 to 9:30 on November 1.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Dubai Metro operates extended hours from 3:00 to midnight for participants.\",\"supported\":true,\"evidence\":[3]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1070,
-        "completion_tokens": 207,
-        "total_tokens": 1277,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d7134fbeff"
-    }
-  },
   "7f14c0c6b6e5f053f786efdccfcacfd0bb94b3d0cd742bc62f916c0d8b4b2aaf": {
     "saved_at": "2026-11-02T11:47:44.830781+00:00",
     "result": {
@@ -1076,6 +1037,45 @@
         "prompt_tokens": 1673,
         "completion_tokens": 247,
         "total_tokens": 1920,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "1a03fee737385949676763d5fc5db446fcffaa8a595f6da14e83e3b5223f9521": {
+    "saved_at": "2026-11-09T07:24:29.279128+00:00",
+    "result": {
+      "id": "chatcmpl-EiE1rJUrSL2lNLkYCEjmwJXwALQVB",
+      "object": "chat.completion",
+      "created": 1794209067,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, a 1650-meter tunnel on Al Khaleej Street has been opened.\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"The tunnel connects the Deira district with the intersection of Al Khaleej Street and Al Wuheida Street.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The tunnel has three lanes in each direction and a capacity of 12,000 vehicles per hour.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The tunnel is part of the Al Shindagha Corridor Development Project, which will improve transport connectivity and reduce travel time in the area to 16 minutes by 2030.\",\"supported\":true,\"evidence\":[3,4,5]},{\"claim\":\"The tunnel decoration uses a mosaic of 35 million pieces created by artist Maryam Al Hathboor.\",\"supported\":true,\"evidence\":[8] }]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1247,
+        "completion_tokens": 212,
+        "total_tokens": 1459,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
