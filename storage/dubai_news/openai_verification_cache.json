@@ -1051,5 +1051,44 @@
       "service_tier": "default",
       "system_fingerprint": "fp_98a8cc63cd"
     }
+  },
+  "ac2ee4409f165a7c054cdf5436f8ff87e9b7a5fd3115601e8ad7657d539d0bbd": {
+    "saved_at": "2026-11-09T00:16:00.427775+00:00",
+    "result": {
+      "id": "chatcmpl-Ei7LCfy5PaLDos9UxTvCXryhBGdsX",
+      "object": "chat.completion",
+      "created": 1794183358,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Выпускники зарубежных университетов, входящих в топ-100 мирового рейтинга, могут претендовать на 10-летнюю Золотую визу в ОАЭ.\",\"supported\":true,\"evidence\":[2,8,25]},{\"claim\":\"Средний балл выпускника должен быть не ниже 3.5.\",\"supported\":true,\"evidence\":[9]},{\"claim\":\"С момента выпуска должно пройти не более двух лет.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"Для подачи заявки необходимо сначала получить одобрение номинации через ГДРФА в Дубае или Федеральный орган по вопросам гражданства и иммиграции в других эмиратах.\",\"supported\":true,\"evidence\":[18,19,21,22]},{\"claim\":\"Виза позволяет спонсировать семью при наличии работы и жилья.\",\"supported\":true,\"evidence\":[26]},{\"claim\":\"После окончания срока визы требуется сменить статус на другой, например, рабочий или инвесторский.\",\"supported\":true,\"evidence\":[27,28]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1673,
+        "completion_tokens": 247,
+        "total_tokens": 1920,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
   }
 }
