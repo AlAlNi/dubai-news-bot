@@ -1,43 +1,4 @@
 {
-  "7f14c0c6b6e5f053f786efdccfcacfd0bb94b3d0cd742bc62f916c0d8b4b2aaf": {
-    "saved_at": "2026-11-02T11:47:44.830781+00:00",
-    "result": {
-      "id": "chatcmpl-EfknnfQrkgO5P80F6RvjRa2wqK6h6",
-      "object": "chat.completion",
-      "created": 1793620063,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In November 2026, Dubai will launch two initiatives to improve the tourist experience.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"One initiative is the world's first city-led, invitation-only tourism membership programme called Dubai Access Club.\",\"supported\":true,\"evidence\":[2,5]},{\"claim\":\"The other initiative is the ability to apply for tourist visas through the official Visit Dubai website.\",\"supported\":true,\"evidence\":[2,7,9]},{\"claim\":\"Dubai Access Club will offer members exclusive services and benefits to encourage repeat visits.\",\"supported\":true,\"evidence\":[5,6]},{\"claim\":\"Applying for visas through Visit Dubai will simplify the application process and unify services in one digital platform.\",\"supported\":true,\"evidence\":[7,8,9]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2173,
-        "completion_tokens": 186,
-        "total_tokens": 2359,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d7134fbeff"
-    }
-  },
   "6a3ad023d09c050c0d73f03854112b8c5db858a2872d939df4fb0c91956b12fb": {
     "saved_at": "2026-11-02T21:00:14.875717+00:00",
     "result": {
@@ -1089,6 +1050,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "b182f58cb2e8a48c6d31a51008fa7cd171dd2d653d35890ec59bd83c7bae7a1a": {
+    "saved_at": "2026-11-09T17:56:56.045165+00:00",
+    "result": {
+      "id": "chatcmpl-EiNttVpIea0ICkubQwUtQHHWhegrp",
+      "object": "chat.completion",
+      "created": 1794247013,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Municipality introduced the first fully electric vehicle for the collection and transport of general waste.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The vehicle operates on three lithium-ion batteries.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The vehicle can travel up to 150 km on a single charge.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The vehicle has a waste storage capacity of 19 cubic meters.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"The vehicle has a load capacity of up to 11 tonnes.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Fast charging allows the battery charge to increase from 20% to 80% in 1 hour 45 minutes.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The vehicle is equipped with a camera system for safety.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"The vehicle supports different container sizes.\",\"supported\":true,\"evidence\":[7]},{\"claim\":\"This initiative is part of a strategy to reduce waste and transition to environmentally friendly technologies in the city.\",\"supported\":true,\"evidence\":[2,3]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1546,
+        "completion_tokens": 264,
+        "total_tokens": 1810,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_07e815c12d"
     }
   }
 }
