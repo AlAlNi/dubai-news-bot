@@ -1,302 +1,6 @@
 [
   {
     "source_snapshot": {
-      "title": "MBRHE marks World Habitat Day",
-      "text": "DUBAI, 10th October, 2026 (WAM) -- The Mohammed Bin Rashid Housing Establishment (MBRHE) is marking World Habitat Day with an interactive stand at Dubai Festival City Mall.The initiative showcases MBRHE’s services, initiatives and housing solutions while strengthening direct engagement with the community.MBRHE invites visitors to explore its range of services and latest housing solutions, speak directly with specialists and receive information to help them understand the available services and how to access them.The Establishment emphasised that the occasion highlights the importance of housing in supporting family stability and enhancing quality of life. It also reaffirms MBRHE’s commitment to developing an integrated housing system that meets citizens’ needs and future aspirations while providing a more convenient, efficient and sustainable housing experience.Dubai Islamic Bank is participating through a dedicated section within the stand, showcasing services and solutions offered in collaboration with MBRHE. Visitors can learn about the available options and receive answers to their related enquiries.The stand also features competitions, interactive activities, prize draws and instant prizes for visitors. These activities aim to encourage public participation and create an engaging community atmosphere that combines information about housing services with entertainment.The event forms part of MBRHE’s ongoing efforts to strengthen its community presence and expand customer engagement channels, raising awareness of its housing services and solutions and helping citizens benefit from them.",
-      "url": "https://www.wam.ae/en/article/c2o8do7-mbrhe-marks-world-habitat-day",
-      "published_at": "2026-10-10T17:22:42+00:00"
-    },
-    "source_published_at": "2026-10-10T17:22:42+00:00",
-    "source_retrieved_at": "2026-10-11T09:26:51.211170+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All claims in the post are directly supported by the source text.",
-      "claims": [
-        {
-          "claim": "Mohammed Bin Rashid Housing Establishment organized an interactive stand at Dubai Festival City Mall.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "Visitors can learn about housing services and solutions and speak with specialists.",
-          "supported": true,
-          "evidence": [
-            1,
-            2
-          ]
-        },
-        {
-          "claim": "Dubai Islamic Bank participates with a dedicated section offering joint services.",
-          "supported": true,
-          "evidence": [
-            2,
-            3
-          ]
-        },
-        {
-          "claim": "There are contests, prize draws, and interactive activities creating an engaging and entertaining atmosphere.",
-          "supported": true,
-          "evidence": [
-            3,
-            4
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "MBRHE marks World Habitat Day"
-        },
-        {
-          "id": 1,
-          "text": "DUBAI, 10th October, 2026 (WAM) -- The Mohammed Bin Rashid Housing Establishment (MBRHE) is marking World Habitat Day with an interactive stand at Dubai Festival City Mall.The initiative showcases MBRHE’s services, initiatives and housing solutions while strengthening direct engagement with the community.MBRHE invites visitors to explore its range of services and latest housing solutions, speak directly with specialists and receive information to help them understand the available services and how to access them.The Establishment emphasised that the occasion highlights the importance of housing in supporting family stability and enhancing quality of life."
-        },
-        {
-          "id": 2,
-          "text": "It also reaffirms MBRHE’s commitment to developing an integrated housing system that meets citizens’ needs and future aspirations while providing a more convenient, efficient and sustainable housing experience.Dubai Islamic Bank is participating through a dedicated section within the stand, showcasing services and solutions offered in collaboration with MBRHE."
-        },
-        {
-          "id": 3,
-          "text": "Visitors can learn about the available options and receive answers to their related enquiries.The stand also features competitions, interactive activities, prize draws and instant prizes for visitors."
-        },
-        {
-          "id": 4,
-          "text": "These activities aim to encourage public participation and create an engaging community atmosphere that combines information about housing services with entertainment.The event forms part of MBRHE’s ongoing efforts to strengthen its community presence and expand customer engagement channels, raising awareness of its housing services and solutions and helping citizens benefit from them."
-        }
-      ],
-      "source_hash": "5864e385c6a0006e62be3f53ae6289876e9720d069842ea454759bce91c01f73",
-      "summary_hash": "e713e58a351510e437c7a9474536badf433be96dbae6995fd939616fe3f18303",
-      "checked_at": "2026-10-11T09:27:11.864058+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "wam.ae",
-    "title": "MBRHE marks World Habitat Day",
-    "summary_ru": "<b>🏠 MBRHE отмечает Всемирный день жилья</b>\n\nВ Дубае Mohammed Bin Rashid Housing Establishment организовал интерактивный стенд в Dubai Festival City Mall, где посетители могут узнать о жилищных услугах и решениях, а также пообщаться со специалистами. 📍\n\nВ мероприятии участвует Dubai Islamic Bank с отдельным разделом, предлагающим совместные услуги. Для гостей подготовлены конкурсы, розыгрыши и интерактивные активности, создающие атмосферу вовлечённости и развлечения.",
-    "published": "2026-10-11T09:27:01.360114+00:00",
-    "source_urls": [
-      "https://www.wam.ae/en/article/c2o8do7-mbrhe-marks-world-habitat-day"
-    ],
-    "lang": "en",
-    "content_hash": "afbb3db617d9f5d3b404effe8df7c921",
-    "strict_hash": "afbb3db617d9f5d3b404effe8df7c921",
-    "fuzzy_hash": "c3310c6c91c7cc48fae8970f8c8d0e49",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 85,
-      "ad_readiness_score": 95,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "service_update"
-    },
-    "content_format": "service_update",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о мероприятии, посвящённом Всемирному дню жилья, с участием Mohammed Bin Rashid Housing Establishment в Дубае, содержит полезную информацию о жилищных услугах и взаимодействии с общественностью."
-      }
-    },
-    "image_url": "",
-    "slot_target": "evening",
-    "publication": {
-      "published_at": "2026-10-11T09:27:29.229466+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1642
-    },
-    "published_at": "2026-10-11T09:27:29.234221+00:00",
-    "source_url": "https://www.wam.ae/en/article/c2o8do7-mbrhe-marks-world-habitat-day",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
-      "title": "WETEX 2026 to spotlight AI, workplace health, safety",
-      "text": "DUBAI, 10th October, 2026 (WAM) -- Dubai Electricity and Water Authority (DEWA) will organise the 28th edition of the Water, Energy, Technology and Environment Exhibition (WETEX) from 20th to 22nd October 2026 at the Dubai World Trade Centre, under the patronage of H.H. Sheikh Ahmed bin Saeed Al Maktoum, Chairman of the Dubai Supreme Council of Energy. The Health and Safety Hub at WETEX 2026 will host a range of activities and exhibitions, including the Health and Safety Conference, which will feature discussions on the latest developments in occupational health and safety in schools, homes and workplaces. The conference will bring together senior executives and experts from around the world in health, safety, wellbeing, emergency preparedness and emerging workplace risks. Discussions will focus on promoting health and wellbeing, using artificial intelligence and emerging technologies to manage risks, and improving quality of life through effective governance.Saeed Mohammed Al Tayer, MD and CEO of DEWA and Founder and Chairman of WETEX, said the exhibition supports the Dubai Social Agenda 33 and the National Strategy for Wellbeing 2031, which aims to position the UAE as a global leader in quality of life.He said the conference will highlight innovations and technologies that strengthen health and safety practices, protect people and safeguard property and the environment.The Health and Safety Conference’s panel discussions include ‘Discover the Future of HSE: Build Your Own AI + Vibe Coding Solution for Breakthrough Health & Safety Performance’, ‘Building Trust in AI Systems: Transparency, Ethics and Compliance and What They Mean in Practice’, ‘AI Fusion: Trust, Behaviour and Psychological Safety in the AI-Augmented Workplace’, ‘From Data to Prevention: Using AI and Analytics to Support Health, Safety and Environmental Decision Making’, ‘Workforce Wellbeing and Behavioural Safety in a Digital Era’, ‘AI and Robotics as Safety Enablers: Lessons from the Industrial Frontline’ and ‘Data-Driven Leadership: Turning Safety Data into Actionable Insights’.",
-      "url": "https://www.wam.ae/en/article/c2o8cvq-wetex-2026-spotlight-ai-workplace-health-safety",
-      "published_at": "2026-10-10T07:52:05+00:00"
-    },
-    "source_published_at": "2026-10-10T07:52:05+00:00",
-    "source_retrieved_at": "2026-10-11T16:01:55.726157+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All factual claims in the post are directly supported by the source passages.",
-      "claims": [
-        {
-          "claim": "The 28th WETEX exhibition will be held from 20 to 22 October 2026 at Dubai World Trade Centre.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "WETEX 2026 is organized by DEWA under the patronage of Sheikh Ahmed bin Saeed Al Maktoum.",
-          "supported": true,
-          "evidence": [
-            1,
-            2
-          ]
-        },
-        {
-          "claim": "Special focus will be on health and safety at the workplace using artificial intelligence and new technologies.",
-          "supported": true,
-          "evidence": [
-            3,
-            5
-          ]
-        },
-        {
-          "claim": "The Health and Safety Hub will host a conference with global experts discussing innovations in occupational health, risk management, and quality of life improvement.",
-          "supported": true,
-          "evidence": [
-            3,
-            4,
-            5
-          ]
-        },
-        {
-          "claim": "Conference topics include AI ethics, digital employee wellbeing, and the use of robots for safety.",
-          "supported": true,
-          "evidence": [
-            5
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "WETEX 2026 to spotlight AI, workplace health, safety"
-        },
-        {
-          "id": 1,
-          "text": "DUBAI, 10th October, 2026 (WAM) -- Dubai Electricity and Water Authority (DEWA) will organise the 28th edition of the Water, Energy, Technology and Environment Exhibition (WETEX) from 20th to 22nd October 2026 at the Dubai World Trade Centre, under the patronage of H.H."
-        },
-        {
-          "id": 2,
-          "text": "Sheikh Ahmed bin Saeed Al Maktoum, Chairman of the Dubai Supreme Council of Energy."
-        },
-        {
-          "id": 3,
-          "text": "The Health and Safety Hub at WETEX 2026 will host a range of activities and exhibitions, including the Health and Safety Conference, which will feature discussions on the latest developments in occupational health and safety in schools, homes and workplaces."
-        },
-        {
-          "id": 4,
-          "text": "The conference will bring together senior executives and experts from around the world in health, safety, wellbeing, emergency preparedness and emerging workplace risks."
-        },
-        {
-          "id": 5,
-          "text": "Discussions will focus on promoting health and wellbeing, using artificial intelligence and emerging technologies to manage risks, and improving quality of life through effective governance.Saeed Mohammed Al Tayer, MD and CEO of DEWA and Founder and Chairman of WETEX, said the exhibition supports the Dubai Social Agenda 33 and the National Strategy for Wellbeing 2031, which aims to position the UAE as a global leader in quality of life.He said the conference will highlight innovations and technologies that strengthen health and safety practices, protect people and safeguard property and the environment.The Health and Safety Conference’s panel discussions include ‘Discover the Future of HSE: Build Your Own AI + Vibe Coding Solution for Breakthrough Health & Safety Performance’, ‘Building Trust in AI Systems: Transparency, Ethics and Compliance and What They Mean in Practice’, ‘AI Fusion: Trust, Behaviour and Psychological Safety in the AI-Augmented Workplace’, ‘From Data to Prevention: Using AI and Analytics to Support Health, Safety and Environmental Decision Making’, ‘Workforce Wellbeing and Behavioural Safety in a Digital Era’, ‘AI and Robotics as Safety Enablers: Lessons from the Industrial Frontline’ and ‘Data-Driven Leadership: Turning Safety Data into Actionable Insights’."
-        }
-      ],
-      "source_hash": "938fa6c5346b0110e0cc25f4b9b81465e91d79c1e5ec195d8cd4e5ceaf52fe77",
-      "summary_hash": "33e632089dbae55c9cc2f4af99352ff47c5ea12b04bfa4d3982aef6106707e73",
-      "checked_at": "2026-10-11T16:02:17.739090+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "wam.ae",
-    "title": "WETEX 2026 to spotlight AI, workplace health, safety",
-    "summary_ru": "<b>🚀 WETEX 2026 в Дубае: ИИ и безопасность на рабочем месте</b>\n\n💻 С 20 по 22 октября 2026 года в Dubai World Trade Centre пройдёт 28-я выставка WETEX, организованная DEWA под патронажем шейха Ахмеда бин Саида Аль Мактума. Особое внимание будет уделено здоровью и безопасности на рабочем месте с использованием искусственного интеллекта и новых технологий.\n\nВ рамках Health and Safety Hub состоится конференция с участием мировых экспертов, где обсудят инновации в области охраны труда, управление рисками и повышение качества жизни. Темы включают этику ИИ, цифровое благополучие сотрудников и применение роботов для безопасности.",
-    "published": "2026-10-11T16:02:08.874867+00:00",
-    "source_urls": [
-      "https://www.wam.ae/en/article/c2o8cvq-wetex-2026-spotlight-ai-workplace-health-safety"
-    ],
-    "lang": "en",
-    "content_hash": "dbe6010f807e141e593682454d885722",
-    "strict_hash": "dbe6010f807e141e593682454d885722",
-    "fuzzy_hash": "2280aaed08f7279c4e42b01a8449c6c2",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 65,
-      "ad_readiness_score": 75,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о выставке WETEX 2026 в Дубае с акцентом на ИИ и безопасность на рабочем месте соответствует тематике транспорта, услуг и технологий."
-      }
-    },
-    "image_url": "",
-    "slot_target": "evening",
-    "publication": {
-      "published_at": "2026-10-11T16:02:40.376224+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1643
-    },
-    "published_at": "2026-10-11T16:02:40.381917+00:00",
-    "source_url": "https://www.wam.ae/en/article/c2o8cvq-wetex-2026-spotlight-ai-workplace-health-safety",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
       "title": "The Ripe Market opens in Dubai: Here’s what to eat, shop, and do this season",
       "text": "Dubai: The aroma of freshly brewed coffee and baked cookies, the buzz of shoppers browsing independent brands, and the sound of children’s giggles and live entertainment set the scene as The Ripe Market returned to Dubai Police Academy Park in Umm Suqeim today, marking 15 years of bringing local businesses and communities together.The opening of the new season on October 10 has welcomed visitors back to one of Dubai’s familiar weekend destinations, where shopping, food, and family activities come together in an outdoor setting. With stalls to explore, food to enjoy, and activities for all ages, the market offers residents an opportunity to slow down and spend a few hours enjoying the bazaar..Get updated faster and for FREE: Download the Gulf News app now - simply click here..A treasure hunt for homegrown brandsFor shoppers, a walk through The Ripe Market offers the chance to discover products beyond the usual retail shelves. Independent businesses showcase everything from fashion, jewellery, and accessories to homeware, artwork, beauty products, and handcrafted gifts.Among the returning participants is Hasabi Organic Farm Al Ain, which brings locally grown organic vegetables to the market..“These are all local and organic vegetables from our farm. Every day, they are freshly harvested,” Riyad Hossin, a salesman at the farm, told Gulf News.“We have been participating for 12 years now, and it really helps because customers are coming.”.Further along, shoppers can discover Birs Atelier, where handbags are handmade using recycled materials, with customised designs and individual stitching.“We create handmade handbags with customised designs. We use recycled materials, and we do everything ourselves, every stitch by hand,” shared owner Birsan Kan.“We have different sizes and price points. You can find a piece of your childhood in every design, and everything is locally made here in the UAE.”.Kan has noted that her participation in the market has helped her business grow, prompting her to take a more permanent presence this season.“This is my second year participating in The Ripe Market, and this time I have decided to have a permanent place because it helps my business grow. The Ripe Market has a lot of footfall and marketing around brands, and I want to be part of it.”.Upcycled wood turns into a speakerFor those interested in sustainable products, Mango Beat demonstrates an unusual take on the smartphone speaker, giving discarded material a new purpose.“The idea is to create a speaker and amplifier for smartphones without using wires, batteries, or electricity. It is one piece of wood, and it is upcycled,” explained Charles Jabbour, a partner at Mango Beat.“We buy used wood and upcycle it into something completely handmade.”.Jabbour has bared that the larger speakers can amplify sound by up to seven times, while the smaller ones can amplify it by up to five times.The business also works with farming communities in Thailand to repurpose waste wood and turn it into products for international markets.Jabbour has participated at the Academy Park location for about eight years and highlighted that the market offers a valuable opportunity to connect with people interested in sustainability.“It is a great place to connect with the community. You have a lot of people here who are professionals and work in ESG (environmental, social, and governance) and sustainability.” He added, “It is great to introduce our product, which resonates with a lot of people and is not something you find in many places.”.Follow the sweet treatsShopping is only part of the experience. The market also brings together food concepts serving breakfast, coffee, street food, sweet treats, and family-friendly favourites.Visitors can begin their morning with a coffee and breakfast, stop for a meal between shopping trips, or pick up something sweet while exploring the stalls.The variety of food and drink options makes it easy to turn a short visit into a longer outing, whether meeting friends, supporting a local food business, or taking a break from the activities..For Tatiano Kamoeva, a marketing director who visited the market, the appeal extends beyond shopping.“Padel brought me here, but I also love crafted things and everything that is handmade. I love the handmade plates, some drinks and food,” exclaimed Kamoev.“You can get a lot of entertainment and cultural things. It is a great place.”.Visitor Elle McCabe, an operations manager, has mentioned that she came to support a friend who has a fine-dining booth at the market.“My friend has a fine-dining booth, and I came to see and support them. This place is absolutely fab. The baby shops are also really cute,” described McCab..Keeping children busyFor families, The Ripe Market offers more than shopping and food. Children can look forward to activities including a petting zoo, pony rides, arts and crafts, workshops, inflatables, mini train rides, and a carousel.The range of attractions gives younger visitors plenty to explore, whether they want to spend time with animals, get creative at a workshop, or enjoy the rides. Parents can browse the stalls or stop for a meal while making time for activities that appeal to the whole family.The market's stage will also host family-friendly entertainment throughout the season, including magic shows, music, and themed performances..For Emma Pilal, who attended the opening with her son Danis, the magic show was a highlight of their visit.“I came here for the magic show, and we really enjoyed it. We will definitely come back to explore the other shops and activities,” remarked Pilal.The market's open-air setting allows families to move between the attractions, shopping stalls, and food outlets, making it possible to enjoy several experiences during one visit..Dubai Police bring community activities to the marketDubai Police will once again take part in the market's community programme, with activities planned throughout the season.Visitors can look forward to performances by the Dubai Police Marching Band, K9 demonstrations, and displays of Dubai Police supercars. Children will also have opportunities to participate in activities, alongside appearances by officer Amna and captain Mansour.The programme adds another attraction for families and gives younger visitors opportunities to engage with Dubai Police in a community setting..Live performances add to the weekend atmosphereBeyond the shopping stalls and food counters, live entertainment will feature throughout the season, with music, themed musical acts, magic shows, and family-friendly performances planned.Homegrown performers will be part of the programme, offering visitors a chance to pause between activities, gather around the stage, and enjoy live acts in an informal outdoor setting.The entertainment schedule will change throughout the season, giving regular visitors different performances and activities to discover on return visits..Make room for wellness and sportThose looking to do more than shop and eat can also explore the market's wellness and sports offering.Free sessions will include yoga, Pilates, sound healing, and mindfulness, giving visitors opportunities to stretch, unwind, or take a break from the pace of everyday life.Sports activities planned throughout the season will include swimming, padel, tennis, horse riding, football, rugby, and gymnastics.The mix of activities is designed to appeal to different ages and interests, making the market an option for visitors who want to combine a social outing with an active weekend..15 years of bringing communities togetherAs The Ripe Market enters its 15th year, its story goes beyond the products on its stalls. It is also about the small businesses that have found customers, the makers who have shared their craft, and the families and friends who have returned to spend their weekends together.For vendors such as Al Ain Hasabi Organic Farm and Mango Beat, years of participation have helped build connections with customers and the wider community. For businesses such as Birs Atelier, the market offers a platform to grow, while visitors come for everything from handmade finds and food to entertainment and time with family..In a city as diverse as Dubai, The Ripe Market brings these different experiences together in one place, creating opportunities for people to discover local talent, support independent businesses, and connect with others.As another season begins, the market’s 15-year milestone is a reminder that its lasting appeal lies not just in what visitors take home, but in the people they meet and the community they become part of.The Ripe Market runs every Saturday and Sunday from 9am to 9pm at Dubai Police Academy Park in Umm Suqeim until May 2 next year..The Ripe Market is back: What to expect at Dubai Police Academy Park this season.Inside Abu Dhabi Mall’s Ripe Market, where local creativity takes centre stage.What the Khorfakkan Mango Festival offers to local farmers and families.Hatta Farming Festival 2026: 7 rare finds you can buy from Emirati farmers at the local market",
       "url": "https://gulfnews.com/uae/the-ripe-market-opens-in-dubai-heres-what-to-eat-shop-and-do-this-season-1.500705521",
@@ -21135,6 +20839,127 @@
     },
     "published_at": "2026-11-10T08:56:10.912871+00:00",
     "source_url": "https://www.emirates247.com/uae/dubai-rta-to-open-110-metre-pedestrian-bridge-linking-metro-station-to-coca-cola-arena/7602",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Ministry of Interior postpones vehicle licensing limit for residents pending further review",
+      "text": "ABU DHABI, 9th November, 2026 (WAM) -- In line with its commitment to listening to public feedback and considering the needs of different segments of society, the Ministry of Interior has announced that it will postpone the limit on the number of vehicles residents may license under Article 89 of the new Implementing Regulations of the Traffic Law, pending the completion of a review and approval of the appropriate regulatory requirements.The review will consider the rights of vehicle owners, the needs of families and investors, and how vehicles are used, including classic, rare and luxury vehicles.The Ministry of Interior emphasised that public feedback and suggestions are central to improving legislation and enhancing quality of life, while protecting rights and taking different interests into account.",
+      "url": "https://www.wam.ae/en/article/c363drw-ministry-interior-postpones-vehicle-licensing",
+      "published_at": "2026-11-09T16:46:35+00:00"
+    },
+    "source_published_at": "2026-11-09T16:46:35+00:00",
+    "source_retrieved_at": "2026-11-10T16:39:53.240698+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "The Ministry of Interior of the UAE postponed the limit on the number of vehicles residents may license.",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "The postponement is pending the completion of a review and approval of appropriate regulatory requirements.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "The review will consider the rights of vehicle owners, the needs of families and investors, and how vehicles are used, including classic, rare and luxury vehicles.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Ministry of Interior postpones vehicle licensing limit for residents pending further review"
+        },
+        {
+          "id": 1,
+          "text": "ABU DHABI, 9th November, 2026 (WAM) -- In line with its commitment to listening to public feedback and considering the needs of different segments of society, the Ministry of Interior has announced that it will postpone the limit on the number of vehicles residents may license under Article 89 of the new Implementing Regulations of the Traffic Law, pending the completion of a review and approval of the appropriate regulatory requirements.The review will consider the rights of vehicle owners, the needs of families and investors, and how vehicles are used, including classic, rare and luxury vehicles.The Ministry of Interior emphasised that public feedback and suggestions are central to improving legislation and enhancing quality of life, while protecting rights and taking different interests into account."
+        }
+      ],
+      "source_hash": "92d261a8fa0828bf74d74aacfbe30ede67bd4ac4a3e3aeb5515e13dab7ab9e75",
+      "summary_hash": "d64e204e8c204c0854eaf1ea7910e6f34f6b25ffdd089c939d8672cda40cfd8a",
+      "checked_at": "2026-11-10T16:40:19.657613+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "wam.ae",
+    "title": "Ministry of Interior postpones vehicle licensing limit for residents pending further review",
+    "summary_ru": "<b>🚗 Министерство внутренних дел ОАЭ отложило ограничение на количество автомобилей</b>\n\nМинистерство внутренних дел объявило о переносе введения лимита на количество транспортных средств, которые жители могут зарегистрировать, до завершения дополнительного обзора и утверждения нормативных требований.\n\nОбзор учтёт права владельцев, потребности семей и инвесторов, а также особенности использования автомобилей, включая классические и роскошные модели.",
+    "published": "2026-11-10T16:40:06.502616+00:00",
+    "source_urls": [
+      "https://www.wam.ae/en/article/c363drw-ministry-interior-postpones-vehicle-licensing"
+    ],
+    "lang": "en",
+    "content_hash": "77edb8e1d4756772c8b19d4447d0a188",
+    "strict_hash": "77edb8e1d4756772c8b19d4447d0a188",
+    "fuzzy_hash": "16fe9586770ccffe89cffce7ee623402",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о переносе ограничения на количество автомобилей для жителей ОАЭ относится к сфере транспорта и законодательства, что соответствует тематике канала."
+      }
+    },
+    "image_url": "",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-11-10T16:40:51.950028+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1759
+    },
+    "published_at": "2026-11-10T16:40:51.964609+00:00",
+    "source_url": "https://www.wam.ae/en/article/c363drw-ministry-interior-postpones-vehicle-licensing",
     "summary": "",
     "summary_en": "",
     "source_names": [],
