@@ -1,43 +1,4 @@
 {
-  "a7b03feca3ed4630a73e9ebe975a9264095d60b5eb4d6c794e057229d6255eea": {
-    "saved_at": "2026-11-03T10:16:00.095157+00:00",
-    "result": {
-      "id": "chatcmpl-Eg5qY1coxnVXxkysYxo2z5545KpkL",
-      "object": "chat.completion",
-      "created": 1793700958,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Власти Дубая представят первую интегрированную систему мониторинга для мотоциклов доставки.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Она будет собирать данные о скорости, резком торможении и маршрутах.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Система помогает компаниям улучшать управление и безопасность.\",\"supported\":true,\"evidence\":[2,5]},{\"claim\":\"Установка устройств и подключение к платформе будет добровольным до середины 2027 года.\",\"supported\":true,\"evidence\":[6,7]},{\"claim\":\"Затем установка устройств и подключение к платформе станет обязательным.\",\"supported\":true,\"evidence\":[8]},{\"claim\":\"Система разработана для повышения качества услуг и безопасности на дорогах.\",\"supported\":true,\"evidence\":[5,11]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1347,
-        "completion_tokens": 205,
-        "total_tokens": 1552,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d7134fbeff"
-    }
-  },
   "105cd5f4626eb2e34694d28258b5b4d61205b6d4f98643b3d9f684e1b207a2d3": {
     "saved_at": "2026-11-03T18:09:39.924836+00:00",
     "result": {
@@ -1128,6 +1089,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_57f7a0b570"
+    }
+  },
+  "a6defc3b62fad03370bdc6f8d4290022e5a3496dc3c2514ab53426182ba510aa": {
+    "saved_at": "2026-11-10T16:40:19.657626+00:00",
+    "result": {
+      "id": "chatcmpl-EijBK1LnZ2Ryk8GoUZU5DaF4c9zZe",
+      "object": "chat.completion",
+      "created": 1794328818,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Ministry of Interior of the UAE postponed the limit on the number of vehicles residents may license.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The postponement is pending the completion of a review and approval of appropriate regulatory requirements.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The review will consider the rights of vehicle owners, the needs of families and investors, and how vehicles are used, including classic, rare and luxury vehicles.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 727,
+        "completion_tokens": 128,
+        "total_tokens": 855,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
     }
   }
 }

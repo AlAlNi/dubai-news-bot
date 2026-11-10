@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "source_snapshot": {
+      "title": "Ministry of Interior postpones vehicle licensing limit for residents pending further review",
+      "text": "ABU DHABI, 9th November, 2026 (WAM) -- In line with its commitment to listening to public feedback and considering the needs of different segments of society, the Ministry of Interior has announced that it will postpone the limit on the number of vehicles residents may license under Article 89 of the new Implementing Regulations of the Traffic Law, pending the completion of a review and approval of the appropriate regulatory requirements.The review will consider the rights of vehicle owners, the needs of families and investors, and how vehicles are used, including classic, rare and luxury vehicles.The Ministry of Interior emphasised that public feedback and suggestions are central to improving legislation and enhancing quality of life, while protecting rights and taking different interests into account.",
+      "url": "https://www.wam.ae/en/article/c363drw-ministry-interior-postpones-vehicle-licensing",
+      "published_at": "2026-11-09T16:46:35+00:00"
+    },
+    "source_published_at": "2026-11-09T16:46:35+00:00",
+    "source_retrieved_at": "2026-11-10T16:39:53.240698+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "The Ministry of Interior of the UAE postponed the limit on the number of vehicles residents may license.",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "The postponement is pending the completion of a review and approval of appropriate regulatory requirements.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "The review will consider the rights of vehicle owners, the needs of families and investors, and how vehicles are used, including classic, rare and luxury vehicles.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Ministry of Interior postpones vehicle licensing limit for residents pending further review"
+        },
+        {
+          "id": 1,
+          "text": "ABU DHABI, 9th November, 2026 (WAM) -- In line with its commitment to listening to public feedback and considering the needs of different segments of society, the Ministry of Interior has announced that it will postpone the limit on the number of vehicles residents may license under Article 89 of the new Implementing Regulations of the Traffic Law, pending the completion of a review and approval of the appropriate regulatory requirements.The review will consider the rights of vehicle owners, the needs of families and investors, and how vehicles are used, including classic, rare and luxury vehicles.The Ministry of Interior emphasised that public feedback and suggestions are central to improving legislation and enhancing quality of life, while protecting rights and taking different interests into account."
+        }
+      ],
+      "source_hash": "92d261a8fa0828bf74d74aacfbe30ede67bd4ac4a3e3aeb5515e13dab7ab9e75",
+      "summary_hash": "d64e204e8c204c0854eaf1ea7910e6f34f6b25ffdd089c939d8672cda40cfd8a",
+      "checked_at": "2026-11-10T16:40:19.657613+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "wam.ae",
+    "title": "Ministry of Interior postpones vehicle licensing limit for residents pending further review",
+    "summary_ru": "<b>🚗 Министерство внутренних дел ОАЭ отложило ограничение на количество автомобилей</b>\n\nМинистерство внутренних дел объявило о переносе введения лимита на количество транспортных средств, которые жители могут зарегистрировать, до завершения дополнительного обзора и утверждения нормативных требований.\n\nОбзор учтёт права владельцев, потребности семей и инвесторов, а также особенности использования автомобилей, включая классические и роскошные модели.",
+    "published": "2026-11-10T16:40:06.502616+00:00",
+    "source_urls": [
+      "https://www.wam.ae/en/article/c363drw-ministry-interior-postpones-vehicle-licensing"
+    ],
+    "lang": "en",
+    "content_hash": "82497797056081894f53fd9383e8f541",
+    "strict_hash": "82497797056081894f53fd9383e8f541",
+    "fuzzy_hash": "bfbf9e46827bd45b8fcd53c2622db75b",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о переносе ограничения на количество автомобилей для жителей ОАЭ относится к сфере транспорта и законодательства, что соответствует тематике канала."
+      }
+    },
+    "image_url": "https://www.wam.ae/assets/images/logo/logo.png",
+    "slot_target": "evening"
+  }
+]
