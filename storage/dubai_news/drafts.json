@@ -1,1 +1,173 @@
-[]
+[
+  {
+    "source_snapshot": {
+      "title": "New UAE traffic regulations require tracking devices on all rental vehicles",
+      "text": "Abu Dhabi: The new executive regulations for the UAE Traffic Law, which will come into effect at the beginning of January, 2027, set out a series of conditions and obligations for vehicle rental activities in the country, including a requirement to install tracking devices on all vehicles designated for rental. Under Article 123, companies must obtain prior authorisation from the licensing authority before engaging in vehicle rental activities. The authorisation is valid for one calendar year and is renewable. To obtain authorisation, companies must meet several requirements, including holding a valid commercial licence, installing approved tracking devices on all vehicles designated for rental, and registering with and linking to the unified electronic platform approved by the Ministry and licensing authority. Companies must also meet any additional requirements imposed by the competent authorities or traffic control authority. Article 124 sets out five key obligations for licensed rental offices. These include verifying the validity of the renter’s driving licence, using a unified rental agreement for transactions and electronically registering the agreement with the licensing authority. Rental offices may only rent vehicles registered in their name and licensed for that purpose. The article also prohibits vehicles from being loaned between rental offices except under a notarised contract. Employees of the same office may use its vehicles, subject to approved regulations. Under Article 126, the relevant ministry will establish and design an electronic system to register rental office vehicles, record their data and information relating to vehicle rentals, and track the geographical scope of their movements. Article 127 prohibits the rental or leasing of private vehicles that are not licensed for rental purposes. It also prohibits the use of such vehicles to transport passengers or goods in return for any form of material compensation.",
+      "url": "https://www.emirates247.com/uae/new-uae-traffic-regulations-require-tracking-devices-on-all-rental-vehicles/7585",
+      "published_at": "2026-11-09T08:13:00+00:00"
+    },
+    "source_published_at": "2026-11-09T08:13:00+00:00",
+    "source_retrieved_at": "2026-11-10T22:01:00.412995+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "From January 2027, all rental cars in the UAE must be equipped with tracking devices.",
+          "supported": true,
+          "evidence": [
+            1,
+            4
+          ]
+        },
+        {
+          "claim": "Companies must obtain a rental permit valid for one year.",
+          "supported": true,
+          "evidence": [
+            2,
+            3
+          ]
+        },
+        {
+          "claim": "The permit requires installation of approved tracking devices and registration on a unified electronic platform.",
+          "supported": true,
+          "evidence": [
+            4
+          ]
+        },
+        {
+          "claim": "There are requirements to verify renters' driving licenses and to electronically register rental agreements.",
+          "supported": true,
+          "evidence": [
+            7
+          ]
+        },
+        {
+          "claim": "Rental of private cars without a license for this activity is prohibited.",
+          "supported": true,
+          "evidence": [
+            12
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "New UAE traffic regulations require tracking devices on all rental vehicles"
+        },
+        {
+          "id": 1,
+          "text": "Abu Dhabi: The new executive regulations for the UAE Traffic Law, which will come into effect at the beginning of January, 2027, set out a series of conditions and obligations for vehicle rental activities in the country, including a requirement to install tracking devices on all vehicles designated for rental."
+        },
+        {
+          "id": 2,
+          "text": "Under Article 123, companies must obtain prior authorisation from the licensing authority before engaging in vehicle rental activities."
+        },
+        {
+          "id": 3,
+          "text": "The authorisation is valid for one calendar year and is renewable."
+        },
+        {
+          "id": 4,
+          "text": "To obtain authorisation, companies must meet several requirements, including holding a valid commercial licence, installing approved tracking devices on all vehicles designated for rental, and registering with and linking to the unified electronic platform approved by the Ministry and licensing authority."
+        },
+        {
+          "id": 5,
+          "text": "Companies must also meet any additional requirements imposed by the competent authorities or traffic control authority."
+        },
+        {
+          "id": 6,
+          "text": "Article 124 sets out five key obligations for licensed rental offices."
+        },
+        {
+          "id": 7,
+          "text": "These include verifying the validity of the renter’s driving licence, using a unified rental agreement for transactions and electronically registering the agreement with the licensing authority."
+        },
+        {
+          "id": 8,
+          "text": "Rental offices may only rent vehicles registered in their name and licensed for that purpose."
+        },
+        {
+          "id": 9,
+          "text": "The article also prohibits vehicles from being loaned between rental offices except under a notarised contract."
+        },
+        {
+          "id": 10,
+          "text": "Employees of the same office may use its vehicles, subject to approved regulations."
+        },
+        {
+          "id": 11,
+          "text": "Under Article 126, the relevant ministry will establish and design an electronic system to register rental office vehicles, record their data and information relating to vehicle rentals, and track the geographical scope of their movements."
+        },
+        {
+          "id": 12,
+          "text": "Article 127 prohibits the rental or leasing of private vehicles that are not licensed for rental purposes."
+        },
+        {
+          "id": 13,
+          "text": "It also prohibits the use of such vehicles to transport passengers or goods in return for any form of material compensation."
+        }
+      ],
+      "source_hash": "d5b26d731548c2b2c0b8522b1e45587cbd84f22eb18c1e35aa51a5e19134b448",
+      "summary_hash": "f6af51dd6470f0e9551fee18aef58dd8979ed6e64806d84dedf5102ae94f7fa9",
+      "checked_at": "2026-11-10T22:01:15.172105+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "emirates247.com",
+    "title": "New UAE traffic regulations require tracking devices on all rental vehicles",
+    "summary_ru": "<b>🏠 В ОАЭ с 2027 года вводят новые правила для аренды автомобилей</b>\n\n📅 С января 2027 года все арендные автомобили в ОАЭ должны быть оснащены трекинговыми устройствами. Компании обязаны получить разрешение на аренду, которое действует один год и требует установки одобренных устройств и регистрации на единой электронной платформе.\n\nТакже введены требования по проверке водительских прав арендаторов и обязательной электронной регистрации договоров аренды. Запрещена аренда частных автомобилей без лицензии на этот вид деятельности.",
+    "published": "2026-11-10T22:01:10.661676+00:00",
+    "source_urls": [
+      "https://www.emirates247.com/uae/new-uae-traffic-regulations-require-tracking-devices-on-all-rental-vehicles/7585"
+    ],
+    "lang": "en",
+    "content_hash": "f88db852dfbd47c0b547485ea21d29ec",
+    "strict_hash": "f88db852dfbd47c0b547485ea21d29ec",
+    "fuzzy_hash": "a8dabffb3a2c4ca283d2c64183fc8a07",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новое регулирование в ОАЭ по аренде автомобилей с обязательной установкой трекинговых устройств."
+      }
+    },
+    "image_url": "https://api.emirates247.com/emirates247/uploads/images/2026/11/09/11886.webp",
+    "slot_target": "evening"
+  }
+]
