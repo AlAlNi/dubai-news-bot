@@ -1,43 +1,4 @@
 {
-  "6a3ad023d09c050c0d73f03854112b8c5db858a2872d939df4fb0c91956b12fb": {
-    "saved_at": "2026-11-02T21:00:14.875717+00:00",
-    "result": {
-      "id": "chatcmpl-EftQSwDNcILTn5QSjtyxb5NCztxyu",
-      "object": "chat.completion",
-      "created": 1793653212,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае объявили о создании кампуса Nad Zabeel для исследований и инноваций\",\"supported\":true,\"evidence\":[0,1,10,11,16]},{\"claim\":\"В Дубае представили проект Nad Zabeel — новый центр исследований, разработок и инноваций, который станет частью экосистемы будущего города\",\"supported\":true,\"evidence\":[1,2,10,11,16]},{\"claim\":\"Кампус разместится в парке Забиль и объединит учёных, исследователей и технологические компании\",\"supported\":true,\"evidence\":[11,12,13]},{\"claim\":\"Проект поддерживает цели экономической повестки D33\",\"supported\":true,\"evidence\":[14,15]},{\"claim\":\"Проект направлен на развитие знаний, технологий и привлечение инвестиций\",\"supported\":true,\"evidence\":[9,10,14,15]},{\"claim\":\"Ожидается, что ежегодно в программах кампуса будут участвовать более 30 тысяч специалистов\",\"supported\":true,\"evidence\":[14]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2211,
-        "completion_tokens": 254,
-        "total_tokens": 2465,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d7134fbeff"
-    }
-  },
   "a7b03feca3ed4630a73e9ebe975a9264095d60b5eb4d6c794e057229d6255eea": {
     "saved_at": "2026-11-03T10:16:00.095157+00:00",
     "result": {
@@ -1089,6 +1050,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_07e815c12d"
+    }
+  },
+  "a2a60543a11368c9227b5e52cca2ced5f2ed73a5fb2a166f98c305a8a46f0872": {
+    "saved_at": "2026-11-10T01:01:24.646374+00:00",
+    "result": {
+      "id": "chatcmpl-EiUWhF0MBEvVhxqKqIGdIXxVYlJHm",
+      "object": "chat.completion",
+      "created": 1794272483,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"UAE officially approved a new oral treatment for vitiligo.\",\"supported\":true,\"evidence\":[0,3,10,11]},{\"claim\":\"Vitiligo is a chronic skin disease associated with an autoimmune disorder.\",\"supported\":true,\"evidence\":[7]},{\"claim\":\"The UAE is the first country in the world to approve this therapy.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The treatment is available by prescription and prescribed by specialists in immunological diseases.\",\"supported\":true,\"evidence\":[11]},{\"claim\":\"The launch coincided with the 10th Annual Dermatology Conference in Dubai, where latest dermatology advances and innovative treatments were discussed.\",\"supported\":true,\"evidence\":[3,15,17,18]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1609,
+        "completion_tokens": 179,
+        "total_tokens": 1788,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
     }
   }
 }
