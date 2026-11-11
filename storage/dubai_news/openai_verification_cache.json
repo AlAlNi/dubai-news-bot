@@ -1,43 +1,4 @@
 {
-  "c5c29124df409ded91c3c5037f9873b04cea9fe33d9dc96df253b2a687534bd4": {
-    "saved_at": "2026-11-03T23:46:04.582978+00:00",
-    "result": {
-      "id": "chatcmpl-EgIUUTfNTZoHxWQwAVvc7douEq5Fm",
-      "object": "chat.completion",
-      "created": 1793749562,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In December, the largest Marks & Spencer food hall outside the UK will open at Dubai Festival City with an area of 15,327 sq ft.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The store will carry the full M&S Food range, including more than 3,500 core products and 500 locally sourced products.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Fresh M&S flowers will make their international debut in the region for the first time.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The Middle East will get its first M&S Patisserie.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The store will have sushi, rotisserie chicken, pizza, and a coffee shop counters.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The store offers a wide range of ready meals and products for convenient shopping.\",\"supported\":true,\"evidence\":[1,5,7]},{\"claim\":\"The partnership between Al-Futtaim and M&S has lasted nearly 30 years.\",\"supported\":true,\"evidence\":[8,10]},{\"claim\":\"The first M&S store in Dubai opened in 1998.\",\"supported\":true,\"evidence\":[9]},{\"claim\":\"The new food hall will set a new benchmark for food retail in the UAE.\",\"supported\":true,\"evidence\":[7,8]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1558,
-        "completion_tokens": 306,
-        "total_tokens": 1864,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "5f03e6cf30dac40b435a9db66801ff4fd1370de11146950bbc4726fe690d9d4f": {
     "saved_at": "2026-11-04T03:48:03.090163+00:00",
     "result": {
@@ -1115,6 +1076,45 @@
         "prompt_tokens": 1080,
         "completion_tokens": 162,
         "total_tokens": 1242,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "7add0eccaa76914e3b090af24280d8b2378ff220c7a11d30c6fa73182a2dbd99": {
+    "saved_at": "2026-11-11T02:21:29.355725+00:00",
+    "result": {
+      "id": "chatcmpl-EisFjeZdScxolq4gMeXYPlfKXX0eA",
+      "object": "chat.completion",
+      "created": 1794363687,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Paid parking will be introduced in Abu Dhabi's Musaffah sectors M10 and M17 from 16 November 2026.\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"In the fourth phase of the paid parking system expansion, 4,233 parking spaces will be activated in Musaffah, with 1,645 in sector M10 and 2,588 in sector M17.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"The cost of a standard parking space will be 2 dirhams per hour.\",\"supported\":true,\"evidence\":[9]},{\"claim\":\"Paid parking will help regulate the use of public parking, reduce congestion, and improve traffic flow in one of Abu Dhabi's major industrial and commercial areas.\",\"supported\":true,\"evidence\":[6,7]},{\"claim\":\"Payment for parking is possible through the Darb and TAMM apps.\",\"supported\":true,\"evidence\":[10]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1065,
+        "completion_tokens": 223,
+        "total_tokens": 1288,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
