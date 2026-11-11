@@ -1,43 +1,4 @@
 {
-  "5f03e6cf30dac40b435a9db66801ff4fd1370de11146950bbc4726fe690d9d4f": {
-    "saved_at": "2026-11-04T03:48:03.090163+00:00",
-    "result": {
-      "id": "chatcmpl-EgMGfRxXlw0ulu542WArZFgn0TE4z",
-      "object": "chat.completion",
-      "created": 1793764081,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Sharjah, gatherings in open desert areas are allowed.\",\"supported\":true,\"evidence\":[0,1,3,8,9]},{\"claim\":\"Sharjah Police clarified that residents can freely visit and gather in open desert areas if they comply with traffic rules and restrictions in certain zones.\",\"supported\":true,\"evidence\":[1,3,8,9,10]},{\"claim\":\"Being simply present with friends or family in the desert is not a reason for a fine.\",\"supported\":true,\"evidence\":[1,6,9]},{\"claim\":\"Brigadier Khalid Al Kay stated that entry into the desert is not prohibited, but some areas have restrictions marked by signs.\",\"supported\":true,\"evidence\":[1,3,8,9]},{\"claim\":\"Police will investigate the reasons for fines issued to five vehicles to clarify the details.\",\"supported\":true,\"evidence\":[4,5,6,9]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1363,
-        "completion_tokens": 215,
-        "total_tokens": 1578,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "d6b731d74c58735fe77ce73f61b16dc97b4dc025ffbb9e12f3300ba479d86bcf": {
     "saved_at": "2026-11-04T11:42:54.995068+00:00",
     "result": {
@@ -1115,6 +1076,45 @@
         "prompt_tokens": 1065,
         "completion_tokens": 223,
         "total_tokens": 1288,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "be2e37d7126c293419f90e61fb69ba636b0496ea91b37518732d2ba91c4d1330": {
+    "saved_at": "2026-11-11T09:59:06.526642+00:00",
+    "result": {
+      "id": "chatcmpl-EizOaK3L6qxni4BiBEgxcPJnMeh6o",
+      "object": "chat.completion",
+      "created": 1794391144,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае утвердили план развития общественных услуг и инфраструктуры до 2040 года с бюджетом в AED9.59 млрд.\",\"supported\":true,\"evidence\":[2,17]},{\"claim\":\"Одобрен проект продления метро до города аэропорта Аль-Мактум с бюджетом AED2 млрд.\",\"supported\":true,\"evidence\":[2,18]},{\"claim\":\"Продление метро создаст 3-километровый маршрут с двумя новыми станциями, соединяющими маршрут 2020 с аэропортом.\",\"supported\":true,\"evidence\":[18]},{\"claim\":\"Открытие продления метро запланировано на 2031 год.\",\"supported\":true,\"evidence\":[18]},{\"claim\":\"План предусматривает развитие объектов безопасности, здравоохранения, образования и спорта, а также улучшение условий для пожилых и семейных мероприятий.\",\"supported\":true,\"evidence\":[17,18]},{\"claim\":\"Исследование рынка недвижимости поддержит стратегию развития сектора до 2033 года.\",\"supported\":true,\"evidence\":[19,20]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2193,
+        "completion_tokens": 251,
+        "total_tokens": 2444,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
