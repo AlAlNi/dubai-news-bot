@@ -1,43 +1,4 @@
 {
-  "d6b731d74c58735fe77ce73f61b16dc97b4dc025ffbb9e12f3300ba479d86bcf": {
-    "saved_at": "2026-11-04T11:42:54.995068+00:00",
-    "result": {
-      "id": "chatcmpl-EgTgDktBxSMa0OgH3QUZ0xMcIFo76",
-      "object": "chat.completion",
-      "created": 1793792573,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the UAE, doctors responsible for emergency medical assistance and drivers of certain essential services can exceed speed limits outside built-up areas by up to 40 km/h.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The new decision also allows the use of road shoulders and designated bus lanes during traffic congestion.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Drivers must comply with traffic rules, not run red lights, and observe speed limits near schools and hospitals.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Drivers must complete special training to obtain permission to use road priority.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Drivers must notify relevant authorities when using road priority.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1353,
-        "completion_tokens": 180,
-        "total_tokens": 1533,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_d94716f877"
-    }
-  },
   "0610593e84ffb619a6907177a5619cef5e5711aa18e725722bb5ebf550d6f967": {
     "saved_at": "2026-11-04T19:01:03.815592+00:00",
     "result": {
@@ -1115,6 +1076,45 @@
         "prompt_tokens": 2193,
         "completion_tokens": 251,
         "total_tokens": 2444,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "26b1b099a73f4febb66daa872a5384a42e76d81552e14cc6bd3de67bba4fa60d": {
+    "saved_at": "2026-11-11T17:42:28.017465+00:00",
+    "result": {
+      "id": "chatcmpl-Ej6d0371VFtVB2ceSHc5shwHUF4SJ",
+      "object": "chat.completion",
+      "created": 1794418946,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Residents of 22 Dubai Residential communities can split rent payments into smaller parts instead of paying a large sum upfront.\",\"supported\":true,\"evidence\":[0,1,4]},{\"claim\":\"The new scheme is available to new tenants and those renewing their leases.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Dubai Residential's portfolio includes over 146,000 residents and communities such as Bluewaters, City Walk, and Nad Al Sheba Villas.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"Payment can be made using credit cards from some banks, with terms and fees depending on Rentify.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"This scheme allows tenants to better manage expenses by splitting the first quarterly rent payment into smaller installments.\",\"supported\":true,\"evidence\":[1,2,3,5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1514,
+        "completion_tokens": 201,
+        "total_tokens": 1715,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
