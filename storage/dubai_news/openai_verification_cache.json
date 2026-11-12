@@ -1,43 +1,4 @@
 {
-  "eb06e35ed1c61ee2df0bef7dfbd380859e43f762153df05704fbc1acbec024ed": {
-    "saved_at": "2026-11-05T00:36:23.114398+00:00",
-    "result": {
-      "id": "chatcmpl-EgfkjRoeu1kz8DBZQTeJyObOElQ2a",
-      "object": "chat.completion",
-      "created": 1793838981,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai International Airport remained the world's busiest international airport in November by number of seats.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Dubai International Airport had 8.94 million seats in both directions in November.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Dubai International Airport had 4.47 million seats departing in November.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Dubai International Airport had nearly 680,000 more seats than London's Heathrow Airport, which ranked second.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Dubai International Airport is the main hub for Emirates and flydubai.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Dubai International Airport connects Asia, Europe, Africa, and the Americas.\",\"supported\":true,\"evidence\":[5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1120,
-        "completion_tokens": 194,
-        "total_tokens": 1314,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_57f7a0b570"
-    }
-  },
   "925a51cb9a9ac0ca31a119e7d3539adb4330ef74ad2b0c2caa5984ade7225a17": {
     "saved_at": "2026-11-05T07:30:47.425622+00:00",
     "result": {
@@ -1115,6 +1076,45 @@
         "prompt_tokens": 1453,
         "completion_tokens": 211,
         "total_tokens": 1664,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "ea56b4d3596fe16477410f35deed973b4dc920e084ac8a7c30775a5f185559a9": {
+    "saved_at": "2026-11-12T04:48:19.821100+00:00",
+    "result": {
+      "id": "chatcmpl-EjH1OHJwaHoiTr3pFN6YFJ2rYPpi9",
+      "object": "chat.completion",
+      "created": 1794458898,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Nakheel представил жилой проект Palm Springs в южном Дубае\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Компания Nakheel объявила о запуске Palm Springs — жилого комплекса площадью 3,8 млн кв.м рядом с Palm Jebel Ali\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Проект рассчитан на почти 50 000 жителей и включает 15 районов\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"В Palm Springs будут виллы, таунхаусы, квартиры, школы, больница, шесть мечетей, спортивный и загородный клубы, а также торговые и культурные объекты\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Проект получил LEED Platinum Precertification за экологичные решения по воде, энергии и отходам\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Планируется около 593 000 кв.м открытых пространств с парками и более 35 км маршрутов для прогулок и спорта, соединяющих районы с инфраструктурой\",\"supported\":true,\"evidence\":[4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 981,
+        "completion_tokens": 269,
+        "total_tokens": 1250,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
