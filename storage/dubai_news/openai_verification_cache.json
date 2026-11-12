@@ -1,43 +1,4 @@
 {
-  "925a51cb9a9ac0ca31a119e7d3539adb4330ef74ad2b0c2caa5984ade7225a17": {
-    "saved_at": "2026-11-05T07:30:47.425622+00:00",
-    "result": {
-      "id": "chatcmpl-EgmDlE2vvSM15NBz1Y4EzAV3HmhIw",
-      "object": "chat.completion",
-      "created": 1793863845,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, 2027, the UAE will introduce two-year car registration.\",\"supported\":true,\"evidence\":[0,1,6]},{\"claim\":\"Owners of light vehicles can apply for two-year registration instead of annual renewal if their vehicle meets three conditions.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"The vehicle must be new at first registration.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The vehicle must be no older than six years.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The vehicle must be owned by an individual (not a company or legal entity).\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"New rules prohibit registration of right-hand-drive vehicles for road use in the UAE.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Registration may be cancelled if the vehicle has serious damage or does not meet safety requirements.\",\"supported\":true,\"evidence\":[5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1580,
-        "completion_tokens": 222,
-        "total_tokens": 1802,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_57f7a0b570"
-    }
-  },
   "0b9ec07bf1c0d462a8c8b8c1dbe2362ea4c6416a8f73a9b6f9a0b2d909fa04f3": {
     "saved_at": "2026-11-05T15:54:21.448798+00:00",
     "result": {
@@ -1115,6 +1076,45 @@
         "prompt_tokens": 981,
         "completion_tokens": 269,
         "total_tokens": 1250,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "a0bc435ab226b16b28a820f183c8de97bc16eadaac1edaab6bbc01c8ffc7e347": {
+    "saved_at": "2026-11-12T13:26:00.212953+00:00",
+    "result": {
+      "id": "chatcmpl-EjP6MHLMnmf23kpA8GpuSfUcSSW9k",
+      "object": "chat.completion",
+      "created": 1794489958,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Время прохождения паспортного контроля в аэропорту Дубая сократили до 3,4 секунды\",\"supported\":true,\"evidence\":[0,1,2,4,5]},{\"claim\":\"В аэропорту Дубая внедрили обновленную систему умных ворот, которая позволяет зарегистрированным пассажирам проходить иммиграционный контроль всего за 3,4 секунды\",\"supported\":true,\"evidence\":[1,2,4,5]},{\"claim\":\"Технология использует биометрические данные, зарегистрированные при регистрации на рейс, чтобы ускорить проверку личности и сделать перемещение по аэропорту более удобным и быстрым\",\"supported\":true,\"evidence\":[1,2,3]},{\"claim\":\"Система помогает снизить очереди и улучшить координацию служб в аэропорту\",\"supported\":true,\"evidence\":[3]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1392,
+        "completion_tokens": 212,
+        "total_tokens": 1604,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
