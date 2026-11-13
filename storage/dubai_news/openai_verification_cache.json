@@ -1,121 +1,4 @@
 {
-  "f538e62b8e9c670a9790e316f3ed63d9c7e629025b52632d48eba23c49eb1cc0": {
-    "saved_at": "2026-11-05T21:40:25.529668+00:00",
-    "result": {
-      "id": "chatcmpl-EgzTzEdmsexbpUH2pnwhptoAYyaaI",
-      "object": "chat.completion",
-      "created": 1793914823,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"In Ajman, paid parking will be introduced from November 7.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"From November 7, 2026, paid parking will start on three streets: Sheikh Zayed, Al Salam, and Al Hajin.\",\"supported\":true,\"evidence\":[1,2,4]},{\"claim\":\"This decision aims to regulate the public parking system and improve traffic flow in the emirate.\",\"supported\":true,\"evidence\":[3,5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 826,
-        "completion_tokens": 128,
-        "total_tokens": 954,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
-  "b5fec433a0b180cf9d1264f1340aa69f09144e437cf48bfbcffdf40088eb09c0": {
-    "saved_at": "2026-11-06T01:53:56.371389+00:00",
-    "result": {
-      "id": "chatcmpl-Eh3RKJBCOGMdalKwRrbqIdmKHgtaj",
-      "object": "chat.completion",
-      "created": 1793930034,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае появится новая карта оплаты nol–Jaywan.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"С ноября 2026 года начнётся пилотный запуск новой карты nol–Jaywan для оплаты общественного транспорта, такси и парковок в Дубае.\",\"supported\":true,\"evidence\":[1,2,7]},{\"claim\":\"Карта объединит существующую систему nol с национальной схемой платежей Jaywan.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Карта расширяет возможности цифровых платежей и предлагает более 120 скидок и акций.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Карту можно будет активировать и использовать через смартфоны на Android и iOS.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Карту можно применять для оплаты услуг в общественном и частном транспорте по всей ОАЭ.\",\"supported\":true,\"evidence\":[2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1516,
-        "completion_tokens": 231,
-        "total_tokens": 1747,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
-  "2f79686140be683c44b20f90cbb99ab4c8babc20d6539851c0072f373e5ef4a8": {
-    "saved_at": "2026-11-06T01:54:03.406259+00:00",
-    "result": {
-      "id": "chatcmpl-Eh3RS3IKAyHB4apc6LZk0sdoymyeZ",
-      "object": "chat.completion",
-      "created": 1793930042,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The Al Dhaid Bridge in Sharjah will open on November 15.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The Al Dhaid Bridge is 320 meters long.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The bridge will improve transport communication and connectivity between key routes in the emirate's central region.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The project includes four lifts, balconies, and viewing platforms overlooking Al Dhaid Lake, combining transport function with architectural and recreational elements.\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1010,
-        "completion_tokens": 145,
-        "total_tokens": 1155,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "32fa8505738bd64dea9314267e222335f5a34f803228165559e24b30529222e7": {
     "saved_at": "2026-11-06T08:43:10.232167+00:00",
     "result": {
@@ -1115,6 +998,45 @@
         "prompt_tokens": 1964,
         "completion_tokens": 247,
         "total_tokens": 2211,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "9951090c225c39712a8eeee8438236a6266e08ad9f60044c1f0602d732a11eb5": {
+    "saved_at": "2026-11-13T02:15:46.902211+00:00",
+    "result": {
+      "id": "chatcmpl-Ejb7JgUgtXzo1uewC7vCY3McvwM48",
+      "object": "chat.completion",
+      "created": 1794536145,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Ras Al Khaimah reopened seven public and resort beaches after nearly three weeks of closure due to oil spill concerns.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The reopened beaches include Flamingo Beach, Dahan Beach, Al Maireedh Beach, and Al Rams Corniche.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Beaches at three major resorts were also reopened.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The beach closures were ordered on October 24 as a precautionary measure after an oil spill from a tanker.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The oil leak was stopped on October 30, pollution declined, and cleanup and monitoring operations continue.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Authorities urge compliance with safety instructions and monitoring of official announcements.\",\"supported\":true,\"evidence\":[1,2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1157,
+        "completion_tokens": 214,
+        "total_tokens": 1371,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
