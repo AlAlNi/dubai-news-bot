@@ -1,43 +1,4 @@
 {
-  "caac7acb886cc690ef9579da0a4581af80cd9c7007674e07924ee77b30124d4d": {
-    "saved_at": "2026-11-06T16:27:39.253155+00:00",
-    "result": {
-      "id": "chatcmpl-EhH4qOEXCndqY0alpaAk7Xth0gPh5",
-      "object": "chat.completion",
-      "created": 1793982456,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"The UAE Ministry of Health and Prevention announced an improved system for sick leave certificate attestation in healthcare facilities in Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Now healthcare facilities, not patients, submit attestation applications, reducing bureaucracy.\",\"supported\":true,\"evidence\":[1,2,3]},{\"claim\":\"There is an automatic link between attestation and approval of sick leaves that speeds up the process for employees of the federal and local governments of these emirates.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"The application process for leave for patient companions has also been simplified.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"The Ministry links these changes to the UAE Government’s Zero Bureaucracy program and aims to improve the quality and speed of government services.\",\"supported\":true,\"evidence\":[5,6,8]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1399,
-        "completion_tokens": 225,
-        "total_tokens": 1624,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "fd2cfc8230705f752767f6fbd67c9fb16d77d15069d638c995ebe9418c51de57": {
     "saved_at": "2026-11-06T21:51:26.348458+00:00",
     "result": {
@@ -1050,6 +1011,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_98a8cc63cd"
+    }
+  },
+  "9c44fd75fec697a20131673ff922a47772e393ce616a4d39d15ff9f8f91a73a6": {
+    "saved_at": "2026-11-13T18:15:57.875179+00:00",
+    "result": {
+      "id": "chatcmpl-Ejq6VOKDQtk9uehY4d0IbgZq885Fd",
+      "object": "chat.completion",
+      "created": 1794593755,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"New UAE traffic regulations tighten vehicle recall and inspection rules starting from January 2027.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Commercial agents are required to repair manufacturing defects free of charge.\",\"supported\":true,\"evidence\":[2,10]},{\"claim\":\"Commercial agents must inform vehicle owners about recalls.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"Authorities can suspend transactions involving vehicles whose owners do not respond to recall notices.\",\"supported\":true,\"evidence\":[2,7,8,9]},{\"claim\":\"New requirements are introduced for technical inspection and updating vehicle owner data.\",\"supported\":true,\"evidence\":[12,13,14,15,16]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1580,
+        "completion_tokens": 170,
+        "total_tokens": 1750,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_f520c192d2"
     }
   }
 }
