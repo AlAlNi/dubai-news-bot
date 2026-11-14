@@ -1,43 +1,4 @@
 {
-  "fd2cfc8230705f752767f6fbd67c9fb16d77d15069d638c995ebe9418c51de57": {
-    "saved_at": "2026-11-06T21:51:26.348458+00:00",
-    "result": {
-      "id": "chatcmpl-EhM8CODlIX4TM0sS56kE3goMoni2e",
-      "object": "chat.completion",
-      "created": 1794001884,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the UAE, 15 criteria have been approved for the practical driving test.\",\"supported\":true,\"evidence\":[0,2,5]},{\"claim\":\"The minimum passing score is 75%.\",\"supported\":true,\"evidence\":[0,3,23,32]},{\"claim\":\"The criteria include vehicle control, parking, maneuvering on slopes, maintaining distance, and correct use of mirrors and signals.\",\"supported\":true,\"evidence\":[5,6,7,9,10,19,20,12]},{\"claim\":\"The exam is conducted by licensing authorities or accredited driving schools.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Any candidate scoring less than 75% is considered to have failed and is given a new date to retake the test.\",\"supported\":true,\"evidence\":[3,23]},{\"claim\":\"A candidate can also fail the exam if they create a dangerous situation even if they have a sufficient score.\",\"supported\":true,\"evidence\":[24]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1612,
-        "completion_tokens": 229,
-        "total_tokens": 1841,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_07e815c12d"
-    }
-  },
   "d1de6487670c34803b264f53e59a5f64ecbe571aa152a8024b52fb8d2669de7c": {
     "saved_at": "2026-11-07T01:25:21.237241+00:00",
     "result": {
@@ -1037,6 +998,45 @@
         "prompt_tokens": 1580,
         "completion_tokens": 170,
         "total_tokens": 1750,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_f520c192d2"
+    }
+  },
+  "08197745b2778f20448ca696168aac9550e5d99693c5aa579bbe460b13dae77c": {
+    "saved_at": "2026-11-14T00:01:26.052416+00:00",
+    "result": {
+      "id": "chatcmpl-EjvUqBm280H2qd6CBQ3LzNCBK5lqM",
+      "object": "chat.completion",
+      "created": 1794614484,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the Russian post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Banks in the UAE began notifying customers about changes in service terms and tariffs effective from the beginning of 2027.\",\"supported\":true,\"evidence\":[1,4,5,11]},{\"claim\":\"The new terms cover accounts, credit cards, loans, and digital services including the use of facial recognition for transaction verification.\",\"supported\":true,\"evidence\":[6,8]},{\"claim\":\"Customers are advised to carefully review notices, especially sections on fees, digital authentication, and data use.\",\"supported\":true,\"evidence\":[2,7,8,15]},{\"claim\":\"The changes do not necessarily mean a mandatory increase in all tariffs; some updates concern only wording and procedures.\",\"supported\":true,\"evidence\":[3,9]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1489,
+        "completion_tokens": 177,
+        "total_tokens": 1666,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
