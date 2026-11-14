@@ -1,1 +1,120 @@
-[]
+[
+  {
+    "source_snapshot": {
+      "title": "Emirates warns of delayed booking emails due to global email outage",
+      "text": "Dubai: Emirates Airlines has announced that booking confirmation emails may take longer than usual to reach passengers' inboxes due to a global outage affecting email delivery services. In a notice posted on its website, the airline clarified that bookings remain secure despite the delay in receiving confirmation emails and emphasised that passengers do not need to take any further action. Emirates apologised for any inconvenience this delay may cause and expressed its appreciation for passengers' patience and understanding.",
+      "url": "https://www.emirates247.com/uae/emirates-warns-of-delayed-booking-emails-due-to-global-email-outage/7763",
+      "published_at": "2026-11-13T17:34:00+00:00"
+    },
+    "source_published_at": "2026-11-13T17:34:00+00:00",
+    "source_retrieved_at": "2026-11-14T19:33:19.513311+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the Russian post are directly supported by the source passages.",
+      "claims": [
+        {
+          "claim": "Emirates warned of delays with booking confirmation emails due to a global email outage.",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "Passengers should consider that emails may arrive with delay, but bookings remain secure.",
+          "supported": true,
+          "evidence": [
+            1,
+            2
+          ]
+        },
+        {
+          "claim": "The company asks passengers not to take any additional actions and apologizes for the inconvenience.",
+          "supported": true,
+          "evidence": [
+            2,
+            3
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Emirates warns of delayed booking emails due to global email outage"
+        },
+        {
+          "id": 1,
+          "text": "Dubai: Emirates Airlines has announced that booking confirmation emails may take longer than usual to reach passengers' inboxes due to a global outage affecting email delivery services."
+        },
+        {
+          "id": 2,
+          "text": "In a notice posted on its website, the airline clarified that bookings remain secure despite the delay in receiving confirmation emails and emphasised that passengers do not need to take any further action."
+        },
+        {
+          "id": 3,
+          "text": "Emirates apologised for any inconvenience this delay may cause and expressed its appreciation for passengers' patience and understanding."
+        }
+      ],
+      "source_hash": "b6360e2eb37f3a14e1bdcda0b1aa38dd0f8db96b97997933272703b37461516e",
+      "summary_hash": "22f7348bee40d5f4a49834aa56f28e44b662b50090c7d73930de6f98fce4f9e8",
+      "checked_at": "2026-11-14T19:33:33.462645+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "emirates247.com",
+    "title": "Emirates warns of delayed booking emails due to global email outage",
+    "summary_ru": "<b>✈️ Emirates предупредила о задержках с подтверждением бронирований из-за глобального сбоя в работе электронной почты.</b>\n\nПассажирам следует учитывать, что письма могут приходить с задержкой, но бронирования остаются в безопасности. Компания просит не предпринимать дополнительных действий и приносит извинения за неудобства.",
+    "published": "2026-11-14T19:33:29.679480+00:00",
+    "source_urls": [
+      "https://www.emirates247.com/uae/emirates-warns-of-delayed-booking-emails-due-to-global-email-outage/7763"
+    ],
+    "lang": "en",
+    "content_hash": "2fd77db8d70b2f46919e465f16ba99c4",
+    "strict_hash": "2fd77db8d70b2f46919e465f16ba99c4",
+    "fuzzy_hash": "2060c590cbc9ae5f20625d96d741a8c3",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о задержке писем с подтверждением бронирования авиакомпании Emirates актуальна для пассажиров и связана с сервисом авиаперевозок в ОАЭ."
+      }
+    },
+    "image_url": "https://api.emirates247.com/emirates247/uploads/images/2026/11/13/12125.webp",
+    "slot_target": "evening"
+  }
+]
