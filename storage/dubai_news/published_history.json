@@ -1,134 +1,6 @@
 [
   {
     "source_snapshot": {
-      "title": "RTA completes conversion of Al Satwa Roundabout into signalised intersection",
-      "text": "DUBAI, 14th October, 2026 (WAM) -- Dubai’s Roads and Transport Authority (RTA) has completed converting Al Satwa Roundabout into a signalised intersection, alongside associated road and infrastructure enhancements, reducing waiting times and traffic queues by up to 60 percent during peak hours.The project, which also included road and infrastructure improvements, aims to ease congestion, improve traffic flow and enhance safety for motorists and pedestrians.The intersection serves traffic travelling along 2nd December Street towards the Trade Centre and Al Satwa in both directions, improving connectivity between major roads and internal streets.Located at a key junction, the intersection serves Al Satwa and neighbouring areas, including the Trade Centre, Al Bada’a, Al Jafiliya, Al Hudaiba and Jumeirah, while providing easier access to Sheikh Zayed Road and surrounding major routes.",
-      "url": "https://www.wam.ae/en/article/c2qm3jr-rta-completes-conversion-satwa-roundabout-into",
-      "published_at": "2026-10-14T10:31:19+00:00"
-    },
-    "source_published_at": "2026-10-14T10:31:19+00:00",
-    "source_retrieved_at": "2026-10-15T12:15:11.006740+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All claims in the post are directly supported by the source text.",
-      "claims": [
-        {
-          "claim": "In Dubai, the Al Satwa roundabout was converted into a signalised intersection.",
-          "supported": true,
-          "evidence": [
-            0,
-            1
-          ]
-        },
-        {
-          "claim": "The conversion reduced waiting times and traffic queues by up to 60% during peak hours.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "The intersection improves traffic flow along 2nd December Street in both directions.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "The intersection provides better connectivity between major roads and internal streets of Al Satwa, Trade Centre, Al Bada’a, and Jumeirah districts.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "RTA completes conversion of Al Satwa Roundabout into signalised intersection"
-        },
-        {
-          "id": 1,
-          "text": "DUBAI, 14th October, 2026 (WAM) -- Dubai’s Roads and Transport Authority (RTA) has completed converting Al Satwa Roundabout into a signalised intersection, alongside associated road and infrastructure enhancements, reducing waiting times and traffic queues by up to 60 percent during peak hours.The project, which also included road and infrastructure improvements, aims to ease congestion, improve traffic flow and enhance safety for motorists and pedestrians.The intersection serves traffic travelling along 2nd December Street towards the Trade Centre and Al Satwa in both directions, improving connectivity between major roads and internal streets.Located at a key junction, the intersection serves Al Satwa and neighbouring areas, including the Trade Centre, Al Bada’a, Al Jafiliya, Al Hudaiba and Jumeirah, while providing easier access to Sheikh Zayed Road and surrounding major routes."
-        }
-      ],
-      "source_hash": "edef76d8966b26fcbb5669e4e56e6a305cb43db56529a2da35f50aa32f5a721c",
-      "summary_hash": "4dd1410829fad7eb78231b1a631449745b62c0ef05bc267282cfe8ed4c7b2eb3",
-      "checked_at": "2026-10-15T12:15:24.869840+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "wam.ae",
-    "title": "RTA completes conversion of Al Satwa Roundabout into signalised intersection",
-    "summary_ru": "<b>🚇 В Дубае преобразовали кольцо Аль-Сатва в регулируемый перекрёсток</b>\n\nВ Дубае завершили преобразование кольца Аль-Сатва в регулируемый светофорами перекрёсток. Это снизило время ожидания и длину пробок до 60% в часы пик.\n\n📅 Перекрёсток улучшает движение по улице 2 декабря в обе стороны и обеспечивает лучшую связь между крупными дорогами и внутренними улицами районов Аль-Сатва, Трейд Центр, Аль-Бадаа и Джумейра.",
-    "published": "2026-10-15T12:15:20.832126+00:00",
-    "source_urls": [
-      "https://www.wam.ae/en/article/c2qm3jr-rta-completes-conversion-satwa-roundabout-into"
-    ],
-    "lang": "en",
-    "content_hash": "4aefa5f8f2214f7cc71acf5313991f82",
-    "strict_hash": "4aefa5f8f2214f7cc71acf5313991f82",
-    "fuzzy_hash": "596e9fc2640106dd6a0a84609247696b",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 100,
-      "ad_readiness_score": 100,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "service_update"
-    },
-    "content_format": "service_update",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о завершении преобразования транспортного узла в Дубае с улучшением дорожной инфраструктуры и снижением пробок."
-      }
-    },
-    "image_url": "",
-    "slot_target": "evening",
-    "publication": {
-      "published_at": "2026-10-15T12:15:47.375887+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1657
-    },
-    "published_at": "2026-10-15T12:15:47.381421+00:00",
-    "source_url": "https://www.wam.ae/en/article/c2qm3jr-rta-completes-conversion-satwa-roundabout-into",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
       "title": "UAE orders recall of face mask batch over possible contamination",
       "text": "The UAE has ordered a recall of a batch of face masks because of concerns about possible contamination of the material used in its manufacture. The Emirates Drug Establishment issued the recall for Nin 160 FMB-NML Facemask C G blue, batch number 20251015. It is described as blue in colour and three-ply in structure. The Dubai Health Authority also issued a circular on Monday instructing healthcare centres to comply with the recall. Officials said Ningbo ETDZ Holdings Ltd in China manufactured the masks, and Globemed Care LLC distributed them in the UAE. The drug regulator said the recall was ordered after a quality complaint. Inspections identified foreign material or contamination in units from the affected batch. Healthcare professionals, hospitals and clinics and pharmacies must immediately stop selling, supplying, distributing or using the affected batch. They must identify and quarantine all available stock, then arrange for its return to the local supplier or distributor, Globemed Care LLC. They must also maintain records of quantities identified, quarantined, and returned. Residents who purchased the affected product should stop using any packs with batch number 20251015 and return them to the point of purchase or supplier. Healthcare providers must report any product quality complaints or adverse incidents related to the masks through EDE-approved reporting channels. Globemed Care LLC has also been ordered to retrieve all distributed quantities from the UAE market. It must also provide the regulator with details of quantities imported, distributed, returned, and remaining in stock, as well as a complete UAE distribution list. The regulator also urged people to report any quality concerns or adverse incidents involving the product directly to the authority.",
       "url": "https://www.thenationalnews.com/news/uae/2026/10/14/uae-orders-recall-of-face-mask-batch-over-possible-contamination/",
@@ -20994,6 +20866,135 @@
     },
     "published_at": "2026-11-14T07:09:46.122456+00:00",
     "source_url": "https://www.emirates247.com/uae/khda-launches-dubais-student-protection-framework-for-private-schools-three-risk-levels-and-a-protection-team-in-every-school/7766",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "2 & 3 December 2026 declared as official holiday for private sector to mark the 55th Eid Al Etihad",
+      "text": "DUBAI, 13th November, 2026 (WAM) -- The Ministry of Human Resources and Emiratisation (MoHRE) has announced that Wednesday and Thursday, 2 and 3 December 2026, will be an official paid holiday for all employees in the private sector across the UAE to mark the 55th Eid Al Etihad.On this occasion, MoHRE extends its sincere congratulations to the wise leadership and people of the UAE, as well as all residents in the country.",
+      "url": "https://www.wam.ae/en/article/c38h3xn-december-2026-declared-official-holiday-for",
+      "published_at": "2026-11-13T13:45:41+00:00"
+    },
+    "source_published_at": "2026-11-13T13:45:41+00:00",
+    "source_retrieved_at": "2026-11-14T14:36:32.945316+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source passages.",
+      "claims": [
+        {
+          "claim": "2 и 3 декабря 2026 объявлены выходными в частном секторе ОАЭ",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "Министерство человеческих ресурсов и эмиграции объявило, что среда и четверг, 2 и 3 декабря 2026 года, будут официальными оплачиваемыми выходными для всех сотрудников частного сектора в ОАЭ",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "Это связано с празднованием 55-го Дня единства (Eid Al Etihad)",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "Министерство поздравило руководство и жителей страны с этим событием",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "2 & 3 December 2026 declared as official holiday for private sector to mark the 55th Eid Al Etihad"
+        },
+        {
+          "id": 1,
+          "text": "DUBAI, 13th November, 2026 (WAM) -- The Ministry of Human Resources and Emiratisation (MoHRE) has announced that Wednesday and Thursday, 2 and 3 December 2026, will be an official paid holiday for all employees in the private sector across the UAE to mark the 55th Eid Al Etihad.On this occasion, MoHRE extends its sincere congratulations to the wise leadership and people of the UAE, as well as all residents in the country."
+        }
+      ],
+      "source_hash": "d9d370a61cc6d96fb81a89ec4c488f5cded83bd7d184b6db2d73ded95f459bf9",
+      "summary_hash": "9c6d034415a1afbd40fcbda2510f530d00d6ecc5a43ae1f1f6a5ce15e51f3151",
+      "checked_at": "2026-11-14T14:36:55.905187+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "wam.ae",
+    "title": "2 & 3 December 2026 declared as official holiday for private sector to mark the 55th Eid Al Etihad",
+    "summary_ru": "<b>🛑 2 и 3 декабря 2026 объявлены выходными в частном секторе ОАЭ</b>\n\n📅 Министерство человеческих ресурсов и эмиграции объявило, что среда и четверг, 2 и 3 декабря 2026 года, будут официальными оплачиваемыми выходными для всех сотрудников частного сектора в ОАЭ.\n\nЭто связано с празднованием 55-го Дня единства (Eid Al Etihad). Министерство поздравило руководство и жителей страны с этим событием.",
+    "published": "2026-11-14T14:36:45.048062+00:00",
+    "source_urls": [
+      "https://www.wam.ae/en/article/c38h3xn-december-2026-declared-official-holiday-for"
+    ],
+    "lang": "en",
+    "content_hash": "f40d95795e3464a7d2bd1c6587f1ca93",
+    "strict_hash": "f40d95795e3464a7d2bd1c6587f1ca93",
+    "fuzzy_hash": "8969d25c1e2b65fea58a19a38da648d3",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Объявлен официальный выходной для частного сектора в ОАЭ на 2 и 3 декабря 2026 года."
+      }
+    },
+    "image_url": "",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-11-14T14:37:20.415114+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1773
+    },
+    "published_at": "2026-11-14T14:37:20.426494+00:00",
+    "source_url": "https://www.wam.ae/en/article/c38h3xn-december-2026-declared-official-holiday-for",
     "summary": "",
     "summary_en": "",
     "source_names": [],
