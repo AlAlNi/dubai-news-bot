@@ -1,43 +1,4 @@
 {
-  "d1de6487670c34803b264f53e59a5f64ecbe571aa152a8024b52fb8d2669de7c": {
-    "saved_at": "2026-11-07T01:25:21.237241+00:00",
-    "result": {
-      "id": "chatcmpl-EhPTEKbkvEX8OjPqxk3kSOQgTjX2j",
-      "object": "chat.completion",
-      "created": 1794014720,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the Russian post are directly supported by the source text.\",\"claims\":[{\"claim\":\"If you buy a ticket to Global Village on November 6, you get free entry on November 7.\",\"supported\":true,\"evidence\":[1,3,4]},{\"claim\":\"To get free entry on November 7, you must keep your ticket from November 6 and present it at the Information Booth at the Gate of the World.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"There are 3100 free tickets available on a first-come, first-served basis.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The offer is valid only on November 7.\",\"supported\":true,\"evidence\":[5]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 817,
-        "completion_tokens": 162,
-        "total_tokens": 979,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "ca0faec067d2fec9f96891f8fb84f027718f815b070f7fc4f1c8bb4cbe9698a3": {
     "saved_at": "2026-11-07T07:57:47.911875+00:00",
     "result": {
@@ -1037,6 +998,45 @@
         "prompt_tokens": 1489,
         "completion_tokens": 177,
         "total_tokens": 1666,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_f520c192d2"
+    }
+  },
+  "df4fb7103396ed62c88323bdf1eb11bfaef619a44a857d00f008b9249b287912": {
+    "saved_at": "2026-11-14T07:09:17.120598+00:00",
+    "result": {
+      "id": "chatcmpl-Ek2AtNCzgI14KmMHP1IUM7Rtq8ZaO",
+      "object": "chat.completion",
+      "created": 1794640155,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"KHDA представила единый каркас безопасности для частных учебных заведений, включая школы, детские центры и вузы.\",\"supported\":true,\"evidence\":[0,1,3]},{\"claim\":\"В системе выделены три уровня риска угроз безопасности учащихся с разными процедурами реагирования.\",\"supported\":true,\"evidence\":[2,19,26]},{\"claim\":\"В каждой школе создадут команду защиты, в которую войдут директор и минимум два ответственных сотрудника.\",\"supported\":true,\"evidence\":[13,14]},{\"claim\":\"Они будут следить за случаями, координировать действия и взаимодействовать с властями.\",\"supported\":true,\"evidence\":[14,15,16,20,21]},{\"claim\":\"Каркас основан на законе о правах ребёнка и поддерживает стратегию образования Дубая до 2033 года.\",\"supported\":true,\"evidence\":[10,11]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1815,
+        "completion_tokens": 225,
+        "total_tokens": 2040,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
