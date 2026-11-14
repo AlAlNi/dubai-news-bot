@@ -1,1 +1,118 @@
-[]
+[
+  {
+    "source_snapshot": {
+      "title": "2 & 3 December 2026 declared as official holiday for private sector to mark the 55th Eid Al Etihad",
+      "text": "DUBAI, 13th November, 2026 (WAM) -- The Ministry of Human Resources and Emiratisation (MoHRE) has announced that Wednesday and Thursday, 2 and 3 December 2026, will be an official paid holiday for all employees in the private sector across the UAE to mark the 55th Eid Al Etihad.On this occasion, MoHRE extends its sincere congratulations to the wise leadership and people of the UAE, as well as all residents in the country.",
+      "url": "https://www.wam.ae/en/article/c38h3xn-december-2026-declared-official-holiday-for",
+      "published_at": "2026-11-13T13:45:41+00:00"
+    },
+    "source_published_at": "2026-11-13T13:45:41+00:00",
+    "source_retrieved_at": "2026-11-14T14:36:32.945316+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All claims in the post are directly supported by the source passages.",
+      "claims": [
+        {
+          "claim": "2 и 3 декабря 2026 объявлены выходными в частном секторе ОАЭ",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "Министерство человеческих ресурсов и эмиграции объявило, что среда и четверг, 2 и 3 декабря 2026 года, будут официальными оплачиваемыми выходными для всех сотрудников частного сектора в ОАЭ",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "Это связано с празднованием 55-го Дня единства (Eid Al Etihad)",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "Министерство поздравило руководство и жителей страны с этим событием",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "2 & 3 December 2026 declared as official holiday for private sector to mark the 55th Eid Al Etihad"
+        },
+        {
+          "id": 1,
+          "text": "DUBAI, 13th November, 2026 (WAM) -- The Ministry of Human Resources and Emiratisation (MoHRE) has announced that Wednesday and Thursday, 2 and 3 December 2026, will be an official paid holiday for all employees in the private sector across the UAE to mark the 55th Eid Al Etihad.On this occasion, MoHRE extends its sincere congratulations to the wise leadership and people of the UAE, as well as all residents in the country."
+        }
+      ],
+      "source_hash": "d9d370a61cc6d96fb81a89ec4c488f5cded83bd7d184b6db2d73ded95f459bf9",
+      "summary_hash": "9c6d034415a1afbd40fcbda2510f530d00d6ecc5a43ae1f1f6a5ce15e51f3151",
+      "checked_at": "2026-11-14T14:36:55.905187+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "wam.ae",
+    "title": "2 & 3 December 2026 declared as official holiday for private sector to mark the 55th Eid Al Etihad",
+    "summary_ru": "<b>🛑 2 и 3 декабря 2026 объявлены выходными в частном секторе ОАЭ</b>\n\n📅 Министерство человеческих ресурсов и эмиграции объявило, что среда и четверг, 2 и 3 декабря 2026 года, будут официальными оплачиваемыми выходными для всех сотрудников частного сектора в ОАЭ.\n\nЭто связано с празднованием 55-го Дня единства (Eid Al Etihad). Министерство поздравило руководство и жителей страны с этим событием.",
+    "published": "2026-11-14T14:36:45.048062+00:00",
+    "source_urls": [
+      "https://www.wam.ae/en/article/c38h3xn-december-2026-declared-official-holiday-for"
+    ],
+    "lang": "en",
+    "content_hash": "9b0d20cfec3ec62a584b8ad6fe4648ee",
+    "strict_hash": "9b0d20cfec3ec62a584b8ad6fe4648ee",
+    "fuzzy_hash": "941747b931e8474f6599a800506e6d68",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "approved_by_editor",
+    "editorial_decision": "approved",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 90,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "standard_news"
+    },
+    "content_format": "standard_news",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Объявлен официальный выходной для частного сектора в ОАЭ на 2 и 3 декабря 2026 года."
+      }
+    },
+    "image_url": "https://www.wam.ae/assets/images/logo/logo.png",
+    "slot_target": "evening"
+  }
+]

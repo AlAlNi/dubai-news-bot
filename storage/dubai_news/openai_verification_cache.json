@@ -1,43 +1,4 @@
 {
-  "ca0faec067d2fec9f96891f8fb84f027718f815b070f7fc4f1c8bb4cbe9698a3": {
-    "saved_at": "2026-11-07T07:57:47.911875+00:00",
-    "result": {
-      "id": "chatcmpl-EhVb01ZkdhijxavT9VO3tzi5bsBRD",
-      "object": "chat.completion",
-      "created": 1794038266,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, 2027, new rules for couriers are introduced in the UAE.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"Couriers are prohibited from carrying orders in backpacks.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"Couriers are prohibited from carrying passengers on motorcycles licensed for delivery.\",\"supported\":true,\"evidence\":[2,4]},{\"claim\":\"Drivers must use approved equipment for transporting orders.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"Drivers must wear a uniform.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Drivers must have professional permits.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Drivers must not transport prohibited materials.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Drivers must comply with additional requirements imposed by authorities.\",\"supported\":true,\"evidence\":[4]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1122,
-        "completion_tokens": 209,
-        "total_tokens": 1331,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "03f5342f38f209e6aab0242685966120aca0889c59562b9e2df95c5ec7d524b9": {
     "saved_at": "2026-11-07T14:37:41.503405+00:00",
     "result": {
@@ -1050,6 +1011,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_f520c192d2"
+    }
+  },
+  "c980ba18683eabf7013da761f400698f6c935989e7687d8782c7717b66394511": {
+    "saved_at": "2026-11-14T14:36:55.905204+00:00",
+    "result": {
+      "id": "chatcmpl-Ek9A5xGppWFVFenxXeTPkhX5y6m5n",
+      "object": "chat.completion",
+      "created": 1794667013,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"2 и 3 декабря 2026 объявлены выходными в частном секторе ОАЭ\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Министерство человеческих ресурсов и эмиграции объявило, что среда и четверг, 2 и 3 декабря 2026 года, будут официальными оплачиваемыми выходными для всех сотрудников частного сектора в ОАЭ\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Это связано с празднованием 55-го Дня единства (Eid Al Etihad)\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Министерство поздравило руководство и жителей страны с этим событием\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 715,
+        "completion_tokens": 182,
+        "total_tokens": 897,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_4e8b3b0d74"
     }
   }
 }
