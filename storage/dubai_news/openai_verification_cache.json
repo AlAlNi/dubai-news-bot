@@ -1,43 +1,4 @@
 {
-  "e433bda3ace181d9f27833e911af038f607c6fe23581b4791b90ad2de25e6fd9": {
-    "saved_at": "2026-11-08T16:50:11.058443+00:00",
-    "result": {
-      "id": "chatcmpl-Ei0Nl5rvjp3Z8JhX6GWWHch48evJK",
-      "object": "chat.completion",
-      "created": 1794156609,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai Police launched a traffic safety awareness competition.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The competition is on the Traffic Safety Platform.\",\"supported\":true,\"evidence\":[1,13]},{\"claim\":\"The competition aims to raise awareness about causes of traffic accidents and safe road behavior.\",\"supported\":true,\"evidence\":[2,3]},{\"claim\":\"The competition will last five weeks.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"The competition includes 10 questions about main causes of accidents such as failing to keep safe distance and speeding.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Winners will be selected by electronic draw.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Winners will receive an Esaad card with privileges and discounts.\",\"supported\":true,\"evidence\":[7]},{\"claim\":\"Participants can register at https://amanroads.gov.ae/trsp/en to participate and get safety advice.\",\"supported\":true,\"evidence\":[13,14]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1284,
-        "completion_tokens": 233,
-        "total_tokens": 1517,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "8ea9a36d0e0e501071c4aee23dd4f425b8dbc68a06f26d75a544175147344ac6": {
     "saved_at": "2026-11-08T20:51:53.010116+00:00",
     "result": {
@@ -998,6 +959,45 @@
         "prompt_tokens": 1711,
         "completion_tokens": 194,
         "total_tokens": 1905,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_4e8b3b0d74"
+    }
+  },
+  "04bee2cabcf6478661621bd9837572a8eb37bf4b0fbfd7e3ffdaa2c663481ed8": {
+    "saved_at": "2026-11-15T18:09:03.928427+00:00",
+    "result": {
+      "id": "chatcmpl-EkYwwM1xPUvgHs2DULzmF6GxQ3OTy",
+      "object": "chat.completion",
+      "created": 1794766142,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the UAE, a free online tool called StaySafe has been launched by the Cyber Security Council to check website reliability.\",\"supported\":true,\"evidence\":[6,7]},{\"claim\":\"Users can check a website using a color scale from red to dark green to determine the risk of fraud.\",\"supported\":true,\"evidence\":[14,15,16]},{\"claim\":\"The service shows whether the website has been reported for phishing, whether it is officially registered, and how old it is.\",\"supported\":true,\"evidence\":[17]},{\"claim\":\"StaySafe is available at staysafe.csc.gov.ae/en.\",\"supported\":true,\"evidence\":[12]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2145,
+        "completion_tokens": 161,
+        "total_tokens": 2306,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
