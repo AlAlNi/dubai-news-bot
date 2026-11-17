@@ -1,43 +1,4 @@
 {
-  "a2a60543a11368c9227b5e52cca2ced5f2ed73a5fb2a166f98c305a8a46f0872": {
-    "saved_at": "2026-11-10T01:01:24.646374+00:00",
-    "result": {
-      "id": "chatcmpl-EiUWhF0MBEvVhxqKqIGdIXxVYlJHm",
-      "object": "chat.completion",
-      "created": 1794272483,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"UAE officially approved a new oral treatment for vitiligo.\",\"supported\":true,\"evidence\":[0,3,10,11]},{\"claim\":\"Vitiligo is a chronic skin disease associated with an autoimmune disorder.\",\"supported\":true,\"evidence\":[7]},{\"claim\":\"The UAE is the first country in the world to approve this therapy.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"The treatment is available by prescription and prescribed by specialists in immunological diseases.\",\"supported\":true,\"evidence\":[11]},{\"claim\":\"The launch coincided with the 10th Annual Dermatology Conference in Dubai, where latest dermatology advances and innovative treatments were discussed.\",\"supported\":true,\"evidence\":[3,15,17,18]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1609,
-        "completion_tokens": 179,
-        "total_tokens": 1788,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "0d728b3e88f776fba687145abaf7ad227d331511f66cb25825a997a65b74e31b": {
     "saved_at": "2026-11-10T08:55:40.883129+00:00",
     "result": {
@@ -959,6 +920,45 @@
         "prompt_tokens": 1297,
         "completion_tokens": 252,
         "total_tokens": 1549,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "bf1cad71623c980a15f6dc61984b1f4b2c812f7d238d18e81a9132395eec6f43": {
+    "saved_at": "2026-11-17T04:51:22.079873+00:00",
+    "result": {
+      "id": "chatcmpl-El5S4UG0OmE6BXNzc5YZCyvNXRpPj",
+      "object": "chat.completion",
+      "created": 1794891080,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Sharjah, a 320-meter-long bridge was opened as the first phase of the Al Dhaid Lake and Bridge project.\",\"supported\":true,\"evidence\":[0,2]},{\"claim\":\"The bridge is expanded to four lanes in each direction.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The bridge has a capacity of up to 6,000 vehicles per hour.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Under the bridge, a 2.3 km long lake was created with recreational zones, parks, and paths for pedestrians and cyclists.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"The project includes flood protection measures and expands the green areas of the city.\",\"supported\":true,\"evidence\":[7,8]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1334,
+        "completion_tokens": 183,
+        "total_tokens": 1517,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
