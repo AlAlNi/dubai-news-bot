@@ -1,316 +1,6 @@
 [
   {
     "source_snapshot": {
-      "title": "AccessAbilities Expo 2026 to open in Dubai tomorrow",
-      "text": "DUBAI, 18th October, 2026 (WAM) -- The eighth edition of AccessAbilities Expo 2026 will open tomorrow at the Dubai World Trade Centre and run for three days.This year's exhibition will bring together more than 240 exhibitors from 50 countries and is expected to attract around 18,000 visitors from 70 countries over three days.The exhibition will showcase assistive technologies covering a wide range of physical, visual, hearing and intellectual disabilities, as well as autism spectrum disorder.Participants will present advanced products and the latest technological solutions, including several innovations being introduced for the first time in the Middle East, Africa and South Asia.",
-      "url": "https://www.wam.ae/en/article/c2szuik-accessabilities-expo-2026-open-dubai-tomorrow",
-      "published_at": "2026-10-18T17:22:02+00:00"
-    },
-    "source_published_at": "2026-10-18T17:22:02+00:00",
-    "source_retrieved_at": "2026-10-19T05:26:59.069902+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All factual claims in the post are directly supported by the source text.",
-      "claims": [
-        {
-          "claim": "AccessAbilities Expo 2026 will open in Dubai tomorrow.",
-          "supported": true,
-          "evidence": [
-            0,
-            1
-          ]
-        },
-        {
-          "claim": "The exhibition will be held from October 19 to 21 at Dubai World Trade Centre.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "More than 240 exhibitors from 50 countries will participate.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "Around 18,000 visitors from 70 countries are expected.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "The exhibition will showcase technologies for people with physical, visual, hearing, and intellectual disabilities, as well as autism spectrum disorder.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "Innovative solutions will be presented for the first time in the Middle East, Africa, and South Asia.",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "AccessAbilities Expo 2026 to open in Dubai tomorrow"
-        },
-        {
-          "id": 1,
-          "text": "DUBAI, 18th October, 2026 (WAM) -- The eighth edition of AccessAbilities Expo 2026 will open tomorrow at the Dubai World Trade Centre and run for three days.This year's exhibition will bring together more than 240 exhibitors from 50 countries and is expected to attract around 18,000 visitors from 70 countries over three days.The exhibition will showcase assistive technologies covering a wide range of physical, visual, hearing and intellectual disabilities, as well as autism spectrum disorder.Participants will present advanced products and the latest technological solutions, including several innovations being introduced for the first time in the Middle East, Africa and South Asia."
-        }
-      ],
-      "source_hash": "b03d0a312d306f5cc52fc55875c2b08157e6e7a0afbf671551fbfbbda679346b",
-      "summary_hash": "36b4296e08ca42763debbb2b3dcbcd35f903c330343d281823fca4b06e2b3e60",
-      "checked_at": "2026-10-19T05:27:22.493187+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "wam.ae",
-    "title": "AccessAbilities Expo 2026 to open in Dubai tomorrow",
-    "summary_ru": "<b>🚇 AccessAbilities Expo 2026 откроется в Дубае завтра</b>\n\n📅 Выставка пройдет с 19 по 21 октября в Dubai World Trade Centre. В ней примут участие более 240 экспонентов из 50 стран, ожидается около 18 000 посетителей из 70 стран.\n\n💻 На выставке представят технологии для людей с физическими, зрительными, слуховыми и интеллектуальными нарушениями, а также с расстройствами аутистического спектра. Будут показаны инновационные решения, впервые представленные в регионе Ближнего Востока, Африки и Южной Азии.",
-    "published": "2026-10-19T05:27:07.554041+00:00",
-    "source_urls": [
-      "https://www.wam.ae/en/article/c2szuik-accessabilities-expo-2026-open-dubai-tomorrow"
-    ],
-    "lang": "en",
-    "content_hash": "a19458b97c4ecf24c589f4045879f7e6",
-    "strict_hash": "a19458b97c4ecf24c589f4045879f7e6",
-    "fuzzy_hash": "67b83d3b5c65bf0ba9fd325202be9d30",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 100,
-      "ad_readiness_score": 100,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "tomorrow_changes"
-    },
-    "content_format": "tomorrow_changes",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о предстоящей выставке технологий для людей с ограниченными возможностями в Дубае соответствует тематике транспорта, услуг и городской жизни."
-      }
-    },
-    "image_url": "",
-    "slot_target": "morning",
-    "publication": {
-      "published_at": "2026-10-19T05:27:49.703102+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1673
-    },
-    "published_at": "2026-10-19T05:27:49.708934+00:00",
-    "source_url": "https://www.wam.ae/en/article/c2szuik-accessabilities-expo-2026-open-dubai-tomorrow",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
-      "title": "Liwa International Festival 2027 to take place in Al Dhafra Region",
-      "text": "ABU DHABI, 18th October, 2026 (WAM) -- Under the patronage of H.H. Sheikh Hamdan bin Zayed Al Nahyan, Ruler’s Representative in Al Dhafra Region, Liwa International Festival 2027 (Liwa 2027) will take place from 11th December 2026 to 2nd January 2027 at Liwa desert in Al Dhafra Region. The festival will feature a reimagined Liwa Village, a new international entertainment show, motorsport championships, heritage experiences and family activities.Liwa International Festival 2027 is organised by the Department of Culture and Tourism – Abu Dhabi (DCT Abu Dhabi) in collaboration with Liwa Sports Club, Al Dhafra Municipality, Abu Dhabi Police, Abu Dhabi Media Network, Abu Dhabi Sports Council, Abu Dhabi Heritage Authority, and Al Dhafra Hospitals - Seha.Held around Tal Moreeb, the UAE's tallest dune at more than 300 metres, the festival has evolved over more than two decades, since 2001, bringing together Emirati heritage, sport, entertainment and family-friendly activities. Last year, the festival welcomed more than 700,000 visitors over 23 days and received the Best Festival of the Year award at the Middle East Events Awards 2026.Liwa Village returns at the heart of the festival, with more than half of its rides and attractions either new or reimagined this year. New experiences include the Circus Swinger, Tagada and Space Tower, alongside activities such as Play Strike, Ninja Challenge, Pixel Run and Desert Heist, Drift Trike, Target Shooting and Climb Quest.The Bungee Jump will also make its debut, while returning attractions include the Ferris Wheel, Bumper Cars, Slingshot, Booster, Classic Cars, Go Water Kart, Mini Tank Paint Ball, House of Horror, Maze Adventure and 4x4 Track.Nitro Circus will make its festival debut on 19th to 20th December 2026, with 15+ athletes performing freestyle motocross (FMX), bicycle motocross (BMX), choreographed performances and pyrotechnics across three shows.Organised by Liwa Sports Club, the festival will feature motorsport and desert sports competitions, including Freestyle Display (11-12 and 21-22 December 2026), Motorbike Drag Race (13th December 2026), Falcon Race (14-16 December 2026), Sand Freestyle Display (18th-19th and 27th-28th December 2026), Liwa UTV Track (20 December 2026), Traditional Pigeon Race (22-23 December 2026), Liwa Burnout Challenge (24 December 2026) and Liwa Drift (25th-26th December 2026).The programme will culminate in the Tal Moreeb Car Championship finale, from 30th December - 2nd January 2027.Visitors can also participate in sporting and fitness activities including the Liwa Sign Climb Challenge (19 December 2026), a cycling race (21st December 2026), the Liwa Festival Community Run (23rd December 2026), a padel tournament (24th–25th December 2026) and a fitness tour (29 December).Liwa International Festival 2027 continues to celebrate Emirati heritage and traditions. Presented by Abu Dhabi Heritage Authority, the Heritage Village, inspired by a traditional Emirati neighbourhood (Al Fareej), will offer demonstrations and hands-on activities introducing families and younger generations to traditional Emirati life, customs and practices.The House of Poetry and Poets will introduce visitors to Nabati poetry and its role in expressing community values, experiences and traditions.Visitors can learn about falconry at the Falconry Tent through live displays and demonstrations covering the raising, training and care of falcons, and the tools used in the practice. Young visitors can also take part in workshops to make model falcon hoods.The traditional games and heritage experiences area features interactive activities suitable for different ages, including Teelah and Karabi, tug of war, camel riding, a palm-climbing simulation, and workshops in making palm-leaf products (khoos) and weaving.The Emirati Majlis will introduce visitors to Emirati social etiquette, including entering, greeting, seating, welcoming guests and honouring them, highlighting the role of the majlis in preserving customs across generations.Visitors can also learn about Emirati Gahwa presentation, serving traditions and the etiquette of Emirati hospitality through a live workshop.Beyond the main festival site, activations across Al Dhafra Region will include the Liwa Sign landmark, retail and dining at Dhafeer Fort, Al Meel Fort and Al Yabana Fort, traditional Emirati crafts at Khanour Fort, and a cultural experience at Mezairaa Fort inspired by Liwa’s history and heritage.The festival’s first official app will also be launched, allowing visitors to explore the event calendar, stay up to date with the latest announcements, select and book camping spots and RV parking spaces, and explore commercial participation opportunities at the festival.",
-      "url": "https://www.wam.ae/en/article/c2szuiq-liwa-international-festival-2027-take-place-dhafra",
-      "published_at": "2026-10-18T17:37:36+00:00"
-    },
-    "source_published_at": "2026-10-18T17:37:36+00:00",
-    "source_retrieved_at": "2026-10-19T11:29:29.775574+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All factual claims in the post are directly supported by the source text.",
-      "claims": [
-        {
-          "claim": "Liwa International Festival 2027 пройдет в регионе Аль Дхафра.",
-          "supported": true,
-          "evidence": [
-            0,
-            2
-          ]
-        },
-        {
-          "claim": "Фестиваль состоится с 11 декабря 2026 по 2 января 2027 года в пустыне Лива.",
-          "supported": true,
-          "evidence": [
-            2
-          ]
-        },
-        {
-          "claim": "В программе — обновленная деревня Лива, международное шоу, мотоспортивные соревнования и семейные активности.",
-          "supported": true,
-          "evidence": [
-            3,
-            5
-          ]
-        },
-        {
-          "claim": "Мероприятие пройдет у дюны Таль Мориб, самой высокой в ОАЭ.",
-          "supported": true,
-          "evidence": [
-            3
-          ]
-        },
-        {
-          "claim": "Впервые выступит Nitro Circus с фристайл-шоу на мотоциклах и велосипедах.",
-          "supported": true,
-          "evidence": [
-            5
-          ]
-        },
-        {
-          "claim": "Фестиваль также познакомит посетителей с наследием Эмиратов через традиционные игры, поэзию и мастер-классы по соколиной охоте.",
-          "supported": true,
-          "evidence": [
-            6,
-            7
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "Liwa International Festival 2027 to take place in Al Dhafra Region"
-        },
-        {
-          "id": 1,
-          "text": "ABU DHABI, 18th October, 2026 (WAM) -- Under the patronage of H.H."
-        },
-        {
-          "id": 2,
-          "text": "Sheikh Hamdan bin Zayed Al Nahyan, Ruler’s Representative in Al Dhafra Region, Liwa International Festival 2027 (Liwa 2027) will take place from 11th December 2026 to 2nd January 2027 at Liwa desert in Al Dhafra Region."
-        },
-        {
-          "id": 3,
-          "text": "The festival will feature a reimagined Liwa Village, a new international entertainment show, motorsport championships, heritage experiences and family activities.Liwa International Festival 2027 is organised by the Department of Culture and Tourism – Abu Dhabi (DCT Abu Dhabi) in collaboration with Liwa Sports Club, Al Dhafra Municipality, Abu Dhabi Police, Abu Dhabi Media Network, Abu Dhabi Sports Council, Abu Dhabi Heritage Authority, and Al Dhafra Hospitals - Seha.Held around Tal Moreeb, the UAE's tallest dune at more than 300 metres, the festival has evolved over more than two decades, since 2001, bringing together Emirati heritage, sport, entertainment and family-friendly activities."
-        },
-        {
-          "id": 4,
-          "text": "Last year, the festival welcomed more than 700,000 visitors over 23 days and received the Best Festival of the Year award at the Middle East Events Awards 2026.Liwa Village returns at the heart of the festival, with more than half of its rides and attractions either new or reimagined this year."
-        },
-        {
-          "id": 5,
-          "text": "New experiences include the Circus Swinger, Tagada and Space Tower, alongside activities such as Play Strike, Ninja Challenge, Pixel Run and Desert Heist, Drift Trike, Target Shooting and Climb Quest.The Bungee Jump will also make its debut, while returning attractions include the Ferris Wheel, Bumper Cars, Slingshot, Booster, Classic Cars, Go Water Kart, Mini Tank Paint Ball, House of Horror, Maze Adventure and 4x4 Track.Nitro Circus will make its festival debut on 19th to 20th December 2026, with 15+ athletes performing freestyle motocross (FMX), bicycle motocross (BMX), choreographed performances and pyrotechnics across three shows.Organised by Liwa Sports Club, the festival will feature motorsport and desert sports competitions, including Freestyle Display (11-12 and 21-22 December 2026), Motorbike Drag Race (13th December 2026), Falcon Race (14-16 December 2026), Sand Freestyle Display (18th-19th and 27th-28th December 2026), Liwa UTV Track (20 December 2026), Traditional Pigeon Race (22-23 December 2026), Liwa Burnout Challenge (24 December 2026) and Liwa Drift (25th-26th December 2026).The programme will culminate in the Tal Moreeb Car Championship finale, from 30th December - 2nd January 2027.Visitors can also participate in sporting and fitness activities including the Liwa Sign Climb Challenge (19 December 2026), a cycling race (21st December 2026), the Liwa Festival Community Run (23rd December 2026), a padel tournament (24th–25th December 2026) and a fitness tour (29 December).Liwa International Festival 2027 continues to celebrate Emirati heritage and traditions."
-        },
-        {
-          "id": 6,
-          "text": "Presented by Abu Dhabi Heritage Authority, the Heritage Village, inspired by a traditional Emirati neighbourhood (Al Fareej), will offer demonstrations and hands-on activities introducing families and younger generations to traditional Emirati life, customs and practices.The House of Poetry and Poets will introduce visitors to Nabati poetry and its role in expressing community values, experiences and traditions.Visitors can learn about falconry at the Falconry Tent through live displays and demonstrations covering the raising, training and care of falcons, and the tools used in the practice."
-        },
-        {
-          "id": 7,
-          "text": "Young visitors can also take part in workshops to make model falcon hoods.The traditional games and heritage experiences area features interactive activities suitable for different ages, including Teelah and Karabi, tug of war, camel riding, a palm-climbing simulation, and workshops in making palm-leaf products (khoos) and weaving.The Emirati Majlis will introduce visitors to Emirati social etiquette, including entering, greeting, seating, welcoming guests and honouring them, highlighting the role of the majlis in preserving customs across generations.Visitors can also learn about Emirati Gahwa presentation, serving traditions and the etiquette of Emirati hospitality through a live workshop.Beyond the main festival site, activations across Al Dhafra Region will include the Liwa Sign landmark, retail and dining at Dhafeer Fort, Al Meel Fort and Al Yabana Fort, traditional Emirati crafts at Khanour Fort, and a cultural experience at Mezairaa Fort inspired by Liwa’s history and heritage.The festival’s first official app will also be launched, allowing visitors to explore the event calendar, stay up to date with the latest announcements, select and book camping spots and RV parking spaces, and explore commercial participation opportunities at the festival."
-        }
-      ],
-      "source_hash": "0a8c7c8749ea7d55e709c3c2a951962f28b6e6445a47ae89107bd163dc88d380",
-      "summary_hash": "5c409983128fde586e6e0f0083a8775431480aba7ca364a9c673248a663bdacd",
-      "checked_at": "2026-10-19T11:29:53.613036+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "wam.ae",
-    "title": "Liwa International Festival 2027 to take place in Al Dhafra Region",
-    "summary_ru": "<b>🎭 Liwa International Festival 2027 пройдет в регионе Аль Дхафра</b>\n\n📅 Фестиваль состоится с 11 декабря 2026 по 2 января 2027 года в пустыне Лива. В программе — обновленная деревня Лива, международное шоу, мотоспортивные соревнования и семейные активности.\n\n📍 Мероприятие пройдет у дюны Таль Мориб, самой высокой в ОАЭ. Впервые выступит Nitro Circus с фристайл-шоу на мотоциклах и велосипедах.\n\n🎭 Фестиваль также познакомит посетителей с наследием Эмиратов через традиционные игры, поэзию и мастер-классы по соколиной охоте.",
-    "published": "2026-10-19T11:29:37.928843+00:00",
-    "source_urls": [
-      "https://www.wam.ae/en/article/c2szuiq-liwa-international-festival-2027-take-place-dhafra"
-    ],
-    "lang": "en",
-    "content_hash": "3128f8c940c922b6c7d01d250594133f",
-    "strict_hash": "3128f8c940c922b6c7d01d250594133f",
-    "fuzzy_hash": "e3f3b43ab5cc5ffc722e61a38a68c7e1",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 100,
-      "ad_readiness_score": 100,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "service_update"
-    },
-    "content_format": "service_update",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о проведении фестиваля в регионе Аль Дхафра с подробным описанием программы и дат."
-      }
-    },
-    "image_url": "",
-    "slot_target": "evening",
-    "publication": {
-      "published_at": "2026-10-19T11:30:13.572099+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1674
-    },
-    "published_at": "2026-10-19T11:30:13.578546+00:00",
-    "source_url": "https://www.wam.ae/en/article/c2szuiq-liwa-international-festival-2027-take-place-dhafra",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
       "title": "UAE schools reopen on Monday after mid-term break: What parents need to know",
       "text": "Abu Dhabi: Thousands of students across the UAE will return to classrooms on Monday, October 19, following the first-term mid-term break, as public and private schools that observed the holiday resume lessons and turn their attention to academic assessments and preparations for the remainder of the term.The return marks the end of a week-long break that began on October 12 under the academic calendar for 2026–2027..Get updated faster and for FREE: Download the Gulf News app now - simply click here..However, reopening dates may differ among private schools following other curricula, depending on their approved academic calendars and the requirements of the relevant local education authorities.The Ministry of Education's academic calendar sets out the school year for public schools and private institutions following its curriculum, while allowing some flexibility for other private schools.Focus shifts to academic performanceWith students returning to classrooms, schools face the task of identifying learning gaps, reviewing assessment results and providing additional support to pupils who have fallen behind.The remaining weeks of the term offer an opportunity to assess how well students have mastered the material covered so far, rather than simply completing the prescribed lessons.Schools will also need to monitor attendance, evaluate the effectiveness of academic support and keep parents informed about their children's progress.Identifying pupils who need additional help, providing targeted interventions and measuring improvements will be among the priorities as the first term moves towards its final assessments.Clear communication with families will also be important, particularly when explaining assessment results and the steps needed to improve academic performance.Do all private schools return on October 19?The Ministry of Education's calendar applies to public schools and private schools following the ministry curriculum.However, local education authorities may approve exceptions for private schools operating other curricula, allowing them to split their mid-term break between October and February according to their operational requirements.The total break under this arrangement must not exceed five school days. Private schools in Sharjah are subject to separate regulatory arrangements.Parents whose children attend schools following international or other non-ministry curricula should therefore check their school's approved calendar to confirm the return date.When is the next UAE school holiday?Under the approved 2026–2027 academic calendar, the next major break will be the winter holiday, beginning on December 14, 2026.Students will return to school on Monday, January 4, 2027, after the holiday ends on January 3.The spring break will run from April 5 to April 11, 2027, with classes resuming on April 12.The final school day of the academic year is scheduled for July 2, 2027.The current school year began on August 31, 2026.UAE school calendar for 2027–2028The Ministry of Education has also announced the academic calendar for the following two years, giving schools and families greater certainty when planning holidays and other commitments.The 2027–2028 academic year will begin on August 30, 2027.The first-term mid-term break will run from October 11 to 17, with students returning on October 18.The winter holiday will begin on December 13, 2027, and end on January 2, 2028, with classes resuming on January 3.Spring break will take place from March 27 to April 2, 2028, followed by a return to classrooms on April 3.The academic year will end on June 30, 2028.UAE school calendar for 2028–2029The following academic year will begin on August 28, 2028.The first mid-term break is scheduled from October 16 to 22, with classes resuming on October 23.The winter holiday will run from December 11, 2028, to January 1, 2029, followed by the return of students on January 2.Spring break is scheduled for late March and the beginning of April, with students returning on April 2, 2029.The final day of the academic year will be June 29, 2029.Why the three-year calendar mattersThe Ministry of Education introduced the three-year academic calendar to provide a more predictable schedule for schools, teachers, students and parents.The framework establishes the beginning and end of each school year, major holidays and assessment periods, supporting advance planning and continuity in education.It is also intended to balance classroom instruction with scheduled breaks, giving schools a consistent structure for delivering the curriculum and monitoring student progress..No October mid-term break for CBSE students in UAE: When is their next holiday?.UAE school holidays 2026-27: October half-term dates and key breaks.October mid-term school break moved forward: UAE parents rebook flights and change holiday plans.Dubai private schools revise October mid-term break dates for 2026-27",
       "url": "https://gulfnews.com/uae/education/mid-term-break-is-over-when-is-the-next-uae-school-holiday-1.500714774",
@@ -20396,6 +20086,321 @@
     },
     "published_at": "2026-11-18T03:20:07.457270+00:00",
     "source_url": "https://www.emirates247.com/uae/uae-vegetable-prices-fall-by-up-to-42-as-local-farm-produce-reaches-shelves/7846",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "UAE traffic regulations 2027: Rules truck, bus and school bus drivers must follow",
+      "text": "Dubai: Truck drivers and buses in the UAE will have a new set of driving regulations to follow from next year as the UAE is set to implement Cabinet Decision No. 174 of 2026 from January 1, 2027. The Decision covers various aspects that affect heavy goods vehicles and buses, however, not all the rules stipulated for truck and bus drivers may be entirely new. Zeiad Yehia, Legal Director at Al-Mur Law Firm, said: “Cabinet Decision No. 174 of 2026 ...introduces a comprehensive new executive regulatory framework for road traffic in the UAE. “The Resolution comprises 131 articles and comes into force on January 1, 2027. It implements Federal Decree-Law No. 14 of 2024 on the Regulation of Traffic, which itself came into force on March 29, 2025.\" Zeiad Yehia, Legal Director at Al-Mur Law Firm So, what does the new legislation say about the responsibilities of truck and bus drivers? Here’s all you need to know. Stopping in residential areas As per Article 17 (6), heavy vehicles or vehicles carrying heavy machinery and equipment must not stop in residential areas , unless they are parked for construction or development purposes. The law also requires the licensing and traffic authorities within each emirate to specify any roads, routes and timings during which heavy goods vehicles are prohibited from travelling. Overtaking rules Article 34 of the law also specifies that heavy buses and heavy goods vehicles should not overtake one another within city limits or near city borders, unless doing so does not obstruct traffic flow on the road. Also, in cases where there are designated lanes for heavy vehicles, drivers must not deviate from them. Six obligations of truck drivers Drivers of heavy goods vehicles should also follow these six rules at all times: 1. Stay on the right-most lane and not leave it unless necessary or when overtaking. 2. Ensure that the load on the truck does not exceed the load limit set by the licensing authority or the permitted height of the load. 3. Drivers cannot carry any passengers in heavy goods vehicles, except for the vehicle owner’s employees and loading and unloading staff, provided there are seats designated for them. 4. The vehicle’s load should not pose a danger to the public or obstruct traffic. 5. A cover must be fitted to prevent dust and other articles, such as sand, from leaking or being blown away from the truck load. 6. The load must not protrude beyond the vehicle’s dimensions in any way. Payload rules Article 37 of the Resolution also requires the driver to ensure that the payload is organised and arranged in a way that it is secure and fastened to the vehicle at all times and does not pose any danger to people or property. The load must also not obstruct the driver’s view, or obscure any hand signals, light signals, direction indicators, vehicle lights, mirrors or number plates. Passenger transport buses Article 33 of the Resolution also requires buses to have prominent signage indicating that it is authorised to carry paying passengers and the number of passengers permitted on the bus. Owners of the buses should also display a copy of the approved fare schedule in prominent places inside the bus or carry it on the bus so that it can be shown on request. Responsibilities of bus drivers Bus drivers must also ensure the following: The number of passengers does not exceed the limit authorised on the bus licence. Passengers must not stick their heads, hands or any part of their bodies out of the windows. The interior of the bus must be lit between sunset and sunrise, and whenever necessary. They do not stop to pick up or drop off passengers except at authorised locations. They do not speak to passengers while the bus is moving and not allow passengers to stand or sit next to them. They not refuse to carry any person who is willing to pay the prescribed fare, provided that the bus is not full. To inspect the vehicle right after the end of each journey, check for any items that may have been left behind and hand them over to the nearest police station within 24 hours. The police station must provide proof of this handover of item. School bus drivers When picking up and dropping off school pupils, drivers must ensure the following: They must park the vehicle parallel to the kerb in areas where it is permitted. Switch on the front and rear indicators. Open the side ‘stop’ indicator arm. Motorists must ensure that they come to a complete stop when they see a school bus stopped in such a manner. For two-way roads, vehicles in both directions must come to a complete stop and for roads that have a divider, vehicles in the same direction as a bus must come to a complete stop.",
+      "url": "https://www.emirates247.com/uae-guide/uae-traffic-regulations-2027-rules-truck-bus-and-school-bus-drivers-must-follow/7862",
+      "published_at": "2026-11-17T09:32:00+00:00"
+    },
+    "source_published_at": "2026-11-17T09:32:00+00:00",
+    "source_retrieved_at": "2026-11-18T12:26:11.224193+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "From January 1, 2027, UAE Cabinet Decision No. 174 of 2026 regulating heavy trucks and buses will come into force.",
+          "supported": true,
+          "evidence": [
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "claim": "Truck drivers are prohibited from stopping in residential areas except for construction purposes.",
+          "supported": true,
+          "evidence": [
+            10
+          ]
+        },
+        {
+          "claim": "Truck and bus drivers must follow special overtaking rules and use designated lanes.",
+          "supported": true,
+          "evidence": [
+            12,
+            13
+          ]
+        },
+        {
+          "claim": "Truck drivers must follow six main rules including load limits and prohibition of carrying passengers except employees.",
+          "supported": true,
+          "evidence": [
+            14,
+            15,
+            17,
+            19
+          ]
+        },
+        {
+          "claim": "Buses must have visible signs indicating authorized passenger capacity.",
+          "supported": true,
+          "evidence": [
+            28
+          ]
+        },
+        {
+          "claim": "Buses must follow safety rules when transporting schoolchildren.",
+          "supported": true,
+          "evidence": [
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "UAE traffic regulations 2027: Rules truck, bus and school bus drivers must follow"
+        },
+        {
+          "id": 1,
+          "text": "Dubai: Truck drivers and buses in the UAE will have a new set of driving regulations to follow from next year as the UAE is set to implement Cabinet Decision No."
+        },
+        {
+          "id": 2,
+          "text": "174 of 2026 from January 1, 2027."
+        },
+        {
+          "id": 3,
+          "text": "The Decision covers various aspects that affect heavy goods vehicles and buses, however, not all the rules stipulated for truck and bus drivers may be entirely new."
+        },
+        {
+          "id": 4,
+          "text": "Zeiad Yehia, Legal Director at Al-Mur Law Firm, said: “Cabinet Decision No."
+        },
+        {
+          "id": 5,
+          "text": "174 of 2026 ...introduces a comprehensive new executive regulatory framework for road traffic in the UAE."
+        },
+        {
+          "id": 6,
+          "text": "“The Resolution comprises 131 articles and comes into force on January 1, 2027."
+        },
+        {
+          "id": 7,
+          "text": "It implements Federal Decree-Law No."
+        },
+        {
+          "id": 8,
+          "text": "14 of 2024 on the Regulation of Traffic, which itself came into force on March 29, 2025.\" Zeiad Yehia, Legal Director at Al-Mur Law Firm So, what does the new legislation say about the responsibilities of truck and bus drivers?"
+        },
+        {
+          "id": 9,
+          "text": "Here’s all you need to know."
+        },
+        {
+          "id": 10,
+          "text": "Stopping in residential areas As per Article 17 (6), heavy vehicles or vehicles carrying heavy machinery and equipment must not stop in residential areas , unless they are parked for construction or development purposes."
+        },
+        {
+          "id": 11,
+          "text": "The law also requires the licensing and traffic authorities within each emirate to specify any roads, routes and timings during which heavy goods vehicles are prohibited from travelling."
+        },
+        {
+          "id": 12,
+          "text": "Overtaking rules Article 34 of the law also specifies that heavy buses and heavy goods vehicles should not overtake one another within city limits or near city borders, unless doing so does not obstruct traffic flow on the road."
+        },
+        {
+          "id": 13,
+          "text": "Also, in cases where there are designated lanes for heavy vehicles, drivers must not deviate from them."
+        },
+        {
+          "id": 14,
+          "text": "Six obligations of truck drivers Drivers of heavy goods vehicles should also follow these six rules at all times: 1."
+        },
+        {
+          "id": 15,
+          "text": "Stay on the right-most lane and not leave it unless necessary or when overtaking."
+        },
+        {
+          "id": 16,
+          "text": "2."
+        },
+        {
+          "id": 17,
+          "text": "Ensure that the load on the truck does not exceed the load limit set by the licensing authority or the permitted height of the load."
+        },
+        {
+          "id": 18,
+          "text": "3."
+        },
+        {
+          "id": 19,
+          "text": "Drivers cannot carry any passengers in heavy goods vehicles, except for the vehicle owner’s employees and loading and unloading staff, provided there are seats designated for them."
+        },
+        {
+          "id": 20,
+          "text": "4."
+        },
+        {
+          "id": 21,
+          "text": "The vehicle’s load should not pose a danger to the public or obstruct traffic."
+        },
+        {
+          "id": 22,
+          "text": "5."
+        },
+        {
+          "id": 23,
+          "text": "A cover must be fitted to prevent dust and other articles, such as sand, from leaking or being blown away from the truck load."
+        },
+        {
+          "id": 24,
+          "text": "6."
+        },
+        {
+          "id": 25,
+          "text": "The load must not protrude beyond the vehicle’s dimensions in any way."
+        },
+        {
+          "id": 26,
+          "text": "Payload rules Article 37 of the Resolution also requires the driver to ensure that the payload is organised and arranged in a way that it is secure and fastened to the vehicle at all times and does not pose any danger to people or property."
+        },
+        {
+          "id": 27,
+          "text": "The load must also not obstruct the driver’s view, or obscure any hand signals, light signals, direction indicators, vehicle lights, mirrors or number plates."
+        },
+        {
+          "id": 28,
+          "text": "Passenger transport buses Article 33 of the Resolution also requires buses to have prominent signage indicating that it is authorised to carry paying passengers and the number of passengers permitted on the bus."
+        },
+        {
+          "id": 29,
+          "text": "Owners of the buses should also display a copy of the approved fare schedule in prominent places inside the bus or carry it on the bus so that it can be shown on request."
+        },
+        {
+          "id": 30,
+          "text": "Responsibilities of bus drivers Bus drivers must also ensure the following: The number of passengers does not exceed the limit authorised on the bus licence."
+        },
+        {
+          "id": 31,
+          "text": "Passengers must not stick their heads, hands or any part of their bodies out of the windows."
+        },
+        {
+          "id": 32,
+          "text": "The interior of the bus must be lit between sunset and sunrise, and whenever necessary."
+        },
+        {
+          "id": 33,
+          "text": "They do not stop to pick up or drop off passengers except at authorised locations."
+        },
+        {
+          "id": 34,
+          "text": "They do not speak to passengers while the bus is moving and not allow passengers to stand or sit next to them."
+        },
+        {
+          "id": 35,
+          "text": "They not refuse to carry any person who is willing to pay the prescribed fare, provided that the bus is not full."
+        },
+        {
+          "id": 36,
+          "text": "To inspect the vehicle right after the end of each journey, check for any items that may have been left behind and hand them over to the nearest police station within 24 hours."
+        },
+        {
+          "id": 37,
+          "text": "The police station must provide proof of this handover of item."
+        },
+        {
+          "id": 38,
+          "text": "School bus drivers When picking up and dropping off school pupils, drivers must ensure the following: They must park the vehicle parallel to the kerb in areas where it is permitted."
+        },
+        {
+          "id": 39,
+          "text": "Switch on the front and rear indicators."
+        },
+        {
+          "id": 40,
+          "text": "Open the side ‘stop’ indicator arm."
+        },
+        {
+          "id": 41,
+          "text": "Motorists must ensure that they come to a complete stop when they see a school bus stopped in such a manner."
+        },
+        {
+          "id": 42,
+          "text": "For two-way roads, vehicles in both directions must come to a complete stop and for roads that have a divider, vehicles in the same direction as a bus must come to a complete stop."
+        }
+      ],
+      "source_hash": "2f143373818ec20f57e175173cd19006880a70eacd971488d5041054ad872983",
+      "summary_hash": "956fe6f1ea7c07eb8ad4414d0b45ee0c0e93fb4620d9969d8e4c7bd0a9ab8d8c",
+      "checked_at": "2026-11-18T12:26:28.285471+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "emirates247.com",
+    "title": "UAE traffic regulations 2027: Rules truck, bus and school bus drivers must follow",
+    "summary_ru": "<b>🚌 Новые правила для водителей грузовиков и автобусов в ОАЭ с 2027 года</b>\n\n📅 С 1 января 2027 года в ОАЭ вступит в силу Постановление Кабинета №174 от 2026 года, регулирующее движение тяжелых грузовиков и автобусов. Водителям запрещено останавливаться в жилых районах, кроме случаев строительства, и предписывается соблюдать специальные правила обгона и движения по выделенным полосам.\n\n🎓 Водители грузовиков должны соблюдать шесть основных правил, включая ограничение по загрузке и запрет перевозки пассажиров, кроме сотрудников. Автобусы обязаны иметь видимые таблички с разрешенным количеством пассажиров и соблюдать правила безопасности при перевозке школьников.",
+    "published": "2026-11-18T12:26:24.363736+00:00",
+    "source_urls": [
+      "https://www.emirates247.com/uae-guide/uae-traffic-regulations-2027-rules-truck-bus-and-school-bus-drivers-must-follow/7862"
+    ],
+    "lang": "en",
+    "content_hash": "abd29fbfda90ce8ad5d1fcd2c8c34c12",
+    "strict_hash": "abd29fbfda90ce8ad5d1fcd2c8c34c12",
+    "fuzzy_hash": "ac39f6d94979de0ff4574db7a9c0bcc5",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 100,
+      "ad_readiness_score": 100,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о новых правилах дорожного движения для грузовиков и автобусов в ОАЭ с 2027 года соответствует тематике транспорта и общественной безопасности."
+      }
+    },
+    "image_url": "https://api.emirates247.com/emirates247/uploads/images/2026/11/17/12283.webp",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-11-18T12:26:55.262818+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1785
+    },
+    "published_at": "2026-11-18T12:26:55.277302+00:00",
+    "source_url": "https://www.emirates247.com/uae-guide/uae-traffic-regulations-2027-rules-truck-bus-and-school-bus-drivers-must-follow/7862",
     "summary": "",
     "summary_en": "",
     "source_names": [],
