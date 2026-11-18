@@ -1,43 +1,4 @@
 {
-  "be2e37d7126c293419f90e61fb69ba636b0496ea91b37518732d2ba91c4d1330": {
-    "saved_at": "2026-11-11T09:59:06.526642+00:00",
-    "result": {
-      "id": "chatcmpl-EizOaK3L6qxni4BiBEgxcPJnMeh6o",
-      "object": "chat.completion",
-      "created": 1794391144,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае утвердили план развития общественных услуг и инфраструктуры до 2040 года с бюджетом в AED9.59 млрд.\",\"supported\":true,\"evidence\":[2,17]},{\"claim\":\"Одобрен проект продления метро до города аэропорта Аль-Мактум с бюджетом AED2 млрд.\",\"supported\":true,\"evidence\":[2,18]},{\"claim\":\"Продление метро создаст 3-километровый маршрут с двумя новыми станциями, соединяющими маршрут 2020 с аэропортом.\",\"supported\":true,\"evidence\":[18]},{\"claim\":\"Открытие продления метро запланировано на 2031 год.\",\"supported\":true,\"evidence\":[18]},{\"claim\":\"План предусматривает развитие объектов безопасности, здравоохранения, образования и спорта, а также улучшение условий для пожилых и семейных мероприятий.\",\"supported\":true,\"evidence\":[17,18]},{\"claim\":\"Исследование рынка недвижимости поддержит стратегию развития сектора до 2033 года.\",\"supported\":true,\"evidence\":[19,20]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2193,
-        "completion_tokens": 251,
-        "total_tokens": 2444,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "26b1b099a73f4febb66daa872a5384a42e76d81552e14cc6bd3de67bba4fa60d": {
     "saved_at": "2026-11-11T17:42:28.017465+00:00",
     "result": {
@@ -920,6 +881,45 @@
         "prompt_tokens": 1682,
         "completion_tokens": 218,
         "total_tokens": 1900,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "69d35f336ba03e633889e25ae7fba32567265d9e45f8da9844b12eb31077b345": {
+    "saved_at": "2026-11-18T12:26:28.285489+00:00",
+    "result": {
+      "id": "chatcmpl-ElZ22F17YVOFCjMkIYSIIb2wF5ETp",
+      "object": "chat.completion",
+      "created": 1795004786,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, 2027, UAE Cabinet Decision No. 174 of 2026 regulating heavy trucks and buses will come into force.\",\"supported\":true,\"evidence\":[2,5,6]},{\"claim\":\"Truck drivers are prohibited from stopping in residential areas except for construction purposes.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"Truck and bus drivers must follow special overtaking rules and use designated lanes.\",\"supported\":true,\"evidence\":[12,13]},{\"claim\":\"Truck drivers must follow six main rules including load limits and prohibition of carrying passengers except employees.\",\"supported\":true,\"evidence\":[14,15,17,19]},{\"claim\":\"Buses must have visible signs indicating authorized passenger capacity.\",\"supported\":true,\"evidence\":[28]},{\"claim\":\"Buses must follow safety rules when transporting schoolchildren.\",\"supported\":true,\"evidence\":[38,39,40,41,42]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2074,
+        "completion_tokens": 215,
+        "total_tokens": 2289,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
