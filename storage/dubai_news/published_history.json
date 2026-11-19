@@ -1,142 +1,6 @@
 [
   {
     "source_snapshot": {
-      "title": "Abu Dhabi's Mina tunnel cuts travel times by 40%, traffic accidents by 23%",
-      "text": "Abu Dhabi: Abu Dhabi's Mina Tunnel has reduced journey times by up to 40 per cent, cut traffic accidents by 23 per cent and lowered air pollution by as much as 37 per cent since opening in 2023, according to the Department of Municipalities and Transport.The department said the tunnel has continued to improve mobility across the emirate by making journeys shorter, roads safer and air cleaner..Get updated faster and for FREE: Download the Gulf News app now - simply click here..It added that the project is expected to save a cumulative 34 million hours of travel time by 2050, delivering long-term benefits for motorists and residents.The department stressed that the improvements have had a positive impact on daily life, combining reduced travel times with greater road safety and lower levels of air pollution..The connections reshaping travel across Abu Dhabi .Al Taawun Tunnel: When will Sharjah’s new Dubai link open and how will it cut traffic?.Sharjah-Dubai traffic: New tunnel could cut waiting times by 85%.From 15 minutes to four: New Dubai roads making journeys dramatically faster",
-      "url": "https://gulfnews.com/living-in-uae/transport/abu-dhabis-mina-tunnel-cuts-travel-times-by-40-traffic-accidents-by-23-1.500714899",
-      "published_at": "2026-10-18T09:39:39+00:00"
-    },
-    "source_published_at": "2026-10-18T09:39:39+00:00",
-    "source_retrieved_at": "2026-10-20T00:47:20.467243+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All factual claims in the post are directly supported by the source text.",
-      "claims": [
-        {
-          "claim": "Туннель Мина в Абу-Даби сократил время в пути на 40%",
-          "supported": true,
-          "evidence": [
-            0,
-            1
-          ]
-        },
-        {
-          "claim": "С момента открытия в 2023 году туннель Мина в Абу-Даби снизил количество ДТП на 23%",
-          "supported": true,
-          "evidence": [
-            0,
-            1
-          ]
-        },
-        {
-          "claim": "Туннель Мина в Абу-Даби сократил загрязнение воздуха на 37%",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "К 2050 году проект сэкономит 34 миллиона часов в пути",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        },
-        {
-          "claim": "Проект улучшает безопасность и экологию в эмирате",
-          "supported": true,
-          "evidence": [
-            1
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "Abu Dhabi's Mina tunnel cuts travel times by 40%, traffic accidents by 23%"
-        },
-        {
-          "id": 1,
-          "text": "Abu Dhabi: Abu Dhabi's Mina Tunnel has reduced journey times by up to 40 per cent, cut traffic accidents by 23 per cent and lowered air pollution by as much as 37 per cent since opening in 2023, according to the Department of Municipalities and Transport.The department said the tunnel has continued to improve mobility across the emirate by making journeys shorter, roads safer and air cleaner..Get updated faster and for FREE: Download the Gulf News app now - simply click here..It added that the project is expected to save a cumulative 34 million hours of travel time by 2050, delivering long-term benefits for motorists and residents.The department stressed that the improvements have had a positive impact on daily life, combining reduced travel times with greater road safety and lower levels of air pollution..The connections reshaping travel across Abu Dhabi .Al Taawun Tunnel: When will Sharjah’s new Dubai link open and how will it cut traffic?.Sharjah-Dubai traffic: New tunnel could cut waiting times by 85%.From 15 minutes to four: New Dubai roads making journeys dramatically faster"
-        }
-      ],
-      "source_hash": "bd2c6c579a514e9ba6a7b15a50bacd63bfa6b5fbd730a355aac11640712f884d",
-      "summary_hash": "a4a6c3e403a236f85bb358e816d205c468cc3837b3d035dba304d27b496e3181",
-      "checked_at": "2026-10-20T00:47:31.126881+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "gulfnews.com",
-    "title": "Abu Dhabi's Mina tunnel cuts travel times by 40%, traffic accidents by 23%",
-    "summary_ru": "<b>🚇 Туннель Мина в Абу-Даби сократил время в пути на 40%</b>\n\n🚇 С момента открытия в 2023 году туннель Мина в Абу-Даби уменьшил время поездок до 40%, снизил количество ДТП на 23% и сократил загрязнение воздуха на 37%. 📍\n\nПо прогнозам, к 2050 году проект сэкономит 34 миллиона часов в пути, улучшая безопасность и экологию в эмирате.",
-    "published": "2026-10-20T00:47:27.892182+00:00",
-    "source_urls": [
-      "https://gulfnews.com/living-in-uae/transport/abu-dhabis-mina-tunnel-cuts-travel-times-by-40-traffic-accidents-by-23-1.500714899"
-    ],
-    "lang": "en",
-    "content_hash": "b46d8e2cff254b084f008294fab8786f",
-    "strict_hash": "b46d8e2cff254b084f008294fab8786f",
-    "fuzzy_hash": "36d71f0244b751e2c47d20b2ba565b06",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 75,
-      "ad_readiness_score": 85,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "service_update"
-    },
-    "content_format": "service_update",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о снижении времени в пути и аварийности благодаря туннелю в Абу-Даби относится к транспортной тематике и важна для жителей региона."
-      }
-    },
-    "image_url": "https://media.assettype.com/gulfnews%2F2026-10-18%2Ffv8uizjf%2FAD?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
-    "slot_target": "morning",
-    "publication": {
-      "published_at": "2026-10-20T00:47:55.730203+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1676
-    },
-    "published_at": "2026-10-20T00:47:55.737187+00:00",
-    "source_url": "https://gulfnews.com/living-in-uae/transport/abu-dhabis-mina-tunnel-cuts-travel-times-by-40-traffic-accidents-by-23-1.500714899",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
       "title": "Road towards Dubai to be temporarily closed for Etihad Rail work",
       "text": "As work on the UAE’s national rail service gains steam, a road towards Dubai will be temporarily closed for a short period from tomorrow, October 20, until October 27. Etihad Rail posted the news on social media, saying that due to the ongoing infrastructure works, the exit from Maliha Road towards Dubai (Emirates Road) will be temporarily closed between midnight and 4am. The road will be affected for one week. . Etihad Rail launched its first trip ferrying passengers on September 29. It took people from Al Yalayis Station (Jumeirah Golf Estates) in Dubai to Mohammed Bin Zayed City Station in Abu Dhabi..Get updated faster and for FREE: Download the Gulf News app now - simply click here.. If you are going to the Dubai station via the Metro, a new bridge opened on October 15, allowing travellers to take an air-conditioned path from Jumeirah Golf Estates Metro Station to Al Yalayis Station. For more information on the bridge, click here.Tickets on the new railway line start at Dh39, but there are special fares for families. Infants who are under two years of age travel free when seated on an accompanying adult’s lap. Kids who are ages 2 to 17 pay 50 per cent of the adult fare. And seniors – or those over 60 – pay 20 per cent. .Etihad Rail Dubai-Abu Dhabi tickets are on sale: Fares, timings, booking, parking and station features.Dubai Etihad Rail–Metro pedestrian bridge opens: Five-minute walk connects stations.Etihad Rail: How to reach Dubai and Abu Dhabi stations without a car.Etihad Rail passenger train completes Abu Dhabi-Dubai journey",
       "url": "https://gulfnews.com/uae/dubai/road-towards-dubai-to-be-temporarily-closed-for-etihad-rail-work-1.500716065",
@@ -20394,6 +20258,189 @@
     },
     "published_at": "2026-11-18T20:59:10.669772+00:00",
     "source_url": "https://www.wam.ae/en/article/c3auuje-dubai-government-announces-eid-etihad-holiday-from",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Dubai government fees can now be paid in instalments with Tamara through the Dubai Payment System",
+      "text": "Dubai: Dubai Finance and Dubai Digital announced the availability of Tamara, the leading platform in the field of deferred payments, as a payment option through the Dubai Payment System, in a move that gives customers more options when paying government service fees in instalments, and supports the Dubai government’s ongoing efforts to promote digital payments and provide a more flexible and convenient payment experience. Integrating Tamara into the Dubai Payments platform allows customers to manage their payments easily and transparently. Available instalment plans depend on customer eligibility, transaction type, and Tamara's terms and conditions. This step comes as part of the ongoing efforts of Dubai Finance and Digital Dubai to support the results of Dubai’s cashless strategy and to enhance the digital payments environment to meet the needs of individuals and various business sectors. His Excellency Abdulrahman Saleh Al Saleh, Director General of Dubai Finance, affirmed the department’s commitment to continuing to facilitate transactions for Dubai government customers by expanding the payment options available to them, noting that this is an important part of Dubai’s journey towards building an integrated digital financial system that prioritises ease and efficiency. His Excellency said that it is essential that customers be able to use these services with confidence, and be assured that their payments are processed in a secure environment. He added: “With the guidance of our wise leadership, and in cooperation with Dubai Digital and our partners in the public and private sectors, and in light of Dubai’s cashless strategy, we at Dubai Finance continue to develop the government payments system. Through these efforts, we are keen to keep pace with the rapid developments in payment technologies, and to provide solutions that contribute to simplifying transactions and enhancing the customer experience, in addition to supporting the efficiency and sustainability of the government collection system.” For his part, His Excellency Hamad Obaid Al Mansoori, Director General of Dubai Digital, said: “Dubai, with the vision of our wise leadership, is moving forward in building an integrated model for digital life, in which technology is part of people’s daily lives, and a means to enhance its ease, quality and efficiency. Digital payments represent one of the essential components of this model, with its role in supporting the digital economy, enhancing the efficiency of services and providing smoother and more flexible experiences for different segments of society.” His Excellency added: “The availability of Tamara within the Dubai Payment System embodies the approach based on integrating the roles of the public and private sectors, and benefiting from the innovations offered by the financial technology sector within a unified, reliable, secure and scalable digital system. We continue, in cooperation with Dubai Finance and our partners, to develop the shared digital infrastructure that enables government entities to adopt new solutions efficiently, and supports the achievements of Dubai’s cashless strategy and the journey of ‘digitising life in Dubai,’ thus enhancing Dubai’s position as a global capital of the digital economy.” Ahmed Ali Muftah, Executive Director of the Central Accounts Sector at Dubai Finance, said that adding Tamara to Dubai Payment comes as part of an ongoing effort to develop the system for collecting government service fees and to expand the digital payment options available to customers. He added: “The Dubai Payment platform enables government entities to collect their fees centrally through multiple payment channels. With the availability of more deferred payment options through the platform, these entities can also meet the needs of customers who prefer to pay fees in instalments. We continue to develop government revenue collection channels to keep pace with changing payment habits and customer expectations. As these channels develop, our priority remains to facilitate digital payments for customers, while maintaining a reliable and integrated payment environment for government entities that use the platform.” Amna Mohammed Lootah, Director of the Digital Payment Systems Regulation Department at Dubai Finance, said that making Tamara available within the channels for paying government transaction fees enables eligible customers to pay government fees in several instalments, stressing that diversifying payment methods is a key element in promoting the use of digital channels. She added: “We look at the payment journey from the customer’s perspective, and we believe that payment options should be clear to them, so that they can choose the payment method that best suits their needs. At Dubai Finance, we continue to cooperate with Dubai Digital and payment service providers in expanding the digital payments ecosystem and raising its readiness to accommodate new solutions and technologies, in",
+      "url": "https://www.emirates247.com/uae/dubai-government-fees-can-now-be-paid-in-instalments-with-tamara-through-the-dubai-payment-system/7892",
+      "published_at": "2026-11-17T19:44:00+00:00"
+    },
+    "source_published_at": "2026-11-17T19:44:00+00:00",
+    "source_retrieved_at": "2026-11-19T02:14:10.450793+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "In Dubai, government fees can be paid in instalments through the Tamara platform integrated into the Dubai Payment System.",
+          "supported": true,
+          "evidence": [
+            0,
+            1
+          ]
+        },
+        {
+          "claim": "The instalment payment option depends on the transaction type and Tamara's terms and conditions.",
+          "supported": true,
+          "evidence": [
+            3
+          ]
+        },
+        {
+          "claim": "This integration expands payment options and supports the city's digital economy.",
+          "supported": true,
+          "evidence": [
+            1,
+            8,
+            9
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Dubai government fees can now be paid in instalments with Tamara through the Dubai Payment System"
+        },
+        {
+          "id": 1,
+          "text": "Dubai: Dubai Finance and Dubai Digital announced the availability of Tamara, the leading platform in the field of deferred payments, as a payment option through the Dubai Payment System, in a move that gives customers more options when paying government service fees in instalments, and supports the Dubai government’s ongoing efforts to promote digital payments and provide a more flexible and convenient payment experience."
+        },
+        {
+          "id": 2,
+          "text": "Integrating Tamara into the Dubai Payments platform allows customers to manage their payments easily and transparently."
+        },
+        {
+          "id": 3,
+          "text": "Available instalment plans depend on customer eligibility, transaction type, and Tamara's terms and conditions."
+        },
+        {
+          "id": 4,
+          "text": "This step comes as part of the ongoing efforts of Dubai Finance and Digital Dubai to support the results of Dubai’s cashless strategy and to enhance the digital payments environment to meet the needs of individuals and various business sectors."
+        },
+        {
+          "id": 5,
+          "text": "His Excellency Abdulrahman Saleh Al Saleh, Director General of Dubai Finance, affirmed the department’s commitment to continuing to facilitate transactions for Dubai government customers by expanding the payment options available to them, noting that this is an important part of Dubai’s journey towards building an integrated digital financial system that prioritises ease and efficiency."
+        },
+        {
+          "id": 6,
+          "text": "His Excellency said that it is essential that customers be able to use these services with confidence, and be assured that their payments are processed in a secure environment."
+        },
+        {
+          "id": 7,
+          "text": "He added: “With the guidance of our wise leadership, and in cooperation with Dubai Digital and our partners in the public and private sectors, and in light of Dubai’s cashless strategy, we at Dubai Finance continue to develop the government payments system."
+        },
+        {
+          "id": 8,
+          "text": "Through these efforts, we are keen to keep pace with the rapid developments in payment technologies, and to provide solutions that contribute to simplifying transactions and enhancing the customer experience, in addition to supporting the efficiency and sustainability of the government collection system.” For his part, His Excellency Hamad Obaid Al Mansoori, Director General of Dubai Digital, said: “Dubai, with the vision of our wise leadership, is moving forward in building an integrated model for digital life, in which technology is part of people’s daily lives, and a means to enhance its ease, quality and efficiency."
+        },
+        {
+          "id": 9,
+          "text": "Digital payments represent one of the essential components of this model, with its role in supporting the digital economy, enhancing the efficiency of services and providing smoother and more flexible experiences for different segments of society.” His Excellency added: “The availability of Tamara within the Dubai Payment System embodies the approach based on integrating the roles of the public and private sectors, and benefiting from the innovations offered by the financial technology sector within a unified, reliable, secure and scalable digital system."
+        },
+        {
+          "id": 10,
+          "text": "We continue, in cooperation with Dubai Finance and our partners, to develop the shared digital infrastructure that enables government entities to adopt new solutions efficiently, and supports the achievements of Dubai’s cashless strategy and the journey of ‘digitising life in Dubai,’ thus enhancing Dubai’s position as a global capital of the digital economy.” Ahmed Ali Muftah, Executive Director of the Central Accounts Sector at Dubai Finance, said that adding Tamara to Dubai Payment comes as part of an ongoing effort to develop the system for collecting government service fees and to expand the digital payment options available to customers."
+        },
+        {
+          "id": 11,
+          "text": "He added: “The Dubai Payment platform enables government entities to collect their fees centrally through multiple payment channels."
+        },
+        {
+          "id": 12,
+          "text": "With the availability of more deferred payment options through the platform, these entities can also meet the needs of customers who prefer to pay fees in instalments."
+        },
+        {
+          "id": 13,
+          "text": "We continue to develop government revenue collection channels to keep pace with changing payment habits and customer expectations."
+        },
+        {
+          "id": 14,
+          "text": "As these channels develop, our priority remains to facilitate digital payments for customers, while maintaining a reliable and integrated payment environment for government entities that use the platform.” Amna Mohammed Lootah, Director of the Digital Payment Systems Regulation Department at Dubai Finance, said that making Tamara available within the channels for paying government transaction fees enables eligible customers to pay government fees in several instalments, stressing that diversifying payment methods is a key element in promoting the use of digital channels."
+        },
+        {
+          "id": 15,
+          "text": "She added: “We look at the payment journey from the customer’s perspective, and we believe that payment options should be clear to them, so that they can choose the payment method that best suits their needs."
+        },
+        {
+          "id": 16,
+          "text": "At Dubai Finance, we continue to cooperate with Dubai Digital and payment service providers in expanding the digital payments ecosystem and raising its readiness to accommodate new solutions and technologies, in"
+        }
+      ],
+      "source_hash": "313f7e885ad8df1331fa4fc3f9c384776e77050d2d940f97db76d766847b6bec",
+      "summary_hash": "df6bd105e257e25d74311daf1123ce6eb288ee4ecb7abb6efb9ffcce1330af62",
+      "checked_at": "2026-11-19T02:14:23.434326+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "emirates247.com",
+    "title": "Dubai government fees can now be paid in instalments with Tamara through the Dubai Payment System",
+    "summary_ru": "<b>🚇 В Дубае государственные сборы можно платить частями через Tamara</b>\n\nВ Дубае появилась возможность оплачивать государственные сборы в рассрочку через платформу Tamara, интегрированную в систему Dubai Payment System.\n\n💳 Опция доступна в зависимости от типа транзакции и условий Tamara, что расширяет выбор способов оплаты и поддерживает цифровую экономику города.",
+    "published": "2026-11-19T02:14:20.587607+00:00",
+    "source_urls": [
+      "https://www.emirates247.com/uae/dubai-government-fees-can-now-be-paid-in-instalments-with-tamara-through-the-dubai-payment-system/7892"
+    ],
+    "lang": "en",
+    "content_hash": "bbd878f119a5ce80f671cb03e7dfdf97",
+    "strict_hash": "bbd878f119a5ce80f671cb03e7dfdf97",
+    "fuzzy_hash": "86dba758cc54164852aead81a8dc9d94",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 75,
+      "ad_readiness_score": 85,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о новой возможности оплаты государственных сборов в Дубае частями через платформу Tamara соответствует тематике транспорта, услуг и бизнеса."
+      }
+    },
+    "image_url": "https://api.emirates247.com/emirates247/uploads/images/2026/11/17/12320.webp",
+    "slot_target": "morning",
+    "publication": {
+      "published_at": "2026-11-19T02:14:51.038762+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1787
+    },
+    "published_at": "2026-11-19T02:14:51.052600+00:00",
+    "source_url": "https://www.emirates247.com/uae/dubai-government-fees-can-now-be-paid-in-instalments-with-tamara-through-the-dubai-payment-system/7892",
     "summary": "",
     "summary_en": "",
     "source_names": [],
