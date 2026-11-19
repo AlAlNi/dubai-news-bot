@@ -1,43 +1,4 @@
 {
-  "ea56b4d3596fe16477410f35deed973b4dc920e084ac8a7c30775a5f185559a9": {
-    "saved_at": "2026-11-12T04:48:19.821100+00:00",
-    "result": {
-      "id": "chatcmpl-EjH1OHJwaHoiTr3pFN6YFJ2rYPpi9",
-      "object": "chat.completion",
-      "created": 1794458898,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Nakheel представил жилой проект Palm Springs в южном Дубае\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Компания Nakheel объявила о запуске Palm Springs — жилого комплекса площадью 3,8 млн кв.м рядом с Palm Jebel Ali\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Проект рассчитан на почти 50 000 жителей и включает 15 районов\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"В Palm Springs будут виллы, таунхаусы, квартиры, школы, больница, шесть мечетей, спортивный и загородный клубы, а также торговые и культурные объекты\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Проект получил LEED Platinum Precertification за экологичные решения по воде, энергии и отходам\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Планируется около 593 000 кв.м открытых пространств с парками и более 35 км маршрутов для прогулок и спорта, соединяющих районы с инфраструктурой\",\"supported\":true,\"evidence\":[4]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 981,
-        "completion_tokens": 269,
-        "total_tokens": 1250,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "a0bc435ab226b16b28a820f183c8de97bc16eadaac1edaab6bbc01c8ffc7e347": {
     "saved_at": "2026-11-12T13:26:00.212953+00:00",
     "result": {
@@ -920,6 +881,45 @@
         "prompt_tokens": 1626,
         "completion_tokens": 119,
         "total_tokens": 1745,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "58962350bee8ec620ab2fce93327dd59e6b084ffc6d81a1f67cecea3e3183af1": {
+    "saved_at": "2026-11-19T10:53:17.191391+00:00",
+    "result": {
+      "id": "chatcmpl-Elu3PNAw4NYcJswESNjvuBqQmomWL",
+      "object": "chat.completion",
+      "created": 1795085595,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Вертипорт Dubai Marina получил официальную сертификацию для коммерческих полётов электрических воздушных такси.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Вертипорт способен обслуживать до 84 000 пассажиров в год.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Вертипорт способен обслуживать 21 000 посадок в год.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Маршрут соединит Dubai Marina с главным вертипортом у международного аэропорта Дубая.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Время поездки сократится с 35 минут на машине до менее 10 минут на воздушном такси.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Операции начнутся после получения всех разрешений.\",\"supported\":true,\"evidence\":[2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1352,
+        "completion_tokens": 210,
+        "total_tokens": 1562,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
