@@ -67,6 +67,7 @@ jobs:
         TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
       run: |
         cd src
+        python monthly_changes.py publish
         python workflow_run.py auto_notify
         
     - name: Commit and push changes
@@ -77,3 +78,4 @@ jobs:
         git add storage/dubai_news/
         git diff --quiet && git diff --staged --quiet || git commit -m "Update published data [skip ci]"
         git push
+
