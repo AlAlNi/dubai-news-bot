@@ -1,43 +1,4 @@
 {
-  "4d3a9c2834ff3247709f40ea0d22ab6d1f950e1e1111b1d0e363ebac0cc0b6d4": {
-    "saved_at": "2026-11-13T10:17:07.288935+00:00",
-    "result": {
-      "id": "chatcmpl-Ejid7HRWVjmAxwQe7eeeeDzvPsGoF",
-      "object": "chat.completion",
-      "created": 1794565025,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В районе Аль-Фурджан в Дубае установлены платные парковочные зоны с кодом 591P.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Оплата действует с 8:00 до полуночи.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Доступна почасовая оплата и подписки.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Стоимость подписок: месяц — 672 дирхама, год — 4999 дирхамов.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Оплатить парковку можно через приложение Parkin, где также указаны тарифы и зоны.\",\"supported\":true,\"evidence\":[1,2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 944,
-        "completion_tokens": 181,
-        "total_tokens": 1125,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "9c44fd75fec697a20131673ff922a47772e393ce616a4d39d15ff9f8f91a73a6": {
     "saved_at": "2026-11-13T18:15:57.875179+00:00",
     "result": {
@@ -920,6 +881,45 @@
         "prompt_tokens": 867,
         "completion_tokens": 149,
         "total_tokens": 1016,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_41a21608dc"
+    }
+  },
+  "34fd7cc3816cd5dedd5469fdc36e1a11c119f77d1ea7f29c41a6d6f5cd660039": {
+    "saved_at": "2026-11-20T18:05:59.344938+00:00",
+    "result": {
+      "id": "chatcmpl-EmNHhkcauL2PwPO1Xr46Gt5EcsWMp",
+      "object": "chat.completion",
+      "created": 1795197957,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Dubai will introduce passports for steel, aluminium, and cement starting early 2027.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The passports will contain technical data and track the usage of these materials.\",\"supported\":true,\"evidence\":[2,3,8]},{\"claim\":\"It is mandatory for all manufacturers and suppliers in Dubai's construction industry to comply with this requirement.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"The system will enable recycling of materials after building demolition and support a circular economy, reducing emissions and costs.\",\"supported\":true,\"evidence\":[4,5,7,10]},{\"claim\":\"There are plans to expand the program to cover all construction materials in the future.\",\"supported\":true,\"evidence\":[10]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1361,
+        "completion_tokens": 181,
+        "total_tokens": 1542,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
