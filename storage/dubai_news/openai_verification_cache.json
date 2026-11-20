@@ -1,43 +1,4 @@
 {
-  "9951090c225c39712a8eeee8438236a6266e08ad9f60044c1f0602d732a11eb5": {
-    "saved_at": "2026-11-13T02:15:46.902211+00:00",
-    "result": {
-      "id": "chatcmpl-Ejb7JgUgtXzo1uewC7vCY3McvwM48",
-      "object": "chat.completion",
-      "created": 1794536145,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Ras Al Khaimah reopened seven public and resort beaches after nearly three weeks of closure due to oil spill concerns.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The reopened beaches include Flamingo Beach, Dahan Beach, Al Maireedh Beach, and Al Rams Corniche.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Beaches at three major resorts were also reopened.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The beach closures were ordered on October 24 as a precautionary measure after an oil spill from a tanker.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The oil leak was stopped on October 30, pollution declined, and cleanup and monitoring operations continue.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Authorities urge compliance with safety instructions and monitoring of official announcements.\",\"supported\":true,\"evidence\":[1,2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1157,
-        "completion_tokens": 214,
-        "total_tokens": 1371,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "4d3a9c2834ff3247709f40ea0d22ab6d1f950e1e1111b1d0e363ebac0cc0b6d4": {
     "saved_at": "2026-11-13T10:17:07.288935+00:00",
     "result": {
@@ -920,6 +881,45 @@
         "prompt_tokens": 1308,
         "completion_tokens": 203,
         "total_tokens": 1511,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_41a21608dc"
+    }
+  },
+  "cce0ceee2acc2e1af2bd03661bf6319441202aa47f9e205824dc3d36e3ce1512": {
+    "saved_at": "2026-11-20T09:22:36.266497+00:00",
+    "result": {
+      "id": "chatcmpl-EmF7CC5MqzMVnHpjPINU0a8crYDbM",
+      "object": "chat.completion",
+      "created": 1795166554,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"Dubai private schools and higher education institutions will be closed from December 2 to 4.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Classes will resume on December 7.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Nurseries will be closed on December 2 and 3.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Nurseries may remain closed on December 4 if needed.\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"KHDA offices will be closed from December 2 to 4.\",\"supported\":true,\"evidence\":[5]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 867,
+        "completion_tokens": 149,
+        "total_tokens": 1016,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
