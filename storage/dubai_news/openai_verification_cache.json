@@ -1,43 +1,4 @@
 {
-  "6caa8fc2d4ba649786cfcb94d17ab8de25808fb46bf493b865a1933df7e29a40": {
-    "saved_at": "2026-11-12T21:13:56.881172+00:00",
-    "result": {
-      "id": "chatcmpl-EjWPCdfX3zzFMnhDDzDp5gHVljFaU",
-      "object": "chat.completion",
-      "created": 1794518034,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Amazon стал первым онлайн-ритейлером на платформе Essential Goods Prices.\",\"supported\":true,\"evidence\":[1,2,11,19,27]},{\"claim\":\"Министерство экономики и туризма ОАЭ и Amazon UAE подписали меморандум о сотрудничестве для повышения прозрачности цен и поддержки умных покупок.\",\"supported\":true,\"evidence\":[1,5,9,10]},{\"claim\":\"Теперь покупатели могут сравнивать цены на товары первой необходимости в 12 крупных магазинах и на Amazon.ae в одном месте.\",\"supported\":true,\"evidence\":[1,3,27]},{\"claim\":\"Платформа отображает цены в реальном времени по 33 категориям товаров, включая 17 основных потребительских и 16 ключевых товаров.\",\"supported\":true,\"evidence\":[4,26]},{\"claim\":\"Это первый случай интеграции онлайн-ритейлера в платформу, что расширяет возможности для сравнения цен между физическими и интернет-магазинами.\",\"supported\":true,\"evidence\":[2,11]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1964,
-        "completion_tokens": 247,
-        "total_tokens": 2211,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_98a8cc63cd"
-    }
-  },
   "9951090c225c39712a8eeee8438236a6266e08ad9f60044c1f0602d732a11eb5": {
     "saved_at": "2026-11-13T02:15:46.902211+00:00",
     "result": {
@@ -933,6 +894,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "54c1b6a3572f384bbad2efdced2afc0a144cad13d0c4e9ed0ead3a8ca4444a5c": {
+    "saved_at": "2026-11-20T01:30:04.292426+00:00",
+    "result": {
+      "id": "chatcmpl-Em7juTmz8UDlUU5h5AAjYcJdjhCiy",
+      "object": "chat.completion",
+      "created": 1795138202,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In UAE schools, strict measures against cheating in exams starting November 25, 2026, for students from grades 3 to 12 have been introduced.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Violations including use of phones and exchanging answers result in zero marks in the subject, loss of 12 conduct points, and ban from retake exams.\",\"supported\":true,\"evidence\":[1,2,3,4,10,11]},{\"claim\":\"Repeated violations lead to zero marks in all Group A subjects and referral to a behavioral correction program.\",\"supported\":true,\"evidence\":[12]},{\"claim\":\"Violations recorded on camera also lead to strict punishments.\",\"supported\":true,\"evidence\":[13,14,15]},{\"claim\":\"Teachers who assist cheating will be held accountable.\",\"supported\":true,\"evidence\":[17]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1308,
+        "completion_tokens": 203,
+        "total_tokens": 1511,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_41a21608dc"
     }
   }
 }
