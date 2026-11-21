@@ -1,82 +1,4 @@
 {
-  "9c44fd75fec697a20131673ff922a47772e393ce616a4d39d15ff9f8f91a73a6": {
-    "saved_at": "2026-11-13T18:15:57.875179+00:00",
-    "result": {
-      "id": "chatcmpl-Ejq6VOKDQtk9uehY4d0IbgZq885Fd",
-      "object": "chat.completion",
-      "created": 1794593755,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"New UAE traffic regulations tighten vehicle recall and inspection rules starting from January 2027.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Commercial agents are required to repair manufacturing defects free of charge.\",\"supported\":true,\"evidence\":[2,10]},{\"claim\":\"Commercial agents must inform vehicle owners about recalls.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"Authorities can suspend transactions involving vehicles whose owners do not respond to recall notices.\",\"supported\":true,\"evidence\":[2,7,8,9]},{\"claim\":\"New requirements are introduced for technical inspection and updating vehicle owner data.\",\"supported\":true,\"evidence\":[12,13,14,15,16]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1580,
-        "completion_tokens": 170,
-        "total_tokens": 1750,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_f520c192d2"
-    }
-  },
-  "08197745b2778f20448ca696168aac9550e5d99693c5aa579bbe460b13dae77c": {
-    "saved_at": "2026-11-14T00:01:26.052416+00:00",
-    "result": {
-      "id": "chatcmpl-EjvUqBm280H2qd6CBQ3LzNCBK5lqM",
-      "object": "chat.completion",
-      "created": 1794614484,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the Russian post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Banks in the UAE began notifying customers about changes in service terms and tariffs effective from the beginning of 2027.\",\"supported\":true,\"evidence\":[1,4,5,11]},{\"claim\":\"The new terms cover accounts, credit cards, loans, and digital services including the use of facial recognition for transaction verification.\",\"supported\":true,\"evidence\":[6,8]},{\"claim\":\"Customers are advised to carefully review notices, especially sections on fees, digital authentication, and data use.\",\"supported\":true,\"evidence\":[2,7,8,15]},{\"claim\":\"The changes do not necessarily mean a mandatory increase in all tariffs; some updates concern only wording and procedures.\",\"supported\":true,\"evidence\":[3,9]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1489,
-        "completion_tokens": 177,
-        "total_tokens": 1666,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_f520c192d2"
-    }
-  },
   "df4fb7103396ed62c88323bdf1eb11bfaef619a44a857d00f008b9249b287912": {
     "saved_at": "2026-11-14T07:09:17.120598+00:00",
     "result": {
@@ -933,6 +855,45 @@
       },
       "service_tier": "default",
       "system_fingerprint": "fp_41a21608dc"
+    }
+  },
+  "6e00d2cda7bbadeaf341613a80dc906fe0f6bac6b96e89fb17c98a6747f053f1": {
+    "saved_at": "2026-11-21T00:27:41.632180+00:00",
+    "result": {
+      "id": "chatcmpl-EmTF5gMjIcqZpIqSIx5Dg9Y09U91l",
+      "object": "chat.completion",
+      "created": 1795220859,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the first quarter of 2027, Dubai will launch a digital platform called Safety Pulse for investors that shows a live colour-coded safety rating of buildings using AI and IoT.\",\"supported\":true,\"evidence\":[1,2,5,6,7]},{\"claim\":\"The platform tracks fire alarm systems, firefighting equipment, gas, electrical, and lifts systems, and connects owners with maintenance companies and fire stations.\",\"supported\":true,\"evidence\":[7,8,9]},{\"claim\":\"By 2027, the firefighting drone fleet Shaheen will increase from two to six units to fight fires in high-rise buildings.\",\"supported\":true,\"evidence\":[1,16,18]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1791,
+        "completion_tokens": 168,
+        "total_tokens": 1959,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
     }
   }
 }
