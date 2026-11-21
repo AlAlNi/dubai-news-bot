@@ -1,43 +1,4 @@
 {
-  "c980ba18683eabf7013da761f400698f6c935989e7687d8782c7717b66394511": {
-    "saved_at": "2026-11-14T14:36:55.905204+00:00",
-    "result": {
-      "id": "chatcmpl-Ek9A5xGppWFVFenxXeTPkhX5y6m5n",
-      "object": "chat.completion",
-      "created": 1794667013,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All claims in the post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"2 и 3 декабря 2026 объявлены выходными в частном секторе ОАЭ\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Министерство человеческих ресурсов и эмиграции объявило, что среда и четверг, 2 и 3 декабря 2026 года, будут официальными оплачиваемыми выходными для всех сотрудников частного сектора в ОАЭ\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Это связано с празднованием 55-го Дня единства (Eid Al Etihad)\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Министерство поздравило руководство и жителей страны с этим событием\",\"supported\":true,\"evidence\":[1]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 715,
-        "completion_tokens": 182,
-        "total_tokens": 897,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_4e8b3b0d74"
-    }
-  },
   "2c1bae9346092e214e67b3c9e6bdc23daf119e814898f877ff90792f297adb30": {
     "saved_at": "2026-11-14T19:33:33.462663+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1068,
         "completion_tokens": 167,
         "total_tokens": 1235,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "d879675f595b699a7e6111852387effc45202c0bd1902d45d63d9c79e0b040e9": {
+    "saved_at": "2026-11-21T15:44:52.126604+00:00",
+    "result": {
+      "id": "chatcmpl-EmhYgzqiADLvthty51VhQSIFCq6Va",
+      "object": "chat.completion",
+      "created": 1795275890,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Дубай инвестирует 1,3 млрд дирхам в улучшение дорог у World Trade Centre\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"В Дубае ведутся два крупных дорожных проекта стоимостью более 1,3 млрд дирхам для снижения пробок и сокращения времени ожидания на перекрестке Trade Centre с 12 минут до 90 секунд\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Проекты включают замену кольца на регулируемый перекресток с пятью мостами и расширение улицы Al Mustaqbal\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Ожидается, что улучшения повысят пропускную способность и улучшат связь между деловыми районами\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Работы идут с опережением графика, а новые мосты уже сократили время поездок с 6 до 1 минуты на некоторых участках\",\"supported\":true,\"evidence\":[3,4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1894,
+        "completion_tokens": 245,
+        "total_tokens": 2139,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
