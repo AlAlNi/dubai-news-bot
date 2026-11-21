@@ -1,43 +1,4 @@
 {
-  "2c1bae9346092e214e67b3c9e6bdc23daf119e814898f877ff90792f297adb30": {
-    "saved_at": "2026-11-14T19:33:33.462663+00:00",
-    "result": {
-      "id": "chatcmpl-EkDn9lyEdZdGO41f7jVQm5o3CtnZI",
-      "object": "chat.completion",
-      "created": 1794684811,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the Russian post are directly supported by the source passages.\",\"claims\":[{\"claim\":\"Emirates warned of delays with booking confirmation emails due to a global email outage.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Passengers should consider that emails may arrive with delay, but bookings remain secure.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The company asks passengers not to take any additional actions and apologizes for the inconvenience.\",\"supported\":true,\"evidence\":[2,3]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 680,
-        "completion_tokens": 116,
-        "total_tokens": 796,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_4e8b3b0d74"
-    }
-  },
   "3ab116f82391898be8dc71fe1ebc740e5bcaf59b664a7e23507b00cc5800f624": {
     "saved_at": "2026-11-14T23:29:00.814675+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1894,
         "completion_tokens": 245,
         "total_tokens": 2139,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "bd9fe28480445d2676908ffc581808161526e4a9c79fed0a1aa818842a286635": {
+    "saved_at": "2026-11-21T21:17:51.685914+00:00",
+    "result": {
+      "id": "chatcmpl-EmmkvQ3zk1Qj8utNHowZ0ZEZkffqL",
+      "object": "chat.completion",
+      "created": 1795295869,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Открыт новый парк Ghadeer Al Tair площадью 9,600 м²\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"В Дубае открыт первый из 35 новых общественных парков, ориентированных на активный образ жизни и укрепление связей в сообществе\",\"supported\":true,\"evidence\":[1,2,3,9,11]},{\"claim\":\"Парк расположен так, чтобы жители могли дойти до него пешком за пять минут\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"В парке есть детские площадки, беговая дорожка, уличные тренажёры и скоро откроется многофункциональный зал для мероприятий\",\"supported\":true,\"evidence\":[6,7]},{\"claim\":\"Проект поддерживает стратегию развития зелёных зон Дубая до 2040 года\",\"supported\":true,\"evidence\":[2,11]},{\"claim\":\"Проект включает экологические меры, такие как использование переработанной воды и возобновляемой энергии\",\"supported\":true,\"evidence\":[13]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1751,
+        "completion_tokens": 257,
+        "total_tokens": 2008,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
