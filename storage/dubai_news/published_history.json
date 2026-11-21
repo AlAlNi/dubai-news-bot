@@ -1,314 +1,6 @@
 [
   {
     "source_snapshot": {
-      "title": "Dubai sets new speed limits on five roads under traffic safety drive",
-      "text": "Dubai's traffic authorities are reducing the speed limits on three roads and increasing them on two others, as part of the Dubai Traffic Safety Strategy. The changes have been authorised by the emirate's Roads and Transport Authority and Dubai Police. The speed limit has been raised from 60kph to 70kph on Al Mustaqbal Street, between Sheikh Rashid Street and Al Meydan Street, and on Latifa bint Hamdan Street, between Sheikh Zayed Road and Al Khail Road. On Al Asayel Street, between Oud Metha Street and Al Meydan Street, the limit will be increased from 60kph to 80kph. The limit on Al Rebat Street, between Marrakech Street and Sheikh Mohamed bin Zayed Road, will be reduced from 100kph to 90kph, and from 80kph to 70kph on Sheikh Sabah Al Ahmad Al Jaber Al Sabah Street, between 2nd December Street and Khalid bin Al Waleed Street. The changes will come into effect from November 1 and are in line with a major drive by Dubai transport authorities to boost road safety and improve traffic flow to keep pace with the needs of a growing population.",
-      "url": "https://www.thenationalnews.com/news/uae/2026/10/21/dubai-to-update-speed-limits-on-five-roads-in-city/",
-      "published_at": "2026-10-21T17:48:48.485000+00:00"
-    },
-    "source_published_at": "2026-10-21T17:48:48.485000+00:00",
-    "source_retrieved_at": "2026-10-22T08:04:38.522200+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All factual claims in the post are directly supported by the source passages.",
-      "claims": [
-        {
-          "claim": "From November 1, speed limits will change on five roads in Dubai.",
-          "supported": true,
-          "evidence": [
-            6
-          ]
-        },
-        {
-          "claim": "On Al Mustaqbal Street and Latifa bint Hamdan Street, speed limits will increase from 60 to 70 km/h.",
-          "supported": true,
-          "evidence": [
-            3
-          ]
-        },
-        {
-          "claim": "On Al Asayel Street, speed limit will increase to 80 km/h.",
-          "supported": true,
-          "evidence": [
-            4
-          ]
-        },
-        {
-          "claim": "On Al Rebat Street, speed limit will decrease from 100 to 90 km/h.",
-          "supported": true,
-          "evidence": [
-            5
-          ]
-        },
-        {
-          "claim": "On Sheikh Sabah Al Ahmad Al Jaber Al Sabah Street, speed limit will decrease from 80 to 70 km/h.",
-          "supported": true,
-          "evidence": [
-            5
-          ]
-        },
-        {
-          "claim": "The changes were approved by the Roads and Transport Authority and Dubai Police as part of the traffic safety strategy.",
-          "supported": true,
-          "evidence": [
-            1,
-            2,
-            5
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "Dubai sets new speed limits on five roads under traffic safety drive"
-        },
-        {
-          "id": 1,
-          "text": "Dubai's traffic authorities are reducing the speed limits on three roads and increasing them on two others, as part of the Dubai Traffic Safety Strategy."
-        },
-        {
-          "id": 2,
-          "text": "The changes have been authorised by the emirate's Roads and Transport Authority and Dubai Police."
-        },
-        {
-          "id": 3,
-          "text": "The speed limit has been raised from 60kph to 70kph on Al Mustaqbal Street, between Sheikh Rashid Street and Al Meydan Street, and on Latifa bint Hamdan Street, between Sheikh Zayed Road and Al Khail Road."
-        },
-        {
-          "id": 4,
-          "text": "On Al Asayel Street, between Oud Metha Street and Al Meydan Street, the limit will be increased from 60kph to 80kph."
-        },
-        {
-          "id": 5,
-          "text": "The limit on Al Rebat Street, between Marrakech Street and Sheikh Mohamed bin Zayed Road, will be reduced from 100kph to 90kph, and from 80kph to 70kph on Sheikh Sabah Al Ahmad Al Jaber Al Sabah Street, between 2nd December Street and Khalid bin Al Waleed Street."
-        },
-        {
-          "id": 6,
-          "text": "The changes will come into effect from November 1 and are in line with a major drive by Dubai transport authorities to boost road safety and improve traffic flow to keep pace with the needs of a growing population."
-        }
-      ],
-      "source_hash": "9d363954b3c69dc6ffddfe2ac33cbcf0d44bb25ec7ce3fa789e0b7ce0a93ff0e",
-      "summary_hash": "e7e0b9aa591fa4aebdb0ca782e19df17f1b4f90080618b4ffa876c73aaea1e6e",
-      "checked_at": "2026-10-22T08:04:52.606828+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "thenationalnews.com",
-    "title": "Dubai sets new speed limits on five roads under traffic safety drive",
-    "summary_ru": "<b>🚗 В Дубае изменят скоростные лимиты на пяти дорогах с 1 ноября</b>\n\n📅 С 1 ноября в Дубае изменятся скоростные ограничения на пяти улицах. На Al Mustaqbal Street и Latifa bint Hamdan Street скорость повысится с 60 до 70 км/ч, а на Al Asayel Street — до 80 км/ч.\n\nСкорость снизят на Al Rebat Street с 100 до 90 км/ч и на Sheikh Sabah Al Ahmad Al Jaber Al Sabah Street с 80 до 70 км/ч. Изменения утверждены дорожной службой и полицией в рамках стратегии безопасности дорожного движения.",
-    "published": "2026-10-22T08:04:48.910623+00:00",
-    "source_urls": [
-      "https://www.thenationalnews.com/news/uae/2026/10/21/dubai-to-update-speed-limits-on-five-roads-in-city/"
-    ],
-    "lang": "en",
-    "content_hash": "1dcd1877bc1c851467ee27dd39140275",
-    "strict_hash": "1dcd1877bc1c851467ee27dd39140275",
-    "fuzzy_hash": "7a344413e769bfd89bc58a57cb24ba6c",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 100,
-      "ad_readiness_score": 100,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "service_update"
-    },
-    "content_format": "service_update",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о изменении скоростных лимитов на дорогах Дубая соответствует тематике транспорта и безопасности."
-      }
-    },
-    "image_url": "",
-    "slot_target": "evening",
-    "publication": {
-      "published_at": "2026-10-22T08:05:15.996810+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1685
-    },
-    "published_at": "2026-10-22T08:05:16.003462+00:00",
-    "source_url": "https://www.thenationalnews.com/news/uae/2026/10/21/dubai-to-update-speed-limits-on-five-roads-in-city",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
-      "title": "UAE’s new 68km E-911 highway to link Dubai-Sharjah border with Ras Al Khaimah",
-      "text": "Dubai: The Ministry of Energy and Infrastructure has invited engineering consultancy firms to bid for the study and design of the Fourth Federal Highway Corridor (E-911), a proposed 68-kilometre road linking the Dubai-Sharjah border to Ras Al Khaimah.The ministry said in a post on X that only Category A consultancy firms are eligible to apply for the contract, which covers engineering studies, design and optional supervision services..Get updated faster and for FREE: Download the Gulf News app now - simply click here..Tender No. 2026-022 was issued on October 15, with interested firms required to submit their bids by Friday, October 23.According to details published on the ministry's website, the proposed highway will extend from the Dubai-Sharjah border to Al Shuhada Road in Ras Al Khaimah.The project also includes an eight-kilometre connecting road linking the new corridor to Emirates Road (E-611) in Umm Al Quwain.The highway will feature between 12 and 16 lanes in both directions combined, with the number of lanes varying along different sections of the route.The tender represents a step towards developing the project, with consultants expected to undertake the technical studies and engineering designs required before construction.The ministry has not disclosed the project's estimated construction cost or implementation timetable.Dubai's 80km Fourth Corridor projectThe tender comes a month after Dubai announced a separate 80-kilometre Fourth Corridor project in September, aimed at strengthening the emirate's road network and improving connectivity between Sharjah, Dubai and Abu Dhabi.The first phase, estimated to cost Dh3.5 billion, will extend from Al Shanouf Road in Sharjah to Dubai-Al Ain Road. The second phase will continue from Dubai-Al Ain Road to Al Faya Road in Abu Dhabi.While the federal E-911 project will provide a new road connection between the Dubai-Sharjah border and Ras Al Khaimah, Dubai's Fourth Corridor project is designed to improve transport links towards Abu Dhabi.Both developments are intended to expand road capacity and strengthen connectivity between the emirates..Dubai’s new 80km road project explained: Route, traffic cuts and what’s being built.Dubai's Dh750 million Emirates Road project reaches 30 per cent completion, cutting journey times by 65 per cent.Dubai approves 80km Fourth Corridor to cut travel time.How a Dh6 billion highway will change travel in the UAE",
-      "url": "https://gulfnews.com/uae/transport/uaes-new-68km-e-911-highway-to-link-dubai-sharjah-border-with-ras-al-khaimah-1.500718294",
-      "published_at": "2026-10-21T10:17:19+00:00"
-    },
-    "source_published_at": "2026-10-21T10:17:19+00:00",
-    "source_retrieved_at": "2026-10-22T14:11:59.570505+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All factual claims in the post are directly supported by the source text.",
-      "claims": [
-        {
-          "claim": "В ОАЭ планируют построить новую автомагистраль E-911 длиной 68 км",
-          "supported": true,
-          "evidence": [
-            0,
-            1,
-            2
-          ]
-        },
-        {
-          "claim": "Министерство энергетики и инфраструктуры объявило тендер на проектирование дороги, которая свяжет границу Дубая и Шарджи с Рас-эль-Хаймой",
-          "supported": true,
-          "evidence": [
-            1,
-            2
-          ]
-        },
-        {
-          "claim": "Автомагистраль будет иметь от 12 до 16 полос движения",
-          "supported": true,
-          "evidence": [
-            2
-          ]
-        },
-        {
-          "claim": "Автомагистраль включит 8-километровую соединительную дорогу с трассой Emirates Road (E-611) в Умм-эль-Кувейне",
-          "supported": true,
-          "evidence": [
-            2
-          ]
-        },
-        {
-          "claim": "Сроки строительства и стоимость пока не раскрыты",
-          "supported": true,
-          "evidence": [
-            2
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "UAE’s new 68km E-911 highway to link Dubai-Sharjah border with Ras Al Khaimah"
-        },
-        {
-          "id": 1,
-          "text": "Dubai: The Ministry of Energy and Infrastructure has invited engineering consultancy firms to bid for the study and design of the Fourth Federal Highway Corridor (E-911), a proposed 68-kilometre road linking the Dubai-Sharjah border to Ras Al Khaimah.The ministry said in a post on X that only Category A consultancy firms are eligible to apply for the contract, which covers engineering studies, design and optional supervision services..Get updated faster and for FREE: Download the Gulf News app now - simply click here..Tender No."
-        },
-        {
-          "id": 2,
-          "text": "2026-022 was issued on October 15, with interested firms required to submit their bids by Friday, October 23.According to details published on the ministry's website, the proposed highway will extend from the Dubai-Sharjah border to Al Shuhada Road in Ras Al Khaimah.The project also includes an eight-kilometre connecting road linking the new corridor to Emirates Road (E-611) in Umm Al Quwain.The highway will feature between 12 and 16 lanes in both directions combined, with the number of lanes varying along different sections of the route.The tender represents a step towards developing the project, with consultants expected to undertake the technical studies and engineering designs required before construction.The ministry has not disclosed the project's estimated construction cost or implementation timetable.Dubai's 80km Fourth Corridor projectThe tender comes a month after Dubai announced a separate 80-kilometre Fourth Corridor project in September, aimed at strengthening the emirate's road network and improving connectivity between Sharjah, Dubai and Abu Dhabi.The first phase, estimated to cost Dh3.5 billion, will extend from Al Shanouf Road in Sharjah to Dubai-Al Ain Road."
-        },
-        {
-          "id": 3,
-          "text": "The second phase will continue from Dubai-Al Ain Road to Al Faya Road in Abu Dhabi.While the federal E-911 project will provide a new road connection between the Dubai-Sharjah border and Ras Al Khaimah, Dubai's Fourth Corridor project is designed to improve transport links towards Abu Dhabi.Both developments are intended to expand road capacity and strengthen connectivity between the emirates..Dubai’s new 80km road project explained: Route, traffic cuts and what’s being built.Dubai's Dh750 million Emirates Road project reaches 30 per cent completion, cutting journey times by 65 per cent.Dubai approves 80km Fourth Corridor to cut travel time.How a Dh6 billion highway will change travel in the UAE"
-        }
-      ],
-      "source_hash": "ea29979d3d2dac5ff4b5e809a0f2c86762b4f004357e8d13aa7e68e3d95378d8",
-      "summary_hash": "74ede57a5b41f721a9d9ddcc482bd74f5d6c12392312c570789b13f04aa64541",
-      "checked_at": "2026-10-22T14:12:14.673013+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "gulfnews.com",
-    "title": "UAE’s new 68km E-911 highway to link Dubai-Sharjah border with Ras Al Khaimah",
-    "summary_ru": "<b>🚇 В ОАЭ планируют построить новую автомагистраль E-911 длиной 68 км</b>\n\nМинистерство энергетики и инфраструктуры объявило тендер на проектирование дороги, которая свяжет границу Дубая и Шарджи с Рас-эль-Хаймой.\n\n💰 Автомагистраль будет иметь от 12 до 16 полос движения и включит 8-километровую соединительную дорогу с трассой Emirates Road (E-611) в Умм-эль-Кувейне. Сроки строительства и стоимость пока не раскрыты.",
-    "published": "2026-10-22T14:12:10.723497+00:00",
-    "source_urls": [
-      "https://gulfnews.com/uae/transport/uaes-new-68km-e-911-highway-to-link-dubai-sharjah-border-with-ras-al-khaimah-1.500718294"
-    ],
-    "lang": "en",
-    "content_hash": "4ee9fdc61dc2f7bc8220c39f8b5f4c30",
-    "strict_hash": "4ee9fdc61dc2f7bc8220c39f8b5f4c30",
-    "fuzzy_hash": "55017d2d31dcbb3de7442c30a992c80a",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 75,
-      "ad_readiness_score": 85,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "service_update"
-    },
-    "content_format": "service_update",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о проекте новой федеральной автомагистрали в ОАЭ, важная транспортная инфраструктура."
-      }
-    },
-    "image_url": "https://media.assettype.com/gulfnews%2F2026-10-21%2Fxidz1c6k%2FFederal-Corridor.png?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
-    "slot_target": "evening",
-    "publication": {
-      "published_at": "2026-10-22T14:15:40.718839+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1686
-    },
-    "published_at": "2026-10-22T14:15:40.727868+00:00",
-    "source_url": "https://gulfnews.com/uae/transport/uaes-new-68km-e-911-highway-to-link-dubai-sharjah-border-with-ras-al-khaimah-1.500718294",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
       "title": "Dubai tenants warned: Read rental contracts carefully",
       "text": "Dubai: Signing a tenancy contract without reading the fine print could land tenants and landlords in costly legal disputes, Dubai’s Rental Disputes Center (RDC) has warned.The centre has urged residents and business owners to carefully review every clause of their rental agreements before signing, particularly those relating to rent payments, financial guarantees, contract renewal and eviction.The warning follows a number of rental disputes involving overlooked contractual conditions, undocumented agreements and verbal promises that were never formally recorded.MisunderstandingsAccording to the RDC, such misunderstandings can result in financial claims, compensation demands and even eviction proceedings.Highlighting the risks, the centre cited the case of a tenant who became involved in a legal dispute with his landlord just months after starting a commercial activity. The disagreement arose over payment arrangements and financial guarantees included in the tenancy contract.The tenant referred to separate arrangements made with the landlord. However, these had not been formally documented.As the dispute escalated, the written tenancy agreement became central to the case because it clearly outlined the obligations accepted by both parties.The RDC said the undocumented arrangements lacked sufficient supporting evidence before the relevant authority.Fine print mattersThe centre explained that many rental disputes arise not from deliberate wrongdoing but from tenants or landlords rushing to sign agreements without fully understanding their legal implications.It advised both parties to pay particular attention to payment deadlines, contractual penalties, eviction provisions and the conditions governing renewal or termination.Even a seemingly minor clause could have significant financial or legal consequences if a disagreement arises later.Ejari registrationThe RDC also reminded landlords and tenants of the importance of registering tenancy contracts through Dubai’s Ejari system.Registration provides an officially recognised record of the rental relationship and helps protect the rights of both parties.Failure to register a tenancy agreement may create procedural difficulties when seeking to enforce certain rights or obligations through official channels.The centre also advised landlords and tenants to retain copies of correspondence, notices and other documents relating to their rental arrangements.Any changes to the original agreement, including revised payment schedules or additional conditions, should be formally documented rather than left to verbal understandings.The RDC stressed that a successful rental relationship begins before a tenant receives the keys or starts occupying a property.What tenants should check before signing Rent payments: Confirm amounts, deadlines and payment arrangements.Financial guarantees: Understand deposits and other financial commitments.Renewal and termination: Check notice periods and relevant conditions.Penalties: Review any charges for breaching contractual terms.Ejari registration: Ensure the tenancy contract is officially registered.Additional agreements: Put any changes or special arrangements in writing..Dubai rental dispute process: How to file a case, fees, documents and what happens next.Dubai landlord refusing to return your security deposit? Here's what tenants can do.Dubai judge reveals key tenant rights on rent, eviction and maintenance.Dubai mandates official registration for shared housing tenancy contracts",
       "url": "https://gulfnews.com/uae/dubai/dubai-tenants-warned-read-rental-contracts-carefully-1.500718409",
@@ -20220,6 +19912,179 @@
     },
     "published_at": "2026-11-21T07:50:34.943135+00:00",
     "source_url": "https://gulfnews.com/uae/government/gdrfa-dubai-shifts-humanitarian-cases-section-from-november-23-1.500755384",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Dubai's Dh1.3 billion road upgrades to cut Trade Centre traffic waits from 12 minutes to 90 seconds",
+      "text": "Dubai: Dubai is investing more than Dh1.3 billion in two major road projects around Dubai World Trade Centre, with the improvements expected to reduce congestion, shorten journey times and improve access to one of the emirate’s busiest business and exhibition districts.The Roads and Transport Authority (RTA) is upgrading the World Trade Centre Roundabout and expanding Al Mustaqbal Street under an integrated programme designed to accommodate growing traffic volumes and support Dubai’s expanding exhibitions and conferences industry..Get updated faster and for FREE: Download the Gulf News app now - simply click here..Once the improvements are fully operational, average waiting times at the Trade Centre intersection are expected to fall from approximately 12 minutes to just 90 seconds, according to the RTA. The first project, costing more than Dh696 million, involves replacing the former Trade Centre Roundabout with a signal-controlled intersection and constructing five bridges extending a combined 5,000 metres.The second, valued at Dh633 million, focuses on expanding Al Mustaqbal Street and improving connections to Dubai World Trade Centre, One Central and neighbouring commercial districts.Road improvements progressing ahead of scheduleMona Al Osaimi, Executive Director of Strategy and Corporate Governance at the RTA, said the projects were part of a broader effort to develop Dubai’s road infrastructure in response to the city’s rapid urban and economic growth.She explained that the redesigned intersection would increase road capacity and improve connectivity between major business districts, including Dubai World Trade Centre, Dubai International Financial Centre and Business Bay..Watch: Dubai RTA to open final bridge at World Trade Centre Roundabout on Friday. Both projects are progressing ahead of their original schedules, she noted.The RTA completed the major bridge works at the Trade Centre Roundabout with the opening of the project's final bridge on 30 October 2026.The 1,000-metre, two-lane bridge connects Al Majlis Street to 2nd December Street and has a capacity of approximately 3,000 vehicles per hour.It is expected to reduce journey times along that connection from six minutes to one minute. Earlier improvements have already delivered measurable benefits.In February, the RTA opened a 1,000-metre bridge linking Sheikh Zayed Road directly to Sheikh Khalifa bin Zayed Street, reducing travel time along that route from six minutes to one minute..Dubai's new World Trade Centre bridge opens today: Roads connected, travel times and benefits. Another bridge, opened on 14 August, provides a direct connection from Dubai World Trade Centre and One Central towards Al Mustaqbal Street and Za'abeel Palace Street.The 500-metre, two-lane structure has reduced the time needed to leave the exhibition complex during major events from approximately 10 minutes to two minutes. Al Mustaqbal Street project more than 70 per cent completeWork on Al Mustaqbal Street has passed the 70 per cent completion stage, Al Osaimi confirmed.The project includes widening the road from three to four lanes in each direction, separating longer-distance traffic from local journeys serving Dubai World Trade Centre and surrounding developments.The RTA expects the expansion to increase road capacity by 33 per cent and significantly reduce travel times.Three tunnels at the junction of Al Mustaqbal Street and Trade Centre Street are scheduled for completion by February 2027, with the wider project due to be completed during 2027. .Dubai opens new tunnel to ease Deira traffic jams. Supporting Dubai’s exhibitions industryMahir Julfar, Executive Vice President at Dubai World Trade Centre, said modern transport infrastructure was essential to maintaining Dubai’s competitiveness as an international destination for exhibitions, conferences and major events.He highlighted the importance of efficient roads, public transport, airports and hotel connectivity in attracting organisers and accommodating large numbers of visitors.Dubai World Trade Centre welcomed nearly three million attendees in 2025 across its two main exhibition venues.Official figures show that the organisation hosted 401 events during the year, attracting 2.97 million attendees, an increase of 12 per cent compared with 2024. Julfar indicated that the organisation aims to expand its annual events calendar to 600 events by 2033, supporting Dubai’s broader economic growth ambitions under the Dubai Economic Agenda D33.Reducing congestion during major exhibitionsAbdulrahman Obaid Abu Al Shawareb, Executive Vice President of Protocol and Security at Dubai World Trade Centre, highlighted the close coordination between the exhibition centre and the RTA throughout the construction programme..Sharjah opens new bridges, road links to Dubai to ease traffic congestion. He explained that implementing major roadworks in an area hosting exhibitions throughout the year required careful planning to minimise disruption to visitors, exhibitors and other road users.Traffic management plans have been adjusted to accommodate individual events, with direct coordination maintained through the RTA's command and control centre.The improvements are particularly important during major exhibitions, when thousands of vehicles can leave the complex within a short period.By easing congestion at the Trade Centre intersection, the projects are expected to prevent traffic queues from extending onto Sheikh Zayed Road while improving access to surrounding commercial and residential areas.The RTA estimates that the World Trade Centre Roundabout improvements alone will benefit more than 500,000 residents and visitors..Watch: Dubai RTA to open final bridge at World Trade Centre Roundabout on Friday.Dubai's new World Trade Centre bridge opens today: Roads connected, travel times and benefits.New Dubai bridge cuts World Trade Centre journey time from 10 minutes to two.Dubai RTA opens new DWTC bridge, cutting travel time from 10 minutes to 2",
+      "url": "https://gulfnews.com/living-in-uae/transport/dubais-dh13-billion-road-upgrades-to-cut-trade-centre-traffic-waits-from-12-minutes-to-90-seconds-1.500755462",
+      "published_at": "2026-11-20T16:44:38+00:00"
+    },
+    "source_published_at": "2026-11-20T16:44:38+00:00",
+    "source_retrieved_at": "2026-11-21T15:44:41.385842+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "Дубай инвестирует 1,3 млрд дирхам в улучшение дорог у World Trade Centre",
+          "supported": true,
+          "evidence": [
+            1,
+            2
+          ]
+        },
+        {
+          "claim": "В Дубае ведутся два крупных дорожных проекта стоимостью более 1,3 млрд дирхам для снижения пробок и сокращения времени ожидания на перекрестке Trade Centre с 12 минут до 90 секунд",
+          "supported": true,
+          "evidence": [
+            1,
+            2
+          ]
+        },
+        {
+          "claim": "Проекты включают замену кольца на регулируемый перекресток с пятью мостами и расширение улицы Al Mustaqbal",
+          "supported": true,
+          "evidence": [
+            2
+          ]
+        },
+        {
+          "claim": "Ожидается, что улучшения повысят пропускную способность и улучшат связь между деловыми районами",
+          "supported": true,
+          "evidence": [
+            2
+          ]
+        },
+        {
+          "claim": "Работы идут с опережением графика, а новые мосты уже сократили время поездок с 6 до 1 минуты на некоторых участках",
+          "supported": true,
+          "evidence": [
+            3,
+            4
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Dubai's Dh1.3 billion road upgrades to cut Trade Centre traffic waits from 12 minutes to 90 seconds"
+        },
+        {
+          "id": 1,
+          "text": "Dubai: Dubai is investing more than Dh1.3 billion in two major road projects around Dubai World Trade Centre, with the improvements expected to reduce congestion, shorten journey times and improve access to one of the emirate’s busiest business and exhibition districts.The Roads and Transport Authority (RTA) is upgrading the World Trade Centre Roundabout and expanding Al Mustaqbal Street under an integrated programme designed to accommodate growing traffic volumes and support Dubai’s expanding exhibitions and conferences industry..Get updated faster and for FREE: Download the Gulf News app now - simply click here..Once the improvements are fully operational, average waiting times at the Trade Centre intersection are expected to fall from approximately 12 minutes to just 90 seconds, according to the RTA."
+        },
+        {
+          "id": 2,
+          "text": "The first project, costing more than Dh696 million, involves replacing the former Trade Centre Roundabout with a signal-controlled intersection and constructing five bridges extending a combined 5,000 metres.The second, valued at Dh633 million, focuses on expanding Al Mustaqbal Street and improving connections to Dubai World Trade Centre, One Central and neighbouring commercial districts.Road improvements progressing ahead of scheduleMona Al Osaimi, Executive Director of Strategy and Corporate Governance at the RTA, said the projects were part of a broader effort to develop Dubai’s road infrastructure in response to the city’s rapid urban and economic growth.She explained that the redesigned intersection would increase road capacity and improve connectivity between major business districts, including Dubai World Trade Centre, Dubai International Financial Centre and Business Bay..Watch: Dubai RTA to open final bridge at World Trade Centre Roundabout on Friday."
+        },
+        {
+          "id": 3,
+          "text": "Both projects are progressing ahead of their original schedules, she noted.The RTA completed the major bridge works at the Trade Centre Roundabout with the opening of the project's final bridge on 30 October 2026.The 1,000-metre, two-lane bridge connects Al Majlis Street to 2nd December Street and has a capacity of approximately 3,000 vehicles per hour.It is expected to reduce journey times along that connection from six minutes to one minute."
+        },
+        {
+          "id": 4,
+          "text": "Earlier improvements have already delivered measurable benefits.In February, the RTA opened a 1,000-metre bridge linking Sheikh Zayed Road directly to Sheikh Khalifa bin Zayed Street, reducing travel time along that route from six minutes to one minute..Dubai's new World Trade Centre bridge opens today: Roads connected, travel times and benefits."
+        },
+        {
+          "id": 5,
+          "text": "Another bridge, opened on 14 August, provides a direct connection from Dubai World Trade Centre and One Central towards Al Mustaqbal Street and Za'abeel Palace Street.The 500-metre, two-lane structure has reduced the time needed to leave the exhibition complex during major events from approximately 10 minutes to two minutes."
+        },
+        {
+          "id": 6,
+          "text": "Al Mustaqbal Street project more than 70 per cent completeWork on Al Mustaqbal Street has passed the 70 per cent completion stage, Al Osaimi confirmed.The project includes widening the road from three to four lanes in each direction, separating longer-distance traffic from local journeys serving Dubai World Trade Centre and surrounding developments.The RTA expects the expansion to increase road capacity by 33 per cent and significantly reduce travel times.Three tunnels at the junction of Al Mustaqbal Street and Trade Centre Street are scheduled for completion by February 2027, with the wider project due to be completed during 2027."
+        },
+        {
+          "id": 7,
+          "text": ".Dubai opens new tunnel to ease Deira traffic jams."
+        },
+        {
+          "id": 8,
+          "text": "Supporting Dubai’s exhibitions industryMahir Julfar, Executive Vice President at Dubai World Trade Centre, said modern transport infrastructure was essential to maintaining Dubai’s competitiveness as an international destination for exhibitions, conferences and major events.He highlighted the importance of efficient roads, public transport, airports and hotel connectivity in attracting organisers and accommodating large numbers of visitors.Dubai World Trade Centre welcomed nearly three million attendees in 2025 across its two main exhibition venues.Official figures show that the organisation hosted 401 events during the year, attracting 2.97 million attendees, an increase of 12 per cent compared with 2024."
+        },
+        {
+          "id": 9,
+          "text": "Julfar indicated that the organisation aims to expand its annual events calendar to 600 events by 2033, supporting Dubai’s broader economic growth ambitions under the Dubai Economic Agenda D33.Reducing congestion during major exhibitionsAbdulrahman Obaid Abu Al Shawareb, Executive Vice President of Protocol and Security at Dubai World Trade Centre, highlighted the close coordination between the exhibition centre and the RTA throughout the construction programme..Sharjah opens new bridges, road links to Dubai to ease traffic congestion."
+        },
+        {
+          "id": 10,
+          "text": "He explained that implementing major roadworks in an area hosting exhibitions throughout the year required careful planning to minimise disruption to visitors, exhibitors and other road users.Traffic management plans have been adjusted to accommodate individual events, with direct coordination maintained through the RTA's command and control centre.The improvements are particularly important during major exhibitions, when thousands of vehicles can leave the complex within a short period.By easing congestion at the Trade Centre intersection, the projects are expected to prevent traffic queues from extending onto Sheikh Zayed Road while improving access to surrounding commercial and residential areas.The RTA estimates that the World Trade Centre Roundabout improvements alone will benefit more than 500,000 residents and visitors..Watch: Dubai RTA to open final bridge at World Trade Centre Roundabout on Friday.Dubai's new World Trade Centre bridge opens today: Roads connected, travel times and benefits.New Dubai bridge cuts World Trade Centre journey time from 10 minutes to two.Dubai RTA opens new DWTC bridge, cutting travel time from 10 minutes to 2"
+        }
+      ],
+      "source_hash": "2faa641d4f6dc6c67a64c5375a47243f0c8a4787d7e0bacc7931a61b316bcdc3",
+      "summary_hash": "f4b76a428cc6fbe64ba828beb8cb3ff60ce62551fa3ff14e1f91e06c67641f94",
+      "checked_at": "2026-11-21T15:44:52.126584+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "gulfnews.com",
+    "title": "Dubai's Dh1.3 billion road upgrades to cut Trade Centre traffic waits from 12 minutes to 90 seconds",
+    "summary_ru": "<b>🚇 Дубай инвестирует 1,3 млрд дирхам в улучшение дорог у World Trade Centre</b>\n\n💰 В Дубае ведутся два крупных дорожных проекта стоимостью более 1,3 млрд дирхам для снижения пробок и сокращения времени ожидания на перекрестке Trade Centre с 12 минут до 90 секунд.\n\nПроекты включают замену кольца на регулируемый перекресток с пятью мостами и расширение улицы Al Mustaqbal. Ожидается, что улучшения повысят пропускную способность и улучшат связь между деловыми районами.\n\n🚇 Работы идут с опережением графика, а новые мосты уже сократили время поездок с 6 до 1 минуты на некоторых участках.",
+    "published": "2026-11-21T15:44:48.957608+00:00",
+    "source_urls": [
+      "https://gulfnews.com/living-in-uae/transport/dubais-dh13-billion-road-upgrades-to-cut-trade-centre-traffic-waits-from-12-minutes-to-90-seconds-1.500755462"
+    ],
+    "lang": "en",
+    "content_hash": "883f459c8ff1e6eb928f91102dc5eced",
+    "strict_hash": "883f459c8ff1e6eb928f91102dc5eced",
+    "fuzzy_hash": "52196ea61869fa437b6bafb4585921a5",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 75,
+      "ad_readiness_score": 85,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о масштабных дорожных улучшениях в районе Dubai World Trade Centre с конкретными данными о снижении времени ожидания и улучшении транспортной инфраструктуры."
+      }
+    },
+    "image_url": "https://media.assettype.com/gulfnews%2F2026-11-20%2F3svg3ifh%2FDubai?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+    "slot_target": "evening",
+    "publication": {
+      "published_at": "2026-11-21T15:45:21.785404+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1795
+    },
+    "published_at": "2026-11-21T15:45:21.797014+00:00",
+    "source_url": "https://gulfnews.com/living-in-uae/transport/dubais-dh13-billion-road-upgrades-to-cut-trade-centre-traffic-waits-from-12-minutes-to-90-seconds-1.500755462",
     "summary": "",
     "summary_en": "",
     "source_names": [],
