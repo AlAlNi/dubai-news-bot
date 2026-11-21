@@ -1,43 +1,4 @@
 {
-  "df4fb7103396ed62c88323bdf1eb11bfaef619a44a857d00f008b9249b287912": {
-    "saved_at": "2026-11-14T07:09:17.120598+00:00",
-    "result": {
-      "id": "chatcmpl-Ek2AtNCzgI14KmMHP1IUM7Rtq8ZaO",
-      "object": "chat.completion",
-      "created": 1794640155,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"KHDA представила единый каркас безопасности для частных учебных заведений, включая школы, детские центры и вузы.\",\"supported\":true,\"evidence\":[0,1,3]},{\"claim\":\"В системе выделены три уровня риска угроз безопасности учащихся с разными процедурами реагирования.\",\"supported\":true,\"evidence\":[2,19,26]},{\"claim\":\"В каждой школе создадут команду защиты, в которую войдут директор и минимум два ответственных сотрудника.\",\"supported\":true,\"evidence\":[13,14]},{\"claim\":\"Они будут следить за случаями, координировать действия и взаимодействовать с властями.\",\"supported\":true,\"evidence\":[14,15,16,20,21]},{\"claim\":\"Каркас основан на законе о правах ребёнка и поддерживает стратегию образования Дубая до 2033 года.\",\"supported\":true,\"evidence\":[10,11]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1815,
-        "completion_tokens": 225,
-        "total_tokens": 2040,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_f520c192d2"
-    }
-  },
   "c980ba18683eabf7013da761f400698f6c935989e7687d8782c7717b66394511": {
     "saved_at": "2026-11-14T14:36:55.905204+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1791,
         "completion_tokens": 168,
         "total_tokens": 1959,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "154c3143205afc2d2c79d38d306b3a0ccc2c58877bedae11f9873ba3f6e8ff86": {
+    "saved_at": "2026-11-21T07:50:08.273363+00:00",
+    "result": {
+      "id": "chatcmpl-Ema9GbDzJIJE89vH9ilxihcQi4fWg",
+      "object": "chat.completion",
+      "created": 1795247406,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From November 23, the GDRFA Humanitarian Cases Section will operate at a new location in the Dubai International Airport free zone in Al Twar 2.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The relocation is due to maintenance work at the Dubai Festival City office.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Customer service hours will be from 6:30 to 14:30, and on Fridays until 12:00, excluding official public holidays.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"The relocation will not affect the quality and speed of services.\",\"supported\":true,\"evidence\":[4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1068,
+        "completion_tokens": 167,
+        "total_tokens": 1235,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
