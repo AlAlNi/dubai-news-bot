@@ -1,43 +1,4 @@
 {
-  "04bee2cabcf6478661621bd9837572a8eb37bf4b0fbfd7e3ffdaa2c663481ed8": {
-    "saved_at": "2026-11-15T18:09:03.928427+00:00",
-    "result": {
-      "id": "chatcmpl-EkYwwM1xPUvgHs2DULzmF6GxQ3OTy",
-      "object": "chat.completion",
-      "created": 1794766142,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the UAE, a free online tool called StaySafe has been launched by the Cyber Security Council to check website reliability.\",\"supported\":true,\"evidence\":[6,7]},{\"claim\":\"Users can check a website using a color scale from red to dark green to determine the risk of fraud.\",\"supported\":true,\"evidence\":[14,15,16]},{\"claim\":\"The service shows whether the website has been reported for phishing, whether it is officially registered, and how old it is.\",\"supported\":true,\"evidence\":[17]},{\"claim\":\"StaySafe is available at staysafe.csc.gov.ae/en.\",\"supported\":true,\"evidence\":[12]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2145,
-        "completion_tokens": 161,
-        "total_tokens": 2306,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_4e8b3b0d74"
-    }
-  },
   "ce4ce538d85ac38c0b6494ea7f26ad65609ff9a9481cd09a895d80317a293402": {
     "saved_at": "2026-11-15T23:14:33.728227+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1511,
         "completion_tokens": 225,
         "total_tokens": 1736,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "742f66ec68d59abb1e0ff2eb0a9babca40cfba9c4c277ea8346ae76f90c98cdd": {
+    "saved_at": "2026-11-22T22:13:45.814969+00:00",
+    "result": {
+      "id": "chatcmpl-EnA6aAGgQsMjqS8lnHJ97sppY6wuQ",
+      "object": "chat.completion",
+      "created": 1795385624,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Ras Al Khaimah has launched a nationwide delivery service for vehicle number plates across all seven emirates of the UAE.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Motorists can receive their vehicle number plates at a location of their choice without visiting a collection centre.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Delivery requests can be made through the Ministry of Interior’s mobile application or the TAMM digital government services platform.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"To receive the delivery, motorists must present their Emirates ID.\",\"supported\":true,\"evidence\":[2,1]},{\"claim\":\"Number plate installation in Ras Al Khaimah remains free of charge.\",\"supported\":true,\"evidence\":[1]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1034,
+        "completion_tokens": 185,
+        "total_tokens": 1219,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
