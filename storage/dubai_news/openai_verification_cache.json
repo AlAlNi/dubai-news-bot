@@ -1,43 +1,4 @@
 {
-  "4b8dc1bb3c987f5d92ab9c219a9ede7fc188a5a72ce45c4e3b6dabaed70fd7c4": {
-    "saved_at": "2026-11-15T11:37:37.828219+00:00",
-    "result": {
-      "id": "chatcmpl-EkSq7LLprMWjpGDjALEJ6bO89vSed",
-      "object": "chat.completion",
-      "created": 1794742655,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Residents of the UAE can obtain a criminal clearance certificate online through the Ministry of Interior portal or mobile app.\",\"supported\":true,\"evidence\":[3,19]},{\"claim\":\"To apply, Emirates ID and a valid passport are required.\",\"supported\":true,\"evidence\":[15,19]},{\"claim\":\"Citizens of Gulf Cooperation Council countries and visitors must undergo fingerprinting.\",\"supported\":true,\"evidence\":[16]},{\"claim\":\"The certificate is issued in Arabic and English and is valid for 30 days.\",\"supported\":true,\"evidence\":[18]},{\"claim\":\"The service fee is 50 dirhams for use within the country and 100 dirhams for use abroad.\",\"supported\":true,\"evidence\":[30]},{\"claim\":\"The process takes 24 hours.\",\"supported\":true,\"evidence\":[29]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1711,
-        "completion_tokens": 194,
-        "total_tokens": 1905,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_4e8b3b0d74"
-    }
-  },
   "04bee2cabcf6478661621bd9837572a8eb37bf4b0fbfd7e3ffdaa2c663481ed8": {
     "saved_at": "2026-11-15T18:09:03.928427+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1605,
         "completion_tokens": 215,
         "total_tokens": 1820,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "f9202deec9e4e7e305acde8a5de176a47fad360212409dfc79c9d396bece492b": {
+    "saved_at": "2026-11-22T16:55:41.298523+00:00",
+    "result": {
+      "id": "chatcmpl-En58lLamNdJthYeAnopQN0SrQx086",
+      "object": "chat.completion",
+      "created": 1795366539,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В районе Карама в Дубае установлены камеры Parkin рядом с парковочными местами, предназначенными для People of Determination (PoD).\",\"supported\":true,\"evidence\":[0,1,2]},{\"claim\":\"Устройства помогают выявлять автомобили без разрешения, занимающие эти места.\",\"supported\":true,\"evidence\":[1,4,5,6,7]},{\"claim\":\"Камеры используют технологию распознавания номеров и проверяют наличие действующих разрешений.\",\"supported\":true,\"evidence\":[5,6,7]},{\"claim\":\"Нарушителям грозит штраф в размере 1000 дирхамов и ограничение времени парковки до четырёх часов.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Местные жители отмечают, что камеры помогут сохранить доступность парковочных мест для тех, кто в них действительно нуждается.\",\"supported\":true,\"evidence\":[2,3,4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1511,
+        "completion_tokens": 225,
+        "total_tokens": 1736,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
