@@ -1,43 +1,4 @@
 {
-  "f9440c0d43c57e78b2e13389c28033353df79abc54d42f44bc8f2d7d71278d87": {
-    "saved_at": "2026-11-15T03:41:37.908087+00:00",
-    "result": {
-      "id": "chatcmpl-EkLPTTawQDi0PKJ7MS2hNOMyQdsT0",
-      "object": "chat.completion",
-      "created": 1794714095,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":false,\"reason\":\"The post contains a factual error in the name of the World's Best Pastry Chef and omits some details from the source; also, the post's claim about Antonio Bachour as 'world champion' is not supported by the source, which calls him 'World's Best Pastry Chef' and Guest of Honour, not a champion.\",\"claims\":[{\"claim\":\"The fifth Salon du Chocolat will be held in Dubai from 30 November to 2 December.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The event will take place at Madinat Jumeirah.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The event coincides with the 55th Eid Al Etihad celebrations in the UAE.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The exhibition will cover 3500 square meters.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"The exhibition will feature 360 brands and 120 exhibitors.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"More than 50 pastry chefs will participate, including the world champion Antonio Bachour.\",\"supported\":false,\"evidence\":[2]},{\"claim\":\"The program includes master classes, competitions, and a chocolate fashion show.\",\"supported\":true,\"evidence\":[3,4]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1004,
-        "completion_tokens": 268,
-        "total_tokens": 1272,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_4e8b3b0d74"
-    }
-  },
   "4b8dc1bb3c987f5d92ab9c219a9ede7fc188a5a72ce45c4e3b6dabaed70fd7c4": {
     "saved_at": "2026-11-15T11:37:37.828219+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1158,
         "completion_tokens": 219,
         "total_tokens": 1377,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "5242f61ff543a8a3a9795c3fa9d4c4c83152ddd09bae26ec61b40469e07cb94e": {
+    "saved_at": "2026-11-22T08:59:41.081917+00:00",
+    "result": {
+      "id": "chatcmpl-Emxi7chOwQtEmnxeugLfrRS71WIJE",
+      "object": "chat.completion",
+      "created": 1795337979,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, 2027, taxi drivers in the UAE cannot refuse passengers without a valid reason.\",\"supported\":true,\"evidence\":[0,8,11,27]},{\"claim\":\"Taxi drivers cannot charge more than the established fare.\",\"supported\":true,\"evidence\":[0,8,14,15,28]},{\"claim\":\"The maximum number of passengers in a taxi is limited by the license: usually four for sedans and six for larger vehicles.\",\"supported\":true,\"evidence\":[0,8,18,19,27]},{\"claim\":\"Taxi drivers must stop only at designated places.\",\"supported\":true,\"evidence\":[25,27]},{\"claim\":\"Taxi drivers must comply with traffic rules.\",\"supported\":true,\"evidence\":[29,30]},{\"claim\":\"Information about the maximum number of passengers and license number must be visible inside the taxi.\",\"supported\":true,\"evidence\":[21,22]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1605,
+        "completion_tokens": 215,
+        "total_tokens": 1820,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
