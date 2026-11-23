@@ -1,43 +1,4 @@
 {
-  "febe4fee698fca810c10f06bef4670f864439725a8da391dc071c828f303c8ab": {
-    "saved_at": "2026-11-16T12:12:14.664885+00:00",
-    "result": {
-      "id": "chatcmpl-EkprAj6iTAYzSdW76ILfDrjD6mFym",
-      "object": "chat.completion",
-      "created": 1794831132,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, 2027, in the UAE, heavy trucks and buses are prohibited from overtaking each other within cities.\",\"supported\":true,\"evidence\":[1,4]},{\"claim\":\"Outside cities, overtaking is allowed only if it does not obstruct traffic.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Drivers must follow six main requirements including driving on the right side, observing load and height limits, and prohibition on carrying passengers except workers if designated seats are available.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Cargo must be securely fastened and not extend beyond the vehicle's dimensions.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Minimum eyesight requirements are introduced for obtaining driving licenses for heavy vehicles and buses.\",\"supported\":true,\"evidence\":[6]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1418,
-        "completion_tokens": 190,
-        "total_tokens": 1608,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_4e8b3b0d74"
-    }
-  },
   "2fd51d10ba3cba401076c2ff7bfbe19248a76b1654837884ab742917f23d8edb": {
     "saved_at": "2026-11-16T22:37:37.391089+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1527,
         "completion_tokens": 267,
         "total_tokens": 1794,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "63e93ee4045e084bf23fdbda17e0d1a92101a1b6ab3a46b30f134f836b521eee": {
+    "saved_at": "2026-11-23T13:49:41.406653+00:00",
+    "result": {
+      "id": "chatcmpl-EnOiIkexzsonfyunknX4CZXjvs6fa",
+      "object": "chat.completion",
+      "created": 1795441778,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"For the next four days in the UAE, rain is expected according to the National Centre of Meteorology.\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Temperature on Thursday will drop to the high 20s Celsius.\",\"supported\":true,\"evidence\":[0,3]},{\"claim\":\"Minimum temperature in some areas, such as Ras Al Khaimah, may reach 18°C.\",\"supported\":true,\"evidence\":[3,11]},{\"claim\":\"Today, temperature in Dubai and Abu Dhabi will reach 33°C.\",\"supported\":true,\"evidence\":[5,11]},{\"claim\":\"Today, temperature in Fujairah will be 29°C.\",\"supported\":true,\"evidence\":[6,11]},{\"claim\":\"Wind and sea will be calm.\",\"supported\":true,\"evidence\":[9,10]},{\"claim\":\"Fog is possible in western areas, and drivers are advised to be cautious.\",\"supported\":true,\"evidence\":[7,8]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1182,
+        "completion_tokens": 226,
+        "total_tokens": 1408,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
