@@ -1,582 +1,6 @@
 [
   {
     "source_snapshot": {
-      "title": "Dubai Police warn of Dh400 jaywalking fine as part of road safety campaign",
-      "text": "Dubai Police have warned pedestrians of crossing roads unsafely, reminding them of a fine of Dh400. According to Article 89 of the Federal Traffic Law, pedestrians who disregard traffic signals or cross roads at undesignated locations can be fined Dh400. Brigadier Majid Sultan Al Suwaidi, Director of the General Department of Police Stations, urged pedestrians to use designated crossings, check that the road is clear of approaching vehicles and obey pedestrian traffic signals at intersections. “Road safety is a shared responsibility. Everyone has a role to play in following traffic regulations and helping create safer roads for all,” he said. The reminder comes as the authority launched an awareness campaign to promote pedestrian safety, encourage responsible road behaviour and reduce traffic accidents. The campaign also targets motorists, reminding them to remain vigilant, reduce speed and give way to pedestrians at designated crossings, particularly in busy and densely populated areas.",
-      "url": "https://www.khaleejtimes.com/uae/dubai-police-warn-dh400-jaywalking-fine-road-safety-campaign-2026",
-      "published_at": "2026-10-23T12:54:57+00:00"
-    },
-    "source_published_at": "2026-10-23T12:54:57+00:00",
-    "source_retrieved_at": "2026-10-24T16:19:47.590008+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All factual claims in the Russian post are directly supported by the source text.",
-      "claims": [
-        {
-          "claim": "В Дубае штраф за переход дороги в неположенном месте составит 400 дирхам",
-          "supported": true,
-          "evidence": [
-            0,
-            1,
-            2
-          ]
-        },
-        {
-          "claim": "Полиция Дубая предупреждает пешеходов о штрафе в размере 400 дирхам за нарушение правил перехода дорог по статье 89 Федерального закона о дорожном движении",
-          "supported": true,
-          "evidence": [
-            1,
-            2
-          ]
-        },
-        {
-          "claim": "Нарушение включает переход на красный свет или в непредназначенных местах",
-          "supported": true,
-          "evidence": [
-            2
-          ]
-        },
-        {
-          "claim": "Бригадир Маджид Султан Аль Суваиди призвал использовать только обозначенные переходы и соблюдать сигналы светофора",
-          "supported": true,
-          "evidence": [
-            3
-          ]
-        },
-        {
-          "claim": "Власти запустили кампанию по повышению безопасности пешеходов",
-          "supported": true,
-          "evidence": [
-            6
-          ]
-        },
-        {
-          "claim": "Власти призывают водителей снижать скорость и уступать дорогу",
-          "supported": true,
-          "evidence": [
-            7
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "Dubai Police warn of Dh400 jaywalking fine as part of road safety campaign"
-        },
-        {
-          "id": 1,
-          "text": "Dubai Police have warned pedestrians of crossing roads unsafely, reminding them of a fine of Dh400."
-        },
-        {
-          "id": 2,
-          "text": "According to Article 89 of the Federal Traffic Law, pedestrians who disregard traffic signals or cross roads at undesignated locations can be fined Dh400."
-        },
-        {
-          "id": 3,
-          "text": "Brigadier Majid Sultan Al Suwaidi, Director of the General Department of Police Stations, urged pedestrians to use designated crossings, check that the road is clear of approaching vehicles and obey pedestrian traffic signals at intersections."
-        },
-        {
-          "id": 4,
-          "text": "“Road safety is a shared responsibility."
-        },
-        {
-          "id": 5,
-          "text": "Everyone has a role to play in following traffic regulations and helping create safer roads for all,” he said."
-        },
-        {
-          "id": 6,
-          "text": "The reminder comes as the authority launched an awareness campaign to promote pedestrian safety, encourage responsible road behaviour and reduce traffic accidents."
-        },
-        {
-          "id": 7,
-          "text": "The campaign also targets motorists, reminding them to remain vigilant, reduce speed and give way to pedestrians at designated crossings, particularly in busy and densely populated areas."
-        }
-      ],
-      "source_hash": "d85c50b342171a7f1ff0561d9bb16fbf5a2cfcc9fbb72a4011cdd13f232db28b",
-      "summary_hash": "ea1e58bd81d7db80d51ab43cf3e075c270451832ca0993cc05b68edede568362",
-      "checked_at": "2026-10-24T16:19:59.193546+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "khaleejtimes.com",
-    "title": "Dubai Police warn of Dh400 jaywalking fine as part of road safety campaign",
-    "summary_ru": "<b>🚶‍♂️ В Дубае штраф за переход дороги в неположенном месте составит 400 дирхам</b>\n\nПолиция Дубая предупреждает пешеходов о штрафе в размере 400 дирхам за нарушение правил перехода дорог по статье 89 Федерального закона о дорожном движении. Нарушение включает переход на красный свет или в непредназначенных местах.\n\nБригадир Маджид Султан Аль Суваиди призвал использовать только обозначенные переходы и соблюдать сигналы светофора. Власти запустили кампанию по повышению безопасности пешеходов и призывают водителей снижать скорость и уступать дорогу.",
-    "published": "2026-10-24T16:19:55.516144+00:00",
-    "source_urls": [
-      "https://www.khaleejtimes.com/uae/dubai-police-warn-dh400-jaywalking-fine-road-safety-campaign-2026"
-    ],
-    "lang": "en",
-    "content_hash": "276ed48477460b5b48929fa5ad78a042",
-    "strict_hash": "276ed48477460b5b48929fa5ad78a042",
-    "fuzzy_hash": "11333a1268738902dc8f2d5eca97e6bb",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 75,
-      "ad_readiness_score": 85,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "service_update"
-    },
-    "content_format": "service_update",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о штрафах за нарушение правил перехода дороги и кампании по безопасности на дорогах в Дубае соответствует тематике транспорта и общественной безопасности."
-      }
-    },
-    "image_url": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-10-23/fnd2qqnl/dubai-police.png?width=1200&amp;height=630&amp;q=60&amp;format=auto&amp;ogImage=true&amp;mode=fill&amp;fill=blur",
-    "slot_target": "evening",
-    "publication": {
-      "published_at": "2026-10-24T16:20:21.470424+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1696
-    },
-    "published_at": "2026-10-24T16:20:21.477063+00:00",
-    "source_url": "https://www.khaleejtimes.com/uae/dubai-police-warn-dh400-jaywalking-fine-road-safety-campaign-2026",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
-      "title": "Pakistani expats in UAE: E-Passports start, fees from Dh145",
-      "text": "The Embassy of Pakistan in Abu Dhabi and the Consulate General of Pakistan in Dubai have begun processing all passport applications as e-Passports from Friday, October 23, 2026, according to a public notice issued by the missions. The notice said the e-Passport issuance process “has started and will continue”, covering all new applications submitted at both offices. Pakistani nationals holding valid Machine Readable Passports (MRPs) do not need to replace them immediately. The missions said all valid MRPs remain valid until their date of expiry. Applicants have been advised to apply for renewal only when the remaining validity of their passport is less than six months. The notice also said that both a first name and a last name are mandatory for the e-Passport. Applicants whose current passports carry only a single name should be prepared for this requirement when applying. Over two million Pakistanis live in the UAE, making them the country’s second-largest expatriate community in the country. The community includes professionals, entrepreneurs and workers across various industries, with many considering the Emirates a second home after years or generations of residence. Beyond contributing to the UAE’s development, Pakistanis play a vital role in supporting their home country through remittances. Fees vary by the number of pages, validity period, processing type and whether the passport is being replaced after loss. All fees are in UAE dirhams.For a standard renewal, the lowest fee is Dh145 for a 36-page, five-year passport under normal processing, while the same document with a 10-year validity costs Dh215. A 72-page passport costs Dh260 for five years and Dh390 for 10 years under normal processing. Urgent processing adds a premium across all categories. Fees also rise sharply for replacements, with a second loss of a 72-page passport under urgent processing costing Dh1,700 for five years and Dh2,540 for 10 years. https://t.co/1Ls4GyVpPv pic.twitter.com/dCPxG0ppcR — Pakistan Embassy UAE (@PakinUAE_) October 23, 2026",
-      "url": "https://www.khaleejtimes.com/uae/pakistani-expats-in-uae-e-passports-starts-fees-from-dh145",
-      "published_at": "2026-10-23T14:14:32+00:00"
-    },
-    "source_published_at": "2026-10-23T14:14:32+00:00",
-    "source_retrieved_at": "2026-10-24T19:08:05.490870+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All factual claims in the Russian post are directly supported by the source text.",
-      "claims": [
-        {
-          "claim": "The Embassy of Pakistan in Abu Dhabi and the Consulate General of Pakistan in Dubai started processing e-Passport applications from October 23, 2026.",
-          "supported": true,
-          "evidence": [
-            1,
-            2
-          ]
-        },
-        {
-          "claim": "All new passport applications are accepted only as e-Passports.",
-          "supported": true,
-          "evidence": [
-            1,
-            2
-          ]
-        },
-        {
-          "claim": "Pakistani nationals with valid Machine Readable Passports can continue to use them until expiry.",
-          "supported": true,
-          "evidence": [
-            3,
-            4
-          ]
-        },
-        {
-          "claim": "Applicants are advised to apply for renewal only if their passport validity is less than six months.",
-          "supported": true,
-          "evidence": [
-            5
-          ]
-        },
-        {
-          "claim": "The cost of a standard renewal starts at 145 dirhams for a 36-page passport valid for 5 years.",
-          "supported": true,
-          "evidence": [
-            12
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "Pakistani expats in UAE: E-Passports start, fees from Dh145"
-        },
-        {
-          "id": 1,
-          "text": "The Embassy of Pakistan in Abu Dhabi and the Consulate General of Pakistan in Dubai have begun processing all passport applications as e-Passports from Friday, October 23, 2026, according to a public notice issued by the missions."
-        },
-        {
-          "id": 2,
-          "text": "The notice said the e-Passport issuance process “has started and will continue”, covering all new applications submitted at both offices."
-        },
-        {
-          "id": 3,
-          "text": "Pakistani nationals holding valid Machine Readable Passports (MRPs) do not need to replace them immediately."
-        },
-        {
-          "id": 4,
-          "text": "The missions said all valid MRPs remain valid until their date of expiry."
-        },
-        {
-          "id": 5,
-          "text": "Applicants have been advised to apply for renewal only when the remaining validity of their passport is less than six months."
-        },
-        {
-          "id": 6,
-          "text": "The notice also said that both a first name and a last name are mandatory for the e-Passport."
-        },
-        {
-          "id": 7,
-          "text": "Applicants whose current passports carry only a single name should be prepared for this requirement when applying."
-        },
-        {
-          "id": 8,
-          "text": "Over two million Pakistanis live in the UAE, making them the country’s second-largest expatriate community in the country."
-        },
-        {
-          "id": 9,
-          "text": "The community includes professionals, entrepreneurs and workers across various industries, with many considering the Emirates a second home after years or generations of residence."
-        },
-        {
-          "id": 10,
-          "text": "Beyond contributing to the UAE’s development, Pakistanis play a vital role in supporting their home country through remittances."
-        },
-        {
-          "id": 11,
-          "text": "Fees vary by the number of pages, validity period, processing type and whether the passport is being replaced after loss."
-        },
-        {
-          "id": 12,
-          "text": "All fees are in UAE dirhams.For a standard renewal, the lowest fee is Dh145 for a 36-page, five-year passport under normal processing, while the same document with a 10-year validity costs Dh215."
-        },
-        {
-          "id": 13,
-          "text": "A 72-page passport costs Dh260 for five years and Dh390 for 10 years under normal processing."
-        },
-        {
-          "id": 14,
-          "text": "Urgent processing adds a premium across all categories."
-        },
-        {
-          "id": 15,
-          "text": "Fees also rise sharply for replacements, with a second loss of a 72-page passport under urgent processing costing Dh1,700 for five years and Dh2,540 for 10 years."
-        },
-        {
-          "id": 16,
-          "text": "https://t.co/1Ls4GyVpPv pic.twitter.com/dCPxG0ppcR — Pakistan Embassy UAE (@PakinUAE_) October 23, 2026"
-        }
-      ],
-      "source_hash": "4cd524610349763c61d1959f4ee314809d0e5ea5db2e2de589e9de15a7e4e03b",
-      "summary_hash": "e6322877c8c10426db06a92982306cbd215d038d01076801f6ee925d2620091e",
-      "checked_at": "2026-10-24T19:08:14.938897+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "khaleejtimes.com",
-    "title": "Pakistani expats in UAE: E-Passports start, fees from Dh145",
-    "summary_ru": "<b>🚇 В ОАЭ начали выдавать электронные паспорта пакистанским экспатам</b>\n\n📅 С 23 октября 2026 года посольство Пакистана в Абу-Даби и консульство в Дубае начали обработку заявок на электронные паспорта. Все новые заявки принимаются только на e-Passport.\n\n📍 Пакистанцы с действующими машиночитаемыми паспортами могут использовать их до истечения срока. Для обновления рекомендуют подавать заявку, если срок действия паспорта менее шести месяцев.\n\n💰 Стоимость стандартного обновления начинается от <b>145 дирхамов</b> за паспорт на 36 страниц на 5 лет. Цена зависит от количества страниц, срока действия и срочности обработки.",
-    "published": "2026-10-24T19:08:11.699977+00:00",
-    "source_urls": [
-      "https://www.khaleejtimes.com/uae/pakistani-expats-in-uae-e-passports-starts-fees-from-dh145"
-    ],
-    "lang": "en",
-    "content_hash": "f4536aaba089438aa4ead25c5b7044ab",
-    "strict_hash": "f4536aaba089438aa4ead25c5b7044ab",
-    "fuzzy_hash": "9f0e62c52d455e995c66072b992f991f",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 90,
-      "ad_readiness_score": 100,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о запуске выдачи электронных паспортов для пакистанских экспатов в ОАЭ и условиях получения актуальна для жителей страны."
-      }
-    },
-    "image_url": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-07-17/zvs0mgom/Pakistan-Passport.jpg?width=1200&amp;height=630&amp;q=60&amp;format=auto&amp;ogImage=true&amp;mode=crop&amp;rect=0,0,6000,4000",
-    "slot_target": "evening",
-    "publication": {
-      "published_at": "2026-10-24T19:08:37.463403+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1697
-    },
-    "published_at": "2026-10-24T19:08:37.475562+00:00",
-    "source_url": "https://www.khaleejtimes.com/uae/pakistani-expats-in-uae-e-passports-starts-fees-from-dh145",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
-      "title": "St. Regis Dubai, The Palm to reopen on November 1 after 6 months of refurbishment",
-      "text": "The St. Regis Dubai, The Palm will reopen its doors on November 1, 2026. The announcement by St. Regis Hotels & Resorts on Friday, marks the return of one of Palm Jumeirah's most well-recognised hotels. The hotel was temporarily closed for a major refurbishment in the middle of April this year. At the time, an operator had told Khaleej Times that the luxury property had closed off guest rooms, spas and other key services since April 12. Only their lobby lounge and and the St Regis Bar remained functional. The reopening comes as hotels across the country prepare for an influx of residents and tourists after a quieter summer due to the regional conflict. Refurbished and reimagined According to the hotel, St. Regis Bar has been reimagined and is at the heart of the reopening. Drawing on the brand's New York heritage, a series of photographic frames pays tribute to the cultural energy of Manhattan — connecting the Dubai property to the original St. Regis in Manhattan. The cocktail collection now features signature serves and original creations and for four evenings a week, a live pianist will provide the soundtrack. The St. Regis Spa will returns as will the hotel’s dining destinations, including all-day dining at Cordelia, Turkish-inspired cuisine at RÜYA and the vibrant KYMA Beach Club. At St. Regis Gardens, a collection of acclaimed restaurants — including Michelin-starred concepts and celebrated chef-led venues — offers exceptional dining in an open-air rooftop setting.",
-      "url": "https://www.khaleejtimes.com/uae/st-regis-dubai-the-palm-reopen-november-1-2026-six-months-refurbishment",
-      "published_at": "2026-10-23T11:49:26+00:00"
-    },
-    "source_published_at": "2026-10-23T11:49:26+00:00",
-    "source_retrieved_at": "2026-10-25T00:39:27.043075+00:00",
-    "source_verification": {
-      "version": 1,
-      "status": "approved",
-      "reason": "All factual claims in the post are directly supported by the source passages.",
-      "claims": [
-        {
-          "claim": "Отель St. Regis Dubai, The Palm откроется 1 ноября 2026",
-          "supported": true,
-          "evidence": [
-            0,
-            2
-          ]
-        },
-        {
-          "claim": "Отель St. Regis Dubai, The Palm возобновит работу после шести месяцев ремонта",
-          "supported": true,
-          "evidence": [
-            0,
-            5
-          ]
-        },
-        {
-          "claim": "Закрытие началось в апреле 2026 года, когда были приостановлены услуги в номерах, спа и других ключевых зонах",
-          "supported": true,
-          "evidence": [
-            5,
-            6,
-            7
-          ]
-        },
-        {
-          "claim": "В обновленном отеле откроется заново бар St. Regis с живой музыкой четыре вечера в неделю",
-          "supported": true,
-          "evidence": [
-            10,
-            13
-          ]
-        },
-        {
-          "claim": "Вернется спа",
-          "supported": true,
-          "evidence": [
-            15
-          ]
-        },
-        {
-          "claim": "Вернутся рестораны с разнообразной кухней, включая турецкую и концепции с мишленовскими шефами",
-          "supported": true,
-          "evidence": [
-            15,
-            17
-          ]
-        }
-      ],
-      "evidence_passages": [
-        {
-          "id": 0,
-          "text": "St. Regis Dubai, The Palm to reopen on November 1 after 6 months of refurbishment"
-        },
-        {
-          "id": 1,
-          "text": "The St."
-        },
-        {
-          "id": 2,
-          "text": "Regis Dubai, The Palm will reopen its doors on November 1, 2026."
-        },
-        {
-          "id": 3,
-          "text": "The announcement by St."
-        },
-        {
-          "id": 4,
-          "text": "Regis Hotels & Resorts on Friday, marks the return of one of Palm Jumeirah's most well-recognised hotels."
-        },
-        {
-          "id": 5,
-          "text": "The hotel was temporarily closed for a major refurbishment in the middle of April this year."
-        },
-        {
-          "id": 6,
-          "text": "At the time, an operator had told Khaleej Times that the luxury property had closed off guest rooms, spas and other key services since April 12."
-        },
-        {
-          "id": 7,
-          "text": "Only their lobby lounge and and the St Regis Bar remained functional."
-        },
-        {
-          "id": 8,
-          "text": "The reopening comes as hotels across the country prepare for an influx of residents and tourists after a quieter summer due to the regional conflict."
-        },
-        {
-          "id": 9,
-          "text": "Refurbished and reimagined According to the hotel, St."
-        },
-        {
-          "id": 10,
-          "text": "Regis Bar has been reimagined and is at the heart of the reopening."
-        },
-        {
-          "id": 11,
-          "text": "Drawing on the brand's New York heritage, a series of photographic frames pays tribute to the cultural energy of Manhattan — connecting the Dubai property to the original St."
-        },
-        {
-          "id": 12,
-          "text": "Regis in Manhattan."
-        },
-        {
-          "id": 13,
-          "text": "The cocktail collection now features signature serves and original creations and for four evenings a week, a live pianist will provide the soundtrack."
-        },
-        {
-          "id": 14,
-          "text": "The St."
-        },
-        {
-          "id": 15,
-          "text": "Regis Spa will returns as will the hotel’s dining destinations, including all-day dining at Cordelia, Turkish-inspired cuisine at RÜYA and the vibrant KYMA Beach Club."
-        },
-        {
-          "id": 16,
-          "text": "At St."
-        },
-        {
-          "id": 17,
-          "text": "Regis Gardens, a collection of acclaimed restaurants — including Michelin-starred concepts and celebrated chef-led venues — offers exceptional dining in an open-air rooftop setting."
-        }
-      ],
-      "source_hash": "0efac33be166dd6d4da62a1275d1430ef35a049573d2b63b5ffa6236886cd7aa",
-      "summary_hash": "15fa844d4c1dd8034bb9f09152ee91fec0e0932de42b37548f4d88d62366b7a6",
-      "checked_at": "2026-10-25T00:39:37.349806+00:00",
-      "model": "gpt-4.1-mini-2025-04-14",
-      "provider": "openai",
-      "api_calls": 1,
-      "cached": false
-    },
-    "source_name": "khaleejtimes.com",
-    "title": "St. Regis Dubai, The Palm to reopen on November 1 after 6 months of refurbishment",
-    "summary_ru": "<b>🏙 Отель St. Regis Dubai, The Palm откроется 1 ноября 2026</b>\n\n📅 Отель St. Regis Dubai, The Palm возобновит работу после шести месяцев ремонта. Закрытие началось в апреле 2026 года, когда были приостановлены услуги в номерах, спа и других ключевых зонах.\n\nВ обновленном отеле откроется заново бар St. Regis с живой музыкой четыре вечера в неделю, вернется спа и рестораны с разнообразной кухней, включая турецкую и концепции с мишленовскими шефами.",
-    "published": "2026-10-25T00:39:33.371025+00:00",
-    "source_urls": [
-      "https://www.khaleejtimes.com/uae/st-regis-dubai-the-palm-reopen-november-1-2026-six-months-refurbishment"
-    ],
-    "lang": "en",
-    "content_hash": "6236e4a85501ea6fa3c084210a971954",
-    "strict_hash": "6236e4a85501ea6fa3c084210a971954",
-    "fuzzy_hash": "81bfcb3a17ac64f4d450bde29a3c743f",
-    "method": "digest_import",
-    "source_priority": 3,
-    "workflow_state": "published",
-    "editorial_decision": "published_by_editor",
-    "newsroom_profile": {
-      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
-      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
-      "tasks": [
-        "Оперативный поиск новостей",
-        "Фактчекинг и дедупликация",
-        "Подготовка понятных постов",
-        "Редакторское одобрение перед публикацией",
-        "Подготовка к рекламной монетизации"
-      ],
-      "daily_quota": {
-        "important_operational": 1,
-        "practical_life": 1
-      }
-    },
-    "editorial_metrics": {
-      "quality_score": 90,
-      "ad_readiness_score": 100,
-      "ad_ready": true,
-      "ad_min_quality_score": 75,
-      "monetization_stage": "ready_for_direct_ads",
-      "safety_format": "standard_news"
-    },
-    "content_format": "standard_news",
-    "roles": {
-      "journalist": {
-        "status": "completed",
-        "action": "collected_and_summarized"
-      },
-      "editor": {
-        "status": "approved",
-        "action": "approved_for_publication",
-        "reason": "Новость о повторном открытии отеля в Дубае после ремонта соответствует тематике туризма и гостиничного бизнеса."
-      }
-    },
-    "image_url": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-10-23/rxogip2q/The-St.-Regis-Dubai-The-Palm-Exterior-Day.jpg?width=1200&amp;height=630&amp;q=60&amp;format=auto&amp;ogImage=true&amp;mode=crop&amp;rect=0,61,2128,1419",
-    "slot_target": "morning",
-    "publication": {
-      "published_at": "2026-10-25T00:39:58.400011+00:00",
-      "telegram_channel_id": "@rudubainews",
-      "message_id": 1698
-    },
-    "published_at": "2026-10-25T00:39:58.409427+00:00",
-    "source_url": "https://www.khaleejtimes.com/uae/st-regis-dubai-the-palm-reopen-november-1-2026-six-months-refurbishment",
-    "summary": "",
-    "summary_en": "",
-    "source_names": [],
-    "language": "",
-    "top_image": "",
-    "keywords": []
-  },
-  {
-    "source_snapshot": {
       "title": "Ras Al Khaimah closes all beaches 'until further notice'",
       "text": "Ras Al Khaimah closed all its beaches \"until further notice\", according to a notice by the emirate's Public Services Department. The authority did not immediately disclose the reason. The re-opening of the beaches will be announced \"in due course,\" it said. The authority urged the public to comply with guidelines issued by the relevant authorities to ensure everyone's safety. Other emirates have also closed down beaches and coastal areas. On Friday, Sharjah authorities announced that Al Hamriya Beach will be closed temporarily asa precaution after an oil slick in nearby waters. Earlier, the Ministry of Climate Change and Environment confirmed an oil spill off Umm Al Quwain to be the source of the 'fuel-like' smell that residents reported across multiple emirates. All beaches and coastal areas in Umm Al Quwain have been temporarily closed until teams complete assessments, and identify safety and marine protection measures, the ministry said. The odours \"pose no health risk\" to residents, the ministry confirmed. After the spill was detected, teams immediately began containment, cordoning, cleanup and remediation to limit environmental impact, Moccae said.",
       "url": "https://www.khaleejtimes.com/travel/uae-attractions/ras-al-khaimah-closes-all-beaches-until-further-notice",
@@ -20101,6 +19525,123 @@
     },
     "published_at": "2026-11-23T13:50:10.716421+00:00",
     "source_url": "https://www.emirates247.com/uae/uae-weather-forecast-rain-for-the-next-four-days-with-temperatures-dropping-to-the-high-20s-midweek/8055",
+    "summary": "",
+    "summary_en": "",
+    "source_names": [],
+    "language": "",
+    "top_image": "",
+    "keywords": []
+  },
+  {
+    "source_snapshot": {
+      "title": "Abu Dhabi flights: Etihad announces delays to Brussels services",
+      "text": "Etihad Airways has announced delays to two flights between Abu Dhabi Zayed International Airport and Brussels Airport on November 23 due to industrial action by air traffic controllers in Brussels.Flight EY057 from Abu Dhabi to Brussels has been delayed, with the disruption also affecting the return service, EY058, from Brussels to Abu Dhabi on the same day.The airline has apologised for the inconvenience and said its teams are assisting affected passengers..Get updated faster and for FREE: Download the Gulf News app now - simply click here.. Passengers booked on these flights are advised to ensure their contact details are up to date through Etihad's Manage Booking service to receive the latest updates via SMS or email.They can also contact the airline through its website, live chat or social media channels for assistance or booking changes.Other Etihad flight delays on November 22Separately, Etihad reported delays to two flights on November 22.Flight EY126 from Munich to Abu Dhabi Zayed International Airport was delayed, while flight EY642 from Bahrain International Airport to Abu Dhabi was delayed due to a technical issue.The airline apologised to affected passengers for the disruption and advised them to check for the latest flight information..Etihad flight from Manila to Abu Dhabi delayed due to technical issue.Etihad extends cancellations on Abu Dhabi–Saudi flights amid regional disruption.Etihad extends Abu Dhabi-Saudi flight cancellations until October 24.Etihad extends Abu Dhabi-Riyadh flight cancellations as Saudi airport issues advisory",
+      "url": "https://gulfnews.com/business/aviation/abu-dhabi-flights-etihad-announces-delays-to-brussels-services-1.500757416",
+      "published_at": "2026-11-23T02:29:57+00:00"
+    },
+    "source_published_at": "2026-11-23T02:29:57+00:00",
+    "source_retrieved_at": "2026-11-24T01:20:48.390216+00:00",
+    "source_verification": {
+      "version": 1,
+      "status": "approved",
+      "reason": "All factual claims in the post are directly supported by the source text.",
+      "claims": [
+        {
+          "claim": "Flights EY057 from Abu Dhabi to Brussels and EY058 from Brussels to Abu Dhabi on November 23 are delayed due to an air traffic controllers' strike in Brussels.",
+          "supported": true,
+          "evidence": [
+            1
+          ]
+        },
+        {
+          "claim": "Passengers are advised to update their contact details via Etihad's Manage Booking service to receive notifications and to contact the airline for assistance.",
+          "supported": true,
+          "evidence": [
+            2
+          ]
+        }
+      ],
+      "evidence_passages": [
+        {
+          "id": 0,
+          "text": "Abu Dhabi flights: Etihad announces delays to Brussels services"
+        },
+        {
+          "id": 1,
+          "text": "Etihad Airways has announced delays to two flights between Abu Dhabi Zayed International Airport and Brussels Airport on November 23 due to industrial action by air traffic controllers in Brussels.Flight EY057 from Abu Dhabi to Brussels has been delayed, with the disruption also affecting the return service, EY058, from Brussels to Abu Dhabi on the same day.The airline has apologised for the inconvenience and said its teams are assisting affected passengers..Get updated faster and for FREE: Download the Gulf News app now - simply click here.."
+        },
+        {
+          "id": 2,
+          "text": "Passengers booked on these flights are advised to ensure their contact details are up to date through Etihad's Manage Booking service to receive the latest updates via SMS or email.They can also contact the airline through its website, live chat or social media channels for assistance or booking changes.Other Etihad flight delays on November 22Separately, Etihad reported delays to two flights on November 22.Flight EY126 from Munich to Abu Dhabi Zayed International Airport was delayed, while flight EY642 from Bahrain International Airport to Abu Dhabi was delayed due to a technical issue.The airline apologised to affected passengers for the disruption and advised them to check for the latest flight information..Etihad flight from Manila to Abu Dhabi delayed due to technical issue.Etihad extends cancellations on Abu Dhabi–Saudi flights amid regional disruption.Etihad extends Abu Dhabi-Saudi flight cancellations until October 24.Etihad extends Abu Dhabi-Riyadh flight cancellations as Saudi airport issues advisory"
+        }
+      ],
+      "source_hash": "a73537ca0ce3950cd311024199ab990a293f965be0da8a4180ba01cedbebeb9b",
+      "summary_hash": "9e7c32ae5272e8c6413a74f7469f5de10d0ca8ef9a2ddc13cba11f493dac2766",
+      "checked_at": "2026-11-24T01:21:01.168836+00:00",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "api_calls": 1,
+      "cached": false
+    },
+    "source_name": "gulfnews.com",
+    "title": "Abu Dhabi flights: Etihad announces delays to Brussels services",
+    "summary_ru": "<b>✈️ Задержки рейсов Etihad из Абу-Даби в Брюссель 23 ноября</b>\n\nРейсы EY057 из Абу-Даби в Брюссель и EY058 обратно задерживаются из-за забастовки авиадиспетчеров в Брюсселе.\n\nПассажирам советуют обновить контактные данные через сервис Etihad Manage Booking для получения уведомлений и обращаться в авиакомпанию за помощью.",
+    "published": "2026-11-24T01:20:57.435260+00:00",
+    "source_urls": [
+      "https://gulfnews.com/business/aviation/abu-dhabi-flights-etihad-announces-delays-to-brussels-services-1.500757416"
+    ],
+    "lang": "en",
+    "content_hash": "0db44c425bd9d3f77e3fb9c66bcc6d9d",
+    "strict_hash": "0db44c425bd9d3f77e3fb9c66bcc6d9d",
+    "fuzzy_hash": "cf9fd1fff01f6950f9f0082ae49a16bd",
+    "method": "digest_import",
+    "source_priority": 3,
+    "workflow_state": "published",
+    "editorial_decision": "published_by_editor",
+    "newsroom_profile": {
+      "mission": "Давать русскоязычным жителям Дубая проверенные и полезные новости без шума и кликбейта.",
+      "goal": "Сформировать устойчивое медиа в Telegram с контролем качества и прозрачной редактурой.",
+      "tasks": [
+        "Оперативный поиск новостей",
+        "Фактчекинг и дедупликация",
+        "Подготовка понятных постов",
+        "Редакторское одобрение перед публикацией",
+        "Подготовка к рекламной монетизации"
+      ],
+      "daily_quota": {
+        "important_operational": 1,
+        "practical_life": 1
+      }
+    },
+    "editorial_metrics": {
+      "quality_score": 75,
+      "ad_readiness_score": 85,
+      "ad_ready": true,
+      "ad_min_quality_score": 75,
+      "monetization_stage": "ready_for_direct_ads",
+      "safety_format": "service_update"
+    },
+    "content_format": "service_update",
+    "roles": {
+      "journalist": {
+        "status": "completed",
+        "action": "collected_and_summarized"
+      },
+      "editor": {
+        "status": "approved",
+        "action": "approved_for_publication",
+        "reason": "Новость о задержках рейсов авиакомпании Etihad из Абу-Даби в Брюссель и обратно, вызванных забастовкой диспетчеров, относится к транспортной тематике и важна для пассажиров."
+      }
+    },
+    "image_url": "https://media.assettype.com/gulfnews%2F2026-10-12%2Fjwn5bfp4%2FEtihad?rect=0%2C50%2C1651%2C867&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+    "slot_target": "morning",
+    "publication": {
+      "published_at": "2026-11-24T01:21:32.236757+00:00",
+      "telegram_channel_id": "@rudubainews",
+      "message_id": 1803
+    },
+    "published_at": "2026-11-24T01:21:32.253718+00:00",
+    "source_url": "https://gulfnews.com/business/aviation/abu-dhabi-flights-etihad-announces-delays-to-brussels-services-1.500757416",
     "summary": "",
     "summary_en": "",
     "source_names": [],
