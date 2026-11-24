@@ -1,43 +1,4 @@
 {
-  "bf1cad71623c980a15f6dc61984b1f4b2c812f7d238d18e81a9132395eec6f43": {
-    "saved_at": "2026-11-17T04:51:22.079873+00:00",
-    "result": {
-      "id": "chatcmpl-El5S4UG0OmE6BXNzc5YZCyvNXRpPj",
-      "object": "chat.completion",
-      "created": 1794891080,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Sharjah, a 320-meter-long bridge was opened as the first phase of the Al Dhaid Lake and Bridge project.\",\"supported\":true,\"evidence\":[0,2]},{\"claim\":\"The bridge is expanded to four lanes in each direction.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"The bridge has a capacity of up to 6,000 vehicles per hour.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Under the bridge, a 2.3 km long lake was created with recreational zones, parks, and paths for pedestrians and cyclists.\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"The project includes flood protection measures and expands the green areas of the city.\",\"supported\":true,\"evidence\":[7,8]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1334,
-        "completion_tokens": 183,
-        "total_tokens": 1517,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
   "573a6af5fed64d67b05bee2119d4d84ef79b624a734dad6d09442d79c47a81e8": {
     "saved_at": "2026-11-17T13:57:34.053930+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 896,
         "completion_tokens": 107,
         "total_tokens": 1003,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "f403929f64b170f678f39f849d732d6338c865342361222f1df09f2736c986f0": {
+    "saved_at": "2026-11-24T11:46:33.739407+00:00",
+    "result": {
+      "id": "chatcmpl-EnjGhHxlZNgbQzlaS4W3icdpiH9P7",
+      "object": "chat.completion",
+      "created": 1795520791,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае представили новый подход к государственным услугам и виртуального помощника «Mira», который упрощает доступ к сервисам через один диалог.\",\"supported\":true,\"evidence\":[0,1,8,10,11,12]},{\"claim\":\"Запуск прошёл в присутствии шейха Мохаммеда бин Рашида и других высокопоставленных лиц.\",\"supported\":true,\"evidence\":[1,2,8,9,10]},{\"claim\":\"Первые услуги станут доступны в марте 2027 года.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"«Mira» помогает пользователям описать свои потребности и завершить транзакции без сложных процедур.\",\"supported\":true,\"evidence\":[10,11,12]},{\"claim\":\"Среди функций — обновление паспортов, управление контрактами и запись к врачу.\",\"supported\":true,\"evidence\":[14,15,16,17,20,21,22]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2449,
+        "completion_tokens": 234,
+        "total_tokens": 2683,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
