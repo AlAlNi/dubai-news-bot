@@ -1,43 +1,4 @@
 {
-  "2fd51d10ba3cba401076c2ff7bfbe19248a76b1654837884ab742917f23d8edb": {
-    "saved_at": "2026-11-16T22:37:37.391089+00:00",
-    "result": {
-      "id": "chatcmpl-EkzcMtCq5VLJyo7Qtut8MAfU9t346",
-      "object": "chat.completion",
-      "created": 1794868654,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the Russian post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В Дубае запустили пятизвёздочную систему оценки такси\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Власти Дубая ввели новую систему рейтинга для компаний такси, чтобы повысить качество и эффективность услуг\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Оценка основана на четырёх ключевых направлениях и 18 показателях, включая экологичность, технологии, ответственность и надёжность\",\"supported\":true,\"evidence\":[5,6,7,8,9]},{\"claim\":\"Компании с пятью звёздами получат семь новых таксометров\",\"supported\":true,\"evidence\":[4]},{\"claim\":\"Рейтинг будет отображаться на экранах в такси и у офисов компаний\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"В 2025 году в Дубае насчитывалось более 14 тысяч такси, из которых большинство — электромобили или гибриды\",\"supported\":true,\"evidence\":[10]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1297,
-        "completion_tokens": 252,
-        "total_tokens": 1549,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
   "bf1cad71623c980a15f6dc61984b1f4b2c812f7d238d18e81a9132395eec6f43": {
     "saved_at": "2026-11-17T04:51:22.079873+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1182,
         "completion_tokens": 226,
         "total_tokens": 1408,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "f7811e98a98a66b17bc947f8e3a476cc23ae183baa45525331cff20e14331f14": {
+    "saved_at": "2026-11-24T01:21:01.168857+00:00",
+    "result": {
+      "id": "chatcmpl-EnZVL4tYrwVMZ1ExKJl9kdgYBGVGB",
+      "object": "chat.completion",
+      "created": 1795483259,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Flights EY057 from Abu Dhabi to Brussels and EY058 from Brussels to Abu Dhabi on November 23 are delayed due to an air traffic controllers' strike in Brussels.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Passengers are advised to update their contact details via Etihad's Manage Booking service to receive notifications and to contact the airline for assistance.\",\"supported\":true,\"evidence\":[2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 896,
+        "completion_tokens": 107,
+        "total_tokens": 1003,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
