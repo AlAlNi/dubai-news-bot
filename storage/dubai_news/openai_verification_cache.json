@@ -1,43 +1,4 @@
 {
-  "69d35f336ba03e633889e25ae7fba32567265d9e45f8da9844b12eb31077b345": {
-    "saved_at": "2026-11-18T12:26:28.285489+00:00",
-    "result": {
-      "id": "chatcmpl-ElZ22F17YVOFCjMkIYSIIb2wF5ETp",
-      "object": "chat.completion",
-      "created": 1795004786,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From January 1, 2027, UAE Cabinet Decision No. 174 of 2026 regulating heavy trucks and buses will come into force.\",\"supported\":true,\"evidence\":[2,5,6]},{\"claim\":\"Truck drivers are prohibited from stopping in residential areas except for construction purposes.\",\"supported\":true,\"evidence\":[10]},{\"claim\":\"Truck and bus drivers must follow special overtaking rules and use designated lanes.\",\"supported\":true,\"evidence\":[12,13]},{\"claim\":\"Truck drivers must follow six main rules including load limits and prohibition of carrying passengers except employees.\",\"supported\":true,\"evidence\":[14,15,17,19]},{\"claim\":\"Buses must have visible signs indicating authorized passenger capacity.\",\"supported\":true,\"evidence\":[28]},{\"claim\":\"Buses must follow safety rules when transporting schoolchildren.\",\"supported\":true,\"evidence\":[38,39,40,41,42]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 2074,
-        "completion_tokens": 215,
-        "total_tokens": 2289,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
   "e45ba7643b02a4350b43786a852852fefad005df3b06ddb69ee91834ac8b3bcb": {
     "saved_at": "2026-11-18T20:58:35.043154+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1479,
         "completion_tokens": 280,
         "total_tokens": 1759,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "2847296828e23b2527001861659004a92c25f820777693c0d5579bc862bb2beb": {
+    "saved_at": "2026-11-25T15:07:11.611366+00:00",
+    "result": {
+      "id": "chatcmpl-Eo8sPxO3whHRPYy1XUkL3LZLC6Z1E",
+      "object": "chat.completion",
+      "created": 1795619229,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, from February to September 2026, 8,251 transactions were approved under the 'Self-License for Citizens’ Villas' initiative.\",\"supported\":true,\"evidence\":[1,6]},{\"claim\":\"The time to obtain villa building permits was reduced by 37.5%, now taking five working days.\",\"supported\":true,\"evidence\":[1,6]},{\"claim\":\"The initiative allows accredited engineering consulting offices to independently obtain building permits, simplifying and accelerating the process.\",\"supported\":true,\"evidence\":[5,11,13]},{\"claim\":\"After implementing the post-investigation mechanism, 36 violations were detected and corrected.\",\"supported\":true,\"evidence\":[3,7]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1638,
+        "completion_tokens": 168,
+        "total_tokens": 1806,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
