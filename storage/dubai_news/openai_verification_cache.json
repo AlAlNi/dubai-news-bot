@@ -1,82 +1,4 @@
 {
-  "f6a34c119801844745d2bd997d90b9aa5d7e9e3f0f32ea6630a996bc69131bfe": {
-    "saved_at": "2026-11-17T21:59:07.285869+00:00",
-    "result": {
-      "id": "chatcmpl-ElLUfqUZdIRT3Rv3pk40GEual58XJ",
-      "object": "chat.completion",
-      "created": 1794952745,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Дубай представил intelSPECT — инструмент на базе искусственного интеллекта, который анализирует отзывы клиентов на Google, чтобы выявлять риски пищевой безопасности на ранних стадиях.\",\"supported\":true,\"evidence\":[2,5,9,12]},{\"claim\":\"Система помогает муниципалитету выявлять проблемные заведения и приоритетно проводить проверки, предотвращая возможные инциденты.\",\"supported\":true,\"evidence\":[3,6,7,15]},{\"claim\":\"Инструмент учитывает жалобы на загрязнение, гигиену и пищевые отравления, а также оценивает реакцию бизнеса на замечания.\",\"supported\":true,\"evidence\":[10,11,12]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1810,
-        "completion_tokens": 178,
-        "total_tokens": 1988,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
-  "85c1cf1131c7bcb834757a1ab4699022f92637cf56f7d76742d18eaf89248f7f": {
-    "saved_at": "2026-11-18T03:19:39.017270+00:00",
-    "result": {
-      "id": "chatcmpl-ElQUr0jXr31kbCsrRbQDnefSy6KCR",
-      "object": "chat.completion",
-      "created": 1794971977,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Prices on vegetables in the UAE fell by up to 42%.\",\"supported\":true,\"evidence\":[0,2,3]},{\"claim\":\"With the start of the local agricultural season in the UAE, prices on a number of vegetables decreased.\",\"supported\":true,\"evidence\":[1,2,7]},{\"claim\":\"Zucchini prices fell from 12 to 6.95 dirhams per kilogram, a 42% decrease.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Prices also decreased for green pepper, cucumbers, and eggplants.\",\"supported\":true,\"evidence\":[4,5]},{\"claim\":\"Local farm produce increased supply in the market and expanded choices for buyers.\",\"supported\":true,\"evidence\":[2,8,9,10]},{\"claim\":\"Price decreases are expected to continue in December 2026 and January 2027.\",\"supported\":true,\"evidence\":[11,12]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1682,
-        "completion_tokens": 218,
-        "total_tokens": 1900,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
   "69d35f336ba03e633889e25ae7fba32567265d9e45f8da9844b12eb31077b345": {
     "saved_at": "2026-11-18T12:26:28.285489+00:00",
     "result": {
@@ -881,6 +803,84 @@
         "prompt_tokens": 1769,
         "completion_tokens": 212,
         "total_tokens": 1981,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "81926fc304e73e6f74c6813fb8e0862a33c3f74fa8ffc803adfdd70eb5ead028": {
+    "saved_at": "2026-11-25T04:40:36.204186+00:00",
+    "result": {
+      "id": "chatcmpl-Enz602CJQzgzjodhSyrQImaizWLim",
+      "object": "chat.completion",
+      "created": 1795581632,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":false,\"reason\":\"The post contains factual inaccuracies and omissions compared to the source. The post claims schools and universities in Dubai will be closed from December 2 to 6, but the source states Dubai private schools and higher education institutions are closed from December 2 to 4, with classes resuming December 7, giving five consecutive days off including the weekend. The post omits that private-sector employees get two paid public holidays on December 2 and 3, with December 4 a regular working day, and that federal employees have a five-day break from December 2 to 6. The post generalizes the festival dates and locations without specifying details. Therefore, not all claims are supported.\",\"claims\":[{\"claim\":\"55-й День Союза ОАЭ пройдет с 2 по 6 декабря с праздничными мероприятиями.\",\"supported\":true,\"evidence\":[1,16,18,19]},{\"claim\":\"Федеральные служащие получат пятидневный выходной с 2 по 6 декабря.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Сотрудники частного сектора получат два оплачиваемых выходных дня.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"В Дубае школы и вузы будут закрыты с 2 по 6 декабря.\",\"supported\":false,\"evidence\":[10]},{\"claim\":\"В разных эмиратах пройдут фестивали с дронами, фейерверками и культурными программами.\",\"supported\":true,\"evidence\":[16,18,19]},{\"claim\":\"Министерство внутренних дел напомнило о правилах безопасности на дорогах и запрете несанкционированных автопарадов во время праздников.\",\"supported\":true,\"evidence\":[19]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2838,
+        "completion_tokens": 370,
+        "total_tokens": 3208,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "16e77d0d54ec3485d45624ad57502534a981ac5d4a02b318129152c6d3d07d03": {
+    "saved_at": "2026-11-25T04:40:46.545357+00:00",
+    "result": {
+      "id": "chatcmpl-Enz6CLFFbzNE3VU2GqOt5v6Ggk0CX",
+      "object": "chat.completion",
+      "created": 1795581644,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the UAE, first-term exams will begin on 25 November.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Students in Grades 3 to 12 in the UAE will start first-term exams on 25 November.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Exams will last until 11 December with a break for the National Day holiday.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Students in Grades 3 and 4 will take paper-based tests.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Students in Grades 5 to 12 will take paper-based or electronic tests depending on the subject.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Grade 12 students are required to bring laptops.\",\"supported\":true,\"evidence\":[5]},{\"claim\":\"Strict anti-cheating measures are introduced: mobile phones, smartwatches and other devices are prohibited.\",\"supported\":true,\"evidence\":[11]},{\"claim\":\"Cheating practices such as exchanging answers and falsifying documents are prohibited.\",\"supported\":true,\"evidence\":[11]},{\"claim\":\"For the first cheating offense, students receive zero in the subject and have conduct marks deducted.\",\"supported\":true,\"evidence\":[11]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1479,
+        "completion_tokens": 280,
+        "total_tokens": 1759,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
