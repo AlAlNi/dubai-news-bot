@@ -72,10 +72,31 @@ def persist_cache(path, cache):
         subprocess.run(["git", "-C", str(root), *args], check=True, capture_output=True, timeout=60)
 
 
-def prepare_post(source, storage_dir, existing_titles=(), kind="news"):
+def prepare_post(source, storage_dir, existing_titles=(), kind="news", target_date=None):
     base = {"status": "error", "reason": "", "post": "", "api_calls": 0, "cached": False}
-    if kind not in {"news", "retro"}:
+    if kind not in {"news", "retro", "monthly"}:
         return {**base, "reason": "Unknown writing task"}
+    if kind == "monthly":
+        from datetime import date
+        try:
+            target = date.fromisoformat(target_date)
+            if target.day != 1:
+                raise ValueError()
+        except (ValueError, TypeError):
+            return {**base, "reason": "Invalid monthly target"}
+        writing_prompt = (
+            "Write a concise Russian monthly changes digest using ONLY the provided official notices. "
+            f"Include ONLY confirmed Dubai or UAE changes that take effect exactly on {target.isoformat()}. "
+            "A publication date, deadline, forecast, tentative plan, ongoing change or a different "
+            "effective date is NOT eligible. Reject if exact effective day, month, year, scope or "
+            "confirmation is ambiguous. Never infer a year. At least one real change is required; "
+            "never say there are no changes and never add filler. Each change must be a separate "
+            "short paragraph with its scope and important exceptions. Do not mix facts between notices. "
+            "Return body text only, no heading, HTML, links, hashtags or advice. Maximum 800 characters. "
+            "No minimum item count: one confirmed change is enough."
+        )
+    else:
+        writing_prompt = NEWS_PROMPT if kind == "news" else RETRO_PROMPT
     key = os.getenv("OPENAI_API_KEY", "").strip()
     if not key:
         return {**base, "reason": "Missing OPENAI_API_KEY"}
@@ -83,7 +104,7 @@ def prepare_post(source, storage_dir, existing_titles=(), kind="news"):
                "response_format": {"type": "json_schema", "json_schema": {
                    "name": "editorial_post", "strict": True, "schema": SCHEMA}},
                "messages": [
-                   {"role": "system", "content": EDITOR_RULES + (NEWS_PROMPT if kind == "news" else RETRO_PROMPT)},
+                   {"role": "system", "content": EDITOR_RULES + writing_prompt},
                    {"role": "user", "content": json.dumps({"source": source,
                     "recent_titles": list(existing_titles or ())[:10]}, ensure_ascii=False)}]}
     serialized = json.dumps(payload, ensure_ascii=False, sort_keys=True)
@@ -100,8 +121,12 @@ def prepare_post(source, storage_dir, existing_titles=(), kind="news"):
         pending = {**base, "status": "deferred", "reason": "Previous writer attempt incomplete; no automatic retry"}
         cache[cache_key] = {"saved_at": datetime.now(timezone.utc).isoformat(), "result": pending}
         persist_cache(path, cache)
-    except (BudgetUnavailable, OSError, ValueError, subprocess.SubprocessError):
-        return {**base, "status": "deferred", "reason": "Writer budget or durable reservation unavailable"}
+    except (BudgetUnavailable, OSError, ValueError, subprocess.SubprocessError) as exc:
+        limited = isinstance(exc, BudgetUnavailable) and str(exc) in {
+            "Daily OpenAI call limit reached", "Monthly OpenAI budget reached",
+            "Daily OpenAI search limit reached"}
+        return {**base, "status": "deferred", "reason": "Writer budget or durable reservation unavailable",
+                "budget_limited": limited}
     report = {**base, "api_calls": 1}
     try:
         response = request_with_retry("POST", "https://api.openai.com/v1/chat/completions",
@@ -138,3 +163,4 @@ def prepare_post(source, storage_dir, existing_titles=(), kind="news"):
     except OSError:
         pass
     return report
+
