@@ -1,43 +1,4 @@
 {
-  "cf300a3302a6d694847170d3ecba58ad8bcb3b956ed3b57bda209c13874dbd20": {
-    "saved_at": "2026-11-19T02:14:23.434343+00:00",
-    "result": {
-      "id": "chatcmpl-EllxGyrOIok05X7e201OdTgcdprNK",
-      "object": "chat.completion",
-      "created": 1795054462,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, government fees can be paid in instalments through the Tamara platform integrated into the Dubai Payment System.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"The instalment payment option depends on the transaction type and Tamara's terms and conditions.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"This integration expands payment options and supports the city's digital economy.\",\"supported\":true,\"evidence\":[1,8,9]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1626,
-        "completion_tokens": 119,
-        "total_tokens": 1745,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
   "58962350bee8ec620ab2fce93327dd59e6b084ffc6d81a1f67cecea3e3183af1": {
     "saved_at": "2026-11-19T10:53:17.191391+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 2299,
         "completion_tokens": 186,
         "total_tokens": 2485,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "34620e96553b9cc7cf2bfb2a0a20f773065c4f29b7f0e4b13db8a7d44db81cdd": {
+    "saved_at": "2026-11-26T05:52:09.203161+00:00",
+    "result": {
+      "id": "chatcmpl-EoMgpQRUeL6yrRLmra56RpWpvumsL",
+      "object": "chat.completion",
+      "created": 1795672327,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Umm Al Quwain, fines will be introduced for trucks using prohibited roads.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"From December 1, 2026, truck drivers heading to Umm Al Thuoob Industrial Area will be fined 1000 dirhams and receive four black traffic points for using prohibited roads or restricted entrances.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The entrance opposite Exit 103 on Highway 311 is closed to heavy vehicles.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Truck drivers must continue to Exit 110 and take a return route to the industrial area through a designated entrance to the Free Trade Zone.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Signs and cameras have been installed at the closed entrance to monitor compliance.\",\"supported\":true,\"evidence\":[4]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1149,
+        "completion_tokens": 204,
+        "total_tokens": 1353,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
