@@ -1,43 +1,4 @@
 {
-  "58962350bee8ec620ab2fce93327dd59e6b084ffc6d81a1f67cecea3e3183af1": {
-    "saved_at": "2026-11-19T10:53:17.191391+00:00",
-    "result": {
-      "id": "chatcmpl-Elu3PNAw4NYcJswESNjvuBqQmomWL",
-      "object": "chat.completion",
-      "created": 1795085595,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Вертипорт Dubai Marina получил официальную сертификацию для коммерческих полётов электрических воздушных такси.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Вертипорт способен обслуживать до 84 000 пассажиров в год.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Вертипорт способен обслуживать 21 000 посадок в год.\",\"supported\":true,\"evidence\":[3]},{\"claim\":\"Маршрут соединит Dubai Marina с главным вертипортом у международного аэропорта Дубая.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Время поездки сократится с 35 минут на машине до менее 10 минут на воздушном такси.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Операции начнутся после получения всех разрешений.\",\"supported\":true,\"evidence\":[2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1352,
-        "completion_tokens": 210,
-        "total_tokens": 1562,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
   "8b79a6b126875e8d827fbc90e4008215acfc16d3c87cb8df0ef22383eea3c03c": {
     "saved_at": "2026-11-19T19:14:32.274866+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1149,
         "completion_tokens": 204,
         "total_tokens": 1353,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "9fd26f22f0dacd2d8d6023fc4c10298c43471c2775b9c53413062858f553cbcb": {
+    "saved_at": "2026-11-26T15:58:41.348820+00:00",
+    "result": {
+      "id": "chatcmpl-EoW9nMmFzqc0eQGYPtCUAov2ihnax",
+      "object": "chat.completion",
+      "created": 1795708719,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"В международном аэропорту Дубая (DXB) обновили мобильную сеть до 5G+, обеспечив пиковую скорость загрузки более 3 Гбит/с.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Улучшение направлено на повышение скорости интернета и пропускной способности сети в помещениях аэропорта, где большое число пассажиров создает нагрузку на связь.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Обновленная сеть поддержит не только мобильный интернет для пассажиров, но и цифровые операции аэропорта, способствуя внедрению новых технологий.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"Скорость зависит от совместимости устройств и загруженности сети.\",\"supported\":true,\"evidence\":[2]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1103,
+        "completion_tokens": 195,
+        "total_tokens": 1298,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
