@@ -1,43 +1,4 @@
 {
-  "54c1b6a3572f384bbad2efdced2afc0a144cad13d0c4e9ed0ead3a8ca4444a5c": {
-    "saved_at": "2026-11-20T01:30:04.292426+00:00",
-    "result": {
-      "id": "chatcmpl-Em7juTmz8UDlUU5h5AAjYcJdjhCiy",
-      "object": "chat.completion",
-      "created": 1795138202,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In UAE schools, strict measures against cheating in exams starting November 25, 2026, for students from grades 3 to 12 have been introduced.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Violations including use of phones and exchanging answers result in zero marks in the subject, loss of 12 conduct points, and ban from retake exams.\",\"supported\":true,\"evidence\":[1,2,3,4,10,11]},{\"claim\":\"Repeated violations lead to zero marks in all Group A subjects and referral to a behavioral correction program.\",\"supported\":true,\"evidence\":[12]},{\"claim\":\"Violations recorded on camera also lead to strict punishments.\",\"supported\":true,\"evidence\":[13,14,15]},{\"claim\":\"Teachers who assist cheating will be held accountable.\",\"supported\":true,\"evidence\":[17]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1308,
-        "completion_tokens": 203,
-        "total_tokens": 1511,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_41a21608dc"
-    }
-  },
   "cce0ceee2acc2e1af2bd03661bf6319441202aa47f9e205824dc3d36e3ce1512": {
     "saved_at": "2026-11-20T09:22:36.266497+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1424,
         "completion_tokens": 209,
         "total_tokens": 1633,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "902b44be8fde1fb9d7896cd6629b47a5af209e22bb3bbb847d740073bb882dc1": {
+    "saved_at": "2026-11-27T09:15:02.738265+00:00",
+    "result": {
+      "id": "chatcmpl-EomKjXhpqm3sJe0nXTEhiikkoFXaW",
+      "object": "chat.completion",
+      "created": 1795770901,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Власти Дубая объявили о заключении контрактов на развитие Международного аэропорта Аль-Мактум на сумму около AED56,5 млрд.\",\"supported\":true,\"evidence\":[0,2,4,15]},{\"claim\":\"Работы охватят пассажирские терминалы, транспортную инфраструктуру и электроснабжение.\",\"supported\":true,\"evidence\":[2,15]},{\"claim\":\"Общий объем контрактов по проекту достигнет примерно AED80 млрд.\",\"supported\":true,\"evidence\":[13,15]},{\"claim\":\"Строительство ведется на нескольких ключевых объектах, включая терминалы и подземные коммуникации, с участием около 14 тысяч рабочих.\",\"supported\":true,\"evidence\":[13,15]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2418,
+        "completion_tokens": 183,
+        "total_tokens": 2601,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
