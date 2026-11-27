@@ -1,43 +1,4 @@
 {
-  "8b79a6b126875e8d827fbc90e4008215acfc16d3c87cb8df0ef22383eea3c03c": {
-    "saved_at": "2026-11-19T19:14:32.274866+00:00",
-    "result": {
-      "id": "chatcmpl-Em1sUx4muS82JcDooZrYpRJQju7Mq",
-      "object": "chat.completion",
-      "created": 1795115670,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In Dubai, several bus routes will change from November 20.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Some sections of bus routes will be cancelled, routes extended, and connections revised to improve transport communication.\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Changes will affect areas including Jebel Ali, Al Quoz, Al Faqa, and others.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Route 66 will be extended to Sheikh Khalifa Bin Saeed Al Maktoum Mosque.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Route 68 will have additional stops on Dubai-Hatta Road.\",\"supported\":true,\"evidence\":[2]},{\"claim\":\"Passengers are advised to check updated routes and timetables in the S’hail app to plan trips considering the changes.\",\"supported\":true,\"evidence\":[1,2]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1213,
-        "completion_tokens": 212,
-        "total_tokens": 1425,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
   "54c1b6a3572f384bbad2efdced2afc0a144cad13d0c4e9ed0ead3a8ca4444a5c": {
     "saved_at": "2026-11-20T01:30:04.292426+00:00",
     "result": {
@@ -881,6 +842,45 @@
         "prompt_tokens": 1103,
         "completion_tokens": 195,
         "total_tokens": 1298,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "17d0ac2ce4e7d34c89515199390bec6c6fb9d26c9858182d986bf1dd924d3f66": {
+    "saved_at": "2026-11-27T00:18:19.588354+00:00",
+    "result": {
+      "id": "chatcmpl-EodxJLKxzGC6phWkEBAsy4XeQrQCV",
+      "object": "chat.completion",
+      "created": 1795738697,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"flydubai увеличивает число рейсов в Бангкок до трёх в день\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"С 27 ноября flydubai запускает третий ежедневный рейс из Дубая в международный аэропорт Дон Мыанг в Бангкоке\",\"supported\":true,\"evidence\":[1]},{\"claim\":\"Это решение связано с высоким спросом на перелёты между двумя городами\",\"supported\":true,\"evidence\":[1,3]},{\"claim\":\"Общее количество рейсов в Таиланд достигнет 35 в неделю, включая 21 рейс в Бангкок и 14 в Краби\",\"supported\":true,\"evidence\":[6]},{\"claim\":\"Все рейсы будут отправляться из Терминала 3 аэропорта Дубая\",\"supported\":true,\"evidence\":[10]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1424,
+        "completion_tokens": 209,
+        "total_tokens": 1633,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
