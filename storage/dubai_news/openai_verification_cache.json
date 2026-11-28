@@ -1,43 +1,4 @@
 {
-  "154c3143205afc2d2c79d38d306b3a0ccc2c58877bedae11f9873ba3f6e8ff86": {
-    "saved_at": "2026-11-21T07:50:08.273363+00:00",
-    "result": {
-      "id": "chatcmpl-Ema9GbDzJIJE89vH9ilxihcQi4fWg",
-      "object": "chat.completion",
-      "created": 1795247406,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"From November 23, the GDRFA Humanitarian Cases Section will operate at a new location in the Dubai International Airport free zone in Al Twar 2.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"The relocation is due to maintenance work at the Dubai Festival City office.\",\"supported\":true,\"evidence\":[1,2]},{\"claim\":\"Customer service hours will be from 6:30 to 14:30, and on Fridays until 12:00, excluding official public holidays.\",\"supported\":true,\"evidence\":[3,4]},{\"claim\":\"The relocation will not affect the quality and speed of services.\",\"supported\":true,\"evidence\":[4]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1068,
-        "completion_tokens": 167,
-        "total_tokens": 1235,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
   "d879675f595b699a7e6111852387effc45202c0bd1902d45d63d9c79e0b040e9": {
     "saved_at": "2026-11-21T15:44:52.126604+00:00",
     "result": {
@@ -842,6 +803,45 @@
         "prompt_tokens": 1145,
         "completion_tokens": 219,
         "total_tokens": 1364,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "1ed918099cc85daab54c323c2e3e6a4baad7068276f882cd3f8a20b620e214bc": {
+    "saved_at": "2026-11-28T11:03:39.873910+00:00",
+    "result": {
+      "id": "chatcmpl-EpAVMQDSB6pPOGrvk7EmVaMCn8CgD",
+      "object": "chat.completion",
+      "created": 1795863816,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Stations Etihad Rail in Liwa and Madinat Zayed in Al Dhafra Region opened.\",\"supported\":true,\"evidence\":[0,1]},{\"claim\":\"Stations will begin accepting passengers from 30 November 2026.\",\"supported\":true,\"evidence\":[2,6,19]},{\"claim\":\"Opening these stations will improve transport connectivity and support tourism and economic activities in the region.\",\"supported\":true,\"evidence\":[9,10,12,13,20]},{\"claim\":\"Passenger trains will run up to eight trips per day during the Liwa International Festival 2027 from 11 December 2026 to 2 January 2027.\",\"supported\":true,\"evidence\":[7,8,16,17]},{\"claim\":\"Travel time from Abu Dhabi to Madinat Zayed is about 55 minutes.\",\"supported\":true,\"evidence\":[18]},{\"claim\":\"Travel time from Abu Dhabi to Liwa is about 1 hour and 20 minutes.\",\"supported\":true,\"evidence\":[18]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1910,
+        "completion_tokens": 234,
+        "total_tokens": 2144,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
