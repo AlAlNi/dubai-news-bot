@@ -1,43 +1,4 @@
 {
-  "6e00d2cda7bbadeaf341613a80dc906fe0f6bac6b96e89fb17c98a6747f053f1": {
-    "saved_at": "2026-11-21T00:27:41.632180+00:00",
-    "result": {
-      "id": "chatcmpl-EmTF5gMjIcqZpIqSIx5Dg9Y09U91l",
-      "object": "chat.completion",
-      "created": 1795220859,
-      "model": "gpt-4.1-mini-2025-04-14",
-      "choices": [
-        {
-          "index": 0,
-          "message": {
-            "role": "assistant",
-            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"In the first quarter of 2027, Dubai will launch a digital platform called Safety Pulse for investors that shows a live colour-coded safety rating of buildings using AI and IoT.\",\"supported\":true,\"evidence\":[1,2,5,6,7]},{\"claim\":\"The platform tracks fire alarm systems, firefighting equipment, gas, electrical, and lifts systems, and connects owners with maintenance companies and fire stations.\",\"supported\":true,\"evidence\":[7,8,9]},{\"claim\":\"By 2027, the firefighting drone fleet Shaheen will increase from two to six units to fight fires in high-rise buildings.\",\"supported\":true,\"evidence\":[1,16,18]}]}",
-            "refusal": null,
-            "annotations": []
-          },
-          "logprobs": null,
-          "finish_reason": "stop"
-        }
-      ],
-      "usage": {
-        "prompt_tokens": 1791,
-        "completion_tokens": 168,
-        "total_tokens": 1959,
-        "prompt_tokens_details": {
-          "cached_tokens": 0,
-          "audio_tokens": 0
-        },
-        "completion_tokens_details": {
-          "reasoning_tokens": 0,
-          "audio_tokens": 0,
-          "accepted_prediction_tokens": 0,
-          "rejected_prediction_tokens": 0
-        }
-      },
-      "service_tier": "default",
-      "system_fingerprint": "fp_fefa4ad383"
-    }
-  },
   "154c3143205afc2d2c79d38d306b3a0ccc2c58877bedae11f9873ba3f6e8ff86": {
     "saved_at": "2026-11-21T07:50:08.273363+00:00",
     "result": {
@@ -842,6 +803,45 @@
         "prompt_tokens": 2475,
         "completion_tokens": 304,
         "total_tokens": 2779,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "service_tier": "default",
+      "system_fingerprint": "fp_fefa4ad383"
+    }
+  },
+  "f48475d986eb737da256728fe0e4e882162ea7e6f7b6860c30b4d040fefbcd0d": {
+    "saved_at": "2026-11-28T02:20:40.955880+00:00",
+    "result": {
+      "id": "chatcmpl-Ep2LFKh0fmvl0HMMr6KvQmhDVfQZJ",
+      "object": "chat.completion",
+      "created": 1795832437,
+      "model": "gpt-4.1-mini-2025-04-14",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"supported\":true,\"reason\":\"All factual claims in the post are directly supported by the source text.\",\"claims\":[{\"claim\":\"Nakheel заключил контракт на строительство вилл в Пальм Джебель Али на 1,4 млрд дирхамов\",\"supported\":true,\"evidence\":[0,11]},{\"claim\":\"Компания Ginco получила контракт на строительство 176 вилл на четырех фронах острова Пальм Джебель Али\",\"supported\":true,\"evidence\":[1,11]},{\"claim\":\"Работы включают гражданское строительство, инженерные системы и внутреннюю отделку\",\"supported\":true,\"evidence\":[2,6]},{\"claim\":\"Срок реализации — 24 месяца\",\"supported\":true,\"evidence\":[2,11]},{\"claim\":\"Проект поддерживает развитие прибрежного района Дубая\",\"supported\":true,\"evidence\":[3,9,10]},{\"claim\":\"Проект соответствует планам Dubai 2040 Urban Master Plan и Dubai Economic Agenda D33\",\"supported\":true,\"evidence\":[10]}]}",
+            "refusal": null,
+            "annotations": []
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1145,
+        "completion_tokens": 219,
+        "total_tokens": 1364,
         "prompt_tokens_details": {
           "cached_tokens": 0,
           "audio_tokens": 0
